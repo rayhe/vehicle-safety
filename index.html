@@ -1893,6 +1893,16 @@
     applyFarsFilters();
     applyToxFilters();
     updateMyearSummary();
+    // Pre-select top 5 most dangerous models by estimated rate for model year chart
+    if (FARS_BY_MODEL && FARS_MODEL_YEAR && FARS_BY_MODEL.length > 0) {
+      const myearSet = new Set(FARS_MODEL_YEAR.map(d => d.make + '|' + d.model));
+      const top5 = FARS_BY_MODEL
+        .filter(d => d.rate !== null && myearSet.has(d.make + '|' + d.model))
+        .sort((a, b) => b.rate - a.rate)
+        .slice(0, 5);
+      top5.forEach(d => myearSelected.push({ make: d.make, model: d.model, cls: d.cls }));
+      renderMyearChips();
+    }
     // Activate tab from hash or default to 'model'
     const initTab = location.hash.replace('#', '') || 'model';
     switchTab(['model','tox','myear','national','method'].includes(initTab) ? initTab : 'model');
