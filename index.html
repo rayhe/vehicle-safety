@@ -425,7 +425,6 @@
 <body>
   <div class="container">
     <header>
-      <a href="https://rayhe.net" class="back">&larr; rayhe.net</a>
       <h1>Vehicle Safety Ratings</h1>
       <p class="subtitle">NHTSA FARS national trends &amp; per-model fatality data</p>
     </header>
@@ -835,12 +834,6 @@
     </script>
     <script src="fars_output.js"></script>
     <script>
-    // Fallback: ensure arrays exist if external file fails to load
-    if (typeof FARS_BY_MODEL === 'undefined') var FARS_BY_MODEL = [];
-    if (typeof FARS_TOXICOLOGY === 'undefined') var FARS_TOXICOLOGY = [];
-    if (typeof FARS_MODEL_YEAR === 'undefined') var FARS_MODEL_YEAR = [];
-
-    // Data loaded from external fars_output.js
 
 
     // ================================================================
