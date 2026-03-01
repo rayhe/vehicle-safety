@@ -1152,6 +1152,7 @@ const TAB_CHARTS = {
   tox: () => { if (typeof renderToxChart === 'function') renderToxChart(); },
   myear: () => { if (typeof renderMyearChart === 'function') renderMyearChart(); },
   national: () => { renderNationalChart(); renderUserTypeChart(); renderClassRateChart(); },
+  stories: () => {},
   method: () => {}
 };
 
@@ -1161,7 +1162,7 @@ function switchTab(id) {
   const pane = document.getElementById('tab-' + id);
   if (pane) pane.classList.add('active');
   const btns = document.querySelectorAll('.tab-btn');
-  const names = ['model','tox','myear','national','method'];
+  const names = ['model','tox','myear','national','stories','method'];
   const idx = names.indexOf(id);
   if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
   history.replaceState(null, '', '#' + id);
@@ -1204,7 +1205,7 @@ if (FARS_BY_MODEL && FARS_MODEL_YEAR && FARS_BY_MODEL.length > 0) {
 }
 // Activate tab from hash or default to 'model'
 const initTab = location.hash.replace('#', '') || 'model';
-switchTab(['model','tox','myear','national','method'].includes(initTab) ? initTab : 'model');
+switchTab(['model','tox','myear','national','stories','method'].includes(initTab) ? initTab : 'model');
 
 // Hover tooltips for all charts
 addCanvasHover('nationalChart', (x, y) => {

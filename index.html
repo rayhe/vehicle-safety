@@ -466,6 +466,16 @@
     }
     .chart-tooltip b { font-weight: 600; }
 
+    .story { margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
+    .story:last-child { border-bottom: none; }
+    .story-kicker { font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 4px; }
+    .story h2 { font-size: 1.35rem; line-height: 1.3; margin: 0 0 6px; }
+    .story .byline { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-bottom: 14px; }
+    .story p { line-height: 1.7; margin: 0 0 12px; }
+    .story .pull-stat { font-family: var(--font-mono); font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1.1; margin: 16px 0 4px; }
+    .story .pull-label { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-bottom: 16px; }
+    .story-disclaimer { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 16px; margin-top: 32px; line-height: 1.6; }
+
     @media (min-width: 1200px) { .container { max-width: 1200px; } }
     @media (min-width: 1600px) { .container { max-width: 1440px; } }
   </style>
@@ -483,6 +493,7 @@
       <button class="tab-btn" onclick="switchTab('tox')">Impaired Driving</button>
       <button class="tab-btn" onclick="switchTab('myear')">Model Year</button>
       <button class="tab-btn" onclick="switchTab('national')">National</button>
+      <button class="tab-btn" onclick="switchTab('stories')">Findings</button>
       <button class="tab-btn" onclick="switchTab('method')">Methodology</button>
     </nav>
 
@@ -770,6 +781,73 @@
     </section>
 
     </div><!-- /tab-national -->
+
+    <div class="tab-pane" id="tab-stories">
+    <section class="section">
+      <div class="section-title">Data Findings &mdash; NHTSA FARS 2014&ndash;2023</div>
+
+      <article class="story">
+        <div class="story-kicker">Investigation</div>
+        <h2>One In Four Corvette Drivers In Fatal Crashes Is Impaired. It Gets Worse From There.</h2>
+        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
+        <p>The Chevrolet Corvette is America&rsquo;s dream car. It&rsquo;s also apparently America&rsquo;s drink-and-drive car. NHTSA fatality data reveals that <strong>26.2% of Corvette drivers involved in fatal crashes</strong> tested positive for alcohol or drugs &mdash; the highest impairment rate of any major sports car, and one of the highest of <em>any vehicle on the road</em>.</p>
+        <div class="pull-stat">26.2%</div>
+        <div class="pull-label">of Corvette drivers in fatal crashes were impaired</div>
+        <p>For context, the Ford Mustang &mdash; a car whose entire cultural identity revolves around &ldquo;leaving Cars &amp; Coffee into a crowd&rdquo; &mdash; clocks in at 21.9%. The Camaro sits at 23.0%. The Dodge Challenger, the car that literally murdered a tire brand, manages 22.5%. The Corvette beats them all.</p>
+        <p>But here&rsquo;s the kicker: the Corvette&rsquo;s actual death rate (1.52 per 100M VMT) is relatively modest compared to the Mustang&rsquo;s catastrophic 6.02. This means Corvette drivers are proportionally more hammered but die less often &mdash; possibly because the car costs $65,000+ and has better crash structures than a 22-year-old&rsquo;s used Mustang GT. Money buys safety, even from yourself.</p>
+        <p>At the very top of the impairment leaderboard? The <strong>Buick Park Avenue at 31.7%</strong> &mdash; nearly one in three. Your grandpa&rsquo;s land yacht is statistically the most impaired vehicle in America. One imagines the cocktails at the country club hitting different on the drive home.</p>
+      </article>
+
+      <article class="story">
+        <div class="story-kicker">Class Warfare</div>
+        <h2>The 261x Death Gap: How Your SUV Choice Is Literally a Life-or-Death Decision</h2>
+        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
+        <p>If you&rsquo;re shopping for an SUV, the difference between the right choice and the wrong choice isn&rsquo;t a better infotainment system. It&rsquo;s a <strong>261-fold difference in your estimated chance of dying</strong>.</p>
+        <div class="pull-stat">261x</div>
+        <div class="pull-label">death rate difference between worst and best SUV</div>
+        <p>The Chevrolet Tracker &mdash; a vehicle so forgettable that you&rsquo;re googling it right now &mdash; posts an estimated fatality rate of <strong>7.83 deaths per 100 million vehicle miles traveled</strong>. The Porsche Macan, a vehicle that costs approximately six Trackers, manages 0.03. That&rsquo;s not a rounding error. That&rsquo;s a two-hundred-and-sixty-one-fold gap.</p>
+        <p>The same pattern repeats across every vehicle class. Sedans span from the Nissan Maxima (5.11) to the Chevrolet Prizm (0.02) &mdash; a 256x gap. Pickups range from the Chevy S-10 (4.83) to the Ram 2500 (0.13) &mdash; a 37x spread.</p>
+        <p>The uncomfortable conclusion: vehicle safety is not a spectrum. It&rsquo;s a cliff. And the vehicles at the bottom of that cliff are overwhelmingly the cheap ones, the old ones, and the ones bought by people who can&rsquo;t afford to choose differently. The estimated rate methodology here is approximate &mdash; but even with generous error bars, the magnitude of these gaps is staggering.</p>
+      </article>
+
+      <article class="story">
+        <div class="story-kicker">Body Count</div>
+        <h2>The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined</h2>
+        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
+        <p>Let&rsquo;s play a game. Add up every occupant death in every Ford Mustang, Chevrolet Camaro, Chevrolet Corvette, and Dodge Challenger over a decade of FARS data. You get <strong>4,648</strong> deaths. A horrifying number. Now look at the Honda Accord: <strong>7,102 deaths</strong>. The boring beige sedan your dental hygienist drives has a higher body count than the four horsemen of American muscle <em>put together</em>.</p>
+        <div class="pull-stat">7,102</div>
+        <div class="pull-label">Honda Accord occupant deaths, 2014&ndash;2023</div>
+        <p>Before you swear off Accords: this is a fleet-size story, not a safety story. There are roughly 10 million Accords on American roads versus maybe 500,000 Corvettes. The Accord&rsquo;s estimated death <em>rate</em> (3.07 per 100M VMT) is half the Mustang&rsquo;s (6.02). Per mile driven, you&rsquo;re twice as safe in the Accord.</p>
+        <p>But raw numbers have their own brutal truth. The top five killers by total body count are exactly the five best-selling vehicles in America: Chevy Silverado (9,591), Ford F-150 (9,194), Honda Accord (7,102), Honda Civic (6,553), and Toyota Camry (6,328). Together, these five models account for <strong>43,768 deaths in ten years</strong> &mdash; more than the entire annual US traffic death toll. Ubiquity is its own kind of danger.</p>
+      </article>
+
+      <article class="story">
+        <div class="story-kicker">Sobriety Report</div>
+        <h2>The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded</h2>
+        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
+        <p>You might expect high impairment rates from Mustangs and Corvettes. You probably don&rsquo;t expect them from a vehicle primarily used to haul soccer equipment and drywall. Yet the <strong>Chevrolet Astro Van</strong> posts a 27.0% impairment rate &mdash; higher than the Mustang (21.9%), the Camaro (23.0%), and every single pickup truck in the database.</p>
+        <div class="pull-stat">27.0%</div>
+        <div class="pull-label">Chevy Astro Van driver impairment rate in fatal crashes</div>
+        <p>The Astro isn&rsquo;t alone. The Ford Windstar &mdash; the official minivan of &ldquo;my kid has a travel baseball tournament&rdquo; &mdash; hits 23.1%. Even the Dodge Grand Caravan, possibly the most aggressively boring vehicle ever manufactured, clocks 15.3%.</p>
+        <p>Meanwhile, at the bottom of the impairment charts, you&rsquo;ll find the Subaru Ascent at 8.2% and the Toyota Land Cruiser at 8.9%. The vehicles with the soberest drivers are the ones marketed to outdoorsy types and international diplomats. The ones with the drunkest drivers are the ones you can buy for $3,000 on Facebook Marketplace at 2 AM.</p>
+        <p>This tracks with a grim demographic reality: impairment in fatal crashes correlates more with vehicle age and price point than vehicle type. Cheap, old vehicles &mdash; regardless of whether they&rsquo;re sports cars or minivans &mdash; attract drivers who are statistically more likely to drive impaired. The Astro Van isn&rsquo;t a party car. It&rsquo;s just cheap.</p>
+      </article>
+
+      <article class="story">
+        <div class="story-kicker">Existential Dread</div>
+        <h2>The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death</h2>
+        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
+        <p>The Toyota Land Cruiser has the <strong>third-lowest impairment rate</strong> of any vehicle in the database: just 8.9% of its drivers in fatal crashes tested positive for alcohol or drugs. These are the soberest drivers on American roads, and they are doing everything right. They are also dying at <strong>6.27 deaths per 100 million VMT</strong> &mdash; the third-highest rate of any vehicle.</p>
+        <div class="pull-stat">6.27</div>
+        <div class="pull-label">Land Cruiser death rate &mdash; 3rd highest, despite 3rd-lowest impairment</div>
+        <p>This is the most unsettling data point in the entire database. The Corvette kills you because you&rsquo;re drunk. The Mustang kills you because you&rsquo;re 22 and invincible. The Land Cruiser kills you because &mdash; well, that&rsquo;s the question, isn&rsquo;t it?</p>
+        <p>One hypothesis: the Land Cruiser&rsquo;s demographics skew toward rural, high-speed roads. Another: it&rsquo;s a 6,000-pound body-on-frame truck with a high center of gravity that owners drive like a sedan. A third: the small fleet size (an estimated 43,750 on the road, with just 343 deaths over the decade) amplifies statistical noise. But even granting wide error bars, the combination of stone-cold-sober drivers and top-tier death rates is a genuine puzzle.</p>
+        <p>Compare: the Tesla Model Y posts 0.03 deaths per 100M VMT. The Subaru Ascent: 0.16. Modern crossover SUVs are extraordinarily safe. The Land Cruiser is not a modern crossover. It&rsquo;s a 1950s truck architecture wearing a $90,000 suit, and the data doesn&rsquo;t care how prestigious the badge is.</p>
+      </article>
+
+      <p class="story-disclaimer"><strong>Methodology note:</strong> All figures are derived from NHTSA FARS data (2014&ndash;2023). &ldquo;Estimated death rates&rdquo; use a fleet-size proxy based on average annual sales, not actual registration counts &mdash; see the Methodology tab for caveats. Impairment percentages reflect toxicology results where testing was performed; actual rates may be higher. These articles are AI-generated analysis of public safety data, written in an editorial style. Individual vehicle safety depends on many factors not captured here, including driver behavior, road conditions, vehicle age, and maintenance.</p>
+    </section>
+    </div><!-- /tab-stories -->
 
     <div class="tab-pane" id="tab-method">
     <!-- Methodology -->
