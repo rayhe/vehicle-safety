@@ -3,8 +3,9 @@
 Self-contained NHTSA FARS vehicle safety dashboard deployed to vehicle-safety.org via Cloudflare Pages.
 
 ## Architecture
-- `index.html` — single-file dashboard (HTML + CSS + JS, no framework)
-- `fars_output.js` — generated data file loaded via `<script src>`, contains 3 arrays: `FARS_BY_MODEL`, `FARS_TOXICOLOGY`, `FARS_MODEL_YEAR`
+- `index.html` — HTML + CSS only (~850 lines)
+- `charts.js` — all chart rendering, tab navigation, tooltips, and initialization (~1250 lines)
+- `fars_output.js` — generated data file, contains 3 arrays: `FARS_BY_MODEL`, `FARS_TOXICOLOGY`, `FARS_MODEL_YEAR`
 - `fars_process.py` — Python pipeline that downloads FARS bulk CSVs, parses VEHICLE.csv + PERSON.csv, outputs `fars_output.js`
 
 ## Key patterns
@@ -21,9 +22,9 @@ Downloads from `static.nhtsa.gov`, caches ZIPs in `.fars_cache/`. Processes year
 
 ## Deployment
 ```bash
-tmp=$(mktemp -d) && cp index.html fars_output.js "$tmp/" && npx wrangler pages deploy "$tmp" --project-name=vehicle-safety && rm -rf "$tmp"
+tmp=$(mktemp -d) && cp index.html charts.js fars_output.js "$tmp/" && npx wrangler pages deploy "$tmp" --project-name=vehicle-safety && rm -rf "$tmp"
 ```
-Only `index.html` and `fars_output.js` are deployed. Cache, logs, and Python files are excluded.
+Only `index.html`, `charts.js`, and `fars_output.js` are deployed. Cache, logs, and Python files are excluded.
 
 ## Notes
 - No back/home button in header — this is a standalone site
