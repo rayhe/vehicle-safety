@@ -42,6 +42,14 @@
       --cls-pickup: #FF7043;
       --cls-van: #AB47BC;
       --cls-sports: #EF5350;
+      --tox-alcohol: #FF6B35;
+      --tox-drug: #9C27B0;
+      --tox-any: #D32F2F;
+      --myear-1: #4285F4;
+      --myear-2: #EA4335;
+      --myear-3: #34A853;
+      --myear-4: #FBBC04;
+      --myear-5: #9C27B0;
     }
 
     html.dark {
@@ -66,6 +74,14 @@
       --cls-pickup: #FF8A65;
       --cls-van: #CE93D8;
       --cls-sports: #EF7070;
+      --tox-alcohol: #FF8A65;
+      --tox-drug: #CE93D8;
+      --tox-any: #EF5350;
+      --myear-1: #6ea8f7;
+      --myear-2: #f06858;
+      --myear-3: #5ec76e;
+      --myear-4: #fdd663;
+      --myear-5: #ba68c8;
     }
     html.dark .tier-low, html.dark .tier-avg { color: #1a1a1a; }
 
@@ -377,13 +393,39 @@
       .toggle-btn { padding: 7px 10px; font-size: 0.7rem; }
       td, th { padding: 6px 8px; font-size: 0.72rem; }
     }
+    .chip-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      cursor: pointer;
+    }
+    .chip .chip-x {
+      font-size: 0.65rem;
+      opacity: 0.6;
+    }
+    .chip:hover .chip-x { opacity: 1; }
+
+    @media (min-width: 1200px) { .container { max-width: 1200px; } }
+    @media (min-width: 1600px) { .container { max-width: 1440px; } }
   </style>
 </head>
 
 <body>
   <div class="container">
     <header>
-      <a href="/" class="back">&larr; home</a>
+      <a href="https://rayhe.net" class="back">&larr; rayhe.net</a>
       <h1>Vehicle Safety Ratings</h1>
       <p class="subtitle">NHTSA FARS national trends &amp; per-model fatality data</p>
     </header>
@@ -470,6 +512,117 @@
           <tbody id="fmTableBody"></tbody>
         </table>
       </div>
+    </section>
+
+    <!-- Impaired Driving by Vehicle Model -->
+    <section class="section">
+      <div class="section-title">Impaired Driving by Vehicle Model (FARS 2014&ndash;2023)</div>
+      <div class="summary-cards" id="toxSummary">
+        <div class="summary-card">
+          <div class="label">Overall Impairment Rate</div>
+          <div class="value" id="toxOverallRate">&mdash;</div>
+          <div class="detail">of drivers in fatal crashes</div>
+        </div>
+        <div class="summary-card">
+          <div class="label">Highest Rate Model</div>
+          <div class="value" style="font-size:1rem;" id="toxHighest">&mdash;</div>
+          <div class="detail" id="toxHighestDetail"></div>
+        </div>
+        <div class="summary-card">
+          <div class="label">Lowest Rate Model</div>
+          <div class="value" style="font-size:1rem;" id="toxLowest">&mdash;</div>
+          <div class="detail" id="toxLowestDetail"></div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <input type="text" id="toxSearch" placeholder="Search make or model..." oninput="applyToxFilters()">
+        <select id="toxClassFilter" onchange="applyToxFilters()">
+          <option value="">All Classes</option>
+          <option value="Sedan">Sedan</option>
+          <option value="SUV">SUV</option>
+          <option value="Pickup">Pickup</option>
+          <option value="Van">Van</option>
+          <option value="Sports Car">Sports Car</option>
+        </select>
+        <select id="toxSort" onchange="applyToxFilters()">
+          <option value="any-desc" selected>Any Impairment (high)</option>
+          <option value="alc-desc">Alcohol (high)</option>
+          <option value="drug-desc">Drugs (high)</option>
+          <option value="any-asc">Any Impairment (low)</option>
+          <option value="drivers-desc">Drivers (most)</option>
+          <option value="make">Make (A-Z)</option>
+        </select>
+        <div class="toggle-group">
+          <button class="toggle-btn active" onclick="setToxMetric('any')" id="toxBtnAny">Any</button>
+          <button class="toggle-btn" onclick="setToxMetric('alc')" id="toxBtnAlc">Alcohol</button>
+          <button class="toggle-btn" onclick="setToxMetric('drug')" id="toxBtnDrug">Drugs</button>
+        </div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><div class="legend-swatch" style="background:var(--tox-any)"></div> Any Impairment</div>
+        <div class="legend-item"><div class="legend-swatch" style="background:var(--tox-alcohol)"></div> Alcohol</div>
+        <div class="legend-item"><div class="legend-swatch" style="background:var(--tox-drug)"></div> Drugs</div>
+      </div>
+
+      <div class="count-label" id="toxChartCount"></div>
+      <div class="chart-wrap">
+        <canvas id="toxChart"></canvas>
+      </div>
+
+      <p class="fars-note">Impairment defined as BAC &gt; 0 (alcohol) or specific drug detected in toxicology (drugs). Testing rates vary significantly by state and jurisdiction &mdash; actual impairment rates may be higher than reported. Models with 100+ drivers in fatal crashes shown.</p>
+    </section>
+
+    <!-- Toxicology Data Table -->
+    <section class="section">
+      <div class="count-label" id="toxTableCount"></div>
+      <div class="table-wrap" style="max-height:500px;overflow-y:auto;">
+        <table id="toxTable">
+          <thead>
+            <tr>
+              <th data-toxcol="rank"># <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="vehicle">Vehicle <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="class">Class <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="drivers">Drivers <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="any" class="sorted">Any % <span class="sort-arrow">&#9660;</span></th>
+              <th data-toxcol="alc">Alc % <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="drug">Drug % <span class="sort-arrow">&#9650;</span></th>
+            </tr>
+          </thead>
+          <tbody id="toxTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Fatal Crash Involvement by Model Year -->
+    <section class="section">
+      <div class="section-title">Fatal Crash Involvement by Model Year (FARS 2014&ndash;2023)</div>
+      <div class="summary-cards" id="myearSummary">
+        <div class="summary-card">
+          <div class="label">Model Year Range</div>
+          <div class="value" id="myearRange">&mdash;</div>
+          <div class="detail">in dataset</div>
+        </div>
+        <div class="summary-card">
+          <div class="label">Peak Model Year Overall</div>
+          <div class="value" id="myearPeak">&mdash;</div>
+          <div class="detail" id="myearPeakDetail">most deaths across all models</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <input type="text" id="myearSearch" list="myearDatalist" placeholder="Search and select a vehicle (max 5)..." oninput="applyMyearSearch()">
+        <datalist id="myearDatalist"></datalist>
+      </div>
+
+      <div class="chip-container" id="myearChips"></div>
+
+      <div class="chart-wrap">
+        <canvas id="myearChart"></canvas>
+      </div>
+
+      <p class="fars-note">Shows total occupant deaths by vehicle model year across FARS 2014&ndash;2023 data. Older model years have more cumulative years of exposure on the road; this chart reflects fleet-age composition, not inherent vehicle safety differences. Select up to 5 vehicles to compare.</p>
     </section>
 
     <!-- NHTSA Section A: National Fatality Trends -->
@@ -583,6 +736,32 @@
           <li>Includes models with 50+ deaths or significant annual sales (&gt;1k) for rate comparison</li>
         </ul>
 
+        <h3>Impaired driving analysis</h3>
+        <p>Impairment data comes from the <strong>FARS PERSON.csv</strong> file, filtered to drivers only (PER_TYP = 1). Each driver record is joined to its vehicle record via ST_CASE and VEH_NO.</p>
+        <ul>
+          <li><strong>Alcohol positive:</strong> DRINKING = 1 (police-reported) OR ALC_RES (BAC test result) between 1&ndash;94 (BAC &gt; 0.00 g/dL)</li>
+          <li><strong>Drug positive:</strong> DRUGRES1/2/3 values 100&ndash;295 (specific drug detected in toxicology) OR DRUGS = 1 in older files</li>
+          <li><strong>Any impairment:</strong> alcohol positive OR drug positive</li>
+        </ul>
+        <p><strong>Key caveats:</strong></p>
+        <ul>
+          <li>Toxicology testing rates vary significantly by state and jurisdiction &mdash; some states test nearly all fatally-involved drivers, others test far fewer</li>
+          <li>Untested drivers are coded as unknown, not negative &mdash; actual impairment rates are likely higher than reported</li>
+          <li>Only models with 100+ drivers in fatal crashes are shown to ensure statistical significance</li>
+        </ul>
+
+        <h3>Model year analysis</h3>
+        <p>The <strong>MOD_YEAR</strong> field from FARS VEHICLE.csv identifies the model year of each vehicle involved in a fatal crash. Deaths are aggregated by (make, model, model year) across the 2014&ndash;2023 observation period.</p>
+        <ul>
+          <li>Older model years have more cumulative years of exposure on the road during the observation period, creating a natural age-related skew</li>
+          <li>This chart reflects fleet-age composition and crash involvement, not inherent safety differences between model years</li>
+          <li>Model years with fewer than 5 deaths are excluded</li>
+          <li>Invalid model year values (0, 9998, 9999, pre-1980, or future years) are excluded</li>
+        </ul>
+
+        <h3>Scope: fatalities only</h3>
+        <p>This dashboard covers <strong>fatal crashes only</strong> from the FARS census. NHTSA also maintains the <strong>Crash Report Sampling System (CRSS)</strong>, which covers all police-reported crashes (including injuries and property damage) &mdash; but CRSS is a probability-based sample, not a census, and is not incorporated here.</p>
+
         <h3>Limitations</h3>
         <ul>
           <li><strong>NHTSA/FARS data:</strong> VMT normalization is only available at the vehicle-class level, not per make/model. Class-level rates mask variation within each category.</li>
@@ -596,7 +775,8 @@
           <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813597" target="_blank">NHTSA Traffic Safety Facts &rarr;</a><br>
           <a href="https://www.fhwa.dot.gov/policyinformation/statistics/2022/vm1.cfm" target="_blank">FHWA Table VM-1 &rarr;</a><br>
           <a href="https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/" target="_blank">FARS bulk CSV downloads &rarr;</a> &nbsp;|&nbsp;
-          <a href="https://nhts.ornl.gov/" target="_blank">NHTS (National Household Travel Survey) &rarr;</a>
+          <a href="https://nhts.ornl.gov/" target="_blank">NHTS (National Household Travel Survey) &rarr;</a><br>
+          <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813436" target="_blank">FARS/CRSS Coding and Validation Manual &rarr;</a>
         </p>
       </div>
     </section>
@@ -650,351 +830,18 @@
       { year: 2023, passengerCar: 1.08, lightTruck: 0.65, motorcycle: 31.39, overall: 1.26 }
     ];
 
-    // ================================================================
-    // FARS Per-Model Fatality Data (2014-2023)
-    // Generated from NHTSA FARS bulk CSV downloads
-    // 330 models with 50+ deaths or >1k annual sales
-    // Sources: NHTSA FARS, US vehicle sales (public industry data), NHTS annual miles
-    // ================================================================
-    const FARS_BY_MODEL = [
-      { make:"Chevrolet", model:"SILVERADO", cls:"Pickup", deaths:9591, annual:959.1, crashes:19732, fleet:5687500, vmt:76781, rate:1.25 },
-      { make:"Ford", model:"F-150", cls:"Pickup", deaths:9194, annual:919.4, crashes:20066, fleet:6562500, vmt:88594, rate:1.04 },
-      { make:"Honda", model:"ACCORD", cls:"Sedan", deaths:7102, annual:710.2, crashes:11021, fleet:2012500, vmt:23144, rate:3.07 },
-      { make:"Honda", model:"CIVIC", cls:"Sedan", deaths:6553, annual:655.3, crashes:9627, fleet:2537500, vmt:29181, rate:2.25 },
-      { make:"Toyota", model:"CAMRY", cls:"Sedan", deaths:6328, annual:632.8, crashes:10670, fleet:2712500, vmt:31194, rate:2.03 },
-      { make:"Toyota", model:"COROLLA", cls:"Sedan", deaths:4945, annual:494.5, crashes:7713, fleet:2318750, vmt:26666, rate:1.85 },
-      { make:"Nissan", model:"ALTIMA", cls:"Sedan", deaths:4787, annual:478.7, crashes:7621, fleet:1443750, vmt:16603, rate:2.88 },
-      { make:"Dodge", model:"RAM", cls:"Pickup", deaths:4407, annual:440.7, crashes:10110, fleet:4200000, vmt:56700, rate:0.78 },
-      { make:"Ford", model:"EXPLORER", cls:"SUV", deaths:3797, annual:379.7, crashes:6626, fleet:1968750, vmt:24609, rate:1.54 },
-      { make:"Chevrolet", model:"IMPALA", cls:"Sedan", deaths:3774, annual:377.4, crashes:5594, fleet:656250, vmt:7547, rate:5.0 },
-      { make:"Chevrolet", model:"MALIBU", cls:"Sedan", deaths:3465, annual:346.5, crashes:5469, fleet:1487500, vmt:17106, rate:2.03 },
-      { make:"GMC", model:"SIERRA", cls:"Pickup", deaths:3337, annual:333.7, crashes:7084, fleet:2450000, vmt:33075, rate:1.01 },
-      { make:"Ford", model:"RANGER", cls:"Pickup", deaths:3089, annual:308.9, crashes:4476, fleet:787500, vmt:10631, rate:2.91 },
-      { make:"Ford", model:"FOCUS", cls:"Sedan", deaths:3046, annual:304.6, crashes:4455, fleet:1050000, vmt:12075, rate:2.52 },
-      { make:"Ford", model:"MUSTANG", cls:"Sports Car", deaths:2739, annual:273.9, crashes:3938, fleet:568750, vmt:4550, rate:6.02 },
-      { make:"Chevrolet", model:"TAHOE", cls:"SUV", deaths:2592, annual:259.2, crashes:5078, fleet:831250, vmt:10391, rate:2.49 },
-      { make:"Nissan", model:"SENTRA", cls:"Sedan", deaths:2571, annual:257.1, crashes:3831, fleet:1050000, vmt:12075, rate:2.13 },
-      { make:"Chevrolet", model:"TRAILBLAZER", cls:"SUV", deaths:2473, annual:247.3, crashes:3604, fleet:700000, vmt:8750, rate:2.83 },
-      { make:"Hyundai", model:"ELANTRA", cls:"Sedan", deaths:2407, annual:240.7, crashes:3801, fleet:1400000, vmt:16100, rate:1.5 },
-      { make:"Ford", model:"ESCAPE", cls:"SUV", deaths:2284, annual:228.4, crashes:4099, fleet:1925000, vmt:24062, rate:0.95 },
-      { make:"Jeep", model:"CHEROKEE", cls:"SUV", deaths:2276, annual:227.6, crashes:4253, fleet:1050000, vmt:13125, rate:1.73 },
-      { make:"Toyota", model:"TACOMA", cls:"Pickup", deaths:2274, annual:227.4, crashes:4348, fleet:2100000, vmt:28350, rate:0.8 },
-      { make:"Ford", model:"TAURUS", cls:"Sedan", deaths:2208, annual:220.8, crashes:3265, fleet:700000, vmt:8050, rate:2.74 },
-      { make:"Ford", model:"FUSION", cls:"Sedan", deaths:2168, annual:216.8, crashes:3938, fleet:1531250, vmt:17609, rate:1.23 },
-      { make:"Honda", model:"CR-V", cls:"SUV", deaths:2072, annual:207.2, crashes:3886, fleet:3150000, vmt:39375, rate:0.53 },
-      { make:"Hyundai", model:"SONATA", cls:"Sedan", deaths:1887, annual:188.7, crashes:3491, fleet:1050000, vmt:12075, rate:1.56 },
-      { make:"Jeep", model:"WRANGLER", cls:"SUV", deaths:1842, annual:184.2, crashes:3718, fleet:1750000, vmt:21875, rate:0.84 },
-      { make:"Dodge", model:"GRAND CARAVAN", cls:"Van", deaths:1782, annual:178.2, crashes:3085, fleet:1137500, vmt:13422, rate:1.33 },
-      { make:"Nissan", model:"MAXIMA", cls:"Sedan", deaths:1544, annual:154.4, crashes:2331, fleet:262500, vmt:3019, rate:5.11 },
-      { make:"Chevrolet", model:"COBALT", cls:"Sedan", deaths:1540, annual:154.0, crashes:1907, fleet:262500, vmt:3019, rate:5.1 },
-      { make:"Ford", model:"EXPEDITION", cls:"SUV", deaths:1515, annual:151.5, crashes:2641, fleet:525000, vmt:6562, rate:2.31 },
-      { make:"Chevrolet", model:"S-10 PICKUP", cls:"Pickup", deaths:1427, annual:142.7, crashes:1890, fleet:218750, vmt:2953, rate:4.83 },
-      { make:"Toyota", model:"4-RUNNER", cls:"SUV", deaths:1418, annual:141.8, crashes:2569, fleet:1137500, vmt:14219, rate:1.0 },
-      { make:"Volkswagen", model:"JETTA", cls:"Sedan", deaths:1375, annual:137.5, crashes:2394, fleet:700000, vmt:8050, rate:1.71 },
-      { make:"Buick", model:"LESABRE", cls:"Sedan", deaths:1344, annual:134.4, crashes:1633, fleet:437500, vmt:5031, rate:2.67 },
-      { make:"Chrysler", model:"TOWN AND COUNTRY", cls:"Van", deaths:1303, annual:130.3, crashes:2298, fleet:875000, vmt:10325, rate:1.26 },
-      { make:"Dodge", model:"DAKOTA", cls:"Pickup", deaths:1237, annual:123.7, crashes:2019, fleet:350000, vmt:4725, rate:2.62 },
-      { make:"BMW", model:"3 SERIES", cls:"Sedan", deaths:1237, annual:123.7, crashes:2083, fleet:393750, vmt:4528, rate:2.73 },
-      { make:"Chevrolet", model:"CAVALIER", cls:"Sedan", deaths:1225, annual:122.5, crashes:1429, fleet:437500, vmt:5031, rate:2.43 },
-      { make:"Toyota", model:"TUNDRA", cls:"Pickup", deaths:1223, annual:122.3, crashes:2947, fleet:962500, vmt:12994, rate:0.94 },
-      { make:"Chevrolet", model:"CAMARO", cls:"Sports Car", deaths:1204, annual:120.4, crashes:1920, fleet:437500, vmt:3500, rate:3.44 },
-      { make:"Jeep", model:"GRAND CHEROKEE", cls:"SUV", deaths:1161, annual:116.1, crashes:2637, fleet:1837500, vmt:22969, rate:0.51 },
-      { make:"Mercury", model:"GRAND MARQUIS", cls:"Sedan", deaths:1153, annual:115.3, crashes:1516, fleet:437500, vmt:5031, rate:2.29 },
-      { make:"GMC", model:"YUKON", cls:"SUV", deaths:1114, annual:111.4, crashes:2339, fleet:350000, vmt:4375, rate:2.55 },
-      { make:"Toyota", model:"HIGHLANDER", cls:"SUV", deaths:1106, annual:110.6, crashes:2434, fleet:2100000, vmt:26250, rate:0.42 },
-      { make:"Chevrolet", model:"EQUINOX", cls:"SUV", deaths:1056, annual:105.6, crashes:1891, fleet:2362500, vmt:29531, rate:0.36 },
-      { make:"Nissan", model:"FRONTIER", cls:"Pickup", deaths:1030, annual:103.0, crashes:1879, fleet:525000, vmt:7088, rate:1.45 },
-      { make:"GMC", model:"ENVOY", cls:"SUV", deaths:988, annual:98.8, crashes:1482, fleet:350000, vmt:4375, rate:2.26 },
-      { make:"Pontiac", model:"GRAND PRIX", cls:"Sedan", deaths:970, annual:97.0, crashes:1295, fleet:393750, vmt:4528, rate:2.14 },
-      { make:"Nissan", model:"ROGUE", cls:"SUV", deaths:968, annual:96.8, crashes:1777, fleet:2187500, vmt:27344, rate:0.35 },
-      { make:"Toyota", model:"RAV4", cls:"SUV", deaths:914, annual:91.4, crashes:1834, fleet:3762500, vmt:47031, rate:0.19 },
-      { make:"Ford", model:"F-250", cls:"Pickup", deaths:909, annual:90.9, crashes:2499, fleet:1575000, vmt:21262, rate:0.43 },
-      { make:"Pontiac", model:"G6", cls:"Sedan", deaths:908, annual:90.8, crashes:1299, fleet:481250, vmt:5534, rate:1.64 },
-      { make:"Ford", model:"CROWN VICTORIA", cls:"Sedan", deaths:881, annual:88.1, crashes:1349, fleet:525000, vmt:6038, rate:1.46 },
-      { make:"Honda", model:"ODYSSEY", cls:"Van", deaths:864, annual:86.4, crashes:2028, fleet:787500, vmt:9292, rate:0.93 },
-      { make:"Chevrolet", model:"TRACKER", cls:"SUV", deaths:856, annual:85.6, crashes:1558, fleet:87500, vmt:1094, rate:7.83 },
-      { make:"Buick", model:"CENTURY", cls:"Sedan", deaths:849, annual:84.9, crashes:1106, fleet:306250, vmt:3522, rate:2.41 },
-      { make:"Jeep", model:"LIBERTY", cls:"SUV", deaths:801, annual:80.1, crashes:1525, fleet:525000, vmt:6562, rate:1.22 },
-      { make:"Ford", model:"E-350", cls:"Van", deaths:776, annual:77.6, crashes:1892, fleet:262500, vmt:3098, rate:2.51 },
-      { make:"Chrysler", model:"200", cls:"Sedan", deaths:772, annual:77.2, crashes:1267, fleet:568750, vmt:6541, rate:1.18 },
-      { make:"Chrysler", model:"300", cls:"Sedan", deaths:751, annual:75.1, crashes:1507, fleet:350000, vmt:4025, rate:1.87 },
-      { make:"Nissan", model:"VERSA", cls:"Sedan", deaths:722, annual:72.2, crashes:999, fleet:700000, vmt:8050, rate:0.9 },
-      { make:"Dodge", model:"CHARGER", cls:"Sedan", deaths:715, annual:71.5, crashes:1536, fleet:831250, vmt:9559, rate:0.75 },
-      { make:"Ram", model:"1500", cls:"Pickup", deaths:714, annual:71.4, crashes:2095, fleet:4200000, vmt:56700, rate:0.13 },
-      { make:"Pontiac", model:"GRAND AM", cls:"Sedan", deaths:713, annual:71.3, crashes:921, fleet:525000, vmt:6038, rate:1.18 },
-      { make:"Nissan", model:"PATHFINDER", cls:"SUV", deaths:712, annual:71.2, crashes:1428, fleet:612500, vmt:7656, rate:0.93 },
-      { make:"Subaru", model:"OUTBACK", cls:"SUV", deaths:707, annual:70.7, crashes:1205, fleet:1268750, vmt:15859, rate:0.45 },
-      { make:"Hyundai", model:"TUCSON", cls:"SUV", deaths:669, annual:66.9, crashes:1472, fleet:1575000, vmt:19688, rate:0.34 },
-      { make:"Chrysler", model:"SEBRING", cls:"Sedan", deaths:664, annual:66.4, crashes:1282, fleet:350000, vmt:4025, rate:1.65 },
-      { make:"Chrysler", model:"PT CRUISER", cls:"Sedan", deaths:653, annual:65.3, crashes:918, fleet:437500, vmt:5031, rate:1.3 },
-      { make:"Toyota", model:"SOLARA", cls:"Sedan", deaths:642, annual:64.2, crashes:937, fleet:131250, vmt:1509, rate:4.25 },
-      { make:"Chevrolet", model:"GMT-400", cls:"Pickup", deaths:642, annual:64.2, crashes:985, fleet:262500, vmt:3544, rate:1.81 },
-      { make:"Chevrolet", model:"CRUZE", cls:"Sedan", deaths:638, annual:63.8, crashes:1133, fleet:875000, vmt:10062, rate:0.63 },
-      { make:"Kia", model:"OPTIMA", cls:"Sedan", deaths:611, annual:61.1, crashes:1072, fleet:918750, vmt:10566, rate:0.58 },
-      { make:"Kia", model:"FORTE", cls:"Sedan", deaths:604, annual:60.4, crashes:904, fleet:1312500, vmt:15094, rate:0.4 },
-      { make:"Dodge", model:"NEON", cls:"Sedan", deaths:602, annual:60.2, crashes:703, fleet:350000, vmt:4025, rate:1.5 },
-      { make:"Hyundai", model:"VELOSTER", cls:"Sports Car", deaths:598, annual:59.8, crashes:884, fleet:87500, vmt:700, rate:8.54 },
-      { make:"Chevrolet", model:"SUBURBAN", cls:"SUV", deaths:593, annual:59.3, crashes:1151, fleet:350000, vmt:4375, rate:1.36 },
-      { make:"Hyundai", model:"SANTA FE", cls:"SUV", deaths:555, annual:55.5, crashes:1189, fleet:1137500, vmt:14219, rate:0.39 },
-      { make:"Kia", model:"SOUL", cls:"Sedan", deaths:546, annual:54.6, crashes:849, fleet:743750, vmt:8553, rate:0.64 },
-      { make:"Chevrolet", model:"HHR", cls:"Sedan", deaths:534, annual:53.4, crashes:667, fleet:218750, vmt:2516, rate:2.12 },
-      { make:"Chevrolet", model:"SPARK", cls:"Sedan", deaths:517, annual:51.7, crashes:695, fleet:350000, vmt:4025, rate:1.28 },
-      { make:"Honda", model:"PILOT", cls:"SUV", deaths:514, annual:51.4, crashes:1135, fleet:1400000, vmt:17500, rate:0.29 },
-      { make:"Ford", model:"FIESTA", cls:"Sedan", deaths:513, annual:51.3, crashes:1084, fleet:437500, vmt:5031, rate:1.02 },
-      { make:"Ford", model:"EDGE", cls:"SUV", deaths:508, annual:50.8, crashes:1091, fleet:875000, vmt:10938, rate:0.46 },
-      { make:"Toyota", model:"PRIUS", cls:"Sedan", deaths:495, annual:49.5, crashes:921, fleet:787500, vmt:9056, rate:0.55 },
-      { make:"Chevrolet", model:"SONIC", cls:"Sedan", deaths:494, annual:49.4, crashes:655, fleet:306250, vmt:3522, rate:1.4 },
-      { make:"Mazda", model:"MAZDA3", cls:"Sedan", deaths:491, annual:49.1, crashes:763, fleet:262500, vmt:3019, rate:1.63 },
-      { make:"Chevrolet", model:"EXPRESS", cls:"Van", deaths:475, annual:47.5, crashes:975, fleet:437500, vmt:5162, rate:0.92 },
-      { make:"Toyota", model:"AVALON", cls:"Sedan", deaths:469, annual:46.9, crashes:686, fleet:306250, vmt:3522, rate:1.33 },
-      { make:"BMW", model:"5 SERIES", cls:"Sedan", deaths:468, annual:46.8, crashes:894, fleet:350000, vmt:4025, rate:1.16 },
-      { make:"Nissan", model:"XTERRA", cls:"SUV", deaths:456, annual:45.6, crashes:853, fleet:262500, vmt:3281, rate:1.39 },
-      { make:"Jeep", model:"COMPASS", cls:"SUV", deaths:453, annual:45.3, crashes:928, fleet:875000, vmt:10938, rate:0.41 },
-      { make:"Toyota", model:"SIENNA", cls:"Van", deaths:430, annual:43.0, crashes:905, fleet:743750, vmt:8776, rate:0.49 },
-      { make:"Subaru", model:"ASCENT", cls:"SUV", deaths:426, annual:42.6, crashes:759, fleet:437500, vmt:5469, rate:0.78 },
-      { make:"Kia", model:"SORENTO", cls:"SUV", deaths:408, annual:40.8, crashes:809, fleet:1137500, vmt:14219, rate:0.29 },
-      { make:"Lexus", model:"ES", cls:"Sedan", deaths:402, annual:40.2, crashes:654, fleet:306250, vmt:3522, rate:1.14 },
-      { make:"Subaru", model:"FORESTER", cls:"SUV", deaths:396, annual:39.6, crashes:711, fleet:1225000, vmt:15312, rate:0.26 },
-      { make:"Cadillac", model:"SEVILLE", cls:"Sedan", deaths:391, annual:39.1, crashes:563, fleet:87500, vmt:1006, rate:3.89 },
-      { make:"Dodge", model:"DART", cls:"Sedan", deaths:386, annual:38.6, crashes:627, fleet:437500, vmt:5031, rate:0.77 },
-      { make:"Dodge", model:"CHALLENGER", cls:"Sports Car", deaths:385, annual:38.5, crashes:738, fleet:481250, vmt:3850, rate:1.0 },
-      { make:"GMC", model:"SONOMA", cls:"Pickup", deaths:378, annual:37.8, crashes:475, fleet:131250, vmt:1772, rate:2.13 },
-      { make:"Mercury", model:"MOUNTAINEER", cls:"SUV", deaths:374, annual:37.4, crashes:565, fleet:175000, vmt:2188, rate:1.71 },
-      { make:"Chevrolet", model:"BLAZER", cls:"SUV", deaths:369, annual:36.9, crashes:520, fleet:525000, vmt:6562, rate:0.56 },
-      { make:"Hyundai", model:"ACCENT", cls:"Sedan", deaths:360, annual:36.0, crashes:502, fleet:393750, vmt:4528, rate:0.8 },
-      { make:"Dodge", model:"DURANGO", cls:"SUV", deaths:356, annual:35.6, crashes:828, fleet:525000, vmt:6562, rate:0.54 },
-      { make:"Chevrolet", model:"COLORADO", cls:"Pickup", deaths:348, annual:34.8, crashes:711, fleet:918750, vmt:12403, rate:0.28 },
-      { make:"Toyota", model:"LAND CRUISER", cls:"SUV", deaths:343, annual:34.3, crashes:988, fleet:43750, vmt:547, rate:6.27 },
-      { make:"Buick", model:"ENCORE", cls:"SUV", deaths:341, annual:34.1, crashes:560, fleet:525000, vmt:6562, rate:0.52 },
-      { make:"Nissan", model:"KICKS", cls:"SUV", deaths:339, annual:33.9, crashes:459, fleet:393750, vmt:4922, rate:0.69 },
-      { make:"Lexus", model:"RX", cls:"SUV", deaths:327, annual:32.7, crashes:798, fleet:612500, vmt:7656, rate:0.43 },
-      { make:"Chevrolet", model:"AVALANCHE", cls:"Pickup", deaths:322, annual:32.2, crashes:701, fleet:306250, vmt:4134, rate:0.78 },
-      { make:"Chevrolet", model:"CORVETTE", cls:"Sports Car", deaths:320, annual:32.0, crashes:362, fleet:262500, vmt:2100, rate:1.52 },
-      { make:"Mercedes-Benz", model:"C-CLASS", cls:"Sedan", deaths:319, annual:31.9, crashes:619, fleet:437500, vmt:5031, rate:0.63 },
-      { make:"Dodge", model:"JOURNEY", cls:"SUV", deaths:317, annual:31.7, crashes:709, fleet:612500, vmt:7656, rate:0.41 },
-      { make:"Dodge", model:"CARAVAN/GRAND CARAVAN", cls:"Van", deaths:313, annual:31.3, crashes:495, fleet:1137500, vmt:13422, rate:0.23 },
-      { make:"Nissan", model:"MURANO", cls:"SUV", deaths:303, annual:30.3, crashes:587, fleet:568750, vmt:7109, rate:0.43 },
-      { make:"Buick", model:"LACROSSE", cls:"Sedan", deaths:291, annual:29.1, crashes:433, fleet:350000, vmt:4025, rate:0.72 },
-      { make:"Honda", model:"FIT", cls:"Sedan", deaths:290, annual:29.0, crashes:403, fleet:350000, vmt:4025, rate:0.72 },
-      { make:"GMC", model:"TERRAIN", cls:"SUV", deaths:290, annual:29.0, crashes:603, fleet:787500, vmt:9844, rate:0.29 },
-      { make:"Acura", model:"TL", cls:"Sedan", deaths:290, annual:29.0, crashes:480, fleet:262500, vmt:3019, rate:0.96 },
-      { make:"Subaru", model:"IMPREZA", cls:"Sedan", deaths:288, annual:28.8, crashes:466, fleet:481250, vmt:5534, rate:0.52 },
-      { make:"Subaru", model:"LEGACY", cls:"Sedan", deaths:287, annual:28.7, crashes:473, fleet:262500, vmt:3019, rate:0.95 },
-      { make:"Kia", model:"SPORTAGE", cls:"SUV", deaths:279, annual:27.9, crashes:500, fleet:787500, vmt:9844, rate:0.28 },
-      { make:"Chevrolet", model:"VENTURE", cls:"Van", deaths:269, annual:26.9, crashes:391, fleet:131250, vmt:1549, rate:1.74 },
-      { make:"Kia", model:"RIO", cls:"Sedan", deaths:268, annual:26.8, crashes:367, fleet:218750, vmt:2516, rate:1.07 },
-      { make:"Chevrolet", model:"TRAVERSE", cls:"SUV", deaths:265, annual:26.5, crashes:675, fleet:1050000, vmt:13125, rate:0.2 },
-      { make:"Infiniti", model:"G35", cls:"Sedan", deaths:265, annual:26.5, crashes:374, fleet:218750, vmt:2516, rate:1.05 },
-      { make:"Cadillac", model:"CTS", cls:"Sedan", deaths:265, annual:26.5, crashes:385, fleet:175000, vmt:2012, rate:1.32 },
-      { make:"Nissan", model:"PICKUP", cls:"Pickup", deaths:261, annual:26.1, crashes:458, fleet:131250, vmt:1772, rate:1.47 },
-      { make:"Lincoln", model:"TOWN CAR", cls:"Sedan", deaths:260, annual:26.0, crashes:323, fleet:262500, vmt:3019, rate:0.86 },
-      { make:"Jeep", model:"PATRIOT", cls:"SUV", deaths:256, annual:25.6, crashes:532, fleet:350000, vmt:4375, rate:0.59 },
-      { make:"Mini", model:"COOPER", cls:"Sedan", deaths:245, annual:24.5, crashes:375, fleet:175000, vmt:2012, rate:1.22 },
-      { make:"Toyota", model:"TC", cls:"Sports Car", deaths:242, annual:24.2, crashes:330, fleet:131250, vmt:1050, rate:2.3 },
-      { make:"Volkswagen", model:"PASSAT", cls:"Sedan", deaths:237, annual:23.7, crashes:508, fleet:262500, vmt:3019, rate:0.79 },
-      { make:"Mazda", model:"MAZDA6", cls:"Sedan", deaths:236, annual:23.6, crashes:402, fleet:175000, vmt:2012, rate:1.17 },
-      { make:"Nissan", model:"TITAN", cls:"Pickup", deaths:234, annual:23.4, crashes:474, fleet:306250, vmt:4134, rate:0.57 },
-      { make:"Infiniti", model:"G37", cls:"Sedan", deaths:226, annual:22.6, crashes:332, fleet:218750, vmt:2516, rate:0.9 },
-      { make:"Mercedes-Benz", model:"E-CLASS", cls:"Sedan", deaths:226, annual:22.6, crashes:439, fleet:306250, vmt:3522, rate:0.64 },
-      { make:"Lexus", model:"IS", cls:"Sedan", deaths:218, annual:21.8, crashes:407, fleet:218750, vmt:2516, rate:0.87 },
-      { make:"Volkswagen", model:"CC", cls:"Sedan", deaths:214, annual:21.4, crashes:356, fleet:87500, vmt:1006, rate:2.13 },
-      { make:"Cadillac", model:"ESCALADE", cls:"SUV", deaths:211, annual:21.1, crashes:452, fleet:262500, vmt:3281, rate:0.64 },
-      { make:"Lincoln", model:"NAVIGATOR", cls:"SUV", deaths:209, annual:20.9, crashes:493, fleet:157500, vmt:1969, rate:1.06 },
-      { make:"GMC", model:"CANYON", cls:"Pickup", deaths:209, annual:20.9, crashes:385, fleet:262500, vmt:3544, rate:0.59 },
-      { make:"Toyota", model:"PICK-UP", cls:"Pickup", deaths:208, annual:20.8, crashes:299, fleet:131250, vmt:1772, rate:1.17 },
-      { make:"Infiniti", model:"Q50", cls:"Sedan", deaths:207, annual:20.7, crashes:314, fleet:218750, vmt:2516, rate:0.82 },
-      { make:"Chevrolet", model:"UPLANDER", cls:"Van", deaths:201, annual:20.1, crashes:299, fleet:131250, vmt:1549, rate:1.3 },
-      { make:"Buick", model:"ENCLAVE", cls:"SUV", deaths:198, annual:19.8, crashes:400, fleet:306250, vmt:3828, rate:0.52 },
-      { make:"BMW", model:"X5", cls:"SUV", deaths:197, annual:19.7, crashes:465, fleet:393750, vmt:4922, rate:0.4 },
-      { make:"GMC", model:"ACADIA", cls:"SUV", deaths:197, annual:19.7, crashes:575, fleet:525000, vmt:6562, rate:0.3 },
-      { make:"Dodge", model:"AVENGER", cls:"Sedan", deaths:192, annual:19.2, crashes:349, fleet:437500, vmt:5031, rate:0.38 },
-      { make:"Chevrolet", model:"TRAX", cls:"SUV", deaths:191, annual:19.1, crashes:355, fleet:700000, vmt:8750, rate:0.22 },
-      { make:"Toyota", model:"YARIS", cls:"Sedan", deaths:190, annual:19.0, crashes:284, fleet:218750, vmt:2516, rate:0.76 },
-      { make:"Lincoln", model:"AVIATOR", cls:"SUV", deaths:189, annual:18.9, crashes:299, fleet:131250, vmt:1641, rate:1.15 },
-      { make:"Dodge", model:"CALIBER", cls:"Sedan", deaths:187, annual:18.7, crashes:335, fleet:350000, vmt:4025, rate:0.46 },
-      { make:"Mitsubishi", model:"OUTLANDER", cls:"SUV", deaths:184, annual:18.4, crashes:386, fleet:393750, vmt:4922, rate:0.37 },
-      { make:"Nissan", model:"ARMADA", cls:"SUV", deaths:182, annual:18.2, crashes:377, fleet:262500, vmt:3281, rate:0.55 },
-      { make:"Ford", model:"EXCURSION", cls:"SUV", deaths:181, annual:18.1, crashes:312, fleet:87500, vmt:1094, rate:1.65 },
-      { make:"Hyundai", model:"GENESIS", cls:"Sedan", deaths:180, annual:18.0, crashes:271, fleet:87500, vmt:1006, rate:1.79 },
-      { make:"Ford", model:"TRANSIT", cls:"Van", deaths:178, annual:17.8, crashes:577, fleet:1050000, vmt:12390, rate:0.14 },
-      { make:"Chevrolet", model:"MONTE CARLO", cls:"Sedan", deaths:178, annual:17.8, crashes:227, fleet:218750, vmt:2516, rate:0.71 },
-      { make:"Saturn", model:"VUE", cls:"SUV", deaths:176, annual:17.6, crashes:265, fleet:350000, vmt:4375, rate:0.4 },
-      { make:"Lincoln", model:"MKC", cls:"SUV", deaths:173, annual:17.3, crashes:259, fleet:175000, vmt:2188, rate:0.79 },
-      { make:"Saturn", model:"S SERIES", cls:"Sedan", deaths:170, annual:17.0, crashes:184, fleet:175000, vmt:2012, rate:0.84 },
-      { make:"Mitsubishi", model:"MONTERO", cls:"SUV", deaths:167, annual:16.7, crashes:227, fleet:70000, vmt:875, rate:1.91 },
-      { make:"Saturn", model:"ION", cls:"Sedan", deaths:167, annual:16.7, crashes:207, fleet:262500, vmt:3019, rate:0.55 },
-      { make:"GMC", model:"SAVANA", cls:"Van", deaths:166, annual:16.6, crashes:312, fleet:262500, vmt:3098, rate:0.54 },
-      { make:"Ford", model:"F-350", cls:"Pickup", deaths:164, annual:16.4, crashes:352, fleet:787500, vmt:10631, rate:0.15 },
-      { make:"Acura", model:"MDX", cls:"SUV", deaths:163, annual:16.3, crashes:391, fleet:437500, vmt:5469, rate:0.3 },
-      { make:"Buick", model:"LUCERNE", cls:"Sedan", deaths:163, annual:16.3, crashes:220, fleet:218750, vmt:2516, rate:0.65 },
-      { make:"Mazda", model:"CX-5", cls:"SUV", deaths:162, annual:16.2, crashes:375, fleet:1050000, vmt:13125, rate:0.12 },
-      { make:"Chrysler", model:"PACIFICA", cls:"Van", deaths:160, annual:16.0, crashes:327, fleet:700000, vmt:8260, rate:0.19 },
-      { make:"Pontiac", model:"MONTANA", cls:"Van", deaths:157, annual:15.7, crashes:228, fleet:131250, vmt:1549, rate:1.01 },
-      { make:"Buick", model:"REGAL", cls:"Sedan", deaths:153, annual:15.3, crashes:236, fleet:131250, vmt:1509, rate:1.01 },
-      { make:"Ram", model:"2500", cls:"Pickup", deaths:153, annual:15.3, crashes:748, fleet:875000, vmt:11812, rate:0.13 },
-      { make:"Volkswagen", model:"BEETLE", cls:"Sedan", deaths:152, annual:15.2, crashes:200, fleet:131250, vmt:1509, rate:1.01 },
-      { make:"Lincoln", model:"MKZ", cls:"Sedan", deaths:148, annual:14.8, crashes:229, fleet:218750, vmt:2516, rate:0.59 },
-      { make:"Buick", model:"RENDEZVOUS", cls:"SUV", deaths:143, annual:14.3, crashes:231, fleet:175000, vmt:2188, rate:0.65 },
-      { make:"Honda", model:"HR-V", cls:"SUV", deaths:142, annual:14.2, crashes:266, fleet:875000, vmt:10938, rate:0.13 },
-      { make:"Jeep", model:"RENEGADE", cls:"SUV", deaths:141, annual:14.1, crashes:370, fleet:525000, vmt:6562, rate:0.21 },
-      { make:"Toyota", model:"XB", cls:"Sedan", deaths:140, annual:14.0, crashes:212, fleet:87500, vmt:1006, rate:1.39 },
-      { make:"Ford", model:"FREESTYLE", cls:"SUV", deaths:139, annual:13.9, crashes:195, fleet:87500, vmt:1094, rate:1.27 },
-      { make:"Chevrolet", model:"AVEO", cls:"Sedan", deaths:138, annual:13.8, crashes:155, fleet:175000, vmt:2012, rate:0.69 },
-      { make:"Mitsubishi", model:"LANCER", cls:"Sedan", deaths:137, annual:13.7, crashes:191, fleet:131250, vmt:1509, rate:0.91 },
-      { make:"Toyota", model:"SEQUOIA", cls:"SUV", deaths:136, annual:13.6, crashes:272, fleet:131250, vmt:1641, rate:0.83 },
-      { make:"Pontiac", model:"VIBE", cls:"Sedan", deaths:135, annual:13.5, crashes:169, fleet:218750, vmt:2516, rate:0.54 },
-      { make:"Mercury", model:"MARINER", cls:"SUV", deaths:133, annual:13.3, crashes:231, fleet:175000, vmt:2188, rate:0.61 },
-      { make:"Cadillac", model:"SRX", cls:"SUV", deaths:133, annual:13.3, crashes:272, fleet:262500, vmt:3281, rate:0.41 },
-      { make:"Volkswagen", model:"TIGUAN", cls:"SUV", deaths:126, annual:12.6, crashes:267, fleet:743750, vmt:9297, rate:0.14 },
-      { make:"BMW", model:"X3", cls:"SUV", deaths:124, annual:12.4, crashes:346, fleet:437500, vmt:5469, rate:0.23 },
-      { make:"Kia", model:"SPECTRA", cls:"Sedan", deaths:122, annual:12.2, crashes:166, fleet:131250, vmt:1509, rate:0.81 },
-      { make:"Honda", model:"ELEMENT", cls:"SUV", deaths:120, annual:12.0, crashes:212, fleet:175000, vmt:2188, rate:0.55 },
-      { make:"Kia", model:"SEDONA", cls:"Van", deaths:118, annual:11.8, crashes:211, fleet:218750, vmt:2581, rate:0.46 },
-      { make:"Lexus", model:"LS", cls:"Sedan", deaths:116, annual:11.6, crashes:179, fleet:70000, vmt:805, rate:1.44 },
-      { make:"Cadillac", model:"DEVILLE", cls:"Sedan", deaths:114, annual:11.4, crashes:158, fleet:262500, vmt:3019, rate:0.38 },
-      { make:"Nissan", model:"350Z", cls:"Sports Car", deaths:113, annual:11.3, crashes:137, fleet:87500, vmt:700, rate:1.61 },
-      { make:"Audi", model:"A4", cls:"Sedan", deaths:113, annual:11.3, crashes:228, fleet:306250, vmt:3522, rate:0.32 },
-      { make:"Oldsmobile", model:"BRAVADA", cls:"SUV", deaths:111, annual:11.1, crashes:153, fleet:131250, vmt:1641, rate:0.68 },
-      { make:"Toyota", model:"C-HR", cls:"SUV", deaths:109, annual:10.9, crashes:158, fleet:218750, vmt:2734, rate:0.4 },
-      { make:"Acura", model:"TSX", cls:"Sedan", deaths:109, annual:10.9, crashes:205, fleet:175000, vmt:2012, rate:0.54 },
-      { make:"Lexus", model:"GS", cls:"Sedan", deaths:102, annual:10.2, crashes:195, fleet:131250, vmt:1509, rate:0.68 },
-      { make:"Tesla", model:"MODEL S", cls:"Sedan", deaths:100, annual:10.0, crashes:134, fleet:175000, vmt:2012, rate:0.5 },
-      { make:"Mazda", model:"MX-5", cls:"Sports Car", deaths:100, annual:10.0, crashes:131, fleet:70000, vmt:560, rate:1.79 },
-      { make:"Mercury", model:"SABLE", cls:"Sedan", deaths:98, annual:9.8, crashes:126, fleet:262500, vmt:3019, rate:0.32 },
-      { make:"Mitsubishi", model:"GALANT", cls:"Sedan", deaths:97, annual:9.7, crashes:149, fleet:131250, vmt:1509, rate:0.64 },
-      { make:"Buick", model:"PARK AVENUE", cls:"Sedan", deaths:97, annual:9.7, crashes:110, fleet:175000, vmt:2012, rate:0.48 },
-      { make:"Toyota", model:"FJ CRUISER", cls:"SUV", deaths:95, annual:9.5, crashes:223, fleet:175000, vmt:2188, rate:0.43 },
-      { make:"Chevrolet", model:"ASTRO VAN", cls:"Van", deaths:93, annual:9.3, crashes:136, fleet:131250, vmt:1549, rate:0.6 },
-      { make:"Tesla", model:"MODEL 3", cls:"Sedan", deaths:92, annual:9.2, crashes:212, fleet:1575000, vmt:18112, rate:0.05 },
-      { make:"Mazda", model:"B-SERIES", cls:"Pickup", deaths:91, annual:9.1, crashes:118, fleet:87500, vmt:1181, rate:0.77 },
-      { make:"Subaru", model:"WRX", cls:"Sedan", deaths:89, annual:8.9, crashes:134, fleet:262500, vmt:3019, rate:0.29 },
-      { make:"Mazda", model:"TRIBUTE", cls:"SUV", deaths:88, annual:8.8, crashes:131, fleet:175000, vmt:2188, rate:0.4 },
-      { make:"Oldsmobile", model:"SILHOUETTE", cls:"Van", deaths:88, annual:8.8, crashes:109, fleet:87500, vmt:1032, rate:0.85 },
-      { make:"Subaru", model:"CROSSTREK", cls:"SUV", deaths:86, annual:8.6, crashes:196, fleet:875000, vmt:10938, rate:0.08 },
-      { make:"Ford", model:"FIVE HUNDRED", cls:"Sedan", deaths:86, annual:8.6, crashes:106, fleet:131250, vmt:1509, rate:0.57 },
-      { make:"Ford", model:"ECOSPORT", cls:"SUV", deaths:86, annual:8.6, crashes:142, fleet:481250, vmt:6016, rate:0.14 },
-      { make:"Mitsubishi", model:"ECLIPSE", cls:"Sports Car", deaths:85, annual:8.5, crashes:109, fleet:131250, vmt:1050, rate:0.81 },
-      { make:"Honda", model:"RIDGELINE", cls:"Pickup", deaths:84, annual:8.4, crashes:174, fleet:262500, vmt:3544, rate:0.24 },
-      { make:"Mercury", model:"MILAN", cls:"Sedan", deaths:82, annual:8.2, crashes:100, fleet:175000, vmt:2012, rate:0.41 },
-      { make:"Cadillac", model:"DTS", cls:"Sedan", deaths:81, annual:8.1, crashes:114, fleet:175000, vmt:2012, rate:0.4 },
-      { make:"Mitsubishi", model:"MIRAGE", cls:"Sedan", deaths:81, annual:8.1, crashes:124, fleet:175000, vmt:2012, rate:0.4 },
-      { make:"BMW", model:"7 SERIES", cls:"Sedan", deaths:80, annual:8.0, crashes:140, fleet:87500, vmt:1006, rate:0.8 },
-      { make:"GMC", model:"JIMMY", cls:"SUV", deaths:79, annual:7.9, crashes:98, fleet:131250, vmt:1641, rate:0.48 },
-      { make:"Ford", model:"E-250", cls:"Van", deaths:79, annual:7.9, crashes:206, fleet:218750, vmt:2581, rate:0.31 },
-      { make:"Acura", model:"INTEGRA", cls:"Sedan", deaths:75, annual:7.5, crashes:88, fleet:175000, vmt:2012, rate:0.37 },
-      { make:"Ford", model:"FLEX", cls:"SUV", deaths:74, annual:7.4, crashes:187, fleet:175000, vmt:2188, rate:0.34 },
-      { make:"Hyundai", model:"KONA", cls:"SUV", deaths:73, annual:7.3, crashes:136, fleet:481250, vmt:6016, rate:0.12 },
-      { make:"Ford", model:"E-150", cls:"Van", deaths:73, annual:7.3, crashes:173, fleet:175000, vmt:2065, rate:0.35 },
-      { make:"Lincoln", model:"MKX", cls:"SUV", deaths:71, annual:7.1, crashes:163, fleet:218750, vmt:2734, rate:0.26 },
-      { make:"Nissan", model:"QUEST", cls:"Van", deaths:71, annual:7.1, crashes:122, fleet:131250, vmt:1549, rate:0.46 },
-      { make:"Toyota", model:"VENZA", cls:"SUV", deaths:71, annual:7.1, crashes:136, fleet:175000, vmt:2188, rate:0.32 },
-      { make:"Nissan", model:"JUKE", cls:"SUV", deaths:71, annual:7.1, crashes:116, fleet:131250, vmt:1641, rate:0.43 },
-      { make:"Acura", model:"RSX", cls:"Sports Car", deaths:71, annual:7.1, crashes:92, fleet:131250, vmt:1050, rate:0.68 },
-      { make:"Acura", model:"RDX", cls:"SUV", deaths:70, annual:7.0, crashes:155, fleet:437500, vmt:5469, rate:0.13 },
-      { make:"Dodge", model:"STRATUS", cls:"Sedan", deaths:69, annual:6.9, crashes:89, fleet:350000, vmt:4025, rate:0.17 },
-      { make:"Buick", model:"VERANO", cls:"Sedan", deaths:69, annual:6.9, crashes:122, fleet:131250, vmt:1509, rate:0.46 },
-      { make:"Chevrolet", model:"C/K PICKUP", cls:"Pickup", deaths:67, annual:6.7, crashes:102, fleet:262500, vmt:3544, rate:0.19 },
-      { make:"Volvo", model:"S60", cls:"Sedan", deaths:67, annual:6.7, crashes:114, fleet:131250, vmt:1509, rate:0.44 },
-      { make:"Toyota", model:"CELICA", cls:"Sports Car", deaths:66, annual:6.6, crashes:77, fleet:131250, vmt:1050, rate:0.63 },
-      { make:"Mazda", model:"PROTEGE", cls:"Sedan", deaths:66, annual:6.6, crashes:78, fleet:131250, vmt:1509, rate:0.44 },
-      { make:"Mazda", model:"CX-9", cls:"SUV", deaths:65, annual:6.5, crashes:158, fleet:306250, vmt:3828, rate:0.17 },
-      { make:"Audi", model:"A6", cls:"Sedan", deaths:64, annual:6.4, crashes:118, fleet:175000, vmt:2012, rate:0.32 },
-      { make:"Honda", model:"INSIGHT", cls:"Sedan", deaths:63, annual:6.3, crashes:98, fleet:87500, vmt:1006, rate:0.63 },
-      { make:"Mitsubishi", model:"ENDEAVOR", cls:"SUV", deaths:62, annual:6.2, crashes:110, fleet:87500, vmt:1094, rate:0.57 },
-      { make:"Mercedes-Benz", model:"M-CLASS", cls:"SUV", deaths:62, annual:6.2, crashes:125, fleet:306250, vmt:3828, rate:0.16 },
-      { make:"Buick", model:"ENVISION", cls:"SUV", deaths:62, annual:6.2, crashes:95, fleet:218750, vmt:2734, rate:0.23 },
-      { make:"Ford", model:"TRANSIT CONNECT", cls:"Van", deaths:61, annual:6.1, crashes:162, fleet:218750, vmt:2581, rate:0.24 },
-      { make:"Mercedes-Benz", model:"S-CLASS", cls:"Sedan", deaths:60, annual:6.0, crashes:146, fleet:131250, vmt:1509, rate:0.4 },
-      { make:"Saturn", model:"AURA", cls:"Sedan", deaths:60, annual:6.0, crashes:97, fleet:131250, vmt:1509, rate:0.4 },
-      { make:"Hyundai", model:"TIBURON", cls:"Sports Car", deaths:59, annual:5.9, crashes:74, fleet:87500, vmt:700, rate:0.84 },
-      { make:"Ford", model:"WINDSTAR", cls:"Van", deaths:58, annual:5.8, crashes:77, fleet:218750, vmt:2581, rate:0.22 },
-      { make:"Infiniti", model:"QX56", cls:"SUV", deaths:58, annual:5.8, crashes:79, fleet:131250, vmt:1641, rate:0.35 },
-      { make:"Dodge", model:"NITRO", cls:"SUV", deaths:58, annual:5.8, crashes:129, fleet:175000, vmt:2188, rate:0.27 },
-      { make:"Mercedes-Benz", model:"GL-CLASS", cls:"SUV", deaths:57, annual:5.7, crashes:164, fleet:262500, vmt:3281, rate:0.17 },
-      { make:"Ford", model:"ESCORT", cls:"Sedan", deaths:57, annual:5.7, crashes:65, fleet:262500, vmt:3019, rate:0.19 },
-      { make:"Tesla", model:"MODEL Y", cls:"SUV", deaths:57, annual:5.7, crashes:112, fleet:1750000, vmt:21875, rate:0.03 },
-      { make:"Pontiac", model:"BONNEVILLE", cls:"Sedan", deaths:56, annual:5.6, crashes:78, fleet:218750, vmt:2516, rate:0.22 },
-      { make:"Pontiac", model:"SUNFIRE", cls:"Sedan", deaths:55, annual:5.5, crashes:69, fleet:262500, vmt:3019, rate:0.18 },
-      { make:"Volkswagen", model:"GOLF", cls:"Sedan", deaths:55, annual:5.5, crashes:93, fleet:262500, vmt:3019, rate:0.18 },
-      { make:"Toyota", model:"ECHO", cls:"Sedan", deaths:55, annual:5.5, crashes:64, fleet:87500, vmt:1006, rate:0.55 },
-      { make:"Cadillac", model:"ATS", cls:"Sedan", deaths:55, annual:5.5, crashes:103, fleet:131250, vmt:1509, rate:0.36 },
-      { make:"Lexus", model:"GX", cls:"SUV", deaths:54, annual:5.4, crashes:127, fleet:262500, vmt:3281, rate:0.16 },
-      { make:"Mazda", model:"MAZDA5", cls:"Van", deaths:54, annual:5.4, crashes:76, fleet:87500, vmt:1032, rate:0.52 },
-      { make:"Kia", model:"K5", cls:"Sedan", deaths:54, annual:5.4, crashes:110, fleet:262500, vmt:3019, rate:0.18 },
-      { make:"Suzuki", model:"GRAND VITARA", cls:"SUV", deaths:53, annual:5.3, crashes:72, fleet:87500, vmt:1094, rate:0.48 },
-      { make:"Jaguar", model:"X-TYPE", cls:"Sedan", deaths:52, annual:5.2, crashes:70, fleet:70000, vmt:805, rate:0.65 },
-      { make:"Mazda", model:"CX-30", cls:"SUV", deaths:52, annual:5.2, crashes:100, fleet:350000, vmt:4375, rate:0.12 },
-      { make:"Lincoln", model:"LS", cls:"Sedan", deaths:52, annual:5.2, crashes:61, fleet:87500, vmt:1006, rate:0.52 },
-      { make:"Toyota", model:"XA", cls:"Sedan", deaths:52, annual:5.2, crashes:63, fleet:70000, vmt:805, rate:0.65 },
-      { make:"Nissan", model:"370Z", cls:"Sports Car", deaths:51, annual:5.1, crashes:77, fleet:43750, vmt:350, rate:1.46 },
-      { make:"Acura", model:"ILX", cls:"Sedan", deaths:51, annual:5.1, crashes:95, fleet:131250, vmt:1509, rate:0.34 },
-      { make:"Cadillac", model:"STS", cls:"Sedan", deaths:50, annual:5.0, crashes:73, fleet:87500, vmt:1006, rate:0.5 },
-      { make:"Cadillac", model:"XTS", cls:"Sedan", deaths:50, annual:5.0, crashes:95, fleet:175000, vmt:2012, rate:0.25 },
-      { make:"Fiat", model:"500", cls:"Sedan", deaths:50, annual:5.0, crashes:66, fleet:131250, vmt:1509, rate:0.33 },
-      { make:"Volkswagen", model:"TOUAREG", cls:"SUV", deaths:49, annual:4.9, crashes:139, fleet:87500, vmt:1094, rate:0.45 },
-      { make:"Oldsmobile", model:"ALERO", cls:"Sedan", deaths:49, annual:4.9, crashes:65, fleet:262500, vmt:3019, rate:0.16 },
-      { make:"Porsche", model:"911", cls:"Sports Car", deaths:48, annual:4.8, crashes:57, fleet:87500, vmt:700, rate:0.69 },
-      { make:"Audi", model:"Q5", cls:"SUV", deaths:47, annual:4.7, crashes:146, fleet:350000, vmt:4375, rate:0.11 },
-      { make:"Jeep", model:"COMMANDER", cls:"SUV", deaths:46, annual:4.6, crashes:97, fleet:131250, vmt:1641, rate:0.28 },
-      { make:"Chevrolet", model:"LUMINA", cls:"Sedan", deaths:46, annual:4.6, crashes:54, fleet:131250, vmt:1509, rate:0.3 },
-      { make:"Isuzu", model:"RODEO", cls:"SUV", deaths:42, annual:4.2, crashes:55, fleet:131250, vmt:1641, rate:0.26 },
-      { make:"Mercedes-Benz", model:"ML-CLASS", cls:"SUV", deaths:40, annual:4.0, crashes:123, fleet:306250, vmt:3828, rate:0.1 },
-      { make:"Jaguar", model:"XF", cls:"Sedan", deaths:39, annual:3.9, crashes:67, fleet:87500, vmt:1006, rate:0.39 },
-      { make:"Cadillac", model:"XT5", cls:"SUV", deaths:39, annual:3.9, crashes:112, fleet:262500, vmt:3281, rate:0.12 },
-      { make:"Hyundai", model:"PALISADE", cls:"SUV", deaths:38, annual:3.8, crashes:83, fleet:525000, vmt:6562, rate:0.06 },
-      { make:"Mercedes-Benz", model:"GLK-CLASS", cls:"SUV", deaths:37, annual:3.7, crashes:77, fleet:175000, vmt:2188, rate:0.17 },
-      { make:"Toyota", model:"XD", cls:"Sedan", deaths:37, annual:3.7, crashes:58, fleet:70000, vmt:805, rate:0.46 },
-      { make:"Dodge", model:"MAGNUM", cls:"Sedan", deaths:36, annual:3.6, crashes:62, fleet:175000, vmt:2012, rate:0.18 },
-      { make:"Infiniti", model:"FX35", cls:"SUV", deaths:36, annual:3.6, crashes:71, fleet:175000, vmt:2188, rate:0.16 },
-      { make:"Volvo", model:"V70", cls:"Sedan", deaths:35, annual:3.5, crashes:45, fleet:70000, vmt:805, rate:0.43 },
-      { make:"Lincoln", model:"CONTINENTAL", cls:"Sedan", deaths:35, annual:3.5, crashes:51, fleet:43750, vmt:503, rate:0.7 },
-      { make:"Audi", model:"A3", cls:"Sedan", deaths:34, annual:3.4, crashes:68, fleet:131250, vmt:1509, rate:0.23 },
-      { make:"Mercedes-Benz", model:"CLA-CLASS", cls:"Sedan", deaths:34, annual:3.4, crashes:83, fleet:175000, vmt:2012, rate:0.17 },
-      { make:"Ford", model:"CONTOUR", cls:"Sedan", deaths:33, annual:3.3, crashes:40, fleet:131250, vmt:1509, rate:0.22 },
-      { make:"Acura", model:"TLX", cls:"Sedan", deaths:33, annual:3.3, crashes:109, fleet:262500, vmt:3019, rate:0.11 },
-      { make:"Jaguar", model:"S-TYPE", cls:"Sedan", deaths:33, annual:3.3, crashes:33, fleet:70000, vmt:805, rate:0.41 },
-      { make:"Ford", model:"FREESTAR", cls:"Van", deaths:33, annual:3.3, crashes:52, fleet:131250, vmt:1549, rate:0.21 },
-      { make:"Honda", model:"PASSPORT", cls:"SUV", deaths:33, annual:3.3, crashes:63, fleet:262500, vmt:3281, rate:0.1 },
-      { make:"Pontiac", model:"TORRENT", cls:"SUV", deaths:32, annual:3.2, crashes:41, fleet:131250, vmt:1641, rate:0.2 },
-      { make:"Kia", model:"TELLURIDE", cls:"SUV", deaths:31, annual:3.1, crashes:86, fleet:612500, vmt:7656, rate:0.04 },
-      { make:"BMW", model:"X1", cls:"SUV", deaths:29, annual:2.9, crashes:89, fleet:262500, vmt:3281, rate:0.09 },
-      { make:"Tesla", model:"MODEL X", cls:"SUV", deaths:29, annual:2.9, crashes:45, fleet:157500, vmt:1969, rate:0.15 },
-      { make:"Audi", model:"Q7", cls:"SUV", deaths:29, annual:2.9, crashes:92, fleet:218750, vmt:2734, rate:0.11 },
-      { make:"Nissan", model:"NV200", cls:"Van", deaths:28, annual:2.8, crashes:66, fleet:87500, vmt:1032, rate:0.27 },
-      { make:"Hyundai", model:"VENUE", cls:"SUV", deaths:28, annual:2.8, crashes:40, fleet:175000, vmt:2188, rate:0.13 },
-      { make:"Lexus", model:"NX", cls:"SUV", deaths:28, annual:2.8, crashes:79, fleet:437500, vmt:5469, rate:0.05 },
-      { make:"Mazda", model:"MPV", cls:"Van", deaths:27, annual:2.7, crashes:38, fleet:87500, vmt:1032, rate:0.26 },
-      { make:"Saturn", model:"L SERIES", cls:"Sedan", deaths:27, annual:2.7, crashes:40, fleet:131250, vmt:1509, rate:0.18 },
-      { make:"Volkswagen", model:"ATLAS", cls:"SUV", deaths:26, annual:2.6, crashes:77, fleet:350000, vmt:4375, rate:0.06 },
-      { make:"Volvo", model:"S40", cls:"Sedan", deaths:26, annual:2.6, crashes:46, fleet:87500, vmt:1006, rate:0.26 },
-      { make:"Land Rover", model:"RANGE ROVER SPORT", cls:"SUV", deaths:26, annual:2.6, crashes:95, fleet:131250, vmt:1641, rate:0.16 },
-      { make:"Toyota", model:"TERCEL", cls:"Sedan", deaths:25, annual:2.5, crashes:23, fleet:87500, vmt:1006, rate:0.25 },
-      { make:"Ford", model:"BRONCO", cls:"SUV", deaths:25, annual:2.5, crashes:73, fleet:437500, vmt:5469, rate:0.05 },
-      { make:"BMW", model:"M5", cls:"Sedan", deaths:24, annual:2.4, crashes:29, fleet:43750, vmt:503, rate:0.48 },
-      { make:"Volvo", model:"S80", cls:"Sedan", deaths:24, annual:2.4, crashes:36, fleet:70000, vmt:805, rate:0.3 },
-      { make:"Porsche", model:"CAYENNE", cls:"SUV", deaths:23, annual:2.3, crashes:78, fleet:131250, vmt:1641, rate:0.14 },
-      { make:"Chrysler", model:"CONCORDE", cls:"Sedan", deaths:23, annual:2.3, crashes:31, fleet:131250, vmt:1509, rate:0.15 },
-      { make:"Dodge", model:"CARAVAN", cls:"Van", deaths:21, annual:2.1, crashes:40, fleet:437500, vmt:5162, rate:0.04 },
-      { make:"BMW", model:"Z3", cls:"Sports Car", deaths:21, annual:2.1, crashes:22, fleet:43750, vmt:350, rate:0.6 },
-      { make:"Kia", model:"SELTOS", cls:"SUV", deaths:21, annual:2.1, crashes:38, fleet:437500, vmt:5469, rate:0.04 },
-      { make:"Oldsmobile", model:"INTRIGUE", cls:"Sedan", deaths:20, annual:2.0, crashes:24, fleet:131250, vmt:1509, rate:0.13 },
-      { make:"Volvo", model:"XC70", cls:"SUV", deaths:19, annual:1.9, crashes:38, fleet:87500, vmt:1094, rate:0.17 },
-      { make:"BMW", model:"Z4", cls:"Sports Car", deaths:16, annual:1.6, crashes:24, fleet:43750, vmt:350, rate:0.46 },
-      { make:"Porsche", model:"BOXSTER", cls:"Sports Car", deaths:16, annual:1.6, crashes:18, fleet:26250, vmt:210, rate:0.76 },
-      { make:"Kia", model:"AMANTI", cls:"Sedan", deaths:15, annual:1.5, crashes:22, fleet:43750, vmt:503, rate:0.3 },
-      { make:"Subaru", model:"TRIBECA", cls:"SUV", deaths:13, annual:1.3, crashes:42, fleet:87500, vmt:1094, rate:0.12 },
-      { make:"Saturn", model:"OUTLOOK", cls:"SUV", deaths:13, annual:1.3, crashes:32, fleet:131250, vmt:1641, rate:0.08 },
-      { make:"Nissan", model:"NV", cls:"Van", deaths:13, annual:1.3, crashes:77, fleet:131250, vmt:1549, rate:0.08 },
-      { make:"Dodge", model:"INTREPID", cls:"Sedan", deaths:13, annual:1.3, crashes:21, fleet:262500, vmt:3019, rate:0.04 },
-      { make:"Pontiac", model:"AZTEK", cls:"SUV", deaths:12, annual:1.2, crashes:17, fleet:87500, vmt:1094, rate:0.11 },
-      { make:"Lexus", model:"LX", cls:"SUV", deaths:9, annual:0.9, crashes:29, fleet:43750, vmt:547, rate:0.16 },
-      { make:"Porsche", model:"MACAN", cls:"SUV", deaths:7, annual:0.7, crashes:31, fleet:175000, vmt:2188, rate:0.03 },
-      { make:"Toyota", model:"MATRIX", cls:"Sedan", deaths:6, annual:0.6, crashes:8, fleet:218750, vmt:2516, rate:0.02 },
-      { make:"Saturn", model:"RELAY", cls:"Van", deaths:6, annual:0.6, crashes:5, fleet:87500, vmt:1032, rate:0.06 },
-      { make:"Land Rover", model:"LR3", cls:"SUV", deaths:5, annual:0.5, crashes:16, fleet:87500, vmt:1094, rate:0.05 },
-      { make:"Chevrolet", model:"PRIZM", cls:"Sedan", deaths:2, annual:0.2, crashes:2, fleet:87500, vmt:1006, rate:0.02 },
-      { make:"Ram", model:"3500", cls:"Pickup", deaths:0, annual:0.0, crashes:1, fleet:437500, vmt:5906, rate:0.0 },
-    ];
+    // FARS Per-Model, Toxicology, and Model Year data loaded from external file
+    // Generated by fars_process.py from NHTSA FARS bulk CSV downloads
+    </script>
+    <script src="fars_output.js"></script>
+    <script>
+    // Fallback: ensure arrays exist if external file fails to load
+    if (typeof FARS_BY_MODEL === 'undefined') var FARS_BY_MODEL = [];
+    if (typeof FARS_TOXICOLOGY === 'undefined') var FARS_TOXICOLOGY = [];
+    if (typeof FARS_MODEL_YEAR === 'undefined') var FARS_MODEL_YEAR = [];
+
+    // Data loaded from external fars_output.js
+
 
     // ================================================================
     // State
@@ -1565,6 +1412,393 @@
     });
 
     // ================================================================
+    // Toxicology: State & Functions
+    // ================================================================
+    let toxMetric = 'any'; // 'any', 'alc', 'drug'
+    let filteredTox = [];
+
+    function setToxMetric(m) {
+      toxMetric = m;
+      document.getElementById('toxBtnAny').classList.toggle('active', m === 'any');
+      document.getElementById('toxBtnAlc').classList.toggle('active', m === 'alc');
+      document.getElementById('toxBtnDrug').classList.toggle('active', m === 'drug');
+      applyToxFilters();
+    }
+
+    function getToxPct(d) {
+      if (toxMetric === 'alc') return d.alcPct;
+      if (toxMetric === 'drug') return d.drugPct;
+      return d.anyPct;
+    }
+
+    function getToxColor() {
+      const cs = getComputedStyle(document.documentElement);
+      if (toxMetric === 'alc') return cs.getPropertyValue('--tox-alcohol').trim();
+      if (toxMetric === 'drug') return cs.getPropertyValue('--tox-drug').trim();
+      return cs.getPropertyValue('--tox-any').trim();
+    }
+
+    function applyToxFilters() {
+      if (!FARS_TOXICOLOGY || FARS_TOXICOLOGY.length === 0) return;
+      const search = document.getElementById('toxSearch').value.toLowerCase();
+      const clsFilter = document.getElementById('toxClassFilter').value;
+      const sortMode = document.getElementById('toxSort').value;
+
+      filteredTox = FARS_TOXICOLOGY.filter(d => {
+        if (search && !(d.make + ' ' + d.model).toLowerCase().includes(search) && !d.cls.toLowerCase().includes(search)) return false;
+        if (clsFilter && d.cls !== clsFilter) return false;
+        return true;
+      });
+
+      switch (sortMode) {
+        case 'any-desc': filteredTox.sort((a, b) => b.anyPct - a.anyPct); break;
+        case 'alc-desc': filteredTox.sort((a, b) => b.alcPct - a.alcPct); break;
+        case 'drug-desc': filteredTox.sort((a, b) => b.drugPct - a.drugPct); break;
+        case 'any-asc': filteredTox.sort((a, b) => a.anyPct - b.anyPct); break;
+        case 'drivers-desc': filteredTox.sort((a, b) => b.drivers - a.drivers); break;
+        case 'make': filteredTox.sort((a, b) => (a.make + ' ' + a.model).localeCompare(b.make + ' ' + b.model)); break;
+      }
+
+      renderToxChart();
+      renderToxTable();
+      updateToxSummary();
+    }
+
+    function updateToxSummary() {
+      if (!FARS_TOXICOLOGY || FARS_TOXICOLOGY.length === 0) return;
+      const totalDrivers = FARS_TOXICOLOGY.reduce((s, d) => s + d.drivers, 0);
+      const totalAny = FARS_TOXICOLOGY.reduce((s, d) => s + d.any, 0);
+      document.getElementById('toxOverallRate').textContent = (totalAny / totalDrivers * 100).toFixed(1) + '%';
+
+      const sorted = [...FARS_TOXICOLOGY].sort((a, b) => b.anyPct - a.anyPct);
+      document.getElementById('toxHighest').textContent = sorted[0].make + ' ' + sorted[0].model;
+      document.getElementById('toxHighestDetail').textContent = sorted[0].anyPct + '% any impairment';
+      const last = sorted[sorted.length - 1];
+      document.getElementById('toxLowest').textContent = last.make + ' ' + last.model;
+      document.getElementById('toxLowestDetail').textContent = last.anyPct + '% any impairment';
+    }
+
+    function renderToxChart() {
+      const canvas = document.getElementById('toxChart');
+      const ctx = canvas.getContext('2d');
+      const dpr = window.devicePixelRatio || 1;
+
+      const barHeight = 24;
+      const barGap = 3;
+      const labelWidth = 200;
+      const rightPad = 60;
+      const topPad = 10;
+      const isMobile = window.innerWidth < 600;
+      const effectiveLabelWidth = isMobile ? 120 : labelWidth;
+
+      const totalItems = filteredTox.length;
+      const chartHeight = topPad + totalItems * (barHeight + barGap) + 20;
+      const chartWidth = canvas.parentElement.clientWidth - 32;
+
+      canvas.style.width = chartWidth + 'px';
+      canvas.style.height = chartHeight + 'px';
+      canvas.width = chartWidth * dpr;
+      canvas.height = chartHeight * dpr;
+      ctx.scale(dpr, dpr);
+      ctx.clearRect(0, 0, chartWidth, chartHeight);
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#e0e0e0' : '#1a1a1a';
+      const mutedColor = isDark ? '#999' : '#666';
+      const font = getComputedStyle(document.body).fontFamily;
+
+      if (totalItems === 0) {
+        ctx.fillStyle = mutedColor;
+        ctx.font = '13px ' + font;
+        ctx.textAlign = 'center';
+        ctx.fillText('No vehicles match current filters', chartWidth / 2, 60);
+        document.getElementById('toxChartCount').textContent = '0 vehicles shown';
+        return;
+      }
+
+      document.getElementById('toxChartCount').textContent = totalItems + ' vehicle' + (totalItems !== 1 ? 's' : '') + ' shown';
+
+      const maxVal = Math.max(...filteredTox.map(d => getToxPct(d)), 1);
+      const barAreaWidth = chartWidth - effectiveLabelWidth - rightPad;
+      const barColor = getToxColor();
+
+      filteredTox.forEach((d, i) => {
+        const y = topPad + i * (barHeight + barGap);
+        const val = getToxPct(d);
+        const barW = Math.max(1, (val / maxVal) * barAreaWidth);
+
+        ctx.fillStyle = textColor;
+        ctx.font = (isMobile ? '9' : '10') + 'px ' + font;
+        ctx.textAlign = 'right';
+        ctx.textBaseline = 'middle';
+        let label = d.make + ' ' + d.model;
+        if (isMobile && label.length > 18) label = label.substring(0, 17) + '\u2026';
+        ctx.fillText(label, effectiveLabelWidth - 8, y + barHeight / 2);
+
+        ctx.fillStyle = barColor;
+        ctx.beginPath();
+        ctx.roundRect(effectiveLabelWidth, y, barW, barHeight, 3);
+        ctx.fill();
+
+        ctx.fillStyle = textColor;
+        ctx.textAlign = 'left';
+        ctx.font = '10px ' + font;
+        ctx.fillText(val.toFixed(1) + '%', effectiveLabelWidth + barW + 6, y + barHeight / 2);
+      });
+    }
+
+    function renderToxTable() {
+      const tbody = document.getElementById('toxTableBody');
+      document.getElementById('toxTableCount').textContent = filteredTox.length + ' vehicle' + (filteredTox.length !== 1 ? 's' : '');
+
+      if (filteredTox.length === 0) {
+        tbody.innerHTML = '<tr class="no-results"><td colspan="7">No vehicles match current filters</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = filteredTox.map((d, i) =>
+        '<tr>' +
+        '<td>' + (i + 1) + '</td>' +
+        '<td>' + d.make + ' ' + d.model + '</td>' +
+        '<td>' + d.cls + '</td>' +
+        '<td>' + d.drivers.toLocaleString() + '</td>' +
+        '<td><strong>' + d.anyPct + '%</strong></td>' +
+        '<td>' + d.alcPct + '%</td>' +
+        '<td>' + d.drugPct + '%</td>' +
+        '</tr>'
+      ).join('');
+    }
+
+    // Toxicology table column sorting
+    document.querySelectorAll('#toxTable th').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.toxcol;
+        const wasAsc = th.classList.contains('sorted-asc');
+        document.querySelectorAll('#toxTable th').forEach(h => {
+          h.classList.remove('sorted', 'sorted-asc', 'sorted-desc');
+        });
+        const asc = !wasAsc;
+        th.classList.add('sorted', asc ? 'sorted-asc' : 'sorted-desc');
+        th.querySelector('.sort-arrow').textContent = asc ? '\u25B2' : '\u25BC';
+
+        switch (col) {
+          case 'rank': case 'any':
+            filteredTox.sort((a, b) => asc ? a.anyPct - b.anyPct : b.anyPct - a.anyPct); break;
+          case 'vehicle':
+            filteredTox.sort((a, b) => asc ? (a.make + a.model).localeCompare(b.make + b.model) : (b.make + b.model).localeCompare(a.make + a.model)); break;
+          case 'class':
+            filteredTox.sort((a, b) => asc ? a.cls.localeCompare(b.cls) : b.cls.localeCompare(a.cls)); break;
+          case 'drivers':
+            filteredTox.sort((a, b) => asc ? a.drivers - b.drivers : b.drivers - a.drivers); break;
+          case 'alc':
+            filteredTox.sort((a, b) => asc ? a.alcPct - b.alcPct : b.alcPct - a.alcPct); break;
+          case 'drug':
+            filteredTox.sort((a, b) => asc ? a.drugPct - b.drugPct : b.drugPct - a.drugPct); break;
+        }
+        renderToxTable();
+        renderToxChart();
+      });
+    });
+
+    // ================================================================
+    // Model Year: State & Functions
+    // ================================================================
+    let myearSelected = []; // array of {make, model, cls} objects, max 5
+    const MYEAR_COLORS = ['--myear-1', '--myear-2', '--myear-3', '--myear-4', '--myear-5'];
+
+    function applyMyearSearch() {
+      const input = document.getElementById('myearSearch');
+      const val = input.value.trim();
+      const datalist = document.getElementById('myearDatalist');
+
+      // Populate datalist with matching models
+      if (val.length >= 2 && FARS_MODEL_YEAR && FARS_MODEL_YEAR.length > 0) {
+        const lower = val.toLowerCase();
+        const matches = FARS_MODEL_YEAR.filter(d =>
+          (d.make + ' ' + d.model).toLowerCase().includes(lower)
+        ).slice(0, 10);
+        datalist.innerHTML = matches.map(d =>
+          '<option value="' + d.make + ' ' + d.model + '">'
+        ).join('');
+      }
+
+      // Check for exact match selection
+      if (FARS_MODEL_YEAR) {
+        const match = FARS_MODEL_YEAR.find(d =>
+          (d.make + ' ' + d.model).toLowerCase() === val.toLowerCase()
+        );
+        if (match && myearSelected.length < 5 &&
+            !myearSelected.some(s => s.make === match.make && s.model === match.model)) {
+          myearSelected.push({ make: match.make, model: match.model, cls: match.cls });
+          input.value = '';
+          datalist.innerHTML = '';
+          renderMyearChips();
+          renderMyearChart();
+        }
+      }
+    }
+
+    function removeMyearSelection(idx) {
+      myearSelected.splice(idx, 1);
+      renderMyearChips();
+      renderMyearChart();
+    }
+
+    function renderMyearChips() {
+      const container = document.getElementById('myearChips');
+      const cs = getComputedStyle(document.documentElement);
+      container.innerHTML = myearSelected.map((s, i) => {
+        const color = cs.getPropertyValue(MYEAR_COLORS[i]).trim();
+        return '<span class="chip" onclick="removeMyearSelection(' + i + ')" style="border-color:' + color + '">' +
+          '<span style="color:' + color + '">\u25CF</span> ' +
+          s.make + ' ' + s.model +
+          ' <span class="chip-x">\u2715</span></span>';
+      }).join('');
+    }
+
+    function renderMyearChart() {
+      const canvas = document.getElementById('myearChart');
+      const ctx = canvas.getContext('2d');
+      const dpr = window.devicePixelRatio || 1;
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#e0e0e0' : '#1a1a1a';
+      const mutedColor = isDark ? '#999' : '#666';
+      const gridColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.06)';
+      const font = getComputedStyle(document.body).fontFamily;
+      const cs = getComputedStyle(document.documentElement);
+
+      const wrap = canvas.parentElement;
+      const W = wrap.clientWidth - 32;
+      const H = Math.min(350, Math.max(250, W * 0.45));
+
+      canvas.style.width = W + 'px';
+      canvas.style.height = H + 'px';
+      canvas.width = W * dpr;
+      canvas.height = H * dpr;
+      ctx.scale(dpr, dpr);
+      ctx.clearRect(0, 0, W, H);
+
+      if (myearSelected.length === 0 || !FARS_MODEL_YEAR || FARS_MODEL_YEAR.length === 0) {
+        ctx.fillStyle = mutedColor;
+        ctx.font = '13px ' + font;
+        ctx.textAlign = 'center';
+        ctx.fillText('Search and select vehicles above to compare model years', W / 2, H / 2);
+        return;
+      }
+
+      // Gather data series
+      const series = myearSelected.map((sel, i) => {
+        const entry = FARS_MODEL_YEAR.find(d => d.make === sel.make && d.model === sel.model);
+        return {
+          label: sel.make + ' ' + sel.model,
+          color: cs.getPropertyValue(MYEAR_COLORS[i]).trim(),
+          years: entry ? entry.years : {},
+        };
+      });
+
+      // Find year range and max value
+      let allYears = new Set();
+      let maxVal = 0;
+      series.forEach(s => {
+        Object.entries(s.years).forEach(([y, d]) => {
+          allYears.add(parseInt(y));
+          if (d > maxVal) maxVal = d;
+        });
+      });
+      const years = [...allYears].sort((a, b) => a - b);
+      if (years.length === 0) return;
+      maxVal *= 1.1;
+
+      const padL = 55, padR = 20, padT = 20, padB = 40;
+      const plotW = W - padL - padR;
+      const plotH = H - padT - padB;
+
+      function xPos(yr) { return padL + ((yr - years[0]) / (years[years.length - 1] - years[0] || 1)) * plotW; }
+      function yPos(v) { return padT + plotH - (v / maxVal) * plotH; }
+
+      // Grid
+      ctx.strokeStyle = gridColor;
+      ctx.lineWidth = 1;
+      for (let i = 0; i <= 4; i++) {
+        const v = (maxVal / 4) * i;
+        const y = yPos(v);
+        ctx.beginPath();
+        ctx.moveTo(padL, y);
+        ctx.lineTo(W - padR, y);
+        ctx.stroke();
+      }
+
+      // Y axis ticks
+      ctx.fillStyle = mutedColor;
+      ctx.font = '9px ' + font;
+      ctx.textAlign = 'right';
+      for (let i = 0; i <= 4; i++) {
+        const v = (maxVal / 4) * i;
+        ctx.fillText(Math.round(v), padL - 6, yPos(v) + 3);
+      }
+
+      // X axis labels
+      ctx.textAlign = 'center';
+      const yearStep = Math.max(1, Math.floor(years.length / 10));
+      years.forEach((yr, i) => {
+        if (i % yearStep === 0 || yr === years[years.length - 1]) {
+          ctx.fillText(yr, xPos(yr), H - padB + 16);
+        }
+      });
+
+      // Draw lines
+      series.forEach(s => {
+        const pts = years.filter(y => s.years[y] !== undefined).map(y => ({ x: xPos(y), y: yPos(s.years[y]) }));
+        if (pts.length < 2) return;
+
+        ctx.strokeStyle = s.color;
+        ctx.lineWidth = 2.5;
+        ctx.lineJoin = 'round';
+        ctx.beginPath();
+        pts.forEach((p, i) => { if (i === 0) ctx.moveTo(p.x, p.y); else ctx.lineTo(p.x, p.y); });
+        ctx.stroke();
+
+        // Dots
+        pts.forEach(p => {
+          ctx.fillStyle = s.color;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
+          ctx.fill();
+        });
+      });
+
+      // Y axis label
+      ctx.save();
+      ctx.fillStyle = mutedColor;
+      ctx.font = '9px ' + font;
+      ctx.translate(12, padT + plotH / 2);
+      ctx.rotate(-Math.PI / 2);
+      ctx.textAlign = 'center';
+      ctx.fillText('Deaths', 0, 0);
+      ctx.restore();
+    }
+
+    function updateMyearSummary() {
+      if (!FARS_MODEL_YEAR || FARS_MODEL_YEAR.length === 0) return;
+      let minYear = 9999, maxYear = 0;
+      const yearTotals = {};
+      FARS_MODEL_YEAR.forEach(d => {
+        Object.entries(d.years).forEach(([y, deaths]) => {
+          const yr = parseInt(y);
+          if (yr < minYear) minYear = yr;
+          if (yr > maxYear) maxYear = yr;
+          yearTotals[yr] = (yearTotals[yr] || 0) + deaths;
+        });
+      });
+      document.getElementById('myearRange').textContent = minYear + '\u2013' + maxYear;
+      const peakEntry = Object.entries(yearTotals).sort((a, b) => b[1] - a[1])[0];
+      if (peakEntry) {
+        document.getElementById('myearPeak').textContent = peakEntry[0];
+        document.getElementById('myearPeakDetail').textContent = peakEntry[1].toLocaleString() + ' deaths across all models';
+      }
+    }
+
+    // ================================================================
     // Resize handler
     // ================================================================
     let resizeTimer;
@@ -1575,6 +1809,8 @@
         renderUserTypeChart();
         renderClassRateChart();
         renderFarsModelChart();
+        if (typeof renderToxChart === 'function') renderToxChart();
+        if (typeof renderMyearChart === 'function') renderMyearChart();
       }, 150);
     });
 
@@ -1586,6 +1822,9 @@
     initClassRateToggle();
     renderClassRateChart();
     applyFarsFilters();
+    applyToxFilters();
+    updateMyearSummary();
+    renderMyearChart();
   </script>
   <script>
     (function() {
@@ -1607,6 +1846,8 @@
         if (typeof renderUserTypeChart === 'function') renderUserTypeChart();
         if (typeof renderClassRateChart === 'function') renderClassRateChart();
         if (typeof renderFarsModelChart === 'function') renderFarsModelChart();
+        if (typeof renderToxChart === 'function') renderToxChart();
+        if (typeof renderMyearChart === 'function') renderMyearChart();
       });
       label();
       document.body.appendChild(btn);

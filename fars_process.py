@@ -1230,7 +1230,7 @@ MAK_MOD_MAP = {
 
 
 def parse_vehicle_csv(zip_path, year):
-    """Parse vehicle.csv from a FARS ZIP, return list of (make, model, body_typ, deaths)."""
+    """Parse vehicle.csv from a FARS ZIP, return list of (st_case, veh_no, make, model, body_typ, deaths, mod_year)."""
     results = []
     with zipfile.ZipFile(zip_path, 'r') as zf:
         # Find vehicle.csv (case-insensitive)
@@ -1260,6 +1260,7 @@ def parse_vehicle_csv(zip_path, year):
 
             body_col = 'BODY_TYP' if 'BODY_TYP' in fields else None
             deaths_col = 'DEATHS' if 'DEATHS' in fields else 'FATALS' if 'FATALS' in fields else None
+            has_mod_year = 'MOD_YEAR' in fields
 
             if has_vpic:
                 mode = 'vpic'
@@ -1292,6 +1293,20 @@ def parse_vehicle_csv(zip_path, year):
                 except (ValueError, TypeError):
                     deaths = 0
 
+                # Extract join keys
+                st_case = row.get('ST_CASE', '').strip()
+                veh_no = row.get('VEH_NO', '').strip()
+
+                # Extract model year
+                mod_year = None
+                if has_mod_year:
+                    try:
+                        my = int(row.get('MOD_YEAR', 0))
+                        if 1980 <= my <= year + 1:
+                            mod_year = my
+                    except (ValueError, TypeError):
+                        pass
+
                 make = None
                 model = None
 
@@ -1321,7 +1336,7 @@ def parse_vehicle_csv(zip_path, year):
                         continue
 
                 if make and model:
-                    results.append((make, model, body_typ, deaths))
+                    results.append((st_case, veh_no, make, model, body_typ, deaths, mod_year))
                     count += 1
 
             print(f'    Parsed {count} vehicle records, skipped {skipped_body} non-passenger', file=sys.stderr)
@@ -1336,7 +1351,7 @@ def aggregate_deaths(all_records):
     deaths_by_model = defaultdict(int)
     vehicle_count = defaultdict(int)  # vehicles involved in fatal crashes
 
-    for make_raw, model_raw, body_typ, deaths in all_records:
+    for st_case, veh_no, make_raw, model_raw, body_typ, deaths, mod_year in all_records:
         make = normalize_make(make_raw)
         model = normalize_model(model_raw)
         if not make or not model:
@@ -1466,25 +1481,163 @@ def get_body_class(make, model):
     return 'Sedan'
 
 
+def parse_person_csv(zip_path, year):
+    """Parse person.csv from a FARS ZIP for drivers only.
+    Returns list of (st_case, veh_no, alc_positive, drug_positive)."""
+    results = []
+    with zipfile.ZipFile(zip_path, 'r') as zf:
+        person_files = [n for n in zf.namelist() if n.lower().endswith('person.csv')]
+        if not person_files:
+            print(f'  WARNING: No person.csv found in {zip_path}', file=sys.stderr)
+            return results
+
+        person_file = person_files[0]
+        print(f'  Parsing {person_file} from {year} (drivers)...', file=sys.stderr)
+
+        with zf.open(person_file) as f:
+            raw = f.read()
+            try:
+                text = raw.decode('utf-8-sig')
+            except UnicodeDecodeError:
+                text = raw.decode('latin-1')
+            reader = csv.DictReader(io.StringIO(text))
+            fields = reader.fieldnames
+
+            count = 0
+            for row in reader:
+                # Drivers only: PER_TYP == 1
+                try:
+                    per_typ = int(row.get('PER_TYP', 0))
+                except (ValueError, TypeError):
+                    continue
+                if per_typ != 1:
+                    continue
+
+                st_case = row.get('ST_CASE', '').strip()
+                veh_no = row.get('VEH_NO', '').strip()
+
+                # Alcohol positive: DRINKING == 1 OR ALC_RES in 1-94
+                alc_positive = False
+                try:
+                    drinking = int(row.get('DRINKING', 0))
+                    if drinking == 1:
+                        alc_positive = True
+                except (ValueError, TypeError):
+                    pass
+                if not alc_positive:
+                    try:
+                        alc_res = int(row.get('ALC_RES', 0))
+                        if 1 <= alc_res <= 94:
+                            alc_positive = True
+                    except (ValueError, TypeError):
+                        pass
+
+                # Drug positive: DRUGRES1 in 100-295 (specific drug detected)
+                # Older files may use DRUGS == 1
+                drug_positive = False
+                for drug_col in ['DRUGRES1', 'DRUGRES2', 'DRUGRES3']:
+                    if drug_col in fields:
+                        try:
+                            dr = int(row.get(drug_col, 0))
+                            if 100 <= dr <= 295:
+                                drug_positive = True
+                                break
+                        except (ValueError, TypeError):
+                            pass
+                if not drug_positive and 'DRUGS' in fields:
+                    try:
+                        drugs = int(row.get('DRUGS', 0))
+                        if drugs == 1:
+                            drug_positive = True
+                    except (ValueError, TypeError):
+                        pass
+
+                results.append((st_case, veh_no, alc_positive, drug_positive))
+                count += 1
+
+            print(f'    Parsed {count} driver records', file=sys.stderr)
+
+    return results
+
+
+def aggregate_toxicology(vehicle_records, person_records):
+    """Aggregate toxicology data by vehicle make/model.
+    Returns dict of (make, model) -> {drivers, alc, drug, any_positive}."""
+    # Build (st_case, veh_no) -> (make, model) lookup from vehicle records
+    veh_lookup = {}
+    for st_case, veh_no, make_raw, model_raw, body_typ, deaths, mod_year in vehicle_records:
+        make = normalize_make(make_raw)
+        model = normalize_model(model_raw)
+        if make and model:
+            veh_lookup[(st_case, veh_no)] = (make, model)
+
+    # Accumulate per-model
+    tox_data = defaultdict(lambda: {'drivers': 0, 'alc': 0, 'drug': 0, 'any': 0})
+    matched = 0
+    unmatched = 0
+    for st_case, veh_no, alc_positive, drug_positive in person_records:
+        key = (st_case, veh_no)
+        if key not in veh_lookup:
+            unmatched += 1
+            continue
+        make, model = veh_lookup[key]
+        mm = (make, model)
+        tox_data[mm]['drivers'] += 1
+        if alc_positive:
+            tox_data[mm]['alc'] += 1
+        if drug_positive:
+            tox_data[mm]['drug'] += 1
+        if alc_positive or drug_positive:
+            tox_data[mm]['any'] += 1
+        matched += 1
+
+    print(f'  Toxicology: matched {matched} drivers, {unmatched} unmatched', file=sys.stderr)
+    return tox_data
+
+
+def aggregate_by_model_year(all_records, qualifying_models):
+    """Group deaths by (make, model, model_year).
+    qualifying_models: set of (make, model) that are in FARS_BY_MODEL."""
+    my_data = defaultdict(lambda: defaultdict(int))  # (make,model) -> {year: deaths}
+
+    for st_case, veh_no, make_raw, model_raw, body_typ, deaths, mod_year in all_records:
+        if mod_year is None:
+            continue
+        make = normalize_make(make_raw)
+        model = normalize_model(model_raw)
+        if not make or not model:
+            continue
+        mm = (make, model)
+        if mm not in qualifying_models:
+            continue
+        my_data[mm][mod_year] += deaths
+
+    return my_data
+
+
 def main():
     print('FARS Per-Model Fatality Data Processor', file=sys.stderr)
     print('=' * 50, file=sys.stderr)
 
     all_records = []
+    all_person_records = []
     for year in FARS_YEARS:
         print(f'\nProcessing {year}:', file=sys.stderr)
         zip_path = download_fars_zip(year)
         if zip_path:
             records = parse_vehicle_csv(zip_path, year)
             all_records.extend(records)
+            person_records = parse_person_csv(zip_path, year)
+            all_person_records.extend(person_records)
 
     if not all_records:
         print('ERROR: No records parsed. Cannot continue.', file=sys.stderr)
         sys.exit(1)
 
-    print(f'\nTotal records across all years: {len(all_records)}', file=sys.stderr)
+    print(f'\nTotal vehicle records across all years: {len(all_records)}', file=sys.stderr)
+    print(f'Total driver records across all years: {len(all_person_records)}', file=sys.stderr)
 
-    # Aggregate
+    # Aggregate deaths
     deaths_by_model, vehicle_count = aggregate_deaths(all_records)
 
     # Filter: include if MIN_DEATHS+ deaths OR if known sales > 1000/year
@@ -1494,21 +1647,19 @@ def main():
 
     # Build output — skip junk entries (numeric-only model codes, "/" in make)
     results = []
+    qualifying_set = set()
     skipped_junk = 0
     for (make, model), total_deaths in sorted(qualifying.items(), key=lambda x: -x[1]):
-        # Skip FARS numeric model codes. Legitimate numeric models are short:
-        # Ram 1500/2500/3500, Chrysler 200/300, Fiat 500, BMW 3/5/7 series variants
-        # FARS junk codes are typically 4-5 digits (12481, 20037, 6441)
         if re.match(r'^\d+$', model):
             known_numeric = SALES_DATA.get((make, model), 0) > 0
             if not known_numeric:
                 skipped_junk += 1
                 continue
-        # Skip entries with "/" in make (e.g. "Nissan/Datsun")
         if '/' in make:
             skipped_junk += 1
             continue
         body_class = get_body_class(make, model)
+        qualifying_set.add((make, model))
 
         annual_deaths = round(total_deaths / len(FARS_YEARS), 1)
         est_registered, est_annual_vmt, est_total_vmt = estimate_vmt(make, model, body_class)
@@ -1523,10 +1674,9 @@ def main():
         }
 
         if est_total_vmt and est_total_vmt > 0:
-            # Rate per 100M VMT over the full period
             rate = round(total_deaths / (est_total_vmt / 100_000_000), 2)
             entry['estRegistered'] = est_registered
-            entry['estAnnualVMT'] = round(est_annual_vmt / 1_000_000, 0)  # in millions
+            entry['estAnnualVMT'] = round(est_annual_vmt / 1_000_000, 0)
             entry['estRate'] = rate
         else:
             entry['estRegistered'] = None
@@ -1535,11 +1685,10 @@ def main():
 
         results.append(entry)
 
-    # Sort by total deaths descending
     results.sort(key=lambda x: -x['totalDeaths'])
     print(f'  Skipped {skipped_junk} junk entries (numeric codes, slashed makes)', file=sys.stderr)
 
-    # Output as JS array
+    # ===================== Output 1: FARS_BY_MODEL =====================
     yr_start, yr_end = FARS_YEARS[0], FARS_YEARS[-1]
     print(f'\n// FARS Per-Model Fatality Data ({yr_start}-{yr_end})')
     print('// Generated by fars_process.py')
@@ -1563,6 +1712,69 @@ def main():
             parts.append('vmt:null')
             parts.append('rate:null')
         print(f'  {{ {", ".join(parts)} }},')
+    print('];')
+
+    # ===================== Output 2: FARS_TOXICOLOGY =====================
+    print(f'\n// Toxicology: aggregate by make/model', file=sys.stderr)
+    tox_data = aggregate_toxicology(all_records, all_person_records)
+    # Build body class lookup from results
+    cls_lookup = {(r['make'], r['model']): r['bodyClass'] for r in results}
+    tox_results = []
+    for (make, model), stats in tox_data.items():
+        if stats['drivers'] < 100:
+            continue
+        if (make, model) not in qualifying_set:
+            continue
+        cls = cls_lookup.get((make, model), get_body_class(make, model))
+        alc_pct = round(stats['alc'] / stats['drivers'] * 100, 1)
+        drug_pct = round(stats['drug'] / stats['drivers'] * 100, 1)
+        any_pct = round(stats['any'] / stats['drivers'] * 100, 1)
+        tox_results.append({
+            'make': make, 'model': model, 'cls': cls,
+            'drivers': stats['drivers'], 'alc': stats['alc'],
+            'drug': stats['drug'], 'any': stats['any'],
+            'alcPct': alc_pct, 'drugPct': drug_pct, 'anyPct': any_pct,
+        })
+    tox_results.sort(key=lambda x: -x['anyPct'])
+    print(f'  Toxicology models with 100+ drivers: {len(tox_results)}', file=sys.stderr)
+
+    print(f'\n// FARS Toxicology Data ({yr_start}-{yr_end})')
+    print('// Impaired driving rates by vehicle model (drivers in fatal crashes)')
+    print(f'// {len(tox_results)} models with 100+ drivers in fatal crashes')
+    print('const FARS_TOXICOLOGY = [')
+    for t in tox_results:
+        parts = [
+            f'make:"{t["make"]}"', f'model:"{t["model"]}"', f'cls:"{t["cls"]}"',
+            f'drivers:{t["drivers"]}', f'alc:{t["alc"]}', f'drug:{t["drug"]}', f'any:{t["any"]}',
+            f'alcPct:{t["alcPct"]}', f'drugPct:{t["drugPct"]}', f'anyPct:{t["anyPct"]}',
+        ]
+        print(f'  {{ {", ".join(parts)} }},')
+    print('];')
+
+    # ===================== Output 3: FARS_MODEL_YEAR =====================
+    print(f'\n// Model year: aggregate by make/model/year', file=sys.stderr)
+    my_data = aggregate_by_model_year(all_records, qualifying_set)
+    my_results = []
+    for (make, model), year_deaths in my_data.items():
+        cls = cls_lookup.get((make, model), get_body_class(make, model))
+        # Filter out model years with < 5 deaths
+        filtered_years = {y: d for y, d in year_deaths.items() if d >= 5}
+        if not filtered_years:
+            continue
+        my_results.append({
+            'make': make, 'model': model, 'cls': cls,
+            'years': filtered_years,
+        })
+    my_results.sort(key=lambda x: -(sum(x['years'].values())))
+    print(f'  Model year entries: {len(my_results)}', file=sys.stderr)
+
+    print(f'\n// FARS Model Year Data ({yr_start}-{yr_end})')
+    print('// Fatal crash involvement by vehicle model year')
+    print(f'// {len(my_results)} models with model year data')
+    print('const FARS_MODEL_YEAR = [')
+    for m in my_results:
+        years_str = ','.join(f'{y}:{d}' for y, d in sorted(m['years'].items()))
+        print(f'  {{ make:"{m["make"]}", model:"{m["model"]}", cls:"{m["cls"]}", years:{{{years_str}}} }},')
     print('];')
 
     # Summary stats for stderr
