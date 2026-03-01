@@ -417,6 +417,38 @@
     }
     .chip:hover .chip-x { opacity: 1; }
 
+    .tab-bar {
+      display: flex;
+      gap: 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .tab-btn {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 10px 18px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      font-weight: 600;
+    }
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+
     @media (min-width: 1200px) { .container { max-width: 1200px; } }
     @media (min-width: 1600px) { .container { max-width: 1440px; } }
   </style>
@@ -429,6 +461,15 @@
       <p class="subtitle">NHTSA FARS national trends &amp; per-model fatality data</p>
     </header>
 
+    <nav class="tab-bar">
+      <button class="tab-btn active" onclick="switchTab('model')">By Model</button>
+      <button class="tab-btn" onclick="switchTab('tox')">Impaired Driving</button>
+      <button class="tab-btn" onclick="switchTab('myear')">Model Year</button>
+      <button class="tab-btn" onclick="switchTab('national')">National</button>
+      <button class="tab-btn" onclick="switchTab('method')">Methodology</button>
+    </nav>
+
+    <div class="tab-pane active" id="tab-model">
     <!-- FARS Per-Model Fatalities -->
     <section class="section">
       <div class="summary-cards" id="farsModelSummary">
@@ -513,6 +554,9 @@
       </div>
     </section>
 
+    </div><!-- /tab-model -->
+
+    <div class="tab-pane" id="tab-tox">
     <!-- Impaired Driving by Vehicle Model -->
     <section class="section">
       <div class="section-title">Impaired Driving by Vehicle Model (FARS 2014&ndash;2023)</div>
@@ -594,6 +638,9 @@
       </div>
     </section>
 
+    </div><!-- /tab-tox -->
+
+    <div class="tab-pane" id="tab-myear">
     <!-- Fatal Crash Involvement by Model Year -->
     <section class="section">
       <div class="section-title">Fatal Crash Involvement by Model Year (FARS 2014&ndash;2023)</div>
@@ -624,6 +671,9 @@
       <p class="fars-note">Shows total occupant deaths by vehicle model year across FARS 2014&ndash;2023 data. Older model years have more cumulative years of exposure on the road; this chart reflects fleet-age composition, not inherent vehicle safety differences. Select up to 5 vehicles to compare.</p>
     </section>
 
+    </div><!-- /tab-myear -->
+
+    <div class="tab-pane" id="tab-national">
     <!-- NHTSA Section A: National Fatality Trends -->
     <section class="section">
       <div class="section-title">National Traffic Fatality Trends (NHTSA FARS, 2014&ndash;2024)</div>
@@ -701,6 +751,9 @@
       <p class="fars-note">Rates calculated from NHTSA FARS fatality counts and FHWA VM-1 vehicle miles traveled. Per-model VMT is not publicly available; these rates apply at the broad vehicle-class level only.</p>
     </section>
 
+    </div><!-- /tab-national -->
+
+    <div class="tab-pane" id="tab-method">
     <!-- Methodology -->
     <section class="section">
       <div class="section-title">Methodology &amp; Sources</div>
@@ -779,6 +832,7 @@
         </p>
       </div>
     </section>
+    </div><!-- /tab-method -->
   </div>
 
   <script>
@@ -1792,32 +1846,56 @@
     }
 
     // ================================================================
+    // Tab navigation
+    // ================================================================
+    const TAB_CHARTS = {
+      model: () => renderFarsModelChart(),
+      tox: () => { if (typeof renderToxChart === 'function') renderToxChart(); },
+      myear: () => { if (typeof renderMyearChart === 'function') renderMyearChart(); },
+      national: () => { renderNationalChart(); renderUserTypeChart(); renderClassRateChart(); },
+      method: () => {}
+    };
+
+    function switchTab(id) {
+      document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      const pane = document.getElementById('tab-' + id);
+      if (pane) pane.classList.add('active');
+      const btns = document.querySelectorAll('.tab-btn');
+      const names = ['model','tox','myear','national','method'];
+      const idx = names.indexOf(id);
+      if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
+      history.replaceState(null, '', '#' + id);
+      // Re-render charts in newly visible pane (they need non-zero width)
+      requestAnimationFrame(() => { if (TAB_CHARTS[id]) TAB_CHARTS[id](); });
+    }
+
+    // ================================================================
     // Resize handler
     // ================================================================
     let resizeTimer;
     window.addEventListener('resize', () => {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => {
-        renderNationalChart();
-        renderUserTypeChart();
-        renderClassRateChart();
-        renderFarsModelChart();
-        if (typeof renderToxChart === 'function') renderToxChart();
-        if (typeof renderMyearChart === 'function') renderMyearChart();
+        // Only re-render charts in the active tab
+        const active = document.querySelector('.tab-pane.active');
+        if (active) {
+          const id = active.id.replace('tab-', '');
+          if (TAB_CHARTS[id]) TAB_CHARTS[id]();
+        }
       }, 150);
     });
 
     // ================================================================
     // Initialize
     // ================================================================
-    renderNationalChart();
-    renderUserTypeChart();
     initClassRateToggle();
-    renderClassRateChart();
     applyFarsFilters();
     applyToxFilters();
     updateMyearSummary();
-    renderMyearChart();
+    // Activate tab from hash or default to 'model'
+    const initTab = location.hash.replace('#', '') || 'model';
+    switchTab(['model','tox','myear','national','method'].includes(initTab) ? initTab : 'model');
   </script>
   <script>
     (function() {
@@ -1834,13 +1912,12 @@
         var isDark = next === 'dark' || (!next && window.matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.classList.toggle('dark', isDark);
         label();
-        // Re-render all canvas charts with updated theme colors
-        if (typeof renderNationalChart === 'function') renderNationalChart();
-        if (typeof renderUserTypeChart === 'function') renderUserTypeChart();
-        if (typeof renderClassRateChart === 'function') renderClassRateChart();
-        if (typeof renderFarsModelChart === 'function') renderFarsModelChart();
-        if (typeof renderToxChart === 'function') renderToxChart();
-        if (typeof renderMyearChart === 'function') renderMyearChart();
+        // Re-render charts in active tab with updated theme colors
+        var active = document.querySelector('.tab-pane.active');
+        if (active && TAB_CHARTS) {
+          var tid = active.id.replace('tab-', '');
+          if (TAB_CHARTS[tid]) TAB_CHARTS[tid]();
+        }
       });
       label();
       document.body.appendChild(btn);
