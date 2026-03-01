@@ -589,10 +589,13 @@
           <option value="Sports Car">Sports Car</option>
         </select>
         <select id="toxSort" onchange="applyToxFilters()">
-          <option value="any-desc" selected>Any Impairment (high)</option>
-          <option value="alc-desc">Alcohol (high)</option>
-          <option value="drug-desc">Drugs (high)</option>
-          <option value="any-asc">Any Impairment (low)</option>
+          <option value="any-desc" selected>Any Impairment % (high)</option>
+          <option value="alc-desc">Alcohol % (high)</option>
+          <option value="drug-desc">Drugs % (high)</option>
+          <option value="any-asc">Any Impairment % (low)</option>
+          <option value="any-raw-desc">Any Impairment # (high)</option>
+          <option value="alc-raw-desc">Alcohol # (high)</option>
+          <option value="drug-raw-desc">Drugs # (high)</option>
           <option value="drivers-desc">Drivers (most)</option>
           <option value="make">Make (A-Z)</option>
         </select>
@@ -629,8 +632,11 @@
               <th data-toxcol="class">Class <span class="sort-arrow">&#9650;</span></th>
               <th data-toxcol="drivers">Drivers <span class="sort-arrow">&#9650;</span></th>
               <th data-toxcol="any" class="sorted">Any % <span class="sort-arrow">&#9660;</span></th>
+              <th data-toxcol="any-raw">Any # <span class="sort-arrow">&#9650;</span></th>
               <th data-toxcol="alc">Alc % <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="alc-raw">Alc # <span class="sort-arrow">&#9650;</span></th>
               <th data-toxcol="drug">Drug % <span class="sort-arrow">&#9650;</span></th>
+              <th data-toxcol="drug-raw">Drug # <span class="sort-arrow">&#9650;</span></th>
             </tr>
           </thead>
           <tbody id="toxTableBody"></tbody>
@@ -1502,6 +1508,9 @@
         case 'alc-desc': filteredTox.sort((a, b) => b.alcPct - a.alcPct); break;
         case 'drug-desc': filteredTox.sort((a, b) => b.drugPct - a.drugPct); break;
         case 'any-asc': filteredTox.sort((a, b) => a.anyPct - b.anyPct); break;
+        case 'any-raw-desc': filteredTox.sort((a, b) => b.any - a.any); break;
+        case 'alc-raw-desc': filteredTox.sort((a, b) => b.alc - a.alc); break;
+        case 'drug-raw-desc': filteredTox.sort((a, b) => b.drug - a.drug); break;
         case 'drivers-desc': filteredTox.sort((a, b) => b.drivers - a.drivers); break;
         case 'make': filteredTox.sort((a, b) => (a.make + ' ' + a.model).localeCompare(b.make + ' ' + b.model)); break;
       }
@@ -1599,7 +1608,7 @@
       document.getElementById('toxTableCount').textContent = filteredTox.length + ' vehicle' + (filteredTox.length !== 1 ? 's' : '');
 
       if (filteredTox.length === 0) {
-        tbody.innerHTML = '<tr class="no-results"><td colspan="7">No vehicles match current filters</td></tr>';
+        tbody.innerHTML = '<tr class="no-results"><td colspan="10">No vehicles match current filters</td></tr>';
         return;
       }
 
@@ -1610,8 +1619,11 @@
         '<td>' + d.cls + '</td>' +
         '<td>' + d.drivers.toLocaleString() + '</td>' +
         '<td><strong>' + d.anyPct + '%</strong></td>' +
+        '<td>' + d.any.toLocaleString() + '</td>' +
         '<td>' + d.alcPct + '%</td>' +
+        '<td>' + d.alc.toLocaleString() + '</td>' +
         '<td>' + d.drugPct + '%</td>' +
+        '<td>' + d.drug.toLocaleString() + '</td>' +
         '</tr>'
       ).join('');
     }
@@ -1631,6 +1643,8 @@
         switch (col) {
           case 'rank': case 'any':
             filteredTox.sort((a, b) => asc ? a.anyPct - b.anyPct : b.anyPct - a.anyPct); break;
+          case 'any-raw':
+            filteredTox.sort((a, b) => asc ? a.any - b.any : b.any - a.any); break;
           case 'vehicle':
             filteredTox.sort((a, b) => asc ? (a.make + a.model).localeCompare(b.make + b.model) : (b.make + b.model).localeCompare(a.make + a.model)); break;
           case 'class':
@@ -1639,8 +1653,12 @@
             filteredTox.sort((a, b) => asc ? a.drivers - b.drivers : b.drivers - a.drivers); break;
           case 'alc':
             filteredTox.sort((a, b) => asc ? a.alcPct - b.alcPct : b.alcPct - a.alcPct); break;
+          case 'alc-raw':
+            filteredTox.sort((a, b) => asc ? a.alc - b.alc : b.alc - a.alc); break;
           case 'drug':
             filteredTox.sort((a, b) => asc ? a.drugPct - b.drugPct : b.drugPct - a.drugPct); break;
+          case 'drug-raw':
+            filteredTox.sort((a, b) => asc ? a.drug - b.drug : b.drug - a.drug); break;
         }
         renderToxTable();
         renderToxChart();
