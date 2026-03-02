@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vehicle Safety Ratings</title>
+  <title>The Crash Report &mdash; NHTSA FARS Vehicle Fatality Data</title>
 
   <script>
     (function(){var t=localStorage.getItem('theme');
@@ -11,493 +11,26 @@
     document.documentElement.classList.add('dark');})();
   </script>
 
-  <style>
-    :root {
-      --accent: #1E90FF;
-      --accent-hover: #0066CC;
-      --bg: #fafafa;
-      --text: #1a1a1a;
-      --text-muted: #666;
-      --border: #ddd;
-      --card-bg: #fff;
-      --radius: 6px;
-      --font-mono: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
-      --tier-very-low: #2e7d32;
-      --tier-low: #66bb6a;
-      --tier-avg: #fbc02d;
-      --tier-elevated: #f57c00;
-      --tier-high: #d32f2f;
-      --tier-very-high: #8b0000;
-      --fars-passenger: #4285F4;
-      --fars-light-truck: #34A853;
-      --fars-motorcycle: #EA4335;
-      --fars-pedestrian: #FBBC04;
-      --fars-pedalcyclist: #9C27B0;
-      --fars-overall: #607D8B;
-      --fars-bar: #4285F4;
-      --fars-line: #EA4335;
-      --fars-estimate: rgba(66,133,244,0.45);
-      --cls-sedan: #5C6BC0;
-      --cls-suv: #26A69A;
-      --cls-pickup: #FF7043;
-      --cls-van: #AB47BC;
-      --cls-sports: #EF5350;
-      --tox-alcohol: #FF6B35;
-      --tox-drug: #9C27B0;
-      --tox-any: #D32F2F;
-      --myear-1: #4285F4;
-      --myear-2: #EA4335;
-      --myear-3: #34A853;
-      --myear-4: #FBBC04;
-      --myear-5: #9C27B0;
-    }
-
-    html.dark {
-      --accent: #4da6ff;
-      --accent-hover: #80bfff;
-      --bg: #1a1a1a;
-      --text: #e0e0e0;
-      --text-muted: #999;
-      --border: #333;
-      --card-bg: #252525;
-      --fars-passenger: #6ea8f7;
-      --fars-light-truck: #5ec76e;
-      --fars-motorcycle: #f06858;
-      --fars-pedestrian: #fdd663;
-      --fars-pedalcyclist: #ba68c8;
-      --fars-overall: #90a4ae;
-      --fars-bar: #6ea8f7;
-      --fars-line: #f06858;
-      --fars-estimate: rgba(110,168,247,0.40);
-      --cls-sedan: #7986CB;
-      --cls-suv: #4DB6AC;
-      --cls-pickup: #FF8A65;
-      --cls-van: #CE93D8;
-      --cls-sports: #EF7070;
-      --tox-alcohol: #FF8A65;
-      --tox-drug: #CE93D8;
-      --tox-any: #EF5350;
-      --myear-1: #6ea8f7;
-      --myear-2: #f06858;
-      --myear-3: #5ec76e;
-      --myear-4: #fdd663;
-      --myear-5: #ba68c8;
-    }
-    html.dark .tier-low, html.dark .tier-avg { color: #1a1a1a; }
-
-    .theme-toggle {
-      position: fixed;
-      bottom: 16px;
-      right: 16px;
-      padding: 6px 12px;
-      font-family: var(--font-mono);
-      font-size: 0.7rem;
-      background: var(--card-bg);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      cursor: pointer;
-      z-index: 9999;
-      opacity: 0.5;
-      transition: opacity 0.15s;
-    }
-    .theme-toggle:hover { opacity: 1; }
-
-    * { box-sizing: border-box; }
-
-    body {
-      font-family: var(--font-mono);
-      margin: 0; padding: 0;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
-    a:hover { color: var(--accent-hover); }
-
-    .container { max-width: 960px; margin: 0 auto; padding: 20px; }
-
-    header { margin-bottom: 30px; }
-    header .back { font-size: 0.8rem; color: var(--text-muted); }
-    h1 { font-size: 1.8rem; margin: 10px 0 6px; font-weight: 700; letter-spacing: -0.5px; }
-    .subtitle { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
-
-    /* Summary Cards */
-    .summary-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
-      margin-bottom: 28px;
-    }
-    .summary-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-    }
-    .summary-card .label {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-    }
-    .summary-card .value {
-      font-size: 1.4rem;
-      font-weight: 700;
-    }
-    .summary-card .detail {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 2px;
-    }
-
-    /* Section titles */
-    .section-title {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--text-muted);
-      margin-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 6px;
-    }
-
-    .section { margin-bottom: 32px; }
-
-    /* Controls */
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 16px;
-      align-items: center;
-    }
-    .controls input[type="text"],
-    .controls select {
-      padding: 8px 12px;
-      font-family: var(--font-mono);
-      font-size: 0.8rem;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      background: var(--card-bg);
-      color: var(--text);
-    }
-    .controls input[type="text"] { flex: 1; min-width: 160px; }
-    .controls select { min-width: 120px; }
-    .controls input:focus, .controls select:focus {
-      outline: none; border-color: var(--accent);
-    }
-
-    .toggle-group {
-      display: flex;
-      flex-wrap: wrap;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-    .toggle-btn {
-      padding: 7px 14px;
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      border: none;
-      background: var(--card-bg);
-      color: var(--text);
-      cursor: pointer;
-      transition: background 0.15s, color 0.15s;
-      white-space: nowrap;
-    }
-    .toggle-btn + .toggle-btn { border-left: 1px solid var(--border); }
-    .toggle-btn.active {
-      background: var(--accent);
-      color: #fff;
-    }
-
-    /* Chart */
-    .chart-wrap {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 16px;
-      overflow-x: auto;
-    }
-    canvas { display: block; }
-
-    /* Data Table */
-    .table-wrap {
-      overflow-x: auto;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.8rem;
-    }
-    th {
-      position: sticky;
-      top: 0;
-      background: var(--card-bg);
-      padding: 10px 12px;
-      text-align: left;
-      font-weight: 600;
-      border-bottom: 2px solid var(--border);
-      cursor: pointer;
-      user-select: none;
-      white-space: nowrap;
-    }
-    th:hover { color: var(--accent); }
-    th .sort-arrow { font-size: 0.65rem; margin-left: 4px; opacity: 0.4; }
-    th.sorted .sort-arrow { opacity: 1; color: var(--accent); }
-    td {
-      padding: 8px 12px;
-      border-bottom: 1px solid var(--border);
-      white-space: nowrap;
-    }
-    tr:hover td { background: rgba(30,144,255,0.03); }
-    .no-results td {
-      text-align: center;
-      color: var(--text-muted);
-      padding: 24px;
-      font-style: italic;
-    }
-
-    /* Tier badges */
-    .tier-badge {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 3px;
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #fff;
-    }
-    .tier-very-low  { background: var(--tier-very-low); }
-    .tier-low       { background: var(--tier-low); color: #1a1a1a; }
-    .tier-avg       { background: var(--tier-avg); color: #1a1a1a; }
-    .tier-elevated  { background: var(--tier-elevated); }
-    .tier-high      { background: var(--tier-high); }
-    .tier-very-high { background: var(--tier-very-high); }
-
-    /* Class averages */
-    .class-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 12px;
-    }
-    .class-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 12px 16px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .class-card .class-name {
-      font-size: 0.8rem;
-      font-weight: 600;
-    }
-    .class-card .class-rate {
-      font-size: 1.1rem;
-      font-weight: 700;
-    }
-    .class-bar {
-      height: 4px;
-      border-radius: 2px;
-      margin-top: 6px;
-    }
-
-    /* Methodology */
-    .methodology {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px 24px;
-      font-size: 0.8rem;
-      line-height: 1.7;
-    }
-    .methodology h3 {
-      margin: 0 0 10px;
-      font-size: 0.9rem;
-    }
-    .methodology p { margin: 8px 0; }
-    .methodology ul {
-      margin: 8px 0;
-      padding-left: 20px;
-    }
-    .methodology li { margin: 4px 0; }
-
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 12px;
-      font-size: 0.72rem;
-    }
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-    .legend-swatch {
-      width: 14px;
-      height: 14px;
-      border-radius: 2px;
-    }
-
-    .count-label {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      margin-bottom: 8px;
-    }
-
-    .callout-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      text-align: center;
-    }
-    .callout-card .label {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-    }
-    .callout-card .value {
-      font-size: 1.4rem;
-      font-weight: 700;
-    }
-    .callout-card .detail {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 2px;
-    }
-
-    .fars-note {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 8px;
-      font-style: italic;
-    }
-
-    @media (max-width: 600px) {
-      h1 { font-size: 1.4rem; }
-      .summary-cards { grid-template-columns: 1fr 1fr; }
-      .controls { flex-direction: column; }
-      .controls input[type="text"] { min-width: 100%; }
-      .controls select { min-width: 100%; }
-      .toggle-btn { padding: 7px 10px; font-size: 0.7rem; }
-      td, th { padding: 6px 8px; font-size: 0.72rem; }
-    }
-    .chip-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-bottom: 10px;
-    }
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 4px 10px;
-      font-family: var(--font-mono);
-      font-size: 0.72rem;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      cursor: pointer;
-    }
-    .chip .chip-x {
-      font-size: 0.65rem;
-      opacity: 0.6;
-    }
-    .chip:hover .chip-x { opacity: 1; }
-
-    .tab-bar {
-      display: flex;
-      gap: 0;
-      border-bottom: 2px solid var(--border);
-      margin-bottom: 24px;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-    .tab-btn {
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      padding: 10px 18px;
-      background: none;
-      border: none;
-      border-bottom: 2px solid transparent;
-      margin-bottom: -2px;
-      color: var(--text-muted);
-      cursor: pointer;
-      white-space: nowrap;
-      transition: color 0.15s, border-color 0.15s;
-    }
-    .tab-btn:hover { color: var(--text); }
-    .tab-btn.active {
-      color: var(--accent);
-      border-bottom-color: var(--accent);
-      font-weight: 600;
-    }
-    .tab-pane { display: none; }
-    .tab-pane.active { display: block; }
-
-    .chart-tooltip {
-      position: fixed;
-      pointer-events: none;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 8px 12px;
-      font-family: var(--font-mono);
-      font-size: 0.72rem;
-      line-height: 1.5;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-      z-index: 1000;
-      max-width: 300px;
-      display: none;
-    }
-    .chart-tooltip b { font-weight: 600; }
-
-    .story { margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
-    .story:last-child { border-bottom: none; }
-    .story-kicker { font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 4px; }
-    .story h2 { font-size: 1.35rem; line-height: 1.3; margin: 0 0 6px; }
-    .story .byline { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-bottom: 14px; }
-    .story p { line-height: 1.7; margin: 0 0 12px; }
-    .story .pull-stat { font-family: var(--font-mono); font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1.1; margin: 16px 0 4px; }
-    .story .pull-label { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-bottom: 16px; }
-    .story-disclaimer { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 16px; margin-top: 32px; line-height: 1.6; }
-
-    @media (min-width: 1200px) { .container { max-width: 1200px; } }
-    @media (min-width: 1600px) { .container { max-width: 1440px; } }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
     <header>
-      <h1>Vehicle Safety Ratings</h1>
-      <p class="subtitle">NHTSA FARS national trends &amp; per-model fatality data</p>
+      <h1>The Crash Report</h1>
+      <p class="subtitle">NHTSA FARS vehicle fatality data, 2014&ndash;2023</p>
     </header>
 
     <nav class="tab-bar">
-      <button class="tab-btn active" onclick="switchTab('model')">By Model</button>
+      <button class="tab-btn active" onclick="switchTab('stories')">Findings</button>
+      <button class="tab-btn" onclick="switchTab('model')">By Model</button>
       <button class="tab-btn" onclick="switchTab('tox')">Impaired Driving</button>
       <button class="tab-btn" onclick="switchTab('myear')">Model Year</button>
       <button class="tab-btn" onclick="switchTab('national')">National</button>
-      <button class="tab-btn" onclick="switchTab('stories')">Findings</button>
       <button class="tab-btn" onclick="switchTab('method')">Methodology</button>
     </nav>
 
-    <div class="tab-pane active" id="tab-model">
+    <div class="tab-pane" id="tab-model">
     <!-- FARS Per-Model Fatalities -->
     <section class="section">
       <div class="summary-cards" id="farsModelSummary">
@@ -782,70 +315,41 @@
 
     </div><!-- /tab-national -->
 
-    <div class="tab-pane" id="tab-stories">
+    <div class="tab-pane active" id="tab-stories">
     <section class="section">
       <div class="section-title">Data Findings &mdash; NHTSA FARS 2014&ndash;2023</div>
 
-      <article class="story">
+      <a href="stories/corvette-impairment.html" class="story-card">
         <div class="story-kicker">Investigation</div>
-        <h2>One In Four Corvette Drivers In Fatal Crashes Is Impaired. It Gets Worse From There.</h2>
-        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
-        <p>The Chevrolet Corvette is America&rsquo;s dream car. It&rsquo;s also apparently America&rsquo;s drink-and-drive car. NHTSA fatality data reveals that <strong>26.2% of Corvette drivers involved in fatal crashes</strong> tested positive for alcohol or drugs &mdash; the highest impairment rate of any major sports car, and one of the highest of <em>any vehicle on the road</em>.</p>
-        <div class="pull-stat">26.2%</div>
-        <div class="pull-label">of Corvette drivers in fatal crashes were impaired</div>
-        <p>For context, the Ford Mustang &mdash; a car whose entire cultural identity revolves around &ldquo;leaving Cars &amp; Coffee into a crowd&rdquo; &mdash; clocks in at 21.9%. The Camaro sits at 23.0%. The Dodge Challenger, the car that literally murdered a tire brand, manages 22.5%. The Corvette beats them all.</p>
-        <p>But here&rsquo;s the kicker: the Corvette&rsquo;s actual death rate (1.52 per 100M VMT) is relatively modest compared to the Mustang&rsquo;s catastrophic 6.02. This means Corvette drivers are proportionally more hammered but die less often &mdash; possibly because the car costs $65,000+ and has better crash structures than a 22-year-old&rsquo;s used Mustang GT. Money buys safety, even from yourself.</p>
-        <p>At the very top of the impairment leaderboard? The <strong>Buick Park Avenue at 31.7%</strong> &mdash; nearly one in three. Your grandpa&rsquo;s land yacht is statistically the most impaired vehicle in America. One imagines the cocktails at the country club hitting different on the drive home.</p>
-      </article>
+        <h3>One In Four Corvette Drivers In Fatal Crashes Is Impaired. It Gets Worse From There.</h3>
+        <p class="story-deck">26.2% of Corvette drivers in fatal crashes tested positive for alcohol or drugs &mdash; the highest of any major sports car. The Buick Park Avenue hits 31.7%.</p>
+      </a>
 
-      <article class="story">
+      <a href="stories/suv-death-gap.html" class="story-card">
         <div class="story-kicker">Class Warfare</div>
-        <h2>The 261x Death Gap: How Your SUV Choice Is Literally a Life-or-Death Decision</h2>
-        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
-        <p>If you&rsquo;re shopping for an SUV, the difference between the right choice and the wrong choice isn&rsquo;t a better infotainment system. It&rsquo;s a <strong>261-fold difference in your estimated chance of dying</strong>.</p>
-        <div class="pull-stat">261x</div>
-        <div class="pull-label">death rate difference between worst and best SUV</div>
-        <p>The Chevrolet Tracker &mdash; a vehicle so forgettable that you&rsquo;re googling it right now &mdash; posts an estimated fatality rate of <strong>7.83 deaths per 100 million vehicle miles traveled</strong>. The Porsche Macan, a vehicle that costs approximately six Trackers, manages 0.03. That&rsquo;s not a rounding error. That&rsquo;s a two-hundred-and-sixty-one-fold gap.</p>
-        <p>The same pattern repeats across every vehicle class. Sedans span from the Nissan Maxima (5.11) to the Chevrolet Prizm (0.02) &mdash; a 256x gap. Pickups range from the Chevy S-10 (4.83) to the Ram 2500 (0.13) &mdash; a 37x spread.</p>
-        <p>The uncomfortable conclusion: vehicle safety is not a spectrum. It&rsquo;s a cliff. And the vehicles at the bottom of that cliff are overwhelmingly the cheap ones, the old ones, and the ones bought by people who can&rsquo;t afford to choose differently. The estimated rate methodology here is approximate &mdash; but even with generous error bars, the magnitude of these gaps is staggering.</p>
-      </article>
+        <h3>The 261x Death Gap: How Your SUV Choice Is Literally a Life-or-Death Decision</h3>
+        <p class="story-deck">The estimated fatality rate gap between the Chevrolet Tracker and the Porsche Macan is 261-fold. The pattern repeats across every vehicle class.</p>
+      </a>
 
-      <article class="story">
+      <a href="stories/accord-body-count.html" class="story-card">
         <div class="story-kicker">Body Count</div>
-        <h2>The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined</h2>
-        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
-        <p>Let&rsquo;s play a game. Add up every occupant death in every Ford Mustang, Chevrolet Camaro, Chevrolet Corvette, and Dodge Challenger over a decade of FARS data. You get <strong>4,648</strong> deaths. A horrifying number. Now look at the Honda Accord: <strong>7,102 deaths</strong>. The boring beige sedan your dental hygienist drives has a higher body count than the four horsemen of American muscle <em>put together</em>.</p>
-        <div class="pull-stat">7,102</div>
-        <div class="pull-label">Honda Accord occupant deaths, 2014&ndash;2023</div>
-        <p>Before you swear off Accords: this is a fleet-size story, not a safety story. There are roughly 10 million Accords on American roads versus maybe 500,000 Corvettes. The Accord&rsquo;s estimated death <em>rate</em> (3.07 per 100M VMT) is half the Mustang&rsquo;s (6.02). Per mile driven, you&rsquo;re twice as safe in the Accord.</p>
-        <p>But raw numbers have their own brutal truth. The top five killers by total body count are exactly the five best-selling vehicles in America: Chevy Silverado (9,591), Ford F-150 (9,194), Honda Accord (7,102), Honda Civic (6,553), and Toyota Camry (6,328). Together, these five models account for <strong>43,768 deaths in ten years</strong> &mdash; more than the entire annual US traffic death toll. Ubiquity is its own kind of danger.</p>
-      </article>
+        <h3>The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined</h3>
+        <p class="story-deck">7,102 Accord deaths vs. 4,648 for all four muscle cars. Ubiquity is its own kind of danger &mdash; but per-mile, the Accord is twice as safe.</p>
+      </a>
 
-      <article class="story">
+      <a href="stories/astro-van-impairment.html" class="story-card">
         <div class="story-kicker">Sobriety Report</div>
-        <h2>The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded</h2>
-        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
-        <p>You might expect high impairment rates from Mustangs and Corvettes. You probably don&rsquo;t expect them from a vehicle primarily used to haul soccer equipment and drywall. Yet the <strong>Chevrolet Astro Van</strong> posts a 27.0% impairment rate &mdash; higher than the Mustang (21.9%), the Camaro (23.0%), and every single pickup truck in the database.</p>
-        <div class="pull-stat">27.0%</div>
-        <div class="pull-label">Chevy Astro Van driver impairment rate in fatal crashes</div>
-        <p>The Astro isn&rsquo;t alone. The Ford Windstar &mdash; the official minivan of &ldquo;my kid has a travel baseball tournament&rdquo; &mdash; hits 23.1%. Even the Dodge Grand Caravan, possibly the most aggressively boring vehicle ever manufactured, clocks 15.3%.</p>
-        <p>Meanwhile, at the bottom of the impairment charts, you&rsquo;ll find the Subaru Ascent at 8.2% and the Toyota Land Cruiser at 8.9%. The vehicles with the soberest drivers are the ones marketed to outdoorsy types and international diplomats. The ones with the drunkest drivers are the ones you can buy for $3,000 on Facebook Marketplace at 2 AM.</p>
-        <p>This tracks with a grim demographic reality: impairment in fatal crashes correlates more with vehicle age and price point than vehicle type. Cheap, old vehicles &mdash; regardless of whether they&rsquo;re sports cars or minivans &mdash; attract drivers who are statistically more likely to drive impaired. The Astro Van isn&rsquo;t a party car. It&rsquo;s just cheap.</p>
-      </article>
+        <h3>The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded</h3>
+        <p class="story-deck">A minivan out-drinks the Mustang. Impairment in fatal crashes correlates with vehicle price, not vehicle type.</p>
+      </a>
 
-      <article class="story">
+      <a href="stories/land-cruiser-paradox.html" class="story-card">
         <div class="story-kicker">Existential Dread</div>
-        <h2>The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death</h2>
-        <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
-        <p>The Toyota Land Cruiser has the <strong>third-lowest impairment rate</strong> of any vehicle in the database: just 8.9% of its drivers in fatal crashes tested positive for alcohol or drugs. These are the soberest drivers on American roads, and they are doing everything right. They are also dying at <strong>6.27 deaths per 100 million VMT</strong> &mdash; the third-highest rate of any vehicle.</p>
-        <div class="pull-stat">6.27</div>
-        <div class="pull-label">Land Cruiser death rate &mdash; 3rd highest, despite 3rd-lowest impairment</div>
-        <p>This is the most unsettling data point in the entire database. The Corvette kills you because you&rsquo;re drunk. The Mustang kills you because you&rsquo;re 22 and invincible. The Land Cruiser kills you because &mdash; well, that&rsquo;s the question, isn&rsquo;t it?</p>
-        <p>One hypothesis: the Land Cruiser&rsquo;s demographics skew toward rural, high-speed roads. Another: it&rsquo;s a 6,000-pound body-on-frame truck with a high center of gravity that owners drive like a sedan. A third: the small fleet size (an estimated 43,750 on the road, with just 343 deaths over the decade) amplifies statistical noise. But even granting wide error bars, the combination of stone-cold-sober drivers and top-tier death rates is a genuine puzzle.</p>
-        <p>Compare: the Tesla Model Y posts 0.03 deaths per 100M VMT. The Subaru Ascent: 0.16. Modern crossover SUVs are extraordinarily safe. The Land Cruiser is not a modern crossover. It&rsquo;s a 1950s truck architecture wearing a $90,000 suit, and the data doesn&rsquo;t care how prestigious the badge is.</p>
-      </article>
+        <h3>The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death</h3>
+        <p class="story-deck">3rd-lowest impairment rate. 3rd-highest death rate. The most unsettling data point in the database.</p>
+      </a>
 
-      <p class="story-disclaimer"><strong>Methodology note:</strong> All figures are derived from NHTSA FARS data (2014&ndash;2023). &ldquo;Estimated death rates&rdquo; use a fleet-size proxy based on average annual sales, not actual registration counts &mdash; see the Methodology tab for caveats. Impairment percentages reflect toxicology results where testing was performed; actual rates may be higher. These articles are AI-generated analysis of public safety data, written in an editorial style. Individual vehicle safety depends on many factors not captured here, including driver behavior, road conditions, vehicle age, and maintenance.</p>
+      <p class="story-disclaimer">AI-generated editorial analysis of NHTSA FARS public data. See <a href="#method" onclick="switchTab('method')">Methodology</a> for caveats.</p>
     </section>
     </div><!-- /tab-stories -->
 

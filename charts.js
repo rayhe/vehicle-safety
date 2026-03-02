@@ -1157,7 +1157,7 @@ function switchTab(id) {
   const pane = document.getElementById('tab-' + id);
   if (pane) pane.classList.add('active');
   const btns = document.querySelectorAll('.tab-btn');
-  const names = ['model','tox','myear','national','stories','method'];
+  const names = ['stories','model','tox','myear','national','method'];
   const idx = names.indexOf(id);
   if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
   history.replaceState(null, '', '#' + id);
@@ -1199,8 +1199,8 @@ if (FARS_BY_MODEL && FARS_MODEL_YEAR && FARS_BY_MODEL.length > 0) {
   renderMyearChips();
 }
 // Activate tab from hash or default to 'model'
-const initTab = location.hash.replace('#', '') || 'model';
-switchTab(['model','tox','myear','national','stories','method'].includes(initTab) ? initTab : 'model');
+const initTab = location.hash.replace('#', '') || 'stories';
+switchTab(['stories','model','tox','myear','national','method'].includes(initTab) ? initTab : 'stories');
 
 // Hover tooltips for all charts
 addCanvasHover('nationalChart', (x, y) => {
