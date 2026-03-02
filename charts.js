@@ -107,7 +107,7 @@ function renderNationalChart() {
 
   const wrap = canvas.parentElement;
   const W = wrap.clientWidth - 32;
-  const H = Math.min(300, Math.max(220, W * 0.45));
+  const H = Math.min(450, Math.max(280, W * 0.5));
 
   canvas.style.width = W + 'px';
   canvas.style.height = H + 'px';
@@ -277,7 +277,7 @@ function renderUserTypeChart() {
 
   const wrap = canvas.parentElement;
   const W = wrap.clientWidth - 32;
-  const H = Math.min(280, Math.max(200, W * 0.42));
+  const H = Math.min(420, Math.max(260, W * 0.5));
 
   canvas.style.width = W + 'px';
   canvas.style.height = H + 'px';
@@ -995,7 +995,7 @@ function renderMyearChart() {
 
   const wrap = canvas.parentElement;
   const W = wrap.clientWidth - 32;
-  const H = Math.min(350, Math.max(250, W * 0.45));
+  const H = Math.min(450, Math.max(300, W * 0.5));
 
   canvas.style.width = W + 'px';
   canvas.style.height = H + 'px';

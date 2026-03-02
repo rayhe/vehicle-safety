@@ -42,7 +42,7 @@ Downloads from `static.nhtsa.gov`, caches ZIPs in `.fars_cache/`. Processes year
 
 ## Deployment
 ```bash
-tmp=$(mktemp -d) && cp index.html charts.js style.css fars_output.js "$tmp/" && mkdir -p "$tmp/stories" && cp stories/*.html "$tmp/stories/" && npx wrangler pages deploy "$tmp" --project-name=vehicle-safety && rm -rf "$tmp"
+tmp=$(mktemp -d) && cp index.html charts.js style.css fars_output.js sitemap.xml "$tmp/" && mkdir -p "$tmp/stories" && cp stories/*.html "$tmp/stories/" && npx wrangler pages deploy "$tmp" --project-name=vehicle-safety && rm -rf "$tmp"
 ```
 
 ## Notes
