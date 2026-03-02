@@ -62,7 +62,8 @@ Load `fars_output.js` and look for:
     <article class="story">
       <div class="story-kicker">KICKER</div>
       <h1>HEADLINE</h1>
-      <div class="byline">Claude Brokenik &bull; Clautomotive Desk</div>
+      <div class="byline">BYLINE &bull; Clautomotive Desk</div>
+      <div class="dateline">DATE</div>
 
       <p>LEDE PARAGRAPH with <strong>key stat bolded</strong>.</p>
 
