@@ -95,6 +95,13 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [ ] Newsletter signup placeholder
 - [ ] Social share buttons on stories
 - [ ] "Most dangerous vehicles" featured widget
+- [ ] Google account login (Firebase Auth) for article comments
+- [ ] Firebase-backed comment system on each story page
+- [ ] Comment moderation (spam filtering, report button)
+- [ ] Commenter profile with display name + avatar from Google
+- [ ] "Most discussed" badge on story cards with high comment counts
+- [ ] Upvote/downvote on comments
+- [ ] Email notification for replies (via Firebase Cloud Functions)
 
 ## Self-Improvement Process
 Each hourly design cycle should:
