@@ -35,14 +35,17 @@
 - **Data/tables:** Keep monospace for numbers and code
 - **Font stack:** `'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`
 
-## Current State (March 2026)
-- Monospace everything — feels like a developer tool, not a journalism site
-- No logo/favicon → *Fixed: logo.jpg + favicon PNGs added*
-- Header is plain text → *Fixed: logo + title layout added*
-- Story cards are basic boxes → *Fixed: hero images, hover effects, meta info*
+## Current State (July 2025)
+- ~~Monospace everything~~ → *Fixed: Inter sans-serif for all UI, monospace only for data values/tables*
+- No logo/favicon → *Fixed: logo.jpg + favicon PNGs added* *(SVG logo still needed)*
+- ~~Header is plain text~~ → *Fixed: proper masthead with logo, bold title, tagline*
+- ~~Story cards are basic boxes~~ → *Fixed: CSS grid layout, hero images, hover lift+shadow, card body structure*
 - Charts are functional but not polished
-- No hero imagery on the homepage → *Fixed: hero images on story cards*
+- ~~No hero imagery~~ → *Fixed: hero images on story cards*
 - Mobile experience is passable but not great
+- *New: Brand accent color shifted from blue (#1E90FF) to crash red (#D32F2F)*
+- *New: 3-column editorial footer with About/Data/Contribute sections*
+- *New: Story cards now use proper journalist bylines from JOURNALISTS.md*
 - *New: Smooth tab transitions with keyboard navigation (arrows, 1-6, /)*
 - *New: Rich structured tooltips with danger highlighting*
 - *New: ARIA accessibility on tabs, panels, and chart canvases*
@@ -81,14 +84,14 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 ## Iterative Improvement Plan
 
 ### Phase 1: Foundation (Week 1)
-- [ ] Generate SVG logo/favicon
-- [ ] Switch header typography to sans-serif
-- [ ] Redesign story cards with image support
-- [ ] Add proper editorial header/masthead
-- [ ] Improve tab navigation styling
+- [ ] Generate SVG logo/favicon *(still using logo.jpg, needs custom SVG)*
+- [x] Switch header typography to sans-serif *(done: Inter from Google Fonts, sans-serif for all UI, monospace only for data values)*
+- [x] Redesign story cards with image support *(done: CSS grid layout, card hover lift+shadow, proper card body structure, removed inline styles)*
+- [x] Add proper editorial header/masthead *(done: centered masthead with logo, bold Inter h1, tagline "Every fatal crash in America, charted.")*
+- [x] Improve tab navigation styling *(done: centered tabs, 3px bottom border, Inter font, editorial feel)*
 
 ### Phase 2: Polish (Week 2)
-- [ ] Redesign footer
+- [x] Redesign footer *(done: 3-column grid footer with About/Data/Contribute sections, proper bottom bar)*
 - [ ] Improve chart styling (rounded bars, better tooltips)
 - [x] Add smooth tab transitions *(done: CSS fade 0.25s, keyboard nav with arrow/number keys)*
 - [ ] Better mobile hamburger menu
