@@ -38,16 +38,16 @@
       </div>
     </header>
 
-    <nav class="tab-bar">
-      <button class="tab-btn active" onclick="switchTab('stories')">Findings</button>
-      <button class="tab-btn" onclick="switchTab('model')">By Model</button>
-      <button class="tab-btn" onclick="switchTab('tox')">Impaired Driving</button>
-      <button class="tab-btn" onclick="switchTab('myear')">Model Year</button>
-      <button class="tab-btn" onclick="switchTab('national')">National</button>
-      <button class="tab-btn" onclick="switchTab('method')">Methodology</button>
+    <nav class="tab-bar" role="tablist" aria-label="Data sections">
+      <button class="tab-btn active" onclick="switchTab('stories')" role="tab" aria-selected="true" aria-controls="tab-stories">Findings</button>
+      <button class="tab-btn" onclick="switchTab('model')" role="tab" aria-selected="false" aria-controls="tab-model">By Model</button>
+      <button class="tab-btn" onclick="switchTab('tox')" role="tab" aria-selected="false" aria-controls="tab-tox">Impaired Driving</button>
+      <button class="tab-btn" onclick="switchTab('myear')" role="tab" aria-selected="false" aria-controls="tab-myear">Model Year</button>
+      <button class="tab-btn" onclick="switchTab('national')" role="tab" aria-selected="false" aria-controls="tab-national">National</button>
+      <button class="tab-btn" onclick="switchTab('method')" role="tab" aria-selected="false" aria-controls="tab-method">Methodology</button>
     </nav>
 
-    <div class="tab-pane" id="tab-model">
+    <div class="tab-pane" id="tab-model" role="tabpanel" aria-labelledby="tab-model">
     <!-- FARS Per-Model Fatalities -->
     <section class="section">
       <div class="summary-cards" id="farsModelSummary">
@@ -134,7 +134,7 @@
 
     </div><!-- /tab-model -->
 
-    <div class="tab-pane" id="tab-tox">
+    <div class="tab-pane" id="tab-tox" role="tabpanel" aria-labelledby="tab-tox">
     <!-- Impaired Driving by Vehicle Model -->
     <section class="section">
       <div class="section-title">Impaired Driving by Vehicle Model (FARS 2014&ndash;2023)</div>
@@ -219,7 +219,7 @@
 
     </div><!-- /tab-tox -->
 
-    <div class="tab-pane" id="tab-myear">
+    <div class="tab-pane" id="tab-myear" role="tabpanel" aria-labelledby="tab-myear">
     <!-- Fatal Crash Involvement by Model Year -->
     <section class="section">
       <div class="section-title">Fatal Crash Involvement by Model Year (FARS 2014&ndash;2023)</div>
@@ -252,7 +252,7 @@
 
     </div><!-- /tab-myear -->
 
-    <div class="tab-pane" id="tab-national">
+    <div class="tab-pane" id="tab-national" role="tabpanel" aria-labelledby="tab-national">
     <!-- NHTSA Section A: National Fatality Trends -->
     <section class="section">
       <div class="section-title">National Traffic Fatality Trends (NHTSA FARS, 2014&ndash;2024)</div>
@@ -332,7 +332,7 @@
 
     </div><!-- /tab-national -->
 
-    <div class="tab-pane active" id="tab-stories">
+    <div class="tab-pane active" id="tab-stories" role="tabpanel" aria-labelledby="tab-stories">
     <section class="section">
       <div class="section-title">Data Findings &mdash; NHTSA FARS 2014&ndash;2023</div>
 
@@ -412,7 +412,7 @@
     </section>
     </div><!-- /tab-stories -->
 
-    <div class="tab-pane" id="tab-method">
+    <div class="tab-pane" id="tab-method" role="tabpanel" aria-labelledby="tab-method">
     <!-- Methodology -->
     <section class="section">
       <div class="section-title">Methodology &amp; Sources</div>

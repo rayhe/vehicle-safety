@@ -241,10 +241,10 @@ function renderNationalChart() {
   // Hit zones
   hitZones.national = FARS_NATIONAL.map((d, i) => ({
     x: xCenter(i) - gap/2, y: padT, w: gap, h: plotH,
-    html: '<b>' + d.year + (d.estimate ? ' (est.)' : '') + '</b><br>' +
-      'Fatalities: ' + d.fatalities.toLocaleString() + '<br>' +
-      'VMT: ' + d.vmt.toFixed(2) + ' trillion<br>' +
-      'Rate: ' + d.rate.toFixed(2) + ' per 100M VMT'
+    html: '<div class="tooltip-header">' + d.year + (d.estimate ? ' <span style="opacity:0.6">(estimate)</span>' : '') + '</div>' +
+      '<div class="tooltip-row"><span class="tooltip-label">Fatalities:</span> <span class="tooltip-value">' + d.fatalities.toLocaleString() + '</span></div>' +
+      '<div class="tooltip-row"><span class="tooltip-label">VMT:</span> <span class="tooltip-value">' + d.vmt.toFixed(2) + ' trillion</span></div>' +
+      '<div class="tooltip-row"><span class="tooltip-label">Rate:</span> <span class="tooltip-value' + (d.rate > 1.25 ? ' tooltip-highlight' : '') + '">' + d.rate.toFixed(2) + ' /100M VMT</span></div>'
   }));
 }
 
@@ -347,9 +347,9 @@ function renderUserTypeChart() {
     const total = categories.reduce((s, c) => s + d[c.key], 0);
     return {
       x: xCenter(i) - gap/2, y: padT, w: gap, h: plotH,
-      html: '<b>' + d.year + '</b><br>' +
-        categories.map(c => c.label + ': ' + d[c.key].toLocaleString()).join('<br>') +
-        '<br><b>Total: ' + total.toLocaleString() + '</b>'
+      html: '<div class="tooltip-header">' + d.year + '</div>' +
+        categories.map(c => '<div class="tooltip-row"><span class="tooltip-label">' + c.label + ':</span> <span class="tooltip-value">' + d[c.key].toLocaleString() + ' <span style="opacity:0.6">(' + Math.round(d[c.key]/total*100) + '%)</span></span></div>').join('') +
+        '<div class="tooltip-row" style="border-top:1px solid var(--border);padding-top:3px;margin-top:3px;"><span class="tooltip-label"><b>Total:</b></span> <span class="tooltip-value"><b>' + total.toLocaleString() + '</b></span></div>'
     };
   });
 }
@@ -447,9 +447,9 @@ function renderClassRateChart(year) {
     const y = 20 + i * (barH + barGap);
     return {
       x: labelW, y: y, w: barAreaW, h: barH,
-      html: '<b>' + b.label + ' (' + year + ')</b><br>' +
-        'Rate: ' + b.value.toFixed(2) + ' per 100M VMT' +
-        (b.label === 'Overall' ? '<br>Motorcycle: ' + data.motorcycle.toFixed(2) : '')
+      html: '<div class="tooltip-header">' + b.label + ' <span style="opacity:0.6">(' + year + ')</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Rate:</span> <span class="tooltip-value">' + b.value.toFixed(2) + ' /100M VMT</span></div>' +
+        (b.label === 'Overall' ? '<div class="tooltip-row"><span class="tooltip-label">Motorcycle:</span> <span class="tooltip-value tooltip-highlight">' + data.motorcycle.toFixed(2) + '</span></div>' : '')
     };
   });
 }
@@ -622,14 +622,14 @@ function renderFarsModelChart() {
   hitZones.farsModel = filteredFars.map((d, i) => {
     const y = topPad + i * (barHeight + barGap);
     const fleetStr = d.fleet ? (d.fleet / 1e6).toFixed(1) + 'M' : 'N/A';
-    const rateStr = d.rate !== null ? d.rate.toFixed(2) + ' per 100M VMT' : 'N/A';
+    const rateStr = d.rate !== null ? d.rate.toFixed(2) : 'N/A';
     return {
       x: 0, y: y, w: chartWidth, h: barHeight,
-      html: '<b>' + farsVehicleName(d) + '</b> (' + d.cls + ')<br>' +
-        'Deaths: ' + d.deaths.toLocaleString() + '<br>' +
-        'Est. rate: ' + rateStr + '<br>' +
-        'Annual sales: ' + d.annual.toLocaleString() + '<br>' +
-        'Est. fleet: ' + fleetStr
+      html: '<div class="tooltip-header">' + farsVehicleName(d) + ' <span style="opacity:0.6">(' + d.cls + ')</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Deaths (5yr):</span> <span class="tooltip-value">' + d.deaths.toLocaleString() + '</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Est. rate:</span> <span class="tooltip-value' + (d.rate !== null && d.rate > 3 ? ' tooltip-highlight' : '') + '">' + rateStr + ' /100M VMT</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Annual sales:</span> <span class="tooltip-value">' + d.annual.toLocaleString() + '</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Est. fleet:</span> <span class="tooltip-value">' + fleetStr + '</span></div>'
     };
   });
 }
@@ -855,11 +855,11 @@ function renderToxChart() {
     const groupY = topPad + i * groupHeight;
     return {
       x: 0, y: groupY, w: chartWidth, h: groupHeight - groupGap,
-      html: '<b>' + d.make + ' ' + d.model + '</b> (' + d.cls + ')<br>' +
-        'Drivers in fatal crashes: ' + d.drivers.toLocaleString() + '<br>' +
-        'Any impairment: ' + d.any.toLocaleString() + ' (' + d.anyPct + '%)<br>' +
-        'Alcohol: ' + d.alc.toLocaleString() + ' (' + d.alcPct + '%)<br>' +
-        'Drugs: ' + d.drug.toLocaleString() + ' (' + d.drugPct + '%)'
+      html: '<div class="tooltip-header">' + d.make + ' ' + d.model + ' <span style="opacity:0.6">(' + d.cls + ')</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Drivers in fatal crashes:</span> <span class="tooltip-value">' + d.drivers.toLocaleString() + '</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Any impairment:</span> <span class="tooltip-value' + (d.anyPct > 25 ? ' tooltip-highlight' : '') + '">' + d.any.toLocaleString() + ' (' + d.anyPct + '%)</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Alcohol:</span> <span class="tooltip-value">' + d.alc.toLocaleString() + ' (' + d.alcPct + '%)</span></div>' +
+        '<div class="tooltip-row"><span class="tooltip-label">Drugs:</span> <span class="tooltip-value">' + d.drug.toLocaleString() + ' (' + d.drugPct + '%)</span></div>'
     };
   });
 }
@@ -1111,9 +1111,9 @@ function renderMyearChart() {
       const deaths = s.years[yr];
       hitZones.myear.push({
         x: xPos(yr) - 8, y: yPos(deaths) - 8, w: 16, h: 16,
-        html: '<b>' + s.label + '</b><br>' +
-          'Model year: ' + yr + '<br>' +
-          'Deaths: ' + deaths.toLocaleString()
+        html: '<div class="tooltip-header">' + s.label + '</div>' +
+          '<div class="tooltip-row"><span class="tooltip-label">Model year:</span> <span class="tooltip-value">' + yr + '</span></div>' +
+          '<div class="tooltip-row"><span class="tooltip-label">Deaths:</span> <span class="tooltip-value">' + deaths.toLocaleString() + '</span></div>'
       });
     });
   });
@@ -1152,14 +1152,38 @@ const TAB_CHARTS = {
 };
 
 function switchTab(id) {
-  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  const pane = document.getElementById('tab-' + id);
-  if (pane) pane.classList.add('active');
-  const btns = document.querySelectorAll('.tab-btn');
+  const currentPane = document.querySelector('.tab-pane.active');
+  const newPane = document.getElementById('tab-' + id);
+  if (!newPane || newPane === currentPane) return;
+
+  // Fade out current pane
+  if (currentPane) {
+    currentPane.classList.remove('active');
+  }
+
+  // Prepare new pane
+  newPane.classList.add('tab-entering');
+  // Force reflow to ensure transition triggers
+  void newPane.offsetHeight;
+  newPane.classList.add('active');
+
+  // Clean up entering class after transition
+  setTimeout(() => {
+    newPane.classList.remove('tab-entering');
+  }, 260);
+
+  // Update tab buttons
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    b.classList.remove('active');
+    b.setAttribute('aria-selected', 'false');
+  });
   const names = ['stories','model','tox','myear','national','method'];
   const idx = names.indexOf(id);
-  if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
+  const btns = document.querySelectorAll('.tab-btn');
+  if (idx >= 0 && btns[idx]) {
+    btns[idx].classList.add('active');
+    btns[idx].setAttribute('aria-selected', 'true');
+  }
   history.replaceState(null, '', '#' + id);
   // Re-render charts in newly visible pane (they need non-zero width)
   requestAnimationFrame(() => { if (TAB_CHARTS[id]) TAB_CHARTS[id](); });
@@ -1232,9 +1256,11 @@ addCanvasHover('myearChart', (x, y) => {
 (function() {
   var btn = document.createElement('button');
   btn.className = 'theme-toggle';
+  btn.setAttribute('aria-label', 'Toggle theme');
   function label() {
     var t = localStorage.getItem('theme');
-    btn.textContent = t === 'dark' ? 'dark' : t === 'light' ? 'light' : 'auto';
+    btn.textContent = t === 'dark' ? '🌙' : t === 'light' ? '☀️' : '◐';
+    btn.title = 'Theme: ' + (t || 'auto');
   }
   btn.addEventListener('click', function() {
     var t = localStorage.getItem('theme');
@@ -1252,4 +1278,126 @@ addCanvasHover('myearChart', (x, y) => {
   });
   label();
   document.body.appendChild(btn);
+})();
+
+// ================================================================
+// Keyboard Navigation
+// ================================================================
+(function() {
+  var tabNames = ['stories', 'model', 'tox', 'myear', 'national', 'method'];
+
+  document.addEventListener('keydown', function(e) {
+    // Don't intercept when typing in inputs
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
+
+    // Left/Right arrow keys to switch tabs
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+      var current = document.querySelector('.tab-btn.active');
+      var btns = document.querySelectorAll('.tab-btn');
+      var idx = Array.from(btns).indexOf(current);
+      if (idx === -1) return;
+
+      if (e.key === 'ArrowLeft' && idx > 0) {
+        e.preventDefault();
+        switchTab(tabNames[idx - 1]);
+      } else if (e.key === 'ArrowRight' && idx < tabNames.length - 1) {
+        e.preventDefault();
+        switchTab(tabNames[idx + 1]);
+      }
+    }
+
+    // '/' to focus search in current tab
+    if (e.key === '/') {
+      var active = document.querySelector('.tab-pane.active');
+      if (active) {
+        var input = active.querySelector('input[type="text"]');
+        if (input) {
+          e.preventDefault();
+          input.focus();
+        }
+      }
+    }
+
+    // Escape to blur any focused input
+    if (e.key === 'Escape') {
+      if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT')) {
+        document.activeElement.blur();
+      }
+    }
+
+    // Number keys 1-6 to switch tabs quickly
+    if (e.key >= '1' && e.key <= '6' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      var tabIdx = parseInt(e.key) - 1;
+      if (tabIdx < tabNames.length) {
+        switchTab(tabNames[tabIdx]);
+      }
+    }
+  });
+})();
+
+// ================================================================
+// Table Row Click-to-Highlight
+// ================================================================
+(function() {
+  document.addEventListener('click', function(e) {
+    var row = e.target.closest('tbody tr');
+    if (!row) return;
+    // Toggle selection
+    if (row.classList.contains('row-selected')) {
+      row.classList.remove('row-selected');
+    } else {
+      row.classList.add('row-selected');
+    }
+  });
+})();
+
+// ================================================================
+// Scroll-to-Top Button
+// ================================================================
+(function() {
+  var btn = document.createElement('button');
+  btn.className = 'scroll-top-btn';
+  btn.innerHTML = '↑';
+  btn.setAttribute('aria-label', 'Scroll to top');
+  btn.title = 'Back to top';
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  document.body.appendChild(btn);
+
+  var ticking = false;
+  window.addEventListener('scroll', function() {
+    if (!ticking) {
+      requestAnimationFrame(function() {
+        if (window.scrollY > 400) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
+})();
+
+// ================================================================
+// ARIA Labels for Charts
+// ================================================================
+(function() {
+  var charts = {
+    'nationalChart': 'National traffic fatality trends chart showing yearly fatalities and rates from 2014 to 2024',
+    'userTypeChart': 'Stacked bar chart showing fatalities by road user type from 2014 to 2023',
+    'classRateChart': 'Horizontal bar chart showing occupant fatality rates by vehicle class',
+    'farsModelChart': 'Horizontal bar chart showing fatalities or death rates per vehicle model',
+    'toxChart': 'Grouped bar chart showing impairment rates by vehicle model',
+    'myearChart': 'Line chart showing fatal crash involvement by model year for selected vehicles'
+  };
+  Object.keys(charts).forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) {
+      el.setAttribute('role', 'img');
+      el.setAttribute('aria-label', charts[id]);
+    }
+  });
 })();
