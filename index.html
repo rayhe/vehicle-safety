@@ -20,6 +20,9 @@
   </script>
 
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
@@ -28,12 +31,12 @@
 
 <body>
   <div class="container">
-    <header>
-      <div style="display:flex;align-items:center;gap:12px;justify-content:center;">
-        <img src="images/logo.jpg" alt="The Crash Report" style="width:48px;height:48px;border-radius:50%;">
-        <div>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <img src="images/logo.jpg" alt="The Crash Report" class="masthead-logo">
+        <div class="masthead-text">
           <h1>The Crash Report</h1>
-          <p class="subtitle">NHTSA FARS vehicle fatality data, 2014&ndash;2023</p>
+          <p class="masthead-tagline">Every fatal crash in America, charted.</p>
         </div>
       </div>
     </header>
@@ -334,79 +337,99 @@
 
     <div class="tab-pane active" id="tab-stories" role="tabpanel" aria-labelledby="tab-stories">
     <section class="section">
-      <div class="section-title">Data Findings &mdash; NHTSA FARS 2014&ndash;2023</div>
+      <div class="section-title">Investigations &amp; Analysis &mdash; NHTSA FARS 2014&ndash;2023</div>
 
+      <div class="story-grid">
       <a href="stories/mustang-death-rate.html" class="story-card">
-        <img src="images/mustang-death-rate.jpg" alt="Ford Mustang crash scene" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Investigation</div>
-        <h3>The Ford Mustang Has the Highest Death Rate of Any Mass-Market Car in America</h3>
-        <p class="story-deck">At 6.02 deaths per 100M VMT and 2,739 fatalities, the Mustang is the deadliest mainstream vehicle on American roads &mdash; and 21.9% of its fatal-crash drivers were impaired.</p>
-        <div class="story-meta">Rex Driverton &bull; July 6, 2025</div>
+        <img src="images/mustang-death-rate.jpg" alt="Ford Mustang crash scene" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Investigation</div>
+          <h3>The Ford Mustang Has the Highest Death Rate of Any Mass-Market Car in America</h3>
+          <p class="story-deck">At 6.02 deaths per 100M VMT and 2,739 fatalities, the Mustang is the deadliest mainstream vehicle on American roads.</p>
+          <div class="story-meta">Rex Driverton &bull; July 6, 2025</div>
+        </div>
       </a>
 
       <a href="stories/veloster-deathtrap.html" class="story-card">
-        <img src="images/veloster-deathtrap.jpg" alt="Hyundai Veloster" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Investigation</div>
-        <h3>The Hyundai Veloster Is the Deadliest Car in America Per Mile Driven. Yes, the Veloster.</h3>
-        <p class="story-deck">At 8.54 deaths per 100M VMT, this 201-hp Korean economy coupe out-kills the Mustang, Camaro, and Corvette &mdash; and its drivers are comparatively sober.</p>
-        <div class="story-meta">Claude &bull; July 6, 2026</div>
+        <img src="images/veloster-deathtrap.jpg" alt="Hyundai Veloster" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Investigation</div>
+          <h3>The Hyundai Veloster Is the Deadliest Car in America Per Mile Driven</h3>
+          <p class="story-deck">At 8.54 deaths per 100M VMT, this economy coupe out-kills the Mustang, Camaro, and Corvette &mdash; and its drivers are comparatively sober.</p>
+          <div class="story-meta">Mia Crumplezone &bull; July 6, 2025</div>
+        </div>
       </a>
 
       <a href="stories/tesla-paradox.html" class="story-card">
-        <img src="images/tesla-paradox.jpg" alt="Tesla" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Sobriety Report</div>
-        <h3>The Tesla Paradox: Silicon Valley&rsquo;s Safety Darling Meets the Muscle Car&rsquo;s Worst Habit</h3>
-        <p class="story-deck">Model Y posts 0.03 deaths per 100M VMT. Model S posts a 24% impairment rate. Same brand, different species.</p>
-        <div class="story-meta">Gemini &bull; March 2, 2026</div>
+        <img src="images/tesla-paradox.jpg" alt="Tesla" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Sobriety Report</div>
+          <h3>The Tesla Paradox: Silicon Valley&rsquo;s Safety Darling Meets the Muscle Car&rsquo;s Worst Habit</h3>
+          <p class="story-deck">Model Y posts 0.03 deaths per 100M VMT. Model S posts a 24% impairment rate. Same brand, different species.</p>
+          <div class="story-meta">Dale Impactor III &bull; March 2, 2026</div>
+        </div>
       </a>
 
       <a href="stories/explorer-transformation.html" class="story-card">
-        <img src="images/explorer-transformation.jpg" alt="Ford Explorer" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Trend Watch</div>
-        <h3>How the Ford Explorer Escaped Its Own Legacy</h3>
-        <p class="story-deck">503 fatal crash involvements for the 2002 model year. 8 for the 2022. A 98.4% reduction &mdash; and the old ones are still on the road.</p>
-        <div class="story-meta">Codex &bull; March 2, 2026</div>
+        <img src="images/explorer-transformation.jpg" alt="Ford Explorer" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Trend Watch</div>
+          <h3>How the Ford Explorer Escaped Its Own Legacy</h3>
+          <p class="story-deck">503 fatal crash involvements for the 2002 model year. 8 for the 2022. A 98.4% reduction.</p>
+          <div class="story-meta">Mia Crumplezone &bull; March 2, 2026</div>
+        </div>
       </a>
 
       <a href="stories/corvette-impairment.html" class="story-card">
-        <img src="images/corvette-impairment.jpg" alt="Corvette" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Investigation</div>
-        <h3>One In Four Corvette Drivers In Fatal Crashes Is Impaired. It Gets Worse From There.</h3>
-        <p class="story-deck">26.2% of Corvette drivers in fatal crashes tested positive for alcohol or drugs &mdash; the highest of any major sports car. The Buick Park Avenue hits 31.7%.</p>
-        <div class="story-meta">Claude &bull; March 1, 2026</div>
+        <img src="images/corvette-impairment.jpg" alt="Corvette" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Investigation</div>
+          <h3>One In Four Corvette Drivers In Fatal Crashes Is Impaired</h3>
+          <p class="story-deck">26.2% tested positive for alcohol or drugs &mdash; the highest of any major sports car. The Buick Park Avenue hits 31.7%.</p>
+          <div class="story-meta">Dale Impactor III &bull; March 1, 2026</div>
+        </div>
       </a>
 
       <a href="stories/suv-death-gap.html" class="story-card">
-        <img src="images/suv-death-gap.jpg" alt="SUV vs car size contrast" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">The Gap</div>
-        <h3>The 261x Death Gap: How Your SUV Choice Is Literally a Life-or-Death Decision</h3>
-        <p class="story-deck">The estimated fatality rate gap between the Chevrolet Tracker and the Porsche Macan is 261-fold. The pattern repeats across every vehicle class.</p>
-        <div class="story-meta">Claude &bull; March 1, 2026</div>
+        <img src="images/suv-death-gap.jpg" alt="SUV vs car size contrast" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">The Gap</div>
+          <h3>The 261x Death Gap: How Your SUV Choice Is a Life-or-Death Decision</h3>
+          <p class="story-deck">The fatality rate gap between the Chevrolet Tracker and the Porsche Macan is 261-fold.</p>
+          <div class="story-meta">Clara Rollover &bull; March 1, 2026</div>
+        </div>
       </a>
 
       <a href="stories/accord-body-count.html" class="story-card">
-        <img src="images/accord-body-count.jpg" alt="Honda Accord" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Body Count</div>
-        <h3>The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined</h3>
-        <p class="story-deck">7,102 Accord deaths vs. 4,648 for all four muscle cars. Ubiquity is its own kind of danger &mdash; but per-mile, the Accord is twice as safe.</p>
-        <div class="story-meta">Claude &bull; March 1, 2026</div>
+        <img src="images/accord-body-count.jpg" alt="Honda Accord" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Body Count</div>
+          <h3>The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined</h3>
+          <p class="story-deck">7,102 Accord deaths vs. 4,648 for all four muscle cars. Ubiquity is its own kind of danger.</p>
+          <div class="story-meta">Rex Driverton &bull; March 1, 2026</div>
+        </div>
       </a>
 
       <a href="stories/astro-van-impairment.html" class="story-card">
-        <img src="images/astro-van-impairment.jpg" alt="Chevy Astro Van" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Sobriety Report</div>
-        <h3>The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded</h3>
-        <p class="story-deck">A minivan out-drinks the Mustang. Impairment in fatal crashes correlates with vehicle price, not vehicle type.</p>
-        <div class="story-meta">Claude &bull; March 1, 2026</div>
+        <img src="images/astro-van-impairment.jpg" alt="Chevy Astro Van" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Sobriety Report</div>
+          <h3>The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded</h3>
+          <p class="story-deck">A minivan out-drinks the Mustang. Impairment correlates with vehicle price, not vehicle type.</p>
+          <div class="story-meta">Dale Impactor III &bull; March 1, 2026</div>
+        </div>
       </a>
 
       <a href="stories/land-cruiser-paradox.html" class="story-card">
-        <img src="images/land-cruiser-paradox.jpg" alt="Toyota Land Cruiser" class="story-thumb" style="width:100%;max-height:200px;object-fit:cover;border-radius:6px 6px 0 0;">
-        <div class="story-kicker">Existential Dread</div>
-        <h3>The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death</h3>
-        <p class="story-deck">3rd-lowest impairment rate. 3rd-highest death rate. The most unsettling data point in the database.</p>
-        <div class="story-meta">Claude &bull; March 1, 2026</div>
+        <img src="images/land-cruiser-paradox.jpg" alt="Toyota Land Cruiser" class="story-thumb">
+        <div class="story-card-body">
+          <div class="story-kicker">Existential Dread</div>
+          <h3>The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death</h3>
+          <p class="story-deck">3rd-lowest impairment rate. 3rd-highest death rate. The most unsettling data point in the database.</p>
+          <div class="story-meta">Vin Wreckage &bull; March 1, 2026</div>
+        </div>
       </a>
+      </div>
 
       <p class="story-disclaimer">AI-generated editorial analysis of NHTSA FARS public data. See <a href="#method" onclick="switchTab('method')">Methodology</a> for caveats.</p>
     </section>
@@ -493,9 +516,28 @@
     </section>
     </div><!-- /tab-method -->
 
-    <footer style="margin-top:32px;padding-top:16px;border-top:1px solid var(--border);font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);line-height:1.6;">
-      <p><strong>About this project</strong> &mdash; Open-source dashboard built on NHTSA FARS public data. Analysis and visualizations generated with the help of Claude.</p>
-      <p><a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub: rayhe/vehicle-safety &rarr;</a> &mdash; Pull requests welcome. If you spot a data error, have a methodology improvement, or want to add new analysis, please open a PR or issue.</p>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>About</h4>
+          <p>The Crash Report is an open-source data journalism project analyzing NHTSA FARS fatal crash data from 2014&ndash;2023. Every claim is backed by public data.</p>
+          <p>Analysis and visualizations generated with the help of AI. Editorial content by the <a href="#method" onclick="switchTab('method')">Clautomotive Desk</a>.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Data</h4>
+          <p><a href="#method" onclick="switchTab('method')">Methodology</a></p>
+          <p><a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank">NHTSA FARS</a></p>
+          <p><a href="https://github.com/rayhe/vehicle-safety" target="_blank">Source Code</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Contribute</h4>
+          <p><a href="https://github.com/rayhe/vehicle-safety/issues" target="_blank">Report an Issue</a></p>
+          <p><a href="https://github.com/rayhe/vehicle-safety/pulls" target="_blank">Submit a PR</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Powered by NHTSA FARS public data &bull; &copy; 2025 The Crash Report &bull; <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub</a>
+      </div>
     </footer>
   </div>
 
