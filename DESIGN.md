@@ -37,12 +37,17 @@
 
 ## Current State (March 2026)
 - Monospace everything — feels like a developer tool, not a journalism site
-- No logo/favicon
-- Header is plain text
-- Story cards are basic boxes
+- No logo/favicon → *Fixed: logo.jpg + favicon PNGs added*
+- Header is plain text → *Fixed: logo + title layout added*
+- Story cards are basic boxes → *Fixed: hero images, hover effects, meta info*
 - Charts are functional but not polished
-- No hero imagery on the homepage
+- No hero imagery on the homepage → *Fixed: hero images on story cards*
 - Mobile experience is passable but not great
+- *New: Smooth tab transitions with keyboard navigation (arrows, 1-6, /)*
+- *New: Rich structured tooltips with danger highlighting*
+- *New: ARIA accessibility on tabs, panels, and chart canvases*
+- *New: Click-to-highlight table rows, scroll-to-top button*
+- *New: Theme toggle with emoji icons*
 
 ## Design Targets (Modern Auto Journalism)
 Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
@@ -85,7 +90,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 ### Phase 2: Polish (Week 2)
 - [ ] Redesign footer
 - [ ] Improve chart styling (rounded bars, better tooltips)
-- [ ] Add smooth tab transitions
+- [x] Add smooth tab transitions *(done: CSS fade 0.25s, keyboard nav with arrow/number keys)*
 - [ ] Better mobile hamburger menu
 - [ ] Story page layout improvements
 
