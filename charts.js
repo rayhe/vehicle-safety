@@ -940,8 +940,8 @@ document.querySelectorAll('#toxTable th').forEach(th => {
 // ================================================================
 // Model Year: State & Functions
 // ================================================================
-let myearSelected = []; // array of {make, model, cls} objects, max 5
-const MYEAR_COLORS = ['--myear-1', '--myear-2', '--myear-3', '--myear-4', '--myear-5'];
+let myearSelected = []; // array of {make, model, cls} objects, max 10
+const MYEAR_COLORS = ['--myear-1', '--myear-2', '--myear-3', '--myear-4', '--myear-5', '--myear-6', '--myear-7', '--myear-8', '--myear-9', '--myear-10'];
 
 function applyMyearSearch() {
   const input = document.getElementById('myearSearch');
@@ -964,11 +964,12 @@ function applyMyearSearch() {
     const match = FARS_MODEL_YEAR.find(d =>
       (d.make + ' ' + d.model).toLowerCase() === val.toLowerCase()
     );
-    if (match && myearSelected.length < 5 &&
+    if (match && myearSelected.length < 10 &&
         !myearSelected.some(s => s.make === match.make && s.model === match.model)) {
       myearSelected.push({ make: match.make, model: match.model, cls: match.cls });
       input.value = '';
       datalist.innerHTML = '';
+      clearMyearPresetState();
       renderMyearChips();
       renderMyearChart();
     }
@@ -977,8 +978,15 @@ function applyMyearSearch() {
 
 function removeMyearSelection(idx) {
   myearSelected.splice(idx, 1);
+  clearMyearPresetState();
   renderMyearChips();
   renderMyearChart();
+}
+
+function clearMyearPresetState() {
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  var descEl = document.getElementById('myearPresetDesc');
+  if (descEl) descEl.style.display = 'none';
 }
 
 function renderMyearChips() {
@@ -991,6 +999,100 @@ function renderMyearChips() {
       s.make + ' ' + s.model +
       ' <span class="chip-x">\u2715</span></span>';
   }).join('');
+}
+
+// ================================================================
+// Model Year: Preset Groupings
+// ================================================================
+const MYEAR_PRESETS = {
+  sports: {
+    vehicles: [
+      { make: 'Ford', model: 'MUSTANG', cls: 'Sports Car' },
+      { make: 'Chevrolet', model: 'CAMARO', cls: 'Sports Car' },
+      { make: 'Chevrolet', model: 'CORVETTE', cls: 'Sports Car' },
+      { make: 'Dodge', model: 'CHALLENGER', cls: 'Sports Car' },
+    ],
+    desc: 'The Mustang peaks at 165 deaths for MY 2002, then crashes after 2008. The Camaro vanishes 2003\u20132009 (production hiatus) and roars back with 5th-gen. The Challenger only shows up from 2009+ but climbs fast\u2014its MY 2019 hit 69 deaths.'
+  },
+  trucks: {
+    vehicles: [
+      { make: 'Chevrolet', model: 'SILVERADO', cls: 'Pickup' },
+      { make: 'Ford', model: 'F-150', cls: 'Pickup' },
+      { make: 'Dodge', model: 'RAM', cls: 'Pickup' },
+      { make: 'GMC', model: 'SIERRA', cls: 'Pickup' },
+    ],
+    desc: 'F-150 MY 2001 leads all pickups at 672 deaths. Silverado peaks at 663 (MY 2004). Both show a dramatic cliff after 2008\u2014crash-rate improvements from ESC, stronger cabs, and fleet turnover. Ram drops off sharply after 2013 when it rebranded from Dodge.'
+  },
+  honda: {
+    vehicles: [
+      { make: 'Honda', model: 'ACCORD', cls: 'Sedan' },
+      { make: 'Honda', model: 'CIVIC', cls: 'Sedan' },
+      { make: 'Toyota', model: 'CAMRY', cls: 'Sedan' },
+      { make: 'Toyota', model: 'COROLLA', cls: 'Sedan' },
+    ],
+    desc: 'Honda and Toyota sedans show remarkably similar curves: deaths peak around 2000\u20132008, then fall steadily. The Civic MY 2008 (402 deaths) and Accord MY 2005 (444) are the deadliest Japanese sedans ever. Post-2012 ESC mandate, all four drop in sync.'
+  },
+  sedans: {
+    vehicles: [
+      { make: 'Honda', model: 'ACCORD', cls: 'Sedan' },
+      { make: 'Toyota', model: 'CAMRY', cls: 'Sedan' },
+      { make: 'Nissan', model: 'ALTIMA', cls: 'Sedan' },
+      { make: 'Chevrolet', model: 'MALIBU', cls: 'Sedan' },
+      { make: 'Chevrolet', model: 'IMPALA', cls: 'Sedan' },
+    ],
+    desc: 'America\u2019s five best-selling sedans compared. The Impala spikes to 401 deaths for MY 2008\u2014peak fleet-purchase years for rental/police. The Altima shows unusual volatility, jumping between 99 and 394 deaths in adjacent model years. Accord is the steadiest killer.'
+  },
+  suv: {
+    vehicles: [
+      { make: 'Ford', model: 'EXPLORER', cls: 'SUV' },
+      { make: 'Chevrolet', model: 'TAHOE', cls: 'SUV' },
+      { make: 'Chevrolet', model: 'TRAILBLAZER', cls: 'SUV' },
+      { make: 'Jeep', model: 'GRAND CHEROKEE', cls: 'SUV' },
+    ],
+    desc: 'The Explorer MY 2002 stands out at 503 deaths\u2014the Firestone tire recall era. It drops 98.4% to just 8 deaths by MY 2022. The Tahoe (MY 2003: 311) and Trailblazer (MY 2003: 430) follow the same arc: SUVs got dramatically safer after the rollover crisis of the early 2000s.'
+  },
+  top5: {
+    vehicles: [], // Will be computed dynamically
+    desc: 'The five vehicles with the most total fatalities across all model years in the FARS database. These aren\u2019t necessarily the most dangerous per mile\u2014they\u2019re the highest body count, driven by massive fleet sizes and decades on the road.'
+  },
+};
+
+function loadMyearPreset(name) {
+  const preset = MYEAR_PRESETS[name];
+  if (!preset) return;
+
+  // For top5, compute dynamically from FARS_MODEL_YEAR
+  let vehicles = preset.vehicles;
+  if (name === 'top5' && FARS_MODEL_YEAR) {
+    vehicles = FARS_MODEL_YEAR
+      .map(d => ({ make: d.make, model: d.model, cls: d.cls, total: Object.values(d.years).reduce((a, b) => a + b, 0) }))
+      .sort((a, b) => b.total - a.total)
+      .slice(0, 5)
+      .map(d => ({ make: d.make, model: d.model, cls: d.cls }));
+  }
+
+  // Filter to only vehicles that exist in FARS_MODEL_YEAR
+  const available = vehicles.filter(v =>
+    FARS_MODEL_YEAR && FARS_MODEL_YEAR.some(d => d.make === v.make && d.model === v.model)
+  );
+
+  myearSelected = available;
+  renderMyearChips();
+  renderMyearChart();
+
+  // Update preset button active state
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  const btns = document.querySelectorAll('.preset-btn');
+  const presetNames = ['sports', 'trucks', 'honda', 'sedans', 'suv', 'top5'];
+  const idx = presetNames.indexOf(name);
+  if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
+
+  // Show description
+  const descEl = document.getElementById('myearPresetDesc');
+  if (descEl && preset.desc) {
+    descEl.textContent = preset.desc;
+    descEl.style.display = 'block';
+  }
 }
 
 function renderMyearChart() {
@@ -1006,7 +1108,7 @@ function renderMyearChart() {
 
   const wrap = canvas.parentElement;
   const W = wrap.clientWidth - 32;
-  const H = Math.min(450, Math.max(300, W * 0.5));
+  const H = Math.min(600, Math.max(350, W * 0.55));
 
   canvas.style.width = W + 'px';
   canvas.style.height = H + 'px';

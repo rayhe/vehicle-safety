@@ -242,11 +242,25 @@
       </div>
 
       <div class="controls">
-        <input type="text" id="myearSearch" list="myearDatalist" placeholder="Search and select a vehicle (max 5)..." oninput="applyMyearSearch()">
+        <input type="text" id="myearSearch" list="myearDatalist" placeholder="Search and select a vehicle (max 10)..." oninput="applyMyearSearch()">
         <datalist id="myearDatalist"></datalist>
       </div>
 
       <div class="chip-container" id="myearChips"></div>
+
+      <!-- Preset Groupings -->
+      <div class="myear-presets" style="margin: 16px 0;">
+        <div style="font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:8px; font-weight:600;">Curated Comparisons</div>
+        <div style="display:flex; flex-wrap:wrap; gap:6px;" id="myearPresetBtns">
+          <button class="preset-btn" onclick="loadMyearPreset('sports')" title="Mustang, Camaro, Corvette, Challenger">🏎️ Sports Car Danger Years</button>
+          <button class="preset-btn" onclick="loadMyearPreset('trucks')" title="F-150, Silverado, Ram, Sierra">🛻 Pickup Truck Evolution</button>
+          <button class="preset-btn" onclick="loadMyearPreset('honda')" title="Accord, Civic, CR-V">🇯🇵 The Honda Effect</button>
+          <button class="preset-btn" onclick="loadMyearPreset('sedans')" title="Accord, Camry, Altima, Malibu, Impala">💀 Sedan Death Match</button>
+          <button class="preset-btn" onclick="loadMyearPreset('suv')" title="Explorer, Tahoe, 4Runner, Grand Cherokee">🚙 SUV Transformation</button>
+          <button class="preset-btn" onclick="loadMyearPreset('top5')" title="Top 5 deadliest by total deaths">⚠️ Top 5 Deadliest</button>
+        </div>
+        <p class="preset-desc" id="myearPresetDesc" style="font-size:0.82rem; color:var(--text-muted); margin:8px 0 0; display:none;"></p>
+      </div>
 
       <div class="chart-wrap">
         <canvas id="myearChart"></canvas>
