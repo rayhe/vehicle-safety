@@ -568,7 +568,8 @@ tr:hover td { background: rgba(0,0,0,0.02); }
 .story-kicker { font-family: var(--font-sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 6px; font-weight: 700; }
 .story h2 { font-family: var(--font-sans); font-size: 1.5rem; line-height: 1.25; margin: 0 0 8px; font-weight: 800; letter-spacing: -0.02em; }
 .story .byline { font-family: var(--font-sans); font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px; font-weight: 500; }
-.story .dateline { font-family: var(--font-sans); font-size: 0.72rem; color: var(--text-muted); margin-bottom: 20px; }
+.story .dateline { font-family: var(--font-sans); font-size: 0.72rem; color: var(--text-muted); margin-bottom: 6px; }
+.story .reading-time { font-family: var(--font-sans); font-size: 0.72rem; color: var(--text-muted); margin-bottom: 20px; opacity: 0.85; }
 .story p { line-height: 1.8; margin: 0 0 18px; font-size: 1rem; font-family: var(--font-sans); }
 .story p:first-of-type { font-size: 1.05rem; }
 .story p:first-of-type strong:first-child { color: var(--accent); }

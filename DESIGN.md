@@ -99,7 +99,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [x] Story page layout improvements *(done: centered 680px reading column, larger body text 1rem with 1.8 line-height, centered pull-stats at 3rem, proper .story-hero class, reading-time/share-link row styling, first-paragraph emphasis)*
 
 ### Phase 3: Features (Week 3+)
-- [ ] Reading time estimates on stories
+- [x] Reading time estimates on stories *(done: ☕ X min read badges on all 20 story cards in index.html + reading-time div on all 20 story pages after dateline, computed from word count at 250 wpm)*
 - [ ] Related stories section
 - [ ] Newsletter signup placeholder
 - [ ] Social share buttons on stories
