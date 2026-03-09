@@ -96,7 +96,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [ ] Improve chart styling (rounded bars, better tooltips)
 - [x] Add smooth tab transitions *(done: CSS fade 0.25s, keyboard nav with arrow/number keys)*
 - [ ] Better mobile hamburger menu
-- [ ] Story page layout improvements
+- [x] Story page layout improvements *(done: centered 680px reading column, larger body text 1rem with 1.8 line-height, centered pull-stats at 3rem, proper .story-hero class, reading-time/share-link row styling, first-paragraph emphasis)*
 
 ### Phase 3: Features (Week 3+)
 - [ ] Reading time estimates on stories
