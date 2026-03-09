@@ -115,7 +115,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 ### Data UX Track
 - [x] Vehicle comparison mode *(done: checkbox-select up to 5 vehicles from By Model or Toxicology tables, sticky comparison tray with chips, expandable panel shows side-by-side visual bar charts for deaths, rate, fleet, and impairment metrics; shake animation when limit reached)*
 - [ ] Better chart interactions (hover, click, zoom)
-- [ ] Improved table sorting visual indicators
+- [x] Improved table sorting visual indicators *(done: dual ▲▼ arrow indicators per column, active arrow scales up in accent color with CSS transitions, sorted column gets red-tinted background + 2px accent bottom border, inactive arrows fade to 0.25 opacity, hover brightens both to 0.5, dark mode supported)*
 - [ ] Search/filter enhancements (autocomplete, recent searches)
 - [ ] Better tooltips with richer data
 - [ ] Performance optimization for large datasets

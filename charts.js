@@ -711,7 +711,6 @@ document.querySelectorAll('#fmTable th').forEach(th => {
     });
     const asc = !wasAsc;
     th.classList.add('sorted', asc ? 'sorted-asc' : 'sorted-desc');
-    th.querySelector('.sort-arrow').textContent = asc ? '\u25B2' : '\u25BC';
 
     switch (col) {
       case 'rank':
@@ -946,7 +945,6 @@ document.querySelectorAll('#toxTable th').forEach(th => {
     });
     const asc = !wasAsc;
     th.classList.add('sorted', asc ? 'sorted-asc' : 'sorted-desc');
-    th.querySelector('.sort-arrow').textContent = asc ? '\u25B2' : '\u25BC';
 
     switch (col) {
       case 'rank': case 'any':
