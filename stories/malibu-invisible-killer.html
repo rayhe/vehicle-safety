@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Chevy Malibu Has Killed 3,465 People. Nobody Noticed. &mdash; The Crash Report</title>
+  <meta name="description" content="The Chevrolet Malibu matches the Toyota Camry's fatality rate at 2.03 deaths per 100M VMT but generates zero headlines. 3,465 dead in America's most forgettable sedan.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>The Chevy Malibu Has Killed 3,465 People. Nobody Noticed.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">March 9, 2026</div>
+      <div class="reading-time">☕ 3 min read</div>
+
+      <img src="../images/malibu-invisible-killer.jpg" alt="A silver Chevrolet Malibu parked in an empty lot at dusk" class="story-hero" loading="lazy">
+
+      <p>Here's a fun fact that will ruin your morning commute. The Chevrolet Malibu has a per-mile fatality rate of <strong>2.03 deaths per 100 million vehicle miles traveled</strong> &mdash; the exact same number as the Toyota Camry. But while we've written extensively about the Camry paradox, nobody writes about the Malibu. Nobody writes about the Malibu because nobody thinks about the Malibu. It is the vehicular equivalent of beige wallpaper.</p>
+
+      <div class="pull-stat">3,465</div>
+      <div class="pull-label">total fatalities &mdash; 11th deadliest vehicle in FARS (2014&ndash;2023)</div>
+
+      <p>Consider the numbers: a fleet of 1.49 million Malibus generating 17.1 billion vehicle miles traveled per year, producing 346 deaths annually like clockwork. The Malibu sits in the dead center of the midsize sedan class &mdash; not the worst, not the best, just quietly lethal in a way that never makes the news.</p>
+
+      <p>What makes the Malibu interesting isn't what it does. It's what it doesn't do. The Ford Fusion, competing in the exact same segment at the exact same price, managed a rate of just 1.23 &mdash; <strong>40% safer per mile</strong>. The Hyundai Sonata sits at 1.56. Even the Elantra, a class below, comes in at 1.50. The Malibu isn't just average &mdash; it's the worst-performing midsize sedan from a non-Nissan manufacturer.</p>
+
+      <p>The impairment data adds texture without explaining anything. At 20.7%, Malibu drivers show a perfectly average rate of alcohol and drug involvement in fatal crashes. These aren't drunk drivers, party animals, or boy racers. These are people commuting to work, picking up groceries, driving kids to practice. The Malibu kills the way a Tuesday kills &mdash; slowly, unremarkably, without anyone stopping to wonder why.</p>
+
+      <p>GM discontinued the Malibu in 2024 after nine generations spanning 60 years, replacing it with the electric Equinox EV. The final model year earned Top Safety Pick from IIHS, five stars from NHTSA. On paper, a perfectly safe car. In practice, 3,465 people are dead. The Malibu's legacy isn't danger &mdash; it's invisibility. In a world where Mustangs and Chargers grab the headlines with their spectacular fatality rates, the Malibu proves that the most dangerous thing a car can be is forgettable.</p>
+
+      <p>The Camry kills 632 people a year and gets an article. The Malibu kills 346 and gets silence. Both have the same rate. The only difference is that people <em>care</em> about the Camry.</p>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Fleet size and VMT are estimates based on registration and mileage survey data. Death rate = fatalities per 100M VMT. Impairment = BAC &gt; 0 or drug-positive toxicology. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <script>
+      // Auto-inject share buttons
+      (function() {
+        const byline = document.querySelector('.dateline');
+        if (!byline) return;
+        const url = encodeURIComponent(window.location.href);
+        const title = encodeURIComponent(document.title);
+        const shareHtml = `<div class="share-buttons" style="display:flex;gap:8px;margin:12px 0 0">
+          <a href="https://twitter.com/intent/tweet?url=${url}&text=${title}" target="_blank" rel="noopener" class="share-btn" title="Share on X" style="padding:4px 10px;border-radius:4px;font-size:0.8rem;background:#1da1f2;color:#fff;text-decoration:none;transition:opacity 0.15s">𝕏</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${url}" target="_blank" rel="noopener" class="share-btn" title="Share on LinkedIn" style="padding:4px 10px;border-radius:4px;font-size:0.8rem;background:#0077b5;color:#fff;text-decoration:none;transition:opacity 0.15s">LinkedIn</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=${url}" target="_blank" rel="noopener" class="share-btn" title="Share on Facebook" style="padding:4px 10px;border-radius:4px;font-size:0.8rem;background:#1877f2;color:#fff;text-decoration:none;transition:opacity 0.15s">Facebook</a>
+          <a href="https://reddit.com/submit?url=${url}&title=${title}" target="_blank" rel="noopener" class="share-btn" title="Share on Reddit" style="padding:4px 10px;border-radius:4px;font-size:0.8rem;background:#ff4500;color:#fff;text-decoration:none;transition:opacity 0.15s">Reddit</a>
+          <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='Copied!';setTimeout(()=>this.textContent='Copy Link',2000)})" class="share-btn" style="padding:4px 10px;border-radius:4px;font-size:0.8rem;background:var(--card-bg,#f0f0f0);color:var(--text,#333);border:1px solid var(--border,#ddd);cursor:pointer;transition:opacity 0.15s">Copy Link</button>
+        </div>`;
+        byline.insertAdjacentHTML('afterend', shareHtml);
+      })();
+    </script>
+  </div>
+</body>
+</html>
