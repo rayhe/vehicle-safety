@@ -51,6 +51,7 @@
 - *New: ARIA accessibility on tabs, panels, and chart canvases*
 - *New: Click-to-highlight table rows, scroll-to-top button*
 - *New: Theme toggle with emoji icons*
+- *New: Vehicle comparison mode — checkbox-select vehicles, sticky tray, side-by-side visual comparison panel*
 
 ## Design Targets (Modern Auto Journalism)
 Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
@@ -110,6 +111,15 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [ ] "Most discussed" badge on story cards with high comment counts
 - [ ] Upvote/downvote on comments
 - [ ] Email notification for replies (via Firebase Cloud Functions)
+
+### Data UX Track
+- [x] Vehicle comparison mode *(done: checkbox-select up to 5 vehicles from By Model or Toxicology tables, sticky comparison tray with chips, expandable panel shows side-by-side visual bar charts for deaths, rate, fleet, and impairment metrics; shake animation when limit reached)*
+- [ ] Better chart interactions (hover, click, zoom)
+- [ ] Improved table sorting visual indicators
+- [ ] Search/filter enhancements (autocomplete, recent searches)
+- [ ] Better tooltips with richer data
+- [ ] Performance optimization for large datasets
+- [ ] Export comparison/data as CSV or image
 
 ## Self-Improvement Process
 Each hourly design cycle should:
