@@ -102,7 +102,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [x] Reading time estimates on stories *(done: ☕ X min read badges on all 20 story cards in index.html + reading-time div on all 20 story pages after dateline, computed from word count at 250 wpm)*
 - [x] Related stories section *(done: `related-stories.js` auto-injects "Keep Reading" grid with 3 curated related articles on all 22 story pages; tag-based fallback for uncurated stories; card layout with hero image, kicker, title; responsive 3→1 column grid; dark mode support)*
 - [ ] Newsletter signup placeholder
-- [ ] Social share buttons on stories
+- [x] Social share buttons on stories *(done: share-buttons.js auto-injects X/Twitter, LinkedIn, Facebook, Reddit + Copy Link bar after dateline on all 24 stories; platform-branded hover colors; clipboard feedback on copy)*
 - [x] "Most dangerous vehicles" featured widget *(done: dynamic top-10 widget above story grid with 3 toggle views — Per Mile rate, Total Deaths, Impairment %. Reads from FARS_BY_MODEL and FARS_TOXICOLOGY. Responsive grid, mini bar charts, click-to-navigate to By Model tab. Filters for fleet ≥100K on rate view, ≥200 drivers on impairment view for statistical significance.)*
 - [ ] Google account login (Firebase Auth) for article comments
 - [ ] Firebase-backed comment system on each story page
