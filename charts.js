@@ -37,6 +37,11 @@ function addCanvasHover(canvasId, hitTest) {
 // Hit zone storage for each chart (populated during render)
 const hitZones = {};
 
+// Vehicle Comparison state (used by table render functions)
+const compareSet = new Set();
+const COMPARE_MAX = 5;
+const COMPARE_COLORS = ['#D32F2F', '#1E90FF', '#4CAF50', '#FF9800', '#9C27B0'];
+
 // ================================================================
 // NHTSA FARS National Data
 // Sources: NHTSA FARS, FHWA VM-1, NHTSA Traffic Safety Facts
@@ -642,16 +647,19 @@ function renderFarsModelTable() {
   document.getElementById('fmTableCount').textContent = filteredFars.length + ' vehicle' + (filteredFars.length !== 1 ? 's' : '');
 
   if (filteredFars.length === 0) {
-    tbody.innerHTML = '<tr class="no-results"><td colspan="7">No vehicles match current filters</td></tr>';
+    tbody.innerHTML = '<tr class="no-results"><td colspan="8">No vehicles match current filters</td></tr>';
     return;
   }
 
   tbody.innerHTML = filteredFars.map((d, i) => {
     const fleetStr = d.fleet ? (d.fleet / 1000000).toFixed(1) + 'M' : '\u2014';
     const rateStr = d.rate !== null ? d.rate.toFixed(2) : '\u2014';
-    return '<tr>' +
+    const vKey = farsVehicleName(d);
+    const checked = compareSet.has(vKey);
+    return '<tr class="' + (checked ? 'row-compare' : '') + '">' +
+      '<td class="compare-cell"><input type="checkbox" class="compare-cb" data-vehicle="' + vKey.replace(/"/g, '&quot;') + '" data-source="fars" ' + (checked ? 'checked' : '') + ' title="Add to comparison"></td>' +
       '<td>' + (i + 1) + '</td>' +
-      '<td>' + farsVehicleName(d) + '</td>' +
+      '<td>' + vKey + '</td>' +
       '<td>' + d.cls + '</td>' +
       '<td><strong>' + d.deaths.toLocaleString() + '</strong></td>' +
       '<td>' + d.annual.toFixed(0) + '</td>' +
@@ -869,14 +877,17 @@ function renderToxTable() {
   document.getElementById('toxTableCount').textContent = filteredTox.length + ' vehicle' + (filteredTox.length !== 1 ? 's' : '');
 
   if (filteredTox.length === 0) {
-    tbody.innerHTML = '<tr class="no-results"><td colspan="10">No vehicles match current filters</td></tr>';
+    tbody.innerHTML = '<tr class="no-results"><td colspan="11">No vehicles match current filters</td></tr>';
     return;
   }
 
-  tbody.innerHTML = filteredTox.map((d, i) =>
-    '<tr>' +
+  tbody.innerHTML = filteredTox.map((d, i) => {
+    const vKey = d.make + ' ' + d.model;
+    const checked = compareSet.has(vKey);
+    return '<tr class="' + (checked ? 'row-compare' : '') + '">' +
+    '<td class="compare-cell"><input type="checkbox" class="compare-cb" data-vehicle="' + vKey.replace(/"/g, '&quot;') + '" data-source="tox" ' + (checked ? 'checked' : '') + ' title="Add to comparison"></td>' +
     '<td>' + (i + 1) + '</td>' +
-    '<td>' + d.make + ' ' + d.model + '</td>' +
+    '<td>' + vKey + '</td>' +
     '<td>' + d.cls + '</td>' +
     '<td>' + d.drivers.toLocaleString() + '</td>' +
     '<td><strong>' + d.anyPct + '%</strong></td>' +
@@ -885,8 +896,8 @@ function renderToxTable() {
     '<td>' + d.alc.toLocaleString() + '</td>' +
     '<td>' + d.drugPct + '%</td>' +
     '<td>' + d.drug.toLocaleString() + '</td>' +
-    '</tr>'
-  ).join('');
+    '</tr>';
+  }).join('');
 }
 
 // Toxicology table column sorting
@@ -1336,10 +1347,211 @@ addCanvasHover('myearChart', (x, y) => {
 })();
 
 // ================================================================
+// Vehicle Comparison Mode
+// ================================================================
+
+function toggleCompare(vehicleName, source) {
+  if (compareSet.has(vehicleName)) {
+    compareSet.delete(vehicleName);
+  } else {
+    if (compareSet.size >= COMPARE_MAX) {
+      // Flash the tray to indicate limit
+      var tray = document.getElementById('compareTray');
+      tray.classList.add('compare-tray-shake');
+      setTimeout(function() { tray.classList.remove('compare-tray-shake'); }, 400);
+      return false;
+    }
+    compareSet.add(vehicleName);
+  }
+  updateCompareTray();
+  // Re-render tables to update checkbox state
+  if (typeof renderFarsModelTable === 'function') renderFarsModelTable();
+  if (typeof renderToxTable === 'function') renderToxTable();
+  return true;
+}
+
+function clearComparison() {
+  compareSet.clear();
+  updateCompareTray();
+  if (typeof renderFarsModelTable === 'function') renderFarsModelTable();
+  if (typeof renderToxTable === 'function') renderToxTable();
+  // Collapse panel
+  var panel = document.getElementById('comparePanel');
+  panel.classList.remove('compare-panel-open');
+  document.getElementById('compareExpandBtn').textContent = 'Compare ▲';
+}
+
+function toggleComparePanel() {
+  var panel = document.getElementById('comparePanel');
+  var btn = document.getElementById('compareExpandBtn');
+  if (panel.classList.contains('compare-panel-open')) {
+    panel.classList.remove('compare-panel-open');
+    btn.textContent = 'Compare ▲';
+  } else {
+    renderComparePanel();
+    panel.classList.add('compare-panel-open');
+    btn.textContent = 'Close ▼';
+  }
+}
+
+function updateCompareTray() {
+  var tray = document.getElementById('compareTray');
+  var chips = document.getElementById('compareChips');
+  var count = document.getElementById('compareCount');
+  var expandBtn = document.getElementById('compareExpandBtn');
+
+  count.textContent = compareSet.size;
+
+  if (compareSet.size === 0) {
+    tray.classList.remove('compare-tray-visible');
+    return;
+  }
+
+  tray.classList.add('compare-tray-visible');
+
+  var colorIdx = 0;
+  chips.innerHTML = Array.from(compareSet).map(function(name) {
+    var color = COMPARE_COLORS[colorIdx++ % COMPARE_COLORS.length];
+    return '<span class="compare-chip" style="border-left:3px solid ' + color + '">' +
+      '<span class="compare-chip-name">' + name + '</span>' +
+      '<button class="compare-chip-remove" onclick="toggleCompare(\'' + name.replace(/'/g, "\\'") + '\')" title="Remove">✕</button>' +
+    '</span>';
+  }).join('');
+
+  expandBtn.style.display = compareSet.size >= 2 ? '' : 'none';
+}
+
+function renderComparePanel() {
+  var content = document.getElementById('comparePanelContent');
+  var vehicles = Array.from(compareSet);
+  if (vehicles.length < 2) {
+    content.innerHTML = '<p class="compare-hint">Select at least 2 vehicles to compare.</p>';
+    return;
+  }
+
+  // Gather data for each vehicle from both FARS_BY_MODEL and FARS_TOXICOLOGY
+  var vehicleData = vehicles.map(function(name, idx) {
+    var fars = FARS_BY_MODEL.find(function(d) { return (d.make + ' ' + d.model) === name; });
+    var tox = FARS_TOXICOLOGY.find(function(d) { return (d.make + ' ' + d.model) === name; });
+    return { name: name, fars: fars, tox: tox, color: COMPARE_COLORS[idx % COMPARE_COLORS.length] };
+  });
+
+  // Build comparison table
+  var html = '<div class="compare-grid">';
+
+  // Header row with vehicle names
+  html += '<div class="compare-row compare-header-row">';
+  html += '<div class="compare-label-cell">Metric</div>';
+  vehicleData.forEach(function(v) {
+    html += '<div class="compare-vehicle-cell" style="border-top:3px solid ' + v.color + '">';
+    html += '<strong>' + v.name + '</strong>';
+    if (v.fars) html += '<div class="compare-vehicle-class">' + v.fars.cls + '</div>';
+    else if (v.tox) html += '<div class="compare-vehicle-class">' + v.tox.cls + '</div>';
+    html += '</div>';
+  });
+  html += '</div>';
+
+  // --- Fatality metrics ---
+  var maxDeaths = Math.max.apply(null, vehicleData.map(function(v) { return v.fars ? v.fars.deaths : 0; })) || 1;
+  html += buildCompareRow('Total Deaths (10yr)', vehicleData, function(v) {
+    return v.fars ? v.fars.deaths.toLocaleString() : '—';
+  }, function(v) {
+    return v.fars ? v.fars.deaths / maxDeaths : 0;
+  });
+
+  var maxAnnual = Math.max.apply(null, vehicleData.map(function(v) { return v.fars ? v.fars.annual : 0; })) || 1;
+  html += buildCompareRow('Annual Avg Deaths', vehicleData, function(v) {
+    return v.fars ? v.fars.annual.toFixed(0) : '—';
+  }, function(v) {
+    return v.fars ? v.fars.annual / maxAnnual : 0;
+  });
+
+  var maxRate = Math.max.apply(null, vehicleData.map(function(v) { return (v.fars && v.fars.rate) ? v.fars.rate : 0; })) || 1;
+  html += buildCompareRow('Est. Rate / 100M VMT', vehicleData, function(v) {
+    return (v.fars && v.fars.rate !== null) ? v.fars.rate.toFixed(2) : '—';
+  }, function(v) {
+    return (v.fars && v.fars.rate) ? v.fars.rate / maxRate : 0;
+  });
+
+  var maxFleet = Math.max.apply(null, vehicleData.map(function(v) { return (v.fars && v.fars.fleet) ? v.fars.fleet : 0; })) || 1;
+  html += buildCompareRow('Est. Fleet Size', vehicleData, function(v) {
+    return (v.fars && v.fars.fleet) ? (v.fars.fleet / 1e6).toFixed(1) + 'M' : '—';
+  }, function(v) {
+    return (v.fars && v.fars.fleet) ? v.fars.fleet / maxFleet : 0;
+  });
+
+  // --- Impairment metrics ---
+  var hasTox = vehicleData.some(function(v) { return v.tox; });
+  if (hasTox) {
+    html += '<div class="compare-row compare-section-row"><div class="compare-label-cell compare-section-label">Impaired Driving</div>';
+    vehicleData.forEach(function() { html += '<div class="compare-vehicle-cell"></div>'; });
+    html += '</div>';
+
+    html += buildCompareRow('Any Impairment %', vehicleData, function(v) {
+      return v.tox ? v.tox.anyPct + '%' : '—';
+    }, function(v) {
+      return v.tox ? v.tox.anyPct / 100 : 0;
+    });
+
+    html += buildCompareRow('Alcohol %', vehicleData, function(v) {
+      return v.tox ? v.tox.alcPct + '%' : '—';
+    }, function(v) {
+      return v.tox ? v.tox.alcPct / 100 : 0;
+    });
+
+    html += buildCompareRow('Drug %', vehicleData, function(v) {
+      return v.tox ? v.tox.drugPct + '%' : '—';
+    }, function(v) {
+      return v.tox ? v.tox.drugPct / 100 : 0;
+    });
+
+    var maxDrivers = Math.max.apply(null, vehicleData.map(function(v) { return v.tox ? v.tox.drivers : 0; })) || 1;
+    html += buildCompareRow('Drivers in Fatal Crashes', vehicleData, function(v) {
+      return v.tox ? v.tox.drivers.toLocaleString() : '—';
+    }, function(v) {
+      return v.tox ? v.tox.drivers / maxDrivers : 0;
+    });
+  }
+
+  html += '</div>';
+  content.innerHTML = html;
+}
+
+function buildCompareRow(label, vehicleData, valueFn, barFn) {
+  var html = '<div class="compare-row">';
+  html += '<div class="compare-label-cell">' + label + '</div>';
+  vehicleData.forEach(function(v) {
+    var val = valueFn(v);
+    var pct = Math.max(0, Math.min(1, barFn(v))) * 100;
+    var isHighest = pct >= 99.5;
+    html += '<div class="compare-vehicle-cell">';
+    html += '<div class="compare-bar-wrap">';
+    html += '<div class="compare-bar" style="width:' + pct.toFixed(1) + '%;background:' + v.color + (isHighest ? ';opacity:1' : ';opacity:0.7') + '"></div>';
+    html += '</div>';
+    html += '<span class="compare-value' + (isHighest ? ' compare-value-highest' : '') + '">' + val + '</span>';
+    html += '</div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+// Delegate checkbox clicks on tables
+document.addEventListener('change', function(e) {
+  if (e.target.classList.contains('compare-cb')) {
+    var name = e.target.dataset.vehicle;
+    var ok = toggleCompare(name, e.target.dataset.source);
+    if (!ok) e.target.checked = false; // revert if at limit
+    e.stopPropagation();
+  }
+});
+
+// ================================================================
 // Table Row Click-to-Highlight
 // ================================================================
 (function() {
   document.addEventListener('click', function(e) {
+    // Don't toggle row highlight when clicking checkboxes
+    if (e.target.classList.contains('compare-cb') || e.target.closest('.compare-cell')) return;
     var row = e.target.closest('tbody tr');
     if (!row) return;
     // Toggle selection

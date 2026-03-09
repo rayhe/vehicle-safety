@@ -121,6 +121,7 @@
         <table id="fmTable">
           <thead>
             <tr>
+              <th class="compare-th" title="Select to compare">☐</th>
               <th data-fmcol="rank"># <span class="sort-arrow">&#9650;</span></th>
               <th data-fmcol="vehicle">Vehicle <span class="sort-arrow">&#9650;</span></th>
               <th data-fmcol="class">Class <span class="sort-arrow">&#9650;</span></th>
@@ -203,6 +204,7 @@
         <table id="toxTable">
           <thead>
             <tr>
+              <th class="compare-th" title="Select to compare">☐</th>
               <th data-toxcol="rank"># <span class="sort-arrow">&#9650;</span></th>
               <th data-toxcol="vehicle">Vehicle <span class="sort-arrow">&#9650;</span></th>
               <th data-toxcol="class">Class <span class="sort-arrow">&#9650;</span></th>
@@ -549,6 +551,21 @@
         Powered by NHTSA FARS public data &bull; &copy; 2025 The Crash Report &bull; <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub</a>
       </div>
     </footer>
+  </div>
+
+  <!-- Vehicle Comparison Tray -->
+  <div class="compare-tray" id="compareTray">
+    <div class="compare-tray-header">
+      <span class="compare-tray-title">🔍 Compare Vehicles <span class="compare-count" id="compareCount">0</span></span>
+      <div class="compare-tray-actions">
+        <button class="compare-tray-btn compare-expand-btn" id="compareExpandBtn" onclick="toggleComparePanel()" title="Expand comparison">Compare ▲</button>
+        <button class="compare-tray-btn compare-clear-btn" onclick="clearComparison()" title="Clear all">✕ Clear</button>
+      </div>
+    </div>
+    <div class="compare-chips" id="compareChips"></div>
+    <div class="compare-panel" id="comparePanel">
+      <div class="compare-panel-content" id="comparePanelContent"></div>
+    </div>
   </div>
 
   <div class="chart-tooltip" id="chartTooltip"></div>
