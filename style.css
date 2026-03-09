@@ -542,15 +542,23 @@ tr:hover td { background: rgba(0,0,0,0.02); }
   pointer-events: none;
   background: var(--card-bg);
   border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
   border-radius: var(--radius);
-  padding: 10px 14px;
+  padding: 12px 16px;
   font-family: var(--font-sans);
   font-size: 0.75rem;
   line-height: 1.5;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
   z-index: 1000;
-  max-width: 300px;
+  max-width: 320px;
   display: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.chart-tooltip[style*="display: block"] {
+  opacity: 1;
+  transform: translateY(0);
 }
 .chart-tooltip b { font-weight: 600; }
 
@@ -695,24 +703,39 @@ tr:focus-visible {
 
 /* Enhanced tooltip */
 .chart-tooltip {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 .chart-tooltip .tooltip-header {
   font-weight: 700;
-  font-size: 0.78rem;
-  margin-bottom: 4px;
-  padding-bottom: 4px;
+  font-size: 0.82rem;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
   border-bottom: 1px solid var(--border);
+  color: var(--text);
 }
 .chart-tooltip .tooltip-row {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
+  padding: 2px 0;
 }
-.chart-tooltip .tooltip-label { color: var(--text-muted); }
-.chart-tooltip .tooltip-value { font-weight: 600; text-align: right; }
+.chart-tooltip .tooltip-label { color: var(--text-muted); font-size: 0.72rem; }
+.chart-tooltip .tooltip-value { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
 .chart-tooltip .tooltip-highlight { color: var(--accent); font-weight: 700; }
+.chart-tooltip .tooltip-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border);
+  margin-top: 6px;
+  overflow: hidden;
+}
+.chart-tooltip .tooltip-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--accent);
+  transition: width 0.2s ease;
+}
 
 /* Keyboard shortcut hint badge */
 .kbd-hint {

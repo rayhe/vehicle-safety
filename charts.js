@@ -37,6 +37,25 @@ function addCanvasHover(canvasId, hitTest) {
 // Hit zone storage for each chart (populated during render)
 const hitZones = {};
 
+// Helper: create a vertical gradient for bar fills
+function barGradient(ctx, x, y, w, h, color, lighten) {
+  lighten = lighten || 0.15;
+  const grad = ctx.createLinearGradient(x, y, x, y + h);
+  grad.addColorStop(0, color);
+  // Slightly lighter at bottom for depth
+  grad.addColorStop(1, color + Math.round(lighten * 255).toString(16).padStart(2, '0').substring(0, 0) || color);
+  return color; // fallback to solid for now — gradient on canvas is tricky with alpha
+}
+
+// Helper: create a horizontal gradient for horizontal bar fills
+function hBarGradient(ctx, x, y, w, h, baseColor) {
+  const grad = ctx.createLinearGradient(x, y, x + w, y);
+  grad.addColorStop(0, baseColor);
+  grad.addColorStop(0.7, baseColor);
+  grad.addColorStop(1, baseColor + '99');
+  return grad;
+}
+
 // Vehicle Comparison state (used by table render functions)
 const compareSet = new Set();
 const COMPARE_MAX = 5;
@@ -154,11 +173,16 @@ function renderNationalChart() {
     const x = xCenter(i) - barW / 2;
     const y = yFat(d.fatalities);
     const h = yFat(0) - y;
-    ctx.fillStyle = d.estimate
+    const baseColor = d.estimate
       ? getComputedStyle(document.documentElement).getPropertyValue('--fars-estimate').trim()
       : getComputedStyle(document.documentElement).getPropertyValue('--fars-bar').trim();
+    // Vertical gradient: solid at top, slightly transparent at bottom
+    const grad = ctx.createLinearGradient(x, y, x, y + h);
+    grad.addColorStop(0, baseColor);
+    grad.addColorStop(1, baseColor + 'AA');
+    ctx.fillStyle = grad;
     ctx.beginPath();
-    ctx.roundRect(x, y, barW, h, [3, 3, 0, 0]);
+    ctx.roundRect(x, y, barW, h, [5, 5, 0, 0]);
     ctx.fill();
 
     // Year label
@@ -430,10 +454,13 @@ function renderClassRateChart(year) {
     ctx.textBaseline = 'middle';
     ctx.fillText(b.label, labelW - 8, y + barH / 2);
 
-    // Bar
-    ctx.fillStyle = b.color;
+    // Bar with gradient
+    const barGrad = ctx.createLinearGradient(labelW, y, labelW + bw, y);
+    barGrad.addColorStop(0, b.color);
+    barGrad.addColorStop(1, b.color + '88');
+    ctx.fillStyle = barGrad;
     ctx.beginPath();
-    ctx.roundRect(labelW, y, bw, barH, 3);
+    ctx.roundRect(labelW, y, bw, barH, 5);
     ctx.fill();
 
     // Value
@@ -609,10 +636,15 @@ function renderFarsModelChart() {
     if (isMobile && label.length > 18) label = label.substring(0, 17) + '\u2026';
     ctx.fillText(label, effectiveLabelWidth - 8, y + barHeight / 2);
 
-    // Bar (colored by body class)
-    ctx.fillStyle = farsClsColor(d.cls);
+    // Bar (colored by body class) with gradient
+    const modelBarColor = farsClsColor(d.cls);
+    const modelGrad = ctx.createLinearGradient(effectiveLabelWidth, y, effectiveLabelWidth + barW, y);
+    modelGrad.addColorStop(0, modelBarColor);
+    modelGrad.addColorStop(0.8, modelBarColor);
+    modelGrad.addColorStop(1, modelBarColor + '66');
+    ctx.fillStyle = modelGrad;
     ctx.beginPath();
-    ctx.roundRect(effectiveLabelWidth, y, barW, barHeight, 3);
+    ctx.roundRect(effectiveLabelWidth, y, barW, barHeight, 5);
     ctx.fill();
 
     // Value
@@ -834,15 +866,19 @@ function renderToxChart() {
     if (isMobile && label.length > 18) label = label.substring(0, 17) + '\u2026';
     ctx.fillText(label, effectiveLabelWidth - 8, labelY);
 
-    // 3 bars
+    // 3 bars with gradient
     metrics.forEach((m, mi) => {
       const y = groupY + mi * (subBarHeight + 1);
       const val = showRaw ? d[m.key] : d[m.pctKey];
       const barW = Math.max(1, (val / maxVal) * barAreaWidth);
 
-      ctx.fillStyle = m.color;
+      const impGrad = ctx.createLinearGradient(effectiveLabelWidth, y, effectiveLabelWidth + barW, y);
+      impGrad.addColorStop(0, m.color);
+      impGrad.addColorStop(0.85, m.color);
+      impGrad.addColorStop(1, m.color + '55');
+      ctx.fillStyle = impGrad;
       ctx.beginPath();
-      ctx.roundRect(effectiveLabelWidth, y, barW, subBarHeight, 2);
+      ctx.roundRect(effectiveLabelWidth, y, barW, subBarHeight, 3);
       ctx.fill();
     });
 

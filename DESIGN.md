@@ -93,7 +93,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 
 ### Phase 2: Polish (Week 2)
 - [x] Redesign footer *(done: 3-column grid footer with About/Data/Contribute sections, proper bottom bar)*
-- [ ] Improve chart styling (rounded bars, better tooltips)
+- [x] Improve chart styling (rounded bars, better tooltips) *(done: bar radius 3→5, horizontal gradient fills that fade at edge, vertical gradient on national chart, tooltip gets accent left-border + slide-in animation + blur backdrop + tabular-nums + mini bar component, all 4 chart types updated)*
 - [x] Add smooth tab transitions *(done: CSS fade 0.25s, keyboard nav with arrow/number keys)*
 - [ ] Better mobile hamburger menu
 - [x] Story page layout improvements *(done: centered 680px reading column, larger body text 1rem with 1.8 line-height, centered pull-stats at 3rem, proper .story-hero class, reading-time/share-link row styling, first-paragraph emphasis)*
