@@ -1161,3 +1161,77 @@ html.dark tr.row-compare td {
   background: linear-gradient(90deg, #D32F2F, #ff6659);
   transition: width 0.4s ease;
 }
+
+
+/* Related Stories */
+.related-stories {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border, #ddd);
+}
+.dark .related-stories { border-top-color: #333; }
+.related-heading {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text, #1a1a1a);
+  margin: 0 0 1.2rem 0;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 680px) {
+  .related-grid { grid-template-columns: 1fr; }
+}
+.related-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border, #ddd);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text, #1a1a1a);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.related-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.dark .related-card {
+  background: #1e1e1e;
+  border-color: #333;
+  color: #e0e0e0;
+}
+.dark .related-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+.related-card-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.related-card-body {
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.related-card-kicker {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #D32F2F;
+}
+.dark .related-card-kicker { color: #FF5252; }
+.related-card-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
