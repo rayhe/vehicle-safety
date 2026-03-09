@@ -12,9 +12,12 @@ jobs:
 
       - name: Stage deploy files
         run: |
-          mkdir -p deploy/stories
+          mkdir -p deploy/stories deploy/images
           cp index.html charts.js style.css fars_output.js deploy/
+          [ -f favicon.ico ] && cp favicon.ico deploy/ || true
+          [ -f sitemap.xml ] && cp sitemap.xml deploy/ || true
           cp stories/*.html deploy/stories/
+          [ -d images ] && cp images/* deploy/images/ || true
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
