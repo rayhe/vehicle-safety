@@ -103,7 +103,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [ ] Related stories section
 - [ ] Newsletter signup placeholder
 - [ ] Social share buttons on stories
-- [ ] "Most dangerous vehicles" featured widget
+- [x] "Most dangerous vehicles" featured widget *(done: dynamic top-10 widget above story grid with 3 toggle views — Per Mile rate, Total Deaths, Impairment %. Reads from FARS_BY_MODEL and FARS_TOXICOLOGY. Responsive grid, mini bar charts, click-to-navigate to By Model tab. Filters for fleet ≥100K on rate view, ≥200 drivers on impairment view for statistical significance.)*
 - [ ] Google account login (Firebase Auth) for article comments
 - [ ] Firebase-backed comment system on each story page
 - [ ] Comment moderation (spam filtering, report button)

@@ -355,6 +355,20 @@
     <section class="section">
       <div class="section-title">Investigations &amp; Analysis &mdash; NHTSA FARS 2014&ndash;2023</div>
 
+      <!-- Most Dangerous Vehicles Widget -->
+      <div class="danger-widget">
+        <div class="danger-widget-header">
+          <span class="danger-widget-title">☠ Most Dangerous Vehicles</span>
+          <span class="danger-widget-subtitle">NHTSA FARS 2014–2023</span>
+          <div class="danger-toggle-group">
+            <button class="danger-toggle active" data-sort="rate" onclick="renderDangerWidget('rate')">Per Mile</button>
+            <button class="danger-toggle" data-sort="deaths" onclick="renderDangerWidget('deaths')">Total Deaths</button>
+            <button class="danger-toggle" data-sort="impair" onclick="renderDangerWidget('impair')">Impairment</button>
+          </div>
+        </div>
+        <div class="danger-list" id="dangerList"></div>
+      </div>
+
       <div class="story-grid">
         <a href="stories/camry-safe-killer.html" class="story-card">
           <img src="images/camry-safe-killer.jpg" alt="Silver Toyota Camry parked in a quiet suburban driveway" class="story-card-img">
@@ -661,6 +675,60 @@
 
   <div class="chart-tooltip" id="chartTooltip"></div>
   <script src="fars_output.js"></script>
+  <script>
+    // ═══ Most Dangerous Vehicles Widget ═══
+    function renderDangerWidget(sortBy) {
+      sortBy = sortBy || 'rate';
+      const list = document.getElementById('dangerList');
+      if (!list) return;
+
+      // Update toggle buttons
+      document.querySelectorAll('.danger-toggle').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.sort === sortBy);
+      });
+
+      let items, labelFn, valFn, maxVal;
+
+      if (sortBy === 'rate') {
+        // Deadliest per mile — filter for meaningful fleet size
+        items = FARS_BY_MODEL.filter(v => v.fleet >= 100000 && v.rate > 0)
+          .sort((a, b) => b.rate - a.rate).slice(0, 10);
+        maxVal = items[0]?.rate || 1;
+        labelFn = v => `${v.rate.toFixed(2)} per 100M VMT`;
+        valFn = v => v.rate / maxVal;
+      } else if (sortBy === 'deaths') {
+        items = [...FARS_BY_MODEL].sort((a, b) => b.deaths - a.deaths).slice(0, 10);
+        maxVal = items[0]?.deaths || 1;
+        labelFn = v => `${v.deaths.toLocaleString()} deaths`;
+        valFn = v => v.deaths / maxVal;
+      } else {
+        // Impairment — use toxicology data
+        items = (typeof FARS_TOXICOLOGY !== 'undefined' ? FARS_TOXICOLOGY : [])
+          .filter(v => v.drivers >= 200)
+          .sort((a, b) => b.anyPct - a.anyPct).slice(0, 10);
+        maxVal = items[0]?.anyPct || 1;
+        labelFn = v => `${v.anyPct.toFixed(1)}% impaired`;
+        valFn = v => v.anyPct / maxVal;
+      }
+
+      list.innerHTML = items.map((v, i) => {
+        const name = v.make + ' ' + v.model.charAt(0) + v.model.slice(1).toLowerCase();
+        const pct = (valFn(v) * 100).toFixed(0);
+        return `<div class="danger-item" onclick="switchTab('model')" title="View in By Model tab">
+          <span class="danger-rank">${i + 1}</span>
+          <div class="danger-info">
+            <div class="danger-name">${name}</div>
+            <div class="danger-stat">${labelFn(v)}</div>
+          </div>
+          <div class="danger-bar-wrap">
+            <div class="danger-bar-fill" style="width:${pct}%"></div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+    // Initialize on load
+    document.addEventListener('DOMContentLoaded', () => renderDangerWidget('rate'));
+  </script>
   <script src="charts.js"></script>
 </body>
 </html>
