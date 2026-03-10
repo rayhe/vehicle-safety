@@ -1510,3 +1510,70 @@ html.dark .autocomplete-item .ac-name mark { color: var(--accent, #FF5252); }
 @media (max-width: 768px) {
   .autocomplete-wrap { min-width: 100%; }
 }
+
+/* ── Story Search Bar ── */
+.story-search-bar {
+  display: flex; align-items: center; gap: 12px;
+  margin: 16px 0 20px; padding: 0;
+}
+.story-search-wrap {
+  position: relative; flex: 1; max-width: 480px;
+}
+.story-search-icon {
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  font-size: 0.95rem; pointer-events: none; opacity: 0.5;
+}
+.story-search-input {
+  width: 100%; padding: 10px 36px 10px 38px;
+  border: 1.5px solid #ddd; border-radius: 8px;
+  font-size: 0.92rem; font-family: inherit;
+  background: #fff; color: #1a1a1a;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+.story-search-input:focus {
+  border-color: var(--accent, #D32F2F);
+  box-shadow: 0 0 0 3px rgba(211,47,47,0.12);
+}
+.story-search-input::placeholder { color: #999; }
+.story-search-clear {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  font-size: 1.3rem; cursor: pointer; color: #999; line-height: 1;
+  transition: opacity 0.15s, color 0.15s;
+}
+.story-search-clear:hover { color: var(--accent, #D32F2F); }
+.story-search-count {
+  font-size: 0.82rem; color: #888; white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.story-search-count.filtered { color: var(--accent, #D32F2F); font-weight: 600; }
+
+/* Empty state */
+.story-search-empty {
+  display: flex; flex-direction: column; align-items: center;
+  padding: 48px 20px; color: #999; text-align: center;
+}
+.story-search-empty-icon { font-size: 2.5rem; margin-bottom: 8px; opacity: 0.4; }
+.story-search-empty p { margin: 0; font-size: 0.95rem; }
+
+/* Dark mode */
+html.dark .story-search-input {
+  background: #1e1e1e; border-color: #444; color: #e0e0e0;
+}
+html.dark .story-search-input:focus {
+  border-color: var(--accent, #FF5252);
+  box-shadow: 0 0 0 3px rgba(255,82,82,0.15);
+}
+html.dark .story-search-input::placeholder { color: #777; }
+html.dark .story-search-clear { color: #777; }
+html.dark .story-search-clear:hover { color: var(--accent, #FF5252); }
+html.dark .story-search-count { color: #888; }
+html.dark .story-search-count.filtered { color: var(--accent, #FF5252); }
+html.dark .story-search-empty { color: #777; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .story-search-bar { flex-direction: column; align-items: stretch; gap: 6px; }
+  .story-search-wrap { max-width: 100%; }
+  .story-search-count { text-align: right; }
+}

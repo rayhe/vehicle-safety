@@ -16,6 +16,7 @@ jobs:
           cp index.html charts.js style.css fars_output.js deploy/
           [ -f export-csv.js ] && cp export-csv.js deploy/ || true
           [ -f newsletter.js ] && cp newsletter.js deploy/ || true
+          [ -f story-search.js ] && cp story-search.js deploy/ || true
           [ -f favicon.ico ] && cp favicon.ico deploy/ || true
           [ -f sitemap.xml ] && cp sitemap.xml deploy/ || true
           cp stories/*.html deploy/stories/
