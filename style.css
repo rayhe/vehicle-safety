@@ -982,6 +982,42 @@ tr:focus-visible {
 .chart-tooltip .tooltip-label { color: var(--text-muted); font-size: 0.72rem; }
 .chart-tooltip .tooltip-value { font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
 .chart-tooltip .tooltip-highlight { color: var(--accent); font-weight: 700; }
+.chart-tooltip .tooltip-story-link {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(128,128,128,0.3);
+}
+.chart-tooltip .tooltip-story-link a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85em;
+}
+.chart-tooltip .tooltip-story-link a:hover {
+  text-decoration: underline;
+}
+
+/* Story link badges in data tables */
+.story-link {
+  display: inline-block;
+  margin-left: 6px;
+  text-decoration: none;
+  font-size: 0.85em;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+}
+.story-link:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+.story-link-legend {
+  font-size: 0.78em;
+  color: var(--muted);
+  margin-bottom: 6px;
+  opacity: 0.7;
+}
+
 .chart-tooltip .tooltip-bar {
   height: 4px;
   border-radius: 2px;

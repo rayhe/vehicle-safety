@@ -21,6 +21,7 @@ jobs:
           [ -f reading-progress.js ] && cp reading-progress.js deploy/ || true
           [ -f related-stories.js ] && cp related-stories.js deploy/ || true
           [ -f share-buttons.js ] && cp share-buttons.js deploy/ || true
+          [ -f story-links.js ] && cp story-links.js deploy/ || true
           [ -f favicon.ico ] && cp favicon.ico deploy/ || true
           [ -f sitemap.xml ] && cp sitemap.xml deploy/ || true
           cp stories/*.html deploy/stories/

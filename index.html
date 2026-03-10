@@ -137,6 +137,7 @@
     <!-- FARS Per-Model Data Table -->
     <section class="section">
       <div class="count-label" id="fmTableCount"></div>
+      <div class="story-link-legend">📖 = full investigation available</div>
       <div class="table-wrap" style="max-height:500px;overflow-y:auto;">
         <table id="fmTable">
           <thead>
@@ -950,6 +951,7 @@
   </div>
 
   <div class="chart-tooltip" id="chartTooltip"></div>
+  <script src="story-links.js"></script>
   <script src="fars_output.js"></script>
   <script>
     // ═══ Most Dangerous Vehicles Widget ═══
@@ -990,10 +992,13 @@
       list.innerHTML = items.map((v, i) => {
         const name = v.make + ' ' + v.model.charAt(0) + v.model.slice(1).toLowerCase();
         const pct = (valFn(v) * 100).toFixed(0);
-        return `<div class="danger-item" onclick="switchTab('model')" title="View in By Model tab">
+        const slug = getStorySlug(v.make, v.model);
+        const storyAttr = slug ? ` data-story="${slug}"` : '';
+        const storyBadge = slug ? ' <a href="stories/' + slug + '.html" class="story-link" title="Read the full investigation" onclick="event.stopPropagation()">📖</a>' : '';
+        return `<div class="danger-item" onclick="${slug ? "location.href='stories/" + slug + ".html'" : "switchTab('model')"}" title="${slug ? 'Read the investigation' : 'View in By Model tab'}"${storyAttr}>
           <span class="danger-rank">${i + 1}</span>
           <div class="danger-info">
-            <div class="danger-name">${name}</div>
+            <div class="danger-name">${name}${storyBadge}</div>
             <div class="danger-stat">${labelFn(v)}</div>
           </div>
           <div class="danger-bar-wrap">

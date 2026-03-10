@@ -788,7 +788,8 @@ function renderFarsModelChart() {
         '<div class="tooltip-row"><span class="tooltip-label">Deaths (5yr):</span> <span class="tooltip-value">' + d.deaths.toLocaleString() + '</span></div>' +
         '<div class="tooltip-row"><span class="tooltip-label">Est. rate:</span> <span class="tooltip-value' + (d.rate !== null && d.rate > 3 ? ' tooltip-highlight' : '') + '">' + rateStr + ' /100M VMT</span></div>' +
         '<div class="tooltip-row"><span class="tooltip-label">Annual sales:</span> <span class="tooltip-value">' + d.annual.toLocaleString() + '</span></div>' +
-        '<div class="tooltip-row"><span class="tooltip-label">Est. fleet:</span> <span class="tooltip-value">' + fleetStr + '</span></div>'
+        '<div class="tooltip-row"><span class="tooltip-label">Est. fleet:</span> <span class="tooltip-value">' + fleetStr + '</span></div>' +
+        (VEHICLE_STORY_MAP[(d.make + ' ' + d.model).toLowerCase()] ? '<div class="tooltip-row tooltip-story-link"><a href="stories/' + VEHICLE_STORY_MAP[(d.make + ' ' + d.model).toLowerCase()] + '.html">📖 Read the full investigation</a></div>' : '')
     };
   });
 }
@@ -813,7 +814,7 @@ function renderFarsModelTable() {
     return '<tr class="' + (checked ? 'row-compare' : '') + '">' +
       '<td class="compare-cell"><input type="checkbox" class="compare-cb" data-vehicle="' + vKey.replace(/"/g, '&quot;') + '" data-source="fars" ' + (checked ? 'checked' : '') + ' title="Add to comparison"></td>' +
       '<td>' + (i + 1) + '</td>' +
-      '<td>' + vKey + '</td>' +
+      '<td>' + vKey + getStoryLink(d.make, d.model) + '</td>' +
       '<td>' + d.cls + '</td>' +
       '<td><strong>' + d.deaths.toLocaleString() + '</strong></td>' +
       '<td>' + d.annual.toFixed(0) + '</td>' +
@@ -1044,7 +1045,7 @@ function renderToxTable() {
     return '<tr class="' + (checked ? 'row-compare' : '') + '">' +
     '<td class="compare-cell"><input type="checkbox" class="compare-cb" data-vehicle="' + vKey.replace(/"/g, '&quot;') + '" data-source="tox" ' + (checked ? 'checked' : '') + ' title="Add to comparison"></td>' +
     '<td>' + (i + 1) + '</td>' +
-    '<td>' + vKey + '</td>' +
+    '<td>' + vKey + getStoryLink(d.make, d.model) + '</td>' +
     '<td>' + d.cls + '</td>' +
     '<td>' + d.drivers.toLocaleString() + '</td>' +
     '<td><strong>' + d.anyPct + '%</strong></td>' +
