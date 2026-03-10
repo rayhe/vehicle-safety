@@ -1269,3 +1269,18 @@ html.dark tr.row-compare td {
 .share-bar a[title*="Facebook"]:hover { background: #1877f2; }
 .share-bar a[title*="Reddit"]:hover { background: #ff4500; }
 .share-bar .copy-link-btn:hover { background: var(--accent); }
+
+/* CSV Export buttons */
+.export-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.export-csv-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 14px; font-size: 0.75rem; font-weight: 600;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-muted, #666); background: var(--card-bg, #fff);
+  border: 1px solid var(--border, #ddd); border-radius: 6px;
+  cursor: pointer; transition: all 0.15s; white-space: nowrap;
+}
+.export-csv-btn:hover { color: #fff; background: var(--accent, #D32F2F); border-color: var(--accent, #D32F2F); }
+.export-csv-btn.export-done { color: #fff; background: #2e7d32; border-color: #2e7d32; }
+.dark .export-csv-btn { background: var(--card-bg, #1E1E1E); color: var(--text-muted, #aaa); border-color: var(--border, #333); }
+.dark .export-csv-btn:hover { color: #fff; background: var(--accent, #FF5252); border-color: var(--accent, #FF5252); }

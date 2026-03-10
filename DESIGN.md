@@ -119,7 +119,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [ ] Search/filter enhancements (autocomplete, recent searches)
 - [ ] Better tooltips with richer data
 - [ ] Performance optimization for large datasets
-- [ ] Export comparison/data as CSV or image
+- [x] Export comparison/data as CSV or image *(done: `export-csv.js` adds "⬇ Export CSV" buttons to By Model and Impairment tables; exports visible table data as `.csv` download with proper escaping; styled button with hover/dark mode support; green "✓ Downloaded" feedback on click)*
 
 ## Self-Improvement Process
 Each hourly design cycle should:
