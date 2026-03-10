@@ -1,26 +1,105 @@
 // ================================================================
-// Shared tooltip
+// Shared tooltip with click-to-pin and hover highlighting
 // ================================================================
 const tooltip = {
   el: null,
+  pinned: false,
+  pinnedHtml: null,
   init() { this.el = document.getElementById('chartTooltip'); },
-  show(e, html) {
+  show(e, html, isPinAction) {
     if (!this.el) this.init();
-    this.el.innerHTML = html;
+    if (this.pinned && !isPinAction) return; // Don't override pinned tooltip on hover
+    const closeBtn = '<button class="tooltip-close" onclick="tooltip.unpin()" title="Close">&times;</button>';
+    const pinHint = this.pinned
+      ? '<div class="tooltip-pin-badge">📌 Pinned — click to close</div>'
+      : '<div class="tooltip-pin-hint">Click to pin</div>';
+    this.el.innerHTML = closeBtn + html + pinHint;
     this.el.style.display = 'block';
+    this.el.classList.toggle('pinned', this.pinned);
     const r = this.el.getBoundingClientRect();
-    let x = e.clientX + 12, y = e.clientY + 12;
-    if (x + r.width > window.innerWidth - 8) x = e.clientX - r.width - 12;
-    if (y + r.height > window.innerHeight - 8) y = e.clientY - r.height - 12;
+    let x = e.clientX + 14, y = e.clientY + 14;
+    if (x + r.width > window.innerWidth - 12) x = e.clientX - r.width - 14;
+    if (y + r.height > window.innerHeight - 12) y = e.clientY - r.height - 14;
     this.el.style.left = x + 'px';
     this.el.style.top = y + 'px';
   },
-  hide() { if (this.el) this.el.style.display = 'none'; }
+  hide() {
+    if (this.pinned) return;
+    if (this.el) { this.el.style.display = 'none'; this.el.classList.remove('pinned'); }
+  },
+  pin(e, html) {
+    if (this.pinned && this.pinnedHtml === html) { this.unpin(); return; } // Toggle off
+    this.pinned = true;
+    this.pinnedHtml = html;
+    this.show(e, html, true);
+  },
+  unpin() {
+    this.pinned = false;
+    this.pinnedHtml = null;
+    if (this.el) { this.el.style.display = 'none'; this.el.classList.remove('pinned'); }
+    // Clear all highlight overlays
+    document.querySelectorAll('.chart-highlight-overlay').forEach(c => {
+      const ctx = c.getContext('2d');
+      ctx.clearRect(0, 0, c.width, c.height);
+    });
+  }
 };
 
-// Attach hover handlers to a canvas. hitTest(x, y) returns HTML string or null.
-function addCanvasHover(canvasId, hitTest) {
+// Close pinned tooltip when clicking outside charts
+document.addEventListener('click', (e) => {
+  if (!tooltip.pinned) return;
+  if (e.target.closest('canvas') || e.target.closest('.chart-tooltip')) return;
+  tooltip.unpin();
+});
+
+// Hover highlight overlay management
+const highlightOverlays = {};
+function getHighlightOverlay(canvas) {
+  if (highlightOverlays[canvas.id]) return highlightOverlays[canvas.id];
+  const overlay = document.createElement('canvas');
+  overlay.className = 'chart-highlight-overlay';
+  overlay.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;';
+  canvas.parentElement.style.position = 'relative';
+  canvas.parentElement.appendChild(overlay);
+  highlightOverlays[canvas.id] = overlay;
+  return overlay;
+}
+
+function drawHighlight(canvas, zone) {
+  const overlay = getHighlightOverlay(canvas);
+  const dpr = window.devicePixelRatio || 1;
+  overlay.width = canvas.width;
+  overlay.height = canvas.height;
+  overlay.style.width = canvas.style.width;
+  overlay.style.height = canvas.style.height;
+  const ctx = overlay.getContext('2d');
+  ctx.clearRect(0, 0, overlay.width, overlay.height);
+  if (!zone) return;
+  ctx.save();
+  ctx.scale(dpr, dpr);
+  const isDark = document.documentElement.classList.contains('dark');
+  ctx.fillStyle = isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.08)';
+  ctx.beginPath();
+  ctx.roundRect(zone.x, zone.y, zone.w, zone.h, 3);
+  ctx.fill();
+  // Accent top edge
+  ctx.strokeStyle = isDark ? 'rgba(255,82,82,0.5)' : 'rgba(211,47,47,0.4)';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(zone.x, zone.y);
+  ctx.lineTo(zone.x + zone.w, zone.y);
+  ctx.stroke();
+  ctx.restore();
+}
+
+// Attach hover + click + highlight handlers to a canvas.
+// hitTest(x, y) returns HTML string or null.
+// zoneTest(x, y) returns the hit zone object or null (for highlighting).
+function addCanvasHover(canvasId, hitTest, zoneTest) {
   const canvas = document.getElementById(canvasId);
+  let lastZoneIdx = -1;
+  canvas.style.cursor = 'default';
+
   canvas.addEventListener('mousemove', (e) => {
     const rect = canvas.getBoundingClientRect();
     const scaleX = canvas.width / (canvas.clientWidth || 1);
@@ -28,10 +107,53 @@ function addCanvasHover(canvasId, hitTest) {
     const x = (e.clientX - rect.left) * scaleX / (window.devicePixelRatio || 1);
     const y = (e.clientY - rect.top) * scaleY / (window.devicePixelRatio || 1);
     const html = hitTest(x, y);
+    const zone = zoneTest ? zoneTest(x, y) : null;
+
+    // Pointer cursor on interactive zones
+    canvas.style.cursor = html ? 'pointer' : 'default';
+
+    // Highlight hovered zone
+    if (zone) {
+      const idx = zone._idx !== undefined ? zone._idx : -2;
+      if (idx !== lastZoneIdx) {
+        drawHighlight(canvas, zone);
+        lastZoneIdx = idx;
+      }
+    } else {
+      if (lastZoneIdx !== -1 && !tooltip.pinned) {
+        drawHighlight(canvas, null);
+        lastZoneIdx = -1;
+      }
+    }
+
     if (html) tooltip.show(e, html);
     else tooltip.hide();
   });
-  canvas.addEventListener('mouseleave', () => tooltip.hide());
+
+  canvas.addEventListener('mouseleave', () => {
+    canvas.style.cursor = 'default';
+    if (!tooltip.pinned) {
+      tooltip.hide();
+      drawHighlight(canvas, null);
+      lastZoneIdx = -1;
+    }
+  });
+
+  canvas.addEventListener('click', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = canvas.width / (canvas.clientWidth || 1);
+    const scaleY = canvas.height / (canvas.clientHeight || 1);
+    const x = (e.clientX - rect.left) * scaleX / (window.devicePixelRatio || 1);
+    const y = (e.clientY - rect.top) * scaleY / (window.devicePixelRatio || 1);
+    const html = hitTest(x, y);
+    const zone = zoneTest ? zoneTest(x, y) : null;
+    if (html) {
+      tooltip.pin(e, html);
+      if (zone) drawHighlight(canvas, zone);
+    } else {
+      tooltip.unpin();
+    }
+  });
 }
 
 // Hit zone storage for each chart (populated during render)
@@ -1373,31 +1495,34 @@ if (FARS_BY_MODEL && FARS_MODEL_YEAR && FARS_BY_MODEL.length > 0) {
 const initTab = location.hash.replace('#', '') || 'stories';
 switchTab(['stories','model','tox','myear','national','method'].includes(initTab) ? initTab : 'stories');
 
-// Hover tooltips for all charts
-addCanvasHover('nationalChart', (x, y) => {
-  const z = (hitZones.national || []).find(h => x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h);
-  return z ? z.html : null;
-});
-addCanvasHover('userTypeChart', (x, y) => {
-  const z = (hitZones.userType || []).find(h => x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h);
-  return z ? z.html : null;
-});
-addCanvasHover('classRateChart', (x, y) => {
-  const z = (hitZones.classRate || []).find(h => x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h);
-  return z ? z.html : null;
-});
-addCanvasHover('farsModelChart', (x, y) => {
-  const z = (hitZones.farsModel || []).find(h => x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h);
-  return z ? z.html : null;
-});
-addCanvasHover('toxChart', (x, y) => {
-  const z = (hitZones.tox || []).find(h => x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h);
-  return z ? z.html : null;
-});
-addCanvasHover('myearChart', (x, y) => {
-  const z = (hitZones.myear || []).find(h => x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h);
-  return z ? z.html : null;
-});
+// Hover + click + highlight handlers for all charts
+function findZone(zones, x, y) {
+  return (zones || []).find((h, i) => { h._idx = i; return x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h; }) || null;
+}
+addCanvasHover('nationalChart',
+  (x, y) => { const z = findZone(hitZones.national, x, y); return z ? z.html : null; },
+  (x, y) => findZone(hitZones.national, x, y)
+);
+addCanvasHover('userTypeChart',
+  (x, y) => { const z = findZone(hitZones.userType, x, y); return z ? z.html : null; },
+  (x, y) => findZone(hitZones.userType, x, y)
+);
+addCanvasHover('classRateChart',
+  (x, y) => { const z = findZone(hitZones.classRate, x, y); return z ? z.html : null; },
+  (x, y) => findZone(hitZones.classRate, x, y)
+);
+addCanvasHover('farsModelChart',
+  (x, y) => { const z = findZone(hitZones.farsModel, x, y); return z ? z.html : null; },
+  (x, y) => findZone(hitZones.farsModel, x, y)
+);
+addCanvasHover('toxChart',
+  (x, y) => { const z = findZone(hitZones.tox, x, y); return z ? z.html : null; },
+  (x, y) => findZone(hitZones.tox, x, y)
+);
+addCanvasHover('myearChart',
+  (x, y) => { const z = findZone(hitZones.myear, x, y); return z ? z.html : null; },
+  (x, y) => findZone(hitZones.myear, x, y)
+);
 
 // Theme toggle
 (function() {
