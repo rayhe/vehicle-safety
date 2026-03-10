@@ -1622,3 +1622,102 @@ html.dark .story-search-empty { color: #777; }
   .story-search-wrap { max-width: 100%; }
   .story-search-count { text-align: right; }
 }
+
+/* ═══ Story Category Filter Pills ═══ */
+.story-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 16px;
+  padding: 0;
+}
+.story-filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border: 1.5px solid var(--border, #ddd);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text-muted, #666);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.story-filter-pill:hover {
+  border-color: var(--accent, #D32F2F);
+  color: var(--accent, #D32F2F);
+  background: rgba(211, 47, 47, 0.06);
+}
+.story-filter-pill.active {
+  border-color: var(--accent, #D32F2F);
+  background: var(--accent, #D32F2F);
+  color: #fff;
+}
+.story-filter-pill.active:hover {
+  background: #b71c1c;
+  border-color: #b71c1c;
+  color: #fff;
+}
+.pill-count {
+  display: inline-block;
+  min-width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 9px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: rgba(0,0,0,0.08);
+  color: var(--text-muted, #666);
+}
+.story-filter-pill.active .pill-count {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+}
+
+/* Dark mode */
+html.dark .story-filter-pill {
+  border-color: #333;
+  color: #aaa;
+}
+html.dark .story-filter-pill:hover {
+  border-color: var(--accent, #FF5252);
+  color: var(--accent, #FF5252);
+  background: rgba(255, 82, 82, 0.1);
+}
+html.dark .story-filter-pill.active {
+  border-color: var(--accent, #FF5252);
+  background: var(--accent, #FF5252);
+  color: #fff;
+}
+html.dark .pill-count {
+  background: rgba(255,255,255,0.1);
+  color: #aaa;
+}
+html.dark .story-filter-pill.active .pill-count {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .story-filter-bar {
+    gap: 6px;
+    margin: 8px 0 12px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 4px;
+  }
+  .story-filter-bar::-webkit-scrollbar { display: none; }
+  .story-filter-pill {
+    padding: 5px 10px;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+  }
+}

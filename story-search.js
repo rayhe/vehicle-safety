@@ -57,6 +57,9 @@
       clearBtn.style.opacity = q ? '1' : '0';
       clearBtn.style.pointerEvents = q ? 'auto' : 'none';
 
+      // If story-filters.js is loaded, let it handle combined filtering
+      if (typeof window._storyFilterActive === 'function') return;
+
       var visible = 0;
       for (var i = 0; i < cards.length; i++) {
         var match = !q || cardTexts[i].indexOf(q) !== -1;
@@ -78,6 +81,8 @@
     clearBtn.addEventListener('click', function () {
       input.value = '';
       doFilter();
+      // Re-trigger category filter if loaded
+      if (typeof window._storyFilterApply === 'function') window._storyFilterApply();
       input.focus();
     });
 
@@ -96,6 +101,7 @@
       if (e.key === 'Escape' && document.activeElement === input) {
         input.value = '';
         doFilter();
+        if (typeof window._storyFilterApply === 'function') window._storyFilterApply();
         input.blur();
       }
     });

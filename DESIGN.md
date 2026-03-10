@@ -122,6 +122,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [ ] Performance optimization for large datasets
 - [x] Export comparison/data as CSV or image *(done: `export-csv.js` adds "⬇ Export CSV" buttons to By Model and Impairment tables; exports visible table data as `.csv` download with proper escaping; styled button with hover/dark mode support; green "✓ Downloaded" feedback on click)*
 - [x] Story search/filter bar *(done: `story-search.js` adds real-time search bar above Findings story grid — filters 36 cards by title, deck, kicker, journalist, date; result count badge; "/" keyboard shortcut to focus, Escape to clear; empty state message; dark mode + mobile responsive)*
+- [x] Category filter pills *(done: `story-filters.js` adds interactive pill buttons for all kicker categories — Investigation, The Gap, Existential Dread, Sobriety Report, Body Count, Trend Watch, By The Numbers, GM Platform Failures. Each pill shows emoji + count. Works alongside text search — both filters apply simultaneously. Active pill fills red, horizontal scroll on mobile. "All" button resets. Integrated with story-search.js via window._storyFilterApply bridge.)*
 
 ## Self-Improvement Process
 Each hourly design cycle should:
