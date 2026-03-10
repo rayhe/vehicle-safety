@@ -104,6 +104,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [x] Newsletter signup placeholder *(done: red gradient CTA banner above footer with email input, localStorage persistence — returning visitors see "You're subscribed as email@example.com", responsive mobile layout, green confirmation state; design-only, can wire to Mailchimp/ConvertKit later)*
 - [x] Social share buttons on stories *(done: share-buttons.js auto-injects X/Twitter, LinkedIn, Facebook, Reddit + Copy Link bar after dateline on all 24 stories; platform-branded hover colors; clipboard feedback on copy)*
 - [x] "Most dangerous vehicles" featured widget *(done: dynamic top-10 widget above story grid with 3 toggle views — Per Mile rate, Total Deaths, Impairment %. Reads from FARS_BY_MODEL and FARS_TOXICOLOGY. Responsive grid, mini bar charts, click-to-navigate to By Model tab. Filters for fleet ≥100K on rate view, ≥200 drivers on impairment view for statistical significance.)*
+- [x] Reading progress bar on stories *(done: `reading-progress.js` auto-injects a thin accent-colored scroll progress bar at the top of all 42 story pages; fills as reader scrolls through article; turns green with "✓ Done" at 100%; percentage label shows briefly on scroll; dark mode support; also fixed 14 stories that were missing share-buttons.js and related-stories.js; deploy workflow updated)*
 - [ ] Google account login (Firebase Auth) for article comments
 - [ ] Firebase-backed comment system on each story page
 - [ ] Comment moderation (spam filtering, report button)
