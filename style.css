@@ -139,6 +139,7 @@ a:hover { color: var(--accent-hover); }
   border-radius: 50%;
   border: 2px solid var(--accent);
   object-fit: cover;
+  background: #1a1a1a;
 }
 .masthead-text h1 {
   font-family: var(--font-sans);

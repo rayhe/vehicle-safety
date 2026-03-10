@@ -85,7 +85,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 ## Iterative Improvement Plan
 
 ### Phase 1: Foundation (Week 1)
-- [ ] Generate SVG logo/favicon *(still using logo.jpg, needs custom SVG)*
+- [x] Generate SVG logo/favicon *(done: speedometer gauge SVG logo with needle in the red zone, "CR" text, gray→orange→red arc segments with tick marks; separate simplified favicon.svg for tab icon; masthead updated to use SVG with JPG fallback; SVG favicon added as preferred with PNG fallback chain)*
 - [x] Switch header typography to sans-serif *(done: Inter from Google Fonts, sans-serif for all UI, monospace only for data values)*
 - [x] Redesign story cards with image support *(done: CSS grid layout, card hover lift+shadow, proper card body structure, removed inline styles)*
 - [x] Add proper editorial header/masthead *(done: centered masthead with logo, bold Inter h1, tagline "Every fatal crash in America, charted.")*
