@@ -22,6 +22,7 @@ const VEHICLE_STORY_MAP = {
   'ford escape': 'escape-suv-safety-gap',
   'ford explorer': 'explorer-transformation',
   'ford focus': 'focus-first-car-killer',
+  'ford fusion': 'fusion-safest-midsize',
   'ford expedition': 'ford-expedition-family-myth',
   'nissan frontier': 'frontier-time-capsule',
   'dodge grand caravan': 'grand-caravan-family-killer',
