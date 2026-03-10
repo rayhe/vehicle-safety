@@ -790,6 +790,20 @@
     </section>
     </div><!-- /tab-method -->
 
+    <!-- Newsletter Signup -->
+    <section class="newsletter-banner" id="newsletterBanner">
+      <div class="newsletter-inner">
+        <div class="newsletter-text">
+          <h3>🚨 Get The Crash Report in your inbox</h3>
+          <p>New investigations, data deep-dives, and the vehicles you should think twice about — delivered weekly.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm" onsubmit="return handleNewsletterSignup(event)">
+          <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="you@example.com" required aria-label="Email address">
+          <button type="submit" class="newsletter-btn" id="newsletterBtn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
     <footer class="site-footer">
       <div class="footer-grid">
         <div class="footer-section">
@@ -888,5 +902,6 @@
   </script>
   <script src="charts.js"></script>
   <script src="export-csv.js"></script>
+  <script src="newsletter.js"></script>
 </body>
 </html>
