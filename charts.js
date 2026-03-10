@@ -1819,3 +1819,124 @@ function syncMobileNav(id) {
     if (e.key === 'Escape') closeMobileNav();
   });
 })();
+
+
+/* ── Search Autocomplete ─────────────────────────────────── */
+let acActiveIdx = -1;
+
+function showAutocomplete(prefix) {
+  const input = document.getElementById(prefix + 'Search');
+  const list = document.getElementById(prefix + 'Autocomplete');
+  const query = input.value.trim().toLowerCase();
+  acActiveIdx = -1;
+
+  if (query.length < 2) { list.classList.remove('open'); list.innerHTML = ''; return; }
+
+  // Get data source
+  const data = prefix === 'fm' ? FARS_BY_MODEL : FARS_TOXICOLOGY;
+  const getName = prefix === 'fm'
+    ? d => farsVehicleName(d)
+    : d => d.make + ' ' + d.model;
+  const getDeaths = prefix === 'fm'
+    ? d => d.deaths
+    : d => d.drivers;
+  const getRate = prefix === 'fm'
+    ? d => d.rate
+    : d => d.anyPct;
+  const rateLabel = prefix === 'fm' ? '/100M VMT' : '% impaired';
+
+  // Find matches (max 8)
+  const matches = [];
+  const maxDeaths = Math.max(...data.map(d => getDeaths(d) || 0), 1);
+  for (const d of data) {
+    const name = getName(d);
+    if (name.toLowerCase().includes(query) || d.cls.toLowerCase().includes(query)) {
+      matches.push({ name, deaths: getDeaths(d), rate: getRate(d), cls: d.cls });
+      if (matches.length >= 8) break;
+    }
+  }
+
+  if (matches.length === 0) { list.classList.remove('open'); list.innerHTML = ''; return; }
+
+  // Highlight matching text
+  function highlight(text, q) {
+    const idx = text.toLowerCase().indexOf(q);
+    if (idx === -1) return text;
+    return text.slice(0, idx) + '<mark>' + text.slice(idx, idx + q.length) + '</mark>' + text.slice(idx + q.length);
+  }
+
+  list.innerHTML = matches.map((m, i) => {
+    const barW = Math.round((m.deaths / maxDeaths) * 40);
+    const rateStr = m.rate != null ? (prefix === 'fm' ? m.rate.toFixed(2) : m.rate.toFixed(1) + '%') : '—';
+    return `<div class="autocomplete-item" data-idx="${i}" data-name="${m.name.replace(/"/g, '&quot;')}">`
+      + `<span class="ac-name">${highlight(m.name, query)}</span>`
+      + `<span class="ac-meta">${m.deaths.toLocaleString()} deaths · ${rateStr} ${rateLabel}`
+      + `<span class="ac-bar" style="width:${barW}px"></span></span>`
+      + `</div>`;
+  }).join('');
+
+  // Click handler
+  list.querySelectorAll('.autocomplete-item').forEach(el => {
+    el.addEventListener('mousedown', function(e) {
+      e.preventDefault();
+      input.value = this.dataset.name;
+      list.classList.remove('open');
+      list.innerHTML = '';
+      if (prefix === 'fm') applyFarsFilters(); else applyToxFilters();
+    });
+  });
+
+  list.classList.add('open');
+}
+
+// Keyboard navigation (up/down/enter/escape)
+function handleAcKeydown(e, prefix) {
+  const list = document.getElementById(prefix + 'Autocomplete');
+  const items = list.querySelectorAll('.autocomplete-item');
+  if (!list.classList.contains('open') || items.length === 0) return;
+
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    acActiveIdx = Math.min(acActiveIdx + 1, items.length - 1);
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    acActiveIdx = Math.max(acActiveIdx - 1, 0);
+  } else if (e.key === 'Enter' && acActiveIdx >= 0) {
+    e.preventDefault();
+    const input = document.getElementById(prefix + 'Search');
+    input.value = items[acActiveIdx].dataset.name;
+    list.classList.remove('open');
+    list.innerHTML = '';
+    if (prefix === 'fm') applyFarsFilters(); else applyToxFilters();
+    return;
+  } else if (e.key === 'Escape') {
+    list.classList.remove('open');
+    list.innerHTML = '';
+    acActiveIdx = -1;
+    return;
+  } else {
+    return;
+  }
+
+  items.forEach((el, i) => el.classList.toggle('ac-active', i === acActiveIdx));
+  items[acActiveIdx].scrollIntoView({ block: 'nearest' });
+}
+
+// Attach keyboard events
+document.getElementById('fmSearch').addEventListener('keydown', function(e) { handleAcKeydown(e, 'fm'); });
+document.getElementById('toxSearch').addEventListener('keydown', function(e) { handleAcKeydown(e, 'tox'); });
+
+// Close on outside click
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.autocomplete-wrap')) {
+    document.querySelectorAll('.autocomplete-list').forEach(l => { l.classList.remove('open'); l.innerHTML = ''; });
+  }
+});
+
+// Close when focus leaves
+document.getElementById('fmSearch').addEventListener('blur', function() {
+  setTimeout(() => { const l = document.getElementById('fmAutocomplete'); l.classList.remove('open'); l.innerHTML = ''; }, 150);
+});
+document.getElementById('toxSearch').addEventListener('blur', function() {
+  setTimeout(() => { const l = document.getElementById('toxAutocomplete'); l.classList.remove('open'); l.innerHTML = ''; }, 150);
+});

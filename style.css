@@ -1476,3 +1476,37 @@ html.dark tr.row-compare td {
 .export-csv-btn.export-done { color: #fff; background: #2e7d32; border-color: #2e7d32; }
 .dark .export-csv-btn { background: var(--card-bg, #1E1E1E); color: var(--text-muted, #aaa); border-color: var(--border, #333); }
 .dark .export-csv-btn:hover { color: #fff; background: var(--accent, #FF5252); border-color: var(--accent, #FF5252); }
+
+
+/* Autocomplete dropdown */
+.autocomplete-wrap { position: relative; flex: 1; min-width: 160px; }
+.autocomplete-wrap input[type="text"] { width: 100%; box-sizing: border-box; }
+.autocomplete-list {
+  display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 100;
+  max-height: 260px; overflow-y: auto; margin-top: 2px;
+  background: #fff; border: 1px solid #ccc; border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.autocomplete-list.open { display: block; }
+.autocomplete-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 12px; cursor: pointer; font-size: 0.88rem;
+  border-bottom: 1px solid #f0f0f0; transition: background 0.1s;
+}
+.autocomplete-item:last-child { border-bottom: none; }
+.autocomplete-item:hover, .autocomplete-item.ac-active { background: #fce4e4; }
+.autocomplete-item .ac-name { font-weight: 500; }
+.autocomplete-item .ac-name mark { background: none; color: var(--accent, #D32F2F); font-weight: 700; }
+.autocomplete-item .ac-meta { font-size: 0.78rem; color: #888; white-space: nowrap; margin-left: 12px; }
+.autocomplete-item .ac-bar {
+  display: inline-block; height: 4px; border-radius: 2px;
+  background: var(--accent, #D32F2F); opacity: 0.5; margin-left: 6px; vertical-align: middle;
+}
+html.dark .autocomplete-list { background: #1e1e1e; border-color: #444; box-shadow: 0 4px 16px rgba(0,0,0,0.4); }
+html.dark .autocomplete-item { border-bottom-color: #333; }
+html.dark .autocomplete-item:hover, html.dark .autocomplete-item.ac-active { background: #3a2020; }
+html.dark .autocomplete-item .ac-meta { color: #999; }
+html.dark .autocomplete-item .ac-name mark { color: var(--accent, #FF5252); }
+@media (max-width: 768px) {
+  .autocomplete-wrap { min-width: 100%; }
+}

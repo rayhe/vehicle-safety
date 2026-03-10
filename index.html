@@ -93,7 +93,10 @@
       </div>
 
       <div class="controls">
-        <input type="text" id="fmSearch" placeholder="Search make or model..." oninput="applyFarsFilters()">
+        <div class="autocomplete-wrap">
+          <input type="text" id="fmSearch" placeholder="Search make or model..." oninput="applyFarsFilters(); showAutocomplete('fm')" autocomplete="off">
+          <div class="autocomplete-list" id="fmAutocomplete"></div>
+        </div>
         <select id="fmClassFilter" onchange="applyFarsFilters()">
           <option value="">All Classes</option>
           <option value="Sedan">Sedan</option>
@@ -177,7 +180,10 @@
       </div>
 
       <div class="controls">
-        <input type="text" id="toxSearch" placeholder="Search make or model..." oninput="applyToxFilters()">
+        <div class="autocomplete-wrap">
+          <input type="text" id="toxSearch" placeholder="Search make or model..." oninput="applyToxFilters(); showAutocomplete('tox')" autocomplete="off">
+          <div class="autocomplete-list" id="toxAutocomplete"></div>
+        </div>
         <select id="toxClassFilter" onchange="applyToxFilters()">
           <option value="">All Classes</option>
           <option value="Sedan">Sedan</option>

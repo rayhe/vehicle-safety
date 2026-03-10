@@ -116,7 +116,7 @@ Reference sites: The Autopian, Jalopnik, Road & Track, Car and Driver, Hagerty
 - [x] Vehicle comparison mode *(done: checkbox-select up to 5 vehicles from By Model or Toxicology tables, sticky comparison tray with chips, expandable panel shows side-by-side visual bar charts for deaths, rate, fleet, and impairment metrics; shake animation when limit reached)*
 - [ ] Better chart interactions (hover, click, zoom)
 - [x] Improved table sorting visual indicators *(done: dual ▲▼ arrow indicators per column, active arrow scales up in accent color with CSS transitions, sorted column gets red-tinted background + 2px accent bottom border, inactive arrows fade to 0.25 opacity, hover brightens both to 0.5, dark mode supported)*
-- [ ] Search/filter enhancements (autocomplete, recent searches)
+- [x] Search/filter enhancements (autocomplete, recent searches) *(done: autocomplete dropdown on both By Model and Impairment search boxes — shows top 8 matches as you type with highlighted text, death counts, rate stats, and mini bar chart; keyboard nav with ↑↓/Enter/Escape; click to select; dark mode support; closes on blur/outside click)*
 - [ ] Better tooltips with richer data
 - [ ] Performance optimization for large datasets
 - [x] Export comparison/data as CSV or image *(done: `export-csv.js` adds "⬇ Export CSV" buttons to By Model and Impairment tables; exports visible table data as `.csv` download with proper escaping; styled button with hover/dark mode support; green "✓ Downloaded" feedback on click)*
