@@ -1749,3 +1749,73 @@ document.addEventListener('change', function(e) {
     }
   });
 })();
+
+// ================================================================
+// Mobile Hamburger Menu
+// ================================================================
+function closeMobileNav() {
+  var btn = document.getElementById('hamburgerBtn');
+  var nav = document.getElementById('mobileNav');
+  var backdrop = document.getElementById('mobileNavBackdrop');
+  if (btn) btn.classList.remove('open');
+  if (btn) btn.setAttribute('aria-expanded', 'false');
+  if (nav) nav.classList.remove('open');
+  if (backdrop) {
+    backdrop.classList.remove('open');
+    setTimeout(function() { backdrop.style.display = 'none'; }, 300);
+  }
+  document.body.style.overflow = '';
+}
+
+function openMobileNav() {
+  var btn = document.getElementById('hamburgerBtn');
+  var nav = document.getElementById('mobileNav');
+  var backdrop = document.getElementById('mobileNavBackdrop');
+  if (btn) btn.classList.add('open');
+  if (btn) btn.setAttribute('aria-expanded', 'true');
+  if (nav) nav.classList.add('open');
+  if (backdrop) {
+    backdrop.style.display = 'block';
+    void backdrop.offsetHeight;
+    backdrop.classList.add('open');
+  }
+  document.body.style.overflow = 'hidden';
+}
+
+function toggleMobileNav() {
+  var nav = document.getElementById('mobileNav');
+  if (nav && nav.classList.contains('open')) {
+    closeMobileNav();
+  } else {
+    openMobileNav();
+  }
+}
+
+// Sync mobile nav active state when switchTab is called
+function syncMobileNav(id) {
+  var names = ['stories','model','tox','myear','national','method'];
+  var items = document.querySelectorAll('.mobile-nav-item');
+  var idx = names.indexOf(id);
+  items.forEach(function(item, i) {
+    item.classList.toggle('active', i === idx);
+  });
+}
+
+(function() {
+  var btn = document.getElementById('hamburgerBtn');
+  var backdrop = document.getElementById('mobileNavBackdrop');
+  if (btn) btn.addEventListener('click', toggleMobileNav);
+  if (backdrop) backdrop.addEventListener('click', closeMobileNav);
+
+  // Patch switchTab to sync mobile nav
+  var origSwitchTab = window.switchTab;
+  window.switchTab = function(id) {
+    origSwitchTab(id);
+    syncMobileNav(id);
+  };
+
+  // Close on Escape
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeMobileNav();
+  });
+})();

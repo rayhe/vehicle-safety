@@ -41,6 +41,22 @@
       </div>
     </header>
 
+    <!-- Mobile hamburger menu -->
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open navigation menu" aria-expanded="false">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <button class="mobile-nav-item active" onclick="switchTab('stories'); closeMobileNav()">Findings</button>
+      <button class="mobile-nav-item" onclick="switchTab('model'); closeMobileNav()">By Model</button>
+      <button class="mobile-nav-item" onclick="switchTab('tox'); closeMobileNav()">Impaired Driving</button>
+      <button class="mobile-nav-item" onclick="switchTab('myear'); closeMobileNav()">Model Year</button>
+      <button class="mobile-nav-item" onclick="switchTab('national'); closeMobileNav()">National</button>
+      <button class="mobile-nav-item" onclick="switchTab('method'); closeMobileNav()">Methodology</button>
+    </nav>
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+
     <nav class="tab-bar" role="tablist" aria-label="Data sections">
       <button class="tab-btn active" onclick="switchTab('stories')" role="tab" aria-selected="true" aria-controls="tab-stories">Findings</button>
       <button class="tab-btn" onclick="switchTab('model')" role="tab" aria-selected="false" aria-controls="tab-model">By Model</button>

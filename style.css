@@ -528,6 +528,115 @@ tr:hover td { background: rgba(0,0,0,0.02); }
   font-weight: 700;
 }
 .tab-pane { display: none; opacity: 0; transition: opacity 0.25s ease-in-out; }
+
+/* ── Mobile Hamburger Menu ── */
+.hamburger-btn {
+  display: none;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 10001;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background 0.2s;
+}
+.hamburger-btn:hover { background: var(--bg); }
+.hamburger-line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.hamburger-btn.open .hamburger-line:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger-btn.open .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-btn.open .hamburger-line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 280px;
+  height: 100vh;
+  background: var(--card-bg);
+  border-left: 1px solid var(--border);
+  z-index: 10000;
+  padding: 80px 0 20px;
+  flex-direction: column;
+  transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+  overflow-y: auto;
+}
+.mobile-nav.open {
+  right: 0;
+}
+.mobile-nav-item {
+  display: block;
+  width: 100%;
+  padding: 16px 28px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  border-left: 3px solid transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+.mobile-nav-item:hover {
+  color: var(--text);
+  background: rgba(0,0,0,0.03);
+}
+.mobile-nav-item.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  font-weight: 700;
+  background: rgba(211,47,47,0.05);
+}
+
+.mobile-nav-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.mobile-nav-backdrop.open {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hamburger-btn { display: flex; }
+  .mobile-nav { display: flex; }
+  .tab-bar { display: none !important; }
+}
 .tab-pane.active { display: block; opacity: 1; }
 .tab-pane.tab-entering { display: block; opacity: 0; }
 .tab-pane.tab-entering.active { opacity: 1; }
