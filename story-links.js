@@ -60,7 +60,8 @@ const VEHICLE_STORY_MAP = {
   'chevrolet tracker': 'tracker-rebadged-killer',
   'chevrolet trailblazer': 'trailblazer-gm-suv-killer',
   'hyundai veloster': 'veloster-deathtrap',
-  'jeep wrangler': 'wrangler-lifestyle-deaths'
+  'jeep wrangler': 'wrangler-lifestyle-deaths',
+  'volkswagen jetta': 'jetta-german-engineering-myth'
 };
 
 function getStoryLink(make, model) {
