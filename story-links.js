@@ -9,6 +9,7 @@ const VEHICLE_STORY_MAP = {
   'bmw 3 series': 'bmw-3-series-ultimate-killer',
   'chevrolet camaro': 'camaro-shadow-killer',
   'toyota camry': 'camry-safe-killer',
+  'toyota 4-runner': '4runner-toyota-dangerous-suv',
   'chevrolet cavalier': 'cavalier-gm-lineage',
   'dodge charger': 'charger-bar-car',
   'jeep cherokee': 'cherokee-identity-crisis',
