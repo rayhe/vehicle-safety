@@ -18,6 +18,7 @@ const VEHICLE_STORY_MAP = {
   'chevrolet cobalt': 'cobalt-ignition-scandal',
   'toyota corolla': 'corolla-volume-killer',
   'chevrolet corvette': 'corvette-impairment',
+  'ford e-350': 'e350-church-bus-killer',
   'ford crown victoria': 'crown-victoria-police',
   'dodge dakota': 'dakota-midsize-killer',
   'ford escape': 'escape-suv-safety-gap',
