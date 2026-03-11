@@ -65,7 +65,16 @@ const VEHICLE_STORY_MAP = {
   'chevrolet trailblazer': 'trailblazer-gm-suv-killer',
   'hyundai veloster': 'veloster-deathtrap',
   'jeep wrangler': 'wrangler-lifestyle-deaths',
-  'volkswagen jetta': 'jetta-german-engineering-myth'
+  'volkswagen jetta': 'jetta-german-engineering-myth',
+  'chevrolet sonic': 'subcompact-death-lottery',
+  'chevrolet spark': 'subcompact-death-lottery',
+  'nissan versa': 'subcompact-death-lottery',
+  'ford fiesta': 'subcompact-death-lottery',
+  'honda fit': 'subcompact-death-lottery',
+  'toyota yaris': 'subcompact-death-lottery',
+  'hyundai accent': 'subcompact-death-lottery',
+  'kia rio': 'subcompact-death-lottery',
+  'mitsubishi mirage': 'subcompact-death-lottery'
 };
 
 function getStoryLink(make, model) {
