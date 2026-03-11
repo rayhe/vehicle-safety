@@ -76,7 +76,16 @@ const VEHICLE_STORY_MAP = {
   'toyota yaris': 'subcompact-death-lottery',
   'hyundai accent': 'subcompact-death-lottery',
   'kia rio': 'subcompact-death-lottery',
-  'mitsubishi mirage': 'subcompact-death-lottery'
+  'mitsubishi mirage': 'subcompact-death-lottery',
+  'subaru crosstrek': 'subaru-safest-brand',
+  'subaru forester': 'subaru-safest-brand',
+  'subaru outback': 'subaru-safest-brand',
+  'subaru wrx': 'subaru-safest-brand',
+  'subaru impreza': 'subaru-safest-brand',
+  'subaru ascent': 'subaru-safest-brand',
+  'subaru legacy': 'subaru-safest-brand',
+  'toyota prius': 'prius-safest-sedan',
+  'dodge challenger': 'challenger-safest-muscle-car'
 };
 
 function getStoryLink(make, model) {
