@@ -50,6 +50,8 @@ const VEHICLE_STORY_MAP = {
   'nissan sentra': 'sentra-entry-level-killer',
   'toyota solara': 'solara-camry-coupe-killer',
   'chevrolet tahoe': 'tahoe-size-paradox',
+  'gmc yukon': 'yukon-tahoe-gm-twins',
+  'chevrolet suburban': 'yukon-tahoe-gm-twins',
   'ford taurus': 'taurus-fleet-ghost',
   'tesla model 3': 'tesla-paradox',
   'tesla model s': 'tesla-paradox',
