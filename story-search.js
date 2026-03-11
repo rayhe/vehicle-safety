@@ -60,6 +60,13 @@
       // If story-filters.js is loaded, let it handle combined filtering
       if (typeof window._storyFilterActive === 'function') return;
 
+      // When searching, disable pagination so all matches show
+      if (q && typeof window._loadMoreDisable === 'function') {
+        window._loadMoreDisable();
+      } else if (!q && typeof window._loadMoreEnable === 'function') {
+        window._loadMoreEnable();
+      }
+
       var visible = 0;
       for (var i = 0; i < cards.length; i++) {
         var match = !q || cardTexts[i].indexOf(q) !== -1;

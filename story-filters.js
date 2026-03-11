@@ -84,6 +84,18 @@
       var searchInput = document.querySelector('.story-search-input');
       var query = searchInput ? searchInput.value.trim().toLowerCase() : '';
 
+      // When filtering or searching, disable pagination so all matches show
+      var isFiltering = !!(category || query);
+      if (isFiltering && typeof window._loadMoreDisable === 'function') {
+        window._loadMoreDisable();
+      } else if (!isFiltering && typeof window._loadMoreEnable === 'function') {
+        window._loadMoreEnable();
+      }
+
+      // Get current search query (if search bar exists)
+      var searchInput = document.querySelector('.story-search-input');
+      var query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+
       var visible = 0;
       for (var j = 0; j < cards.length; j++) {
         var matchCategory = !category || cardKickers[j] === category;

@@ -1757,3 +1757,51 @@ html.dark .story-filter-pill.active .pill-count {
     flex-shrink: 0;
   }
 }
+
+/* Load More pagination */
+.story-card[data-paginated="hidden"] { display: none !important; }
+.load-more-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 8px;
+}
+.load-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 32px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent, #D32F2F);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(211,47,47,0.25);
+}
+.load-more-btn:hover {
+  background: #b71c1c;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(211,47,47,0.35);
+}
+.load-more-btn:active {
+  transform: translateY(0);
+}
+.load-more-count {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+html.dark .load-more-btn {
+  background: var(--accent, #FF5252);
+  box-shadow: 0 2px 8px rgba(255,82,82,0.25);
+}
+html.dark .load-more-btn:hover {
+  background: #e53935;
+  box-shadow: 0 4px 16px rgba(255,82,82,0.35);
+}
