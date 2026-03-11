@@ -43,6 +43,7 @@ const VEHICLE_STORY_MAP = {
   'chevrolet malibu': 'malibu-invisible-killer',
   'nissan maxima': 'maxima-luxury-killer',
   'ford mustang': 'mustang-death-rate',
+  'dodge challenger': 'challenger-safest-muscle-car',
   'pontiac grand prix': 'pontiac-ghost-brand',
   'pontiac g6': 'pontiac-ghost-brand',
   'pontiac grand am': 'pontiac-ghost-brand',
