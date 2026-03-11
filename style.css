@@ -1987,3 +1987,50 @@ html.dark .story-nav-home:hover {
     white-space: normal;
   }
 }
+
+/* ===== Automaker Report Card ===== */
+.automaker-header { margin-bottom: 12px; }
+.automaker-subtitle { color: var(--muted, #888); font-size: 0.85rem; margin: 4px 0 0; }
+.automaker-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.automaker-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
+.automaker-card {
+  background: var(--card-bg, #fff);
+  border-radius: 8px;
+  padding: 12px 14px;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.automaker-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+html.dark .automaker-card { background: #1e1e1e; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+html.dark .automaker-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.4); }
+
+.automaker-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.automaker-rank { font-size: 0.75rem; font-weight: 700; color: var(--muted, #999); min-width: 24px; }
+.automaker-grade {
+  font-size: 1.1rem; font-weight: 800; width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 6px; flex-shrink: 0;
+}
+.automaker-info { flex: 1; min-width: 0; }
+.automaker-name { font-weight: 700; font-size: 0.95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.automaker-meta { font-size: 0.72rem; color: var(--muted, #888); margin-top: 1px; }
+.automaker-rate-badge { font-size: 1.1rem; font-weight: 800; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+
+.automaker-bar-track {
+  height: 4px; border-radius: 2px;
+  background: var(--border, rgba(0,0,0,0.08));
+  margin-bottom: 6px;
+}
+html.dark .automaker-bar-track { background: rgba(255,255,255,0.08); }
+.automaker-bar-fill { height: 100%; border-radius: 2px; transition: width 0.6s ease-out; }
+
+.automaker-extremes { display: flex; justify-content: space-between; font-size: 0.72rem; gap: 8px; }
+.extreme-best { color: #16a34a; }
+.extreme-worst { color: #dc2626; }
+html.dark .extreme-best { color: #4ade80; }
+html.dark .extreme-worst { color: #f87171; }
+
+@media (max-width: 640px) {
+  .automaker-grid { grid-template-columns: 1fr; }
+  .automaker-summary { grid-template-columns: repeat(2, 1fr); }
+}
