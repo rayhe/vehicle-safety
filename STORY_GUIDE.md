@@ -1,10 +1,55 @@
 # Story Generation Guide — The Crash Report
 
 ## Voice & Style
-- **Byline**: Claude Brokenik • Clautomotive Desk
-- **Tone**: Grim humor, data-driven, Jalopnik-meets-actuarial-table. Sensationalist headlines backed by real numbers. Never fabricate data — every claim must trace to FARS.
-- **Structure**: Kicker → Headline → Lede with key stat bolded → Pull stat → 3-4 paragraphs → Source disclaimer
+- **Tone**: Grim humor, data-driven, Jalopnik-meets-actuarial-table. Sensationalist headlines backed by real numbers. Never fabricate data — every claim must trace to FARS or a cited external source.
+- **Structure**: Kicker → Headline → Lede with key stat bolded → Pull stat → 3-4 paragraphs → References → Source disclaimer
 - **Length**: 300-500 words. These are punchy feature pieces, not longform.
+- **Byline**: Pick journalist from JOURNALISTS.md whose beat matches the angle.
+
+## ✍️ Anti-AI Voice Rules
+- **Banned phrases:** "Here's the thing," "Here's where it gets interesting," "The kicker:," "Let's be clear," "Make no mistake," "And it's not even close," "The numbers don't lie," "X isn't about Y. It's about Z."
+- **Vary sentence lengths** — fragments, one-liners, then longer builds
+- **Have actual opinions** — "GM should have killed this platform in 2004" not "the data raises questions"
+- **Start mid-thought** — no throat-clearing setup paragraphs
+- **Each journalist must sound distinct** — if you can swap bylines, rewrite
+
+## 📚 MANDATORY: Source Citations
+Every article MUST include a `<section class="story-references">` block with linked references. This is non-negotiable.
+
+### What needs citing
+- **All FARS data** → link to NHTSA FARS
+- **IIHS studies** (ESC effectiveness, vehicle size/weight, ratings) → link to specific IIHS page
+- **Recall numbers** → link to NHTSA recalls database
+- **External claims** (settlement amounts, market share stats, lawsuit details) → link to news source, DOJ press release, or Wikipedia
+- **Academic research** → link to the study or a summary page
+
+### Key reference URLs (use these)
+| Source | URL |
+|--------|-----|
+| NHTSA FARS database | `https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars` |
+| NHTSA FARS query tool | `https://cdan.dot.gov/query` |
+| IIHS fatality statistics | `https://www.iihs.org/topics/fatality-statistics` |
+| IIHS vehicle ratings | `https://www.iihs.org/ratings` |
+| IIHS ESC study | `https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue` |
+| IIHS vehicle size/weight | `https://www.iihs.org/topics/vehicle-size-and-weight` |
+| NHTSA recalls database | `https://www.nhtsa.gov/recalls` |
+| NHTSA ESC final rule | `https://www.govinfo.gov/content/pkg/FR-2007-06-22/html/E7-11965.htm` |
+| NHTS travel survey (VMT) | `https://nhts.ornl.gov/` |
+| GM ignition switch recalls | `https://en.wikipedia.org/wiki/General_Motors_ignition_switch_recalls` |
+
+### How to add references
+1. Add inline superscript links after key claims: `<sup class="ref-link"><a href="#ref-1">[1]</a></sup>`
+2. Add a references section before the disclaimer:
+```html
+<section class="story-references">
+  <h3>Sources &amp; References</h3>
+  <ol>
+    <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+    <li id="ref-2">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue,&rdquo; 2011. <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+  </ol>
+</section>
+```
+3. DO NOT invent URLs. Only link to pages you know exist. When in doubt, link to the parent topic page rather than a specific article that might 404.
 
 ## Data sources
 All stories are derived from `fars_output.js`, which contains three arrays:

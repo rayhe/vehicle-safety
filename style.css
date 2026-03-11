@@ -2034,3 +2034,99 @@ html.dark .extreme-worst { color: #f87171; }
   .automaker-grid { grid-template-columns: 1fr; }
   .automaker-summary { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ── References / Sources Section ── */
+.story-references {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border, rgba(0,0,0,0.1));
+}
+.story-references h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted, #666);
+  margin: 0 0 0.75rem 0;
+}
+html.dark .story-references h3 { color: #999; }
+.story-references ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--muted, #555);
+}
+html.dark .story-references ol { color: #aaa; }
+.story-references li {
+  margin-bottom: 0.4rem;
+  padding-left: 0.25rem;
+}
+.story-references a {
+  color: var(--accent, #c00);
+  text-decoration: none;
+  word-break: break-all;
+}
+.story-references a:hover {
+  text-decoration: underline;
+}
+html.dark .story-references a { color: #f87171; }
+sup.ref-link { font-size: 0.7em; vertical-align: super; }
+sup.ref-link a {
+  color: var(--accent, #c00);
+  text-decoration: none;
+  font-weight: 600;
+}
+sup.ref-link a:hover { text-decoration: underline; }
+html.dark sup.ref-link a { color: #f87171; }
+
+/* ── Sources Section ── */
+.sources {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+.sources h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+.sources ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sources li {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #777;
+  padding: 0.3rem 0;
+  padding-left: 1rem;
+  position: relative;
+}
+.sources li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: #999;
+}
+.sources a {
+  color: #b22222;
+  text-decoration: none;
+}
+.sources a:hover {
+  text-decoration: underline;
+}
+@media (prefers-color-scheme: dark) {
+  .sources h3 { color: #999; }
+  .sources li { color: #888; }
+  .sources li::before { color: #666; }
+  .sources a { color: #e57373; }
+}
+.dark .sources h3 { color: #999; }
+.dark .sources li { color: #888; }
+.dark .sources li::before { color: #666; }
+.dark .sources a { color: #e57373; }
