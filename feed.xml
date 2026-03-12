@@ -5,8 +5,15 @@
   <link>https://vehicle-safety.org</link>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 13 Mar 2026 17:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Mar 2026 21:00:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The F-150 Was Involved in 20,066 Fatal Crashes. In 10,872 of Them, Someone Else Died.</title>
+    <link>https://vehicle-safety.org/stories/aggressor-vehicles.html</link>
+    <description>When pickups crash, more than half the fatalities are outside the truck. The Ram's 5,703 external kills would rank between drowning and fire as a cause of death. Nobody tracks this metric.</description>
+    <pubDate>Thu, 12 Mar 2026 21:00:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/aggressor-vehicles.html</guid>
+  </item>
   <item>
     <title>86% of Cavalier Crashes Are Fatal. For a Ram 2500, It's 21%.</title>
     <link>https://vehicle-safety.org/stories/crash-lethality-ratio.html</link>
