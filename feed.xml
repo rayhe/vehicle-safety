@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>The Crash Report</title>
+  <link>https://vehicle-safety.org</link>
+  <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
+  <language>en-us</language>
+  <lastBuildDate>Thu, 12 Mar 2026 18:53:59 +0000</lastBuildDate>
+  <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>A Porsche 911 Driver Drinks as Much as a Cobalt Driver. One Is 7× More Likely to Survive.</title>
+    <link>https://vehicle-safety.org/stories/safety-is-a-luxury-good.html</link>
+    <guid>https://vehicle-safety.org/stories/safety-is-a-luxury-good.html</guid>
+    <description>Impairment rates are nearly identical across price points — 22.8% vs 22.4%. Death rates differ by up to 26.5×. Safety in America is a luxury good, and the data proves it.</description>
+  </item>
+  <item>
+    <title>80% of Fatal Crash Drivers Were Sober. America Spent $800&amp;nbsp;Million on the Other 20%.</title>
+    <link>https://vehicle-safety.org/stories/sober-majority.html</link>
+    <guid>https://vehicle-safety.org/stories/sober-majority.html</guid>
+    <description>490,736 drivers in fatal crashes. 80% had zero impairment. NHTSA spends $800M/year chasing the minority. The Toyota Solara's 4.1% impairment rate is the lowest in FARS. Its death rate is 3× the Camry's.</description>
+  </item>
+  <item>
+    <title>Seven Vehicles That Got 8&amp;ndash;22× Safer in a Single Generation</title>
+    <link>https://vehicle-safety.org/stories/safety-leaps.html</link>
+    <guid>https://vehicle-safety.org/stories/safety-leaps.html</guid>
+    <description>The Tracker killed at 7.83. Its Equinox replacement does 0.36. That's a 22-fold improvement. Seven vehicles, seven engineering events, and the three changes that explain all of them.</description>
+  </item>
+  <item>
+    <title>Sedans Kill at 2.5× the Rate of SUVs. Every Single Brand.</title>
+    <link>https://vehicle-safety.org/stories/sedan-death-penalty.html</link>
+    <guid>https://vehicle-safety.org/stories/sedan-death-penalty.html</guid>
+    <description>89,127 sedan deaths vs 46,442 SUV deaths. Across every major automaker, the sedan is deadlier per mile than the SUV. The gaps range from 2× to 25×. No exceptions.</description>
+  </item>
+  <item>
+    <title>GM Built One Minivan and Sold It Four Times. All Four Were Deadly.</title>
+    <link>https://vehicle-safety.org/stories/gm-minivan-platform.html</link>
+    <guid>https://vehicle-safety.org/stories/gm-minivan-platform.html</guid>
+    <description>715 deaths across the Venture, Montana, Uplander, and Silhouette — four badges on one bad platform. The Sienna was 3.6× safer per mile. GM's exit from minivans was a retreat, not a pivot.</description>
+  </item>
+  <item>
+    <title>Half the People Dying on American Roads Are Dying in Cars That Don't Exist Anymore</title>
+    <link>https://vehicle-safety.org/stories/model-year-graveyard.html</link>
+    <guid>https://vehicle-safety.org/stories/model-year-graveyard.html</guid>
+    <description>46.7% of all FARS fatalities came from vehicles built before 2006. Nine discontinued models have 100% of their deaths from the ghost fleet. 87,320 people killed in cars no manufacturer will defend.</description>
+  </item>
+  <item>
+    <title>The Chrysler Sebring Had the Lowest Impairment Rate in Its Class. It Killed 664 People Anyway.</title>
+    <link>https://vehicle-safety.org/stories/sebring-sober-deathtrap.html</link>
+    <guid>https://vehicle-safety.org/stories/sebring-sober-deathtrap.html</guid>
+    <description>17.6% impairment — lowest of any midsize sedan in FARS. Yet at 1.65 deaths per 100M VMT, sober people were dying in a car that folded on impact. Then Chrysler fixed it, got worse drivers, and the death rate dropped anyway.</description>
+  </item>
+  <item>
+    <title>Honda's Sedans Are Deadly. Honda's SUVs Are Among the Safest Cars in America.</title>
+    <link>https://vehicle-safety.org/stories/honda-brand-paradox.html</link>
+    <guid>https://vehicle-safety.org/stories/honda-brand-paradox.html</guid>
+    <description>The Accord kills at 3.07 per 100M VMT. The Pilot kills at 0.29. Same brand, same dealership, 10.6× safety gap. Honda's two best-selling sedans have killed 13,655 people.</description>
+  </item>
+  <item>
+    <title>The Dodge Neon Was America's Disposable First Car. It Killed 602 People.</title>
+    <link>https://vehicle-safety.org/stories/neon-disposable-deathtrap.html</link>
+    <guid>https://vehicle-safety.org/stories/neon-disposable-deathtrap.html</guid>
+    <description>23.2% impairment including 11.8% drug-positive — nearly double the national average. Model year 2005 alone: 159 deaths. The car nobody chose on purpose became a toxicology case study.</description>
+  </item>
+  <item>
+    <title>Every Subaru Is Safer Than Its Competitors. Every Single One.</title>
+    <link>https://vehicle-safety.org/stories/subaru-safest-brand.html</link>
+    <guid>https://vehicle-safety.org/stories/subaru-safest-brand.html</guid>
+    <description>Crosstrek at 0.08 is 12× safer than the Ford Escape. WRX at 0.29 is 21× safer than the Mustang — despite higher impairment. Seven models, seven class wins. The brand nobody recommends for safety is the safest brand in the database.</description>
+  </item>
+  <item>
+    <title>The Toyota Prius Is the Safest Sedan in America. Its Drivers Are the Soberest, Too.</title>
+    <link>https://vehicle-safety.org/stories/prius-safest-sedan.html</link>
+    <guid>https://vehicle-safety.org/stories/prius-safest-sedan.html</guid>
+    <description>The Prius kills at 0.55 per 100M VMT — 3.4× safer than the Corolla, 5.6× safer than the Accord. 16% impairment rate — lowest of any major sedan. The car everyone mocks is the one that's least likely to kill you.</description>
+  </item>
+  <item>
+    <title>The Dodge Challenger Is the Safest Muscle Car in America. Nobody Believes It.</title>
+    <link>https://vehicle-safety.org/stories/challenger-safest-muscle-car.html</link>
+    <guid>https://vehicle-safety.org/stories/challenger-safest-muscle-car.html</guid>
+    <description>The Challenger kills at 1.00 per 100M VMT — 6× safer than the Mustang, 3.4× safer than the Camaro. Same impairment rates across the segment. It's the heaviest, the oldest-skewing, and the one nobody thought to check.</description>
+  </item>
+  <item>
+    <title>The Cadillac Seville Had the Lowest Impairment Rate in the Database. It Killed 391 People Anyway.</title>
+    <link>https://vehicle-safety.org/stories/seville-luxury-deathtrap.html</link>
+    <guid>https://vehicle-safety.org/stories/seville-luxury-deathtrap.html</guid>
+    <description>Cadillac's premium sedan has the highest death rate of any luxury car in FARS — 3.89 per 100M VMT. Its drivers were the soberest in the database at 10.5% impairment. The DeVille, one rung down the ladder, is 10× safer.</description>
+  </item>
+  <item>
+    <title>The Ford E-350 Killed 776 People. Most Were Passengers.</title>
+    <link>https://vehicle-safety.org/stories/e350-church-bus-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/e350-church-bus-killer.html</guid>
+    <description>America's default church bus, airport shuttle, and hotel van has the highest death rate of any commercial vehicle — 2.51 per 100M VMT. Its replacement, the Transit, kills at 0.14. An 18-fold safety gap Ford took 54 years to close.</description>
+  </item>
+  <item>
+    <title>America's Cheapest Cars Are a Death Lottery. The Odds Depend on the Badge.</title>
+    <link>https://vehicle-safety.org/stories/subcompact-death-lottery.html</link>
+    <guid>https://vehicle-safety.org/stories/subcompact-death-lottery.html</guid>
+    <description>The Chevy Sonic kills at 1.40 per 100M VMT. The Mitsubishi Mirage manages 0.40. A 3.5× safety gap in the segment where buyers can least afford to get it wrong — and GM's sober Spark drivers are dying at higher rates than Hyundai's drunk Accent drivers.</description>
+  </item>
+  <item>
+    <title>The Toyota 4Runner Is 5× Deadlier Than the RAV4. Guess Which One Toyota Calls "Rugged."</title>
+    <link>https://vehicle-safety.org/stories/4runner-toyota-dangerous-suv.html</link>
+    <guid>https://vehicle-safety.org/stories/4runner-toyota-dangerous-suv.html</guid>
+    <description>1,418 deaths and a 1.00 rate per 100M VMT make the 4Runner Toyota's most dangerous SUV — 5× deadlier per mile than the RAV4, 2.4× the Highlander. Same company, similar buyers, radically different body counts.</description>
+  </item>
+  <item>
+    <title>The Chevy Silverado Is the Deadliest Vehicle in America. The F-150 Is Catching Up.</title>
+    <link>https://vehicle-safety.org/stories/silverado-vs-f150-deadliest-truck.html</link>
+    <guid>https://vehicle-safety.org/stories/silverado-vs-f150-deadliest-truck.html</guid>
+    <description>9,591 deaths — more than any other vehicle in FARS. Add the Sierra badge twin and GM's full-size truck platform has killed 12,928 people. The F-150 is 20% safer per mile. The Ram is 37% safer.</description>
+  </item>
+  <item>
+    <title>The Volkswagen Jetta Promised German Engineering. It Delivered 1,375 Deaths.</title>
+    <link>https://vehicle-safety.org/stories/jetta-german-engineering-myth.html</link>
+    <guid>https://vehicle-safety.org/stories/jetta-german-engineering-myth.html</guid>
+    <description>VW's own Golf on the same platform scores 0.18 deaths per 100M VMT. The Jetta? 1.71. That's 9.5× deadlier — same company, same architecture, radically different outcomes.</description>
+  </item>
+  <item>
+    <title>Minivan Drivers Are the Soberest People on the Road. And It's Not Even Close.</title>
+    <link>https://vehicle-safety.org/stories/minivan-sobriety-effect.html</link>
+    <guid>https://vehicle-safety.org/stories/minivan-sobriety-effect.html</guid>
+    <description>Minivans average 15.4% impairment in fatal crashes vs. 20% nationally. Sports cars hit 22.5%. The Grand Caravan and Odyssey clock in at 15.3% and 15.4%. The car you drive is a behavioral confession.</description>
+  </item>
+  <item>
+    <title>GM Sold the Same Deadly SUV Twice. The Yukon and Tahoe Have Killed 3,706 People.</title>
+    <link>https://vehicle-safety.org/stories/yukon-tahoe-gm-twins.html</link>
+    <guid>https://vehicle-safety.org/stories/yukon-tahoe-gm-twins.html</guid>
+    <description>Same platform, same factory, same death rate. The Yukon (2.55) and Tahoe (2.49) are mechanically identical — and 3× deadlier per mile than the Toyota Sequoia. Add the Suburban and it's 4,299 deaths from one architecture.</description>
+  </item>
+  <item>
+    <title>Hyundai and Kia Build the Same Car. The Hyundai Kills 3.8× More People.</title>
+    <link>https://vehicle-safety.org/stories/hyundai-kia-platform-twins.html</link>
+    <guid>https://vehicle-safety.org/stories/hyundai-kia-platform-twins.html</guid>
+    <description>Same platform, same engines, same parent company. The Elantra kills at 1.50 per 100M VMT — the Forte at 0.40. The Sonata-Optima gap is 2.7×. Korean twins, wildly different body counts.</description>
+  </item>
+  <item>
+    <title>The Ford Fusion Was the Safest Midsize Sedan in America. Ford Killed It Anyway.</title>
+    <link>https://vehicle-safety.org/stories/fusion-safest-midsize.html</link>
+    <guid>https://vehicle-safety.org/stories/fusion-safest-midsize.html</guid>
+    <description>At 1.23 deaths per 100M VMT, the Fusion was 40% safer than the Camry and 60% safer than the Accord. Same impairment rates across the segment. Ford discontinued it in 2020.</description>
+  </item>
+  <item>
+    <title>One Designer Made the Same Deadly Car Twice. For Two Different Companies.</title>
+    <link>https://vehicle-safety.org/stories/pt-cruiser-hhr-same-designer.html</link>
+    <guid>https://vehicle-safety.org/stories/pt-cruiser-hhr-same-designer.html</guid>
+    <description>Bryan Nesbitt designed the PT Cruiser at Chrysler, then the HHR at GM. Same retro concept, 1,187 combined deaths. The HHR kills at 2.12 per 100M VMT — 63% deadlier per mile.</description>
+  </item>
+  <item>
+    <title>Nissan Sold the Same Truck for 16 Years. It Killed 1,030 People.</title>
+    <link>https://vehicle-safety.org/stories/frontier-time-capsule.html</link>
+    <guid>https://vehicle-safety.org/stories/frontier-time-capsule.html</guid>
+    <description>The Frontier went virtually unchanged from 2004 to 2021 while competitors redesigned around it. Rate: 1.45 per 100M VMT — 1.8× the Tacoma, 5.2× the Colorado.</description>
+  </item>
+  <item>
+    <title>The Ford Escape Is 5× Deadlier Than a RAV4. They Cost the Same.</title>
+    <link>https://vehicle-safety.org/stories/escape-suv-safety-gap.html</link>
+    <guid>https://vehicle-safety.org/stories/escape-suv-safety-gap.html</guid>
+    <description>The compact SUV segment hides a 5× safety gap: the Escape kills at 0.95 per 100M VMT while the RAV4 manages 0.19. Same price, same cross-shopping — wildly different odds.</description>
+  </item>
+  <item>
+    <title>Infiniti Built Three Generations of the Same Car. The Impairment Rate Never Changed.</title>
+    <link>https://vehicle-safety.org/stories/infiniti-g-impairment-dynasty.html</link>
+    <guid>https://vehicle-safety.org/stories/infiniti-g-impairment-dynasty.html</guid>
+    <description>The G35, G37, and Q50 span 20 years and 698 deaths. Across all three, ~24% of fatal-crash drivers were impaired — 4 points above the national average, every single generation.</description>
+  </item>
+  <item>
+    <title>The Chrysler 300 Kills 2.5× More People Than the Dodge Charger. They're the Same Car.</title>
+    <link>https://vehicle-safety.org/stories/chrysler-300-respectable-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/chrysler-300-respectable-killer.html</guid>
+    <description>Same LX platform, same factory, same engines. The "respectable" sedan kills at 1.87 per 100M VMT — the muscle car at 0.75.</description>
+  </item>
+  <item>
+    <title>Toyota Built a Camry Coupe. It's 2× Deadlier Than the Camry.</title>
+    <link>https://vehicle-safety.org/stories/solara-camry-coupe-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/solara-camry-coupe-killer.html</guid>
+    <description>The Solara shares its platform, engine, and factory with the Camry. It kills at 4.25 per 100M VMT — more than double the Camry's 2.03. Only 4.1% impairment. Sober people dying in a Toyota.</description>
+  </item>
+  <item>
+    <title>Pontiac Died in 2010. It Has Killed 3,038 People Since.</title>
+    <link>https://vehicle-safety.org/stories/pontiac-ghost-brand.html</link>
+    <guid>https://vehicle-safety.org/stories/pontiac-ghost-brand.html</guid>
+    <description>GM killed the brand, but 2.45 million Pontiacs still haunt American roads — Grand Prix (970 deaths), G6 (908), Grand Am (713). Every single FARS death came from a ghost.</description>
+  </item>
+  <item>
+    <title>The Dodge Dakota Was 3× Deadlier Than a Tacoma. Dodge Just Killed It.</title>
+    <link>https://vehicle-safety.org/stories/dakota-midsize-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/dakota-midsize-killer.html</guid>
+    <description>At 2.62 deaths per 100M VMT from a 350K fleet, the Dakota was the second-deadliest mid-size pickup — and Dodge's answer was to discontinue it entirely.</description>
+  </item>
+  <item>
+    <title>The Toyota Corolla Has Killed 4,945 People. It's Still the Safest Car on This List.</title>
+    <link>https://vehicle-safety.org/stories/corolla-volume-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/corolla-volume-killer.html</guid>
+    <description>The world's best-selling car is the 4th deadliest sedan in FARS — not because it's dangerous, but because 2.3 million of them drive 26.7 billion miles a year.</description>
+  </item>
+  <item>
+    <title>The Chevy Tracker Was a Suzuki in Disguise. It Killed 856 People.</title>
+    <link>https://vehicle-safety.org/stories/tracker-rebadged-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/tracker-rebadged-killer.html</guid>
+    <description>At 7.83 deaths per 100M VMT, the rebadged Suzuki Vitara was 41× deadlier per mile than the RAV4 it competed against — and GM put a bowtie on it.</description>
+  </item>
+  <item>
+    <title>The Chevy S-10 Was 6× Deadlier Than a Tacoma. Then GM Fixed It.</title>
+    <link>https://vehicle-safety.org/stories/s10-compact-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/s10-compact-killer.html</guid>
+    <description>At 4.83 deaths per 100M VMT, the S-10 was the deadliest compact pickup by a grotesque margin — then the Colorado replacement dropped it to 0.28.</description>
+  </item>
+  <item>
+    <title>The Ford Crown Victoria Killed 881 People. Most of Them Were on the Clock.</title>
+    <link>https://vehicle-safety.org/stories/crown-victoria-police.html</link>
+    <guid>https://vehicle-safety.org/stories/crown-victoria-police.html</guid>
+    <description>America's most trusted fleet vehicle — chosen by police, taxis, and government agencies — had a fuel tank that turned rear-end crashes into cremations.</description>
+  </item>
+  <item>
+    <title>The Ford Expedition: America's Most Trusted Family Coffin</title>
+    <link>https://vehicle-safety.org/stories/ford-expedition-family-myth.html</link>
+    <guid>https://vehicle-safety.org/stories/ford-expedition-family-myth.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Chevy Cavalier Killed 1,225 People. Then GM Made Its Replacement Worse.</title>
+    <link>https://vehicle-safety.org/stories/cavalier-gm-lineage.html</link>
+    <guid>https://vehicle-safety.org/stories/cavalier-gm-lineage.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>Grandma's Buick LeSabre Has a Higher Death Rate Than the Toyota Camry</title>
+    <link>https://vehicle-safety.org/stories/lesabre-grandma-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/lesabre-grandma-killer.html</guid>
+    <description>1,344 dead at 2.67 per 100M VMT — 32% deadlier than the Camry, with 23.5% impairment. The retirement sedan was secretly lethal.</description>
+  </item>
+  <item>
+    <title>The Jeep Wrangler Is America's Favorite Way to Die Outdoors</title>
+    <link>https://vehicle-safety.org/stories/wrangler-lifestyle-deaths.html</link>
+    <guid>https://vehicle-safety.org/stories/wrangler-lifestyle-deaths.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>GM Built the Same Deadly SUV Twice. The Trailblazer Killed 2,473 People.</title>
+    <link>https://vehicle-safety.org/stories/trailblazer-gm-suv-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/trailblazer-gm-suv-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Chevy Malibu Has Killed 3,465 People. Nobody Noticed.</title>
+    <link>https://vehicle-safety.org/stories/malibu-invisible-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/malibu-invisible-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Chevy Tahoe Weighs 5,600 Pounds. It Didn't Help.</title>
+    <link>https://vehicle-safety.org/stories/tahoe-size-paradox.html</link>
+    <guid>https://vehicle-safety.org/stories/tahoe-size-paradox.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>Mercury Died in 2011. The Grand Marquis Is Still Killing People.</title>
+    <link>https://vehicle-safety.org/stories/grand-marquis-ghost-badge.html</link>
+    <guid>https://vehicle-safety.org/stories/grand-marquis-ghost-badge.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Jeep Cherokee Is 3.4× Deadlier Than the Grand Cherokee. The Name Is a Trap.</title>
+    <link>https://vehicle-safety.org/stories/cherokee-identity-crisis.html</link>
+    <guid>https://vehicle-safety.org/stories/cherokee-identity-crisis.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Ford Ranger Is Nearly 3× Deadlier Than the F-150. Small Trucks Are a Lie.</title>
+    <link>https://vehicle-safety.org/stories/ranger-small-truck-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/ranger-small-truck-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Nissan Sentra Is the Cheapest Way to Die in a Sedan</title>
+    <link>https://vehicle-safety.org/stories/sentra-entry-level-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/sentra-entry-level-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The BMW 3 Series Is the Deadliest Luxury Car in America. By a Lot.</title>
+    <link>https://vehicle-safety.org/stories/bmw-3-series-ultimate-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/bmw-3-series-ultimate-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Dodge Grand Caravan Killed 1,782 People. Almost None of Them Were Drunk.</title>
+    <link>https://vehicle-safety.org/stories/grand-caravan-family-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/grand-caravan-family-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Ford Taurus Was America's Best-Selling Car. Then It Became a Ghost.</title>
+    <link>https://vehicle-safety.org/stories/taurus-fleet-ghost.html</link>
+    <guid>https://vehicle-safety.org/stories/taurus-fleet-ghost.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Honda Civic Has Killed 6,553 People. It's Still Everyone's First Recommendation.</title>
+    <link>https://vehicle-safety.org/stories/civic-everymans-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/civic-everymans-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Toyota Camry Is the 'Safest' Car in America. It Has Killed 6,328 People.</title>
+    <link>https://vehicle-safety.org/stories/camry-safe-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/camry-safe-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>'Altima Energy' Is Real. 4,787 People Are Dead.</title>
+    <link>https://vehicle-safety.org/stories/altima-energy.html</link>
+    <guid>https://vehicle-safety.org/stories/altima-energy.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Dodge Charger Is America's Favorite Bar Car. The Toxicology Reports Prove It.</title>
+    <link>https://vehicle-safety.org/stories/charger-bar-car.html</link>
+    <guid>https://vehicle-safety.org/stories/charger-bar-car.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Ford Focus Was America's Most Popular First Car. It Killed 3,046 People.</title>
+    <link>https://vehicle-safety.org/stories/focus-first-car-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/focus-first-car-killer.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Chevy Cobalt Was a Death Trap Before GM Even Admitted It</title>
+    <link>https://vehicle-safety.org/stories/cobalt-ignition-scandal.html</link>
+    <guid>https://vehicle-safety.org/stories/cobalt-ignition-scandal.html</guid>
+    <description></description>
+  </item>
+  <item>
+    <title>The Camaro Is the Second-Deadliest Sports Car in America. It's Not Even Close to First.</title>
+    <link>https://vehicle-safety.org/stories/camaro-shadow-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/camaro-shadow-killer.html</guid>
+    <description>At 3.44 deaths per 100M VMT, the Camaro kills at half the Mustang's rate — but with a higher impairment percentage. 1,204 dead in a decade.</description>
+  </item>
+  <item>
+    <title>Nissan's "Luxury" Sedan Is Twice as Deadly as the Altima</title>
+    <link>https://vehicle-safety.org/stories/maxima-luxury-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/maxima-luxury-killer.html</guid>
+    <description>At 5.11 deaths per 100M VMT, the Maxima is nearly 2× deadlier than the Altima — and it's not even a sports car.</description>
+  </item>
+  <item>
+    <title>Pickup Trucks Account for 1 in 5 Traffic Deaths in America</title>
+    <link>https://vehicle-safety.org/stories/pickup-body-count.html</link>
+    <guid>https://vehicle-safety.org/stories/pickup-body-count.html</guid>
+    <description>41,593 pickup fatalities over a decade. The Silverado alone tops the entire database at 9,591. But per mile, they're safer than sedans.</description>
+  </item>
+  <item>
+    <title>The Chevrolet Impala: America's Deadliest Rental Car</title>
+    <link>https://vehicle-safety.org/stories/impala-fleet-killer.html</link>
+    <guid>https://vehicle-safety.org/stories/impala-fleet-killer.html</guid>
+    <description>At 5.0 deaths per 100M VMT and 3,774 fatalities, the fleet-favorite Impala is 2.5× deadlier than its own sibling, the Malibu.</description>
+  </item>
+  <item>
+    <title>The Ford Mustang Has the Highest Death Rate of Any Mass-Market Car in America</title>
+    <link>https://vehicle-safety.org/stories/mustang-death-rate.html</link>
+    <guid>https://vehicle-safety.org/stories/mustang-death-rate.html</guid>
+    <description>At 6.02 deaths per 100M VMT and 2,739 fatalities, the Mustang is the deadliest mainstream vehicle on American roads.</description>
+  </item>
+  <item>
+    <title>The Hyundai Veloster Is the Deadliest Car in America Per Mile Driven</title>
+    <link>https://vehicle-safety.org/stories/veloster-deathtrap.html</link>
+    <guid>https://vehicle-safety.org/stories/veloster-deathtrap.html</guid>
+    <description>At 8.54 deaths per 100M VMT, this economy coupe out-kills the Mustang, Camaro, and Corvette — and its drivers are comparatively sober.</description>
+  </item>
+  <item>
+    <title>The Tesla Paradox: Silicon Valley's Safety Darling Meets the Muscle Car's Worst Habit</title>
+    <link>https://vehicle-safety.org/stories/tesla-paradox.html</link>
+    <guid>https://vehicle-safety.org/stories/tesla-paradox.html</guid>
+    <description>Model Y posts 0.03 deaths per 100M VMT. Model S posts a 24% impairment rate. Same brand, different species.</description>
+  </item>
+  <item>
+    <title>How the Ford Explorer Escaped Its Own Legacy</title>
+    <link>https://vehicle-safety.org/stories/explorer-transformation.html</link>
+    <guid>https://vehicle-safety.org/stories/explorer-transformation.html</guid>
+    <description>503 fatal crash involvements for the 2002 model year. 8 for the 2022. A 98.4% reduction.</description>
+  </item>
+  <item>
+    <title>One In Four Corvette Drivers In Fatal Crashes Is Impaired</title>
+    <link>https://vehicle-safety.org/stories/corvette-impairment.html</link>
+    <guid>https://vehicle-safety.org/stories/corvette-impairment.html</guid>
+    <description>26.2% tested positive for alcohol or drugs — the highest of any major sports car. The Buick Park Avenue hits 31.7%.</description>
+  </item>
+  <item>
+    <title>The 261x Death Gap: How Your SUV Choice Is a Life-or-Death Decision</title>
+    <link>https://vehicle-safety.org/stories/suv-death-gap.html</link>
+    <guid>https://vehicle-safety.org/stories/suv-death-gap.html</guid>
+    <description>The fatality rate gap between the Chevrolet Tracker and the Porsche Macan is 261-fold.</description>
+  </item>
+  <item>
+    <title>The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined</title>
+    <link>https://vehicle-safety.org/stories/accord-body-count.html</link>
+    <guid>https://vehicle-safety.org/stories/accord-body-count.html</guid>
+    <description>7,102 Accord deaths vs. 4,648 for all four muscle cars. Ubiquity is its own kind of danger.</description>
+  </item>
+  <item>
+    <title>The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded</title>
+    <link>https://vehicle-safety.org/stories/astro-van-impairment.html</link>
+    <guid>https://vehicle-safety.org/stories/astro-van-impairment.html</guid>
+    <description>A minivan out-drinks the Mustang. Impairment correlates with vehicle price, not vehicle type.</description>
+  </item>
+  <item>
+    <title>The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death</title>
+    <link>https://vehicle-safety.org/stories/land-cruiser-paradox.html</link>
+    <guid>https://vehicle-safety.org/stories/land-cruiser-paradox.html</guid>
+    <description>3rd-lowest impairment rate. 3rd-highest death rate. The most unsettling data point in the database.</description>
+  </item>
+</channel>
+</rss>
