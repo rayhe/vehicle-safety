@@ -5,8 +5,15 @@
   <link>https://vehicle-safety.org</link>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Mar 2026 18:53:59 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Mar 2026 17:00:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>86% of Cavalier Crashes Are Fatal. For a Ram 2500, It's 21%.</title>
+    <link>https://vehicle-safety.org/stories/crash-lethality-ratio.html</link>
+    <description>Death rates tell you how often a vehicle crashes. Lethality ratios tell you what happens next. In 337 models of FARS data, the survivability gap is 4 to 1 — and it tracks perfectly with weight.</description>
+    <pubDate>Thu, 13 Mar 2026 17:00:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/crash-lethality-ratio.html</guid>
+  </item>
   <item>
     <title>Congress Saved 9,000 Lives a Year in 2007. The Cars Didn't Get the Memo Until 2024.</title>
     <link>https://vehicle-safety.org/stories/fleet-turnover-lag.html</link>
