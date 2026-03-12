@@ -2130,3 +2130,41 @@ html.dark sup.ref-link a { color: #f87171; }
 .dark .sources li { color: #888; }
 .dark .sources li::before { color: #666; }
 .dark .sources a { color: #e57373; }
+
+
+/* Story sort controls */
+.story-sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  margin-bottom: 4px;
+}
+.story-sort-label {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 500;
+}
+.story-sort-btn {
+  background: transparent;
+  border: 1px solid #333;
+  color: #999;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.story-sort-btn:hover {
+  border-color: #666;
+  color: #ccc;
+}
+.story-sort-btn.active {
+  background: #D32F2F;
+  border-color: #D32F2F;
+  color: #fff;
+}
+.story-sort-btn.active:hover {
+  background: #E53935;
+  border-color: #E53935;
+}

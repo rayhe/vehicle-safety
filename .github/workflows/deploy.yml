@@ -18,6 +18,7 @@ jobs:
           [ -f newsletter.js ] && cp newsletter.js deploy/ || true
           [ -f story-search.js ] && cp story-search.js deploy/ || true
           [ -f story-filters.js ] && cp story-filters.js deploy/ || true
+          [ -f story-sort.js ] && cp story-sort.js deploy/ || true
           [ -f reading-progress.js ] && cp reading-progress.js deploy/ || true
           [ -f related-stories.js ] && cp related-stories.js deploy/ || true
           [ -f share-buttons.js ] && cp share-buttons.js deploy/ || true
