@@ -12,7 +12,8 @@
     // Extract kicker from each card (handles both class names used in the codebase)
     var cardKickers = cards.map(function (card) {
       var el = card.querySelector('.story-card-kicker') || card.querySelector('.story-kicker');
-      return el ? el.textContent.trim() : '';
+      // Strip leading emoji to prevent duplicate filter pills
+      return el ? el.textContent.trim().replace(/^[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE00}-\u{FEFF}\u{1F900}-\u{1F9FF}]\s*/u, '') : '';
     });
 
     // Count kickers for ordering
