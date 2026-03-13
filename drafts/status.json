@@ -8,6 +8,6 @@
   "created": "2026-03-13",
   "totalRevisions": 3,
   "articleCount": 74,
-  "siteImprovementsDone": 2,
-  "lastImprovement": "2026-03-14: Synced story-nav.js (added 19 missing articles) and related-stories.js (added 3 missing articles) to match full 74-article catalog; updated scope banner count from 73 to 74"
+  "siteImprovementsDone": 3,
+  "lastImprovement": "2026-03-16: Added custom 404.html page (on-brand error page with random article suggestions from 20 curated headlines, dark mode support) and _headers file (Cloudflare Pages caching for images/JS/CSS/stories + security headers: X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy)"
 }
