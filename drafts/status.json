@@ -8,6 +8,6 @@
   "created": "2026-03-13",
   "totalRevisions": 3,
   "articleCount": 74,
-  "siteImprovementsDone": 3,
-  "lastImprovement": "2026-03-16: Added custom 404.html page (on-brand error page with random article suggestions from 20 curated headlines, dark mode support) and _headers file (Cloudflare Pages caching for images/JS/CSS/stories + security headers: X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy)"
+  "siteImprovementsDone": 4,
+  "lastImprovement": "2026-03-13: Added JSON-LD structured data (NewsArticle schema) to all 74 story pages and WebSite schema to index.html. Added og:image meta tags to 60 stories (those with matching images). Added homepage entry to sitemap.xml. Major SEO improvement for search engine rich results and social sharing."
 }
