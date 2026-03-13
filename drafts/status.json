@@ -8,6 +8,6 @@
   "created": "2026-03-13",
   "totalRevisions": 3,
   "articleCount": 74,
-  "siteImprovementsDone": 5,
-  "lastImprovement": "2026-03-13: Created universal theme-toggle.js for dark/light mode switching on all pages. Previously, story pages (all 74) and 404.html had no way to toggle dark mode — only the index page had a toggle via charts.js. Refactored charts.js to listen for shared themechange event instead of duplicating the toggle. Also updated 404.html random story pool from 20 to all 74 articles. Added theme-toggle.js to deploy workflow."
+  "siteImprovementsDone": 6,
+  "lastImprovement": "2026-03-13: Fixed social sharing meta tags across all 74 story pages. Upgraded twitter:card from 'summary' to 'summary_large_image' for 60 stories with images (enables large preview cards on Twitter/X). Added missing twitter:image tags to ~55 stories. Added missing og:image tags where needed. Removed duplicate twitter:card meta tags. Fixed broken og:image reference in sober-majority.html (pointed to non-existent image). Added complete favicon set (svg, 32px, 192px, apple-touch-icon) to all story pages for consistent branding."
 }
