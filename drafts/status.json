@@ -1,8 +1,15 @@
 {
-  "stage": "site-improvement",
-  "date": "2026-03-13",
-  "articleCount": 71,
-  "improvement": "Normalized all story card HTML classes, fixed duplicate meta tags, added lazy loading + onerror to all images, updated scope banner and copyright",
-  "nextArticleDay": 73,
+  "stage": "revising",
+  "created": "2026-03-13",
+  "revisions": 2,
+  "criticism": [
+    "Rev 1: Fixed critical data error — lede originally claimed Maxima was 'deadlier than the Mustang' (Mustang is 6.02 vs Maxima 5.11). Reframed to emphasize it beats Camaro/Corvette/Challenger, which is the actually remarkable claim. Fixed Charger impairment from 20.3% to actual 22.7%. Cut article from ~800 words to ~500 words per style guide. Removed 'Nissan Brand Problem' section (tangential). Tightened 'Model Year Problem' section. Removed AI-voice patterns: 'That number needs context', 'You might assume... It isn't.' Made Clara angrier and more direct — shorter sentences, more declarative. Improved table to show full competitive landscape including Veloster/Mustang above Maxima for honesty.",
+    "Rev 2: Killed Clara's canned 'Before you sign that lease' opener — Maxima has been dead since 2023, nobody's signing anything. Removed 'lethality ratio' terminology (that's Axle McScatter's voice, not Clara's) and translated to angry consumer language: 'Two out of three Maxima crashes produce a fatality — a 66.2% kill rate.' Added one-line fragment punches ('A four-door Nissan. Outpacing muscle cars in the one race nobody wins.' / 'They're just dying at work.' / 'Nissan put Mustang GT power in a family car and called it a feature.') to break paragraph uniformity and lean into Clara's punchy rage. Removed non-existent og:image/twitter:image meta tags. Changed 'Nissan discontinued' to 'Nissan axed' and 'The automotive press mourned' to 'Car magazines wrote obituaries. Nobody at NHTSA sent flowers.' — sharper, more Clara. Overall tighter but still needs one more pass for rhythm."
+  ],
+  "slug": "maxima-four-door-sports-car",
+  "headline": "Nissan Called the Maxima a '4-Door Sports Car.' The Fatality Data Agrees.",
+  "journalist": "Clara Rollover",
+  "kicker": "Investigation",
+  "articleCount": 72,
   "siteImprovementsDone": 1
 }
