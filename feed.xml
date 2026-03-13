@@ -5,8 +5,15 @@
   <link>https://vehicle-safety.org</link>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 13 Mar 2026 23:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Mar 2026 01:00:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Car With America's Drunkest Drivers Is a Buick</title>
+    <link>https://vehicle-safety.org/stories/park-avenue-impairment-king.html</link>
+    <description>The Buick Park Avenue leads every vehicle in the FARS database for impaired-driver fatal crashes at 31.7%. It beats the Corvette, the Mustang, and the Camaro.</description>
+    <pubDate>Sat, 14 Mar 2026 01:00:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/park-avenue-impairment-king.html</guid>
+  </item>
   <item>
     <title>Nissan Called the Maxima a "4-Door Sports Car." The Fatality Data Agrees.</title>
     <link>https://vehicle-safety.org/stories/maxima-four-door-sports-car.html</link>
