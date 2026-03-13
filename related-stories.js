@@ -1,9 +1,12 @@
 // Related Stories — auto-injects "Keep Reading" section on story pages
-// Full registry of all 71 articles with kicker-based matching
+// Full registry of all 74 articles with kicker-based matching
 (function() {
   'use strict';
 
   var stories = [
+    { slug: 'saturn-dent-proof-deathtrap', kicker: 'Existential Dread', title: 'Saturn\u2019s Dent-Proof Panels Couldn\u2019t Stop It From Being the Deadliest Car Per Crash in America', img: false },
+    { slug: 'park-avenue-impairment-king', kicker: 'Sobriety Report', title: 'The Car With America\u2019s Drunkest Drivers Is a Buick', img: false },
+    { slug: 'maxima-four-door-sports-car', kicker: 'Investigation', title: 'Nissan Called the Maxima a \u201c4-Door Sports Car.\u201d The Fatality Data Agrees.', img: false },
     { slug: '4runner-toyota-dangerous-suv', kicker: 'The Gap', title: 'The Toyota 4Runner Is 5\u00d7 Deadlier Than the RAV4. Guess Which One Toyota Calls \u201cRugged.\u201d', img: true },
     { slug: 'accord-body-count', kicker: 'Body Count', title: 'The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined', img: true },
     { slug: 'aggressor-vehicles', kicker: 'The Gap', title: 'The F-150 Was Involved in 20,066 Fatal Crashes. In 10,872 of Them, Someone Else Died.', img: false },
