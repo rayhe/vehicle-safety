@@ -1,55 +1,103 @@
 // Related Stories — auto-injects "Keep Reading" section on story pages
+// Full registry of all 71 articles with kicker-based matching
 (function() {
+  'use strict';
+
   var stories = [
-    { slug: 'bmw-3-series-ultimate-killer', title: 'The BMW 3 Series Is the Deadliest Luxury Car in America', kicker: 'Existential Dread', tags: ['luxury','sedan','rate'], img: 'images/bmw-3-series-ultimate-killer.jpg' },
-    { slug: 'grand-caravan-family-killer', title: 'The Dodge Grand Caravan Killed 1,782 People. Almost None Were Drunk.', kicker: 'The Gap', tags: ['minivan','sober','family'], img: 'images/grand-caravan-family-killer.jpg' },
-    { slug: 'taurus-fleet-ghost', title: 'The Ford Taurus Was America\u2019s Best-Selling Car. Then It Became a Ghost.', kicker: 'Investigation', tags: ['ford','sedan','fleet','depreciation'], img: 'images/taurus-fleet-ghost.jpg' },
-    { slug: 'civic-everymans-killer', title: 'The Honda Civic Has Killed 6,553 People. It\u2019s Still Everyone\u2019s First Recommendation.', kicker: 'Body Count', tags: ['honda','compact','ubiquity','body-count'], img: 'images/civic-everymans-killer.jpg' },
-    { slug: 'camry-safe-killer', title: 'The Toyota Camry Is the \u2018Safest\u2019 Car in America. It Has Killed 6,328 People.', kicker: 'Existential Dread', tags: ['toyota','sedan','ubiquity','paradox'], img: 'images/camry-safe-killer.jpg' },
-    { slug: 'altima-energy', title: '\u2018Altima Energy\u2019 Is Real. 4,787 People Are Dead.', kicker: 'Investigation', tags: ['nissan','sedan','depreciation','economics'], img: 'images/altima-energy.jpg' },
-    { slug: 'charger-bar-car', title: 'The Dodge Charger Is America\u2019s Favorite Bar Car.', kicker: 'Sobriety Report', tags: ['dodge','muscle','impairment','dui'], img: 'images/charger-bar-car.jpg' },
-    { slug: 'focus-first-car-killer', title: 'The Ford Focus Was America\u2019s Most Popular First Car. It Killed 3,046 People.', kicker: 'The Gap', tags: ['ford','compact','first-car','economics'], img: 'images/focus-first-car-killer.jpg' },
-    { slug: 'cobalt-ignition-scandal', title: 'The Chevy Cobalt Was a Death Trap Before GM Even Admitted It', kicker: 'Investigation', tags: ['gm','compact','scandal','design-flaw'], img: 'images/cobalt-ignition-scandal.jpg' },
-    { slug: 'camaro-shadow-killer', title: 'The Chevrolet Camaro Is the Second-Deadliest Sports Car in America.', kicker: 'Investigation', tags: ['gm','muscle','sports','rate'], img: 'images/camaro-shadow-killer.jpg' },
-    { slug: 'maxima-luxury-killer', title: 'Nissan\u2019s \u201CLuxury\u201D Sedan Is Twice as Deadly as the Altima', kicker: 'Existential Dread', tags: ['nissan','sedan','luxury','rate'], img: 'images/maxima-luxury-killer.jpg' },
-    { slug: 'pickup-body-count', title: 'Pickup Trucks Account for 1 in 5 Traffic Deaths in America', kicker: 'Body Count', tags: ['truck','class','body-count','national'], img: 'images/pickup-body-count.jpg' },
-    { slug: 'impala-fleet-killer', title: 'The Chevrolet Impala: America\u2019s Deadliest Rental Car', kicker: 'Investigation', tags: ['gm','sedan','fleet','depreciation'], img: 'images/impala-fleet-killer.jpg' },
-    { slug: 'mustang-death-rate', title: 'The Ford Mustang Has the Highest Death Rate of Any Mass-Market Car', kicker: 'Investigation', tags: ['ford','muscle','sports','rate'], img: 'images/mustang-death-rate.jpg' },
-    { slug: 'veloster-deathtrap', title: 'The Hyundai Veloster Is the Deadliest Car in America Per Mile Driven.', kicker: 'Investigation', tags: ['hyundai','rate','compact','design-flaw'], img: 'images/veloster-deathtrap.jpg' },
-    { slug: 'tesla-paradox', title: 'The Tesla Paradox: Silicon Valley\u2019s Safety Darling Meets the Muscle Car\u2019s Worst Habit', kicker: 'Sobriety Report', tags: ['tesla','ev','impairment','paradox'], img: 'images/tesla-paradox.jpg' },
-    { slug: 'explorer-transformation', title: 'How the Ford Explorer Escaped Its Own Legacy', kicker: 'Trend Watch', tags: ['ford','suv','improvement','design'], img: 'images/explorer-transformation.jpg' },
-    { slug: 'corvette-impairment', title: 'One In Four Corvette Drivers In Fatal Crashes Is Impaired.', kicker: 'Sobriety Report', tags: ['gm','sports','impairment','dui'], img: 'images/corvette-impairment.jpg' },
-    { slug: 'suv-death-gap', title: 'The 261x Death Gap: How Your SUV Choice Is a Life-or-Death Decision', kicker: 'Class Warfare', tags: ['suv','class','rate','comparison'], img: 'images/suv-death-gap.jpg' },
-    { slug: 'accord-body-count', title: 'The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined', kicker: 'Body Count', tags: ['honda','sedan','ubiquity','body-count'], img: 'images/accord-body-count.jpg' },
-    { slug: 'astro-van-impairment', title: 'The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded', kicker: 'Sobriety Report', tags: ['gm','van','impairment','dui'], img: 'images/astro-van-impairment.jpg' },
-    { slug: 'land-cruiser-paradox', title: 'The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death', kicker: 'Existential Dread', tags: ['toyota','suv','sober','paradox'], img: 'images/land-cruiser-paradox.jpg' }
+    { slug: '4runner-toyota-dangerous-suv', kicker: 'The Gap', title: 'The Toyota 4Runner Is 5\u00d7 Deadlier Than the RAV4. Guess Which One Toyota Calls \u201cRugged.\u201d', img: true },
+    { slug: 'accord-body-count', kicker: 'Body Count', title: 'The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined', img: true },
+    { slug: 'aggressor-vehicles', kicker: 'The Gap', title: 'The F-150 Was Involved in 20,066 Fatal Crashes. In 10,872 of Them, Someone Else Died.', img: false },
+    { slug: 'altima-energy', kicker: 'Investigation', title: '\u2018Altima Energy\u2019 Is Real. 4,787 People Are Dead.', img: true },
+    { slug: 'astro-van-impairment', kicker: 'Sobriety Report', title: 'The Chevy Astro Van: Where 27% of Drivers in Fatal Crashes Were Loaded', img: true },
+    { slug: 'bmw-3-series-ultimate-killer', kicker: 'Existential Dread', title: 'The BMW 3 Series Is the Deadliest Luxury Car in America. By a Lot.', img: true },
+    { slug: 'camaro-shadow-killer', kicker: 'Investigation', title: 'The Chevrolet Camaro Is the Second-Deadliest Sports Car in America.', img: true },
+    { slug: 'camry-safe-killer', kicker: 'Existential Dread', title: 'The Toyota Camry Is the \u2018Safest\u2019 Car in America. It Has Killed 6,328 People.', img: true },
+    { slug: 'cavalier-gm-lineage', kicker: 'GM Platform Failures', title: 'The Chevy Cavalier Killed 1,225 People. Then GM Made Its Replacement Worse.', img: false },
+    { slug: 'challenger-safest-muscle-car', kicker: 'Existential Dread', title: 'The Dodge Challenger Is the Safest Muscle Car in America. Nobody Believes It.', img: true },
+    { slug: 'charger-bar-car', kicker: 'Sobriety Report', title: 'The Dodge Charger Is America\u2019s Favorite Bar Car.', img: true },
+    { slug: 'cherokee-identity-crisis', kicker: 'The Gap', title: 'The Jeep Cherokee Is 3.4\u00d7 Deadlier Than the Grand Cherokee.', img: true },
+    { slug: 'chrysler-300-respectable-killer', kicker: 'Existential Dread', title: 'The Chrysler 300 Kills 2.5\u00d7 More People Than the Dodge Charger. They\u2019re the Same Car.', img: true },
+    { slug: 'civic-everymans-killer', kicker: 'Body Count', title: 'The Honda Civic Has Killed 6,553 People. It\u2019s Still Everyone\u2019s First Recommendation.', img: true },
+    { slug: 'cobalt-ignition-scandal', kicker: 'Investigation', title: 'The Chevy Cobalt Was a Death Trap Before GM Even Admitted It', img: true },
+    { slug: 'corolla-volume-killer', kicker: 'By The Numbers', title: 'The Toyota Corolla Has Killed 4,945 People. It\u2019s Still the Safest Car on This List.', img: true },
+    { slug: 'corvette-impairment', kicker: 'Investigation', title: 'One In Four Corvette Drivers In Fatal Crashes Is Impaired.', img: true },
+    { slug: 'crash-lethality-ratio', kicker: 'By The Numbers', title: '86% of Cavalier Crashes Are Fatal. For a Ram 2500, It\u2019s 21%.', img: false },
+    { slug: 'crown-victoria-police', kicker: 'Investigation', title: 'The Ford Crown Victoria Killed 881 People. Most of Them Were on the Clock.', img: true },
+    { slug: 'dakota-midsize-killer', kicker: 'The Gap', title: 'The Dodge Dakota Was 3\u00d7 Deadlier Than a Tacoma. Dodge Just Killed It.', img: true },
+    { slug: 'e350-church-bus-killer', kicker: 'Investigation', title: 'The Ford E-350 Killed 776 People. Most Were Passengers.', img: true },
+    { slug: 'escape-suv-safety-gap', kicker: 'The Gap', title: 'The Ford Escape Is 5\u00d7 Deadlier Than a RAV4. They Cost the Same.', img: true },
+    { slug: 'explorer-transformation', kicker: 'Trend Watch', title: 'How the Ford Explorer Escaped Its Own Legacy', img: true },
+    { slug: 'fleet-turnover-lag', kicker: 'By The Numbers', title: 'Congress Saved 9,000 Lives a Year in 2007. The Cars Didn\u2019t Get the Memo Until 2024.', img: false },
+    { slug: 'focus-first-car-killer', kicker: 'The Gap', title: 'The Ford Focus Was America\u2019s Most Popular First Car. It Killed 3,046 People.', img: true },
+    { slug: 'ford-expedition-family-myth', kicker: 'Investigation', title: 'The Ford Expedition: America\u2019s Most Trusted Family Coffin', img: false },
+    { slug: 'frontier-time-capsule', kicker: 'Investigation', title: 'Nissan Sold the Same Truck for 16 Years. It Killed 1,030 People.', img: true },
+    { slug: 'fusion-safest-midsize', kicker: 'The Gap', title: 'The Ford Fusion Was the Safest Midsize Sedan in America. Ford Killed It Anyway.', img: true },
+    { slug: 'gm-minivan-platform', kicker: 'GM Platform Failures', title: 'GM Built One Minivan and Sold It Four Times. All Four Were Deadly.', img: true },
+    { slug: 'grand-caravan-family-killer', kicker: 'The Gap', title: 'The Dodge Grand Caravan Killed 1,782 People. Almost None Were Drunk.', img: true },
+    { slug: 'grand-marquis-ghost-badge', kicker: 'Investigation', title: 'Mercury Died in 2011. The Grand Marquis Is Still Killing People.', img: true },
+    { slug: 'honda-brand-paradox', kicker: 'Existential Dread', title: 'Honda\u2019s Sedans Are Deadly. Honda\u2019s SUVs Are Among the Safest Cars in America.', img: true },
+    { slug: 'hyundai-kia-platform-twins', kicker: 'The Gap', title: 'Hyundai and Kia Build the Same Car. The Hyundai Kills 3.8\u00d7 More People.', img: true },
+    { slug: 'impala-fleet-killer', kicker: 'Investigation', title: 'The Chevrolet Impala: America\u2019s Deadliest Rental Car', img: true },
+    { slug: 'infiniti-g-impairment-dynasty', kicker: 'Sobriety Report', title: 'Infiniti Built Three Generations of the Same Car. The Impairment Rate Never Changed.', img: false },
+    { slug: 'jetta-german-engineering-myth', kicker: 'Existential Dread', title: 'The Volkswagen Jetta Promised German Engineering. It Delivered 1,375 Deaths.', img: true },
+    { slug: 'land-cruiser-paradox', kicker: 'Existential Dread', title: 'The Toyota Land Cruiser Paradox: Sober Drivers, Maximum Death', img: true },
+    { slug: 'lesabre-grandma-killer', kicker: 'Existential Dread', title: 'Grandma\u2019s Buick LeSabre Has a Higher Death Rate Than the Toyota Camry', img: true },
+    { slug: 'malibu-invisible-killer', kicker: 'Existential Dread', title: 'The Chevy Malibu Has Killed 3,465 People. Nobody Noticed.', img: true },
+    { slug: 'maxima-luxury-killer', kicker: 'Existential Dread', title: 'Nissan\u2019s \u201cLuxury\u201d Sedan Is Twice as Deadly as the Altima', img: true },
+    { slug: 'minivan-sobriety-effect', kicker: 'Sobriety Report', title: 'Minivan Drivers Are the Soberest People on the Road.', img: true },
+    { slug: 'model-year-graveyard', kicker: 'By The Numbers', title: 'Half the People Dying on American Roads Are Dying in Cars That Don\u2019t Exist Anymore', img: true },
+    { slug: 'mustang-death-rate', kicker: 'Investigation', title: 'The Ford Mustang Has the Highest Death Rate of Any Mass-Market Car in America', img: true },
+    { slug: 'neon-disposable-deathtrap', kicker: 'Investigation', title: 'The Dodge Neon Was America\u2019s Disposable First Car. It Killed 602 People.', img: true },
+    { slug: 'pickup-body-count', kicker: 'Body Count', title: 'Pickup Trucks Account for 1 in 5 Traffic Deaths in America', img: true },
+    { slug: 'pontiac-ghost-brand', kicker: 'Existential Dread', title: 'Pontiac Died in 2010. It Has Killed 3,038 People Since.', img: true },
+    { slug: 'prius-safest-sedan', kicker: 'Existential Dread', title: 'The Toyota Prius Is the Safest Sedan in America. Its Drivers Are the Soberest, Too.', img: true },
+    { slug: 'pt-cruiser-hhr-same-designer', kicker: 'Investigation', title: 'One Designer Made the Same Deadly Car Twice. For Two Different Companies.', img: true },
+    { slug: 'ranger-small-truck-killer', kicker: 'The Gap', title: 'The Ford Ranger Is Nearly 3\u00d7 Deadlier Than the F-150. Small Trucks Are a Lie.', img: true },
+    { slug: 's10-compact-killer', kicker: 'The Gap', title: 'The Chevy S-10 Was 6\u00d7 Deadlier Than a Tacoma. Then GM Fixed It.', img: true },
+    { slug: 'safety-is-a-luxury-good', kicker: 'The Gap', title: 'A Porsche 911 Driver Drinks as Much as a Cobalt Driver. One Is 7\u00d7 More Likely to Survive.', img: false },
+    { slug: 'safety-leaps', kicker: 'Trend Watch', title: 'Seven Vehicles That Got 8\u201322\u00d7 Safer in a Single Generation', img: true },
+    { slug: 'sebring-sober-deathtrap', kicker: 'The Gap', title: 'The Chrysler Sebring Had the Lowest Impairment Rate in Its Class. It Killed 664 People Anyway.', img: true },
+    { slug: 'sedan-death-penalty', kicker: 'The Gap', title: 'Sedans Kill at 2.5\u00d7 the Rate of SUVs. Every Single Brand.', img: true },
+    { slug: 'sentra-entry-level-killer', kicker: 'By The Numbers', title: 'The Nissan Sentra Is the Cheapest Way to Die in a Sedan', img: true },
+    { slug: 'seville-luxury-deathtrap', kicker: 'Existential Dread', title: 'The Cadillac Seville Had the Lowest Impairment Rate in the Database. It Killed 391 People Anyway.', img: true },
+    { slug: 'silverado-vs-f150-deadliest-truck', kicker: 'Investigation', title: 'The Chevy Silverado Is the Deadliest Vehicle in America. The F-150 Is Catching Up.', img: true },
+    { slug: 'sober-majority', kicker: 'By The Numbers', title: '80% of Fatal Crash Drivers Were Sober. America Spent $800 Million on the Other 20%.', img: false },
+    { slug: 'solara-camry-coupe-killer', kicker: 'The Gap', title: 'Toyota Built a Camry Coupe. It\u2019s 2\u00d7 Deadlier Than the Camry.', img: false },
+    { slug: 'state-death-rate-gap', kicker: 'The Gap', title: 'Mississippi Kills Drivers at 5\u00d7 the Rate of Massachusetts. They Drive the Same Cars.', img: false },
+    { slug: 'subaru-safest-brand', kicker: 'The Gap', title: 'Every Subaru Is Safer Than Its Competitors. Every Single One.', img: true },
+    { slug: 'subcompact-death-lottery', kicker: 'The Gap', title: 'America\u2019s Cheapest Cars Are a Death Lottery. The Odds Depend on the Badge.', img: false },
+    { slug: 'suv-death-gap', kicker: 'Class Warfare', title: 'The 261x Death Gap: How Your SUV Choice Is a Life-or-Death Decision', img: true },
+    { slug: 'tahoe-size-paradox', kicker: 'Existential Dread', title: 'The Chevy Tahoe Weighs 5,600 Pounds. It Didn\u2019t Help.', img: true },
+    { slug: 'taurus-fleet-ghost', kicker: 'Investigation', title: 'The Ford Taurus Was America\u2019s Best-Selling Car. Then It Became a Ghost.', img: true },
+    { slug: 'tesla-paradox', kicker: 'Sobriety Report', title: 'The Tesla Paradox: Silicon Valley\u2019s Safety Darling Meets the Muscle Car\u2019s Worst Habit', img: true },
+    { slug: 'tracker-rebadged-killer', kicker: 'The Gap', title: 'The Chevy Tracker Was a Suzuki in Disguise. It Killed 856 People.', img: true },
+    { slug: 'trailblazer-gm-suv-killer', kicker: 'Trend Watch', title: 'GM Built the Same Deadly SUV Twice. The Trailblazer Killed 2,473 People.', img: true },
+    { slug: 'veloster-deathtrap', kicker: 'Investigation', title: 'The Hyundai Veloster Is the Deadliest Car in America Per Mile Driven.', img: true },
+    { slug: 'wrangler-lifestyle-deaths', kicker: 'Investigation', title: 'The Jeep Wrangler Is America\u2019s Favorite Way to Die Outdoors', img: true },
+    { slug: 'yukon-tahoe-gm-twins', kicker: 'Investigation', title: 'GM Sold the Same Deadly SUV Twice. The Yukon and Tahoe Have Killed 3,706 People.', img: true }
   ];
 
-  // Curated related pairs — thematic connections
-  var curated = {
-    'bmw-3-series-ultimate-killer': ['maxima-luxury-killer','mustang-death-rate','veloster-deathtrap'],
-    'grand-caravan-family-killer': ['land-cruiser-paradox','camry-safe-killer','explorer-transformation'],
-    'taurus-fleet-ghost': ['impala-fleet-killer','altima-energy','focus-first-car-killer'],
-    'civic-everymans-killer': ['accord-body-count','camry-safe-killer','focus-first-car-killer'],
-    'camry-safe-killer': ['civic-everymans-killer','accord-body-count','land-cruiser-paradox'],
-    'altima-energy': ['maxima-luxury-killer','impala-fleet-killer','taurus-fleet-ghost'],
-    'charger-bar-car': ['corvette-impairment','astro-van-impairment','camaro-shadow-killer'],
-    'focus-first-car-killer': ['cobalt-ignition-scandal','civic-everymans-killer','veloster-deathtrap'],
-    'cobalt-ignition-scandal': ['focus-first-car-killer','veloster-deathtrap','explorer-transformation'],
-    'camaro-shadow-killer': ['mustang-death-rate','charger-bar-car','corvette-impairment'],
-    'maxima-luxury-killer': ['altima-energy','bmw-3-series-ultimate-killer','impala-fleet-killer'],
-    'pickup-body-count': ['suv-death-gap','explorer-transformation','grand-caravan-family-killer'],
-    'impala-fleet-killer': ['taurus-fleet-ghost','altima-energy','camry-safe-killer'],
-    'mustang-death-rate': ['camaro-shadow-killer','charger-bar-car','bmw-3-series-ultimate-killer'],
-    'veloster-deathtrap': ['cobalt-ignition-scandal','bmw-3-series-ultimate-killer','focus-first-car-killer'],
-    'tesla-paradox': ['land-cruiser-paradox','explorer-transformation','corvette-impairment'],
-    'explorer-transformation': ['suv-death-gap','pickup-body-count','cobalt-ignition-scandal'],
-    'corvette-impairment': ['charger-bar-car','astro-van-impairment','camaro-shadow-killer'],
-    'suv-death-gap': ['pickup-body-count','explorer-transformation','land-cruiser-paradox'],
-    'accord-body-count': ['civic-everymans-killer','camry-safe-killer','pickup-body-count'],
-    'astro-van-impairment': ['corvette-impairment','charger-bar-car','grand-caravan-family-killer'],
-    'land-cruiser-paradox': ['tesla-paradox','grand-caravan-family-killer','suv-death-gap']
+  // Thematic affinity — kickers that pair well for cross-category recs
+  var relatedKickers = {
+    'Investigation': ['Existential Dread', 'Body Count', 'GM Platform Failures'],
+    'Existential Dread': ['Investigation', 'The Gap', 'Sobriety Report'],
+    'The Gap': ['By The Numbers', 'Existential Dread', 'Class Warfare'],
+    'Sobriety Report': ['Investigation', 'Existential Dread'],
+    'Body Count': ['Investigation', 'The Gap', 'By The Numbers'],
+    'By The Numbers': ['The Gap', 'Body Count', 'Trend Watch'],
+    'Trend Watch': ['By The Numbers', 'Investigation', 'GM Platform Failures'],
+    'GM Platform Failures': ['Investigation', 'Trend Watch', 'The Gap'],
+    'Class Warfare': ['The Gap', 'By The Numbers', 'Investigation']
   };
+
+  // Simple deterministic hash for consistent but varied picks
+  function hashSlug(str) {
+    var h = 0;
+    for (var i = 0; i < str.length; i++) {
+      h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(h);
+  }
 
   // Detect current story from URL
   var path = window.location.pathname;
@@ -64,42 +112,72 @@
   }
   if (!current) return;
 
-  // Get related slugs
-  var relatedSlugs = curated[currentSlug];
-  if (!relatedSlugs) {
-    // Fallback: pick by shared tags
-    var scored = [];
-    for (var j = 0; j < stories.length; j++) {
-      if (stories[j].slug === currentSlug) continue;
-      var s = 0;
-      for (var k = 0; k < stories[j].tags.length; k++) {
-        if (current.tags.indexOf(stories[j].tags[k]) !== -1) s++;
-      }
-      if (s > 0) scored.push({ slug: stories[j].slug, score: s });
+  var seed = hashSlug(currentSlug);
+
+  // Pick 3 related stories: 2 from same kicker, 1 from related kicker
+  // If same kicker has <3, fill from related kickers
+  var sameKicker = [];
+  var crossKicker = [];
+  var affinities = relatedKickers[current.kicker] || [];
+
+  for (var j = 0; j < stories.length; j++) {
+    if (stories[j].slug === currentSlug) continue;
+    if (stories[j].kicker === current.kicker) {
+      sameKicker.push(stories[j]);
+    } else if (affinities.indexOf(stories[j].kicker) !== -1) {
+      crossKicker.push(stories[j]);
     }
-    scored.sort(function(a, b) { return b.score - a.score; });
-    relatedSlugs = scored.slice(0, 3).map(function(x) { return x.slug; });
   }
 
-  if (relatedSlugs.length === 0) return;
+  // Deterministic shuffle using seed
+  function seededSort(arr, s) {
+    return arr.slice().sort(function(a, b) {
+      var ha = hashSlug(a.slug + s);
+      var hb = hashSlug(b.slug + s);
+      return ha - hb;
+    });
+  }
 
-  // Build related stories HTML
+  sameKicker = seededSort(sameKicker, seed);
+  crossKicker = seededSort(crossKicker, seed);
+
+  // Prefer stories with images for visual richness
+  function imgFirst(arr) {
+    var withImg = arr.filter(function(s) { return s.img; });
+    var noImg = arr.filter(function(s) { return !s.img; });
+    return withImg.concat(noImg);
+  }
+
+  sameKicker = imgFirst(sameKicker);
+  crossKicker = imgFirst(crossKicker);
+
+  // Build final picks: up to 2 same-kicker, then fill with cross-kicker
+  var picks = [];
+  var maxSame = Math.min(2, sameKicker.length);
+  for (var p = 0; p < maxSame; p++) picks.push(sameKicker[p]);
+  for (var q = 0; q < crossKicker.length && picks.length < 3; q++) picks.push(crossKicker[q]);
+  // If still short, pull remaining from same kicker
+  for (var r = maxSame; r < sameKicker.length && picks.length < 3; r++) picks.push(sameKicker[r]);
+
+  if (picks.length === 0) return;
+
+  // Build HTML
   var html = '<section class="related-stories">';
   html += '<h2 class="related-heading">Keep Reading</h2>';
   html += '<div class="related-grid">';
 
-  for (var r = 0; r < relatedSlugs.length; r++) {
-    var rel = null;
-    for (var s = 0; s < stories.length; s++) {
-      if (stories[s].slug === relatedSlugs[r]) { rel = stories[s]; break; }
+  for (var k = 0; k < picks.length; k++) {
+    var s = picks[k];
+    html += '<a href="' + s.slug + '.html" class="related-card">';
+    if (s.img) {
+      html += '<img src="../images/' + s.slug + '.jpg" alt="" class="related-card-img" loading="lazy"' +
+        ' onerror="this.style.background=\'linear-gradient(135deg,#1a1a2e,#6B0000)\';this.style.minHeight=\'140px\';this.src=\'\'">';
+    } else {
+      html += '<div class="related-card-img" style="background:linear-gradient(135deg,#1a1a2e,#6B0000);min-height:140px"></div>';
     }
-    if (!rel) continue;
-
-    html += '<a href="' + rel.slug + '.html" class="related-card">';
-    html += '<img src="../' + rel.img + '" alt="" class="related-card-img" loading="lazy">';
     html += '<div class="related-card-body">';
-    html += '<span class="related-card-kicker">' + rel.kicker + '</span>';
-    html += '<span class="related-card-title">' + rel.title + '</span>';
+    html += '<span class="related-card-kicker">' + s.kicker + '</span>';
+    html += '<span class="related-card-title">' + s.title + '</span>';
     html += '</div></a>';
   }
 
@@ -110,7 +188,6 @@
   if (disclaimer) {
     disclaimer.insertAdjacentHTML('beforebegin', html);
   } else {
-    // Fallback: insert after article
     var article = document.querySelector('article.story');
     if (article) article.insertAdjacentHTML('afterend', html);
   }
