@@ -28,11 +28,12 @@
 
     // Build searchable text index for each card
     var cardTexts = cards.map(function (card) {
-      var title = (card.querySelector('.story-card-title') || {}).textContent || '';
-      var deck = (card.querySelector('.story-card-deck') || {}).textContent || '';
+      var title = (card.querySelector('.story-card-title') || card.querySelector('h3') || {}).textContent || '';
+      var deck = (card.querySelector('.story-card-deck') || card.querySelector('p') || {}).textContent || '';
       var kicker = (card.querySelector('.story-card-kicker') || {}).textContent || '';
-      var meta = (card.querySelector('.story-card-meta') || card.querySelector('.story-card-date') || {}).textContent || '';
-      return (title + ' ' + deck + ' ' + kicker + ' ' + meta).toLowerCase();
+      var meta = (card.querySelector('.story-card-meta') || {}).textContent || '';
+      var href = card.getAttribute('href') || '';
+      return (title + ' ' + deck + ' ' + kicker + ' ' + meta + ' ' + href.replace(/[-_.\/]/g, ' ')).toLowerCase();
     });
 
     // No-results message
