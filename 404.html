@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 &mdash; Page Not Found &mdash; The Crash Report</title>
+  <meta name="description" content="This page doesn't exist. Unlike the 191,000+ traffic deaths in our database.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style>
+    .error-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .error-code {
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 0.25rem;
+      letter-spacing: -0.04em;
+    }
+    .error-label {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .error-message {
+      font-size: 1.25rem;
+      color: var(--text);
+      max-width: 540px;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .error-message strong {
+      color: var(--accent);
+    }
+    .error-cta {
+      display: inline-flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+    .error-cta a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius);
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .cta-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .cta-primary:hover {
+      background: var(--accent-hover);
+    }
+    .cta-secondary {
+      background: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .cta-secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .random-story {
+      max-width: 480px;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      text-align: left;
+      transition: border-color 0.15s;
+    }
+    .random-story:hover {
+      border-color: var(--accent);
+    }
+    .random-story-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .random-story a {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      line-height: 1.4;
+      display: block;
+    }
+    .random-story a:hover {
+      color: var(--accent);
+    }
+    .random-story .story-tease {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+    .error-stats {
+      margin-top: 2.5rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      max-width: 400px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+      <div class="masthead-inner">
+        <a href="/" style="text-decoration:none;display:flex;align-items:center;gap:1rem">
+          <img src="/images/logo.svg" alt="The Crash Report" class="masthead-logo" onerror="this.src='/images/logo.jpg'" style="height:48px">
+          <div class="masthead-text">
+            <h1 style="font-size:1.4rem;margin:0">The Crash Report</h1>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <div class="error-container">
+      <div class="error-code">404</div>
+      <div class="error-label">Page Not Found</div>
+      <div class="error-message">
+        This page doesn&rsquo;t exist. Unlike the <strong>191,193 traffic deaths</strong> in our FARS database.
+        At least you can navigate away from this one.
+      </div>
+
+      <div class="error-cta">
+        <a href="/" class="cta-primary">&larr; Back to The Crash Report</a>
+        <a href="/feed.xml" class="cta-secondary">RSS Feed</a>
+      </div>
+
+      <div class="random-story" id="randomStory">
+        <div class="random-story-label">&#9760; While you&rsquo;re here</div>
+        <a id="storyLink" href="/stories/altima-energy.html">Altima Energy Is Real. 4,787 People Are Dead.</a>
+        <div class="story-tease" id="storyTease">Read one of our 74 investigations &rarr;</div>
+      </div>
+
+      <div class="error-stats">
+        Looking for something specific? We have 74 investigations covering 337 vehicle models across 10 years of NHTSA FARS data.
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+
+  <script>
+    var stories = [
+      {s:'altima-energy',t:'Altima Energy Is Real. 4,787 People Are Dead.'},
+      {s:'accord-body-count',t:'The Honda Accord Has Killed More People Than the Mustang, Camaro, Corvette, and Challenger Combined'},
+      {s:'aggressor-vehicles',t:'The F-150 Was Involved in 20,066 Fatal Crashes. In 10,872 of Them, Someone Else Died.'},
+      {s:'camry-safe-killer',t:'The Toyota Camry Is the Safest Car in America. It Has Killed 6,328 People.'},
+      {s:'veloster-deathtrap',t:'The Hyundai Veloster Is the Deadliest Car in America Per Mile Driven. Yes, the Veloster.'},
+      {s:'mustang-death-rate',t:'The Ford Mustang Has the Highest Death Rate of Any Mass-Market Car in America'},
+      {s:'cobalt-ignition-scandal',t:'The Chevy Cobalt Was a Death Trap Before GM Even Admitted It'},
+      {s:'charger-bar-car',t:"The Dodge Charger Is America\u2019s Favorite Bar Car. The Toxicology Reports Prove It."},
+      {s:'civic-everymans-killer',t:'The Honda Civic Has Killed 6,553 People. It\u2019s Still Everyone\u2019s First Recommendation.'},
+      {s:'pontiac-ghost-brand',t:'Pontiac Died in 2010. It Has Killed 3,038 People Since.'},
+      {s:'subaru-safest-brand',t:'Every Subaru Is Safer Than Its Competitors. Every Single One.'},
+      {s:'saturn-dent-proof-deathtrap',t:"Saturn\u2019s Dent-Proof Panels Couldn\u2019t Stop It From Being the Deadliest Car Per Crash in America"},
+      {s:'prius-safest-sedan',t:"The Toyota Prius Is the Safest Sedan in America. Its Drivers Are the Soberest, Too."},
+      {s:'sober-majority',t:'80% of Fatal Crash Drivers Were Sober. America Spent $800 Million on the Other 20%.'},
+      {s:'pt-cruiser-hhr-same-designer',t:'One Designer Made the Same Deadly Car Twice. For Two Different Companies.'},
+      {s:'hyundai-kia-platform-twins',t:'Hyundai and Kia Build the Same Car. The Hyundai Kills 3.8\u00d7 More People.'},
+      {s:'safety-is-a-luxury-good',t:'A Porsche 911 Driver Drinks as Much as a Cobalt Driver. One Is 7\u00d7 More Likely to Survive.'},
+      {s:'grand-caravan-family-killer',t:'The Dodge Grand Caravan Killed 1,782 People. Almost None of Them Were Drunk.'},
+      {s:'crash-lethality-ratio',t:'86% of Cavalier Crashes Are Fatal. For a Ram 2500, It\u2019s 21%.'},
+      {s:'tesla-paradox',t:"The Tesla Paradox: Silicon Valley\u2019s Safety Darling Meets the Muscle Car\u2019s Worst Habit"}
+    ];
+    var pick = stories[Math.floor(Math.random() * stories.length)];
+    var link = document.getElementById('storyLink');
+    link.href = '/stories/' + pick.s + '.html';
+    link.textContent = pick.t;
+  </script>
+</body>
+</html>
