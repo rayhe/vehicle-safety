@@ -1525,33 +1525,14 @@ addCanvasHover('myearChart',
   (x, y) => findZone(hitZones.myear, x, y)
 );
 
-// Theme toggle
-(function() {
-  var btn = document.createElement('button');
-  btn.className = 'theme-toggle';
-  btn.setAttribute('aria-label', 'Toggle theme');
-  function label() {
-    var t = localStorage.getItem('theme');
-    btn.textContent = t === 'dark' ? '🌙' : t === 'light' ? '☀️' : '◐';
-    btn.title = 'Theme: ' + (t || 'auto');
+// Theme toggle — now handled by theme-toggle.js; listen for its event to re-render charts
+window.addEventListener('themechange', function() {
+  var active = document.querySelector('.tab-pane.active');
+  if (active && typeof TAB_CHARTS !== 'undefined') {
+    var tid = active.id.replace('tab-', '');
+    if (TAB_CHARTS[tid]) TAB_CHARTS[tid]();
   }
-  btn.addEventListener('click', function() {
-    var t = localStorage.getItem('theme');
-    var next = !t ? 'dark' : t === 'dark' ? 'light' : null;
-    if (next) localStorage.setItem('theme', next); else localStorage.removeItem('theme');
-    var isDark = next === 'dark' || (!next && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    document.documentElement.classList.toggle('dark', isDark);
-    label();
-    // Re-render charts in active tab with updated theme colors
-    var active = document.querySelector('.tab-pane.active');
-    if (active && TAB_CHARTS) {
-      var tid = active.id.replace('tab-', '');
-      if (TAB_CHARTS[tid]) TAB_CHARTS[tid]();
-    }
-  });
-  label();
-  document.body.appendChild(btn);
-})();
+});
 
 // ================================================================
 // Keyboard Navigation
