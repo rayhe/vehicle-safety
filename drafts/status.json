@@ -1,0 +1,8 @@
+{
+  "stage": "site-improvement",
+  "date": "2026-03-13",
+  "articleCount": 71,
+  "improvement": "Normalized all story card HTML classes, fixed duplicate meta tags, added lazy loading + onerror to all images, updated scope banner and copyright",
+  "nextArticleDay": 73,
+  "siteImprovementsDone": 1
+}
