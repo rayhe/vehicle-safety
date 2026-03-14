@@ -1,21 +1,6 @@
 {
-  "stage": "QA",
-  "slug": "ram-1500-americas-other-truck",
-  "headline": "Ram Split From Dodge and the Death Rate Didn't Follow",
-  "journalist": "Vin Wreckage",
-  "kicker": "Investigation",
-  "created": "2026-03-14",
-  "totalRevisions": 2,
-  "criticScores": {
-    "generalEditor": 9.0,
-    "voiceCoach": 9.0,
-    "ethics": 8.5,
-    "socialShare": 8.5,
-    "legal": 9.0,
-    "researchRigor": 8.5
-  },
-  "notes": "Published 2026-03-15. Moved to QA for live site verification next cycle.",
+  "current": null,
   "articleCount": 76,
   "siteImprovementsDone": 7,
-  "lastImprovement": "2026-03-15: Published Ram 1500 article (#76)."
+  "lastPublished": "2026-03-15: Ram Split From Dodge and the Death Rate Didn't Follow (ram-1500-americas-other-truck)"
 }
