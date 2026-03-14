@@ -1,21 +1,21 @@
 {
-  "stage": "published",
-  "slug": "aveo-daewoo-deathtrap",
-  "headline": "GM Bought a Bankrupt Korean Automaker and Sold You Its Deadliest Car for $9,995",
-  "journalist": "Clara Rollover",
-  "kicker": "The Gap",
+  "stage": "draft-review",
+  "slug": "ram-1500-americas-other-truck",
+  "headline": "Ram Split From Dodge and the Death Rate Didn't Follow",
+  "journalist": "Vin Wreckage",
+  "kicker": "Investigation",
   "created": "2026-03-14",
-  "published": "2026-03-14",
   "totalRevisions": 1,
   "criticScores": {
-    "generalEditor": 9.0,
+    "generalEditor": 8.5,
     "voiceCoach": 9.0,
-    "ethics": 9.0,
-    "socialShare": 9.0,
+    "ethics": 8.5,
+    "socialShare": 8.0,
     "legal": 8.5,
-    "researchRigor": 9.0
+    "researchRigor": 8.0
   },
+  "notes": "Social/share needs punchier opening hook. Research rigor needs stronger counterargument section. Not publish-ready yet.",
   "articleCount": 75,
   "siteImprovementsDone": 7,
-  "lastImprovement": "2026-03-14: Published article #75 — Chevrolet Aveo Daewoo deathtrap, 89% lethality."
+  "lastImprovement": "2026-03-14: Published article #75 (Aveo). Started Ram 1500 draft for next cycle."
 }
