@@ -170,3 +170,41 @@ To generate a new article daily, a script or Claude API call should:
 5. Deploy
 
 This can be automated via GitHub Actions with the Claude API, a cron job calling `claude -p "..."`, or a Cloudflare Worker on a scheduled trigger.
+
+---
+
+## Scholarly Rigor Requirements
+Modeled on the traits shared by highly-cited scholarly papers. Every article must meet these standards:
+
+### Original Contribution (Required)
+Every article must contain at least one original finding, calculation, or novel analysis — not just synthesis of existing NHTSA reports. Examples:
+- A FARS data cross-tabulation nobody ran ("Cross-referencing impairment rates with vehicle price brackets reveals...")
+- A cost-per-fatality calculation combining FARS deaths with NCES fleet data
+- A model-year trend analysis that surfaces a non-obvious pattern
+- A comparison nobody drew (e.g., fatality rates by vehicle age vs. ESC adoption timeline)
+
+Summarizing FARS data in a new format does not count. The article must discover something the data didn't obviously show.
+
+### Limitations Acknowledgment (Required)
+Every article must explicitly state what it did NOT prove, what data was missing, and where uncertainty remains. Not inline hedging but a dedicated, honest accounting of blind spots.
+
+Bad: "Of course, FARS data has limitations."
+Good: "FARS only captures fatal crashes — the 36,000+ annual deaths are a fraction of the ~6.7M total crashes. A vehicle with low fatality rates might still have high injury rates. Our estimated_rate calculation uses VMT estimates, not actual odometer readings, introducing ±15% uncertainty for low-volume models."
+
+### Strongest Counterargument (Required)
+The best case against the article's thesis must be stated at full strength — not strawmanned, not immediately dismissed. If the data supports the counterargument, say so.
+
+### Verifiability (Required)
+Every factual claim must be traceable to a cited source the reader can check. Use the reference URLs in the table above. Hyperlink inline. No vague attribution.
+
+### Methodology Transparency (Required for numerical claims)
+When the article makes claims involving numbers — fatality rates, cost comparisons, statistical trends — show the math with inputs, assumptions, and calculation.
+
+### For Flagship Articles
+Run 6 critics instead of the standard single-critic pipeline:
+1. 🔍 General Editor — overall quality, structure, engagement
+2. 🗣️ Voice Coach — AI tells, banned phrases, rhythm
+3. ⚖️ Ethics Reviewer — moral reasoning, self-congratulation, positions
+4. 📱 Social/Shareability — pull quotes, share triggers, virality
+5. ⚖️ Legal Accuracy — citations, case law, statutory references
+6. 🔬 Research Rigor — novel contribution, limitations, counterarguments, verifiability, methodology
