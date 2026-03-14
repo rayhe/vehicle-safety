@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unsubscribe — The Crash Report</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #111;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    max-width: 480px;
+    padding: 40px 24px;
+    text-align: center;
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 12px; }
+  p { font-size: 1rem; line-height: 1.6; color: #999; margin-bottom: 20px; }
+  .status { font-size: 1.1rem; padding: 16px; border-radius: 8px; margin-top: 20px; }
+  .status.success { background: rgba(34,197,94,0.15); color: #22c55e; }
+  .status.error { background: rgba(239,68,68,0.15); color: #ef4444; }
+  .status.loading { color: #999; }
+  a { color: #e74c3c; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Unsubscribe</h1>
+  <p>Removing your email from <strong>The Crash Report</strong> newsletter.</p>
+  <div class="status loading" id="status">Processing...</div>
+  <p style="margin-top:24px"><a href="/">← Back to The Crash Report</a></p>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script>
+firebase.initializeApp({
+  apiKey: "AIzaSyCqL-Bm1P1WrNj3gJR9cKzCuSeYHQaRcKA",
+  authDomain: "rayhenet.firebaseapp.com",
+  databaseURL: "https://rayhenet-default-rtdb.firebaseio.com",
+  projectId: "rayhenet",
+  storageBucket: "rayhenet.firebasestorage.app",
+  messagingSenderId: "275180023647",
+  appId: "1:275180023647:web:ccd78a4ac15d3f6f2290ea"
+});
+
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var id = params.get('id');
+  var site = params.get('site') || 'vehicle-safety';
+  var statusEl = document.getElementById('status');
+
+  if (!id) {
+    statusEl.className = 'status error';
+    statusEl.textContent = 'Invalid unsubscribe link. Missing subscriber ID.';
+    return;
+  }
+
+  var db = firebase.database();
+  var ref = db.ref('newsletters/' + site + '/subscribers/' + id);
+
+  ref.once('value').then(function(snap) {
+    if (!snap.exists()) {
+      statusEl.className = 'status error';
+      statusEl.textContent = 'This subscription was not found or already removed.';
+      return;
+    }
+    return ref.remove().then(function() {
+      statusEl.className = 'status success';
+      statusEl.textContent = '✓ You\'ve been unsubscribed. You won\'t receive any more emails from us.';
+      localStorage.removeItem('newsletter_vehicle-safety');
+    });
+  }).catch(function(err) {
+    console.error(err);
+    statusEl.className = 'status error';
+    statusEl.textContent = 'Something went wrong. Please try again or contact us.';
+  });
+})();
+</script>
+</body>
+</html>

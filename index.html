@@ -1219,6 +1219,7 @@
           <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="you@example.com" required aria-label="Email address">
           <button type="submit" class="newsletter-btn" id="newsletterBtn">Subscribe</button>
         </form>
+        <div class="newsletter-success" id="newsletterSuccess" style="display:none"></div>
       </div>
     </section>
 
@@ -1368,7 +1369,9 @@
   <script src="theme-toggle.js"></script>
   <script src="charts.js"></script>
   <script src="export-csv.js"></script>
+  <script src="newsletter-shared.js"></script>
   <script src="newsletter.js"></script>
+  <script>Newsletter.init('vehicle-safety', { formId: 'newsletterForm', emailId: 'newsletterEmail', successId: 'newsletterSuccess', btnId: 'newsletterBtn' });</script>
   <script src="story-search.js"></script>
   <script src="story-filters.js"></script>
   <script src="story-sort.js"></script>
