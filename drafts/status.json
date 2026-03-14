@@ -1,5 +1,5 @@
 {
-  "stage": "ship",
+  "stage": "QA",
   "slug": "ram-1500-americas-other-truck",
   "headline": "Ram Split From Dodge and the Death Rate Didn't Follow",
   "journalist": "Vin Wreckage",
@@ -14,8 +14,8 @@
     "legal": 9.0,
     "researchRigor": 8.5
   },
-  "notes": "All 6 critics at 8.5+. Revised opening hook, added counterargument section (rural exposure + fleet age confounders), added 4th source (NHTSA ESC study). Ready to ship.",
-  "articleCount": 75,
+  "notes": "Published 2026-03-15. Moved to QA for live site verification next cycle.",
+  "articleCount": 76,
   "siteImprovementsDone": 7,
-  "lastImprovement": "2026-03-15: Critique round 2 passed for Ram 1500 article. All scores 8.5+."
+  "lastImprovement": "2026-03-15: Published Ram 1500 article (#76)."
 }
