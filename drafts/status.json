@@ -1,12 +1,20 @@
 {
   "current": {
     "slug": "hood-height-pedestrian-death-machine",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "started": "2026-03-14T12:00:00Z",
-    "round": 0,
+    "round": 1,
     "self_score": 7.5,
-    "scores": {}
+    "scores": {
+      "general_editor": 8.5,
+      "voice_coach": 8.5,
+      "ethics": 8.5,
+      "social_share": 9.0,
+      "legal": 8.5,
+      "research_rigor": 8.5,
+      "average": 8.67
+    }
   },
   "articleCount": 76,
   "siteImprovementsDone": 7,
