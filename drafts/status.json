@@ -1,10 +1,11 @@
 {
-  "stage": "draft-review",
+  "stage": "published",
   "slug": "aveo-daewoo-deathtrap",
   "headline": "GM Bought a Bankrupt Korean Automaker and Sold You Its Deadliest Car for $9,995",
   "journalist": "Clara Rollover",
   "kicker": "The Gap",
   "created": "2026-03-14",
+  "published": "2026-03-14",
   "totalRevisions": 1,
   "criticScores": {
     "generalEditor": 9.0,
@@ -14,7 +15,7 @@
     "legal": 8.5,
     "researchRigor": 9.0
   },
-  "articleCount": 74,
+  "articleCount": 75,
   "siteImprovementsDone": 7,
-  "lastImprovement": "2026-03-14: Fixed ALL validation failures — generated 11 hero images for stories missing them, added og:image meta tags to 14 stories, added/upgraded twitter:card meta tags across 8 stories, replaced 8 gradient placeholder divs in index.html with real img tags, fixed validate.sh story count and gradient detection regexes. All checks now pass clean."
+  "lastImprovement": "2026-03-14: Published article #75 — Chevrolet Aveo Daewoo deathtrap, 89% lethality."
 }
