@@ -8,6 +8,6 @@
   "created": "2026-03-13",
   "totalRevisions": 3,
   "articleCount": 74,
-  "siteImprovementsDone": 6,
-  "lastImprovement": "2026-03-13: Fixed social sharing meta tags across all 74 story pages. Upgraded twitter:card from 'summary' to 'summary_large_image' for 60 stories with images (enables large preview cards on Twitter/X). Added missing twitter:image tags to ~55 stories. Added missing og:image tags where needed. Removed duplicate twitter:card meta tags. Fixed broken og:image reference in sober-majority.html (pointed to non-existent image). Added complete favicon set (svg, 32px, 192px, apple-touch-icon) to all story pages for consistent branding."
+  "siteImprovementsDone": 7,
+  "lastImprovement": "2026-03-14: Fixed ALL validation failures — generated 11 hero images for stories missing them, added og:image meta tags to 14 stories, added/upgraded twitter:card meta tags across 8 stories, replaced 8 gradient placeholder divs in index.html with real img tags, fixed validate.sh story count and gradient detection regexes. All checks now pass clean."
 }
