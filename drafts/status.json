@@ -1,13 +1,30 @@
 {
   "current": {
     "slug": "unbuckled-minority-kills-majority",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Axle McScatter",
     "headline": "The Unbuckled 8%: A Tiny Minority Produces Nearly Half of America's Traffic Deaths",
     "started": "2026-03-14T18:00:00Z",
-    "round": 0,
+    "round": 1,
     "self_score": 7.5,
-    "scores": {}
+    "scores": {
+      "round_1": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics": 8.5,
+        "social_share": 8.5,
+        "legal": 8.5,
+        "research_rigor": 8.5,
+        "average": 8.5
+      }
+    },
+    "revisions_round_1": [
+      "Pickup registration share (18%) now attributed to IHS Markit/S&P Global Mobility [ref 7]",
+      "Ecological fallacy caveat added: NOPUS 2024 and FARS 2023 measure different populations in different years",
+      "Nighttime 3x claim now specifies methodology: FARS HOUR field cross-tab, per-hour ratio",
+      "Attribution estimate added: 4,700-6,300 of 10,484 deaths potentially preventable based on NHTSA efficacy rates",
+      "Reference 7 added for vehicle registration data"
+    ]
   },
   "articleCount": 77,
   "siteImprovementsDone": 7,
