@@ -50,7 +50,7 @@ CARD_GRADIENTS=$(python3 -c "
 import re
 with open('index.html') as f:
     content = f.read()
-cards = re.findall(r'<article class=\"story-card\".*?</article>', content, re.DOTALL)
+cards = re.findall(r'<a [^>]*class=\"story-card\".*?</a>', content, re.DOTALL)
 count = sum(1 for c in cards if 'background:linear-gradient' in c or 'background: linear-gradient' in c)
 print(count)
 " 2>/dev/null || echo "0")
@@ -95,7 +95,7 @@ INDEX_CARDS=$(python3 -c "
 import re
 with open('index.html') as f:
     content = f.read()
-cards = re.findall(r'<article class=\"story-card\"', content)
+cards = re.findall(r'class=\"story-card\"', content)
 print(len(cards))
 " 2>/dev/null || echo "0")
 
