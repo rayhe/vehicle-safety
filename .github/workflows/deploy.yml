@@ -34,6 +34,9 @@ jobs:
           [ -f feed.xml ] && cp feed.xml deploy/ || true
           [ -f 404.html ] && cp 404.html deploy/ || true
           [ -f _headers ] && cp _headers deploy/ || true
+          [ -f newsletter-shared.js ] && cp newsletter-shared.js deploy/ || true
+          [ -f unsubscribe.html ] && cp unsubscribe.html deploy/ || true
+          [ -f generate.md ] && cp generate.md deploy/ || true
           cp stories/*.html deploy/stories/
           [ -d images ] && cp images/* deploy/images/ || true
 
