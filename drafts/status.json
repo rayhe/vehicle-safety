@@ -1,8 +1,8 @@
 {
   "current": {
     "slug": "motorcycle-safety-scissors",
-    "phase": "CRITIQUE",
-    "round": 1,
+    "phase": "SHIP",
+    "round": 2,
     "journalist": "Mia Crumplezone",
     "headline": "The Motorcycle Safety Scissors: How 50 Years of Car Safety Left Riders Behind",
     "started": "2026-03-15T04:25:00Z",
@@ -13,7 +13,7 @@
       "ethics": 8.5,
       "social": 8.5,
       "legal": 8.5,
-      "rigor": 8.0
+      "rigor": 8.5
     }
   },
   "articleCount": 78,
