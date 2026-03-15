@@ -1,28 +1,12 @@
 {
-  "current": {
-    "slug": "motorcycle-safety-scissors",
-    "phase": "QA",
-    "round": 2,
-    "journalist": "Mia Crumplezone",
-    "headline": "The Motorcycle Safety Scissors: How 50 Years of Car Safety Left Riders Behind",
-    "started": "2026-03-15T04:25:00Z",
-    "self_score": 7.8,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 8.5,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5
-    }
-  },
+  "current": null,
   "articleCount": 79,
   "siteImprovementsDone": 7,
   "lastPublished": "2026-03-15: The Motorcycle Safety Scissors: How 50 Years of Car Safety Left Riders Behind (motorcycle-safety-scissors)",
   "last_completed": {
-    "slug": "unbuckled-minority-kills-majority",
-    "headline": "The Unbuckled 8%: A Tiny Minority Produces Nearly Half of America's Traffic Deaths",
-    "journalist": "Axle McScatter",
+    "slug": "motorcycle-safety-scissors",
+    "headline": "The Motorcycle Safety Scissors: How 50 Years of Car Safety Left Riders Behind",
+    "journalist": "Mia Crumplezone",
     "published": "2026-03-15",
     "final_scores": {
       "general": 8.5,
