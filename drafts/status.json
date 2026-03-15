@@ -1,25 +1,21 @@
 {
-  "current": {
-    "slug": "unbuckled-minority-kills-majority",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "headline": "The Unbuckled 8%: A Tiny Minority Produces Nearly Half of America's Traffic Deaths",
-    "started": "2026-03-14T18:00:00Z",
-    "round": 1,
-    "self_score": 7.5,
-    "scores": {
-      "round_1": {
-        "general_editor": 8.5,
-        "voice_coach": 8.5,
-        "ethics": 8.5,
-        "social_share": 8.5,
-        "legal": 8.5,
-        "research_rigor": 8.5,
-        "average": 8.5
-      }
-    }
-  },
+  "current": null,
   "articleCount": 78,
   "siteImprovementsDone": 7,
-  "lastPublished": "2026-03-14: The Unbuckled 8%: A Tiny Minority Produces Nearly Half of America's Traffic Deaths (unbuckled-minority-kills-majority)"
+  "lastPublished": "2026-03-14: The Unbuckled 8%: A Tiny Minority Produces Nearly Half of America's Traffic Deaths (unbuckled-minority-kills-majority)",
+  "last_completed": {
+    "slug": "unbuckled-minority-kills-majority",
+    "headline": "The Unbuckled 8%: A Tiny Minority Produces Nearly Half of America's Traffic Deaths",
+    "journalist": "Axle McScatter",
+    "published": "2026-03-15",
+    "final_scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 8.5,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "average": 8.5
+    }
+  }
 }
