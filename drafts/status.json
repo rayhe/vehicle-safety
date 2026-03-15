@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "pedestrian-three-blade-death-machine",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-03-15T15:55:00Z",
-    "scores": {},
-    "round": 0,
+    "scores": {
+      "round1": {
+        "general": 8.5,
+        "voice": 8.5,
+        "ethics": 8.5,
+        "social": 8.5,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "average": 8.5
+      }
+    },
+    "round": 1,
     "self_score": 7.8
   },
   "articleCount": 79,
