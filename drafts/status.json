@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "rural-three-clock-death-trap",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Axle McScatter",
     "headline": "20% of Americans Live in Rural Areas. 41% of Traffic Deaths Happen There. Here's Why the Math Keeps Getting Worse.",
@@ -19,9 +19,9 @@
       }
     }
   },
-  "articleCount": 80,
+  "articleCount": 81,
   "siteImprovementsDone": 7,
-  "lastPublished": "2026-03-16: 7,314 Pedestrians Died in 2023. America's Roads Were Designed to Kill Them. (pedestrian-three-blade-death-machine)",
+  "lastPublished": "2026-03-16: 20% of Americans Live in Rural Areas. 41% of Traffic Deaths Happen There. (rural-three-clock-death-trap)",
   "last_completed": {
     "slug": "pedestrian-three-blade-death-machine",
     "headline": "7,314 Pedestrians Died in 2023. America's Roads Were Designed to Kill Them.",
