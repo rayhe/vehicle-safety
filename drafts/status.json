@@ -1,13 +1,23 @@
 {
   "current": {
     "slug": "rural-three-clock-death-trap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Axle McScatter",
     "headline": "20% of Americans Live in Rural Areas. 41% of Traffic Deaths Happen There. Here's Why the Math Keeps Getting Worse.",
     "started": "2026-03-15T23:22:00Z",
     "self_score": 7.8,
-    "scores": {}
+    "scores": {
+      "round1": {
+        "general": 8.5,
+        "voice": 8.5,
+        "ethics": 8.5,
+        "social": 8.5,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "average": 8.5
+      }
+    }
   },
   "articleCount": 80,
   "siteImprovementsDone": 7,
