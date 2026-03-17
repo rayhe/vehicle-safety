@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "darkness-infrastructure-deficit",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Rex Driverton",
     "started": "2026-03-17T03:54:00Z",
@@ -18,5 +18,8 @@
         "average": 8.58
       }
     }
-  }
+  },
+  "articleCount": 83,
+  "lastPublished": "darkness-infrastructure-deficit",
+  "lastPublishedDate": "2026-03-17"
 }
