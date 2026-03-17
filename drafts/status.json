@@ -1,39 +1,18 @@
 {
   "current": {
     "slug": "cannabis-impairment-blind-spot",
-    "headline": "42% of Drivers Killed in Crashes Had THC in Their Blood. America Has No Idea What to Do About It.",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Layla Brake",
-    "started": "2026-03-16T06:25:00Z",
-    "round": 1,
-    "self_score": 7.9,
+    "headline": "42% of Drivers Killed in Crashes Had THC in Their Blood. America Has No Idea What to Do About It.",
+    "started": "2026-03-16T07:00:00Z",
     "scores": {
-      "round_1": {
-        "general": 8.5,
-        "voice": 8.5,
-        "ethics": 8.5,
-        "social": 8.5,
-        "legal": 8.5,
-        "rigor": 8.5,
-        "average": 8.5
-      }
-    }
-  },
-  "articleCount": 81,
-  "siteImprovementsDone": 7,
-  "lastPublished": "2026-03-16: 20% of Americans Live in Rural Areas. 41% of Traffic Deaths Happen There. (rural-three-clock-death-trap)",
-  "last_completed": {
-    "slug": "rural-three-clock-death-trap",
-    "headline": "20% of Americans Live in Rural Areas. 41% of Traffic Deaths Happen There. Here's Why the Math Keeps Getting Worse.",
-    "journalist": "Axle McScatter",
-    "published": "2026-03-16",
-    "final_scores": {
-      "general": 8.5,
-      "voice": 8.5,
+      "round": 1,
+      "general_editor": 8.5,
+      "voice_coach": 8.5,
       "ethics": 8.5,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5,
+      "social_share": 8.5,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5,
       "average": 8.5
     }
   }
