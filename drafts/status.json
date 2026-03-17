@@ -1,12 +1,22 @@
 {
   "current": {
     "slug": "darkness-infrastructure-deficit",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Rex Driverton",
     "started": "2026-03-17T03:54:00Z",
     "headline": "25% of Driving Happens at Night. 50% of the Dying Does Too.",
     "self_score": 7.9,
-    "scores": {}
+    "scores": {
+      "round_1": {
+        "general": 8.5,
+        "voice": 9.0,
+        "ethics": 8.5,
+        "social": 8.5,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "average": 8.58
+      }
+    }
   }
 }
