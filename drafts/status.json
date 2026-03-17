@@ -1,25 +1,21 @@
 {
-  "current": {
-    "slug": "darkness-infrastructure-deficit",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Rex Driverton",
-    "started": "2026-03-17T03:54:00Z",
-    "headline": "25% of Driving Happens at Night. 50% of the Dying Does Too.",
-    "self_score": 7.9,
-    "scores": {
-      "round_1": {
-        "general": 8.5,
-        "voice": 9.0,
-        "ethics": 8.5,
-        "social": 8.5,
-        "legal": 8.5,
-        "rigor": 8.5,
-        "average": 8.58
-      }
-    }
-  },
+  "current": null,
   "articleCount": 83,
   "lastPublished": "darkness-infrastructure-deficit",
-  "lastPublishedDate": "2026-03-17"
+  "lastPublishedDate": "2026-03-17",
+  "last_completed": {
+    "slug": "darkness-infrastructure-deficit",
+    "headline": "25% of Driving Happens at Night. 50% of the Dying Does Too.",
+    "journalist": "Rex Driverton",
+    "published": "2026-03-17",
+    "total_rounds": 1,
+    "final_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 8.5,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 8.5
+    }
+  }
 }
