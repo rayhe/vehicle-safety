@@ -1,32 +1,13 @@
 {
-  "current": {
-    "slug": "stroad-45mph-deadliest-speed-limit",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-03-17T07:55:00Z",
-    "headline": "The Deadliest Speed Limit in America Is 45 MPH. It's Posted on Every Suburban Boulevard You Drive.",
-    "scores": {
-      "round_1": {
-        "general": 8.5,
-        "voice": 9.0,
-        "ethics": 8.5,
-        "social": 8.5,
-        "legal": 8.5,
-        "rigor": 8.5,
-        "average": 8.58
-      }
-    },
-    "round": 1,
-    "self_score": 8.1
-  },
+  "current": null,
   "articleCount": 84,
   "lastPublished": "stroad-45mph-deadliest-speed-limit",
   "lastPublishedDate": "2026-03-18",
   "last_completed": {
-    "slug": "darkness-infrastructure-deficit",
-    "headline": "25% of Driving Happens at Night. 50% of the Dying Does Too.",
+    "slug": "stroad-45mph-deadliest-speed-limit",
+    "headline": "The Deadliest Speed Limit in America Is 45 MPH. It's Posted on Every Suburban Boulevard You Drive.",
     "journalist": "Rex Driverton",
-    "published": "2026-03-17",
+    "published": "2026-03-18",
     "total_rounds": 1,
     "final_scores": {
       "general": 8.5,
