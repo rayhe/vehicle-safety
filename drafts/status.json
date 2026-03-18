@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "hit-and-run-epidemic-pedestrian-deaths",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-03-18T20:51:00Z",
+    "scores": {}
+  },
   "last_completed": {
     "slug": "unlicensed-motorcycle-death-epidemic",
     "headline": "One in Three Dead Motorcyclists Weren't Licensed to Ride. The System Doesn't Care.",
