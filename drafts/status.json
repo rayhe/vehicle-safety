@@ -1,18 +1,10 @@
 {
-  "current": {
-    "slug": "hit-and-run-epidemic-pedestrian-deaths",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-03-18T20:51:00Z",
-    "round": 0,
-    "self_score": 8.1,
-    "scores": {}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "unlicensed-motorcycle-death-epidemic",
-    "headline": "One in Three Dead Motorcyclists Weren't Licensed to Ride. The System Doesn't Care.",
+    "slug": "hit-and-run-epidemic-pedestrian-deaths",
+    "headline": "919,000 Crashes. 2,872 Dead. Nobody Stayed.",
     "journalist": "Rex Driverton",
-    "published": "2026-03-20",
+    "published": "2026-03-18",
     "total_rounds": 1,
     "final_scores": {
       "general": 9.0,
@@ -23,7 +15,7 @@
       "rigor": 8.5
     }
   },
-  "articleCount": 85,
-  "lastPublished": "unlicensed-motorcycle-death-epidemic",
-  "lastPublishedDate": "2026-03-20"
+  "articleCount": 86,
+  "lastPublished": "hit-and-run-epidemic-pedestrian-deaths",
+  "lastPublishedDate": "2026-03-18"
 }
