@@ -5,8 +5,15 @@
   <link>https://vehicle-safety.org</link>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 18 Mar 2026 21:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Mar 2026 04:00:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Your Car Was Designed to Save You in a Rollover. Not to See the Person in the Crosswalk.</title>
+    <link>https://vehicle-safety.org/stories/a-pillar-blind-zone-pedestrian-deaths.html</link>
+    <description>IIHS measured blind zones in 168 vehicles. A large A-pillar blind zone raises left-turn pedestrian crash risk by 70%. The pillars that save occupants in rollovers are hiding pedestrians from drivers.</description>
+    <pubDate>Wed, 19 Mar 2026 04:00:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/a-pillar-blind-zone-pedestrian-deaths.html</guid>
+  </item>
   <item>
     <title>919,000 Crashes. 2,872 Dead. Nobody Stayed.</title>
     <link>https://vehicle-safety.org/stories/hit-and-run-epidemic-pedestrian-deaths.html</link>

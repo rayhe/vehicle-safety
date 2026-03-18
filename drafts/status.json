@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "a-pillar-blind-zone-pedestrian-deaths",
     "headline": "Your Car Was Designed to Save You in a Rollover. Not to See the Person in the Crosswalk.",
     "journalist": "Rex Driverton",
-    "stage": "CRITIQUE",
-    "created": "2026-03-18",
-    "revisions": 0,
-    "self_score": 8.2,
-    "criticism": []
-  },
-  "last_completed": {
-    "slug": "hit-and-run-epidemic-pedestrian-deaths",
-    "headline": "919,000 Crashes. 2,872 Dead. Nobody Stayed.",
-    "journalist": "Rex Driverton",
-    "published": "2026-03-18",
+    "published": "2026-03-19",
     "total_rounds": 1,
     "final_scores": {
       "general": 9.0,
@@ -24,7 +15,7 @@
       "rigor": 8.5
     }
   },
-  "articleCount": 86,
-  "lastPublished": "hit-and-run-epidemic-pedestrian-deaths",
-  "lastPublishedDate": "2026-03-18"
+  "articleCount": 87,
+  "lastPublished": "a-pillar-blind-zone-pedestrian-deaths",
+  "lastPublishedDate": "2026-03-19"
 }
