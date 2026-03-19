@@ -77,6 +77,7 @@ Check drafts/status.json in the repo root.
 6. Publish decision: If revisions >= 3 AND honestly 8+/10:
    - Copy to stories/SLUG.html, update index.html, RSS, sitemap
    - **BEFORE pushing:** Verify images/{slug}.jpg exists. If missing, generate via imagine skill (landscape orientation, no text overlay). Do NOT push without a hero image. Also verify the file is actual JPEG (first 2 bytes are FF D8) — the imagine skill outputs PNG regardless of extension. If it's PNG-as-JPG, convert with PIL: `Image.open(path).convert('RGB').save(path, 'JPEG', quality=90)`.
+   - **Cache busting:** After finalizing the hero image, compute a short hash: `python3 -c "import hashlib; print(hashlib.md5(open('images/{slug}.jpg','rb').read()).hexdigest()[:8])"`. Append `?v={hash}` to all `<img src>` and `og:image` references to the hero image in the article HTML and index.html card. This ensures CDN caches are busted when images change without needing manual Cloudflare purges.
    - Commit and push to main
 
 ## Self-Critique Gate
