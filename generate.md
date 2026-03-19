@@ -76,7 +76,7 @@ Check drafts/status.json in the repo root.
 5. Update status.json
 6. Publish decision: If revisions >= 3 AND honestly 8+/10:
    - Copy to stories/SLUG.html, update index.html, RSS, sitemap
-   - **BEFORE pushing:** Verify images/{slug}.jpg exists. If missing, generate via imagine skill (landscape orientation, no text overlay). Do NOT push without a hero image.
+   - **BEFORE pushing:** Verify images/{slug}.jpg exists. If missing, generate via imagine skill (landscape orientation, no text overlay). Do NOT push without a hero image. Also verify the file is actual JPEG (first 2 bytes are FF D8) — the imagine skill outputs PNG regardless of extension. If it's PNG-as-JPG, convert with PIL: `Image.open(path).convert('RGB').save(path, 'JPEG', quality=90)`.
    - Commit and push to main
 
 ## Self-Critique Gate
