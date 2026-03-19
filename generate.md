@@ -76,6 +76,7 @@ Check drafts/status.json in the repo root.
 5. Update status.json
 6. Publish decision: If revisions >= 3 AND honestly 8+/10:
    - Copy to stories/SLUG.html, update index.html, RSS, sitemap
+   - **BEFORE pushing:** Verify images/{slug}.jpg exists. If missing, generate via imagine skill (landscape orientation, no text overlay). Do NOT push without a hero image.
    - Commit and push to main
 
 ## Self-Critique Gate
