@@ -65,14 +65,14 @@ echo ""
 # 5. Every image referenced must exist on disk
 echo "=== Image File References ==="
 MISSING_FILES=0
-grep -oP 'src="images/[^"]+' index.html 2>/dev/null | sed 's/src="//' | sort -u | while read -r img; do
+grep -oP 'src="images/[^"]+' index.html 2>/dev/null | sed 's/src="//' | sed 's/?.*//' | sort -u | while read -r img; do
     if [ ! -f "$img" ]; then
         echo "  ❌ MISSING file: $img"
         echo "1" >> /tmp/vs_validate_errors
     fi
 done
 for f in stories/*.html; do
-    grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null | sed 's/src="//' | sed 's|../||' | while read -r img; do
+    grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null | sed 's/src="//' | sed 's|../||' | sed 's/?.*//' | while read -r img; do
         if [ ! -f "$img" ]; then
             echo "  ❌ MISSING file in $(basename "$f"): $img"
             echo "1" >> /tmp/vs_validate_errors
