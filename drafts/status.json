@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "twelve-year-kill-zone",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Axle McScatter",
     "started": "2026-03-21T04:36:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {"general": 9, "voice": 9, "ethics": 9, "social": 9, "legal": 9, "rigor": 9}
   },
   "last_completed": {
     "slug": "reverse-safety-curve",
