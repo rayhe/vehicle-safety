@@ -1,19 +1,11 @@
 {
-  "current": {
-    "slug": "excess-deaths-fleet-share",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "headline": "The Honda Accord Owes America 4,858 Lives",
-    "started": "2026-03-21T18:33:00Z",
-    "round": 1,
-    "scores": {"general": 8.5, "voice": 8.5, "ethics": 9, "social": 8.5, "legal": 9, "rigor": 8.5}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "kia-boys-body-count",
-    "headline": "A $30 Part Was Missing From 9 Million Cars. FARS Data Shows the Fallout.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 92,
-    "published": "2026-03-21T16:30:00Z",
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 8.5, "legal": 8.5, "rigor": 9}
+    "slug": "excess-deaths-fleet-share",
+    "headline": "The Honda Accord Owes America 4,858 Lives",
+    "journalist": "Vin Wreckage",
+    "article_number": 93,
+    "published": "2026-03-21T22:30:00Z",
+    "scores": {"general": 8.5, "voice": 8.5, "ethics": 9, "social": 8.5, "legal": 9, "rigor": 8.5}
   }
 }
