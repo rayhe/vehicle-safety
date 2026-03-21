@@ -1,11 +1,12 @@
 {
   "current": {
-    "slug": "rate-impairment-quadrant",
-    "headline": "The Drunkest Drivers Have the Lowest Death Rates. Physics Doesn't Care About Your BAC.",
+    "slug": "excess-deaths-fleet-share",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-03-21T18:40:00Z"
+    "headline": "The Honda Accord Owes America 4,858 Lives",
+    "started": "2026-03-21T18:33:00Z",
+    "round": 1,
+    "scores": {"general": 8.5, "voice": 8.5, "ethics": 9, "social": 8.5, "legal": 9, "rigor": 8.5}
   },
   "last_completed": {
     "slug": "kia-boys-body-count",
