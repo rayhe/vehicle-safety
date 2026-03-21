@@ -1,18 +1,11 @@
 {
-  "current": {
-    "slug": "twelve-year-kill-zone",
-    "phase": "SHIP",
-    "journalist": "Axle McScatter",
-    "started": "2026-03-21T04:36:00Z",
-    "round": 1,
-    "scores": {"general": 9, "voice": 9, "ethics": 9, "social": 9, "legal": 9, "rigor": 9}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "reverse-safety-curve",
-    "headline": "These Cars Got Deadlier as They Got Newer",
-    "journalist": "Mia Crumplezone",
-    "article_number": 90,
-    "published": "2026-03-21T02:35:00Z",
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
+    "slug": "twelve-year-kill-zone",
+    "headline": "The Average Car That Kills You Is 12.5 Years Old",
+    "journalist": "Axle McScatter",
+    "article_number": 91,
+    "published": "2026-03-21T10:30:00Z",
+    "scores": {"general": 9, "voice": 9, "ethics": 9, "social": 9, "legal": 9, "rigor": 9}
   }
 }
