@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "rate-impairment-quadrant",
+    "headline": "The Drunkest Drivers Have the Lowest Death Rates. Physics Doesn't Care About Your BAC.",
+    "journalist": "Vin Wreckage",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-03-21T18:40:00Z"
+  },
   "last_completed": {
     "slug": "kia-boys-body-count",
     "headline": "A $30 Part Was Missing From 9 Million Cars. FARS Data Shows the Fallout.",

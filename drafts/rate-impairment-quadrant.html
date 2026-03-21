@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Drunkest Drivers Have the Lowest Death Rates. Physics Doesn't Care About Your BAC. &mdash; The Crash Report</title>
+  <meta name="description" content="Cross-tabulating FARS fatality rates with toxicology impairment rates reveals a brutal paradox: vehicle mass protects even impaired drivers while sober people die in structurally inadequate cars.">
+  <meta property="og:title" content="The Drunkest Drivers Have the Lowest Death Rates">
+  <meta property="og:description" content="Cross-tabulating FARS fatality rates with toxicology reveals a brutal truth: physics beats behavior.">
+  <meta property="og:image" content="../images/rate-impairment-quadrant.jpg?v=74d2887b">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>The Drunkest Drivers Have the Lowest Death Rates. Physics Doesn&rsquo;t Care About Your BAC.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">March 21, 2026</div>
+
+      <img src="../images/rate-impairment-quadrant.jpg?v=74d2887b" alt="Scatterplot showing vehicle fatality rate versus driver impairment rate, revealing four distinct quadrants" class="hero" loading="lazy">
+
+      <p>Plot every vehicle in FARS on two axes &mdash; <strong>fatality rate per 100 million VMT</strong> on one, <strong>percentage of drivers who tested positive for alcohol or drugs</strong> on the other &mdash; and a pattern emerges that should bother every traffic safety official in America.</p>
+
+      <div class="pull-stat">31</div>
+      <div class="pull-label">vehicles with &gt;20% impaired drivers <em>and</em> below-median death rates</div>
+
+      <p>I expected two clusters: dangerous cars with dangerous drivers (top-right) and safe cars with sober drivers (bottom-left). The intuitive story. Instead, FARS data for 2014&ndash;2023 across 117 vehicle models with 300+ fatalities produces four distinct quadrants, and the two counterintuitive ones are the largest.</p>
+
+      <h2>The Quadrant Nobody Talks About</h2>
+
+      <p>Set the medians at 1.5 deaths per 100M VMT and 20% impairment. The biggest cluster &mdash; 39 vehicles &mdash; is &ldquo;Safe + Sober&rdquo; at bottom-left. Modern crossovers: RAV4 (0.19 rate, 18.4% impaired), Equinox (0.36, 19.4%), Rogue (0.35, 19%).<sup class="ref-link"><a href="#ref-1">[1]</a></sup> No surprises there.</p>
+
+      <p>But the <em>second-largest</em> quadrant, with 31 vehicles, is bottom-right: <strong>high impairment, low death rate.</strong> Dodge owns this corner. The Charger &mdash; 22.7% of its fatal-crash drivers tested positive for substances, yet its fatality rate is just 0.75 per 100M VMT.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Challenger sits at 22.5% impaired, rate 1.0. The Durango: 22.5% impaired, 0.54 rate. Even the Ford Crown Victoria &mdash; the cop car &mdash; shows 22.3% impairment but a rate of only 1.46.</p>
+
+      <p>These aren&rsquo;t vehicles with low impairment rates that happen to be safe. These are vehicles whose drivers are <em>more intoxicated than average</em> and still dying at below-average rates.</p>
+
+      <h2>The Physics Explanation</h2>
+
+      <p>Mass. That&rsquo;s the entire explanation. A 2025 IIHS study confirmed what Newton implied: for vehicles below fleet average weight, every 500 additional pounds meaningfully reduces occupant death risk.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The Dodge Charger weighs 4,200 lbs. The Durango tops 5,400. The Crown Victoria, built on a body-on-frame platform, came in at 4,100. These vehicles absorb impact energy that lighter vehicles transfer directly to occupants.</p>
+
+      <p>Meanwhile, the &ldquo;Sober Deathtraps&rdquo; quadrant (top-left: 20 vehicles) tells the inverse story. The Hyundai Veloster &mdash; 8.54 deaths per 100M VMT with only 17.4% driver impairment &mdash; is killing sober people at a rate that would be scandalous if anyone were tracking it this way.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The Chevrolet Tracker: 7.83 rate, 12.7% impaired. These drivers aren&rsquo;t drunk. They&rsquo;re just in cars that can&rsquo;t protect them.</p>
+
+      <p>The Toyota Solara is the most extreme case. A fatality rate of 4.25 with only <strong>4.1% driver impairment</strong> &mdash; the soberest vehicle in the entire dataset, and one of the deadliest. A mid-2000s Camry coupe with less structural rigidity than the sedan it was based on, killing attentive, clearheaded drivers at four times the rate of a Toyota RAV4 whose drivers are buzzed at nearly five times the Solara&rsquo;s impairment rate.</p>
+
+      <h2>What This Actually Means</h2>
+
+      <p>The calculation: FARS fatality rate = deaths per 100M vehicle-miles-traveled, estimated from fleet size &times; NHTS annual mileage averages.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Impairment = percentage of drivers in FARS fatal crashes who tested positive for BAC &gt; 0 or any drug. Cross-tabulation is original analysis of the three FARS data arrays (BY_MODEL, TOXICOLOGY, MODEL_YEAR) covering 117 vehicles with 300+ fatalities in the 2014&ndash;2023 FARS window.</p>
+
+      <p>The implication is ugly: decades of anti-drunk-driving campaigns targeted behavior, but FARS data suggests vehicle mass may be a larger determinant of whether you survive a fatal crash than whether you&rsquo;re sober. An impaired driver in a 5,000-lb Durango (0.54 rate) is <em>statistically</em> 15.8 times less likely to die per mile than a sober driver in a 2,800-lb Veloster (8.54 rate).</p>
+
+      <h2>Limitations</h2>
+
+      <p>Three important caveats. First, FARS only records <em>fatal</em> crashes &mdash; the roughly 40,000 annual deaths, not the 6.7 million total crashes.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> A vehicle with low fatality rates might still cause enormous numbers of injuries and property-damage crashes. Second, toxicology testing rates vary by state and crash type. Not every driver in a fatal crash is tested for drugs, which likely depresses impairment percentages for some vehicles more than others. Third, VMT estimates use NHTS averages by vehicle type, not actual odometer data, introducing &plusmn;15% uncertainty for low-volume models.</p>
+
+      <h2>The Counterargument, at Full Strength</h2>
+
+      <p>The strongest objection: this analysis flatters heavy vehicles by design. FARS captures deaths. A drunk driver in a 5,500-lb truck who causes a fatal crash that kills the <em>other</em> driver appears in the data as a vehicle with low occupant death risk. The heavy vehicle isn&rsquo;t safer in any aggregate sense &mdash; it just exports its danger to smaller vehicles. The IIHS 2025 data confirms this: adding 500 lbs to an already-heavy vehicle increases risk to crash partners without meaningfully improving occupant protection.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The &ldquo;Drunk Survivors&rdquo; quadrant might more accurately be called &ldquo;Drunk Exporters&rdquo; &mdash; vehicles whose impaired drivers survive because someone in a lighter car didn&rsquo;t.</p>
+
+      <p>That counterargument is partially supported by the data. The average deaths-per-crash ratio for &ldquo;Drunk Survivors&rdquo; is 0.47, meaning in over half of fatal crashes involving these vehicles, the person who died wasn&rsquo;t inside the heavy vehicle. The &ldquo;Sober Deathtraps&rdquo; average 0.74 &mdash; when you crash one of those, <em>you</em> die.</p>
+
+      <p>Physics protects. Physics also kills. It just depends which seat you&rsquo;re in.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>FARS Query Tool</em>, toxicology and impairment data. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">IIHS, &ldquo;Vehicle size and weight,&rdquo; 2025 research update. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">National Household Travel Survey, annual VMT estimates. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023, cross-tabulating fatality rate per 100M VMT with toxicology impairment rates across 117 vehicle models with 300+ fatalities. VMT estimated from fleet size and NHTS mileage averages (&plusmn;15% for low-volume models). Not all fatal-crash drivers are tested for impairment. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
