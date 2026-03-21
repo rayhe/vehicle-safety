@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "reverse-safety-curve",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 1,
     "journalist": "Mia Crumplezone",
     "headline": "These Cars Got Deadlier as They Got Newer",
     "started": "2026-03-21T00:34:00Z",
-    "article_number": 90
+    "article_number": 90,
+    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
   },
   "last_completed": {
     "slug": "brand-safety-roulette",
