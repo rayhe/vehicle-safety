@@ -1,20 +1,11 @@
 {
-  "current": {
-    "slug": "reverse-safety-curve",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Mia Crumplezone",
-    "headline": "These Cars Got Deadlier as They Got Newer",
-    "started": "2026-03-21T00:34:00Z",
-    "article_number": 90,
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "brand-safety-roulette",
-    "headline": "Some Brands Are Safe Bets. Others Are Russian Roulette.",
-    "journalist": "Clara Rollover",
-    "article_number": 89,
-    "published": "2026-03-20T22:45:00Z",
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 9, "rigor": 9}
+    "slug": "reverse-safety-curve",
+    "headline": "These Cars Got Deadlier as They Got Newer",
+    "journalist": "Mia Crumplezone",
+    "article_number": 90,
+    "published": "2026-03-21T02:35:00Z",
+    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
   }
 }
