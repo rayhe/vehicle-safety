@@ -3,10 +3,11 @@
     "slug": "brand-loyalty-safety-myth",
     "headline": "Your Favorite Brand Doesn't Care if You Live",
     "journalist": "Axle McScatter",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "started": "2026-03-22T08:30:00Z",
-    "article_number": 95
+    "article_number": 95,
+    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 9, "rigor": 8.5}
   },
   "last_completed": {
     "slug": "mazda-cx5-safest-compact-suv",
