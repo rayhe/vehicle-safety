@@ -1,20 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "brand-loyalty-safety-myth",
     "headline": "Your Favorite Brand Doesn't Care if You Live",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-03-22T08:30:00Z",
     "article_number": 95,
+    "published": "2026-03-22T12:35:00Z",
     "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 9, "rigor": 8.5}
-  },
-  "last_completed": {
-    "slug": "mazda-cx5-safest-compact-suv",
-    "headline": "The Mazda CX-5 Is the Safest Compact SUV You're Not Buying",
-    "journalist": "Mia Crumplezone",
-    "article_number": 94,
-    "published": "2026-03-22T06:36:00Z",
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
   }
 }
