@@ -5,7 +5,7 @@
     "round": 1,
     "journalist": "Axle McScatter",
     "started": "2026-03-22T16:32:00Z",
-    "headline": "Every Car Has the Same Drunk Drivers \u2014 So Why Do Death Rates Vary 285x?",
+    "headline": "Every Car Has the Same Drunk Drivers — So Why Do Death Rates Vary 285x?",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,7 +14,8 @@
       "legal": 9.5,
       "rigor": 8.5
     },
-    "waiting_for": "1/day gate \u2014 3 articles already published 2026-03-22 UTC. Will ship next cycle after midnight UTC."
+    "waiting_for": "1/day gate — 3 articles already published 2026-03-22 UTC. Will ship next cycle after midnight UTC.",
+    "last_checked": "2026-03-22T22:30:00Z"
   },
   "last_completed": {
     "slug": "the-2019-cliff",
