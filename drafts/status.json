@@ -1,18 +1,11 @@
 {
-  "current": {
-    "slug": "mazda-cx5-safest-compact-suv",
-    "phase": "SHIP",
-    "round": 2,
-    "journalist": "Mia Crumplezone",
-    "started": "2026-03-22T04:33:00Z",
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "excess-deaths-fleet-share",
-    "headline": "The Honda Accord Owes America 4,858 Lives",
-    "journalist": "Vin Wreckage",
-    "article_number": 93,
-    "published": "2026-03-21T22:30:00Z",
-    "scores": {"general": 8.5, "voice": 8.5, "ethics": 9, "social": 8.5, "legal": 9, "rigor": 8.5}
+    "slug": "mazda-cx5-safest-compact-suv",
+    "headline": "The Mazda CX-5 Is the Safest Compact SUV You're Not Buying",
+    "journalist": "Mia Crumplezone",
+    "article_number": 94,
+    "published": "2026-03-22T06:36:00Z",
+    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 8.5, "rigor": 9}
   }
 }
