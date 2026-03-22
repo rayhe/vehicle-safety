@@ -1,19 +1,11 @@
 {
-  "current": {
-    "slug": "the-2019-cliff",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Mia Crumplezone",
-    "started": "2026-03-22T14:30:00Z",
-    "headline": "33 Vehicles Hit the Same Death-Rate Cliff Between 2018 and 2021",
-    "scores": {"general": 9.0, "voice": 8.5, "ethics": 9.0, "social": 9.0, "legal": 9.0, "rigor": 8.5}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "brand-loyalty-safety-myth",
-    "headline": "Your Favorite Brand Doesn't Care if You Live",
-    "journalist": "Axle McScatter",
-    "article_number": 95,
-    "published": "2026-03-22T12:35:00Z",
-    "scores": {"general": 9, "voice": 8.5, "ethics": 9, "social": 9, "legal": 9, "rigor": 8.5}
+    "slug": "the-2019-cliff",
+    "headline": "33 Vehicles Hit the Same Death-Rate Cliff Between 2018 and 2021",
+    "journalist": "Mia Crumplezone",
+    "article_number": 96,
+    "published": "2026-03-22T14:48:00Z",
+    "scores": {"general": 9.0, "voice": 8.5, "ethics": 9.0, "social": 9.0, "legal": 9.0, "rigor": 8.5}
   }
 }
