@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "design-kills-vs-driver-kills",
+    "phase": "CRITIQUE",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-03-23T02:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "the-driver-constant",
     "headline": "Every Car Has the Same Drunk Drivers — So Why Do Death Rates Vary 285x?",
