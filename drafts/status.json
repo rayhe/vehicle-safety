@@ -3,10 +3,18 @@
     "slug": "two-axis-safety-map",
     "headline": "Your Car's Death Rate Is Hiding Two Completely Different Failures",
     "journalist": "Mia Crumplezone",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "started": "2026-03-23T22:33:00Z",
-    "article_number": 100
+    "article_number": 100,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 9.0
+    }
   },
   "last_completed": {
     "slug": "gm-empire-of-death",

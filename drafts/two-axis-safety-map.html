@@ -56,14 +56,14 @@
 
       <img src="../images/two-axis-safety-map.jpg" alt="Four-quadrant safety map plotting crash frequency against crash lethality, with vehicle silhouettes in each quadrant" style="width:100%;border-radius:8px;margin:1.5rem 0;">
 
-      <p>The IIHS has always known safety has two halves. They test crash avoidance&mdash;can the car dodge the bullet?&mdash;and crashworthiness&mdash;can it absorb the hit?<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Two separate evaluations, two separate ratings, measuring two entirely different engineering problems.</p>
+      <p>The IIHS tests crash avoidance&mdash;can the car dodge the bullet?&mdash;and crashworthiness&mdash;can it absorb the hit?<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Two evaluations measuring two entirely different engineering problems.</p>
 
       <p>FARS collapses them into one number.</p>
 
-      <p>Death rate per 100 million VMT. A single figure that treats &ldquo;this car crashes all the time but occupants walk away&rdquo; and &ldquo;this car almost never crashes but when it does, everyone dies&rdquo; as equivalent outcomes. Across <strong>337 models and 190,820 deaths</strong> in the FARS database from 2014 to 2023, those two failure modes are not equivalent. They&rsquo;re not even close.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+      <p>Death rate per 100 million VMT. A single figure that treats &ldquo;this car crashes all the time but occupants walk away&rdquo; and &ldquo;this car almost never crashes but when it does, everyone dies&rdquo; as equivalent outcomes. Across <strong>337 models and 191,193 deaths</strong> in the FARS database from 2014 to 2023, those two failure modes produce radically different survival odds.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
 
       <div class="pull-stat">4.2&times;</div>
-      <div class="pull-label">Lethality gap: 85.6% of Cavalier FARS crashes kill someone. For a Ram 2500, it&rsquo;s 20.5%.</div>
+      <div class="pull-label">Lethality gap: 85.6% of Dodge Neon FARS crashes kill someone. For a Ram 2500, it&rsquo;s 20.5%.</div>
 
       <p>Split the FARS data along two axes&mdash;how often a vehicle appears in the fatal crash database per 100,000 registered fleet (crash frequency) and what percentage of those appearances result in death (crash lethality)&mdash;and four quadrants emerge. The mean crash frequency across vehicles with 500+ FARS crashes and 100K+ fleet is 280 per 100,000 registered vehicles. The mean lethality is 57.2%. That gives us our crosshairs.</p>
 
@@ -121,7 +121,7 @@
 
       <p>The GMC Yukon shows up in fatal crashes at 2.4 times the average rate. A terrible crash avoidance profile. But when it does crash, occupants survive 52.4% of the time&mdash;the inverse of the Cobalt&rsquo;s arithmetic. The Tahoe, Silverado, Yukon: full-size body-on-frame vehicles that crash into everything and everyone, but their occupants walk into the emergency room instead of the morgue.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
 
-      <p>There&rsquo;s a dark corollary here that FARS doesn&rsquo;t make explicit but physics demands: when a Yukon crashes into a Versa, the Yukon&rsquo;s low lethality comes at the cost of the Versa&rsquo;s high lethality. Crashworthiness is not always a solo equation.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+      <p>FARS doesn&rsquo;t make this explicit, but physics does: when a Yukon crashes into a Versa, the Yukon&rsquo;s low lethality comes at the cost of the Versa&rsquo;s high lethality. Crashworthiness is not a solo equation.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
 
       <h2>Quadrant 4: Safe in Every Measurable Way</h2>
 
@@ -146,11 +146,11 @@
 
       <p><strong>Crash lethality</strong> = total occupant deaths / total FARS crash involvements. This measures the probability that an occupant dies given that the vehicle appeared in a fatal crash.</p>
 
-      <p>The product of these two roughly reconstructs the traditional death rate. But separating them reveals which dimension is actually failing. A vehicle with rate 2.0 could be a Tahoe (crashes a lot, most survive) or a Spark (rarely crashes, almost always kills). Same number. Completely different engineering deficiencies. Completely different policy interventions.</p>
+      <p>The product of these two roughly reconstructs the traditional death rate. But separating them reveals which dimension is actually failing. A vehicle with rate 2.0 could be a Tahoe (crashes a lot, most survive) or a Spark (rarely crashes, almost always kills). Same number. Opposite engineering failures. Opposite policy fixes.</p>
 
       <h2>What This Changes</h2>
 
-      <p>If your vehicle is in Quadrant 1, sell it. No ambiguity.</p>
+      <p>If your vehicle is in Quadrant 1, the data says get out. Both axes are working against you.</p>
 
       <p>If it&rsquo;s in Quadrant 2, the decision is harder. Your overall statistical risk may be moderate, but the conditional risk&mdash;what happens IF something goes wrong&mdash;is severe. That&rsquo;s the difference between playing a game you&rsquo;re unlikely to lose and playing a game where losing means dying.</p>
 
@@ -164,11 +164,13 @@
 
       <p>Fleet estimates use sales data and average vehicle lifespans, introducing &plusmn;15% uncertainty on low-volume models. VMT estimates carry similar margins. None of this changes the relative ordering by much, but individual data points should be read as ranges, not precision measurements.</p>
 
+      <p>Confounders abound. Driver age skews heavily by vehicle type&mdash;Neons attract younger drivers, Yukons skew older and wealthier. Urban versus rural split matters: city cars crash at lower speeds. Vehicle age itself correlates with both axes, since older vehicles lack modern crash avoidance tech. None of these confounders are controlled for here. The quadrants describe what happens, not why.</p>
+
       <section class="story-references">
         <h3>Sources &amp; References</h3>
         <ol>
           <li id="ref-1">IIHS, <em>Vehicle Ratings: Crashworthiness and Crash Avoidance</em>. <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a></li>
-          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. 337 models, 190,820 deaths, fleet estimates from industry sales data and NHTS annual mileage. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. 337 models, 191,193 deaths, fleet estimates from industry sales data and NHTS annual mileage. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
           <li id="ref-3">NHTSA/DOJ, <em>GM Ignition Switch Recalls</em>. The Cobalt&rsquo;s Q1 placement extends a pattern of structural safety failures documented across multiple NHTSA investigations. <a href="https://en.wikipedia.org/wiki/General_Motors_ignition_switch_recalls" target="_blank" rel="noopener">wikipedia.org</a></li>
           <li id="ref-4">IIHS, <em>Vehicle Size and Weight</em>. Mass differentials between colliding vehicles are a primary determinant of occupant outcomes. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
         </ol>
