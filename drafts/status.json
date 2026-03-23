@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "gm-empire-of-death",
-    "phase": "QA",
-    "round": 2,
-    "journalist": "Rex Driverton",
     "headline": "One Corporation, 51,687 Deaths: GM's Multi-Brand Body Count",
-    "started": "2026-03-23T14:30:00Z",
+    "journalist": "Rex Driverton",
     "article_number": 99,
+    "published": "2026-03-23T18:36:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -14,21 +13,6 @@
       "social": 8.5,
       "legal": 8.5,
       "rigor": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "design-kills-vs-driver-kills",
-    "headline": "The Toyota Solara Has the Soberest Drivers in FARS — and a Death Rate 4x the Fleet Average",
-    "journalist": "Mia Crumplezone",
-    "article_number": 98,
-    "published": "2026-03-23T04:37:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 9.0
     }
   }
 }
