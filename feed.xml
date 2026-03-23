@@ -5,8 +5,15 @@
   <link>https://vehicle-safety.org</link>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 19 Mar 2026 04:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Mar 2026 00:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Every Car Has the Same Drunk Drivers — So Why Do Death Rates Vary 285x?</title>
+    <link>https://vehicle-safety.org/stories/the-driver-constant.html</link>
+    <description>Impairment rates hold steady at ~20% across 200 vehicle models. Death rates swing from 0.03 to 8.54 per 100M VMT. R² = 0.038. The vehicle is the variable, not the driver.</description>
+    <pubDate>Mon, 23 Mar 2026 00:30:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/the-driver-constant.html</guid>
+  </item>
   <item>
     <title>The Convertible Rollover Gap: Which Open-Top Cars Actually Protect You, and Which Ones Just Look Like They Do</title>
     <link>https://vehicle-safety.org/stories/convertible-rollover-protection-comparison.html</link>
