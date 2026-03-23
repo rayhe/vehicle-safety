@@ -1,34 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "the-driver-constant",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Axle McScatter",
-    "started": "2026-03-22T16:32:00Z",
     "headline": "Every Car Has the Same Drunk Drivers — So Why Do Death Rates Vary 285x?",
+    "journalist": "Axle McScatter",
     "article_number": 97,
+    "published": "2026-03-23T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 9.5,
-      "rigor": 8.5
-    },
-    "shipped": "2026-03-23T00:30:00Z"
-  },
-  "last_completed": {
-    "slug": "the-2019-cliff",
-    "headline": "33 Vehicles Hit the Same Death-Rate Cliff Between 2018 and 2021",
-    "journalist": "Mia Crumplezone",
-    "article_number": 96,
-    "published": "2026-03-22T14:48:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
       "rigor": 8.5
     }
   }
