@@ -1,12 +1,12 @@
 {
   "current": {
     "slug": "gm-empire-of-death",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 2,
     "journalist": "Rex Driverton",
     "headline": "One Corporation, 51,687 Deaths: GM's Multi-Brand Body Count",
     "started": "2026-03-23T14:30:00Z",
-    "ship_blocked": "1/day gate: 2 articles already published 2026-03-23, will publish next cycle on 2026-03-24",
+    "article_number": 99,
     "scores": {
       "general": 9.0,
       "voice": 8.5,

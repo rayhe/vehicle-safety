@@ -5,8 +5,15 @@
   <link>https://vehicle-safety.org</link>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 23 Mar 2026 00:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Mar 2026 18:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>One Corporation, 51,687 Deaths: GM's Multi-Brand Body Count</title>
+    <link>https://vehicle-safety.org/stories/gm-empire-of-death.html</link>
+    <description>Chevrolet, GMC, Buick, Pontiac, Cadillac, Saturn, Oldsmobile. Seven brands, one parent company, 27% of all FARS fatalities. Brand-level data splits the deaths across seven ledgers. Stack them and the concentration is staggering.</description>
+    <pubDate>Mon, 23 Mar 2026 18:30:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/gm-empire-of-death.html</guid>
+  </item>
   <item>
     <title>Every Car Has the Same Drunk Drivers — So Why Do Death Rates Vary 285x?</title>
     <link>https://vehicle-safety.org/stories/the-driver-constant.html</link>
