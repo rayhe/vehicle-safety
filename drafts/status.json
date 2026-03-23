@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "gm-empire-of-death",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "headline": "One Corporation, 51,687 Deaths: GM's Multi-Brand Body Count",
+    "started": "2026-03-23T14:30:00Z"
+  },
   "last_completed": {
     "slug": "design-kills-vs-driver-kills",
     "headline": "The Toyota Solara Has the Soberest Drivers in FARS — and a Death Rate 4x the Fleet Average",
