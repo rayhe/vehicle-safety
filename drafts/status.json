@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "two-axis-safety-map",
+    "headline": "Your Car's Death Rate Is Hiding Two Completely Different Failures",
+    "journalist": "Mia Crumplezone",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-03-23T22:33:00Z",
+    "article_number": 100
+  },
   "last_completed": {
     "slug": "gm-empire-of-death",
     "headline": "One Corporation, 51,687 Deaths: GM's Multi-Brand Body Count",
