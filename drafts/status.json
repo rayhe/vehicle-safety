@@ -6,6 +6,8 @@
     "phase": "SHIP",
     "round": 1,
     "started": "2026-03-24T12:30:00Z",
+    "ship_blocked_until": "2026-03-25",
+    "ship_reason": "1/day gate — #101 published 2026-03-24T06:35Z, #100 published 2026-03-24T00:32Z",
     "scores": {
       "general": 8.5,
       "voice": 8.5,
