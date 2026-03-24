@@ -3,6 +3,12 @@
 <channel>
   <title>The Crash Report</title>
   <link>https://vehicle-safety.org</link>
+  <item>
+    <title>Your Car's Death Rate Is Hiding Two Completely Different Failures</title>
+    <link>https://vehicle-safety.org/stories/two-axis-safety-map.html</link>
+    <guid>https://vehicle-safety.org/stories/two-axis-safety-map.html</guid>
+    <description>Some vehicles crash constantly but protect you. Others almost never crash — but when they do, you die. FARS data reveals a two-axis safety map that the single death-rate number was designed to obscure.</description>
+  </item>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
   <lastBuildDate>Mon, 23 Mar 2026 18:30:00 +0000</lastBuildDate>
