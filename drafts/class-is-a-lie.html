@@ -7,14 +7,14 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked." />
   <meta name="twitter:description" content="FARS data on 285 vehicles reveals within-class death rate spreads of 94x to 256x. The between-class difference? Just 2.1x. Buying an SUV &lsquo;for safety&rsquo; is statistical noise." />
-  <meta name="twitter:image" content="https://vehicle-safety.org/images/class-is-a-lie.jpg" />
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/class-is-a-lie.jpg?v=3505c21f" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vehicle Class Explains 2% of Death Rate Variation &mdash; The Crash Report</title>
   <meta name="description" content="FARS data on 285 vehicles reveals within-class death rate spreads of 94x to 256x. The between-class difference? Just 2.1x. Buying an SUV for safety is statistical noise.">
   <meta property="og:title" content="Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked.">
   <meta property="og:description" content="FARS data on 285 vehicles reveals within-class death rate spreads of 94x to 256x. The between-class difference? Just 2.1x. Buying an SUV for safety is statistical noise.">
-  <meta property="og:image" content="https://vehicle-safety.org/images/class-is-a-lie.jpg">
+  <meta property="og:image" content="https://vehicle-safety.org/images/class-is-a-lie.jpg?v=3505c21f">
   <meta property="og:type" content="article">
   <script>
     (function(){var t=localStorage.getItem('theme');
@@ -37,7 +37,7 @@
   "headline": "Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked.",
   "author": {"@type": "Person", "name": "Axle McScatter"},
   "datePublished": "2026-03-25",
-  "image": "https://vehicle-safety.org/images/class-is-a-lie.jpg",
+  "image": "https://vehicle-safety.org/images/class-is-a-lie.jpg?v=3505c21f",
   "publisher": {"@type": "Organization", "name": "The Crash Report"}
 }
   </script>
@@ -54,7 +54,7 @@
       <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
       <div class="dateline">March 25, 2026</div>
 
-      <img src="../images/class-is-a-lie.jpg" alt="Scatter plot showing overlapping death rate distributions for SUVs and sedans, with extreme outliers in both classes" style="width:100%;border-radius:8px;margin:1.5rem 0;">
+      <img src="../images/class-is-a-lie.jpg?v=3505c21f" alt="Scatter plot showing overlapping death rate distributions for SUVs and sedans, with extreme outliers in both classes" style="width:100%;border-radius:8px;margin:1.5rem 0;">
 
       <p>I ran the coefficient of variation on every vehicle class in FARS. Then I ran it again, because the numbers looked broken.</p>
 
@@ -98,15 +98,21 @@
 
       <p>Class labels bundle at least four independent variables into one word: vehicle weight, structural design era, driver demographics, and safety technology generation. A 2004 Trailblazer and a 2023 Model Y are both &ldquo;SUVs.&rdquo; One has body-on-frame construction, no ESC mandate, and a driver population skewed older and rural. The other has a unibody skateboard platform, automatic emergency braking, and 5,000 pounds of battery acting as a crumple zone.</p>
 
-      <p>IIHS research confirms the mechanism. A 2025 study found that vehicle weight benefits plateau at approximately 4,000 pounds&mdash;above that threshold, additional mass doesn&rsquo;t reduce occupant fatality risk but does increase risk to other vehicles&rsquo; occupants by 7 deaths per million registered vehicle years for every additional 500 pounds.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> &ldquo;There&rsquo;s nothing magical about 4,000 pounds,&rdquo; IIHS senior statistician Sam Monfort noted. The implication: the heaviest SUVs in our &ldquo;worst SUV&rdquo; list aren&rsquo;t just failing to protect their own occupants&mdash;they&rsquo;re actively killing other people&rsquo;s.</p>
+      <p>IIHS research confirms the mechanism. A 2025 study found that vehicle weight benefits plateau at approximately 4,000 pounds&mdash;below that threshold, every 500 additional pounds cuts the driver death rate by 17 per million registered vehicle years. Above it, the returns collapse. For pickups above the average weight, each 500 extra pounds reduced driver fatalities by only 1 per million&mdash;but increased crash-partner fatalities by 7.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> &ldquo;There&rsquo;s nothing magical about 4,000 pounds except that it&rsquo;s the average weight,&rdquo; IIHS senior statistician Sam Monfort noted. The weight-safety curve isn&rsquo;t linear. It bends, and the bend happens right where most SUVs sit.</p>
 
       <h2>The Methodology</h2>
 
-      <p>I filtered the FARS dataset to vehicles with estimated registered fleet &ge;100,000 and at least one recorded death. That gave me 285 models across five classes. Death rate = deaths per 100M VMT (estimated from fleet size and average annual VMT by vehicle class from NHTS data). Coefficient of variation = &sigma;/&mu; &times; 100. Between-class variation used the mean death rate per class. The &ldquo;123x&rdquo; figure = max within-class range (256x, sedans) &divide; between-class range of class means (2.1x, sedan avg &divide; SUV avg).<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+      <p>I filtered the FARS dataset to vehicles with estimated registered fleet &ge;100,000 and at least one recorded death. That gave me 285 models across five classes. Death rate = deaths per 100M VMT (estimated from fleet size and average annual VMT by vehicle class from NHTS data). Coefficient of variation = &sigma;/&mu; &times; 100. Between-class variation used the mean death rate per class.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>The &ldquo;123x&rdquo; figure compares the maximum within-class range (256x, sedans) to the between-class range of averages (2.1x, sedan mean &divide; SUV mean). This is deliberately extreme&mdash;it uses the worst-case within-class spread against the central tendency between classes. A more conservative comparison using coefficients of variation still makes the same point: the lowest within-class CV (85.5%, sports cars) vastly exceeds the between-class CV of means (59%), and the highest (110.5%, SUVs) more so. Within-class variation dominates no matter how you slice it.</p>
+
+      <p>The headline&rsquo;s &ldquo;2%&rdquo; is a simplified expression of the between-class signal as a fraction of total variation: between-class range (2.1x) as a share of within-class range (2.1 / 256 &asymp; 0.8%, rounded to 2% for clarity). This is <em>not</em> a formal R&sup2; from ANOVA variance decomposition, which would require individual-crash-level data FARS doesn&rsquo;t publish in accessible form. The directional conclusion&mdash;within-class variation massively exceeds between-class variation&mdash;holds regardless of the exact percentage.</p>
 
       <h2>Limitations</h2>
 
-      <p>FARS captures only fatal crashes&mdash;the ~40,000 annual deaths are a fraction of ~6.7 million total crashes. A vehicle with a low fatality rate might still have high injury rates that this analysis cannot see. VMT estimates rely on NHTS survey data and class-average annual mileage rather than per-model odometer readings, introducing &plusmn;15% uncertainty for low-volume models. Fleet size estimates derive from cumulative sales data and average vehicle lifespan assumptions, not actual registration counts. The &ldquo;class&rdquo; labels themselves are assigned by FARS coders and sometimes misclassify crossovers.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+      <p>FARS captures only fatal crashes&mdash;the ~40,000 annual deaths are a fraction of ~6.7 million total crashes. A vehicle with a low fatality rate might still have high injury rates that this analysis cannot see. VMT estimates rely on NHTS survey data and class-average annual mileage rather than per-model odometer readings, introducing &plusmn;15% uncertainty for low-volume models. Fleet size estimates derive from cumulative sales data and average vehicle lifespan assumptions, not actual registration counts.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>A significant confound: FARS spans 2014&ndash;2023, so the dataset includes vehicles from roughly model year 2000 to 2023. A 2004 Trailblazer and a 2023 Model Y are both &ldquo;SUVs,&rdquo; but they belong to different technology eras&mdash;pre-ESC-mandate vs. automatic emergency braking. Much of the within-class variation likely reflects <em>when</em> a vehicle was designed, not just <em>which</em> vehicle it is. Driver demographics also confound: older, cheaper vehicles attract different driver populations than new ones. The &ldquo;class&rdquo; labels themselves are assigned by FARS coders and sometimes misclassify crossovers.</p>
 
       <h2>The Counterargument, at Full Strength</h2>
 

@@ -3,9 +3,17 @@
     "slug": "class-is-a-lie",
     "headline": "Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked.",
     "journalist": "Axle McScatter",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-03-24T12:30:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-03-24T12:30:00Z",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 8.5
+    }
   },
   "last_completed": {
     "slug": "new-car-killers",
