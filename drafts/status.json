@@ -1,11 +1,19 @@
 {
   "current": {
     "slug": "new-car-killers",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "QA",
+    "round": 2,
     "journalist": "Vin Wreckage",
     "headline": "Some Cars Kill You Before Their First Oil Change",
-    "started": "2026-03-24T04:32:00Z"
+    "started": "2026-03-24T04:32:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5
+    }
   },
   "last_completed": {
     "slug": "two-axis-safety-map",
