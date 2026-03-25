@@ -7,7 +7,7 @@
   <meta name="description" content="NHTSA is investigating 3.2 million Teslas for FSD failures. FARS data shows Tesla drivers already have the lowest crash rate of any vehicle in the dataset.">
   <meta property="og:title" content="FSD Is Trying to Replace the Safest Drivers in America">
   <meta property="og:description" content="NHTSA is investigating 3.2 million Teslas for FSD failures. FARS data shows Tesla drivers already have the lowest crash rate of any vehicle in the dataset.">
-  <meta property="og:image" content="../images/fsd-safest-drivers-paradox.jpg">
+  <meta property="og:image" content="../images/fsd-safest-drivers-paradox.jpg?v=f53710ed">
   <script>
     (function(){var t=localStorage.getItem('theme');
     if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
@@ -30,86 +30,42 @@
       <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
       <div class="dateline">March 25, 2026</div>
 
-      <img src="../images/fsd-safest-drivers-paradox.jpg" alt="Tesla Model 3 on a highway with semi-transparent data overlay showing crash statistics" class="story-hero">
+      <img src="../images/fsd-safest-drivers-paradox.jpg?v=f53710ed" alt="Tesla Model 3 dashboard view with FARS data overlay" class="story-hero">
 
-      <p>On March 18, NHTSA opened engineering analysis EA26002 into Tesla&rsquo;s Full Self-Driving system. The investigation covers <strong>3,203,754 vehicles</strong>&mdash;every Tesla equipped with FSD, from 2016 Model S sedans to 2026 Cybertrucks.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Nine crashes. One fatality. Visibility detection failures. The usual grim inventory.</p>
+      <p>NHTSA opened engineering analysis EA26002 on March 18, targeting Tesla&rsquo;s Full Self-Driving system across <strong>3,203,754 vehicles</strong>. Nine crashes. One fatality. The defect: FSD&rsquo;s cameras can&rsquo;t tell when they can&rsquo;t see. Glare, fog, debris&mdash;the system either missed the visibility degradation entirely or fired warnings milliseconds before impact.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
 
-      <p>But buried in the FARS database is a number that reframes the entire investigation.</p>
+      <p>That investigation is warranted. But the FARS database adds a dimension NHTSA&rsquo;s filing doesn&rsquo;t mention.</p>
 
       <div class="pull-stat">0.05</div>
-      <div class="pull-label">Tesla Model 3 deaths per 100 million VMT &mdash; the lowest of any vehicle in FARS</div>
+      <div class="pull-label">Tesla Model 3 deaths per 100M VMT &mdash; lowest in the FARS dataset</div>
 
-      <p>The Tesla Model 3 has a fatality rate of <strong>0.05 deaths per 100 million vehicle miles traveled</strong>. That is not a typo. For context, the Honda Accord&mdash;America&rsquo;s perennial &ldquo;safe choice&rdquo;&mdash;sits at 3.07. The Toyota Camry, the vehicular equivalent of a warm glass of milk, clocks 2.03. The Chevy Silverado, 1.25.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+      <p>The Model 3&rsquo;s fatality rate is <strong>0.05 deaths per 100 million VMT</strong>&mdash;the lowest of any vehicle in FARS. Honda Accord: 3.07. Toyota Camry: 2.03. Chevy Silverado: 1.25. Even the Mazda CX-5, a perennial IIHS darling, sits at 0.12.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Model 3&rsquo;s fatal crash frequency is 13 per 100,000 fleet vehicles. Dataset median: 174. The Cobalt hits 726.</p>
 
-      <p>Model 3 drivers die at a rate <strong>61 times lower</strong> than Accord drivers. Per mile driven.</p>
+      <p>FSD isn&rsquo;t trying to improve upon Cobalt-level driving. It&rsquo;s trying to improve upon Model 3-level driving&mdash;the lowest-risk baseline in the entire dataset.</p>
 
-      <h2>The Frequency Gap</h2>
+      <p>Now, that 0.05 deserves an engineering autopsy before anyone awards it a trophy. Three confounders compress the number. First, fleet age: the oldest Model 3 in FARS is from 2017, while Accords carry death counts from 1990s-era cars lacking ESC, side curtain airbags, and AEB.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Second, demographics: Model 3 buyers skew affluent, suburban, and sober&mdash;all independent predictors of not dying on the highway. Third, active safety: every Model 3 ships with collision avoidance systems that prevent crashes from reaching FARS in the first place.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
 
-      <p>Death rate alone tells part of the story. Crash frequency tells the rest. Across the FARS dataset, the median vehicle appears in fatal crashes at a rate of roughly 174 per 100,000 fleet vehicles. Sedans like the Cobalt hit 726. The Impala, 852. The Nissan Maxima, 888.</p>
+      <p>Strip away confounders and the Model 3 still beats the field. But the 61x gap over the Accord is partially a measurement artifact, not a 61x engineering advantage.</p>
 
-      <p>The Model 3? <strong>Thirteen.</strong></p>
+      <p>The strongest case against FSD is Tesla&rsquo;s own data. Their January 2026 robotaxi filings showed an autonomous crash rate roughly <strong>three times worse</strong> than human drivers under comparable conditions&mdash;even with a safety monitor present.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> If FSD degrades an already exceptional human baseline, nine crashes are a rounding error. The real stakes: 3.2 million of America&rsquo;s safest-driven vehicles potentially made <em>less</em> safe by the software claiming to protect them.</p>
 
-      <p>That crash frequency is 13x below the median. It is the lowest of any vehicle in the dataset with a meaningful fleet size. Lower than the Mazda CX-5 (36). Lower than the Toyota RAV4 (49). Lower than the Ram 1500 (50). In a dataset of 162 vehicles with sufficient data, the Model 3 sits alone at the floor.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+      <p>FARS can&rsquo;t separate FSD-engaged crashes from human-driven ones within the Model 3&rsquo;s records. We don&rsquo;t know whether the 0.05 rate is despite FSD or because of it. VMT estimates for EVs carry ±15&ndash;20% uncertainty. And FARS only captures the ~40,000 annual fatalities atop 6.7 million total crashes&mdash;the Model 3 could be generating plenty of non-fatal incidents this dataset will never see.</p>
 
-      <h2>What NHTSA Is Actually Investigating</h2>
-
-      <p>NHTSA&rsquo;s Office of Defects Investigation says the problem is FSD&rsquo;s degradation detection system&mdash;its ability to recognize when cameras can&rsquo;t see properly and alert the driver in time. Glare, fog, airborne debris. In the nine reviewed crashes, FSD either failed to detect degraded visibility or issued alerts &ldquo;immediately before impact.&rdquo; In some cases, the system lost track of a lead vehicle entirely.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
-
-      <p>This is a legitimate safety defect. Nine crashes is nine crashes. One death is one death.</p>
-
-      <p>But the paradox is structural: the technology under investigation is deployed on vehicles whose <em>human operators</em> already achieve the best safety outcomes in the entire FARS dataset. FSD isn&rsquo;t trying to improve upon Chevy Cobalt drivers (crash frequency: 726, death rate: 5.10). It&rsquo;s trying to improve upon Model 3 drivers (frequency: 13, death rate: 0.05).</p>
-
-      <p>The marginal safety value of automation is inversely proportional to how safe the baseline driver already is. And this baseline is, by every available metric, the safest in America.</p>
-
-      <h2>Why the Baseline Is So Low</h2>
-
-      <p>Before anyone credits Elon Musk with curing traffic death, the Model 3&rsquo;s numbers deserve scrutiny.</p>
-
-      <p>Three factors likely compress that 0.05 rate:</p>
-
-      <p><strong>Fleet age.</strong> The Model 3 entered production in 2017. FARS data spans 2014&ndash;2023, meaning the oldest Model 3 in the dataset is nine years old. Meanwhile, the Accord and Civic carry death counts accumulated from 1990s-era vehicles&mdash;cars with no side curtain airbags, no ESC, no AEB. Comparing a 2017+ fleet to a 1990-2023 fleet is inherently unfair to the older vehicles.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
-
-      <p><strong>Owner demographics.</strong> Model 3 buyers skew affluent, educated, suburban. These demographics drive fewer miles at dangerous hours, on better-maintained roads, with lower impairment rates. The vehicle is a proxy for its owner&rsquo;s socioeconomic position&mdash;and wealth buys safety long before it buys a Tesla.</p>
-
-      <p><strong>Active safety tech.</strong> Every Model 3 ships with automatic emergency braking, forward collision warning, and lane departure warning. These features prevent crashes from reaching FARS in the first place. The low crash frequency may reflect the car catching mistakes before they become fatalities, not the driver making fewer mistakes.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
-
-      <p>Strip away these confounders and the Model 3 probably still outperforms the dataset average. But the 61x gap over the Accord? That&rsquo;s not all vehicle. That&rsquo;s demographics and fleet age doing heavy lifting.</p>
-
-      <h2>The Counterargument at Full Strength</h2>
-
-      <p>Tesla&rsquo;s own robotaxi crash data&mdash;reported in January 2026&mdash;shows an autonomous crash rate roughly <strong>three times worse</strong> than human drivers under comparable conditions, even with a safety monitor present.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> If FSD is degrading an already excellent baseline, the investigation isn&rsquo;t just about nine crashes. It&rsquo;s about whether the technology makes an exceptionally safe fleet <em>less</em> safe.</p>
-
-      <p>This is the strongest case against FSD: it may be replacing the safest driving population in America with software that crashes three times more often. The low FARS baseline doesn&rsquo;t make the investigation less important. It makes it <em>more</em> important.</p>
-
-      <h2>What the Data Doesn&rsquo;t Show</h2>
-
-      <p>FARS only captures fatal crashes&mdash;the roughly 40,000 annual deaths that sit atop 6.7 million total crashes and 2.5 million injuries. A vehicle can have a low fatality rate while generating plenty of fender benders and injury collisions that never reach this dataset.</p>
-
-      <p>We also cannot separate FSD-engaged crashes from human-driven crashes within the Model 3&rsquo;s FARS records. The 0.05 rate blends both operating modes. NHTSA collects ADAS engagement data through its Standing General Order, but FARS doesn&rsquo;t tag individual crashes by autonomy level.</p>
-
-      <p>The VMT estimates for electric vehicles carry additional uncertainty. Model 3 owners may drive more or fewer annual miles than the national average used in rate calculations, introducing ±15&ndash;20% error in the denominator.</p>
-
-      <h2>The Bottom Line</h2>
-
-      <p>NHTSA should absolutely investigate FSD&rsquo;s visibility detection failures. Nine crashes and a death demand scrutiny regardless of the fleet&rsquo;s baseline risk.</p>
-
-      <p>But the FARS data adds a dimension the investigation doesn&rsquo;t address: the people FSD is supposed to protect are already the least likely to die on American roads. The technology isn&rsquo;t automating away the 5.10-death-rate Cobalt or the 6.02-death-rate Mustang. It&rsquo;s automating away the 0.05-death-rate Model 3.</p>
-
-      <p>If the goal is reducing the 40,000 annual traffic deaths, the FARS data is clear about where the leverage is. And it is not behind the wheel of a Tesla.</p>
+      <p>But the paradox holds: the fleet NHTSA is investigating for automation safety failures is, by every available fatality metric, the safest fleet on American roads. The real question is whether FSD is trying to improve a record that the humans behind its wheel have already nearly perfected.</p>
 
       <section class="story-references">
         <h3>Sources &amp; References</h3>
         <ol>
-          <li id="ref-1">NHTSA Office of Defects Investigation, Engineering Analysis EA26002, opened March 18, 2026. Coverage: 3,203,754 Tesla vehicles equipped with FSD. <a href="https://motorillustrated.com/nhtsas-fsd-investigation-enters-recall-track-phase-covering-3-2-million-vehicles/178820/" target="_blank" rel="noopener">Motor Illustrated report</a></li>
-          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Death rates, crash frequencies, and fleet estimates derived from FARS bulk data. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
-          <li id="ref-3">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue,&rdquo; documenting how newer safety technologies reduce fatal crash involvement. <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
-          <li id="ref-4">IIHS, Vehicle ratings for Tesla Model 3 &mdash; Top Safety Pick+. <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a></li>
-          <li id="ref-5">Electrek, &ldquo;Tesla&rsquo;s own robotaxi data confirms crash rate 3x worse than humans even with monitor,&rdquo; January 29, 2026. <a href="https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-1">NHTSA Office of Defects Investigation, Engineering Analysis EA26002, opened March 18, 2026. 3,203,754 Tesla vehicles. <a href="https://motorillustrated.com/nhtsas-fsd-investigation-enters-recall-track-phase-covering-3-2-million-vehicles/178820/" target="_blank" rel="noopener">Motor Illustrated</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue.&rdquo; <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">IIHS, Tesla Model 3 vehicle ratings. <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a></li>
+          <li id="ref-5">Electrek, &ldquo;Tesla&rsquo;s own robotaxi data confirms crash rate 3x worse than humans,&rdquo; Jan. 29, 2026. <a href="https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/" target="_blank" rel="noopener">electrek.co</a></li>
         </ol>
       </section>
     </article>
 
-    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Tesla Model 3 fleet and VMT estimates carry higher uncertainty due to limited production years in dataset. Death rates for older vehicles reflect cumulative fatalities across 30+ model years, creating an inherent fleet-age bias. See <a href="../#method">methodology</a> for caveats.</p>
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Tesla fleet age bias (2017+ only) compresses death rates relative to vehicles with 1990s&ndash;2023 fleet exposure. See <a href="../#method">methodology</a> for caveats.</p>
 
     <footer class="site-footer">
       <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.

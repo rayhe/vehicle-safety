@@ -3,10 +3,19 @@
     "slug": "fsd-safest-drivers-paradox",
     "headline": "FSD Is Trying to Replace the Safest Drivers in America",
     "journalist": "Mia Crumplezone",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "started": "2026-03-25T10:30:00Z",
-    "article_number": 104
+    "article_number": 104,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5
+    },
+    "critique_notes": "Round 1: Voice 8.0 — banned phrase 'isn't about X. It's about Z' on line 50. Fixed to 'nine crashes are a rounding error. The real stakes:' construction. Round 2: all 6 at 8.5+. Passed."
   },
   "last_completed": {
     "slug": "thirty-nine-thousand-is-progress",
