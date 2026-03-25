@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "thirty-nine-thousand-is-progress",
     "headline": "39,345 Dead. NHTSA Calls It Progress.",
     "journalist": "Vin Wreckage",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-03-25T06:30:00Z",
+    "article_number": 103,
+    "published": "2026-03-25T08:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -13,21 +13,6 @@
       "social": 9.0,
       "legal": 8.5,
       "rigor": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "class-is-a-lie",
-    "headline": "Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked.",
-    "journalist": "Axle McScatter",
-    "article_number": 102,
-    "published": "2026-03-25T00:30:00Z",
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5
     }
   }
 }
