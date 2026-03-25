@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "fsd-safest-drivers-paradox",
     "headline": "FSD Is Trying to Replace the Safest Drivers in America",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-03-25T10:30:00Z",
     "article_number": 104,
+    "published": "2026-03-25T14:30:00Z",
     "scores": {
       "general": 8.5,
       "voice": 8.5,
@@ -14,22 +13,6 @@
       "social": 9.0,
       "legal": 8.5,
       "rigor": 8.5
-    },
-    "critique_notes": "Round 1: Voice 8.0 — banned phrase 'isn't about X. It's about Z' on line 50. Fixed to 'nine crashes are a rounding error. The real stakes:' construction. Round 2: all 6 at 8.5+. Passed."
-  },
-  "last_completed": {
-    "slug": "thirty-nine-thousand-is-progress",
-    "headline": "39,345 Dead. NHTSA Calls It Progress.",
-    "journalist": "Vin Wreckage",
-    "article_number": 103,
-    "published": "2026-03-25T08:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0
     }
   }
 }
