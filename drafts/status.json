@@ -3,10 +3,19 @@
     "slug": "convenience-kills-children",
     "headline": "Your Garage Door Is Better Regulated Than Your Car Seat",
     "journalist": "Clara Rollover",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "started": "2026-03-25T18:30:00Z",
-    "article_number": 105
+    "article_number": 105,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0
+    },
+    "gate_blocked": "1/day — #104 published 2026-03-25, will ship next available day"
   },
   "last_completed": {
     "slug": "fsd-safest-drivers-paradox",
