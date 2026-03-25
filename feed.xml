@@ -11,8 +11,15 @@
   </item>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 23 Mar 2026 18:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Mar 2026 08:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>39,345 Dead. NHTSA Calls It Progress.</title>
+    <link>https://vehicle-safety.org/stories/thirty-nine-thousand-is-progress.html</link>
+    <description>NHTSA's 2024 preliminary data shows traffic fatalities dropped below 40,000 for the first time since 2020. Our FARS decomposition reveals 72% of deaths come from pre-2012 vehicles simply aging off the road. Progress by attrition.</description>
+    <pubDate>Tue, 25 Mar 2026 08:30:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/thirty-nine-thousand-is-progress.html</guid>
+  </item>
   <item>
     <title>One Corporation, 51,687 Deaths: GM's Multi-Brand Body Count</title>
     <link>https://vehicle-safety.org/stories/gm-empire-of-death.html</link>
