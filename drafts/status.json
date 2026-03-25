@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "thirty-nine-thousand-is-progress",
+    "headline": "39,345 Dead. NHTSA Calls It Progress.",
+    "journalist": "Vin Wreckage",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-03-25T06:30:00Z"
+  },
   "last_completed": {
     "slug": "class-is-a-lie",
     "headline": "Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked.",
