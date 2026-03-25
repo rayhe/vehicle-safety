@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FSD Is Trying to Replace the Safest Drivers in America &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA is investigating 3.2 million Teslas for FSD failures. FARS data shows Tesla drivers already have the lowest crash rate of any vehicle in the dataset.">
+  <meta property="og:title" content="FSD Is Trying to Replace the Safest Drivers in America">
+  <meta property="og:description" content="NHTSA is investigating 3.2 million Teslas for FSD failures. FARS data shows Tesla drivers already have the lowest crash rate of any vehicle in the dataset.">
+  <meta property="og:image" content="../images/fsd-safest-drivers-paradox.jpg?v=f53710ed">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>FSD Is Trying to Replace the Safest Drivers in America</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">March 25, 2026</div>
+
+      <img src="../images/fsd-safest-drivers-paradox.jpg?v=f53710ed" alt="Tesla Model 3 dashboard view with FARS data overlay" class="story-hero">
+
+      <p>NHTSA opened engineering analysis EA26002 on March 18, targeting Tesla&rsquo;s Full Self-Driving system across <strong>3,203,754 vehicles</strong>. Nine crashes. One fatality. The defect: FSD&rsquo;s cameras can&rsquo;t tell when they can&rsquo;t see. Glare, fog, debris&mdash;the system either missed the visibility degradation entirely or fired warnings milliseconds before impact.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>That investigation is warranted. But the FARS database adds a dimension NHTSA&rsquo;s filing doesn&rsquo;t mention.</p>
+
+      <div class="pull-stat">0.05</div>
+      <div class="pull-label">Tesla Model 3 deaths per 100M VMT &mdash; lowest in the FARS dataset</div>
+
+      <p>The Model 3&rsquo;s fatality rate is <strong>0.05 deaths per 100 million VMT</strong>&mdash;the lowest of any vehicle in FARS. Honda Accord: 3.07. Toyota Camry: 2.03. Chevy Silverado: 1.25. Even the Mazda CX-5, a perennial IIHS darling, sits at 0.12.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Model 3&rsquo;s fatal crash frequency is 13 per 100,000 fleet vehicles. Dataset median: 174. The Cobalt hits 726.</p>
+
+      <p>FSD isn&rsquo;t trying to improve upon Cobalt-level driving. It&rsquo;s trying to improve upon Model 3-level driving&mdash;the lowest-risk baseline in the entire dataset.</p>
+
+      <p>Now, that 0.05 deserves an engineering autopsy before anyone awards it a trophy. Three confounders compress the number. First, fleet age: the oldest Model 3 in FARS is from 2017, while Accords carry death counts from 1990s-era cars lacking ESC, side curtain airbags, and AEB.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Second, demographics: Model 3 buyers skew affluent, suburban, and sober&mdash;all independent predictors of not dying on the highway. Third, active safety: every Model 3 ships with collision avoidance systems that prevent crashes from reaching FARS in the first place.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>Strip away confounders and the Model 3 still beats the field. But the 61x gap over the Accord is partially a measurement artifact, not a 61x engineering advantage.</p>
+
+      <p>The strongest case against FSD is Tesla&rsquo;s own data. Their January 2026 robotaxi filings showed an autonomous crash rate roughly <strong>three times worse</strong> than human drivers under comparable conditions&mdash;even with a safety monitor present.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> If FSD degrades an already exceptional human baseline, nine crashes are a rounding error. The real stakes: 3.2 million of America&rsquo;s safest-driven vehicles potentially made <em>less</em> safe by the software claiming to protect them.</p>
+
+      <p>FARS can&rsquo;t separate FSD-engaged crashes from human-driven ones within the Model 3&rsquo;s records. We don&rsquo;t know whether the 0.05 rate is despite FSD or because of it. VMT estimates for EVs carry ±15&ndash;20% uncertainty. And FARS only captures the ~40,000 annual fatalities atop 6.7 million total crashes&mdash;the Model 3 could be generating plenty of non-fatal incidents this dataset will never see.</p>
+
+      <p>But the paradox holds: the fleet NHTSA is investigating for automation safety failures is, by every available fatality metric, the safest fleet on American roads. The real question is whether FSD is trying to improve a record that the humans behind its wheel have already nearly perfected.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Office of Defects Investigation, Engineering Analysis EA26002, opened March 18, 2026. 3,203,754 Tesla vehicles. <a href="https://motorillustrated.com/nhtsas-fsd-investigation-enters-recall-track-phase-covering-3-2-million-vehicles/178820/" target="_blank" rel="noopener">Motor Illustrated</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue.&rdquo; <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">IIHS, Tesla Model 3 vehicle ratings. <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a></li>
+          <li id="ref-5">Electrek, &ldquo;Tesla&rsquo;s own robotaxi data confirms crash rate 3x worse than humans,&rdquo; Jan. 29, 2026. <a href="https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/" target="_blank" rel="noopener">electrek.co</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Tesla fleet age bias (2017+ only) compresses death rates relative to vehicles with 1990s&ndash;2023 fleet exposure. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

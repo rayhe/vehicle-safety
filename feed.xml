@@ -11,8 +11,15 @@
   </item>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 25 Mar 2026 08:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Mar 2026 14:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>FSD Is Trying to Replace the Safest Drivers in America</title>
+    <link>https://vehicle-safety.org/stories/fsd-safest-drivers-paradox.html</link>
+    <description>NHTSA is investigating 3.2 million Teslas for FSD failures. FARS data shows Tesla drivers already have the lowest crash rate of any vehicle in the dataset. The paradox: FSD may be making America's safest fleet less safe.</description>
+    <pubDate>Tue, 25 Mar 2026 14:30:00 +0000</pubDate>
+    <guid>https://vehicle-safety.org/stories/fsd-safest-drivers-paradox.html</guid>
+  </item>
   <item>
     <title>39,345 Dead. NHTSA Calls It Progress.</title>
     <link>https://vehicle-safety.org/stories/thirty-nine-thousand-is-progress.html</link>
