@@ -1,32 +1,16 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "class-is-a-lie",
     "headline": "Vehicle Class Explains 2% of Death Rate Variation. The Other 98% Is the Model You Picked.",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-03-24T12:30:00Z",
     "article_number": 102,
+    "published": "2026-03-25T00:30:00Z",
     "scores": {
       "general": 8.5,
       "voice": 8.5,
       "ethics": 9.0,
       "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "new-car-killers",
-    "headline": "Some Cars Kill You Before Their First Oil Change",
-    "journalist": "Vin Wreckage",
-    "article_number": 101,
-    "published": "2026-03-24T06:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
       "legal": 8.5,
       "rigor": 8.5
     }
