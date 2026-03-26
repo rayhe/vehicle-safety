@@ -2,11 +2,19 @@
   "current": {
     "slug": "fars-drug-testing-blind-spot",
     "headline": "FARS Says 9% of Fatal Crashes Involve Drugs. The Real Number Is Closer to 55%.",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "article_number": 108,
-    "round": 0,
-    "started": "2026-03-26T10:30:00Z"
+    "round": 1,
+    "started": "2026-03-26T10:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0
+    }
   },
   "last_completed": {
     "slug": "minivan-rear-seat-failure",
