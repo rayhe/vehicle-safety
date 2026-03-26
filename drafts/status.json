@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "minivan-rear-seat-failure",
     "headline": "A $22,000 Kia Sedan Protects Your Kids Better Than Any Minivan on Sale",
     "journalist": "Mia Crumplezone",
-    "phase": "QA",
-    "round": 1,
     "article_number": 107,
-    "started": "2026-03-26T04:30:00Z",
+    "published": "2026-03-26T08:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -14,21 +13,6 @@
       "social": 9.0,
       "legal": 8.5,
       "rigor": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "hi-vis-invisible-to-aeb",
-    "headline": "Your Safety Vest Makes You Invisible to the Car That's Supposed to Save You",
-    "journalist": "Rex Driverton",
-    "article_number": 106,
-    "published": "2026-03-26T04:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5
     }
   }
 }
