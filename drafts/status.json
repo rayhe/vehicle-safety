@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "convenience-kills-children",
     "headline": "Your Garage Door Is Better Regulated Than Your Car Seat",
     "journalist": "Clara Rollover",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-03-25T18:30:00Z",
     "article_number": 105,
+    "published": "2026-03-26T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -14,22 +13,6 @@
       "social": 9.0,
       "legal": 8.5,
       "rigor": 9.0
-    },
-    "shipped": "2026-03-26T00:30:00Z"
-  },
-  "last_completed": {
-    "slug": "fsd-safest-drivers-paradox",
-    "headline": "FSD Is Trying to Replace the Safest Drivers in America",
-    "journalist": "Mia Crumplezone",
-    "article_number": 104,
-    "published": "2026-03-25T14:30:00Z",
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5
     }
   }
 }
