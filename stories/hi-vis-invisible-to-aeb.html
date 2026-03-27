@@ -12,6 +12,14 @@
   <link rel="canonical" href="https://vehicle-safety.org/stories/hi-vis-invisible-to-aeb.html">
   <meta property="og:image" content="https://vehicle-safety.org/images/hi-vis-invisible-to-aeb.jpg?v=6069521b" />
   <meta name="twitter:image" content="https://vehicle-safety.org/images/hi-vis-invisible-to-aeb.jpg?v=6069521b" />
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
@@ -45,21 +53,26 @@
   </script>
 </head>
 <body>
-  <article class="story-detail">
-    <img src="../images/hi-vis-invisible-to-aeb.jpg?v=6069521b" alt="Construction worker in reflective vest standing in dark roadway, invisible to approaching car headlights" class="story-hero" loading="eager" onerror="this.style.background='linear-gradient(135deg,#1a1a2e,#e94560)';this.style.minHeight='300px'">
-    <a href="../" class="back-link">&larr; Back to The Crash Report</a>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
 
-    <span class="story-kicker">Investigation</span>
+    <article class="story">
+      <img src="../images/hi-vis-invisible-to-aeb.jpg?v=6069521b" alt="Construction worker in reflective vest standing in dark roadway, invisible to approaching car headlights" class="story-hero" loading="eager" onerror="this.style.background='linear-gradient(135deg,#1a1a2e,#e94560)';this.style.minHeight='300px'">
+      <div class="story-kicker">Investigation</div>
     <h1>Your Safety Vest Makes You Invisible to the Car That&rsquo;s Supposed to Save You</h1>
-    <p class="story-meta">By <strong>Rex Driverton</strong> &middot; March 26, 2026</p>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">March 26, 2026</div>
 
-    <p class="story-pull-stat"><strong>0 mph</strong> &mdash; speed reduction by two out of three vehicles&rsquo; AEB systems when approaching a pedestrian wearing reflective safety strips. Zero.</p>
+      <div class="pull-stat">0 mph</div>
+      <div class="pull-label">Speed reduction by two out of three vehicles&rsquo; AEB systems when approaching a pedestrian wearing reflective safety strips. Zero.</div>
 
     <p>Two federal agencies walk into a crosswalk. OSHA says the construction worker standing in it must wear reflective clothing so drivers can see him. NHTSA says the car approaching him must have automatic emergency braking so it stops before hitting him. The IIHS just tested what happens when those two mandates meet.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The car plowed through the worker at full speed.</p>
 
-    <p>Not a software glitch. Not a sensor malfunction. The reflective strips that make a human instantly recognizable to another human&rsquo;s eyes &mdash; retroreflective tape articulating limbs and joints, the same pattern on every highway worker&rsquo;s vest from Bakersfield to Bangor &mdash; actively confounded the pedestrian detection algorithms. The AEB didn&rsquo;t slow down because it couldn&rsquo;t figure out what it was looking at.</p>
+    <p>Not a software glitch. Not a sensor malfunction. The reflective strips that make a human instantly recognizable to another human&rsquo;s eyes &mdash; retroreflective tape articulating limbs and joints, the same pattern on every highway worker&rsquo;s vest from Bakersfield to Bangor. They actively confounded the pedestrian detection algorithms. The AEB didn&rsquo;t slow down because it couldn&rsquo;t figure out what it was looking at.</p>
 
-    <p>IIHS tested three 2023 models: a Honda CR-V, a Mazda CX-5, and a Subaru Forester. The CR-V hit the test dummy in <strong>84% of runs</strong>. The CX-5 hit it in <strong>88%</strong>. When the dummy wore reflective strips on its limbs and joints &mdash; the standard configuration for ANSI Class 2 and 3 safety garments &mdash; neither the Honda nor the Mazda slowed at all.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not by 5 mph. Not by 1. The brakes never engaged.</p>
+    <p>IIHS tested three 2023 models: a Honda CR-V, a Mazda CX-5, and a Subaru Forester. The CR-V hit the test dummy in <strong>84% of runs</strong>. The CX-5 hit it in <strong>88%</strong>. When the dummy wore reflective strips on its limbs and joints (the standard configuration for ANSI Class 2 and 3 safety garments), neither the Honda nor the Mazda slowed at all.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not by 5 mph. Not by 1. The brakes never engaged.</p>
 
     <p>The Subaru stopped every time but once. That one failure? The dummy was wearing reflective strips under 10 lux of roadway lighting.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Even the system that works has a hi-vis blind spot.</p>
 
@@ -67,13 +80,13 @@
 
     <p>This would be an academic curiosity if pedestrians weren&rsquo;t dying at 40-year highs. In 2024, drivers struck and killed <strong>7,148 pedestrians</strong> in the United States.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Year-over-year it was actually a 4.3% decline, which the GHSA framed as progress. It&rsquo;s still nearly 20% above 2016 levels.</p>
 
-    <p>Three-quarters of those deaths happened after dark.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Fatal pedestrian crashes at night rose 84% between 2010 and 2023, while daytime fatalities increased just 28%. Nighttime is where the bodies are, which is precisely why NHTSA&rsquo;s AEB mandate &mdash; finalized in April 2024, requiring all new vehicles to have pedestrian AEB by September 2029 &mdash; specifically requires nighttime detection capability.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+    <p>Three-quarters of those deaths happened after dark.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Fatal pedestrian crashes at night rose 84% between 2010 and 2023, while daytime fatalities increased just 28%. Nighttime is where the bodies are, which is precisely why NHTSA&rsquo;s AEB mandate, finalized in April 2024 and requiring all new vehicles to have pedestrian AEB by September 2029, specifically requires nighttime detection capability.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
 
     <p>NHTSA estimates the mandate will save 360 lives per year.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> That estimate assumes the technology works. Prior IIHS research already showed that pedestrian AEB&rsquo;s real-world effect on crash risk in darkness is &ldquo;negligible.&rdquo;<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Negligible isn&rsquo;t zero, but it isn&rsquo;t 360 either.</p>
 
     <h2>The Regulatory Contradiction</h2>
 
-    <p>Count the federal requirements in play. The FHWA&rsquo;s Manual on Uniform Traffic Control Devices requires high-visibility apparel for all workers within the highway right-of-way. OSHA&rsquo;s construction standards demand retroreflective garments in traffic exposure zones. ANSI/ISEA 107-2020 specifies exactly how those garments must be designed &mdash; including retroreflective strips placed on the torso, limbs, and joints to create the &ldquo;biomotion&rdquo; pattern that allows humans to instantly recognize a moving person.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+    <p>Count the federal requirements in play. The FHWA&rsquo;s Manual on Uniform Traffic Control Devices requires high-visibility apparel for all workers within the highway right-of-way. OSHA&rsquo;s construction standards demand retroreflective garments in traffic exposure zones. ANSI/ISEA 107-2020 specifies exactly how those garments must be designed, including retroreflective strips placed on the torso, limbs, and joints to create the &ldquo;biomotion&rdquo; pattern that allows humans to instantly recognize a moving person.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
 
     <p>That biomotion pattern is the problem. IIHS senior research scientist David Kidd put it plainly: &ldquo;The placement and motion of reflective strips on the joints and limbs of pants and jackets allows drivers to quickly recognize the pattern of movement as a person. Unfortunately, the moving strips didn&rsquo;t have the same effect for the pedestrian AEB systems we tested and probably confounded their sensors.&rdquo;<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
 
@@ -81,7 +94,7 @@
 
     <h2>Who&rsquo;s Standing in the Road</h2>
 
-    <p>The Bureau of Labor Statistics counts roughly 3.5 million construction workers in the U.S., a significant fraction of whom work roadside in mandated hi-vis gear. Add utility crews, emergency responders, law enforcement directing traffic, tow truck operators. The FHWA estimates <strong>approximately 130 roadway workers are killed by vehicles each year</strong> &mdash; and that number has stubbornly refused to drop despite improved signage, barriers, and increasingly fluorescent vests.<sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
+    <p>The Bureau of Labor Statistics counts roughly 3.5 million construction workers in the U.S., a significant fraction of whom work roadside in mandated hi-vis gear. Add utility crews, emergency responders, law enforcement directing traffic, tow truck operators. The FHWA estimates <strong>approximately 130 roadway workers are killed by vehicles each year</strong>. That number has stubbornly refused to drop despite improved signage, barriers, and increasingly fluorescent vests.<sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
 
     <p>The AEB mandate was supposed to help. If two-thirds of tested systems can&rsquo;t see the clothing these workers are legally required to wear, <em>it won&rsquo;t</em>.</p>
 
@@ -89,11 +102,11 @@
 
     <p>Three vehicles is a small sample. The Subaru proved the problem is solvable &mdash; Forester&rsquo;s system handled every scenario including reflective clothing with only one partial failure. Automakers are already improving nighttime AEB performance in response to IIHS ratings that now weight nighttime testing more heavily. The NHTSA mandate doesn&rsquo;t take full effect until September 2029, giving engineers three more years to fix the sensor stack. By the time AEB is universal, this particular blind spot may be history.</p>
 
-    <p>That&rsquo;s a reasonable position. It&rsquo;s also the same argument the industry made about ESC in 2007 &mdash; and it took until 2024 for the fleet to fully turn over.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> Roadway workers dying between now and &ldquo;eventually&rdquo; will not find the timeline reassuring.</p>
+    <p>That&rsquo;s a reasonable position. It&rsquo;s also the same argument the industry made about ESC in 2007. It took until 2024 for the fleet to fully turn over.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> Roadway workers dying between now and &ldquo;eventually&rdquo; will not find the timeline reassuring.</p>
 
     <h2>Limitations</h2>
 
-    <p>This analysis rests on a three-vehicle IIHS study &mdash; nowhere near a representative sample. The test used black garments with reflective strips rather than full ANSI Class 2/3 hi-vis gear (fluorescent orange or yellow), which may behave differently under sensor scrutiny. All tests were conducted at 25 mph; real-world work zone crashes happen at higher speeds where AEB is even less effective. We also lack data on what fraction of the 5,300+ annual nighttime pedestrian fatalities involve workers in hi-vis versus civilians in dark clothing &mdash; the 130 worker deaths annually is a lower bound on exposure, not a comprehensive measure of the affected population.</p>
+    <p>This analysis rests on a three-vehicle IIHS study, nowhere near a representative sample. The test used black garments with reflective strips rather than full ANSI Class 2/3 hi-vis gear (fluorescent orange or yellow), which may behave differently under sensor scrutiny. All tests were conducted at 25 mph; real-world work zone crashes happen at higher speeds where AEB is even less effective. We also lack data on what fraction of the 5,300+ annual nighttime pedestrian fatalities involve workers in hi-vis versus civilians in dark clothing. The 130 worker deaths annually is a lower bound on exposure, not a comprehensive measure of the affected population.</p>
 
     <h2>What It Means</h2>
 
@@ -115,10 +128,11 @@
     </section>
 
     <p class="story-disclaimer"><strong>Source:</strong> IIHS pedestrian AEB study (January 2025), GHSA pedestrian fatality data (2024), NHTSA AEB final rule (FMVSS No. 127). This article examines the interaction between hi-vis safety apparel and automated emergency braking systems based on published research. The three-vehicle IIHS sample is small; results may not generalize to all AEB systems. See <a href="../#method">methodology</a> for caveats.</p>
-  </article>
+    </article>
 
-  <footer class="site-footer">
+    <footer class="site-footer">
     <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
