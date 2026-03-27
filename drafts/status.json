@@ -1,27 +1,11 @@
 {
-  "current": {
-    "slug": "unfixed-recall-epidemic",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-03-27T00:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5
-    },
-    "published": "2026-03-27T02:30:00Z",
-    "article_number": 110
-  },
+  "current": null,
   "last_completed": {
-    "slug": "motorcycle-aeb-fleet-gap",
-    "headline": "77% of New Cars Can Detect Motorcycles. The Other 270 Million Vehicles Can't.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 109,
-    "published": "2026-03-27T00:30:00Z",
+    "slug": "unfixed-recall-epidemic",
+    "headline": "One in Five Cars on U.S. Roads Has an Unfixed Recall. The Fix Costs $0.",
+    "journalist": "Axle McScatter",
+    "article_number": 110,
+    "published": "2026-03-27T02:30:00Z",
     "scores": {
       "general": 8.5,
       "voice": 8.5,
