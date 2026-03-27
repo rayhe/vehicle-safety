@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "unfixed-recall-epidemic",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-03-27T00:30:00Z",
     "round": 1,
@@ -13,8 +13,8 @@
       "legal": 9.0,
       "rigor": 8.5
     },
-    "ship_held": "2026-03-27T00:45:00Z",
-    "ship_reason": "1/day gate — #109 already published today (2026-03-27 UTC)"
+    "published": "2026-03-27T02:30:00Z",
+    "article_number": 110
   },
   "last_completed": {
     "slug": "motorcycle-aeb-fleet-gap",
