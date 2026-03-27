@@ -2,11 +2,19 @@
   "current": {
     "slug": "pickup-rear-seat-failure",
     "headline": "For Every Truck That Passes the Back-Seat Crash Test, America Buys 10 That Don't",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "article_number": 111,
-    "round": 0,
-    "started": "2026-03-27T04:31:00Z"
+    "round": 1,
+    "started": "2026-03-27T04:31:00Z",
+    "scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5
+    }
   },
   "last_completed": {
     "slug": "unfixed-recall-epidemic",
