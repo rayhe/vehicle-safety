@@ -1,9 +1,9 @@
 {
   "current": {
-    "slug": "motorcycle-aeb-fleet-gap",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-03-26T14:30:00Z",
+    "slug": "unfixed-recall-epidemic",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "started": "2026-03-27T00:30:00Z",
     "round": 1,
     "scores": {
       "general": 8.5,
@@ -13,22 +13,22 @@
       "legal": 9.0,
       "rigor": 8.5
     },
-    "article_number": 109,
-    "published": "2026-03-27T00:30:00Z"
+    "ship_held": "2026-03-27T00:45:00Z",
+    "ship_reason": "1/day gate — #109 already published today (2026-03-27 UTC)"
   },
   "last_completed": {
-    "slug": "fars-drug-testing-blind-spot",
-    "headline": "FARS Says 9% of Fatal Crashes Involve Drugs. The Real Number Is Closer to 55%.",
-    "journalist": "Dale Impactor III",
-    "article_number": 108,
-    "published": "2026-03-26T12:36:57Z",
+    "slug": "motorcycle-aeb-fleet-gap",
+    "headline": "77% of New Cars Can Detect Motorcycles. The Other 270 Million Vehicles Can't.",
+    "journalist": "Mia Crumplezone",
+    "article_number": 109,
+    "published": "2026-03-27T00:30:00Z",
     "scores": {
-      "general": 9.0,
+      "general": 8.5,
       "voice": 8.5,
       "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 9.0
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.5
     }
   }
 }
