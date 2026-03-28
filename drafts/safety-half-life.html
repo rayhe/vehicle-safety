@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Safety Half-Life: Which Vehicles Are Still Killing People in Their Newest Form? &mdash; The Crash Report</title>
+  <meta name="description" content="A novel FARS metric reveals which vehicles concentrated their fatalities in old models and which are still deadly in recent form.">
+  <meta property="og:title" content="The Safety Half-Life: Which Vehicles Are Still Killing People in Their Newest Form?">
+  <meta property="og:description" content="A novel FARS metric reveals which vehicles concentrated their fatalities in old models and which are still deadly in recent form.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/safety-half-life.jpg?v=d95263b5">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Trend Watch</div>
+      <h1>The Safety Half-Life: Which Vehicles Are Still Killing People in Their Newest Form?</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">March 28, 2026</div>
+
+      <p>I built a metric nobody asked for and now I can't stop thinking about it. Take every fatal crash in FARS from 2014 to 2023, group by vehicle model and model year, then find the <strong>median model year where the deaths pile up</strong>. I'm calling it the Safety Half-Life. It answers a deceptively simple question: when a vehicle kills someone, how old is it?</p>
+
+      <div class="pull-stat">2017</div>
+      <div class="pull-label">Median death model year for the Nissan Rogue, the highest of any vehicle with 300+ deaths</div>
+
+      <p>A low half-life means the vehicle's body count is ancient history. Ford's Ranger has a median death year of 2000. Eighty-one percent of its 3,079 fatalities came from pre-2005 models.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Old body-on-frame Rangers were coffins. Recent ones barely register. A genuine safety transformation across generations.</p>
+
+      <p>A high half-life means the vehicle is still killing people in recent form. Nissan's Rogue tops the list at a median death year of 2017, with 70.2% of its 949 FARS fatalities coming from model year 2015 or newer.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Kia Optima sits at 2015, with 58.1% recent. Chevy Equinox: 2015, 54.5% recent. Toyota RAV4: 2015, 54.1% recent.</p>
+
+      <p>Compact crossovers dominate the "still dangerous" list. This shouldn't surprise anyone paying attention. These vehicles exploded in sales over the last decade, which means more units on the road and more exposure to fatal crash scenarios. But volume alone doesn't explain the variation. RAV4's death rate is 0.19 per 100 million VMT. Rogue's is 0.35.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Nearly double, for vehicles in the same showroom.</p>
+
+      <h3>The Methodology</h3>
+
+      <p>Filter to vehicles produced from at least 2005 through 2018 or later, with 300 or more total FARS deaths. For each, compute total deaths per model year using FARS data (crashes occurring 2014-2023). Find the median: the model year where cumulative deaths cross 50%. Then calculate the percentage of all deaths attributable to model years 2015 and newer.</p>
+
+      <p>Inputs: NHTSA FARS bulk crash data, 2014-2023. Assumption: a vehicle's model year is the proxy for its generation of safety engineering. Output: a single number (median year) that captures where in a vehicle's production timeline the danger concentrates.</p>
+
+      <h3>What the Classes Tell Us</h3>
+
+      <p>Pickups have the oldest average median death year across all classes: 2004.7. Translation: the trucks killing people in 2014-2023 were overwhelmingly built before 2005. SUVs average 2007.4, sedans 2008.4, sports cars 2009.3.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Pickups improved the most across generations. Sports cars improved the least.</p>
+
+      <p>That pickup number is deceptive, though. Full-size trucks like the F-150 and Silverado underwent massive safety overhauls between 2004-2014: standard stability control, improved cab structures, better restraint systems.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The half-life captures that transformation. It doesn't mean today's F-150 is safe in absolute terms. It means today's F-150 is dramatically safer than the one your uncle rolled in 2003.</p>
+
+      <h3>The Strongest Argument Against This Metric</h3>
+
+      <p>Sales growth confounds everything. Nissan sold roughly 150,000 Rogues in 2012. By 2017, that number exceeded 400,000.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> A vehicle that triples its on-road population will naturally shift its death distribution toward recent model years. Half-life partly measures market success, not just safety failure.</p>
+
+      <p>This is a real limitation. Ford Explorer's low half-life (2002) partly reflects its flat-to-declining sales after the Firestone/rollover crisis, not just its genuine safety improvements. Meanwhile Rogue's high half-life partly reflects Nissan's best sales success in decades.</p>
+
+      <p>But the death rate difference between the Rogue (0.35) and the RAV4 (0.19) is real, verifiable, and not explained by sales volume. Both are compact crossovers. Both sell in massive numbers. One kills at nearly twice the rate.</p>
+
+      <h3>What This Metric Cannot Tell You</h3>
+
+      <p>FARS only captures fatal crashes: the roughly 40,000 annual deaths that represent a sliver of the 6.7 million total U.S. crashes per year.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> A vehicle with an improving half-life might still have rising injury rates. Older model years in the dataset were 19-28 years old at the time of the crash, meaning they survived attrition: the worst examples may have already been scrapped. Discontinued models automatically show 0% recent deaths, which flatters their half-life without proving anything about engineering improvement.</p>
+
+      <p>VMT estimates introduce roughly 15% uncertainty for lower-volume models.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> And the 2014-2023 observation window means we're capturing a specific slice of each vehicle's road life, not its complete history.</p>
+
+      <p>Still. One question persists. When your vehicle kills someone, how old is it? For the Ford Ranger, the answer is a 2000 model. For the Nissan Rogue, it's a 2017. Draw your own conclusions about which direction those engineering departments are heading.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue,&rdquo; 2011. <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">Nissan Motor Corporation, Annual U.S. Sales Reports, 2012&ndash;2023. Industry sales data via <a href="https://www.goodcarbadcar.net/" target="_blank" rel="noopener">goodcarbadcar.net</a></li>
+          <li id="ref-4">IIHS, <em>Fatality Statistics: General Statistics</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-5">National Household Travel Survey, Annual VMT Estimates. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Safety Half-Life&rdquo; is an original metric computed from FARS model-year death distributions. Sales volume confounds the metric for high-growth vehicles. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
