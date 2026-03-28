@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "sports-car-safety-immune",
+    "headline": "Twenty Years of Safety Tech. Zero Improvement. Sports Cars Don't Care.",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "round": 0,
+    "started": "2026-03-28T02:30:00Z"
+  },
   "last_completed": {
     "slug": "iihs-vs-fars-safety-disconnect",
     "headline": "The Traverse Has a 0.20 Death Rate. IIHS Says It's Not Safe Enough.",
