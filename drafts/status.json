@@ -1,1 +1,26 @@
-{"current": null, "last_completed": {"slug": "rav4-americas-safety-miracle", "headline": "The RAV4 Has a 0.19 Death Rate. The Corolla It Replaced? 1.85.", "journalist": "Clara Rollover", "published_at": "2026-03-27T20:30:00Z", "number": 111}}
+{
+  "current": {
+    "slug": "iihs-vs-fars-safety-disconnect",
+    "headline": "The Traverse Has a 0.20 Death Rate. IIHS Says It's Not Safe Enough.",
+    "phase": "SHIP",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "started": "2026-03-27T22:32:00Z",
+    "number": 112,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.6,
+      "rigor": 8.7
+    }
+  },
+  "last_completed": {
+    "slug": "rav4-americas-safety-miracle",
+    "headline": "The RAV4 Has a 0.19 Death Rate. The Corolla It Replaced? 1.85.",
+    "journalist": "Clara Rollover",
+    "published_at": "2026-03-27T20:30:00Z",
+    "number": 111
+  }
+}
