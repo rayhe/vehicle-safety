@@ -2,10 +2,19 @@
   "current": {
     "slug": "sports-car-safety-immune",
     "headline": "Twenty Years of Safety Tech. Zero Improvement. Sports Cars Don't Care.",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
-    "round": 0,
-    "started": "2026-03-28T02:30:00Z"
+    "round": 1,
+    "started": "2026-03-28T02:30:00Z",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.6
+    },
+    "ship_blocked_reason": "1/day gate: #112 already published 2026-03-28"
   },
   "last_completed": {
     "slug": "iihs-vs-fars-safety-disconnect",
