@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Pickup Inversion: How Truck Size Determines Who Dies &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals a linear inversion: compact pickups kill their own drivers at 69% rates while heavy-duty trucks export 66% of fatalities to other road users.">
+  <meta property="og:title" content="The Pickup Inversion: How Truck Size Determines Who Dies">
+  <meta property="og:description" content="As trucks get bigger, who dies flips. Compact pickups are suicide machines. Heavy-duty trucks are weapons pointed outward.">
+  <meta property="og:image" content="../images/pickup-size-death-inversion.jpg">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>The Pickup Inversion: How Truck Size Determines Who Dies</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">March 28, 2026</div>
+
+      <p>A compact pickup kills its driver. A heavy-duty pickup kills the other guy. Somewhere around 5,500 pounds, the math flips, and <strong>the American truck transforms from a coffin into a battering ram</strong>.</p>
+
+      <div class="pull-stat">68.7% &rarr; 34.1%</div>
+      <div class="pull-label">Self-kill rate drop from compact to heavy-duty pickups</div>
+
+      <p>I sorted every pickup truck in the FARS database into four weight tiers and ran a cross-tabulation that, as far as I can tell, nobody has published before: what percentage of fatal-crash deaths belong to the truck's own occupant versus the other party? The results describe a clean, almost perfectly linear inversion.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Compact pickups (Rangers, S-10s, Dakotas) carry a 68.7% self-kill rate across 9,436 fatal crashes. Nearly seven out of ten deaths are the truck driver. These are 3,000-to-4,000-pound body-on-frame vehicles with minimal crumple zone engineering and crash structures that date to Reagan-era FMVSS requirements. The GMC Sonoma hits 79.6%. When a Sonoma enters a fatal crash, four out of five times, it's the Sonoma driver who doesn't walk away.</p>
+
+      <p>Midsize trucks (Tacoma, Frontier, Colorado) sit at 52.7%. Roughly a coin flip. This is the equilibrium tier, where the truck's mass and the opposing vehicle's mass produce statistically symmetrical outcomes.</p>
+
+      <p>Full-size trucks cross the line. At 46.3% self-kill rate, the Silverado-F-150-Ram tier kills more people in OTHER vehicles than in its own cab. The F-150 sits at 45.8%. Across 20,066 fatal crashes involving an F-150, roughly 10,900 of the dead were not inside the Ford.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Then heavy-duty. The F-250, F-350, Ram 1500, Ram 2500 tier drops to 34.1% self-kill. Two out of three deaths belong to someone else. The Ram 2500 reaches the extreme: <strong>79.5% of fatal-crash deaths involving a Ram 2500 are the other party</strong>. Out of 748 fatal crashes, the Ram 2500 occupant died only 153 times.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <h2>The Physics Are Simple. The Ethics Aren't.</h2>
+
+      <p>IIHS quantified the mechanism in 2023: for every additional 500 pounds above the fleet-average weight, crash death rates for the smaller vehicle's occupants rose by seven per million registered vehicles, while the heavier vehicle's occupant risk declined by one.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> A 7-to-1 externality ratio. Every pound you add to your truck buys you a fractional safety improvement and sells seven times that risk to the person you hit.</p>
+
+      <p>The 2011 study "Pounds that Kill" put hard numbers on the baseline: in any given crash, the chance of at least one fatality is 0.19%, or 1 in 500. Add 1,000 pounds to one vehicle and that probability jumps to 0.28%, or 1 in 357. A 47% increase in lethality, almost entirely exported to the lighter vehicle.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <h2>What This Means Across 85,000 Fatal Crashes</h2>
+
+      <p>Pickup trucks appeared in 85,127 fatal crashes in FARS over the 2014-2023 period, producing 41,593 occupant deaths. But those crashes also killed people outside the truck. In the heavy-duty tier alone, 5,694 fatal crashes produced just 1,940 pickup occupant deaths. At minimum, 3,754 of those crashes killed someone who was not inside the truck.</p>
+
+      <p>IIHS has found that newer large vehicles (2017-2022) have reduced the crash-partner fatality gap compared to 2011-2016 models, with the risk premium dropping from 90% to 20% for occupants of smaller vehicles struck by large SUVs over 5,000 pounds.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Compatibility improvements, lower bumper heights, and better frontal geometry deserve credit. But the fundamental mass disparity remains, and pickups have only gotten heavier.</p>
+
+      <h2>Limitations</h2>
+
+      <p>FARS only records fatal crashes. A compact pickup involved in 9,436 fatal crashes likely had hundreds of thousands of non-fatal crashes we can't see. The lethality percentages above describe who dies WHEN someone dies, not overall crash risk. Fleet size estimates introduce roughly &plusmn;15% uncertainty for lower-volume models like the Mazda B-Series. And "self-kill rate" counts occupant deaths, not strictly driver deaths, so multi-occupant crashes could skew the numbers slightly.</p>
+
+      <h2>Strongest Counterargument</h2>
+
+      <p>Heavy-duty pickups serve a fundamentally different role than compacts. They tow fifth-wheels, haul construction materials, operate as commercial vehicles. Their drivers log different miles on different roads at different times. Comparing a Ram 2500 pulling a horse trailer on a rural two-lane to a Ranger commuting on I-405 isn't apples-to-apples. The lethality inversion may partially reflect exposure patterns, not just mass physics. Rural roads are deadlier per mile regardless of vehicle. This analysis cannot isolate the weight variable from the usage variable. FARS doesn't tell us why the driver had a heavy-duty truck, only that they did.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Cross-tabulation of pickup trucks by size tier: deaths, crashes, and occupant lethality ratio. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. Analysis of two-vehicle fatal crashes by weight class, 2011&ndash;2016 vs 2017&ndash;2022. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">Anderson, M.L. &amp; Auffhammer, M., &ldquo;Pounds that Kill: The External Costs of Vehicle Weight,&rdquo; <em>Review of Economic Studies</em>, 2014. Analysis of 4.8 million crashes across eight states. <a href="https://www.nber.org/papers/w17170" target="_blank" rel="noopener">nber.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Self-kill rate&rdquo; = vehicle occupant deaths &divide; total fatal crashes involving that vehicle. Actual occupant vs. other-party death attribution depends on FARS crash-level coding; our methodology uses per-model aggregate deaths and crashes as reported. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
