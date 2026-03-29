@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car&rsquo;s Passport Predicts Your Safety Better Than Your Sobriety &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data shows impairment rates are flat at ~20% across all vehicle origins. Death rates vary 3.3&times;. Swedish vehicles kill at 38 per 100k fleet. American vehicles kill at 125. Same drivers. Different engineering.">
+  <meta property="og:title" content="Your Car's Passport Predicts Your Safety Better Than Your Sobriety">
+  <meta property="og:description" content="Impairment rates are identical across vehicle origins. Death rates aren't even close. The engineering gap between Swedish and American vehicles is a 3.3× body count multiplier.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/origin-safety-gap.html">
+  <meta property="og:site_name" content="The Crash Report">
+  <meta property="og:image" content="https://vehicle-safety.org/images/origin-safety-gap.jpg?v=639a57c3">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Your Car's Passport Predicts Your Safety Better Than Your Sobriety">
+  <meta name="twitter:description" content="Impairment is flat at ~20% across origins. Death rates vary 3.3×. Engineering, not behavior.">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/origin-safety-gap.jpg?v=639a57c3">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/origin-safety-gap.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Your Car&rsquo;s Passport Predicts Your Safety Better Than Your Sobriety</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">March 29, 2026</div>
+
+      <img src="../images/origin-safety-gap.jpg?v=639a57c3" alt="Five national flags overlaid on crash test dummies, each dummy showing a different deformation pattern" style="width:100%;max-width:720px;margin:1.5rem 0;border-radius:8px;">
+
+      <p>Every country that sells cars in America shares the same roads, the same speed limits, the same blood-alcohol threshold of 0.08. Their drivers crash sober and drunk in almost identical proportions. And then <strong>the death rates diverge by a factor of 3.3</strong>.</p>
+
+      <div class="pull-stat">3.3&times;</div>
+      <div class="pull-label">Death rate gap between Swedish-origin and American-origin vehicles per 100k fleet (FARS 2014&ndash;2023)</div>
+
+      <p>I grouped every vehicle in FARS by its brand's country of headquarters and cross-referenced two things: how often the driver was impaired, and how often someone died. The impairment numbers are boring. Roughly one in five fatally-crashed drivers tested positive for alcohol or drugs regardless of whether they were behind the wheel of a Volvo, a BMW, a Hyundai, a Toyota, or a Chevy.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Swedish-origin vehicles: 21.5% impaired. Japanese: 19.7%. American: 20.2%. The spread is 1.8 percentage points across 488,000 drivers. Statistically, nobody is special.</p>
+
+      <p>The death rates are a different animal entirely. Swedish-origin vehicles (Volvo) log 38 fatalities per 100,000 estimated fleet. German brands (BMW, Mercedes, Audi, VW, Porsche) come in at 67. Korean (Hyundai, Kia, Genesis) at 72. Japanese (Toyota, Honda, Nissan, Subaru, Mazda, and their luxury arms) at 114. American brands at 125.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Same intoxication rate. Triple the body count.</p>
+
+      <h2>The Luxury Impairment Twist</h2>
+
+      <p>Buried inside the German and Japanese numbers is an uglier detail. Audi drivers in fatal crashes test impaired at 22.0%, with an alcohol-positive rate of 18.4%. Mercedes-Benz: 21.9%. Infiniti leads the luxury pack at 24.4%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Meanwhile, Ford sits at 19.3%. The $85,000 Audi Q7 and the $32,000 Ford Escape share a highway, and the Audi driver is more likely to be drunk. Yet the German fleet kills at roughly half the American rate per 100k vehicles. Superior crash structures absorb the sins of their owners.</p>
+
+      <h2>Why the Gap Exists (and Why It&rsquo;s Not Just Engineering)</h2>
+
+      <p>The honest answer involves three confounds, and I want to state the strongest one at full volume. American brands include Oldsmobile, Pontiac, Saturn, and Mercury, all discontinued marques with aging, pre-ESC vehicles still accumulating FARS entries through 2023. Korean brands grew US market share primarily after 2010, so their average fleet age is younger. Swedish is a single luxury brand with a modern fleet and a 535-driver sample that a statistician would squint at. <strong>Part of the origin gap is a fleet-age gap.</strong><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>American brands also dominate the body-on-frame truck and SUV segment. Silverados, F-150s, Tahoes, and Expeditions are involved in more multi-vehicle fatalities where mass differentials kill the other car's occupants. The origin gap partly reflects vehicle mix, not just structural quality.</p>
+
+      <p>But here is what the confounds cannot explain: the impairment rates are identical. If the American death toll were a driver-behavior problem, you would see it in the toxicology. You do not. Twenty percent is twenty percent whether the dashboard says Volvo or Chevrolet. Whatever is killing American-brand occupants at 3.3 times the Swedish rate, it is not the bottle.</p>
+
+      <h2>Methodology</h2>
+
+      <p>Deaths and fleet estimates from FARS_BY_MODEL (fars_output.js), grouped by brand headquarters. Impairment from FARS_TOXICOLOGY, same grouping. Country assignment: brand founding nation (Toyota = Japan, Chevrolet = USA, Volvo = Sweden). Rate = deaths per 100,000 estimated 10-year fleet. Impairment = any positive BAC or drug test among fatally-crashed drivers. Fleet estimates carry approximately &plusmn;15% uncertainty for low-volume models. VMT derived from NHTS averages, not actual odometer readings.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <h2>What This Does Not Prove</h2>
+
+      <p>This analysis cannot isolate engineering quality from fleet age, vehicle mix, or usage patterns. FARS captures only fatal crashes; a brand with low fatality rates might have high injury rates. The Swedish sample is small (535 drivers). And "country of origin" is increasingly fictional when Camrys roll off lines in Kentucky and BMWs in South Carolina. What it <em>does</em> prove is that the variation in who dies is not explained by the variation in who drinks. That gap belongs to the machine.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS) Toxicology Data</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA FARS bulk data combined with US vehicle sales estimates and NHTS annual VMT data. Processed via <code>fars_output.js</code>. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">Federal Highway Administration, <em>National Household Travel Survey</em>. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Country of origin&rdquo; reflects brand headquarters, not assembly location. Fleet and VMT are estimates. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
