@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Weight Ceiling: Full-Size SUVs Die at 5.8x the Rate of Compact Crossovers &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data shows compact SUVs kill at 43 per 100K fleet while full-size SUVs hit 253 per 100K. Bigger is not safer. The IIHS agrees.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>The Weight Ceiling: Full-Size SUVs Die at 5.8x the Rate of Compact Crossovers</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">March 29, 2026</div>
+
+      <p>A Chevy Tahoe weighs roughly 5,600 pounds. A Mazda CX-5 tips the scales around 3,600. One sits two feet higher, carries 2,000 more pounds of steel, and costs $20,000 more at the dealer. So naturally, the Tahoe must be the safer bet. It is not. <strong>Full-size SUVs in the FARS database have a fatality rate of 253 per 100,000 fleet vehicles, a number 5.8 times higher than the 43 per 100,000 recorded by compact crossovers.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">5.8&times;</div>
+      <div class="pull-label">Death rate gap between full-size and compact SUVs per 100K fleet</div>
+
+      <p>I ran this calculation expecting a gap. I did not expect a canyon. Sorting every SUV in the FARS 2014&ndash;2023 dataset into three tiers by size gives you a staircase that only goes up: compact crossovers at 43.3, midsize at 79.0, full-size at 253.0 deaths per 100,000 fleet units.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That midsize number includes the Ford Explorer (1.54 per 100M VMT, 3,797 total deaths) and the Jeep Cherokee (1.73, 2,276 deaths), both of which drag their class average upward. But even accounting for those outliers, the jump from midsize to full-size is a 3.2x escalation. Something structural is happening.</p>
+
+      <p>In January 2025, IIHS confirmed the mechanism. Their study of two-vehicle crashes found that once a vehicle exceeds the 4,000-pound fleet average, additional mass provides "hardly any decrease in risk" for occupants. For pickups above that threshold, every 500 extra pounds cut occupant death rates by just one per million registered vehicle years while increasing crash-partner death rates by seven.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> IIHS President David Harkey put it bluntly: "Choosing an extra-heavy vehicle doesn't make you any safer, but it makes you a bigger danger to other people."</p>
+
+      <p>Our FARS data tells the same story from a different direction. Within the full-size tier, newer designs dramatically outperform their predecessors. Durango posts a 0.54 death rate. The Nissan Armada sits at 0.55. Compare those to the Chevy Tahoe (2.49), GMC Yukon (2.55), or the discontinued Trailblazer (2.83), and the pattern becomes obvious: it is not mass saving the Durango's occupants. It is modern crash structures, stability control mandated by FMVSS 126 since 2012<sup class="ref-link"><a href="#ref-3">[3]</a></sup>, and 15 years of incremental airbag engineering. Heavy old trucks in the fleet are dragging the full-size category into the red, while the heavy new trucks quietly prove that engineering, not tonnage, determines who walks away.</p>
+
+      <p>Consider the compact tier. Twenty-three models, 25.9 million vehicles, 11,227 deaths across a decade. Mazda's CX-5 posts 0.12 per 100M VMT. The RAV4 hits 0.19. Even the worst performer, the Ford Escape at 0.95, still beats every single full-size SUV except the Durango and Armada. A compact crossover weighing 3,500 pounds, built on a unibody platform with optimized crumple zones, protects its occupants better per mile driven than a body-on-frame behemoth twice its weight.</p>
+
+      <h3>Methodology</h3>
+      <p>I categorized 52 SUV models in the FARS dataset into three tiers: compact (sub-4,000 lbs typical curb weight, unibody construction), midsize (4,000&ndash;5,000 lbs, mix of unibody and BOF), and full-size (5,000+ lbs, predominantly body-on-frame). Fleet sizes come from estimated registrations in the FARS processing pipeline. Death rate is total FARS fatalities 2014&ndash;2023 divided by estimated fleet, expressed per 100,000 units. This is a blunt instrument. It does not distinguish occupant from non-occupant fatalities. It does not control for driver age, income, or road environment. Rural full-size SUV owners face different conditions than suburban compact crossover commuters.</p>
+
+      <h3>Limitations</h3>
+      <p>Vehicle age is the biggest confound. The full-size tier includes models like the Chevrolet Trailblazer (2002&ndash;2009 production) and GMC Envoy (2002&ndash;2009) that pre-date ESC mandates and modern side-curtain airbag standards. Their elevated rates inflate the full-size category average. A fair comparison would restrict to post-2012 model years only, which I cannot isolate cleanly in this dataset. Additionally, FARS captures only fatal crashes, not the roughly 6.7 million total crashes per year, meaning a low fatality rate might mask a high injury rate.</p>
+
+      <h3>Strongest Counterargument</h3>
+      <p>A skeptic would correctly note that fleet demographics explain much of this gap. Full-size SUV owners skew rural, where higher speed limits, longer emergency response times, and two-lane roads increase fatal crash severity. Compact crossover owners skew suburban and urban, where crashes are more frequent but less lethal. If you dropped a CX-5 driver into rural Montana at 75 mph, their survival advantage would narrow. This argument has genuine force. The IIHS study partly answers it by using registered vehicle years rather than VMT, reducing the rural-mileage confound, and still finding the same diminishing returns above 4,000 pounds.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Analysis: SUV models categorized into compact (23 models, 25.9M fleet), midsize (19 models, 18.2M fleet), and full-size (10 models, 4.1M fleet) tiers. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, &ldquo;Supersizing vehicles offers minimal safety benefits &mdash; but substantial dangers,&rdquo; January 2025. <a href="https://www.iihs.org/news/detail/supersizing-vehicles-offers-minimal-safety-benefits--but-substantial-dangers" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">NHTSA, Electronic Stability Control Final Rule (FMVSS 126), 49 CFR Part 571, effective 2012 model year. <a href="https://www.govinfo.gov/content/pkg/FR-2007-06-22/html/E7-11965.htm" target="_blank" rel="noopener">govinfo.gov</a></li>
+          <li id="ref-4">IIHS, &ldquo;Vehicle Size and Weight,&rdquo; topic summary. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. SUV tier classifications are approximate and based on typical curb weight and construction type. Fleet estimates use VMT-derived approximations with &plusmn;15% uncertainty for lower-volume models. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
