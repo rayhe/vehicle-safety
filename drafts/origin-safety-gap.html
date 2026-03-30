@@ -57,15 +57,17 @@
 
       <h2>Why the Gap Exists (and Why It&rsquo;s Not Just Engineering)</h2>
 
-      <p>The honest answer involves three confounds, and I want to state the strongest one at full volume. American brands include Oldsmobile, Pontiac, Saturn, and Mercury, all discontinued marques with aging, pre-ESC vehicles still accumulating FARS entries through 2023. Korean brands grew US market share primarily after 2010, so their average fleet age is younger. Swedish is a single luxury brand with a modern fleet and a 535-driver sample that a statistician would squint at. <strong>Part of the origin gap is a fleet-age gap.</strong><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+      <p>The honest answer involves three confounds, and I want to state the strongest one at full volume. American brands include Oldsmobile, Pontiac, Saturn, and Mercury, all discontinued marques with aging, pre-ESC vehicles still accumulating FARS entries through 2023. Korean brands grew US market share primarily after 2010, so their average fleet age is younger. Swedish is a single luxury brand with a modern fleet and a 535-driver sample that a statistician would squint at.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>So I ran the calculation. Strip out every discontinued American brand and recalculate. The result: active-only American brands (Chevy, Ford, Dodge, Ram, Jeep, GMC, Chrysler, Buick, Cadillac, Lincoln) come in at <strong>127 deaths per 100k fleet</strong>. Worse than the 125 you get when you include the dead brands. Pontiac, Saturn, and Mercury were mostly sedans with smaller fleets and lower rates (104/100k). Removing them doesn't close the gap. It widens it.</p>
 
       <p>American brands also dominate the body-on-frame truck and SUV segment. Silverados, F-150s, Tahoes, and Expeditions are involved in more multi-vehicle fatalities where mass differentials kill the other car's occupants. The origin gap partly reflects vehicle mix, not just structural quality.</p>
 
       <p>But here is what the confounds cannot explain: the impairment rates are identical. If the American death toll were a driver-behavior problem, you would see it in the toxicology. You do not. Twenty percent is twenty percent whether the dashboard says Volvo or Chevrolet. Whatever is killing American-brand occupants at 3.3 times the Swedish rate, it is not the bottle.</p>
 
-      <h2>Methodology</h2>
+      <h2>Methodology (the Boring but Necessary Part)</h2>
 
-      <p>Deaths and fleet estimates from FARS_BY_MODEL (fars_output.js), grouped by brand headquarters. Impairment from FARS_TOXICOLOGY, same grouping. Country assignment: brand founding nation (Toyota = Japan, Chevrolet = USA, Volvo = Sweden). Rate = deaths per 100,000 estimated 10-year fleet. Impairment = any positive BAC or drug test among fatally-crashed drivers. Fleet estimates carry approximately &plusmn;15% uncertainty for low-volume models. VMT derived from NHTS averages, not actual odometer readings.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+      <p>Deaths and fleet estimates from FARS_BY_MODEL (fars_output.js), grouped by brand headquarters. Impairment from FARS_TOXICOLOGY, same grouping. Country assignment: brand founding nation (Toyota = Japan, Chevrolet = USA, Volvo = Sweden). Rate = deaths per 100,000 estimated 10-year fleet. Impairment = any positive BAC or drug test among fatally-crashed drivers. Fleet estimates carry approximately &plusmn;15% uncertainty for low-volume models. VMT derived from NHTS averages, not actual odometer readings.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> If you want to run it yourself, the data is open-source. I encourage it. The numbers do not improve with replication.</p>
 
       <h2>What This Does Not Prove</h2>
 

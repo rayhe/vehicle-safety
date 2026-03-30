@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Vehicles That Let Drunk Drivers Walk Away &mdash; The Crash Report</title>
+  <meta name="description" content="A novel FARS cross-tabulation reveals which vehicles most effectively shield impaired drivers from the fatal consequences of their own crashes while transferring lethal force to everyone else.">
+  <meta property="og:title" content="The Vehicles That Let Drunk Drivers Walk Away">
+  <meta property="og:description" content="A novel FARS cross-tabulation reveals which vehicles shield impaired drivers from fatal consequences while transferring risk to everyone else.">
+  <meta property="og:image" content="../images/drunk-driver-armor.jpg?v=54da4820">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Drunk Driver Armor: The Vehicles That Let Impaired Drivers Walk Away While Their Victims Don't</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">March 30, 2026</div>
+
+      <p>The Ram 2500 is involved in fatal crashes at a rate of 0.13 per 100 million vehicle miles traveled. That's one of the <strong>lowest occupant death rates in the entire FARS database</strong>. Sounds safe. Sounds like exactly the truck you'd want your family riding in.</p>
+
+      <p>Except the Ram 2500 isn't avoiding fatal crashes. It's in plenty of them. It just keeps killing the <em>other</em> person.</p>
+
+      <div class="pull-stat">4.89&times;</div>
+      <div class="pull-label">Ram 2500 fatal crashes per occupant death &mdash; meaning ~80% of the time, someone else dies</div>
+
+      <p>We built a metric nobody asked for. Call it the DUI Armor Index: take a vehicle's protection ratio (how many fatal crashes it's involved in per occupant death) and multiply it by its FARS impairment rate. The result quantifies something uncomfortable. Which vehicles most effectively insulate impaired drivers from the consequences of their crashes while transferring lethal force to other road users?</p>
+
+      <h2>The Math Behind the Moral Hazard</h2>
+
+      <p>Protection ratio is simple. If a vehicle appears in 748 fatal crashes but only 153 of those killed its own occupant, that's a 4.89&times; ratio. The remaining 595 crashes? Someone in another vehicle died. A pedestrian. A cyclist. Whoever wasn't inside 6,400 pounds of steel.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Now layer on impairment. FARS toxicology testing on drivers involved in fatal crashes shows that 19.7% of Ram 2500 drivers tested positive for alcohol or drugs.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> That's roughly in line with the pickup class average of 20.1%. Nothing remarkable on its own.</p>
+
+      <p>But combine the two: 80% external kill rate multiplied by 20% impairment rate. Roughly <strong>16% of Ram 2500 fatal crashes involve an impaired driver who survives while someone else doesn't</strong>. That's not a safety feature. That's an externality with a V8.</p>
+
+      <h2>The DUI Armor Leaderboard</h2>
+
+      <p>The top scorers won't surprise anyone who's been paying attention to the mass-vs-safety literature. Every vehicle in the top ten weighs over 4,000 pounds, the threshold IIHS identified where additional mass stops protecting the driver and starts killing everyone else.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Ram 2500 leads with a DUI Armor score of 96.3. Ram 1500 follows at 59.6. Ford F-250 at 55.8. Then the SUVs pile in: GMC Acadia (53.1), Dodge Durango (52.3), Jeep Grand Cherokee (47.2). The Dodge Charger cracks the top six at 48.8, the lone sedan, trading protection ratio for sheer impairment enthusiasm at 22.7%.</p>
+
+      <p>Notice anything? Seven of the top ten are pickups or body-on-frame SUVs. Vehicles built on truck platforms with frame rails that ride higher than a sedan's door sill. When IIHS reports that pickups striking cars are 159% to 212% more likely to kill the car's occupant compared to car-on-car crashes, this is the mechanism.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <h2>Now Flip the Table</h2>
+
+      <p>At the other end: the unarmored drunk. Vehicles with high impairment and almost zero protection.</p>
+
+      <p>The Chevy Cavalier has a protection ratio of just 1.17&times; with 22.4% impairment. The Dodge Neon: 1.17&times; and 23.2%. The Buick LeSabre: 1.22&times; and 23.5%. In these vehicles, if you crash while impaired, you die. Nearly every time. The car offers approximately the same structural protection as a firm suggestion.</p>
+
+      <p>The Chevy Cobalt deserves its own footnote of horror: 1.24&times; protection ratio, 22.4% impairment, and a death rate of 5.1 per 100M VMT. Not the vehicle you want protecting a compromised driver. Not that any vehicle should need to.</p>
+
+      <h2>Limitations &amp; the Strongest Counterargument</h2>
+
+      <p>FARS tests toxicology on deceased drivers, so the protection ratio introduces a sampling bias: in heavy-vehicle crashes, the surviving (untested) driver might be the impaired one. Our impairment rates come from the tested drivers of each make and model, but this methodology can't distinguish whether the impaired person was the truck driver or the person they hit. It's an aggregate rate, not a directional arrow.</p>
+
+      <p>The strongest counterargument: these vehicles are disproportionately used for rural driving, towing, and long-distance work. Their crash profiles may reflect road type and trip purpose more than mass advantage. Rural roads are 2.3&times; deadlier per VMT than urban roads, and pickups overindex on rural use.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Some of the "protection" ratio may simply be that the other vehicles involved in rural crashes are older, lighter, and less safe by design.</p>
+
+      <p>That argument has teeth. It doesn't fully explain a 4.89&times; ratio, but it muddies the water enough to matter.</p>
+
+      <h2>What Does This Actually Mean?</h2>
+
+      <p>Forty-four percent of fatalities in alcohol-related crashes are people other than the drunk driver.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Vehicle mass determines which direction the dying goes. The DUI Armor Index simply makes the interaction explicit.</p>
+
+      <p>IIHS has already shown that above 4,000 pounds, additional vehicle weight provides zero additional benefit to the driver while dramatically increasing partner-vehicle fatality risk. Every pound above that threshold is, from a public safety standpoint, a weapon pointed outward. Add impairment, and that weapon is being wielded without full cognitive function.</p>
+
+      <p>DUI sentencing doesn't currently factor in vehicle mass. Maybe it should.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Protection ratio computed as fatal crashes involving each vehicle model divided by occupant fatalities in that model. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA FARS toxicology data, 2014&ndash;2023. Impairment defined as BAC &gt; 0 or drug-positive result in FARS fatal crash testing. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Size and Weight</em>. Study using FARS 2011&ndash;2022 data found additional mass above ~4,000 lbs provides no driver safety benefit while increasing partner vehicle fatality risk. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">IIHS, <em>Fatality Statistics: Large Trucks</em>. Pickup trucks striking passenger cars result in 159&ndash;212% higher occupant fatality rates for the car compared to car-on-car crashes. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-5">IIHS, <em>Fatality Statistics: Urban/Rural Comparison</em>. Rural fatality rates per VMT are approximately 2.3 times higher than urban rates. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-6">NHTSA, <em>Traffic Safety Facts: Alcohol-Impaired Driving</em>, 2023. 44% of fatalities in crashes involving a drinking driver (BAC &ge; 0.01) were people other than the drinking driver. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 via The Crash Report's aggregated dataset. Protection ratio = fatal crashes involving vehicle / occupant deaths in that vehicle. Impairment rate = percentage of tested drivers with BAC &gt; 0 or drug-positive toxicology. DUI Armor Index = protection ratio &times; impairment rate. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
