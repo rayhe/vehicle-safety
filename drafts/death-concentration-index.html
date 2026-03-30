@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Death Concentration Index: Which Cars Kill Chronically vs. Which Had One Bad Generation &mdash; The Crash Report</title>
+  <meta name="description" content="Applying the Herfindahl-Hirschman Index to FARS data reveals which vehicles are chronically dangerous across all generations and which had a single deadly design era.">
+  <meta property="og:title" content="The Death Concentration Index">
+  <meta property="og:description" content="Some cars kill regardless of model year. Others had one catastrophic generation. An economics tool reveals which is which.">
+  <meta property="og:image" content="../images/death-concentration-index.jpg">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Death Concentration Index: Chronic Killers vs. One Bad Generation</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">March 30, 2026</div>
+
+      <img src="../images/death-concentration-index.jpg" alt="Visualization of vehicle fatality concentration across model years" style="width:100%;max-width:720px;margin:1.5rem 0;border-radius:8px;">
+
+      <p>I borrowed a tool from antitrust lawyers and pointed it at ten years of fatal crash data. The Herfindahl-Hirschman Index measures market concentration for the Department of Justice. Apply it to FARS fatalities by model year, and it answers a question nobody at NHTSA seems to have asked: <strong>is a vehicle's body count a chronic condition, or was there one spectacularly bad generation?</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">0.036</div>
+      <div class="pull-label">Jeep Wrangler's HHI score: the lowest of any vehicle with 300+ deaths. It kills uniformly across 35 model years.</div>
+
+      <p>The math is simple. For each vehicle, take every model year's share of total deaths, square each share, and sum them. A perfectly uniform distribution across 30 model years gives you an HHI around 0.033. A vehicle where one model year accounts for all the carnage scores 1.0. Low HHI means the vehicle kills chronically, regardless of redesigns. High HHI means one generation did most of the damage.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>The Jeep Wrangler scored 0.036. That is as close to perfectly uniform death as FARS data allows. Across 1,836 fatalities and 35 model years, no single vintage accounts for more than 5.6% of the body count. Buy a 1998 Wrangler or a 2020 Wrangler. The FARS data does not care. The Wrangler's problem isn't a bad generation. It's the Wrangler.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Honda Civic (HHI 0.037, 6,545 deaths across 37 model years), Toyota Camry (0.039, 6,318 deaths), Honda Accord (0.040, 7,085 deaths), Toyota Corolla (0.040, 4,931 deaths). America's best-selling sedans are all chronic killers. No single generation stands out because every generation contributes. These are not bad cars in any traditional sense. They are everywhere, driven by everyone, for decades. Their death toll is the tax on ubiquity.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Now flip the chart. The Pontiac G6 scored 0.200, the highest HHI in the dataset. A quarter of its 907 total deaths came from a single model year: 2006. The Chevrolet Cobalt scored 0.175, with 2006 model year deaths accounting for 21.3% of its 1,540-death total. The Dodge Neon hit 0.164, with 2005 commanding 26.6%. These are vehicles where one platform generation was the problem, and GM's Delta platform (Cobalt, G6) was the worst offender.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>The GMC Envoy (HHI 0.139), Pontiac Grand Am (0.127), and Jeep Liberty (0.125) cluster in the same zone. GM owned two of those three; Chrysler owned the Liberty. All shared the same mid-2000s cost-optimization playbook. All have death records dominated by model years 2003 to 2005. Detroit's cost-cutting era didn't produce chronically dangerous platforms. It produced acutely dangerous ones that burned bright and killed fast.</p>
+
+      <h3>Methodology</h3>
+      <p>HHI = &Sigma;(s<sub>i</sub>&sup2;), where s<sub>i</sub> = deaths in model year i &divide; total deaths. Filtered to vehicles with 300+ total fatalities in FARS 2014&ndash;2023 and model years with 5+ deaths each. HHI of 1/n (where n = number of active model years) represents perfect uniformity.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <h3>Limitations</h3>
+      <p>HHI is sensitive to production span. A vehicle made for 6 years (Cobalt) will naturally score higher than one made for 35 years (Wrangler). Higher sales years put more vehicles on the road, inflating deaths without fleet normalization. FARS captures fatal crashes only; a vehicle with a low fatality HHI might still have concentrated injury patterns. Model year in FARS reflects the vehicle's build vintage, not the calendar year of the crash.</p>
+
+      <h3>Strongest Counterargument</h3>
+      <p>The chronic killers on this list are also America's highest-volume vehicles. Their low HHI may simply reflect decades of mass production spreading deaths across more model year bins. That objection has real force. But the Subaru Outback (HHI 0.038, 704 deaths, 33 model years) and Ford Mustang (HHI 0.041, 2,688 deaths, 39 model years) are neither high-volume family sedans nor fleet vehicles, and they score just as chronic. Volume explains part of the pattern. Not all of it.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">U.S. Department of Justice &amp; Federal Trade Commission, <em>Horizontal Merger Guidelines</em>, &sect;5.3 (HHI methodology). <a href="https://www.justice.gov/atr/horizontal-merger-guidelines-08192010" target="_blank" rel="noopener">justice.gov</a></li>
+          <li id="ref-3">GM ignition switch recalls (Cobalt, G6, Ion platforms). <a href="https://en.wikipedia.org/wiki/General_Motors_ignition_switch_recalls" target="_blank" rel="noopener">Wikipedia</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. HHI calculations use model-year death counts; no fleet-size normalization applied. Production run length affects concentration scores. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
