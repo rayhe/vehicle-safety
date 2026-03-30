@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impairment Doesn&rsquo;t Explain Your Car&rsquo;s Death Rate. We Did the Math. &mdash; The Crash Report</title>
+  <meta name="description" content="Cross-tabulating FARS death rates with toxicology data reveals a flat 20% impairment constant across all vehicle classes. The 200x gap in death rates is almost entirely a vehicle engineering story.">
+  <meta property="og:title" content="Impairment Doesn&rsquo;t Explain Your Car&rsquo;s Death Rate. We Did the Math.">
+  <meta property="og:description" content="Cross-tabulating FARS death rates with toxicology data reveals a flat 20% impairment constant across all vehicle classes. The 200x gap in death rates is almost entirely a vehicle engineering story.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/impairment-adjusted-rate.jpg?v=13b34225">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/impairment-adjusted-rate.html">
+  <meta property="og:site_name" content="The Crash Report">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Impairment Doesn&rsquo;t Explain Your Car&rsquo;s Death Rate. We Did the Math.">
+  <meta name="twitter:description" content="Cross-tabulating FARS death rates with toxicology data reveals a flat 20% impairment constant across all vehicle classes.">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/impairment-adjusted-rate.jpg?v=13b34225">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Impairment Doesn&rsquo;t Explain Your Car&rsquo;s Death Rate. We Did the Math.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">March 29, 2026</div>
+
+      <p>Everyone has a theory about why certain vehicles pile up bodies in FARS data. Maybe the Mustang attracts reckless drunks. Maybe the Corvette is a midlife crisis on wheels, piloted home at 2 AM from a steakhouse bar. Reasonable assumptions. Also wrong. I cross-tabulated per-model FARS fatality rates with per-model toxicology results across <strong>307 vehicle models and 191,193 fatal crashes</strong>, and the result guts the conventional wisdom: impairment is a near-constant across every vehicle class. It does not explain why some cars are 200 times deadlier than others per mile.</p>
+
+      <div class="pull-stat">3.4%</div>
+      <div class="pull-label">Total spread in impairment rates across all five vehicle classes</div>
+
+      <h2>The Flattest Line in Crash Data</h2>
+
+      <p>We grouped FARS toxicology results (BAC &gt; 0 or drug-positive) by vehicle class:</p>
+
+      <table class="data-table" style="max-width:500px;margin:1.5em auto">
+        <tr><th>Class</th><th>Impaired %</th><th>Models</th></tr>
+        <tr><td>Sports Car</td><td style="color:#D32F2F;font-weight:700">22.3%</td><td>14</td></tr>
+        <tr><td>Sedan</td><td>21.0%</td><td>131</td></tr>
+        <tr><td>Pickup</td><td>20.6%</td><td>25</td></tr>
+        <tr><td>SUV</td><td>19.4%</td><td>115</td></tr>
+        <tr><td>Van</td><td style="color:#2e7d32;font-weight:700">18.9%</td><td>22</td></tr>
+      </table>
+
+      <p>Read that column again. Sports cars to minivans, the impairment rate spans 18.9% to 22.3%. A gap of three and a half percentage points. I ran the numbers twice because I didn't believe them. Meanwhile, the death rate per 100 million VMT ranges from 0.03 (Tesla Model Y) to 8.54 (Hyundai Veloster). A 285-to-1 ratio in outcomes. Explained by a factor that barely moves the needle.</p>
+
+      <h2>The Sober Death Rate</h2>
+
+      <p>I computed each vehicle's "sober death rate" by multiplying its per-100M-VMT rate by (1 minus its impairment fraction). Strip out every impaired driver. See what's left. What's left is the vehicle.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <table class="data-table" style="max-width:650px;margin:1.5em auto">
+        <tr><th>Vehicle</th><th>Full Rate</th><th>Sober Rate</th><th>Impaired %</th></tr>
+        <tr><td>Hyundai Veloster</td><td style="color:#D32F2F;font-weight:700">8.54</td><td style="color:#D32F2F;font-weight:700">7.05</td><td>17.4%</td></tr>
+        <tr><td>Chevy Tracker</td><td>7.83</td><td>6.84</td><td>12.7%</td></tr>
+        <tr><td>Toyota Land Cruiser</td><td>6.27</td><td>5.71</td><td>8.9%</td></tr>
+        <tr><td>Ford Mustang</td><td>6.02</td><td>4.70</td><td>21.9%</td></tr>
+        <tr><td>Toyota Solara</td><td>4.25</td><td>4.08</td><td>4.1%</td></tr>
+        <tr><td>Chevy Cobalt</td><td>5.10</td><td>3.96</td><td>22.4%</td></tr>
+        <tr><td>Chevy Impala</td><td>5.00</td><td>3.93</td><td>21.4%</td></tr>
+        <tr><td>Tesla Model Y</td><td style="color:#2e7d32;font-weight:700">0.03</td><td style="color:#2e7d32;font-weight:700">0.02</td><td>14.0%</td></tr>
+      </table>
+
+      <p>The Veloster drops from 8.54 to 7.05. Still a catastrophe. The Solara goes from 4.25 to 4.08, because only 4.1% of its fatal-crash drivers were impaired. Ninety-six percent of Solara occupants who died did so stone sober. Not a driver behavior problem. A sheet metal problem.</p>
+
+      <h2>The Backward Correlation</h2>
+
+      <p>If dangerous cars attracted impaired drivers, you would expect a positive correlation between death rate and impairment percentage. It runs backward. The highest-impairment vehicles are overwhelmingly performance and luxury cars with <em>moderate</em> death rates:</p>
+
+      <table class="data-table" style="max-width:550px;margin:1.5em auto">
+        <tr><th>Vehicle</th><th>Impaired %</th><th>Death Rate</th></tr>
+        <tr><td>Chevy Corvette</td><td style="color:#D32F2F;font-weight:700">26.2%</td><td>1.52</td></tr>
+        <tr><td>Cadillac CTS</td><td>25.9%</td><td>1.32</td></tr>
+        <tr><td>Infiniti G37</td><td>25.0%</td><td>0.90</td></tr>
+        <tr><td>Infiniti G35</td><td>24.0%</td><td>1.05</td></tr>
+        <tr><td>Mercedes E-Class</td><td>23.5%</td><td>0.64</td></tr>
+      </table>
+
+      <p>One in four Corvette drivers in fatal crashes tested positive. Yet the Corvette's death rate (1.52) is less than a third of the Veloster's (8.54), whose drivers are 9 percentage points more sober. The Corvette absorbs crashes. The Veloster does not. Good engineering covers for bad decisions. Bad engineering punishes good ones.</p>
+
+      <h2>Methodology</h2>
+
+      <p>For each of 307 models with 100+ drivers in FARS toxicology data (2014-2023), I multiplied the published per-100M-VMT death rate by (1 - anyPct/100), where anyPct is the percentage of drivers in fatal crashes who tested positive for alcohol (BAC &gt; 0) or any drug. Output: an estimated sober death rate isolating vehicle-attributable risk from driver-behavior risk.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <h2>Limitations</h2>
+
+      <p>This analysis assumes impairment is independent of crash outcome, which it is not. An impaired driver in a structurally weak car faces compounding risk. Our sober death rate is an approximation, not a causal decomposition. FARS toxicology testing is not universal; reporting rates vary by state, creating a 15-30% undercount of impaired drivers in some jurisdictions.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Fleet age is a confound: older vehicles have both worse structural safety and different driver demographics. This impairment "constant" may reflect FARS sampling rather than true population behavior.</p>
+
+      <h2>Strongest Counterargument</h2>
+
+      <p>The uniformity of impairment rates across classes could be an artifact of FARS only capturing <em>fatal</em> crashes. Non-fatal crash data might show wildly different impairment distributions by vehicle type. If SUV occupants survive impaired crashes that sedan occupants do not, the fatality-level impairment rate converges artificially. This survivorship filter could mask real class-level behavioral differences that only appear at lower severity levels. NHTSA's CRSS (Crash Report Sampling System) data on non-fatal crashes would be needed to test this hypothesis, and we did not have access to model-level CRSS breakdowns.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Per-model fatality rates and toxicology results. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA FARS query tool, used for per-model toxicology cross-tabulation. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Drug and Alcohol Crash Risk: A Case-Control Study</em> (DOT HS 812 440), notes on FARS toxicology testing coverage variability. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">NHTSA, <em>Crash Report Sampling System (CRSS)</em>, non-fatal crash data. <a href="https://www.nhtsa.gov/crash-data-systems/crash-report-sampling-system" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Impairment defined as BAC &gt; 0 or drug-positive toxicology in FARS-reported fatal crashes. "Sober death rate" is an estimate, not a causal decomposition. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
