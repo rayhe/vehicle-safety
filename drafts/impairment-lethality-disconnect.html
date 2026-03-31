@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drunk or Sober, the Car Doesn't Care &mdash; The Crash Report</title>
+  <meta name="description" content="Within a vehicle class, impairment rates have zero correlation with crash lethality. Your car's engineering decides if you live or die, not your blood alcohol level.">
+  <meta property="og:title" content="Drunk or Sober, the Car Doesn't Care">
+  <meta property="og:description" content="Within a vehicle class, impairment rates have zero correlation with crash lethality. Vehicle engineering decides survivability, not sobriety.">
+  <meta property="og:image" content="../images/impairment-lethality-disconnect.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Drunk or Sober, the Car Doesn't Care</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">March 31, 2026</div>
+
+      <div class="story-body">
+        <p>Every safety campaign in America sells the same story: stay sober, stay alive. And they're right about the first part. Impaired drivers are roughly four times more likely to end up in a fatal crash in the first place.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> No argument there.</p>
+
+        <p>But what happens <em>after</em> metal meets metal? We cross-tabulated FARS impairment rates with crash lethality ratios across 189 vehicle models. The overall correlation looked real: <strong>r = 0.23</strong>. Then we controlled for vehicle class. Classic Simpson's Paradox. The number evaporated.</p>
+
+        <div class="pull-stat">r = 0.07</div>
+        <div class="pull-label">Sedan impairment-vs-lethality correlation across 80 models. Effectively zero.</div>
+
+        <p>Sedans: r = 0.07. Pickups: r = 0.009. SUVs: r = 0.14.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Within any vehicle class, the percentage of impaired drivers behind the wheel of a given model tells you nothing about whether its occupants survive a fatal crash. Nothing. Steel and airbags determine who walks away. Blood chemistry does not.</p>
+
+        <p>The Toyota Solara posts 4.1% impairment and 0.685 lethality. Overwhelmingly sober drivers. The Infiniti G37 runs 25% impaired and posts 0.681. Six times more intoxicated drivers behind the wheel; functionally identical survivability. Cadillac CTS at 25.9% impaired? Lethality of 0.688. Sober Solara owners die at the same rate as the Infiniti's impaired ones.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+        <p>That weak overall signal (r = 0.23) is a textbook confound. Both impairment and lethality are higher in sedans than in trucks. Sedans average 20.4% impaired and 0.644 lethality. Pickups: 20.1% and 0.489.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Lump them together and you get a phantom correlation. Separate them and it vanishes. The real variable was vehicle mass all along.</p>
+
+        <p>Methodology: we divided own-vehicle deaths by total fatal crashes for each model (the lethality ratio), then correlated that against FARS toxicology impairment percentages. Filtered to 200+ crashes and 50+ toxicology-tested drivers. Pearson r computed overall and within each of five vehicle classes.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+        <p>What this does <em>not</em> prove: that sobriety is irrelevant to crash survival. FARS only captures fatal crashes. Impaired drivers crash at higher speeds and in different configurations (single-vehicle rollovers vs. intersection T-bones), so crash kinematics differ.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> We are measuring survivability <em>conditional on already being in a fatal-severity crash</em>, not overall risk. FARS toxicology testing is also incomplete, meaning some impairment goes unrecorded.</p>
+
+        <p>The strongest case against our finding: drunk drivers may crash hard enough to overwhelm any structural advantage. A 70 mph tree strike and a 35 mph broadside produce wildly different forces. If impaired crashes cluster at higher speeds, vehicle engineering gains cancel against the kinetic energy penalty. The within-class zero correlation might reflect those cancellations, not true independence between sobriety and survivability.</p>
+
+        <p>Possibly. But IIHS research has consistently identified vehicle size and structural design as the dominant predictors of real-world occupant survival.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Our data puts a number on what their work implies. Once the crash starts, physics selects for crumple zones. Not for what you drank.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Alcohol-impaired driving</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTSA, <em>FARS Analytical User&rsquo;s Manual</em>, toxicology testing coverage and crash-type classifications. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813254" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Lethality = vehicle-level deaths / total fatal crashes involving that vehicle. Pearson r across 189 models (200+ crashes, 50+ toxicology-tested drivers). Impairment increases crash probability; this analysis examines survivability conditional on crash occurrence. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
