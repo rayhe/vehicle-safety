@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car's Passport Predicts Whether You Survive a Crash &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals German sedans have 16% lower per-crash lethality than American ones. But Japan's worse overall number hides a statistical illusion.">
+  <meta property="og:title" content="Your Car's Passport Predicts Whether You Survive a Crash">
+  <meta property="og:description" content="A FARS cross-tabulation of crash lethality by country of origin and vehicle class reveals a Simpson's Paradox — and a German engineering advantage that's very real.">
+  <meta property="og:image" content="../images/country-of-origin-safety-myth.jpg?v=9672929e">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>Your Car&rsquo;s Passport Predicts Whether You Survive a Crash</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">March 31, 2026</div>
+
+      <img src="../images/country-of-origin-safety-myth.jpg?v=9672929e" alt="Four national flags overlaid on crumple zone cross-sections" style="width:100%;border-radius:8px;margin:1.5rem 0;">
+
+      <p>Cross-tabulate every fatal crash in FARS from 2014 to 2023 by the country where the automaker is headquartered, then split by vehicle class, and a pattern emerges that should make sedan buyers extremely uncomfortable. <strong>German sedans have a per-crash lethality of 0.563. American sedans sit at 0.671.</strong> That is a 16% survival gap, measured across 62,340 fatal crashes involving sedans alone.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">16%</div>
+      <div class="pull-label">Survival advantage of German sedans over American sedans in fatal crashes</div>
+
+      <p>A quick look at aggregate numbers suggests Japanese cars are deadlier than American ones: 0.590 per-crash lethality versus 0.558. That is a textbook Simpson's Paradox. Japan sells proportionally more sedans (the deadliest vehicle class, at 0.645 lethality) and fewer full-size pickups (the most occupant-protective at 0.489). Correct for class mix and Japan's sedan lethality is actually <em>lower</em> than America's: 0.641 versus 0.671.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>The hierarchy within sedans tells a story about engineering investment. Korean sedans land at 0.610, splitting the difference. German sedans, at 0.563, sit in a class apart. The gap widens further for SUVs: German SUVs post a 0.384 lethality figure, while American SUVs manage 0.539. That means a BMW X3 or Audi Q5 occupant is roughly 29% less likely to die in a given fatal crash than someone in a comparably-sized American SUV.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Before anyone prints "Buy German" bumper stickers: fleet age confounds this badly. German and Korean brands have gained US market share recently, so their vehicles in the FARS window skew newer. Newer cars have better crumple zones, more airbags, and stronger roof structures regardless of what flag is on the badge. Some of the "German advantage" is just a "new car advantage." The IIHS has documented this effect extensively: a 2011 study found that ESC alone reduces fatal single-vehicle crash risk by 33% for cars and 56% for SUVs, and ESC penetration varies sharply by fleet age.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>Still, the numbers are stubborn. Korean vehicles show a median death rate of 0.40 per 100M VMT, matching Germany and beating both the US (0.59) and Japan (0.57). Korea achieves this despite selling predominantly sedans, the class with the worst survival odds. Hyundai and Kia are building cars that crash less often per mile than Toyotas and Hondas do, even if they protect occupants slightly less well when they crash (0.610 vs Japan's 0.641 for sedans). That is a remarkable value proposition at $10,000 less per vehicle.</p>
+
+      <p>Sweden deserves an asterisk. Five models (Volvo and Saab), 171 deaths, 279 crashes, and a median rate of 0.30. The sample is tiny. But a 0.30 rate in a dataset where the American median is 0.59 suggests Volvo's reputation is not entirely marketing. Those drivers either crash less or drive less; either way, they die less.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <h2>Methodology</h2>
+
+      <p>Per-crash lethality is calculated as total deaths divided by total crashes for each vehicle model in FARS 2014&ndash;2023, then aggregated by brand headquarters nationality and vehicle class. "Country of origin" refers to corporate headquarters, not manufacturing location; many Toyota Camrys are built in Kentucky. The cross-tabulation covers 337 models with 50+ deaths or 1,000+ annual sales. Minimum threshold for class-level analysis: 50 crashes. Rates are deaths per 100M VMT using estimated fleet sizes and NHTS annual mileage data.</p>
+
+      <h2>Limitations</h2>
+
+      <p>FARS captures only the roughly 40,000 annual fatal crashes, a fraction of the 6.7 million total reported crashes. A vehicle with low fatal-crash lethality might still produce disproportionate injuries. Fleet age distribution differs significantly by origin: Korean and German models skew newer, American models include vehicles from the early 2000s still circulating on secondary markets. This age confound cannot be fully separated from engineering quality in this dataset. VMT estimates introduce &plusmn;15% uncertainty for low-volume models.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Fatality Statistics: Passenger Vehicle Occupants</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue,&rdquo; 2011. <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-5">NHTSA FARS query tool, <em>CDAN</em>. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Country of origin&rdquo; is by corporate headquarters, not manufacturing plant. Fleet age confounding cannot be fully separated from engineering quality. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
