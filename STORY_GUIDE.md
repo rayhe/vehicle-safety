@@ -51,6 +51,12 @@ Every article MUST include a `<section class="story-references">` block with lin
 ```
 3. DO NOT invent URLs. Only link to pages you know exist. When in doubt, link to the parent topic page rather than a specific article that might 404.
 
+## Actionable Insights (Required — HARD GATE)
+Every article MUST include actionable takeaways. This is a publishing gate. The reader should finish knowing what to DO: check their VIN for recalls, avoid specific model years, understand what safety features to prioritize, know which ratings actually predict crash outcomes. If the data doesn't support action yet, say so explicitly.
+
+Not acceptable: "Safety is important and these numbers are concerning."
+Acceptable: "If you're shopping for a midsize SUV: the 2019-2022 Tucson has a fatality rate 2.3x the segment average. The Forester and RAV4 are half that. Check your VIN at nhtsa.gov/recalls before your next oil change."
+
 ## Data sources
 All stories are derived from `fars_output.js`, which contains three arrays:
 
