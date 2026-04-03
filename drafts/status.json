@@ -1,1 +1,17 @@
-{"current": {"slug": "nissan-subprime-death-pipeline", "phase": "SHIP", "journalist": "Rex Driverton", "started": "2026-04-02T04:35:00Z", "round": 0, "critique_scores": {"general": 8.5, "voice": 8.5, "ethics": 9.0, "social": 8.5, "legal": 8.5, "rigor": 9.0}, "gate_note": "1/day gate: #136 published 2026-04-02, hero image generated, ready to ship next UTC day"}, "last_completed": {"slug": "same-price-different-coffin", "headline": "Same Price, Different Coffin: The Death Rate Lottery Hiding in Your Car Payment", "journalist": "Clara Rollover", "published_at": "2026-04-02T02:30:00Z", "article_number": 136}}
+{
+  "current": {
+    "slug": "nissan-subprime-death-pipeline",
+    "phase": "QA",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-02T04:35:00Z",
+    "shipped_at": "2026-04-03T00:30:00Z",
+    "article_number": 137
+  },
+  "last_completed": {
+    "slug": "same-price-different-coffin",
+    "headline": "Same Price, Different Coffin: The Death Rate Lottery Hiding in Your Car Payment",
+    "journalist": "Clara Rollover",
+    "published_at": "2026-04-02T02:30:00Z",
+    "article_number": 136
+  }
+}
