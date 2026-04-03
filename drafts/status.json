@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "brand-death-age-gap",
+    "headline": "Your Brand's Body Count Has an Expiration Date",
+    "journalist": "Axle McScatter",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-03T14:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0
+    }
+  },
   "last_completed": {
     "slug": "tacoma-durability-deathtrap",
     "headline": "Toyota's Immortal Truck Has a Mortality Problem",

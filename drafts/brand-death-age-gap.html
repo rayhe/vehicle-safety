@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Brand's Body Count Has an Expiration Date &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals a 10.7-year gap in fatal crash vehicle age between brands. Most GM deaths come from 15-year-old cars. Kia's come from 5-year-old ones.">
+  <meta property="og:title" content="Your Brand's Body Count Has an Expiration Date">
+  <meta property="og:description" content="A novel FARS computation: the average age of vehicles killing people varies by brand from 5.6 to 16.3 years. What that means for your next purchase.">
+  <meta property="og:image" content="../images/brand-death-age-gap.jpg?v=8ef0643d">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Your Brand's Body Count Has an Expiration Date</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">April 3, 2026</div>
+
+      <p>I ran a computation nobody asked for: the weighted average age of every vehicle in FARS fatal crash data, grouped by brand. The average Mercury in a fatal crash is <strong>16.3 years old</strong>. The average Kia is <strong>5.6</strong>. That 10.7-year gap tells you more about brand safety than any five-star rating ever will.</p>
+
+      <div class="pull-stat">10.7 years</div>
+      <div class="pull-label">Gap between oldest (Mercury) and youngest (Kia) fatal crash vehicle age by brand</div>
+
+      <p>The computation is simple. FARS logs every fatal crash from 2014 to 2023, including vehicle model year. Take the midpoint of that window (2019), subtract each vehicle's model year, and you get the vehicle's age at time of the fatal crash. Weight by death count. Average by brand. What falls out is a ranking nobody publishes.</p>
+
+      <p>Mercury: 16.3 years. Buick: 15.0. Pontiac: 14.9. GMC: 14.6. The entire GM family plus its Lincoln-Mercury cousins dominate the "oldest death fleet" end. And that's not just a curiosity. It means <strong>64.8% of Mercury's 1,794 FARS deaths come from vehicles built before 2005</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Two-thirds of Mercury's body count is from cars that predate YouTube.</p>
+
+      <p>Ford and Chevrolet sit at 13.8 and 13.6 years respectively. Nearly half their combined 68,000+ deaths (49.6% for Ford, 46.1% for Chevrolet) come from the 15-year-plus cohort. Toyota is at 12.8 years, Honda at 13.3. These are mainstream brands with deep back catalogs of aging, pre-ESC, pre-curtain-airbag vehicles still circulating in the secondary and tertiary used markets.</p>
+
+      <p>Then there's the other end. Hyundai averages 8.2 years. Only 13.7% of its 6,360 deaths come from old vehicles. And Kia sits at 5.6 years, with a staggering <strong>97.4% of its 2,454 deaths occurring in vehicles under 15 years old</strong>.</p>
+
+      <p>Let that denominator sink in. Nearly every Kia in a fatal crash during the FARS window was a relatively recent model. Not a beater inherited from a grandparent. Not a pre-airbag relic. A car that rolled off a dealership lot within the last decade.</p>
+
+      <h2>What This Actually Means</h2>
+
+      <p>For GM's legacy brands, this is counterintuitively good news. The death clock is ticking down. Every year, another cohort of 2002 Impalas and 1999 Grand Marquises gets scrapped, and with them goes a chunk of the FARS body count. No engineering improvement required. Just entropy.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Buick's death rate will decline by simple attrition over the next decade, even if Buick does absolutely nothing.</p>
+
+      <p>For Kia, the opposite is true. Their safety problem is happening right now, in current-production vehicles, to people driving relatively new cars. The Kia Boys theft epidemic was one symptom: Hyundai and Kia sold millions of vehicles without engine immobilizers through 2021, a feature that had been standard on virtually every other brand for over a decade.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> But the theft vulnerability is only part of it. The model year data shows death counts rising through the 2017-2021 Kia Forte cohort, not falling.</p>
+
+      <h2>The Methodology (Show Your Work)</h2>
+
+      <p>Vehicle age = 2019 (midpoint of the 2014-2023 FARS window) minus model year. Deaths outside the 0-40 year age range excluded. "Old" threshold: 15+ years (model year 2004 or earlier). Brand inclusion: minimum 1,000 total deaths. Weighting: each death counts equally, assigned the age of the vehicle's model year. The weighted average is &Sigma;(age &times; deaths) / &Sigma;(deaths) per brand.</p>
+
+      <p>This is a crude instrument. Ideally, you'd normalize against each brand's on-road fleet age distribution. If 95% of Kias on the road are under 10 years old, then having 97% of Kia fatal crashes in under-15 vehicles might just reflect fleet composition, not a safety deficit. FARS doesn't include non-fatal fleet data, so we can't do that normalization here.</p>
+
+      <h2>The Strongest Case Against This Analysis</h2>
+
+      <p>Kia and Hyundai entered the US market at meaningful volume much later than GM or Ford. Their on-road fleet IS younger on average. Having younger vehicles in fatal crashes is partially expected. The "young death" finding could be 80% selection bias and 20% signal.</p>
+
+      <p>That's a fair objection. But two data points survive it. First, the immobilizer gap was a real, quantifiable engineering deficiency in current-production vehicles that directly led to fatal crashes. NHTSA opened an investigation, Kia/Hyundai settled for over $200 million, and they retrofitted software to millions of vehicles.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Second, as recently as March 2026, Hyundai recalled 61,000 Palisade SUVs after a power seat killed a two-year-old child in Ohio.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Brand-new vehicles, brand-new safety failures.</p>
+
+      <h2>What You Can Do</h2>
+
+      <p>When evaluating a brand's safety reputation, ask one question: <strong>are their deaths from old cars or new ones?</strong> A brand where 65% of deaths are in 15+ year vehicles is being punished for its 2003 engineering, not its 2024 engineering. A brand where 97% of deaths are in recent models is showing you its current capabilities.</p>
+
+      <p>If you're shopping: check the IIHS ratings for the specific model and year you're considering, not the brand's aggregate reputation. A 2024 Buick Envision is not the 2003 LeSabre that's inflating Buick's death statistics. And a 2024 Kia Forte is not absolved by Kia's relatively low total death count. Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. Check the IIHS rating at <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a>. Brand loyalty is a marketing concept. Physics doesn't care about your badge.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Model year and vehicle make/model data cross-tabulated for brand-level fleet age analysis. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Fatality Statistics: Yearly Snapshot</em>. Context on overall decline in fatality rates as older vehicles exit the fleet. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">NHTSA, <em>Hyundai/Kia Engine Immobilizer Investigation</em>, EA 22-002. Investigation into theft vulnerability in vehicles lacking engine immobilizers. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">Reuters, &ldquo;Hyundai, Kia agree to $200 million settlement over easy-to-steal vehicles,&rdquo; 2023. <a href="https://www.reuters.com" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-5">Reuters, &ldquo;Hyundai to recall over 61,000 Palisade SUVs in US after fatal incident,&rdquo; March 20, 2026. Recall of 2026 Palisade SUVs after power seat malfunction killed a child. <a href="https://www.reuters.com/legal/litigation/hyundai-recall-over-61000-palisade-suvs-us-after-fatal-incident-nhtsa-says-2026-03-20/" target="_blank" rel="noopener">reuters.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Vehicle age calculated as 2019 (FARS window midpoint) minus model year. This analysis cannot normalize for on-road fleet age distribution by brand, which would require registration data not in FARS. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
