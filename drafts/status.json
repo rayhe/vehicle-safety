@@ -1,27 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "tacoma-durability-deathtrap",
     "headline": "Toyota's Immortal Truck Has a Mortality Problem",
-    "phase": "QA",
     "journalist": "Mia Crumplezone",
-    "started": "2026-04-03T02:35:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "research_rigor": 8.5
-    },
-    "hero_image_ready": true,
+    "published_at": "2026-04-03T10:30:00Z",
     "article_number": 138
-  },
-  "last_completed": {
-    "slug": "nissan-subprime-death-pipeline",
-    "headline": "Nissan's Subprime Death Pipeline",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-03T00:30:00Z",
-    "article_number": 137
   }
 }
