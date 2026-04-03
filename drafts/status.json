@@ -2,10 +2,19 @@
   "current": {
     "slug": "tacoma-durability-deathtrap",
     "headline": "Toyota's Immortal Truck Has a Mortality Problem",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-04-03T02:35:00Z",
-    "round": 0
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "research_rigor": 8.5
+    },
+    "ship_blocked_reason": "1/day gate: Publish #137 already committed 2026-04-03"
   },
   "last_completed": {
     "slug": "nissan-subprime-death-pipeline",
