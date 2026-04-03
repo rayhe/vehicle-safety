@@ -1,17 +1,17 @@
 {
   "current": {
-    "slug": "nissan-subprime-death-pipeline",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-02T04:35:00Z",
-    "shipped_at": "2026-04-03T00:30:00Z",
-    "article_number": 137
+    "slug": "tacoma-durability-deathtrap",
+    "headline": "Toyota's Immortal Truck Has a Mortality Problem",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-03T02:35:00Z",
+    "round": 0
   },
   "last_completed": {
-    "slug": "same-price-different-coffin",
-    "headline": "Same Price, Different Coffin: The Death Rate Lottery Hiding in Your Car Payment",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-02T02:30:00Z",
-    "article_number": 136
+    "slug": "nissan-subprime-death-pipeline",
+    "headline": "Nissan's Subprime Death Pipeline",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-03T00:30:00Z",
+    "article_number": 137
   }
 }
