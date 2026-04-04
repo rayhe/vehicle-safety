@@ -1,30 +1,10 @@
 {
-  "current": {
-    "slug": "elantra-model-year-2013-spike",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "headline": "The 2013 Elantra Killed More People Per Unit Than Any Civic Ever Made",
-    "started": "2026-04-04T06:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0
-    },
-    "ship_blocked_reason": "1/day gate — 2 articles already published 2026-04-04 UTC (#139, #140)",
-    "ship_blocked_since": "2026-04-04T10:30:00Z",
-    "ship_recheck": "2026-04-05T00:30:00Z",
-    "ship_last_checked": "2026-04-04T20:30:00Z",
-    "hard_gates_verified": "2026-04-04T10:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "palisade-recall-paradox",
-    "headline": "629,000 Palisades Got Recalled. The Cars Actually Killing You Didn't.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-04T04:35:00Z",
-    "article_number": 140
+    "slug": "elantra-model-year-2013-spike",
+    "headline": "The 2013 Elantra Killed More People Per Unit Than Any Civic Ever Made",
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-04-04T22:31:00Z",
+    "article_number": 141
   }
 }
