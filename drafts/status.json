@@ -1,26 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "palisade-recall-paradox",
     "headline": "629,000 Palisades Got Recalled. The Cars Actually Killing You Didn't.",
-    "phase": "SHIP",
-    "round": 1,
     "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "started": "2026-04-04T02:30:00Z",
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.5,
-      "rigor": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "brand-death-age-gap",
-    "headline": "Your Brand's Body Count Has an Expiration Date",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-04-04T00:30:00Z",
-    "article_number": 139
+    "published_at": "2026-04-04T04:35:00Z",
+    "article_number": 140
   }
 }
