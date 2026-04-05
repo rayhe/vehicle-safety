@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "ladder-frame-lie",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-04-05T04:35:00Z",
-    "round": 1
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5,
+      "aggregate": 8.67
+    },
+    "headline": "Body-on-Frame SUVs Are Up to 12x Deadlier Than Unibody Crossovers From the Same Brand"
   },
   "last_completed": {
     "slug": "e350-commercial-van-killer",
