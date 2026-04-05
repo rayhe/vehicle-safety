@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "e350-commercial-van-killer",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-04-05T00:37:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "elantra-model-year-2013-spike",
     "headline": "The 2013 Elantra Killed More People Per Unit Than Any Civic Ever Made",
