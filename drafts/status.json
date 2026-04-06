@@ -1,10 +1,18 @@
 {
   "current": {
     "slug": "aeb-lawsuit-body-count",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-04-06T10:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0
+    }
   },
   "last_completed": {
     "slug": "sporty-version-death-tax",
