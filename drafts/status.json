@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "aeb-lawsuit-body-count",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-06T10:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "sporty-version-death-tax",
     "headline": "The Sporty Version of Your Car Is Up to 5.7x More Likely to Kill You",
