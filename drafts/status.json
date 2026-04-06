@@ -1,24 +1,10 @@
 {
-  "current": {
-    "slug": "aeb-lawsuit-body-count",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-06T10:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "sporty-version-death-tax",
-    "headline": "The Sporty Version of Your Car Is Up to 5.7x More Likely to Kill You",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-06T06:33:00Z",
-    "article_number": 145
+    "slug": "aeb-lawsuit-body-count",
+    "headline": "Every Automaker in America Is Suing to Kill a Rule That Would Save 360 Lives a Year",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-06T14:30:00Z",
+    "article_number": 146
   }
 }
