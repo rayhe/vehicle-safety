@@ -1,10 +1,18 @@
 {
   "current": {
     "slug": "sporty-version-death-tax",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-04-06T02:35:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5
+    }
   },
   "last_completed": {
     "slug": "rental-counter-death-lottery",
