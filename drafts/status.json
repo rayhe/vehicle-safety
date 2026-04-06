@@ -21,7 +21,9 @@
       "css_class": "story",
       "stylesheet": "style.css"
     },
-    "round": 1
+    "round": 1,
+    "ship_blocked": "1/day gate — 3 articles already published 2026-04-06 UTC (#144, #145, #146)",
+    "ship_blocked_at": "2026-04-06T22:30:00Z"
   },
   "last_completed": {
     "slug": "aeb-lawsuit-body-count",
