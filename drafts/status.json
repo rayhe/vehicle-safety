@@ -3,7 +3,7 @@
     "slug": "owner-risk-metric",
     "headline": "A Mazda CX-5 Kills 15 Owners Per Million Per Year. A Chevy S-10 Kills 652.",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "critique_scores": {
       "general_editor": 8.5,
@@ -13,8 +13,8 @@
       "legal_accuracy": 8.5,
       "research_rigor": 8.5
     },
-    "critique_notes": "All 6 critics 8.5+, all hard gates pass. 1/day gate: blocked — #147 published 2026-04-07T00:31Z. Will ship on next available window (2026-04-08).",
-    "started": "2026-04-07T02:30:00Z"
+    "started": "2026-04-07T02:30:00Z",
+    "published_at": "2026-04-07T08:30:00Z"
   },
   "last_completed": {
     "slug": "impairment-class-lethality-gap",
