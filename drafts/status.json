@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "pacifica-airbag-paradox",
+    "phase": "CRITIQUE",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-07T10:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "owner-risk-metric",
     "headline": "A Mazda CX-5 Kills 15 Owners Per Million Per Year. A Chevy S-10 Kills 652.",
