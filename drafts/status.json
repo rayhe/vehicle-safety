@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "owner-risk-metric",
+    "headline": "A Mazda CX-5 Kills 15 Owners Per Million Per Year. A Chevy S-10 Kills 652.",
+    "journalist": "Rex Driverton",
+    "phase": "SHIP",
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 8.5,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5
+    },
+    "critique_notes": "Fixed Ford Transit omission (data accuracy). Added GM ignition switch citation [4]. All hard gates pass: 0 body em dashes, 0 banned phrases, 7.4% The-starters, correct CSS. 1/day gate: blocked (article #147 published 2026-04-07T00:31Z), queued for next window.",
+    "started": "2026-04-07T02:30:00Z"
+  },
   "last_completed": {
     "slug": "impairment-class-lethality-gap",
     "headline": "Every Vehicle Class Drinks at the Same Rate. Only One Class Walks Away.",
