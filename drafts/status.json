@@ -1,25 +1,11 @@
 {
   "current": {
     "slug": "pacifica-airbag-paradox",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-04-07T10:30:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": false,
-      "the_starters_pct": 12.9,
-      "css_classes": "pass"
-    },
-    "ship_blocked": "1/day gate — 2 articles published today (UTC), queued for next window"
+    "published_at": "2026-04-07T14:30:00Z",
+    "article_number": 149
   },
   "last_completed": {
     "slug": "owner-risk-metric",
