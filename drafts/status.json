@@ -1,26 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "owner-risk-metric",
     "headline": "A Mazda CX-5 Kills 15 Owners Per Million Per Year. A Chevy S-10 Kills 652.",
     "journalist": "Rex Driverton",
-    "phase": "QA",
-    "round": 1,
-    "critique_scores": {
-      "general_editor": 8.5,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 8.5
-    },
-    "started": "2026-04-07T02:30:00Z",
-    "published_at": "2026-04-07T08:30:00Z"
-  },
-  "last_completed": {
-    "slug": "impairment-class-lethality-gap",
-    "headline": "Every Vehicle Class Drinks at the Same Rate. Only One Class Walks Away.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-04-07T00:30:00Z",
-    "article_number": 147
+    "published_at": "2026-04-07T08:30:00Z",
+    "article_number": 148
   }
 }
