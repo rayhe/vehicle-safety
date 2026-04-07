@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "pacifica-airbag-paradox",
-    "phase": "QA",
+    "headline": "America's Safest Minivan Just Got Recalled for the One Thing Keeping It Safe",
     "journalist": "Mia Crumplezone",
-    "started": "2026-04-07T10:30:00Z",
     "published_at": "2026-04-07T14:30:00Z",
     "article_number": 149
-  },
-  "last_completed": {
-    "slug": "owner-risk-metric",
-    "headline": "A Mazda CX-5 Kills 15 Owners Per Million Per Year. A Chevy S-10 Kills 652.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-07T08:30:00Z",
-    "article_number": 148
   }
 }
