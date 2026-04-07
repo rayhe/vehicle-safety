@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "impairment-class-lethality-gap",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-04-06T16:30:00Z",
     "headline": "Every Vehicle Class Drinks at the Same Rate. Only One Class Walks Away.",
+    "journalist": "Dale Impactor III",
     "published_at": "2026-04-07T00:30:00Z",
     "article_number": 147
-  },
-  "last_completed": {
-    "slug": "aeb-lawsuit-body-count",
-    "headline": "Every Automaker in America Is Suing to Kill a Rule That Would Save 360 Lives a Year",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-06T14:30:00Z",
-    "article_number": 146
   }
 }
