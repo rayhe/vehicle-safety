@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "redesign-saves-more-than-recalls",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-08T06:33:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 9.0
+    },
+    "ship_blocked_until": "2026-04-09",
+    "ship_reason": "1/day gate: 2 articles already published 2026-04-08 (#150, #151)"
+  },
   "last_completed": {
     "slug": "kill-curve-vehicle-age",
     "headline": "Your Car Has a Kill Curve. Sports Cars Peak at 5. Everything Else at 14.",
