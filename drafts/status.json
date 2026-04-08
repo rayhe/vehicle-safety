@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "kill-curve-vehicle-age",
+    "headline": "Your Car Has a Kill Curve. Sports Cars Peak at 5. Everything Else at 14.",
+    "journalist": "Mia Crumplezone",
+    "phase": "QA",
+    "round": 1,
+    "started": "2026-04-08T02:30:00Z",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 8.5,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.5
+    }
+  },
   "last_completed": {
     "slug": "crv-safe-reputation-body-count",
     "headline": "The Honda CR-V Killed 2,072 People. You Still Think It's Safe.",
