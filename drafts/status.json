@@ -1,28 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "crv-safe-reputation-body-count",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "started": "2026-04-07T18:30:00Z",
     "headline": "The Honda CR-V Killed 2,072 People. You Still Think It's Safe.",
-    "round": 1,
-    "critique_scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 8.5,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    },
+    "journalist": "Clara Rollover",
     "published_at": "2026-04-08T00:31:00Z",
     "article_number": 150
-  },
-  "last_completed": {
-    "slug": "pacifica-airbag-paradox",
-    "headline": "America's Safest Minivan Just Got Recalled for the One Thing Keeping It Safe",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-07T14:30:00Z",
-    "article_number": 149
   }
 }
