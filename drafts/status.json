@@ -15,8 +15,8 @@
       "rigor": 9.0,
       "data_presentation": 8.5
     },
-    "critique_notes": "Round 1: fixed 4 data accuracy errors (rank positions for Silverado 66\u219275, F-150 79\u219289, RAM 100\u2192122, CR-V 120\u2192172). Fixed Veloster comparison (7x\u21929x dataset avg). Varied 'gap' repetition in divergence section. Updated meta description. All 7 critics \u2265 8.5, all hard gates pass.",
-    "ship_blocked": "1/day gate: 3 articles already published 2026-04-09 UTC (#152, #153, #154). Queued for 2026-04-10."
+    "critique_notes": "Round 1: fixed 4 data accuracy errors (rank positions for Silverado 66→75, F-150 79→89, RAM 100→122, CR-V 120→172). Fixed Veloster comparison (7x→9x dataset avg). Varied 'gap' repetition in divergence section. Updated meta description. All 7 critics ≥ 8.5, all hard gates pass.",
+    "ship_blocked": "1/day gate: 3 articles already published 2026-04-09 UTC (#152, #153, #154). Queued for 2026-04-10. Checked again at 22:30 UTC — still blocked (same UTC day)."
   },
   "last_completed": {
     "slug": "bestseller-safety-paradox",
