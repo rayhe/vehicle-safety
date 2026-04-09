@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "weight-plateau-four-thousand-pounds",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-09T02:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 8.6
+    }
+  },
   "last_completed": {
     "slug": "redesign-saves-more-than-recalls",
     "headline": "One Redesign Erased 84% of a Car's Deaths. Most Recalls Don't Come Close.",
