@@ -11,8 +11,14 @@
   </item>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 09 Apr 2026 00:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 09 Apr 2026 06:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>At 4,000 Pounds, Your Vehicle Stops Getting Safer. It Just Gets Deadlier.</title>
+    <link>https://vehicle-safety.org/stories/weight-plateau-four-thousand-pounds.html</link>
+    <guid>https://vehicle-safety.org/stories/weight-plateau-four-thousand-pounds.html</guid>
+    <description>A 2025 IIHS study found that vehicle weight stops protecting drivers above 4,000 lbs. FARS data confirms: the Ram 2500 survives 80% of its fatal crashes. The person in the other car doesn't.</description>
+  </item>
   <item>
     <title>One Redesign Erased 84% of a Car's Deaths. Most Recalls Don't Come Close.</title>
     <link>https://vehicle-safety.org/stories/redesign-saves-more-than-recalls.html</link>
