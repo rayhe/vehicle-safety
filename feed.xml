@@ -11,8 +11,15 @@
   </item>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 07 Apr 2026 14:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 09 Apr 2026 00:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>One Redesign Erased 84% of a Car's Deaths. Most Recalls Don't Come Close.</title>
+    <link>https://vehicle-safety.org/stories/redesign-saves-more-than-recalls.html</link>
+    <guid>https://vehicle-safety.org/stories/redesign-saves-more-than-recalls.html</guid>
+    <description>The 2020 Sentra redesign cut model-year deaths from 173 to 30. FARS data shows platform redesigns routinely save more lives than defect recalls.</description>
+    <pubDate>Wed, 09 Apr 2026 00:30:00 +0000</pubDate>
+  </item>
   <item>
     <title>America's Safest Minivan Just Got Recalled for the One Thing Keeping It Safe</title>
     <link>https://vehicle-safety.org/stories/pacifica-airbag-paradox.html</link>
