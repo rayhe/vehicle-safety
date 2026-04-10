@@ -1,27 +1,13 @@
 {
   "current": {
     "slug": "rearview-camera-recall-wave",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Mia Crumplezone",
     "started": "2026-04-10T00:37:00Z",
     "headline": "1.9 Million Vehicles Just Lost the Safety Feature That Saves 78% of Backover Victims",
-    "critique_scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 9.4,
-      "css_correct": true
-    },
-    "blocked_reason": "1/day gate: Publish #155 already committed 2026-04-10. Next eligible: 2026-04-11T00:00:00Z"
+    "published_at": "2026-04-10T12:30:00Z",
+    "article_number": 156
   },
   "last_completed": {
     "slug": "wrong-list-rate-vs-volume",
