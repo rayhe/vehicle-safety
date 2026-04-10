@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "rearview-camera-recall-wave",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Mia Crumplezone",
-    "started": "2026-04-10T00:37:00Z",
     "headline": "1.9 Million Vehicles Just Lost the Safety Feature That Saves 78% of Backover Victims",
+    "journalist": "Mia Crumplezone",
     "published_at": "2026-04-10T12:30:00Z",
     "article_number": 156
-  },
-  "last_completed": {
-    "slug": "wrong-list-rate-vs-volume",
-    "headline": "America's Most Dangerous Vehicles Aren't Its Deadliest. Only 5 of 15 Overlap.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-10T00:30:00Z",
-    "article_number": 155
   }
 }
