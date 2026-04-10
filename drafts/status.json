@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-recall-record-wrong-problem",
+    "phase": "CRITIQUE",
+    "journalist": "Axle McScatter",
+    "started": "2026-04-10T16:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "rearview-camera-recall-wave",
     "headline": "1.9 Million Vehicles Just Lost the Safety Feature That Saves 78% of Backover Victims",
