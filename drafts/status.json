@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "rearview-camera-recall-wave",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-10T00:37:00Z",
+    "headline": "1.9 Million Vehicles Just Lost the Safety Feature That Saves 78% of Backover Victims"
+  },
   "last_completed": {
     "slug": "wrong-list-rate-vs-volume",
     "headline": "America's Most Dangerous Vehicles Aren't Its Deadliest. Only 5 of 15 Overlap.",
