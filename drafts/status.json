@@ -1,28 +1,10 @@
 {
-  "current": {
-    "slug": "ford-recall-record-wrong-problem",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-04-10T16:30:00Z",
-    "round": 1,
-    "critique_passed": "2026-04-10T18:35:00Z",
-    "shipped_at": "2026-04-11T00:30:00Z",
-    "article_number": 157,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data_presentation": 9.0
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "rearview-camera-recall-wave",
-    "headline": "1.9 Million Vehicles Just Lost the Safety Feature That Saves 78% of Backover Victims",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-10T12:30:00Z",
-    "article_number": 156
+    "slug": "ford-recall-record-wrong-problem",
+    "headline": "Ford Issued 153 Recalls in One Year. None of Them Fixed What Actually Kills People.",
+    "journalist": "Axle McScatter",
+    "published_at": "2026-04-11T00:30:00Z",
+    "article_number": 157
   }
 }
