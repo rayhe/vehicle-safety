@@ -18,8 +18,15 @@
   </item>
   <description>Every fatal crash in America, charted. NHTSA FARS data investigations.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 10 Apr 2026 12:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Apr 2026 00:30:00 +0000</lastBuildDate>
   <atom:link href="https://vehicle-safety.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Ford Issued 153 Recalls in One Year. None of Them Fixed What Actually Kills People.</title>
+    <link>https://vehicle-safety.org/stories/ford-recall-record-wrong-problem.html</link>
+    <guid>https://vehicle-safety.org/stories/ford-recall-record-wrong-problem.html</guid>
+    <description>Ford set the all-time recall record in 2025 with 153 safety recalls. Cross-referencing those recalls with FARS fatality data reveals zero overlap between what Ford is fixing and what is killing Ford drivers.</description>
+    <pubDate>Fri, 11 Apr 2026 00:30:00 +0000</pubDate>
+  </item>
   <item>
     <title>At 4,000 Pounds, Your Vehicle Stops Getting Safer. It Just Gets Deadlier.</title>
     <link>https://vehicle-safety.org/stories/weight-plateau-four-thousand-pounds.html</link>

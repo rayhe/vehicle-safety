@@ -1,11 +1,13 @@
 {
   "current": {
     "slug": "ford-recall-record-wrong-problem",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-04-10T16:30:00Z",
     "round": 1,
     "critique_passed": "2026-04-10T18:35:00Z",
+    "shipped_at": "2026-04-11T00:30:00Z",
+    "article_number": 157,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
@@ -14,8 +16,7 @@
       "legal": 8.5,
       "rigor": 8.5,
       "data_presentation": 9.0
-    },
-    "ship_blocked": "1/day gate — 2 articles published 2026-04-10 (#155 at 00:32 UTC, #156 at 12:33 UTC). Next eligible 2026-04-11 00:00 UTC."
+    }
   },
   "last_completed": {
     "slug": "rearview-camera-recall-wave",
