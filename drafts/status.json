@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "safety-improvement-gap",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-11T02:33:00Z",
+    "round": 1
+  },
   "last_completed": {
     "slug": "ford-recall-record-wrong-problem",
     "headline": "Ford Issued 153 Recalls in One Year. None of Them Fixed What Actually Kills People.",
