@@ -1,26 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "accidental-suv-safety-dividend",
     "headline": "12 Million Recalls Didn't Save Anyone. Buying SUVs Did.",
     "journalist": "Rex Driverton",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-04-11T06:31:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "safety-improvement-gap",
-    "headline": "Honda Cut Fatal Crashes in Half. Hyundai Tripled Theirs.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-11T04:45:00Z",
-    "article_number": 158
+    "published_at": "2026-04-11T12:32:00Z",
+    "article_number": 159
   }
 }
