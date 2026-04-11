@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "brand-safety-stall",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "headline": "Hyundai Wins Every Safety Award. FARS Says It Barely Matters.",
+    "started": "2026-04-11T14:34:00Z",
+    "round": 1,
+    "critique_passed": "2026-04-11T14:42:00Z"
+  },
   "last_completed": {
     "slug": "accidental-suv-safety-dividend",
     "headline": "12 Million Recalls Didn't Save Anyone. Buying SUVs Did.",
