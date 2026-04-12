@@ -1,12 +1,14 @@
 {
   "current": {
     "slug": "brand-safety-stall",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "headline": "Hyundai Wins Every Safety Award. FARS Says It Barely Matters.",
     "started": "2026-04-11T14:34:00Z",
     "round": 1,
-    "critique_passed": "2026-04-11T14:42:00Z"
+    "critique_passed": "2026-04-11T14:42:00Z",
+    "shipped": "2026-04-12T00:30:00Z",
+    "article_number": 160
   },
   "last_completed": {
     "slug": "accidental-suv-safety-dividend",
