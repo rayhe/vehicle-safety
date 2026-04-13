@@ -1,28 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "fleet-minority-death-majority",
     "headline": "29% of the Fleet Produces 63% of the Deaths",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-04-12T02:30:00Z",
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 8.5,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hero_image": "images/fleet-minority-death-majority.jpg",
+    "published_at": "2026-04-13T19:28:00Z",
     "article_number": 161
-  },
-  "last_completed": {
-    "slug": "brand-safety-stall",
-    "headline": "Hyundai Wins Every Safety Award. FARS Says It Barely Matters.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-04-12T00:30:00Z",
-    "article_number": 160
   }
 }
