@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>29% of the Fleet Produces 63% of the Deaths &mdash; The Crash Report</title>
+  <meta name="description" content="A fleet-weighted FARS analysis reveals that less than a third of America's registered vehicles produce nearly two-thirds of all traffic fatalities.">
+  <meta property="og:title" content="29% of the Fleet Produces 63% of the Deaths">
+  <meta property="og:description" content="A fleet-weighted FARS analysis reveals that less than a third of America's registered vehicles produce nearly two-thirds of all traffic fatalities.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/fleet-minority-death-majority.jpg?v=54056165">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>29% of the Fleet Produces 63% of the Deaths</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">April 13, 2026</div>
+
+      <p>NHTSA just released its 2025 preliminary numbers, and the press release practically glowed: <strong>36,640 dead, a 6.7% decline, the second-lowest fatality rate in recorded history</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Celebrations all around. So I ran a cross-tabulation that nobody asked for, and now I wish I hadn't.</p>
+
+      <div class="pull-stat">29.4%</div>
+      <div class="pull-label">Share of America's registered fleet responsible for 63.1% of all traffic deaths</div>
+
+      <p>Across FARS data from 2014 through 2023, 85 vehicle models carry fatality rates above the 2025 national benchmark of 1.10 deaths per 100 million vehicle miles traveled. Those 85 models represent just 50.4 million vehicles out of the 171.5 million in the dataset. Less than a third of the fleet. They produced 120,641 of the 191,193 recorded fatalities.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Meanwhile, 252 models covering 121 million vehicles split the remaining 70,552 deaths. More than two-thirds of America's cars, trucks, and SUVs pull the national average down. A minority drags it back up.</p>
+
+      <p>Break it by class and the pattern fractures along predictable lines. Among sedans, 54.5% of the fleet exceeds the national rate, and that majority-within-a-class generates 83.3% of all sedan fatalities. Accord at 3.07, Civic at 2.25, Camry at 2.03, Altima at 2.88, Impala at a staggering 5.0 per 100M VMT. Twenty-one sedan models with rates above 2.0 account for over 40,000 deaths in the dataset.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>SUVs invert the equation. Only 11.2% of the SUV fleet sits above 1.10, but that sliver still generates 40.6% of SUV deaths. RAV4 at 0.19, Equinox at 0.36, Rogue at 0.35, CX-5 at 0.12. Good SUVs are genuinely good. Bad ones drag the class.</p>
+
+      <p>A 2025 rate of 1.10 per 100M VMT is real progress. VMT rose 0.9% while fatalities dropped 6.7%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That gap represents engineering, fleet composition shifts, and maybe some luck. But the structural math remains: summing excess deaths for each above-rate model (observed minus expected at the fleet average), the FARS dataset contains roughly 50,000 more fatalities than it would if those 85 models performed at par. About 5,000 per year. Note: the 1.10 threshold comes from 2025 data applied retroactively to a 2014&ndash;2023 dataset. Actual model-year rates shifted within that window, so this is a structural snapshot, not a causal claim.</p>
+
+      <p><strong>If you drive one of the 85 models above the line, the national celebration is not about you.</strong> Your vehicle's rate hasn't changed. Everyone else's fleet got better. A 1.10 milestone is a weighted average, and averages are generous to the things pulling them down.</p>
+
+      <h3>What this means for buyers</h3>
+      <p>Check the rate, not the badge. A Camry with 2.7 million units on the road kills at 2.03 per 100M VMT. A RAV4 with 3.8 million kills at 0.19. Same dealership, same parking lot, 10x difference in fatality rate. CX-5, Forester, Equinox, and Rogue all sit below 0.4. If you're cross-shopping a sedan against a crossover, the FARS data is not ambiguous. Look up your specific model at <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">NHTSA's FARS query tool</a> before you sign anything.</p>
+
+      <h3>Limitations</h3>
+      <p>FARS only records fatal crashes. A vehicle with low fatality rates could still produce frequent injuries. Fleet estimates use industry sales data and average vehicle age assumptions, not actual registration counts, introducing uncertainty of roughly &plusmn;15% for lower-volume models. NHTSA's 1.10 benchmark from 2025 preliminary data may be revised when final numbers publish. And vehicle age matters: many high-rate sedans in this analysis are older models with larger proportions of pre-ESC, pre-side-curtain-airbag vehicles in the fleet. Part of the rate reflects age, not just design.</p>
+
+      <h3>Strongest counterargument</h3>
+      <p>Fleet composition drives most of this split. Sedans skew older and cheaper, meaning they accumulate in second- and third-owner demographics with different driving patterns, maintenance habits, and crash environments. A 2024 Camry is not the same vehicle as a 2008 Camry, yet FARS aggregates them. That 29/63 ratio likely overstates the gap between current-model-year vehicles. But that counterargument reinforces the core point: the fleet that's actually on the road right now still contains millions of above-average-rate vehicles, and their owners still die at above-average rates regardless of why.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Early Estimate of Motor Vehicle Traffic Fatalities and Fatality Rate in 2025</em>, Publication 813800, April 2, 2026. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813800" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Overview of Motor Vehicle Traffic Crashes in 2024</em>, Publication 813791, April 2, 2026. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813791" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-4">IIHS, <em>Fatality Statistics: Passenger Vehicle Occupants</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Fleet estimates derived from industry sales data and average vehicle lifespans; actual registration counts may differ. Death rates are per 100 million estimated VMT. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

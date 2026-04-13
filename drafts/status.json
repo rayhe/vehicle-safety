@@ -3,7 +3,7 @@
     "slug": "fleet-minority-death-majority",
     "headline": "29% of the Fleet Produces 63% of the Deaths",
     "journalist": "Axle McScatter",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "started": "2026-04-12T02:30:00Z",
     "scores": {
@@ -15,8 +15,8 @@
       "rigor": 8.5,
       "data_presentation": 8.5
     },
-    "hero_image": "drafts/fleet-minority-death-majority.jpg",
-    "ship_blocked": "1/day gate — #160 already published 2026-04-12"
+    "hero_image": "images/fleet-minority-death-majority.jpg",
+    "article_number": 161
   },
   "last_completed": {
     "slug": "brand-safety-stall",
