@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "slug": "record-low-fragile-miracle",
+    "headline": "36,640: America's Record Low Is a Retirement Party, Not a Revolution",
+    "journalist": "Vin Wreckage",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-13T20:30:00Z",
+    "critique_passed": "2026-04-13T22:35:00Z",
+    "ship_blocked": "1/day gate — #161 already published 2026-04-13",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "slug": "fleet-minority-death-majority",
     "headline": "29% of the Fleet Produces 63% of the Deaths",
