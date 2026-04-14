@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "small-car-rear-seat-deathtrap",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-14T02:32:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 2,
+      "banned_phrases": 0,
+      "the_starters_pct": 7.8,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    }
+  },
   "last_completed": {
     "slug": "record-low-fragile-miracle",
     "headline": "36,640: America's Record Low Is a Retirement Party, Not a Revolution",
