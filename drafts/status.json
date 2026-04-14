@@ -1,32 +1,10 @@
 {
-  "current": {
-    "slug": "small-car-rear-seat-deathtrap",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-04-14T02:32:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "banned_phrases": 0,
-      "the_starters_pct": 7.8,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "record-low-fragile-miracle",
-    "headline": "36,640: America's Record Low Is a Retirement Party, Not a Revolution",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-04-14T00:33:00Z",
-    "article_number": 162
+    "slug": "small-car-rear-seat-deathtrap",
+    "headline": "Zero Out of Five: The Back Seat of America's Best-Selling Small Cars Is a Death Trap",
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-04-14T06:33:00Z",
+    "article_number": 163
   }
 }
