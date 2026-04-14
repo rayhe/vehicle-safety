@@ -1,10 +1,27 @@
 {
   "current": {
     "slug": "same-segment-lethality-rankings",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "started": "2026-04-14T18:35:00Z",
-    "round": 0
+    "headline": "Same Price, Same Stars, Different Odds of Walking Away",
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 1.5,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    },
+    "round": 1
   },
   "last_completed": {
     "slug": "minivan-suv-safety-equivalence",
