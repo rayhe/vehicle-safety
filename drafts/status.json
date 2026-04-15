@@ -1,27 +1,10 @@
 {
-  "current": {
-    "slug": "sedan-crossover-showroom-gamble",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-15T08:33:00Z",
-    "round": 1,
-    "headline": "Same Brand, Same Price, 10x the Death Rate",
-    "article_number": 167,
-    "critics": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 8.5,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "safe-rate-lethal-crash",
-    "headline": "Your Car's Safety Rating Is Hiding a Second Number",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-15T06:31:00Z",
-    "article_number": 166
+    "slug": "sedan-crossover-showroom-gamble",
+    "headline": "Same Brand, Same Price, 10x the Death Rate",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-15T10:30:00Z",
+    "article_number": 167
   }
 }
