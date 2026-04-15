@@ -21,7 +21,9 @@
       "the_starters_pct": 8.3,
       "css_class": "story",
       "stylesheet": "style.css"
-    }
+    },
+    "ship_deferred": "2026-04-15T20:30:00Z",
+    "ship_deferred_reason": "1/day limit reached (3 articles already published today: #165, #166, #167)"
   },
   "last_completed": {
     "slug": "sedan-crossover-showroom-gamble",
