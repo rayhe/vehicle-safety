@@ -3,10 +3,9 @@
     "slug": "safe-rate-lethal-crash",
     "headline": "Your Car's Safety Rating Is Hiding a Second Number",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "started": "2026-04-15T02:31:00Z",
-    "blocked": "1/day gate — already published #165 today, will ship after midnight UTC",
     "scores": {
       "general": 9,
       "voice": 9,
