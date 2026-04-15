@@ -1,26 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "safe-rate-lethal-crash",
     "headline": "Your Car's Safety Rating Is Hiding a Second Number",
     "journalist": "Mia Crumplezone",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-04-15T02:31:00Z",
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "same-segment-lethality-rankings",
-    "headline": "Same Price, Same Stars, Different Odds of Walking Away",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-04-15T00:32:00Z",
-    "article_number": 165
+    "published_at": "2026-04-15T06:31:00Z",
+    "article_number": 166
   }
 }
