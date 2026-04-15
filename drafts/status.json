@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "safe-rate-lethal-crash",
+    "headline": "Your Car's Safety Rating Is Hiding a Second Number",
+    "journalist": "Mia Crumplezone",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-15T02:31:00Z",
+    "blocked": "1/day gate — already published #165 today, will ship after midnight UTC",
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data": 8.5
+    }
+  },
   "last_completed": {
     "slug": "same-segment-lethality-rankings",
     "headline": "Same Price, Same Stars, Different Odds of Walking Away",
