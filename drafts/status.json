@@ -1,11 +1,13 @@
 {
   "current": {
     "slug": "injury-plateau-survivability-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-04-15T12:30:00Z",
     "round": 1,
     "critique_passed": "2026-04-15T14:35:00Z",
+    "published_at": "2026-04-15T22:30:00Z",
+    "article_number": 168,
     "scores": {
       "general_editor": 8.5,
       "voice_coach": 8.5,
@@ -18,12 +20,10 @@
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 8.3,
+      "the_starters_pct": 5.4,
       "css_class": "story",
       "stylesheet": "style.css"
-    },
-    "ship_deferred": "2026-04-15T20:30:00Z",
-    "ship_deferred_reason": "1/day limit reached (3 articles already published today: #165, #166, #167)"
+    }
   },
   "last_completed": {
     "slug": "sedan-crossover-showroom-gamble",
