@@ -1,18 +1,10 @@
 {
-  "current": {
-    "slug": "same-segment-lethality-rankings",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-04-14T18:35:00Z",
-    "headline": "Same Price, Same Stars, Different Odds of Walking Away",
-    "article_number": 165,
-    "published_at": "2026-04-15T00:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "minivan-suv-safety-equivalence",
-    "headline": "Minivans Are Exactly As Safe As SUVs and America Chose the Expensive One",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-14T12:39:00Z",
-    "article_number": 164
+    "slug": "same-segment-lethality-rankings",
+    "headline": "Same Price, Same Stars, Different Odds of Walking Away",
+    "journalist": "Dale Impactor III",
+    "published_at": "2026-04-15T00:32:00Z",
+    "article_number": 165
   }
 }
