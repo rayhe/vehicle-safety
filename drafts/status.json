@@ -1,35 +1,10 @@
 {
-  "current": {
-    "slug": "injury-plateau-survivability-gap",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-04-15T12:30:00Z",
-    "round": 1,
-    "critique_passed": "2026-04-15T14:35:00Z",
-    "published_at": "2026-04-15T22:30:00Z",
-    "article_number": 168,
-    "scores": {
-      "general_editor": 8.5,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 5.4,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "sedan-crossover-showroom-gamble",
-    "headline": "Same Brand, Same Price, 10x the Death Rate",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-15T10:30:00Z",
-    "article_number": 167
+    "slug": "injury-plateau-survivability-gap",
+    "headline": "For Every Death on American Roads, 62 People Are Injured. That Ratio Is Climbing.",
+    "journalist": "Axle McScatter",
+    "published_at": "2026-04-15T22:30:00Z",
+    "article_number": 168
   }
 }
