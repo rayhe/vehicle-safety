@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "sedan-crossover-showroom-gamble",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-04-15T08:33:00Z",
     "round": 1,
     "headline": "Same Brand, Same Price, 10x the Death Rate",
+    "article_number": 167,
     "critics": {
       "general": 9.0,
       "voice": 8.5,
