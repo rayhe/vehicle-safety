@@ -1,5 +1,26 @@
 {
-  "current": null,
+  "current": {
+    "slug": "kia-soul-box-shaped-coffin",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-16T04:35:00Z",
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 3,
+      "banned_phrases": 0,
+      "the_starters_pct": 3.0,
+      "css_class_correct": true
+    }
+  },
   "last_completed": {
     "slug": "injury-plateau-survivability-gap",
     "headline": "For Every Death on American Roads, 62 People Are Injured. That Ratio Is Climbing.",
