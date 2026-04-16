@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fiesta-subcompact-survivor",
+    "headline": "The Ford Fiesta Survived Crashes Better Than the Average SUV. Nobody Noticed.",
+    "journalist": "Clara Rollover",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-16T10:30:00Z",
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "slug": "kia-soul-box-shaped-coffin",
     "headline": "Three Agencies Can't Agree on What the Kia Soul Is. FARS Data Settles It.",
