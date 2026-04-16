@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "mini-cooper-go-kart-coffin",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-16T14:35:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "fiesta-subcompact-survivor",
     "headline": "The Ford Fiesta Survived Crashes Better Than the Average SUV. Nobody Noticed.",
