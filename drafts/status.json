@@ -1,36 +1,10 @@
 {
-  "current": {
-    "slug": "mini-cooper-go-kart-coffin",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-04-16T14:35:00Z",
-    "round": 1,
-    "headline": "The Mini Cooper Has Go-Kart Handling. It Also Has Go-Kart Crumple Zones.",
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5,
-      "average": 8.86
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "banned_phrases": 0,
-      "the_starters_pct": 1.1,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    },
-    "article_number": 171,
-    "shipped_at": "2026-04-17T00:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "fiesta-subcompact-survivor",
-    "headline": "The Ford Fiesta Survived Crashes Better Than the Average SUV. Nobody Noticed.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-16T10:35:00Z",
-    "article_number": 170
+    "slug": "mini-cooper-go-kart-coffin",
+    "headline": "The Mini Cooper Has Go-Kart Handling. It Also Has Go-Kart Crumple Zones.",
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-04-17T00:30:00Z",
+    "article_number": 171
   }
 }
