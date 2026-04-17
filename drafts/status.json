@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "mini-cooper-go-kart-coffin",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-04-16T14:35:00Z",
     "round": 1,
@@ -23,7 +23,8 @@
       "css_class": "story",
       "stylesheet": "style.css"
     },
-    "deferred_reason": "1/day gate: 2 articles already published 2026-04-16 (#169, #170). Checked again at 22:30 UTC — still blocked. Will ship on 2026-04-17."
+    "article_number": 171,
+    "shipped_at": "2026-04-17T00:30:00Z"
   },
   "last_completed": {
     "slug": "fiesta-subcompact-survivor",
