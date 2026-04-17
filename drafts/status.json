@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "death-rate-mirage",
+    "headline": "America's Death Rate Hit a Historic Low. The Cars Doing the Killing Didn't Get the Memo.",
+    "journalist": "Vin Wreckage",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-04-17T18:30:00Z"
+  },
   "last_completed": {
     "slug": "suv-safety-growth-paradox",
     "headline": "ESC Saved Truck Drivers. It Barely Dented the SUV Body Count.",
