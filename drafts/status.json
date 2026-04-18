@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "frequency-lethality-independence",
+    "headline": "Crash Frequency Explains 3% of Whether You'll Die",
+    "journalist": "Mia Crumplezone",
+    "phase": "DRAFT",
+    "round": 0,
+    "started": "2026-04-18T08:30:00Z"
+  },
   "last_completed": {
     "slug": "danger-score-composite-metric",
     "headline": "The Danger Score: A Single Number That Exposes America's Most Lethal Used Cars",
