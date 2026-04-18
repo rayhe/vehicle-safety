@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>You're Already in a Fatal Crash. Here Are Your Odds. &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals the conditional survival rate for vehicle occupants in fatal crashes varies from 8% to 80% depending on what you drive.">
+  <meta property="og:title" content="You're Already in a Fatal Crash. Here Are Your Odds.">
+  <meta property="og:description" content="FARS data reveals the conditional survival rate for vehicle occupants in fatal crashes varies from 8% to 80% depending on what you drive.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/conditional-survival-rate.jpg?v=22ba2269">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>You're Already in a Fatal Crash. Here Are Your Odds.</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">April 18, 2026</div>
+
+      <p>Forget death rates per mile, forget IIHS star ratings, and forget the glossy NCAP brochure in the dealer's folder. I want to ask you a different question, a worse question: <strong>you are already in a fatal crash, someone is going to die, and what are the odds it's you?</strong></p>
+
+      <div class="pull-stat">7.6% &ndash; 79.5%</div>
+      <div class="pull-label">Occupant survival rate range across vehicle models in FARS fatal crashes</div>
+
+      <p>I computed a metric I'm calling the conditional survival rate. Take every fatal crash in the FARS database from 2014 to 2023 involving a given vehicle. Count how many of that vehicle's occupants died, divide by the number of fatal crash involvements, and subtract from one. What falls out is the probability that you, the occupant, walk away alive from a crash where someone did not.</p>
+
+      <p>A Ram 2500 occupant survives 79.5% of the fatal crashes the truck is involved in. A Saturn S Series occupant survives 7.6% of them. That is not a typo and not a rounding error. That is a ten-to-one difference in conditional survival odds, on the same American roads, under the same speed limits, governed by the same traffic laws.</p>
+
+      <p>Class-level numbers tell the structural story: pickup truck occupants survive 51.1% of their fatal crash involvements, van occupants 48.6%, SUV occupants 47.6%, sedan occupants a mere 35.5%, and sports car occupants just 31.8%. If you drive a sedan, you survive barely a third of the fatal crashes your vehicle participates in. If you drive a pickup, it's a coin flip, and the coin is weighted in your favor.</p>
+
+      <p>But class averages obscure the real violence of this data. Within sedans alone, the Acura TLX posts a 69.7% survival rate across 109 fatal crash involvements, while the Chevrolet Cavalier manages 14.3% across 1,429 of them. Same body type classification, same general shape, same "sedan" checkbox on the insurance form, and a five-to-one gap in whether you live or die once the crash is already happening.</p>
+
+      <p>SUVs show the same spread: a Range Rover Sport occupant survives 72.6% of fatal crashes while a GMC Jimmy occupant survives 19.4%. Both are classified as sport utility vehicles, but one is a 4,700-pound luxury fortress with eight airbags and electronic stability control while the other is a rebadged Chevrolet Blazer from the era when "safety feature" meant the doors locked automatically.</p>
+
+      <p>Pickups are no different: the Ram 2500 sits at 79.5% survival while its counterpart, the GMC Sonoma, sits at 20.4%. Both are trucks, both haul things. One weighs 7,000 pounds and disperses crash energy across a frame the length of a studio apartment. The other weighs 3,200 pounds and was discontinued in 2004 because even GM noticed it kept losing arguments with trees.</p>
+
+      <h2>What This Metric Actually Measures</h2>
+
+      <p>Standard death rates tell you how likely you are to get into a fatal crash per mile driven. They combine crash avoidance (ABS, ESC, driver attentiveness) with crash survivability (structural integrity, airbags, restraints) into a single number. My conditional survival rate strips away the first half entirely and isolates the second. Given that physics has already failed you, given that kinetic energy has already exceeded some lethal threshold, how well does your metal box absorb the consequences?</p>
+
+      <p>Mass, overwhelmingly, is the answer, and eight of the top ten conditional survivors weigh over 5,000 pounds. At 79.5%, the Ram 2500 weighs roughly 7,200 pounds at the curb. The Nissan NV commercial van at 83.1% is a rolling warehouse. Newton's second law does not negotiate. When a 7,000-pound truck meets a 2,800-pound subcompact at an intersection, the physics are predetermined and nobody in the truck has to wonder about the outcome.</p>
+
+      <h2>The Strongest Case Against This Metric</h2>
+
+      <p>I need to be honest about what this number hides. A Ram 2500's 79.5% survival rate does not mean it's a brilliantly engineered safety vehicle. It means that in four out of five fatal crashes involving a Ram 2500, the fatality is in the other vehicle, or on the sidewalk, or on a bicycle. Its occupant lives because someone smaller died instead. This is not crashworthiness in any meaningful sense; it is mass displacement. The Ram 2500 doesn't protect its occupant so much as it exports lethality to whatever it strikes.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Conversely, some vehicles at the bottom of this list are there because they are old, light, and built before modern crash standards existed. Saturn discontinued the S Series in 2002, and comparing its 7.6% conditional survival to a 2022 Ram 2500 is comparing across two decades of structural engineering, materials science, and federal safety mandates, a gap that IIHS research has documented extensively by showing that newer vehicles are dramatically more protective than older ones regardless of their size.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>And there is a selection bias embedded in the data: heavy trucks are disproportionately involved in multi-vehicle fatal crashes where the truck strikes a smaller vehicle. Lightweight cars are disproportionately involved in single-vehicle crashes (rollovers, fixed-object collisions) where there is no other occupant to absorb the fatality instead. The conditional survival rate conflates crashworthiness with crash-type distribution.</p>
+
+      <h2>Where It Still Matters</h2>
+
+      <p>Within the same vehicle class, those confounding variables shrink. A Cavalier and a TLX are both sedans, both driven on the same roads, both involved in similar crash-type mixes. The TLX's 69.7% survival versus the Cavalier's 14.3% is not explained by mass displacement alone. It reflects genuine differences in structural engineering: side-impact beams, crumple zone geometry, airbag coverage, high-strength steel percentages. The TLX weighs about 3,700 pounds versus the Cavalier's 2,600. That mass gap matters but doesn't explain a five-fold survival difference; what explains it is the engineering that happened between 1995 and 2015, two decades in which structural simulation, high-strength steel adoption, and airbag coverage transformed what a sedan does in the first 150 milliseconds of a collision.</p>
+
+      <p>Tesla's Model 3 is instructive here: at 56.6% conditional survival across 212 fatal crash involvements, it dramatically outperforms every sedan in its weight class, and the Model 3 weighs roughly 3,800 to 4,100 pounds depending on configuration, heavier than most sedans due to its battery pack, but the survival rate exceeds what mass alone would predict, likely reflecting the rigid battery structure that acts as a floor-integrated crumple zone.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <h2>What You Can Do</h2>
+
+      <p>If you're shopping for a vehicle and care about surviving the crash you hope never happens, here is what this data says. First: newer beats older, full stop. Every vehicle on the bottom-ten list is discontinued. The 2014-2023 FARS window captures a fleet where aging vehicles from the late 1990s and early 2000s are still killing their occupants at rates that modern vehicles have largely eliminated. If your vehicle was built before 2012, it is statistically operating at a structural disadvantage that no amount of careful driving fully compensates for.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Second: within your budget and class, look up the crash involvement count and deaths for the specific models you're considering. NHTSA's FARS database is free and public.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> An Acura TLX and a Mercury Milan are both midsize sedans. One has a conditional survival rate 3.9 times higher than the other. Your insurance premiums won't tell you that, and no dealer will either.</p>
+
+      <p>Third: weight is protection, but it comes at a cost measured in other people's lives. Every pound your vehicle gains in a crash is a pound the other occupant has to absorb. IIHS research on vehicle size and weight consistently shows that heavier vehicles protect their own occupants while increasing risk for everyone else.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Ram 2500's 79.5% survival rate is somebody else's 0%.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue,&rdquo; 2011. <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTSA, <em>New Car Assessment Program (NCAP)</em>. <a href="https://www.nhtsa.gov/safety-ratings" target="_blank" rel="noopener">nhtsa.gov/safety-ratings</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 occupant fatalities and fatal crash involvements by make/model. Conditional survival rate = 1 &minus; (occupant deaths / fatal crash involvements). Minimum 50 fatal crash involvements for inclusion. Fleet age, driver demographics, crash type mix, and vehicle weight all confound cross-model comparisons. See <a href="../#method">methodology</a> for caveats.</p>
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
