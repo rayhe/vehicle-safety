@@ -1,27 +1,10 @@
 {
-  "current": {
-    "slug": "conditional-survival-rate",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-18T16:31:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    },
-    "critique_passed": "2026-04-18T18:35:00Z",
-    "shipped": "2026-04-18T22:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "frequency-lethality-independence",
-    "headline": "Crash Frequency Explains 3% of Whether You'll Die",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-18T10:37:00Z",
-    "article_number": 175
+    "slug": "conditional-survival-rate",
+    "headline": "You're Already in a Fatal Crash. Here Are Your Odds.",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-18T22:30:00Z",
+    "article_number": 176
   }
 }
