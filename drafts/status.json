@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "danger-score-composite-metric",
     "headline": "The Danger Score: A Single Number That Exposes America's Most Lethal Used Cars",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-04-18T04:30:00Z"
-  },
-  "last_completed": {
-    "slug": "death-rate-mirage",
-    "headline": "America's Death Rate Hit a Historic Low. The Cars Doing the Killing Didn't Get the Memo.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-04-18T00:30:00Z",
-    "article_number": 173
+    "published_at": "2026-04-18T06:30:00Z",
+    "article_number": 174
   }
 }
