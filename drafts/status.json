@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "conditional-survival-rate",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-18T16:31:00Z",
+    "round": 1,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data_presentation": 8.5
+    },
+    "critique_passed": "2026-04-18T18:35:00Z"
+  },
   "last_completed": {
     "slug": "frequency-lethality-independence",
     "headline": "Crash Frequency Explains 3% of Whether You'll Die",
