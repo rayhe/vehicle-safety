@@ -4,25 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Crash Frequency Explains 3% of Whether You'll Die &mdash; The Crash Report</title>
-  <meta name="description" content="A Pearson correlation across 272 vehicles reveals crash frequency and crash lethality are nearly independent dimensions. Your car's death rate is hiding two different problems.">
+  <meta name="description" content="A Pearson correlation of r = 0.18 across 272 vehicle models proves crash frequency and crash lethality are nearly independent dimensions. Traditional death rates conflate two unrelated risks.">
   <meta property="og:title" content="Crash Frequency Explains 3% of Whether You'll Die">
-  <meta property="og:description" content="A Pearson correlation across 272 vehicles reveals crash frequency and crash lethality are nearly independent. Traditional death rates obscure whether a car's danger comes from exposure or engineering.">
+  <meta property="og:description" content="FARS data across 272 models shows r-squared of 3.3% between how often a car crashes and how often it kills. These are separate problems.">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="../images/frequency-lethality-independence.jpg?v=5a1bc063">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Crash Frequency Explains 3% of Whether You'll Die">
-  <meta name="twitter:description" content="A Pearson correlation across 272 vehicles reveals crash frequency and crash lethality are nearly independent dimensions.">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Crash Frequency Explains 3% of Whether You'll Die",
-    "description": "A Pearson correlation across 272 vehicles reveals crash frequency and crash lethality are nearly independent dimensions. Your car's death rate is hiding two different problems.",
-    "author": {"@type": "Person", "name": "Mia Crumplezone"},
-    "publisher": {"@type": "Organization", "name": "The Crash Report"},
-    "datePublished": "2026-04-18"
-  }
-  </script>
+  <meta property="og:image" content="../images/frequency-lethality-independence.jpg?v=6a197fef">
   <script>
     (function(){var t=localStorage.getItem('theme');
     if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
@@ -45,56 +31,59 @@
       <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
       <div class="dateline">April 18, 2026</div>
 
-      <p>The Ford E-350 van shows up in <strong>72.1 fatal crashes per 10,000 registered vehicles</strong>, making it the most crash-prone vehicle in the FARS database by a wide margin. But only 41% of those crashes actually kill someone inside it. Meanwhile, the Saturn S Series barely appears at all&mdash;10.5 crashes per 10,000 fleet&mdash;and 92% of its crashes are lethal.</p>
+      <p>Two numbers define every vehicle in the FARS database: how often it shows up in a fatal crash, and how often its occupant dies when it does. The entire vehicle safety industry treats these as a single problem, multiplied together into a death rate and stamped on a press release.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That multiplication hides something extraordinary.</p>
 
       <div class="pull-stat">r&sup2; = 3.3%</div>
-      <div class="pull-label">Crash frequency explains this much of whether a crash kills you. Engineering explains most of the rest.</div>
+      <div class="pull-label">Crash frequency explains 3.3% of crash lethality variance across 272 vehicle models</div>
 
-      <p>Run a Pearson correlation across 272 vehicles with fleets exceeding 100,000 and at least 50 recorded crashes in FARS, and the number comes back at r = 0.18.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Square that for the coefficient of determination: 0.033. Crash frequency&mdash;how often a vehicle model appears in the federal fatal crash database&mdash;explains 3.3% of the variance in crash lethality, which is the probability that any given crash will produce a death. The remaining 96.7% comes from somewhere else entirely, and that somewhere is predominantly structural engineering, vehicle mass, and occupant protection design.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+      <p><strong>Pearson r = 0.1825 across 272 vehicles with fleets exceeding 100,000 units and at least 50 fatal crash involvements.</strong> Squared, that gives us 3.3%, which means crash frequency predicts essentially nothing about crash lethality. A vehicle that crashes constantly might kill its occupants rarely, or always, and the frequency alone won&rsquo;t tell you which.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
 
-      <p>This matters because every standard vehicle death rate&mdash;deaths per 100 million vehicle miles traveled, the metric NHTSA and insurance companies rely on&mdash;multiplies frequency by lethality into a single number.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> A car with a death rate of 3.0 could be crashing constantly but keeping people alive, or crashing rarely but killing almost everyone involved. Those two failure modes demand radically different interventions. One is a driver behavior problem. The other is an engineering indictment.</p>
+      <p>This produces four distinct survival archetypes in the data, each requiring completely different engineering and policy responses.</p>
 
-      <h3>The Four Quadrants</h3>
+      <h3>Crashes Often, Kills Rarely</h3>
 
-      <p>Mapping 272 vehicles across both axes creates four distinct safety archetypes, and the residents of each quadrant are not who you'd guess.</p>
+      <p>Ford&rsquo;s E-350 Van appears in fatal crashes at 72.1 per 10,000 fleet vehicles, more than five times the median, yet its occupant lethality sits at just 41%. The Lincoln Navigator crashes at 31.3 per 10K with 42% lethality, the Toyota Tundra at 30.6 and 41%, Honda&rsquo;s Odyssey at 25.8 and 43%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> These are exposure machines with structural integrity. Heavy frames, commercial duty cycles, high annual mileage putting them in harm&rsquo;s way constantly while their mass and crash structures keep occupants alive. The engineering works, but the usage pattern creates the risk.</p>
 
-      <p><strong>Crash Frequently, Survive:</strong> The Toyota Tundra crashes 30.6 times per 10,000 fleet&mdash;more than double the overall average&mdash;but its 41% lethality means occupants walk away from the majority of fatal-crash scenarios. The Honda Odyssey, a vehicle marketed almost exclusively to families hauling children, crashes at 25.8 per 10,000 with 43% lethality. Both carry high death tolls (the Tundra logged 1,223 deaths over the decade) because they're everywhere, but the crashes themselves are survivable at above-average rates. Mass and modern crumple zone engineering are doing the work that driver behavior isn't.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+      <h3>Crashes Rarely, Kills Almost Always</h3>
 
-      <p><strong>Crash Rarely, Die:</strong> The Buick Park Avenue shows up in just 6.3 crashes per 10,000 fleet, one of the lowest frequencies in the database, and yet when those crashes occur, occupants die 88% of the time. The Ford Escort appears at 2.5 per 10,000&mdash;statistically invisible&mdash;but maintains the same 88% kill rate when it does crash. These are not reckless-driver vehicles. Impairment rates among Park Avenue drivers sit at 24.3%, and Escort drivers at typical levels. The cars themselves are the problem. Built before modern crashworthiness standards, small, light, structurally compromised by age, with twenty-year-old airbag systems and no electronic stability control.</p>
+      <p>Saturn&rsquo;s S Series crashes at just 10.5 per 10K but kills at 92%, the Chevrolet Aveo manages 8.9 and 89%, Buick&rsquo;s Park Avenue sits at 6.3 and 88%, and the Ford Escort barely registers at 2.5 frequency with 88% lethality.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Low-mileage vehicles with aging, structurally compromised designs that keep their drivers out of trouble most of the time, but when physics finally arrives, there is nothing between the occupant and the dashboard except optimism. GM should have discontinued the S Series platform years before it actually did, and the Aveo was an embarrassment from the day Daewoo stamped the first body panel.</p>
 
-      <p><strong>Worst of Both Worlds:</strong> The Chevrolet S-10 crashes at 86.4 per 10,000 fleet AND kills at a 76% clip, producing a combined danger score of 65.2&mdash;the highest in the dataset. The Nissan Maxima (88.8 frequency, 66% lethality) and Chevrolet Cobalt (72.6 frequency, 81% lethality) form the rest of this grim podium. The Cobalt is particularly damning because 81% lethality means four out of five times this car appears in the FARS database, someone in it died, and it appears often enough to accumulate one of the highest body counts in its segment.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+      <h3>The Full Quadrant</h3>
 
-      <p><strong>Best of Both Worlds:</strong> The Kia Telluride crashes at 1.4 per 10,000 fleet with 36% lethality. The Tesla Model 3 at 1.3 per 10,000 with 43% lethality across a 1.575-million-unit fleet. These vehicles are both rarely involved in fatal crashes and relatively survivable when they are. Newer design, active safety systems, and in the Telluride's case, sheer mass built on a modern unibody platform.</p>
+      <p>Worst of both worlds: the Chevrolet S-10 at 86.4 frequency and 76% lethality, the Nissan Maxima at 88.8 and 66%, the Cobalt at 72.6 and 81%. Best of both: Kia&rsquo;s Telluride at 1.4 frequency and 36% lethality with 31 total deaths across a 612,000-unit fleet, and Tesla&rsquo;s Model 3 at 1.3 and 43% with 92 deaths across 1.575 million units.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The spread from worst quadrant to best exceeds 60:1 on the composite, but the two dimensions generating that spread share almost no statistical relationship.</p>
 
-      <h3>Methodology</h3>
+      <h3>Class Averages Confirm the Split</h3>
 
-      <p>Crash frequency = total FARS crashes / estimated registered fleet &times; 10,000. Crash lethality = total FARS deaths / total FARS crashes. The Pearson product-moment correlation coefficient was computed across all 272 qualifying vehicles (fleet &gt;100,000, crashes &ge;50) without controlling for vehicle class, age, or driver demographics. Inputs: NHTSA FARS 2014&ndash;2023 bulk data, estimated fleet sizes derived from cumulative U.S. sales data, VMT estimates from the National Household Travel Survey.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+      <p>Sports cars crash at 29.3 per 10K with 70.7% lethality, which makes them the worst-performing class on both axes simultaneously. Sedans follow at 21.6 and 65.4%, SUVs at 14.4 and 51.0%, and pickups crash at 26.8 with only 52.5%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup> Pickups crash nearly twice as often as SUVs but kill at comparable rates, because mass and frame geometry dominate lethality independent of how frequently the vehicle finds trouble. IIHS has documented this weight-survivability relationship for decades, but nobody has shown it operating independently of crash frequency across the full FARS dataset until now.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <h3>The Counterargument at Full Strength</h3>
+
+      <p>This independence could be an artifact of confounders, not a mechanical truth. Old, cheap cars have high lethality because they are structurally weak AND low crash frequency because their elderly or low-income drivers accumulate fewer miles per year. New SUVs have low lethality because of modern engineering AND low frequency because suburban families drive predictable routes in predictable patterns. Vehicle age and owner demographics could independently drive both dimensions, making the low Pearson r a statistical artifact of third-variable confounding rather than proof that frequency and lethality are mechanically separate phenomena.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>That argument deserves serious consideration. Controlling for vehicle age, driver age, and annual VMT at the model level would strengthen or destroy this finding, and FARS alone cannot do it. What FARS can show is that the traditional single-number death rate obscures which of two completely different failure modes is killing people in any given vehicle.</p>
+
+      <h3>What This Means for Buyers</h3>
+
+      <p>When shopping used, check both dimensions separately. A low overall death rate might mask high lethality hidden behind low exposure, the Saturn S Series problem: it barely crashes, but when it does, you are almost certainly dead. Conversely, a high death rate might reflect nothing more than commercial-grade mileage on a structurally excellent truck. The E-350 Van looks terrifying in FARS aggregate statistics, but its 41% occupant lethality is actually better than a Toyota Camry&rsquo;s. Ask two questions, not one: how often does this model end up in FARS, and when it does, what percentage of occupants survive?<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>If you own anything in the high-lethality quadrant, check <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> for outstanding safety campaigns. Structural weakness you cannot fix, but an unpatched airbag recall is a lethality multiplier you can eliminate in an afternoon.</p>
 
       <h3>Limitations</h3>
 
-      <p>FARS captures only crashes with at least one fatality. Non-fatal crash frequency data (the 6.7 million annual police-reported crashes) is not included, so the "frequency" axis measures only fatal-crash involvement, not total crash involvement. Fleet size estimates carry approximately &plusmn;15% uncertainty for low-volume models. The lethality metric includes all occupants and other crash participants, not exclusively occupants of the subject vehicle. VMT estimates are class-level from NHTS, not model-specific, which smooths out behavioral differences between, say, Corvette owners and Camry owners.</p>
-
-      <h3>The Best Case Against This Analysis</h3>
-
-      <p>The low correlation could be an artifact of confounders rather than proof of mechanical independence. Old, cheap sedans cluster in the "rare but lethal" quadrant partly because their elderly or low-income owners drive fewer miles (low frequency) while the car's outdated structure ensures fatalities when collisions do occur (high lethality). Modern SUVs cluster in the "safe" quadrant because suburban families drive predictable routes at moderate speeds (low frequency) in vehicles with advanced crash protection (low lethality). Vehicle age and owner demographics could be independently driving both axes, making the r&sup2; = 3.3% finding a reflection of socioeconomic confounding rather than a clean decomposition of vehicle safety into two separate engineering dimensions. This analysis cannot fully separate the two explanations with the available data.</p>
-
-      <h3>What You Should Actually Check</h3>
-
-      <p>If you're shopping for a car, a single death-rate number tells you almost nothing about <em>why</em> a vehicle is dangerous. Find the FARS data. Separate the two questions: does this car show up in fatal crashes often (exposure/behavior) or does it kill its occupants when crashes happen (engineering/design)? A high-frequency, low-lethality vehicle like the Tundra has a driver behavior and exposure problem that won't follow you if you change your driving patterns. A low-frequency, high-lethality vehicle like the Park Avenue has a structural engineering problem that no amount of defensive driving will fix. One of these problems is yours to solve. The other one was decided in a factory decades before you bought it.</p>
+      <p>FARS captures only fatal crashes, roughly 36,000 annually out of an estimated 6.7 million total. Non-fatal crash frequency is unknown at the model level. Fleet size estimates use cumulative sales minus scrappage projections, introducing approximately &plusmn;15% uncertainty for low-volume models. Lethality includes all crash participants, not exclusively occupants of the subject vehicle. VMT estimates rely on class-level National Household Travel Survey data rather than model-specific odometer readings.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
 
       <section class="story-references">
         <h3>Sources &amp; References</h3>
         <ol>
-          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
-          <li id="ref-2">IIHS, &ldquo;Vehicle Size and Weight,&rdquo; 2023. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
-          <li id="ref-3">IIHS, <em>Fatality Statistics: Fatality Facts</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
-          <li id="ref-4">NHTSA, <em>FARS Query Tool (CDAN)</em>. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
-          <li id="ref-5">Federal Highway Administration, <em>National Household Travel Survey</em>. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Crash frequency (involvements per 10K fleet), lethality (occupant deaths per involvement), and fleet estimates derived from FARS bulk data cross-tabulated with cumulative US sales. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Fatality Statistics: Yearly Snapshot</em>. Comparative fatality rates by vehicle type and size class. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Size and Weight</em>. Relationship between curb weight, vehicle dimensions, and crash survivability. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">Federal Highway Administration, <em>National Household Travel Survey</em>. Class-level VMT estimates used for rate calculations. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
         </ol>
       </section>
     </article>
 
-    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Crash frequency and lethality computed from FARS total crashes and deaths per vehicle model, with fleet estimates from cumulative sales data. See <a href="../#method">methodology</a> for caveats.</p>
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Pearson correlation computed across 272 models with &ge;100K estimated fleet and &ge;50 fatal crash involvements. Fleet estimates carry &plusmn;15% uncertainty. See <a href="../#method">methodology</a> for caveats.</p>
 
     <footer class="site-footer">
       <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
