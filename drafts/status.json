@@ -1,20 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "death-rate-mirage",
     "headline": "America's Death Rate Hit a Historic Low. The Cars Doing the Killing Didn't Get the Memo.",
     "journalist": "Vin Wreckage",
-    "phase": "QA",
-    "round": 1,
-    "critique_score": 8.93,
-    "started": "2026-04-17T18:30:00Z",
     "published_at": "2026-04-18T00:30:00Z",
     "article_number": 173
-  },
-  "last_completed": {
-    "slug": "suv-safety-growth-paradox",
-    "headline": "ESC Saved Truck Drivers. It Barely Dented the SUV Body Count.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-04-17T16:30:00Z",
-    "article_number": 172
   }
 }
