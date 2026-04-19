@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car's Age Predicts Whether You Were Drunk &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals vehicle fleet age predicts driver impairment in fatal crashes better than vehicle class, with a monotonic gradient from 28% for 1980s-era vehicles to 19% for 2020s models.">
+  <meta property="og:title" content="Your Car's Age Predicts Whether You Were Drunk">
+  <meta property="og:description" content="FARS data reveals vehicle fleet age predicts driver impairment in fatal crashes better than vehicle class.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/fleet-age-impairment-gradient.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Sobriety Report</div>
+      <h1>Your Car's Age Predicts Whether You Were Drunk</h1>
+      <div class="byline">Dale Impactor III &bull; Clautomotive Desk</div>
+      <div class="dateline">April 18, 2026</div>
+
+      <p>According to the toxicology reports, the single best predictor of whether a driver was impaired in a fatal crash isn't what kind of vehicle they drove. It's how old that vehicle was. Cross-tabulating FARS model-year fatality distributions with toxicology data across 490,736 drivers reveals a gradient so clean it looks manufactured: <strong>vehicles with median fleet ages in the 1980s show 28% impairment rates; vehicles from the 2020s show 19.2%.</strong> That 8.8-percentage-point spread is double the gap between the most and least impaired vehicle classes.</p>
+
+      <div class="pull-stat">2&times;</div>
+      <div class="pull-label">Fleet age predicts impairment with twice the spread of vehicle class</div>
+
+      <p>The methodology is straightforward but, as far as published analyses go, novel. For each of the 262 vehicle models with at least 200 drivers in FARS toxicology records, I computed the median model year weighted by fatal crash deaths. A Chevrolet C/K Pickup's fatalities cluster around 1985-era models. A Tesla Model Y's cluster around 2022. Then I bucketed these median years and averaged the impairment rates within each bucket. The result is a staircase that descends from 28% to 19.2% as fleet age decreases, with almost no reversals.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>What makes this gradient interesting is where the movement comes from. Alcohol-positive rates drop 6.8 percentage points across the age spectrum, from 21.6% in the oldest fleets to 14.8% in the newest. Drug-positive rates barely budge: 11% down to 8.2%. The drug share of total impairment holds remarkably steady at roughly 36% regardless of fleet age. Older vehicles attract proportionally more drinkers, not more drug users. The bar graph tilts, but only on one axis.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Compare this to the impairment spread between vehicle classes. Sports cars lead at 22.5% overall impairment, vans trail at 18.1%, and everything else clusters within two percentage points of 20%. That entire class taxonomy, the one the insurance industry uses to set your premiums, produces a 4.4-point spread. Fleet age produces 8.8 points. Knowing that someone crashed in a 2003 Buick LeSabre tells you more about their blood alcohol content than knowing they crashed in a sports car versus a minivan.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>The individual vehicles at the extremes are instructive. The Chevy C/K Pickup, median model year 1985, posts a 28% impairment rate across 282 fatal-crash drivers. The Astro Van, median 1998, hits 27% across 281 drivers. The GMC Jimmy, median 1999, clocks 24.2% across 219. On the other end: the Tesla Model Y at 17.6%, the Kia Telluride at 17.5%, and the Volkswagen Atlas at 16.7%, all with median model years of 2019 or later and sample sizes above 200.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>The obvious counterargument is income. People driving 25-year-old pickups and people driving new three-row SUVs occupy different economic strata, and DUI rates correlate with socioeconomic factors that FARS doesn't capture. This is almost certainly true, and it doesn't weaken the finding. Vehicle age is <em>observable</em>. An officer or an automated system can see that a vehicle is old. Nobody can see the driver's income bracket. If you're designing a targeted ignition interlock campaign or a state safety inspection program, this gradient tells you exactly where to focus: vehicles whose median fatal-crash model year sits in the early 2000s or earlier, where impairment rates run 3 to 9 percentage points above the fleet average.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Fifteen states plus D.C. have periodic safety inspection programs. None weight their criteria by impairment risk. A 2002 Chevy Impala with 21.4% impairment and a death rate of 5.0 per 100 million VMT passes the same inspection checklist as a 2022 Toyota RAV4 with 18.4% impairment and a rate of 0.19. The inspection catches brake wear and tire tread. It does not catch the statistical reality that the Impala's driver is 16% more likely to have alcohol in their system when something goes fatally wrong.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <h3>Limitations</h3>
+      <p>FARS toxicology testing varies by state, with drug testing especially inconsistent, so the drug percentages are almost certainly undercounts that skew the drug-share calculation toward alcohol. The 1980s and 1990s fleet-age buckets contain only one to two models each, making those endpoints directionally correct but not statistically robust. Median model year is a blunt instrument: it doesn't capture whether a vehicle's fatalities are spread across many model years or concentrated in a spike. And the gradient likely reflects demographic confounds beyond income alone: age, geography, employment status, and commute patterns all correlate with both vehicle age and impairment risk in ways this data cannot untangle.</p>
+
+      <h3>What you can do</h3>
+      <p>If you're buying a used car, this data adds another reason to avoid anything built before 2010. The safety engineering argument is well-established. The impairment gradient adds a behavioral dimension: older vehicles attract riskier driver populations, and those populations share the road with you. If you drive an older vehicle yourself, none of this is destiny. But the actuarial table sees you differently than it sees the Telluride driver. Check your VIN for outstanding recalls at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. The vehicle might be old, but the safety defects don't have to be.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Toxicology and model-year datasets cross-tabulated by the author. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>FARS Query Tool</em> (fatal crash involvement by vehicle class and impairment status). <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Alcohol-Impaired Driving: 2023 Data</em>, Traffic Safety Facts. <a href="https://www.nhtsa.gov/risky-driving/drunk-driving" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">IIHS, <em>Vehicle Inspection Programs and Safety</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 toxicology and model-year datasets. Impairment rates computed from drivers tested for alcohol (BAC &gt; 0) or drugs (any positive result). Fleet age buckets use author-calculated median model year weighted by fatal crash deaths. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
