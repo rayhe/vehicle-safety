@@ -1,25 +1,10 @@
 {
-  "current": {
-    "slug": "dui-body-count-boring-cars",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-04-19T18:35:00Z",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.5,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "versa-cheapest-car-kill-rate",
-    "headline": "The $14,730 Question: How Much Crash Survival Can You Actually Buy?",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-19T10:35:00Z",
-    "article_number": 177
+    "slug": "dui-body-count-boring-cars",
+    "headline": "America's DUI Body Count Belongs to the Walmart Parking Lot",
+    "journalist": "Dale Impactor III",
+    "published_at": "2026-04-20T02:35:00Z",
+    "article_number": 178
   }
 }
