@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "takata-stellantis-do-not-drive",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-04-20T12:31:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "liberty-gas-tank-trailer-hitch-fix",
     "headline": "The Jeep Liberty's Gas Tank Was Behind the Axle. Chrysler's Fix Was a Trailer Hitch.",
