@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "dui-body-count-boring-cars",
-    "phase": "DRAFT",
+    "phase": "QA",
     "journalist": "Dale Impactor III",
     "started": "2026-04-19T18:35:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 9.0,
+      "data_presentation": 8.5
+    }
   },
   "last_completed": {
     "slug": "versa-cheapest-car-kill-rate",
