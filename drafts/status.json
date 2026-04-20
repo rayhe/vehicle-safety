@@ -3,9 +3,19 @@
     "slug": "liberty-gas-tank-trailer-hitch-fix",
     "headline": "The Jeep Liberty's Gas Tank Was Behind the Axle. Chrysler's Fix Was a Trailer Hitch.",
     "journalist": "Rex Driverton",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-04-20T04:38:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-20T04:38:00Z",
+    "critique_passed": "2026-04-20T06:35:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 9.0
+    }
   },
   "last_completed": {
     "slug": "dui-body-count-boring-cars",
