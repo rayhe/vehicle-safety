@@ -1,34 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "takata-stellantis-do-not-drive",
-    "phase": "QA",
+    "headline": "225,000 Stellantis Vehicles Were Already Killing People. Now They Have Bombs in the Steering Wheel.",
     "journalist": "Clara Rollover",
-    "started": "2026-04-20T12:31:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 14.5,
-      "css_classes": "pass",
-      "hero_image": "pass"
-    },
     "published_at": "2026-04-21T00:30:00Z",
     "article_number": 180
-  },
-  "last_completed": {
-    "slug": "liberty-gas-tank-trailer-hitch-fix",
-    "headline": "The Jeep Liberty's Gas Tank Was Behind the Axle. Chrysler's Fix Was a Trailer Hitch.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-20T08:32:00Z",
-    "article_number": 179
   }
 }
