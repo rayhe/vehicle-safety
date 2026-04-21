@@ -1,33 +1,10 @@
 {
-  "current": {
-    "slug": "smart-summon-fsd-two-tier-investigation",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-04-21T00:30:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 4.1,
-      "css_classes": "pass",
-      "hero_image": "pass"
-    },
-    "published_at": "2026-04-21T02:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "takata-stellantis-do-not-drive",
-    "headline": "225,000 Stellantis Vehicles Were Already Killing People. Now They Have Bombs in the Steering Wheel.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-21T00:30:00Z",
-    "article_number": 180
+    "slug": "smart-summon-fsd-two-tier-investigation",
+    "headline": "NHTSA Closed the Parking Lot Robot Investigation. It Escalated the Highway One.",
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-04-21T02:30:00Z",
+    "article_number": 181
   }
 }
