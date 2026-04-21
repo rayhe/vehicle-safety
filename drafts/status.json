@@ -1,21 +1,11 @@
 {
   "current": {
     "slug": "electronic-door-handles-kill",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "headline": "They Survived the Crash. The Door Handle Needed a User Manual.",
     "started": "2026-04-21T06:30:00Z",
-    "round": 1,
-    "ship_blocked": "1/day gate: 2 already published 2026-04-21 UTC",
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
+    "article_number": 182
   },
   "last_completed": {
     "slug": "smart-summon-fsd-two-tier-investigation",
