@@ -1,10 +1,27 @@
 {
   "current": {
     "slug": "smart-summon-fsd-two-tier-investigation",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-04-21T00:30:00Z",
-    "round": 0
+    "round": 1,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 4.7,
+      "css_classes": "pass",
+      "hero_image": "pass"
+    },
+    "ship_note": "Blocked by 1/day gate: #180 already published 2026-04-21. Next eligible: 2026-04-22."
   },
   "last_completed": {
     "slug": "takata-stellantis-do-not-drive",
