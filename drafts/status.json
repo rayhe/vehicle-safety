@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "volvo-safety-floor",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-04-21T14:35:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "electronic-door-handles-kill",
     "headline": "They Survived the Crash. The Door Handle Needed a User Manual.",
