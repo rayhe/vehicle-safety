@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "smart-summon-fsd-two-tier-investigation",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-04-21T00:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "takata-stellantis-do-not-drive",
     "headline": "225,000 Stellantis Vehicles Were Already Killing People. Now They Have Bombs in the Steering Wheel.",
