@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "near-zero-death-rate-club",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "started": "2026-04-22T02:30:00Z",
-    "round": 0
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    }
   },
   "last_completed": {
     "slug": "volvo-safety-floor",
