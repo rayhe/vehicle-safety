@@ -1,5 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "odyssey-sober-crash-paradox",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "headline": "The Honda Odyssey Has the Soberest Drivers in Its Class. It Crashes Twice as Often as the Sienna.",
+    "started": "2026-04-22T22:30:00Z",
+    "round": 1,
+    "critique_score": 8.7,
+    "blocked_reason": "1/day gate: #186 published 2026-04-22T20:32Z"
+  },
   "last_completed": {
     "slug": "minivan-safety-lie",
     "headline": "The Dodge Grand Caravan Killed 1,782 Americans. It Was Supposed to Be the Safe Choice.",
