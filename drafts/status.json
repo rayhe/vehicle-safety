@@ -1,42 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "minivan-safety-lie",
     "headline": "The Dodge Grand Caravan Killed 1,782 Americans. It Was Supposed to Be the Safe Choice.",
-    "phase": "QA",
     "journalist": "Mia Crumplezone",
-    "started": "2026-04-22T16:30:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "data_presentation": 8.5,
-      "average": 8.93
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "banned_phrases": 0,
-      "the_starters_pct": 12.8,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": {
-        "variance": 285.4,
-        "short_pct": 13.0,
-        "long_pct": 43.5,
-        "passed": true
-      }
-    },
     "published_at": "2026-04-22T20:30:00Z",
     "article_number": 186
-  },
-  "last_completed": {
-    "slug": "kia-americas-safest-brand",
-    "headline": "Kia Is Statistically the Safest Brand in America. Nobody Noticed.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-22T12:32:00Z",
-    "article_number": 185
   }
 }
