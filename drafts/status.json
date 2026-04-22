@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "kia-americas-safest-brand",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-04-22T08:33:00Z",
     "round": 1,
@@ -17,12 +17,11 @@
     "hard_gates": {
       "em_dashes": 1,
       "banned_phrases": 0,
-      "the_starters_pct": 9.1,
-      "sentence_rhythm_variance": 984,
+      "the_starters_pct": 6.1,
       "css_class": "story",
       "stylesheet": "style.css"
     },
-    "blocked_reason": "1/day gate — #184 published 2026-04-22T06:31Z"
+    "article_number": 185
   },
   "last_completed": {
     "slug": "near-zero-death-rate-club",
