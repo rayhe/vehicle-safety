@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Five Vehicles Kill at Exactly the Same Rate Every Year. Engineering Apparently Doesn&rsquo;t Matter. &mdash; The Crash Report</title>
+  <meta name="description" content="A coefficient-of-variation analysis of FARS model-year data reveals five vehicles whose death counts barely fluctuate across 23 model years and three engineering generations. The math explains why.">
+  <meta property="og:title" content="Five Vehicles Kill at Exactly the Same Rate Every Year">
+  <meta property="og:description" content="A coefficient-of-variation analysis of FARS model-year data reveals five vehicles whose death counts barely fluctuate across 23 model years and three engineering generations.">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Five Vehicles Kill at Exactly the Same Rate Every Year. Engineering Apparently Doesn&rsquo;t Matter.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">April 22, 2026</div>
+
+      <p>I ran a coefficient-of-variation analysis on every vehicle in FARS with ten-plus model years and 500-plus deaths. Most vehicles showed wild swings across generations, which is what you'd expect when engineers actually improve things. Five didn't. <strong>Honda's CR-V kills between 30 and 124 people per model year, every model year, across 23 consecutive vintages spanning three complete platform redesigns.</strong> Its CV is 0.241. For reference, Ford's Explorer sits at 1.017.</p>
+
+      <div class="pull-stat">0.241</div>
+      <div class="pull-label">Honda CR-V coefficient of variation: the flattest kill curve in FARS data</div>
+
+      <p>CV measures dispersion relative to the mean. Low CV means the numbers barely budge. The CR-V averages 85 fatalities per model year from 1998 through 2020, with a standard deviation of just 20. That's a vehicle that went from IIHS "Marginal" in the offset frontal test to Top Safety Pick+ with autonomous emergency braking, and the body count per vintage didn't flinch.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>It isn't alone. The Jeep Wrangler (CV 0.272, 66 deaths per model year, range 31 to 103) bridged the gap from the TJ generation with no side curtain airbags to the JL with every active safety system Stellantis could bolt on. Deaths per vintage: flat. The Honda Civic (CV 0.330, 238 per model year, 5,463 total) and Toyota Camry (CV 0.341, 237 per model year, 5,457 total) kill at nearly identical average rates despite being built by different companies on different continents with different safety philosophies.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Meanwhile, the Ford Explorer went from 503 deaths for model year 2002 to 13 for model year 2020. CV of 1.017. The Chevrolet Tahoe dropped from 311 to 12. That's what real improvement looks like in the data. You can see the moment engineers fixed the rollover problem, added ESC, and switched to independent rear suspension. The curve bends.</p>
+
+      <p>So why don't the metronome killers bend? The math is almost elegant in its cruelty. Honda sold roughly 150,000 CR-Vs in 2002. By 2019 that number was north of 384,000.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The per-unit fatality rate dropped substantially across those generations. IIHS said so. Physics said so. Crash test dummies agreed unanimously. But volume growth ate the safety dividend whole. Each new generation was individually safer and collectively just as lethal, because twice as many people were driving them.</p>
+
+      <p>This creates a statistical illusion that FARS aggregate data systematically propagates. A consumer Googles "Honda CR-V deaths" and sees 1,960 fatalities spread evenly across every model year and concludes: this vehicle never gets safer. A consumer Googles "Ford Explorer deaths" and sees a dramatic decline and concludes: modern Explorers are safe. Both conclusions contain a grain of truth wrapped in a fundamental category error between individual risk and population risk.</p>
+
+      <p>The Civic and Camry reveal the pattern at its most extreme. Combined, they account for 10,920 FARS deaths across 46 model-year datasets, killing at averages of 238 and 237 per model year respectively. Two vehicles. Different engineering DNA, different crash structures, different transmission strategies, sold to overlapping-but-distinct demographics. Virtually identical metronome timing. The convergence isn't about engineering. It's about what happens when you sell 300,000-plus sedans per year into a country with 42,000 annual traffic fatalities and 3.2 trillion vehicle miles traveled.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>The actionable version: if you're buying a used metronome killer, the specific model year matters less than you think. A 2005 CR-V and a 2018 CR-V carry similar per-vintage fatality counts, though the 2018 is individually much safer per mile driven. For volatile vehicles like the Explorer or Tahoe, model year selection is critical. Skip anything from 2000 to 2005 if you can. The engineering improvement was real and dramatic, and it shows in every data point after 2012.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">IIHS, <em>Honda CR-V ratings, 2002&ndash;2025</em>. <a href="https://www.iihs.org/ratings/vehicle/honda/cr-v-4-door-suv" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS), 2014&ndash;2023</em>. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Statista/Goodcarbadcar, <em>Honda CR-V U.S. sales figures, 2002&ndash;2023</em>. Sales data widely reported by automotive industry trackers.</li>
+          <li id="ref-4">NHTSA, <em>Traffic Safety Facts: 2022 Data</em>. 42,795 fatalities, approximately 3.2 trillion VMT. <a href="https://crashstats.nhtsa.dot.gov/" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+        </ol>
+      </section>
+
+      <div class="story-body">
+        <h3>Methodology</h3>
+        <p>Coefficient of variation (CV = &sigma;/&mu;) calculated on per-model-year death counts from FARS_MODEL_YEAR data. Filtered to vehicles with &ge;10 model years between 1998 and 2020 and &ge;500 total deaths in the dataset. 63 vehicles met these criteria. Low CV indicates consistent death distribution across model years; high CV indicates concentration in specific vintages. This analysis measures population-level fatality consistency, not per-unit risk.</p>
+
+        <h3>Limitations</h3>
+        <p>This analysis measures aggregate death COUNTS, not per-unit death RATES. A vehicle doubling its sales while halving its per-unit fatality rate produces identical aggregate counts. FARS captures only fatal crashes, so injury-rate trajectories may diverge. Model-year tail effects (very old or very new vintages with small fleet presence) increase noise, though the 10-year minimum filters the worst of this. Registration-year exposure varies by model year within the 2014&ndash;2023 FARS window, introducing age-related confounding.</p>
+
+        <h3>Strongest Counterargument</h3>
+        <p>The flatness of these curves is arguably evidence that engineering IS working. If per-unit risk drops 40% but fleet size doubles, total deaths hold steady rather than doubling. The metronome pattern is the sound of engineers running as fast as volume growth, not standing still. The Explorer and Tahoe had high CVs partly because their sales shrank even as their safety improved, creating a double-reduction effect. The honest framing: metronome killers aren't vehicles where engineering failed. They're vehicles where success was invisible because it exactly offset market success.</p>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023, per-model-year fatality aggregation. Coefficient of variation calculated on model years 1998&ndash;2020 with &ge;10 data points and &ge;500 total deaths. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
