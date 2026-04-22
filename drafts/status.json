@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "volvo-safety-floor",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
     "headline": "BMW's Safest Car Beats Every Volvo. BMW's Deadliest Is 30 Times Worse.",
-    "started": "2026-04-21T14:35:00Z",
+    "journalist": "Axle McScatter",
     "published_at": "2026-04-22T00:30:00Z",
     "article_number": 183
-  },
-  "last_completed": {
-    "slug": "electronic-door-handles-kill",
-    "headline": "They Survived the Crash. The Door Handle Needed a User Manual.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-21T12:32:00Z",
-    "article_number": 182
   }
 }
