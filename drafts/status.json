@@ -2,7 +2,7 @@
   "current": {
     "slug": "minivan-safety-lie",
     "headline": "The Dodge Grand Caravan Killed 1,782 Americans. It Was Supposed to Be the Safe Choice.",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-04-22T16:30:00Z",
     "round": 1,
@@ -28,7 +28,9 @@
         "long_pct": 43.5,
         "passed": true
       }
-    }
+    },
+    "published_at": "2026-04-22T20:30:00Z",
+    "article_number": 186
   },
   "last_completed": {
     "slug": "kia-americas-safest-brand",
