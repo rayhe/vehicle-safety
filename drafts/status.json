@@ -1,33 +1,10 @@
 {
-  "current": {
-    "slug": "kia-americas-safest-brand",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-22T08:33:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "banned_phrases": 0,
-      "the_starters_pct": 6.1,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    },
-    "article_number": 185
-  },
+  "current": null,
   "last_completed": {
-    "slug": "near-zero-death-rate-club",
-    "headline": "31 Cars Almost Never Kill Their Occupants. You Can Buy 28 of Them Today.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-22T06:30:00Z",
-    "article_number": 184
+    "slug": "kia-americas-safest-brand",
+    "headline": "Kia Is Statistically the Safest Brand in America. Nobody Noticed.",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-22T12:32:00Z",
+    "article_number": 185
   }
 }
