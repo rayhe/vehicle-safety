@@ -14,7 +14,8 @@
       "rigor": 9.0,
       "data": 9.0
     },
-    "ship_blocked": "1/day gate — #188 published 2026-04-23T08:34Z, will ship next available cycle (checked 18:30Z)"
+    "ship_blocked": "1/day gate — #187 + #188 published 2026-04-23, fixed missing hero image + og:image tag, will ship next available cycle",
+    "fixes_applied": "20:30Z — added og:image meta tag and story-hero img to draft HTML"
   },
   "last_completed": {
     "slug": "luxury-suv-arms-race",
