@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "affordable-car-death-spiral",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "started": "2026-04-23T10:35:00Z",
-    "round": 0
+    "round": 1,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 9.0
+    },
+    "ship_blocked": "1/day gate — #188 published 2026-04-23T08:34Z, will ship next cycle"
   },
   "last_completed": {
     "slug": "luxury-suv-arms-race",
