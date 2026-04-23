@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "affordable-car-death-spiral",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-04-23T10:35:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "luxury-suv-arms-race",
     "headline": "Every Luxury SUV on the Road Kills More People Outside It Than Inside It",
