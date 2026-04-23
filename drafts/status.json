@@ -1,13 +1,14 @@
 {
   "current": {
     "slug": "odyssey-sober-crash-paradox",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "headline": "The Honda Odyssey Has the Soberest Drivers in Its Class. It Crashes Twice as Often as the Sienna.",
     "started": "2026-04-22T22:30:00Z",
     "round": 1,
     "critique_score": 8.7,
-    "blocked_reason": "1/day gate: #186 published 2026-04-22T20:32Z"
+    "published_at": "2026-04-23T00:31:00Z",
+    "article_number": 187
   },
   "last_completed": {
     "slug": "minivan-safety-lie",
