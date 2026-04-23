@@ -1,26 +1,10 @@
 {
-  "current": {
-    "slug": "luxury-suv-arms-race",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-04-23T06:33:00Z",
-    "round": 1,
-    "article_number": 188,
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "odyssey-sober-crash-paradox",
-    "headline": "The Honda Odyssey Has the Soberest Drivers in Its Class. It Crashes Twice as Often as the Sienna.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-23T00:31:00Z",
-    "article_number": 187
+    "slug": "luxury-suv-arms-race",
+    "headline": "Every Luxury SUV on the Road Kills More People Outside It Than Inside It",
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-04-23T08:35:00Z",
+    "article_number": 188
   }
 }
