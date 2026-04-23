@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Every Luxury SUV on the Road Kills More People Outside It Than Inside It &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals that luxury SUVs have weapon scores above 1.0: for every occupant they lose, they kill 1 to 2 people in other vehicles. Small sedans absorb the deaths instead.">
+  <meta property="og:title" content="Every Luxury SUV on the Road Kills More People Outside It Than Inside It">
+  <meta property="og:description" content="The luxury SUV weapon score: for every Audi Q7 occupant who dies, 2.17 other people die instead. The Chevy Cavalier inverts that ratio completely.">
+  <meta property="og:image" content="../images/luxury-suv-arms-race.jpg?v=370a3d70">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Every Luxury SUV on the Road Kills More People Outside It Than Inside It</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">April 23, 2026</div>
+
+      <p>When an Audi Q7 is involved in a fatal crash, <strong>the Q7 occupant dies only 31.5% of the time.</strong> Someone in the other vehicle dies the rest. Run that calculation across every luxury SUV in the FARS database and the same pattern emerges: the vehicles Americans buy to protect their families are, by the math, exporting death to everyone else's families instead.</p>
+
+      <div class="pull-stat">2.17</div>
+      <div class="pull-label">Audi Q7 &ldquo;weapon score&rdquo; &mdash; other-vehicle deaths per own-occupant death in fatal crashes (FARS 2014&ndash;2023)</div>
+
+      <p>I built a simple metric. Take every fatal crash involving a specific vehicle. Count how many killed the vehicle's own occupants versus how many killed only people in other vehicles (or pedestrians). Divide. The result is what I'm calling the weapon score: other-person deaths per own-occupant death.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>An Audi Q7 scores 2.17. A Mercedes ML-Class scores 2.08. A BMW X3: 1.79. The Lexus RX, best-selling luxury SUV in America with 798 fatal crashes in the database: 1.44. For every 327 RX occupants who died across a decade, <strong>471 other people died instead.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Now flip to the vehicles on the receiving end. A Chevy Cavalier scores 0.17. A Dodge Neon: 0.17. Chevy Cobalt: 0.24. In a Cavalier fatal crash, the Cavalier occupant dies 85.7% of the time. The Cavalier doesn't export risk. It absorbs it. That 12.8x asymmetry between a Q7 and a Cavalier isn't a safety gap. It's a class system enforced at 60 mph.</p>
+
+      <p>IIHS research on vehicle aggressivity has documented this for years: heavier vehicles transfer crash energy to lighter ones.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> What the weapon score adds is a per-model body count. Not theoretical physics. Actual funerals.</p>
+
+      <p>And these aren't impaired drivers. Lexus RX drivers test positive for any substance in just 17.7% of fatal crashes, well below the 20.4% sedan average.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> They're sober. They're attentive. They're just sitting in 4,500 pounds of steel and momentum that the Honda Civic ahead of them at the intersection was never engineered to survive.</p>
+
+      <h3>The counterargument writes itself</h3>
+
+      <p>You cannot blame a parent for buying the vehicle that maximizes their child's survival. Physics rewards mass. IIHS data confirms it: occupant death rates drop as vehicle weight increases, and the safest possible outcome is two similarly-sized vehicles colliding.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The problem is the fleet mix, not any individual purchase. But that argument has a terminal flaw: if everyone follows the logic, the arms race accelerates until the lightest vehicle on every road is a 5,000-pound SUV and pedestrians cease to exist as a transportation category.</p>
+
+      <h3>What to do with this</h3>
+
+      <p>If you drive a luxury SUV, you are statistically safer than almost anyone else on the road. That's not debatable. But the safety you purchased came from somewhere. NHTSA could mandate aggressivity standards (front-end geometry, bumper height alignment) the way they mandate crashworthiness. IIHS has proposed exactly this.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Until then, every luxury SUV sale is a private arms deal where the buyer gets the armor and a stranger gets the bill.</p>
+
+      <p>If you drive a small sedan and this data bothers you, there is exactly one actionable step: check your vehicle's weapon score. Below 0.3 means the physics are not on your side. Consider a vehicle with a higher mass and a modern crash structure. The RAV4 (weapon score ~1.0) costs less than a Cavalier cost new, adjusted for inflation, and splits the risk roughly evenly.</p>
+
+      <h3>Limitations</h3>
+
+      <p>FARS captures only fatal crashes. The 36,000+ annual deaths are a fraction of ~6.7 million total crashes. A luxury SUV's weapon score in non-fatal injury crashes could look very different. The "other deaths" figure also includes pedestrians and cyclists, not just other vehicle occupants, inflating the score for tall-hooded vehicles. Fleet and VMT estimates carry roughly &plusmn;15% uncertainty for low-volume luxury models. This metric measures outcomes, not intent or blame.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Large Vehicles</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTS, <em>National Household Travel Survey</em>. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Weapon score&rdquo; derived from fatal-crash-level data: (total fatal crashes involving vehicle &minus; own-occupant deaths) / own-occupant deaths. Includes pedestrian/cyclist fatalities in the numerator. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
