@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "luxury-suv-arms-race",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-04-23T06:33:00Z",
-    "round": 0,
-    "article_number": 188
+    "round": 1,
+    "article_number": 188,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "odyssey-sober-crash-paradox",
