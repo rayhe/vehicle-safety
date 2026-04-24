@@ -1,30 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "opioid-crash-correlation",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-04-24T02:31:00Z",
-    "round": 1,
     "headline": "Opioid Deaths Dropped 26%. Traffic Deaths Dropped 6.7%. Nobody Connected Them.",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hero_image": "images/opioid-crash-correlation.jpg",
-    "hero_hash": "ee71062d",
+    "journalist": "Dale Impactor III",
     "published_at": "2026-04-24T06:30:00Z",
     "article_number": 190
-  },
-  "last_completed": {
-    "slug": "affordable-car-death-spiral",
-    "headline": "Every Car Under $20,000 Is Dead. The Replacements Are Deadlier.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-24T00:33:00Z",
-    "article_number": 189
   }
 }
