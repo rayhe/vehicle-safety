@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "engineering-behavior-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-04-24T08:30:00Z",
-    "round": 0,
-    "headline": "America's Death Rate Is 1.10. The Cars Say It Should Be 0.75."
+    "round": 1,
+    "headline": "America's Death Rate Is 1.10. The Cars Say It Should Be 0.75.",
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 8.5,
+      "data_presentation": 8.5
+    }
   },
   "last_completed": {
     "slug": "opioid-crash-correlation",
