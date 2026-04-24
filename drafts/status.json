@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "engineering-behavior-gap",
+    "phase": "CRITIQUE",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-24T08:30:00Z",
+    "round": 0,
+    "headline": "America's Death Rate Is 1.10. The Cars Say It Should Be 0.75."
+  },
   "last_completed": {
     "slug": "opioid-crash-correlation",
     "headline": "Opioid Deaths Dropped 26%. Traffic Deaths Dropped 6.7%. Nobody Connected Them.",
