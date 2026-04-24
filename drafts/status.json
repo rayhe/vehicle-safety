@@ -1,27 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "affordable-car-death-spiral",
-    "phase": "QA",
+    "headline": "Every Car Under $20,000 Is Dead. The Replacements Are Deadlier.",
     "journalist": "Clara Rollover",
-    "started": "2026-04-23T10:35:00Z",
-    "round": 1,
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 9.0
-    },
     "published_at": "2026-04-24T00:33:00Z",
     "article_number": 189
-  },
-  "last_completed": {
-    "slug": "luxury-suv-arms-race",
-    "headline": "Every Luxury SUV on the Road Kills More People Outside It Than Inside It",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-04-23T08:35:00Z",
-    "article_number": 188
   }
 }
