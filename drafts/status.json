@@ -1,28 +1,10 @@
 {
-  "current": {
-    "slug": "engineering-behavior-gap",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-04-24T08:30:00Z",
-    "round": 1,
-    "headline": "America's Death Rate Is 1.10. The Cars Say It Should Be 0.75.",
-    "article_number": 191,
-    "published_at": "2026-04-24T22:30:00Z",
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 8.5,
-      "data_presentation": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "opioid-crash-correlation",
-    "headline": "Opioid Deaths Dropped 26%. Traffic Deaths Dropped 6.7%. Nobody Connected Them.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-04-24T06:30:00Z",
-    "article_number": 190
+    "slug": "engineering-behavior-gap",
+    "headline": "America's Death Rate Is 1.10. The Cars Say It Should Be 0.75.",
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-04-24T22:30:00Z",
+    "article_number": 191
   }
 }
