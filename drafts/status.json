@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "affordable-car-death-spiral",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-04-23T10:35:00Z",
     "round": 1,
@@ -14,8 +14,8 @@
       "rigor": 9.0,
       "data": 9.0
     },
-    "ship_blocked": "1/day gate — #187 + #188 published 2026-04-23, fixed missing hero image + og:image tag, will ship next available cycle",
-    "fixes_applied": "20:30Z — added og:image meta tag and story-hero img to draft HTML"
+    "published_at": "2026-04-24T00:33:00Z",
+    "article_number": 189
   },
   "last_completed": {
     "slug": "luxury-suv-arms-race",
