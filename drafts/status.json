@@ -1,5 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "p2ss-targets-wrong-variable",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-04-25T04:36:00Z",
+    "headline_candidates": [
+      "NHTSA's New Safety Plan Spends $80 Million on Blood. The Cars Cost More.",
+      "America's Biggest Safety Initiative Just Targeted the Wrong Variable.",
+      "Pathways to Safer Streets Paves Right Past the Cars."
+    ]
+  },
   "last_completed": {
     "slug": "model-matters-more-than-class",
     "headline": "Your Vehicle Class Doesn't Predict Your Crash Survival. Your Model Does.",
