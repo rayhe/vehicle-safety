@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "forty-five-thousand-missing",
+    "headline": "45,540 Americans Died Because We Couldn't Hold a Rate We Already Hit",
+    "journalist": "Rex Driverton",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-04-25T16:30:00Z",
+    "critique_passed": "2026-04-25T18:33:00Z"
+  },
   "last_completed": {
     "slug": "p2ss-targets-wrong-variable",
     "headline": "America's Biggest Safety Initiative Just Targeted the Wrong Variable",
