@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>America's Biggest Safety Initiative Just Targeted the Wrong Variable &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA's Pathways to Safer Streets focuses on driver behavior, but FARS data shows impairment holds constant at ~20% across all vehicle models while death rates vary 284-fold. The initiative addresses the constant and ignores the variable.">
+  <meta property="og:title" content="America's Biggest Safety Initiative Just Targeted the Wrong Variable">
+  <meta property="og:description" content="Impairment rates are ~20% across all vehicle models. Death rates vary 284x. NHTSA's new plan targets the constant.">
+  <meta property="og:image" content="../images/p2ss-targets-wrong-variable.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Sobriety Report</div>
+      <h1>America's Biggest Safety Initiative Just Targeted the Wrong Variable</h1>
+      <div class="byline">Dale Impactor III &bull; Clautomotive Desk</div>
+      <div class="dateline">April 25, 2026</div>
+
+      <p>According to the toxicology reports, and there are roughly half a million of them in the FARS database, <strong>impairment rates among drivers in fatal crashes hold at approximately 20% regardless of what vehicle they were driving</strong>. Subaru Ascent owners clock in at 8%, Buick Park Avenue owners reach 32%, but most models sit somewhere between 18% and 24%, a band so narrow it might as well be a constant.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Four days ago, NHTSA announced "Pathways to Safer Streets," which it called the most comprehensive traffic safety initiative in its history, and built the entire framework around that constant.</p>
+
+      <div class="pull-stat">284&times;</div>
+      <div class="pull-label">Spread between the lowest and highest per-VMT death rates across 200+ vehicle models in FARS data</div>
+
+      <p>P2SS targets eight strategies: impaired driving, seatbelt compliance, speeding, distraction, law enforcement partnerships, post-crash survival, federal coordination, and data tools. Count the ones that address vehicle engineering, take your time with it, and you will arrive at zero.</p>
+
+      <p>I ran the cross-tab because that is what the Toxicology Desk does when somebody announces an $80 million initiative without mentioning the variable that explains the most variance in the dataset. Across 490,736 drivers in FARS fatal crashes from 2014 through 2023, impairment rates cluster around 20% with a standard deviation narrow enough to bore a statistician.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Those equally-impaired drivers were sitting in vehicles that produced death rates ranging from 0.03 per 100 million vehicle miles traveled for the Tesla Model Y to 8.54 for the Hyundai Veloster, a 284-fold spread that P2SS does not acknowledge, does not address, and apparently does not find interesting.</p>
+
+      <p>The initiative budgets $80 million for whole-blood transfusion kits in ambulances, citing a 37% mortality reduction in trauma patients who receive blood in the field before reaching a hospital.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Genuinely good policy, and it will save real lives on real highways. But it applies only to people who survive the initial impact long enough for an ambulance to arrive, and whether you survive that impact depends on which 3,500 pounds of metal you chose at the dealership. Honda Accord drivers have accumulated 4,997 excess deaths above the expected rate given their exposure miles, while Ram 1500 drivers show 4,442 fewer deaths than expected.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Same highways, same 20% impairment rate, and yet one vehicle absorbs the crash while the other transmits it through the occupant compartment.</p>
+
+      <p>P2SS deserves its strongest counterargument at full volume. Behavioral interventions prevent crashes from occurring in the first place, which is categorically better than building vehicles that survive them. If you eliminate every impaired driver from American roads tomorrow, you prevent roughly 29% of traffic fatalities, somewhere between 10,000 and 11,000 deaths per year based on IIHS 2023 data.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> No crash, no structural engineering test, no transfusion kit needed. That is a powerful argument, and the math behind it is real. But the FARS cross-tabulation reveals the uncomfortable follow-up: impaired drivers are distributed essentially uniformly across vehicle models, which means the 284x death rate variance is not caused by differential impairment but by differential engineering. Targeting the 20% who are impaired saves lives within that 20%. Targeting the vehicles those drivers sit in would reduce fatality rates across all 100%.</p>
+
+      <p>The limitations are real and worth stating plainly. FARS captures only fatal crashes, so the ~20% impairment constant describes the worst outcomes exclusively and may look different across the 6.7 million annual crashes where nobody dies. Death rate calculations use VMT estimates from the National Household Travel Survey rather than actual odometer data, introducing approximately ±15% uncertainty for low-volume models.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> P2SS may contain vehicle engineering provisions not detailed in the public summary. And correlation between vehicle choice and demographic variables like age, income, and geography means we cannot isolate vehicle engineering as the sole cause of the 284x spread without controlling for confounders that FARS does not record.</p>
+
+      <p>If you are currently driving a vehicle from the bottom quartile of FARS death rates, P2SS offers you better trauma care after impact and hopes the other driver is sober. If you are shopping for your next car, the single most effective safety decision you can make right now is checking model-specific fatality rates at IIHS and cross-referencing with the FARS query tool at <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a> before you sign anything, because the federal government's newest and most comprehensive safety plan just told you it is focused on everything except the machine you are sitting in.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Cross-tabulation of impairment rates and per-VMT death rates across 200+ vehicle models with 490,736 total driver records. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Pathways to Safer Streets (P2SS)</em> announcement, April 21, 2026. Eight-strategy federal initiative including $80M whole-blood transfusion program. <a href="https://www.nhtsa.gov/press-releases" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Alcohol-Impaired Driving</em>, 2023. 31% of fatally injured passenger vehicle drivers had BAC &ge; 0.08%. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTS, <em>National Household Travel Survey</em>. VMT estimates used for per-mile fatality rate calculations. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Impairment defined as BAC &gt; 0 or drug-positive toxicology. Death rates estimated using NHTS VMT data. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
