@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "p2ss-targets-wrong-variable",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Dale Impactor III",
-    "started": "2026-04-25T04:36:00Z",
     "headline": "America's Biggest Safety Initiative Just Targeted the Wrong Variable",
+    "journalist": "Dale Impactor III",
     "published_at": "2026-04-25T14:30:00Z",
     "article_number": 193
-  },
-  "last_completed": {
-    "slug": "model-matters-more-than-class",
-    "headline": "Your Vehicle Class Doesn't Predict Your Crash Survival. Your Model Does.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-04-25T02:37:00Z",
-    "article_number": 192
   }
 }
