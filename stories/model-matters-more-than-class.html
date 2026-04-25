@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Vehicle Class Doesn't Predict Your Crash Survival. Your Model Does. &mdash; The Crash Report</title>
+  <meta name="description" content="A FARS variance decomposition reveals that within-class crash lethality variance is 2.25x between-class variance. Model selection predicts crash survival better than vehicle class.">
+  <meta property="og:title" content="Your Vehicle Class Doesn't Predict Your Crash Survival. Your Model Does.">
+  <meta property="og:description" content="Within-class lethality variance is 2.25x between-class variance in FARS data. 42 sedans beat the worst SUVs.">
+  <meta property="og:image" content="../images/model-matters-more-than-class.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Your Vehicle Class Doesn't Predict Your Crash Survival. Your Model Does.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">April 25, 2026</div>
+
+      <p>I ran a variance decomposition on FARS crash lethality across 252 vehicle models with 200 or more fatal crashes on record, then I ran it again because the result felt genuinely wrong, and then I ran it a third time because I wanted it to be wrong. <strong>Within-class crash lethality variance is 2.25 times between-class variance</strong>, which means the specific model you pick inside a vehicle class predicts your crash survival more than double what the class label itself does.</p>
+
+      <div class="pull-stat">2.25:1</div>
+      <div class="pull-label">Ratio of within-class to between-class crash lethality variance in FARS data (2014&ndash;2023)</div>
+
+      <p>Conventional wisdom is simple and, on its face, defensible: buy a truck or an SUV, sit up high, surround yourself with mass and steel, survive the crash that would have killed you in a Civic. SUVs and pickups average 52% crash lethality in FARS data, while sedans average 65%, a 13-percentage-point gap measured across 188,000 fatal crashes logged between 2014 and 2023.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That gap is real, it is statistically significant, and it is completely overwhelmed by the variation hiding inside each class.</p>
+
+      <p>Pickups span a 59-percentage-point lethality range, which is wider than the gap between the safest class mean and the most dangerous one. A Ram 2500 driver involved in a FARS-recorded crash has a 20.5% probability of being the fatality, while a GMC Sonoma driver faces 79.6%, a nearly fourfold difference in death odds between two vehicles that share the same insurance classification, the same parking row at Home Depot, and absolutely nothing else that matters when metal meets concrete at highway speed. Sedans spread 42 points, SUVs spread 40, and every single vehicle class contains models that would be statistical outliers if you dropped them into a different class.</p>
+
+      <p>Cross-class overlap is where this analysis goes from interesting to damning. Forty-two sedan models show lower crash lethality than the eight worst-performing SUVs, and the comparisons are not limited to exotic luxury barges outperforming forgotten crossovers from defunct brands. A Toyota Camry, the most aggressively average car on American roads, records 59.3% crash lethality, which means it beats a Nissan Kicks SUV at 73.9% and a Chevrolet Trailblazer at 68.6% by comfortable margins.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Kicks, classified as a crossover SUV on every dealer lot in America, carries a higher crash lethality than the sedan class average of 64.9%, making it an SUV in exactly one sense: the marketing department said so.</p>
+
+      <p>Tesla's Model 3 is the most striking case of class-label failure in the entire dataset. At 43.4% crash lethality, this sedan outperforms 52 of 68 SUV models, beating the Honda Odyssey minivan, the Jeep Grand Cherokee, and the Dodge Durango, because structural rigidity and a battery-pack floor that functions as an armored skateboard turned out to matter more than ride height and the word "sport utility" on the window sticker.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Then there is the Ford Fiesta, a car small enough to parallel park in a bathtub, which scores 47.3% crash lethality and thereby outperforms 44 SUV models in our dataset. Ford stopped selling the Fiesta in the United States in 2019 because nobody wanted one, but the people who did buy it were, statistically speaking, better protected in a fatal crash than buyers of a Lincoln MKC luxury crossover, which sits at 66.8% lethality and retailed for roughly twice the Fiesta's sticker price.</p>
+
+      <p>The methodology is transparent enough to check on a napkin. Calculate each model's crash lethality by dividing FARS deaths by total FARS crashes, keeping in mind that this denominator only includes crashes where at least one person died, then group models by their five vehicle classes (Sports Car at 69.0%, Sedan at 64.9%, Van at 52.6%, Pickup at 52.1%, SUV at 51.9%), compute between-class variance from those five means, and compute within-class variance as the average variance of individual models around their own class mean.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Between-class variance lands at 53.7 and within-class variance at 120.9, yielding a ratio of 2.25, with the pickups alone accounting for the largest share of internal chaos at a within-class variance of 186.6.</p>
+
+      <p>What actually drives these spreads? Mass is part of the story, and IIHS research confirms that heavier vehicles protect their occupants better in collisions, all else being equal.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> But all else is never equal in the real fleet. Structural design, safety-tech vintage, restraint system quality, and the demographics of who drives what vehicle all compound within a single class to produce outcomes that the class label cannot predict. A 2022 Kicks and a 2022 RAV4 are both compact crossover SUVs sold at overlapping price points on the same suburban auto mile, yet one carries a 73.9% lethality ratio while the RAV4 sits at 48.3%, a gap wide enough to be the difference between dying and walking out of the ER.</p>
+
+      <p>The strongest counterargument deserves its full weight: FARS only records crashes where at least one person died, so this dataset is inherently pre-filtered for the worst outcomes, which might exaggerate model-level variance that would wash out in the much larger pool of 6.7 million total annual crashes. IIHS crash-test ratings, which measure structural performance under controlled conditions rather than field outcomes, do correlate more reliably with class, and SUVs genuinely perform better on average in standardized frontal and side-impact testing. Average class-level advice is not wrong, but it is dangerously incomplete when it becomes the sole input to a $40,000 purchasing decision.</p>
+
+      <p>The data does not explain causation, because FARS has no field for vehicle weight at the crash scene, no measurement of crumple zone engagement depth, no record of whether the side curtain airbags deployed on time or at all, and no way to separate crashes where the vehicle's structure failed from crashes where the impact exceeded any structure's capacity to absorb.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The variance decomposition reveals that something within vehicle classes varies enormously, and identifying what that something is would require crash reconstruction data at a scale FARS was never designed to collect.</p>
+
+      <p>If you are shopping for a vehicle and your decision framework starts and ends with "SUV equals safe," eight SUV models in the FARS dataset carry crash lethality above the sedan class average of 64.9%. If your framework starts with "sedan equals dangerous," know that 42 sedan models sit below the worst SUV lethality numbers in the data. Check model-specific fatality rates at IIHS, cross-reference with the FARS query tool at cdan.dot.gov before signing, and do not let the badge on the tailgate substitute for a safety rating that the underlying data may not support.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. 252 models with 200+ recorded crashes analyzed. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. Research on mass-crash survival relationship. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Passenger Vehicle Occupants</em>. Fatality rates by vehicle type. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTSA FARS query tool, CDAN. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Crash lethality calculated as deaths/crashes within FARS-recorded incidents (fatal crashes only). Within-class and between-class variance computed across 252 models with 200+ FARS crashes. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

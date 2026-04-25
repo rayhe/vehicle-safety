@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "model-matters-more-than-class",
+    "phase": "QA",
+    "journalist": "Axle McScatter",
+    "started": "2026-04-25T00:30:00Z",
+    "headline": "Your Vehicle Class Doesn't Predict Your Crash Survival. Your Model Does.",
+    "critique_round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data": 9
+    },
+    "article_number": 192
+  },
   "last_completed": {
     "slug": "engineering-behavior-gap",
     "headline": "America's Death Rate Is 1.10. The Cars Say It Should Be 0.75.",
