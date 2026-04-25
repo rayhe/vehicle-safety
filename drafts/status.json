@@ -1,11 +1,29 @@
 {
   "current": {
     "slug": "p2ss-targets-wrong-variable",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Dale Impactor III",
     "started": "2026-04-25T04:36:00Z",
-    "headline": "America's Biggest Safety Initiative Just Targeted the Wrong Variable"
+    "headline": "America's Biggest Safety Initiative Just Targeted the Wrong Variable",
+    "critique_scores": {
+      "general_editor": 9,
+      "voice_coach": 9,
+      "ethics_reviewer": 9,
+      "social_shareability": 9,
+      "legal_accuracy": 9,
+      "research_rigor": 9,
+      "data_presentation": 9
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 6.2,
+      "css_class": "story",
+      "stylesheet": "style.css",
+      "sentence_rhythm": "PASS (variance 565.2, short 10.3%, long 55.2%)"
+    },
+    "blocked_reason": "1/day gate: #192 already published 2026-04-25T02:36:28Z"
   },
   "last_completed": {
     "slug": "model-matters-more-than-class",
