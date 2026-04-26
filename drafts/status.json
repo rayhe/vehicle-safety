@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "pickup-zombie-fleet",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-04-26T12:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
+  },
   "last_completed": {
     "slug": "park-outside-fire-recall-fleet",
     "headline": "4.3 Million Cars Too Dangerous for Your Garage",
