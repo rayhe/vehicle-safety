@@ -1,26 +1,11 @@
 {
-  "current": {
-    "slug": "park-outside-fire-recall-fleet",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-04-26T10:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "iihs-2026-fars-convergence",
-    "headline": "IIHS Gave Out 63 Awards. The Vehicles Killing You Didn't Qualify.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-26T08:45:00Z",
-    "article_number": 196,
+    "slug": "park-outside-fire-recall-fleet",
+    "headline": "4.3 Million Cars Too Dangerous for Your Garage",
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-04-26T10:45:00Z",
+    "article_number": 197,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
