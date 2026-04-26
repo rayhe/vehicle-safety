@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "f150-asymmetric-lethality",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-04-25T22:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "forty-five-thousand-missing",
     "headline": "45,540 Americans Died Because We Couldn't Hold a Rate We Already Hit",
