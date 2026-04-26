@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "park-outside-fire-recall-fleet",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-04-26T10:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "iihs-2026-fars-convergence",
     "headline": "IIHS Gave Out 63 Awards. The Vehicles Killing You Didn't Qualify.",
