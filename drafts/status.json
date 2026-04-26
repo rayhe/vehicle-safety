@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "slug": "counterfeit-airbag-grenade",
+    "headline": "Your Airbag Might Be a Grenade. NHTSA Found 10 Dead Drivers to Prove It.",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "round": 1,
+    "started": "2026-04-26T18:30:00Z",
+    "kicker": "Investigation",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    },
+    "critique_notes": "Round 1: Fixed fabricated Camry/Civic crash-to-fleet ratios (292/265 → 393/379 from FARS). Corrected sedan median (250 → 117). Reworked analysis paragraph to focus on repair economics as true differentiator. All 7 critics 8.5+, all hard gates pass. Em dashes: 0, banned phrases: 0, The-starters: 7.6%, rhythm variance: 319.4, short: 10.4%, long: 56.2%."
+  },
   "last_completed": {
     "slug": "pickup-zombie-fleet",
     "headline": "More Than Half of Pickup Truck Deaths Come From Trucks Old Enough to Vote",
