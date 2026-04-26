@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "f150-asymmetric-lethality",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "started": "2026-04-25T22:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 8.5,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data": 9.0
+    }
   },
   "last_completed": {
     "slug": "forty-five-thousand-missing",
