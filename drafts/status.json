@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "f150-asymmetric-lethality",
-    "phase": "QA",
+    "headline": "The F-150 Was Present at 20,066 Fatal Crashes. Its Driver Walked Away from Most of Them.",
     "journalist": "Vin Wreckage",
-    "started": "2026-04-25T22:30:00Z",
-    "round": 1,
+    "published_at": "2026-04-26T00:45:00Z",
+    "article_number": 195,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,12 +15,5 @@
       "rigor": 8.5,
       "data": 9.0
     }
-  },
-  "last_completed": {
-    "slug": "forty-five-thousand-missing",
-    "headline": "45,540 Americans Died Because We Couldn't Hold a Rate We Already Hit",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-25T20:31:00Z",
-    "article_number": 194
   }
 }
