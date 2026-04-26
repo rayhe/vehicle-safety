@@ -1,35 +1,19 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "iihs-2026-fars-convergence",
     "headline": "IIHS Gave Out 63 Awards. The Vehicles Killing You Didn't Qualify.",
     "journalist": "Clara Rollover",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-04-26T06:30:00Z",
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "f150-asymmetric-lethality",
-    "headline": "The F-150 Was Present at 20,066 Fatal Crashes. Its Driver Walked Away from Most of Them.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-04-26T00:45:00Z",
-    "article_number": 195,
+    "published_at": "2026-04-26T08:50:00Z",
+    "article_number": 196,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
-      "ethics": 8.5,
+      "ethics": 9.0,
       "social": 9.0,
-      "legal": 8.5,
+      "legal": 9.0,
       "rigor": 8.5,
-      "data": 9.0
+      "data": 8.5
     }
   }
 }
