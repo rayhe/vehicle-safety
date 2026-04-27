@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "choice-gap-truck-deaths",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-27T06:30:00Z",
-    "round": 1,
     "headline": "Truck Drivers All Drink the Same. The Truck Decides Who Dies.",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-27T14:35:00Z",
     "article_number": 201,
     "scores": {
       "general": 8.5,
@@ -13,22 +12,6 @@
       "ethics": 9.0,
       "social": 9.0,
       "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "thirty-six-thousand-floor",
-    "headline": "36,640 Dead Is Not Progress. It's a Floor.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-04-27T04:45:00Z",
-    "article_number": 200,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
       "rigor": 9.0,
       "data": 8.5
     }
