@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "choice-gap-truck-deaths",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-04-27T06:30:00Z",
-    "round": 0,
-    "headline": "Truck Drivers All Drink the Same. The Truck Decides Who Dies."
+    "round": 1,
+    "headline": "Truck Drivers All Drink the Same. The Truck Decides Who Dies.",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "thirty-six-thousand-floor",
