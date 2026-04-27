@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>36,640 Dead Is Not Progress. It's a Floor. &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA says 2025 road deaths hit a 6-year low. FARS data says the fleet got dramatically safer while the body count barely moved. Something is eating the engineering gains.">
+  <meta property="og:title" content="36,640 Dead Is Not Progress. It's a Floor.">
+  <meta property="og:description" content="NHTSA says 2025 road deaths hit a 6-year low. FARS data says the fleet got dramatically safer while the body count barely moved. Something is eating the engineering gains.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/thirty-six-thousand-floor.jpg?v=c8c6abeb">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/thirty-six-thousand-floor.html">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/thirty-six-thousand-floor.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>36,640 Dead Is Not Progress. It's a Floor.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">April 27, 2026</div>
+
+      <img src="../images/thirty-six-thousand-floor.jpg?v=c8c6abeb" alt="Empty highway at dusk with a faintly glowing graph overlay flatlined at 36,000" width="800" height="450" style="width:100%;height:auto;border-radius:8px;margin:1.5rem 0;">
+
+      <p>I ran the numbers, then I ran them again, and they refused to cooperate.</p>
+
+      <p>NHTSA announced last week that <strong>36,640 people died on American roads in 2025</strong>, marking a fourth consecutive annual decline and the lowest total since 2019.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Transportation Secretary Sean Duffy took a victory lap, NHTSA Administrator Jonathan Morrison called the per-VMT rate of 1.10 deaths per 100 million miles the second-lowest in recorded history, and the headlines dutifully said progress.</p>
+
+      <p>In 2019, the number was 36,096.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">+544</div>
+      <div class="pull-label">More deaths in 2025 than 2019, after six years of fleet safety improvements</div>
+
+      <p>That is not a rounding error worth celebrating, because six years separates those two figures, and in those six years the American vehicle fleet underwent the most significant safety transformation since the federal seatbelt mandate. Electronic stability control saturated every new vehicle sold, automatic emergency braking went from a luxury checkbox to standard equipment on most new models, crash structures got stronger, airbag coverage got wider, and the fleet's center of gravity shifted as SUV market share climbed past 55%.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>SUVs are the relevant variable because FARS data shows they carry a class-average death rate of 0.055 per VMT, versus 0.139 for sedans.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> A sedan-to-SUV substitution cuts the occupant fatality rate by roughly 60%, so when you shift 20 percentage points of national fleet share from sedans to SUVs over a decade, the naive back-of-envelope calculation predicts something like 5,400 fewer deaths per year from the composition change alone, a figure that assumes no improvements in crash avoidance, structural design, or emergency braking, all of which also improved substantially during the same period.</p>
+
+      <p>So where did those 5,400 lives go, and why has the engineering dividend vanished from the national ledger?</p>
+
+      <h3>Behavioral Deterioration Ate the Engineering Dividend</h3>
+
+      <p>Americans drove more miles in 2025 than in 2019, which is why the per-VMT rate dropped even as the body count stayed flat. NHTSA prefers the per-VMT metric because it trends downward and looks like progress, but dead people are counted in absolute numbers, not rates, and nobody's family has ever been consoled by a denominator. The fleet got safer while people simultaneously drove more and drove worse, and the two forces cancelled out to a wash that kills about 36,000 humans every year, give or take a few hundred on either side of the line.</p>
+
+      <p>FARS toxicology data quantifies the behavioral side of this equation: across 337 tracked vehicle models over a decade, the median impairment rate in fatal crashes is 20.2%, meaning one in five drivers killed had alcohol, drugs, or both in their system at the time of the crash.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Sports cars hit 22.5%, and even the sober-majority vehicle classes like sedans and SUVs hover near 20%. Impairment accounts for roughly 7,300 annual fatalities from our dataset alone, while NHTSA's broader estimates put alcohol-impaired driving deaths above 13,000 per year nationally.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <p>Layer on distraction, which NHTSA estimated at 3,522 fatalities in 2021 while acknowledging that number is almost certainly an undercount because distraction is harder to prove in a post-crash investigation than a blood-alcohol level.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Speeding is similarly nebulous: NHTSA attributes roughly 29% of all traffic fatalities to speed, approximately 12,000 per year.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <p>These categories overlap heavily, since a drunk driver speeding while distracted is triple-counted across three behavioral risk factors, so you cannot sum them, but you can see the shape of the problem clearly enough. A substantial fraction of the 36,640 dead were killed by decisions that no vehicle engineering can override: wrong-way highway entries at 80 mph, unbelted ejections, 2 AM tree strikes at twice the posted limit.</p>
+
+      <h3>How the Floor Works</h3>
+
+      <p>FARS data illustrates the mechanism at the vehicle level with uncomfortable clarity. Consider America's safest mass-market vehicles by death rate: the Toyota RAV4 at 0.19 per 100M VMT, the Mazda CX-5 at 0.12, the Chevrolet Equinox at 0.36.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Extraordinary engineering, and yet the RAV4 still accumulated 914 deaths over the decade, the Equinox racked up 1,056, and the Honda CR-V logged 2,072 at a rate of 0.53.</p>
+
+      <p>Volume defeats rate every time: sell enough of anything and the deaths pile up regardless of how safe the individual unit is. If you replaced every vehicle in America with a CX-5 tomorrow, FARS math says you would still lose roughly 4,000 people per year to fatal crashes in CX-5s alone, and that estimate ignores the pedestrians, cyclists, and motorcyclists killed by CX-5-shaped front ends. Zero-rate vehicles do not exist, and zero was never on the table.</p>
+
+      <h3>Nine States, One Pattern</h3>
+
+      <p>The nine states where fatalities increased in 2025 tell the structural story clearly: Colorado, Hawaii, Idaho, Kansas, Louisiana, New Hampshire, New Mexico, Vermont, and Wyoming.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Seven of those nine are disproportionately rural, and New Hampshire remains the only state in the nation without a seatbelt law for adults.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> Wyoming, Idaho, Vermont, and Kansas all rank in the bottom half nationally for seatbelt compliance.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> CDC data shows rural crash fatality rates run roughly twice the urban rate after adjusting for VMT, because rural roads combine higher speeds, longer emergency response times, fewer barriers, and more fixed-object hazards like trees and utility poles.<sup class="ref-link"><a href="#ref-8">[8]</a></sup></p>
+
+      <p>These are the states where behavioral risk factors concentrate and infrastructure countermeasures are thinnest, and engineering cannot save the unbelted driver hitting a power pole at 75 on a two-lane county road 40 minutes from a trauma center. That crash is unsurvivable in a RAV4, unsurvivable in a Volvo, and unsurvivable in a tank.</p>
+
+      <h3>Limitations</h3>
+
+      <p>Our FARS dataset covers 2014 through 2023 and cannot directly measure 2024 or 2025 fleet composition, so the engineering dividend estimate of 5,400 lives uses rough fleet share approximations and does not account for model-year-specific improvements, which would make the expected reduction even larger and the behavioral gap even wider. Class-average death rates are weighted by models present in the dataset, not by precise market share, and NHTSA's 2025 death estimates remain preliminary and subject to revision when final data arrives.</p>
+
+      <h3>Strongest Counterargument</h3>
+
+      <p>The per-VMT rate of 1.10 genuinely is the lowest since 2014, and Americans drove substantially more miles in 2025 than in 2019. If the national VMT had stayed at 2019 levels, the absolute death count at the 2025 rate would be roughly 34,200, which would be meaningfully below 2019's total, and in this framing, the rate improvement represents real progress masked by increased exposure. This argument is mathematically valid and worth taking seriously, with one caveat: the extra miles were not compulsory. VMT growth is a policy outcome, not a weather event, and choosing to build a society that requires more driving and then celebrating a lower per-mile death rate while the body count stays flat is the statistical equivalent of diluting poison and calling it medicine.</p>
+
+      <h3>What This Means for You</h3>
+
+      <p>Buy the safest vehicle you can afford, because FARS data confirms that modern SUVs and crossovers with AEB, ESC, and top-tier IIHS ratings dramatically reduce your individual risk.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> But understand that the roughly 36,000 annual floor will not break until America addresses driver behavior at scale through phone lockout technology, alcohol interlocks, speed governors, and seatbelt enforcement that covers all 50 states including New Hampshire. Vehicles have done their job, and what remains is a human problem.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, &ldquo;2025 Traffic Death Estimates &amp; 2024 FARS,&rdquo; April 2026. <a href="https://www.nhtsa.gov/press-releases/traffic-deaths-2025-early-estimates-2024-annual" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2019 Annual Report. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Motor Intelligence, U.S. Light Vehicle Sales by Segment 2019&ndash;2025, industry data via Automotive News.</li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">NHTSA, <em>Traffic Safety Facts Annual Report</em>, 2022. Alcohol-impaired driving fatalities and speeding-related fatalities. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813559" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-6">NHTSA, <em>Distracted Driving 2021</em>, Traffic Safety Facts Research Note. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813443" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-7">NSC Injury Facts, &ldquo;Seat Belts &mdash; Data Details.&rdquo; <a href="https://injuryfacts.nsc.org/motor-vehicle/occupant-protection/seat-belts/data-details/" target="_blank" rel="noopener">injuryfacts.nsc.org</a></li>
+          <li id="ref-8">CDC MMWR, &ldquo;Rural and Urban Differences in Passenger-Vehicle&ndash;Occupant Deaths and Seat Belt Use Among Adults,&rdquo; 2017. <a href="https://www.cdc.gov/mmwr/volumes/66/ss/ss6617a1.htm" target="_blank" rel="noopener">cdc.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 for vehicle-level data; NHTSA 2025 preliminary estimates for national totals. FARS captures fatal crashes only; class-level rates use VMT estimates with &plusmn;15% uncertainty. See <a href="../#method">methodology</a> for caveats and detailed data notes.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
