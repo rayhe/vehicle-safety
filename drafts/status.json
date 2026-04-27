@@ -1,32 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "thirty-six-thousand-floor",
-    "phase": "SHIP",
+    "headline": "36,640 Dead Is Not Progress. It's a Floor.",
     "journalist": "Axle McScatter",
-    "started": "2026-04-27T02:30:00Z",
-    "round": 1,
+    "published_at": "2026-04-27T04:45:00Z",
+    "article_number": 200,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "counterfeit-airbag-grenade",
-    "headline": "Your Airbag Might Be a Grenade. NHTSA Found 10 Dead Drivers to Prove It.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-27T00:33:00Z",
-    "article_number": 199,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
       "rigor": 9.0,
       "data": 8.5
     }
