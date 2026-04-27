@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "kia-generational-safety-stall",
+    "phase": "CRITIQUE",
+    "journalist": "Axle McScatter",
+    "started": "2026-04-27T16:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "choice-gap-truck-deaths",
     "headline": "Truck Drivers All Drink the Same. The Truck Decides Who Dies.",
