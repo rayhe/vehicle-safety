@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "kia-generational-safety-stall",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Axle McScatter",
     "started": "2026-04-27T16:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "choice-gap-truck-deaths",
