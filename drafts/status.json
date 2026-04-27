@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "choice-gap-truck-deaths",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-27T06:30:00Z",
+    "round": 0,
+    "headline": "Truck Drivers All Drink the Same. The Truck Decides Who Dies."
+  },
   "last_completed": {
     "slug": "thirty-six-thousand-floor",
     "headline": "36,640 Dead Is Not Progress. It's a Floor.",
