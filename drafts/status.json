@@ -1,29 +1,14 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "kia-generational-safety-stall",
-    "phase": "QA",
+    "headline": "I Ranked Every Brand by Generational Safety Gains. Kia Finished Last.",
     "journalist": "Axle McScatter",
-    "started": "2026-04-27T16:30:00Z",
-    "round": 1,
+    "published_at": "2026-04-28T00:31:00Z",
+    "article_number": 202,
     "scores": {
       "general": 8.5,
       "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "choice-gap-truck-deaths",
-    "headline": "Truck Drivers All Drink the Same. The Truck Decides Who Dies.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-27T14:35:00Z",
-    "article_number": 201,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 8.5,
