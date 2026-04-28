@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "national-rate-illusion",
-    "phase": "QA",
+    "headline": "NHTSA Says Roads Are the Safest in a Decade. Your Car Might Disagree by 71x.",
     "journalist": "Clara Rollover",
-    "started": "2026-04-28T02:32:00Z",
-    "round": 1,
+    "published_at": "2026-04-28T08:32:00Z",
+    "article_number": 203,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -12,22 +13,6 @@
       "social": 8.5,
       "legal": 9.0,
       "rigor": 8.5,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "kia-generational-safety-stall",
-    "headline": "I Ranked Every Brand by Generational Safety Gains. Kia Finished Last.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-04-28T00:31:00Z",
-    "article_number": 202,
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
       "data": 8.5
     }
   }
