@@ -1,32 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "one-swap-beats-a-decade",
-    "phase": "QA",
+    "headline": "NHTSA Celebrates a 7.6% Decline in Fatality Rates. A Single Vehicle Swap Delivers 90%.",
     "journalist": "Clara Rollover",
-    "started": "2026-04-29T06:30:00Z",
-    "round": 1,
+    "published_at": "2026-04-29T08:37:00Z",
+    "article_number": 206,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
       "ethics": 8.5,
       "social": 9.0,
       "legal": 9.0,
-      "rigor": 9.0,
-      "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "fars-defect-blind-spot",
-    "headline": "FARS Says the Range Rover Sport Is Nearly the Safest Crash You Can Have. NHTSA Says Its Steering Can Snap Off.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-29T04:30:00Z",
-    "article_number": 205,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
       "rigor": 9.0,
       "data": 9.0
     }
