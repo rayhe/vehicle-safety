@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "drunk-pedestrian-epidemic",
-    "phase": "QA",
+    "headline": "Nearly 1 in 3 Pedestrians Killed in America Were Legally Drunk. We Keep Redesigning the Cars.",
     "journalist": "Dale Impactor III",
-    "started": "2026-04-29T14:30:00Z",
-    "round": 1,
+    "published_at": "2026-04-29T16:30:00Z",
+    "article_number": 208,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -13,22 +14,6 @@
       "legal": 8.5,
       "rigor": 8.7,
       "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "zoning-kills-pedestrians",
-    "headline": "Non-Pedestrian Deaths Fell 10% in 23 Years. Pedestrian Deaths Rose 54%. The Fix Has Never Been on the Road.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-04-29T12:35:00Z",
-    "article_number": 207,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.8,
-      "data": 8.7
     }
   }
 }
