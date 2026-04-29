@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fars-defect-blind-spot",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-29T02:31:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 9.0
+    }
+  },
   "last_completed": {
     "slug": "surviving-not-unscathed",
     "headline": "Traffic Deaths Fell 11% in Two Years. Truck Crash Injuries Rose 12%. That's Not a Contradiction.",
