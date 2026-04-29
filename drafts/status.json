@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "surviving-not-unscathed",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
     "headline": "Traffic Deaths Fell 11% in Two Years. Truck Crash Injuries Rose 12%. That's Not a Contradiction.",
-    "started": "2026-04-28T10:30:00Z",
-    "round": 1,
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-04-29T00:32:00Z",
     "article_number": 204,
     "scores": {
       "general": 8.5,
@@ -14,22 +13,6 @@
       "social": 9.0,
       "legal": 9.0,
       "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "national-rate-illusion",
-    "headline": "NHTSA Says Roads Are the Safest in a Decade. Your Car Might Disagree by 71x.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-28T08:32:00Z",
-    "article_number": 203,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
       "data": 8.5
     }
   }
