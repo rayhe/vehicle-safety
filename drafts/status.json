@@ -1,12 +1,12 @@
 {
   "current": {
     "slug": "surviving-not-unscathed",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "headline": "Traffic Deaths Fell 11% in Two Years. Truck Crash Injuries Rose 12%. That's Not a Contradiction.",
     "started": "2026-04-28T10:30:00Z",
     "round": 1,
-    "ship_blocked_reason": "1/day limit: #203 already published 2026-04-28",
+    "article_number": 204,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
