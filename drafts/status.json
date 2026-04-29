@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "dead-brands-body-count",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-04-29T18:30:00Z",
+    "headline": "Pontiac Stopped Making Cars in 2010. It Still Killed 3,038 People.",
+    "round": 2,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.8
+    },
+    "critique_notes": "Round 2 after fixing 3 data errors: Ford Fusion rate 0.93→1.23, Mazda3 rate 0.63→replaced with Cruze 0.63/Fit 0.72, Buick/Lincoln comparison corrected, Grand Prix 'more than double' claim fixed to 'on par with Camry'. Deferred to next day: already 2 articles published today (#207, #208)."
+  },
   "last_completed": {
     "slug": "drunk-pedestrian-epidemic",
     "headline": "Nearly 1 in 3 Pedestrians Killed in America Were Legally Drunk. We Keep Redesigning the Cars.",
