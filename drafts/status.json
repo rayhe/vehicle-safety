@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "drunk-pedestrian-epidemic",
+    "phase": "QA",
+    "journalist": "Dale Impactor III",
+    "started": "2026-04-29T14:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.7,
+      "legal": 8.5,
+      "rigor": 8.7,
+      "data": 8.6
+    }
+  },
   "last_completed": {
     "slug": "zoning-kills-pedestrians",
     "headline": "Non-Pedestrian Deaths Fell 10% in 23 Years. Pedestrian Deaths Rose 54%. The Fix Has Never Been on the Road.",
