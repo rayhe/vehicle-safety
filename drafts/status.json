@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "fars-defect-blind-spot",
-    "phase": "QA",
+    "headline": "FARS Says the Range Rover Sport Is Nearly the Safest Crash You Can Have. NHTSA Says Its Steering Can Snap Off.",
     "journalist": "Rex Driverton",
-    "started": "2026-04-29T02:31:00Z",
-    "round": 1,
+    "published_at": "2026-04-29T04:30:00Z",
+    "article_number": 205,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -13,22 +14,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "surviving-not-unscathed",
-    "headline": "Traffic Deaths Fell 11% in Two Years. Truck Crash Injuries Rose 12%. That's Not a Contradiction.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-04-29T00:32:00Z",
-    "article_number": 204,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.5
     }
   }
 }
