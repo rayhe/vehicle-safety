@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "same-showroom-43x-safety-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Clara Rollover",
-    "started": "2026-04-30T10:30:00Z"
+    "started": "2026-04-30T10:30:00Z",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 8.7,
+      "legal": 8.8,
+      "rigor": 8.6,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "drug-shift-delivery-vans",
