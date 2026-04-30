@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "same-showroom-43x-safety-gap",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "Ford Sells a Vehicle 43 Times Deadlier Than Another Ford",
     "journalist": "Clara Rollover",
-    "started": "2026-04-30T10:30:00Z",
+    "published_at": "2026-04-30T12:38:00Z",
+    "article_number": 211,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -13,22 +14,6 @@
       "legal": 8.8,
       "rigor": 8.6,
       "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "drug-shift-delivery-vans",
-    "headline": "The Nissan NV200 Is the Only Vehicle Where Drugs Outrank Alcohol in Fatal Crashes",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-04-30T04:38:00Z",
-    "article_number": 210,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.8,
-      "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.6
     }
   }
 }
