@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "drug-shift-delivery-vans",
-    "phase": "SHIP",
+    "headline": "The Nissan NV200 Is the Only Vehicle Where Drugs Outrank Alcohol in Fatal Crashes",
     "journalist": "Dale Impactor III",
-    "started": "2026-04-30T02:30:00Z",
-    "round": 1,
+    "published_at": "2026-04-30T04:38:00Z",
+    "article_number": 210,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -13,22 +14,6 @@
       "legal": 8.8,
       "rigor": 8.7,
       "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "dead-brands-body-count",
-    "headline": "Pontiac Stopped Making Cars in 2010. It Still Killed 3,038 People.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-04-30T00:30:00Z",
-    "article_number": 209,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.8
     }
   }
 }
