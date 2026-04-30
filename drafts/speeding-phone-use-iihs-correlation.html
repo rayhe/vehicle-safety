@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faster Drivers Use Their Phones More, Not Less &mdash; The Crash Report</title>
+  <meta name="description" content="IIHS analysis of 600,000 trips finds phone handling rises 12% for every 5 mph over the speed limit on highways. Cross-referenced with FARS sober-driver data, the finding reframes how America's 70-80% sober fatal crashes actually happen.">
+  <meta property="og:title" content="Faster Drivers Use Their Phones More, Not Less">
+  <meta property="og:description" content="600,000 trips. 12% more phone use per 5 mph over the limit. The fastest drivers on the road are also the most distracted.">
+  <meta property="og:image" content="../images/speeding-phone-use-iihs-correlation.jpg?v=9e4c6f78">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Faster Drivers Use Their Phones More, Not Less</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">April 30, 2026</div>
+
+      <div class="story-body">
+
+      <p>I ran the numbers, then I ran them again, and they didn't get better.</p>
+
+      <p>IIHS researchers Ian Reagan and Sam Monfort analyzed <strong>roughly 600,000 trips</strong> recorded by Cambridge Mobile Telematics safe-driving apps between July and October 2024, measuring smartphone gyroscope signatures that indicate screen-unlocked phone handling while driving.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> On limited-access highways, phone manipulation increased 12% for every 5 mph a driver exceeded the posted speed limit. On 70 mph roads, the speed-phone correlation ran 9 percentage points stronger than on 55 mph roads.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Faster roads. More phones. Not fewer.</p>
+
+      <div class="pull-stat">+12%</div>
+      <div class="pull-label">Phone handling increase per 5 mph over the speed limit on limited-access highways. IIHS, 2026.</div>
+
+      <p>That inverts fifty years of assumption. Safety enforcement has been calibrated around the belief that distraction clusters at low speeds: school zones get the cameras, residential streets get the PSAs, and highway drivers are presumably too focused on merging at 70 mph to swipe through Instagram. IIHS president David Harkey put it directly: "Until now, safety experts believed drivers used their cellphones most at slower speeds. But data from insurance companies' safe-driving apps show that, in free-flowing traffic, the opposite is true."<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Cross-reference this against FARS and a gap opens that nobody has quantified before. Between 2014 and 2023, approximately 70 to 80 percent of drivers killed in fatal crashes tested sober, with no alcohol or drug impairment detected in toxicology screening.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> NHTSA officially attributes 3,308 deaths per year to distraction-affected crashes, but that figure captures only incidents where an officer found direct evidence of phone use at the scene, a method roughly as reliable as detecting drunk driving by asking the driver if they had been drinking.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> AAA Foundation and National Safety Council estimates put the true distraction-involved fatal figure at two to five times higher.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>So: 70 to 80 percent of fatal crashes involve sober drivers. Official distraction counts are undercounted by a factor of two to five. IIHS just demonstrated that phone use scales with speed, not against it. If you were building a regression model to explain the sober majority of fatal crashes, the variable you would reach for first is exactly what this study measured, and the coefficient points in the direction nobody was looking.</p>
+
+      <h3>What you should actually do</h3>
+      <p>Enable Do Not Disturb While Driving. Every major phone OS ships it; almost nobody activates it. On iPhone, it is Settings &gt; Focus &gt; Driving. On Android, Settings &gt; Digital Wellbeing &gt; Driving Mode. If your car has Apple CarPlay or Android Auto, use them exclusively for navigation and media rather than reaching for the phone itself. And if you catch yourself touching your phone at highway speed, understand that you are not multitasking effectively; you are joining the exact population cohort that IIHS just identified as the most dangerous on the road.</p>
+
+      <h3>Limitations</h3>
+      <p>IIHS excluded California, New York, Hawaii, and Alaska from the dataset, removing the largest state by population and the largest city in the country, which limits geographic generalizability.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Gyroscope-based phone handling detection measures physical manipulation of the device, not visual attention: a driver handing a phone to a passenger would register as a handling event, while staring at a dashboard-mounted phone would not. Participants self-selected into safe-driving apps offered by insurance companies, meaning this sample is likely more safety-conscious than the general driving population; actual phone use rates among all drivers are probably worse. Our cross-reference between IIHS distraction data and FARS sobriety data is inferential, not direct measurement: FARS does not systematically record distraction status, so we are identifying distraction as the residual explanation for sober fatal crashes rather than measuring it independently.</p>
+
+      <h3>Strongest counterargument</h3>
+      <p>Correlation between speeding and phone use does not establish that either behavior causes the other. Both may be downstream symptoms of high risk tolerance: the same personality type that drives 80 in a 65 zone also checks notifications at speed, and the overlap is temperamental rather than causal. If true, the policy solution is not "reduce phone use at highway speeds" but "identify and intervene with high-risk-tolerance individuals," which is a fundamentally harder problem that cannot be solved by app reminders or hands-free mandates alone. Reagan and Monfort acknowledged this possibility in the IIHS release, listing "risk-taking personality overlap" as one of several potential explanatory mechanisms for their findings.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">IIHS, <em>Speeding Drivers On Cell Phones More</em>, April 29, 2026. Ian Reagan and Sam Monfort. ~600,000 trips via Cambridge Mobile Telematics, July&ndash;October 2024. <a href="https://www.iihs.org/topics/distracted-driving" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Toxicology data showing sobriety rates among fatally crashed drivers. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Distracted Driving 2022</em>, Traffic Safety Facts Research Note, DOT HS 813 443. 3,308 distraction-affected fatalities. <a href="https://www.nhtsa.gov/risky-driving/distracted-driving" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">AAA Foundation for Traffic Safety, <em>Prevalence of Cell Phone Use While Driving</em>, multiple editions. NSC Injury Facts distraction estimates. <a href="https://aaafoundation.org/" target="_blank" rel="noopener">aaafoundation.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> IIHS study data from ~600,000 trips (July&ndash;October 2024, US excluding AK/CA/HI/NY); NHTSA FARS 2014&ndash;2023 toxicology data. The cross-reference between IIHS phone handling rates and FARS sobriety data is an inferential analysis by The Crash Report, not a published IIHS finding. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
