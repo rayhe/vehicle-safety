@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "dead-brands-body-count",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-04-29T18:30:00Z",
     "headline": "Pontiac Stopped Making Cars in 2010. It Still Killed 3,038 People.",
-    "round": 2,
+    "journalist": "Rex Driverton",
+    "published_at": "2026-04-30T00:30:00Z",
+    "article_number": 209,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,23 +14,6 @@
       "legal": 9.0,
       "rigor": 8.8,
       "data": 8.8
-    },
-    "critique_notes": "Round 2 pass, all 7 critics ≥8.5, all hard gates pass. Deferred: 5 articles already published today (#204-208). Next run should publish as #209."
-  },
-  "last_completed": {
-    "slug": "drunk-pedestrian-epidemic",
-    "headline": "Nearly 1 in 3 Pedestrians Killed in America Were Legally Drunk. We Keep Redesigning the Cars.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-04-29T16:30:00Z",
-    "article_number": 208,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.5,
-      "rigor": 8.7,
-      "data": 8.6
     }
   }
 }
