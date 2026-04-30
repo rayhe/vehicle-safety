@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "drug-shift-delivery-vans",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-04-30T02:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "dead-brands-body-count",
     "headline": "Pontiac Stopped Making Cars in 2010. It Still Killed 3,038 People.",
