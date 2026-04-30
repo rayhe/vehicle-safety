@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "drug-shift-delivery-vans",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "started": "2026-04-30T02:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 8.7,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.6
+    }
   },
   "last_completed": {
     "slug": "dead-brands-body-count",
