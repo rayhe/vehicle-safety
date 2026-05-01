@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "the-2014-ghost-rate-still-unbeaten",
-    "phase": "SHIP",
+    "headline": "The 2014 Ghost: Why the Safest Year in Driving History Was 11 Years Ago",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-01T02:32:00Z",
-    "round": 1,
+    "published_at": "2026-05-01T04:30:00Z",
+    "article_number": 213,
     "scores": {
       "general": 8.7,
       "voice": 8.5,
@@ -12,22 +13,6 @@
       "social": 8.6,
       "legal": 8.7,
       "rigor": 8.6,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "speeding-phone-use-iihs-correlation",
-    "headline": "Faster Drivers Use Their Phones More, Not Less",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-01T00:31:00Z",
-    "article_number": 212,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.8,
-      "social": 8.5,
-      "legal": 8.7,
-      "rigor": 8.5,
       "data": 8.5
     }
   }
