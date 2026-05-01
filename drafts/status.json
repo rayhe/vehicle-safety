@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "the-2014-ghost-rate-still-unbeaten",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-01T02:32:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "speeding-phone-use-iihs-correlation",
     "headline": "Faster Drivers Use Their Phones More, Not Less",
