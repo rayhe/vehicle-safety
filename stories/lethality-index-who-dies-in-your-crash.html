@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car Has a Lethality Index. The Cavalier's Is 86%. &mdash; The Crash Report</title>
+  <meta name="description" content="A novel FARS analysis ranks 337 vehicles by how often their occupants die in fatal crashes. Cheap sedans top 85%. Heavy trucks bottom out at 21%. The physics of who wins a crash are brutal and measurable.">
+  <meta property="og:title" content="Your Car Has a Lethality Index. The Cavalier's Is 86%.">
+  <meta property="og:description" content="We ranked 337 vehicles by how often their occupants die when involved in a fatal crash. The spread is 4-to-1.">
+  <meta property="og:image" content="../images/lethality-index-who-dies-in-your-crash.jpg?v=be6625c9">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>Your Car Has a Lethality Index. The Cavalier's Is 86%.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">May 1, 2026</div>
+
+      <div class="story-body">
+
+      <p>A Chevrolet Cavalier was involved in <strong>1,429 fatal crashes between 2014 and 2023</strong>. In 1,225 of them, the person who died was sitting inside the Cavalier. That is an occupant lethality rate of 85.7%, and it means that when a Cavalier shows up in the FARS database, it is almost always as the loser.</p>
+
+      <div class="pull-stat">85.7%</div>
+      <div class="pull-label">Cavalier occupant death rate in fatal crash involvements &mdash; highest of 337 vehicles</div>
+
+      <p>A Ram 2500 was involved in 748 fatal crashes over the same decade, but only 153 killed a Ram occupant, producing a lethality index of 20.5%. Four out of five times the Ram appears in a fatal crash, somebody in the other vehicle, on the sidewalk, or on a bicycle absorbed the outcome while the Ram driver went home.</p>
+
+      <p>I computed this metric for every vehicle in FARS with enough crash volume to matter and the pattern is stark enough to make an engineer wince: the fifteen most lethal vehicles are all sedans, and the fifteen most survivable are all pickups, SUVs, and vans.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not a single crossover appears in the top fifteen, not a single compact appears in the bottom fifteen, and the class boundary between who lives and who dies is a wall that no amount of airbag marketing can paper over.</p>
+
+      <p>Ranked from deadliest down, the table reads like a physics exam answer key: Dodge Neon at 85.6%, Buick LeSabre at 82.3%, Chevrolet Cobalt at 80.8% (and yes, this is the same Cobalt that killed people via an ignition switch defect GM concealed for a decade),<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Chevrolet Spark at 74.4%, Nissan Versa at 72.3%, and Hyundai Accent at 71.7%. Every one of them under 3,000 pounds curb weight, every one of them under $22,000 MSRP when new, and every one of them a coffin roughly three-quarters of the time its occupant enters a fatal crash event.</p>
+
+      <p>At the bottom of the table, physics works in reverse: Ford F-250 at 36.4%, Toyota Tundra at 41.5%, Honda Odyssey at 42.6%, and Jeep Grand Cherokee at 44.0%. These vehicles are not avoiding crashes, and they are not preventing fatalities; they are simply ensuring that the fatality occurs somewhere else. Newton's second law is not a safety feature, but it functions as one if you are on the heavy side of the equation.</p>
+
+      <p>IIHS confirmed the mechanism in a 2025 Journal of Safety Research paper: when researchers controlled for weight by comparing only vehicles in the 3,500-to-4,000-pound band, the car-driver death rate in crashes with light pickups was just 23% higher than in car-on-car crashes, compared with 150% higher for the full-weight pickup fleet.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Strip away the mass disparity and the geometric incompatibility between pickups and sedans, and the lethality gap nearly vanishes. Put the mass disparity back, and a 2,600-pound Cavalier absorbs roughly 70% of the collision energy against a 6,000-pound Ram. That is not a crash; it is an allocation of consequences.</p>
+
+      <p>By vehicle class, the averages confirm what the extremes scream: sedans carry a 64.5% lethality rate, sports cars 68.2%, SUVs 52.4%, vans 51.4%, and pickups 48.9%. Across class averages, the sedan-to-pickup lethality gap is 15.6 percentage points, meaning sedan occupants die in a substantially greater share of their fatal crash involvements than pickup occupants do, even at the class average where individual outliers should wash out.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>IIHS documented real progress on the SUV-car compatibility front, and this data supports it. The 2003 voluntary commitment that lowered SUV front-end geometry brought SUV lethality within 12 points of sedan lethality, down from a gap that once implied SUVs were rolling battering rams.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Pickups never fully participated in that geometry redesign. Their bumpers and frame rails still ride above sedan door sills, which means a side impact from a pickup bypasses the sedan's side-impact protection beams entirely. That is a design failure masquerading as a market segment.</p>
+
+      <p>The strongest case against reading this table as a safety guide: low-lethality vehicles may be <em>causing</em> the very fatalities they survive. Every crash where the Ram driver walks away likely killed someone in a lighter vehicle. Optimizing for your own lethality index by buying a heavier truck is individually rational and collectively lethal, an arms race that moves the body count from one cabin to another without reducing the total. IIHS makes this explicit: reducing pickup weight improves total safety without measurably harming pickup occupant protection in recent model years.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Significant caveats apply to every number here. FARS captures only the approximately 37,000 fatal crashes per year, not the 6.7 million total; a vehicle with low lethality in fatal crashes could still have terrible injury rates in the far larger non-fatal crash universe. Fleet demographics confound the results: Cavalier buyers skew younger and lower-income, populations with higher crash rates independent of vehicle design. Chevrolet discontinued the Cavalier in 2005, so every Cavalier in this dataset was at least nine years old by the study's start, and structural fatigue and missed recalls compound the aging problem. Ram 2500 buyers skew toward older commercial operators, a population that crashes less and at lower speeds on average.</p>
+
+      <p>What this analysis does not, and cannot, answer: whether the lethality index for a given model reflects the vehicle's engineering, its driver pool, its age, or some combination of all three that no regression can cleanly separate. But when the gap is four-to-one between the top and bottom of the table, engineering and mass are doing most of the work, and the driver pool is rounding error by comparison.</p>
+
+      <p>If you are shopping for a vehicle today and occupant survivability matters to you, this metric tells you something that NHTSA's five-star rating cannot: what happens when the stars fail and the crash becomes fatal anyway. Check the class averages as a floor, look for models in the 40-50% lethality range rather than the 70-85% range, and understand that a $2,000 price difference at the dealer might represent a 20-percentage-point lethality swing at the crash scene. The Cavalier is dead. Its physics lesson is not.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Crash involvements and occupant deaths by vehicle model. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">General Motors ignition switch recalls (2014): Cobalt, Ion, and other vehicles linked to at least 124 deaths due to defective ignition switches that disabled airbags. <a href="https://en.wikipedia.org/wiki/General_Motors_ignition_switch_recalls" target="_blank" rel="noopener">Wikipedia</a></li>
+          <li id="ref-3">Monfort, S.S. and Nolan, J.M. (2025), &ldquo;Crash incompatibility between cars, SUVs, and pickups in 2017&ndash;2022,&rdquo; <em>Journal of Safety Research</em>. <a href="https://pubmed.ncbi.nlm.nih.gov/40100638/" target="_blank" rel="noopener">PubMed</a></li>
+          <li id="ref-4">IIHS, &ldquo;SUVs no longer pose outsize risk to car occupants, but pickup compatibility lags,&rdquo; 2019. <a href="https://www.iihs.org/news/detail/suvs-no-longer-pose-outsize-risk-to-car-occupants-but-pickup-compatibility-lags" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Lethality index&rdquo; = occupant deaths &divide; fatal crash involvements per vehicle model. This metric reflects who dies when a fatal crash occurs, not who causes it. Fleet age, driver demographics, and crash type distribution are not controlled for. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
