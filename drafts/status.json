@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "lethality-index-who-dies-in-your-crash",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-01T06:31:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 8.8,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.6,
+      "data": 8.6
+    },
+    "critique_notes": "Round 1: Fixed 'The' starters from 16.7% to 10.4%. All 7 critics ≥8.5. All hard gates pass (em dashes: 0, banned phrases: 0, CSS correct, rhythm variance 348.5). Ready to publish — blocked by 1/day limit (2 already published today)."
   },
   "last_completed": {
     "slug": "the-2014-ghost-rate-still-unbeaten",
