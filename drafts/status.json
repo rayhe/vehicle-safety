@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "covid-hangover-excess-road-deaths",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-05-01T16:32:00Z",
-    "round": 2,
     "headline": "The Pandemic Is Over. The Pandemic Driving Isn't.",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-05-01T22:37:00Z",
+    "article_number": 215,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,22 +14,6 @@
       "legal": 9.0,
       "rigor": 8.7,
       "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "lethality-index-who-dies-in-your-crash",
-    "headline": "Your Car Has a Lethality Index. The Cavalier's Is 86%.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-01T14:32:00Z",
-    "article_number": 214,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 8.8,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.6
     }
   }
 }
