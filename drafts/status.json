@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "speeding-phone-use-iihs-correlation",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
     "headline": "Faster Drivers Use Their Phones More, Not Less",
-    "started": "2026-04-30T14:30:00Z",
-    "round": 1,
+    "journalist": "Axle McScatter",
+    "published_at": "2026-05-01T00:31:00Z",
+    "article_number": 212,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -13,24 +13,6 @@
       "social": 8.5,
       "legal": 8.7,
       "rigor": 8.5,
-      "data": 8.5
-    },
-    "published_at": "2026-05-01T00:31:00Z",
-    "article_number": 212
-  },
-  "last_completed": {
-    "slug": "same-showroom-43x-safety-gap",
-    "headline": "Ford Sells a Vehicle 43 Times Deadlier Than Another Ford",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-04-30T12:38:00Z",
-    "article_number": 211,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.8,
-      "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.6,
       "data": 8.5
     }
   }
