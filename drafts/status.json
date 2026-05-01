@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "speeding-phone-use-iihs-correlation",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "headline": "Faster Drivers Use Their Phones More, Not Less",
     "started": "2026-04-30T14:30:00Z",
@@ -15,7 +15,8 @@
       "rigor": 8.5,
       "data": 8.5
     },
-    "ship_blocked_reason": "1/day gate: #211 already published 2026-04-30. Next publish window: 2026-05-01."
+    "published_at": "2026-05-01T00:31:00Z",
+    "article_number": 212
   },
   "last_completed": {
     "slug": "same-showroom-43x-safety-gap",
