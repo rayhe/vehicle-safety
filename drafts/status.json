@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "665-million-wrong-target",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-05-02T00:31:00Z",
     "headline": "NHTSA Just Spent $665 Million Fighting 20% of the Problem",
-    "round": 1,
+    "journalist": "Dale Impactor III",
+    "published_at": "2026-05-02T00:54:00Z",
+    "article_number": 216,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,22 +14,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "covid-hangover-excess-road-deaths",
-    "headline": "The Pandemic Is Over. The Pandemic Driving Isn't.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-01T22:37:00Z",
-    "article_number": 215,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 8.7,
-      "data": 8.7
     }
   }
 }
