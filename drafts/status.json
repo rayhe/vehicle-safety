@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "665-million-wrong-target",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-05-02T00:31:00Z",
+    "headline": "NHTSA Just Spent $665 Million Fighting 20% of the Problem",
+    "round": 0
+  },
   "last_completed": {
     "slug": "covid-hangover-excess-road-deaths",
     "headline": "The Pandemic Is Over. The Pandemic Driving Isn't.",
