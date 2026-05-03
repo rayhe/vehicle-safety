@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "seatbelt-nine-percent-half-the-dead",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "started": "2026-05-03T18:35:00Z",
+    "headline": "9% of Drivers Skip the Seat Belt. They Account for Half the Dead."
+  },
   "last_completed": {
     "slug": "halt-act-body-count-while-congress-debates",
     "headline": "Congress Is Fighting a 'Kill Switch' That Doesn't Exist. The 44,000 Dead Since 2021 Are Real.",
