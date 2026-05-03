@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "aeb-tested-at-parking-lot-speeds",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-05-03T02:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "nhtsa-vin-blind-spot-aftermarket-airbags",
