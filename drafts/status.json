@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "aeb-tested-at-parking-lot-speeds",
-    "phase": "QA",
+    "headline": "Your Car's Emergency Braking Was Tested at Parking Lot Speeds. It Fails at Highway Speeds.",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-03T02:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-03T06:30:00Z",
+    "article_number": 219,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -13,22 +14,6 @@
       "legal": 9.0,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-vin-blind-spot-aftermarket-airbags",
-    "headline": "NHTSA Tracks 29 Million VINs a Year. It Can't Track a Single Aftermarket Airbag.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-03T00:30:00Z",
-    "article_number": 218,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 9.0
     }
   }
 }
