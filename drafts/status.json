@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "halt-act-body-count-while-congress-debates",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-05-03T08:31:00Z",
-    "round": 1,
     "headline": "Congress Is Fighting a 'Kill Switch' That Doesn't Exist. The 44,000 Dead Since 2021 Are Real.",
+    "journalist": "Dale Impactor III",
+    "published_at": "2026-05-03T18:30:00Z",
     "article_number": 220,
     "scores": {
       "general": 9.0,
@@ -14,22 +13,6 @@
       "social": 8.8,
       "legal": 9.0,
       "rigor": 8.8,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "aeb-tested-at-parking-lot-speeds",
-    "headline": "Your Car's Emergency Braking Was Tested at Parking Lot Speeds. It Fails at Highway Speeds.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-03T06:30:00Z",
-    "article_number": 219,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 9.0,
       "data": 8.8
     }
   }
