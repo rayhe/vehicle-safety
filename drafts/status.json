@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "aeb-tested-at-parking-lot-speeds",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-03T02:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "nhtsa-vin-blind-spot-aftermarket-airbags",
     "headline": "NHTSA Tracks 29 Million VINs a Year. It Can't Track a Single Aftermarket Airbag.",
