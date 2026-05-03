@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-vin-blind-spot-aftermarket-airbags",
-    "phase": "QA",
+    "headline": "NHTSA Tracks 29 Million VINs a Year. It Can't Track a Single Aftermarket Airbag.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-02T10:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-03T00:30:00Z",
+    "article_number": 218,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -13,24 +14,6 @@
       "legal": 9.0,
       "rigor": 8.8,
       "data": 9.0
-    },
-    "published_at": "2026-05-03T00:30:00Z",
-    "article_number": 218
-  },
-  "last_completed": {
-    "slug": "ford-seat-bolt-recall-exposure",
-    "headline": "Ford Recalled 180,000 Trucks Because the Seat Might Come Off",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-02T06:33:00Z",
-    "article_number": 217,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7
     }
   }
 }
