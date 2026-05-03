@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "seatbelt-nine-percent-half-the-dead",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Rex Driverton",
     "started": "2026-05-03T18:35:00Z",
-    "headline": "9% of Drivers Skip the Seat Belt. They Account for Half the Dead."
+    "headline": "9% of Drivers Skip the Seat Belt. They Account for Half the Dead.",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "halt-act-body-count-while-congress-debates",
