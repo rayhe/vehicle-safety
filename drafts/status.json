@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-three-investigations-39000-dead",
+    "phase": "CRITIQUE",
+    "journalist": "Axle McScatter",
+    "started": "2026-05-04T12:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "iihs-award-gap-body-count",
     "headline": "63 Vehicles Won IIHS Awards. America's Best-Selling Trucks Weren't Among Them.",
