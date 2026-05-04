@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "iihs-award-gap-body-count",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-05-04T06:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "scrapyard-safety-program",
     "headline": "Traffic Deaths Dropped 6.7%. Thank the Scrapyard, Not the Senate.",
