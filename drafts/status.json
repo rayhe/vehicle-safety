@@ -1,28 +1,10 @@
 {
   "current": {
     "slug": "nhtsa-three-investigations-39000-dead",
-    "phase": "SHIP",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
     "started": "2026-05-04T12:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 8.7,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.7,
-      "data": 8.6
-    },
-    "headline": "NHTSA Opened Three Investigations Into 4.3 Million Vehicles. The Defects Explain 0.77% of Their Deaths.",
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 11.3,
-      "sentence_rhythm": "PASS",
-      "css_classes": "PASS"
-    },
-    "ship_blocked": "already_published_today"
+    "round": 0
   },
   "last_completed": {
     "slug": "iihs-award-gap-body-count",
