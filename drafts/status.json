@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "iihs-award-gap-body-count",
-    "phase": "QA",
+    "headline": "63 Vehicles Won IIHS Awards. America's Best-Selling Trucks Weren't Among Them.",
     "journalist": "Clara Rollover",
-    "started": "2026-05-04T06:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-04T10:30:00Z",
+    "article_number": 223,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -12,22 +13,6 @@
       "social": 9.2,
       "legal": 9.0,
       "rigor": 9.0,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "scrapyard-safety-program",
-    "headline": "Traffic Deaths Dropped 6.7%. Thank the Scrapyard, Not the Senate.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-04T04:30:00Z",
-    "article_number": 222,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 8.8,
-      "social": 9.2,
-      "legal": 9.0,
-      "rigor": 8.8,
       "data": 8.8
     }
   }
