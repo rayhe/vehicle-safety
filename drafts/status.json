@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "iihs-award-gap-body-count",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-05-04T06:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 8.8,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "scrapyard-safety-program",
