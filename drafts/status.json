@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "nhtsa-three-investigations-39000-dead",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Axle McScatter",
     "started": "2026-05-04T12:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "ship_blocked": "1/day limit — #223 already published 2026-05-04"
   },
   "last_completed": {
     "slug": "iihs-award-gap-body-count",
