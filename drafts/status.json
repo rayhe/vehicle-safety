@@ -2,10 +2,19 @@
   "current": {
     "slug": "scrapyard-safety-program",
     "headline": "Traffic Deaths Dropped 6.7%. Thank the Scrapyard, Not the Senate.",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-04T02:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 8.8,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "seatbelt-nine-percent-half-the-dead",
