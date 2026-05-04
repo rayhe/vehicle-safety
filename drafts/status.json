@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "scrapyard-safety-program",
     "headline": "Traffic Deaths Dropped 6.7%. Thank the Scrapyard, Not the Senate.",
-    "phase": "QA",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-04T02:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-04T04:30:00Z",
+    "article_number": 222,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -13,22 +13,6 @@
       "social": 9.2,
       "legal": 9.0,
       "rigor": 8.8,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "seatbelt-nine-percent-half-the-dead",
-    "headline": "9% of Drivers Skip the Seat Belt. They Account for Half the Dead.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-03T20:38:00Z",
-    "article_number": 221,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.8,
-      "social": 8.8,
-      "legal": 9.0,
-      "rigor": 9.0,
       "data": 8.8
     }
   }
