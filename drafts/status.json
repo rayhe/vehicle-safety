@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "mitsubishi-invisible-brand-body-count",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-05T08:30:00Z",
-    "round": 0
+    "round": 1,
+    "ship_blocked": "1/day limit — #225 and #226 already published 2026-05-05",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "solara-soberest-deathtrap",
