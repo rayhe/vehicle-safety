@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "solara-soberest-deathtrap",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-05-05T04:35:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.5
+    }
+  },
   "last_completed": {
     "slug": "fars-drowsy-driving-10x-gap",
     "headline": "There's No Blood Test for Exhaustion. That's Why 5,693 Deaths Disappear Every Year.",
