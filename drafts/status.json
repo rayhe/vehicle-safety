@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "fars-drowsy-driving-10x-gap",
-    "phase": "QA",
+    "headline": "There's No Blood Test for Exhaustion. That's Why 5,693 Deaths Disappear Every Year.",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-05T00:35:00Z",
-    "round": 1,
+    "published_at": "2026-05-05T02:40:00Z",
+    "article_number": 225,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -13,22 +14,6 @@
       "legal": 9.0,
       "rigor": 8.5,
       "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-three-investigations-39000-dead",
-    "headline": "NHTSA Opened Three Investigations Into 4.3 Million Vehicles. The Defects Explain 0.77% of Their Deaths.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-05T00:30:00Z",
-    "article_number": 224,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
