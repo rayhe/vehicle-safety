@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fars-drowsy-driving-10x-gap",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-05T00:35:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "nhtsa-three-investigations-39000-dead",
     "headline": "NHTSA Opened Three Investigations Into 4.3 Million Vehicles. The Defects Explain 0.77% of Their Deaths.",
