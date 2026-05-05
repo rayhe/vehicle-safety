@@ -1,32 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-three-investigations-39000-dead",
-    "phase": "QA",
+    "headline": "NHTSA Opened Three Investigations Into 4.3 Million Vehicles. The Defects Explain 0.77% of Their Deaths.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-04T12:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-05T00:30:00Z",
+    "article_number": 224,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
-      "social": 9.2,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8
-    },
-    "article_number": 224,
-    "published_at": "2026-05-05T00:30:00Z"
-  },
-  "last_completed": {
-    "slug": "iihs-award-gap-body-count",
-    "headline": "63 Vehicles Won IIHS Awards. America's Best-Selling Trucks Weren't Among Them.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-04T10:30:00Z",
-    "article_number": 223,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 8.8,
       "social": 9.2,
       "legal": 9.0,
       "rigor": 9.0,
