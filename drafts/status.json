@@ -1,12 +1,11 @@
 {
   "current": {
     "slug": "mitsubishi-invisible-brand-body-count",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-05T08:30:00Z",
-    "round": 1,
-    "ship_blocked": "1/day limit — #224, #225, and #226 already published 2026-05-05 UTC. Next eligible: 2026-05-06T00:00:00Z",
-    "last_checked": "2026-05-05T22:30:00Z",
+    "published_at": "2026-05-06T00:30:00Z",
+    "article_number": 227,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
