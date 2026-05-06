@@ -1,11 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "sierra-silverado-badge-gap",
     "headline": "Same Truck, Different Body Count: The Silverado Kills 24% More Per Mile Than the Sierra",
     "journalist": "Rex Driverton",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-05-06T02:30:00Z",
     "published_at": "2026-05-06T14:30:00Z",
     "article_number": 228,
     "scores": {
@@ -13,30 +11,6 @@
       "voice": 8.5,
       "ethics": 9.0,
       "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 3,
-      "the_starters_pct": 7.1,
-      "banned_phrases": 0,
-      "sentence_rhythm": "PASS",
-      "css_classes": "PASS",
-      "stylesheet": "PASS"
-    }
-  },
-  "last_completed": {
-    "slug": "mitsubishi-invisible-brand-body-count",
-    "headline": "Mitsubishi Filed Zero Recalls in 2024. The Montero Kills at Nearly Twice the F-150's Rate.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-06T00:30:00Z",
-    "article_number": 227,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
       "legal": 9.0,
       "rigor": 8.5,
       "data": 8.5
