@@ -23,7 +23,8 @@
       "css_classes": "PASS",
       "stylesheet": "PASS"
     },
-    "ship_blocked_reason": "1/day limit: #227 already published 2026-05-06T00:30:00Z"
+    "ship_blocked_reason": "1/day limit: #227 published 2026-05-06T00:32Z, still same UTC day at 10:30Z. Added og:image/og:title/og:description tags to draft. Ready for next UTC day.",
+    "og_tags_fixed": true
   },
   "last_completed": {
     "slug": "mitsubishi-invisible-brand-body-count",
