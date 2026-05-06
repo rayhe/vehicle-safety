@@ -3,9 +3,11 @@
     "slug": "sierra-silverado-badge-gap",
     "headline": "Same Truck, Different Body Count: The Silverado Kills 24% More Per Mile Than the Sierra",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "started": "2026-05-06T02:30:00Z",
+    "published_at": "2026-05-06T14:30:00Z",
+    "article_number": 228,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
@@ -22,10 +24,7 @@
       "sentence_rhythm": "PASS",
       "css_classes": "PASS",
       "stylesheet": "PASS"
-    },
-    "ship_blocked_reason": "1/day limit: #227 published 2026-05-06T00:32Z, still same UTC day at 12:30Z. Hero image generated. Ready for next UTC day.",
-    "og_tags_fixed": true,
-    "hero_image_ready": true
+    }
   },
   "last_completed": {
     "slug": "mitsubishi-invisible-brand-body-count",
