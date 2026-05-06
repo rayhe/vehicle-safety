@@ -1,9 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "mitsubishi-invisible-brand-body-count",
-    "phase": "QA",
+    "headline": "Mitsubishi Filed Zero Recalls in 2024. The Montero Kills at Nearly Twice the F-150's Rate.",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-05T08:30:00Z",
     "published_at": "2026-05-06T00:30:00Z",
     "article_number": 227,
     "scores": {
@@ -11,22 +11,6 @@
       "voice": 8.5,
       "ethics": 9.0,
       "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "solara-soberest-deathtrap",
-    "headline": "96% of Fatal Solara Crashes Involved Sober Drivers. The Camry's Number Is 81%.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-05T04:39:33Z",
-    "article_number": 226,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
       "legal": 9.0,
       "rigor": 8.5,
       "data": 8.5
