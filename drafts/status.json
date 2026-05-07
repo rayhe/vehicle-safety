@@ -1,27 +1,11 @@
 {
-  "current": {
-    "slug": "mandate-gap-pre-esc-body-count",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-05-06T18:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
-    },
-    "published_at": "2026-05-07T00:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "sierra-silverado-badge-gap",
-    "headline": "Same Truck, Different Body Count: The Silverado Kills 24% More Per Mile Than the Sierra",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-06T14:30:00Z",
-    "article_number": 228,
+    "slug": "mandate-gap-pre-esc-body-count",
+    "headline": "72% of America's Road Deaths Happen in Vehicles That Pre-Date Stability Control",
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-05-07T00:30:00Z",
+    "article_number": 229,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
