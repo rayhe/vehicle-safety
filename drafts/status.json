@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "mandate-gap-pre-esc-body-count",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-06T18:30:00Z",
     "round": 1,
@@ -14,7 +14,7 @@
       "rigor": 8.5,
       "data": 8.5
     },
-    "ship_blocked": "1/day limit — #227 and #228 both published 2026-05-06 UTC"
+    "published_at": "2026-05-07T00:30:00Z"
   },
   "last_completed": {
     "slug": "sierra-silverado-badge-gap",
