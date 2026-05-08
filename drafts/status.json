@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "nhtsa-adas-tests-wrong-fleet",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-08T20:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 9.0,
+      "data": 8.5
+    },
+    "note": "Ready to ship. 1/day limit hit (2 articles published 2026-05-08). Publish next eligible day."
   },
   "last_completed": {
     "slug": "sedan-extinction-safety-dividend",
