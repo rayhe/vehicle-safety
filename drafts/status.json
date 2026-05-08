@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-adas-tests-wrong-fleet",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-05-08T20:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "sedan-extinction-safety-dividend",
     "headline": "The Sedan Extinction Dividend: America's SUV Addiction Is Accidentally Saving 5,000 Lives a Year",
