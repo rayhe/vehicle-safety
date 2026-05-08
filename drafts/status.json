@@ -1,29 +1,14 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-adas-tests-wrong-fleet",
-    "phase": "QA",
+    "headline": "NHTSA Just Built a Safety Test for Cars That Don't Need It",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-08T20:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-08T22:33:00Z",
+    "article_number": 232,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "sedan-extinction-safety-dividend",
-    "headline": "The Sedan Extinction Dividend: America's SUV Addiction Is Accidentally Saving 5,000 Lives a Year",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-08T06:34:00Z",
-    "article_number": 231,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 9.5,
