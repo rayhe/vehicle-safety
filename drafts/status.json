@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-ota-recall-paradox",
+    "headline": "Ford Issued 153 Recalls Last Year. 98% of Their Death Toll Can't Receive One.",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-05-09T16:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "junkyard-dividend",
     "headline": "The Junkyard Dividend: America's 'Safest Year' on the Road Is Really About Scrapping Death Traps",
