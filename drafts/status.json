@@ -1,28 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "junkyard-dividend",
     "headline": "The Junkyard Dividend: America's 'Safest Year' on the Road Is Really About Scrapping Death Traps",
-    "phase": "QA",
     "journalist": "Clara Rollover",
-    "kicker": "Trend Watch",
-    "round": 1,
-    "started": "2026-05-09T08:31:00Z",
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "breathalyzer-blind-spot",
-    "headline": "1 in 4 Impaired Fatal Crash Drivers Would Pass a Breathalyzer",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-05-09T04:37:00Z",
-    "article_number": 233,
+    "published_at": "2026-05-09T12:30:00Z",
+    "article_number": 234,
     "scores": {
       "general": 8.5,
       "voice": 8.5,
