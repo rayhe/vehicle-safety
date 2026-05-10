@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "death-export-ratio",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-10T20:30:00Z",
+    "round": 2,
+    "ship_deferred_reason": "1/day limit: Publish #236 already committed 2026-05-10T18:44Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "two-fleet-america",
     "headline": "The U.S. Death Rate Hit 1.10. For 23 Million Vehicles, It's Still 2.75.",
