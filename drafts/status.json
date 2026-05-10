@@ -3,10 +3,11 @@
     "slug": "two-fleet-america",
     "headline": "The U.S. Death Rate Hit 1.10. For 23 Million Vehicles, It's Still 2.75.",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "started": "2026-05-10T02:30:00Z",
-    "ship_deferred": "1/day limit: Publish #235 committed 2026-05-10T00:32Z. Checked again at 2026-05-10T12:30Z \u2014 still same UTC day. Will ship on 2026-05-11.",
+    "published_at": "2026-05-10T18:30:00Z",
+    "article_number": 236,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
