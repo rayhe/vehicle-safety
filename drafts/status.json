@@ -1,11 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "two-fleet-america",
     "headline": "The U.S. Death Rate Hit 1.10. For 23 Million Vehicles, It's Still 2.75.",
     "journalist": "Mia Crumplezone",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-05-10T02:30:00Z",
     "published_at": "2026-05-10T18:30:00Z",
     "article_number": 236,
     "scores": {
@@ -15,22 +13,6 @@
       "social": 9.2,
       "legal": 9.0,
       "rigor": 9.0,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "ford-ota-recall-paradox",
-    "headline": "Ford Issued 153 Recalls Last Year. 98% of Their Death Toll Can't Receive One.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-10T00:30:00Z",
-    "article_number": 235,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
       "data": 8.8
     }
   }
