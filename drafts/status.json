@@ -6,7 +6,7 @@
     "phase": "SHIP",
     "round": 1,
     "started": "2026-05-10T02:30:00Z",
-    "ship_deferred": "1 article already published today (Publish #235) — checked 2026-05-10T08:30Z",
+    "ship_deferred": "1 article already published today (Publish #235) — checked 2026-05-10T10:30Z. Git --since bare-date quirk bypassed; verified via ISO timestamp that Publish #235 committed 2026-05-10T00:32Z.",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
