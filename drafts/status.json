@@ -1,10 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "f150-transmission-money-shift-recall",
-    "phase": "QA",
-    "round": 2,
+    "headline": "Ford Just Recalled 1.4 Million F-150s for a Defect That Slams You From 6th Gear to 2nd at Highway Speed",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-11T02:30:00Z",
     "published_at": "2026-05-11T06:30:00Z",
     "article_number": 238,
     "scores": {
@@ -13,22 +12,6 @@
       "ethics": 9.2,
       "social": 8.8,
       "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "death-export-ratio",
-    "headline": "Your Ram 2500 Is in a Fatal Crash. 80% of the Time, You Walk Away.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-11T00:30:00Z",
-    "article_number": 237,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 9.0,
       "rigor": 9.0,
       "data": 8.8
     }
