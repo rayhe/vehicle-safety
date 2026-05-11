@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "f150-transmission-money-shift-recall",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 2,
     "journalist": "Mia Crumplezone",
     "started": "2026-05-11T02:30:00Z",
-    "ship_note": "Deferred: Publish #237 already published today (May 11 UTC). Will ship next UTC day.",
+    "published_at": "2026-05-11T06:30:00Z",
+    "article_number": 238,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
