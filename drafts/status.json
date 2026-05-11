@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "adas-death-fleet-gap",
+    "phase": "PARKED",
+    "reason": "Redundant with published story nhtsa-adas-tests-wrong-fleet.html (May 8, Mia Crumplezone). Same thesis, same data, same kicker. Starting fresh research.",
+    "journalist": "Axle McScatter",
+    "started": "2026-05-11T00:30:00Z",
+    "parked_at": "2026-05-11T02:30:00Z"
+  },
   "last_completed": {
     "slug": "death-export-ratio",
     "headline": "Your Ram 2500 Is in a Fatal Crash. 80% of the Time, You Walk Away.",
