@@ -1,11 +1,20 @@
 {
   "current": {
-    "slug": "adas-death-fleet-gap",
-    "phase": "PARKED",
-    "reason": "Redundant with published story nhtsa-adas-tests-wrong-fleet.html (May 8, Mia Crumplezone). Same thesis, same data, same kicker. Starting fresh research.",
-    "journalist": "Axle McScatter",
-    "started": "2026-05-11T00:30:00Z",
-    "parked_at": "2026-05-11T02:30:00Z"
+    "slug": "f150-transmission-money-shift-recall",
+    "phase": "SHIP",
+    "round": 2,
+    "journalist": "Mia Crumplezone",
+    "started": "2026-05-11T02:30:00Z",
+    "ship_note": "Deferred: Publish #237 already published today (May 11 UTC). Will ship next UTC day.",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "death-export-ratio",
