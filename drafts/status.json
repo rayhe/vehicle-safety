@@ -1,11 +1,21 @@
 {
   "current": {
     "slug": "crash-test-dummy-gender-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "started": "2026-05-11T10:30:00Z",
     "headline": "Your Car Was Crash-Tested With a Man's Body. 8,600 Women Paid for That With Their Lives.",
-    "round": 0
+    "round": 1,
+    "deferred_reason": "1/day limit: Publish #238 already committed 2026-05-11T06:32Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "f150-transmission-money-shift-recall",
