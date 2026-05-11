@@ -1,11 +1,10 @@
 {
   "current": {
     "slug": "death-export-ratio",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "started": "2026-05-10T20:30:00Z",
     "round": 2,
-    "ship_deferred_reason": "1/day limit: Publish #236 already committed 2026-05-10T18:44Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
