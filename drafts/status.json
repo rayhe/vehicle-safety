@@ -1,26 +1,11 @@
 {
-  "current": {
-    "slug": "death-export-ratio",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-05-10T20:30:00Z",
-    "round": 2,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "two-fleet-america",
-    "headline": "The U.S. Death Rate Hit 1.10. For 23 Million Vehicles, It's Still 2.75.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-10T18:30:00Z",
-    "article_number": 236,
+    "slug": "death-export-ratio",
+    "headline": "Your Ram 2500 Is in a Fatal Crash. 80% of the Time, You Walk Away.",
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-05-11T00:30:00Z",
+    "article_number": 237,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
