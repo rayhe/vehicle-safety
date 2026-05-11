@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "crash-test-dummy-gender-gap",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-05-11T10:30:00Z",
+    "headline": "Your Car Was Crash-Tested With a Man's Body. 8,600 Women Paid for That With Their Lives.",
+    "round": 0
+  },
   "last_completed": {
     "slug": "f150-transmission-money-shift-recall",
     "headline": "Ford Just Recalled 1.4 Million F-150s for a Defect That Slams You From 6th Gear to 2nd at Highway Speed",
