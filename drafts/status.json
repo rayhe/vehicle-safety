@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "polydrug-cocktail-enforcement-gap",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "started": "2026-05-12T00:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "deferred": "Publish #240 already shipped 2026-05-12T00:30Z — 1/day limit"
+  },
   "last_completed": {
     "slug": "iihs-2026-zero-minivans",
     "headline": "Zero Minivans Earned a Safety Award in 2026. The Back Seat Is the Reason.",
