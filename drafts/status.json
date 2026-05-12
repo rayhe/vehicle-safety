@@ -1,33 +1,16 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "polydrug-cocktail-enforcement-gap",
-    "phase": "QA",
+    "headline": "1 in 5 Impaired Drivers Who Die in Crashes Are on Alcohol AND Drugs. The Breathalyzer Catches Half.",
     "journalist": "Dale Impactor III",
-    "started": "2026-05-12T00:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-12T04:30:00Z",
+    "article_number": 241,
     "scores": {
       "general": 8.5,
       "voice": 8.6,
       "ethics": 9.0,
       "social": 8.8,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8
-    },
-    "published_at": "2026-05-12T04:30:00Z",
-    "article_number": 241
-  },
-  "last_completed": {
-    "slug": "iihs-2026-zero-minivans",
-    "headline": "Zero Minivans Earned a Safety Award in 2026. The Back Seat Is the Reason.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-12T00:30:00Z",
-    "article_number": 240,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 9.0,
       "legal": 8.7,
       "rigor": 9.0,
       "data": 8.8
