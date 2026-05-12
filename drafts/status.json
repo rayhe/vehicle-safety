@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "blind-fortress-visibility-paradox",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-05-12T06:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 8.8,
+      "data": 8.7
+    },
+    "deferred": "1/day limit reached (Publish #240 and #241 already today)"
+  },
   "last_completed": {
     "slug": "polydrug-cocktail-enforcement-gap",
     "headline": "1 in 5 Impaired Drivers Who Die in Crashes Are on Alcohol AND Drugs. The Breathalyzer Catches Half.",
