@@ -1,34 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "iihs-2026-zero-minivans",
-    "phase": "QA",
+    "headline": "Zero Minivans Earned a Safety Award in 2026. The Back Seat Is the Reason.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-11T18:30:00Z",
     "published_at": "2026-05-12T00:30:00Z",
     "article_number": 240,
-    "round": 1,
     "scores": {
       "general": 8.5,
       "voice": 8.6,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "crash-test-dummy-gender-gap",
-    "headline": "Your Car Was Crash-Tested With a Man's Body. 8,600 Women Paid for That With Their Lives.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-11T16:30:00Z",
-    "article_number": 239,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.8,
       "rigor": 9.0,
       "data": 8.8
     }
