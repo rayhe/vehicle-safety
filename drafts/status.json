@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "blind-fortress-visibility-paradox",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-05-12T06:30:00Z",
     "round": 1,
@@ -14,7 +14,8 @@
       "rigor": 8.8,
       "data": 8.7
     },
-    "deferred": "1/day limit reached (Publish #240 and #241 already today)"
+    "published_at": "2026-05-12T10:30:00Z",
+    "article_number": 242
   },
   "last_completed": {
     "slug": "polydrug-cocktail-enforcement-gap",
