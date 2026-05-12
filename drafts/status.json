@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-paper-tiger-recall-authority",
+    "headline": "NHTSA Ran 997 Recalls in 2025. It Ordered Exactly One. The Manufacturer Doesn't Exist.",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "round": 0,
+    "started": "2026-05-12T20:30:00Z"
+  },
   "last_completed": {
     "slug": "gm-adas-86-percent-illusion",
     "headline": "GM Says Its Safety Tech Prevents 86% of Crashes. The Math Saves 3%.",
