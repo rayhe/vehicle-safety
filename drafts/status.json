@@ -2,10 +2,19 @@
   "current": {
     "slug": "nhtsa-paper-tiger-recall-authority",
     "headline": "NHTSA Ran 997 Recalls in 2025. It Ordered Exactly One. The Manufacturer Doesn't Exist.",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
-    "round": 0,
-    "started": "2026-05-12T20:30:00Z"
+    "round": 2,
+    "started": "2026-05-12T20:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "gm-adas-86-percent-illusion",
