@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "gm-adas-86-percent-illusion",
-    "phase": "QA",
+    "headline": "GM Says Its Safety Tech Prevents 86% of Crashes. The Math Saves 3%.",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-12T14:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-12T18:30:00Z",
+    "article_number": 243,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -12,22 +13,6 @@
       "social": 9.0,
       "legal": 8.8,
       "rigor": 8.9,
-      "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "blind-fortress-visibility-paradox",
-    "headline": "Your CR-V Can See 28% of What's in Front of It. Its Death Rate Is 0.53. Those Numbers Are Connected.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-12T10:30:00Z",
-    "article_number": 242,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 8.8,
       "data": 8.7
     }
   }
