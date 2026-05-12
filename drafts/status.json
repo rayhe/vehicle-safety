@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "blind-fortress-visibility-paradox",
-    "phase": "QA",
+    "headline": "Your CR-V Can See 28% of What's in Front of It. Its Death Rate Is 0.53. Those Numbers Are Connected.",
     "journalist": "Rex Driverton",
-    "started": "2026-05-12T06:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-12T10:30:00Z",
+    "article_number": 242,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,24 +14,6 @@
       "legal": 8.8,
       "rigor": 8.8,
       "data": 8.7
-    },
-    "published_at": "2026-05-12T10:30:00Z",
-    "article_number": 242
-  },
-  "last_completed": {
-    "slug": "polydrug-cocktail-enforcement-gap",
-    "headline": "1 in 5 Impaired Drivers Who Die in Crashes Are on Alcohol AND Drugs. The Breathalyzer Catches Half.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-05-12T04:30:00Z",
-    "article_number": 241,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
