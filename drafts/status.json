@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "electrical-recall-regime-shift",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "started": "2026-05-13T04:30:00Z",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.5,
+      "ethics": 8.8,
+      "social": 9.0,
+      "legal": 8.7,
+      "rigor": 8.6,
+      "data": 8.6
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 2.3,
+      "css_class": "story",
+      "stylesheet": "style.css",
+      "sentence_rhythm": "PASS"
+    }
+  },
   "last_completed": {
     "slug": "speed-governor-isa-7600-lives",
     "headline": "NYC Put Speed Governors on 700 Cars; Speeding Dropped 64%; Nobody Sells Them",
@@ -16,6 +38,6 @@
       "data": 8.6
     },
     "push_pending": true,
-    "push_note": "DNS outage at publish time — commit e275ce4 local, needs git push origin main"
+    "push_note": "DNS outage at publish time \u2014 commit e275ce4 local, needs git push origin main"
   }
 }
