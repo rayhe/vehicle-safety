@@ -1,14 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "speed-governor-isa-7600-lives",
     "headline": "NYC Put Speed Governors on 700 Cars; Speeding Dropped 64%; Nobody Sells Them",
-    "phase": "QA",
     "journalist": "Mia Crumplezone",
-    "round": 1,
-    "started": "2026-05-12T20:35:00Z",
     "published_at": "2026-05-13T02:30:00Z",
     "article_number": 245,
-    "notes": "Shipped as #245. All hard gates passed: 0 em dashes, no banned phrases, 5.3% The-starters, correct CSS classes.",
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -17,22 +14,8 @@
       "legal": 8.7,
       "rigor": 8.5,
       "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-paper-tiger-recall-authority",
-    "headline": "NHTSA Ran 997 Recalls in 2025. It Ordered Exactly One. The Manufacturer Doesn't Exist.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-13T00:00:00Z",
-    "article_number": 244,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.8
-    }
+    },
+    "push_pending": true,
+    "push_note": "DNS outage at publish time — commit e275ce4 local, needs git push origin main"
   }
 }
