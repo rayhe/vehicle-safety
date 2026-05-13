@@ -1,9 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "electrical-recall-regime-shift",
-    "phase": "QA",
+    "headline": "47% of Q1 Recalls Were Electrical. The System Was Built for Brake Lines.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-13T04:30:00Z",
+    "published_at": "2026-05-13T06:30:00Z",
     "article_number": 246,
     "scores": {
       "general": 8.8,
@@ -14,31 +15,7 @@
       "rigor": 8.6,
       "data": 8.6
     },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 2.3,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": "PASS"
-    }
-  },
-  "last_completed": {
-    "slug": "speed-governor-isa-7600-lives",
-    "headline": "NYC Put Speed Governors on 700 Cars; Speeding Dropped 64%; Nobody Sells Them",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-13T02:30:00Z",
-    "article_number": 245,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.5,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.5,
-      "data": 8.6
-    },
     "push_pending": true,
-    "push_note": "DNS outage at publish time — commit e275ce4 local, needs git push origin main"
+    "push_note": "GitHub DNS still down — commits a8abf37 (#246) and earlier (#245) local, needs git push origin main when DNS resolves"
   }
 }
