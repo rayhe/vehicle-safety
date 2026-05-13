@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "electrical-recall-regime-shift",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-05-13T04:30:00Z",
+    "article_number": 246,
     "scores": {
       "general": 8.8,
       "voice": 8.5,
@@ -38,6 +39,6 @@
       "data": 8.6
     },
     "push_pending": true,
-    "push_note": "DNS outage at publish time \u2014 commit e275ce4 local, needs git push origin main"
+    "push_note": "DNS outage at publish time — commit e275ce4 local, needs git push origin main"
   }
 }
