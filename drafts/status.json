@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ncap-48-year-crumple-blind-spot",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-13T08:30:00Z",
+    "headline": "For 48 Years, NHTSA Rated Cars on How Well They Crumpled. One Car Finally Passed the Other Test.",
+    "ship_deferred": true,
+    "ship_deferred_reason": "5 articles already published today (1/day max). Ready to ship on next cycle after midnight UTC.",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.6,
+      "data": 8.6
+    },
+    "hard_gates": {
+      "em_dashes": 3,
+      "banned_phrases": 0,
+      "the_starters_pct": 12.5,
+      "css_class_ok": true,
+      "sentence_rhythm_passed": true
+    }
+  },
   "last_completed": {
     "slug": "electrical-recall-regime-shift",
     "headline": "47% of Q1 Recalls Were Electrical. The System Was Built for Brake Lines.",
