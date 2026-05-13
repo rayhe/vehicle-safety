@@ -6,6 +6,7 @@
     "journalist": "Mia Crumplezone",
     "round": 1,
     "started": "2026-05-12T20:35:00Z",
+    "notes": "All 7 critics passed ≥8.5 (round 1). Ready to ship as #245. Deferred: #244 (NHTSA paper tiger) shipped today 2026-05-13.",
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -17,19 +18,19 @@
     }
   },
   "last_completed": {
-    "slug": "gm-adas-86-percent-illusion",
-    "headline": "GM Says Its Safety Tech Prevents 86% of Crashes. The Math Saves 3%.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-12T18:30:00Z",
-    "article_number": 243,
+    "slug": "nhtsa-paper-tiger-recall-authority",
+    "headline": "NHTSA Ran 997 Recalls in 2025. It Ordered Exactly One. The Manufacturer Doesn't Exist.",
+    "journalist": "Clara Rollover",
+    "published_at": "2026-05-13T00:00:00Z",
+    "article_number": 244,
     "scores": {
       "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
       "social": 9.0,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.7
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.8
     }
   }
 }
