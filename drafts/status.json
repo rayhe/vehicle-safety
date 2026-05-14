@@ -1,10 +1,21 @@
 {
   "current": {
-    "slug": "speed-sells-speed-kills",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Rex Driverton",
-    "started": "2026-05-14T02:35:00Z"
+    "slug": "speed-ads-safety-silence",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Dale Impactor III",
+    "started": "2026-05-14T02:35:00Z",
+    "headline": "43% of Car Ads Sell Speed. 3% Mention Safety. 11,288 People Died.",
+    "article_number": 248,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 9.0,
+      "legal": 8.7,
+      "rigor": 8.5,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "ncap-48-year-crumple-blind-spot",
