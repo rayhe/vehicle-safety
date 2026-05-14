@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "bluecruise-no-data-recorder",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-05-14T04:35:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "speed-ads-safety-silence",
     "headline": "43% of Car Ads Sell Speed. 3% Mention Safety. 11,288 People Died.",

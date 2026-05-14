@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ford BlueCruise Killed 3 People and Recorded Zero Data Points &mdash; The Crash Report</title>
+  <meta name="description" content="The NTSB found Ford's hands-free driving system can't see stopped cars at highway speed. When it crashes, it records nothing. The regulatory gap that makes this legal covers 2.5 million vehicles.">
+  <meta property="og:title" content="Ford BlueCruise Killed 3 People and Recorded Zero Data Points">
+  <meta property="og:description" content="The NTSB found Ford's hands-free driving system can't see stopped cars at highway speed. When it crashes, it records nothing. The regulatory gap that makes this legal covers 2.5 million vehicles.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/bluecruise-no-data-recorder.jpg?v=e8d57d2a">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Ford BlueCruise Killed 3 People and Recorded Zero Data Points</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">May 14, 2026</div>
+
+      <img src="../images/bluecruise-no-data-recorder.jpg?v=e8d57d2a" alt="A dark highway at night with a Ford Mustang Mach-E's headlights illuminating a stopped vehicle ahead, dashboard screens glowing blue" style="width:100%;max-width:800px;margin:1.5rem 0;border-radius:8px;">
+
+      <p>On February 24, 2024, a Ford Mustang Mach-E running BlueCruise hands-free driving slammed into a stationary 1999 Honda CR-V on Interstate 10 in San Antonio. A 25-year-old Honda crumpled and its driver died on impact. Ford's driver walked away with minor injuries. Eight days later, on March 3, another BlueCruise-equipped Mach-E hit a stopped 2012 Hyundai Elantra and a 2006 Toyota Prius on I-95 in Philadelphia. Both drivers of the struck vehicles were killed.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Three people dead in nine days. The Ford drivers? Scratches.</p>
+
+      <div class="pull-stat">0</div>
+      <div class="pull-label">Crash data points recorded by BlueCruise in both fatal incidents</div>
+
+      <p>Zero. That is the amount of operational data BlueCruise recorded before, during, or after killing three people. No braking inputs, no steering commands, no sensor logs, no record of what the system saw or failed to see. NTSB's investigation, published March 31, 2026, confirmed that neither vehicle's BlueCruise system captured any crash-relevant data whatsoever.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>This is not a bug but a regulatory void. Federal law requires Event Data Recorders in all light vehicles sold since September 2014 under 49 CFR Part 563.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Those EDRs capture basic crash metrics: delta-V, seat belt status, airbag deployment timing. What they do not capture, because no federal rule requires it, is anything about the ADAS system that was actively controlling the vehicle when the crash happened. An EDR knows the car decelerated, but it has no idea that a Level 2 driving system was steering, accelerating, and failing to brake for a stopped vehicle at 80 miles per hour.</p>
+
+      <p>BlueCruise cannot detect stationary objects above 62 mph.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> That is a known, documented limitation. Ford sells this system on approximately 2.5 million vehicles, including the F-150, Explorer, Expedition, and Mustang Mach-E.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> NHTSA has upgraded its investigation to an Engineering Analysis covering the full population. Meanwhile, Ford allows drivers to set BlueCruise's adaptive cruise control 20 mph over the posted speed limit and, in a detail that should have killed this feature in legal review, permits drivers to disable Automatic Emergency Braking while BlueCruise is active.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Cross-reference the victims' vehicles with FARS fatal crash data from 2014 to 2023, and a pattern crystallizes. That 1999 Honda CR-V belongs to a generation that predates electronic stability control mandates, side-curtain airbags, and modern crash structures. Hyundai's Elantra shows 2,407 deaths across the FARS dataset with a fatality rate of 1.50 per 100 million vehicle miles traveled. The Toyota Prius logged 495 deaths at 0.55 per 100M VMT.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> These are small, light, common cars driven by ordinary people. Now look at the vehicles Ford equips with BlueCruise: the F-150 recorded 9,194 FARS deaths across 20,066 fatal crash involvements, a crash-to-death ratio of 2.18. Ford's Explorer logged 3,797 deaths in 6,626 involvements, ratio 1.74.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> In more than half of fatal F-150 crashes, the F-150 occupant survives and somebody else does not. BlueCruise failures export lethality downward, into smaller vehicles driven by people who never opted into Ford's experiment.</p>
+
+      <p>Ford's counterargument deserves its full weight: BlueCruise is a driver-assistance system, not autonomous driving, and the documentation explicitly requires the driver to remain attentive and ready to intervene. The NTSB found both Ford drivers were distracted, one confirmed using a cell phone. Ford's position is that the humans failed, not the technology. This argument has real merit. Its owner's manual states the limitations, and the drivers ignored them.</p>
+
+      <p>But that argument has a load-bearing flaw. If a system requires constant human supervision to be safe, records zero data when it fails, allows its primary safety backup to be switched off by the user, and is marketed under the word "cruise" in a culture where cruise control means "stop paying attention," then the system is architected for failure without accountability. NTSB recommended that NHTSA establish federal crash data recording standards for Level 2 systems, that Ford improve its driver monitoring to detect cell phone use, and that Ford remove the ability to disable AEB while BlueCruise is engaged.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Ford has not implemented any of these recommendations.</p>
+
+      <p>Nobody knows how many ADAS-related crashes are hiding in the FARS data. Without ADAS data logging, a BlueCruise failure at 75 mph looks identical in the federal dataset to a drowsy-driving rear-end collision. No system fingerprint remains, and the Mustang Mach-E is too new for comprehensive FARS analysis, but the F-150 and Explorer are not, and there is currently no mechanism to determine whether any of those 29,260 combined fatal crash involvements involved a Level 2 system doing the driving.</p>
+
+      <h3>What You Should Do</h3>
+
+      <p>If you own a Ford or Lincoln with BlueCruise: do not disable AEB. That option should not exist, but it does, and turning it off removes the last automated barrier between the system's blind spot and a stopped vehicle. Do not set adaptive cruise above the posted speed limit. Understand that the system literally cannot see a stopped car, truck, or motorcycle above 62 mph, which means highway driving with BlueCruise active requires you to be more attentive than driving without it, not less. Check whether your vehicle falls within the 2.5 million under NHTSA investigation at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>.</p>
+
+      <p>If you drive a smaller or older vehicle: you are the one absorbing the kinetic energy when these systems fail. A 1999 CR-V hit by a 4,800-pound Mach-E at highway speed is a physics problem with a predetermined answer, and no amount of defensive driving changes the mass ratio.</p>
+
+      <h3>Limitations</h3>
+
+      <p>FARS data covers 2014 through 2023 and predates most BlueCruise deployments, which began in 2021. We cannot directly attribute any FARS fatalities to BlueCruise operation. Mach-E production volume is too recent and too small for statistically robust FARS analysis. Crash-to-death ratios for the F-150 and Explorer reflect all causes of fatal crashes involving those vehicles, not ADAS-specific incidents. That 62 mph stationary-object limitation is shared by most radar-based ADAS systems, not just BlueCruise, though Ford's permissive speed and AEB-disable settings compound the risk uniquely.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NTSB, <em>Automation Overreliance Contributed to Two Fatal Ford BlueCruise Crashes</em>, Press Release NR20260331, March 31, 2026. <a href="https://www.ntsb.gov/news/press-releases/Pages/NR20260331.aspx" target="_blank" rel="noopener">ntsb.gov</a></li>
+          <li id="ref-2">NHTSA, <em>49 CFR Part 563: Event Data Recorders</em>, Final Rule, effective Sept. 1, 2014. <a href="https://www.nhtsa.gov/research-data/event-data-recorder" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Office of Defects Investigation, Engineering Analysis EA-24-001</em>, Ford/Lincoln Active Lane Control. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 for vehicle-level fatality data; NTSB investigation reports for BlueCruise crash specifics. FARS captures fatal crashes only; injury-only and property-damage ADAS failures are not represented. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
