@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-first-forced-recall-easy-target",
+    "headline": "NHTSA Used Its Recall Power for the First Time in 20 Years. The Target Couldn't Fight Back.",
+    "journalist": "Clara Rollover",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-05-14T16:30:00Z"
+  },
   "last_completed": {
     "slug": "bluecruise-no-data-recorder",
     "headline": "Ford BlueCruise Killed 3 People and Recorded Zero Data Points",
