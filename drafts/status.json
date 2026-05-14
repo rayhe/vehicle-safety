@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "bluecruise-no-data-recorder",
-    "phase": "QA",
+    "headline": "Ford BlueCruise Killed 3 People and Recorded Zero Data Points",
     "journalist": "Rex Driverton",
-    "started": "2026-05-14T04:35:00Z",
-    "published_at": "2026-05-14T14:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-14T14:31:00Z",
+    "article_number": 249,
     "scores": {
       "general": 8.7,
       "voice": 8.6,
@@ -15,15 +15,6 @@
       "rigor": 8.6,
       "data": 8.6
     },
-    "headline": "Ford BlueCruise Killed 3 People and Recorded Zero Data Points",
-    "article_number": 249
-  },
-  "last_completed": {
-    "slug": "speed-ads-safety-silence",
-    "headline": "43% of Car Ads Sell Speed. 3% Mention Safety. 11,288 People Died.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-05-14T03:15:00Z",
-    "article_number": 248,
     "push_pending": true,
     "push_note": "GitHub DNS still down — commits for #244-#249 all local, needs git push origin main when DNS resolves"
   }
