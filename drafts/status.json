@@ -1,13 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ncap-48-year-crumple-blind-spot",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Vin Wreckage",
-    "started": "2026-05-13T08:30:00Z",
     "headline": "For 48 Years, NHTSA Rated Cars on How Well They Crumpled. One Car Finally Passed the Other Test.",
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-05-14T00:32:00Z",
     "article_number": 247,
-    "published_at": "2026-05-14T00:30:00Z",
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -17,30 +15,7 @@
       "rigor": 8.6,
       "data": 8.6
     },
-    "hard_gates": {
-      "em_dashes": 3,
-      "banned_phrases": 0,
-      "the_starters_pct": 12.5,
-      "css_class_ok": true,
-      "sentence_rhythm_passed": true
-    }
-  },
-  "last_completed": {
-    "slug": "electrical-recall-regime-shift",
-    "headline": "47% of Q1 Recalls Were Electrical. The System Was Built for Brake Lines.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-13T06:30:00Z",
-    "article_number": 246,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.5,
-      "ethics": 8.8,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.6
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS still down as of 2026-05-13T14:30Z — commits for #244, #245, #246 local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down as of 2026-05-14T00:32Z — commits for #244-#247 local, needs git push origin main when DNS resolves"
   }
 }
