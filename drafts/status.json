@@ -3,9 +3,19 @@
     "slug": "nhtsa-first-forced-recall-easy-target",
     "headline": "NHTSA Used Its Recall Power for the First Time in 20 Years. The Target Couldn't Fight Back.",
     "journalist": "Clara Rollover",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-05-14T16:30:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-05-14T16:30:00Z",
+    "scores": {
+      "general": 8.7,
+      "voice": 8.6,
+      "ethics": 8.8,
+      "social": 8.8,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data": 8.5
+    },
+    "critique_notes": "All 7 critics ≥8.5. Hard gates: 0 em dashes, 0 banned phrases, 11.9% The-starters, correct CSS. Sentence rhythm PASS (variance 381.9, 12.5% short, 47.5% long). Ship deferred: Publish #249 already today."
   },
   "last_completed": {
     "slug": "bluecruise-no-data-recorder",
