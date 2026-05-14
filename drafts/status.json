@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "record-low-death-rate-illusion",
+    "headline": "36,640 Americans Died on the Road Last Year. NHTSA Called It a Record.",
+    "journalist": "Rex Driverton",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-05-14T02:35:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 8.8,
+      "social": 9.1,
+      "legal": 8.6,
+      "rigor": 8.5,
+      "data": 8.6
+    }
+  },
   "last_completed": {
     "slug": "ncap-48-year-crumple-blind-spot",
     "headline": "For 48 Years, NHTSA Rated Cars on How Well They Crumpled. One Car Finally Passed the Other Test.",
