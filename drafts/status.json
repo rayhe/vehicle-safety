@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "decade-of-nowhere-fatality-rate-illusion",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-05-15T04:32:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 8.9,
+      "voice": 9.1,
+      "ethics": 8.8,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.7,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "nhtsa-first-forced-recall-easy-target",
