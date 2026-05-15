@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "decade-of-nowhere-fatality-rate-illusion",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "started": "2026-05-15T04:32:00Z",
     "round": 1,
@@ -14,8 +14,8 @@
       "rigor": 8.7,
       "data": 8.5
     },
-    "ship_deferred": "2026-05-15T06:30:00Z",
-    "ship_reason": "1/day gate: Publish #250 already committed today (2026-05-15 02:32 UTC)"
+    "article_number": 251,
+    "published_at": "2026-05-15T12:30:00Z"
   },
   "last_completed": {
     "slug": "nhtsa-first-forced-recall-easy-target",
@@ -33,6 +33,6 @@
       "data": 8.5
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#250 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#251 all local, needs git push origin main when DNS resolves"
   }
 }
