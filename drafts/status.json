@@ -1,11 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-first-forced-recall-easy-target",
     "headline": "NHTSA Used Its Recall Power for the First Time in 20 Years. The Target Couldn't Fight Back.",
     "journalist": "Clara Rollover",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-05-14T16:30:00Z",
     "published_at": "2026-05-15T02:30:00Z",
     "article_number": 250,
     "scores": {
@@ -16,22 +14,6 @@
       "legal": 8.5,
       "rigor": 8.5,
       "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "bluecruise-no-data-recorder",
-    "headline": "Ford BlueCruise Killed 3 People and Recorded Zero Data Points",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-14T14:31:00Z",
-    "article_number": 249,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 8.8,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.6
     },
     "push_pending": true,
     "push_note": "GitHub DNS still down — commits for #244-#250 all local, needs git push origin main when DNS resolves"
