@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLR Recalled 170,000 Vehicles Because a Single Chip Failure Kills Power and Lights Simultaneously &mdash; The Crash Report</title>
+  <meta name="description" content="A DC-DC converter defect in Jaguar Land Rover's 48V mild hybrid system creates a sudden dual cascade: total loss of propulsion and exterior lighting. No fix exists yet. And every automaker is adopting the same architecture.">
+  <meta property="og:title" content="JLR Recalled 170,000 Vehicles Because a Single Chip Failure Kills Power and Lights Simultaneously">
+  <meta property="og:description" content="A DC-DC converter defect in Jaguar Land Rover's 48V mild hybrid system creates a sudden dual cascade: total loss of propulsion and exterior lighting. No fix exists yet.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/jlr-48v-dark-ghost-recall.jpg?v=d64ee2b0">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>JLR Recalled 170,000 Vehicles Because a Single Chip Failure Kills Power and Lights Simultaneously</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">May 16, 2026</div>
+
+      <img src="../images/jlr-48v-dark-ghost-recall.jpg?v=d64ee2b0" alt="A dark highway at night with the silhouette of a Range Rover stopped in a travel lane, no lights on, barely visible against oncoming headlights" width="1200" height="675" loading="eager">
+
+      <p>Your grandfather's alternator died politely. Dashboard dimmed, radio cut out, headlights went amber then faint, and you had three or four miles of steadily degrading electrical capacity to find a shoulder before anything truly dangerous happened. That graceful degradation no longer applies. Jaguar Land Rover just recalled <strong>170,169 vehicles across nine model lines</strong> because their 48-volt mild hybrid DC-DC converter can fail without warning, simultaneously killing drive power and every exterior light on the vehicle.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">170,169</div>
+      <div class="pull-label">JLR vehicles recalled for sudden dual loss of propulsion and lighting</div>
+
+      <p>NHTSA recall 26V248 covers 2019 through 2024 model years of the Jaguar E-Pace and F-Pace, the Land Rover Defender, Discovery, Discovery Sport, Range Rover, Range Rover Evoque, Range Rover Sport, and Range Rover Velar. The defect sits in the DC-DC converter, a power electronics module roughly the size of a hardcover novel that bridges the 48-volt and 12-volt electrical buses. When it fails, the 48V system can no longer charge the 12V battery, engine management collapses, and exterior lighting dies with it, not gradually, not with a warning cascade, but all at once.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Six thousand field complaints preceded this recall.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Six thousand drivers experienced some version of an electrical system going dark on them, and the immediate advice is: know your VIN, check nhtsa.gov/recalls, and understand that nobody can repair this yet.</p>
+
+      <p>What makes this worth your attention beyond the usual recall roundup is the failure mode itself. In a conventional internal combustion vehicle, alternator death is a single-mode degradation where the battery drains over minutes and you lose accessories before you lose propulsion. There is a hierarchy of systems shedding load, and the driver sits at the top of the information chain the entire time. A 48V mild hybrid DC-DC converter failure inverts that hierarchy. It is a single point of failure producing a dual cascade: the car stops moving and stops being visible in the same instant. On a dark freeway at 70 mph, you become an unlit obstacle.</p>
+
+      <p>That architectural vulnerability is not unique to JLR. By 2028, global 48V mild hybrid sales are projected to reach 17.3 million units annually.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Roughly 55 percent of new European cars already carry 48V systems.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> BMW, Mercedes-Benz, Audi, Stellantis, Hyundai-Kia, Ford, and Mazda have all committed to the platform. Every single one of them relies on a DC-DC converter to bridge the 48V and 12V buses. Whether JLR's specific failure is a supply-chain defect or a design-level vulnerability matters less than the structural fact: every 48V mild hybrid on the road carries this potential failure mode in its architecture.</p>
+
+      <p>What gets stranger is that NHTSA is simultaneously running an engineering analysis, EA25-004, on the same Range Rover and Range Rover Sport model years for aluminum steering knuckle fractures caused by road salt corrosion. That probe covers 331,559 vehicles with 522 reported failures.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Overlap between the two populations is substantial. If you own a 2019 through 2022 Range Rover Sport, your vehicle is subject to both an unresolved electrical system recall and an active federal crash-safety investigation into structural steering components.</p>
+
+      <p>FARS data adds one more uncomfortable layer to this recall. The Range Rover Sport records 26 deaths across 95 fatal crashes in the FARS database, producing a lethality ratio of 27.4 percent, among the lowest of any vehicle in the dataset.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> This is a vehicle that protects its occupants extraordinarily well once a crash begins. Reinforced B-pillars, multiple curtain airbag stages, a 2,500-kilogram curb weight that wins the physics of momentum transfer. All of that engineering counts for nothing when the vehicle's own electrical system turns it into an unlit roadblock. The crash that the Range Rover is designed to survive is the crash its defective converter is designed to cause.</p>
+
+      <h2>Limitations</h2>
+      <p>FARS does not track failure-mode causation. We cannot directly quantify how many fatal crashes resulted from sudden power loss events. The 48V industry adoption figures are market projections, not verified on-road fleet counts. "No accidents or injuries reported" in the recall notice may reflect underreporting; NHTSA complaint databases rely on voluntary submissions. The 6,000-complaint figure across 170,169 vehicles represents a roughly 3.5 percent failure rate, and the majority of DC-DC converters in the field are functioning normally.</p>
+
+      <h2>The Counterargument</h2>
+      <p>JLR's 48V system adds measurable benefits: mild hybrid torque fill improves low-speed responsiveness, start-stop systems reduce urban fuel consumption, and the 48V bus powers active suspension and advanced driver-assist systems that prevent crashes in the first place. The DC-DC converter failure rate of 3.5 percent is not catastrophic, and zero injuries have been confirmed. Other manufacturers using 48V architecture have not reported this specific failure, which suggests a JLR-specific supply chain or integration issue rather than an inherent flaw in the technology.</p>
+
+      <p>That is a reasonable defense, and it misses the point. The issue is not whether 48V architecture is net-positive for safety, because it probably is on balance. The issue is that a single component failure can simultaneously eliminate two independent safety-critical functions, propulsion and visibility, that in legacy architectures degrade on separate timelines. JLR may have a supplier problem, but the entire industry has an architecture problem. Redundant 12V power paths, independent lighting circuits with dedicated battery reserves, graceful degradation protocols that preserve exterior lighting even when the drivetrain shuts down: none of these are exotic engineering. All of them should be standard before 17.3 million more 48V vehicles enter service.</p>
+
+      <h2>What You Should Do</h2>
+      <p>If you own a 2019 through 2024 Jaguar E-Pace, F-Pace, Defender, Discovery, Discovery Sport, Range Rover, Range Rover Evoque, Range Rover Sport, or Range Rover Velar with a 48V mild hybrid powertrain: check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> immediately. Understand that no repair is available yet. If your dashboard warning cluster illuminates and you feel a sudden loss of power, activate your hazard lights (they may still function on residual 12V charge), brake firmly, and move to the shoulder. Do not assume your exterior lighting is on. If you are shopping for a used JLR from this era, check for both the DC-DC converter recall and the steering knuckle investigation before signing anything.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, Recall 26V248, <em>DC-DC Converter Failure in 48V Mild Hybrid System</em>, April 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">Wards Auto, <em>Global 48V Mild Hybrid Sales Forecast</em>, 2025. <a href="https://www.wardsauto.com/" target="_blank" rel="noopener">wardsauto.com</a></li>
+          <li id="ref-3">Green Car Reports, <em>48V Mild Hybrid European Adoption</em>, 2025. <a href="https://www.greencarreports.com/" target="_blank" rel="noopener">greencarreports.com</a></li>
+          <li id="ref-4">NHTSA, Engineering Analysis EA25-004, <em>Range Rover/Range Rover Sport Steering Knuckle Investigation</em>. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Recall 26V248; NHTSA EA25-004; FARS 2014&ndash;2023; Wards Auto 48V market projections. Lethality ratio is deaths per fatal-crash involvement, not deaths per fleet vehicle. DC-DC converter failure rate estimated from complaint count vs. recall population. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "jlr-48v-dark-ghost-recall",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-15T14:35:00Z",
     "round": 1,
@@ -14,12 +14,6 @@
       "rigor": 8.9,
       "data": 8.8
     },
-    "rhythm": {
-      "variance": 312.3,
-      "short_pct": 10.4,
-      "long_pct": 45.8,
-      "passed": true
-    },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
@@ -28,7 +22,8 @@
       "stylesheet": "style.css",
       "hero_jpeg_verified": true
     },
-    "phase_note": "SHIP deferred: 1/day gate \u2014 #250 and #251 already published today UTC"
+    "published_at": "2026-05-16T00:52:00Z",
+    "article_number": 252
   },
   "last_completed": {
     "slug": "decade-of-nowhere-fatality-rate-illusion",
@@ -36,16 +31,7 @@
     "journalist": "Vin Wreckage",
     "published_at": "2026-05-15T12:30:00Z",
     "article_number": 251,
-    "scores": {
-      "general": 8.9,
-      "voice": 9.1,
-      "ethics": 8.8,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.7,
-      "data": 8.5
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS still down \u2014 commits for #244-#251 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#252 all local, needs git push origin main when DNS resolves"
   }
 }
