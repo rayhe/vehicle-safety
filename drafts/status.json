@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "speed-sells-12000-dead",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "started": "2026-05-16T03:17:00Z",
-    "round": 1
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.1,
+      "social": 9.2,
+      "legal": 8.9,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "jlr-48v-dark-ghost-recall",
