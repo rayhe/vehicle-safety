@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "jlr-48v-dark-ghost-recall",
-    "phase": "QA",
+    "headline": "JLR Recalled 170,000 Vehicles Because a Single Chip Failure Kills Power and Lights Simultaneously",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-15T14:35:00Z",
-    "round": 1,
+    "published_at": "2026-05-16T00:52:00Z",
+    "article_number": 252,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -14,23 +15,6 @@
       "rigor": 8.9,
       "data": 8.8
     },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 13.9,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "hero_jpeg_verified": true
-    },
-    "published_at": "2026-05-16T00:52:00Z",
-    "article_number": 252
-  },
-  "last_completed": {
-    "slug": "decade-of-nowhere-fatality-rate-illusion",
-    "headline": "America's Traffic Death Rate Just Hit a Record Low. It's the Same Number From 2014.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-15T12:30:00Z",
-    "article_number": 251,
     "push_pending": true,
     "push_note": "GitHub DNS still down — commits for #244-#252 all local, needs git push origin main when DNS resolves"
   }
