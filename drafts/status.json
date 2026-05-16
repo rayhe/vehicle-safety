@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "speed-sells-12000-dead",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-16T03:17:00Z",
+    "round": 1
+  },
   "last_completed": {
     "slug": "jlr-48v-dark-ghost-recall",
     "headline": "JLR Recalled 170,000 Vehicles Because a Single Chip Failure Kills Power and Lights Simultaneously",
