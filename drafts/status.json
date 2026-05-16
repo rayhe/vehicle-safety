@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "speed-sells-12000-dead",
-    "phase": "QA",
+    "headline": "For Every Dollar NHTSA Spends Saying 'Slow Down,' Carmakers Spend $540 Saying 'Go Fast'",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-16T03:17:00Z",
-    "round": 1,
+    "published_at": "2026-05-16T04:30:00Z",
+    "article_number": 253,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,24 +14,8 @@
       "legal": 8.9,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "jlr-48v-dark-ghost-recall",
-    "headline": "JLR Recalled 170,000 Vehicles Because a Single Chip Failure Kills Power and Lights Simultaneously",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-16T00:52:00Z",
-    "article_number": 252,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.8
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#252 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#253 all local, needs git push origin main when DNS resolves"
   }
 }
