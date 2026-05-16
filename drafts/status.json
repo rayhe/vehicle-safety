@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "rear-seat-alarm-rounding-error",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Axle McScatter",
     "started": "2026-05-16T14:30:00Z",
+    "article_number": 254,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,8 +14,7 @@
       "legal": 8.8,
       "rigor": 9.0,
       "data": 9.0
-    },
-    "ship_blocked": "1/day limit — 2 articles already published today (#252, #253)"
+    }
   },
   "last_completed": {
     "slug": "speed-sells-12000-dead",
@@ -32,6 +32,6 @@
       "data": 8.8
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#253 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#254 all local, needs git push origin main when DNS resolves"
   }
 }
