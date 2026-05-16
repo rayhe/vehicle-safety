@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "rear-seat-alarm-rounding-error",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Axle McScatter",
+    "started": "2026-05-16T14:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.1,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 9.0
+    },
+    "ship_blocked": "1/day limit — 2 articles already published today (#252, #253)"
+  },
   "last_completed": {
     "slug": "speed-sells-12000-dead",
     "headline": "For Every Dollar NHTSA Spends Saying 'Slow Down,' Carmakers Spend $540 Saying 'Go Fast'",
