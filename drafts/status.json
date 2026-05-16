@@ -1,10 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "rear-seat-alarm-rounding-error",
-    "phase": "QA",
-    "round": 1,
+    "headline": "NHTSA's Newest Mandate Will Save 50 Lives a Year. That's a Rounding Error.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-16T14:30:00Z",
+    "published_at": "2026-05-16T18:30:00Z",
     "article_number": 254,
     "scores": {
       "general": 9.0,
@@ -14,22 +14,6 @@
       "legal": 8.8,
       "rigor": 9.0,
       "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "speed-sells-12000-dead",
-    "headline": "For Every Dollar NHTSA Spends Saying 'Slow Down,' Carmakers Spend $540 Saying 'Go Fast'",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-16T04:30:00Z",
-    "article_number": 253,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.1,
-      "social": 9.2,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.8
     },
     "push_pending": true,
     "push_note": "GitHub DNS still down — commits for #244-#254 all local, needs git push origin main when DNS resolves"
