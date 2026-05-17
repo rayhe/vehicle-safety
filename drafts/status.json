@@ -1,10 +1,21 @@
 {
   "current": {
     "slug": "robot-crash-double-standard",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "started": "2026-05-17T14:32:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.7,
+      "rigor": 8.7,
+      "data": 8.8
+    },
+    "critique_note": "Round 1: Fixed SGO 30-second misattribution (actual: 1-day/10-day reporting), clarified ADAS vs L4 AV fatality conflation, added limitations paragraph. All 7 critics 8.5+ after revision.",
+    "ship_blocked": "1/day limit — #255 already published 2026-05-17"
   },
   "last_completed": {
     "slug": "challenger-horsepower-body-count",
