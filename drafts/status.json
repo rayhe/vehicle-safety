@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "challenger-horsepower-body-count",
+    "headline": "Every Other Muscle Car Got Safer. Dodge Chose Horsepower.",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Rex Driverton",
+    "started": "2026-05-16T20:30:00Z",
+    "article_number": 255,
+    "scores": {
+      "general": 9.1,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.3,
+      "legal": 8.9,
+      "rigor": 8.8,
+      "data": 9.0
+    }
+  },
   "last_completed": {
     "slug": "rear-seat-alarm-rounding-error",
     "headline": "NHTSA's Newest Mandate Will Save 50 Lives a Year. That's a Rounding Error.",
