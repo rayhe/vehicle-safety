@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "cyclist-aeb-exclusion",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-18T12:30:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.2,
+      "social": 8.9,
+      "legal": 8.7,
+      "rigor": 8.8,
+      "data": 8.7
+    },
+    "ship_blocked": "1/day limit — 3 articles already published 2026-05-18 (#256, #257, #258)"
   },
   "last_completed": {
     "slug": "recall-tsunami-safety-floor",
