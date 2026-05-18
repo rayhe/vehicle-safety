@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "robot-crash-double-standard",
-    "phase": "QA",
+    "headline": "16 Robot Crashes Got a Federal Investigation. 13,000 Human Deaths Got a Press Release.",
     "journalist": "Clara Rollover",
-    "started": "2026-05-17T14:32:00Z",
-    "round": 1,
+    "published_at": "2026-05-18T00:30:00Z",
+    "article_number": 256,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -13,24 +14,6 @@
       "legal": 8.7,
       "rigor": 8.7,
       "data": 8.8
-    },
-    "article_number": 256,
-    "published_at": "2026-05-18T00:30:00Z"
-  },
-  "last_completed": {
-    "slug": "challenger-horsepower-body-count",
-    "headline": "Every Other Muscle Car Got Safer. Dodge Chose Horsepower.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-17T11:12:00Z",
-    "article_number": 255,
-    "scores": {
-      "general": 9.1,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.3,
-      "legal": 8.9,
-      "rigor": 8.8,
-      "data": 9.0
     },
     "push_pending": true,
     "push_note": "GitHub DNS still down — commits for #244-#256 all local, needs git push origin main when DNS resolves"
