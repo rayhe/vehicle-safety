@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "cyclist-aeb-exclusion",
+    "phase": "CRITIQUE",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-05-18T12:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "recall-tsunami-safety-floor",
     "headline": "12 Million Recalls. Fewer Deaths. The Safety Floor Nobody Talks About.",
