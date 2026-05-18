@@ -1,21 +1,21 @@
 {
   "current": null,
   "last_completed": {
-    "slug": "backup-camera-7-million-broken",
-    "headline": "Congress Spent 12 Years Mandating Backup Cameras. 7 Million of Them Don't Work.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-18T04:30:00Z",
-    "article_number": 257,
+    "slug": "recall-tsunami-safety-floor",
+    "headline": "12 Million Recalls. Fewer Deaths. The Safety Floor Nobody Talks About.",
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-05-18T08:30:00Z",
+    "article_number": 258,
     "scores": {
       "general": 9.0,
-      "voice": 8.5,
+      "voice": 8.7,
       "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.7,
-      "data": 8.8
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 8.8,
+      "data": 8.7
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#257 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#258 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
