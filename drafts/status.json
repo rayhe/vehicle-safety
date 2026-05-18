@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "robot-crash-double-standard",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-05-17T14:32:00Z",
     "round": 1,
@@ -14,8 +14,8 @@
       "rigor": 8.7,
       "data": 8.8
     },
-    "critique_note": "Round 1: Fixed SGO 30-second misattribution (actual: 1-day/10-day reporting), clarified ADAS vs L4 AV fatality conflation, added limitations paragraph. All 7 critics 8.5+ after revision.",
-    "ship_blocked": "1/day limit — #255 already published 2026-05-17"
+    "article_number": 256,
+    "published_at": "2026-05-18T00:30:00Z"
   },
   "last_completed": {
     "slug": "challenger-horsepower-body-count",
@@ -33,6 +33,6 @@
       "data": 9.0
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#255 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#256 all local, needs git push origin main when DNS resolves"
   }
 }
