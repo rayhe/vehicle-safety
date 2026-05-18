@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "backup-camera-7-million-broken",
-    "phase": "QA",
+    "headline": "Congress Spent 12 Years Mandating Backup Cameras. 7 Million of Them Don't Work.",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-18T00:35:00Z",
-    "round": 1,
+    "published_at": "2026-05-18T04:30:00Z",
+    "article_number": 257,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -14,25 +15,7 @@
       "rigor": 8.7,
       "data": 8.8
     },
-    "article_number": 257,
-    "hero_image": "images/backup-camera-7-million-broken.jpg"
-  },
-  "last_completed": {
-    "slug": "robot-crash-double-standard",
-    "headline": "16 Robot Crashes Got a Federal Investigation. 13,000 Human Deaths Got a Press Release.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-18T00:30:00Z",
-    "article_number": 256,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.7,
-      "data": 8.8
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#257 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#257 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
