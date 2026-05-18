@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "backup-camera-7-million-broken",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-05-18T00:35:00Z",
     "round": 1,
@@ -14,9 +14,8 @@
       "rigor": 8.7,
       "data": 8.8
     },
-    "critique_note": "Round 0: Rigor 8.4 — 'no other mandated safety system' claim ignored Takata (67M vehicles). Round 1: Added Takata distinction, tightened recall completion sourcing. All 7 critics 8.5+ after revision.",
-    "hero_image": "drafts/backup-camera-7-million-broken-hero.jpg",
-    "ship_blocked": "1/day limit — #256 already published 2026-05-18. Hero image generated. Ready to ship next UTC day."
+    "article_number": 257,
+    "hero_image": "images/backup-camera-7-million-broken.jpg"
   },
   "last_completed": {
     "slug": "robot-crash-double-standard",
@@ -34,6 +33,6 @@
       "data": 8.8
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#256 all local, needs git push origin main when DNS resolves"
+    "push_note": "GitHub DNS still down — commits for #244-#257 all local, needs git push origin main when DNS resolves"
   }
 }
