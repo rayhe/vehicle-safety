@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fentanyl-dui-trajectory",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-05-19T12:26:00Z",
+    "round": 0,
+    "headline": "Fentanyl Went from 1 in 4 DUI Labs to 9 in 10 in Eight Years. There Is No Roadside Test."
+  },
   "last_completed": {
     "slug": "nhtsa-phantom-recall-dtn-airbags",
     "headline": "NHTSA Used Its Nuclear Option for the First Time in 20 Years. It Can't Find a Single Car to Fix.",
