@@ -1,11 +1,28 @@
 {
   "current": {
     "slug": "fentanyl-dui-trajectory",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "started": "2026-05-19T12:26:00Z",
-    "round": 0,
-    "headline": "Fentanyl Went from 1 in 4 DUI Labs to 9 in 10 in Eight Years. There Is No Roadside Test."
+    "round": 1,
+    "headline": "Fentanyl Went from 1 in 4 DUI Labs to 9 in 10 in Eight Years. There Is No Roadside Test.",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.1,
+      "ethics": 8.9,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.9
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 9.3,
+      "sentence_rhythm": "PASS (variance=307.9, short=14.8%, long=40.7%)",
+      "css_classes": "PASS",
+      "stylesheet": "style.css"
+    }
   },
   "last_completed": {
     "slug": "nhtsa-phantom-recall-dtn-airbags",
