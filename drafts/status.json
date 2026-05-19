@@ -1,21 +1,21 @@
 {
   "current": null,
   "last_completed": {
-    "slug": "headlight-glare-perception-gap",
-    "headline": "60% of Drivers Fear Headlight Glare. It Shows Up in 0.1% of Crash Reports.",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-19T06:30:00Z",
-    "article_number": 260,
+    "slug": "nhtsa-phantom-recall-dtn-airbags",
+    "headline": "NHTSA Used Its Nuclear Option for the First Time in 20 Years. It Can't Find a Single Car to Fix.",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-05-19T10:28:00Z",
+    "article_number": 261,
     "scores": {
       "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.1,
-      "social": 9.2,
-      "legal": 8.6,
-      "rigor": 8.8,
-      "data": 8.8
+      "voice": 9.0,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 8.9,
+      "data": 8.7
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#260 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#261 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
