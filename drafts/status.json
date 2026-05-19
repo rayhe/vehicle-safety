@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "cyclist-aeb-exclusion",
-    "phase": "QA",
+    "headline": "Your Car's AEB Sees Pedestrians. Cyclists Are Invisible.",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-18T12:30:00Z",
     "published_at": "2026-05-19T00:30:00Z",
     "article_number": 259,
-    "round": 0,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,24 +14,8 @@
       "legal": 8.7,
       "rigor": 8.8,
       "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "recall-tsunami-safety-floor",
-    "headline": "12 Million Recalls. Fewer Deaths. The Safety Floor Nobody Talks About.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-18T08:30:00Z",
-    "article_number": 258,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 8.8,
-      "data": 8.7
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#258 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#259 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
