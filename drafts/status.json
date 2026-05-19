@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "headlight-glare-perception-gap",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-05-19T02:30:00Z",
+    "headline_wip": "60% of Drivers Fear Headlight Glare. It Shows Up in 0.1% of Crash Reports.",
+    "round": 0
+  },
   "last_completed": {
     "slug": "cyclist-aeb-exclusion",
     "headline": "Your Car's AEB Sees Pedestrians. Cyclists Are Invisible.",
