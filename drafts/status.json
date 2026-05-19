@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "headlight-glare-perception-gap",
-    "phase": "SHIP",
+    "headline": "60% of Drivers Fear Headlight Glare. It Shows Up in 0.1% of Crash Reports.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-19T02:30:00Z",
-    "headline_wip": "60% of Drivers Fear Headlight Glare. It Shows Up in 0.1% of Crash Reports.",
-    "round": 0,
+    "published_at": "2026-05-19T06:30:00Z",
+    "article_number": 260,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -14,24 +14,8 @@
       "legal": 8.6,
       "rigor": 8.8,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "cyclist-aeb-exclusion",
-    "headline": "Your Car's AEB Sees Pedestrians. Cyclists Are Invisible.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-19T00:30:00Z",
-    "article_number": 259,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 8.9,
-      "legal": 8.7,
-      "rigor": 8.8,
-      "data": 8.7
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#259 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#260 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
