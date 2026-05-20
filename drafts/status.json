@@ -1,11 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "fentanyl-dui-trajectory",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-05-19T12:26:00Z",
-    "round": 1,
     "headline": "Fentanyl Went from 1 in 4 DUI Labs to 9 in 10 in Eight Years. There Is No Roadside Test.",
+    "journalist": "Dale Impactor III",
+    "published_at": "2026-05-20T06:30:00Z",
     "article_number": 262,
     "scores": {
       "general": 9.0,
@@ -16,31 +15,7 @@
       "rigor": 9.0,
       "data": 8.9
     },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 9.3,
-      "sentence_rhythm": "PASS (variance=307.9, short=14.8%, long=40.7%)",
-      "css_classes": "PASS",
-      "stylesheet": "style.css"
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-phantom-recall-dtn-airbags",
-    "headline": "NHTSA Used Its Nuclear Option for the First Time in 20 Years. It Can't Find a Single Car to Fix.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-19T10:28:00Z",
-    "article_number": 261,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.7
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#261 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#262 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
