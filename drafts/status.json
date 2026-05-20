@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "teen-oldest-car-fatality-premium",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-05-20T06:35:00Z",
     "headline": "The Safest Car in Your Driveway Isn't the One Your Teen Is Driving.",
-    "critique_round": 1,
+    "journalist": "Clara Rollover",
+    "published_at": "2026-05-20T17:25:00Z",
+    "article_number": 263,
     "scores": {
       "general": 9.0,
       "voice": 9.1,
@@ -15,34 +15,7 @@
       "rigor": 9.0,
       "data": 8.9
     },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 4.3,
-      "css_valid": true,
-      "rhythm_variance": 279.2,
-      "rhythm_short_pct": 11.4,
-      "rhythm_long_pct": 51.4,
-      "rhythm_pass": true
-    },
-    "ship_blocked": "1/day limit — #262 already published 2026-05-20. Queue for 2026-05-21."
-  },
-  "last_completed": {
-    "slug": "fentanyl-dui-trajectory",
-    "headline": "Fentanyl Went from 1 in 4 DUI Labs to 9 in 10 in Eight Years. There Is No Roadside Test.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-05-20T06:30:00Z",
-    "article_number": 262,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.1,
-      "ethics": 8.9,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.9
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#262 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#263 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
