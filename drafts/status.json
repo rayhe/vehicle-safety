@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ridgeline-iihs-paradox",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-20T18:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "teen-oldest-car-fatality-premium",
     "headline": "The Safest Car in Your Driveway Isn't the One Your Teen Is Driving.",
