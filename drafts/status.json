@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "fentanyl-dui-trajectory",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Dale Impactor III",
     "started": "2026-05-19T12:26:00Z",
     "round": 1,
     "headline": "Fentanyl Went from 1 in 4 DUI Labs to 9 in 10 in Eight Years. There Is No Roadside Test.",
+    "article_number": 262,
     "scores": {
       "general": 9.0,
       "voice": 9.1,
@@ -22,8 +23,7 @@
       "sentence_rhythm": "PASS (variance=307.9, short=14.8%, long=40.7%)",
       "css_classes": "PASS",
       "stylesheet": "style.css"
-    },
-    "ship_blocked": "1/day limit \u2014 #261 published 2026-05-19T08:35Z, next eligible 2026-05-20"
+    }
   },
   "last_completed": {
     "slug": "nhtsa-phantom-recall-dtn-airbags",
@@ -41,6 +41,6 @@
       "data": 8.7
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down \u2014 commits for #244-#261 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#261 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
