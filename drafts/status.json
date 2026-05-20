@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "ridgeline-iihs-paradox",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-05-20T18:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.2,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "ship_note": "1/day limit — #263 already published today. Ready to ship next cycle."
   },
   "last_completed": {
     "slug": "teen-oldest-car-fatality-premium",
