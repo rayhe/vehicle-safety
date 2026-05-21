@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did. &mdash; The Crash Report</title>
+  <meta name="description" content="Columbia University analyzed 138,505 dead drivers and found the post-2018 'drugged driving surge' is largely a measurement artifact. FARS expanded its drug fields and the numbers jumped 42%. Alcohol, counted correctly all along, barely moved.">
+  <meta property="og:title" content="FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did.">
+  <meta property="og:description" content="138,505 fatally injured drivers. A 42% jump in drug detection. The drugs didn't change. The database did.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="The Crash Report">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/fars-drug-detection-measurement-artifact.html">
+  <meta property="og:image" content="https://vehicle-safety.org/images/fars-drug-detection-measurement-artifact.jpg?v=6aff402d">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did.">
+  <meta name="twitter:description" content="The post-2018 drugged driving surge is largely a measurement artifact from a FARS database change.">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/fars-drug-detection-measurement-artifact.jpg?v=6aff402d">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/fars-drug-detection-measurement-artifact.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Sobriety Report</div>
+      <h1>FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did.</h1>
+      <div class="byline">Dale Impactor III &bull; Clautomotive Desk</div>
+      <div class="dateline">May 21, 2026</div>
+
+      <div class="story-body">
+
+      <p>Sometime in 2018, a database administrator at NHTSA removed a cap. Before that year, FARS could record a maximum of three non-alcohol drugs per fatally injured driver. Meth, fentanyl, THC, and a benzodiazepine in the same blood sample? Pick three. FARS threw the fourth away, and nobody announced the change at a press conference. Nobody issued a correction to the decade of data collected under the old constraint. They just expanded the fields and kept going.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">42%</div>
+      <div class="pull-label">Increase in odds of detecting nonalcohol drugs after FARS expanded its drug fields in 2018 (Columbia University, n=138,505)</div>
+
+      <p>Researchers at Columbia University's Mailman School of Public Health noticed. Stanford Chihuri and Guohua Li pulled toxicology records for 138,505 fatally injured drivers spanning 2013 through 2022, split the dataset at the 2018 boundary, and adjusted for every confounder they could measure: age, sex, crash type, time of day, state-level testing policies.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Their finding, published in <em>Accident Analysis &amp; Prevention</em> this year, is the kind of result that should make anyone who has cited post-2018 drugged driving statistics profoundly uncomfortable.</p>
+
+      <p><strong>The adjusted odds of detecting any nonalcohol drug in a dead driver rose 42% after the database change.</strong> Not 42% more drugs on the road — forty-two percent more drugs in the spreadsheet.</p>
+
+      <p>Walk through the numbers and the pattern becomes unmistakable. Marijuana prevalence among fatally injured drivers jumped from 14.4% to 26.4% across the 2018 boundary, nearly doubling. Stimulants went from 9.3% to 25.1%, close to tripled. Detection of three or more drugs in a single driver surged from 2.0% to 5.8%, a 201% increase in adjusted odds.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Every drug category subject to the old three-drug ceiling showed a statistically significant spike, without a single exception.</p>
+
+      <p>Alcohol stayed at 37%, and that one flat line tells the entire story. Alcohol was never subject to the three-drug cap because FARS tracked it in a separate field with its own blood alcohol concentration variable. Alcohol measurement didn't change in 2018, and alcohol prevalence didn't change either, moving from 37.1% to 37.9% across the same five-year boundary.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> If a real pharmacological shift had driven the nonalcohol drug increases, you would expect to see some movement in the substance that has always been measured consistently and has the strongest epidemiological baseline. You don't, because the control variable is flat while every experimental variable jumped in lockstep with a data-collection change that expanded what could be recorded.</p>
+
+      <h2>The Drugs That Don't Exist on the Test</h2>
+
+      <p>If the FARS enhancement overstates the problem in one direction, a parallel study from the University of California reveals how the system understates it in another. Researchers at UC San Francisco, UC Davis, and Harbor-UCLA Medical Center screened 1,000 serum samples from California roadway crash victims in 2024 using advanced liquid chromatography-mass spectrometry, the kind of instrumentation that most county medical examiners do not have and most state toxicology labs cannot afford to run at scale.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>They found eight novel psychoactive substances that no standard forensic panel tests for. Bromazolam, a designer benzodiazepine synthesized in clandestine labs. Para-fluorofentanyl, a fentanyl analogue potent enough to kill at microgram doses. Protonitazene, a synthetic opioid 20 times more potent than fentanyl that first appeared in U.S. seizure data around 2019. Xylazine, a veterinary tranquilizer now endemic in the Eastern seaboard drug supply. Mitragynine, the primary alkaloid in kratom, which remains legal and unscheduled federally.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Sixteen of 17 NPS-positive cases tested negative for ethanol, making them sober by every roadside metric available and legally impaired by nothing that any officer, breathalyzer, or standard blood panel would detect.</p>
+
+      <p>So FARS overcounts the drugs it can see (by removing a recording cap without adjusting the historical baseline) and undercounts the drugs it cannot see (because forensic panels haven't kept pace with the synthetic drug supply). Both errors run in the same direction: they make the real pharmacological landscape of fatal crashes unknowable from the public data alone.</p>
+
+      <h2>The Counterargument, at Full Strength</h2>
+
+      <p>The strongest objection to calling this a pure measurement artifact: actual drug use probably did increase between 2013 and 2022. Marijuana legalization expanded to 24 states during that window. Methamphetamine seizures at the southern border roughly tripled, and fentanyl infiltrated the opioid supply chain with devastating speed. AAA Foundation research found THC-positive fatal crash drivers in Washington state doubled from 8.8% pre-legalization to 18% five years after recreational sales began, using a consistent testing methodology that wasn't subject to the FARS recording cap.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Some of the increase is real, but how much remains unknowable, because Chihuri and Li's analysis cannot fully disentangle measurement artifact from genuine prevalence change when both happened simultaneously.</p>
+
+      <h2>Limitations</h2>
+
+      <p>FARS captures only fatal crashes, roughly 40,000 deaths annually out of approximately 6.7 million total U.S. crashes. Drug prevalence in non-fatal crashes is unmeasured at the federal level. State-level toxicology testing protocols vary enormously and changed independently of the FARS enhancement, introducing confounding that even adjusted models cannot fully control. Chihuri and Li's adjusted odds ratio of 1.42 is a population-level estimate; it does not mean every individual state saw exactly a 42% artifact. Gerona's NPS study used a convenience sample of 1,000 crash victims from a single state, and generalizability to the national population is uncertain. Presence of a drug in postmortem toxicology does not establish impairment at the time of the crash.</p>
+
+      <h2>What You Should Actually Do</h2>
+
+      <p>If you encounter a statistic claiming drugged driving "doubled" or "tripled" after 2018, check whether the source is comparing pre- and post-enhancement FARS data. If it is, the baseline is inflated by at least 42% on average, and the apparent spike in polysubstance detection is inflated by 201%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> This matters for policy: state legislatures in Colorado, Washington, and Oregon have all cited FARS trend data when debating per se THC limits for drivers. If the trend data is partially an artifact, the urgency calculation changes.</p>
+
+      <p>If you are a juror evaluating toxicology evidence in a vehicular manslaughter case, two questions are worth asking. First: was the substance detected on a standard forensic panel, or did it require advanced mass spectrometry that most labs don't run? That answer determines whether the same substance would have been caught in a typical case. Second: does the prosecution's claim about "rising drugged driving trends" rely on FARS data that spans the 2018 enhancement boundary? If so, the trend line is not what it appears to be. The drugs didn't change. The spreadsheet did.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Chihuri S, Li G, &ldquo;Impact of the enhanced Fatality Analysis Reporting System on drug detection in fatally injured drivers,&rdquo; <em>Accident Analysis &amp; Prevention</em>, Vol 226, March 2026 (DOI: 10.1016/j.aap.2025.108354). <a href="https://pubmed.ncbi.nlm.nih.gov/41401642/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+          <li id="ref-2">Gerona R et al., &ldquo;New Psychoactive Substances in Roadway Crash Victims in California,&rdquo; <em>Frontiers in Toxicology</em>, Vol 7, 2025 (DOI: 10.3389/ftox.2025.1572324). <a href="https://doi.org/10.3389/ftox.2025.1572324" target="_blank" rel="noopener">doi.org</a></li>
+          <li id="ref-3">AAA Foundation for Traffic Safety, &ldquo;Cannabis Use Among Drivers in Fatal Crashes in Washington State Before and After Legalization.&rdquo; <a href="https://aaafoundation.org/" target="_blank" rel="noopener">aaafoundation.org</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> FARS toxicology data 2013&ndash;2022, Columbia University Mailman School of Public Health, UC San Francisco/Davis, AAA Foundation. Drug detection rates reflect postmortem toxicology presence, not impairment at time of crash. See <a href="../#method">methodology</a> for caveats.</p>
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
