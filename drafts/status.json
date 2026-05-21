@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "digital-dashboard-single-point-failure",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "headline": "12 Automakers Replaced Your Gauges With a Screen. Two Million of Those Screens Have Been Recalled.",
+    "started": "2026-05-21T05:30:00Z",
+    "article_number": 265,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "ridgeline-iihs-paradox",
     "headline": "We Called the Ridgeline the Safest Pickup in America. Then IIHS Crashed One.",
