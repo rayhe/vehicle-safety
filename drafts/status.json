@@ -1,30 +1,14 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "rear-seat-protection-gap-iihs-reckoning",
-    "phase": "QA",
+    "headline": "Your Back Seat Is Stuck in 1996. IIHS Just Proved It by Failing the Corolla.",
     "journalist": "Rex Driverton",
-    "started": "2026-05-21T10:37:00Z",
-    "round": 1,
+    "published_at": "2026-05-21T14:30:00Z",
+    "article_number": 266,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
-    },
-    "article_number": 266
-  },
-  "last_completed": {
-    "slug": "digital-dashboard-single-point-failure",
-    "headline": "12 Automakers Replaced Your Gauges With a Screen. Two Million of Those Screens Have Been Recalled.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-21T06:28:00Z",
-    "article_number": 265,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
       "ethics": 9.0,
       "social": 9.2,
       "legal": 8.8,
