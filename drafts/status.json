@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "fars-drug-detection-measurement-artifact",
-    "phase": "QA",
-    "round": 1,
+    "headline": "FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did.",
     "journalist": "Dale Impactor III",
-    "started": "2026-05-21T14:35:00Z",
+    "published_at": "2026-05-21T19:34:00Z",
+    "article_number": 267,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -12,22 +13,6 @@
       "social": 8.8,
       "legal": 8.6,
       "rigor": 8.7,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "rear-seat-protection-gap-iihs-reckoning",
-    "headline": "Your Back Seat Is Stuck in 1996. IIHS Just Proved It by Failing the Corolla.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-21T14:30:00Z",
-    "article_number": 266,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 9.0,
       "data": 8.8
     },
     "push_pending": true,
