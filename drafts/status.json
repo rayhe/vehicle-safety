@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "rear-seat-protection-gap-iihs-reckoning",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-05-21T10:37:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "ship_note": "Ready to ship. 2 articles already published today (#264 and #265). Will publish on next run (May 22)."
   },
   "last_completed": {
     "slug": "digital-dashboard-single-point-failure",
