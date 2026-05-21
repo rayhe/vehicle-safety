@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ridgeline-iihs-paradox",
-    "phase": "SHIP",
+    "headline": "We Called the Ridgeline the Safest Pickup in America. Then IIHS Crashed One.",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-20T18:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-21T02:30:00Z",
+    "article_number": 264,
     "scores": {
       "general": 9.0,
       "voice": 9.2,
@@ -14,24 +15,7 @@
       "rigor": 9.0,
       "data": 8.8
     },
-    "ship_note": "1/day limit — #263 already published today. Ready to ship next cycle."
-  },
-  "last_completed": {
-    "slug": "teen-oldest-car-fatality-premium",
-    "headline": "The Safest Car in Your Driveway Isn't the One Your Teen Is Driving.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-20T17:25:00Z",
-    "article_number": 263,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.1,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.9
-    },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#263 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#264 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
