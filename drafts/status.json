@@ -1,10 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "digital-dashboard-single-point-failure",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
     "headline": "12 Automakers Replaced Your Gauges With a Screen. Two Million of Those Screens Have Been Recalled.",
-    "started": "2026-05-21T05:30:00Z",
+    "journalist": "Mia Crumplezone",
+    "published_at": "2026-05-21T06:28:00Z",
     "article_number": 265,
     "scores": {
       "general": 9.0,
@@ -14,24 +14,8 @@
       "legal": 8.8,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "ridgeline-iihs-paradox",
-    "headline": "We Called the Ridgeline the Safest Pickup in America. Then IIHS Crashed One.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-21T02:30:00Z",
-    "article_number": 264,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.2,
-      "ethics": 9.1,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#264 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits for #244-#265 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
   }
 }
