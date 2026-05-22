@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "memorial-day-weekend-death-forecast",
     "headline": "The NSC Just Published Its Memorial Day Body Count Forecast. It's 393.",
-    "phase": "SHIP",
-    "round": 1,
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-22T12:04:00Z",
-    "kicker": "By The Numbers",
+    "published_at": "2026-05-22T12:32:00Z",
+    "article_number": 270,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -15,22 +14,8 @@
       "legal": 8.7,
       "rigor": 8.5,
       "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "waymo-100-percent-defect-rate-recall",
-    "headline": "NHTSA Stamped '100% Defect Rate' on Waymo. It Accidentally Proved Software Recalls Are Better.",
-    "journalist": "Rex Driverton",
-    "published_at": "2026-05-22T03:09:00Z",
-    "article_number": 269,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.7,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.7
-    }
+    },
+    "push_pending": true,
+    "push_note": "GitHub DNS still down — commits local only. Deployed directly via Cloudflare Pages wrangler."
   }
 }
