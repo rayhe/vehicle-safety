@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "waymo-100-percent-defect-rate-recall",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-05-22T01:04:00Z",
-    "round": 0,
-    "headline": "NHTSA Stamped '100% Defect Rate' on Waymo. It Accidentally Proved Software Recalls Are Better."
+    "round": 2,
+    "headline": "NHTSA Stamped '100% Defect Rate' on Waymo. It Accidentally Proved Software Recalls Are Better.",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.7,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.6,
+      "data": 8.7
+    }
   },
   "last_completed": {
     "slug": "fars-drug-detection-measurement-artifact",
