@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "phantom-braking-epidemic",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-05-22T14:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "memorial-day-weekend-death-forecast",
     "headline": "The NSC Just Published Its Memorial Day Body Count Forecast. It's 393.",
