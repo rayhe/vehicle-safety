@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "hyundai-safety-award-recall-paradox",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
+    "headline": "Hyundai Won More Safety Awards Than Any Automaker in 2026. It Also Has 475,000 Vehicles Under Recall.",
     "started": "2026-05-22T18:30:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.6,
+      "rigor": 8.7,
+      "data": 8.6
+    }
   },
   "last_completed": {
     "slug": "phantom-braking-epidemic",
