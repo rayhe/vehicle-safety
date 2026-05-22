@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "phantom-braking-epidemic",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-05-22T14:30:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 8.7,
+      "social": 8.8,
+      "legal": 8.6,
+      "rigor": 8.7,
+      "data": 8.6
+    }
   },
   "last_completed": {
     "slug": "memorial-day-weekend-death-forecast",
