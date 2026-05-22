@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "waymo-100-percent-defect-rate-recall",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-05-22T01:04:00Z",
-    "round": 2,
     "headline": "NHTSA Stamped '100% Defect Rate' on Waymo. It Accidentally Proved Software Recalls Are Better.",
+    "journalist": "Rex Driverton",
+    "published_at": "2026-05-22T03:09:00Z",
+    "article_number": 269,
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -14,24 +14,8 @@
       "legal": 8.7,
       "rigor": 8.6,
       "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "fars-drug-detection-measurement-artifact",
-    "headline": "FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did.",
-    "journalist": "Dale Impactor III",
-    "published_at": "2026-05-21T19:34:00Z",
-    "article_number": 267,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 8.6,
-      "rigor": 8.7,
-      "data": 8.8
     },
     "push_pending": true,
-    "push_note": "GitHub DNS still down — commits for #244-#267 all local, needs git push origin main when DNS resolves. Deployed directly via Cloudflare Pages wrangler."
+    "push_note": "GitHub DNS still down — commits local only. Deployed directly via Cloudflare Pages wrangler."
   }
 }
