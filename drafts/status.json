@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "waymo-100-percent-defect-rate-recall",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-05-22T01:04:00Z",
+    "round": 0,
+    "headline": "NHTSA Stamped '100% Defect Rate' on Waymo. It Accidentally Proved Software Recalls Are Better."
+  },
   "last_completed": {
     "slug": "fars-drug-detection-measurement-artifact",
     "headline": "FARS Changed How It Counts Drugs in 2018. The 'Epidemic' Didn't Spike. The Spreadsheet Did.",

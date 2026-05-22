@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NHTSA Stamped &lsquo;100% Defect Rate&rsquo; on Waymo. It Accidentally Proved Software Recalls Are Better. &mdash; The Crash Report</title>
+  <meta name="description" content="Waymo recalled its entire fleet of 3,791 robotaxis and fixed them in hours. Ford recalled 12.9 million vehicles last year. The average completion rate is 45%. The recall system is the defect.">
+  <meta property="og:title" content="NHTSA Stamped '100% Defect Rate' on Waymo. It Accidentally Proved Software Recalls Are Better.">
+  <meta property="og:description" content="Waymo recalled its entire fleet of 3,791 robotaxis and fixed them in hours. Ford recalled 12.9 million vehicles last year. The average completion rate is 45%. The recall system is the defect.">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>NHTSA Stamped &lsquo;100% Defect Rate&rsquo; on Waymo. It Accidentally Proved Software Recalls Are Better.</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">May 22, 2026</div>
+
+      <p>On April 20, an empty Waymo robotaxi in San Antonio detected a flooded road ahead, slowed from highway speed, and drove into the water anyway, where the creek swept it downstream like a bathtub toy on the San Antonio River. Nobody was aboard, nobody was hurt, and Waymo pushed an over-the-air software fix to every vehicle in its fleet that same day. Three weeks later, NHTSA filed the recall paperwork. The official designation: <strong>3,791 vehicles affected, 100% defect rate.</strong></p>
+
+      <div class="pull-stat">100%</div>
+      <div class="pull-label">NHTSA's estimated defect rate for Waymo's software recall. Every vehicle running the same code had the same bug.</div>
+
+      <p>That number was engineered to sound catastrophic, and it worked. Headlines screamed about Waymo's entire fleet being defective. Fox News quoted unnamed sources saying the company was "putting American lives at risk." What none of those headlines mentioned: a 100% defect rate is the <em>default</em> for any software bug. If one car runs the buggy code, every car running that code has the same bug. That is not a scandal; that is how computers work.</p>
+
+      <p>Compare it to what happens when the recall system encounters hardware, which is the thing it was actually built for. In 2025, manufacturers issued approximately 1,000 separate recalls covering 31.3 million vehicles across the United States, according to NHTSA data compiled by autoinsurance.com.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Ford alone accounted for 153 recalls touching 12.9 million vehicles. The average recall completion rate across all manufacturers that year was 45%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not 45% within the first month; 45% ever. More than half of recalled vehicles never get fixed, and NHTSA knows this because they track it and publish the numbers in their annual reports.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>The gap widens with vehicle age. NHTSA's own data shows 76% completion for vehicles one to five years old, dropping to 56% for six-to-ten-year-old vehicles.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Beyond ten years, the agency stops publishing the number, which tells you what it looks like. The Takata airbag recall, which ultimately affected tens of millions of vehicles, took over a decade and the completion rate for older models plateaued below 50%.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> People drove cars with literal fragmentation grenades behind their steering wheels for years because the recall system runs on postal mail and dealer appointments.</p>
+
+      <p>Waymo's fleet was fixed before the recall letter was drafted, every vehicle updated on the same day without a single dealer appointment. NHTSA sent its formal request on May 11, three weeks after the fix was already deployed.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The regulatory paperwork outlived the safety risk by twenty-one days.</p>
+
+      <div class="pull-stat">45%</div>
+      <div class="pull-label">Average recall completion rate across all U.S. manufacturers in 2025. More than half of recalled vehicles are never repaired.</div>
+
+      <p>Now run the effective risk math on a hypothetical fleet of 100,000 vehicles with an identified safety defect. Under the traditional hardware recall pipeline, approximately 45,000 get fixed over a period of months to years; 55,000 remain on public roads with a known defect indefinitely. Under the software OTA model, approximately 100,000 get fixed within hours to days; zero remain defective. The "100% defect rate" recall eliminates more risk, faster, with more certainty than any hardware recall in NHTSA's history. Sidley Austin, in their legal analysis of the NHTSA recall order, noted that in 2025 the agency processed 997 recalls and 88% were manufacturer-initiated without any NHTSA involvement at all.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> The system runs on voluntary compliance and incomplete execution.</p>
+
+      <p>The strongest case against this framing: software failures are correlated in a way hardware failures are not. When a batch of brake pads has a metallurgical defect, each pad fails independently under different conditions at different times. A software bug is deterministic. If the conditions are met, every vehicle fails identically, simultaneously. The San Antonio flood was benign because the car was empty and the failure mode was "drove into water." A different bug, under different conditions, could trigger simultaneous failures across an entire fleet. That correlated risk profile is genuinely new, and the recall system's instinct to flag it is not entirely wrong.</p>
+
+      <p>But correlated risk is a deployment architecture problem, not a recall system problem. You address it with staged rollouts, fleet-wide telemetry, geofencing, and operational design domains, which Waymo already uses. You do not address it by stamping "100% defect rate" on a filing and calling it a day while 17 million vehicles from a single manufacturer sit unfixed in driveways because their owners threw the recall notice in the trash.</p>
+
+      <p>In 2022, NHTSA tracked 23 over-the-air software recalls, double the prior year's count.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> As vehicles become increasingly software-defined, the share of recalls fixable via OTA will grow. The question is whether NHTSA will update its vocabulary to reflect the actual risk calculus, or whether "100% defect rate" will continue to be deployed as rhetorical ammunition against the vehicles most capable of fixing themselves.</p>
+
+      <p>Thirty-one million vehicles were recalled in the United States last year. More than seventeen million of them will never be repaired. The system built to protect you has a 55% failure rate, and nobody files a recall for that.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">AutoInsurance.com, <em>Car Recall Facts and Statistics 2026</em>, based on NHTSA data (Jan&ndash;Dec 2025). <a href="https://www.autoinsurance.com/research/car-recall-facts-statistics/" target="_blank" rel="noopener">autoinsurance.com</a></li>
+          <li id="ref-2">NHTSA, <em>Annual Recall Reports</em> and <em>Recall Completion Rate Data</em>. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+          <li id="ref-3">NHTSA, Takata airbag recall documentation; Stellantis &ldquo;Do Not Drive&rdquo; advisory for affected vehicles. <a href="https://www.nhtsa.gov/equipment/takata-recall-spotlight" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">NHTSA recall filing for Waymo 5th/6th generation ADS, May 2026; Reuters, Fox Business, USA Today reporting. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">Raviv, A.M., &ldquo;NHTSA Issues the First Defect Recall Order in Decades,&rdquo; <em>Sidley Environmental, Health, and Safety Brief</em>, May 11, 2026. <a href="https://environmentalhealthsafetybrief.sidley.com/2026/05/11/nhtsa-issues-the-first-defect-recall-order-in-decades/" target="_blank" rel="noopener">sidley.com</a></li>
+          <li id="ref-6">NHTSA, <em>2022 Annual Vehicle Recalls Report</em>. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings, NHTSA annual recall reports, Sidley Austin legal analysis. Effective risk calculations are illustrative estimates based on published completion rates; individual recall outcomes vary. The 45% average completion rate is across all manufacturers and recall types, including minor equipment recalls. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
