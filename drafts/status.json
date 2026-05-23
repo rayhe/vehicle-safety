@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "speed-phone-compound-risk",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-05-23T06:27:00Z",
     "round": 1,
@@ -14,36 +14,19 @@
       "rigor": 9.0,
       "data": 8.8
     },
-    "rhythm": {
-      "variance": 463.7,
-      "short_pct": 6.7,
-      "long_pct": 53.3,
-      "passed": true
-    },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": false,
       "the_starters_pct": 9.6,
       "css_classes": "correct"
     },
-    "ship_blocked": "1/day limit — #272 already published 2026-05-23"
+    "article_number": 273
   },
   "last_completed": {
     "slug": "hyundai-safety-award-recall-paradox",
     "headline": "Hyundai Won More Safety Awards Than Any Automaker in 2026. It Also Has 475,000 Vehicles Under Recall.",
     "journalist": "Vin Wreckage",
     "published_at": "2026-05-23T02:28:00Z",
-    "article_number": 272,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.6,
-      "rigor": 8.7,
-      "data": 8.6
-    },
-    "push_pending": true,
-    "push_note": "GitHub DNS still down — commits local only. Deployed directly via Cloudflare Pages wrangler."
+    "article_number": 272
   }
 }
