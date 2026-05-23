@@ -1,31 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "hyundai-safety-award-recall-paradox",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
     "headline": "Hyundai Won More Safety Awards Than Any Automaker in 2026. It Also Has 475,000 Vehicles Under Recall.",
-    "started": "2026-05-22T18:30:00Z",
-    "round": 0,
+    "journalist": "Vin Wreckage",
+    "published_at": "2026-05-23T02:28:00Z",
+    "article_number": 272,
     "scores": {
       "general": 9.0,
       "voice": 8.7,
       "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.6,
-      "rigor": 8.7,
-      "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "phantom-braking-epidemic",
-    "headline": "421,000 Hyundais Just Got Recalled Because Their Safety System Keeps Slamming the Brakes for No Reason",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-22T16:34:00Z",
-    "article_number": 271,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 8.7,
       "social": 8.8,
       "legal": 8.6,
       "rigor": 8.7,
