@@ -1,5 +1,35 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-model-y-safest-and-investigated",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-23T22:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.2,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": "correct",
+      "sentence_rhythm": {
+        "variance": 339.8,
+        "short_pct": 12.2,
+        "long_pct": 57.1,
+        "passed": true
+      }
+    },
+    "hero_image": "images/tesla-model-y-safest-and-investigated.jpg",
+    "hero_hash": "b1c973eb",
+    "ship_blocked": "1/day limit — #273 already published today (speed-phone-compound-risk). Ship next cycle."
+  },
   "last_completed": {
     "slug": "speed-phone-compound-risk",
     "headline": "600,000 Trips Exposed a Trendline Nobody Expected: The Faster You Drive, the More You're on Your Phone",
