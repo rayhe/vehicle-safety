@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "aeb-mandate-delay-body-count",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-05-24T09:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "tesla-model-y-safest-and-investigated",
     "headline": "The Model Y Is the Safest Car in America and the Subject of the Largest Safety Investigation in History. Both Are True.",
