@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "tesla-model-y-safest-and-investigated",
-    "phase": "SHIP",
+    "headline": "The Model Y Is the Safest Car in America and the Subject of the Largest Safety Investigation in History. Both Are True.",
     "journalist": "Vin Wreckage",
-    "started": "2026-05-23T22:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-24T02:28:00Z",
+    "article_number": 274,
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -13,39 +14,6 @@
       "legal": 9.0,
       "rigor": 9.0,
       "data": 8.8
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 0.0,
-      "css_class": "correct",
-      "sentence_rhythm": {
-        "variance": 339.8,
-        "short_pct": 12.2,
-        "long_pct": 57.1,
-        "passed": true
-      }
-    },
-    "hero_image": "images/tesla-model-y-safest-and-investigated.jpg",
-    "hero_hash": "b1c973eb",
-    "ship_blocked": "1/day limit — #273 already published today (speed-phone-compound-risk). Ship next cycle."
-  },
-  "last_completed": {
-    "slug": "speed-phone-compound-risk",
-    "headline": "600,000 Trips Exposed a Trendline Nobody Expected: The Faster You Drive, the More You're on Your Phone",
-    "journalist": "Axle McScatter",
-    "published_at": "2026-05-23T20:29:00Z",
-    "article_number": 273,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8
-    },
-    "push_pending": true,
-    "push_note": "GitHub DNS still down — commits local only. Deployed directly via Cloudflare Pages wrangler."
+    }
   }
 }
