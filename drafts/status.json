@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "counterfeit-airbag-phantom-recall",
     "headline": "NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Clara Rollover",
-    "started": "2026-05-25T02:26:00Z",
+    "published_at": "2026-05-25T04:30:00Z",
+    "article_number": 277,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -13,22 +13,6 @@
       "social": 8.5,
       "legal": 8.5,
       "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-617-day-investigation-lag",
-    "headline": "The Agency Protecting 280 Million Drivers Spends $0.13 Per Vehicle Per Year Finding Defects. Congress Wants to Spend Less.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-25T00:30:00Z",
-    "article_number": 276,
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
       "data": 8.5
     }
   }
