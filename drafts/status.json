@@ -3,9 +3,18 @@
     "slug": "acn-subscription-paywall-body-count",
     "headline": "Your Car Knows You Crashed. It Won't Call 911 Unless You Pay.",
     "journalist": "Clara Rollover",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-05-25T10:30:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-05-25T10:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "hot-car-regulatory-delay-body-count",
