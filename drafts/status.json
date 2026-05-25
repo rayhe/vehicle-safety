@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "hot-car-regulatory-delay-body-count",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-05-25T06:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "counterfeit-airbag-phantom-recall",
