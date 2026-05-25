@@ -1,30 +1,14 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-gutted-550-employees-39000-dead",
     "headline": "550 Federal Employees Guard 39,000 Annual Traffic Deaths. The Man Who Cut Their Ranks Has the Most Open Investigations.",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-05-25T14:30:00Z",
+    "published_at": "2026-05-25T16:30:00Z",
+    "article_number": 280,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "acn-subscription-paywall-body-count",
-    "headline": "Your Car Knows You Crashed. It Won't Call 911 Unless You Pay.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-25T10:40:00Z",
-    "article_number": 279,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 8.5,
