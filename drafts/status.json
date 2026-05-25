@@ -1,29 +1,14 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "hot-car-regulatory-delay-body-count",
-    "phase": "QA",
+    "headline": "Congress Ordered NHTSA to Stop Hot Car Deaths in 2021. The Rule Is 2.5 Years Late. Three Children Died Last Week.",
     "journalist": "Axle McScatter",
-    "started": "2026-05-25T06:30:00Z",
-    "round": 1,
+    "published_at": "2026-05-25T08:30:00Z",
+    "article_number": 278,
     "scores": {
       "general": 9.0,
       "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "counterfeit-airbag-phantom-recall",
-    "headline": "NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.",
-    "journalist": "Clara Rollover",
-    "published_at": "2026-05-25T04:30:00Z",
-    "article_number": 277,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
       "ethics": 9.0,
       "social": 8.5,
       "legal": 8.5,
