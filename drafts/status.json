@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "child-restraint-70-percent-fatal",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-25T18:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "nhtsa-gutted-550-employees-39000-dead",
     "headline": "550 Federal Employees Guard 39,000 Annual Traffic Deaths. The Man Who Cut Their Ranks Has the Most Open Investigations.",
