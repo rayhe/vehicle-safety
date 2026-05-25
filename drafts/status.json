@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "acn-subscription-paywall-body-count",
+    "headline": "Your Car Knows You Crashed. It Won't Call 911 Unless You Pay.",
+    "journalist": "Clara Rollover",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-05-25T10:30:00Z"
+  },
   "last_completed": {
     "slug": "hot-car-regulatory-delay-body-count",
     "headline": "Congress Ordered NHTSA to Stop Hot Car Deaths in 2021. The Rule Is 2.5 Years Late. Three Children Died Last Week.",
