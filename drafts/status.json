@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "interlock-compliance-gap",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "started": "2026-05-26T08:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.7,
+      "data": 9.0
+    }
+  },
   "last_completed": {
     "slug": "mandatory-recall-wrong-target",
     "headline": "NHTSA Can Force Recalls. After 997 in 2025, It Used That Power Exactly Once.",
