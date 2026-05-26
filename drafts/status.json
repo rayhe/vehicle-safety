@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "recall-remedy-quality-gap",
-    "phase": "SHIP",
+    "headline": "Ram Trucks Were Recalled Twice for the Same Rollaway Defect. The Fix Didn't Fix It.",
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-26T02:26:00Z",
-    "round": 1,
+    "published_at": "2026-05-26T02:36:00Z",
+    "article_number": 282,
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -13,22 +14,6 @@
       "legal": 8.5,
       "rigor": 8.5,
       "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "child-restraint-70-percent-fatal",
-    "headline": "We Solved Child Car Seat Safety Decades Ago. 70% of Kids in Fatal Crashes Still Aren't Properly Restrained.",
-    "journalist": "Vin Wreckage",
-    "published_at": "2026-05-25T20:30:00Z",
-    "article_number": 281,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data": 8.5
     }
   }
 }
