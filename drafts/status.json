@@ -1,34 +1,18 @@
 {
   "current": {
     "slug": "distracted-driving-undercount-3x",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-05-26T12:26:00Z",
     "round": 1,
-    "scores": {
-      "general": 8.7,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.8,
-      "data": 8.8
-    }
+    "scores": {"general": 8.7, "voice": 8.6, "ethics": 9.0, "social": 9.0, "legal": 8.7, "rigor": 8.8, "data": 8.8}
   },
   "last_completed": {
     "slug": "interlock-compliance-gap",
     "headline": "A $100 Device Prevents 67% of Repeat Drunk Driving. 80% of Offenders Never Install It.",
     "journalist": "Dale Impactor III",
-    "published_at": "2026-05-26T10:32:00Z",
     "article_number": 284,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.7,
-      "data": 9.0
-    }
+    "published_at": "2026-05-26T10:32:00Z",
+    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.0, "social": 9.0, "legal": 8.5, "rigor": 8.7, "data": 9.0}
   }
 }

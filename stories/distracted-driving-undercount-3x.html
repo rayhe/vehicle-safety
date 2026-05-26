@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NHTSA Says 3,208 People Died From Distracted Driving. The Real Number Is Closer to 10,000. &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA counts 3,208 distracted driving deaths. The NSC estimates distraction contributes to 24% of all crashes. The gap exists because we never built a breathalyzer for inattention.">
+  <meta property="og:title" content="NHTSA Says 3,208 People Died From Distracted Driving. The Real Number Is Closer to 10,000.">
+  <meta property="og:description" content="NHTSA counts 3,208 distracted driving deaths. The NSC estimates 24% of all crashes involve phones. We can measure blood alcohol to three decimal places. We cannot measure whether someone was looking at Instagram.">
+  <meta property="og:image" content="../images/distracted-driving-undercount-3x.jpg?v=5025573c">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>NHTSA Says 3,208 People Died From Distracted Driving. The Real Number Is Closer to 10,000.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">May 26, 2026</div>
+
+      <p>I ran the numbers, then I ran them again, and they refused to improve. NHTSA's official count for 2024 distracted driving fatalities is <strong>3,208 deaths</strong>, roughly 8 percent of all fatal crashes.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Apply the National Safety Council's estimate that cell phone use contributes to 24 percent of all crashes, and you get a very different figure: approximately 9,400 deaths per year.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">3x</div>
+      <div class="pull-label">Ratio between the NSC estimate and NHTSA's official distracted driving death count</div>
+
+      <p>That is not a rounding error but a measurement infrastructure failure, the kind that buries thousands of deaths inside a coding gap nobody bothered to close.</p>
+
+      <p>Consider alcohol. A cop arrives at a fatal crash and deploys a breathalyzer or draws blood. BAC readings survive the collision, survive the driver, survive the court case, because every state mandates toxicology in fatal crashes and FARS codes the result with three-decimal precision. We solved alcohol measurement in the 1960s when Robert Borkenstein built the first portable breath tester, and we have been collecting clean impairment data ever since.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Now consider distraction. A cop arrives at a fatal crash and asks the only question that matters: was the driver looking at a phone? The phone screen is shattered, the lock screen is dead, and the answer died with the driver. Maybe it was a text, maybe it was a podcast, maybe they were adjusting the climate controls. Twenty-six states do not have a specific field for texting on their crash report forms.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> In those states, FARS coders hunt through the officer's narrative section, parsing longhand notes for any mention of phone use. Some officers note it, but most do not, because they were busy keeping a crash scene secure, not documenting screen time.</p>
+
+      <p>Self-reported data makes the gap uglier than any table can convey. A 2026 survey found 29 percent of U.S. drivers admit to phone use behind the wheel, up from 27 percent a year prior.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> NHTSA's own surveys put the 30-day prevalence at 37 percent.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Virginia Tech's Transportation Institute found that texting while driving increases crash risk by a factor of 23, compared to a factor of roughly 4 for a BAC of 0.08.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Per episode, texting may be deadlier than drinking, yet we count the drinking with laboratory precision and guess at the texting with narrative scraps.</p>
+
+      <p>Here is the math, laid bare:</p>
+
+      <table class="data-table" style="width:100%; border-collapse:collapse; margin:1em 0;">
+        <thead>
+          <tr style="border-bottom:2px solid var(--text-color, #333); text-align:left;">
+            <th style="padding:0.5em;">Scenario</th>
+            <th style="padding:0.5em;">% of Fatal Crashes</th>
+            <th style="padding:0.5em;">Est. Deaths (of 39,254)</th>
+            <th style="padding:0.5em;">Ratio to Official</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #ccc;">
+            <td style="padding:0.5em;">NHTSA Official</td>
+            <td style="padding:0.5em;">8%</td>
+            <td style="padding:0.5em;">3,208</td>
+            <td style="padding:0.5em;">1.0x</td>
+          </tr>
+          <tr style="border-bottom:1px solid #ccc;">
+            <td style="padding:0.5em;">Conservative (15%)</td>
+            <td style="padding:0.5em;">15%</td>
+            <td style="padding:0.5em;">5,888</td>
+            <td style="padding:0.5em;">1.8x</td>
+          </tr>
+          <tr>
+            <td style="padding:0.5em;">NSC Estimate (24%)</td>
+            <td style="padding:0.5em;">24%</td>
+            <td style="padding:0.5em;">9,421</td>
+            <td style="padding:0.5em;">2.9x</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>At the conservative estimate, 2,680 people die annually in crashes that NHTSA never labels as distraction-involved; at the NSC estimate, that number climbs to 6,213. Split the difference and you get a 737 MAX crashing every five weeks with no NTSB investigation, no congressional hearing, no grounding order. Just a police report that says "driver crossed the center line" and leaves it at that.</p>
+
+      <p>Norway ran a comprehensive study and found distraction contributed to roughly one-third of all crashes.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Norway also has a population of 5.5 million and exhaustive crash investigation protocols that make the U.S. system look like a suggestion box.</p>
+
+      <p><strong>Strongest counterargument:</strong> Self-reported phone use does not equal crash causation. A driver who admits to checking Instagram at red lights is not the same as a driver who plowed through a crosswalk while composing a group text. Behavioral prevalence of 29 percent does not mechanically translate to 29 percent crash involvement, and the NSC's 24 percent estimate relies on a methodology that may double-count some incidents where phone records were subpoenaed after an initial distraction coding. If the real number is 12 percent rather than 24 percent, the gap shrinks from 3x to 1.5x, which is still bad but no longer catastrophic.</p>
+
+      <p><strong>Limitations:</strong> FARS captures fatal crashes only, meaning a vehicle type with low fatality rates might have high distraction-related injury rates we cannot see. State-level coding differences make cross-state FARS comparisons unreliable for distraction specifically. Our table applies percentages to the 2024 total fatality count (39,254); the actual 2024 distracted driving figure (3,208) comes from NHTSA's independent coding and may not be perfectly proportional. NSC's research uses a different crash universe that includes non-fatal incidents.</p>
+
+      <p><strong>What you should do:</strong> Put the phone in the glove box, not the cupholder, not face-down on the passenger seat where you can still feel it vibrate, but in the glove box, behind a latch, where reaching for it requires a conscious decision that might save your life or someone else's. If your car has Apple CarPlay or Android Auto, use it for navigation and nothing else. And if you live in one of the 26 states without a texting-specific field on crash report forms, contact your state legislature and ask why they are choosing not to count.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Distracted Driving</em>, 2024 data: 3,208 fatalities, 315,167 injured, 37% self-reported phone use (2021 survey). <a href="https://www.nhtsa.gov/risky-driving/distracted-driving" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">National Safety Council, <em>Cell Phone Distracted Driving Crashes Under-Reported</em>. Estimates 24% of all crashes involve cell phone use; only 52% of fatal phone-involved crashes coded in FARS. Norway study cited in NSC methodology. <a href="https://injuryfacts.nsc.org/" target="_blank" rel="noopener">injuryfacts.nsc.org</a></li>
+          <li id="ref-3">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, methodology documentation. 26 states lack texting-specific crash report fields; FARS coding depends on police narrative for distraction identification. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">NHTSA Traffic Safety Facts, <em>Distracted Driving 2022</em>. Crash report variability across states documented in methodology section. <a href="https://crashstats.nhtsa.dot.gov/" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-5">Reviews.org, <em>2026 Cell Phone Driving Statistics</em>. 29% of drivers report phone use while driving (up from 27% in 2025). 58% of teen crashes involved distracting behaviors. <a href="https://www.reviews.org/mobile/cell-phone-addiction-statistics/" target="_blank" rel="noopener">reviews.org</a></li>
+          <li id="ref-6">Virginia Tech Transportation Institute, naturalistic driving study. Texting increases crash risk 23x; BAC of 0.08 increases crash risk approximately 4x. <a href="https://www.vtti.vt.edu/" target="_blank" rel="noopener">vtti.vt.edu</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2024, NSC crash underreporting research, VTTI naturalistic driving studies. Gap estimates assume linear scaling of distraction involvement across fatal crash totals; actual relationship may be nonlinear. Multi-factor crashes (e.g., distracted AND impaired) may be double-counted in some estimates. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
