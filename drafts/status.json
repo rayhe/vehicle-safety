@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "mandatory-recall-wrong-target",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "NHTSA Can Force Recalls. After 997 in 2025, It Used That Power Exactly Once.",
     "journalist": "Rex Driverton",
-    "started": "2026-05-26T04:30:00Z",
+    "published_at": "2026-05-26T06:30:00Z",
     "article_number": 283,
-    "headline_wip": "NHTSA Can Force Recalls. After 997 in 2025, It Used That Power Exactly Once.",
     "scores": {
       "general": 9.0,
       "voice": 8.5,
@@ -14,22 +13,6 @@
       "social": 9.0,
       "legal": 8.5,
       "rigor": 9.0,
-      "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "recall-remedy-quality-gap",
-    "headline": "Ram Trucks Were Recalled Twice for the Same Rollaway Defect. The Fix Didn't Fix It.",
-    "journalist": "Mia Crumplezone",
-    "published_at": "2026-05-26T02:36:00Z",
-    "article_number": 282,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 8.5,
       "data": 9.0
     }
   }
