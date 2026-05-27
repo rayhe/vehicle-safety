@@ -1,19 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ridgeline-safest-truck-fails-lab-test",
     "headline": "The Safest Midsize Truck on American Roads Just Got the Worst Crash Test Score",
     "journalist": "Mia Crumplezone",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-05-27T06:30:00Z",
+    "article_number": 287,
+    "published_at": "2026-05-27T08:30:00Z",
     "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.0, "legal": 9.0, "rigor": 8.5, "data": 8.6}
-  },
-  "last_completed": {
-    "slug": "who-dies-weight-class-hierarchy",
-    "headline": "For Every Person a Ram 2500 Kills, 4 of Them Are in the Other Car",
-    "journalist": "Vin Wreckage",
-    "article_number": 286,
-    "published_at": "2026-05-27T02:26:00Z",
-    "scores": {"general": 8.7, "voice": 8.6, "ethics": 9.0, "social": 9.0, "legal": 8.7, "rigor": 8.8, "data": 8.8}
   }
 }
