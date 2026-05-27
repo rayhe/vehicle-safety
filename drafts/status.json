@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "iihs-teen-list-lethality-gap",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-05-27T18:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "phantom-braking-4-million-vehicles",
     "headline": "4.4 Million Vehicles Have a Safety Feature That Causes the Exact Crash It Was Designed to Prevent",
