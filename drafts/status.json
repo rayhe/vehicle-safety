@@ -3,7 +3,7 @@
     "slug": "ridgeline-safest-truck-fails-lab-test",
     "headline": "The Safest Midsize Truck on American Roads Just Got the Worst Crash Test Score",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "started": "2026-05-27T06:30:00Z",
     "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.0, "legal": 9.0, "rigor": 8.5, "data": 8.6}
