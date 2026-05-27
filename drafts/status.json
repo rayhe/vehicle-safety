@@ -1,19 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "who-dies-weight-class-hierarchy",
     "headline": "For Every Person a Ram 2500 Kills, 4 of Them Are in the Other Car",
-    "phase": "SHIP",
-    "round": 1,
     "journalist": "Vin Wreckage",
-    "started": "2026-05-26T17:30:00-07:00",
-    "scores": {"general": 8.7, "voice": 8.6, "ethics": 9.0, "social": 9.0, "legal": 8.7, "rigor": 8.8, "data": 8.8}
-  },
-  "last_completed": {
-    "slug": "distracted-driving-undercount-3x",
-    "headline": "NHTSA Says 3,208 People Died From Distracted Driving. The Real Number Is Closer to 10,000.",
-    "journalist": "Axle McScatter",
-    "article_number": 285,
-    "published_at": "2026-05-26T20:30:00Z",
+    "article_number": 286,
+    "published_at": "2026-05-27T02:26:00Z",
     "scores": {"general": 8.7, "voice": 8.6, "ethics": 9.0, "social": 9.0, "legal": 8.7, "rigor": 8.8, "data": 8.8}
   }
 }
