@@ -1,28 +1,11 @@
 {
-  "current": {
-    "slug": "phantom-braking-4-million-vehicles",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "started": "2026-05-27T14:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.8
-    },
-    "headline": "4.4 Million Vehicles Have a Safety Feature That Causes the Exact Crash It Was Designed to Prevent",
-    "article_number": 288
-  },
+  "current": null,
   "last_completed": {
-    "slug": "ridgeline-safest-truck-fails-lab-test",
-    "headline": "The Safest Midsize Truck on American Roads Just Got the Worst Crash Test Score",
-    "journalist": "Mia Crumplezone",
-    "article_number": 287,
-    "published_at": "2026-05-27T08:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.0, "legal": 9.0, "rigor": 8.5, "data": 8.6}
+    "slug": "phantom-braking-4-million-vehicles",
+    "headline": "4.4 Million Vehicles Have a Safety Feature That Causes the Exact Crash It Was Designed to Prevent",
+    "journalist": "Clara Rollover",
+    "article_number": 288,
+    "published_at": "2026-05-27T16:28:00Z",
+    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.0, "legal": 8.7, "rigor": 8.6, "data": 8.8}
   }
 }
