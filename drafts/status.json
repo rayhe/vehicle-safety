@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "phantom-braking-4-million-vehicles",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-05-27T14:30:00Z",
     "round": 1,
@@ -14,7 +14,8 @@
       "rigor": 8.6,
       "data": 8.8
     },
-    "headline": "4.4 Million Vehicles Have a Safety Feature That Causes the Exact Crash It Was Designed to Prevent"
+    "headline": "4.4 Million Vehicles Have a Safety Feature That Causes the Exact Crash It Was Designed to Prevent",
+    "article_number": 288
   },
   "last_completed": {
     "slug": "ridgeline-safest-truck-fails-lab-test",
