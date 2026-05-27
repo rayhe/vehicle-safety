@@ -1,10 +1,32 @@
 {
   "current": {
     "slug": "iihs-teen-list-lethality-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "started": "2026-05-27T18:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 9.1,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.8
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": "PASS",
+      "sentence_rhythm": {
+        "variance": 205.0,
+        "short_pct": 12.5,
+        "long_pct": 56.2,
+        "passed": true
+      }
+    },
+    "critique_notes": "Data integrity fix: corrected sedan/SUV averages from 0.666/0.519 to 0.641/0.514 to match research calculations. Rhythm gate required targeted edits: expanded medium-length sentence and added 3-word fragment to achieve variance >= 200 while keeping short% under 15%. All 7 critics at 8.5+, all hard gates pass."
   },
   "last_completed": {
     "slug": "phantom-braking-4-million-vehicles",
