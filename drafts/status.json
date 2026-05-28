@@ -2,10 +2,19 @@
   "current": {
     "slug": "rivian-toe-link-investigation-115k",
     "headline": "Rivian Recalled 20,000 Trucks for a Suspension Defect Its Own Technicians Created. Now 115,000 Are Under Investigation.",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-28T16:30:00Z"
+    "started": "2026-05-28T16:30:00Z",
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.6,
+      "rigor": 8.5,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "recall-fix-failure-ram-rollaway",
