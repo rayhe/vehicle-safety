@@ -1,26 +1,11 @@
 {
-  "current": {
-    "slug": "547-tickets-one-truck-speed-limiter-law",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-05-28T02:27:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.2,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.8
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "iihs-teen-list-lethality-gap",
-    "headline": "IIHS Gave Parents a Teen-Safe Car List. The Deadliest 'Good Choice' Is 66% More Lethal Than the Safest.",
-    "journalist": "Dale Impactor III",
-    "article_number": 289,
-    "published_at": "2026-05-28T00:27:00Z",
-    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.1, "legal": 9.0, "rigor": 8.8, "data": 8.8}
+    "slug": "547-tickets-one-truck-speed-limiter-law",
+    "headline": "One Cop's Ram 1500 Got 547 Speed Camera Tickets. New York Just Made a Law About It.",
+    "journalist": "Rex Driverton",
+    "article_number": 290,
+    "published_at": "2026-05-28T04:26:00Z",
+    "scores": {"general": 9.0, "voice": 9.2, "ethics": 9.0, "social": 9.1, "legal": 8.9, "rigor": 9.0, "data": 8.8}
   }
 }
