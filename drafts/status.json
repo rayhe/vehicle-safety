@@ -1,28 +1,11 @@
 {
-  "current": {
-    "slug": "iihs-teen-list-lethality-gap",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-05-27T18:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 9.1,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.8
-    },
-    "article_number": 289,
-    "published_at": "2026-05-28T00:27:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "phantom-braking-4-million-vehicles",
-    "headline": "4.4 Million Vehicles Have a Safety Feature That Causes the Exact Crash It Was Designed to Prevent",
-    "journalist": "Clara Rollover",
-    "article_number": 288,
-    "published_at": "2026-05-27T16:28:00Z",
-    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.0, "legal": 8.7, "rigor": 8.6, "data": 8.8}
+    "slug": "iihs-teen-list-lethality-gap",
+    "headline": "IIHS Gave Parents a Teen-Safe Car List. The Deadliest 'Good Choice' Is 66% More Lethal Than the Safest.",
+    "journalist": "Dale Impactor III",
+    "article_number": 289,
+    "published_at": "2026-05-28T00:27:00Z",
+    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.2, "social": 9.1, "legal": 9.0, "rigor": 8.8, "data": 8.8}
   }
 }
