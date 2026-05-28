@@ -1,28 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "rivian-toe-link-investigation-115k",
     "headline": "Rivian Recalled 20,000 Trucks for a Suspension Defect Its Own Technicians Created. Now 115,000 Are Under Investigation.",
-    "phase": "QA",
-    "round": 1,
     "journalist": "Mia Crumplezone",
-    "started": "2026-05-28T16:30:00Z",
     "article_number": 292,
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.6,
-      "rigor": 8.5,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "recall-fix-failure-ram-rollaway",
-    "headline": "1.2 Million Ram Trucks Got Their Recall Fix. The Trucks Still Roll Away.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 291,
-    "published_at": "2026-05-28T14:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.9, "ethics": 9.0, "social": 9.1, "legal": 8.8, "rigor": 8.8, "data": 8.6}
+    "published_at": "2026-05-28T22:30:00Z",
+    "scores": {"general": 8.8, "voice": 8.7, "ethics": 9.0, "social": 9.0, "legal": 8.6, "rigor": 8.5, "data": 8.5}
   }
 }
