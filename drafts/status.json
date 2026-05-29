@@ -1,27 +1,11 @@
 {
-  "current": {
-    "slug": "honda-seat-sensor-child-airbag",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "started": "2026-05-29T08:30:00Z",
-    "article_number": 294,
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.1,
-      "social": 9.3,
-      "legal": 8.8,
-      "rigor": 8.8,
-      "data": 8.6
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "phantom-braking-safety-paradox",
-    "headline": "The Government Mandated a Braking System That Prevents 24,000 Injuries a Year. It Also Causes Crashes in 4 Million Cars.",
-    "journalist": "Vin Wreckage",
-    "article_number": 293,
-    "published_at": "2026-05-29T06:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.0, "social": 9.2, "legal": 8.6, "rigor": 8.7, "data": 8.6}
+    "slug": "honda-seat-sensor-child-airbag",
+    "headline": "30 Years Ago, Airbags Killed Children. The Fix Was One Sensor. Honda Just Recalled 99,000 of Them.",
+    "journalist": "Clara Rollover",
+    "article_number": 294,
+    "published_at": "2026-05-29T10:30:00Z",
+    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.1, "social": 9.3, "legal": 8.8, "rigor": 8.8, "data": 8.6}
   }
 }
