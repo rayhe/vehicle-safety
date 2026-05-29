@@ -1,26 +1,11 @@
 {
-  "current": {
-    "slug": "phantom-braking-safety-paradox",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-05-29T06:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.6,
-      "rigor": 8.7,
-      "data": 8.6
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "rivian-toe-link-investigation-115k",
-    "headline": "Rivian Recalled 20,000 Trucks for a Suspension Defect Its Own Technicians Created. Now 115,000 Are Under Investigation.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 292,
-    "published_at": "2026-05-28T22:30:00Z",
-    "scores": {"general": 8.8, "voice": 8.7, "ethics": 9.0, "social": 9.0, "legal": 8.6, "rigor": 8.5, "data": 8.5}
+    "slug": "phantom-braking-safety-paradox",
+    "headline": "The Government Mandated a Braking System That Prevents 24,000 Injuries a Year. It Also Causes Crashes in 4 Million Cars.",
+    "journalist": "Vin Wreckage",
+    "article_number": 293,
+    "published_at": "2026-05-29T06:30:00Z",
+    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.0, "social": 9.2, "legal": 8.6, "rigor": 8.7, "data": 8.6}
   }
 }
