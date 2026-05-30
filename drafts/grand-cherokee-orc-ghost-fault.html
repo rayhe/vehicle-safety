@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stellantis Built an Airbag Controller That Holds Grudges. 419,000 Grand Cherokees Have One. &mdash; The Crash Report</title>
+  <meta name="description" content="A software bug in the Occupant Restraint Controller causes it to retain door airbag sensor faults permanently, even after repair. Stellantis knew for 39 months.">
+  <meta property="og:title" content="Stellantis Built an Airbag Controller That Holds Grudges. 419,000 Grand Cherokees Have One.">
+  <meta property="og:description" content="The ORC module remembers every sensor fault forever. Even the fixed ones. Side airbags may not deploy.">
+  <meta property="og:image" content="../images/grand-cherokee-orc-ghost-fault.jpg">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stellantis Built an Airbag Controller That Holds Grudges. 419,000 Grand Cherokees Have One.">
+  <meta name="twitter:description" content="The ORC module remembers every sensor fault forever. Even the fixed ones. Side airbags may not deploy.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Stellantis Built an Airbag Controller That Holds Grudges. 419,000 Grand Cherokees Have One.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">May 30, 2026</div>
+
+      <p>Side airbag deployment is a 12-millisecond decision.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> A door-mounted pressure sensor detects intrusion, feeds that signal to the Occupant Restraint Controller, and the ORC fires the side curtain and thorax bags before the occupant's torso has moved three inches laterally. Twelve milliseconds. Faster than a blink. That is how long your Jeep Grand Cherokee has to decide whether physics or nylon gets to your ribcage first.</p>
+
+      <p>In <strong>419,035 Grand Cherokees</strong>, the computer making that decision has a grudge it cannot drop.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">419,035</div>
+      <div class="pull-label">Jeep Grand Cherokees recalled for a software bug that makes the airbag controller permanently remember sensor faults, even after repair</div>
+
+      <p>NHTSA announced on May 29 that Stellantis is recalling 140,130 two-row Grand Cherokees (2022&ndash;2026) and 278,905 three-row Grand Cherokee Ls (2023&ndash;2025) because a software error in the ORC module causes door airbag pressure sensor faults to remain active for the lifetime of the sensor.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Not until the dealer clears the code. Not until a reboot. Forever. Even if the sensor gets replaced, the ORC's software keeps the old fault flagged as current. Built to remember, it cannot forget.</p>
+
+      <p>Brutal in its simplicity: When the ORC sees an active pressure sensor fault during a side impact, it may delay side airbag deployment. Delayed. In a crash type where the gap between the door panel and your skull starts at maybe ten inches and closes to zero in roughly 20 milliseconds. Every millisecond the curtain airbag takes to inflate is a millisecond the door structure absorbs alone.</p>
+
+      <p>Stellantis first identified the problem through warranty claims in February 2023.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Thirty-nine months later, on May 14, 2026, the company finally decided to issue a voluntary recall. In between, investigators ruled out door wire-harness routing. They ruled out the sensors themselves. They eventually traced the defect to software that treated every historical fault as a live fault, a design pattern engineers call a "sticky fault." The physical hardware worked, the wiring worked, the sensors worked — the only broken component was a few lines of code in a controller that cannot distinguish between "this sensor failed once in 2023" and "this sensor is failing right now."</p>
+
+      <p>During those 39 months of investigation, Stellantis continued building Grand Cherokees with the defective ORC software. Production ran through October 9, 2025.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The Grand Cherokee family sold 202,730 units in 2022, 124,957 in 2023, and approximately 161,693 in 2024.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Nearly half a million vehicles rolled off the line and into driveways while Stellantis was still figuring out why the airbag controller held grudges against repaired sensors.</p>
+
+      <p>FARS data offers the grim backdrop: the Grand Cherokee recorded <strong>1,161 occupant deaths</strong> across model years 1993&ndash;2022 in the 2014&ndash;2023 FARS dataset, averaging 116 fatal crashes per year across the entire fleet.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Side-impact collisions account for approximately 23 percent of passenger vehicle fatalities nationally.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> Apply that proportion to the Grand Cherokee fleet and you get roughly 27 side-impact fatal crashes per year. For the affected 2022&ndash;2026 model years, the FARS sample is still small (seven deaths from MY 2022 as of the latest data), but these vehicles are aging into the highest-mileage years when exposure climbs and the probability of sensor faults accumulates with it.</p>
+
+      <p>Before the ORC fault sets, drivers get no warning. None. No light, no chime, no error message. The sensor fails silently, the ORC logs a sticky fault, and the side airbags quietly become less reliable. Only after the fault is detected does the airbag warning light illuminate and a chime sound at each ignition cycle.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The gap between failure and detection is the vulnerability window, and neither Stellantis nor NHTSA has quantified how long it lasts.</p>
+
+      <p>For context, consider what else happened on May 29. Hours before the Stellantis recall, Honda recalled 98,892 vehicles because a cracked seat weight sensor causes airbags to deploy on children and infants when they should suppress.<sup class="ref-link"><a href="#ref-8">[8]</a></sup> Same day, same safety system, opposite catastrophic failure. One manufacturer's airbags fire when they must not. Another manufacturer's airbags hesitate when they must not. A combined 518,000 vehicles whose occupant protection systems fail in mutually exclusive directions, on the same Friday afternoon in May.</p>
+
+      <p><strong>Limitations:</strong> FARS data runs through 2023, so the 2022&ndash;2026 model years have minimal fatal crash exposure in the dataset. The 23-percent side-impact proportion is a national average across all passenger vehicles; the Grand Cherokee's specific side-impact share may differ due to its ride height, weight class (4,500&ndash;5,200 lbs), and rollover propensity. NHTSA has not linked any specific fatality or injury to the ORC ghost-fault defect. The "delay" in airbag deployment has not been quantified publicly; whether it means 5 milliseconds or 500 milliseconds changes the real-world injury calculus dramatically.</p>
+
+      <p><strong>Strongest counterargument:</strong> Stellantis could argue that the 39-month timeline reflects engineering diligence, not negligence. They ruled out multiple hypotheses before isolating the software defect, avoiding a premature recall that targeted the wrong component. No injuries or fatalities have been confirmed as linked to this defect. The fix is a free software update, not a hardware replacement, which suggests the deployment delay may be marginal rather than catastrophic. A vehicle whose side airbags deploy 20 milliseconds late may still provide substantial protection compared to a vehicle with no side airbags at all. Fair point. But "substantial protection compared to none" is not the standard written in FMVSS 214. The standard is timely deployment, and the ORC's sticky fault compromises that — Stellantis knew the faults existed for three years before it knew why.</p>
+
+      <p><strong>What you should do:</strong> If you own a 2022&ndash;2026 Jeep Grand Cherokee or a 2023&ndash;2025 Grand Cherokee L, check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. If your airbag warning light is on and chimes at startup, do not ignore it. Schedule the free software update at your dealer. Until the update is applied, the ORC may be holding a grudge against a sensor that works fine, and your side airbags may be slower to deploy in the crash type where milliseconds decide outcomes.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>FMVSS 214: Side Impact Protection</em>. Side curtain airbag deployment timing requirements. <a href="https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/tp-214-11_tag.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">Reuters, &ldquo;Stellantis to recall over 419,000 US vehicles over improper side air bag deployment,&rdquo; May 29, 2026. <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-3">NHTSA Recall Notice &amp; USA Today, &ldquo;Over 419,000 Jeep vehicles recalled,&rdquo; May 29, 2026. Vehicles produced May 16, 2022&ndash;Oct. 9, 2025. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">MotorTrend, &ldquo;Jeep Recalls 419,000 Grand Cherokee SUVs Over Airbag Module Issue,&rdquo; May 29, 2026. Warranty claims first surfaced Feb. 2023; three-year investigation. <a href="https://www.motortrend.com/" target="_blank" rel="noopener">motortrend.com</a></li>
+          <li id="ref-5">Grand Cherokee U.S. sales data: carfigures.com and Stellantis quarterly sales reports (FCA US LLC). <a href="https://www.carfigures.com/" target="_blank" rel="noopener">carfigures.com</a></li>
+          <li id="ref-6">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Grand Cherokee: 1,161 occupant deaths, 2,637 fatal crashes. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-7">NHTSA, <em>Traffic Safety Facts: Passenger Vehicles</em>. Side impacts account for approximately 23% of passenger vehicle fatalities. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813556" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-8">Reuters, &ldquo;Honda recalls nearly 99,000 US vehicles over airbag issues,&rdquo; May 29, 2026. Seat weight sensor cracking. <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener">reuters.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 and NHTSA recall announcements. FARS data captures fatal crashes only; a delayed side airbag deployment may cause non-fatal injuries not reflected in fatality statistics. The 23% side-impact proportion is a national fleet average and may not precisely match the Grand Cherokee's crash profile. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
