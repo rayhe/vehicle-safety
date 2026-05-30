@@ -1,19 +1,11 @@
 {
-  "current": {
-    "slug": "honda-seat-sensor-child-airbag",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Clara Rollover",
-    "headline": "30 Years Ago, Airbags Killed Children. The Fix Was One Sensor. Honda Just Recalled 99,000 of Them.",
-    "started": "2026-05-30T04:30:00Z",
-    "scores": {"general": 8.7, "voice": 8.5, "ethics": 9.2, "social": 9.1, "legal": 8.6, "rigor": 8.8, "data": 8.7}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "grand-cherokee-orc-ghost-fault",
-    "headline": "Stellantis Built an Airbag Controller That Holds Grudges. 419,000 Grand Cherokees Have One.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 295,
-    "published_at": "2026-05-30T02:35:00Z",
-    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.2, "social": 9.1, "legal": 8.7, "rigor": 8.8, "data": 8.6}
+    "slug": "honda-seat-sensor-child-airbag",
+    "headline": "30 Years Ago, Airbags Killed Children. The Fix Was One Sensor. Honda Just Recalled 99,000 of Them.",
+    "journalist": "Clara Rollover",
+    "article_number": 296,
+    "published_at": "2026-05-30T08:30:00Z",
+    "scores": {"general": 8.7, "voice": 8.5, "ethics": 9.2, "social": 9.1, "legal": 8.6, "rigor": 8.8, "data": 8.7}
   }
 }
