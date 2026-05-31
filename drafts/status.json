@@ -2,9 +2,10 @@
   "current": {
     "slug": "lucid-air-third-power-loss-recall",
     "headline": "Lucid Has Recalled 2,039 Cars for Losing Power Without Warning. This Is the Third Time.",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-05-30T10:30:00Z",
+    "article_number": 297,
     "round": 1,
     "scores": {
       "general": 9.0,
@@ -21,8 +22,7 @@
       "the_starters_pct": 9.2,
       "css_class": "story",
       "stylesheet": "style.css"
-    },
-    "ship_blocked": "1/day limit — #295 and #296 already published today 2026-05-30"
+    }
   },
   "last_completed": {
     "slug": "honda-seat-sensor-child-airbag",
