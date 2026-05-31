@@ -1,26 +1,11 @@
 {
-  "current": {
-    "slug": "airbag-three-failures-527k-one-week",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Vin Wreckage",
-    "started": "2026-05-31T14:30:00Z",
-    "scores": {
-      "general": 8.7,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 9.0,
-      "rigor": 8.7,
-      "data": 8.8
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "work-zone-850-killed-motorists",
-    "headline": "850 People Died in Work Zones Last Year. Four Out of Five Weren't Wearing Orange.",
-    "journalist": "Axle McScatter",
-    "article_number": 299,
-    "published_at": "2026-05-31T10:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.0, "social": 9.2, "legal": 8.8, "rigor": 8.7, "data": 8.7}
+    "slug": "airbag-three-failures-527k-one-week",
+    "headline": "Three Recalls, Three Failure Modes, 527,652 Vehicles. The Airbag Was Supposed to Be the Easy Part.",
+    "journalist": "Vin Wreckage",
+    "article_number": 300,
+    "published_at": "2026-05-31T16:31:33Z",
+    "scores": {"general": 8.7, "voice": 9.0, "ethics": 9.0, "social": 9.2, "legal": 9.0, "rigor": 8.7, "data": 8.8}
   }
 }
