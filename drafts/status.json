@@ -1,26 +1,11 @@
 {
-  "current": {
-    "slug": "work-zone-850-killed-motorists",
-    "phase": "SHIP",
-    "journalist": "Axle McScatter",
-    "started": "2026-05-31T08:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.7
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "cybertruck-safest-pickup-paradox",
-    "headline": "America's Two Deadliest Trucks Can't Pass a Crash Test. The Meme Truck Aced It.",
-    "journalist": "Vin Wreckage",
-    "article_number": 298,
-    "published_at": "2026-05-31T04:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.0, "social": 9.2, "legal": 8.8, "rigor": 8.8, "data": 8.7}
+    "slug": "work-zone-850-killed-motorists",
+    "headline": "850 People Died in Work Zones Last Year. Four Out of Five Weren't Wearing Orange.",
+    "journalist": "Axle McScatter",
+    "article_number": 299,
+    "published_at": "2026-05-31T10:30:00Z",
+    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.0, "social": 9.2, "legal": 8.8, "rigor": 8.7, "data": 8.7}
   }
 }
