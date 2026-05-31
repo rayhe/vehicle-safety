@@ -1,18 +1,11 @@
 {
-  "current": {
-    "slug": "cybertruck-safest-pickup-paradox",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-05-31T02:30:00Z",
-    "round": 1,
-    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.0, "social": 9.2, "legal": 8.8, "rigor": 8.8, "data": 8.7}
-  },
+  "current": null,
   "last_completed": {
-    "slug": "lucid-air-third-power-loss-recall",
-    "headline": "Lucid Has Recalled 2,039 Cars for Losing Power Without Warning. This Is the Third Time.",
-    "journalist": "Rex Driverton",
-    "article_number": 297,
-    "published_at": "2026-05-31T00:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.6, "ethics": 9.0, "social": 9.0, "legal": 8.8, "rigor": 8.8, "data": 8.7}
+    "slug": "cybertruck-safest-pickup-paradox",
+    "headline": "America's Two Deadliest Trucks Can't Pass a Crash Test. The Meme Truck Aced It.",
+    "journalist": "Vin Wreckage",
+    "article_number": 298,
+    "published_at": "2026-05-31T04:30:00Z",
+    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.0, "social": 9.2, "legal": 8.8, "rigor": 8.8, "data": 8.7}
   }
 }
