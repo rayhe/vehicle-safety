@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "airbag-three-failures-527k-one-week",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-31T14:30:00Z",
+    "scores": {
+      "general": 8.7,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 8.7,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "work-zone-850-killed-motorists",
     "headline": "850 People Died in Work Zones Last Year. Four Out of Five Weren't Wearing Orange.",
