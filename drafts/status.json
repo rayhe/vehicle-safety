@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "cybertruck-safest-pickup-paradox",
+    "phase": "QA",
+    "journalist": "Vin Wreckage",
+    "started": "2026-05-31T02:30:00Z",
+    "round": 1,
+    "scores": {"general": 9.0, "voice": 8.7, "ethics": 9.0, "social": 9.2, "legal": 8.8, "rigor": 8.8, "data": 8.7}
+  },
   "last_completed": {
     "slug": "lucid-air-third-power-loss-recall",
     "headline": "Lucid Has Recalled 2,039 Cars for Losing Power Without Warning. This Is the Third Time.",
