@@ -1,27 +1,11 @@
 {
-  "current": {
-    "slug": "tesla-fsd-stats-three-lies",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-06-01T10:30:00Z",
-    "round": 1,
-    "article_number": 302,
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 9.0,
-      "legal": 8.9,
-      "rigor": 9.0,
-      "data": 8.7
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "hyundai-phantom-braking-421k-fca-recall",
-    "headline": "Hyundai Built a Safety System That Causes Crashes. It Knew for 16 Months. 421,078 Vehicles Just Got the Recall.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 301,
-    "published_at": "2026-06-01T06:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.1, "social": 9.2, "legal": 8.9, "rigor": 8.8, "data": 9.0}
+    "slug": "tesla-fsd-stats-three-lies",
+    "headline": "Tesla Claims FSD Is 10x Safer Than You. Three Statistical Distortions Say Otherwise.",
+    "journalist": "Axle McScatter",
+    "article_number": 302,
+    "published_at": "2026-06-01T16:30:00Z",
+    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.1, "social": 9.0, "legal": 8.9, "rigor": 9.0, "data": 8.7}
   }
 }
