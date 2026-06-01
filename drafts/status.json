@@ -1,11 +1,36 @@
 {
-  "current": null,
+  "current": {
+    "slug": "digital-display-blank-epidemic",
+    "phase": "SHIP",
+    "journalist": "Clara Rollover",
+    "started": "2026-06-01T20:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.1,
+      "legal": 8.7,
+      "rigor": 8.9,
+      "data": 8.7
+    },
+    "critique_notes": "All 7 critics 8.5+. Hard gates: em dashes 2 (max 3), no banned phrases, The-starters 11.9% (max 15%), rhythm variance 1053 (min 200). HTML structure verified. Hero image valid JPEG. Ready to ship but 2 articles already published today (1/day cap) \u2014 hold for next run.",
+    "headline": "1.5 Million Vehicles Recalled Because Their Dashboards Forgot How to Be Dashboards"
+  },
   "last_completed": {
     "slug": "tesla-fsd-stats-three-lies",
     "headline": "Tesla Claims FSD Is 10x Safer Than You. Three Statistical Distortions Say Otherwise.",
     "journalist": "Axle McScatter",
     "article_number": 302,
     "published_at": "2026-06-01T16:30:00Z",
-    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.1, "social": 9.0, "legal": 8.9, "rigor": 9.0, "data": 8.7}
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.9,
+      "rigor": 9.0,
+      "data": 8.7
+    }
   }
 }
