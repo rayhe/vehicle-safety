@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "tesla-fsd-stats-three-lies",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-06-01T10:30:00Z",
     "round": 1,
+    "article_number": 302,
     "scores": {
       "general": 9.0,
       "voice": 8.8,

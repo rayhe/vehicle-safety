@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tesla Claims FSD Is 10x Safer Than You. Three Statistical Distortions Say Otherwise. &mdash; The Crash Report</title>
+  <meta name="description" content="Tesla's &lsquo;10x safer&rsquo; FSD claim decomposes into three compounding statistical distortions. Correct for all three and the advantage collapses to roughly 1.1x &mdash; indistinguishable from noise.">
+  <meta property="og:title" content="Tesla Claims FSD Is 10x Safer Than You. Three Statistical Distortions Say Otherwise.">
+  <meta property="og:description" content="Reuters found 10 of 11 traffic-safety researchers call Tesla's FSD safety stats misleading. The math is even worse than they reported.">
+  <meta property="og:image" content="../images/tesla-fsd-stats-three-lies.jpg?v=b5226d22">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Tesla Claims FSD Is 10x Safer Than You. Three Statistical Distortions Say Otherwise.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 1, 2026</div>
+
+      <p>I ran the numbers on Tesla's Full Self-Driving safety claims. Then I decomposed them into their component distortions, quantified what each one contributes to the inflated ratio, and realized that <strong>the "10x safer" claim is three statistical manipulations multiplied together and dressed up as a single metric</strong>.</p>
+
+      <div class="pull-stat">10x &rarr; ~1.1x</div>
+      <div class="pull-label">Tesla's claimed FSD safety advantage after correcting for crash-type mismatch, fleet age, and selection bias</div>
+
+      <p>Tesla's quarterly Vehicle Safety Report asserts that FSD-equipped vehicles experience one airbag-deployment crash per 7.63 million miles driven, versus one per 1.45 million for the general US fleet.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That is a 5.3x ratio. CEO Elon Musk and CFO Vaibhav Taneja have repeatedly inflated this to "7 to 10 times safer than a human driver" in earnings calls and public statements, with Taneja calling FSD at $99 a month "like you're getting a personal chauffeur for almost $3.33 a day."<sup class="ref-link"><a href="#ref-2">[2]</a></sup> On May 28, Reuters reported that 10 of 11 traffic-safety researchers who reviewed Tesla's methodology called it misleading marketing rather than serious safety research.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>They understated the problem. What follows is the decomposition.</p>
+
+      <h2>Distortion #1: Apples vs. Fruit Salad (~3x Inflation)</h2>
+
+      <p>Tesla counts only crashes where its airbags deployed. It then compares this figure against NHTSA data covering all police-reported tow-away crashes, a far broader category that includes low-speed collisions, fender-benders, and incidents that never came close to triggering an airbag. Marco Benedetti, an assistant research scientist at the University of Michigan Transportation Research Institute and former NHTSA statistician, corrected to an airbag-vs-airbag comparison for both datasets.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Two additional traffic-safety researchers vetted his calculations and agreed with the results.</p>
+
+      <p>Advantage after correction: approximately 3x. Not 10x.</p>
+
+      <p>Tesla had access to the airbag-deployment breakdowns in the federal data it used. Choosing the broader tow-away category was not an accident of data availability. It was a choice that tripled the apparent safety margin.</p>
+
+      <h2>Distortion #2: Comparing a 4-Year-Old Car to a 13-Year-Old Fleet (~2x Inflation)</h2>
+
+      <p>Tesla's average vehicle on the road is 4.1 years old, per S&P Global Mobility.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The US fleet averages 12.8 years. FARS model-year fatality data across a decade of records confirms what crash statisticians have known for years: newer vehicles have substantially lower fatality rates because of electronic stability control (federally mandated since 2012), automatic emergency braking, lane-keeping assist, and blind-spot monitoring systems that did not exist in the 2013 Camry sitting in your neighbor's driveway.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>Phil Koopman at Carnegie Mellon put it without decoration: "Any new car is dramatically safer than a 12-year-old car."<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Comparing a 4-year-old Tesla against the full US fleet does not measure what FSD contributes to safety. It measures the cumulative effect of a decade of automotive safety engineering that has nothing to do with Tesla's software.</p>
+
+      <h2>Distortion #3: Cherry-Picked Driving Conditions (~1.5x Inflation)</h2>
+
+      <p>FSD activates disproportionately on highways, where per-mile crash rates are already lower than on surface streets. Drivers disable it in the situations where crashes are most likely: dense urban intersections, construction zones, school zones, unmarked rural roads. When a driver disables FSD because the system is behaving erratically and then crashes 8 seconds later, that crash appears in NHTSA's Standing General Order data (which uses a 30-second window) but not in Tesla's statistics (which use a 5-second window).<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Beyond road type, Tesla's customer base is newer, wealthier, and more suburban than the average American driver. All three demographics correlate independently with lower crash rates. FSD's comparison population was pre-selected for safety before the software processed a single camera frame.</p>
+
+      <div class="pull-stat">3 &times; 2 &times; 1.5 = 9x</div>
+      <div class="pull-label">Estimated artificial inflation from three compounding distortions</div>
+
+      <h2>Compound Result</h2>
+
+      <p>Stack the distortions: 3x from crash-type mismatch, multiplied by approximately 2x from fleet age, multiplied by approximately 1.5x from selection and exposure bias. That yields roughly 9x of artificial inflation baked into the comparison before FSD's actual contribution enters the equation. A claimed 10x advantage divided by 9x of methodological inflation leaves approximately 1.1x, a number that any honest statistician would describe as indistinguishable from noise given the confidence intervals involved.</p>
+
+      <p>If any of those correction factors are conservative, and given that Tesla publishes no peer-reviewed methodology, refuses to share raw crash data, and submits to no independent audit, we cannot confirm they are not conservative, then the FSD-specific safety contribution could be zero. Or negative.</p>
+
+      <h2>Strongest Counterargument</h2>
+
+      <p>A person who buys a new Tesla with FSD IS less likely to die in a crash than someone driving the average American car. That is probably true in aggregate and it is not a trivial outcome. Tesla's vehicles are new. They carry modern safety equipment. They are well-maintained by a demographic that can afford a $40,000-plus car. All of these factors contribute to real-world safety, and a family riding in a 2024 Model Y is genuinely safer than one in a 2012 Altima regardless of what FSD is doing.</p>
+
+      <p>But that argument supports buying a new car with modern safety features. It does not support paying $99 per month for FSD, nor does it validate Musk's claim that replacing every vehicle in America with FSD Teslas would "save 32,000 lives," a figure that assumes FSD-specific causation from a comparison riddled with confounders.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Waymo publishes in peer-reviewed journals, condition-matches its comparisons, acknowledges limitations, and invites independent verification.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Tesla does none of these things. If FSD is genuinely safer, Tesla's methodology ensures nobody can prove it.</p>
+
+      <h2>Limitations</h2>
+
+      <p>We cannot compute the exact FSD-specific safety contribution because Tesla keeps its raw crash data proprietary. Benedetti's corrected 3x figure still contains fleet-age and selection-bias contamination that he was not able to fully remove with available data. FARS measures fatality rates in fatal crashes, not overall crash rates; a vehicle could crash more frequently while killing fewer occupants, or vice versa. Our fleet-age adjustment is approximate, derived from FARS model-year trends rather than a vehicle-age-matched crash-rate analysis that would require data Tesla will not release. Finally, the 1.5x selection-bias estimate is the least precise of the three corrections and could reasonably range from 1.2x to 2x depending on assumptions about highway vs. surface-street FSD usage patterns.</p>
+
+      <h2>What You Should Do</h2>
+
+      <p>If you own a Tesla with FSD, keep using it if you find it reduces fatigue on highway drives. Do not trust it to be "10 times safer" than your own driving; that number has no methodological foundation. Maintain the same attentiveness you would without the system active, which is what Tesla's own terms of service require anyway.</p>
+
+      <p>If you are shopping for a safe vehicle, look at IIHS TOP SAFETY PICK+ ratings at <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a> and check your VIN for open recalls at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. Modern safety features like AEB and ESC deliver measurable, peer-reviewed crash-reduction benefits regardless of brand. A $35,000 Subaru Forester with a TOP SAFETY PICK+ rating and no monthly software subscription will protect your family based on engineering that has been independently verified, not marketing that has been independently debunked.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Tesla, <em>Vehicle Safety Report</em>, quarterly publication. Airbag-deployment crash rates for FSD, Autopilot, and manual driving. <a href="https://www.tesla.com/VehicleSafetyReport" target="_blank" rel="noopener">tesla.com</a></li>
+          <li id="ref-2">Reuters, &ldquo;Why Tesla&rsquo;s AI trainers don&rsquo;t trust its self-driving tech &ndash; or its safety stats,&rdquo; May 28, 2026. Interviews with 9 former data labelers, 1 former engineer, 11 traffic-safety researchers. Includes Benedetti airbag-vs-airbag reanalysis and Koopman fleet-age commentary. <a href="https://www.reuters.com/investigates" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-3">S&amp;P Global Mobility, US average vehicle age data. Tesla fleet estimated at 4.1 years; US fleet average 12.8 years. <a href="https://www.spglobal.com/mobility" target="_blank" rel="noopener">spglobal.com</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Model-year fatality trends. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">Waymo, &ldquo;Waymo significantly outperforms comparable human benchmarks over 22+ million miles of rider-only driving,&rdquo; peer-reviewed autonomous vehicle safety methodology. <a href="https://waymo.com/research/safety" target="_blank" rel="noopener">waymo.com</a></li>
+          <li id="ref-6">NHTSA, Preliminary Evaluation PE25012: FSD traffic safety violations investigation. 2.88 million Tesla vehicles, 58 reports, 14 crashes, 23 injuries. Opened October 7, 2025. <a href="https://www.nhtsa.gov/vehicle/2025/TESLA" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> Reuters investigation (May 28, 2026); NHTSA FARS 2014&ndash;2023; Tesla Vehicle Safety Report; S&amp;P Global Mobility; Benedetti reanalysis (University of Michigan Transportation Research Institute). Distortion multipliers are estimates based on published corrections and fleet-age trends; exact values require raw data Tesla has not released. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
