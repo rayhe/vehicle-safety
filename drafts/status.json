@@ -1,5 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "hyundai-phantom-braking-421k-fca-recall",
+    "headline": "Hyundai Built a Safety System That Causes Crashes. It Knew for 16 Months. 421,078 Vehicles Just Got the Recall.",
+    "journalist": "Mia Crumplezone",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-06-01T04:30:00Z",
+    "article_number": 301,
+    "scores": {"general": 9.0, "voice": 8.8, "ethics": 9.1, "social": 9.2, "legal": 8.9, "rigor": 8.8, "data": 9.0}
+  },
   "last_completed": {
     "slug": "airbag-three-failures-527k-one-week",
     "headline": "Three Recalls, Three Failure Modes, 527,652 Vehicles. The Airbag Was Supposed to Be the Easy Part.",
