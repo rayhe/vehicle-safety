@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-fsd-stats-three-lies",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "started": "2026-06-01T10:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.9,
+      "rigor": 9.0,
+      "data": 8.7
+    }
+  },
   "last_completed": {
     "slug": "hyundai-phantom-braking-421k-fca-recall",
     "headline": "Hyundai Built a Safety System That Causes Crashes. It Knew for 16 Months. 421,078 Vehicles Just Got the Recall.",
