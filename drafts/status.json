@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "digital-display-blank-epidemic",
-    "phase": "QA",
+    "headline": "1.5 Million Vehicles Recalled Because Their Dashboards Forgot How to Be Dashboards",
     "journalist": "Clara Rollover",
-    "started": "2026-06-01T20:30:00Z",
-    "round": 1,
+    "article_number": 303,
+    "published_at": "2026-06-02T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -12,25 +13,6 @@
       "social": 9.1,
       "legal": 8.7,
       "rigor": 8.9,
-      "data": 8.7
-    },
-    "headline": "1.5 Million Vehicles Recalled Because Their Dashboards Forgot How to Be Dashboards",
-    "article_number": 303,
-    "published_at": "2026-06-02T00:30:00Z"
-  },
-  "last_completed": {
-    "slug": "tesla-fsd-stats-three-lies",
-    "headline": "Tesla Claims FSD Is 10x Safer Than You. Three Statistical Distortions Say Otherwise.",
-    "journalist": "Axle McScatter",
-    "article_number": 302,
-    "published_at": "2026-06-01T16:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 9.0,
-      "legal": 8.9,
-      "rigor": 9.0,
       "data": 8.7
     }
   }
