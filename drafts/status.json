@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "cdl-license-to-kill-202000-prohibited-drivers",
-    "phase": "QA",
+    "headline": "202,345 Truck Drivers Are Banned From Driving. Nobody Took Their Keys.",
     "journalist": "Vin Wreckage",
-    "started": "2026-06-02T08:30:00Z",
-    "published_at": "2026-06-02T12:30:00Z",
     "article_number": 306,
-    "round": 0,
+    "published_at": "2026-06-02T12:30:00Z",
     "scores": {
       "general": 9.1,
       "voice": 8.6,
@@ -15,22 +14,6 @@
       "legal": 8.7,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "dadss-92-million-tech-doesnt-exist",
-    "headline": "$92 Million and 18 Years Later, the Technology That Was Supposed to End Drunk Driving Doesn't Exist",
-    "journalist": "Dale Impactor III",
-    "article_number": 305,
-    "published_at": "2026-06-02T04:35:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.9
     }
   }
 }
