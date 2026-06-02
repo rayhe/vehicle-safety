@@ -1,27 +1,11 @@
 {
-  "current": {
-    "slug": "software-recall-epidemic-record",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "headline": "12.1 Million Vehicles Recalled in One Quarter. The Defect Wasn't Mechanical.",
-    "article_number": 304,
-    "started": "2026-06-02T02:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.7,
-      "rigor": 8.9,
-      "data": 8.7
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "digital-display-blank-epidemic",
-    "headline": "1.5 Million Vehicles Recalled Because Their Dashboards Forgot How to Be Dashboards",
-    "journalist": "Clara Rollover",
-    "article_number": 303,
-    "published_at": "2026-06-02T00:30:00Z",
+    "slug": "software-recall-epidemic-record",
+    "headline": "12.1 Million Vehicles Recalled in One Quarter. The Defect Wasn't Mechanical.",
+    "journalist": "Rex Driverton",
+    "article_number": 304,
+    "published_at": "2026-06-02T02:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
