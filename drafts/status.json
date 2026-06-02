@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-vestigial-regulations-10-to-1-repeal",
-    "phase": "SHIP",
+    "headline": "NHTSA Proved Its Safety Rules Saved 860,000 Lives. Now It Has to Find 10 to Kill for Every New One.",
     "journalist": "Rex Driverton",
-    "started": "2026-06-02T16:30:00Z",
-    "round": 1,
+    "article_number": 307,
+    "published_at": "2026-06-02T20:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -13,22 +14,6 @@
       "legal": 9.0,
       "rigor": 8.8,
       "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "cdl-license-to-kill-202000-prohibited-drivers",
-    "headline": "202,345 Truck Drivers Are Banned From Driving. Nobody Took Their Keys.",
-    "journalist": "Vin Wreckage",
-    "article_number": 306,
-    "published_at": "2026-06-02T12:30:00Z",
-    "scores": {
-      "general": 9.1,
-      "voice": 8.6,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
