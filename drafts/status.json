@@ -1,10 +1,20 @@
 {
   "current": {
     "slug": "cdl-license-to-kill-202000-prohibited-drivers",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-06-02T08:30:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 9.1,
+      "voice": 8.6,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "critique_notes": "All 7 critics at 8.5+. All hard gates passed: 0 em dashes, 0 banned phrases, 7.8% The-starters, sentence rhythm PASS (variance 1504.7, short 13.6%, long 68.2%). 1/day limit reached — 3 articles already published today (UTC). Queued for next eligible publish window."
   },
   "last_completed": {
     "slug": "dadss-92-million-tech-doesnt-exist",
