@@ -1,27 +1,19 @@
 {
-  "current": {
-    "slug": "dadss-92-million-tech-doesnt-exist",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Dale Impactor III",
-    "headline": "$92 Million and 18 Years Later, the Technology That Was Supposed to End Drunk Driving Doesn't Exist",
-    "article_number": 305,
-    "started": "2026-06-02T04:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "software-recall-epidemic-record",
-    "headline": "12.1 Million Vehicles Recalled in One Quarter. The Defect Wasn't Mechanical.",
-    "journalist": "Rex Driverton",
-    "article_number": 304,
-    "published_at": "2026-06-02T02:30:00Z",
+    "slug": "dadss-92-million-tech-doesnt-exist",
+    "headline": "$92 Million and 18 Years Later, the Technology That Was Supposed to End Drunk Driving Doesn't Exist",
+    "journalist": "Dale Impactor III",
+    "article_number": 305,
+    "published_at": "2026-06-02T04:35:00Z",
     "scores": {
       "general": 9.0,
-      "voice": 8.8,
+      "voice": 8.7,
       "ethics": 9.0,
       "social": 9.1,
-      "legal": 8.7,
-      "rigor": 8.9,
-      "data": 8.7
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.9
     }
   }
 }
