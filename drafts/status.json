@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "cdl-mill-pipeline-7000-sham-schools",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
     "headline": "7,000 Sham CDL Schools Shut Down. Their Graduates Are Still Driving.",
+    "journalist": "Clara Rollover",
     "article_number": 309,
-    "started": "2026-06-03T08:30:00Z",
+    "published_at": "2026-06-03T08:36:00Z",
     "scores": {
       "general": 8.8,
       "voice": 9.0,
@@ -14,22 +14,6 @@
       "legal": 9.0,
       "rigor": 8.7,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "pedestrian-decline-five-state-mirage",
-    "headline": "Five States Saved 250 Pedestrians. Twenty-Four States Killed More.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 308,
-    "published_at": "2026-06-03T06:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7
     }
   }
 }
