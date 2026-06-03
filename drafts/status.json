@@ -1,30 +1,15 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "pedestrian-decline-five-state-mirage",
-    "phase": "QA",
+    "headline": "Five States Saved 250 Pedestrians. Twenty-Four States Killed More.",
     "journalist": "Mia Crumplezone",
-    "started": "2026-06-03T04:30:00Z",
-    "round": 1,
+    "article_number": 308,
+    "published_at": "2026-06-03T06:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
       "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-vestigial-regulations-10-to-1-repeal",
-    "headline": "NHTSA Proved Its Safety Rules Saved 860,000 Lives. Now It Has to Find 10 to Kill for Every New One.",
-    "journalist": "Rex Driverton",
-    "article_number": 307,
-    "published_at": "2026-06-02T20:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
       "social": 9.0,
       "legal": 9.0,
       "rigor": 8.8,
