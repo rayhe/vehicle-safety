@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "toyota-tundra-v35a-three-recalls-270k-engines",
     "headline": "Toyota Built 270,000 Engines That Could Seize at Highway Speed. Then It Fixed the Problem. Then the Fix Failed.",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "round": 1,
     "article_number": 312,
-    "started": "2026-06-04T06:30:00Z",
+    "published_at": "2026-06-04T08:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,22 +14,6 @@
       "legal": 8.7,
       "rigor": 8.8,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "honda-weight-sensor-child-airbag-irony",
-    "headline": "A Natural Disaster Broke a Capacitor. Now 850,000 Hondas Can't Tell a Child from an Adult.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 311,
-    "published_at": "2026-06-04T04:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.1,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.7
     }
   }
 }
