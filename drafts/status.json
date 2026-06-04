@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "honda-weight-sensor-child-airbag-irony",
-    "phase": "SHIP",
+    "headline": "A Natural Disaster Broke a Capacitor. Now 850,000 Hondas Can't Tell a Child from an Adult.",
     "journalist": "Mia Crumplezone",
-    "started": "2026-06-04T02:30:00Z",
-    "round": 1,
+    "article_number": 311,
+    "published_at": "2026-06-04T04:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.1,
@@ -12,30 +13,6 @@
       "social": 9.2,
       "legal": 8.8,
       "rigor": 8.7,
-      "data": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 7.6,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": "PASS (variance=374.8, short=15.0%, long=45.0%)"
-    }
-  },
-  "last_completed": {
-    "slug": "ford-do-not-drive-ball-joint-nuclear-option",
-    "headline": "Ford Used the Nuclear Option on a Ball Joint. That Warning Used to Mean 'Your Car Contains a Bomb.'",
-    "journalist": "Vin Wreckage",
-    "article_number": 310,
-    "published_at": "2026-06-04T00:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.2,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.8,
-      "rigor": 8.9,
       "data": 8.7
     }
   }
