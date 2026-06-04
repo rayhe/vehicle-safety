@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ford-do-not-drive-ball-joint-nuclear-option",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "started": "2026-06-03T10:30:00Z",
     "round": 1,
@@ -22,8 +22,8 @@
       "stylesheet": "style.css",
       "sentence_rhythm": "PASS (variance=372.2, short=12.5%, long=48.2%)"
     },
-    "awaiting_publish": true,
-    "publish_blocked_reason": "2 articles already published today (#308, #309)"
+    "published_at": "2026-06-04T00:30:00Z",
+    "article_number": 310
   },
   "last_completed": {
     "slug": "cdl-mill-pipeline-7000-sham-schools",
