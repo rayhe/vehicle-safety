@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ford-pretensioner-propellant-bombs-in-your-car",
     "headline": "Your Car Has 14 Explosive Charges Inside It. Ford Just Proved They Expire.",
     "journalist": "Vin Wreckage",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-06-04T12:30:00Z",
     "article_number": 313,
+    "published_at": "2026-06-04T16:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -14,22 +13,6 @@
       "social": 9.2,
       "legal": 8.7,
       "rigor": 8.7,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "toyota-tundra-v35a-three-recalls-270k-engines",
-    "headline": "Toyota Built 270,000 Engines That Could Seize at Highway Speed. Then It Fixed the Problem. Then the Fix Failed.",
-    "journalist": "Axle McScatter",
-    "article_number": 312,
-    "published_at": "2026-06-04T08:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.8,
       "data": 8.8
     }
   }
