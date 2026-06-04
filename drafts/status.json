@@ -1,5 +1,28 @@
 {
-  "current": null,
+  "current": {
+    "slug": "honda-weight-sensor-child-airbag-irony",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-06-04T02:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.1,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.7
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 7.6,
+      "css_class": "story",
+      "stylesheet": "style.css",
+      "sentence_rhythm": "PASS (variance=374.8, short=15.0%, long=45.0%)"
+    }
+  },
   "last_completed": {
     "slug": "ford-do-not-drive-ball-joint-nuclear-option",
     "headline": "Ford Used the Nuclear Option on a Ball Joint. That Warning Used to Mean 'Your Car Contains a Bomb.'",
