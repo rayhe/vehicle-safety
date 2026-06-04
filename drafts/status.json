@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ford-do-not-drive-ball-joint-nuclear-option",
-    "phase": "QA",
+    "headline": "Ford Used the Nuclear Option on a Ball Joint. That Warning Used to Mean 'Your Car Contains a Bomb.'",
     "journalist": "Vin Wreckage",
-    "started": "2026-06-03T10:30:00Z",
-    "round": 1,
+    "article_number": 310,
+    "published_at": "2026-06-04T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.2,
@@ -13,32 +14,6 @@
       "legal": 8.8,
       "rigor": 8.9,
       "data": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "banned_phrases": 0,
-      "the_starters_pct": 9.4,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": "PASS (variance=372.2, short=12.5%, long=48.2%)"
-    },
-    "published_at": "2026-06-04T00:30:00Z",
-    "article_number": 310
-  },
-  "last_completed": {
-    "slug": "cdl-mill-pipeline-7000-sham-schools",
-    "headline": "7,000 Sham CDL Schools Shut Down. Their Graduates Are Still Driving.",
-    "journalist": "Clara Rollover",
-    "article_number": 309,
-    "published_at": "2026-06-03T08:36:00Z",
-    "scores": {
-      "general": 8.8,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 9.1,
-      "legal": 9.0,
-      "rigor": 8.7,
-      "data": 8.8
     }
   }
 }
