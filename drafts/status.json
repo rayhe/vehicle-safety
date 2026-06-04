@@ -4,9 +4,18 @@
     "headline": "Subaru Built the Safest Cars in America. In 2026, Half a Million of Them Got Recalled.",
     "journalist": "Clara Rollover",
     "article_number": 314,
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-06-04T18:30:00Z"
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-06-04T18:30:00Z",
+    "scores": {
+      "general": 8.8,
+      "voice": 9.0,
+      "ethics": 9.2,
+      "social": 9.1,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.7
+    }
   },
   "last_completed": {
     "slug": "ford-pretensioner-propellant-bombs-in-your-car",
