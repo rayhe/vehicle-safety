@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "legal-bac-2028-killed-below-limit",
+    "phase": "QA",
+    "journalist": "Dale Impactor III",
+    "started": "2026-06-05T12:30:00Z",
+    "article_number": 316,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.1,
+      "social": 8.8,
+      "legal": 8.9,
+      "rigor": 8.8,
+      "data": 8.9
+    }
+  },
   "last_completed": {
     "slug": "nhtsa-av-crash-reporting-gutted",
     "headline": "NHTSA Tracked Every Robotaxi Crash for Four Years. On June 16, It Stops.",
