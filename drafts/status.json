@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "legal-bac-2028-killed-below-limit",
-    "phase": "QA",
+    "headline": "2,028 People Killed by 'Legal' Drivers Last Year. One State Had the Fix Since 2018.",
     "journalist": "Dale Impactor III",
-    "started": "2026-06-05T12:30:00Z",
     "article_number": 316,
+    "published_at": "2026-06-05T18:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -13,22 +14,6 @@
       "legal": 8.9,
       "rigor": 8.8,
       "data": 8.9
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-av-crash-reporting-gutted",
-    "headline": "NHTSA Tracked Every Robotaxi Crash for Four Years. On June 16, It Stops.",
-    "journalist": "Rex Driverton",
-    "article_number": 315,
-    "published_at": "2026-06-05T04:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 8.7,
-      "legal": 8.7,
-      "rigor": 8.6,
-      "data": 8.5
     }
   }
 }
