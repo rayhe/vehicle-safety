@@ -4,10 +4,18 @@
     "headline": "NHTSA Tracked Every Robotaxi Crash for Four Years. On June 16, It Stops.",
     "journalist": "Rex Driverton",
     "article_number": 315,
-    "phase": "DRAFT",
+    "phase": "QA",
     "round": 0,
     "started": "2026-06-05T02:30:00Z",
-    "scores": {}
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.2,
+      "social": 8.7,
+      "legal": 8.7,
+      "rigor": 8.6,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "subaru-safest-brand-recall-avalanche",
