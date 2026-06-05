@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "nhtsa-av-crash-reporting-gutted",
     "headline": "NHTSA Tracked Every Robotaxi Crash for Four Years. On June 16, It Stops.",
     "journalist": "Rex Driverton",
     "article_number": 315,
-    "phase": "QA",
-    "round": 0,
-    "started": "2026-06-05T02:30:00Z",
+    "published_at": "2026-06-05T04:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -15,22 +14,6 @@
       "legal": 8.7,
       "rigor": 8.6,
       "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "subaru-safest-brand-recall-avalanche",
-    "headline": "Subaru Built the Safest Cars in America. In 2026, Half a Million of Them Got Recalled.",
-    "journalist": "Clara Rollover",
-    "article_number": 314,
-    "published_at": "2026-06-05T02:30:00Z",
-    "scores": {
-      "general": 8.8,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 9.1,
-      "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.7
     }
   }
 }
