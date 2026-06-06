@@ -1,26 +1,19 @@
 {
-  "current": {
-    "slug": "teen-driver-safe-list-fars-gap",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-06-06T08:30:00Z",
-    "article_number": 318,
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "slug": "land-cruiser-indestructible-myth",
-    "headline": "The Toyota Land Cruiser Has a Higher Death Rate Than a Mustang. Nobody Talks About It.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 317,
-    "published_at": "2026-06-06T00:30:00Z",
+    "slug": "teen-driver-safe-list-fars-gap",
+    "headline": "6 of 15 \"Safe\" Teen Cars Have Above-Average Death Rates. The List Doesn't Mention It.",
+    "journalist": "Axle McScatter",
+    "article_number": 318,
+    "published_at": "2026-06-06T08:30:00Z",
     "scores": {
       "general": 8.8,
-      "voice": 9.0,
+      "voice": 8.7,
       "ethics": 9.0,
-      "social": 9.0,
+      "social": 8.9,
       "legal": 9.0,
       "rigor": 8.8,
-      "data": 8.9
+      "data": 8.7
     }
   }
 }
