@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "societal-cost-per-vehicle",
-    "phase": "QA",
+    "headline": "Every Car Has a Death Invoice. We Calculated Yours.",
     "journalist": "Vin Wreckage",
-    "started": "2026-06-06T16:30:00Z",
-    "round": 1,
     "article_number": 319,
+    "published_at": "2026-06-06T20:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,22 +14,6 @@
       "legal": 9.0,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "teen-driver-safe-list-fars-gap",
-    "headline": "6 of 15 \"Safe\" Teen Cars Have Above-Average Death Rates. The List Doesn't Mention It.",
-    "journalist": "Axle McScatter",
-    "article_number": 318,
-    "published_at": "2026-06-06T08:30:00Z",
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 8.9,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7
     }
   }
 }
