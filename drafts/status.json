@@ -1,26 +1,11 @@
 {
   "current": {
     "slug": "land-cruiser-indestructible-myth",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-06-05T20:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 8.8,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.9
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 13.5,
-      "css_correct": true
-    },
-    "critique_note": "All 7 critics 8.5+, all hard gates clean. 1/day gate: #316 already published 2026-06-05 — holding for next publish window."
+    "article_number": 317,
+    "published_at": "2026-06-06T00:30:00Z"
   },
   "last_completed": {
     "slug": "legal-bac-2028-killed-below-limit",
