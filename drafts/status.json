@@ -1,24 +1,17 @@
 {
-  "current": {
-    "slug": "land-cruiser-indestructible-myth",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-06-05T20:30:00Z",
-    "article_number": 317,
-    "published_at": "2026-06-06T00:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "legal-bac-2028-killed-below-limit",
-    "headline": "2,028 People Killed by 'Legal' Drivers Last Year. One State Had the Fix Since 2018.",
-    "journalist": "Dale Impactor III",
-    "article_number": 316,
-    "published_at": "2026-06-05T18:30:00Z",
+    "slug": "land-cruiser-indestructible-myth",
+    "headline": "The Toyota Land Cruiser Has a Higher Death Rate Than a Mustang. Nobody Talks About It.",
+    "journalist": "Mia Crumplezone",
+    "article_number": 317,
+    "published_at": "2026-06-06T00:30:00Z",
     "scores": {
-      "general": 9.0,
+      "general": 8.8,
       "voice": 9.0,
-      "ethics": 9.1,
-      "social": 8.8,
-      "legal": 8.9,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
       "rigor": 8.8,
       "data": 8.9
     }
