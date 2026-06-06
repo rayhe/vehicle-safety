@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "societal-cost-per-vehicle",
+    "phase": "CRITIQUE",
+    "journalist": "Vin Wreckage",
+    "started": "2026-06-06T16:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "teen-driver-safe-list-fars-gap",
     "headline": "6 of 15 \"Safe\" Teen Cars Have Above-Average Death Rates. The List Doesn't Mention It.",
