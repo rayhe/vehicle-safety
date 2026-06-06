@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "societal-cost-per-vehicle",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-06-06T16:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "teen-driver-safe-list-fars-gap",
