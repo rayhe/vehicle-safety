@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vehicle-safety.org/</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://vehicle-safety.org/stories/seatbelt-recall-epidemic-2026.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://vehicle-safety.org/stories/teen-driver-safe-list-fars-gap.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vehicle-safety.org/stories/land-cruiser-indestructible-myth.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vehicle-safety.org/stories/legal-bac-2028-killed-below-limit.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -881,7 +887,7 @@
   </url>
   <url>
     <loc>https://vehicle-safety.org/stories/land-cruiser-indestructible-myth.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1293,7 +1299,7 @@
   <url>
   <url>
     <loc>https://vehicle-safety.org/stories/land-cruiser-indestructible-myth.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1831,12 +1837,12 @@
   </url>
   <url>
     <loc>https://vehicle-safety.org/stories/nhtsa-av-crash-reporting-gutted.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vehicle-safety.org/stories/societal-cost-per-vehicle.html</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

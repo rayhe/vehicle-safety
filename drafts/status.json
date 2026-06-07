@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "seatbelt-recall-epidemic-2026",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-06-07T04:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.9,
+      "ethics": 9.2,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.7
+    }
+  },
   "last_completed": {
     "slug": "societal-cost-per-vehicle",
     "headline": "Every Car Has a Death Invoice. We Calculated Yours.",
