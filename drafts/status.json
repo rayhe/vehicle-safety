@@ -1,5 +1,32 @@
 {
-  "current": null,
+  "current": {
+    "slug": "webasto-one-supplier-sixteen-years-flying-roofs",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-07T12:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.1,
+      "ethics": 9.2,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 10.5,
+      "css_check": "pass",
+      "sentence_rhythm": {
+        "variance": 322.1,
+        "short_pct": 11.1,
+        "long_pct": 37.0,
+        "passed": true
+      }
+    }
+  },
   "last_completed": {
     "slug": "seatbelt-recall-epidemic-2026",
     "headline": "Five Automakers, One Safety Device, None of Them Got It Right",
