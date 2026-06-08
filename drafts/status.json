@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "thirty-six-thousand-autopilot-decline",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-06-08T08:30:00Z",
+    "article_number": 324
+  },
   "last_completed": {
     "slug": "fuel-saving-fire-paradox",
     "headline": "1.2 Million Cars Recalled Because Their Gas-Saving Features Catch Fire",
