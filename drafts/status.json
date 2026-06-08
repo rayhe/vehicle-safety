@@ -1,10 +1,28 @@
 {
   "current": {
     "slug": "thirty-six-thousand-autopilot-decline",
-    "phase": "DRAFT",
+    "phase": "SHIP",
+    "round": 1,
     "journalist": "Axle McScatter",
     "started": "2026-06-08T08:30:00Z",
-    "article_number": 324
+    "article_number": 324,
+    "scores": {
+      "general": 8.8,
+      "voice": 8.7,
+      "ethics": 9.1,
+      "social": 8.6,
+      "rigor": 8.6,
+      "legal": 8.8,
+      "data": 8.7
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 8.9,
+      "css_class": "PASS",
+      "sentence_rhythm": "PASS (variance=473.3, short=14.3%, long=46.4%)"
+    },
+    "critique_notes": "All 7 critics at 8.5+. FARS data verified: 187,058 total / 134,491 pre-2012 (71.9%) / 42,981 MY 2004-2007 / 337 models — all match article claims. HTML structure fixed (disclaimer moved outside article). 1/day gate blocks publish today (Publish #323 already committed). Will ship next run."
   },
   "last_completed": {
     "slug": "fuel-saving-fire-paradox",
