@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ram 1500 Looks Like the Safest Vehicle in America. It Isn't. &mdash; The Crash Report</title>
+  <meta name="description" content="When Dodge Ram became just Ram, the fatality data split in two. The result: a phantom safety miracle that makes full-size pickups look safer than a RAV4.">
+  <meta property="og:title" content="The Ram 1500 Looks Like the Safest Vehicle in America. It Isn't.">
+  <meta property="og:description" content="Brand splits create ghost rates in FARS data. The Ram 1500's 0.13 death rate is a methodological artifact, not an engineering triumph.">
+  <meta property="og:image" content="../images/brand-split-fars-phantom-rates.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Ram 1500 Looks Like the Safest Vehicle in America. It Isn't.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 7, 2026</div>
+
+      <p>Pull up any FARS-derived vehicle safety ranking and <strong>the Ram 1500 sits at 0.13 deaths per 100 million vehicle miles traveled</strong>, lower than the Toyota RAV4, lower than the Honda CR-V, lower than every sedan, every SUV, and every other truck in the dataset. The deadliest vehicle class in America apparently contains the single safest nameplate. I ran it three times. The number didn't change. But the explanation did.</p>
+
+      <div class="pull-stat">0.13 vs. 0.78</div>
+      <div class="pull-label">Ram 1500 rate vs. Dodge Ram rate &mdash; same truck, different eras, 6&times; safety gap that doesn't exist</div>
+
+      <p>In 2010, Chrysler carved "Ram" out of the Dodge brand and gave it its own showroom line. Same factory, same truck, new badge. FARS dutifully recorded the split: deaths in older Dodge-branded Rams went to the "Dodge Ram" ledger (4,407 deaths, rate 0.78), while deaths in newer Ram-branded trucks went to "Ram 1500" (714 deaths, rate 0.13). The fleet denominator stayed roughly the same for both because sales volume didn't crater with the rebrand. What changed was the numerator: the Ram 1500 entry only captures trucks from model year 2013 onward, which are newer, have fewer accumulated road-years in the FARS observation window, and benefit from post-ESC-mandate structural improvements. The Dodge Ram entry absorbs a decade of older, deadlier trucks from before electronic stability control was even required.</p>
+
+      <p>Combine the two and you get approximately 5,270 deaths across the full lineage, a rate somewhere between 0.78 and 0.93 per 100 million VMT. Right alongside the Ford F-150 at 1.04 and the Chevy Silverado at 1.25, which is exactly where intuition says a full-size pickup should be. Not the safest vehicle in America. A normal truck.</p>
+
+      <p>The Ram isn't the only ghost in the data. Pontiac died in 2010, leaving behind the Grand Am (713 deaths), Grand Prix (970 deaths), and G6 (908 deaths) trapped in a condemned brand that can never add new, safer model years to dilute its rate. Every year those aging Pontiacs stay on the road, the brand's apparent death rate can only climb. Saturn collapsed the same year: its Vue became the Chevrolet Captiva Sport, its Aura became the Malibu's statistical neighbor, and the deaths before the switchover stayed pinned to the dead Saturn nameplate. Mercury followed in 2011, splitting the Grand Marquis from the Ford Crown Victoria that shared its bones. At least fifteen models across five defunct or rebranded marques carry rates distorted by where the corporate paperwork landed, not where the engineering improved.</p>
+
+      <p>The counterargument writes itself: modern Rams ARE safer than 2005 Dodge Rams. ESC became mandatory for model year 2012 under FMVSS 126.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The 2019 Ram redesign brought better crash geometry, standard forward-collision warning, and a stiffer cab structure. Some of the rate difference is real. But no engineering gain turns a full-size pickup into a vehicle that is 8 times safer per mile than an F-150 and 50% safer than a RAV4, which weighs two thousand pounds less and doesn't share the road with the same physics. The magnitude of the apparent improvement only makes sense as an artifact. FARS doesn't break rates by model year cohort cleanly enough for researchers to separate the brand-split distortion from the genuine safety delta, which means every published ranking that uses the raw rate is blending a real signal with a clerical accident.</p>
+
+      <p>What this means for you: if you're comparing vehicle safety using any database that traces back to FARS per-model rates, check whether the vehicle had a brand change during the observation window. The Ram 1500 is the most dramatic example, but any model that crossed a brand boundary will carry a rate that overstates or understates the truth. The "safest truck in America" didn't earn that title in a crash lab. It earned it in a corporate rebranding meeting. The math just never caught up.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Federal Motor Vehicle Safety Standard No. 126: Electronic Stability Control Systems</em>, Final Rule, June 2007. <a href="https://www.govinfo.gov/content/pkg/FR-2007-06-22/html/E7-11965.htm" target="_blank" rel="noopener">govinfo.gov</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Passenger Vehicle Occupants</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Death rates are estimated using VMT derived from NHTS survey data and industry fleet estimates, introducing &plusmn;15% uncertainty for individual models. Brand-split vehicles may appear as separate entries in the dataset; combined rates shown here are The Crash Report's calculations. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

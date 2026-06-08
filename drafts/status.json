@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "heat-kills-your-safety-systems",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-06-07T22:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "webasto-one-supplier-sixteen-years-flying-roofs",
     "headline": "One Supplier Has Been Making Roofs That Fly Off for Sixteen Years",
