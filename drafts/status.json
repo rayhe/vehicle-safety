@@ -1,32 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "heat-kills-your-safety-systems",
-    "phase": "SHIP",
+    "headline": "Three Recalls, One Chemistry Lesson Your Car Failed",
     "journalist": "Mia Crumplezone",
-    "started": "2026-06-07T22:30:00Z",
-    "round": 1,
+    "article_number": 322,
+    "published_at": "2026-06-08T00:31:00Z",
     "scores": {
       "general": 8.7,
       "voice": 8.8,
       "ethics": 9.1,
       "social": 8.8,
       "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "webasto-one-supplier-sixteen-years-flying-roofs",
-    "headline": "One Supplier Has Been Making Roofs That Fly Off for Sixteen Years",
-    "journalist": "Rex Driverton",
-    "article_number": 321,
-    "published_at": "2026-06-07T12:36:10Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.1,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 8.8,
       "rigor": 9.0,
       "data": 8.8
     }
