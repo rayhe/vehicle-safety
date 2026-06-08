@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "thirty-six-thousand-autopilot-decline",
-    "phase": "QA",
-    "round": 1,
+    "headline": "36,640 Dead. The Decline Is Real. Half of It Is Just Old Cars Dying.",
     "journalist": "Axle McScatter",
-    "started": "2026-06-08T08:30:00Z",
     "article_number": 324,
+    "published_at": "2026-06-08T14:30:00Z",
     "scores": {
       "general": 8.8,
       "voice": 8.7,
@@ -14,30 +14,6 @@
       "rigor": 8.6,
       "legal": 8.8,
       "data": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 8.9,
-      "css_class": "PASS",
-      "sentence_rhythm": "PASS (variance=473.3, short=14.3%, long=46.4%)"
-    },
-    "published_at": "2026-06-08T14:30:00Z"
-  },
-  "last_completed": {
-    "slug": "fuel-saving-fire-paradox",
-    "headline": "1.2 Million Cars Recalled Because Their Gas-Saving Features Catch Fire",
-    "journalist": "Clara Rollover",
-    "article_number": 323,
-    "published_at": "2026-06-08T06:30:00Z",
-    "scores": {
-      "general": 8.8,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 8.9,
-      "rigor": 8.7,
-      "data": 8.8
     }
   }
 }
