@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fuel-saving-fire-paradox",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-06-08T02:30:00Z",
+    "headline_wip": "1.2 Million Cars Recalled Because Their Gas-Saving Features Catch Fire"
+  },
   "last_completed": {
     "slug": "heat-kills-your-safety-systems",
     "headline": "Three Recalls, One Chemistry Lesson Your Car Failed",
