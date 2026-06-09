@@ -1,31 +1,16 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "jeep-three-ways-to-burn",
-    "phase": "SHIP",
+    "headline": "Stellantis Killed the Hybrid to Stop the Fires. The Gas Models Caught Fire Anyway.",
     "journalist": "Rex Driverton",
-    "started": "2026-06-09T10:30:00Z",
-    "round": 1,
+    "article_number": 326,
+    "published_at": "2026-06-09T12:35:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
       "ethics": 9.1,
       "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.9,
-      "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "rate-record-states-diverging",
-    "headline": "February 2026 Hit 1.01. Half the Country Got Worse.",
-    "journalist": "Vin Wreckage",
-    "article_number": 325,
-    "published_at": "2026-06-09T08:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.9,
-      "ethics": 9.1,
-      "social": 8.8,
       "legal": 8.8,
       "rigor": 8.9,
       "data": 8.7
