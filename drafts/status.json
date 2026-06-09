@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "jeep-three-ways-to-burn",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-09T10:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "rate-record-states-diverging",
     "headline": "February 2026 Hit 1.01. Half the Country Got Worse.",
