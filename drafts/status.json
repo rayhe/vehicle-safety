@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "rate-record-states-diverging",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-06-09T02:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "thirty-six-thousand-autopilot-decline",
     "headline": "36,640 Dead. The Decline Is Real. Half of It Is Just Old Cars Dying.",
