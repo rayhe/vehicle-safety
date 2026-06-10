@@ -3,10 +3,19 @@
     "slug": "bmw-3-series-ultimate-killing-machine",
     "headline": "The 'Ultimate Driving Machine' Is the Ultimate Luxury Sedan Killer",
     "journalist": "Clara Rollover",
-    "phase": "CRITIQUE",
-    "round": 1,
+    "phase": "SHIP",
+    "round": 2,
     "started": "2026-06-10T06:30:00Z",
-    "article_number": 327
+    "article_number": 327,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 8.6,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "slug": "jeep-three-ways-to-burn",
