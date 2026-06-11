@@ -1,10 +1,26 @@
 {
   "current": {
     "slug": "recall-gap-design-vs-defect",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-06-11T16:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": "PASS",
+      "sentence_rhythm": "PASS"
+    }
   },
   "last_completed": {
     "slug": "honda-corrosion-invisible-threat",
