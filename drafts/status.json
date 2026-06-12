@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "twenty-nine-states-wrong-law",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Dale Impactor III",
+    "started": "2026-06-12T10:30:00Z"
+  },
   "last_completed": {
     "slug": "recall-gap-design-vs-defect",
     "headline": "3.8 Million Vehicles Got Recall Letters This Week. The Deadliest Cars in America Did Not.",
