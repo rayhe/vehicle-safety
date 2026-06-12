@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "twenty-nine-states-wrong-law",
-    "phase": "QA",
-    "round": 1,
+    "headline": "31 States Banned Your Phone. The Wrong Car Kills 12 Times as Many People.",
     "journalist": "Dale Impactor III",
-    "started": "2026-06-12T10:30:00Z",
+    "article_number": 330,
+    "published_at": "2026-06-12T14:31:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,22 +14,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "recall-gap-design-vs-defect",
-    "headline": "3.8 Million Vehicles Got Recall Letters This Week. The Deadliest Cars in America Did Not.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 329,
-    "published_at": "2026-06-11T20:33:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
