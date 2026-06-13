@@ -1,40 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "whiplash-test-tsp-blind-spot",
-    "phase": "SHIP",
+    "headline": "Your SUV Earned the Highest Safety Award. It Scored 'Poor' on the Test That Actually Matters.",
     "journalist": "Axle McScatter",
-    "started": "2026-06-13T04:30:00Z",
-    "headline_wip": "Your SUV Earned the Highest Safety Award. It Scored 'Poor' on the Test That Actually Matters.",
-    "critique_round": 1,
+    "article_number": 331,
+    "published_at": "2026-06-13T10:34:00Z",
     "scores": {
       "general": 8.7,
       "voice": 8.8,
       "ethics": 9.0,
       "social": 8.8,
       "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 9.1,
-      "css_class": "PASS",
-      "sentence_rhythm": "PASS"
-    }
-  },
-  "last_completed": {
-    "slug": "twenty-nine-states-wrong-law",
-    "headline": "31 States Banned Your Phone. The Wrong Car Kills 12 Times as Many People.",
-    "journalist": "Dale Impactor III",
-    "article_number": 330,
-    "published_at": "2026-06-12T14:31:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
       "rigor": 9.0,
       "data": 8.7
     }
