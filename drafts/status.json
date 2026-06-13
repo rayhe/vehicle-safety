@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "pacifica-triple-fire-recall",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
     "headline": "The Safest Minivan in America Has Been Recalled for Fire Three Times",
-    "started": "2026-06-13T20:30:00Z",
+    "journalist": "Rex Driverton",
     "article_number": 332,
+    "published_at": "2026-06-13T22:30:00Z",
     "scores": {
       "general": 8.8,
       "voice": 8.8,
@@ -13,22 +13,6 @@
       "social": 8.7,
       "legal": 8.8,
       "rigor": 8.9,
-      "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "whiplash-test-tsp-blind-spot",
-    "headline": "Your SUV Earned the Highest Safety Award. It Scored 'Poor' on the Test That Actually Matters.",
-    "journalist": "Axle McScatter",
-    "article_number": 331,
-    "published_at": "2026-06-13T10:34:00Z",
-    "scores": {
-      "general": 8.7,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.7,
-      "rigor": 9.0,
       "data": 8.7
     }
   }
