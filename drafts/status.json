@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "recall-week-fars-triage",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-06-14T20:30:00Z",
-    "round": 0
-  },
+  "current": null,
   "last_completed": {
-    "slug": "peltzman-effect-impairment-myth",
-    "headline": "Sam Peltzman Said Safe Cars Make Reckless Drivers. Fifty Years of Toxicology Reports Say Otherwise.",
-    "journalist": "Dale Impactor III",
-    "article_number": 334,
-    "published_at": "2026-06-14T18:30:00Z",
+    "slug": "recall-week-fars-triage",
+    "headline": "2.9 Million Vehicles Recalled in One Week. Here's the Order You Should Actually Fix Them.",
+    "journalist": "Axle McScatter",
+    "article_number": 335,
+    "published_at": "2026-06-15T05:30:00Z",
     "scores": {
       "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.8,
       "rigor": 9.0,
       "data": 8.8
     }
