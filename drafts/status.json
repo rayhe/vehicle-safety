@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "recall-week-fars-triage",
+    "phase": "CRITIQUE",
+    "journalist": "Axle McScatter",
+    "started": "2026-06-14T20:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "peltzman-effect-impairment-myth",
     "headline": "Sam Peltzman Said Safe Cars Make Reckless Drivers. Fifty Years of Toxicology Reports Say Otherwise.",
