@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "peltzman-effect-impairment-myth",
-    "phase": "SHIP",
+    "headline": "Sam Peltzman Said Safe Cars Make Reckless Drivers. Fifty Years of Toxicology Reports Say Otherwise.",
     "journalist": "Dale Impactor III",
-    "started": "2026-06-14T12:30:00Z",
-    "round": 0,
+    "article_number": 334,
+    "published_at": "2026-06-14T18:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,22 +14,6 @@
       "legal": 9.0,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "phantom-fix-ford-focus",
-    "headline": "Your Recall Was Completed Eight Years Ago. Ford Just Admitted It Wasn't.",
-    "journalist": "Vin Wreckage",
-    "article_number": 333,
-    "published_at": "2026-06-14T00:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 8.9,
-      "rigor": 8.8,
-      "data": 8.7
     }
   }
 }
