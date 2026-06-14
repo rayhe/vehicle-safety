@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "peltzman-effect-impairment-myth",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "started": "2026-06-14T12:30:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 8.8,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "phantom-fix-ford-focus",
