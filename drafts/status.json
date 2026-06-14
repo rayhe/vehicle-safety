@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "phantom-fix-ford-focus",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
     "headline": "Your Recall Was Completed Eight Years Ago. Ford Just Admitted It Wasn't.",
-    "started": "2026-06-13T22:30:00Z",
+    "journalist": "Vin Wreckage",
     "article_number": 333,
+    "published_at": "2026-06-14T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,22 +13,6 @@
       "social": 8.8,
       "legal": 8.9,
       "rigor": 8.8,
-      "data": 8.7
-    }
-  },
-  "last_completed": {
-    "slug": "pacifica-triple-fire-recall",
-    "headline": "The Safest Minivan in America Has Been Recalled for Fire Three Times",
-    "journalist": "Rex Driverton",
-    "article_number": 332,
-    "published_at": "2026-06-13T22:30:00Z",
-    "scores": {
-      "general": 8.8,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 8.8,
-      "rigor": 8.9,
       "data": 8.7
     }
   }
