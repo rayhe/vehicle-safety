@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "roundtrip-24000-excess-road-deaths",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-06-15T14:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "honda-forgot-to-rustproof",
     "headline": "Honda Built the Safest SUVs in America. Then Forgot to Rustproof Them.",
