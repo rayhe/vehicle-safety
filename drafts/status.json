@@ -1,10 +1,42 @@
 {
   "current": {
     "slug": "roundtrip-24000-excess-road-deaths",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "started": "2026-06-15T14:30:00Z",
-    "round": 0
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.1,
+      "legal": 8.8,
+      "rigor": 8.6,
+      "data": 8.9
+    },
+    "critique_notes": {
+      "hard_gates": {
+        "em_dashes_body": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.8,
+        "css_classes": "PASS",
+        "sentence_rhythm": {
+          "variance": 1094.8,
+          "short_pct": 13.6,
+          "long_pct": 77.3,
+          "passed": true
+        }
+      },
+      "notes": [
+        "Word count 710 exceeds 300-500 guide but depth justifies it (original excess-death calculation, intl context, vehicle age mechanism, counterargument, actionable advice)",
+        "Clara Rollover voice: angry consumer advocate tone comes through clearly in closing paragraphs",
+        "Kicker Existential Dread fits the systemic-failure angle even though Clara typically covers The Gap/Body Count",
+        "Counterargument given full strength: 15-quarter recovery is historically unprecedented, system self-corrected",
+        "Limitations acknowledged in disclaimer: conservative calculation, preliminary data, not rate-adjusted",
+        "All 4 references properly cited with URLs",
+        "Hero image exists and verified as valid JPEG"
+      ]
+    }
   },
   "last_completed": {
     "slug": "honda-forgot-to-rustproof",
