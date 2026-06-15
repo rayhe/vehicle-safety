@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "honda-forgot-to-rustproof",
     "headline": "Honda Built the Safest SUVs in America. Then Forgot to Rustproof Them.",
-    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
-    "started": "2026-06-15T06:30:00Z",
     "article_number": 336,
+    "published_at": "2026-06-15T08:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,22 +14,6 @@
       "legal": 8.8,
       "rigor": 8.8,
       "data": 8.9
-    }
-  },
-  "last_completed": {
-    "slug": "recall-week-fars-triage",
-    "headline": "2.9 Million Vehicles Recalled in One Week. Here's the Order You Should Actually Fix Them.",
-    "journalist": "Axle McScatter",
-    "article_number": 335,
-    "published_at": "2026-06-15T05:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
