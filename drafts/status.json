@@ -1,26 +1,19 @@
 {
-  "current": {
-    "slug": "every-brand-equally-drunk",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-06-15T22:30:00Z",
-    "headline": "Every Brand's Drivers Are Equally Drunk. The Cars Aren't Equally Deadly.",
-    "round": 0
-  },
+  "current": null,
   "last_completed": {
-    "slug": "roundtrip-24000-excess-road-deaths",
-    "headline": "America Just Spent Six Years and 24,000 Lives Getting Back to Square One",
-    "journalist": "Clara Rollover",
-    "article_number": 337,
-    "published_at": "2026-06-15T20:30:00Z",
+    "slug": "every-brand-equally-drunk",
+    "headline": "Every Brand's Drivers Are Equally Drunk. The Cars Aren't Equally Deadly.",
+    "journalist": "Dale Impactor III",
+    "article_number": 338,
+    "published_at": "2026-06-16T00:34:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.1,
-      "legal": 8.8,
-      "rigor": 8.6,
-      "data": 8.9
+      "ethics": 9.1,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 8.7,
+      "data": 8.6
     }
   }
 }
