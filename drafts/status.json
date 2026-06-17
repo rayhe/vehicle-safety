@@ -1,32 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ford-botched-recall-repair",
-    "phase": "QA",
+    "headline": "Ford Recalled Your Car, Fixed It, Filed the Paperwork. The Fix Was Fake.",
     "journalist": "Clara Rollover",
-    "started": "2026-06-17T18:30:00Z",
-    "round": 1,
+    "article_number": 339,
+    "published_at": "2026-06-17T20:34:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
       "ethics": 9.1,
       "social": 9.0,
       "legal": 8.8,
-      "rigor": 8.7,
-      "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "every-brand-equally-drunk",
-    "headline": "Every Brand's Drivers Are Equally Drunk. The Cars Aren't Equally Deadly.",
-    "journalist": "Dale Impactor III",
-    "article_number": 338,
-    "published_at": "2026-06-16T00:34:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.1,
-      "social": 9.2,
-      "legal": 9.0,
       "rigor": 8.7,
       "data": 8.6
     }
