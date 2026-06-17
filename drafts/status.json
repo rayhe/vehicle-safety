@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-botched-recall-repair",
+    "phase": "QA",
+    "journalist": "Clara Rollover",
+    "started": "2026-06-17T18:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 8.7,
+      "data": 8.6
+    }
+  },
   "last_completed": {
     "slug": "every-brand-equally-drunk",
     "headline": "Every Brand's Drivers Are Equally Drunk. The Cars Aren't Equally Deadly.",

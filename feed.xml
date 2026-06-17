@@ -3,7 +3,14 @@
 <channel>
   <title>The Crash Report</title>
   <link>https://vehicle-safety.org</link>
-      <item>
+            <item>
+      <title>Ford Recalled Your Car, Fixed It, Filed the Paperwork. The Fix Was Fake.</title>
+      <link>https://vehicle-safety.org/stories/ford-botched-recall-repair.html</link>
+      <description>Ford&#x27;s dealer diagnostic tool silently reported failed software updates as complete. 318,367 vehicles are being re-recalled. The affected Focus fleet has 1,042 FARS deaths.</description>
+      <pubDate>Tue, 17 Jun 2026 20:30:00 GMT</pubDate>
+      <guid>https://vehicle-safety.org/stories/ford-botched-recall-repair.html</guid>
+    </item>
+<item>
       <title>America Just Spent Six Years and 24,000 Lives Getting Back to Square One</title>
       <link>https://vehicle-safety.org/stories/roundtrip-24000-excess-road-deaths.html</link>
       <description>NHTSA&#x27;s 2025 estimate puts the fatality rate back at 2019 levels. The roundtrip cost approximately 23,747 excess deaths. No peer country experienced anything comparable.</description>

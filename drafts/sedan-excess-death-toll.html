@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Five Sedans. 18,752 Deaths Nobody Expected. &mdash; The Crash Report</title>
+  <meta name="description" content="An excess-death analysis reveals five popular sedans killed nearly 19,000 people above what the national fatality rate would predict. NHTSA doesn't track this metric. Maybe it should.">
+  <meta property="og:title" content="Five Sedans. 18,752 Deaths Nobody Expected.">
+  <meta property="og:description" content="The Honda Accord alone carries a 4,997-death surplus. A novel methodology exposes the vehicles killing above their statistical weight.">
+  <meta property="og:image" content="../images/sedan-excess-death-toll.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Five Sedans. 18,752 Deaths Nobody Expected.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 17, 2026</div>
+
+      <p>Traffic deaths fell to <strong>36,640 in 2025</strong>, down 6.7% from the year before, extending a streak of twelve consecutive quarterly declines to the second-lowest fatality rate since NHTSA started keeping score. A genuine cause for optimism, assuming you don't drive one of the five sedans that have been quietly killing above their statistical weight for a decade straight.</p>
+
+      <div class="pull-stat">18,752</div>
+      <div class="pull-label">Excess deaths from five sedans, 2014&ndash;2023. Deaths above what the national average fatality rate predicts for their fleet size and miles driven.</div>
+
+      <p>The methodology is borrowed from epidemiology, not automotive safety, which is part of the problem. Take each vehicle's actual deaths in FARS over ten years, then calculate the deaths you'd <em>expect</em> if that vehicle matched the national average rate of 0.091 fatalities per billion VMT, and subtract expected from actual. What remains is the surplus: deaths the vehicle "shouldn't" have produced, given how much it's driven.</p>
+
+      <p>The Accord tops the list at 4,997 excess deaths. Not because Honda built a death trap, but because 7,102 people died in Accords over the decade while the national average, applied to the Accord's estimated 23.1 billion VMT, predicts only 2,105. The Civic follows at 3,899 excess, then the Camry at 3,491, the Altima at 3,277, and the Impala at 3,088. Five vehicles. All sedans. All among the best-selling cars in American history.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Zoom out to the class level and the numbers get worse before they get better. Sedans as a category carry a combined 30,920 excess deaths across the FARS dataset. SUVs, meanwhile, sit at negative 30,783, meaning they produced almost exactly that many <em>fewer</em> deaths than predicted. The two figures cancel to within 137 lives. America's ongoing migration from sedans to crossovers may be the largest unintentional safety intervention in automotive history, a public health triumph nobody planned, nobody funded, and nobody at NHTSA will take credit for because the mechanism is consumers buying bigger vehicles rather than regulators mandating safer ones.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>The obvious counterargument deserves its full weight: the excess isn't purely structural. Cheap, high-mileage sedans concentrate younger drivers, uninsured drivers, drivers who skip brake pad replacements because the rent check already bounced. Some of that 18,752 is the vehicle, and some of it is poverty wearing an Accord-shaped disguise. FARS can't separate the two, and neither can this analysis.</p>
+
+      <p>But the magnitude matters even after you grant that concession. Even if you attribute half the excess to demographics rather than engineering, you're left with roughly 9,000 deaths over a decade that trace to the car itself. Nobody has recalled the Accord for being structurally inferior to the CR-V in frontal-offset survivability. NHTSA doesn't publish "excess deaths by model" in any report, quarterly estimate, or regulatory filing. The metric this analysis uses does not exist in any federal safety framework. Not because the math is hard, but because the conclusion is inconvenient: the five most popular sedans in America kill at two to five times the rate that their miles driven would predict, and the regulatory apparatus treats each individual crash as a discrete event rather than a statistical pattern embedded in the sheet metal itself.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <h3>What You Can Do</h3>
+
+      <p>If you're shopping for a car, pull the FARS data yourself at <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a> and run the math before you sign anything. The top-5 "lives saved" vehicles are the Ram 1500 (4,442 below expected), Toyota RAV4 (3,363), Tesla Model Y (1,932), Chevrolet Equinox (1,630), and Tesla Model 3 (1,555). Every one of them is either an SUV or a vehicle built on an SUV-weight platform. Physics doesn't negotiate. If you currently drive a top-5 excess-death sedan, check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> and understand that even without an active recall, your vehicle's structural profile puts you on the wrong side of a statistical ledger that nobody in Washington is reading.</p>
+
+      <h3>Limitations</h3>
+
+      <p>Fleet sizes and VMT are estimated from industry sales data and national travel surveys, not individual odometer readings, introducing roughly &plusmn;15% uncertainty for lower-volume models. FARS captures only fatal crashes, so a vehicle with a high fatality rate might still have favorable injury-crash outcomes. This analysis spans model years still on the road from 1980 through 2022; older fleet composition inflates sedan totals because sedans dominated the market before the crossover era. The national average rate is itself an aggregate that smooths over regional, seasonal, and demographic variation. None of these caveats erase a 19,000-death surplus, but they do mean the precise number should be treated as an order-of-magnitude finding rather than an exact body count.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023 bulk data. 337 models with 50+ deaths tracked. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>2025 Traffic Death Estimates &amp; 2024 FARS</em>. 36,640 estimated fatalities in 2025, 6.7% decrease from 2024. <a href="https://www.nhtsa.gov/press-releases/2025-traffic-death-estimates-2024-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA FARS query tool for per-model fatality verification. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. &ldquo;Excess deaths&rdquo; = actual deaths &minus; (national avg rate &times; vehicle VMT). Fleet sizes estimated from industry sales data; VMT from NHTS annual averages. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
