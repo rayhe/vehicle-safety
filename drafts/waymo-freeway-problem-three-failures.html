@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waymo Has Recalled Its Entire Fleet Twice in Eight Weeks. The Freeways Were Supposed to Be Easy. &mdash; The Crash Report</title>
+  <meta name="description" content="Three distinct freeway safety failures since April 2026 reveal that the road environment everyone assumed robots would master first is the one breaking them.">
+  <meta property="og:title" content="Waymo Has Recalled Its Entire Fleet Twice in Eight Weeks. The Freeways Were Supposed to Be Easy.">
+  <meta property="og:description" content="Three distinct freeway safety failures since April 2026 reveal that the road environment everyone assumed robots would master first is the one breaking them.">
+  <meta property="og:type" content="article">
+  <meta name="twitter:title" content="Waymo Has Recalled Its Entire Fleet Twice in Eight Weeks. The Freeways Were Supposed to Be Easy.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Waymo Has Recalled Its Entire Fleet Twice in Eight Weeks. The Freeways Were Supposed to Be Easy.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 18, 2026</div>
+
+      <p>I ran the timeline. April 20: a Waymo robotaxi drives into a flooded San Antonio road at 40 mph and gets swept into Salado Creek. April 30: voluntary recall filed covering <strong>3,791 vehicles</strong> across every operating city, no passengers aboard. May 21: Waymo suspends all freeway operations in San Francisco, Los Angeles, Phoenix, and Miami after a separate construction zone penetration in SF. June 18: a second recall drops, this time for <strong>3,871 vehicles</strong> whose software could send them barreling into closed freeway construction zones at highway speed.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">2</div>
+      <div class="pull-label">Fleet-wide recalls in 59 days, covering every Waymo robotaxi in the U.S.</div>
+
+      <p>That is the entire fleet, recalled twice in 59 days, for two completely different defects, both triggered by the same environment: American freeways.</p>
+
+      <p>Freeways were supposed to be the layup. No jaywalkers, no double-parked delivery vans, no children chasing a ball between parked cars. Lane markings, median barriers, predictable flow. The autonomous vehicle industry spent a decade assuming that highway driving was a solved problem relative to the chaos of surface streets, and Waymo's city-street record supported that assumption. In Phoenix, in San Francisco, on surface roads with pedestrians and cyclists and every flavor of human unpredictability, Waymo's vehicles perform well enough that 500,000 people a week trust them with their commutes.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Freeways broke that. Look at the failure modes. On April 20 in San Antonio, the AV detected flood water on a higher-speed roadway and slowed down but did not stop, eventually entering an impassable flooded lane and losing the vehicle entirely. NHTSA's recall language was blunt: the software "may allow the vehicle to slow and then drive into standing water on higher speed roadways."<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Today's recall addresses a different gap altogether: the inability to recognize that a freeway construction zone is closed. The vehicle enters the zone and continues driving at full speed through barriers and cones that any human driver would read as "do not enter."<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>These are not variations on one bug. They are entirely separate perceptual failures in the same domain, separated by less than two months, each requiring its own recall and its own software fix.</p>
+
+      <p>Speed is the variable that connects them, and it is the variable that separates a recoverable error from a fatal one. On a 25 mph surface street, driving through a shallow puddle is an annoyance; driving into a construction zone at low speed gives you time to stop. At 40 or 65 mph, those same errors become catastrophic. Speed amplifies software bugs into safety crises, and freeways are where speed lives.</p>
+
+      <div class="pull-stat">65 mph</div>
+      <div class="pull-label">The speed at which a construction zone becomes lethal instead of embarrassing</div>
+
+      <p>Meanwhile, the company's stated ambition is to reach one million paid rides per week by end of 2026, with a new Zeekr-built "Ojai" robotaxi expected to begin service in the coming months.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Freeway access is essential to that goal. In the Bay Area, highway routes cut trip times from 45+ minutes to under 20 for peninsula crossings. Without freeways, Waymo is a very expensive surface-street taxi service competing with Uber on price while losing on route efficiency.</p>
+
+      <p>The counterargument deserves its full weight: Waymo catches and reports these issues voluntarily. Both recalls were OTA software fixes deployed fleet-wide, no dealer visits, no months-long parts backlog. Compare that to the 2.6 million vehicles with unfixed airbag recalls still on the road, or Ford's recent quadruple re-recall for repairs its own dealer tools silently failed to complete.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Waymo is transparently unsafe about specific edge cases. Most automakers are quietly unsafe about chronic ones.</p>
+
+      <p>That transparency does not change the trajectory, because the incidents keep coming. The January 2026 incident in Santa Monica, where a Waymo struck a child near an elementary school, is still under NHTSA investigation.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Also in January, Waymo vehicles were caught passing a stopped school bus with its red lights activated in Texas, prompting an NTSB probe.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> And last May, a deputy constable in Dallas had to scan a QR code and negotiate through a robot speaker system to move a stalled Waymo blocking first responders at a fatal gas explosion.<sup class="ref-link"><a href="#ref-7">[7]</a></sup></p>
+
+      <p>None of those were freeway incidents. All of them were the surface-street chaos that Waymo was supposed to have mastered.</p>
+
+      <h3>What We Don't Know</h3>
+
+      <p>Waymo does not publish environment-specific crash rates (freeway vs. surface street). NHTSA's Standing General Order collects total ADS incidents but doesn't segment by road type. Without that data, we cannot say whether Waymo's freeway crash rate is genuinely worse than its surface-street rate, or whether the freeway incidents just generate bigger headlines because the consequences at speed are more dramatic. The distinction matters, and the data to settle it does not yet exist. If freeways are disproportionately dangerous for AV systems, NHTSA should mandate environment-specific reporting. If they are not, the compressed recall timeline may simply reflect the speed of Waymo's internal detection and response.</p>
+
+      <h3>What You Should Do</h3>
+
+      <p>If you ride Waymo regularly: freeway routes are currently restricted or suspended in major markets. Your airport trips may route through surface streets, adding significant time. Check Waymo's app for service area updates before booking. And the broader question for anyone following the AV safety debate is not whether robots are safer than humans in aggregate. It is: <em>in which specific environments are they safer, and in which ones do they fail?</em> That question now has a very specific answer for freeways in 2026.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Reuters, &ldquo;Waymo to recall over 3,800 robotaxis over risk of entering closed construction zones, NHTSA says,&rdquo; June 18, 2026. <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-2">Reuters, &ldquo;Waymo recalls 3,800 robotaxis over risk of entering flooded roads,&rdquo; May 13, 2026. <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-3">TechCrunch, &ldquo;Waymo halts freeway rides after robotaxis struggle in construction zones,&rdquo; May 21, 2026. <a href="https://techcrunch.com/" target="_blank" rel="noopener">techcrunch.com</a></li>
+          <li id="ref-4">Electrek, &ldquo;Waymo recalls 3,791 robotaxis over flooded road incident, deploying OTA software fix,&rdquo; May 12, 2026. <a href="https://electrek.co/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-5">NHTSA Recall Campaigns 26V373000, 26V374000, 26V375000, 26V376000, June 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-6">Reuters, &ldquo;Waymo recalls 3,800 robotaxis over risk of entering flooded roads,&rdquo; May 13, 2026 (citing Santa Monica and Texas incidents). <a href="https://www.reuters.com/business/autos-transportation/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-7">BusinessWire, &ldquo;Witherite Law Group Raises Concerns Over Autonomous Vehicle Performance in Emergency Response Scenarios,&rdquo; June 16, 2026. <a href="https://www.businesswire.com/" target="_blank" rel="noopener">businesswire.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings, Reuters, TechCrunch, Electrek, BusinessWire. Recall data from NHTSA&rsquo;s public database. Waymo fleet size and trip volumes per company disclosures and media reporting. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

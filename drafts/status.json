@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-recall-king-botched-repairs",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-06-18T18:30:00Z",
+    "article_number": 343,
+    "round": 0
+  },
   "last_completed": {
     "slug": "spare-tire-sealant-projectile",
     "headline": "Automakers Replaced Your Spare Tire with a Pressurized Bottle. Honda Just Recalled a Million of Them.",
