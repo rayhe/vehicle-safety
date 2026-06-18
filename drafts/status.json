@@ -1,24 +1,16 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "spare-tire-sealant-projectile",
     "headline": "Automakers Replaced Your Spare Tire with a Pressurized Bottle. Honda Just Recalled a Million of Them.",
     "journalist": "Mia Crumplezone",
-    "phase": "CRITIQUE",
     "article_number": 342,
-    "round": 1,
-    "started": "2026-06-18T04:30:00Z"
-  },
-  "last_completed": {
-    "slug": "best-year-worst-country",
-    "headline": "America Just Had Its Safest Year in a Decade. It's Still the Deadliest Rich Country on Earth.",
-    "journalist": "Vin Wreckage",
-    "article_number": 341,
-    "published_at": "2026-06-18T04:30:00Z",
+    "published_at": "2026-06-18T06:30:00Z",
     "scores": {
       "general": 9.0,
-      "voice": 8.7,
+      "voice": 8.8,
       "ethics": 9.0,
-      "social": 8.8,
+      "social": 9.0,
       "legal": 8.7,
       "rigor": 8.8,
       "data": 8.8
