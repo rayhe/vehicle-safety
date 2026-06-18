@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "no-airbag-required",
+    "headline": "Nobody Crash-Tests America's Work Trucks. That's 6,535 Funerals a Year.",
+    "journalist": "Rex Driverton",
+    "phase": "QA",
+    "article_number": 340,
+    "round": 1,
+    "started": "2026-06-17T22:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 9.1,
+      "data": 8.7
+    }
+  },
   "last_completed": {
     "slug": "ford-botched-recall-repair",
     "headline": "Ford Recalled Your Car, Fixed It, Filed the Paperwork. The Fix Was Fake.",
