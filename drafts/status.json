@@ -3,10 +3,19 @@
     "slug": "best-year-worst-country",
     "headline": "America Just Had Its Safest Year in a Decade. It's Still the Deadliest Rich Country on Earth.",
     "journalist": "Vin Wreckage",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "article_number": 341,
-    "round": 0,
-    "started": "2026-06-18T02:30:00Z"
+    "round": 1,
+    "started": "2026-06-18T02:30:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 8.8,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "no-airbag-required",
