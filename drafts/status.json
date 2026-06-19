@@ -1,18 +1,11 @@
 {
-  "current": {
-    "slug": "iihs-heavy-truck-first-scorecard",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Axle McScatter",
-    "started": "2026-06-19T02:30:00Z",
-    "article_number": 344
-  },
+  "current": null,
   "last_completed": {
-    "slug": "ford-recall-king-botched-repairs",
-    "headline": "Ford Has Recalled 11.2 Million Vehicles This Year. Now It's Recalling the Recalls.",
-    "journalist": "Clara Rollover",
-    "article_number": 343,
-    "published_at": "2026-06-19T00:30:00Z",
+    "slug": "iihs-heavy-truck-first-scorecard",
+    "headline": "IIHS Finally Graded America's Work Trucks. More Than Half Flunked a Checklist.",
+    "journalist": "Axle McScatter",
+    "article_number": 344,
+    "published_at": "2026-06-19T06:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
