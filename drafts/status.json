@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "iihs-heavy-truck-first-scorecard",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Axle McScatter",
+    "started": "2026-06-19T02:30:00Z",
+    "article_number": 344
+  },
   "last_completed": {
     "slug": "ford-recall-king-botched-repairs",
     "headline": "Ford Has Recalled 11.2 Million Vehicles This Year. Now It's Recalling the Recalls.",
