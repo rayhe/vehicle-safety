@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "toyota-ev-headlight-blind-spot",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-06-19T18:30:00Z",
     "round": 0,
@@ -13,7 +13,8 @@
       "legal": 8.7,
       "rigor": 9.0,
       "data": 8.8
-    }
+    },
+    "article_number": 346
   },
   "last_completed": {
     "slug": "honda-j35-bulletproof-myth",
