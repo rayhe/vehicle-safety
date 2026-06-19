@@ -1,11 +1,20 @@
 {
   "current": {
     "slug": "ford-recall-king-botched-repairs",
-    "phase": "DRAFT",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "started": "2026-06-18T18:30:00Z",
     "article_number": 343,
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.2,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 8.8,
+      "data": 9.0
+    }
   },
   "last_completed": {
     "slug": "spare-tire-sealant-projectile",
