@@ -1,33 +1,17 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "toyota-ev-headlight-blind-spot",
-    "phase": "QA",
+    "headline": "Toyota Built the Safest SUV in America. Its EVs Can't Light a Curve.",
     "journalist": "Clara Rollover",
-    "started": "2026-06-19T18:30:00Z",
-    "round": 0,
+    "article_number": 346,
+    "published_at": "2026-06-19T22:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.9,
       "ethics": 9.2,
       "social": 9.0,
       "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.8
-    },
-    "article_number": 346
-  },
-  "last_completed": {
-    "slug": "honda-j35-bulletproof-myth",
-    "headline": "Honda Built Its V6 for 27 Years. Then 1.4 Million of Them Started Eating Their Own Bearings.",
-    "journalist": "Rex Driverton",
-    "article_number": 345,
-    "published_at": "2026-06-19T14:32:19Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.2,
-      "social": 8.8,
-      "legal": 8.8,
       "rigor": 9.0,
       "data": 8.8
     }
