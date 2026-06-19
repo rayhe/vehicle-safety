@@ -1,13 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "honda-j35-bulletproof-myth",
     "headline": "Honda Built Its V6 for 27 Years. Then 1.4 Million of Them Started Eating Their Own Bearings.",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
-    "round": 2,
-    "started": "2026-06-19T10:30:00Z",
     "article_number": 345,
-    "critique_scores": {
+    "published_at": "2026-06-19T14:32:19Z",
+    "scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.2,
@@ -15,22 +14,6 @@
       "legal": 8.8,
       "rigor": 9.0,
       "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "iihs-heavy-truck-first-scorecard",
-    "headline": "IIHS Finally Graded America's Work Trucks. More Than Half Flunked a Checklist.",
-    "journalist": "Axle McScatter",
-    "article_number": 344,
-    "published_at": "2026-06-19T06:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 8.8,
-      "data": 9.0
     }
   }
 }
