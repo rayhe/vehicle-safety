@@ -1,11 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ford-recall-king-botched-repairs",
-    "phase": "QA",
+    "headline": "Ford Has Recalled 11.2 Million Vehicles This Year. Now It's Recalling the Recalls.",
     "journalist": "Clara Rollover",
-    "started": "2026-06-18T18:30:00Z",
     "article_number": 343,
-    "round": 1,
+    "published_at": "2026-06-19T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -14,22 +14,6 @@
       "legal": 8.8,
       "rigor": 8.8,
       "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "spare-tire-sealant-projectile",
-    "headline": "Automakers Replaced Your Spare Tire with a Pressurized Bottle. Honda Just Recalled a Million of Them.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 342,
-    "published_at": "2026-06-18T06:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.7,
-      "rigor": 8.8,
-      "data": 8.8
     }
   }
 }
