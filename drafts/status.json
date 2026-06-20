@@ -1,8 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "vmt-tax-rate-body-count-divergence",
-    "phase": "SHIP",
-    "round": 1,
+    "headline": "America Matched Its Safest Year Ever. 3,896 More People Still Died.",
+    "journalist": "Vin Wreckage",
+    "article_number": 349,
+    "published_at": "2026-06-20T22:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
@@ -11,24 +14,6 @@
       "legal": 8.7,
       "rigor": 9.0,
       "data": 8.8
-    },
-    "journalist": "Vin Wreckage",
-    "started": "2026-06-20T20:30:00Z"
-  },
-  "last_completed": {
-    "slug": "sedan-100x-impairment-constant",
-    "headline": "Every Sedan Driver Drinks the Same. Only Some of Them Die.",
-    "journalist": "Dale Impactor III",
-    "article_number": 348,
-    "published_at": "2026-06-20T20:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.1,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.9
     }
   }
 }
