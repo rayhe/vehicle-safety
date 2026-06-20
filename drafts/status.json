@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "sedan-100x-impairment-constant",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-06-20T16:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "senior-death-divergence-2024",
     "headline": "America Got Safer in 2024. Unless You're Over 65.",
