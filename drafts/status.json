@@ -1,10 +1,19 @@
 {
   "current": {
     "slug": "sedan-100x-impairment-constant",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Dale Impactor III",
     "started": "2026-06-20T16:30:00Z",
-    "round": 0
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.1,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.9
+    }
   },
   "last_completed": {
     "slug": "senior-death-divergence-2024",
