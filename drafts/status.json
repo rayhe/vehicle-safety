@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "sedan-100x-impairment-constant",
-    "phase": "QA",
+    "headline": "Every Sedan Driver Drinks the Same. Only Some of Them Die.",
     "journalist": "Dale Impactor III",
-    "started": "2026-06-20T16:30:00Z",
-    "round": 1,
+    "article_number": 348,
+    "published_at": "2026-06-20T20:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.1,
@@ -13,22 +14,6 @@
       "legal": 8.8,
       "rigor": 9.0,
       "data": 8.9
-    }
-  },
-  "last_completed": {
-    "slug": "senior-death-divergence-2024",
-    "headline": "America Got Safer in 2024. Unless You're Over 65.",
-    "journalist": "Axle McScatter",
-    "article_number": 347,
-    "published_at": "2026-06-20T08:30:00Z",
-    "scores": {
-      "general": 8.9,
-      "voice": 8.7,
-      "ethics": 9.1,
-      "social": 9.0,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
