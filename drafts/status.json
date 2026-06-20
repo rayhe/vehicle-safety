@@ -1,8 +1,17 @@
 {
   "current": {
     "slug": "vmt-tax-rate-body-count-divergence",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "phase": "SHIP",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.1,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8
+    },
     "journalist": "Vin Wreckage",
     "started": "2026-06-20T20:30:00Z"
   },
