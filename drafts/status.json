@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "senior-death-divergence-2024",
+    "phase": "QA",
+    "journalist": "Axle McScatter",
+    "started": "2026-06-20T04:30:00Z",
+    "round": 0,
+    "scores": {
+      "general": 8.9,
+      "voice": 8.7,
+      "ethics": 9.1,
+      "social": 9.0,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "toyota-ev-headlight-blind-spot",
     "headline": "Toyota Built the Safest SUV in America. Its EVs Can't Light a Curve.",
