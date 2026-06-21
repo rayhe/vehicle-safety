@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "wrangler-cant-stop-catching-fire",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-21T06:30:00Z",
+    "headline": "Stellantis Killed the Hybrid to Stop the Fires. The Wrangler Kept Burning.",
+    "round": 0
+  },
   "last_completed": {
     "slug": "speed-limiter-killed-rule-body-count",
     "headline": "NHTSA Killed a Rule That Would Prevent 1,115 Fatal Crashes a Year. Then It Threw a Party.",
