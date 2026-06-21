@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "speed-limiter-killed-rule-body-count",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-06-21T02:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.8,
+      "rigor": 9.2,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "vmt-tax-rate-body-count-divergence",
     "headline": "America Matched Its Safest Year Ever. 3,896 More People Still Died.",
