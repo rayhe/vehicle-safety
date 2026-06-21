@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "wrangler-cant-stop-catching-fire",
-    "phase": "QA",
-    "article_number": 351,
-    "journalist": "Rex Driverton",
-    "started": "2026-06-21T06:30:00Z",
     "headline": "Stellantis Killed the Hybrid to Stop the Fires. The Wrangler Kept Burning.",
-    "round": 0,
+    "journalist": "Rex Driverton",
+    "article_number": 351,
+    "published_at": "2026-06-21T10:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.2,
@@ -14,22 +13,6 @@
       "social": 8.8,
       "legal": 8.8,
       "rigor": 9.0,
-      "data": 8.8
-    }
-  },
-  "last_completed": {
-    "slug": "speed-limiter-killed-rule-body-count",
-    "headline": "NHTSA Killed a Rule That Would Prevent 1,115 Fatal Crashes a Year. Then It Threw a Party.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 350,
-    "published_at": "2026-06-21T04:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.8,
-      "legal": 8.8,
-      "rigor": 9.2,
       "data": 8.8
     }
   }
