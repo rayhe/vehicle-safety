@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "iihs-30x30-math-doesnt-work",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "started": "2026-06-21T16:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "wrangler-cant-stop-catching-fire",
     "headline": "Stellantis Killed the Hybrid to Stop the Fires. The Wrangler Kept Burning.",
