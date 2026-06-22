@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ford-consent-order-recall-paradox",
-    "phase": "SHIP",
+    "headline": "Ford Filed 51 Recalls This Year. That Might Make Them the Safest Manufacturer in America.",
     "journalist": "Vin Wreckage",
-    "started": "2026-06-22T14:30:00Z",
-    "round": 0,
+    "article_number": 353,
+    "published_at": "2026-06-22T18:32:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -13,22 +14,6 @@
       "legal": 8.8,
       "rigor": 9.0,
       "data": 8.9
-    }
-  },
-  "last_completed": {
-    "slug": "iihs-30x30-math-doesnt-work",
-    "headline": "IIHS Wants to Cut Crash Deaths 30% by 2030. They Need 5.8% Annual Declines. They're Getting 3.8%.",
-    "journalist": "Axle McScatter",
-    "article_number": 352,
-    "published_at": "2026-06-21T17:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 9.2,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.8
     }
   }
 }
