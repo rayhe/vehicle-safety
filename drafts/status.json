@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-consent-order-recall-paradox",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-06-22T14:30:00Z",
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.1,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.9
+    }
+  },
   "last_completed": {
     "slug": "iihs-30x30-math-doesnt-work",
     "headline": "IIHS Wants to Cut Crash Deaths 30% by 2030. They Need 5.8% Annual Declines. They're Getting 3.8%.",
