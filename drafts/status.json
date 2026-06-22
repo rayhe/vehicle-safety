@@ -1,5 +1,27 @@
 {
-  "current": null,
+  "current": {
+    "slug": "distraction-ban-two-year-decay",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "started": "2026-06-22T20:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.7,
+      "ethics": 9.2,
+      "social": 9.1,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.9
+    },
+    "hard_gates": {
+      "em_dashes": "1 (limit 3) PASS",
+      "banned_phrases": "none PASS",
+      "the_starters": "6.2% (limit 15%) PASS",
+      "css_classes": "story + style.css PASS",
+      "sentence_rhythm": "variance 304.5, short 8.8%, long 52.6% PASS"
+    }
+  },
   "last_completed": {
     "slug": "ford-consent-order-recall-paradox",
     "headline": "Ford Filed 51 Recalls This Year. That Might Make Them the Safest Manufacturer in America.",
