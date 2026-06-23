@@ -1,39 +1,16 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "distraction-ban-two-year-decay",
-    "phase": "QA",
+    "headline": "Every State Banned Texting While Driving. 32,717 People Died Anyway.",
     "journalist": "Axle McScatter",
-    "started": "2026-06-22T20:30:00Z",
-    "round": 1,
     "article_number": 354,
+    "published_at": "2026-06-23T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
       "ethics": 9.2,
       "social": 9.1,
-      "legal": 8.8,
-      "rigor": 9.0,
-      "data": 8.9
-    },
-    "hard_gates": {
-      "em_dashes": "1 (limit 3) PASS",
-      "banned_phrases": "none PASS",
-      "the_starters": "6.2% (limit 15%) PASS",
-      "css_classes": "story + style.css PASS",
-      "sentence_rhythm": "variance 304.5, short 8.8%, long 52.6% PASS"
-    }
-  },
-  "last_completed": {
-    "slug": "ford-consent-order-recall-paradox",
-    "headline": "Ford Filed 51 Recalls This Year. That Might Make Them the Safest Manufacturer in America.",
-    "journalist": "Vin Wreckage",
-    "article_number": 353,
-    "published_at": "2026-06-22T18:32:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.1,
-      "social": 9.2,
       "legal": 8.8,
       "rigor": 9.0,
       "data": 8.9
