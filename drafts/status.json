@@ -1,17 +1,11 @@
 {
-  "current": {
-    "slug": "below-forty-thousand-victory-lap",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-06-23T06:30:00Z",
-    "round": 0
-  },
+  "current": null,
   "last_completed": {
-    "slug": "distraction-ban-two-year-decay",
-    "headline": "Every State Banned Texting While Driving. 32,717 People Died Anyway.",
-    "journalist": "Axle McScatter",
-    "article_number": 354,
-    "published_at": "2026-06-23T00:30:00Z",
+    "slug": "below-forty-thousand-victory-lap",
+    "headline": "39,345 Dead and NHTSA Threw a Party",
+    "journalist": "Vin Wreckage",
+    "article_number": 355,
+    "published_at": "2026-06-23T08:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
