@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-two-investigations-half-a-year",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-23T08:30:00Z",
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 8.8,
+      "social": 9.1,
+      "legal": 8.7,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "below-forty-thousand-victory-lap",
     "headline": "39,345 Dead and NHTSA Threw a Party",
