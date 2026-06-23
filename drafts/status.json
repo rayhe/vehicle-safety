@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "below-forty-thousand-victory-lap",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-06-23T06:30:00Z",
+    "round": 0
+  },
   "last_completed": {
     "slug": "distraction-ban-two-year-decay",
     "headline": "Every State Banned Texting While Driving. 32,717 People Died Anyway.",
