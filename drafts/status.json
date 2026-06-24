@@ -2,10 +2,12 @@
   "current": {
     "slug": "record-low-rate-oldest-fleet-ever",
     "headline": "America's Cars Have Never Been Older. NHTSA Says We've Never Been Safer. Both Can't Be True.",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Vin Wreckage",
+    "article_number": 357,
     "started": "2026-06-23T18:30:00Z",
+    "published_at": "2026-06-24T00:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -26,8 +28,7 @@
         "long_pct": 58.8,
         "passed": true
       }
-    },
-    "note": "3 articles already published today (UTC). Held for next-day publish per 1/day rule."
+    }
   },
   "last_completed": {
     "slug": "nhtsa-two-investigations-half-a-year",
