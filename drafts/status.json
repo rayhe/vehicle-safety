@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-complaint-funnel-73000-vs-33",
+    "phase": "QA",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-24T18:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.8
+    }
+  },
   "last_completed": {
     "slug": "record-low-rate-oldest-fleet-ever",
     "headline": "America's Cars Have Never Been Older. NHTSA Says We've Never Been Safer. Both Can't Be True.",
