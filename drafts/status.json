@@ -2,10 +2,20 @@
   "current": {
     "slug": "aeb-phantom-braking-causes-crashes",
     "headline": "NHTSA Mandated a Safety System That Prevents 360 Deaths a Year. It Also Causes the Exact Crash It Was Designed to Stop.",
-    "phase": "CRITIQUE",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
-    "round": 0,
-    "started": "2026-06-24T17:30:00-07:00"
+    "round": 1,
+    "started": "2026-06-24T17:30:00-07:00",
+    "article_number": 359,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.2,
+      "legal": 8.8,
+      "rigor": 9.0,
+      "data": 8.8
+    }
   },
   "last_completed": {
     "slug": "nhtsa-complaint-funnel-73000-vs-33",
