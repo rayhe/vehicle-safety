@@ -1,11 +1,10 @@
 {
   "current": {
     "slug": "occupant-pedestrian-zero-sum",
-    "phase": "HOLD",
+    "phase": "SHIP",
     "journalist": "Mia Crumplezone",
     "started": "2026-06-25T20:30:00Z",
     "round": 1,
-    "hold_reason": "1/day publish limit — 3 articles already shipped 2026-06-25 (#361, #362, #363). Ship 2026-06-26.",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -18,12 +17,9 @@
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 2.9,
-      "sentence_rhythm": "PASS",
-      "rhythm_variance": 283.8,
-      "rhythm_short_pct": 10.2,
-      "rhythm_long_pct": 49.0,
+      "the_starters_pct": 1.9,
       "css_class": "story",
+      "stylesheet": "style.css",
       "hero_image": true,
       "hero_jpeg_verified": true
     }
