@@ -1,10 +1,20 @@
 {
   "current": {
-    "slug": null,
-    "phase": "IDLE",
-    "journalist": null,
-    "started": null,
-    "round": 0
+    "slug": "wrangler-seven-year-tip",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-06-25T10:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.5
+    },
+    "notes": "All 7 critics pass (>=8.5). All hard gates pass (0 em dashes, rhythm variance 391.4, no banned phrases). Held — #360 and #361 already published 2026-06-25. Ready to ship next eligible day."
   },
   "last_completed": {
     "slug": "jlr-clockspring-grease-recall",
