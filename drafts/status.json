@@ -1,31 +1,25 @@
 {
-  "current": null,
+  "current": {
+    "slug": null,
+    "phase": "IDLE",
+    "journalist": null,
+    "started": null,
+    "round": 0
+  },
   "last_completed": {
-    "slug": "un-competent-driver-standard",
-    "headline": "The UN Just Set the Bar for Self-Driving Cars: 'As Good as a Competent Human.' FARS Data Shows That's Twice as Hard as It Sounds.",
-    "journalist": "Dale Impactor III",
-    "article_number": 360,
-    "published_at": "2026-06-25T06:48:32Z",
+    "slug": "jlr-clockspring-grease-recall",
+    "headline": "Land Rover's Fix for 250,857 Potentially Non-Deploying Airbags Is a Dab of Grease. It Was a Dab of Grease in 2016, Too.",
+    "journalist": "Clara Rollover",
+    "article_number": 361,
+    "published_at": "2026-06-25T08:43:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 9.0,
-      "rigor": 8.5,
+      "rigor": 9.0,
       "data": 9.0
     }
-  },
-  "phase": "QA",
-  "round": 0,
-  "scores": {
-    "general_editor": 9.0,
-    "voice_coach": 9.0,
-    "ethics_reviewer": 9.0,
-    "social_shareability": 9.0,
-    "legal_accuracy": 9.0,
-    "research_rigor": 8.5,
-    "data_presentation": 9.0,
-    "mean": 8.93
   }
 }
