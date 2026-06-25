@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "un-competent-driver-standard",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Dale Impactor III",
+    "headline": "The UN Just Set the Bar for Self-Driving Cars: 'As Good as a Competent Human.' FARS Data Shows That's Twice as Hard as It Sounds.",
+    "started": "2026-06-25T06:26:00Z"
+  },
   "last_completed": {
     "slug": "aeb-phantom-braking-causes-crashes",
     "headline": "NHTSA Mandated a Safety System That Prevents 360 Deaths a Year. It Also Causes the Exact Crash It Was Designed to Stop.",
@@ -15,5 +22,17 @@
       "rigor": 9.0,
       "data": 8.8
     }
+  },
+  "phase": "SHIP",
+  "round": 0,
+  "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 9.0,
+    "mean": 8.93
   }
 }
