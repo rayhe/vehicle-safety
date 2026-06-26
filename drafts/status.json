@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "platform-death-footprint",
+    "headline": "One Engineering Team Controls 17,227 American Deaths",
+    "phase": "SHIP",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "started": "2026-06-26T06:26:00Z"
+  },
   "last_completed": {
     "slug": "safety-tech-stacking-insurance-mirage",
     "headline": "The 39% Illusion: Your Safety Features Fight the Crashes That Don't Kill You",
