@@ -1,20 +1,14 @@
 {
-  "current": {
-    "slug": "three-axis-safety-model",
-    "phase": "CRITIQUE",
-    "round": 1,
-    "journalist": "Axle McScatter",
-    "started": "2026-06-26T18:00:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "platform-death-footprint",
-    "headline": "One Engineering Team Controls 17,227 American Deaths",
-    "journalist": "Rex Driverton",
-    "article_number": 366,
-    "published_at": "2026-06-26T06:57:00Z",
+    "slug": "three-axis-safety-model",
+    "headline": "Three Numbers Define Every Car in America. None of Them Predict Each Other.",
+    "journalist": "Axle McScatter",
+    "article_number": 367,
+    "published_at": "2026-06-26T18:55:00Z",
     "scores": {
       "general": 9.0,
-      "voice": 8.5,
+      "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 9.0,
