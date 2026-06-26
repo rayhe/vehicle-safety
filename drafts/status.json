@@ -1,12 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "73-mph-override-defense",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Clara Rollover",
     "headline": "Every Car in America Has the Same Backdoor That Killed Martha Avila",
-    "started": "2026-06-26T18:26:00Z",
+    "journalist": "Clara Rollover",
     "article_number": 370,
+    "published_at": "2026-06-26T20:26:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.7,
@@ -15,21 +14,6 @@
       "legal": 8.5,
       "rigor": 9.0,
       "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "two-death-counts-3535-apart",
-    "headline": "The U.S. Has Two Official Counts of Its Road Dead. They're 3,535 Bodies Apart.",
-    "journalist": "Vin Wreckage",
-    "article_number": 369,
-    "published_at": "2026-06-26T22:00:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 8.5,
-      "rigor": 9.0
     }
   }
 }
