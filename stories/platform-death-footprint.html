@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One Engineering Team Controls 17,227 American Deaths &mdash; The Crash Report</title>
+  <meta name="description" content="GM's full-size truck platform accounts for more FARS fatalities than most automakers produce across their entire lineup. Platform sharing concentrates life-and-death decisions in fewer hands than ever.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>One Engineering Team Controls 17,227 American Deaths</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">June 26, 2026</div>
+
+      <p>Last week Toyota recalled 20,991 electric vehicles because a battery control unit could kill the drivetrain at highway speed.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Three brands hit simultaneously: Toyota BZ, Lexus RZ, Subaru Solterra. Different badges, different dealerships, but the same platform, same bug, same ECU trying to brick your car at 70 mph. One engineering flaw, and suddenly a Subaru owner in Vermont and a Lexus owner in Scottsdale share the same terrifying failure mode because their vehicles were born on the same assembly line architecture, Toyota's e-TNGA.</p>
+
+      <p>That's 20,991 vehicles. Survivable as recall numbers go. So I ran a thought experiment on FARS data that should keep platform engineers awake: what if a structural safety defect hit one of the BIG shared platforms?</p>
+
+      <div class="pull-stat">17,227</div>
+      <div class="pull-label">FARS deaths (2014&ndash;2023) on GM's full-size truck platform: Silverado, Sierra, Tahoe, Yukon, Suburban</div>
+
+      <p>Add them up: Chevrolet Silverado at <strong>9,591 deaths</strong>, GMC Sierra at 3,337, Tahoe at 2,592, Yukon at 1,114, and Suburban at 593, giving you five nameplates, one platform, and 17,227 funerals.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> That is not a product line; it is a body count controlled by a single engineering team's decisions about frame geometry, crash structure, and occupant protection. Roughly 1,700 people a year die in vehicles that share the same basic skeleton, and a structural defect in that skeleton would propagate to every single one of them.</p>
+
+      <p>Toyota's TNGA platform is the second-largest death footprint I found: 13,293 FARS deaths across the Camry (6,328), Corolla (4,945), RAV4 (914), and Highlander (1,106). But TNGA reveals something the raw count hides entirely. Toyota's RAV4 has a death rate of 0.19 per 100 million VMT. Its Camry, on the same underlying platform architecture, clocks 2.03. That is a <strong>10.7&times; gap on the same engineering bones</strong>.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The platform gives you the floor pan and the crash structure; the body style decides whether your family survives the impact. Toyota proved that shared platforms CAN produce radically different safety outcomes depending on what you bolt on top. Which means the Camry's death rate is a choice. Not a constraint.</p>
+
+      <p>Nissan's CMF platform shows the same pattern: Altima carries a rate of 2.88 on 4,787 deaths while Rogue sits at just 0.35 with 968, an 8.2&times; gap. Same Renault-Nissan engineering architecture, same factory capability, wildly different survival odds. Sedans are killing people on platforms that demonstrably know how to build safe crossovers.</p>
+
+      <p>The counterargument writes itself, and it's partly right: platform consolidation concentrates engineering investment, too. Toyota designed TNGA specifically to improve crash performance across all derivatives. Fewer platforms means more R&amp;D dollars per platform, better simulation, more destructive testing. That's a genuine argument, but it cuts in both directions, and the downside is structural. When GM's ignition switch defect hit the Delta compact platform, it killed 124 people across the Cobalt, Ion, and G5 before anyone at GM connected the dots, because nobody was tracking defects at the platform level.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> That investigation took a decade to unfold: a hundred twenty-four people, one switch, one platform, one engineering team that could have caught it.</p>
+
+      <p>Now scale that up: GM's Ultium EV platform already underpins the Lyriq, Blazer EV, Equinox EV, Hummer EV, and Silverado EV. Hyundai's E-GMP runs under the Ioniq 5, EV6, and GV60, and has already triggered multi-brand battery recalls. The e-TNGA recall that prompted this analysis hit three brands from one bug. The blast radius per defect is growing with every platform consolidation announcement, and NHTSA still investigates by model, not by platform.</p>
+
+      <p>There's a calculation the recall database doesn't do, so I did it. When you stop counting by nameplate and start counting by platform, the concentration is staggering: GM's full-size truck platform carries more FARS deaths than the entire Nissan lineup (Altima + Sentra + Maxima + Versa + Rogue + Frontier + Pathfinder + all the rest) combined. If a critical crash-structure defect surfaced in that platform tomorrow, NHTSA would be staring at 10+ million affected vehicles producing 1,700 deaths a year. That is not a recall; it is a crisis that would dwarf every automotive safety action in NHTSA's history.</p>
+
+      <p><strong>What this means for you:</strong> Know your vehicle's platform, not just its badge. The Toyota BZ3X and Subaru Solterra are the same car wearing different clothes. A recall on one is a recall on both, even if the other brand's notice arrives weeks later. Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>, and if you find a recall on a platform-sibling (same architecture, different badge), don't wait for your specific brand's notification. Call your dealer before the official notice arrives.</p>
+
+      <p><strong>Limitations:</strong> FARS data spans 2014&ndash;2023, covering multiple generations of each platform. "Silverado" deaths include GMT900 and T1 trucks, not all structurally identical to current Tahoe and Yukon generations. Platform sharing exists on a spectrum; some siblings share only the underbody, others share nearly everything. And death rates reflect driver demographics and usage patterns alongside platform engineering. The Camry-vs-RAV4 gap is partly about who buys each vehicle, not only what each vehicle is. These caveats are real, but they do not erase the structural concentration. The platform death footprint is a lower bound on the risk, not an upper bound.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, Recall 26V393000, Toyota/Lexus/Subaru e-TNGA ECU fault, June 18, 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">General Motors ignition switch recalls. <a href="https://en.wikipedia.org/wiki/General_Motors_ignition_switch_recalls" target="_blank" rel="noopener">Wikipedia</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Platform groupings are the author's analysis based on publicly available vehicle architecture information; FARS does not track platform identity. Deaths are occupant fatalities in the named vehicle. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
