@@ -1,30 +1,14 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "three-great-declines",
-    "phase": "QA",
+    "headline": "America Has Had Three Great Death Declines. The First Two Ended Badly.",
     "journalist": "Dale Impactor III",
-    "started": "2026-06-26T10:26:00Z",
-    "round": 1,
     "article_number": 368,
+    "published_at": "2026-06-26T14:30:00Z",
     "scores": {
       "general": 9.0,
       "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
-    }
-  },
-  "last_completed": {
-    "slug": "three-axis-safety-model",
-    "headline": "Three Numbers Define Every Car in America. None of Them Predict Each Other.",
-    "journalist": "Axle McScatter",
-    "article_number": 367,
-    "published_at": "2026-06-26T18:55:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
       "ethics": 9.0,
       "social": 9.0,
       "legal": 9.0,
