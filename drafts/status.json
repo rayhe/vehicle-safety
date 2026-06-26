@@ -1,35 +1,11 @@
 {
-  "current": {
-    "slug": "occupant-pedestrian-zero-sum",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-06-25T20:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 1.9,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "hero_image": true,
-      "hero_jpeg_verified": true
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "iihs-blazer-30-years-saved",
-    "headline": "IIHS Saved 48,352 Lives. The Vehicles That Failed Its Tests Are Still Killing People.",
-    "journalist": "Vin Wreckage",
-    "article_number": 363,
-    "published_at": "2026-06-25T21:15:00Z",
+    "slug": "occupant-pedestrian-zero-sum",
+    "headline": "Your Truck's Crash Survivability Comes at a Price. Pedestrians Are Paying It.",
+    "journalist": "Mia Crumplezone",
+    "article_number": 364,
+    "published_at": "2026-06-26T00:26:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
