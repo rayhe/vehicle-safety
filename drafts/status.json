@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "three-axis-safety-model",
+    "phase": "CRITIQUE",
+    "round": 1,
+    "journalist": "Axle McScatter",
+    "started": "2026-06-26T18:00:00Z"
+  },
   "last_completed": {
     "slug": "platform-death-footprint",
     "headline": "One Engineering Team Controls 17,227 American Deaths",

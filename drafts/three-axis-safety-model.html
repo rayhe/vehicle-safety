@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Three Numbers Define Every Car in America. None of Them Predict Each Other. &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data across 182 vehicles reveals crash frequency, crash lethality, and impairment rate are three effectively independent axes. Average R-squared: 4.7%. Your car's death rate is actually three separate problems wearing a trenchcoat.">
+  <meta property="og:title" content="Three Numbers Define Every Car in America. None of Them Predict Each Other.">
+  <meta property="og:description" content="Crash frequency, lethality, and impairment form three independent safety axes with an average R-squared of 4.7%. The Chevy Cobalt scores worst on all three.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/three-axis-safety-model.html">
+  <meta property="og:site_name" content="The Crash Report">
+  <meta property="og:image" content="https://vehicle-safety.org/images/three-axis-safety-model.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Three Numbers Define Every Car in America. None of Them Predict Each Other.">
+  <meta name="twitter:description" content="Crash frequency, lethality, and impairment form three independent safety axes. Average R-squared: 4.7%.">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/three-axis-safety-model.jpg">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/three-axis-safety-model.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Three Numbers Define Every Car in America. None of Them Predict Each Other.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 26, 2026</div>
+
+      <p>I ran the correlations three times because the first two runs felt like instrument error. Across 182 vehicle models with at least 100,000 units on U.S. roads and 200 or more fatal crash involvements in the FARS database, three metrics that should logically move in tandem turn out to be strangers at a party.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">R&sup2; = 4.7%</div>
+      <div class="pull-label">Average variance explained across all three pairwise correlations between crash frequency, crash lethality, and impairment rate</div>
+
+      <div class="story-body">
+
+      <p><strong>Crash frequency (how often a vehicle shows up in a fatal crash per unit of fleet) predicts essentially zero about its impairment rate: r = &minus;0.045, R-squared 0.2 percent.</strong> That decimal is not a rounding artifact but the actual measured correlation between crash frequency and impairment rate across the entire 182-model dataset. Vehicles that crash constantly are not disproportionately piloted by drunk or drugged drivers, and the vehicles attracting the most impaired operators do not crash more often. The two phenomena operate on different wiring entirely.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>This matters because the entire vehicle safety apparatus treats &ldquo;death rate&rdquo; as a single number &mdash; NHTSA publishes it, IIHS ranks by it, and insurance companies price from it. But a death rate is actually three separate failure modes multiplied together: how often the vehicle enters a fatal scenario, how likely the occupant is to die given that scenario, and how often the driver was impaired when it happened. We previously showed that the first two are nearly independent, with crash frequency explaining just 3.3 percent of lethality variance.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Adding the impairment axis completes the picture: <strong>lethality and impairment share only 5.3 percent of variance, and frequency and impairment share 0.2 percent.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>The strongest objection: maybe these axes only <em>look</em> independent because vehicle demographics confound them in opposite directions, and the cancelation makes correlation disappear. FARS cannot control for driver age, income, or geography within a model. But perfect three-way cancelation across 182 vehicles is less an explanation than a conspiracy theory dressed in statistics.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>The Chevrolet Cobalt ranks in the 98th percentile on crash frequency, 98th on lethality, and 89th on impairment rate, accumulating 1,540 FARS deaths as though each axis were competing for a personal best. The Buick LeSabre matches it with 95th-percentile impairment layered onto 98th-percentile lethality, a gerontological double that has nothing to do with structural engineering.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Among passenger vehicles, the Hyundai Tucson lands at the 16th percentile on frequency, 14th on lethality, and 7th on impairment. The Toyota Highlander (27th, 13th, 4th percentile) and Chevrolet Traverse (7th, 4th, 26th) tell the same story: mainstream crossovers quietly excelling across every dimension the data can measure, without exotic materials or a six-figure price tag.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>If you consult one safety number when shopping for a car, you are solving one-third of a three-dimensional problem. A low death rate might come from low frequency while hiding terrible lethality, or from excellent structure paired with an abnormal impairment rate inflating the toll through a mechanism that has nothing to do with steel or sensors. Check the Tucson, Highlander, or Traverse if you want a vehicle that earns its safety reputation across all three axes rather than gambling on one.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. 182 vehicle models with fleet &ge;100,000 and fatal crash involvements &ge;200. Impairment defined as BAC &gt; 0 or drug-positive toxicology, minimum 50 drivers tested per model. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">The Crash Report, &ldquo;Crash Frequency Explains 3% of Whether You&rsquo;ll Die,&rdquo; April 2026. r = 0.1825, R&sup2; = 3.3%, N = 272 models. <a href="https://vehicle-safety.org/stories/frequency-lethality-independence.html" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Impairment includes BAC &gt; 0 and drug-positive toxicology results; cannabis metabolites can persist days after use, inflating drug-positive counts. Fleet estimates from industry data carry &plusmn;15% uncertainty for lower-volume models. This is an ecological analysis at the vehicle-model level; individual driver risk varies substantially. See our <a href="../#method">full methodology page</a> for analytical caveats and data-processing assumptions.</p>
+
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
