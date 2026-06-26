@@ -1,14 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "two-death-counts-3535-apart",
-    "number": 369,
-    "phase": "READY_TO_SHIP",
-    "journalist": "Vin Wreckage",
     "headline": "The U.S. Has Two Official Counts of Its Road Dead. They're 3,535 Bodies Apart.",
-    "started": "2026-06-26T22:00:00Z",
-    "critique_passed": true,
-    "critique_round": 1,
-    "all_gates_pass": true,
+    "journalist": "Vin Wreckage",
+    "article_number": 369,
+    "published_at": "2026-06-26T22:00:00Z",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -16,22 +13,6 @@
       "social": 9.5,
       "legal": 8.5,
       "rigor": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "three-great-declines",
-    "headline": "America Has Had Three Great Death Declines. The First Two Ended Badly.",
-    "journalist": "Dale Impactor III",
-    "article_number": 368,
-    "published_at": "2026-06-26T14:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
     }
   }
 }
