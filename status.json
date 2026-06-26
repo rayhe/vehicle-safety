@@ -1,31 +1,31 @@
 {
-  "article_number": 370,
-  "slug": "73-mph-override-defense",
-  "headline": "Every Car in America Has the Same Backdoor That Killed Martha Avila",
-  "journalist": "Clara Rollover",
+  "article_number": 371,
+  "slug": "summer-stall-q3-decline-decelerates",
+  "headline": "America's Safety Streak Hit a Wall in July. The Math Says It Was Always Going To.",
+  "journalist": "Axle McScatter",
   "phase": "SHIP",
   "round": 1,
-  "dateline": "June 27, 2026",
+  "dateline": "June 26, 2026",
   "hard_gates": {
-    "em_dashes": "PASS (0)",
+    "em_dashes": "PASS (2)",
     "banned_phrases": "PASS",
-    "the_starters": "PASS (0.0%)",
+    "the_starters": "PASS (10.6%)",
     "css_template": "PASS",
     "references": "PASS (7 refs)",
     "actionable_takeaways": "PASS",
-    "sentence_rhythm": "PASS (variance=496.1, short=13.7%, long=54.9%)"
+    "sentence_rhythm": "PASS (variance=449.3, short=14.0%, long=50.0%)"
   },
   "critics": {
-    "general_editor": 9.0,
-    "voice_coach": 9.2,
-    "ethics_reviewer": 9.0,
-    "social_shareability": 9.0,
-    "legal_accuracy": 8.8,
+    "general_editor": 9.1,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 9.2,
+    "legal_accuracy": 8.6,
     "research_rigor": 8.7,
     "data_presentation": 8.5,
-    "composite": 8.89
+    "composite": 8.81
   },
-  "hero_image": "images/73-mph-override-defense.jpg",
-  "publish_hold": "1/day limit — article #369 published 2026-06-26, this article ships 2026-06-27",
-  "updated": "2026-06-26T18:46:00Z"
+  "hero_image": "images/summer-stall-q3-decline-decelerates.jpg",
+  "publish_hold": "1/day limit — article #370 ships 2026-06-27, this article ships 2026-06-28",
+  "updated": "2026-06-26T22:50:00Z"
 }
