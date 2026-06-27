@@ -1,25 +1,20 @@
 {
-  "current": {
-    "slug": "brake-pedal-before-brakes-work",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-06-27T08:26:00Z",
-    "headline_wip": "America Is Removing the Brake Pedal Before It Requires the Brakes to Work"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "kia-boys-immobilizer-body-count",
-    "headline": "A $20 Chip Would Have Saved Them: The TikTok Theft Epidemic Hiding in FARS Data",
-    "journalist": "Rex Driverton",
-    "article_number": 372,
-    "published_at": "2026-06-27T06:00:00Z",
+    "slug": "brake-pedal-before-brakes-work",
+    "headline": "America Is Removing the Brake Pedal Before It Requires the Brakes to Work",
+    "journalist": "Mia Crumplezone",
+    "article_number": 373,
+    "published_at": "2026-06-27T18:00:00Z",
     "scores": {
-      "general": 9.0,
+      "general": 8.5,
       "voice": 9.0,
-      "ethics": 8.7,
-      "social": 9.2,
-      "legal": 8.7,
-      "rigor": 9.0,
-      "data": 8.9
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data": 8.5
     }
   }
 }
+
