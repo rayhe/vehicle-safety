@@ -1,18 +1,11 @@
 {
-  "current": {
-    "slug": "suv-only-category-worse-2024",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "headline": "Every Vehicle Category Got Safer in 2024. Except the One You Bought.",
-    "started": "2026-06-27T10:26:00Z",
-    "round": 0
-  },
+  "current": null,
   "last_completed": {
-    "slug": "brake-pedal-before-brakes-work",
-    "headline": "America Is Removing the Brake Pedal Before It Requires the Brakes to Work",
-    "journalist": "Mia Crumplezone",
-    "article_number": 373,
-    "published_at": "2026-06-27T18:00:00Z",
+    "slug": "suv-only-category-worse-2024",
+    "headline": "Every Vehicle Category Got Safer in 2024. Except the One You Bought.",
+    "journalist": "Vin Wreckage",
+    "article_number": 374,
+    "published_at": "2026-06-27T10:44:00Z",
     "scores": {
       "general": 8.5,
       "voice": 9.0,
@@ -20,8 +13,7 @@
       "social": 9.0,
       "legal": 8.5,
       "rigor": 8.5,
-      "data": 8.5
+      "data": 9.0
     }
   }
 }
-
