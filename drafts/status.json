@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "kia-boys-immobilizer-body-count",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-26T17:30:00-07:00",
+    "round": 1
+  },
   "last_completed": {
     "slug": "73-mph-override-defense",
     "headline": "Every Car in America Has the Same Backdoor That Killed Martha Avila",
