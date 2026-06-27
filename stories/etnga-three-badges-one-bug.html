@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Same ECU Bug Hit Toyota, Lexus, and Subaru at Once. That&rsquo;s Not a Coincidence. &mdash; The Crash Report</title>
+  <meta name="description" content="A single Denso memory chip defect just triggered recalls across 20,991 EVs spanning three brands on the e-TNGA platform. It's the architecture's second cross-brand recall in two years.">
+  <meta property="og:title" content="The Same ECU Bug Hit Toyota, Lexus, and Subaru at Once. That's Not a Coincidence.">
+  <meta property="og:description" content="A single Denso memory chip defect just triggered recalls across 20,991 EVs spanning three brands on the e-TNGA platform.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/etnga-three-badges-one-bug.jpg?v=e6b7fd28">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>The Same ECU Bug Hit Toyota, Lexus, and Subaru at Once. That&rsquo;s Not a Coincidence.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">June 28, 2026</div>
+
+      <p>A race condition in one Denso chip just killed propulsion across <strong>20,991 electric vehicles</strong> spanning three brands and a single shared platform.</p>
+
+      <div class="pull-stat">20,991</div>
+      <div class="pull-label">vehicles recalled across three badges for one memory chip defect</div>
+
+      <p>Denso part number 89890-42381 sits inside every 2026 Toyota bZ, Lexus RZ, and Subaru Solterra built on Toyota&rsquo;s e-TNGA architecture, where two integrated circuits in the battery ECU share a memory address location, which is the kind of resource-sharing decision that saves pennies per unit until it doesn&rsquo;t, because under high CPU load that spikes when the battery drops to a low state of charge, one circuit overwrites what the other just wrote.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Enough overwrites and the ECU fails its own operational check, the electric drive system shuts down at whatever speed you happen to be traveling, and while steering and brakes stay live, propulsion does not.</p>
+
+      <p>Toyota engineers caught this exact condition in August 2025 while testing a plug-in hybrid, analyzed the battery-electric models, concluded the monitoring circuit&rsquo;s write timing was different enough to prevent failure, and closed the investigation that September.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Seven months later remote diagnostic data from the field contradicted them, the investigation reopened in April 2026, and by June NHTSA campaign 26V393 covered 11,495 Toyota bZ units, 4,739 Lexus RZs, and 4,757 Subaru Solterras, with Toyota estimating that <strong>100% carry the defect</strong>.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Beyond propulsion loss, the pre-collision system and vehicle stability control can also go inoperable. Dealers will flash updated firmware for free, and notification letters ship August 3.</p>
+
+      <p>What matters beyond the bug itself is that this is the e-TNGA platform&rsquo;s second cross-brand recall in under two years, following the 94,320-vehicle HVAC defrost recall that hit these same three models in 2025, which brings the running total past 115,000 recalled vehicles from two unrelated defects on one shared architecture.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Platform sharing makes EVs cheaper and faster to develop, but it also turns one supplier&rsquo;s firmware bug into three automakers&rsquo; simultaneous crisis.</p>
+
+      <p>Denso has been here before: a deformed fuel pump impeller in 2020 triggered a recall covering 3.53 million vehicles across Toyota, Honda, Ford, Subaru, and Mitsubishi, and that litigation is still open.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Platform defenders will counter that higher volume per component means more testing hours and faster detection, and they have a point, because Toyota did detect this bug seventeen months before the recall; they just spent eight of those months believing their own analysis over the data that eventually proved them wrong.</p>
+
+      <p><strong>Limitations:</strong> Zero crashes have been reported, only one warranty claim filed, and the 100% defect rate reflects theoretical exposure rather than observed failures; these 2026-model EVs won&rsquo;t appear in FARS data for years, so this analysis measures recall scope and supplier concentration risk, not crash outcomes.</p>
+
+      <p><strong>What to do:</strong> If you drive a 2026 Toyota bZ, Lexus RZ, or Subaru Solterra, check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. Toyota recall numbers are 26LA07 and 26TA11; Subaru&rsquo;s is WRG26. If your dashboard flashes &ldquo;EV System Malfunction,&rdquo; pull over. The car has already decided it&rsquo;s done driving.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Safety Recall 26V393</em>, June 2026. Toyota Part 573 filing: battery ECU memory-overwrite defect in 2026 Toyota bZ, Lexus RZ, Subaru Solterra. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">Carscoops, &ldquo;21,000 Toyota And Subaru EVs Recalled Because A Memory Glitch Can Cut Power To The Wheels,&rdquo; June 2026. Timeline of Toyota&rsquo;s Aug 2025 discovery, Sept 2025 dismissal, and April 2026 re-investigation. <a href="https://www.carscoops.com" target="_blank" rel="noopener">carscoops.com</a></li>
+          <li id="ref-3">Autoevolution, &ldquo;Toyota Recalls Nearly 21,000 Electric Vehicles Over Battery Control Unit Software Issue,&rdquo; June 2026. Denso part number 89890-42381; PCS/VSC impact. <a href="https://www.autoevolution.com" target="_blank" rel="noopener">autoevolution.com</a></li>
+          <li id="ref-4">Electrive, &ldquo;Major US recall for EVs on Toyota&rsquo;s eTNGA platform,&rdquo; 2025. 94,320 vehicles recalled for HVAC defroster system defect across Toyota bZ4X, Lexus RZ, Subaru Solterra. <a href="https://www.electrive.com" target="_blank" rel="noopener">electrive.com</a></li>
+          <li id="ref-5">Autoblog, &ldquo;Denso fuel-pump recall expands to 3.5 million vehicles in U.S.,&rdquo; Nov 2020. Impeller deformation across Toyota, Honda, Ford, Subaru, Mitsubishi. <a href="https://www.autoblog.com" target="_blank" rel="noopener">autoblog.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings, June 2026. Recall scope and defect-rate estimates from manufacturer Part 573 reports. No FARS fatal-crash data exists for 2026-model vehicles. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
