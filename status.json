@@ -1,31 +1,31 @@
 {
-  "article_number": 371,
-  "slug": "summer-stall-q3-decline-decelerates",
-  "headline": "America's Safety Streak Hit a Wall in July. The Math Says It Was Always Going To.",
-  "journalist": "Axle McScatter",
+  "article_number": 373,
+  "slug": "rogue-peak-model-year-deaths",
+  "headline": "The Nissan Rogue Killed 127 People in Its Worst Model Year. The RAV4 Never Broke 88.",
+  "journalist": "Mia Crumplezone",
   "phase": "SHIP",
   "round": 1,
-  "dateline": "June 26, 2026",
+  "dateline": "June 29, 2026",
   "hard_gates": {
-    "em_dashes": "PASS (2)",
+    "em_dashes": "PASS (0)",
     "banned_phrases": "PASS",
-    "the_starters": "PASS (10.6%)",
+    "the_starters": "PASS (12.5%)",
     "css_template": "PASS",
-    "references": "PASS (7 refs)",
+    "references": "PASS (2 refs)",
     "actionable_takeaways": "PASS",
-    "sentence_rhythm": "PASS (variance=449.3, short=14.0%, long=50.0%)"
+    "sentence_rhythm": "PASS (variance=396.6, short=12.5%, long=70.8%)"
   },
   "critics": {
-    "general_editor": 9.1,
+    "general_editor": 9.0,
     "voice_coach": 8.8,
-    "ethics_reviewer": 8.8,
+    "ethics_reviewer": 9.1,
     "social_shareability": 9.2,
-    "legal_accuracy": 8.6,
-    "research_rigor": 8.7,
+    "legal_accuracy": 8.7,
+    "research_rigor": 8.6,
     "data_presentation": 8.5,
-    "composite": 8.81
+    "composite": 8.84
   },
-  "hero_image": "images/summer-stall-q3-decline-decelerates.jpg",
-  "publish_hold": "1/day limit — article #370 ships 2026-06-27, this article ships 2026-06-28",
-  "updated": "2026-06-26T22:50:00Z"
+  "hero_image": "images/rogue-peak-model-year-deaths.jpg",
+  "publish_hold": "1/day limit — ships 2026-06-29",
+  "updated": "2026-06-27T04:35:00Z"
 }

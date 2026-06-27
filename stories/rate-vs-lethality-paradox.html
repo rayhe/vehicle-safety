@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Same Death Rate. One Kills Its Driver 92% of the Time. &mdash; The Crash Report</title>
+  <meta name="description" content="The Saturn S Series and the Toyota Tundra have nearly identical death rates. But when the Saturn crashes fatally, its occupant dies 92% of the time. When the Tundra crashes, only 42%. The safety metric everyone uses hides a 4.5x gap in who actually dies.">
+  <meta property="og:title" content="Same Death Rate. One Kills Its Driver 92% of the Time.">
+  <meta property="og:description" content="Death rate per VMT is the standard vehicle safety metric. It's hiding a 4.5x gap in who actually dies when crashes happen.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/rate-vs-lethality-paradox.jpg?v=6aa252fc">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/rate-vs-lethality-paradox.html">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/rate-vs-lethality-paradox.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Same Death Rate. One Kills Its Driver 92% of the Time.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 28, 2026</div>
+
+      <p>Two vehicles sit next to each other in the FARS database with nearly identical fatality rates. <strong>The Saturn S Series at 0.84 deaths per 100 million vehicle miles traveled, and the Toyota Tundra at 0.93.</strong> By the metric that safety rankings and insurance actuaries use to sort vehicles, these two are neighbors.</p>
+
+      <p>They are not interchangeable.</p>
+
+      <div class="pull-stat">4.5&times;</div>
+      <div class="pull-label">The gap between the most and least lethal vehicles in FARS, measured by who dies when a fatal crash happens</div>
+
+      <p>When the Saturn is involved in a fatal crash, its own occupant dies 92.4 percent of the time: 170 deaths across 184 fatal involvements.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> When the Tundra is involved in one, its occupant dies 41.5 percent of the time: 1,223 deaths across 2,947 involvements. Same rate neighborhood, completely inverted survival odds.</p>
+
+      <p>Rate measures how often a vehicle appears in a fatal crash relative to how much it is driven. It does not answer the harder question: given that I am already in a crash bad enough to kill someone, am I the one who dies? Own-occupant deaths divided by total fatal involvements gives you that number, call it lethality, trivial to compute from FARS and yet published by nobody.</p>
+
+      <p>Across 252 models with at least 100 fatal involvements in the 2014 through 2023 FARS files, lethality ranges from 0.205 for the Ram 2500, whose occupant dies barely one-fifth of the time, to 0.924 for the Saturn.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> By class, sedans average 0.654, SUVs 0.513, pickups 0.535, and sports cars 0.723. A 2,200-pound Saturn colliding with a 5,800-pound Tundra does not negotiate; the lighter vehicle absorbs more energy per unit of structure regardless of how many airbags deployed.</p>
+
+      <p>Within classes the spread stays enormous: among sedans, the Chevrolet Aveo posts 0.890 while the Acura TLX manages 0.303. The Buick Park Avenue carries a rate of 0.48, which looks safe by every published ranking, but its lethality is 0.882.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Cautious drivers in fragile cars produce low rates and catastrophic lethality, and the standard metric rewards them for it.</p>
+
+      <p>The counterargument is not trivial: many high-lethality vehicles are discontinued models from a less-safe era, and their lethality may reflect old crash structures rather than eternal physics. FARS cannot cleanly separate vehicle age from vehicle mass because the oldest, lightest cars cluster at both extremes. But IIHS research finds that mass remains the single strongest predictor of crash survival, with each additional 1,000 pounds reducing driver fatality risk 40 to 50 percent in frontal collisions, a relationship that has held across three decades.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>If you are shopping for a car, do not stop at the death rate. Ask what happens when a crash is bad enough to kill someone: does this vehicle protect you, or the other person? A low rate earned by cautious drivers on quiet roads is not the same as a low rate earned through crashworthiness. FARS has the data for both metrics, but only one gets published.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023 Final Files. Cross-tabulation of occupant deaths by vehicle model and total fatal crash involvements. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. Research on the relationship between vehicle mass and occupant fatality risk in crashes. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 Final Files. Lethality is computed as own-occupant deaths divided by total fatal crash involvements per model. Only models with 100 or more fatal crash involvements are included (n=252). Fleet size and VMT are estimates; low-volume models carry approximately &plusmn;15% uncertainty. FARS captures only fatal crashes, not all crashes or all injuries. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

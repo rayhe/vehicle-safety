@@ -1035,7 +1035,7 @@
   </url>
   <url>
     <loc>https://vehicle-safety.org/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1447,7 +1447,7 @@
   </url>
   <url>
     <loc>https://vehicle-safety.org/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2157,5 +2157,9 @@
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vehicle-safety.org/stories/rate-vs-lethality-paradox.html</loc>
+    <lastmod>2026-06-28</lastmod>
   </url>
 </urlset>
