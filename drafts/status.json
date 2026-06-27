@@ -1,25 +1,19 @@
 {
-  "current": {
-    "slug": "kia-boys-immobilizer-body-count",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-06-26T17:30:00-07:00",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "slug": "73-mph-override-defense",
-    "headline": "Every Car in America Has the Same Backdoor That Killed Martha Avila",
-    "journalist": "Clara Rollover",
-    "article_number": 370,
-    "published_at": "2026-06-26T20:26:00Z",
+    "slug": "kia-boys-immobilizer-body-count",
+    "headline": "A $20 Chip Would Have Saved Them: The TikTok Theft Epidemic Hiding in FARS Data",
+    "journalist": "Rex Driverton",
+    "article_number": 372,
+    "published_at": "2026-06-27T06:00:00Z",
     "scores": {
       "general": 9.0,
-      "voice": 8.7,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 8.5,
+      "voice": 9.0,
+      "ethics": 8.7,
+      "social": 9.2,
+      "legal": 8.7,
       "rigor": 9.0,
-      "data": 8.5
+      "data": 8.9
     }
   }
 }
