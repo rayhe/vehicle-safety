@@ -31,7 +31,7 @@ Is this genuinely newsworthy? YES.
 
 ### Source 3: Katy TX Tesla Crash (June 19, 2026)
 - Tesla Model 3 crashed into residential home at 73 mph in Katy, Texas
-- Killed Maria Avila, 76, who was inside the home
+- Killed Martha Avila, 76, who was inside the home
 - Driver reported FSD/Autopilot was engaged
 - Tesla's Ashok Elluswamy (head of self-driving) says driver overrode by pressing accelerator to 100%
 - Harris County Sheriff confirms high-rate-of-speed entry through brick residence
