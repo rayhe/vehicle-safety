@@ -1,10 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "brand-badge-safety-lottery",
-    "phase": "SHIP",
+    "headline": "The Brand Badge Is a Lie. Your Model Choice Is a 39x Safety Gamble.",
     "journalist": "Rex Driverton",
-    "started": "2026-06-27T22:26:00Z",
-    "round": 1,
+    "article_number": 379,
+    "published_at": "2026-06-28T00:30:00Z",
     "scores": {
       "general": 8.7,
       "voice": 8.7,
@@ -12,22 +13,6 @@
       "social": 8.8,
       "legal": 8.7,
       "rigor": 8.6,
-      "data": 8.6
-    }
-  },
-  "last_completed": {
-    "slug": "etnga-three-badges-one-bug",
-    "headline": "The Same ECU Bug Hit Toyota, Lexus, and Subaru at Once. That's Not a Coincidence.",
-    "journalist": "Mia Crumplezone",
-    "article_number": 378,
-    "published_at": "2026-06-28T06:00:00Z",
-    "scores": {
-      "general": 8.7,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.7,
-      "rigor": 8.5,
       "data": 8.6
     }
   }
