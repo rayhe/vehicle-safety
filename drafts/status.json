@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "binary-failure-week",
-    "phase": "SHIP_READY",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-06-28T02:26:00Z",
     "round": 0,
@@ -15,7 +15,8 @@
       "data": 8.7
     },
     "gate_status": "PASS — all 7 critics ≥ 8.5",
-    "publish_blocked": "1/day gate: #379 published 2026-06-28T00:31Z. Earliest ship: 2026-06-29T00:00Z"
+    "published_at": "2026-06-28T04:29:00Z",
+    "article_number": 380
   },
   "last_completed": {
     "slug": "brand-badge-safety-lottery",
