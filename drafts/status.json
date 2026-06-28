@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "brand-badge-safety-lottery",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-06-27T22:26:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.7,
+      "voice": 8.7,
+      "ethics": 9.0,
+      "social": 8.8,
+      "legal": 8.7,
+      "rigor": 8.6,
+      "data": 8.6
+    }
+  },
   "last_completed": {
     "slug": "etnga-three-badges-one-bug",
     "headline": "The Same ECU Bug Hit Toyota, Lexus, and Subaru at Once. That's Not a Coincidence.",
