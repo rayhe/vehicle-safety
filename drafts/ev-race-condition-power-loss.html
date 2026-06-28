@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Two Chips Fought Over a Memory Address. 20,991 EVs Can Lose Power at Highway Speed. &mdash; The Crash Report</title>
+  <meta name="description" content="Toyota recalled 20,991 electric vehicles because a firmware race condition in the battery ECU can shut down the drive system at any speed. The root cause is a CS-101 concurrency bug that aerospace would have caught in verification.">
+  <meta property="og:title" content="Two Chips Fought Over a Memory Address. 20,991 EVs Can Lose Power at Highway Speed.">
+  <meta property="og:description" content="A race condition in the battery ECU can kill drive power at 70 mph. The fix is a software update. The question is why this class of bug made it to production at all.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/ev-race-condition-power-loss.jpg?v=ea5d23c4">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Two Chips Fought Over a Memory Address. 20,991 EVs Can Lose Power at Highway Speed.",
+    "datePublished": "2026-06-29",
+    "author": {"@type": "Person", "name": "Mia Crumplezone"}
+  }
+  </script>
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Two Chips Fought Over a Memory Address. 20,991 EVs Can Lose Power at Highway Speed.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">June 29, 2026</div>
+
+      <div class="story-body">
+
+      <p>Let me tell you about the dumbest possible way to make a car stop working. Inside the battery ECU of the 2026 Toyota bZ, Lexus RZ, and Subaru Solterra sits a pair of integrated circuits: one monitors the battery, the other controls it, and both write to the same memory address. When their write cycles collide, the stored data corrupts, the ECU fails its own self-check, and <strong>the entire electric drive system shuts down at whatever speed you happen to be traveling</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">20,991</div>
+      <div class="pull-label">Electric vehicles recalled because two integrated circuits cannot share a memory address without corrupting each other's data.</div>
+
+      <p>This is a race condition, the kind of concurrency bug computer science students learn to avoid in their second semester. You fix it with a lock, a semaphore, a mutex. Dijkstra published the solution in 1965, and sixty-one years later a production vehicle shipped without it.</p>
+
+      <p>Toyota discovered the bug while testing firmware for an unrelated plug-in hybrid in development.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Engineers noticed abnormal write cycling on certain EV platforms, ran targeted tests in April 2026, and confirmed the cascade: corrupted memory, malfunction indicators across multiple systems, then total loss of drive power. Steering and brakes retain hydraulic assist, so you can coast to the shoulder if you have a shoulder and the composure to use it.</p>
+
+      <p>One warranty claim exists that may relate to this defect. Nobody has crashed, nobody has died, and Toyota caught this before the body count started, which matters, but the failure class matters more.</p>
+
+      <p>Our FARS dataset puts the newest EVs at the bottom of the death-rate rankings: the Tesla Model Y at 0.03 fatalities per 100 million VMT, the Model 3 at 0.05.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Those numbers reflect crash avoidance and structural engineering. What they do not reflect is firmware reliability, because FARS counts bodies after metal bends, not the software fault that made it bend.</p>
+
+      <p>The aerospace industry solved this decades ago; DO-178C requires formal verification that would flag a shared-memory write conflict before the code compiled for production hardware.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> ISO 26262, the automotive equivalent, prescribes testing but does not mandate those techniques. The gap between those standards is the gap between an industry that assumes its software will kill someone and an industry still getting used to the idea.</p>
+
+      <p>Every recalled vehicle needs a dealer-applied ECU software update; no over-the-air fix is available because bricking a battery ECU over a cell connection is the kind of second-order failure nobody wants to explain in the next recall filing.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p><strong>What you should do with this:</strong> If you own a 2026 Toyota bZ, Lexus RZ, or Subaru Solterra, NHTSA recall 26V393000 covers your vehicle. Search your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> and schedule the dealer update before your next highway trip. If you are shopping for any EV, understand that failure modes have migrated: the thing that kills your drive power is no longer a broken fuel pump but two chips writing to the same address at the same time.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Recall 26V393000: Toyota Motor Engineering &amp; Manufacturing</em>, June 18, 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">Autoblog, &ldquo;Toyota, Lexus And Subaru EVs Recalled Over Sudden Power Loss Risk,&rdquo; June 26, 2026. <a href="https://www.autoblog.com" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-3">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">RTCA, <em>DO-178C: Software Considerations in Airborne Systems and Equipment Certification</em>, 2011; ISO 26262: <em>Road Vehicles &mdash; Functional Safety</em>, 2018.</li>
+        </ol>
+      </section>
+
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 for death-rate comparisons; NHTSA recall database for recall details. EV death rates reflect short fleet histories and favorable driver demographics; they should not be interpreted as pure measures of vehicle engineering. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ev-race-condition-power-loss",
+    "article_number": 384,
+    "headline": "Two Chips Fought Over a Memory Address. 20,991 EVs Can Lose Power at Highway Speed.",
+    "journalist": "Mia Crumplezone",
+    "kicker": "Investigation",
+    "date": "2026-06-29",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "hard_gates": {
+      "em_dashes": 1,
+      "the_starters_pct": 9.1,
+      "word_count": 497,
+      "rhythm_pass": true,
+      "banned_phrases": 0
+    }
+  },
   "last_completed": {
     "slug": "excess-lethality-class-benchmark",
     "article_number": 383,
