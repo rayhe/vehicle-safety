@@ -1,38 +1,12 @@
 {
-  "article_number": 392,
-  "slug": "nhtsa-weekend-probe-closures-817k-vehicles",
-  "headline": "NHTSA Closed Two Probes Covering 817,000 Vehicles in One Weekend. Nobody Checked If the Fixes Work.",
-  "journalist": "Rex Driverton",
-  "phase": "CRITIQUE",
-  "round": 1,
-  "dateline": "June 29, 2026",
-  "hard_gates": {
-    "em_dashes": "PASS (0)",
-    "banned_phrases": "PASS",
-    "the_starters": "PASS (0%)",
-    "css_template": "PASS",
-    "references": "PASS (5 refs)",
-    "actionable_takeaways": "PASS",
-    "sentence_rhythm": "PASS (variance=227.9, short=14.3%, long=61.2%)"
-  },
-  "critics": {
-    "general_editor": 8.8,
-    "voice_coach": 8.7,
-    "ethics_reviewer": 9.0,
-    "social_shareability": 9.1,
-    "legal_accuracy": 8.6,
-    "research_rigor": 8.7,
-    "data_presentation": 8.5,
-    "composite": 8.77
-  },
-  "critic_notes": {
-    "general_editor": "Strong lede, clear case→system structure, good pull stat. At 1005w exceeds 300-500 target but justified by required Limitations/Counterargument/Actionable sections.",
-    "voice_coach": "Zero em dashes/banned phrases/The-starters. Rhythm PASS (227.9). Good fragment diversity. 'Paperwork cleared.' slightly forced but voice is distinct.",
-    "ethics_reviewer": "Structural critique without preaching. Counterargument genuinely strong. Martha Avila named respectfully. No moral superiority.",
-    "social_shareability": "Headline is viral-ready. 96% pull stat perfect share trigger. Time asymmetry (617 days open, weekend to close) is the anchor.",
-    "legal_accuracy": "5 refs all properly cited. Tesla software version 2023.38.4 should be verified. Katy TX crash sourced from Memeburn not primary.",
-    "research_rigor": "Novel contribution (time asymmetry + missing residual-risk metric) is clear. OIG data is 2018-2019 vintage, acknowledged. Could estimate unfixed count (817K×30%≈245K).",
-    "data_presentation": "Numbers clean and well-layered. 70% figure used twice (body + structural) is minor redundancy. Could calculate the 245K unfixed estimate."
-  },
-  "updated": "2026-06-29T10:40:00Z"
+  "current": null,
+  "last_published": {
+    "article_number": 392,
+    "slug": "nhtsa-weekend-probe-closures-817k-vehicles",
+    "headline": "NHTSA Closed Two Probes Covering 817,000 Vehicles in One Weekend. Nobody Checked If the Fixes Work.",
+    "journalist": "Rex Driverton",
+    "dateline": "June 29, 2026",
+    "composite_score": 8.77,
+    "published_at": "2026-06-29T10:48:00Z"
+  }
 }
