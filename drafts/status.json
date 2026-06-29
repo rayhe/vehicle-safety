@@ -1,10 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "slug": "recall-exposure-math-unrepaired-fleet",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "kicker": "By The Numbers",
+    "started": "2026-06-29T09:30:00-07:00",
+    "round": 0
+  },
   "last_completed": {
-    "slug": "nhtsa-weekend-probe-closures-817k-vehicles",
-    "article_number": 392,
-    "headline": "NHTSA Closed Two Probes Covering 817,000 Vehicles in One Weekend. Nobody Checked If the Fixes Work.",
-    "journalist": "Rex Driverton",
+    "slug": "child-seat-side-impact-12-year-delay",
+    "article_number": 393,
+    "headline": "It Took 14 Years to Require a Side-Impact Test for Your Kid's Car Seat",
+    "journalist": "Clara Rollover",
     "kicker": "Investigation",
     "date": "2026-06-29",
     "phase": "PUBLISHED"
