@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "recall-exposure-math-unrepaired-fleet",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "kicker": "By The Numbers",
     "started": "2026-06-29T09:30:00-07:00",
-    "round": 0
+    "round": 0,
+    "article_number": 394
   },
   "last_completed": {
     "slug": "child-seat-side-impact-12-year-delay",

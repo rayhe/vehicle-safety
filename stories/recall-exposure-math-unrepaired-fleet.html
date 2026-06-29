@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car Will Be Recalled. The Math Says You Won't Fix It. &mdash; The Crash Report</title>
+  <meta name="description" content="28 million vehicles recalled in 2025 against 290 million registered. Run the probability: 70% of cars will face at least one recall in their lifetime. Half never get repaired.">
+  <meta property="og:title" content="Your Car Will Be Recalled. The Math Says You Won't Fix It.">
+  <meta property="og:description" content="I ran the per-vehicle recall exposure probability. The number is 70%. Then I ran the completion rates. Those were worse.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/recall-exposure-math-unrepaired-fleet.jpg?v=75998e8a">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/recall-exposure-math-unrepaired-fleet.html">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/recall-exposure-math-unrepaired-fleet.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Your Car Will Be Recalled. The Math Says You Won't Fix It.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">June 29, 2026</div>
+
+      <div class="story-body">
+
+      <p>I built a model, and it is not complicated: take 28 million vehicles recalled last year, divide by 290 million registered vehicles on American roads, and you get a <strong>9.7% annual recall probability per vehicle</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That is roughly one in ten cars catching a defect notice every twelve months. Now compound it across the average vehicle's 12-year service life using a simple survival function: (1 &minus; 0.097)<sup>12</sup>. The probability your car escapes its entire existence without a single recall is 29.5%.</p>
+
+      <div class="pull-stat">70.5%</div>
+      <div class="pull-label">Probability that any given vehicle will be recalled at least once over a 12-year lifespan, based on 2025 recall volume against the US registered fleet</div>
+
+      <p>Flip it. Seven out of ten vehicles rolling off a dealer lot today will eventually get a letter from someone explaining that something inside was built wrong. Brakes, software, airbags, steering columns, fuel systems, instrument clusters that go dark at 65 mph because two microchips were assigned the same memory address.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> This week alone delivered 449,000 freshly recalled vehicles across four separate campaigns: Hyundai dashboards blanking mid-drive, Toyota instrument panels failing to display warnings, a batch of Toyota and Subaru EVs whose battery controllers crash themselves into shutdown at highway speed, and a quarter-million Land Rovers with airbag connectors that NHTSA estimates are corroded in 100% of affected units.<sup class="ref-link"><a href="#ref-3">[3]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <p>449,000 in seven days. Annualize that and you land at 23.3 million, which is close enough to the 28 million from 2025's official count to suggest this pace is structural, not anomalous.</p>
+
+      <p>Now the part where the math turns ugly. Recall Masters' ninth annual State of Recalls report found that 50.3% of vehicles recalled in 2025 had been repaired by February 2026.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Call it first-year completion. Industry long-term estimates hover around 70% eventual completion, meaning three in ten recalled vehicles never see a wrench or a software update.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Applied to last year's volume: roughly 8.4 million vehicles from the 2025 recall cohort alone will remain unrepaired forever, merging into an accumulated fleet of defective-but-driving cars that stretches back years and numbers in the tens of millions. Carfax has previously estimated that one in four vehicles on the road carries at least one open recall at any given time.</p>
+
+      <p>One in four, meaning seventy-two million vehicles, give or take, rolling around with a known manufacturer-acknowledged defect that somebody decided was serious enough to file federal paperwork about but that the owner either never received notice of, received notice of and forgot, or received notice of and actively chose to ignore because the dealership is forty minutes away and the car seems fine.</p>
+
+      <p>Software defects now lead the recall taxonomy, and in 2025, 119 NHTSA campaigns covering 8.19 million vehicles traced back to software or electronics failures, beating powertrain defects (87 campaigns, 7.99 million vehicles) for the second consecutive year.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> This week's four new recalls are a live demonstration: three out of four are software-caused. Digital instrument clusters that reboot, battery ECUs that crash, and dashboard screens that blank are failure modes that did not exist fifteen years ago because a needle on an analog speedometer gauge does not reboot. It does not compete for memory addresses with a head-up display's wiring harness. A physical gauge fails gracefully; a digital screen fails totally and takes every warning indicator with it.</p>
+
+      <p>NHTSA's own Office of Defects Investigation logged the asymmetry in its quarterly metrics. Vehicle Owner Questionnaire complaints rose from 16,055 in FY25 Q1 to 20,196 in Q4, a 26% increase in twelve months.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> Investigations opened per quarter: 10, 8, 5, 10. Flat. Consumer complaints are accelerating while the agency's investigative output remains essentially constant, which means the complaints-per-investigation ratio is widening every quarter. I plotted the trendlines, and they do not converge.</p>
+
+      <p><strong>Methodology and limitations:</strong> The 9.7% annual per-vehicle recall rate divides total recalled vehicles (28 million) by the US registered fleet (approximately 290 million per FHWA estimates). This assumes uniform distribution across the fleet, which is false: newer vehicles are recalled more often than older ones, and some manufacturers are recalled disproportionately. The 12-year lifespan uses Bureau of Transportation Statistics median vehicle age estimates. The survival function assumes independence between years, which is also approximate. A more sophisticated model accounting for vehicle age, manufacturer recall frequency, and model-specific rates would produce a range rather than a point estimate. Carfax's "one in four" figure is an industry estimate without published methodology, though it aligns with a rough steady-state calculation given annual inflows of 8&ndash;10 million unrepaired vehicles against natural fleet attrition through scrapping and salvage. We cannot determine from FARS whether fatally crashed vehicles had outstanding recalls at the time of impact, which would be the dispositive dataset, but it does not exist in public form.</p>
+
+      <p><strong>Strongest counterargument:</strong> A high recall volume is partially a feature, not a bug. Manufacturers that detect and report defects proactively are preferable to those that bury them. NHTSA's expanding recall count also reflects post-Takata regulatory seriousness and industry adoption of connected-vehicle telemetry that surfaces issues earlier. Furthermore, not all recalls carry equal risk: a dashboard that blanks for two seconds and self-recovers is not the same hazard as an airbag that may not deploy in a collision, and aggregating them into a single per-vehicle probability obscures meaningful variation in severity. The 50.3% first-year completion rate also represents a historic high for a first-year cohort, suggesting the system is improving, not deteriorating, on the response side even as the input volume grows.</p>
+
+      <p><strong>What you should do:</strong> Go to <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> and enter your VIN; it takes ninety seconds and searches every open recall in the federal database. Do it for every vehicle in your household. The probability that at least one of them has an outstanding recall right now, if you own two cars with an average age of six years, is approximately 44%, derived from the complement of both cars having escaped recall at the per-vehicle annual rate. These are not exotic odds; this is a coin flip dressed up as a letter you probably threw away.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Recall Masters, <em>2025 State of Automotive Recalls Report</em>, May 2026. 447 NHTSA campaigns + 223 voluntary notices, 28M+ vehicles, with first-year completion at 50.3% and software/electronics leading at 119 campaigns covering 8.19M vehicles. <a href="https://www.einpresswire.com/article/recall-masters-2025-report" target="_blank" rel="noopener">einpresswire.com</a></li>
+          <li id="ref-2">NHTSA Recall 26V393000, Toyota bZ/Lexus RZ/Subaru Solterra ECU memory conflict, 20,991 vehicles, June 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA Recall, Hyundai Tucson/Tucson Hybrid/Tucson PHEV instrument cluster software reset, 96,310 vehicles, June 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">NHTSA Recall 26V341000, Toyota/Lexus instrument panel cluster combination meter, 81,893 vehicles, June 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">NHTSA Recall, Land Rover Defender/Discovery/Range Rover airbag clockspring corrosion, 250,857 vehicles, June 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-6">NHTSA, <em>2025 Recalls Annual Report</em>. 80% of recalls have remedy within 60 days. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-7">NHTSA Office of Defects Investigation, <em>Quarterly Metrics FY2025</em>. VOQ complaints rose from 16,055 in Q1 to 20,196 in Q4 while investigations held flat at 10, 8, 5, and 10 per quarter. <a href="https://www.nhtsa.gov/about-nhtsa/office-defects-investigation-quarterly-metrics" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> Recall Masters 2025 State of Recalls, NHTSA 2025 Annual Recall Report, NHTSA ODI Quarterly Metrics FY2025, FHWA registered vehicle estimates. Per-vehicle probability model uses simplifying assumptions of uniform distribution and annual independence; actual individual risk varies by vehicle age, make, and model; see <a href="../#method">methodology</a> for caveats.</p>
+
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
