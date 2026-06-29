@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car Records Everything. Only the Manufacturer Gets to Read It. &mdash; The Crash Report</title>
+  <meta name="description" content="Federal crash recorders capture 15 data points over 5 seconds. Modern ADAS vehicles record thousands of channels continuously. The manufacturer controls who sees them.">
+  <meta property="og:title" content="Your Car Records Everything. Only the Manufacturer Gets to Read It.">
+  <meta property="og:description" content="Federal crash recorders capture 15 data points over 5 seconds. Modern ADAS vehicles record thousands of channels continuously. The manufacturer controls who sees them.">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Your Car Records Everything. Only the Manufacturer Gets to Read It.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">June 29, 2026</div>
+
+      <p>Ten days after a Tesla Model 3 plowed through the brick front of a Katy, Texas home and killed 76-year-old Martha Avila, the National Highway Traffic Safety Administration and the National Transportation Safety Board are both still investigating. Tesla's VP of AI Software, Ashok Elluswamy, posted the company's version of events on X within 72 hours: the driver pressed the accelerator to 100%, hit <strong>73 miles per hour</strong> on a residential street, and kept the pedal down through impact. According to the Harris County Sheriff's Office, the driver said he was using self-driving mode. Both agencies say the investigation isn't complete.</p>
+
+      <div class="pull-stat">15 vs. 1,000+</div>
+      <div class="pull-label">Data elements the federal EDR standard requires vs. what a modern ADAS vehicle actually records</div>
+
+      <div class="story-body">
+
+      <p>Notice what happened. An entity under investigation released its own exculpatory data, on its own platform, on its own timeline, before either federal agency published a single finding. No neutral third party verified the telemetry, and no independent black box recorded the same channels. And the company that built the system, sold the system, and now faces a wrongful death lawsuit became the sole narrator of what the system did in the seconds before a grandmother died in her daughter's living room.</p>
+
+      <p>This is not a Tesla problem; it is a regulatory architecture problem that applies to every vehicle equipped with advanced driver-assistance systems, and the gap between what federal law requires and what these vehicles actually record is staggering in scope. The federal Event Data Recorder standard, 49 CFR Part 563, took effect in 2012 and mandates roughly 15 data elements captured over 5 seconds before a crash: vehicle speed, throttle position, brake status, delta-V, seatbelt status, airbag deployment timing.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> A modern ADAS-equipped vehicle records hundreds to thousands of continuous data channels: camera feeds, radar returns, ultrasonic sensor readings, neural network confidence scores, driver attention metrics, steering torque, lane-keep interventions, and the full state of every software module making split-second decisions about whether to accelerate, brake, or steer. Every manufacturer captures all of it; Part 563 captures almost none of it.</p>
+
+      <p>NTSB saw this coming nine years ago. In 2017, following a fatal crash involving a Tesla on Autopilot near Williston, Florida, the board issued three safety recommendations. H-17-37 told the U.S. Department of Transportation to define the data parameters needed to understand automated vehicle control systems involved in a crash. H-17-39 told NHTSA to use those parameters as a benchmark for new vehicles. H-17-40 told NHTSA to define a standard reporting format and require manufacturers to report incidents, crashes, and miles operated with automated systems enabled.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Nine years later, none of those recommendations have been fully implemented as binding regulation.</p>
+
+      <p>NHTSA did issue a Standing General Order in 2021 requiring manufacturers and operators of ADAS and ADS-equipped vehicles to report crashes to the agency. But the SGO's own documentation contains a remarkable caveat: "Use caution when attempting to compare crash data between entities. Different reporting entities may have different levels of access to information from crashes involving vehicles they manufacture."<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Translation: some manufacturers know about crashes instantly through real-time telematics; others learn about them weeks later through customer complaints. The data collection infrastructure is not standardized, so the data itself is not comparable across manufacturers, and reporting volume does not equal crash frequency.</p>
+
+      <p>Meanwhile, NHTSA has opened nearly 50 special crash investigations since 2016 into incidents involving Teslas where ADAS was suspected of being in use. About two dozen deaths have been reported across these investigations.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> In March 2026, the agency escalated its probe into 3.2 million Tesla vehicles with Full Self-Driving software over concerns that the system may fail to detect or warn drivers in poor visibility conditions. For the Katy crash specifically, both NHTSA and NTSB are running parallel investigations, and the family has filed suit in Harris County alleging negligence, design defects, and failure to warn.</p>
+
+      <p>SAE International revised its recommended practice for event data recorders, J1698/1, in January 2023. It identifies 44 additional data elements beyond what Part 563 currently requires. A 2025 NHTSA benchmarking study found that Tesla and Volkswagen each record 9 of these additional elements, while Mercedes-Benz records 21.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> These are voluntary disclosures. Nothing compels any manufacturer to record any of them, let alone make them available to investigators in a standardized format.</p>
+
+      <p>Now consider the structural incentive at work here. A manufacturer facing a fatal crash investigation has possession of data that could prove the vehicle's system behaved correctly, and it can release that data selectively to shape public perception while regulators wait months or years for subpoenas, forensic downloads, and engineering analyses. The manufacturer is prosecutor, defense attorney, and evidence custodian rolled into one. There is no neutral flight recorder equivalent for vehicles, no standardized post-crash data pipeline that routes ADAS telemetry to an independent authority automatically upon impact. Aviation solved this problem decades ago with cockpit voice recorders and flight data recorders governed by strict chain-of-custody rules under federal aviation regulations, and roads have no equivalent.</p>
+
+      <p>A fair counterargument: manufacturers release data quickly because they can, and speed serves the public interest when rumors circulate. Elluswamy's posts corrected early reports that implied the car was fully autonomous at 73 mph with no driver input. If the telemetry is accurate, releasing it promptly prevented misinformation from calcifying. But accuracy is precisely the point. Unverified telemetry released by a party with a financial interest in the outcome is not evidence; it is a press release with datapoints, and treating it as authoritative before independent verification rewards the entity with the most data access, not the entity with the best case.</p>
+
+      <p>Fixing this is not complicated in principle: require manufacturers to record a standardized set of ADAS-specific data elements, defined by NHTSA, in a tamper-evident format. Require that data to be accessible to NHTSA and NTSB investigators without manufacturer intermediation, within a defined timeframe after a crash. NTSB recommended exactly this in 2017, and the technology has existed for years, but the political will does not, apparently, because the rulemaking queue at NHTSA moves at geological speed: Part 563 itself took from a 2006 proposal to a 2012 effective date, and it hasn't been updated since to reflect a world where cars drive themselves.</p>
+
+      <p>This analysis has limits worth naming. We do not know whether Elluswamy's telemetry claims are accurate, inaccurate, or selectively true; only an independent forensic examination can determine that. We also cannot quantify how many ADAS-involved crashes go unreported to NHTSA entirely, because the SGO's reporting gaps mean the denominator is unknown. And the 50 special crash investigations involving Tesla disproportionately reflect Tesla's telematics advantage: other manufacturers may have comparable incident rates that simply never surface because their vehicles do not phone home, and the asymmetry cuts both ways.</p>
+
+      <p>If you drive an ADAS-equipped vehicle, know this: your car is recording data about every trip, every intervention, every near-miss, and in a crash, the manufacturer will see that data before you, before police, and before NHTSA. You can check whether your vehicle is involved in an open recall or investigation at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. You cannot, under current law, compel your car's manufacturer to give you the full ADAS telemetry from your own vehicle.</p>
+
+      <p>Martha Avila was standing in her daughter's living room in a suburb of Houston when a car came through the wall. Whether the driver pressed the accelerator or the software failed or some combination of both caused the crash is a factual question that deserves a factual answer from a neutral source. Right now, the only entity that claims to have that answer is the one being sued for wrongful death.</p>
+
+      </div><!-- .story-body -->
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>49 CFR Part 563: Event Data Recorders</em>, effective Sept. 1, 2012. <a href="https://www.law.cornell.edu/cfr/text/49/part-563" target="_blank" rel="noopener">law.cornell.edu</a></li>
+          <li id="ref-2">NTSB, Safety Recommendations H-17-37, H-17-39, H-17-40, issued following Williston, FL Tesla/Autopilot crash investigation. <a href="https://www.ntsb.gov/news/press-releases/Pages/NR20220623.aspx" target="_blank" rel="noopener">ntsb.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Standing General Order on Crash Reporting for ADAS and ADS-equipped vehicles</em>, third amended June 16, 2025. <a href="https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">Reuters, &ldquo;US opens probe of fatal Tesla crash into Texas home,&rdquo; June 23, 2026. <a href="https://www.reuters.com" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-5">NHTSA, <em>CISS Event Data Recorder Data Element Benchmarking Study</em>, presented at 2025 SAE Government Industry Meeting. <a href="https://www.nhtsa.gov/research-data" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA 49 CFR Part 563, NTSB safety recommendations, NHTSA Standing General Order crash reporting data, Reuters/court filings. The Katy crash investigation is ongoing; all characterizations of events reflect public statements by involved parties and may be revised as findings emerge. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
