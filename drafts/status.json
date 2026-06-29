@@ -1,5 +1,24 @@
 {
-  "current": null,
+  "current": {
+    "slug": "land-rover-clockspring-gel-fix",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Vin Wreckage",
+    "kicker": "Existential Dread",
+    "headline": "A Quarter-Million Land Rovers Have Airbags That Won't Fire. The Fix Is a Dab of Gel.",
+    "started": "2026-06-29T06:26:00Z",
+    "article_number": 391,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 9.0
+    },
+    "note": "1/day limit reached — #390 published earlier today. Ready to ship next run."
+  },
   "last_completed": {
     "slug": "nhtsa-four-investigators-six-million-teslas",
     "article_number": 390,
