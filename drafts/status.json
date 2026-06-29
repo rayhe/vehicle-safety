@@ -1,19 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "recall-exposure-math-unrepaired-fleet",
-    "phase": "QA",
+    "article_number": 394,
+    "headline": "Your Car Will Be Recalled. The Math Says You Won't Fix It.",
     "journalist": "Axle McScatter",
     "kicker": "By The Numbers",
-    "started": "2026-06-29T09:30:00-07:00",
-    "round": 0,
-    "article_number": 394
-  },
-  "last_completed": {
-    "slug": "child-seat-side-impact-12-year-delay",
-    "article_number": 393,
-    "headline": "It Took 14 Years to Require a Side-Impact Test for Your Kid's Car Seat",
-    "journalist": "Clara Rollover",
-    "kicker": "Investigation",
     "date": "2026-06-29",
     "phase": "PUBLISHED"
   }
