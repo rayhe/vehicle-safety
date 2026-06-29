@@ -1,29 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "land-rover-clockspring-gel-fix",
-    "phase": "QA",
-    "round": 1,
+    "article_number": 391,
+    "headline": "A Quarter-Million Land Rovers Have Airbags That Won't Fire. The Fix Is a Dab of Gel.",
     "journalist": "Vin Wreckage",
     "kicker": "Existential Dread",
-    "headline": "A Quarter-Million Land Rovers Have Airbags That Won't Fire. The Fix Is a Dab of Gel.",
-    "started": "2026-06-29T06:26:00Z",
-    "article_number": 391,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 9.0
-    }
-  },
-  "last_completed": {
-    "slug": "nhtsa-four-investigators-six-million-teslas",
-    "article_number": 390,
-    "headline": "Four People Oversee Whether 6 Million Teslas Can Drive Themselves. Congress Wants to Cut Their Budget.",
-    "journalist": "Clara Rollover",
-    "kicker": "Investigation",
     "date": "2026-06-29",
     "phase": "PUBLISHED"
   }
