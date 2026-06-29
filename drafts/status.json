@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "land-rover-clockspring-gel-fix",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Vin Wreckage",
     "kicker": "Existential Dread",
@@ -16,8 +16,7 @@
       "legal": 9.0,
       "rigor": 9.0,
       "data": 9.0
-    },
-    "note": "1/day limit reached — #390 published earlier today. Ready to ship next run."
+    }
   },
   "last_completed": {
     "slug": "nhtsa-four-investigators-six-million-teslas",
