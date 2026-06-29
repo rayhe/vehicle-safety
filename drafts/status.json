@@ -1,28 +1,10 @@
 {
-  "current": {
-    "slug": "nhtsa-four-investigators-six-million-teslas",
-    "phase": "QA",
-    "article_number": 390,
-    "journalist": "Clara Rollover",
-    "headline": "Four People Oversee Whether 6 Million Teslas Can Drive Themselves. Congress Wants to Cut Their Budget.",
-    "kicker": "Investigation",
-    "started": "2026-06-29T02:26:30Z",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "slug": "nhtsa-saturday-investigation-dump",
-    "article_number": 389,
-    "headline": "NHTSA Closed Two Safety Probes on a Saturday Afternoon. Both Companies Had Already Recalled.",
-    "journalist": "Rex Driverton",
+    "slug": "nhtsa-four-investigators-six-million-teslas",
+    "article_number": 390,
+    "headline": "Four People Oversee Whether 6 Million Teslas Can Drive Themselves. Congress Wants to Cut Their Budget.",
+    "journalist": "Clara Rollover",
     "kicker": "Investigation",
     "date": "2026-06-29",
     "phase": "PUBLISHED"
