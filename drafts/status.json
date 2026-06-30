@@ -27,7 +27,9 @@
       "rhythm_short_pct": 13.7,
       "rhythm_long_pct": 49.0,
       "all_pass": true
-    }
+    },
+    "ship_blocked": "2026-06-30",
+    "ship_blocked_reason": "2 articles already published today (#400, #401)"
   },
   "last_completed": {
     "slug": "ford-two-rollaway-recalls-six-months",
