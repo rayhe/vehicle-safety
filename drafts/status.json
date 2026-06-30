@@ -1,20 +1,12 @@
 {
-  "current": {
-    "slug": "adas-crash-data-asymmetry",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-06-29T15:30:00-07:00",
-    "article_number": 395,
-    "round": 0,
-    "composite_score": 8.8
-  },
+  "current": null,
   "last_completed": {
-    "slug": "recall-exposure-math-unrepaired-fleet",
-    "article_number": 394,
-    "headline": "Your Car Will Be Recalled. The Math Says You Won't Fix It.",
-    "journalist": "Axle McScatter",
-    "kicker": "By The Numbers",
-    "date": "2026-06-29",
+    "slug": "adas-crash-data-asymmetry",
+    "article_number": 395,
+    "headline": "Your Car Records Everything. Only the Manufacturer Gets to Read It.",
+    "journalist": "Mia Crumplezone",
+    "kicker": "Investigation",
+    "date": "2026-06-30",
     "phase": "PUBLISHED"
   }
 }
