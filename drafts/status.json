@@ -1,14 +1,12 @@
 {
   "current": {
     "slug": "adas-crash-data-asymmetry",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-06-29T15:30:00-07:00",
     "article_number": 395,
     "round": 0,
-    "composite_score": 8.8,
-    "ship_blocked": true,
-    "ship_after": "2026-06-30"
+    "composite_score": 8.8
   },
   "last_completed": {
     "slug": "recall-exposure-math-unrepaired-fleet",
