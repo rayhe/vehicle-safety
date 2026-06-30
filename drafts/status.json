@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-two-rollaway-recalls-six-months",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "headline": "Ford Has Recalled One Million Vehicles for Rolling Away. It's June.",
+    "started": "2026-06-30T11:30:00-07:00",
+    "round": 1,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 11.9,
+      "css_class_correct": true,
+      "sentence_rhythm_passed": true,
+      "sentence_variance": 714.9
+    }
+  },
   "last_completed": {
     "slug": "honda-odyssey-airbags-attack-passengers",
     "article_number": 400,
