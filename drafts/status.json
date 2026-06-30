@@ -1,5 +1,34 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-jd-power-quality-recall-paradox",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Axle McScatter",
+    "kicker": "By The Numbers",
+    "headline": "Ford Won the Quality Award the Same Day It Recalled 741,000 Vehicles",
+    "started": "2026-06-30T13:30:00-07:00",
+    "scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.2,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.8,
+      "data": 8.7,
+      "average": 8.93
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 10.9,
+      "css_class": "story",
+      "stylesheet": "style.css",
+      "rhythm_variance": 253.1,
+      "rhythm_short_pct": 13.7,
+      "rhythm_long_pct": 49.0,
+      "all_pass": true
+    }
+  },
   "last_completed": {
     "slug": "ford-two-rollaway-recalls-six-months",
     "article_number": 401,
