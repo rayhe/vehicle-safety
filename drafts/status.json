@@ -1,20 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "honda-odyssey-airbags-attack-passengers",
-    "phase": "SHIP",
-    "round": 1,
+    "article_number": 400,
+    "headline": "Honda Knew Its Minivan's Airbags Would Attack Passengers. It Waited Nine Years to Care.",
     "journalist": "Vin Wreckage",
     "kicker": "Existential Dread",
-    "headline": "Honda Knew Its Minivan's Airbags Would Attack Passengers. It Waited Nine Years to Care.",
-    "started": "2026-06-30T09:26:00-07:00"
-  },
-  "last_completed": {
-    "slug": "ford-five-million-rollaway-recalls",
-    "article_number": 397,
-    "headline": "Ford Has Recalled Five Million Vehicles Because They Can't Stay in Park",
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "phase": "PUBLISHED"
   }
 }
