@@ -1,20 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "vision-zero-trajectory-math",
     "article_number": 396,
     "headline": "At the Current Rate of Improvement, Vision Zero Arrives in the 23rd Century",
     "journalist": "Vin Wreckage",
     "kicker": "Existential Dread",
     "date": "2026-07-01",
-    "phase": "CRITIQUE"
-  },
-  "last_completed": {
-    "slug": "adas-crash-data-asymmetry",
-    "article_number": 395,
-    "headline": "Your Car Records Everything. Only the Manufacturer Gets to Read It.",
-    "journalist": "Mia Crumplezone",
-    "kicker": "Investigation",
-    "date": "2026-06-30",
     "phase": "PUBLISHED"
   }
 }
