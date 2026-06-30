@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Model Year Lottery: Some Vintages Kill Three Times More Than Their Neighbors &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals certain model years produce 2-3x more fatal crashes than the years on either side. The 2007 Chevrolet Tahoe is 3.36 times deadlier than its neighbors.">
+  <meta property="og:title" content="The Model Year Lottery: Some Vintages Kill Three Times More Than Their Neighbors">
+  <meta property="og:description" content="FARS data reveals certain model years produce 2-3x more fatal crashes than the years on either side.">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>The Model Year Lottery: Some Vintages Kill Three Times More Than Their Neighbors</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">July 1, 2026</div>
+
+      <img src="../images/model-year-death-lottery.jpg" alt="A row of used cars on a dealer lot with one dramatically spotlit in red, singled out from the rest" width="100%">
+
+      <p>Buy a 2006 Chevrolet Tahoe and you inherit a vehicle involved in <strong>37 fatal crashes</strong> across a decade of FARS data. Buy the 2007 and that number jumps to 158. Buy the 2008 and it drops back to 57.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Same nameplate, same dealership aisle, same general sticker price, yet one model year is 3.36 times deadlier than the average of its neighbors.</p>
+
+      <div class="pull-stat">3.36&times;</div>
+      <div class="pull-label">2007 Tahoe death count vs. neighbor-year average</div>
+
+      <p>We scanned all 323 models in the FARS 2014&ndash;2023 dataset for model years that produced at least twice the fatalities of the years flanking them. Nineteen vehicles cleared that bar with 100 or more deaths. The Tahoe topped the list, but it has company: Ram 1500, model year 2019, at 156 deaths and 3.06 times its neighbors; Toyota Camry, 2007, at a staggering 426 deaths and 2.43 times; Hyundai Sonata, 2011, at 230 deaths and 2.25 times.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not one of these vehicles carried a warning label saying &ldquo;this particular vintage is statistically anomalous.&rdquo;</p>
+
+      <p>So what causes a spike? About half of the worst offenders land on redesign years, when automakers launch a new platform with new engineering and new sales momentum. GM rebuilt the Tahoe on its GMT900 architecture in 2007, and Ram debuted the DT platform in 2019. Toyota introduced the XV40 Camry in 2007, a generation later entangled in the unintended-acceleration crisis that triggered millions of recalls.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Redesigns generate showroom excitement, bigger production runs, and untested componentry at the same time.</p>
+
+      <p>Redesigns explain only half the pattern, though, and the other half resists clean narratives. The 2013 Hyundai Elantra spiked to 2.6 times its neighbors mid-generation, possibly driven by steering-related complaints and massive affordable-sedan sales volume. The 2004 Jeep Cherokee hit 2.51 times without a platform change at all.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Fleet composition, rental saturation, and defect-specific recall histories all muddy the signal, and FARS does not include per-model-year registration counts, so we can detect these spikes but cannot definitively isolate whether the cause is design, fleet size, or the demographics of who drives these cars a decade later.</p>
+
+      <p>That ambiguity is exactly the problem for anyone browsing a used-car lot. When you shop for a used car, you can check IIHS ratings by generation, search your VIN for open recalls, and read crash-test scores until your eyes glaze over. What you cannot do is look up whether your specific model year is a statistical outlier in real-world fatalities. Nobody publishes that data in a consumer-friendly format, and nobody suggests you should ask.</p>
+
+      <p>Before signing anything: search your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. If the model year coincides with a redesign, check for first-year technical service bulletins and early recall campaigns. And if you have a choice between two vintages of the same vehicle at the same price, know that the difference might not be cosmetic. It might be 158 deaths versus 37.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Model-year death counts cross-tabulated from FARS bulk CSV. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, Toyota unintended acceleration investigation and recall campaigns, 2009&ndash;2011. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Ratings</em>. <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Spike ratio calculated as deaths in target model year divided by the average of adjacent model years. Threshold: &ge;2.0x ratio with &ge;100 deaths. FARS captures fatal crashes only and does not normalize by model-year registration counts or VMT, so death-count spikes may partially reflect fleet-size differences rather than per-vehicle risk. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
