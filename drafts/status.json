@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "ford-ai-inspector-350-engineers-rehired",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "kicker": "Investigation",
     "headline": "Ford Replaced Its Safety Inspectors With AI. Then Hired 350 of Them Back.",
@@ -23,7 +23,6 @@
       "css_check": "pass",
       "sentence_rhythm": "pass"
     },
-    "ship_blocked": "already published today (2+ publishes on 2026-07-01)",
     "started": "2026-07-01T11:30:00-07:00"
   },
   "last_completed": {
