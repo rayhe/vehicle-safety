@@ -1,26 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 402,
     "slug": "ford-jd-power-quality-recall-paradox",
     "headline": "Ford Won the Quality Award the Same Day It Recalled 741,000 Vehicles",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.2,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.8,
-      "data": 8.7,
-      "average": 8.93
-    }
-  },
-  "last_completed": {
-    "number": 401,
-    "slug": "ford-two-rollaway-recalls-six-months",
-    "headline": "Ford Has Recalled One Million Vehicles for Rolling Away. It's June.",
-    "journalist": "Rex Driverton",
-    "date": "2026-06-30"
+    "date": "2026-07-01"
   }
 }
