@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "tpms-warns-too-late-600-dead",
     "article_number": 405,
     "headline": "Congress Mandated a Tire Safety System That Warns You After the Damage Is Done. 600 People Die Every Year Anyway.",
     "journalist": "Mia Crumplezone",
-    "kicker": "The Gap",
-    "date": "2026-07-01",
-    "phase": "CRITIQUE",
-    "started": "2026-07-01"
-  },
-  "last_completed": {
-    "slug": "equinox-middling-crossover-body-count",
-    "article_number": 404,
-    "headline": "The Chevy Equinox Has a 'Fine' Death Rate. 1,056 People Died Anyway.",
-    "journalist": "Clara Rollover",
     "kicker": "The Gap",
     "date": "2026-07-01",
     "phase": "PUBLISHED"
