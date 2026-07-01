@@ -1,38 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "pickup-rear-seat-seatbelt-failure",
-    "phase": "SHIP",
+    "article_number": 403,
+    "headline": "Three Out of Four Full-Size Pickups Can't Protect a 12-Year-Old in a Crash",
     "journalist": "Mia Crumplezone",
     "kicker": "The Gap",
-    "headline": "Three Out of Four Full-Size Pickups Can't Protect a 12-Year-Old in a Crash",
-    "started": "2026-07-01T06:26:00Z",
-    "round": 1,
-    "critics": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "banned_phrases": 0,
-      "the_starters_pct": 11.1,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "rhythm_variance": 217.1,
-      "rhythm_short_pct": 7.0,
-      "rhythm_long_pct": 55.8
-    }
-  },
-  "last_completed": {
-    "slug": "ford-jd-power-quality-recall-paradox",
-    "article_number": 402,
-    "headline": "Ford Won the Quality Award the Same Day It Recalled 741,000 Vehicles",
-    "journalist": "Axle McScatter",
-    "kicker": "By The Numbers",
     "date": "2026-07-01",
     "phase": "PUBLISHED"
   }
