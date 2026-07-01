@@ -1,36 +1,11 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "ford-ai-inspector-350-engineers-rehired",
-    "phase": "QA",
+    "article_number": 407,
+    "headline": "Ford Replaced Its Safety Inspectors With AI. Then Hired 350 of Them Back.",
     "journalist": "Vin Wreckage",
     "kicker": "Investigation",
-    "headline": "Ford Replaced Its Safety Inspectors With AI. Then Hired 350 of Them Back.",
-    "article_number": 407,
-    "critique_round": 1,
-    "critique_scores": {
-      "general_editor": 9,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 0,
-      "css_check": "pass",
-      "sentence_rhythm": "pass"
-    },
-    "started": "2026-07-01T11:30:00-07:00"
-  },
-  "last_completed": {
-    "slug": "tpms-warns-too-late-600-dead",
-    "article_number": 405,
-    "headline": "Congress Mandated a Tire Safety System That Warns You After the Damage Is Done. 600 People Die Every Year Anyway.",
-    "journalist": "Mia Crumplezone",
-    "kicker": "The Gap",
     "date": "2026-07-01",
     "phase": "PUBLISHED"
   }
