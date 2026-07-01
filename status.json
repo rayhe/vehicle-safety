@@ -4,9 +4,7 @@
     "slug": "ford-jd-power-quality-recall-paradox",
     "headline": "Ford Won the Quality Award the Same Day It Recalled 741,000 Vehicles",
     "journalist": "Axle McScatter",
-    "phase": "SHIP_PENDING",
-    "ship_blocked": true,
-    "ship_blocked_reason": "#401 published same UTC day (2026-06-30). Staging complete — commit+deploy on 2026-07-01.",
+    "phase": "QA",
     "scores": {
       "general": 9.0,
       "voice": 8.8,
