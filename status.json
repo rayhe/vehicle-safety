@@ -4,8 +4,19 @@
     "slug": "ford-quality-first-ad-math",
     "headline": "Ford Will Spend Millions Telling You It's #1 in Quality. It Recalled 8.9 Cars for Every One It Sold.",
     "journalist": "Axle McScatter",
-    "phase": "CRITIQUE",
-    "round": 0
+    "phase": "SHIP",
+    "round": 1,
+    "ship_blocked": true,
+    "ship_blocked_reason": "2 articles already published today (PDT). 1/day limit.",
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data_presentation": 9.0
+    }
   },
   "last_completed": {
     "number": 413,
