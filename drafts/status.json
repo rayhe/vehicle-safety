@@ -7,7 +7,7 @@
     "round": 1,
     "critique_passed": true,
     "ship_blocked": "2026-07-02",
-    "ship_blocked_reason": "1/day limit — 2 articles published today PDT (#412, #413). Re-verified 2026-07-02 11:26 PDT. Ship on 2026-07-03."
+    "ship_blocked_reason": "1/day limit — 2 articles published today PDT (#412, #413). Re-verified 2026-07-02 13:26 PDT via git log. Ship on 2026-07-03."
   },
   "last_completed": {
     "number": 413,
