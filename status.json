@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 413,
     "slug": "fsd-complaint-decline-lawsuit-surge",
     "headline": "Tesla's Phantom Braking Complaints Dropped 99%. Its Lawsuit Exposure Grew to $14.5 Billion.",
     "journalist": "Rex Driverton",
-    "phase": "CRITIQUE",
-    "round": 1,
-    "date": "2026-07-02"
-  },
-  "last_completed": {
-    "number": 412,
-    "slug": "nhtsa-brake-pedal-removed-software-recalled",
-    "headline": "NHTSA Wants to Remove the Brake Pedal. The Software Replacing It Has Been Recalled Five Times.",
-    "journalist": "Clara Rollover",
     "date": "2026-07-02"
   }
 }
