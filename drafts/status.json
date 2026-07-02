@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "slug": "allstate-best-drivers-fatality-inversion",
+    "phase": "QA",
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-01T17:26:00-07:00",
+    "headline": "Allstate Says Brownsville Has America's Best Drivers. Federal Data Says Texas Kills 2.5x More Per Mile Than Massachusetts.",
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data_presentation": 8.5,
+      "average": 8.93
+    },
+    "round": 1,
+    "number": 409
+  },
   "last_completed": {
     "number": 408,
     "slug": "recall-week-one-percent-math",
