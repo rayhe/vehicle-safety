@@ -7,7 +7,7 @@
     "round": 1,
     "critique_passed": true,
     "ship_blocked": "2026-07-02",
-    "ship_blocked_reason": "1/day limit — 5 articles already published today (#409-#413). git --since+--grep check is broken (returns 0); verified via --after which correctly shows 5 publishes."
+    "ship_blocked_reason": "1/day limit — 2 articles published today PDT (#412, #413). git --since check returns 0 (known bug); verified via manual timestamp conversion. Ready to ship on next run."
   },
   "last_completed": {
     "number": 413,
