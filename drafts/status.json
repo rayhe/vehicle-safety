@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 411,
     "slug": "honda-salt-belt-corrosion-safety-asterisk",
     "headline": "Honda's Safest Vehicles Have an Asterisk. It's Your Zip Code.",
     "journalist": "Vin Wreckage",
-    "phase": "SHIP",
-    "started": "2026-07-01"
-  },
-  "last_completed": {
-    "number": 410,
-    "slug": "park-outside-recall-industry-safety-feature",
-    "headline": "Since 2020, Automakers Have Told 11 Million Vehicle Owners to Park Outside. That's the Fix.",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-02"
+    "date": "2026-07-01"
   }
 }
