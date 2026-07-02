@@ -1,7 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-quality-first-ad-math",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-07-02T05:30:00-07:00",
+    "round": 0
+  },
   "last_completed": {
-    "number": 412,
+    "number": 413,
     "slug": "nhtsa-brake-pedal-removed-software-recalled",
     "headline": "NHTSA Wants to Remove the Brake Pedal. The Software Replacing It Has Been Recalled Five Times.",
     "journalist": "Clara Rollover",
