@@ -1,28 +1,10 @@
 {
-  "current": {
-    "slug": "park-outside-recall-industry-safety-feature",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-07-01T19:30:00-07:00",
-    "headline": "Since 2020, Automakers Have Told 11 Million Vehicle Owners to Park Outside. That's the Fix.",
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 8.5,
-      "average": 8.93
-    },
-    "round": 1,
-    "number": 410
-  },
+  "current": null,
   "last_completed": {
-    "number": 409,
-    "slug": "allstate-best-drivers-fatality-inversion",
-    "headline": "Allstate Says Brownsville Has America's Best Drivers. Federal Data Says Texas Kills 2.5x More Per Mile Than Massachusetts.",
-    "journalist": "Dale Impactor III",
-    "date": "2026-07-01"
+    "number": 410,
+    "slug": "park-outside-recall-industry-safety-feature",
+    "headline": "Since 2020, Automakers Have Told 11 Million Vehicle Owners to Park Outside. That's the Fix.",
+    "journalist": "Rex Driverton",
+    "date": "2026-07-02"
   }
 }
