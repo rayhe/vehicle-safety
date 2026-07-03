@@ -4,9 +4,19 @@
     "slug": "allstate-wrong-metric-city-vs-car",
     "headline": "Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More.",
     "journalist": "Clara Rollover",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "round": 1,
-    "started": "2026-07-03"
+    "ship_blocked": true,
+    "critique_scores": {
+      "general_editor": 8.8,
+      "voice_coach": 8.7,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.1,
+      "research_rigor": 8.6,
+      "data_presentation": 8.6,
+      "composite": 8.83
+    }
   },
   "last_completed": {
     "number": 416,
