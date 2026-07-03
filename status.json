@@ -1,28 +1,18 @@
 {
   "current": {
+    "number": 417,
+    "slug": "allstate-wrong-metric-city-vs-car",
+    "headline": "Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More.",
+    "journalist": "Clara Rollover",
+    "phase": "CRITIQUE",
+    "round": 1,
+    "started": "2026-07-03"
+  },
+  "last_completed": {
     "number": 416,
     "slug": "100-deadliest-days-teen-divergence",
     "headline": "The 100 Deadliest Days Are Getting Safer. Unless You're 16.",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
-    "round": 1,
-    "ship_blocked": true,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.6,
-      "ethics_reviewer": 9.2,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.7,
-      "research_rigor": 8.8,
-      "data_presentation": 8.5,
-      "composite": 8.83
-    }
-  },
-  "last_completed": {
-    "number": 415,
-    "slug": "showroom-roulette-142x-death-gap",
-    "headline": "Hyundai Sells a Car 142 Times Deadlier Than Its Safest Model",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-03"
   }
 }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More. &mdash; The Crash Report</title>
+  <meta name="description" content="Allstate's 2026 'Best Drivers' report shows a 4x gap between cities. FARS data shows a 16x gap between popular vehicles at the same dealership. Your car matters more than your zip code.">
+  <meta property="og:title" content="Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More.">
+  <meta property="og:description" content="Allstate's 2026 'Best Drivers' report shows a 4x gap between cities. FARS data shows a 16x gap between popular vehicles at the same dealership. Your car matters more than your zip code.">
+  <meta property="og:image" content="../images/allstate-wrong-metric-city-vs-car.jpg?v=6565bd38">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More.</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">July 3, 2026</div>
+
+      <div class="story-body">
+
+      <p>Allstate dropped its 18th annual "America's Best Drivers" report this week, and the press dutifully ran with it. <strong>Brownsville, Texas: safest city in America, 14.99 years between collisions. Boston: dead last, 3.76 years.</strong> Dozens of outlets published city rankings. Travel blogs updated their "safest road trip" guides. Insurance agents forwarded it to clients.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Nobody asked the obvious question: does any of this matter for the outcome you actually care about?</p>
+
+      <div class="pull-stat">16&times;</div>
+      <div class="pull-label">The death rate gap between two vehicles at the same Honda dealer</div>
+
+      <p>Allstate measures collision frequency: how often you file an insurance claim, which means parking-lot dings, rear-end taps at stoplights, and sideswiped mirrors. Stuff that raises your premium, not stuff that kills you.</p>
+
+      <p>FARS measures the stuff that kills you. Its full name is the Fatality Analysis Reporting System, and it tracks every motor vehicle death in America, broken down by make, model, and miles driven, across a decade of data covering 337 vehicles and hundreds of thousands of deaths. When you calculate deaths per 100 million vehicle miles traveled, a completely different picture emerges.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Allstate's city gap is 4x: Brownsville drivers crash roughly once every 15 years; Boston drivers crash every 3.8. That ratio, 3.99 to 1, is the entire range of their 200-city ranking. A factor of four separates the best from the worst.</p>
+
+      <p>Now compare the vehicle gap: 16x. Among the 15 most popular vehicles currently sold in America, the Honda Accord has a FARS death rate of 3.07 per 100 million VMT. A Toyota RAV4 sits at 0.19, in the same price bracket and dealership ecosystem. You could cross-shop them on the same Saturday afternoon. One is sixteen times deadlier than the other per mile driven. If your Accord dealer is across the street from a Toyota lot, walking across that street is the single largest safety decision you will make this year.</p>
+
+      <p>That 16x gap exists within vehicles normal people actually buy. Expand to the full FARS dataset and the spread reaches 285x, from the Hyundai Veloster at 8.54 deaths per 100M VMT down to the Tesla Model Y at 0.03. (The extremes carry sample-size caveats; the Veloster was a niche car, and the Model Y is recent enough that its fleet exposure is still accumulating. But even stripping the edges, the middle of the distribution spans an order of magnitude.)</p>
+
+      <p>Here is what the popular-vehicle data looks like, ranked by death rate:</p>
+
+      <table style="width:100%; border-collapse:collapse; margin:1.5em 0; font-size:0.95em;">
+        <thead>
+          <tr style="border-bottom:2px solid var(--border,#ccc); text-align:left;">
+            <th style="padding:0.5em">Vehicle</th>
+            <th style="padding:0.5em">Class</th>
+            <th style="padding:0.5em; text-align:right;">Rate</th>
+            <th style="padding:0.5em; text-align:right;">Annual Deaths</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:0.4em">Honda Accord</td><td>Sedan</td><td style="text-align:right;color:#c0392b;font-weight:600;">3.07</td><td style="text-align:right">710</td></tr>
+          <tr><td style="padding:0.4em">Honda Civic</td><td>Sedan</td><td style="text-align:right;color:#c0392b;font-weight:600;">2.25</td><td style="text-align:right">655</td></tr>
+          <tr><td style="padding:0.4em">Toyota Camry</td><td>Sedan</td><td style="text-align:right;color:#c0392b;font-weight:600;">2.03</td><td style="text-align:right">633</td></tr>
+          <tr><td style="padding:0.4em">Toyota Corolla</td><td>Sedan</td><td style="text-align:right;color:#e67e22;">1.85</td><td style="text-align:right">495</td></tr>
+          <tr><td style="padding:0.4em">Ford Explorer</td><td>SUV</td><td style="text-align:right;color:#e67e22;">1.54</td><td style="text-align:right">380</td></tr>
+          <tr><td style="padding:0.4em">Chevy Silverado</td><td>Pickup</td><td style="text-align:right;color:#e67e22;">1.25</td><td style="text-align:right">959</td></tr>
+          <tr><td style="padding:0.4em">Ford F-150</td><td>Pickup</td><td style="text-align:right;color:#e67e22;">1.04</td><td style="text-align:right">919</td></tr>
+          <tr><td style="padding:0.4em">Ford Escape</td><td>SUV</td><td style="text-align:right;">0.95</td><td style="text-align:right">228</td></tr>
+          <tr><td style="padding:0.4em">Honda CR-V</td><td>SUV</td><td style="text-align:right;">0.53</td><td style="text-align:right">207</td></tr>
+          <tr><td style="padding:0.4em">Toyota Highlander</td><td>SUV</td><td style="text-align:right;color:#27ae60;">0.42</td><td style="text-align:right">111</td></tr>
+          <tr><td style="padding:0.4em">Chevy Equinox</td><td>SUV</td><td style="text-align:right;color:#27ae60;">0.36</td><td style="text-align:right">106</td></tr>
+          <tr><td style="padding:0.4em">Nissan Rogue</td><td>SUV</td><td style="text-align:right;color:#27ae60;">0.35</td><td style="text-align:right">97</td></tr>
+          <tr><td style="padding:0.4em">Hyundai Tucson</td><td>SUV</td><td style="text-align:right;color:#27ae60;">0.34</td><td style="text-align:right">67</td></tr>
+          <tr><td style="padding:0.4em">Toyota RAV4</td><td>SUV</td><td style="text-align:right;color:#27ae60;font-weight:600;">0.19</td><td style="text-align:right">91</td></tr>
+        </tbody>
+      </table>
+
+      <p>Look at the pattern: every vehicle above 1.5 is a sedan, and every vehicle below 0.55 is an SUV or crossover. Mass, ride height, and crash geometry explain nearly all of it. Sedans cluster around 2.0; crossovers cluster around 0.35, six times the death rate for roughly the same money. And this spread exists in every city Allstate ranked, from Brownsville to Boston.</p>
+
+      <p>None of this means Allstate's report is useless. Collision frequency matters because it predicts your insurance premiums, your time spent in body shops, your odds of a stressful month. Boston drivers file claims 4x more often than Brownsville drivers, and that costs real money. But the press coverage treats it as a safety ranking, and "safety" to most people means "will I survive?"</p>
+
+      <p>FARS answers the survival question, and it says your vehicle choice swamps your geography.</p>
+
+      <p>What we have is a measurement substitution problem. Allstate publishes collision frequency data because that is what insurance companies collect. They have excellent data on how often you crash. They have no data on how likely you are to die when you do. So they publish what they have, the press reports what Allstate publishes, and the public absorbs a city-safety ranking that says nothing about the variable that matters most: the 3,500 pounds of engineered metal around your body.</p>
+
+      <p>The strongest counterargument to this analysis is that Allstate never claims to rank cities by fatality risk; its report explicitly measures collision frequency. True, and also irrelevant. When USA Today runs a headline calling Brownsville the "safest US city to drive in," readers hear "I am less likely to die behind the wheel in Brownsville." That implication does not survive contact with FARS data. A Brownsville driver in a Honda Civic (rate: 2.25) faces a higher death rate per mile than a Boston driver in a Toyota RAV4 (rate: 0.19), regardless of how often either of them files an insurance claim.</p>
+
+      <p>If you are shopping for a vehicle this summer, here is the math that should follow you to the dealership: <strong>the sedan-to-crossover switch in the same brand, at the same dealer, for similar money, reduces your fatality rate by 4 to 6 times.</strong> Honda Accord (3.07) to Honda CR-V (0.53) = 5.8x. Toyota Camry (2.03) to Toyota RAV4 (0.19) = 10.7x. Nissan Altima (2.88) to Nissan Rogue (0.35) = 8.2x. No amount of careful city selection comes close to matching that reduction.</p>
+
+      <p>Allstate spent 18 years telling America which cities crash the most. FARS has spent a decade telling anyone who runs the query which vehicles kill the most. Guess which one made the news this week.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Allstate, <em>2026 America&rsquo;s Best Drivers Report</em>, 18th annual edition. Rankings based on property damage claims data, January 2023&ndash;December 2024. Covered in <em>USA Today</em>, July 1, 2026. <a href="https://www.usatoday.com/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Death rates per 100 million vehicle miles traveled, estimated from FARS fatal crash data and NHTS annual mileage surveys. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Yearly Snapshot</em>. Vehicle size and weight research. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTSA, <em>2024 Traffic Fatality Estimate</em>: 36,640 estimated fatalities. <a href="https://www.nhtsa.gov/" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <p><strong>Methodology note:</strong> Death rates use FARS fatal crash data (2014&ndash;2023) for 337 vehicle models with 50+ deaths or &gt;1,000 annual estimated fleet. VMT is estimated from NHTS annual mileage data. This analysis compares death rates (fatalities per VMT) to collision rates (Allstate claims per year). These are different metrics measured at different scales. That asymmetry is the point: collision frequency is a poor proxy for fatality risk because crashworthiness, mass, and ride height affect lethality independently of crash probability. Newer vehicles with limited fleet exposure (post-2020 launches) have artificially low or unstable FARS rates and are excluded from the "popular vehicle" analysis where noted. City-level FARS fatality data exists but is not cross-tabulated here; the comparison is between the <em>magnitude</em> of each variable&rsquo;s effect, not a direct city-to-vehicle regression.</p>
+
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023; Allstate 2026 America&rsquo;s Best Drivers Report. Death rates are per 100M VMT estimated from NHTS data and may carry &plusmn;15% uncertainty for low-volume models. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

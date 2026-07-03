@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 417,
+    "slug": "allstate-wrong-metric-city-vs-car",
+    "headline": "Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More.",
+    "journalist": "Clara Rollover",
+    "phase": "CRITIQUE",
+    "round": 1,
+    "started": "2026-07-03"
+  },
   "last_completed": {
     "number": 416,
     "slug": "100-deadliest-days-teen-divergence",
