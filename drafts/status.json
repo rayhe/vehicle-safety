@@ -1,5 +1,24 @@
 {
-  "current": null,
+  "current": {
+    "number": 418,
+    "slug": "twelve-year-safety-lag",
+    "headline": "The Average Car on the Road Is 12.8 Years Old. So Is the Average Car in a Fatal Crash.",
+    "journalist": "Vin Wreckage",
+    "phase": "SHIP",
+    "round": 1,
+    "ship_blocked": true,
+    "ship_blocked_until": "2026-07-04",
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.6,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.8,
+      "legal_accuracy": 8.9,
+      "research_rigor": 8.6,
+      "data_presentation": 8.7,
+      "composite": 8.76
+    }
+  },
   "last_completed": {
     "number": 417,
     "slug": "allstate-wrong-metric-city-vs-car",
