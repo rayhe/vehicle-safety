@@ -1,13 +1,13 @@
 {
   "current": {
     "slug": "ford-quality-first-ad-math",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-07-02T05:30:00-07:00",
     "round": 1,
     "critique_passed": true,
-    "ship_blocked": "2026-07-02",
-    "ship_blocked_reason": "1/day limit — 2 articles published today PDT (#412, #413). Re-verified 2026-07-02 13:26 PDT via git log. Ship on 2026-07-03."
+    "published_number": 414,
+    "published_at": "2026-07-02T21:30:00-07:00"
   },
   "last_completed": {
     "number": 413,
