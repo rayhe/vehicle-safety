@@ -1,28 +1,19 @@
 {
   "current": {
+    "number": 415,
+    "slug": "100-deadliest-days-teen-divergence",
+    "headline": "The 100 Deadliest Days Are Getting Safer. Unless You're 16.",
+    "journalist": "Mia Crumplezone",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "ship_blocked": false,
+    "critique_scores": {}
+  },
+  "last_completed": {
     "number": 414,
     "slug": "ford-quality-first-ad-math",
     "headline": "Ford Will Spend Millions Telling You It's #1 in Quality. It Recalled 8.9 Cars for Every One It Sold.",
     "journalist": "Axle McScatter",
-    "phase": "SHIP",
-    "round": 1,
-    "ship_blocked": true,
-    "ship_blocked_reason": "2 articles already published today (PDT). 1/day limit.",
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data_presentation": 9.0
-    }
-  },
-  "last_completed": {
-    "number": 413,
-    "slug": "fsd-complaint-decline-lawsuit-surge",
-    "headline": "Tesla's Phantom Braking Complaints Dropped 99%. Its Lawsuit Exposure Grew to $14.5 Billion.",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-02"
+    "date": "2026-07-03"
   }
 }
