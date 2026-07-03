@@ -1,19 +1,10 @@
 {
-  "current": {
-    "slug": "ford-quality-first-ad-math",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-07-02T05:30:00-07:00",
-    "round": 1,
-    "critique_passed": true,
-    "published_number": 414,
-    "published_at": "2026-07-02T21:30:00-07:00"
-  },
+  "current": null,
   "last_completed": {
-    "number": 413,
-    "slug": "nhtsa-brake-pedal-removed-software-recalled",
-    "headline": "NHTSA Wants to Remove the Brake Pedal. The Software Replacing It Has Been Recalled Five Times.",
-    "journalist": "Clara Rollover",
+    "number": 414,
+    "slug": "ford-quality-first-ad-math",
+    "headline": "Ford Will Spend Millions Telling You It's #1 in Quality. It Recalled 8.9 Cars for Every One It Sold.",
+    "journalist": "Axle McScatter",
     "date": "2026-07-02"
   }
 }
