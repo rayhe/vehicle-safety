@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 422,
     "slug": "ford-quality-award-recall-paradox",
     "headline": "Ford Won JD Power's Top Quality Award, Recalled 12 Million Vehicles, and You're Supposed to Find This Reassuring",
     "journalist": "Vin Wreckage",
-    "kicker": "The Gap",
-    "phase": "DRAFT",
-    "date": "2026-07-04"
-  },
-  "last_completed": {
-    "number": 421,
-    "slug": "corvette-every-day-july-fourth",
-    "headline": "NHTSA Says 38% of July 4th Drivers Killed Are Drunk. For the Corvette, It's 26% on a Tuesday.",
-    "journalist": "Dale Impactor III",
     "date": "2026-07-04"
   }
 }
