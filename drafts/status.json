@@ -1,18 +1,18 @@
 {
   "current": {
+    "slug": "corvette-every-day-july-fourth",
+    "phase": "CRITIQUE",
+    "round": 1,
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-04",
+    "ship_blocked": true,
+    "ship_blocked_reason": "Article #420 published 2026-07-04. 1/day limit. Earliest ship: 2026-07-05."
+  },
+  "last_completed": {
     "number": 420,
     "slug": "250-years-4-million-dead",
     "headline": "America Turns 250. The Roads Have Killed 4 Million.",
     "journalist": "Rex Driverton",
-    "phase": "DRAFT",
-    "round": 0,
-    "started": "2026-07-04"
-  },
-  "last_completed": {
-    "number": 419,
-    "slug": "town-country-pacifica-gap",
-    "headline": "Chrysler Renamed the Town & Country. The Death Rate Dropped 85%.",
-    "journalist": "Mia Crumplezone",
-    "date": "2026-07-05"
+    "date": "2026-07-04"
   }
 }
