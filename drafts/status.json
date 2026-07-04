@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 420,
+    "slug": "250-years-4-million-dead",
+    "headline": "America Turns 250. The Roads Have Killed 4 Million.",
+    "journalist": "Rex Driverton",
+    "phase": "DRAFT",
+    "round": 0,
+    "started": "2026-07-04"
+  },
   "last_completed": {
     "number": 419,
     "slug": "town-country-pacifica-gap",
