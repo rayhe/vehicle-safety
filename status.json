@@ -1,28 +1,18 @@
 {
   "current": {
-    "number": 417,
-    "slug": "allstate-wrong-metric-city-vs-car",
-    "headline": "Allstate Just Ranked 200 Cities by Crash Risk. It Missed the Variable That Matters 16x More.",
-    "journalist": "Clara Rollover",
-    "phase": "SHIP",
+    "number": 423,
+    "slug": "stellantis-meltdown-23295-deaths",
+    "headline": "Stellantis Vehicles Have Killed 23,295 People. The Company Might Not Survive to Fix the Problem.",
+    "journalist": "Rex Driverton",
+    "phase": "CRITIQUE",
     "round": 1,
-    "ship_blocked": true,
-    "critique_scores": {
-      "general_editor": 8.8,
-      "voice_coach": 8.7,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.1,
-      "research_rigor": 8.6,
-      "data_presentation": 8.6,
-      "composite": 8.83
-    }
+    "started": "2026-07-04"
   },
   "last_completed": {
-    "number": 416,
-    "slug": "100-deadliest-days-teen-divergence",
-    "headline": "The 100 Deadliest Days Are Getting Safer. Unless You're 16.",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-03"
+    "number": 422,
+    "slug": "ford-quality-award-recall-paradox",
+    "headline": "Ford Won JD Power's Top Quality Award, Recalled 12 Million Vehicles, and You're Supposed to Find This Reassuring",
+    "journalist": "Vin Wreckage",
+    "date": "2026-07-04"
   }
 }
