@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "corvette-every-day-july-fourth",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Dale Impactor III",
-    "started": "2026-07-04",
-    "published_number": 421
-  },
+  "current": null,
   "last_completed": {
-    "number": 420,
-    "slug": "250-years-4-million-dead",
-    "headline": "America Turns 250. The Roads Have Killed 4 Million.",
-    "journalist": "Rex Driverton",
+    "number": 421,
+    "slug": "corvette-every-day-july-fourth",
+    "headline": "NHTSA Says 38% of July 4th Drivers Killed Are Drunk. For the Corvette, It's 26% on a Tuesday.",
+    "journalist": "Dale Impactor III",
     "date": "2026-07-04"
   }
 }
