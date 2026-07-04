@@ -4,8 +4,19 @@
     "slug": "stellantis-meltdown-23295-deaths",
     "headline": "Stellantis Vehicles Have Killed 23,295 People. The Company Might Not Survive to Fix the Problem.",
     "journalist": "Rex Driverton",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "round": 1,
+    "ship_blocked": true,
+    "critique_scores": {
+      "general_editor": 8.7,
+      "voice_coach": 8.8,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.2,
+      "legal_accuracy": 8.7,
+      "research_rigor": 8.5,
+      "data_presentation": 8.6,
+      "composite": 8.79
+    },
     "started": "2026-07-04"
   },
   "last_completed": {
