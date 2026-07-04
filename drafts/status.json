@@ -1,29 +1,11 @@
 {
   "current": {
     "slug": "corvette-every-day-july-fourth",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Dale Impactor III",
     "started": "2026-07-04",
-    "critique_passed": true,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.7,
-      "ethics_reviewer": 8.8,
-      "social_shareability": 9.2,
-      "legal_accuracy": 8.8,
-      "research_rigor": 9.0,
-      "data_presentation": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": "1 (title only, 0 body) — PASS",
-      "banned_phrases": "NONE — PASS",
-      "css_classes": "story + style.css — PASS",
-      "the_starters": "0% — PASS",
-      "sentence_rhythm": "var=427 short=9.1% long=59.1% — PASS"
-    },
-    "ship_blocked": true,
-    "ship_blocked_reason": "Article #420 published 2026-07-04. 1/day limit. Earliest ship: 2026-07-05."
+    "published_number": 421
   },
   "last_completed": {
     "number": 420,
