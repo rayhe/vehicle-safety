@@ -1,5 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "gmc-envoy-premium-death-trap",
+    "headline": "The GMC Envoy Won SUV of the Year. Then It Killed 988 People.",
+    "journalist": "Mia Crumplezone",
+    "kicker": "Investigation",
+    "stage": "critique",
+    "round": 0,
+    "started": "2026-07-04",
+    "revisions": 0,
+    "number": 424
+  },
   "last_completed": {
     "number": 423,
     "slug": "stellantis-meltdown-23295-deaths",
