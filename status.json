@@ -1,29 +1,29 @@
 {
   "current": {
-    "number": 425,
-    "slug": "highlander-safest-suv-nobody-talks-about",
-    "headline": "The Toyota Highlander Has 2.1 Million on the Road and a Fatality Rate 3.7 Times Lower Than the Ford Explorer. Nobody Cares.",
-    "journalist": "Clara Rollover",
+    "number": 429,
+    "slug": "nissan-14456-systemic-brand-failure",
+    "headline": "Every Nissan Sedan Is Above the Death Rate Median. Every Single One.",
+    "journalist": "Vin Wreckage",
     "phase": "SHIP",
     "round": 1,
-    "ship_blocked": true,
+    "ship_blocked": false,
     "critique_scores": {
-      "general_editor": 8.8,
-      "voice_coach": 8.7,
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
       "ethics_reviewer": 9.0,
-      "social_shareability": 9.1,
-      "legal_accuracy": 8.7,
-      "research_rigor": 8.7,
-      "data_presentation": 8.6,
-      "composite": 8.94
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9.0,
+      "sentence_rhythm": "PASS",
+      "composite": 8.83
     },
-    "started": "2026-07-04"
+    "started": "2026-07-05"
   },
   "last_completed": {
-    "number": 424,
-    "slug": "gmc-envoy-premium-death-trap",
-    "headline": "The GMC Envoy Won SUV of the Year. Then It Killed 988 People.",
+    "number": 428,
+    "slug": "toyota-fuel-pump-stalling-recall",
+    "headline": "A 50-Cent Fuel Pump Part Has Been Stalling Toyotas for Six Years. The Recall Still Isn't Done.",
     "journalist": "Mia Crumplezone",
-    "date": "2026-07-04"
+    "date": "2026-07-05"
   }
 }
