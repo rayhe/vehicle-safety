@@ -1,17 +1,15 @@
 {
   "current": {
-    "slug": "ford-cant-park-nhtsa-removes-brake-pedals",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Rex Driverton",
-    "headline": "741,195 Fords Can't Stay in Park. NHTSA Just Proposed Removing Brake Pedals.",
-    "started": "2026-07-05T08:26:00Z"
+    "number": 427,
+    "slug": "honda-corrosion-recall-23-states",
+    "journalist": "Axle McScatter",
+    "phase": "DRAFT"
   },
   "last_completed": {
-    "number": 425,
-    "slug": "highlander-safest-suv-nobody-talks-about",
-    "headline": "The Toyota Highlander Saved Nearly 3,000 Lives. Nobody Noticed.",
-    "journalist": "Clara Rollover",
-    "date": "2026-07-04"
+    "number": 426,
+    "slug": "ford-cant-park-nhtsa-removes-brake-pedals",
+    "headline": "741,195 Fords Can't Stay in Park. NHTSA Just Proposed Removing Brake Pedals.",
+    "journalist": "Rex Driverton",
+    "date": "2026-07-05"
   }
 }
