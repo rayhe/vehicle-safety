@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 430,
+    "slug": "nhtsa-cleared-million-teslas-one-week",
+    "headline": "NHTSA Cleared 1 Million Teslas in One Week. The Same Week, FSD Killed Someone.",
+    "journalist": "Rex Driverton",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-07-05T16:26:00Z"
+  },
   "last_completed": {
     "number": 428,
     "slug": "denso-fifty-cent-part-six-million-toyotas",
