@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "highlander-safest-suv-nobody-talks-about",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "started": "2026-07-04T21:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_completed": {
-    "number": 424,
-    "slug": "gmc-envoy-premium-death-trap",
-    "headline": "The GMC Envoy Won SUV of the Year. Then It Killed 988 People.",
-    "journalist": "Mia Crumplezone",
+    "number": 425,
+    "slug": "highlander-safest-suv-nobody-talks-about",
+    "headline": "The Toyota Highlander Saved Nearly 3,000 Lives. Nobody Noticed.",
+    "journalist": "Clara Rollover",
     "date": "2026-07-04"
   }
 }
