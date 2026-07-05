@@ -1,29 +1,17 @@
 {
   "current": {
-    "number": 429,
-    "slug": "nissan-14456-systemic-brand-failure",
-    "headline": "Every Nissan Sedan Is Above the Death Rate Median. Every Single One.",
-    "journalist": "Vin Wreckage",
-    "phase": "SHIP",
-    "round": 1,
-    "ship_blocked": false,
-    "critique_scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "sentence_rhythm": "PASS",
-      "composite": 8.83
-    },
-    "started": "2026-07-05"
+    "number": 432,
+    "slug": "joyson-takata-successor-inflator-rupture",
+    "headline": "Six Months After Buying Takata, Joyson Built Airbag Inflators That Rupture",
+    "journalist": "Mia Crumplezone",
+    "phase": "DRAFT",
+    "started": "2026-07-05T20:30:00Z"
   },
   "last_completed": {
-    "number": 428,
-    "slug": "toyota-fuel-pump-stalling-recall",
-    "headline": "A 50-Cent Fuel Pump Part Has Been Stalling Toyotas for Six Years. The Recall Still Isn't Done.",
-    "journalist": "Mia Crumplezone",
+    "number": 431,
+    "slug": "tucson-four-recalls-six-months",
+    "headline": "Four Recalls, One Failed Crash Test, Six Months: The Hyundai Tucson's 2026",
+    "journalist": "Clara Rollover",
     "date": "2026-07-05"
   }
 }
