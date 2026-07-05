@@ -1,15 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 427,
     "slug": "honda-corrosion-recall-23-states",
+    "headline": "Honda Specified the Wrong Paint on 880,514 Vehicles. Road Salt Is Finishing the Job.",
     "journalist": "Axle McScatter",
-    "phase": "DRAFT"
-  },
-  "last_completed": {
-    "number": 426,
-    "slug": "ford-cant-park-nhtsa-removes-brake-pedals",
-    "headline": "741,195 Fords Can't Stay in Park. NHTSA Just Proposed Removing Brake Pedals.",
-    "journalist": "Rex Driverton",
     "date": "2026-07-05"
   }
 }
