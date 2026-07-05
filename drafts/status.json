@@ -1,20 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 424,
     "slug": "gmc-envoy-premium-death-trap",
     "headline": "The GMC Envoy Won SUV of the Year. Then It Killed 988 People.",
     "journalist": "Mia Crumplezone",
-    "kicker": "Investigation",
-    "stage": "qa",
-    "round": 0,
-    "started": "2026-07-04",
-    "revisions": 0,
-    "number": 424
-  },
-  "last_completed": {
-    "number": 423,
-    "slug": "stellantis-meltdown-23295-deaths",
-    "headline": "Stellantis Vehicles Have Killed 23,295 People. The Company Might Not Survive to Fix the Problem.",
-    "journalist": "Rex Driverton",
     "date": "2026-07-04"
   }
 }
