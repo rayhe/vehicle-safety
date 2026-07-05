@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 432,
     "slug": "joyson-takata-successor-inflator-rupture",
     "headline": "Six Months After Buying Takata, Joyson Built Airbag Inflators That Rupture",
     "journalist": "Mia Crumplezone",
-    "phase": "DRAFT",
-    "started": "2026-07-05T20:30:00Z"
-  },
-  "last_completed": {
-    "number": 431,
-    "slug": "tucson-four-recalls-six-months",
-    "headline": "Four Recalls, One Failed Crash Test, Six Months: The Hyundai Tucson's 2026",
-    "journalist": "Clara Rollover",
     "date": "2026-07-05"
   }
 }
