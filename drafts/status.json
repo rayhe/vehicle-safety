@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "number": 437,
+    "slug": "explorer-three-million-clips",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-06T08:30:00Z"
+  },
   "last_completed": {
     "number": 436,
     "slug": "prius-2010-blind-spot",
