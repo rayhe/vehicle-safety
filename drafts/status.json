@@ -1,10 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "number": 435,
+    "slug": "forte-poor-headlights-six-years",
+    "headline": "Kia Sold the Forte With Poor Headlights for Six Years. The Fix Was in the Parts Bin the Whole Time.",
+    "journalist": "Mia Crumplezone",
+    "date": "2026-07-06",
+    "phase": "DRAFT"
+  },
   "last_completed": {
-    "number": 431,
-    "slug": "tucson-four-recalls-six-months",
-    "headline": "Four Recalls, One Failed Crash Test, Six Months: The Hyundai Tucson's 2026",
-    "journalist": "Clara Rollover",
-    "date": "2026-07-06"
+    "number": 434,
+    "slug": "telluride-two-belt-recalls-zero-miles",
+    "headline": "The 2027 Kia Telluride Was Recalled Twice for Seatbelts Before Its First Oil Change",
+    "journalist": "Axle McScatter",
+    "date": "2026-07-05"
   }
 }
