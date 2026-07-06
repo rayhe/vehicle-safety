@@ -1,11 +1,13 @@
 {
   "current": {
     "slug": "march-2026-below-pre-covid",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "headline": "For One Month, America's Roads Were Safer Than Before COVID. Don't Get Used to It.",
     "started": "2026-07-06T12:26:00Z",
-    "round": 0
+    "round": 1,
+    "ship_blocked": true,
+    "ship_blocked_reason": "3 articles already published today (#436, #437, #438). 1/day limit. Will ship next cycle."
   },
   "last_completed": {
     "number": 438,
