@@ -1,18 +1,10 @@
 {
-  "current": {
-    "slug": "march-2026-below-pre-covid",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "headline": "For One Month, America's Roads Were Safer Than Before COVID. Don't Get Used to It.",
-    "started": "2026-07-06T12:26:00Z",
-    "round": 1,
-    "published_number": 439
-  },
+  "current": null,
   "last_completed": {
-    "number": 438,
-    "slug": "fleet-turnover-death-decline",
-    "headline": "The Most Effective Safety Program in America Is a Car Crusher",
-    "journalist": "Vin Wreckage",
+    "number": 439,
+    "slug": "march-2026-below-pre-covid",
+    "headline": "For One Month, America's Roads Were Safer Than Before COVID. Don't Get Used to It.",
+    "journalist": "Clara Rollover",
     "date": "2026-07-06"
   }
 }
