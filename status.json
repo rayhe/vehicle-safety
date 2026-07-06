@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "eu-pedestrian-aeb-us-three-year-gap",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Rex Driverton",
-    "article_number": 440,
-    "started": "2026-07-06"
-  },
+  "current": null,
   "last_completed": {
-    "number": 439,
-    "slug": "march-2026-below-pre-covid",
-    "headline": "March 2026 Traffic Deaths Fell Below Pre-COVID Levels for the First Time",
-    "journalist": "Clara Rollover",
+    "number": 440,
+    "slug": "eu-pedestrian-aeb-us-three-year-gap",
+    "headline": "Every New Car in Europe Will Brake for Pedestrians Tomorrow. America Won't Require It Until 2029.",
+    "journalist": "Rex Driverton",
     "date": "2026-07-06"
   }
 }
