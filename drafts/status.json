@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 437,
     "slug": "explorer-three-million-clips",
-    "phase": "CRITIQUE",
-    "round": 0,
+    "headline": "A Plastic Clip Worth Pennies Has Generated Three Million Ford Explorer Recall Notices",
     "journalist": "Mia Crumplezone",
-    "started": "2026-07-06T08:30:00Z"
-  },
-  "last_completed": {
-    "number": 436,
-    "slug": "prius-2010-blind-spot",
-    "headline": "The Safest Sedan in America Has a 67-Death Blind Spot",
-    "journalist": "Rex Driverton",
     "date": "2026-07-06"
   }
 }
