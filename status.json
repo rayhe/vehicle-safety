@@ -1,10 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "slug": "gsr2-pedestrian-aeb-gap",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Mia Crumplezone",
+    "article_number": 437,
+    "started": "2026-07-06"
+  },
   "last_completed": {
-    "number": 434,
-    "slug": "telluride-two-belt-recalls-zero-miles",
-    "headline": "The 2027 Kia Telluride Was Recalled Twice for Seatbelts Before Its First Oil Change",
-    "journalist": "Axle McScatter",
+    "number": 436,
+    "slug": "prius-2010-blind-spot",
+    "headline": "The Safest Sedan in America Has a 67-Death Blind Spot",
+    "journalist": "Rex Driverton",
     "date": "2026-07-05"
   }
 }
