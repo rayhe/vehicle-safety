@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "thirteen-quarter-decline-vmt-paradox",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Rex Driverton",
+    "started": "2026-07-07",
+    "headline": "Thirteen Quarters of Fewer Dead. The Last Streak This Long Took a Recession."
+  },
   "last_completed": {
     "number": 440,
     "slug": "eu-pedestrian-aeb-us-three-year-gap",
