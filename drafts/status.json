@@ -1,20 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 443,
     "slug": "quiet-car-rule-150k-silent-recalls",
     "headline": "It Took 11 Years to Require Electric Cars to Make Noise. Three Automakers Still Can't Manage It.",
-    "phase": "SHIP",
-    "round": 0,
     "journalist": "Mia Crumplezone",
-    "started": "2026-07-07T08:26:00Z",
-    "critique_passed": "2026-07-07T08:45:00Z",
-    "ship_blocked_until": "2026-07-08",
-    "hero_image": "drafts/quiet-car-rule-150k-silent-recalls.jpg"
-  },
-  "last_completed": {
-    "number": 442,
-    "slug": "nhtsa-five-star-delay-automaker-lobby",
-    "headline": "NHTSA Had Four Years to Update Its Safety Ratings. Automakers Said No.",
-    "journalist": "Clara Rollover",
     "date": "2026-07-07"
   }
 }
