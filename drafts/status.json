@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "thirteen-quarter-decline-vmt-paradox",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Rex Driverton",
-    "started": "2026-07-07",
-    "headline": "Thirteen Quarters of Fewer Dead. The Last Streak This Long Took a Recession."
-  },
+  "current": null,
   "last_completed": {
-    "number": 440,
-    "slug": "eu-pedestrian-aeb-us-three-year-gap",
-    "headline": "Every New Car in Europe Will Brake for Pedestrians Tomorrow. America Won't Require It Until 2029.",
+    "number": 441,
+    "slug": "thirteen-quarter-decline-vmt-paradox",
+    "headline": "Thirteen Quarters of Fewer Dead. The Last Streak This Long Took a Recession.",
     "journalist": "Rex Driverton",
-    "date": "2026-07-06"
+    "date": "2026-07-07"
   }
 }
