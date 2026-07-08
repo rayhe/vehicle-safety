@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "iihs-gold-star-blind-spot",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-08T00:26:00Z",
+    "number": 445
+  },
   "last_completed": {
     "number": 444,
     "slug": "mustang-gtd-325k-wiper-recall",
