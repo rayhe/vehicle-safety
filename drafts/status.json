@@ -1,21 +1,10 @@
 {
-  "current": {
-    "slug": "mustang-gtd-325k-wiper-recall",
+  "current": null,
+  "last_completed": {
     "number": 444,
+    "slug": "mustang-gtd-325k-wiper-recall",
     "headline": "Ford's $325,000 Track Car Just Got Recalled Because Its Wipers Don't Work",
     "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "date": "2026-07-08",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "hard_gates_passed": true,
-    "ship_blocked": false
-  },
-  "last_completed": {
-    "number": 443,
-    "slug": "quiet-car-rule-150k-silent-recalls",
-    "headline": "It Took 11 Years to Require Electric Cars to Make Noise. Three Automakers Still Can't Manage It.",
-    "journalist": "Mia Crumplezone",
-    "date": "2026-07-07"
+    "date": "2026-07-08"
   }
 }
