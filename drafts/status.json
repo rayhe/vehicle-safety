@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 448,
+    "slug": "safe-drivers-fragile-cars",
+    "headline": "The HR-V and Ram 2500 Both Kill at 0.13 per 100M VMT. Only One Is Actually Safe.",
+    "journalist": "Mia Crumplezone",
+    "phase": "CRITIQUE",
+    "started": "2026-07-08",
+    "attempt": 1
+  },
   "last_completed": {
     "number": 447,
     "slug": "nhtsa-459-budget-16-percent-results",
