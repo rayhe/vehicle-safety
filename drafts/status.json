@@ -1,35 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 447,
     "slug": "nhtsa-459-budget-16-percent-results",
     "headline": "NHTSA's Budget Went Up 459%. Traffic Deaths Dropped 16%. The Automakers Did the Rest.",
     "journalist": "Rex Driverton",
-    "phase": "QA",
-    "started": "2026-07-08T04:30:00Z",
-    "critique_rounds": 1,
-    "scores": {
-      "general_editor": 9,
-      "voice_coach": 9,
-      "ethics_reviewer": 9,
-      "social_shareability": 9,
-      "legal_accuracy": 9,
-      "research_rigor": 9,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 3,
-      "banned_phrases": 0,
-      "the_starters_pct": 12.9,
-      "sentence_rhythm": "PASSED",
-      "css_class": "story",
-      "stylesheet": "style.css"
-    }
-  },
-  "last_completed": {
-    "number": 446,
-    "slug": "palisade-toddler-recall-check",
-    "headline": "One Dead Toddler. Three Recalls. And Dozens of SUVs Nobody's Checked Yet.",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-08"
   }
 }
