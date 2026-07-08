@@ -1,33 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 450,
     "slug": "brand-loyalty-safety-roulette",
     "headline": "You're 71× More Likely to Die in One Hyundai Than Another. Every Automaker Has the Same Problem.",
     "journalist": "Dale Impactor III",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-07-08T14:26:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 10.5,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    }
-  },
-  "last_completed": {
-    "number": 449,
-    "slug": "corolla-rear-seat-two-fixes-still-marginal",
-    "headline": "Toyota Fixed the Corolla's Back Seat Twice. IIHS Still Gave It Nothing.",
-    "journalist": "Clara Rollover",
-    "date": "2026-07-09"
+    "date": "2026-07-08"
   }
 }
