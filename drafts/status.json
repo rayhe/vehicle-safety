@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "iihs-gold-star-blind-spot",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-07-08T00:26:00Z",
-    "number": 445
-  },
+  "current": null,
   "last_completed": {
-    "number": 444,
-    "slug": "mustang-gtd-325k-wiper-recall",
-    "headline": "Ford's $325,000 Track Car Just Got Recalled Because Its Wipers Don't Work",
-    "journalist": "Vin Wreckage",
+    "number": 445,
+    "slug": "iihs-gold-star-blind-spot",
+    "headline": "The Palisade Got IIHS's Highest Safety Award. 68 Days After It Killed a Toddler.",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-08"
   }
 }
