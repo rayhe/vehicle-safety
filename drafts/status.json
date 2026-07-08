@@ -1,5 +1,16 @@
 {
-  "current": null,
+  "current": {
+    "slug": "mustang-gtd-325k-wiper-recall",
+    "number": 444,
+    "headline": "Ford's $325,000 Track Car Just Got Recalled Because Its Wipers Don't Work",
+    "journalist": "Vin Wreckage",
+    "kicker": "Existential Dread",
+    "date": "2026-07-08",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "hard_gates_passed": true,
+    "ship_blocked": false
+  },
   "last_completed": {
     "number": 443,
     "slug": "quiet-car-rule-150k-silent-recalls",
