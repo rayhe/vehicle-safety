@@ -1,10 +1,16 @@
 {
-  "current": null,
+  "current": {
+    "slug": "cannabis-overtakes-alcohol",
+    "phase": "SHIP",
+    "round": 0,
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-09"
+  },
   "last_completed": {
-    "number": 455,
-    "slug": "ct5-luxury-poor-iihs",
-    "headline": "The CT5 Scored POOR on Four IIHS Tests. NHTSA Gave It Five Stars. Same Car.",
-    "journalist": "Clara Rollover",
+    "number": 456,
+    "slug": "below-one-not-if-you-ride",
+    "headline": "The Fatality Rate Just Broke Below 1.0. Motorcyclists Are Going the Other Direction.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-09"
   }
 }
