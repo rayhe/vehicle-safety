@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 461,
     "slug": "iihs-first-commercial-test-regulatory-void",
     "headline": "IIHS Just Tested Commercial Vehicles for the First Time. The Express Has Been Killing Drivers Without Force Limiters for 29 Years.",
     "journalist": "Mia Crumplezone",
-    "kicker": "Investigation",
-    "phase": "SHIP",
-    "round": 0,
-    "date": "2026-07-09"
-  },
-  "last_completed": {
-    "number": 460,
-    "slug": "power-seat-contagion-three-recalls-one-death",
-    "headline": "A Dead Child Made GM Check Its Own Seats. Nobody Made Anyone Else.",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-09"
   }
 }
