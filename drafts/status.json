@@ -1,27 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 460,
     "slug": "power-seat-contagion-three-recalls-one-death",
     "headline": "A Dead Child Made GM Check Its Own Seats. Nobody Made Anyone Else.",
     "journalist": "Vin Wreckage",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-09T18:26:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 8.5,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 8.5,
-      "average": 8.79
-    }
-  },
-  "last_completed": {
-    "number": 459,
-    "slug": "mach-e-pinion-shaft-ev-mechanical-failure",
-    "headline": "EVs Have Fewer Moving Parts. One of Ford's Just Broke.",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-09"
   }
 }
