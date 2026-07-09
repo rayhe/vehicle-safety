@@ -1,5 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "number": 459,
+    "slug": "mach-e-pinion-shaft-ev-mechanical-failure",
+    "headline": "EVs Have Fewer Moving Parts. One of Ford's Just Broke.",
+    "journalist": "Mia Crumplezone",
+    "phase": "CRITIQUE_PASS",
+    "started": "2026-07-09",
+    "ship_blocked": true,
+    "ship_blocked_reason": "Daily publish limit reached (5 articles published today: #454-#458). Draft ready to ship on next run."
+  },
   "last_completed": {
     "number": 458,
     "slug": "telluride-fire-recall-fars-blind-spot",
