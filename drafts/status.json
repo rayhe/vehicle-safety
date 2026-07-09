@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "sub-one-quarterly-deja-vu",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-08T15:30:00-07:00",
-    "headline": "America's Road Death Rate Just Broke Below 1.0. It Did the Same Thing in 2014."
-  },
+  "current": null,
   "last_completed": {
-    "number": 452,
-    "slug": "grand-wagoneer-born-without-brakes",
-    "headline": "Stellantis Shipped 11,980 Grand Wagoneers With ESC Disabled From the Factory",
-    "journalist": "Mia Crumplezone",
+    "number": 453,
+    "slug": "sub-one-quarterly-deja-vu",
+    "headline": "America's Road Death Rate Just Broke Below 1.0. It Did the Same Thing in 2014.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-08"
   }
 }
