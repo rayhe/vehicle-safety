@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "sub-one-quarterly-deja-vu",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Vin Wreckage",
+    "started": "2026-07-08T15:30:00-07:00",
+    "headline": "America's Road Death Rate Just Broke Below 1.0. It Did the Same Thing in 2014."
+  },
   "last_completed": {
     "number": 452,
     "slug": "grand-wagoneer-born-without-brakes",
