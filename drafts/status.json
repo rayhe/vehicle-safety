@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "number": 466,
+    "slug": "kia-telluride-double-recall-fire-fix-failed",
+    "headline": "Kia Recalled 463,000 Tellurides for Fire Risk. The Fix Caught Fire.",
+    "journalist": "Clara Rollover",
+    "phase": "SHIP",
+    "ship_blocked_until": "2026-07-11"
+  },
   "last_completed": {
     "number": 465,
     "slug": "tariff-fleet-age-body-count",
