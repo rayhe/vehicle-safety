@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "av-danger-letter-data-gap",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Clara Rollover",
-    "started": "2026-07-10"
-  },
+  "current": null,
   "last_completed": {
-    "number": 462,
-    "slug": "ford-recall-paradox-quality-vs-deaths",
-    "headline": "Ford Recalled 19.6 Million Vehicles Last Year. Then Won a Quality Award.",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-09"
+    "number": 463,
+    "slug": "av-danger-letter-data-gap",
+    "headline": "NHTSA Called Autonomous Vehicles a \"Danger to the General Public.\" Three Weeks Ago, It Stopped Counting Their Crashes.",
+    "journalist": "Clara Rollover",
+    "date": "2026-07-10"
   }
 }
