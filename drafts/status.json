@@ -1,12 +1,10 @@
 {
   "current": {
     "slug": "av-danger-letter-data-gap",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Clara Rollover",
-    "started": "2026-07-10",
-    "ship_blocked": true,
-    "ship_blocked_reason": "5 articles published 2026-07-09, max 1/day"
+    "started": "2026-07-10"
   },
   "last_completed": {
     "number": 462,
