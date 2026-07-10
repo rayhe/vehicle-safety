@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "recall-fix-double-failure",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "headline": "The Recall System Has a Defect: 39% of Fixes Never Happen, and Some That Do Don't Work",
+    "started": "2026-07-10",
+    "round": 1,
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 8.5,
+      "legal": 9,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 463,
     "slug": "av-danger-letter-data-gap",
