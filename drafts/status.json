@@ -4,8 +4,17 @@
     "slug": "injury-toll-hidden-by-fatality-rate",
     "headline": "NHTSA Celebrates a 0.99 Death Rate. Crashes Still Cost $1.77 Trillion. The 2.42 Million Injured Don't Make the Headline.",
     "journalist": "Axle McScatter",
-    "phase": "DRAFT",
-    "started": "2026-07-11T08:26:00Z"
+    "phase": "SHIP",
+    "ship_blocked_until": "2026-07-12",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 8.5,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "number": 467,
