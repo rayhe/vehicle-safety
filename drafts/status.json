@@ -4,9 +4,17 @@
     "slug": "hot-car-deaths-nhtsa-mandate-unfulfilled",
     "headline": "Congress Passed a Law to Stop Hot Car Deaths. NHTSA Missed the Deadline by Three Years. Ten Children Are Dead.",
     "journalist": "Vin Wreckage",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "started": "2026-07-11"
+    "phase": "SHIP",
+    "ship_blocked_until": "2026-07-12",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.5
+    }
   },
   "last_completed": {
     "number": 466,
