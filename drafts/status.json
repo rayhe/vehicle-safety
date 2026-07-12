@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "tsp-no-semi-test",
-    "phase": "SHIP_PENDING",
-    "journalist": "Clara Rollover",
-    "started": "2026-07-12T20:45:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "number": 474,
-    "slug": "esc-mandate-body-count-tripled",
-    "headline": "The Kia Optima Got Every Safety Feature Congress Mandated. Its Body Count Tripled.",
-    "journalist": "Mia Crumplezone",
-    "date": "2026-07-12"
+    "number": 475,
+    "slug": "tsp-no-semi-test",
+    "headline": "Your Car Won a Safety Award. Nobody Tested Whether It Can Stop Before Hitting a Semi.",
+    "journalist": "Clara Rollover",
+    "date": "2026-07-13"
   }
 }
