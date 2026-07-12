@@ -1,10 +1,16 @@
 {
-  "current": null,
+  "current": {
+    "slug": "esc-mandate-body-count-tripled",
+    "headline": "The Kia Optima Got Every Safety Feature Congress Mandated. Its Body Count Tripled.",
+    "journalist": "Mia Crumplezone",
+    "phase": "CRITIQUE",
+    "started": "2026-07-12"
+  },
   "last_completed": {
-    "number": 470,
-    "slug": "motorcycle-summer-surge-state-by-state",
-    "headline": "Minnesota's Motorcycle Deaths Are Up 54%. Colorado Just Set a Six-Year Record. Nobody's Aggregating the Picture.",
-    "journalist": "Axle McScatter",
+    "number": 473,
+    "slug": "gm-killed-1540-people-before-learning-to-listen",
+    "headline": "GM Killed 1,540 People Before It Learned to Listen",
+    "journalist": "Rex Driverton",
     "date": "2026-07-12"
   }
 }
