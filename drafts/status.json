@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "bronco-designed-to-fall-apart",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-07-12T22:26:00Z"
+  },
   "last_completed": {
     "number": 475,
     "slug": "tsp-no-semi-test",
