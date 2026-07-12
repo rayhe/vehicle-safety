@@ -1,16 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 474,
     "slug": "esc-mandate-body-count-tripled",
     "headline": "The Kia Optima Got Every Safety Feature Congress Mandated. Its Body Count Tripled.",
     "journalist": "Mia Crumplezone",
-    "phase": "CRITIQUE",
-    "started": "2026-07-12"
-  },
-  "last_completed": {
-    "number": 473,
-    "slug": "gm-killed-1540-people-before-learning-to-listen",
-    "headline": "GM Killed 1,540 People Before It Learned to Listen",
-    "journalist": "Rex Driverton",
     "date": "2026-07-12"
   }
 }
