@@ -1,5 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "number": 469,
+    "slug": "touchscreen-half-mile-distraction-regression",
+    "phase": "SHIP_READY",
+    "journalist": "Mia Crumplezone",
+    "headline": "Your Car Needs Half a Mile of Your Attention to Change the Radio. A 2005 Volvo Needed 328 Feet.",
+    "started": "2026-07-12",
+    "ship_date": "2026-07-13",
+    "date_gate_blocked": true,
+    "note": "All 7 critics passed (8.5+). Date gate blocks until 2026-07-13 UTC. Files already in place: stories/, index.html, sitemap.xml, feed.xml updated. Deploy when date gate opens."
+  },
   "last_completed": {
     "number": 468,
     "slug": "injury-toll-hidden-by-fatality-rate",
