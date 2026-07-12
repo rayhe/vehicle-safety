@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tsp-no-semi-test",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-07-12T20:45:00Z"
+  },
   "last_completed": {
     "number": 474,
     "slug": "esc-mandate-body-count-tripled",
