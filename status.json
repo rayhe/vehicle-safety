@@ -1,19 +1,10 @@
 {
-  "current": {
-    "number": 459,
-    "slug": "mach-e-pinion-shaft-ev-mechanical-failure",
-    "headline": "EVs Have Fewer Moving Parts. One of Ford's Just Broke.",
-    "journalist": "Mia Crumplezone",
-    "phase": "CRITIQUE_PASS",
-    "started": "2026-07-09",
-    "ship_blocked": true,
-    "ship_blocked_reason": "Daily publish limit reached (5 articles published today: #454-#458). Draft ready to ship on next run."
-  },
-  "last_completed": {
-    "number": 458,
-    "slug": "telluride-fire-recall-fars-blind-spot",
-    "headline": "The Safest Vehicle in America Might Burn Down in Your Garage",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-09"
-  }
+    "current": null,
+    "last_completed": {
+        "number": 472,
+        "slug": "iowa-five-mph-body-count",
+        "headline": "Iowa Just Added 5 MPH to Its Rural Roads. The Price Is About a Dozen Funerals.",
+        "journalist": "Axle McScatter",
+        "date": "2026-07-12"
+    }
 }
