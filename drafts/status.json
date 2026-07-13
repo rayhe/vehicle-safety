@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "sub-one-denominator-mirage",
+    "headline": "The Fatality Rate Just Dropped Below 1.0. You Should Not Be Celebrating.",
+    "journalist": "Vin Wreckage",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-12"
+  },
   "last_completed": {
     "number": 476,
     "slug": "bronco-designed-to-fall-apart",
