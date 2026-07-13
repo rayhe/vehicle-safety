@@ -1,10 +1,15 @@
 {
   "current": null,
+  "parked": {
+    "slug": "ct5-five-star-poor-two-ratings",
+    "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
+    "parked_at": "2026-07-13"
+  },
   "last_completed": {
-    "number": 484,
-    "slug": "suv-sedan-death-crossover-2021",
-    "headline": "In 2021, SUVs Started Killing More People Than Sedans. The Safety Narrative Didn't Update.",
-    "journalist": "Vin Wreckage",
+    "number": 485,
+    "slug": "tsp-plus-five-above-average-death-rate",
+    "headline": "Five TSP+ Winners Have Above-Average Death Rates",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-13"
   }
 }
