@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "sub-one-denominator-mirage",
-    "headline": "The Fatality Rate Just Dropped Below 1.0. You Should Not Be Celebrating.",
-    "journalist": "Vin Wreckage",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-12"
-  },
+  "current": null,
   "last_completed": {
-    "number": 476,
-    "slug": "bronco-designed-to-fall-apart",
-    "headline": "The Bronco Is Designed to Fall Apart. Two Recalls Later, It's Working as Intended.",
-    "journalist": "Clara Rollover",
+    "number": 478,
+    "slug": "pickup-death-divergence-national-rate",
+    "headline": "The National Death Rate Is Falling. Pickup Trucks Are Eating the Difference.",
+    "journalist": "Axle McScatter",
     "date": "2026-07-13"
   }
 }
