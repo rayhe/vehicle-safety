@@ -1,16 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 480,
     "slug": "thirty-six-thousand-same-fleet",
     "headline": "36,640 People Died on American Roads in 2025. The Cars Didn't Get Safer.",
-    "journalist": "Axle McScatter",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-13T01:26:00-07:00"
-  },
-  "last_completed": {
-    "number": 478,
-    "slug": "pickup-death-divergence-national-rate",
-    "headline": "The National Death Rate Is Falling. Pickup Trucks Are Eating the Difference.",
     "journalist": "Axle McScatter",
     "date": "2026-07-13"
   }
