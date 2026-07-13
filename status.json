@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 485,
     "slug": "tsp-plus-five-above-average-death-rate",
     "headline": "Five TSP+ Winners Have Above-Average Death Rates. Every Vehicle That Failed Has a Below-Average One.",
     "journalist": "Mia Crumplezone",
-    "date": "2026-07-13",
-    "phase": "DRAFT"
-  },
-  "last_completed": {
-    "number": 484,
-    "slug": "suv-sedan-death-crossover-2021",
-    "headline": "In 2021, SUVs Started Killing More People Than Sedans",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-13"
   }
 }
