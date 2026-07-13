@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Every Vehicle Has a Worst Year. For 23 of Them, It&rsquo;s 2004. &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals Model Year 2004 as America's deadliest vintage: 23 vehicles reach their peak fatal crash count at this single model year, nearly double the next worst.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Every Vehicle Has a Single Worst Year. For 23 of Them, It&rsquo;s 2004.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">July 13, 2026</div>
+
+      <p>Run every vehicle in the FARS database through a filter and find the single model year that racked up the most fatal crashes between 2014 and 2023, and one number keeps surfacing. <strong>Model Year 2004 is the peak death vintage for 23 separate vehicles, producing 3,158 fatalities.</strong> Runner-up 2005 claims 15, but Model Year 2004 doesn&rsquo;t just lead the field; it laps it.</p>
+
+      <div class="pull-stat">23</div>
+      <div class="pull-label">Vehicles that reach their peak FARS death count at Model Year 2004, nearly double the next-worst vintage</div>
+
+      <p>Chevrolet Silverado at 663 deaths, Dodge Ram at 369, Cavalier at 210, Ford Expedition at 198. Not exotics that crashed spectacularly but trucks and sedans that sold by the millions during the pre-recession boom, then spent two decades quietly killing their second and third owners while everyone congratulated themselves on falling national fatality rates.</p>
+
+      <p>Three forces converge on this one model year. First, Electronic Stability Control &mdash; responsible for an estimated <strong>49% reduction in fatal single-vehicle crashes for cars and 73% for SUVs</strong> according to IIHS research &mdash; was almost entirely absent from the 2004 fleet.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> NHTSA wouldn&rsquo;t finalize the ESC mandate until 2007, with full compliance required by 2012, and every 2004 Cavalier, Envoy, and Expedition rolled off the line without it.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Second, 2004 was the last gasp of dying platforms: Cavalier became Cobalt in 2005, Grand Am became G6, Venture became Uplander. End-of-run vehicles get minimum investment &mdash; no mid-cycle safety upgrades, no structural reinforcements, no crash-test improvements for a nameplate about to be killed. GM didn&rsquo;t need the 2004 Cavalier to be safe; it needed it to sell until the Cobalt tooling was ready, and two hundred ten of its drivers wound up in the FARS database.</p>
+
+      <p>Third, the FARS window runs 2014 through 2023, placing MY 2004 vehicles at 10 to 19 years old during the measurement period, squarely in the second-owner death zone where vehicles pass from maintained first buyers to used-car buyers who can&rsquo;t afford brake pads, tire replacements, or recall repairs. A 663-death Silverado wasn&rsquo;t killing its original owner with a warranty and fresh tires; it was killing whoever inherited it a decade later at 180,000 miles.</p>
+
+      <p>Fleet size is the obvious counterargument, and it deserves weight: model years 2003 through 2005 were peak production, and more vehicles mechanically produce more crashes. Without registration data we cannot calculate death <em>rates</em>, only counts. But volume alone cannot explain a 23-vehicle pileup at one vintage when surrounding years claim 14 or fewer, across sedans, pickups, SUVs, and vans simultaneously.</p>
+
+      <p>If you&rsquo;re shopping for a vehicle older than 20 years, MY 2004 is the single worst vintage across the broadest range of makes in the FARS dataset. Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>, and if the first four digits of your title say 2004, the data says you&rsquo;re driving a statistical peak.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">IIHS, &ldquo;Life-saving benefits of ESC continue to accrue,&rdquo; 2011. <a href="https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-2">NHTSA, Electronic Stability Control Final Rule, FMVSS 126, June 2007. <a href="https://www.govinfo.gov/content/pkg/FR-2007-06-22/html/E7-11965.htm" target="_blank" rel="noopener">govinfo.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Peak death model year calculated as the model year with the highest absolute fatal crash count per vehicle model. Fleet size differences across model years are uncontrolled and represent the primary confound. See <a href="../#method">methodology</a> for full caveats and data limitations.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

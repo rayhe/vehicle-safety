@@ -1,10 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "number": 482,
+    "slug": "model-year-2004-peak-death-vintage",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-13"
+  },
   "last_completed": {
-    "number": 480,
-    "slug": "thirty-six-thousand-same-fleet",
-    "headline": "36,640 People Died on American Roads in 2025. The Cars Didn't Get Safer.",
-    "journalist": "Axle McScatter",
+    "number": 481,
+    "slug": "out-of-state-travel-death-decline",
+    "headline": "Out-of-State Travel Deaths Dropped 12%. Every Other Category Wishes It Could Keep Up.",
+    "journalist": "Rex Driverton",
     "date": "2026-07-13"
   }
 }
