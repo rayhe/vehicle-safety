@@ -1,5 +1,11 @@
 {
-    "current": null,
+    "current": {
+        "slug": "ascent-soberest-vehicle-426-dead",
+        "phase": "DRAFT",
+        "journalist": "Dale Impactor III",
+        "started": "2026-07-13T10:00:00Z",
+        "round": 0
+    },
     "last_completed": {
         "number": 478,
         "slug": "pickup-death-divergence-national-rate",
