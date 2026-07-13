@@ -1,23 +1,9 @@
 {
-  "current": {
-    "slug": "bronco-designed-to-fall-apart",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "started": "2026-07-12T22:26:00Z",
-    "critique_scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "number": 475,
-    "slug": "tsp-no-semi-test",
-    "headline": "Your Car Won a Safety Award. Nobody Tested Whether It Can Stop Before Hitting a Semi.",
+    "number": 476,
+    "slug": "bronco-designed-to-fall-apart",
+    "headline": "The Bronco Is Designed to Fall Apart. Two Recalls Later, It's Working as Intended.",
     "journalist": "Clara Rollover",
     "date": "2026-07-13"
   }
