@@ -1,16 +1,17 @@
 {
-    "current": {
-        "slug": "ascent-soberest-vehicle-426-dead",
-        "phase": "CRITIQUE",
-        "journalist": "Dale Impactor III",
-        "started": "2026-07-13T10:00:00Z",
-        "round": 1
-    },
-    "last_completed": {
-        "number": 478,
-        "slug": "pickup-death-divergence-national-rate",
-        "headline": "The National Death Rate Is Falling. Pickup Trucks Are Eating the Difference.",
-        "journalist": "Axle McScatter",
-        "date": "2026-07-12"
-    }
+  "current": {
+    "number": 483,
+    "slug": "nhtsa-test-list-body-count",
+    "headline": "The 25,055 Deaths Behind NHTSA\u2019s 2026 Crash Test List",
+    "journalist": "Clara Rollover",
+    "date": "2026-07-14",
+    "phase": "SHIPPED"
+  },
+  "last_completed": {
+    "number": 483,
+    "slug": "nhtsa-test-list-body-count",
+    "headline": "The 25,055 Deaths Behind NHTSA\u2019s 2026 Crash Test List",
+    "journalist": "Clara Rollover",
+    "date": "2026-07-14"
+  }
 }
