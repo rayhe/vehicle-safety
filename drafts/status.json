@@ -1,5 +1,32 @@
 {
-  "current": null,
+  "current": {
+    "number": 488,
+    "slug": "iihs-test-batch-five-times-deadlier",
+    "headline": "IIHS Just Rated 14 Vehicles. The Failures Kill at 5× the Rate of the Winners.",
+    "journalist": "Mia Crumplezone",
+    "kicker": "The Gap",
+    "phase": "SHIP",
+    "critique_round": 0,
+    "critique_scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.5,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 2,
+      "banned_phrases": 0,
+      "the_starts_pct": 6.1,
+      "word_count": 500,
+      "sentence_rhythm_variance": 616.1,
+      "sentence_rhythm_short_pct": 14.3,
+      "sentence_rhythm_long_pct": 57.1
+    },
+    "date": "2026-07-14"
+  },
   "parked": {
     "slug": "ct5-five-star-poor-two-ratings",
     "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
