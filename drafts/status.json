@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "number": 494,
+    "slug": "model-choice-kills-5800-yearly",
+    "journalist": "Vin Wreckage",
+    "phase": "DRAFT",
+    "started_at": "2026-07-14T17:05:00-07:00"
+  },
   "parked": {
     "slug": "ct5-five-star-poor-two-ratings",
     "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
