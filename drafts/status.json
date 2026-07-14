@@ -1,21 +1,15 @@
 {
-  "current": {
-    "number": 494,
-    "slug": "model-choice-kills-5800-yearly",
-    "journalist": "Vin Wreckage",
-    "phase": "DRAFT",
-    "started_at": "2026-07-14T17:05:00-07:00"
-  },
+  "current": null,
   "parked": {
     "slug": "ct5-five-star-poor-two-ratings",
     "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
     "parked_at": "2026-07-13"
   },
   "last_completed": {
-    "number": 493,
-    "slug": "disappearing-passenger-deaths",
-    "headline": "Passenger Deaths Dropped 44% in 30 Years. Driver Deaths Dropped 13%. Nobody Noticed.",
-    "journalist": "Dale Impactor III",
+    "number": 494,
+    "slug": "model-choice-kills-5800-yearly",
+    "headline": "58,186 Americans Died Because They Picked the Wrong Model. Not the Wrong Class. The Wrong Model.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-14"
   }
 }
