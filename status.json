@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 495,
     "slug": "sedan-suv-switch-brand-gap",
     "headline": "Switching From a Sedan to an SUV Makes You 9x Safer — Unless You Buy the Wrong Brand",
     "journalist": "Rex Driverton",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "date": "2026-07-14"
-  },
-  "last_completed": {
-    "number": 494,
-    "slug": "model-choice-kills-5800-yearly",
-    "headline": "58,186 Americans Died Because They Picked the Wrong Model",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-14"
   }
 }
