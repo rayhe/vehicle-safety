@@ -1,19 +1,15 @@
 {
-  "current": {
-    "number": 489,
-    "slug": "vibe-matrix-same-car-different-morgue",
-    "phase": "CRITIQUE"
-  },
+  "current": null,
   "parked": {
     "slug": "ct5-five-star-poor-two-ratings",
     "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
     "parked_at": "2026-07-13"
   },
   "last_completed": {
-    "number": 488,
-    "slug": "iihs-test-batch-five-times-deadlier",
-    "headline": "IIHS Just Rated 14 Vehicles. The Failures Kill at 5× the Rate of the Winners.",
-    "journalist": "Mia Crumplezone",
-    "date": "2026-07-14"
+    "number": 489,
+    "slug": "vibe-matrix-same-car-different-morgue",
+    "headline": "The Pontiac Vibe and Toyota Matrix Are the Same Car. One Has Killed 22 Times as Many People.",
+    "journalist": "Vin Wreckage",
+    "date": "2026-07-15"
   }
 }
