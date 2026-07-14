@@ -1,5 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "number": 487,
+    "slug": "safety-trajectory-divergence",
+    "headline": "The Civic Gets Safer Every Generation; the Forte Gets Deadlier",
+    "journalist": "Axle McScatter",
+    "phase": "DRAFT",
+    "date": "2026-07-14",
+    "started": "2026-07-13",
+    "revision": 4
+  },
   "parked": {
     "slug": "ct5-five-star-poor-two-ratings",
     "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
