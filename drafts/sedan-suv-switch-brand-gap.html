@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Switching From a Sedan to an SUV Makes You 9x Safer, Unless You Buy the Wrong Brand &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data reveals the safety gain of switching from sedan to SUV varies by 9x depending on the brand, from life-saving (VW) to pointless (Lincoln).">
+  <meta property="og:image" content="../images/sedan-suv-switch-brand-gap.jpg?v=6ff66877">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>Switching From a Sedan to an SUV Makes You 9x Safer &mdash; Unless You Buy the Wrong Brand</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">July 14, 2026</div>
+
+      <img src="../images/sedan-suv-switch-brand-gap.jpg?v=6ff66877" alt="A sedan and an SUV side by side on a dark highway, the SUV casting a larger shadow" style="width:100%;max-width:720px;margin:1.5em 0;border-radius:8px;">
+
+      <p>Volkswagen sedan owners die at a rate of <strong>12.24 per 100 million VMT</strong>. Switch those same buyers into a VW SUV and the rate drops to 1.36, a 9.0x improvement so steep it barely looks like the same brand.</p>
+
+      <div class="pull-stat">9.0&times; &rarr; 0.9&times;</div>
+      <div class="pull-label">The sedan-to-SUV safety multiplier ranges from VW (9.0x safer) to Lincoln (0.9x; SUVs are actually <em>worse</em>)</div>
+
+      <p>Lincoln owners get the opposite deal: their sedans kill at 7.03 per 100M VMT, their SUVs at 7.52. Buy a Navigator instead of an MKZ and you are marginally more likely to die, which is a genuine reversal of the premise that justifies every SUV purchase in America.</p>
+
+      <p>I cross-tabulated every make in the FARS database, weighting sedan and SUV death rates by VMT estimates from the National Household Travel Survey.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup> The full brand ladder, ranked by how much safer SUVs are than sedans:</p>
+
+      <table class="data-table" style="width:100%;margin:1.2em 0;border-collapse:collapse;font-size:0.95em;">
+        <thead><tr style="border-bottom:2px solid var(--accent,#e74c3c);text-align:left;">
+          <th style="padding:6px 8px;">Brand</th><th style="padding:6px 8px;">Sedan Rate</th><th style="padding:6px 8px;">SUV Rate</th><th style="padding:6px 8px;">Ratio</th>
+        </tr></thead>
+        <tbody>
+          <tr><td style="padding:4px 8px;">Volkswagen</td><td style="padding:4px 8px;">12.24</td><td style="padding:4px 8px;">1.36</td><td style="padding:4px 8px;font-weight:700;">9.0&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Mazda</td><td style="padding:4px 8px;">12.13</td><td style="padding:4px 8px;">1.56</td><td style="padding:4px 8px;font-weight:700;">7.8&times;</td></tr>
+          <tr><td style="padding:4px 8px;">BMW</td><td style="padding:4px 8px;">17.98</td><td style="padding:4px 8px;">2.56</td><td style="padding:4px 8px;font-weight:700;">7.0&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Honda</td><td style="padding:4px 8px;">24.42</td><td style="padding:4px 8px;">3.93</td><td style="padding:4px 8px;font-weight:700;">6.2&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Hyundai</td><td style="padding:4px 8px;">14.34</td><td style="padding:4px 8px;">2.80</td><td style="padding:4px 8px;font-weight:700;">5.1&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Nissan</td><td style="padding:4px 8px;">24.21</td><td style="padding:4px 8px;">5.49</td><td style="padding:4px 8px;font-weight:700;">4.4&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Toyota</td><td style="padding:4px 8px;">16.40</td><td style="padding:4px 8px;">4.33</td><td style="padding:4px 8px;font-weight:700;">3.8&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Chevrolet</td><td style="padding:4px 8px;">20.96</td><td style="padding:4px 8px;">10.17</td><td style="padding:4px 8px;font-weight:700;">2.1&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Ford</td><td style="padding:4px 8px;">16.40</td><td style="padding:4px 8px;">10.49</td><td style="padding:4px 8px;font-weight:700;">1.6&times;</td></tr>
+          <tr><td style="padding:4px 8px;">Lincoln</td><td style="padding:4px 8px;">7.03</td><td style="padding:4px 8px;">7.52</td><td style="padding:4px 8px;font-weight:700;">0.9&times;</td></tr>
+        </tbody>
+      </table>
+
+      <p>Nine times is the distance between the best and worst answers to America&rsquo;s most popular car-shopping advice, and nobody selling you an SUV will mention it.</p>
+
+      <p>The pattern has a clear mechanical signature: brands at the top of the ladder (VW, Mazda, BMW, Honda) sell compact, modern, unibody crossovers designed around crash-energy management: Tiguan, CX-5, X3, CR-V. Brands at the bottom (Chevy, Ford, Lincoln) still sell body-on-frame SUVs with roots in the truck platform era, the Tahoe, Expedition, Navigator. Heavier, taller, harder to control in emergency maneuvers, and with rollover physics that fight every safety system bolted on after the fact.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Fleet age amplifies the split. The Jetta has been accumulating American road deaths since 1979, while the Tiguan arrived in 2018. The sedan side of VW&rsquo;s ledger carries four decades of aging metal; the SUV side carries eight years of modern engineering. Honda&rsquo;s ratio tells a similar story, ancient Civics and Accords versus relatively recent CR-Vs and Pilots. Ford&rsquo;s ratio is flat because both its sedans and its SUVs span decades of fleet presence, dragging each other toward the same grim mean.</p>
+
+      <h3>The strongest case against this analysis</h3>
+
+      <p>This might just measure calendar years rather than engineering prowess. Brands whose SUVs are newer than their sedans automatically look better because newer vehicles are safer, period, regardless of body style. The 9.0x VW gap could collapse to something unremarkable if you controlled for model year, and I haven&rsquo;t done that here. The FARS data has the model-year breakdowns to test this, and a future article should.</p>
+
+      <h3>What to do with this</h3>
+
+      <p>If you are shopping for an SUV because someone told you it was safer, check the brand ladder before you sign anything. A Honda CR-V buys you a 6.2x safety improvement over a Honda sedan, while a Ford Explorer buys you 1.6x and a Lincoln Navigator buys you nothing at all. The &ldquo;SUVs are safer&rdquo; heuristic is not wrong; it is just incomplete by a factor of nine.</p>
+
+      <h3>Limitations</h3>
+
+      <p>FARS captures only fatal crashes, a sliver of the roughly 6.7 million annual U.S. collisions, and VMT estimates from the NHTS carry &plusmn;15% uncertainty for low-volume models. Death rates are not controlled for driver demographics: who buys a Jetta is different from who buys a Tiguan, and behavior mediates risk in ways this analysis cannot isolate. Pre-2012 vehicles dominate the death counts, so these ratios describe historical fleet composition more than current showroom safety.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">FHWA / ORNL, <em>National Household Travel Survey</em>. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Weighted death rates use VMT estimates, not odometer data. Sedan/SUV classification follows FARS body-type codes. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
