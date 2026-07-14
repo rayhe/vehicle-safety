@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Utah Has Zero Road Rage Deaths. Arkansas Has 258. Neither Number Is Real. &mdash; The Crash Report</title>
+  <meta name="description" content="A widely-cited FARS study ranks states by 'aggressive driving' fatal crashes. The 79x gap between Arkansas and California reveals a coding artifact, not a behavioral finding.">
+  <meta property="og:title" content="Utah Has Zero Road Rage Deaths. Arkansas Has 258. Neither Number Is Real.">
+  <meta property="og:description" content="A widely-cited FARS study ranks states by 'aggressive driving' fatal crashes. The 79x gap between Arkansas and California reveals a coding artifact, not a behavioral finding.">
+  <meta property="og:image" content="../images/aggressive-driving-coding-mirage.jpg?v=19417e45">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Utah Has Zero Road Rage Deaths. Arkansas Has 258. Neither Number Is Real.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">July 14, 2026</div>
+
+      <p>I ran the numbers on LendingTree's new "aggressive driving" study. Then I ran them sideways, which is where it got interesting. Their report, published July 6 and syndicated through USA TODAY and a dozen local affiliates, uses 2024 FARS data to declare that <strong>12.9% of U.S. fatal crashes involved aggressive or careless driving</strong>, that men caused 78.6% of them, and that Arkansas ranks as the angriest state in the union at 47.2%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Scroll past the headline and open the state table, though, and the narrative collapses under the weight of its own data.</p>
+
+      <div class="pull-stat">79&times;</div>
+      <div class="pull-label">The gap between the highest and lowest non-zero state coding rates for "aggressive driving" in FARS 2024</div>
+
+      <p>Arkansas codes 47.2% of its 547 fatal crashes under "aggressive or careless driving." Louisiana tags 46.2% of 705. But drop to the bottom of the table and California codes just 0.6% of its 3,583 fatal crashes the same way, Ohio manages 0.8% of 1,077, and Utah reports exactly zero aggressive driving fatalities out of 251 total crashes, not a low number but literally zero, a blank cell in a federal database covering 251 deaths. The ratio between Arkansas and California is 79 to 1. To be fair, states genuinely differ in road design, enforcement intensity, and driving culture. But no combination of those factors produces a 79x gap, and no behavioral theory explains why Utah's 251 fatal crashes contained zero aggressive drivers while neighboring Nevada found aggression in 32% of its crashes. The magnitude is the tell.</p>
+
+      <p>They aren't, because FARS doesn't measure "road rage" or "aggression" the way you'd measure blood-alcohol content with a breathalyzer. It records "driver-related factors" transcribed from state police crash reports, and each state's FARS analyst codes from whatever vocabulary, form fields, and evidentiary thresholds local law enforcement happens to use. LendingTree's own methodology section acknowledges that "enforcement practices" may contribute to state-level variation, but the study never quantifies how much of its 79x gap is coding artifact versus real behavioral signal. In Arkansas and Louisiana, "careless driving" appears to function as a default at-fault designation, meaning that if the investigating officer determined you caused the crash, you drove carelessly by definition. In California, the standard is evidently much narrower, requiring explicitly documented aggressive behavior rather than mere causation. Same federal database, 50 different dictionaries feeding into it.</p>
+
+      <p>The vehicle rankings buckle under a different but equally fatal flaw, one the study itself half-acknowledges. LendingTree names the Chevy Silverado (3.2% of aggressive driving fatal crashes) and the Ford F-150 (3.1%) as the top models involved, then notes that these are "the bestselling vehicles in the U.S." In our own FARS dataset spanning 2014 through 2023, those two vehicles carry 9,591 and 9,194 total fatalities respectively, and their combined aggressive-driving crash share of 6.3% is almost exactly proportional to their roughly 6% share of the national registered vehicle fleet.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> When a vehicle's crash share matches its fleet share, you haven't found aggressive truck drivers; you've found arithmetic.</p>
+
+      <p>The generational data is sturdier but still contaminated by the same coding noise. Millennials (31.5%) and Gen Z (27.7%) together account for 59.2% of coded aggressive driving fatalities. LendingTree's own expert notes these cohorts "spend more time commuting, driving for work or traveling during rush hour and late-night hours" with higher crash exposure as a result.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The study can't separate genuine age-related risk from state-level coding variation from sheer exposure, and it doesn't try, presenting all three as one clean number.</p>
+
+      <p>We have seen this exact pattern before with other FARS behavioral variables. Our own analysis of FARS toxicology data shows that state-level drug testing rates in fatal crashes vary by a factor of 10, producing impairment rankings that mostly measure whether the coroner ran a toxicology panel rather than whether the driver was impaired.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The rule holds across every subjective FARS field: any variable that depends on state-level coding will generate rankings that reveal the measurement instrument, not the thing being measured.</p>
+
+      <h3>What this means for you</h3>
+      <p>If a headline ranks your state's "road rage problem" against 49 others, check whether the ranking survives a 79x coding gap between states, and this one doesn't survive even a glance at Utah's zero. Arkansas isn't 79 times angrier than California, and Nevada at 32% hasn't found a driving culture radically worse than neighboring Utah at 0%. These numbers reflect how each state fills out federal crash forms, and the pattern is consistent across every subjective FARS field we've examined. Next time you see a FARS-derived behavioral ranking, ask one question: does the study control for how each state defines and codes the behavior, or does it just add up numbers from 50 different dictionaries? Until NHTSA standardizes those dictionaries, every aggressive-driving map is a Rorschach test for crash-reporting bureaucracies, and the only thing it reliably diagnoses is who's reading it.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">LendingTree, &ldquo;Men Cause 78.6% of Unsafe Driving Fatal Crashes,&rdquo; July 6, 2026. <a href="https://www.lendingtree.com/insurance/aggressive-drivers-study/" target="_blank" rel="noopener">lendingtree.com</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> LendingTree analysis of NHTSA FARS 2024 data; The Crash Report analysis of FARS 2014&ndash;2023. State-level aggressive driving coding rates reflect FARS &ldquo;driver-related factor&rdquo; fields coded by state FARS analysts from local crash reports. Coding practices, definitions, and reporting thresholds vary by state; see <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests and independent analysis always welcome.
+    </footer>
+  </div>
+</body>
+</html>
