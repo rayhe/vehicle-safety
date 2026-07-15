@@ -1,16 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 507,
     "slug": "town-country-premium-family-deathtrap",
-    "phase": "SHIP",
+    "headline": "1,303 People Died in a Chrysler Town & Country. The Van That Replaced It Kills 85% Fewer.",
     "journalist": "Clara Rollover",
-    "started": "2026-07-15"
-  },
-  "last_completed": {
-    "number": 506,
-    "slug": "fourteen-evs-recalled-9931-ice-deaths",
-    "headline": "Hyundai Recalled 14 EVs for Zero Fires. Their ICE Fleet Has Killed 9,931 People.",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-15"
   }
 }
