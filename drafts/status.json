@@ -1,35 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 501,
     "slug": "sentra-never-got-safer",
     "headline": "Every Competitor Got Safer. The Nissan Sentra Got Worse.",
     "journalist": "Mia Crumplezone",
-    "phase": "READY_TO_SHIP",
-    "started": "2026-07-15",
-    "revisions": 3,
-    "number": 501,
-    "hero_image": "images/sentra-never-got-safer.jpg",
-    "hero_hash": "fbb268bd",
-    "score": 8,
-    "gate_results": {
-      "em_dashes": 3,
-      "sentence_rhythm": "PASS (var=735, short=11.8%, long=61.8%)",
-      "banned_phrases": "PASS",
-      "the_starts": "2.4%",
-      "template": "PASS",
-      "word_count": 1090,
-      "hero_jpeg": true,
-      "actionable_takeaways": true,
-      "original_contribution": true,
-      "limitations": true,
-      "counterargument": true
-    },
-    "notes": "Article #500 published today (2026-07-15). Deferring ship to next cycle per 1/day limit. Word count 1090 (2x target) justified by required scholarly rigor sections. Factual fix applied: TNGA CoG 20mm→10mm per Toyota press materials. Honda Sensing availability claim softened."
-  },
-  "last_completed": {
-    "number": 500,
-    "slug": "speeding-cluster-1253-lives",
-    "headline": "1,253 Fewer Americans Died Speeding in 2025. The Speed Limits Didn't Change.",
-    "journalist": "Axle McScatter",
     "date": "2026-07-15"
   }
 }
