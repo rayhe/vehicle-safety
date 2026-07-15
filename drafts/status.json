@@ -1,15 +1,10 @@
 {
   "current": null,
-  "parked": {
-    "slug": "ct5-five-star-poor-two-ratings",
-    "reason": "DUPLICATE of #455 (ct5-luxury-poor-iihs) — same CT5 NHTSA vs IIHS angle, same journalist Clara Rollover. Killed at CRITIQUE phase.",
-    "parked_at": "2026-07-13"
-  },
   "last_completed": {
-    "number": 495,
-    "slug": "recall-death-ratio-brand-gap",
-    "headline": "For Every Death, America Recalls 1,319 Vehicles. It's Not Working.",
-    "journalist": "Axle McScatter",
-    "date": "2026-07-15"
+    "number": 496,
+    "slug": "bmw-phev-starter-fire",
+    "headline": "BMW Recalled 29,119 Hybrids for Fire Risk. The Part That Failed Doesn't Exist in an EV.",
+    "journalist": "Mia Crumplezone",
+    "date": "2026-07-14"
   }
 }
