@@ -1,9 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "bmw-phev-starter-fire",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-14T17:35:00-07:00"
+  },
   "last_completed": {
     "number": 495,
     "slug": "sedan-suv-switch-brand-gap",
-    "headline": "Switching From a Sedan to an SUV Makes You 9x Safer — Unless You Buy the Wrong Brand",
+    "headline": "Switching From a Sedan to an SUV Makes You 9x Safer \u2014 Unless You Buy the Wrong Brand",
     "journalist": "Rex Driverton",
     "date": "2026-07-14"
   }
