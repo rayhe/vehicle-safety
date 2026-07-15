@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 500,
+    "slug": "speeding-cluster-1253-lives",
+    "headline": "1,253 Fewer Americans Died Speeding in 2025. The Speed Limits Didn't Change.",
+    "journalist": "Axle McScatter",
+    "phase": "SHIP",
+    "ship_blocked": true,
+    "ship_blocked_reason": "1/day limit — #499 published 2026-07-15"
+  },
   "last_completed": {
     "number": 499,
     "slug": "sticker-recall-541k",
