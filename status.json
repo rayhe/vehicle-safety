@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "bmw-phev-starter-fire",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-07-14T17:35:00-07:00"
-  },
+  "current": null,
   "last_completed": {
-    "number": 495,
-    "slug": "sedan-suv-switch-brand-gap",
-    "headline": "Switching From a Sedan to an SUV Makes You 9x Safer \u2014 Unless You Buy the Wrong Brand",
-    "journalist": "Rex Driverton",
+    "number": 496,
+    "slug": "bmw-phev-starter-fire",
+    "headline": "BMW Recalled 29,119 Hybrids for Fire Risk. The Part That Failed Doesn't Exist in an EV.",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-14"
   }
 }
