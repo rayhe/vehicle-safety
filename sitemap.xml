@@ -2730,14 +2730,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-</urlset>
-
   <url>
     <loc>https://vehicle-safety.org/stories/self-protective-kill-ratio.html</loc>
     <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://vehicle-safety.org/stories/out-of-state-travel-death-decline.html</loc>
     <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://vehicle-safety.org/stories/ct5-five-stars-four-poors.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
