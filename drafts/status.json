@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 500,
     "slug": "speeding-cluster-1253-lives",
     "headline": "1,253 Fewer Americans Died Speeding in 2025. The Speed Limits Didn't Change.",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "published_date": "2026-07-15"
-  },
-  "last_completed": {
-    "number": 499,
-    "slug": "sticker-recall-541k",
-    "headline": "Subaru Recalled 541,237 of Its Safest Cars. The Fix Is a Sticker.",
-    "journalist": "Rex Driverton",
     "date": "2026-07-15"
   }
 }
