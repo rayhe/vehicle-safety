@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 506,
     "slug": "fourteen-evs-recalled-9931-ice-deaths",
     "headline": "Hyundai Recalled 14 EVs for Zero Fires. Their ICE Fleet Has Killed 9,931 People.",
     "journalist": "Vin Wreckage",
-    "kicker": "The Gap",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-15T20:30:00Z"
-  },
-  "last_completed": {
-    "number": 505,
-    "slug": "sober-crash-frequency-paradox",
-    "headline": "The Vehicles That Crash the Most Have the Soberest Drivers",
-    "journalist": "Axle McScatter",
     "date": "2026-07-15"
   }
 }
