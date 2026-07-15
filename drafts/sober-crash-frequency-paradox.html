@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Vehicles That Crash the Most Have the Soberest Drivers &mdash; The Crash Report</title>
+  <meta name="description" content="A Pearson correlation of r = -0.23 across 272 vehicle models proves crash frequency and driver impairment are inversely related. The most crash-prone vehicles in FARS have below-average impairment rates.">
+  <meta property="og:title" content="The Vehicles That Crash the Most Have the Soberest Drivers">
+  <meta property="og:description" content="Crash frequency and impairment are negatively correlated across FARS. The vehicles crashing most per mile have the soberest drivers behind the wheel.">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Vehicles That Crash the Most Have the Soberest Drivers</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">July 15, 2026</div>
+
+      <p>I ran a Pearson correlation between crash frequency and driver impairment across every vehicle model in FARS with enough data to matter. <strong>r = &minus;0.23.</strong> Negative. Vehicles that show up in fatal crashes most often per mile driven have lower impairment rates than the ones that crash rarely.</p>
+
+      <div class="pull-stat">&minus;0.23</div>
+      <div class="pull-label">Pearson r between crash frequency (per VMT) and driver impairment rate across 272 vehicle models, FARS 2014&ndash;2023</div>
+
+      <p>That sign matters. A positive correlation would confirm the obvious story: drunk drivers crash more, their vehicles accumulate more fatal crash involvements per mile. Instead, we get the opposite. Toyota's Land Cruiser leads the dataset at 180.6 fatal crash involvements per 100 million VMT. Its driver impairment rate? 8.9 percent, less than half the FARS average of roughly 20 percent.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The Chevrolet Tracker is next at 142.4 crashes per 100 million VMT, with 12.7 percent impairment. Toyota's Solara sits at 62.1 with 4.1 percent impairment, the lowest of any vehicle in the dataset.</p>
+
+      <p>Run the same analysis in reverse. In reverse, the Buick Park Avenue crashes at 5.5 per 100 million VMT. Its impairment rate is 31.7 percent, the highest of any vehicle with sufficient sample size. Crashes rarely per mile, but when it does, nearly a third of the drivers are impaired. Low frequency, high impairment. It's a bar car that just doesn't drive much.</p>
+
+      <p>Three explanations compete for what's producing this. First, vehicle design: the most crash-prone models are structurally dangerous, and their sober drivers are dying because of rollover propensity (Tracker), weight and center of gravity (Land Cruiser), or poor crash avoidance geometry (Solara).<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The impairment rate is low because the car doesn't need a drunk driver to kill someone. Second, demographics: certain vehicles attract sober but crash-prone populations. Ford's E-350 is a church van and shuttle bus. Its 15.7 percent impairment rate sits well below the sedan average, but its 61.1 crash frequency puts it in the top ten. Commercial and institutional drivers are sober by regulation. They crash for other reasons: fatigue, overloading, inadequate training on a vehicle that handles nothing like a passenger car.</p>
+
+      <p>Third, and this is the one that deserves the most scrutiny: exposure context. That absurd Land Cruiser crash frequency may reflect off-road and rural usage patterns where crash severity is amplified but impairment is rare. A farmer rolling a Land Cruiser on a dirt road at 7 a.m. isn't drunk. He's just driving a 5,500-pound vehicle on terrain it was marketed for but that FARS doesn't distinguish from highway driving.</p>
+
+      <p>The strongest version of the counterargument goes further: the negative correlation is entirely a Simpson's paradox artifact of driver demographics. Older drivers (Park Avenue, Town Car, Seville) drink less but also drive fewer miles, pulling down both crash frequency and impairment simultaneously in a way that creates the illusion of an inverse relationship. Meanwhile, younger commercial drivers (E-350, Transit) are sober by mandate but exposed to high-frequency crash risk through sheer hours behind the wheel. Strip out age and usage type, and the correlation might vanish.</p>
+
+      <p>Maybe. But the Solara won't cooperate with that explanation. It's a two-door coupe derived from the Camry, marketed to middle-aged buyers seeking mild weekend enjoyment. Not a commercial vehicle. Not an off-road machine. Its impairment rate is 4.1 percent in a dataset where sedans average 20.4 percent. And it crashes at 62.1 per 100 million VMT, above the Camaro (54.9) and nearly three times the dataset median of 11.8. Something about the Solara itself, not who drives it, is generating sober fatal crashes at an extraordinary rate.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>This builds on a finding we published previously: crash frequency and crash lethality are also nearly independent (r = 0.18). Together, these two correlations decompose the death rate into three dimensions that barely predict each other. How often a vehicle appears in fatal crashes per mile. How lethal those crashes are when they happen. And how impaired the driver was. If you know one, you know almost nothing about the other two. Smoothing them into a single death rate number obscures the mechanism.</p>
+
+      <p>Policy doesn't smoosh well. Anti-impairment enforcement, ignition interlocks, and BAC checkpoints target one of the three dimensions. They do nothing for the vehicles at the top of the crash frequency list, because those vehicles aren't crashing because their drivers are drunk. They're crashing because the vehicle, or the way it's used, or the roads it's used on, are independently dangerous. Chevy's Tracker won't respond to a breathalyzer. No sobriety checkpoint will fix the Land Cruiser's center-of-gravity problem. And Ford's E-350 institutional usage pattern requires commercial driver training reforms, not a MADD campaign.</p>
+
+      <p>If you're buying a used vehicle and safety is a factor, check more than the star rating. Look up the specific model's FARS death rate at the IIHS fatality statistics page.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> If a model appears in the high-frequency, low-impairment quadrant of this analysis, the risk is structural, not behavioral. You can be the most careful, most sober driver on the road, and the vehicle will still try to kill you at a rate that drunks in Park Avenues can't match.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Crash frequency computed as fatal crash involvements per 100 million estimated VMT. Impairment defined as any positive BAC or drug toxicology. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. Rollover propensity and center-of-gravity dynamics in SUVs. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Passenger Vehicle Occupants</em>. Driver death rates by make and model. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Pearson correlation computed across vehicle models with &ge;50 fatal crash involvements and &ge;50 million estimated VMT. Impairment testing coverage is not uniform across states or crash types, which may bias the impairment denominator. VMT estimates use fleet size &times; average annual miles, not odometer readings, introducing &plusmn;15% uncertainty. Correlation does not establish causation; demographic confounders (driver age, geography, commercial vs. personal use) may explain part or all of the observed relationship. See <a href="../#method">methodology</a> for caveats.</p>
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

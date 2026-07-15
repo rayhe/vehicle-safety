@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 504,
     "slug": "range-rover-steering-knuckle",
     "headline": "Range Rover's Steering Can Snap Off. Land Rover's Fix Is a Brace.",
     "journalist": "Rex Driverton",
-    "date": "2026-07-15",
-    "status": "DRAFT"
-  },
-  "last_completed": {
-    "number": 503,
-    "slug": "grand-highlander-axle-break",
-    "headline": "Toyota's Safest Family SUV Has a Rear Axle That Can Break",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-15"
   }
 }
