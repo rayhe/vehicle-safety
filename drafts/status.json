@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 505,
     "slug": "sober-crash-frequency-paradox",
     "headline": "The Vehicles That Crash the Most Have the Soberest Drivers",
     "journalist": "Axle McScatter",
-    "date": "2026-07-15",
-    "status": "SHIP"
-  },
-  "last_completed": {
-    "number": 503,
-    "slug": "grand-highlander-axle-break",
-    "headline": "Toyota's Safest Family SUV Has a Rear Axle That Can Break",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-15"
   }
 }
