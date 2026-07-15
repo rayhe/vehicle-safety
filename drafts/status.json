@@ -1,33 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 497,
     "slug": "ct5-five-stars-four-poors",
     "headline": "The Cadillac CT5 Got Five Stars and Four 'Poors.' Both Are Correct.",
     "journalist": "Vin Wreckage",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-14T19:30:00-07:00",
-    "critics": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 4.7,
-      "sentence_rhythm": "PASS",
-      "css_classes": "PASS"
-    }
-  },
-  "last_completed": {
-    "number": 496,
-    "slug": "bmw-phev-starter-fire",
-    "headline": "BMW Recalled 29,119 Hybrids for Fire Risk. The Part That Failed Doesn't Exist in an EV.",
-    "journalist": "Mia Crumplezone",
-    "date": "2026-07-14"
+    "date": "2026-07-15"
   }
 }
