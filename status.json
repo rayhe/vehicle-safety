@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "number": 512,
+    "slug": "traverse-second-safest-suv",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-07-16"
+  },
   "last_completed": {
     "number": 511,
     "slug": "s10-colorado-seventeen-times-deadlier",
