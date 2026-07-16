@@ -1,18 +1,10 @@
 {
-  "current": {
-    "slug": "fsd-override-50-investigations-architecture",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-07-16",
-    "headline": "50 Investigations Later, Nobody's Asking Why FSD Stepped Aside at 70 mph",
-    "round": 1,
-    "scores": [9, 9, 9, 9, 9, 9, 9]
-  },
+  "current": null,
   "last_completed": {
-    "number": 514,
-    "slug": "two-age-groups-wrong-direction-2024",
-    "headline": "Traffic Deaths Dropped 4%. Two Age Groups Got Worse.",
-    "journalist": "Axle McScatter",
+    "number": 515,
+    "slug": "fsd-override-50-investigations-architecture",
+    "headline": "50 Investigations Later, Nobody's Asking Why FSD Stepped Aside at 70 mph",
+    "journalist": "Rex Driverton",
     "date": "2026-07-16"
   }
 }
