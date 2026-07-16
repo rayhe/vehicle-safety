@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>50 Investigations Later, Nobody's Asking Why FSD Stepped Aside at 70 mph &mdash; The Crash Report</title>
+  <meta name="description" content="NTSB cleared Tesla's FSD in the Katy crash. But the override architecture that handed full control to a driver doing 70 in a 30 zone was never on trial.">
+  <meta property="og:title" content="50 Investigations Later, Nobody's Asking Why FSD Stepped Aside at 70 mph">
+  <meta property="og:description" content="NTSB cleared Tesla's FSD in the Katy crash. But the override architecture that handed full control to a driver doing 70 in a 30 zone was never on trial.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/fsd-override-50-investigations-architecture.jpg?v=78724300">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>50 Investigations Later, Nobody&rsquo;s Asking Why FSD Stepped Aside at 70&nbsp;mph</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">July 16, 2026</div>
+
+      <p>Martha Avila was sitting in her living room on a Thursday afternoon in Katy, Texas, when a <strong>2025 Tesla Model&nbsp;3 doing more than 70&nbsp;mph on a 30&nbsp;mph residential street</strong> left the road and drove through her wall.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> She died at the hospital. The driver, Michael Butler, 44, had engaged Full Self-Driving. NTSB&rsquo;s preliminary report, released yesterday, confirmed what Tesla&rsquo;s VP of AI software had already posted on X three weeks earlier: Butler manually overrode FSD by pressing the accelerator pedal to 100&nbsp;percent.</p>
+
+      <div class="pull-stat">273</div>
+      <div class="pull-label">Crashes involving Tesla driver-assist systems identified by NHTSA</div>
+
+      <p>Case closed, apparently. NTSB says the driver did it. Barron&rsquo;s ran &ldquo;Tesla Cleared.&rdquo; The stock wobbled a percent and a half and moved on. Butler was arrested on July&nbsp;1 and charged with manslaughter, bail set at $150,000, court date in August. A clean narrative: criminal misuses tool, tool works exactly as designed.</p>
+
+      <p>That last sentence is the problem.</p>
+
+      <p>FSD is an SAE Level&nbsp;2 system, which means, by definition, the driver retains authority and must supervise at all times. When Butler floored the accelerator, FSD did precisely what Level&nbsp;2 demands: it stepped aside, completely, without triggering a speed governor at double the posted limit, without issuing an audible warning as the vehicle blew past 50, then 60, then 70 on a two-lane residential road lined with driveways and front porches, and without applying any geofenced resistance calibrated to the 30&nbsp;mph zone the car&rsquo;s own GPS and mapping data knew it was traveling through. Its override protocol has exactly one mode: full authority transfer, instant and total, the moment the driver touches the gas hard enough.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>In aviation, when a pilot overrides autopilot, the aircraft doesn&rsquo;t simply hand over the keys and leave the room, because flight envelope protection systems limit bank angle, prevent stalls, and trigger ground proximity warnings regardless of pilot input, while a stick shaker physically vibrates to signal danger. These aren&rsquo;t limitations on pilot authority; they&rsquo;re architectural acknowledgments that the moment of override is precisely when the human is most likely to need guardrails, because something has already gone wrong enough for the pilot to grab the controls. Tesla&rsquo;s architecture takes the opposite view: override means the system owes the driver nothing. Not a warning, not a speed ceiling, not even a recorded note in the vehicle&rsquo;s event log that the driver just doubled the speed limit while the car was mapping a residential zone at 30.</p>
+
+      <p>Since 2016, NHTSA has opened <strong>nearly 50 special investigations</strong> into Tesla crashes where advanced driver-assistance systems were active or recently active. About two dozen people died in those incidents.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The agency has identified at least 273 crashes involving Tesla&rsquo;s driver-assist features. In March, NHTSA escalated its FSD probe to an Engineering Analysis covering 3.2&nbsp;million vehicles across every Tesla model including the Cybertruck, the last procedural step before a mandated recall.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> That probe found FSD&rsquo;s degradation detection system failed to flag common conditions like sun glare and airborne dust until moments before impact. Three concurrent federal investigations are now open into various FSD and Autopilot behaviors. Tesla has already recalled 363,000 FSD-equipped vehicles for traffic violations including running red lights and entering intersections during yellow signals without due caution.</p>
+
+      <p>And here is the paradox worth sitting with. FARS data from 2014&ndash;2023 shows the Tesla Model&nbsp;Y carries a fatality rate of <strong>0.03 deaths per 100&nbsp;million vehicle miles traveled</strong>, among the lowest of any vehicle in the national dataset. The Model&nbsp;3 sits at 0.05, and both figures are a fraction of the fleet-wide average.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> By the bluntest measure of safety, Teslas are extraordinarily good at not killing their occupants. Yet no other manufacturer in history has accumulated 50 special federal investigations into its driver-assistance system, 273 flagged crashes, three simultaneous probes, and an engineering analysis covering every vehicle it sells. The safest fleet by fatality rate is the most investigated fleet for the feature its CEO calls the company&rsquo;s future.</p>
+
+      <p>The standard defense is that Butler was committing a crime (reckless driving, criminal speeding, ultimately manslaughter) and no technology can stop a criminal. True enough. But that framing treats the override architecture as a fixed constant of physics rather than what it is: a design decision made by engineers in Palo Alto who chose binary authority transfer over graduated response. A speed-limited override mode, a geofenced speed ceiling tied to map data, an escalating audible warning when override speed exceeds the posted limit by 20, 30, 40&nbsp;mph. Those are engineering choices other companies could make, and that Tesla specifically chose not to. Whether that choice constitutes a &ldquo;defect&rdquo; under federal safety law is a question that, 50&nbsp;investigations and 273&nbsp;crashes later, neither NHTSA nor NTSB has formally asked.</p>
+
+      <p>Martha Avila was 76. She was inside her own home on a clear afternoon on a dry road in a quiet subdivision. The system worked exactly as designed. That should bother everyone more than it does.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NTSB, Preliminary Report: Highway, HWY26MH015, Katy, Texas, June 19, 2026. Findings released July 15, 2026. Corroborated by Reuters, USA TODAY, Fox 26 Houston.</li>
+          <li id="ref-2">SAE International, J3016: Taxonomy and Definitions for Terms Related to Driving Automation Systems. Level 2 = partial driving automation; driver must supervise and can override at any time. <a href="https://www.sae.org/standards/content/j3016_202104/" target="_blank" rel="noopener">sae.org</a></li>
+          <li id="ref-3">Reuters, &ldquo;Tesla driver accelerated into house in fatal Texas crash, NTSB says,&rdquo; July 15, 2026. Citing NHTSA cumulative investigation data: ~50 special investigations since 2016, ~24 deaths.</li>
+          <li id="ref-4">NHTSA, Engineering Analysis EA26002, escalated March 18, 2026. Covers approximately 3.2 million Tesla vehicles (Model S, 3, X, Y, Cybertruck). <a href="https://www.nhtsa.gov/vehicle/tesla" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Tesla Model Y: 57 deaths, est. 1.75M fleet, 0.03/100M VMT. Tesla Model 3: 92 deaths, est. 1.575M fleet, 0.05/100M VMT. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <div class="story-body">
+        <p><strong>Limitations:</strong> FARS data (2014&ndash;2023) does not record whether a driver-assistance system was active during a fatal crash. The 50-investigation and 273-crash figures come from NHTSA special investigations and identified incidents, not a comprehensive database of all ADAS-involved crashes. Tesla&rsquo;s low fleet fatality rate is partially attributable to fleet youth; newer vehicles are structurally safer regardless of brand. The Katy crash investigation is preliminary; full NTSB findings and safety recommendations have not yet been issued. We cannot determine from available data what fraction of the 273 crashes involved driver override versus system failure.</p>
+
+        <p><strong>Strongest counterargument:</strong> Tesla would argue, and legitimately, that Level&nbsp;2 autonomy requires the driver to maintain control at all times, and that preventing accelerator override could itself create safety hazards (for example, the inability to accelerate out of danger). The override is a feature, not a defect: it ensures the driver always retains ultimate authority, which is the foundational principle of supervised autonomy. If a driver commits vehicular manslaughter, the vehicle&rsquo;s software architecture is no more culpable than the road that carried the car, and this is a strong argument. It does not, however, address whether intermediate states between &ldquo;FSD controls&rdquo; and &ldquo;unlimited driver authority&rdquo; could reduce harm without eliminating driver control.</p>
+      </div>
+
+      <p><strong>What you can do:</strong> If you drive a Tesla with FSD or any Level&nbsp;2 system, understand the override architecture: the moment you press the accelerator hard, the system disengages completely. There are no speed governors, no audible warnings tied to posted speed limits, and no geofenced override limits. The system trusts you absolutely. Whether you deserve that trust is between you and your speedometer. Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> for any open recalls affecting your vehicle&rsquo;s FSD or Autopilot software.</p>
+
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NTSB preliminary report (HWY26MH015), NHTSA investigation data, FARS 2014&ndash;2023. FARS fatality rates use estimated VMT and fleet size; rates for low-volume models carry &plusmn;15% uncertainty. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> // Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
