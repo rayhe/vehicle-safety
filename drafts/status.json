@@ -1,27 +1,10 @@
 {
-  "current": {
-    "slug": "a3-entry-luxury-impairment-outlier",
-    "phase": "SHIP",
-    "journalist": "Dale Impactor III",
-    "started": "2026-07-15",
-    "round": 0,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 8.5,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data": 9.0,
-      "average": 8.86
-    },
-    "ship_date": "2026-07-16"
-  },
+  "current": null,
   "last_completed": {
-    "number": 507,
-    "slug": "town-country-premium-family-deathtrap",
-    "headline": "1,303 People Died in a Chrysler Town & Country. The Van That Replaced It Kills 85% Fewer.",
-    "journalist": "Clara Rollover",
-    "date": "2026-07-15"
+    "number": 508,
+    "slug": "a3-entry-luxury-impairment-outlier",
+    "headline": "The Cheapest Audi Has the Drunkest Drivers in the Luxury Segment",
+    "journalist": "Dale Impactor III",
+    "date": "2026-07-16"
   }
 }
