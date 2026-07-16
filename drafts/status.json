@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fsd-override-50-investigations-architecture",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-07-16",
+    "headline": "50 Investigations Later, Nobody's Asking Why FSD Stepped Aside at 70 mph",
+    "round": 1,
+    "scores": [9, 9, 9, 9, 9, 9, 9]
+  },
   "last_completed": {
     "number": 514,
     "slug": "two-age-groups-wrong-direction-2024",
