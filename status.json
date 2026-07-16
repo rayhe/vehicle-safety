@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "number": 511,
+    "slug": "s10-colorado-seventeen-times-deadlier",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-16"
+  },
   "last_completed": {
     "number": 502,
     "slug": "charger-road-rage-ratio",
