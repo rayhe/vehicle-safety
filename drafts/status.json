@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 523,
     "slug": "rural-interstate-holdout",
     "headline": "America's Road Deaths Dropped 6.7%. One Category Got Worse.",
     "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "phase": "SHIP",
-    "started": "2026-07-17T22:30:00Z"
-  },
-  "last_completed": {
-    "number": 522,
-    "slug": "brand-lethality-ranking",
-    "headline": "The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-17"
   }
 }
