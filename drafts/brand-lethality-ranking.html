@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash — The Crash Report</title>
+  <meta name="description" content="FARS data reveals a 2.4x gap in crash survivability across brands. Pontiac kills 74% of the time. Ram: 30%. Your badge determines your odds.">
+  <meta property="og:title" content="The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash">
+  <meta property="og:description" content="FARS data reveals a 2.4x gap in crash survivability across brands. Pontiac kills 74% of the time. Ram: 30%.">
+  <meta property="og:image" content="../images/brand-lethality-ranking.jpg?v=d6f06100">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">July 17, 2026</div>
+
+      <p>Everyone measures safety wrong. Total deaths just reflect fleet size. Deaths per mile blend the vehicle with the driver. Neither answers the question that matters once the airbags deploy: <strong>when this brand's car crashes, does the occupant live?</strong></p>
+
+      <div class="pull-stat">2.42&times;</div>
+      <div class="pull-label">Crash survivability gap between the deadliest and safest brands</div>
+
+      <p>I divided deaths by crashes for every brand with 1,000+ fatal involvements in FARS 2014&ndash;2023.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Fleet average: 56.9% of crashes kill. Pontiac sits at 73.8%. Ram at 30.5%. Same country, same roads, same decade. A 2.42x gap in whether the crash is survivable.</p>
+
+      <p>Honda is the surprise. Sixth-deadliest brand at 61.7%, above Nissan (61.1%), Chevrolet (58.8%), and Toyota (56.2%). Civic, Accord, and Fit drag the portfolio upward. Lighter sedans with older fleet mixes produce crashes that kill more reliably than the vehicles Honda markets against.</p>
+
+      <p>At the bottom, where survival odds are best: Ram (30.5%), Mercedes-Benz (47.0%), Jeep (49.6%). Ram's advantage is physics. Mass wins multi-vehicle collisions.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Full-frame trucks distribute impact energy across structures built to tow 10,000 pounds. Sedans absorb it with the passenger compartment.</p>
+
+      <div class="pull-stat">2,972</div>
+      <div class="pull-label">Excess deaths from GM&rsquo;s 13 high-lethality models vs. fleet average</div>
+
+      <p>GM's position deserves its own line item. Thirteen of 24 models with per-crash lethality above 70% carry a GM badge: Cobalt (80.8%), Cavalier (85.7%), Corvette (88.4%), S-10 (75.5%), Sonic, Spark, HHR, Blazer, LeSabre, Century, Grand Am, Grand Prix, Sonoma. Combined, an estimated 2,972 deaths above what fleet-average lethality would predict for the same crashes.</p>
+
+      <p>Fair counterargument: fleet age. Dead brands like Pontiac and Mercury have only old cars, and old cars crumple badly. But among brands still selling new vehicles, the gap is still 2.0x: Honda at 61.7% versus Ram at 30.5%. Class mix is part of that. Honda sells sedans. Ram sells trucks. Choosing which class of vehicle to build is itself a design decision with a body count.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p><strong>What to do with this:</strong> Check where your brand falls. If it sits above 56.9%, factor that into your next purchase. Below it, your badge is already pulling some weight. And if you are shopping Honda against Toyota, know this: IIHS lab scores are almost identical, but in actual fatal crashes, Honda kills at a rate 10% higher. Same showroom. Different morgue.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Fatality Statistics: Yearly Snapshot</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, <em>Vehicle Size and Weight</em>. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Lethality = deaths &divide; FARS crash involvements per brand. Measures fatal-crash outcomes only; fleet age, class mix, and crash-type distribution are confounders. Brands with fewer than 1,000 involvements excluded. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

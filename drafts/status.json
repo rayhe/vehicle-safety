@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "brand-lethality-ranking",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "headline": "The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash",
+    "started": "2026-07-17T20:26:00Z",
+    "round": 1
+  },
   "last_completed": {
     "number": 521,
     "slug": "technology-cohort-72-percent",
