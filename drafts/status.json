@@ -2,7 +2,7 @@
   "current": {
     "slug": "technology-cohort-72-percent",
     "headline": "72% of America's Road Deaths Happen in Cars Too Old for Stability Control",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-07-17T09:30:00-07:00",
     "round": 0,
@@ -14,9 +14,7 @@
       "legal": 9,
       "rigor": 9,
       "data_presentation": 9
-    },
-    "ship_blocked": true,
-    "ship_blocked_reason": "6 articles already published 2026-07-17 UTC — 1/day limit exceeded"
+    }
   },
   "last_completed": {
     "number": 520,
