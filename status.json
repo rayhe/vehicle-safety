@@ -1,8 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "number": 516,
+    "slug": "ford-edge-safest-suv-killed",
+    "journalist": "Clara Rollover",
+    "date": "2026-07-16",
+    "phase": "SHIP"
+  },
   "last_completed": {
-    "number": 512,
-    "slug": "traverse-second-safest-suv",
+    "number": 515,
+    "slug": "fsd-stepped-aside-70mph",
     "journalist": "Rex Driverton",
     "date": "2026-07-16"
   }
