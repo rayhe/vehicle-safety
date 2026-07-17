@@ -1,31 +1,10 @@
 {
-  "current": {
-    "slug": "honda-safest-suvs-rotting-subframe",
+  "current": null,
+  "last_completed": {
     "number": 517,
+    "slug": "honda-safest-suvs-rotting-subframe",
     "headline": "Honda Built the Safest Family SUVs in America. Their Subframes Were Painted Wrong.",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
-    "round": 0,
-    "started": "2026-07-17",
-    "kicker": "The Gap",
-    "critique_scores": {
-      "General": 9.0,
-      "Voice": 8.5,
-      "Ethics": 9.0,
-      "Social": 9.0,
-      "Legal": 9.0,
-      "Rigor": 8.5,
-      "Data_Presentation": 9.0
-    },
-    "hard_gates_passed": true,
-    "ship_blocked": true,
-    "ship_blocked_reason": "1 article already published on UTC Jul 17 (#516 at 00:57 UTC); next slot opens Jul 18 UTC"
-  },
-  "last_completed": {
-    "number": 516,
-    "slug": "fsd-override-50-investigations-architecture",
-    "headline": "50 Investigations Later, Nobody's Asking Why FSD Stepped Aside at 70 mph",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-16"
+    "date": "2026-07-17"
   }
 }
