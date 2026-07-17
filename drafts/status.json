@@ -17,8 +17,9 @@
       "Rigor": 8.5,
       "Data_Presentation": 9.0
     },
+    "hard_gates_passed": true,
     "ship_blocked": true,
-    "ship_blocked_reason": "5 articles already published Jul 16 PT; waiting for Jul 17"
+    "ship_blocked_reason": "1 article already published on UTC Jul 17 (#516 at 00:57 UTC); next slot opens Jul 18 UTC"
   },
   "last_completed": {
     "number": 516,
