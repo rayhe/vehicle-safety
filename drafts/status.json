@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "brand-lethality-ranking",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "headline": "The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash",
-    "started": "2026-07-17T20:26:00Z",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 521,
-    "slug": "technology-cohort-72-percent",
-    "headline": "72% of America's Road Deaths Happen in Cars Too Old for Stability Control",
-    "journalist": "Axle McScatter",
+    "number": 522,
+    "slug": "brand-lethality-ranking",
+    "headline": "The Brand Lethality Index: Ranking Every Automaker by Whether You Survive the Crash",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-17"
   }
 }
