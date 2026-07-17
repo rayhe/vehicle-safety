@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 519,
     "slug": "mazda3-safest-brand-deadliest-sedan",
-    "headline": "Consumer Reports Named Mazda the Safest Brand in America. Its Best-Selling Sedan Kills at 13× the Rate of Its Best SUV.",
+    "headline": "One Brand, Two Vehicles, a 13× Death-Rate Gap",
     "journalist": "Axle McScatter",
-    "date": "2026-07-17",
-    "stage": "draft",
-    "revisions": 3,
-    "research_file": "drafts/mazda3-safest-brand-deadliest-sedan-research.md"
-  },
-  "last_completed": {
-    "number": 518,
-    "slug": "lincoln-safety-verdict-fars-gap",
-    "headline": "Consumer Reports Ranked Lincoln the Fourth-Safest Brand in America. The Federal Body Count Disagrees.",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-17"
   }
 }
