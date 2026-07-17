@@ -1,26 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 521,
     "slug": "technology-cohort-72-percent",
     "headline": "72% of America's Road Deaths Happen in Cars Too Old for Stability Control",
-    "phase": "QA",
     "journalist": "Axle McScatter",
-    "started": "2026-07-17T09:30:00-07:00",
-    "round": 0,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 9
-    }
-  },
-  "last_completed": {
-    "number": 520,
-    "slug": "spark-to-trax-cheapest-car-safety",
-    "headline": "GM Killed the Spark and Sonic. The Replacement Cuts Fatal Crashes 83%.",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-17"
   }
 }
