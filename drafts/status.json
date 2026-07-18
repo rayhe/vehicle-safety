@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "california-divergence-243-more-dead",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-17T17:30:00-07:00",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 523,
     "slug": "rural-interstate-holdout",
