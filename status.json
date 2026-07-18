@@ -1,15 +1,9 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "slug": "adas-misuse-experts-vs-data",
     "headline": "A Thousand Experts Just Named Your Car\u2019s Best Safety Feature Its Biggest Threat",
     "journalist": "Rex Driverton",
-    "phase": "REVIEW",
-    "started": "2026-07-18"
-  },
-  "last_completed": {
-    "number": 520,
-    "slug": "tesla-headlight-recall-nhtsa-overrule",
-    "journalist": "Mia Crumplezone",
-    "date": "2026-07-17"
+    "date": "2026-07-18"
   }
 }
