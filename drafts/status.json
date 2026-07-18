@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 528,
     "slug": "fsd-too-timid-then-73-mph",
     "headline": "He Googled 'FSD Not Aggressive Enough.' Then He Overrode It at 73 in a 30.",
     "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "phase": "SHIP",
-    "started": "2026-07-18"
-  },
-  "last_completed": {
-    "number": 527,
-    "slug": "october-deadliest-month",
-    "headline": "October Is the Deadliest Month to Drive in America. It Has Been for 20 Years.",
-    "journalist": "Vin Wreckage",
-    "date": "2026-07-16"
+    "date": "2026-07-18"
   }
 }
