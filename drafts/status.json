@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 529,
     "slug": "whiplash-most-common-injury-never-tested",
     "headline": "The Most Common Car Injury in America Wasn't Being Properly Tested Until January",
     "journalist": "Mia Crumplezone",
-    "kicker": "The Gap",
-    "phase": "QA",
-    "started": "2026-07-18"
-  },
-  "last_completed": {
-    "number": 528,
-    "slug": "fsd-too-timid-then-73-mph",
-    "headline": "He Googled 'FSD Not Aggressive Enough.' Then He Overrode It at 73 in a 30.",
-    "journalist": "Rex Driverton",
     "date": "2026-07-18"
   }
 }
