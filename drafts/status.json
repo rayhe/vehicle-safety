@@ -1,27 +1,10 @@
 {
-  "current": {
-    "slug": "senior-zero-improvement-2025",
-    "phase": "SHIP",
-    "journalist": "Dale Impactor III",
-    "started": "2026-07-19T12:27:00Z",
-    "number": 540,
-    "headline": "Every Age Group Got Safer in 2025. If You're Over 65, None of It Applies to You.",
-    "round": 1,
-    "critique_scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9.5,
-      "legal": 9,
-      "rigor": 9,
-      "data": 9
-    }
-  },
+  "current": null,
   "last_completed": {
-    "number": 539,
-    "slug": "co-detector-five-dollar-fix",
-    "headline": "Your Car Produces Carbon Monoxide. It Has No Detector. NHTSA Has Known Since 1993.",
-    "journalist": "Vin Wreckage",
+    "number": 540,
+    "slug": "senior-zero-improvement-2025",
+    "headline": "Every Age Group Got Safer in 2025. If You're Over 65, None of It Applies to You.",
+    "journalist": "Dale Impactor III",
     "date": "2026-07-19"
   }
 }
