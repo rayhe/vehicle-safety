@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "robotaxi-cant-see-fire-trucks",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-07-19T08:26:00Z",
-    "round": 1,
-    "number": 538
-  },
+  "current": null,
   "last_completed": {
-    "number": 537,
-    "slug": "joyson-one-supplier-five-failures",
-    "headline": "One Supplier Makes 30% of the World's Seatbelts. It Can't Stop Failing.",
-    "journalist": "Mia Crumplezone",
+    "number": 538,
+    "slug": "robotaxi-cant-see-fire-trucks",
+    "headline": "Robotaxis Can't See Fire Trucks. NHTSA Had to Write Them a Letter About It.",
+    "journalist": "Rex Driverton",
     "date": "2026-07-19"
   }
 }
