@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "eu-worn-tire-test-us-gap",
+    "phase": "DRAFT",
+    "number": 536,
+    "journalist": "Clara Rollover",
+    "kicker": "The Gap",
+    "started": "2026-07-18"
+  },
   "last_completed": {
     "number": 535,
     "slug": "explorer-roof-rail-recall-redux",
