@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "senior-zero-improvement-2025",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-19T12:27:00Z",
+    "number": 540,
+    "headline": "Every Age Group Got Safer in 2025. If You're Over 65, None of It Applies to You.",
+    "round": 1,
+    "critique_scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9.5,
+      "legal": 9,
+      "rigor": 9,
+      "data": 9
+    }
+  },
   "last_completed": {
     "number": 539,
     "slug": "co-detector-five-dollar-fix",
