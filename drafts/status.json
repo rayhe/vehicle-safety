@@ -1,16 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 541,
     "slug": "ebike-fars-data-black-hole",
-    "phase": "QA",
+    "headline": "1,103 Cyclists Died Last Year. Nobody Can Tell You How Many Were on E-Bikes.",
     "journalist": "Axle McScatter",
-    "timestamp": "2026-07-19T16:26:00Z"
-  },
-  "last_completed": {
-    "number": 540,
-    "slug": "senior-zero-improvement-2025",
-    "headline": "Every Age Group Got Safer in 2025. If You're Over 65, None of It Applies to You.",
-    "journalist": "Dale Impactor III",
     "date": "2026-07-19"
   }
 }
