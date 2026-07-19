@@ -1,18 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 542,
     "slug": "subaru-sticker-recall-system-absurdity",
     "headline": "Subaru Just Recalled 541,000 Vehicles. The Fix Is a Sticker.",
     "journalist": "Vin Wreckage",
-    "number": 542,
-    "phase": "QA",
-    "round": 0,
-    "started": "2026-07-19T18:26:00Z"
-  },
-  "last_completed": {
-    "number": 541,
-    "slug": "ebike-fars-data-black-hole",
-    "headline": "1,103 Cyclists Died Last Year. Nobody Can Tell You How Many Were on E-Bikes.",
-    "journalist": "Axle McScatter",
     "date": "2026-07-19"
   }
 }
