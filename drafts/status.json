@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "number": 541,
+    "slug": "ebike-fars-data-black-hole",
+    "phase": "SHIP_READY",
+    "journalist": "Axle McScatter",
+    "timestamp": "2026-07-19T20:15:00Z"
+  },
   "last_completed": {
     "number": 540,
     "slug": "senior-zero-improvement-2025",
