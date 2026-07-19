@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "joyson-one-supplier-five-failures",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-07-19T06:26:00Z",
-    "round": 0,
-    "headline": "One Supplier Makes 30% of the World's Seatbelts. It Can't Stop Failing."
-  },
+  "current": null,
   "last_completed": {
-    "number": 536,
-    "slug": "eu-worn-tire-test-us-gap",
-    "headline": "Your Tires Were Tested Once. When They Were New.",
-    "journalist": "Clara Rollover",
+    "number": 537,
+    "slug": "joyson-one-supplier-five-failures",
+    "headline": "One Supplier Makes 30% of the World's Seatbelts. It Can't Stop Failing.",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-19"
   }
 }
