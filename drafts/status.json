@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "co-detector-five-dollar-fix",
+    "number": 539,
+    "headline": "Your Car Produces Carbon Monoxide. It Has No Detector. NHTSA Has Known Since 1993.",
+    "journalist": "Vin Wreckage",
+    "phase": "SHIP",
+    "started": "2026-07-19T03:27:00-07:00",
+    "round": 1,
+    "critics": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    }
+  },
   "last_completed": {
     "number": 538,
     "slug": "robotaxi-cant-see-fire-trucks",
