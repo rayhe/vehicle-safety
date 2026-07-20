@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Most Dangerous Drivers on the Road Aren't Drunk. They're Sober. &mdash; The Crash Report</title>
+  <meta name="description" content="A novel FARS cross-tabulation reveals which vehicles are most likely to kill someone else while driven by a sober driver. The Ram 2500 leads.">
+  <meta property="og:title" content="The Most Dangerous Drivers on the Road Aren't Drunk. They're Sober.">
+  <meta property="og:description" content="FARS data shows the Ram 2500 has a 63.9% probability of killing someone OTHER than its driver in a fatal crash — while the driver is completely sober.">
+  <meta property="og:image" content="../images/sober-killer-index.jpg?v=628383bb">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>The Most Dangerous Drivers on the Road Aren&rsquo;t Drunk. They&rsquo;re Sober.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">July 20, 2026</div>
+
+      <img src="../images/sober-killer-index.jpg?v=628383bb" alt="A clean, well-lit Ram 2500 casting a long shadow over a smaller sedan" class="story-hero">
+
+      <div class="story-body">
+
+      <p>We built an entire moral framework around impaired driving. MADD. Billboards. Ignition interlocks. Drunk. High. Reckless. But when you cross-tabulate FARS toxicology with kill ratios across 182 vehicle models over a decade, a different pattern surfaces, one that has nothing to do with impairment and everything to do with mass.</p>
+
+      <div class="pull-stat">0.639</div>
+      <div class="pull-label">Ram 2500 Sober Killer Index, highest of any vehicle in America</div>
+
+      <p>Two FARS fields make the metric: one measures how often a vehicle&rsquo;s drivers in fatal crashes test positive for alcohol or drugs, and the other measures how often the dead person is the vehicle&rsquo;s own occupant versus someone else. Invert both, multiply, and you get the Sober Killer Index &mdash; the joint probability that a given fatal crash involving this model features a sober driver and a dead person outside it.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p><strong>The Ram 2500 scores 0.639.</strong> Of its drivers in fatal crashes, 80.3% are completely sober; of the dead, 79.5% are not inside the Ram. A 7,000-pound truck doing exactly what physics demands when it meets a 3,200-pound sedan at speed. Ford Transit follows at 0.597, then GMC Acadia (0.538), Ram 1500 (0.525), BMW X3 (0.517, ranking on exceptionally high sobriety rates more than mass alone). Class averages: vans 0.397, SUVs 0.388, pickups 0.382, sedans 0.279. At the bottom sits the Corvette at 0.086 &mdash; 88.4% of the time, the only fatality is its driver.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Fifty years of deterrence architecture, aimed at the drunk driver. Meanwhile, the statistically modal fatal outcome on American roads is a sober adult in a heavy vehicle killing someone in a lighter one, facing no charge because nothing illegal happened.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Counterarguments deserve weight. Mass differential is physics, not negligence: FARS encodes no fault, so a law-abiding Ram driver struck by a red-light-running Civic scores identically to one who caused the crash, and many heavy-vehicle drivers need the truck for work, not image, logging rural highway miles where any collision turns fatal. Part of the SKI is also a mathematical artifact: heavy vehicles simultaneously lower own-occupant death risk and raise the other party&rsquo;s, so the product trends high regardless of driver behavior. &ldquo;Sober&rdquo; itself means only &ldquo;no substances detected&rdquo; &mdash; FARS toxicology varies by state and omits fatigue entirely.</p>
+
+      <p>All of that is true. The dead are still disproportionately outside the truck.</p>
+
+      <p><strong>Limitations:</strong> SKI measures outcome distribution conditional on a fatal crash occurring, not per-mile crash probability, which differs sharply by vehicle class and driving environment; single-vehicle crashes are included and depress SKI for classes prone to them; fleet estimates carry &plusmn;15% uncertainty for lower-volume models; and the 2013&ndash;2022 window spans major redesigns.</p>
+
+      <p><strong>What to do with this:</strong> If you drive a top-20 SKI vehicle, treat sobriety as a baseline, not a credit. At 45 mph, your kinetic energy already exceeds what most compacts can structurally absorb. Leave more following distance than feels necessary, because your margin for error is not what you learned in a Corolla.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2013&ndash;2022. Impairment defined as BAC &gt; 0 or any positive drug screen in FARS Person-level toxicology. Kill ratio = (own-vehicle occupant deaths &divide; total deaths in crashes involving that vehicle). SKI = (1 &minus; impairmentRate) &times; (1 &minus; killRatio) for 182 models with &ge;200 fatal crashes, &ge;100K estimated fleet, and &ge;50 toxicology samples. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>. Documents the relationship between vehicle mass differential and fatality risk in multi-vehicle crashes. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2013&ndash;2022. Sober Killer Index is a novel composite metric; it measures outcome distribution, not fault or negligence. See <a href="../#method">methodology</a> for caveats.</p>
+
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
