@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "recall-machine-no-fix-for-number-one-risk",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-07-20",
+    "round": 1,
+    "ship_blocked": true,
+    "ship_blocked_reason": "8 articles already published today (Jul 20 UTC). Draft ready, waiting for next day."
+  },
   "last_completed": {
     "number": 551,
     "slug": "recall-math-gap-82-percent-old",
@@ -7,7 +15,7 @@
     "journalist": "Rex Driverton",
     "date": "2026-07-20"
   },
-  "phase": "IDLE",
+  "phase": "SHIP",
   "last_published": 551,
   "last_published_slug": "recall-math-gap-82-percent-old"
 }
