@@ -1,17 +1,13 @@
 {
-  "current": {
-    "number": 550,
-    "slug": "sober-killer-index",
-    "headline": "The Most Dangerous Drivers on the Road Aren't Drunk. They're Sober.",
-    "journalist": "Vin Wreckage",
-    "date": "2026-07-20",
-    "phase": "CRITIQUE"
-  },
+  "current": null,
   "last_completed": {
     "number": 549,
     "slug": "nhtsa-lowest-since-2014-not-lower",
     "headline": "NHTSA Says Your Roads Are the Safest Since 2014. In 2014, They Were Safer.",
     "journalist": "Axle McScatter",
     "date": "2026-07-20"
-  }
+  },
+  "phase": "IDLE",
+  "last_published": 550,
+  "last_published_slug": "sober-killer-index"
 }
