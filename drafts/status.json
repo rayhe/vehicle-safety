@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "distracted-86-percent-not-phones",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "headline": "86% of Distracted Driving Deaths Have Nothing to Do With a Phone",
+    "started": "2026-07-20T01:30:00-07:00",
+    "round": 0,
+    "scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.5,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 9.0,
+      "data_presentation": 8.5,
+      "average": 9.0
+    }
+  },
   "last_completed": {
     "number": 546,
     "slug": "volvo-moose-dummy-no-us-test",
