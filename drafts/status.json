@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "zoox-105-fleet-smoke-recall",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-19T17:30:00-07:00",
-    "headline": "Zoox Recalled Every Car It Has. All 105 of Them."
-  },
+  "current": null,
   "last_completed": {
-    "number": 543,
-    "slug": "rear-center-seat-orphan",
-    "headline": "47,749 Hyundai Konas Have a Seatbelt That Might Not Work. It's in the Seat Nobody Tests.",
-    "journalist": "Clara Rollover",
+    "number": 544,
+    "slug": "zoox-105-fleet-smoke-recall",
+    "headline": "Zoox Recalled Every Car It Has. All 105 of Them.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-19"
   }
 }
