@@ -1,5 +1,32 @@
 {
-  "current": null,
+  "current": {
+    "number": 548,
+    "slug": "explorer-recall-subscription-model",
+    "headline": "Ford Just Recalled the Explorer for the Same Problem Twice. Its Death Rate Says That's the Pattern.",
+    "journalist": "Clara Rollover",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-20T03:30:00-07:00",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 9.0,
+      "average": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 2,
+      "banned_phrases": 0,
+      "the_starters_pct": 8,
+      "css_class_correct": true,
+      "stylesheet_correct": true
+    },
+    "ship_blocked": true,
+    "ship_blocked_reason": "Article #547 already published today (2026-07-20 08:40 UTC)"
+  },
   "last_completed": {
     "number": 547,
     "slug": "distracted-86-percent-not-phones",
