@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "zoox-105-fleet-smoke-recall",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Vin Wreckage",
+    "started": "2026-07-19T17:30:00-07:00",
+    "headline": "Zoox Recalled Every Car It Has. All 105 of Them."
+  },
   "last_completed": {
     "number": 543,
     "slug": "rear-center-seat-orphan",
