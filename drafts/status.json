@@ -1,19 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 545,
     "slug": "road-debris-swerve-to-die",
     "headline": "72 People a Year Die Dodging Mattresses on the Highway",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-19T19:30:00-07:00",
-    "ship_blocked": true,
-    "ship_blocked_reason": "9 articles already published today (2026-07-19). Will ship on next run."
-  },
-  "last_completed": {
-    "number": 544,
-    "slug": "zoox-105-fleet-smoke-recall",
-    "headline": "Zoox Recalled Every Car It Has. All 105 of Them.",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-19"
   }
 }
