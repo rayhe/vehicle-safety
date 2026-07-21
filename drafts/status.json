@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "decline-2614-deaths-nobody-can-explain",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-07-21T07:30:00",
-    "headline": "2,614 Americans Didn't Die Last Year. Nobody Knows Why.",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 555,
-    "slug": "sticker-recall-epidemic",
-    "headline": "709,000 Cars Were Just Recalled. The Fix Is a Sticker.",
-    "journalist": "Axle McScatter",
+    "number": 556,
+    "slug": "decline-2614-deaths-nobody-can-explain",
+    "headline": "2,614 Americans Didn't Die Last Year. Nobody Knows Why.",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-21"
   },
-  "phase": "SHIP",
-  "last_published": 555,
-  "last_published_slug": "sticker-recall-epidemic"
+  "phase": null,
+  "last_published": 556,
+  "last_published_slug": "decline-2614-deaths-nobody-can-explain"
 }
