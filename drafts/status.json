@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "number": 559,
+    "slug": "armada-qx56-overloaded-over-served",
+    "headline": "168,000 SUVs Had the Wrong Weight Limit. The Infiniti Version Had the 7th-Highest Impairment Rate in America.",
+    "journalist": "Dale Impactor III",
+    "phase": "SHIP",
+    "started": "2026-07-21T13:26:00",
+    "round": 1,
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    },
+    "avg_score": 8.9
+  },
   "last_completed": {
     "number": 558,
     "slug": "world-got-safer-us-didnt",
@@ -7,7 +25,7 @@
     "journalist": "Vin Wreckage",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 558,
   "last_published_slug": "world-got-safer-us-didnt"
 }
