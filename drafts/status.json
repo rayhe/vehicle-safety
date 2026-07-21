@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "f150-americas-favorite-body-count",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Rex Driverton",
-    "headline": "The Ford F-150 Is Involved in 20,000 Fatal Crashes. It Gets Five Stars.",
-    "started": "2026-07-21T15:30:00"
-  },
+  "current": null,
   "last_completed": {
-    "number": 559,
-    "slug": "armada-qx56-overloaded-over-served",
-    "headline": "168,000 SUVs Had the Wrong Weight Limit. The Infiniti Version Had the 7th-Highest Impairment Rate in America.",
-    "journalist": "Dale Impactor III",
+    "number": 560,
+    "slug": "f150-americas-favorite-body-count",
+    "headline": "The Ford F-150 Is Involved in 20,000 Fatal Crashes. It Gets Five Stars.",
+    "journalist": "Rex Driverton",
     "date": "2026-07-21"
   },
-  "phase": "CRITIQUE",
-  "last_published": 559,
-  "last_published_slug": "armada-qx56-overloaded-over-served"
+  "phase": null,
+  "last_published": 560,
+  "last_published_slug": "f150-americas-favorite-body-count"
 }
