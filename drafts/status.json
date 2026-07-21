@@ -1,20 +1,13 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 554,
     "slug": "recall-acceleration-26m-seven-months",
     "headline": "26 Million Vehicles Recalled in Seven Months. The System That's Supposed to Fix Cars Can't Keep Up With the Cars That Need Fixing.",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-21T03:30:00-07:00"
-  },
-  "last_completed": {
-    "number": 553,
-    "slug": "speeding-unbelted-behavioral-cluster",
-    "headline": "Half the Speeders Killing Themselves Aren't Wearing Seatbelts. NHTSA Runs Two Separate Campaigns Anyway.",
-    "journalist": "Rex Driverton",
     "date": "2026-07-21"
   },
-  "phase": "SHIP",
-  "last_published": 553,
-  "last_published_slug": "speeding-unbelted-behavioral-cluster"
+  "phase": null,
+  "last_published": 554,
+  "last_published_slug": "recall-acceleration-26m-seven-months"
 }
