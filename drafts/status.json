@@ -1,21 +1,13 @@
 {
-  "current": {
-    "slug": "recall-machine-no-fix-for-number-one-risk",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-20",
-    "round": 1,
-    "ship_blocked": true,
-    "ship_blocked_reason": "8 articles already published today (Jul 20 UTC). Draft ready, waiting for next day."
-  },
+  "current": null,
   "last_completed": {
-    "number": 551,
-    "slug": "recall-math-gap-82-percent-old",
-    "headline": "82.7% of the Cars Killing You Were Built Before 2015. No Recall Can Fix That.",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-20"
+    "number": 552,
+    "slug": "recall-machine-no-fix-for-number-one-risk",
+    "headline": "The Safety Machine Processed 3.3 Million Cars This Week. The #1 Risk Has No Recall.",
+    "journalist": "Vin Wreckage",
+    "date": "2026-07-21"
   },
-  "phase": "SHIP",
-  "last_published": 551,
-  "last_published_slug": "recall-math-gap-82-percent-old"
+  "phase": null,
+  "last_published": 552,
+  "last_published_slug": "recall-machine-no-fix-for-number-one-risk"
 }
