@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "f150-americas-favorite-body-count",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "headline": "The Ford F-150 Is Involved in 20,000 Fatal Crashes. It Gets Five Stars.",
+    "started": "2026-07-21T15:30:00"
+  },
   "last_completed": {
     "number": 559,
     "slug": "armada-qx56-overloaded-over-served",
@@ -7,7 +14,7 @@
     "journalist": "Dale Impactor III",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "CRITIQUE",
   "last_published": 559,
   "last_published_slug": "armada-qx56-overloaded-over-served"
 }
