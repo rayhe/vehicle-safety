@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "world-got-safer-us-didnt",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-21T18:26:00Z",
-    "headline": "The World Got 21% Safer on Roads. America Got 12.8% Worse.",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 557,
-    "slug": "joyson-takata-successor-defect-dna",
-    "headline": "The Company That Killed 27 People With Exploding Airbags Got a New Name. It Didn't Get New Quality Control.",
-    "journalist": "Clara Rollover",
+    "number": 558,
+    "slug": "world-got-safer-us-didnt",
+    "headline": "The World Got 21% Safer on Roads. America Got 12.8% Worse.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-21"
   },
   "phase": null,
-  "last_published": 557,
-  "last_published_slug": "joyson-takata-successor-defect-dna"
+  "last_published": 558,
+  "last_published_slug": "world-got-safer-us-didnt"
 }
