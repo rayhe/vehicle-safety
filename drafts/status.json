@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "speeding-unbelted-behavioral-cluster",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-07-21",
     "round": 1,
@@ -14,9 +14,7 @@
       "rigor": 9.0,
       "data_presentation": 9.0,
       "average": 9.0
-    },
-    "ship_blocked": true,
-    "ship_blocked_reason": "#552 already published today. Draft ready for next run."
+    }
   },
   "last_completed": {
     "number": 552,
@@ -25,7 +23,7 @@
     "journalist": "Vin Wreckage",
     "date": "2026-07-21"
   },
-  "phase": "SHIP",
+  "phase": "QA",
   "last_published": 552,
   "last_published_slug": "recall-machine-no-fix-for-number-one-risk"
 }
