@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "recall-acceleration-26m-seven-months",
+    "headline": "26 Million Vehicles Recalled in Seven Months. The System That's Supposed to Fix Cars Can't Keep Up With the Cars That Need Fixing.",
+    "journalist": "Mia Crumplezone",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-21T03:30:00-07:00"
+  },
   "last_completed": {
     "number": 553,
     "slug": "speeding-unbelted-behavioral-cluster",
@@ -7,7 +14,7 @@
     "journalist": "Rex Driverton",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 553,
   "last_published_slug": "speeding-unbelted-behavioral-cluster"
 }
