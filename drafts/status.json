@@ -1,29 +1,13 @@
 {
-  "current": {
-    "slug": "speeding-unbelted-behavioral-cluster",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-07-21",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 9.0,
-      "average": 9.0
-    }
-  },
+  "current": null,
   "last_completed": {
-    "number": 552,
-    "slug": "recall-machine-no-fix-for-number-one-risk",
-    "headline": "The Safety Machine Processed 3.3 Million Cars This Week. The #1 Risk Has No Recall.",
-    "journalist": "Vin Wreckage",
+    "number": 553,
+    "slug": "speeding-unbelted-behavioral-cluster",
+    "headline": "Half the Speeders Killing Themselves Aren't Wearing Seatbelts. NHTSA Runs Two Separate Campaigns Anyway.",
+    "journalist": "Rex Driverton",
     "date": "2026-07-21"
   },
-  "phase": "QA",
-  "last_published": 552,
-  "last_published_slug": "recall-machine-no-fix-for-number-one-risk"
+  "phase": null,
+  "last_published": 553,
+  "last_published_slug": "speeding-unbelted-behavioral-cluster"
 }
