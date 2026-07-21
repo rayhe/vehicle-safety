@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "sticker-recall-epidemic",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "headline": "709,000 Cars Were Just Recalled. The Fix Is a Sticker.",
+    "started": "2026-07-21T05:26:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data": 9
+    }
+  },
   "last_completed": {
     "number": 554,
     "slug": "recall-acceleration-26m-seven-months",
@@ -7,7 +23,7 @@
     "journalist": "Mia Crumplezone",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 554,
   "last_published_slug": "recall-acceleration-26m-seven-months"
 }
