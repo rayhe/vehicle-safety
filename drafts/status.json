@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "decline-2614-deaths-nobody-can-explain",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-21T07:30:00",
+    "headline": "2,614 Americans Didn't Die Last Year. Nobody Knows Why.",
+    "round": 1
+  },
   "last_completed": {
     "number": 555,
     "slug": "sticker-recall-epidemic",
@@ -7,7 +14,7 @@
     "journalist": "Axle McScatter",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 555,
   "last_published_slug": "sticker-recall-epidemic"
 }
