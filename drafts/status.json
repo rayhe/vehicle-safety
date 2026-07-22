@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "highlander-rear-seat-test-failure",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "headline": "The Toyota Highlander Has the Best Death Rate in Its Class. It Just Failed the Only Test That Checks on Your Kids.",
+    "started": "2026-07-22T01:30:00-07:00",
+    "round": 1,
+    "ship_blocked": true,
+    "ship_blocked_reason": "4 articles already published 2026-07-22 UTC. 1/day limit.",
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 10,
+      "rigor": 9,
+      "data": 9
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 1.8,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    }
+  },
   "last_completed": {
     "number": 564,
     "slug": "suv-impairment-doesnt-explain-deaths",
