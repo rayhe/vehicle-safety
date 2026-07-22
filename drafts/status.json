@@ -1,18 +1,13 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 563,
     "slug": "142-mph-car-is-the-bullet",
+    "headline": "A DA Called a Car Going 142 MPH a Bullet. The Physics Says He Was Being Generous.",
     "journalist": "Clara Rollover",
-    "phase": "DRAFT"
-  },
-  "last_completed": {
-    "number": 562,
-    "slug": "tesla-radar-saves-us-removed-anyway",
-    "headline": "Tesla Named Its Own Document 'Radar Saves Us.' Then It Shipped 3.2 Million Cars Without Radar.",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-21"
   },
-  "phase": "DRAFT",
-  "last_published": 562,
-  "last_published_slug": "tesla-radar-saves-us-removed-anyway"
+  "phase": null,
+  "last_published": 563,
+  "last_published_slug": "142-mph-car-is-the-bullet"
 }
