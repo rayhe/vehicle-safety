@@ -1,5 +1,26 @@
 {
-  "current": null,
+  "current": {
+    "slug": "speeding-decline-technology-substitution",
+    "headline": "Speeding Killed 11% Fewer People in 2025. Speed Limits Didn't Change. The Cars Did.",
+    "journalist": "Mia Crumplezone",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "started": "2026-07-22T18:50:00Z",
+    "kicker": "Trend Watch",
+    "sources": [
+      "NHTSA DOT HS 813 829 (July 2026)",
+      "IIHS 30th Anniversary Study (June 2026)",
+      "NHTSA FARS 2014-2023",
+      "Reuters Q1 2026 data"
+    ],
+    "word_count": 800,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 2.9,
+      "css_correct": true
+    }
+  },
   "last_completed": {
     "number": 568,
     "slug": "ford-recall-volume-vs-body-count",
