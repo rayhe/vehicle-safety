@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "number": 563,
+    "slug": "142-mph-car-is-the-bullet",
+    "journalist": "Clara Rollover",
+    "phase": "DRAFT"
+  },
   "last_completed": {
     "number": 562,
     "slug": "tesla-radar-saves-us-removed-anyway",
@@ -7,7 +12,7 @@
     "journalist": "Mia Crumplezone",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "DRAFT",
   "last_published": 562,
   "last_published_slug": "tesla-radar-saves-us-removed-anyway"
 }
