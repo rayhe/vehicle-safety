@@ -1,36 +1,13 @@
 {
-  "current": {
-    "slug": "highlander-rear-seat-test-failure",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "headline": "The Toyota Highlander Has the Best Death Rate in Its Class. It Just Failed the Only Test That Checks on Your Kids.",
-    "started": "2026-07-22T01:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 9,
-      "legal": 10,
-      "rigor": 9,
-      "data": 9
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 1.0,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    }
-  },
+  "current": null,
   "last_completed": {
-    "number": 564,
-    "slug": "suv-impairment-doesnt-explain-deaths",
-    "headline": "Drunk Driving Doesn't Explain Which SUVs Kill You. The Vehicle Does.",
-    "journalist": "Rex Driverton",
+    "number": 565,
+    "slug": "highlander-rear-seat-test-failure",
+    "headline": "The Toyota Highlander Has the Best Death Rate in Its Class. It Just Failed the Only Test That Checks on Your Kids.",
+    "journalist": "Axle McScatter",
     "date": "2026-07-22"
   },
   "phase": null,
-  "last_published": 564,
-  "last_published_slug": "suv-impairment-doesnt-explain-deaths"
+  "last_published": 565,
+  "last_published_slug": "highlander-rear-seat-test-failure"
 }
