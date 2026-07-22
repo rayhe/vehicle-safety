@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "rav4-homogenization-30311-lives",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "headline": "If Every Car Were a RAV4, 30,311 Fewer People Would Die Each Year",
+    "started": "2026-07-21T17:30:00-07:00",
+    "round": 1,
+    "critics": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 9.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 560,
     "slug": "f150-americas-favorite-body-count",
