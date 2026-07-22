@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-radar-saves-us-removed-anyway",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "headline": "Tesla Named Its Own Document 'Radar Saves Us.' Then It Shipped 3.2 Million Cars Without Radar.",
+    "started": "2026-07-21T19:26:00-07:00",
+    "round": 1
+  },
   "last_completed": {
     "number": 561,
     "slug": "rav4-homogenization-30311-lives",
@@ -7,7 +14,7 @@
     "journalist": "Vin Wreckage",
     "date": "2026-07-21"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 561,
   "last_published_slug": "rav4-homogenization-30311-lives"
 }
