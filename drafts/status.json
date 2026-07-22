@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "suv-impairment-doesnt-explain-deaths",
+    "headline": "Drunk Driving Doesn't Explain Which SUVs Kill You. The Vehicle Does.",
+    "journalist": "Rex Driverton",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-22T06:26:00Z",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 8.5,
+      "social": 9.5,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.5
+    }
+  },
   "last_completed": {
     "number": 563,
     "slug": "142-mph-car-is-the-bullet",
@@ -7,7 +23,6 @@
     "journalist": "Clara Rollover",
     "date": "2026-07-21"
   },
-  "phase": null,
   "last_published": 563,
   "last_published_slug": "142-mph-car-is-the-bullet"
 }
