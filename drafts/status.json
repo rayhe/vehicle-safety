@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "tesla-radar-saves-us-removed-anyway",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "headline": "Tesla Named Its Own Document 'Radar Saves Us.' Then It Shipped 3.2 Million Cars Without Radar.",
-    "started": "2026-07-21T19:26:00-07:00",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 561,
-    "slug": "rav4-homogenization-30311-lives",
-    "headline": "If Every Car Were a RAV4, 30,311 Fewer People Would Die Each Year",
-    "journalist": "Vin Wreckage",
+    "number": 562,
+    "slug": "tesla-radar-saves-us-removed-anyway",
+    "headline": "Tesla Named Its Own Document 'Radar Saves Us.' Then It Shipped 3.2 Million Cars Without Radar.",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-21"
   },
-  "phase": "SHIP",
-  "last_published": 561,
-  "last_published_slug": "rav4-homogenization-30311-lives"
+  "phase": null,
+  "last_published": 562,
+  "last_published_slug": "tesla-radar-saves-us-removed-anyway"
 }
