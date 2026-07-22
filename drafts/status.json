@@ -1,21 +1,13 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
     "number": 566,
     "slug": "s10-zombie-pickup-1427-dead",
     "headline": "The Chevy S-10 Died in 2004. It Has Killed 1,427 People Since.",
     "journalist": "Clara Rollover",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-22T12:26:00Z"
-  },
-  "last_completed": {
-    "number": 565,
-    "slug": "highlander-rear-seat-test-failure",
-    "headline": "The Toyota Highlander Has the Best Death Rate in Its Class. It Just Failed the Only Test That Checks on Your Kids.",
-    "journalist": "Axle McScatter",
     "date": "2026-07-22"
   },
-  "phase": "SHIP",
-  "last_published": 565,
-  "last_published_slug": "highlander-rear-seat-test-failure"
+  "phase": null,
+  "last_published": 566,
+  "last_published_slug": "s10-zombie-pickup-1427-dead"
 }
