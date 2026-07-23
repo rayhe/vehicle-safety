@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "delta-platform-same-bones-different-graves",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-22T17:30:00-07:00",
+    "round": 1
+  },
   "last_completed": {
     "number": 570,
     "slug": "explorer-shadow-recall-fsa-failed",
@@ -7,7 +13,7 @@
     "journalist": "Rex Driverton",
     "date": "2026-07-22"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 570,
   "last_published_slug": "explorer-shadow-recall-fsa-failed"
 }
