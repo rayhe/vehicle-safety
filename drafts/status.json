@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-radar-saves-us-nhtsa-demand",
+    "headline": "Tesla's Own Engineers Called It 'Radar Saves Us.' NHTSA Wants to Know Why They Shipped Without It.",
+    "journalist": "Clara Rollover",
+    "phase": "SHIP",
+    "started": "2026-07-22T21:30:00-07:00",
+    "critique_round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 571,
     "slug": "delta-platform-same-bones-different-graves",
