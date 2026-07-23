@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "safest-quarter-adas-record",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Axle McScatter",
-    "started": "2026-07-23"
-  },
+  "current": null,
   "last_completed": {
-    "slug": "tesla-fsd-denominator-math-worse",
-    "headline": "Tesla Published the FSD Denominator. The Per-Subscriber Crash Rate Is Rising.",
-    "journalist": "Vin Wreckage",
+    "slug": "safest-quarter-adas-record",
+    "headline": "America Just Had Its Safest Quarter in a Decade. ADAS Crashes Hit an All-Time High. Both Are True.",
+    "journalist": "Axle McScatter",
     "published": "2026-07-23",
-    "article_number": 578
+    "article_number": 579
   }
 }
