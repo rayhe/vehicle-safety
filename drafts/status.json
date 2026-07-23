@@ -1,20 +1,13 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 575,
     "slug": "pedestrian-share-one-in-ten",
     "headline": "One in Ten Crash Deaths Is Now a Pedestrian. In 2015, It Was One in 25.",
     "journalist": "Axle McScatter",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-23T10:26:00Z",
-    "number": 575
-  },
-  "last_completed": {
-    "number": 574,
-    "slug": "tesla-207-adas-opacity-record",
-    "headline": "Tesla Logged 207 ADAS Crashes in One Month. It Redacted 99.9% of the Details.",
-    "journalist": "Rex Driverton",
     "date": "2026-07-23"
   },
-  "last_published": 574,
-  "last_published_slug": "tesla-207-adas-opacity-record"
+  "phase": null,
+  "last_published": 575,
+  "last_published_slug": "pedestrian-share-one-in-ten"
 }
