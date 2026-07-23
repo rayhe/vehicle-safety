@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "reflective-vest-aeb-blind-spot",
+    "headline": "IIHS Put a Safety Vest on a Crash Dummy. Two Out of Three Cars Didn't Slow Down.",
+    "journalist": "Mia Crumplezone",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-23T05:26:00-07:00"
+  },
   "last_completed": {
     "number": 575,
     "slug": "pedestrian-share-one-in-ten",
