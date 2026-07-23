@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "safest-quarter-adas-record",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Axle McScatter",
+    "started": "2026-07-23"
+  },
   "last_completed": {
     "slug": "tesla-fsd-denominator-math-worse",
     "headline": "Tesla Published the FSD Denominator. The Per-Subscriber Crash Rate Is Rising.",
