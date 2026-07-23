@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "driver-passenger-death-gap",
+    "headline": "Driver Deaths Fell 5%. Passenger Deaths Fell 12%. The Car Can't Save You From Yourself.",
+    "journalist": "Axle McScatter",
+    "phase": "QA",
+    "round": 1,
+    "started": "2026-07-23T06:26:00Z"
+  },
   "last_completed": {
     "number": 572,
     "slug": "tesla-radar-saves-us-nhtsa-demand",
@@ -7,7 +14,7 @@
     "journalist": "Clara Rollover",
     "date": "2026-07-23"
   },
-  "phase": null,
-  "last_published": 572,
-  "last_published_slug": "tesla-radar-saves-us-nhtsa-demand"
+  "phase": "QA",
+  "last_published": 573,
+  "last_published_slug": "driver-passenger-death-gap"
 }
