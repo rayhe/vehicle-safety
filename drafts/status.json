@@ -1,20 +1,13 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 576,
     "slug": "reflective-vest-aeb-blind-spot",
     "headline": "IIHS Put a Safety Vest on a Crash Dummy. Two Out of Three Cars Didn't Slow Down.",
     "journalist": "Mia Crumplezone",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-23T05:26:00-07:00"
-  },
-  "last_completed": {
-    "number": 575,
-    "slug": "pedestrian-share-one-in-ten",
-    "headline": "One in Ten Crash Deaths Is Now a Pedestrian. In 2015, It Was One in 25.",
-    "journalist": "Axle McScatter",
     "date": "2026-07-23"
   },
   "phase": null,
-  "last_published": 575,
-  "last_published_slug": "pedestrian-share-one-in-ten"
+  "last_published": 576,
+  "last_published_slug": "reflective-vest-aeb-blind-spot"
 }
