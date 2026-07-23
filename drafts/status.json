@@ -1,19 +1,13 @@
 {
-  "current": {
-    "slug": "delta-platform-same-bones-different-graves",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-07-22T17:30:00-07:00",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 570,
-    "slug": "explorer-shadow-recall-fsa-failed",
-    "headline": "Ford Tried to Fix the Explorer's Seats Quietly. It Didn't Work.",
-    "journalist": "Rex Driverton",
+    "number": 571,
+    "slug": "delta-platform-same-bones-different-graves",
+    "headline": "GM Built Three Cars on One Platform. Their Death Rates Span a 9x Gap.",
+    "journalist": "Dale Impactor III",
     "date": "2026-07-22"
   },
-  "phase": "QA",
-  "last_published": 570,
-  "last_published_slug": "explorer-shadow-recall-fsa-failed"
+  "phase": null,
+  "last_published": 571,
+  "last_published_slug": "delta-platform-same-bones-different-graves"
 }
