@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tesla Logged 207 ADAS Crashes in One Month. It Redacted 99.9% of the Details. &mdash; The Crash Report</title>
+  <meta name="description" content="Tesla set a single-month record for driver-assist crashes reported to NHTSA, 207 in May 2026, while blacking out nearly every narrative. FARS data says Teslas are among the safest cars on the road. Both things are true.">
+  <meta property="og:title" content="Tesla Logged 207 ADAS Crashes in One Month. It Redacted 99.9% of the Details.">
+  <meta property="og:description" content="Tesla set a single-month record for driver-assist crashes reported to NHTSA while blacking out nearly every narrative.">
+  <meta property="og:image" content="../images/tesla-207-adas-opacity-record.jpg?v=99af3df6">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Tesla Logged 207 ADAS Crashes in One Month. It Redacted 99.9% of the Details.</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">July 23, 2026</div>
+
+      <p>In May 2026, Tesla reported <strong>207 driver-assist crashes to NHTSA</strong>. That is the most any automaker has ever filed in a single month under the Standing General Order.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> One month of Tesla crash filings exceeded the entire ADAS industry's output for all of calendar year 2021. And Tesla blacked out the narrative on virtually every single one.</p>
+
+      <div class="pull-stat">207</div>
+      <div class="pull-label">Tesla ADAS crashes reported in May 2026, a single-month record</div>
+
+      <p>The Standing General Order is straightforward enough that any automaker should be able to follow it without legal creativity. NHTSA tells manufacturers: if your driver-assist system was active within 30 seconds of a crash that deployed an airbag, required a tow, caused an injury, killed someone, or hit a pedestrian, you file a report describing what happened. Tesla files the report, then redacts the description, citing confidential business information. It blacks out the software version too, which means nobody outside the company can distinguish whether a given crash involved basic Autopilot or the more aggressive Full Self-Driving system that Tesla has been pushing onto every new vehicle sold.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>GM does not do this. Ford, Honda, and Toyota do not either. Their crash narratives are public, readable, often detailed enough to reconstruct the sequence of events that led to impact. Tesla's file, now spanning 3,763 unique crash reports and growing, reads like a spreadsheet of timestamps and blanks.</p>
+
+      <div class="pull-stat">3,763</div>
+      <div class="pull-label">Cumulative Tesla ADAS crashes reported to NHTSA: 85% of the entire industry</div>
+
+      <p>The acceleration is the part that should bother you, more than any single month's count. Comparing January through June, year over year, the counts run 180, then 261, then 269, then 476, and now 826.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That is a 73% jump from 2025's first half, which was itself a 77% jump from the year before, which at the time seemed alarming. The 2025 full year crossed 1,000 Tesla ADAS crashes for the first time in the dataset's history. At the current trajectory, 2026 will roughly double it.</p>
+
+      <p>There is a reasonable defense of these numbers, and it deserves to be stated at full strength without hedging. Tesla's ADAS-active fleet is enormous, likely the largest in the world by engaged miles. More vehicles running Autopilot and FSD across more roads, more hours, and more weather conditions will produce more reported crashes even if the per-mile crash rate is falling. If General Motors had two million vehicles logging as many Super Cruise hours as Tesla owners log with FSD, GM's raw numbers might look similar or worse. The comparison is fleet-size-naive, and Tesla knows it, which is presumably why the company has argued that releasing detailed crash data would cause "financial harm."<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Fine. Then publish the denominator.</p>
+
+      <p>Tesla is the only company on earth with the telematics data required to calculate a per-mile ADAS crash rate, and it is the only company refusing to share that data in a format anyone can verify independently. The quarterly "safety report" that used to claim Autopilot was nine times safer than manual driving has been criticized by Tesla's own AI trainers as misleading, and the methodology behind it has never been subjected to independent audit.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>FARS, the fatality database where every fatal crash gets a full investigation, toxicology report, and public record, tells a remarkably different story about the same vehicles. Over the 2014 to 2023 window, the Tesla Model Y produced a fatality rate of <strong>0.03 deaths per 100 million vehicle miles traveled</strong>.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Model 3 came in at 0.05. For context, the Honda Civic runs 2.25, the Ford F-150 sits higher still, and the dataset median for sedans lands above 1.0. By the measure that actually counts bodies, Teslas are among the safest vehicles on American roads — categorically safer, not by a thin margin but by an order of magnitude.</p>
+
+      <p>Both of these facts are true at the same time. Tesla builds cars that kill fewer people per mile than almost anything else on the road, and Tesla files more ADAS crash reports with less transparency than every other automaker combined. For every fatality involving a Tesla in FARS over the past decade, roughly 13.5 ADAS crash reports were filed with NHTSA where the public receives a timestamp, a location, and nothing else. That ratio, one documented death per thirteen opaque crashes, defines what we might call the blind zone: the space between the crashes we can study and the ones we cannot.</p>
+
+      <p>The timing makes the opacity harder to justify. On July 21, 2026, NHTSA's Engineering Analysis division sent Tesla a formal demand letter seeking all internal documents related to a file titled "Radar Saves Us."<sup class="ref-link"><a href="#ref-3">[3]</a></sup> This is a Tesla-authored document that apparently catalogues the limitations of the vision-only perception system the company shipped after stripping radar hardware from its vehicles. Nine crashes under investigation involved reduced-visibility conditions where radar would have seen what cameras could not. The agency wants test records, internal communications, and the underlying data. The penalty for stonewalling runs to $27,874 per day.</p>
+
+      <p>A company that titled its own internal analysis "Radar Saves Us" and then shipped a product without radar understood the tradeoff it was making. A company that reports 207 crashes in a single month and blacks out every narrative understands the cost of transparency — just not the same way the rest of us do.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Electrek, &ldquo;Tesla Autopilot and FSD crashes hit record 207 in a single month,&rdquo; July 22, 2026. Analysis of NHTSA Standing General Order ADAS data. <a href="https://electrek.co/2026/07/22/tesla-adas-crashes-record-207-one-month/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Per-model fatality rates calculated from FARS crash data, US vehicle sales estimates, and NHTS annual miles. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Electrek, &ldquo;NHTSA targets Tesla&rsquo;s &lsquo;Radar Saves Us&rsquo; document in FSD crash probe,&rdquo; July 21, 2026. <a href="https://electrek.co/2026/07/21/nhtsa-tesla-radar-saves-us-document-fsd-probe/" target="_blank" rel="noopener">electrek.co</a></li>
+        </ol>
+      </section>
+
+      <p><strong>What you should do:</strong> If you own a Tesla with Autopilot or FSD, none of this data suggests your car is structurally unsafe, and the FARS fatality rates confirm that plainly. But the ADAS crash record means incidents are accelerating, and you have no way to know what kind of crashes are happening or why. Treat FSD as what it legally remains: a Level 2 driver-assist system that requires your full attention, every second, regardless of what the marketing implies. Check your VIN for open recalls at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. If you are involved in a crash with ADAS active, file your own report with NHTSA's <a href="https://www.nhtsa.gov/report-a-safety-problem" target="_blank" rel="noopener">Vehicle Safety Hotline</a>, because Tesla's version of that report will be a blank page.</p>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Standing General Order ADAS crash data (2019&ndash;2026) and FARS 2014&ndash;2023. SGO crash counts reflect reporting thresholds (airbag deployment, tow-away, injury, fatality, or struck pedestrian/cyclist). FARS fatality rates use estimated VMT and fleet size, introducing &plusmn;15% uncertainty for lower-volume models. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

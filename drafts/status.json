@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-207-adas-opacity-record",
+    "headline": "Tesla Logged 207 ADAS Crashes in One Month. It Redacted 99.9% of the Details.",
+    "journalist": "Rex Driverton",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-23T08:26:00Z"
+  },
   "last_completed": {
     "number": 573,
     "slug": "driver-passenger-death-gap",
@@ -7,7 +14,7 @@
     "journalist": "Axle McScatter",
     "date": "2026-07-23"
   },
-  "phase": null,
+  "phase": "SHIP",
   "last_published": 573,
   "last_published_slug": "driver-passenger-death-gap"
 }
