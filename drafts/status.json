@@ -1,19 +1,12 @@
 {
-  "current": {
-    "slug": "recall-week-ignored-killers",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Vin Wreckage",
-    "headline": "America Recalled 1.5 Million Cars This Week. The Ones Actually Killing People Weren't on the List.",
-    "started": "2026-07-24T12:30:00Z"
-  },
+  "current": null,
   "last_completed": {
-    "number": 585,
-    "slug": "crown-vic-ghost-fleet-88-deaths",
-    "headline": "The Crown Vic Hasn't Been Built Since 2011. It Still Kills 88 People a Year.",
-    "journalist": "Rex Driverton",
+    "number": 586,
+    "slug": "recall-week-ignored-killers",
+    "headline": "America Recalled 1.5 Million Cars This Week. The Ones Actually Killing People Weren't on the List.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-24"
   },
-  "last_published": 585,
-  "last_published_slug": "crown-vic-ghost-fleet-88-deaths"
+  "last_published": 586,
+  "last_published_slug": "recall-week-ignored-killers"
 }
