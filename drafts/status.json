@@ -1,28 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 588,
     "slug": "door-egress-standard-step-zero",
     "headline": "The Federal Door Standard Is Older Than the Moon Landing. NHTSA Just Agreed to Think About Updating It.",
     "journalist": "Clara Rollover",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-24T09:30:00-07:00",
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 9,
-      "legal": 8.5,
-      "rigor": 9,
-      "data_presentation": 8.5
-    }
-  },
-  "last_completed": {
-    "number": 587,
-    "slug": "ford-quality-renaissance-myth",
-    "headline": "Ford Says 90% of Its Recalls Are Old Cars. This Week, It Recalled a Million New Ones.",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-24"
   },
-  "last_published": 587,
-  "last_published_slug": "ford-quality-renaissance-myth"
+  "last_published": 588,
+  "last_published_slug": "door-egress-standard-step-zero"
 }
