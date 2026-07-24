@@ -1,19 +1,12 @@
 {
-  "current": {
-    "slug": "ford-quality-renaissance-myth",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-07-24T07:30:00-07:00",
-    "headline": "Ford Says 90% of Its Recalls Are Old Cars. This Week, It Recalled a Million New Ones.",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 586,
-    "slug": "recall-week-ignored-killers",
-    "headline": "America Recalled 1.5 Million Cars This Week. The Ones Actually Killing People Weren't on the List.",
-    "journalist": "Vin Wreckage",
+    "number": 587,
+    "slug": "ford-quality-renaissance-myth",
+    "headline": "Ford Says 90% of Its Recalls Are Old Cars. This Week, It Recalled a Million New Ones.",
+    "journalist": "Mia Crumplezone",
     "date": "2026-07-24"
   },
-  "last_published": 586,
-  "last_published_slug": "recall-week-ignored-killers"
+  "last_published": 587,
+  "last_published_slug": "ford-quality-renaissance-myth"
 }
