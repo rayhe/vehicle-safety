@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "buick-century-zombie-sedan",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-23T19:30:00-07:00",
-    "round": 1,
-    "headline": "The Buick Century Hasn't Been Built Since 2005. It Still Kills 85 People a Year."
-  },
+  "current": null,
   "last_completed": {
-    "number": 582,
-    "slug": "sports-car-price-death-gap",
-    "headline": "The Cheapest Sports Car in America Is Also the Deadliest Vehicle on the Road",
-    "journalist": "Mia Crumplezone",
+    "number": 583,
+    "slug": "buick-century-zombie-sedan",
+    "headline": "The Buick Century Hasn't Been Built Since 2005. It Still Kills 85 People a Year.",
+    "journalist": "Vin Wreckage",
     "date": "2026-07-23"
   },
-  "phase": "QA",
-  "last_published": 582,
-  "last_published_slug": "sports-car-price-death-gap"
+  "phase": null,
+  "last_published": 583,
+  "last_published_slug": "buick-century-zombie-sedan"
 }
