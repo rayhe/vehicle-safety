@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-quality-renaissance-myth",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-24T07:30:00-07:00",
+    "headline": "Ford Says 90% of Its Recalls Are Old Cars. This Week, It Recalled a Million New Ones.",
+    "round": 1
+  },
   "last_completed": {
     "number": 586,
     "slug": "recall-week-ignored-killers",
