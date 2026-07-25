@@ -1,17 +1,10 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 591,
     "slug": "mountaineer-badge-premium-death-tax",
     "headline": "Mercury Put a Different Badge on the Ford Explorer. The Death Rate Went Up 11%.",
     "journalist": "Axle McScatter",
-    "phase": "QA",
-    "round": 1,
-    "started": "2026-07-24T17:30:00-07:00"
-  },
-  "last_completed": {
-    "number": 590,
-    "slug": "evenflo-revolve360-three-recalls",
-    "headline": "Evenflo Has Recalled the Same Car Seat Three Times in One Year. The First Fix Was Tape.",
-    "journalist": "Clara Rollover",
     "date": "2026-07-24"
   },
   "last_published": 591,
