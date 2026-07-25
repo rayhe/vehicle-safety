@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "seatbelt-anchorage-delay",
+    "phase": "SHIP",
+    "journalist": "Clara Rollover",
+    "headline": "The Truck Industry Asked for Three More Years of Weaker Seatbelt Testing. NHTSA Said Sure.",
+    "started": "2026-07-25T06:26:00Z",
+    "round": 1
+  },
   "last_completed": {
     "number": 593,
     "slug": "supra-bmw-fire-recall",
