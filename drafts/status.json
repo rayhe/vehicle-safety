@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "mountaineer-badge-premium-death-tax",
+    "headline": "Mercury Put a Different Badge on the Ford Explorer. The Death Rate Went Up 11%.",
+    "journalist": "Axle McScatter",
+    "phase": "QA",
+    "round": 1,
+    "started": "2026-07-24T17:30:00-07:00"
+  },
   "last_completed": {
     "number": 590,
     "slug": "evenflo-revolve360-three-recalls",
@@ -7,6 +14,6 @@
     "journalist": "Clara Rollover",
     "date": "2026-07-24"
   },
-  "last_published": 590,
-  "last_published_slug": "evenflo-revolve360-three-recalls"
+  "last_published": 591,
+  "last_published_slug": "mountaineer-badge-premium-death-tax"
 }
