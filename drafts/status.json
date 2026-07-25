@@ -1,19 +1,12 @@
 {
-  "current": {
-    "slug": "seatbelt-anchorage-delay",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "headline": "The Truck Industry Asked for Three More Years of Weaker Seatbelt Testing. NHTSA Said Sure.",
-    "started": "2026-07-25T06:26:00Z",
-    "round": 1
-  },
+  "current": null,
   "last_completed": {
-    "number": 593,
-    "slug": "supra-bmw-fire-recall",
-    "headline": "Toyota's Supra Uses a BMW Engine. Now 318,000 Cars Are on Fire Watch.",
-    "journalist": "Mia Crumplezone",
+    "number": 594,
+    "slug": "seatbelt-anchorage-delay",
+    "headline": "The Truck Industry Asked for Three More Years of Weaker Seatbelt Testing. NHTSA Said Sure.",
+    "journalist": "Clara Rollover",
     "date": "2026-07-25"
   },
-  "last_published": 593,
-  "last_published_slug": "supra-bmw-fire-recall"
+  "last_published": 594,
+  "last_published_slug": "seatbelt-anchorage-delay"
 }
