@@ -1,28 +1,12 @@
 {
-  "current": {
-    "slug": "kona-cheapest-tsp-three-recalls",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "headline": "The Cheapest Car to Earn IIHS's Highest Safety Award Has Been Recalled Three Times This Year",
-    "started": "2026-07-25T03:26:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 9
-    }
-  },
+  "current": null,
   "last_completed": {
-    "number": 595,
-    "slug": "car-seat-recall-misuse-paradox",
-    "headline": "Evenflo Just Recalled 60,000 Car Seats. 53,000 Were Already Installed Wrong.",
-    "journalist": "Rex Driverton",
+    "number": 596,
+    "slug": "kona-cheapest-tsp-three-recalls",
+    "headline": "The Cheapest Car to Earn IIHS's Highest Safety Award Has Been Recalled Three Times This Year",
+    "journalist": "Clara Rollover",
     "date": "2026-07-25"
   },
-  "last_published": 595,
-  "last_published_slug": "car-seat-recall-misuse-paradox"
+  "last_published": 596,
+  "last_published_slug": "kona-cheapest-tsp-three-recalls"
 }
