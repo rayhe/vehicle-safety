@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "porsche-911-drunk-proof",
+    "headline": "The Porsche 911 Has the Same Drunk Driving Rate as a Camaro. It Kills 5x Fewer People.",
+    "journalist": "Dale Impactor III",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-24T19:30:00-07:00",
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9.5,
+      "rigor": 8.5,
+      "data_presentation": 9
+    }
+  },
   "last_completed": {
     "number": 591,
     "slug": "mountaineer-badge-premium-death-tax",
