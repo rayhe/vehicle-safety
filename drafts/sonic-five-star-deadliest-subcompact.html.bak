@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GM Spent $545 Million to Replace a Daewoo Deathtrap. The Death Rate Doubled. &mdash; The Crash Report</title>
+  <meta name="description" content="The Chevrolet Sonic earned NHTSA's 5-star rating and IIHS Top Safety Pick. FARS data shows it's the deadliest subcompact in America, killing at twice the rate of the Aveo it replaced.">
+  <meta property="og:title" content="GM Spent $545 Million to Replace a Daewoo Deathtrap. The Death Rate Doubled.">
+  <meta property="og:description" content="Five stars, Top Safety Pick, deadliest in class. The Chevrolet Sonic story is a masterclass in the gap between crash tests and coffins.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/sonic-five-star-deadliest-subcompact.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>GM Spent $545 Million to Replace a Daewoo Deathtrap. The Death Rate Doubled.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">July 25, 2026</div>
+
+      <img src="../images/sonic-five-star-deadliest-subcompact.jpg" alt="Chevrolet Sonic in parking garage with fractured stars overhead" style="width:100%;max-width:700px;margin:1.5em 0;border-radius:6px;">
+
+      <p>The Chevrolet Aveo was, by most accounts, a terrible car. A rebadged Daewoo Kalos assembled in South Korea, it earned "Acceptable" in the IIHS frontal test and "Marginal" in all three remaining crash evaluations. Its roof withstood just 3.09 times its own weight before caving in. When GM announced the Sonic as the Aveo's replacement in 2011, the pitch was simple: a real Chevrolet, designed in Detroit, built in Michigan, engineered to actually protect its occupants. GM sank roughly <strong>$545 million into retooling Orion Assembly</strong> for the job. IIHS responded by handing the 2012 Sonic a Top Safety Pick award. NHTSA gave it five stars across the board.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">1.40</div>
+      <div class="pull-label">Sonic fatality rate per 100M VMT &mdash; the highest of any subcompact, and double the Aveo&rsquo;s 0.69</div>
+
+      <p>FARS data from 2014 through 2023 tells a different story. The Sonic logged <strong>494 occupant deaths</strong> across 655 fatal crashes, producing a fatality rate of 1.40 per 100 million vehicle miles traveled. The Aveo it replaced? A rate of 0.69. The car with the gold star killed at exactly twice the rate of the car with the participation trophy.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Line that up against the rest of the subcompact segment, and the Sonic doesn't just lag behind the leaders. It laps them. The Honda Fit runs a 0.72. The Toyota Yaris, 0.76. Even the bargain-basement Mitsubishi Mirage manages 0.40, which is less than a third of the Sonic's body count per mile. The only GM product that comes close is the Chevrolet Spark at 1.28, which, coincidentally, is also a Korea-sourced subcompact.</p>
+
+      <p>The obvious rebuttal writes itself: the Sonic had a larger fleet (306,000 vs. the Aveo's 175,000), so it accumulated more exposure. True, but the rate already divides by VMT. A larger fleet doesn't inflate the denominator; it just adds statistical confidence that the number is real. You could also blame demographics, arguing that the Sonic attracted younger, more reckless buyers who pushed the rate up through behavior rather than engineering. The FARS toxicology database undercuts that theory. Sonic drivers involved in fatal crashes tested positive for impairment at <strong>20.0%</strong>, compared to <strong>22.0%</strong> for Aveo drivers. The Sonic's drivers were marginally more sober. They were still more dead.</p>
+
+      <p>Something else hides in the crash-level data. In an Aveo crash flagged by FARS, the occupant died 89% of the time. In a Sonic crash, that number is 75.4%. So the Sonic is, in the narrowest possible sense, more survivable once you're already in a fatal crash. But it participates in so many more fatal crashes per mile that the net effect is catastrophic. The Aveo is a fragile car that doesn't crash much. The Sonic is a slightly less fragile car that crashes constantly. GM solved the wrong problem.</p>
+
+      <p>The IIHS knew the Sonic was a structural improvement. In 2012, the institute explicitly noted that the Sonic's roof withstood 5.37 times its weight versus the Aveo's 3.09, and that it achieved "Good" in every category where the Aveo had limped in at "Marginal."<sup class="ref-link"><a href="#ref-2">[2]</a></sup> None of this was wrong. The Sonic absorbs energy better in a controlled 40-mph barrier impact. It protects a crash-test dummy's femur more effectively. Its curtain airbags deploy with correct timing. What the test can't measure is how the car behaves in the wild, driven by humans who don't read the owner's manual, in traffic shared with 5,500-pound pickups whose bumpers line up with the Sonic's window line.</p>
+
+      <p>And that weight mismatch is the quiet variable IIHS can't replicate in a lab. A 2,800-pound Sonic hitting a fixed barrier at 40 mph is a controlled engineering exercise. A 2,800-pound Sonic getting T-boned by a Silverado at 45 mph in an uncontrolled intersection is physics with a body count. Between 2014 and 2023, the average vehicle on American roads gained roughly 300 pounds. Subcompacts didn't gain much. The gap widened, and the Sonic sat in the middle of it, wearing five gold stars and a survival rate that would embarrass a motorcycle.</p>
+
+      <p>GM discontinued the Sonic after the 2020 model year. By then, the market had its own opinion: Sonic sales had collapsed from 96,000 units in 2014 to fewer than 15,000 in 2020. But about 300,000 of them are still registered. They still commute. They still run errands. They still share lanes with vehicles that outweigh them by a full ton.</p>
+
+      <p><strong>If you own one:</strong> Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. The Sonic has accumulated multiple recalls, including one for loss of power steering assist. Avoid driving next to heavy trucks if you can help it, and understand that your five-star sticker was tested against a concrete wall, not a Chevy Tahoe.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>5-Star Safety Ratings: 2016 Chevrolet Sonic</em>. <a href="https://www.nhtsa.gov/vehicle/2016/CHEVROLET/SONIC" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">Automotive Fleet, &ldquo;Chevrolet Sonic Named IIHS &lsquo;Top Safety Pick,&rsquo;&rdquo; 2012. <a href="https://www.automotive-fleet.com/75567/chevrolet-sonic-named-iihs-top-safety-pick" target="_blank" rel="noopener">automotive-fleet.com</a></li>
+          <li id="ref-3">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">IIHS, <em>Vehicle Ratings: Chevrolet Sonic</em>. <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Fatality rates use estimated VMT based on fleet-level driving averages, not individual odometer readings; uncertainty is approximately &plusmn;15% for models with fewer than 500,000 registered vehicles. FARS captures only fatal crashes and cannot distinguish between occupant deaths, other-vehicle deaths, and pedestrian deaths at the model level. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
