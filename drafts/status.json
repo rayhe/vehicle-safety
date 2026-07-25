@@ -1,5 +1,29 @@
 {
-  "current": null,
+  "current": {
+    "slug": "outback-forester-same-brand-73-pct-death-gap",
+    "phase": "SHIP",
+    "journalist": "Clara Rollover",
+    "started": "2026-07-25T22:26:00Z",
+    "headline": "Subaru Built Two AWD SUVs. They Got the Same Safety Award. One Kills 73% More People.",
+    "round": 1,
+    "critique_scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starts_pct": 8.9,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    },
+    "ship_blocked": "3 articles already published 2026-07-25"
+  },
   "last_completed": {
     "number": 598,
     "slug": "sonic-five-star-deadliest-subcompact",
