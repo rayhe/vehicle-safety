@@ -1,36 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 597,
     "slug": "solara-camry-same-platform-double-death-rate",
     "headline": "Toyota Built a Camry Without Two Doors. It Kills at Twice the Rate.",
-    "phase": "SHIP",
-    "round": 1,
     "journalist": "Mia Crumplezone",
-    "started": "2026-07-25T14:26:00Z",
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 8.5,
-      "rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 1,
-      "banned_phrases": 0,
-      "the_starters_pct": 6.0,
-      "sentence_rhythm_passed": true,
-      "css_class_correct": true
-    },
-    "notes": "Hero image generation upstream unavailable (2 consecutive runs: Jul 25 14:30 and Jul 25 09:30). Article fully critiqued and approved. Will ship on next run when image gen is back."
-  },
-  "last_completed": {
-    "number": 596,
-    "slug": "kona-cheapest-tsp-three-recalls",
-    "headline": "The Cheapest Car to Earn IIHS's Highest Safety Award Has Been Recalled Three Times This Year",
-    "journalist": "Clara Rollover",
     "date": "2026-07-25"
   },
-  "last_published": 596,
-  "last_published_slug": "kona-cheapest-tsp-three-recalls"
+  "last_published": 597,
+  "last_published_slug": "solara-camry-same-platform-double-death-rate"
 }
