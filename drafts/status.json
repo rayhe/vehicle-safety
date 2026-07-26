@@ -1,20 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 604,
     "slug": "fire-recall-sensitivity-gap",
     "headline": "The Auto Industry Recalled 884,000 Vehicles for Fires That Hurt Nobody. 39,345 Americans Died on the Road Anyway.",
     "journalist": "Vin Wreckage",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-26T14:26:00Z",
-    "image_hash": "0879955f"
-  },
-  "last_completed": {
-    "number": 603,
-    "slug": "australia-lane-keeping-mandate-us-gap",
-    "headline": "Australia Just Mandated the Tech That Prevents 51% of U.S. Traffic Deaths. America Hasn't Started.",
-    "journalist": "Mia Crumplezone",
     "date": "2026-07-26"
   },
-  "last_published": 603,
-  "last_published_slug": "australia-lane-keeping-mandate-us-gap"
+  "last_published": 604,
+  "last_published_slug": "fire-recall-sensitivity-gap"
 }
