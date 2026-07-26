@@ -1,12 +1,8 @@
 {
   "current": null,
-  "last_completed": {
-    "number": 605,
-    "slug": "nhtsa-door-rulemaking-decade-delay",
-    "headline": "NHTSA Says Tesla's Doors Aren't Defective. Also, America Needs New Door Rules. Both Statements Were Made on the Same Day.",
-    "journalist": "Rex Driverton",
-    "date": "2026-07-26"
-  },
-  "last_published": 605,
-  "last_published_slug": "nhtsa-door-rulemaking-decade-delay"
+  "last_completed": 606,
+  "last_published": 606,
+  "last_published_slug": "nhtsa-door-rulemaking-decade-delay",
+  "phase": "IDLE",
+  "ship_blocked": false
 }
