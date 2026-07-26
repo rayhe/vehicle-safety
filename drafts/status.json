@@ -1,8 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "evenflo-fourth-recall-toddler-regression",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Vin Wreckage",
+    "started": "2026-07-26T15:30:00-07:00",
+    "headline": "Evenflo Has Recalled the Same Seat Design Four Times. Forty-Four Toddlers Died Without Any Seat at All."
+  },
   "last_completed": 607,
   "last_published": 607,
   "last_published_slug": "ford-design-era-confession",
-  "phase": "IDLE",
+  "phase": "CRITIQUE",
   "ship_blocked": false
 }
