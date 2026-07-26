@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-door-rulemaking-decade-delay",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "headline": "NHTSA Says Tesla's Doors Aren't Defective. Also, America Needs New Door Rules. Both Statements Were Made on the Same Day.",
+    "started": "2026-07-26T16:26:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9.5,
+      "social": 9,
+      "legal": 9,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 604,
     "slug": "fire-recall-sensitivity-gap",
