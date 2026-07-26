@@ -1,28 +1,12 @@
 {
-  "current": {
-    "slug": "nhtsa-door-rulemaking-decade-delay",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "headline": "NHTSA Says Tesla's Doors Aren't Defective. Also, America Needs New Door Rules. Both Statements Were Made on the Same Day.",
-    "started": "2026-07-26T16:26:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9.5,
-      "social": 9,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    }
-  },
+  "current": null,
   "last_completed": {
-    "number": 604,
-    "slug": "fire-recall-sensitivity-gap",
-    "headline": "The Auto Industry Recalled 884,000 Vehicles for Fires That Hurt Nobody. 39,345 Americans Died on the Road Anyway.",
-    "journalist": "Vin Wreckage",
+    "number": 605,
+    "slug": "nhtsa-door-rulemaking-decade-delay",
+    "headline": "NHTSA Says Tesla's Doors Aren't Defective. Also, America Needs New Door Rules. Both Statements Were Made on the Same Day.",
+    "journalist": "Rex Driverton",
     "date": "2026-07-26"
   },
-  "last_published": 604,
-  "last_published_slug": "fire-recall-sensitivity-gap"
+  "last_published": 605,
+  "last_published_slug": "nhtsa-door-rulemaking-decade-delay"
 }
