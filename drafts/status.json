@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "fire-recall-sensitivity-gap",
+    "headline": "The Auto Industry Recalled 884,000 Vehicles for Fires That Hurt Nobody. 39,345 Americans Died on the Road Anyway.",
+    "journalist": "Vin Wreckage",
+    "phase": "SHIP",
+    "round": 1,
+    "started": "2026-07-26T14:26:00Z",
+    "image_hash": "0879955f"
+  },
   "last_completed": {
     "number": 603,
     "slug": "australia-lane-keeping-mandate-us-gap",
