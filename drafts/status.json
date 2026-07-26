@@ -1,28 +1,12 @@
 {
-  "current": {
+  "current": null,
+  "last_completed": {
+    "number": 602,
     "slug": "philadelphia-deadliest-city-3x-nyc",
     "headline": "Philadelphia Kills Drivers at 3x New York's Rate. Its Fix Costs Less Than a Single Wrongful Death Verdict.",
     "journalist": "Rex Driverton",
-    "phase": "SHIP",
-    "round": 1,
-    "started": "2026-07-26T01:30:00-07:00",
-    "critics": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    }
-  },
-  "last_completed": {
-    "number": 601,
-    "slug": "cruze-gm-sedan-redemption",
-    "headline": "GM Built the Deadliest Sedan in America. Then the Safest. Then They Killed It.",
-    "journalist": "Vin Wreckage",
     "date": "2026-07-26"
   },
-  "last_published": 601,
-  "last_published_slug": "cruze-gm-sedan-redemption"
+  "last_published": 602,
+  "last_published_slug": "philadelphia-deadliest-city-3x-nyc"
 }
