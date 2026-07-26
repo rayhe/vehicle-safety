@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "australia-lane-keeping-mandate-us-gap",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-26T05:30:00-07:00",
+    "round": 0,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 602,
     "slug": "philadelphia-deadliest-city-3x-nyc",

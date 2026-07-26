@@ -1,10 +1,19 @@
 {
-  "current": null,
+  "current": {
+    "slug": "urban-arterial-1843-lives-no-lane-changed",
+    "headline": "70% of America's Safety Gains Came From One Road Type. The Roads Didn't Change.",
+    "journalist": "Dale Impactor III",
+    "phase": "revising",
+    "started": "2026-07-26",
+    "article_number": 604,
+    "revisions": 2,
+    "notes": "Self-critique pass done. All hard gates pass: 0 em dashes, 7.7% The-starters, 419 words, no banned phrases, class=story, ../style.css. Hero image generated and hash-busted. Ready for final revision and publish on 2026-07-27."
+  },
   "last_completed": {
-    "slug": "safest-quarter-adas-record",
-    "headline": "America Just Had Its Safest Quarter in a Decade. ADAS Crashes Hit an All-Time High. Both Are True.",
-    "journalist": "Axle McScatter",
-    "published": "2026-07-23",
-    "article_number": 579
+    "slug": "philadelphia-deadliest-city-3x-nyc",
+    "headline": "Philadelphia Kills Drivers at 3x New York's Rate. Its Fix Costs Less Than a Single Wrongful Death Verdict.",
+    "journalist": "Rex Driverton",
+    "published": "2026-07-26",
+    "article_number": 603
   }
 }
