@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "bmw-deadliest-luxury-every-segment",
+    "headline": "BMW Is the Deadliest Luxury Brand in Every Segment. The Data Isn't Subtle.",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-07-25T19:30:00-07:00",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": {
     "number": 599,
     "slug": "outback-forester-same-brand-73-pct-death-gap",
