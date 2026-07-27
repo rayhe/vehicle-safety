@@ -1,8 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "explorer-seat-displacement-388k-recall",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Clara Rollover",
+    "started": "2026-07-27T06:26:00Z",
+    "headline": "388,000 Ford Explorers Have Seats That Unlatch While Driving. The SUV Already Kills 380 People a Year."
+  },
   "last_completed": 611,
   "last_published": 611,
   "last_published_slug": "ten-thousand-pound-loophole",
-  "phase": "IDLE",
+  "phase": "CRITIQUE",
   "ship_blocked": false
 }
