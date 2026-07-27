@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "may-2026-state-majority-reversal",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "started": "2026-07-27T08:26:00Z",
-    "round": 1,
-    "article_number": 613
-  },
-  "last_completed": 612,
-  "last_published": 612,
-  "last_published_slug": "explorer-seat-displacement-388k-recall",
-  "phase": "QA",
+  "current": null,
+  "last_completed": 613,
+  "last_published": 613,
+  "last_published_slug": "may-2026-state-majority-reversal",
+  "phase": "IDLE",
   "ship_blocked": false
 }
