@@ -1,8 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "senior-safety-stall-519-excess-deaths",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-07-27T09:30:00-07:00",
+    "round": 1
+  },
   "last_completed": 615,
   "last_published": 615,
   "last_published_slug": "polysubstance-trend-18-percent-record",
-  "phase": null,
   "ship_blocked": false
 }
