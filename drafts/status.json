@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-speed-campaign-vehicle-gap",
+    "phase": "SHIP",
+    "round": 0,
+    "journalist": "Axle McScatter",
+    "started": "2026-07-27T22:26:00Z"
+  },
   "last_completed": 617,
   "last_published": 617,
   "last_published_slug": "ford-quality-first-newest-designs-on-fire",
