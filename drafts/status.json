@@ -1,23 +1,8 @@
 {
-  "current": {
-    "slug": "bronco-21-recalls-five-years",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-07-27T10:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    }
-  },
-  "last_completed": 613,
-  "last_published": 613,
-  "last_published_slug": "may-2026-state-majority-reversal",
-  "phase": "SHIP",
+  "current": null,
+  "last_completed": 614,
+  "last_published": 614,
+  "last_published_slug": "bronco-21-recalls-five-years",
+  "phase": "IDLE",
   "ship_blocked": false
 }
