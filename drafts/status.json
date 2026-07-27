@@ -1,8 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "slug": "polysubstance-trend-18-percent-record",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Dale Impactor III",
+    "started": "2026-07-27T12:26:00Z",
+    "headline": "One in Five Fatal Crashes Now Involves Alcohol AND Drugs. The Fraction Is Accelerating.",
+    "needs_hero_image": true,
+    "notes": "Hero image generation failed this run. Generate on next critique/ship pass."
+  },
   "last_completed": 614,
   "last_published": 614,
   "last_published_slug": "bronco-21-recalls-five-years",
-  "phase": "IDLE",
+  "phase": "CRITIQUE",
   "ship_blocked": false
 }
