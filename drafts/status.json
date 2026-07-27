@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "malibu-rental-dump-death-rate-used-market",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-07-26T17:30:00-07:00",
-    "round": 1
-  },
-  "last_completed": 608,
-  "last_published": 608,
-  "last_published_slug": "evenflo-fourth-recall-toddler-regression",
+  "current": null,
+  "last_completed": 609,
+  "last_published": 609,
+  "last_published_slug": "malibu-rental-dump-death-rate-used-market",
+  "phase": "IDLE",
   "ship_blocked": false
 }
