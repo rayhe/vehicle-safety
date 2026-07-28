@@ -1,30 +1,4 @@
 {
-  "current": {
-    "slug": "pathfinder-teen-pick-712-dead",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Rex Driverton",
-    "started": "2026-07-28T18:26:00Z",
-    "headline": "The Pathfinder Was Just Named \"Best Vehicle for Teens.\" It Kills at 3x the Pilot's Rate.",
-    "kicker": "Investigation",
-    "hard_gates": {
-      "em_dashes": 3,
-      "banned_phrases": 0,
-      "the_sentence_pct": 5.0,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    },
-    "critic_scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.5
-    },
-    "notes": "Published and deployed. Live at vehicle-safety.org. QA passed on deployment URL."
-  },
   "current": null,
   "last_completed": 625,
   "last_published": 625,
