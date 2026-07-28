@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ram-2500-lethality-export",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "headline": "The Ram 2500 Is in 748 Fatal Crashes. Its Occupants Die in 153 of Them.",
+    "started": "2026-07-28T05:30:00-07:00",
+    "critique_round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data_presentation": 9
+    }
+  },
   "last_completed": 621,
   "last_published": 621,
   "last_published_slug": "silverado-drunk-other-party-body-count",
