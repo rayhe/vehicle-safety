@@ -1,12 +1,6 @@
 {
-  "current": {
-    "slug": "silverado-drunk-other-party-body-count",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-07-28T08:26:00Z",
-    "round": 1
-  },
-  "last_completed": 620,
+  "current": null,
+  "last_completed": 621,
   "last_published": 621,
   "last_published_slug": "silverado-drunk-other-party-body-count",
   "ship_blocked": false
