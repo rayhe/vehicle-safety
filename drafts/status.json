@@ -23,10 +23,11 @@
       "rigor": 9.0,
       "data_presentation": 8.5
     },
-    "notes": "Shipped. Hero image generated, article moved to stories/, index and sitemap updated."
+    "notes": "Published and deployed. Live at vehicle-safety.org. QA passed on deployment URL."
   },
-  "last_completed": 624,
-  "last_published": 624,
+  "current": null,
+  "last_completed": 625,
+  "last_published": 625,
   "last_published_slug": "pathfinder-teen-pick-712-dead",
   "ship_blocked": false
 }
