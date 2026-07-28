@@ -1,13 +1,6 @@
 {
-  "current": {
-    "slug": "lost-generation-2013-deadliest-vintage",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Clara Rollover",
-    "started": "2026-07-28",
-    "article_number": 620
-  },
-  "last_completed": 619,
+  "current": null,
+  "last_completed": 620,
   "last_published": 620,
   "last_published_slug": "lost-generation-2013-deadliest-vintage",
   "ship_blocked": false
