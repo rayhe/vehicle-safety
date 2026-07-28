@@ -1,13 +1,7 @@
 {
-  "current": {
-    "slug": "s10-ghost-truck-deadliest-pickup",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-27T17:30:00-07:00",
-    "round": 1
-  },
-  "last_completed": 618,
-  "last_published": 618,
-  "last_published_slug": "nhtsa-speed-campaign-vehicle-gap",
+  "current": null,
+  "last_completed": 619,
+  "last_published": 619,
+  "last_published_slug": "s10-ghost-truck-deadliest-pickup",
   "ship_blocked": false
 }
