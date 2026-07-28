@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "pathfinder-teen-pick-712-dead",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Rex Driverton",
     "started": "2026-07-28T18:26:00Z",
@@ -23,10 +23,10 @@
       "rigor": 9.0,
       "data_presentation": 8.5
     },
-    "notes": "All 7 critics 8.5+. All hard gates independently verified. ship_blocked was stale (0 articles published today per git log). Hero image still missing -- upstream media generation unavailable. Next run should generate hero image and complete SHIP."
+    "notes": "Shipped. Hero image generated, article moved to stories/, index and sitemap updated."
   },
-  "last_completed": 623,
-  "last_published": 623,
-  "last_published_slug": "fourrunner-gen3-deadliest-toyota-suv",
+  "last_completed": 624,
+  "last_published": 624,
+  "last_published_slug": "pathfinder-teen-pick-712-dead",
   "ship_blocked": false
 }
