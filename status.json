@@ -1,19 +1,11 @@
 {
-  "current": {
-    "slug": "urban-arterial-1843-lives-no-lane-changed",
-    "headline": "70% of America's Safety Gains Came From One Road Type. The Roads Didn't Change.",
-    "journalist": "Dale Impactor III",
-    "phase": "revising",
-    "started": "2026-07-26",
-    "article_number": 604,
-    "revisions": 2,
-    "notes": "Self-critique pass done. All hard gates pass: 0 em dashes, 7.7% The-starters, 419 words, no banned phrases, class=story, ../style.css. Hero image generated and hash-busted. Ready for final revision and publish on 2026-07-27."
-  },
+  "current": null,
   "last_completed": {
-    "slug": "philadelphia-deadliest-city-3x-nyc",
-    "headline": "Philadelphia Kills Drivers at 3x New York's Rate. Its Fix Costs Less Than a Single Wrongful Death Verdict.",
+    "slug": "fars-underride-undercount-side-guard-deaths",
+    "headline": "NHTSA's Crash Database Undercounts Truck Underride Deaths by 46%. The Broken Number Sinks the Fix.",
     "journalist": "Rex Driverton",
-    "published": "2026-07-26",
-    "article_number": 603
+    "published": "2026-07-29",
+    "article_number": 635,
+    "notes": "Hero image deferred — media generation unavailable this cycle. Article uses CSS gradient fallback via onerror handler."
   }
 }
