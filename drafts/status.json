@@ -1,13 +1,13 @@
 {
   "current": {
     "slug": "xterra-discontinued-still-killing",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Vin Wreckage",
     "started": "2026-07-28T19:30:00-07:00"
   },
-  "last_completed": 626,
-  "last_published": 626,
-  "last_published_slug": "rural-urban-safety-divide-2025",
-  "ship_blocked": true
+  "last_completed": 627,
+  "last_published": 627,
+  "last_published_slug": "xterra-discontinued-still-killing",
+  "ship_blocked": false
 }
