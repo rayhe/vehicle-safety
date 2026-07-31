@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "safest-year-recall-blitz",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-07-31T22:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data": 9
-    }
-  },
-  "last_completed": 651,
-  "last_published": 651,
-  "last_published_slug": "cx5-national-rate-floor"
+  "current": null,
+  "last_completed": 652,
+  "last_published": 652,
+  "last_published_slug": "safest-year-recall-blitz"
 }
