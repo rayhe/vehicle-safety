@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "odi-quarterly-recall-surge-fy26",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Axle McScatter",
+    "started": "2026-07-31T11:30:00-07:00",
+    "headline": "NHTSA Recalled 12.6 Million Vehicles Last Quarter. The Quarter Before, It Was 9.5 Million."
+  },
   "last_completed": 649,
   "last_published": 649,
   "last_published_slug": "tesla-model-s-impairment-matches-corvette"
