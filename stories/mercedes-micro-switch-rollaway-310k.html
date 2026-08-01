@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Corroded $2 Switch Just Put 310,000 Mercedes at Risk of Rolling Away | The Crash Report</title>
+  <meta name="description" content="Mercedes-Benz recalled 310,667 vehicles because a corroded micro-switch in the door lock can prevent the parking brake from engaging. FARS data shows their drivers are already impaired at higher rates than the fleet average.">
+  <meta property="og:title" content="A Corroded $2 Switch Just Put 310,000 Mercedes at Risk of Rolling Away">
+  <meta property="og:description" content="A corroded micro-switch in the door lock disables the auto-park brake. FARS shows 21.9% of Mercedes drivers in fatal crashes were impaired. That compound risk is the part nobody is talking about.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/mercedes-micro-switch-rollaway-310k.jpg?v=6b19f183">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>A Corroded $2 Switch Just Put 310,000 Mercedes at Risk of Rolling Away</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">July 31, 2026</div>
+
+      <p>Mercedes-Benz is recalling <strong>310,667 vehicles</strong> in the United States because a micro-switch inside the driver&rsquo;s door lock can corrode, prevent the car from detecting that the door is open, and silently disable the automatic parking brake.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The car thinks the door is closed, the driver gets out, the brake never engages, and the vehicle rolls.</p>
+
+      <div class="pull-stat">310,667</div>
+      <div class="pull-label">Mercedes vehicles recalled over a single corroded micro-switch that disables the auto-park brake</div>
+
+      <p>Affected models span nearly the entire compact and mid-size lineup: CLA, A-Class, C-Class, CLE, GLA, GLB, and GLC. NHTSA confirmed the recall Thursday, and dealers will replace the driver&rsquo;s door lock assembly at no cost, which is a polite way of saying Mercedes will spend millions of dollars swapping out a component that probably cost less than the gas station coffee you bought on the way to the dealership.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Rollaways are not theoretical risks. About 2,000 Americans die from them every year, according to advocacy group KidsAndCars.org, and the victims are disproportionately children and elderly bystanders who cannot move fast enough when a two-ton sedan starts creeping down a driveway.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Ford recalled its Expedition and Lincoln Navigator fleet this year for a transmission software defect that could damage the park mechanism and produce the same result: a vehicle rolling away after the driver walks off.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Now Mercedes joins the rollaway club through a different failure path, bypassing both the transmission and the software to land on a corroded switch in the door.</p>
+
+      <p>What makes this defect architecturally interesting is the dependency chain it reveals. Nothing breaks in the parking brake itself; the mechanism works perfectly. What fails is a micro-switch in the door lock, which tells the body control module whether the door is open, which tells the parking brake controller whether it should engage. A corroded contact in a $2 electromechanical component silences a signal that a $55,000 safety suite needs in order to function, and neither crash tests nor IIHS ratings evaluate this kind of failure. A single-point-of-failure embedded three layers deep in a system that marketing describes as &ldquo;intelligent&rdquo; and &ldquo;advanced.&rdquo;</p>
+
+      <div class="pull-stat">21.9%</div>
+      <div class="pull-label">Mercedes drivers in FARS fatal crashes who were impaired, above the fleet average</div>
+
+      <p>FARS data from 2014 to 2023 offers a less flattering angle on the brand&rsquo;s driver population. Across 4,649 Mercedes-Benz drivers involved in fatal crashes, <strong>21.9 percent tested positive for alcohol, drugs, or both</strong>&mdash;running above the luxury brand average of 20.9 percent and well above Lexus (19.3%) or Lincoln (19.0%).<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Specifically, the E-Class clocks 23.5 percent impairment among its 1,415 drivers in fatal crashes. For the C-Class, which sits squarely in the middle of this recall&rsquo;s affected models, 21.8 percent.</p>
+
+      <p>Credit where it lands: Mercedes vehicles themselves are not especially lethal. A C-Class death rate of 0.63 per 100 million VMT, an E-Class at 0.64, both below the sedan class average of roughly 2.0, both dramatically below the worst sedans in the FARS dataset. Mercedes builds cars that protect occupants in crashes. Where things go wrong is after the occupants get out.</p>
+
+      <p>Picture an impaired driver parking a GLC in a driveway at 11 p.m., exactly the scenario where a silent rollaway becomes lethal. Shift to park (or think you do), open the door, step out, walk toward the house. That corroded micro-switch never registers the open door, so the auto-park brake never engages, and two tons of German engineering start creeping backward. A sober driver might hear it, might feel the absence of the expected brake clunk, might turn around, but an impaired driver is already fumbling with the house keys. A cheap component failure multiplied by a behavioral profile the component&rsquo;s designers probably assumed away.</p>
+
+      <p>Mercedes is the third luxury manufacturer to issue a major recall this year for a failure mode that no crash test evaluates. BMW has recalled PHEV models twice for starter motor fires. Cadillac&rsquo;s CT5 earned IIHS poor ratings in two crash tests, proving that even the test regime can surprise a brand that expected to pass.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Same thread running through all of them: not negligence, but architectural hubris. Systems designed to be intelligent that remain catastrophically dependent on individual components designed to be cheap.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Reuters, &ldquo;Mercedes-Benz to recall more than 310,000 US vehicles citing risk of failure to detect open door,&rdquo; July 30, 2026. <a href="https://www.reuters.com/legal/litigation/mercedes-benz-recall-more-than-310000-us-vehicles-citing-risk-failure-detect-2026-07-30/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Autoblog, &ldquo;300 Recalls and Counting in 2026: The Brands Getting Called Back the Most This Year,&rdquo; Jul 13, 2026. <a href="https://www.autoblog.com/news/300-recalls-and-counting-in-2026-the-brands-getting-called-back-the-most-this-year" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-4">KidsAndCars.org, <em>Rollaways</em>. <a href="https://www.kidsandcars.org/how-kids-get-hurt/rollaways/" target="_blank" rel="noopener">kidsandcars.org</a></li>
+          <li id="ref-5">Consumer Reports, &ldquo;Safest New Cars of 2026, According to the IIHS,&rdquo; 2026. <a href="https://www.consumerreports.org/cars/car-safety/safest-new-cars-of-2026-iihs-top-safety-pick-a4816645459/" target="_blank" rel="noopener">consumerreports.org</a></li>
+        </ol>
+      </section>
+
+      <section class="story-limitations">
+        <h3>Limitations</h3>
+        <p>FARS data captures only fatal crashes, covering the roughly 36,000 annual deaths but not the 6.7 million total crashes. Impairment rates are based on toxicology results recorded at the time of the crash and may be incomplete, as not all jurisdictions test all fatally involved drivers. Mercedes impairment data spans 2014 to 2023 and cannot be directly attributed to the specific model years affected by this recall (which skew newer). Death rate estimates use VMT calculated from fleet size and average annual mileage by vehicle class, introducing &plusmn;15% uncertainty for lower-volume models. KidsAndCars.org&rsquo;s rollaway fatality estimate of 2,000 per year comes from advocacy research and has not been independently replicated by NHTSA.</p>
+      </section>
+
+      <section class="story-counterargument">
+        <h3>The Counterargument</h3>
+        <p>Mercedes discovered this defect and reported it voluntarily, offering a straightforward, free fix. When the recall system works as designed, it looks exactly like this: a manufacturer identifies a risk before it causes mass casualties and acts. Mercedes death rates in FARS are genuinely low, among the lowest in their respective segments, and their crash avoidance technology has earned multiple IIHS Top Safety Pick+ awards. A corroded micro-switch in a door lock is not a design philosophy; it is a supplier quality issue, and conflating it with the brand&rsquo;s impairment statistics requires a causal leap the data cannot support. Impaired drivers who miss a rollaway event are impaired enough to cause a crash regardless of what the door lock does.</p>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023, NHTSA recalls database, Reuters. Mercedes impairment rates include both alcohol and drug-positive toxicology across all Mercedes models with 100+ drivers in FARS fatal crashes. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

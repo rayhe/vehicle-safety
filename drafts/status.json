@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "mercedes-micro-switch-rollaway-310k",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Rex Driverton",
+    "started": "2026-07-31T19:30:00-07:00",
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data_presentation": 9.0,
+      "composite": 8.8
+    }
+  },
   "last_completed": 653,
   "last_published": 653,
   "last_published_slug": "rural-interstate-only-road-deadlier"
