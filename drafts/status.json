@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "jd-power-cup-holders-quality-vs-safety",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-08-01T18:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 9.5,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": 661,
   "last_published": 661,
   "last_published_slug": "aviator-most-recalled-vehicle-ever"
