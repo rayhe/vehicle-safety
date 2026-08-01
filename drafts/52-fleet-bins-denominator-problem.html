@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Every Death Rate on This Site Is Built on 52 Guesses &mdash; The Crash Report</title>
+  <meta name="description" content="337 vehicle models. 52 unique fleet size estimates. The denominator behind every death rate we publish is a bucketed estimate, not a measurement. Here's what that means for the numbers you trust.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Every Death Rate on This Site Is Built on 52 Guesses</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">August 1, 2026</div>
+
+      <p>We track 337 vehicle models on this site. Every one of them gets a death rate, expressed as deaths per 100 million vehicle miles traveled, and that rate is the number readers use to decide whether their car is a casket on wheels or a reasonable bet against physics. The numerator (deaths) comes straight from NHTSA&rsquo;s Fatality Analysis Reporting System: police reports, medical examiners, real bodies in real crashes across a decade of American roads.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The numerator is precise; the denominator is a guess.</p>
+
+      <div class="pull-stat">52</div>
+      <div class="pull-label">Unique fleet size estimates used to calculate death rates for 337 vehicle models</div>
+
+      <p>Not 337 unique fleet estimates for 337 vehicles. Fifty-two. Forty-eight vehicles, ranging from the Toyota Matrix to the Chevrolet Tracker, from the Cadillac Seville to the Fiat 500, share a single fleet estimate of 131,250 registered units, and thirty-four more share 262,500. The entire American vehicle fleet, in all its chaotic diversity of production volumes, import schedules, and regional sales patterns, has been compressed into bins you could count on your fingers and toes twice over.</p>
+
+      <p>The fleet estimates derive from published annual sales data and scrappage curve assumptions, which is standard practice in vehicle safety research and the same methodology IIHS uses when it computes driver death rates.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The estimates are reasonable, but they are not measurements, and every death rate on this site divides a measured quantity (deaths from FARS) by a modeled one (fleet &times; average annual miles from NHTS<sup class="ref-link"><a href="#ref-3">[3]</a></sup>), which means every rate inherits whatever error lives in the denominator.</p>
+
+      <p>Consider what happens inside one of those 52 bins. Forty-eight vehicles share the 131,250-fleet estimate, and their death rates range from 0.02 to 7.83. That 391-to-1 spread is real, because a vehicle with 856 deaths is genuinely more dangerous than one with 6 deaths regardless of denominator precision. The numerator does the heavy lifting in the extremes. But in the middle of the distribution, where most vehicles cluster, the spread tightens considerably, and the fleet estimate starts to matter a great deal. If a vehicle&rsquo;s true registered fleet is 30% larger than the bin it was assigned to, its death rate drops by roughly 23%, enough to move it from &ldquo;above the national average&rdquo; to &ldquo;below.&rdquo; If the fleet is 30% smaller than estimated, the rate climbs by 43%, and a family sedan becomes a statistical deathtrap or a safety paragon depending on which direction the rounding went.</p>
+
+      <div class="pull-stat">30%</div>
+      <div class="pull-label">Fleet estimation error that flips a vehicle from &ldquo;dangerous&rdquo; to &ldquo;safe&rdquo;</div>
+
+      <p>There is a self-serving version of this critique, one that claims because the denominators are imprecise nothing we publish matters, but that version is wrong, and I need to say so plainly because the counterargument is stronger than the argument. A vehicle with 9,591 deaths across 19,732 fatal crash involvements (the Chevrolet Silverado) is meaningfully different from one with 57 deaths across 84 crash involvements (the Tesla Model Y), regardless of whether we estimate the Silverado fleet at 5.7 million or 7 million or 4.2 million. The absolute body count carries signal that no denominator correction can erase. When this site says &ldquo;the Tracker has a death rate 65 times higher than the Model Y,&rdquo; a factor-of-two error in either fleet estimate would still leave the Tracker at 16 times higher&mdash;the order of magnitude is robust, and it is only the second decimal place that qualifies as a polite fiction.</p>
+
+      <p>The pattern in the bins themselves is revealing. Every fleet estimate in our dataset is a multiple of approximately 43,750, suggesting the source data used annual sales brackets with about 3,500 units of resolution (43,750 &divide; ~12.5 average fleet years), then multiplied out by an assumed average vehicle lifespan. That is a coarser grid than most readers would expect from a site that publishes rates to two decimal places: we show the Chevrolet Cobalt at 5.10 and the Impala at 5.00, an implied precision of one-tenth, while the denominator underneath both numbers has been rounded to the nearest quarter-million.</p>
+
+      <p>None of this is unique to The Crash Report. IIHS driver death rates use the same type of fleet estimation from registration data, and NHTSA&rsquo;s own rate calculations rely on VMT estimates from the Federal Highway Administration that are themselves modeled from traffic counter samples.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The entire field of vehicle safety epidemiology operates on the assumption that the denominators are close enough, that the measurement error in fleet and VMT estimates is randomly distributed and washes out across large datasets. For population-level conclusions (&ldquo;SUVs are overrepresented in pedestrian fatalities&rdquo;), this assumption holds well enough to generate real policy insights; for model-vs-model comparisons (&ldquo;is the Altima at 2.88 meaningfully worse than the Malibu at 2.03?&rdquo;), the assumption starts to crack under the weight of the denominator&rsquo;s imprecision.</p>
+
+      <div class="story-body">
+        <h3>What This Means for You</h3>
+
+        <p>When you look up your vehicle on this site, trust the categories, not the rankings. A death rate of 0.19 (the RAV4) versus 5.11 (the Maxima) represents a genuine, large, robust safety difference that would survive any reasonable denominator correction. A death rate of 1.25 versus 1.04 (the Silverado versus the F-150) is within the noise floor of the fleet estimation methodology. Both trucks are in the same neighborhood of risk, and which one lands higher depends partly on whose sales estimate you believe.</p>
+
+        <p>The actionable heuristic: differences of 2x or greater are almost certainly real, while differences below 1.5x are suspect enough that you should not bet your family&rsquo;s safety on them. Everything between 1.5x and 2x is a gray zone where the signal might be genuine and might be a denominator artifact, and the honest answer is that we cannot tell you which without better fleet data than currently exists in the public domain.</p>
+
+        <p>We could stop publishing rates to two decimal places, or bucket vehicles into risk tiers instead of rankings, and we probably should. But precision is seductive, and round numbers feel like they&rsquo;re hiding something, and the whole premise of this site is that the data should be visible even when it&rsquo;s uncomfortable. So here is the uncomfortable thing: the denominator underneath every number we publish is one of 52 guesses, and if that bothers you, good&mdash;it should bother us too.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Fatality Statistics: Driver Death Rates by Make and Model</em>. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">FHWA / Oak Ridge National Laboratory, <em>National Household Travel Survey (NHTS)</em>. <a href="https://nhts.ornl.gov/" target="_blank" rel="noopener">nhts.ornl.gov</a></li>
+          <li id="ref-4">FHWA, <em>Highway Statistics Series: Vehicle Miles Traveled</em>. <a href="https://www.fhwa.dot.gov/policyinformation/statistics.cfm" target="_blank" rel="noopener">fhwa.dot.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 with fleet estimates derived from published US vehicle sales data and standard scrappage curves. Fleet sizes are rounded estimates, not registration counts. Death rates inherit this uncertainty. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
