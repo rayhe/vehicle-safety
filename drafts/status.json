@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "aviator-most-recalled-vehicle-ever",
+    "phase": "SHIP",
+    "journalist": "Clara Rollover",
+    "started": "2026-08-01T16:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 9,
+      "ethics": 9,
+      "social": 8.5,
+      "legal": 9,
+      "rigor": 8.5,
+      "data": 8.5
+    }
+  },
   "last_completed": 660,
   "last_published": 660,
   "last_published_slug": "expedition-chrome-trim-blade-recall"
