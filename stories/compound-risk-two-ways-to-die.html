@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We Built a Two-Variable Risk Index for Every Car in FARS. The Spread Is 57x. &mdash; The Crash Report</title>
+  <meta name="description" content="Cross-referencing FARS death rates with impairment data reveals a compound risk score that varies 57-fold across vehicles. Some cars kill because they're fragile. Some kill because their drivers are impaired. Five do both.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>We Built a Two-Variable Risk Index for Every Car in FARS. The Spread Is 57x.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">August 2, 2026</div>
+
+      <p>A car can kill you in two fundamentally different ways. The metal around you can crumple wrong. Or the person behind the wheel can show up impaired. Most safety analyses pick one variable and run with it. We picked both.</p>
+
+      <div class="pull-stat">57&times;</div>
+      <div class="pull-label">Gap between the highest and lowest compound risk scores in FARS</div>
+
+      <p>Take every vehicle in the FARS database with 200 or more fatalities over the 2014&ndash;2023 window. Cross-reference its death rate per 100 million VMT against its impairment rate from toxicology reports. Normalize impairment to the national fatal-crash average of roughly 20%. Multiply. The result is a compound risk score that captures both the engineering and the behavioral dimension of danger in a single number.</p>
+
+      <p>Hyundai's Veloster tops the list at <strong>7.43</strong>. Ram's 1500 sits at the bottom at <strong>0.13</strong>. Same American roads. Same decade. Fifty-seven times the combined risk.</p>
+
+      <p>What the index actually reveals is a taxonomy. Vehicles cluster into four quadrants, and each quadrant tells a different story about why people die.</p>
+
+      <p><strong>Quadrant 1: The car is the problem.</strong> Veloster (rate 8.54, impairment 17.4%), Chevrolet Tracker (7.83, 12.7%), Toyota Land Cruiser (6.27, 8.9%). These vehicles have death rates 4&ndash;8 times the national average, but their drivers are less impaired than normal. Veloster's impairment rate is below the FARS mean. Land Cruiser's is less than half. Sober people climb into these vehicles and die anyway, at rates that would alarm an actuary.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p><strong>Quadrant 2: The driver is the problem.</strong> Chevrolet Camaro (rate 3.44, impairment 23.0%), Buick LeSabre (2.67, 23.5%), Chevrolet Corvette (1.52, 26.2%). Corvette doesn't crack the top 10 despite having the highest impairment rate of any vehicle with 200+ deaths. One in four Corvette drivers in fatal crashes was impaired.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> But the car itself is built well enough to keep the rate from exploding. LeSabre tells a grimmer version: an aging sedan whose demographics skew toward impaired driving, with structural integrity that was mediocre when Reagan was president.</p>
+
+      <p><strong>Quadrant 3: Both are the problem.</strong> Ford Mustang (rate 6.02, impairment 21.9%, compound score 6.59), Chevrolet Cobalt (5.10, 22.4%, score 5.71), Chevrolet Impala (5.00, 21.4%, score 5.35). Mustang kills because it's a rear-drive performance car with a demographic that drinks, and because physics punishes spinouts. Cobalt kills because GM built it with an ignition switch that could shut off airbags mid-crash, and its drivers were 12% more likely to be impaired than the fleet average. A sedan with a compound score higher than the Camaro. That should bother someone at GM.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p><strong>Quadrant 4: Neither.</strong> Toyota RAV4 (rate 0.19, impairment 18.4%, score 0.17), Chevrolet Equinox (0.36, 19.4%, score 0.35), Toyota Highlander (0.42, 16.4%, score 0.34). Modern crossovers with competent crash structures, driven by demographics that trend sober. RAV4's compound score is 43 times lower than the Veloster's. Buy the RAV4.</p>
+
+      <p>General Motors owns seven of the top 15 compound risk vehicles. Cobalt, Impala, Tracker, S-10 Pickup, Camaro, Trailblazer, Cavalier. A company that spent $600 million on Super Cruise development put more vehicles in the danger zone than any other manufacturer.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Most of them are discontinued. Bodies keep accumulating.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Death rates estimated per 100M VMT using NHTS mileage data and industry fleet estimates. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">FARS Toxicology data, 2014&ndash;2023. Impairment defined as BAC &gt; 0 or drug-positive toxicology in drivers involved in fatal crashes. National average approximately 20%. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">GM ignition switch recall, 2014. Linked to at least 124 deaths. Cobalt and other models had defective ignition switches that could move to &ldquo;accessory&rdquo; position during driving, disabling airbags and power steering. <a href="https://en.wikipedia.org/wiki/General_Motors_ignition_switch_recalls" target="_blank" rel="noopener">Wikipedia</a></li>
+          <li id="ref-4">GM investor relations and ADAS development expenditure disclosures, 2017&ndash;2024. Super Cruise cumulative R&amp;D estimated at $600M+. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <h3>Limitations</h3>
+      <p>Fleet age confounds both variables. Older vehicles have worse crashworthiness (inflating the rate) and their demographics skew toward higher impairment (inflating the behavioral component). Compound scores partly capture "old car driven by high-risk demographic" rather than two independent failure modes. VMT estimates carry &plusmn;15% uncertainty for low-volume models. Impairment rates reflect only fatally-crashed drivers, not all drivers of that vehicle. A Veloster, with an estimated fleet of 87,500, has higher statistical variance than an F-150 at 6.5 million.</p>
+
+      <h3>What to Do</h3>
+      <p>If you own a Quadrant 3 vehicle, check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. Cobalt has an open recall. Mustang has three. Impala has two. If you're shopping, the bottom of the compound index is dominated by midsize crossovers under $35,000. Engineering and demographics align. RAV4, Equinox, and Tucson are not exciting. They are also not killing their drivers at 43 times the compound rate of the alternatives.</p>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Compound risk score = (death rate per 100M VMT) &times; (vehicle impairment rate / 20%). Vehicles with fewer than 200 deaths excluded. VMT estimates use NHTS averages by vehicle class. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
