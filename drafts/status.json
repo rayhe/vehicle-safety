@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "acura-safest-sedan-drivetrain-betrayal",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-08-02T08:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 8.5,
-      "legal": 9,
-      "rigor": 9,
-      "data": 9
-    }
-  },
-  "last_completed": 666,
-  "last_published": 666,
-  "last_published_slug": "rear-belt-reminder-rule-50-vs-1600-lives"
+  "current": null,
+  "last_completed": 667,
+  "last_published": 667,
+  "last_published_slug": "acura-safest-sedan-drivetrain-betrayal"
 }
