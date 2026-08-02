@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "compound-risk-two-ways-to-die",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-08-02T03:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 8.5
-    }
-  },
-  "last_completed": 667,
-  "last_published": 667,
-  "last_published_slug": "acura-safest-sedan-drivetrain-betrayal"
+  "current": null,
+  "last_completed": 668,
+  "last_published": 668,
+  "last_published_slug": "compound-risk-two-ways-to-die"
 }
