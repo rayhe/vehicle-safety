@@ -1,5 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "f150-backup-camera-software-blind",
+    "phase": "SHIP",
+    "journalist": "Clara Rollover",
+    "started": "2026-08-02T13:30:00-07:00",
+    "headline": "Congress Spent 15 Years Mandating Backup Cameras. Ford's Software Update Covered Them With a Menu.",
+    "round": 1,
+    "scores": {
+      "general": 9, "voice": 9, "ethics": 9, "social": 9, "legal": 9, "rigor": 9, "data": 9
+    }
+  },
   "last_completed": 672,
   "last_published": 672,
   "last_published_slug": "fmvss-228-three-dollar-fix"
