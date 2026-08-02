@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "impairment-floor-equals-improvement",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-08-02T12:26:00Z",
+    "round": 0
+  },
   "last_completed": 668,
   "last_published": 668,
   "last_published_slug": "compound-risk-two-ways-to-die"
