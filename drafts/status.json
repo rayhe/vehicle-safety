@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "belt-inversion-passenger-crossover-2024",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Axle McScatter",
+    "started": "2026-08-02T22:30:00Z",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.5,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 9.0,
+      "data_presentation": 9.0
+    }
+  },
   "last_completed": 673,
   "last_published": 673,
   "last_published_slug": "f150-backup-camera-software-blind"
