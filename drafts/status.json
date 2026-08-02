@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "fmvss-228-three-dollar-fix",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-08-02T18:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 9
-    }
-  },
-  "last_completed": 671,
-  "last_published": 671,
-  "last_published_slug": "bronco-wrangler-off-road-fire-twins"
+  "current": null,
+  "last_completed": 672,
+  "last_published": 672,
+  "last_published_slug": "fmvss-228-three-dollar-fix"
 }
