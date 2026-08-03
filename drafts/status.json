@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "tesla-suspension-escalation-spiral",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-08-02T21:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data": 8.5
-    }
-  },
-  "last_completed": 676,
-  "last_published": 676,
-  "last_published_slug": "grand-caravan-deadliest-family-van"
+  "current": null,
+  "last_completed": 677,
+  "last_published": 677,
+  "last_published_slug": "tesla-suspension-escalation-spiral"
 }
