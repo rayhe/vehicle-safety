@@ -1,6 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ecoboost-1-liter-unreasonable-risk",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-08-03T14:30:00Z",
+    "round": 1,
+    "headline": "Ford's Award-Winning 1.0L Engine Is Eating Itself Alive"
+  },
   "last_completed": 681,
-  "last_published": 681,
-  "last_published_slug": "hardware-recall-week-3-million"
+  "last_published": 682,
+  "last_published_slug": "ecoboost-1-liter-unreasonable-risk"
 }
