@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-truck-aeb-mandate-while-investigating",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-03T06:27:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 8.5,
+      "legal": 8.5,
+      "rigor": 9,
+      "data_presentation": 8.5
+    }
+  },
   "last_completed": 677,
   "last_published": 677,
   "last_published_slug": "tesla-suspension-escalation-spiral"
