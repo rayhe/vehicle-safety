@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "fhwa-proven-countermeasures-stripped",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-08-03T23:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 8.5
-    }
-  },
-  "last_completed": 683,
-  "last_published": 683,
-  "last_published_slug": "iihs-mof2-only-two-passed"
+  "current": null,
+  "last_completed": 684,
+  "last_published": 684,
+  "last_published_slug": "fhwa-proven-countermeasures-stripped"
 }
