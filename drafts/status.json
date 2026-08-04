@@ -1,5 +1,30 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-pre-pandemic-baseline-rewrite",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-04T08:26:00Z",
+    "headline": "NHTSA Says Speeding Deaths Are Back to Pre-Pandemic Levels. They're Not.",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 8.5,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 9.1,
+      "css_class": "story",
+      "stylesheet": "style.css",
+      "sentence_rhythm": "PASS"
+    },
+    "notes": "Hero image needs generation - media tool unavailable this run. All critics 8.5+, all hard gates pass. Ready to ship once image is created."
+  },
   "last_completed": 684,
   "last_published": 684,
   "last_published_slug": "fhwa-proven-countermeasures-stripped"
