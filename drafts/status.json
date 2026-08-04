@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "wagon-safest-body-style-extinct",
-    "phase": "SHIP",
-    "journalist": "Axle McScatter",
-    "started": "2026-08-04T18:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 8.5,
-      "legal": 9,
-      "rigor": 9,
-      "data": 8.5
-    }
-  },
-  "last_completed": 688,
-  "last_published": 688,
-  "last_published_slug": "album-drop-fifteen-percent-more-dead"
+  "current": null,
+  "last_completed": 689,
+  "last_published": 689,
+  "last_published_slug": "wagon-safest-body-style-extinct"
 }
