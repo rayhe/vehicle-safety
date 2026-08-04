@@ -1,30 +1,6 @@
 {
-  "current": {
-    "slug": "iihs-mof2-only-two-passed",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-08-03T19:47:00Z",
-    "headline": "IIHS Put a Dummy in the Back Seat for the First Time. Only 2 of 16 Cars Survived.",
-    "critique_round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 4.5,
-      "css_class": "story",
-      "css_link": "style.css"
-    },
-    "notes": "Already published #682 today. Ready to SHIP on next run."
-  },
-  "last_completed": 682,
-  "last_published": 682,
-  "last_published_slug": "ecoboost-1-liter-unreasonable-risk"
+  "current": null,
+  "last_completed": 683,
+  "last_published": 683,
+  "last_published_slug": "iihs-mof2-only-two-passed"
 }
