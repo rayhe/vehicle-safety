@@ -1,5 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "album-drop-fifteen-percent-more-dead",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Vin Wreckage",
+    "started": "2026-08-04T16:30:00Z",
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.8,
+      "ethics": 9.0,
+      "social": 9.5,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.7,
+      "average": 8.9
+    }
+  },
   "last_completed": 687,
   "last_published": 687,
   "last_published_slug": "twenty-million-eighty-percent-sober"
