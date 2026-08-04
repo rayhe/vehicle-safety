@@ -1,21 +1,6 @@
 {
-  "current": {
-    "slug": "twenty-million-eighty-percent-sober",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-08-04T14:27:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 8.5,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data": 9
-    }
-  },
-  "last_completed": 686,
-  "last_published": 686,
-  "last_published_slug": "motorcycle-share-doubled-fifty-years"
+  "current": null,
+  "last_completed": 687,
+  "last_published": 687,
+  "last_published_slug": "twenty-million-eighty-percent-sober"
 }
