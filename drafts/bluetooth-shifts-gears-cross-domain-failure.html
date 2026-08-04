@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Three Automakers Just Recalled Vehicles Because the Wrong System Talked to the Wrong System &mdash; The Crash Report</title>
+  <meta name="description" content="Toyota's Bluetooth module shifted gears. Hyundai's head-up display blanked the dashboard. Ford's infotainment hijacked the backup camera. Three OEMs, five weeks, one architectural problem nobody tracks.">
+  <meta property="og:title" content="Three Automakers Just Recalled Vehicles Because the Wrong System Talked to the Wrong System">
+  <meta property="og:description" content="Toyota's Bluetooth module shifted gears. Hyundai's head-up display blanked the dashboard. Ford's infotainment hijacked the backup camera. Three OEMs, five weeks, one architectural problem nobody tracks.">
+  <meta property="og:image" content="../images/bluetooth-shifts-gears-cross-domain-failure.jpg?v=bdeb64ae">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Three Automakers Just Recalled Vehicles Because the Wrong System Talked to the Wrong System">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Three Automakers Just Recalled Vehicles Because the Wrong System Talked to the Wrong System</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">August 4, 2026</div>
+
+      <p>On July 31, Toyota recalled 15,266 electric sedans in China because <strong>the Bluetooth module could shift the car into a different gear while driving</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not the transmission controller, not the drive-by-wire system, but the Bluetooth module, the component that pairs your phone so you can listen to podcasts about productivity.</p>
+
+      <div class="pull-stat">3</div>
+      <div class="pull-label">Automakers that recalled vehicles for cross-domain electronic failures in 5 weeks</div>
+
+      <p>Five weeks earlier, Hyundai pulled 96,300 Tucsons off the metaphorical shelf because a communication error between the head-up display and the instrument cluster caused the entire dashboard to reboot mid-drive.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> No speedometer, no fuel gauge, no warning lights, just a black rectangle where your vital signs used to be, because two display systems had a disagreement about who goes first on the data bus.</p>
+
+      <p>In between the two, Ford recalled 91,374 F-150s and F-250 Super Dutys because the SYNC infotainment system decided to paint its home screen menu over the rearview camera feed.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The camera still worked and the display still worked, but the truck's entertainment computer muscled its way on top of a federally mandated safety feature while the driver was backing up, potentially toward a child, a fire hydrant, or both.</p>
+
+      <p>Three manufacturers across three continents of engineering teams produced the same result in five weeks. Same architectural failure every time: a non-safety system reaching across domain boundaries and wrecking a safety-critical function it was never supposed to touch.</p>
+
+      <h2>The Problem Nobody Categorizes</h2>
+
+      <p>NHTSA's 2025 Annual Recalls Report logged 119 software and electronics campaigns covering 8.19 million vehicles, making it the largest recall category by campaign count for the year.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> That 119 is up from a handful a decade ago, tracking the industry's sprint toward software-defined vehicles where a sedan might run 100 million lines of code across dozens of interconnected modules.</p>
+
+      <p>But NHTSA doesn't distinguish between a brake system with a bug in its own code and a Bluetooth adapter that accidentally shifts gears. It categorizes recalls by the <em>affected</em> component, not the <em>cause</em> component. Toyota's bZ7 goes into the drivetrain column, Hyundai's goes under displays, and Ford's lands in visibility, so the pattern disappears into three different filing cabinets.</p>
+
+      <p>This matters because the fix is fundamentally different: a single-domain software bug needs a patch, but a cross-domain failure needs a wall. ISO 26262, the international functional safety standard for road vehicles, exists specifically to mandate that wall.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> It assigns Automotive Safety Integrity Levels, ASIL A through D, and requires that systems at different levels be isolated from each other. Your Bluetooth module (no ASIL rating) should not be able to pass messages that reach your gear selector (ASIL D, the highest rating, because an uncommanded gear change at highway speed can kill you). The standard anticipated exactly this failure class, and three OEMs produced it anyway.</p>
+
+      <h2>What This Means If You Drive a Computer</h2>
+
+      <p>You do, and every vehicle sold in the United States since 2018 has a federally mandated backup camera, which means every vehicle sold since 2018 has at least one domain boundary between its infotainment stack and a safety-critical display function. Most have dozens more: adaptive cruise control reading data from the same bus as the climate system, lane-keep assist sharing a controller with the ambient lighting module, parking sensors routing through the same gateway as the satellite radio.</p>
+
+      <p>Toyota's bZ7 recall is in China, not the United States, at least not yet, but Toyota's bZ4X shares the e-TNGA platform and was itself recalled in the US in 2022 for hub bolts that could detach and shed a wheel, demonstrating that architecture-level problems rarely respect borders.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> If the Bluetooth module boundary is porous in the bZ7, the question is not whether it's porous in the bZ4X but whether anyone has actually checked.</p>
+
+      <p>The practical takeaway is grim but specific: check your VIN at nhtsa.gov/recalls. If you drive a 2025 or 2026 Hyundai Tucson, your dashboard might reboot while you're merging onto a freeway. If you drive a 2021-2023 Ford F-150 or a 2023-2026 F-250 Super Duty, your entertainment system might blind your backup camera while you're reversing toward your kid's bicycle. Both recalls have free dealer fixes or OTA updates pending.</p>
+
+      <h2>What Nobody Is Saying</h2>
+
+      <p>None of these recalls have confirmed injuries or fatalities, and NHTSA and all three manufacturers have stated as much in their filings, making this the auto-industry equivalent of catching a gas leak before the house explodes.</p>
+
+      <p>Absence of a body count is not evidence of safety; it is evidence that nobody died <em>yet</em>. GM's ignition switch killed 124 people before the recall. The Takata airbag killed 27 in the US alone, across 15 years and a dozen manufacturers, before the full scope was understood. Both started as "no confirmed injuries." Both were single-domain failures. A cross-domain failure, by definition, propagates through systems that were never designed to fail together, which means its failure modes are harder to predict, harder to reproduce, and harder to test for.</p>
+
+      <p>NHTSA should track cross-domain electronic failures as a distinct recall category. Until it does, the pattern will keep disappearing into filing cabinets, and three-OEM convergences will keep looking like coincidences instead of symptoms.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Reuters, &ldquo;Toyota to fix software for 24,000 China-built EVs over safety hazards,&rdquo; July 31, 2026. <a href="https://www.reuters.com/legal/litigation/toyota-fix-software-39552-china-built-evs-over-safety-hazards-2026-07-31/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-2">NHTSA/Reuters, &ldquo;Hyundai to recall over 96,000 US vehicles over faulty instrument panel display,&rdquo; June 26, 2026. <a href="https://www.reuters.com/legal/litigation/hyundai-recall-over-96000-us-vehicles-over-faulty-instrument-panel-display-nhtsa-2026-06-26/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-3">Ford Motor Company via NHTSA recall notice, &ldquo;Ford recalls more than 134,000 vehicles,&rdquo; July 28, 2026. Reported by USA Today. <a href="https://www.usatoday.com/story/cars/recalls/2026/07/31/ford-truck-ev-vehicle-recall-july-2026/91126684007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-4">NHTSA, <em>2025 Annual Recalls Report</em>, published March 2026. <a href="https://www.nhtsa.gov/sites/nhtsa.gov/files/2026-03/2025-annual-recalls-report.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">International Organization for Standardization, <em>ISO 26262: Road Vehicles &mdash; Functional Safety</em>, 2nd edition 2018. Defines ASIL A&ndash;D classifications and domain separation requirements for automotive electronic systems.</li>
+          <li id="ref-6">NHTSA, Toyota bZ4X hub bolt recall (Campaign 22V-497), June 2022. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings, manufacturer recall notices, and the NHTSA 2025 Annual Recalls Report. Cross-domain failure classification is the author&rsquo;s analytical framework; NHTSA does not currently use this category. Toyota bZ7 recall is China-market only. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
