@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impairment Is a Constant. The Vehicle Is the Variable. &mdash; The Crash Report</title>
+  <meta name="description" content="FARS data shows the correlation between a vehicle's death rate and its impairment rate is negative. The deadliest cars on American roads are killing sober people.">
+  <meta property="og:title" content="Impairment Is a Constant. The Vehicle Is the Variable.">
+  <meta property="og:description" content="The Pearson correlation between death rate and impairment across 200 vehicles is -0.195. The deadliest quartile has the same impairment rate as the safest.">
+  <meta property="og:image" content="../images/impairment-constant-vehicle-variable.jpg?v=f52ca01c">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Sobriety Report</div>
+      <h1>Impairment Is a Constant. The Vehicle Is the Variable.</h1>
+      <div class="byline">Dale Impactor III &bull; Clautomotive Desk</div>
+      <div class="dateline">August 5, 2026</div>
+
+      <img src="../images/impairment-constant-vehicle-variable.jpg?v=f52ca01c" alt="Scatter plot showing negative correlation between vehicle death rate and driver impairment rate across 200 FARS models" class="story-hero" loading="lazy">
+
+      <div class="story-body">
+
+      <p>According to the toxicology reports, and there are a lot of them, <strong>the Pearson correlation between a vehicle&rsquo;s death rate and its driver impairment rate across 200 models in FARS is -0.195</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Negative. The cars that kill the most people per mile driven have lower rates of impaired drivers than the cars that kill the fewest. I ran it twice. The sign did not change.</p>
+
+      <div class="pull-stat">-0.195</div>
+      <div class="pull-label">Pearson r between death rate and impairment rate across 200 FARS vehicles. Negative means the deadliest cars have the soberest drivers.</div>
+
+      <p>NHTSA launched its &ldquo;Drive Sober or Get Pulled Over&rdquo; campaign in July with $665 million in safety grants, celebrating that impairment-related fatalities dropped 11% in 2025.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Fair enough. But the FARS data says something the campaign materials do not: impairment is not what separates a safe car from a coffin on wheels. The vehicle is.</p>
+
+      <p>Split 200 vehicles into quartiles by death rate. The safest 25% average a rate of 0.33 deaths per 100 million VMT. Their average impairment rate: 19.5%. The deadliest 25% average a rate of 2.92, nearly nine times higher. Their average impairment: 19.6%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> A rounding error separates them. The death rate multiplies by nine. The impairment stays flat.</p>
+
+      <p>The deadliest quartile accounts for 86,103 of the 184,090 deaths in the dataset. Nearly half the body count. And their drivers are no more impaired than the drivers of a Toyota RAV4 or a Honda CR-V sitting in the safest quartile. A Hyundai Veloster posts a death rate of 8.54 with 17.4% impairment. A Chevy Tracker hits 7.83 with 12.7%. The Toyota Solara reaches 4.25 with 4.1% impairment, meaning ninety-six percent of its fatal crash drivers were stone sober.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> These vehicles are not killing impaired drivers. They are killing everyone.</p>
+
+      <p>Forty-six of the 200 vehicles sit in what I will diplomatically call the engineering-failure quadrant: above the median death rate and below the median impairment rate. Twenty-three percent of the fleet occupies the space where the car is deadly and the driver was doing nothing detectably wrong. No amount of sobriety checkpoints will fix a crumple zone that was never designed to absorb the energy of the crashes these vehicles actually experience.</p>
+
+      <p>Strongest counterargument: the correlation is weak, and impairment measurement in FARS has known limitations. Toxicology testing rates vary by state and jurisdiction. Some states test every fatally injured driver; others test fewer than half. A vehicle popular in a low-testing state might show artificially low impairment simply because nobody checked. Additionally, the death rate in FARS reflects the vehicle population over the 2014 to 2023 window, so high-rate vehicles tend to be older, discontinued models with smaller fleets and more structural risk, which correlates with different demographics independently of impairment. The negative correlation does not prove that sobriety causes crashes; it shows that impairment does not predict which vehicles kill the most, and that distinction matters for policy.</p>
+
+      <p><strong>What this means for you:</strong> If you are shopping for a car and a salesperson tells you safety is mostly about driver behavior, ask them to explain why a Hyundai Palisade at 0.06 and a Hyundai Veloster at 8.54 share a manufacturer logo but have a 142-fold gap in death rate at nearly identical impairment levels. Check the FARS data for your specific model at the Crash Report. Then check the IIHS crashworthiness rating. A sober driver in a dangerous car is still in a dangerous car.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Cross-tabulation of FARS_BY_MODEL death rates (deaths per 100M VMT) with FARS_TOXICOLOGY impairment rates (% of fatal crash drivers with BAC &gt; 0 or drug-positive toxicology). Sample: 200 vehicles with 100+ deaths and available toxicology data. Pearson correlation computed across unweighted model-level rates. <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-2">NHTSA, <em>&ldquo;Speeding Catches Up With You&rdquo; Campaign &amp; Q1 2026 Fatality Estimates</em>, July 2026. Speeding-related fatalities declined 11% in 2025 to an estimated 10,035. Q1 2026 fatality rate: 0.99 per 100M VMT, the second-lowest first-quarter rate in recorded history. $665M in traffic safety grants announced concurrently. <a href="https://www.nhtsa.gov/press-releases/trumps-transportation-department-reminds-drivers-that-speeding-catches-you" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">IIHS, <em>Fatality Statistics: Passenger Vehicle Occupant Deaths</em>. Comparative death rates by vehicle type and model. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Impairment rates reflect toxicology testing, which varies by jurisdiction and is not uniformly applied. Correlation does not establish causation. See <a href="../#method">methodology</a> for caveats.</p>
+
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
