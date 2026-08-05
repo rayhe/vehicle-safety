@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Some Cars Kill the Same Number of People Every Model Year. The Flat Ones Should Scare You Most. &mdash; The Crash Report</title>
+  <meta name="description" content="A coefficient of variation analysis of FARS model year death counts reveals two kinds of vehicles: consistent killers whose body count barely changes across generations, and generation gamblers where a single redesign determines whether you live or die.">
+  <meta property="og:title" content="Some Cars Kill the Same Number of People Every Model Year. The Flat Ones Should Scare You Most.">
+  <meta property="og:description" content="A coefficient of variation analysis of FARS model year death counts reveals two kinds of vehicles: consistent killers whose body count barely changes across generations, and generation gamblers where a single redesign determines whether you live or die.">
+  <meta property="og:image" content="../images/model-year-death-variance.jpg?v=0701c822">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Some Cars Kill the Same Number of People Every Model Year. The Flat Ones Should Scare You Most.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">August 4, 2026</div>
+
+      <div class="story-body">
+
+      <img src="../images/model-year-death-variance.jpg?v=0701c822" alt="Side-by-side charts comparing flat vs volatile vehicle death curves across model years">
+
+      <p>I ran the coefficient of variation on FARS model year death counts for every vehicle with at least eight model years and a hundred cumulative deaths in the dataset. Two shapes emerged, and they tell you more about your car than the sticker on the window ever will.</p>
+
+      <div class="pull-stat">0.24</div>
+      <div class="pull-label">Honda CR-V coefficient of variation across 21 model years of deaths, where 0 = perfectly flat and 1 = wild swings</div>
+
+      <p>The Honda CR-V has accumulated <strong>1,815 deaths across model years 2000 through 2020</strong>, averaging 86 per model year, and the coefficient of variation across that entire span is 0.24.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not low because the numbers are small, but because they barely change across fifteen years and three complete redesigns. Model year 2005 killed 102 people; model year 2019 killed 93, a gap of 9% spanning the addition of Honda Sensing, a switch from hydraulic to electric power steering, a structural shift from body-on-frame-adjacent to unibody, and yet the death count landed within rounding distance of the same figure. Whatever is killing CR-V occupants, it survived every engineering overhaul Honda threw at it.</p>
+
+      <p>Coefficient of variation divides the standard deviation by the mean, producing a dimensionless ratio that strips away absolute scale and leaves only shape. A CV near zero means every data point clusters around the mean; the vehicle kills roughly the same number of people every model year regardless of vintage. A CV near or above one means wild swings: certain model years are dramatically safer or deadlier than others, and the generation you buy is the bet you place.</p>
+
+      <p>The flattest death curves belong to vehicles nobody considers dangerous. CR-V sits at 0.24, and Chevrolet's Traverse and GMC Terrain both match at 0.27, which is to say that three of the most popular family haulers in America produce body counts so consistent year over year that you could plot them with a ruler and not miss by more than a handful of deaths in any direction. Wrangler, perpetual subject of rollover investigations and fire recalls, posts a 0.28 across 21 model years and 1,384 deaths because its design philosophy has been fundamentally static since the Reagan administration: short wheelbase, high center of gravity, body-on-frame, off-road suspension geometry that doesn't negotiate well with highway physics at any speed.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Ford Escape is 0.32 across 2,257 deaths. If you plotted these vehicles on a time series, you would see a line flat enough to rule with, not the bell curve that fleet aging should produce.</p>
+
+      <p>Then there are the vehicles whose death curves look like cardiac arrhythmia, swinging from triple digits in one model year to single digits in another with no gradual taper in between.</p>
+
+      <p>Ford's Explorer posts a <strong>coefficient of variation of 1.11</strong> across 21 model years and 2,512 deaths.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Model year 2002 killed 502 people, and model year 2020 killed 22. That is not a gradual improvement curve shaped by incremental engineering progress and the slow turnover of a used-vehicle fleet; it is a cliff, and at the bottom of the cliff is the specific generation that Ford redesigned in 2011, moving the Explorer from body-on-frame to unibody construction, deleting the very architecture that had earned it a reputation as one of the deadliest SUVs in America during the Firestone tire era and the rollover investigations that followed.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Ford's Expedition mirrors the pattern with a CV of 1.10, producing 123 deaths from the 2003 model year and only 5 from 2021. Chevrolet's Tahoe hits 1.07, and the Yukon lands at 0.92, which means every full-size, body-on-frame SUV from the domestic Big Three shares the same pattern. All full-size, body-on-frame SUVs whose early generations were so much deadlier than their later ones that the average across eras becomes statistically meaningless, like averaging the temperature of a furnace and a freezer and reporting the room as comfortable.</p>
+
+      <p>That distinction matters for anyone shopping used. A flat-CV vehicle gives you no generational escape hatch. A 2007 CR-V and a 2017 CR-V will, statistically, produce deaths at roughly the same rate per fleet vehicle, because whatever structural, visibility, or behavioral characteristics drive its fatality count are baked into the nameplate, not the vintage. A high-CV vehicle gives you enormous leverage: the 2002 Explorer and the 2020 Explorer share a badge and nothing else, and the death rate difference between them is an order of magnitude.</p>
+
+      <p>The obligatory caveat, stated at its full weight because this analysis deserves it: production volume per model year is a confounding variable the CV metric does not isolate. If Honda built 300,000 CR-Vs every year for two decades while Ford built 400,000 Explorers in 2002 and 200,000 in 2020, the death count volatility would partially reflect production volatility, not design risk. Two observations cut against that explanation without fully eliminating it. First, the Ford Escape (CV 0.32, 2,257 deaths) and the Ford Explorer (CV 1.11, 2,512 deaths) are built by the same company, sold through the same dealer network, marketed to adjacent demographics, and produced in broadly comparable annual volumes, yet their death curve shapes are inverse: one flat, one a roller coaster.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Second, the FARS observation window runs 2014 through 2023, meaning older model years had their full decade of exposure while recent ones did not, which should systematically bias toward higher counts for older vintages across all vehicles, producing uniformly right-skewed curves rather than the bimodal distribution of flat and volatile shapes that actually appears. Something beyond production volume is driving the separation.</p>
+
+      <p>A second limitation deserves its own paragraph, because it cuts directly at the mechanism the CV metric claims to measure. The CV metric treats each model year as an independent data point, but model years within a single vehicle generation share platforms, structures, and safety equipment. A vehicle produced on the same platform from 2012 through 2018 will show low inter-year variance during that span almost by definition. Low CV may partially reflect long production runs on unchanged platforms rather than inherently consistent risk. However, vehicles like the CR-V and Wrangler that show low CV across multiple complete platform redesigns are genuinely surprising, because the CV stays flat even when the vehicle under the badge changes completely.</p>
+
+      <p><strong>What to do with this:</strong> if you are shopping used and safety matters, look up not just the vehicle's overall FARS death rate but the model year distribution. A vehicle with high overall deaths but massive generational variation is a vehicle where the specific vintage you buy determines your risk. A 2002 Explorer is a different machine than a 2020 Explorer; treat them accordingly. A vehicle with moderate overall deaths but eerie consistency across vintages is a vehicle whose risk profile will follow you regardless of which year you pick, and the only exit is a different nameplate. Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>, and if you want a compact SUV where newer is genuinely safer, the Subaru Crosstrek (0.08 fatalities per 100M VMT) and Mazda CX-5 (0.12) outperform the segment across every recent model year.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Model year death counts, vehicle fleet estimates, and VMT calculations from FARS bulk CSV and NHTS annual miles survey. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, <em>Vehicle Size and Weight</em>, updated 2024. Rollover risk correlates with vehicle height-to-track-width ratio, a persistent Wrangler characteristic across generations. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">Wikipedia, <em>Ford Explorer</em>. Fifth-generation (2011) switch from body-on-frame (U502) to unibody (D471) architecture. <a href="https://en.wikipedia.org/wiki/Ford_Explorer" target="_blank" rel="noopener">en.wikipedia.org</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Coefficient of variation calculated on model year death counts for vehicles with &ge;8 model years and &ge;100 cumulative deaths (2000&ndash;2020 model years only to ensure sufficient fleet exposure). Newer model years (2019+) had fewer observation years, which may depress their counts. Production volume per model year is a known confound; see limitations discussion. See <a href="../#method">methodology</a> for caveats.</p>
+
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
