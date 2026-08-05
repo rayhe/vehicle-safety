@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-lateral-link-372x-escalation",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-05T14:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data_presentation": 9
+    }
+  },
   "last_completed": 696,
   "last_published": 696,
   "last_published_slug": "national-decline-vehicle-majority-worse"
