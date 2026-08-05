@@ -1,29 +1,6 @@
 {
-  "current": {
-    "slug": "impairment-constant-vehicle-variable",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Dale Impactor III",
-    "started": "2026-08-05T16:30:00Z",
-    "critique": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data_presentation": 8.5,
-      "hard_gates": {
-        "em_dashes": 2,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.4,
-        "css_class": "story",
-        "stylesheet": "style.css"
-      },
-      "notes": "All 7 critics at 8.5+. All hard gates pass. Novel finding: Pearson r=-0.195 between death rate and impairment across 200 FARS vehicles."
-    }
-  },
-  "last_completed": 696,
-  "last_published": 696,
-  "last_published_slug": "national-decline-vehicle-majority-worse"
+  "current": null,
+  "last_completed": 697,
+  "last_published": 697,
+  "last_published_slug": "impairment-constant-vehicle-variable"
 }
