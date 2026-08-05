@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-1-liter-maintenance-schedule-lied",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-05T22:26:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 8.5,
+      "data_presentation": 9
+    }
+  },
   "last_completed": 698,
   "last_published": 698,
   "last_published_slug": "ram-3500-highest-death-rate-kills-others"
