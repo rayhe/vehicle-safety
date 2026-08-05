@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "impairment-constant-vehicle-variable",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Dale Impactor III",
     "started": "2026-08-05T16:30:00Z",
@@ -20,7 +20,7 @@
         "css_class": "story",
         "stylesheet": "style.css"
       },
-      "notes": "All 7 critics at 8.5+. All hard gates pass. Novel finding: Pearson r=-0.195 between death rate and impairment across 200 FARS vehicles. Quartile analysis shows impairment is flat (19.5-20.7%) while death rate spans 0.33-2.92. Dale Impactor III voice strong."
+      "notes": "All 7 critics at 8.5+. All hard gates pass. Novel finding: Pearson r=-0.195 between death rate and impairment across 200 FARS vehicles."
     }
   },
   "last_completed": 696,
