@@ -1,22 +1,6 @@
 {
-  "current": {
-    "slug": "used-car-recall-lottery",
-    "phase": "QA",
-    "journalist": "Clara Rollover",
-    "started": "2026-08-05T23:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.5,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data_presentation": 9.0,
-      "average": 8.9
-    }
-  },
-  "last_completed": 702,
-  "last_published": 702,
-  "last_published_slug": "wrangler-million-fires-closed-investigation"
+  "current": null,
+  "last_completed": 703,
+  "last_published": 703,
+  "last_published_slug": "used-car-recall-lottery"
 }
