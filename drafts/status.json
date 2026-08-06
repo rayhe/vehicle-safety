@@ -1,22 +1,6 @@
 {
-  "current": {
-    "slug": "tesla-lateral-link-1-2-million-escalation",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Rex Driverton",
-    "started": "2026-08-06T14:30:00Z",
-    "critique_scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 9
-    },
-    "notes": "All 7 critics pass 8.5+. All hard gates pass (0 em dashes, 0 banned phrases, 1.9% The-starters, correct CSS). Fixed ref-4 to link actual 2023 Reuters investigation."
-  },
-  "last_completed": 705,
-  "last_published": 705,
-  "last_published_slug": "ford-ecoboost-belt-in-oil-time-bomb"
+  "current": null,
+  "last_completed": 706,
+  "last_published": 706,
+  "last_published_slug": "tesla-lateral-link-1-2-million-escalation"
 }
