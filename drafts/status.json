@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "tesla-lateral-link-1-2-million-escalation",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "started": "2026-08-06T14:30:00Z",
+    "notes": "Hero image generation failed (generate_media tool error). Need to generate image before SHIP."
+  },
   "last_completed": 705,
   "last_published": 705,
   "last_published_slug": "ford-ecoboost-belt-in-oil-time-bomb"
