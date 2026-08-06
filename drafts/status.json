@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "dot-erases-cyclist-protections",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "started": "2026-08-05T19:30:00-07:00"
+  },
   "last_completed": 700,
   "last_published": 700,
   "last_published_slug": "ev-suspension-weight-crisis"
