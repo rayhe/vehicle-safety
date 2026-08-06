@@ -1,22 +1,9 @@
 {
-  "current": {
-    "slug": "odyssey-camera-five-year-broken-fix",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-08-06T22:26:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 8.5,
-      "rigor": 8.5,
-      "data": 9
-    }
-  },
-  "article_number": 708,
-  "last_completed": 708,
-  "last_published": 708,
-  "last_published_slug": "cherokee-ptu-four-recalls-same-failure"
+  "current": null,
+  "phase": "DONE",
+  "article_number": 709,
+  "journalist": "Clara Rollover",
+  "last_completed": 709,
+  "last_published": 709,
+  "last_published_slug": "odyssey-camera-five-year-broken-fix"
 }
