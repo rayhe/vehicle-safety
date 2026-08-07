@@ -1,23 +1,8 @@
 {
-  "current": {
-    "slug": "nhtsa-odi-pipeline-2000-complaints-per-investigation",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-08-07T18:30:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data": 8.5
-    }
-  },
-  "article_number": 716,
+  "current": null,
+  "article_number": 717,
   "journalist": "Rex Driverton",
-  "last_completed": 715,
-  "last_published": 715,
-  "last_published_slug": "brand-generational-death-shift"
+  "last_completed": 716,
+  "last_published": 716,
+  "last_published_slug": "nhtsa-odi-pipeline-2000-complaints-per-investigation"
 }
