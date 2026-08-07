@@ -1,7 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "nhtsa-20-million-enforcement-14-million-unfixed",
+    "phase": "SHIP",
+    "journalist": "Dale Impactor III",
+    "started": "2026-08-07T13:30:00-07:00",
+    "article_number": 717,
+    "headline": "NHTSA Has $20 Million to Catch Bad Drivers. It Has $0 to Fix 14 Million Recalled Cars."
+  },
   "article_number": 717,
-  "journalist": "Rex Driverton",
+  "journalist": "Dale Impactor III",
   "last_completed": 716,
   "last_published": 716,
   "last_published_slug": "nhtsa-odi-pipeline-2000-complaints-per-investigation"
