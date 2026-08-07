@@ -1,32 +1,8 @@
 {
-  "current": {
-    "slug": "brand-generational-death-shift",
-    "phase": "SHIP",
-    "round": 1,
-    "journalist": "Axle McScatter",
-    "started": "2026-08-07T14:30:00Z",
-    "headline": "Kia's Death Count Rose 331% in a Decade. Chevrolet's Dropped by Half. America Barely Noticed.",
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 8.8,
-      "ethics": 9.0,
-      "social": 8.7,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data_presentation": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": "PASS",
-      "the_starters_pct": 9.8,
-      "css_class": "PASS",
-      "sentence_rhythm": "PASS (var=519, short=13.6%, long=43.2%)"
-    },
-    "notes": "Hero image generated and verified as JPEG. All critiques passed. Proceeding to SHIP."
-  },
-  "article_number": 715,
+  "current": null,
+  "article_number": 716,
   "journalist": "Axle McScatter",
-  "last_completed": 714,
-  "last_published": 714,
-  "last_published_slug": "low-speed-suv-pedestrian-lethal-zone"
+  "last_completed": 715,
+  "last_published": 715,
+  "last_published_slug": "brand-generational-death-shift"
 }
