@@ -1,33 +1,8 @@
 {
-  "current": {
-    "slug": "adhesive-recall-epidemic",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-08-07T04:26:00Z",
-    "headline": "Your Car Is Held Together With Glue. In 2026, the Glue Started Losing.",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5,
-      "average": 8.7
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 6.2,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": "PASS"
-    }
-  },
+  "current": null,
   "article_number": 712,
   "journalist": "Mia Crumplezone",
-  "last_completed": 711,
-  "last_published": 711,
-  "last_published_slug": "explorer-ghost-seat-no-fix"
+  "last_completed": 712,
+  "last_published": 712,
+  "last_published_slug": "adhesive-recall-epidemic"
 }
