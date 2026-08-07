@@ -1,14 +1,9 @@
 {
-  "current": {
-    "slug": "explorer-ghost-seat-no-fix",
-    "phase": "CRITIQUE",
-    "round": 1,
-    "journalist": "Vin Wreckage",
-    "started": "2026-08-06T19:30:00-07:00",
-    "headline": "Ford's Explorer Seat Reclines by Itself When You Walk Up to It. Ford Has No Fix."
-  },
+  "current": null,
+  "phase": "DONE",
   "article_number": 711,
-  "last_completed": 710,
-  "last_published": 710,
-  "last_published_slug": "ford-half-all-recalls-2026"
+  "journalist": "Vin Wreckage",
+  "last_completed": 711,
+  "last_published": 711,
+  "last_published_slug": "explorer-ghost-seat-no-fix"
 }
