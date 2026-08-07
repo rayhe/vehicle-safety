@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "brand-generational-death-shift",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "round": 1,
     "journalist": "Axle McScatter",
     "started": "2026-08-07T14:30:00Z",
@@ -22,7 +22,7 @@
       "css_class": "PASS",
       "sentence_rhythm": "PASS (var=519, short=13.6%, long=43.2%)"
     },
-    "notes": "All 7 critics at 8.5+. All hard gates pass. Blocked on hero image — generate_media tool failing with persistent truncation error. Ready for SHIP once image is generated and verified as JPEG."
+    "notes": "Hero image generated and verified as JPEG. All critiques passed. Proceeding to SHIP."
   },
   "article_number": 715,
   "journalist": "Axle McScatter",
