@@ -1,9 +1,9 @@
 {
-  "current": "ford-half-all-recalls-2026",
-  "phase": "SHIP",
+  "current": null,
+  "phase": "DONE",
   "article_number": 710,
   "journalist": "Axle McScatter",
-  "last_completed": 709,
-  "last_published": 709,
-  "last_published_slug": "odyssey-camera-five-year-broken-fix"
+  "last_completed": 710,
+  "last_published": 710,
+  "last_published_slug": "ford-half-all-recalls-2026"
 }
