@@ -1,7 +1,22 @@
 {
-  "current": null,
-  "article_number": 713,
-  "journalist": "Vin Wreckage",
+  "current": {
+    "slug": "low-speed-suv-pedestrian-lethal-zone",
+    "phase": "SHIP",
+    "journalist": "Clara Rollover",
+    "started": "2026-08-07T12:30:00Z",
+    "round": 1,
+    "scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 8.5,
+      "rigor": 9.0,
+      "data": 8.5
+    }
+  },
+  "article_number": 714,
+  "journalist": "Clara Rollover",
   "last_completed": 713,
   "last_published": 713,
   "last_published_slug": "fmvss-213-rear-impact-infant-seat-blind-spot"
