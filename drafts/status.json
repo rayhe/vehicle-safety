@@ -1,7 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "second-row-restraint-epidemic-three-oems",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-08-07T22:26:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 9,
+      "rigor": 9,
+      "data": 9
+    }
+  },
   "article_number": 718,
-  "journalist": "Dale Impactor III",
+  "journalist": "Mia Crumplezone",
   "last_completed": 717,
   "last_published": 717,
   "last_published_slug": "nhtsa-20-million-enforcement-14-million-unfixed"
