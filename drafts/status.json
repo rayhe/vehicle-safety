@@ -1,7 +1,15 @@
 {
-  "current": null,
-  "article_number": 714,
-  "journalist": "Clara Rollover",
+  "current": {
+    "slug": "brand-generational-death-shift",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Axle McScatter",
+    "started": "2026-08-07T14:30:00Z",
+    "headline": "Kia's Death Count Rose 331% in a Decade. Chevrolet's Dropped by Half. America Barely Noticed.",
+    "notes": "Hero image generation failed (tool loading issue). Need to generate and verify JPEG before shipping."
+  },
+  "article_number": 715,
+  "journalist": "Axle McScatter",
   "last_completed": 714,
   "last_published": 714,
   "last_published_slug": "low-speed-suv-pedestrian-lethal-zone"
