@@ -1,33 +1,8 @@
 {
-  "current": {
-    "slug": "urban-intersection-kill-zone",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-08-07T17:30:00-07:00",
-    "round": 1,
-    "ship_blocked": true,
-    "ship_blocked_reason": "7 articles published Aug 7 PT. 1/day limit. Ready to ship on Aug 8 PT.",
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 9,
-      "data": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 8.7,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": "PASS"
-    }
-  },
+  "current": null,
   "article_number": 719,
   "journalist": "Vin Wreckage",
-  "last_completed": 718,
-  "last_published": 718,
-  "last_published_slug": "second-row-restraint-epidemic-three-oems"
+  "last_completed": 719,
+  "last_published": 719,
+  "last_published_slug": "urban-intersection-kill-zone"
 }
