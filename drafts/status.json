@@ -1,30 +1,8 @@
 {
-  "current": {
-    "slug": "ecoboost-award-winning-engine-unreasonable-risk",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-08-08T22:26:00Z",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 9
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "banned_phrases": 0,
-      "the_starters_pct": 3.4,
-      "css_class": "story",
-      "stylesheet": "style.css"
-    }
-  },
-  "article_number": 725,
+  "current": null,
+  "article_number": 726,
   "journalist": "Mia Crumplezone",
-  "last_completed": 725,
-  "last_published": 725,
-  "last_published_slug": "scion-tc-youth-brand-corvette-killer"
+  "last_completed": 726,
+  "last_published": 726,
+  "last_published_slug": "ecoboost-award-winning-engine-unreasonable-risk"
 }
