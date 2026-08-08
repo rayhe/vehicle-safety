@@ -1,8 +1,15 @@
 {
-  "current": null,
-  "article_number": 720,
-  "journalist": "Vin Wreckage",
-  "last_completed": 720,
-  "last_published": 720,
-  "last_published_slug": "charger-hemi-dual-threat-iihs"
+  "current": {
+    "slug": "august-recall-snapshot-fars-crossref",
+    "phase": "QA",
+    "round": 1,
+    "journalist": "Axle McScatter",
+    "started": "2026-08-08T12:26:00Z",
+    "headline": "2.6 Million Vehicles Recalled in Five Weeks. Their FARS Body Count: 15,197."
+  },
+  "article_number": 721,
+  "journalist": "Axle McScatter",
+  "last_completed": 721,
+  "last_published": 721,
+  "last_published_slug": "august-recall-snapshot-fars-crossref"
 }
