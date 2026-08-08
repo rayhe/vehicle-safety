@@ -1,7 +1,14 @@
 {
-  "current": null,
-  "article_number": 724,
-  "journalist": "Axle McScatter",
+  "current": {
+    "slug": "scion-tc-youth-brand-corvette-killer",
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Rex Driverton",
+    "started": "2026-08-08T13:30:00-07:00",
+    "headline": "Toyota Built a Sports Car for First-Time Buyers. It Kills at a Higher Rate Than the Corvette."
+  },
+  "article_number": 725,
+  "journalist": "Rex Driverton",
   "last_completed": 724,
   "last_published": 724,
   "last_published_slug": "997-recalls-29-million-record-low-deaths"
