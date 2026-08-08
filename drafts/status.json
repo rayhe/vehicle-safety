@@ -1,24 +1,8 @@
 {
-  "current": {
-    "slug": "pedestrian-anatomy-suv-vs-sedan-impact-height",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-08-08T07:30:00-07:00",
-    "headline": "A Sedan Breaks Your Legs. An SUV Breaks Your Ribs, Your Skull, and Your Chances.",
-    "round": 1,
-    "critique_scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 9.0
-    }
-  },
+  "current": null,
   "article_number": 722,
   "journalist": "Clara Rollover",
-  "last_completed": 721,
-  "last_published": 721,
-  "last_published_slug": "august-recall-snapshot-fars-crossref"
+  "last_completed": 722,
+  "last_published": 722,
+  "last_published_slug": "pedestrian-anatomy-suv-vs-sedan-impact-height"
 }
