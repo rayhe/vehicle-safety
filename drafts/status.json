@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "tacoma-rear-seat-fix-still-fails",
-    "phase": "QA",
-    "round": 1,
-    "journalist": "Clara Rollover",
-    "started": "2026-08-09T05:30:00-07:00",
-    "critique_score": 8.86
-  },
-  "article_number": 729,
+  "current": null,
+  "article_number": 730,
   "journalist": "Clara Rollover",
-  "last_completed": 728,
-  "last_published": 728,
-  "last_published_slug": "ford-1l-engine-seizure-unreasonable-risk"
+  "last_completed": 729,
+  "last_published": 729,
+  "last_published_slug": "tacoma-rear-seat-fix-still-fails"
 }
