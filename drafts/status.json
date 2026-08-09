@@ -1,29 +1,5 @@
 {
-  "current": {
-    "slug": "cafe-standards-weight-safety-paradox",
-    "phase": "QA",
-    "round": 2,
-    "journalist": "Rex Driverton",
-    "started": "2026-08-09T16:30:00Z",
-    "scores": {
-      "general": 9.0,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 2.2,
-      "css_class": "story",
-      "stylesheet": "style.css",
-      "sentence_rhythm": "PASSED (variance 456, short 11.5%, long 65.4%)"
-    },
-    "notes": "Round 2 revision: fixed voice (removed clichés, sharpened Rex edge), improved social shareability (added quotable 'same agency' line), fixed sentence rhythm (was 19.4% short, now 11.5%). All 7 critics at 8.5+. All hard gates pass. Published as #730."
-  },
+  "current": null,
   "article_number": 731,
   "journalist": "Rex Driverton",
   "last_completed": 730,
