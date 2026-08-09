@@ -1,7 +1,32 @@
 {
-  "current": null,
+  "current": {
+    "slug": "cafe-standards-weight-safety-paradox",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Rex Driverton",
+    "started": "2026-08-09T16:30:00Z",
+    "scores": {
+      "general": 8.5,
+      "voice": 8.0,
+      "ethics": 9.0,
+      "social": 8.0,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 8.5
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 10,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    },
+    "notes": "All 7 critics at 8.0+. All hard gates pass. Ship blocked: 2 articles already published today (#728, #729). Ship on 2026-08-10.",
+    "ship_blocked": true,
+    "ship_blocked_reason": "2 articles published today"
+  },
   "article_number": 730,
-  "journalist": "Clara Rollover",
+  "journalist": "Rex Driverton",
   "last_completed": 729,
   "last_published": 729,
   "last_published_slug": "tacoma-rear-seat-fix-still-fails"
