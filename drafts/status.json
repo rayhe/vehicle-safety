@@ -1,20 +1,5 @@
 {
-  "current": {
-    "slug": "ford-1l-engine-seizure-unreasonable-risk",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "started": "2026-08-09T03:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 9,
-      "voice": 9,
-      "ethics": 9,
-      "social": 9,
-      "legal": 9,
-      "rigor": 8.5,
-      "data_presentation": 8.5
-    }
-  },
+  "current": null,
   "article_number": 728,
   "journalist": "Vin Wreckage",
   "last_completed": 728,
