@@ -2,7 +2,19 @@
   "current": "tahoe-suburban-same-platform-gap",
   "article_number": 732,
   "journalist": "Axle McScatter",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE_PASSED",
+  "ship_blocked": true,
+  "ship_blocked_reason": "5 articles published Aug 9 PT; 1/day limit. Ship on Aug 10 PT.",
+  "critic_scores": {
+    "general_editor": 9.0,
+    "voice_coach": 8.8,
+    "ethics": 9.0,
+    "social": 9.2,
+    "legal": 8.8,
+    "research_rigor": 9.0,
+    "data_accuracy": 9.5,
+    "average": 9.04
+  },
   "last_completed": 731,
   "last_published": 731,
   "last_published_slug": "gm-l87-v8-seizure-17000-deaths"
