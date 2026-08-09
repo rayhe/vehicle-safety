@@ -1,20 +1,5 @@
 {
-  "current": {
-    "slug": "fmvss-135-thirty-one-year-old-brake-standard",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-08-08T17:30:00-07:00",
-    "round": 1,
-    "scores": {
-      "general": 8.5,
-      "voice": 8.5,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 8.5
-    }
-  },
+  "current": null,
   "article_number": 727,
   "journalist": "Dale Impactor III",
   "last_completed": 727,
