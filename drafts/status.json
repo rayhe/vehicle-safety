@@ -1,5 +1,31 @@
 {
-  "current": null,
+  "current": {
+    "slug": "s10-ghost-truck-17x-replacement",
+    "phase": "SHIP",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-08-10T09:30:00-07:00",
+    "headline": "The Chevy S-10 Hasn't Been Sold in 22 Years. It Still Kills 143 People Annually.",
+    "kicker": "Investigation",
+    "critique_round": 1,
+    "critique_scores": {
+      "general": 9.0,
+      "voice": 8.5,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 3.8,
+      "css_class": "story",
+      "stylesheet": "style.css"
+    },
+    "hero_image_pending": true,
+    "notes": "Hero image generation failed (upstream unavailable). Next run must generate hero image before publishing."
+  },
   "last_completed": 735,
   "last_published": 735,
   "last_published_slug": "optima-invisible-611-dead",
