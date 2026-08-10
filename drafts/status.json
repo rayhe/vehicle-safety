@@ -23,8 +23,8 @@
       "css_class": "story",
       "stylesheet": "style.css"
     },
-    "hero_image_pending": true,
-    "notes": "Hero image generation failed (upstream unavailable). Next run must generate hero image before publishing."
+    "hero_image_pending": false,
+    "notes": "Hero image generated. Ready to publish next day (3 articles already published Aug 10)."
   },
   "last_completed": 735,
   "last_published": 735,
