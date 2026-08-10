@@ -2,9 +2,8 @@
   "current": "tahoe-suburban-same-platform-gap",
   "article_number": 732,
   "journalist": "Axle McScatter",
-  "phase": "CRITIQUE_PASSED",
-  "ship_blocked": true,
-  "ship_blocked_reason": "5 articles published Aug 9 PT; 1/day limit. Ship on Aug 10 PT.",
+  "phase": "QA",
+  "ship_blocked": false,
   "critic_scores": {
     "general_editor": 9.0,
     "voice_coach": 8.8,
