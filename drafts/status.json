@@ -2,9 +2,7 @@
   "current": "stellantis-recall-ratio-assembly-line-crisis",
   "article_number": 733,
   "journalist": "Clara Rollover",
-  "phase": "SHIP",
-  "ship_blocked": true,
-  "ship_blocked_reason": "6 articles published Aug 9 PT; 1/day limit. Ship on Aug 10 PT.",
+  "phase": "QA",
   "critic_scores": {
     "general_editor": 9.0,
     "voice_coach": 8.8,
@@ -16,6 +14,6 @@
     "average": 8.97
   },
   "last_completed": 732,
-  "last_published": 732,
-  "last_published_slug": "tahoe-suburban-same-platform-gap"
+  "last_published": 733,
+  "last_published_slug": "stellantis-recall-ratio-assembly-line-crisis"
 }
