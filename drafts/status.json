@@ -1,26 +1,8 @@
 {
-  "current": "distraction-share-pedestrian-deaths-doubled",
-  "article_number": 734,
-  "journalist": "Dale Impactor III",
-  "phase": "QA",
-  "critic_scores": {
-    "general_editor": 8.8,
-    "voice_coach": 8.7,
-    "ethics": 9.0,
-    "social": 9.0,
-    "legal": 8.8,
-    "research_rigor": 8.6,
-    "data_accuracy": 8.8,
-    "average": 8.81
-  },
-  "hard_gates": {
-    "em_dashes": 0,
-    "banned_phrases": 0,
-    "the_starts_pct": 6.8,
-    "css_class": "story",
-    "stylesheet": "style.css"
-  },
-  "last_completed": 733,
-  "last_published": 733,
-  "last_published_slug": "stellantis-recall-ratio-assembly-line-crisis"
+  "current": null,
+  "last_completed": 734,
+  "last_published": 734,
+  "last_published_slug": "distraction-share-pedestrian-deaths-doubled",
+  "last_published_date": "2026-08-10",
+  "last_journalist": "Dale Impactor III"
 }
