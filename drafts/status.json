@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "slug": "optima-invisible-611-dead",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-08-10T14:30:00Z",
+    "article_number": 735,
+    "headline": "Nobody Writes About the Kia Optima. 611 People Died in It Anyway.",
+    "round": 1,
+    "critique_scores": {
+      "general": 8.5,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 8.5,
+      "data_presentation": 9.0,
+      "average": 8.93
+    }
+  },
   "last_completed": 734,
   "last_published": 734,
   "last_published_slug": "distraction-share-pedestrian-deaths-doubled",
