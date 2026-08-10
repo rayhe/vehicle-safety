@@ -1,19 +1,9 @@
 {
-  "current": "stellantis-recall-ratio-assembly-line-crisis",
+  "current": null,
   "article_number": 733,
   "journalist": "Clara Rollover",
-  "phase": "QA",
-  "critic_scores": {
-    "general_editor": 9.0,
-    "voice_coach": 8.8,
-    "ethics": 9.0,
-    "social": 9.2,
-    "legal": 8.8,
-    "research_rigor": 8.8,
-    "data_accuracy": 9.2,
-    "average": 8.97
-  },
-  "last_completed": 732,
+  "phase": null,
+  "last_completed": 733,
   "last_published": 733,
   "last_published_slug": "stellantis-recall-ratio-assembly-line-crisis"
 }
