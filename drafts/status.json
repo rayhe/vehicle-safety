@@ -1,8 +1,27 @@
 {
-  "current": null,
-  "article_number": 733,
-  "journalist": "Clara Rollover",
-  "phase": null,
+  "current": "distraction-share-pedestrian-deaths-doubled",
+  "article_number": 734,
+  "journalist": "Dale Impactor III",
+  "phase": "SHIP",
+  "ship_blocked": true,
+  "ship_blocked_reason": "1 article published Aug 10 PT (stellantis-recall-ratio #733); 1/day limit. Ship on Aug 11 PT.",
+  "critic_scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics": 9.0,
+    "social": 9.0,
+    "legal": 8.8,
+    "research_rigor": 8.6,
+    "data_accuracy": 8.8,
+    "average": 8.81
+  },
+  "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starts_pct": 6.8,
+    "css_class": "story",
+    "stylesheet": "style.css"
+  },
   "last_completed": 733,
   "last_published": 733,
   "last_published_slug": "stellantis-recall-ratio-assembly-line-crisis"
