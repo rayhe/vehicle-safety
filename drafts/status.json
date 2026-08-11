@@ -1,5 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "stellantis-two-seatbelt-recalls-one-week",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-08-11T16:26:00Z",
+    "round": 1,
+    "scores": {
+      "general": 9,
+      "voice": 9,
+      "ethics": 9,
+      "social": 9,
+      "legal": 8.5,
+      "rigor": 8.5,
+      "data": 9
+    }
+  },
   "last_completed": 738,
   "last_published": 738,
   "last_published_slug": "journey-eleven-years-no-aeb-317-dead",
