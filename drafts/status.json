@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "gm-umtri-study-12-million-zero-numbers",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-08-11T01:30:00-07:00",
     "headline": "GM Studied 12 Million of Its Own Cars. It Won't Tell You What It Found.",
@@ -17,18 +17,19 @@
       "data_presentation": 9.0
     },
     "hard_gates": {
-      "em_dashes": 2,
+      "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 6.1,
+      "the_starters_pct": 4.1,
       "css_class": "story",
       "stylesheet": "style.css"
     },
     "hero_image_pending": false,
-    "notes": "All gates pass. Ready to ship as #737."
+    "published_as": 737,
+    "published_date": "2026-08-11"
   },
-  "last_completed": 736,
-  "last_published": 736,
-  "last_published_slug": "s10-ghost-truck-17x-replacement",
+  "last_completed": 737,
+  "last_published": 737,
+  "last_published_slug": "gm-umtri-study-12-million-zero-numbers",
   "last_published_date": "2026-08-11",
-  "last_journalist": "Mia Crumplezone"
+  "last_journalist": "Rex Driverton"
 }
