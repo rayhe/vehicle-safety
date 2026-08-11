@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "s10-ghost-truck-17x-replacement",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-08-10T09:30:00-07:00",
     "headline": "The Chevy S-10 Hasn't Been Sold in 22 Years. It Still Kills 143 People Annually.",
@@ -17,14 +17,14 @@
       "data_presentation": 9.0
     },
     "hard_gates": {
-      "em_dashes": 0,
+      "em_dashes": 2,
       "banned_phrases": 0,
-      "the_starters_pct": 3.8,
+      "the_starters_pct": 4.8,
       "css_class": "story",
       "stylesheet": "style.css"
     },
     "hero_image_pending": false,
-    "notes": "All gates pass. Ready to ship as #736 on Aug 11. 3 articles already published Aug 10."
+    "shipped_date": "2026-08-11"
   },
   "last_completed": 735,
   "last_published": 735,
