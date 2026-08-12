@@ -1,26 +1,26 @@
 {
   "current": {
-    "slug": "honda-fit-safest-subcompact-killed",
-    "phase": "QA",
+    "slug": "nhtsa-25-percent-staff-cut-complaint-ratio",
+    "phase": "SHIP",
     "round": 1,
-    "journalist": "Axle McScatter",
-    "started": "2026-08-11T22:30:00Z",
-    "headline": "Honda Built the Safest Subcompact in America. Then It Killed It.",
+    "journalist": "Dale Impactor III",
+    "started": "2026-08-12T08:30:00Z",
+    "headline": "NHTSA Lost 25% of Its Staff. It Was Already Investigating 0.05% of Complaints.",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
       "ethics": 9.0,
-      "social": 9.0,
+      "social": 8.5,
       "legal": 9.0,
-      "rigor": 8.5,
+      "rigor": 9.0,
       "data": 9.0
     },
-    "hero_image": "honda-fit-safest-subcompact-killed.jpg",
-    "published_date": "2026-08-12"
+    "ship_blocked": "1/day limit reached (1 published 2026-08-12), ship on 2026-08-13",
+    "hero_image": "nhtsa-25-percent-staff-cut-complaint-ratio-hero.jpg"
   },
-  "last_completed": 739,
-  "last_published": 739,
-  "last_published_slug": "stellantis-two-seatbelt-recalls-one-week",
-  "last_published_date": "2026-08-11",
-  "last_journalist": "Vin Wreckage"
+  "last_completed": 740,
+  "last_published": 740,
+  "last_published_slug": "honda-fit-safest-subcompact-killed",
+  "last_published_date": "2026-08-12",
+  "last_journalist": "Axle McScatter"
 }
