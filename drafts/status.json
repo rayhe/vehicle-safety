@@ -1,5 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "volvo-camera-fix-broke-brakes",
+    "phase": "SHIP",
+    "round": 1,
+    "journalist": "Rex Driverton",
+    "started": "2026-08-13T16:26:00Z",
+    "headline": "Volvo Fixed the Camera. The Fix Killed the Brakes.",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 9.0,
+      "data": 8.5
+    },
+    "hero_image": "volvo-camera-fix-broke-brakes-hero.jpg"
+  },
   "last_completed": 742,
   "last_published": 742,
   "last_published_slug": "hornet-tonale-more-recalls-than-sales",
