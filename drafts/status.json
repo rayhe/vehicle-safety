@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "nhtsa-25-percent-staff-cut-complaint-ratio",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Dale Impactor III",
     "started": "2026-08-12T08:30:00Z",
@@ -15,12 +15,11 @@
       "rigor": 9.0,
       "data": 9.0
     },
-    "ship_blocked": "1/day limit reached (Publish #740 on 2026-08-12 01:29 PDT), ship on 2026-08-13",
     "hero_image": "nhtsa-25-percent-staff-cut-complaint-ratio-hero.jpg"
   },
-  "last_completed": 740,
-  "last_published": 740,
-  "last_published_slug": "honda-fit-safest-subcompact-killed",
-  "last_published_date": "2026-08-12",
-  "last_journalist": "Axle McScatter"
+  "last_completed": 741,
+  "last_published": 741,
+  "last_published_slug": "nhtsa-25-percent-staff-cut-complaint-ratio",
+  "last_published_date": "2026-08-13",
+  "last_journalist": "Dale Impactor III"
 }
