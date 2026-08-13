@@ -1,11 +1,11 @@
 {
   "current": {
-    "slug": "nhtsa-25-percent-staff-cut-complaint-ratio",
-    "phase": "QA",
+    "slug": "hornet-tonale-more-recalls-than-sales",
+    "phase": "CRITIQUE",
     "round": 1,
-    "journalist": "Dale Impactor III",
-    "started": "2026-08-12T08:30:00Z",
-    "headline": "NHTSA Lost 25% of Its Staff. It Was Already Investigating 0.05% of Complaints.",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-08-13T08:30:00Z",
+    "headline": "Stellantis Built Two Cars on One Platform. Both Are Broken Five Different Ways.",
     "scores": {
       "general": 9.0,
       "voice": 9.0,
@@ -15,7 +15,8 @@
       "rigor": 9.0,
       "data": 9.0
     },
-    "hero_image": "nhtsa-25-percent-staff-cut-complaint-ratio-hero.jpg"
+    "hero_image": "hornet-tonale-more-recalls-than-sales-hero.jpg",
+    "ship_blocked": "1/day limit reached (Publish #741 on 2026-08-13), ship on 2026-08-14"
   },
   "last_completed": 741,
   "last_published": 741,
