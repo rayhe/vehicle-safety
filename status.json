@@ -1,8 +1,23 @@
 {
-  "current": null,
-  "last_completed": 735,
-  "last_published": 735,
-  "last_published_slug": "optima-invisible-611-dead",
-  "last_published_date": "2026-08-10",
-  "last_journalist": "Vin Wreckage"
+  "current": {
+    "number": 744,
+    "slug": "camry-hybrid-only-blind-dashboard",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Clara Rollover",
+    "ship_date": "2026-08-15",
+    "scores": {
+      "general": 9.0,
+      "voice": 9.0,
+      "ethics": 9.0,
+      "social": 8.5,
+      "legal": 9.0,
+      "rigor": 8.5,
+      "data": 8.5
+    }
+  },
+  "last_completed": 743,
+  "last_published": 743,
+  "last_published_slug": "volvo-camera-fix-broke-brakes",
+  "last_published_date": "2026-08-14",
+  "last_journalist": "Rex Driverton"
 }
