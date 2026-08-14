@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car's Safety Sensors Make Crashes More Expensive. That's the Point. &mdash; The Crash Report</title>
+  <meta name="description" content="IIHS data reveals a Simpson's Paradox in repair costs: ADAS-equipped vehicles cost 10-15% more per crash to fix, but their overall insurance losses are 30% lower because they crash far less often.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>Your Car's Safety Sensors Make Crashes More Expensive. That's the Point.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">August 16, 2026</div>
+
+      <img src="../images/adas-repair-cost-simpsons-paradox.jpg?v=3f1e6a1e" alt="Crash avoidance sensors on a modern vehicle bumper, partially damaged after a collision" style="max-width:100%;margin:1.5em 0;">
+
+      <p>Vehicle repair prices have climbed <strong>more than 40% since 2020</strong>, outpacing inflation by a comfortable margin. The finger-pointing has settled on a convenient villain: automatic emergency braking sensors, blind spot monitors, and lane-keeping cameras. Everyone from your body shop to your brother-in-law agrees.</p>
+
+      <p>They're right about one number and catastrophically wrong about the one that matters.</p>
+
+      <div class="pull-stat">15%</div>
+      <div class="pull-label">Higher property damage liability claim severity for ADAS-equipped vehicles, even though the other car's sensors aren't involved</div>
+
+      <p>An IIHS-HLDI analysis of 2017 through 2022 model year vehicles, published August 11, found that collision claim severity runs about 10% higher for vehicles with crash avoidance systems versus otherwise identical models without them.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> A windshield swap that used to cost $250 now hits $1,000 when a forward-facing camera needs recalibration.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> So far, the conventional wisdom holds.</p>
+
+      <p>But then the data does something strange: property damage liability claim severity, which covers damage to the <em>other</em> vehicle, is 15% higher for ADAS-equipped cars. Your sensors cannot possibly make the other driver's Honda Civic more expensive to fix, so where is that 15% coming from?</p>
+
+      <p>Welcome to Simpson's Paradox, automotive edition, because crash avoidance systems are exceptionally good at preventing cheap crashes: the 5-mph parking lot tap, the distracted-at-a-red-light rear-ender, the lane-drift sideswipe. AEB alone cuts police-reported rear-end crashes by 50%.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Remove those from the pool and the remaining crashes are disproportionately violent. Average cost per claim goes up because the cheap ones vanished, not because anything got more expensive.</p>
+
+      <p>Insurance math confirms it: PDL claim <em>frequency</em> for ADAS-equipped vehicles is nearly 40% lower, and collision frequency drops about 10%. Multiply slightly higher per-claim costs by dramatically lower claim counts, and overall collision losses fall about 5% while PDL losses plunge nearly 30%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Your crash costs more to fix because the system already prevented the five cheap ones and left you with the one expensive one it couldn't stop.</p>
+
+      <p>Sensors aren't the only cost driver, either: two-thirds of new vehicles now have AWD, more than half run turbocharged or electrified powertrains, and SUVs have swallowed the sedan market, generating more crash energy per impact.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Calibration bills are real, but they're one line item in a much longer invoice that includes the consequences of making every car bigger and more complicated than the one it replaced.</p>
+
+      <p>The counterargument deserves its full weight: this math is aggregate, and individual crash victims don't experience averages. If you're the person in the crash ADAS didn't prevent, your bill is genuinely 10 to 15% higher, and "but you crashed less often than the statistical you" is cold comfort with a $6,000 deductible. There's also a distributional question the insurance industry isn't eager to answer: if lower-income drivers are more likely to drive older, unequipped vehicles and get hit <em>by</em> newer ones, the savings accrue to one population while the costs land on another.</p>
+
+      <p>But blaming the cameras is still wrong, because those cameras are doing exactly what they were designed to do. They just leave behind a data trail that looks, to anyone who skips the multiplication, like they're making everything worse.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Moore, Matt. "How crash avoidance tech simultaneously raises and slashes repair costs." IIHS-HLDI, August 11, 2026. <a href="https://www.iihs.org/news/detail/how-crash-avoidance-tech-simultaneously-raises-and-slashes-repair-costs" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-2">IIHS. "Crash avoidance features improve safety but complicate repairs." 2023. <a href="https://www.iihs.org/news/detail/crash-avoidance-features-improve-safety-but-complicate-repairs" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> IIHS-HLDI analysis of 2017&ndash;2022 model year vehicles; BLS Consumer Price Index. Claim severity and frequency figures are from HLDI matched-pair studies comparing equipped vs. unequipped trims of the same models. See <a href="../#method">methodology</a> for caveats and assumptions behind fleet estimates.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
