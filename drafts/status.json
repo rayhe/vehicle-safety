@@ -36,5 +36,24 @@
       "rigor": 8.5,
       "data": 9.0
     }
-  }
+  },
+  "queue": [
+    {
+      "number": 746,
+      "slug": "toyota-combination-meter-serial-failure",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-14T13:30:00-07:00",
+      "ship_date": "2026-08-17",
+      "scores": {
+        "general": 8.5,
+        "voice": 8.5,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 8.5
+      }
+    }
+  ]
 }
