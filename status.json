@@ -15,7 +15,39 @@
       "data": 8.5
     }
   },
-  "last_completed": 743,
+  "next": {
+    "number": 745,
+    "slug": "adas-repair-cost-simpsons-paradox",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Vin Wreckage",
+    "ship_date": "2026-08-16"
+  },
+  "queue": [
+    {
+      "number": 746,
+      "slug": "toyota-combination-meter-serial-failure",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-08-17"
+    },
+    {
+      "number": 747,
+      "slug": "dui-arrest-collapse-deaths-dropped-anyway",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "ship_date": "2026-08-18",
+      "scores": {
+        "general": 9.0,
+        "voice": 8.5,
+        "ethics": 8.5,
+        "social": 9.0,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "data": 8.5
+      }
+    }
+  ],
+  "last_completed": 747,
   "last_published": 743,
   "last_published_slug": "volvo-camera-fix-broke-brakes",
   "last_published_date": "2026-08-14",

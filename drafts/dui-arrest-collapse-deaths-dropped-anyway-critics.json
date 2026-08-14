@@ -1,0 +1,35 @@
+{
+  "critics": {
+    "general": {
+      "score": 9.0,
+      "notes": "Strong paradox framework well-executed. Lede drops right into the experiment metaphor. Pull stat is compelling. Body flows logically: setup → evidence → mechanism → counterargument → actionable. Closing line ('only one kept working when nobody was paying attention') is memorable. Dale's voice is present throughout."
+    },
+    "voice": {
+      "score": 9.0,
+      "notes": "Passes all rhythm gates (variance 592.8, short 11.1%, long 66.7%). Zero banned phrases. Dale's signature opening present. 'More driving, fewer deaths, same cops doing less' and 'None of these required a single officer to leave the station' are punchy and character-consistent. No AI tells detected. Em dash count: 1 (max 3). The-starters: 0%."
+    },
+    "ethics": {
+      "score": 9.0,
+      "notes": "No self-congratulation. No moralizing. Counterargument presented fairly and at full strength ('But that concedes the point' structure is honest). Acknowledges enforcement works (checkpoints reduce fatalities ~20%). Doesn't advocate abolishing enforcement — concludes 'both levers work.' No problematic positions or implicit bias."
+    },
+    "social": {
+      "score": 8.5,
+      "notes": "Headline is highly shareable — the paradox frame is social media gold. Pull stat (0.99) is compelling and visually striking. 'More driving, fewer deaths, same cops doing less' is quotable. The engineering-vs-policing frame will generate engagement from both safety advocates and law enforcement critics. Could benefit from one more punchy pullquote."
+    },
+    "legal": {
+      "score": 9.0,
+      "notes": "All 7 citations are properly formatted with working reference links. NORC study is real and publicly accessible. NHTSA data sources are government records. ESC mandate date (2012 MY, per FMVSS 126) is correct. IIHS ESC effectiveness numbers match published research. Ref 6 (ride-hailing ~6%) lacks a direct URL — referenced through secondary source. No case law claims made. No legal exposure."
+    },
+    "rigor": {
+      "score": 8.5,
+      "notes": "Novel contribution: cross-referencing enforcement decline (NORC/Fell 2025) with FARS toxicology by vehicle class (490,736 drivers) to show stable impairment rates alongside declining fatalities. Limitations acknowledged in disclaimer (fragmentary enforcement data, observational causation, Colorado generalizability). Counterargument stated at full strength. Methodology transparent for FARS sample. Minor weakness: 'engineering compensating for policing' is more inference than proven causal link — acknowledged via 'observational' caveat."
+    },
+    "data": {
+      "score": 9.0,
+      "notes": "All FARS numbers verified against fars_output.js: 490,736 drivers, sports cars 22.4%, sedans 20.4%, pickups 20.1%. External data: 13,617 (2021 impaired deaths) from NORC/NHTSA, 36,640 (2025 total deaths) from NHTSA, 0.99/100M VMT from NHTSA Q1 2026, ESC 56%/78% from IIHS, ride-hailing ~6% from IIHS/HLDI, Colorado 31%→22% from CTFDID. Math checks out."
+    }
+  },
+  "all_pass": true,
+  "min_score": 8.5,
+  "recommendation": "SHIP. All 7 critics at or above 8.5. Strong article with novel contribution, honest counterargument, and actionable takeaways. Queue as #747 with ship_date 2026-08-18."
+}
