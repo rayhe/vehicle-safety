@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "volvo-camera-fix-broke-brakes",
-    "phase": "SHIP",
+    "phase": "QA",
     "round": 1,
     "journalist": "Rex Driverton",
     "started": "2026-08-13T16:26:00Z",
@@ -15,8 +15,7 @@
       "rigor": 9.0,
       "data": 8.5
     },
-    "hero_image": "volvo-camera-fix-broke-brakes-hero.jpg",
-    "ship_blocked": "2026-08-14"
+    "hero_image": "volvo-camera-fix-broke-brakes-hero.jpg"
   },
   "last_completed": 742,
   "last_published": 742,
