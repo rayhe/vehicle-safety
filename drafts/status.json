@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "number": 751,
+    "slug": "sk-on-electrode-misalignment-two-oems-one-defect",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-15T05:30:00-07:00",
+    "round": 0
+  },
   "last_completed": 744,
   "last_published": 744,
   "last_published_slug": "camry-hybrid-only-blind-dashboard",
