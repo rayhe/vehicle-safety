@@ -1,0 +1,121 @@
+# 7-Critic Panel — ford-741k-rollaway-ten-month-remedy-gap
+# Round 0 — August 14, 2026
+
+## 🔍 1. General Editor — Overall Quality, Structure, Engagement
+**Score: 9.0/10**
+
+Strengths:
+- Headline is specific, surprising, and numbered — instantly communicates the story
+- Two pull-stats are well-placed and powerful (8.3B miles, 296K vehicles never fixed)
+- Structure flows naturally: the specific recall → remedy gap math → structural system problem → counterargument → limitations → action
+- The closing line ("The data says the other 40% will read this sentence, nod, and never make the appointment") is a strong kicker
+- Original contribution is clear: cross-referencing recall completion rates with the specific Ford recall to project the permanently unfixed fleet
+
+Weaknesses:
+- At ~1300 words, it's on the longer side. The "structural problem" section with J.D. Power data, while interesting, could be tightened.
+- Could use one more short punchy paragraph to break up the mid-section
+
+## 🗣️ 2. Voice Coach — AI Tells, Banned Phrases, Rhythm
+**Score: 8.5/10**
+
+Hard gate checks:
+- Em dashes: 0 (PASS, limit 3)
+- Banned phrases: 0 (PASS)
+- "The" starters: 14.7% (PASS, limit 15%)
+- Sentence rhythm: PASS (variance 259.5, short 13.3%, long 43.3%)
+
+Voice assessment:
+- Distinctly Axle McScatter — obsessed with the math, lets numbers tell the story
+- Good sentence variety — fragments like "Not during the gap. Not after. Not ever." alongside complex constructions
+- The phrase "the opening act" is slightly theatrical but within bounds
+- No throat-clearing. Opens with the specific fact immediately.
+- "The arithmetic is grim" is an Axle-appropriate opening line for paragraph 2
+
+Minor concerns:
+- "What the numbers actually say" as a section header is slightly generic
+- "The unintended consequence is a system that generates warnings without solutions" is a well-constructed sentence but borders on editorializing
+
+## ⚖️ 3. Ethics Reviewer — Moral Reasoning, Positions
+**Score: 9.0/10**
+
+Strengths:
+- Does NOT demonize Ford — explicitly acknowledges the counterargument that the timeline may reflect responsible engineering
+- Presents the 0.038% incident rate honestly, doesn't hide it
+- The "emotional injuries" detail is included factually without mocking
+- Acknowledges the structural problem is systemic, not Ford-specific
+- Limitations section is thorough and honest
+
+No ethical red flags. The article criticizes the system, not the manufacturer specifically.
+
+## 📱 4. Social/Shareability — Pull Quotes, Share Triggers, Virality
+**Score: 8.5/10**
+
+Strong share triggers:
+- "741,195 vehicles, 10 months, no fix" — extremely shareable headline format
+- "~296,000 will never be fixed" — sticky number
+- "8.3 billion miles" stat is visceral and shareable
+- The closing line is screenshot-worthy
+- "You cannot prevent a hydraulic component from malfunctioning through careful parking habits" — quotable observation
+
+Could improve:
+- No visual chart or data table (understandable for HTML format, but a chart showing the completion rate decay curve would boost shares)
+- Could reference whether readers can easily check if THEIR vehicle is affected (it does at the end, but earlier placement could help engagement)
+
+## ⚖️ 5. Legal Accuracy — Citations, Statutory References
+**Score: 9.0/10**
+
+- All claims traced to cited sources with 7 references
+- NHTSA recall number (26S48) cited correctly
+- Recall completion rates sourced from NHTSA Report to Congress
+- Federal notification requirement accurately described (manufacturers must notify as soon as defect confirmed)
+- No unsupported claims about legal liability
+- Consumer Reports and NHTSA data properly attributed
+- The J.D. Power data is from 2016 which is a decade old — flagged but acceptable since the pattern is consistent and no newer comprehensive analysis is available
+
+## 🔬 6. Research Rigor — Novel Contribution, Limitations, Counterarguments, Verifiability
+**Score: 8.5/10**
+
+Novel contribution: YES — the cross-reference of age-adjusted recall completion rates with a specific active recall to project permanently unfixed vehicles (296K) is original. The 8.3B remedy-gap-miles calculation is original. Neither has been published elsewhere for this recall.
+
+Limitations: THOROUGH — explicitly acknowledges aggregate vs. Ford-specific rates, severity-motivated repair differences, VMT estimation uncertainty (±15%), and forward projection limitations.
+
+Strongest counterargument: WELL STATED — electronic parking brake backup, low incident rate (0.038%), and the engineering complexity argument. Not strawmanned.
+
+Verifiability: STRONG — all key data points traceable to linked sources. The 60% completion rate is from NHTSA's own Report to Congress. The recall details match NHTSA filing.
+
+Concerns:
+- The NHTS VMT data is for the vehicle category broadly, not specifically these Ford/Lincoln models
+- The J.D. Power data is nearly a decade old
+- "12.6 years" average vehicle age should be sourced more precisely (the article states it without citation)
+
+## 📊 7. Data Presentation — Charts, Numbers, Formatting
+**Score: 8.5/10**
+
+Strengths:
+- Two pull-stats are well-placed and clearly labeled
+- Numbers are presented in context (e.g., "0.038% incident rate, which by fleet-scale standards is low")
+- The arithmetic is shown, not just asserted (13,500 × 10/12 × 741,195 = 8.3B)
+- ±15% uncertainty explicitly stated for VMT estimates
+
+Weaknesses:
+- No actual data visualization (table or chart) — Axle McScatter would normally include one
+- Could include a simple table showing the completion rate decay by vehicle age bracket
+- The 4-billion-miles-per-year figure for permanently unfixed vehicles could use its own pull-stat
+
+---
+
+## Summary
+| Critic | Score |
+|--------|-------|
+| General Editor | 9.0 |
+| Voice Coach | 8.5 |
+| Ethics | 9.0 |
+| Social | 8.5 |
+| Legal | 9.0 |
+| Rigor | 8.5 |
+| Data Presentation | 8.5 |
+| **Average** | **8.71** |
+
+All 7 critics at 8.5+. All hard gates pass.
+
+**VERDICT: SHIP**

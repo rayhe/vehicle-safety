@@ -71,6 +71,23 @@
         "rigor": 8.5,
         "data": 9.0
       }
+    },
+    {
+      "number": 748,
+      "slug": "ford-741k-rollaway-ten-month-remedy-gap",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "started": "2026-08-14T23:30:00-07:00",
+      "ship_date": "2026-08-19",
+      "scores": {
+        "general": 9.0,
+        "voice": 8.5,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 8.5
+      }
     }
   ]
 }
