@@ -90,6 +90,23 @@
         "rigor": 8.5,
         "data": 8.5
       }
+    },
+    {
+      "number": 750,
+      "slug": "nissan-sentra-same-driveshaft-defect-twice",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "started": "2026-08-15T03:30:00-07:00",
+      "ship_date": "2026-08-21",
+      "scores": {
+        "general": 8.5,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 8.5
+      }
     }
   ]
 }
