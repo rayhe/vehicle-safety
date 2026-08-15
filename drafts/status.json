@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_completed": 751,
+  "last_completed": 752,
   "last_published": 744,
   "last_published_slug": "camry-hybrid-only-blind-dashboard",
   "last_published_date": "2026-08-15",
@@ -122,6 +122,23 @@
         "social": 8.5,
         "legal": 9.0,
         "rigor": 9.0,
+        "data": 9.0
+      }
+    },
+    {
+      "number": 752,
+      "slug": "mach-e-every-model-year-recalled",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Vin Wreckage",
+      "started": "2026-08-15T07:30:00-07:00",
+      "ship_date": "2026-08-23",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
         "data": 9.0
       }
     }
