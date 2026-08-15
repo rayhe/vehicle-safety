@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race. &mdash; The Crash Report</title>
+  <meta name="description" content="A software race condition in the CAN bus startup sequence silences Ford's trailer control module, killing brake lights, turn signals, and trailer brakes across 4.38 million trucks and SUVs.">
+  <meta property="og:title" content="Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race.">
+  <meta property="og:description" content="A CAN bus race condition silences Ford's trailer module at startup. Stop lamps go dark. Turn signals vanish. On high-series modules, trailer brakes die too. 4,380,609 trucks recalled.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/ford-trailer-module-race-condition-4m.jpg?v=1">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/ford-trailer-module-race-condition-4m.jpg?v=1">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race.</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">August 15, 2026</div>
+
+      <div class="pull-stat">4,380,609</div>
+      <div class="pull-label">Ford trucks and SUVs recalled because a software race condition can silence the trailer control module at startup, killing stop lamps, turn signals, and trailer brakes.</div>
+
+      <div class="story-body">
+        <p><strong>In computer science, a race condition is what happens when two processes compete for the same resource and the loser fails silently.</strong> In an app, that crashes your spreadsheet. In a Ford F-150 pulling a 10,000-pound boat down I-95 at dusk, it turns your trailer invisible.</p>
+
+        <p>NHTSA recall 26V104000, filed February 20, 2026, covers <strong>4,380,609</strong> Ford and Lincoln vehicles because the Integrated Trailer Module can lose its argument with the CAN bus during the startup sequence.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Ford's own safety recall report describes the root cause as a "software vulnerability" creating a "race condition" between the ITRM and the CAN bus Standby Control bit. Every module on the bus tries to talk when you turn the key; if the trailer module's voice gets stepped on, it goes quiet, and quiet means no stop lamps, no turn signals, and on vehicles with the high-series module, no trailer brakes at all.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+        <p>The affected list reads like a census of American driveways: 2021 through 2026 F-150s account for more than 2.3 million units alone, followed by over 1.1 million Super Duty trucks, plus Rangers, Expeditions, Navigators, Mavericks, and E-Transits.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Ford estimates roughly 1% of these vehicles actually exhibit the defect, which still puts the exposed population north of 43,000 trucks that might silently drop their trailer's entire lighting and braking system the next time someone turns the ignition.</p>
+
+        <p>Ford knew about 407 incidents before filing the recall, and despite that volume reported zero crashes and zero injuries across the entire population.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The company discussed the issue with NHTSA during a monthly meeting in December 2025, reopened its investigation in January at the agency's urging, and issued the recall in February. That timeline matters because Ford has been operating under a 2024 NHTSA consent order that installed an independent monitor and required accelerated safety disclosures, and the Center for Auto Safety's executive director Michael Brooks has noted that Ford's recall volume "started creeping up to significant levels right about the time the consent order was in the works," making Ford the U.S. recall leader for three consecutive years.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The consent order is doing exactly what it was designed to do: forcing problems into daylight faster than the old system ever managed.</p>
+
+        <p>FARS data from 2014 through 2023 logs 26,529 deaths in pickup trucks across the four major nameplates, the highest body count of any vehicle class, though FARS does not isolate towing-related fatalities as a distinct crash type, so the intersection between this specific defect and fatal outcomes remains unmeasured.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> What is measured: a software bug that can erase your trailer from the perception of every driver behind you. Ford's fix is a free over-the-air update or dealer visit, with owner notification letters mailing since March 17, and if you own any of these trucks and tow anything, check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a> before you hitch up.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Safety Recall Campaign 26V104000: Trailer Lighting and Brakes May Not Function</em>, filed February 20, 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+          <li id="ref-2">MotorTrend, &ldquo;4.3 Million Ford Trucks Recalled For Trailer Controller Software Glitch,&rdquo; February 2026. Race condition technical detail sourced from Ford&rsquo;s Safety Recall Report.</li>
+          <li id="ref-3">Insurance Business Magazine, &ldquo;Ford recalls 4.3 million US trucks and SUVs over trailer brake, lighting fault,&rdquo; February 2026.</li>
+          <li id="ref-4">USA Today, &ldquo;Ford leads among carmaker recalls so far in 2026: Here&rsquo;s why,&rdquo; June 2026, quoting Michael Brooks, executive director of the Center for Auto Safety.</li>
+          <li id="ref-5">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings for defect and remedy information; FARS 2014&ndash;2023 for pickup truck fatality counts. The 26,529 pickup deaths span all makes and crash types, not exclusively towing incidents, and Ford&rsquo;s 1% defect incidence estimate is self-reported. See <a href="../#method">methodology</a> for caveats.</p>
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a>
+    </footer>
+  </div>
+</body>
+</html>
