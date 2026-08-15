@@ -54,6 +54,23 @@
         "rigor": 8.5,
         "data": 8.5
       }
+    },
+    {
+      "number": 747,
+      "slug": "dui-arrest-collapse-deaths-dropped-anyway",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "started": "2026-08-14T17:00:00-07:00",
+      "ship_date": "2026-08-18",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 9.0
+      }
     }
   ]
 }
