@@ -1,11 +1,5 @@
 {
-  "current": {
-    "number": 753,
-    "slug": "point-nine-nine-norway-is-at-point-two",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "ship_date": "2026-08-24"
-  },
+  "current": null,
   "next": {
     "number": 745,
     "slug": "adas-repair-cost-simpsons-paradox",
@@ -69,6 +63,22 @@
       "phase": "SHIP_BLOCKED",
       "journalist": "Vin Wreckage",
       "ship_date": "2026-08-23"
+    },
+    {
+      "number": 753,
+      "slug": "point-nine-nine-norway-is-at-point-two",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "ship_date": "2026-08-24",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 9.0,
+        "data": 9.5
+      }
     }
   ],
   "last_completed": 753,
