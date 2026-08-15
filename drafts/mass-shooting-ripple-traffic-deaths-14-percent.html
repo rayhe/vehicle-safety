@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mass Shootings Kill People on the Road the Next Day &mdash; The Crash Report</title>
+  <meta name="description" content="A JAMA Psychiatry study found fatal traffic crashes spike 14.3% nationwide the day after a mass shooting. The extra road deaths equal 75% of the shooting victims.">
+  <meta property="og:title" content="Mass Shootings Kill People on the Road the Next Day">
+  <meta property="og:description" content="Fatal crashes spike 14.3% the day after a major mass shooting. The road toll from distraction nearly matches the direct toll of the violence.">
+  <meta property="og:image" content="../images/mass-shooting-ripple-traffic-deaths-14-percent.jpg?v=454a24e3">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Mass Shootings Kill People on the Road the Next Day</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">August 15, 2026</div>
+
+      <p>Researchers at JAMA Psychiatry ran FARS data against the dates of the ten deadliest mass shootings between 2008 and 2023.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The day after each event, fatal traffic crashes nationwide jumped <strong>14.3 percent</strong>, translating to roughly 20 additional deaths scattered across states that had nothing geographic to do with the shooting.</p>
+
+      <div class="pull-stat">~75%</div>
+      <div class="pull-label">Extra traffic deaths as a share of direct shooting victims</div>
+
+      <p>That 75-percent figure deserves a second read. For every four people killed in the shooting itself, three more people died on roads across the country the following day because other drivers couldn't keep their focus on the lane ahead of them. Eight of the ten events showed the spike. Those two outliers amounted to statistical noise in a dataset already limited to ten observations, and the authors are upfront about that constraint.</p>
+
+      <p>Distraction research has been screaming the mechanism for a decade, and it lines up. Google search volume for the shooting peaked on the same day the crash spike appeared. Two-thirds of Americans report mass shootings as a major source of stress, and psychology literature documents how exposure to sudden, graphic news can lock attention onto the event, pulling cognitive resources away from tasks that require situational awareness, like not merging into a guardrail at 72 miles per hour.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>What's uncomfortable is the universality. Researchers controlled for driver age, gender, urbanicity, and weather, and none of it mattered. From rural Montana to downtown Miami, from 22-year-old commuters to retired snowbirds, on clear days and rainy ones alike, the spike hit everywhere. Information environment was the variable, not the road conditions or the people on them.</p>
+
+      <p>A fair counterargument: ten events is a small sample, and quasi-experimental designs can't fully rule out confounders. Maybe one of those dates coincided with a holiday weekend or a weather system. Patel et al addressed this by comparing each post-shooting day to the ten-day average before it, which controls for seasonality and weekly patterns. Not perfect, but methodologically honest, and they say so in print.</p>
+
+      <p>What this means for vehicle safety is harder to stomach than the usual recall advisory. NHTSA can force a manufacturer to fix a defective fuel pump. Nobody can recall a news cycle. NTSB spent 14 years asking for phone-lockout technology and got nowhere.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> This study adds another dimension to the distraction problem: it isn't just the phone in your cupholder pulling your eyes down. It's the weight of the world pulling your mind somewhere else entirely. And FARS, the same dataset we use to count dead Silverado passengers and measure impairment rates, quietly recorded the collateral damage all along.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Patel VR et al, &ldquo;The Broader Impact of Mass Shootings on Traffic Fatalities,&rdquo; <em>JAMA Psychiatry</em> (2026). DOI: 10.1001/jamapsychiatry.2026.1912. <a href="https://jamanetwork.com/journals/jamapsychiatry" target="_blank" rel="noopener">jamanetwork.com</a></li>
+          <li id="ref-2">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2008&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NTSB, &ldquo;Disconnect from Deadly Distractions,&rdquo; Most Wanted List. <a href="https://www.ntsb.gov/Advocacy/mwl/Pages/default.aspx" target="_blank" rel="noopener">ntsb.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> FARS 2008&ndash;2023 via Patel et al (2026), JAMA Psychiatry. Quasi-experimental design with n=10 events; small sample acknowledged by authors. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
