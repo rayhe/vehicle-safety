@@ -1,11 +1,5 @@
 {
-  "current": {
-    "number": 760,
-    "slug": "recall-false-positive-rate-completion-death-spiral",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "kicker": "By The Numbers"
-  },
+  "current": null,
   "queue": [
     {
       "number": 746,
@@ -118,9 +112,26 @@
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
       "ship_date": "2026-08-29"
+    },
+    {
+      "number": 760,
+      "slug": "recall-false-positive-rate-completion-death-spiral",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "ship_date": "2026-08-30",
+      "kicker": "By The Numbers",
+      "scores": {
+        "general": 9.0,
+        "voice": 8.5,
+        "ethics": 8.7,
+        "social": 9.0,
+        "legal": 8.7,
+        "rigor": 8.5,
+        "data": 9.0
+      }
     }
   ],
-  "last_completed": 759,
+  "last_completed": 760,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
