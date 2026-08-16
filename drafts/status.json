@@ -1,20 +1,13 @@
 {
   "current": null,
   "next": {
-    "number": 745,
-    "slug": "adas-repair-cost-simpsons-paradox",
+    "number": 746,
+    "slug": "toyota-combination-meter-serial-failure",
     "phase": "SHIP_BLOCKED",
-    "journalist": "Vin Wreckage",
-    "ship_date": "2026-08-16"
+    "journalist": "Mia Crumplezone",
+    "ship_date": "2026-08-17"
   },
   "queue": [
-    {
-      "number": 745,
-      "slug": "adas-repair-cost-simpsons-paradox",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Vin Wreckage",
-      "ship_date": "2026-08-16"
-    },
     {
       "number": 746,
       "slug": "toyota-combination-meter-serial-failure",
@@ -130,8 +123,8 @@
     }
   ],
   "last_completed": 756,
-  "last_published": 744,
-  "last_published_slug": "camry-hybrid-only-blind-dashboard",
-  "last_published_date": "2026-08-15",
-  "last_journalist": "Clara Rollover"
+  "last_published": 745,
+  "last_published_slug": "adas-repair-cost-simpsons-paradox",
+  "last_published_date": "2026-08-16",
+  "last_journalist": "Vin Wreckage"
 }
