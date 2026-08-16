@@ -79,9 +79,25 @@
         "rigor": 9.0,
         "data": 9.5
       }
+    },
+    {
+      "number": 754,
+      "slug": "gm-ten-vehicle-battery-swap-fire-recall",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-08-25",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 9.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 8.5
+      }
     }
   ],
-  "last_completed": 753,
+  "last_completed": 754,
   "last_published": 744,
   "last_published_slug": "camry-hybrid-only-blind-dashboard",
   "last_published_date": "2026-08-15",
