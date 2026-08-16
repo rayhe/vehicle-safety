@@ -140,9 +140,25 @@
       "ship_date": "2026-09-01",
       "status": "SHIP_BLOCKED",
       "score": 9.0
+    },
+    {
+      "number": 764,
+      "slug": "ota-recall-fix-parts-tariff-two-tier",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "ship_date": "2026-08-30",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      }
     }
   ],
-  "last_completed": 763,
+  "last_completed": 764,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
