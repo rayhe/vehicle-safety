@@ -1,153 +1,74 @@
 {
   "current": null,
-  "last_completed": 753,
-  "last_published": 744,
-  "last_published_slug": "camry-hybrid-only-blind-dashboard",
-  "last_published_date": "2026-08-15",
-  "last_journalist": "Clara Rollover",
   "next": {
     "number": 745,
     "slug": "adas-repair-cost-simpsons-paradox",
     "phase": "SHIP_BLOCKED",
     "journalist": "Vin Wreckage",
-    "started": "2026-08-14T05:30:00-07:00",
-    "ship_date": "2026-08-16",
-    "scores": {
-      "general": 8.5,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 8.5,
-      "data": 9.0
-    }
+    "ship_date": "2026-08-16"
   },
   "queue": [
+    {
+      "number": 745,
+      "slug": "adas-repair-cost-simpsons-paradox",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Vin Wreckage",
+      "ship_date": "2026-08-16"
+    },
     {
       "number": 746,
       "slug": "toyota-combination-meter-serial-failure",
       "phase": "SHIP_BLOCKED",
       "journalist": "Mia Crumplezone",
-      "started": "2026-08-14T13:30:00-07:00",
-      "ship_date": "2026-08-17",
-      "scores": {
-        "general": 8.5,
-        "voice": 8.5,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 8.5
-      }
+      "ship_date": "2026-08-17"
     },
     {
       "number": 747,
       "slug": "dui-arrest-collapse-deaths-dropped-anyway",
       "phase": "SHIP_BLOCKED",
       "journalist": "Dale Impactor III",
-      "started": "2026-08-14T17:00:00-07:00",
-      "ship_date": "2026-08-18",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 9.0
-      }
+      "ship_date": "2026-08-18"
     },
     {
       "number": 748,
-      "slug": "ford-741k-rollaway-ten-month-remedy-gap",
+      "slug": "ford-741k-rollaway-recall-remedy-gap",
       "phase": "SHIP_BLOCKED",
       "journalist": "Axle McScatter",
-      "started": "2026-08-14T23:30:00-07:00",
-      "ship_date": "2026-08-19",
-      "scores": {
-        "general": 9.0,
-        "voice": 8.5,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 8.5
-      }
+      "ship_date": "2026-08-19"
     },
     {
       "number": 749,
-      "slug": "ford-trailer-module-race-condition-4m",
+      "slug": "ford-trailer-module-race-condition",
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
-      "started": "2026-08-15T01:30:00-07:00",
-      "ship_date": "2026-08-20",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 8.5
-      }
+      "ship_date": "2026-08-20"
     },
     {
       "number": 750,
       "slug": "nissan-sentra-same-driveshaft-defect-twice",
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
-      "started": "2026-08-15T03:30:00-07:00",
-      "ship_date": "2026-08-21",
-      "scores": {
-        "general": 8.5,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 8.5
-      }
+      "ship_date": "2026-08-21"
     },
     {
       "number": 751,
       "slug": "sk-on-electrode-misalignment-two-oems-one-defect",
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
-      "started": "2026-08-15T05:30:00-07:00",
-      "ship_date": "2026-08-22",
-      "scores": {
-        "general": 8.5,
-        "voice": 8.5,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 9.0,
-        "data": 9.0
-      }
+      "ship_date": "2026-08-22"
     },
     {
       "number": 752,
       "slug": "mach-e-every-model-year-recalled",
       "phase": "SHIP_BLOCKED",
       "journalist": "Vin Wreckage",
-      "started": "2026-08-15T07:30:00-07:00",
-      "ship_date": "2026-08-23",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 9.0
-      }
+      "ship_date": "2026-08-23"
     },
     {
       "number": 753,
-      "slug": "mass-shooting-ripple-traffic-deaths-14-percent",
+      "slug": "point-nine-nine-norway-is-at-point-two",
       "phase": "SHIP_BLOCKED",
       "journalist": "Axle McScatter",
-      "started": "2026-08-15T13:30:00-07:00",
       "ship_date": "2026-08-24",
       "scores": {
         "general": 9.0,
@@ -155,9 +76,62 @@
         "ethics": 9.0,
         "social": 8.5,
         "legal": 9.0,
+        "rigor": 9.0,
+        "data": 9.5
+      }
+    },
+    {
+      "number": 754,
+      "slug": "gm-ten-vehicle-battery-swap-fire-recall",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-08-25",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 9.5,
+        "legal": 9.0,
         "rigor": 8.5,
-        "data": 9.0
+        "data": 8.5
+      }
+    },
+    {
+      "number": 755,
+      "slug": "level-2-automation-heated-seats-not-safety",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "ship_date": "2026-08-26",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.6,
+        "actionable_insights": 9.0
+      }
+    },
+    {
+      "number": 756,
+      "slug": "mass-shooting-road-death-spillover",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "ship_date": "2026-08-27",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
       }
     }
-  ]
+  ],
+  "last_completed": 756,
+  "last_published": 744,
+  "last_published_slug": "camry-hybrid-only-blind-dashboard",
+  "last_published_date": "2026-08-15",
+  "last_journalist": "Clara Rollover"
 }

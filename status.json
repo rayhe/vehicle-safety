@@ -111,9 +111,25 @@
         "research_rigor": 8.6,
         "actionable_insights": 9.0
       }
+    },
+    {
+      "number": 756,
+      "slug": "mass-shooting-road-death-spillover",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "ship_date": "2026-08-27",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      }
     }
   ],
-  "last_completed": 755,
+  "last_completed": 756,
   "last_published": 744,
   "last_published_slug": "camry-hybrid-only-blind-dashboard",
   "last_published_date": "2026-08-15",
