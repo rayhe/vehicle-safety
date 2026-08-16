@@ -127,9 +127,17 @@
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
+    },
+    {
+      "number": 757,
+      "slug": "tire-grading-fraud-18750-installments",
+      "journalist": "Vin Wreckage",
+      "ship_date": "2026-08-28",
+      "status": "SHIP_BLOCKED",
+      "kicker": "Existential Dread"
     }
   ],
-  "last_completed": 756,
+  "last_completed": 757,
   "last_published": 744,
   "last_published_slug": "camry-hybrid-only-blind-dashboard",
   "last_published_date": "2026-08-15",
