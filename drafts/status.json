@@ -102,6 +102,23 @@
       }
     },
     {
+      "number": 763,
+      "slug": "ev-fire-blanket-explosion-risk",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-08-29",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "notes": "Hero image generation failed; needs image before ship."
+    },
+    {
       "number": 761,
       "slug": "petition-denied-escape-hatch",
       "phase": "SHIP_BLOCKED",
@@ -125,7 +142,7 @@
       "score": 9.0
     }
   ],
-  "last_completed": 762,
+  "last_completed": 763,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
