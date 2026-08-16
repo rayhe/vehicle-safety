@@ -95,9 +95,25 @@
         "rigor": 8.5,
         "data": 8.5
       }
+    },
+    {
+      "number": 755,
+      "slug": "level-2-automation-heated-seats-not-safety",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "ship_date": "2026-08-26",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.6,
+        "actionable_insights": 9.0
+      }
     }
   ],
-  "last_completed": 754,
+  "last_completed": 755,
   "last_published": 744,
   "last_published_slug": "camry-hybrid-only-blind-dashboard",
   "last_published_date": "2026-08-15",
