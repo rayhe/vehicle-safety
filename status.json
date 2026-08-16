@@ -1,20 +1,12 @@
 {
-  "current": null,
-  "next": {
-    "number": 745,
-    "slug": "adas-repair-cost-simpsons-paradox",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Vin Wreckage",
-    "ship_date": "2026-08-16"
+  "current": {
+    "number": 760,
+    "slug": "recall-false-positive-rate-completion-death-spiral",
+    "phase": "CRITIQUE",
+    "journalist": "Axle McScatter",
+    "kicker": "By The Numbers"
   },
   "queue": [
-    {
-      "number": 745,
-      "slug": "adas-repair-cost-simpsons-paradox",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Vin Wreckage",
-      "ship_date": "2026-08-16"
-    },
     {
       "number": 746,
       "slug": "toyota-combination-meter-serial-failure",
@@ -97,22 +89,6 @@
       }
     },
     {
-      "number": 755,
-      "slug": "level-2-automation-heated-seats-not-safety",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "ship_date": "2026-08-26",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 8.5,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.6,
-        "actionable_insights": 9.0
-      }
-    },
-    {
       "number": 756,
       "slug": "mass-shooting-road-death-spillover",
       "phase": "SHIP_BLOCKED",
@@ -133,13 +109,20 @@
       "slug": "tire-grading-fraud-18750-installments",
       "journalist": "Vin Wreckage",
       "ship_date": "2026-08-28",
-      "status": "SHIP_BLOCKED",
+      "phase": "SHIP_BLOCKED",
       "kicker": "Existential Dread"
+    },
+    {
+      "number": 758,
+      "slug": "stellantis-zero-iihs-awards-two-years",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "ship_date": "2026-08-29"
     }
   ],
-  "last_completed": 757,
-  "last_published": 744,
-  "last_published_slug": "camry-hybrid-only-blind-dashboard",
-  "last_published_date": "2026-08-15",
-  "last_journalist": "Clara Rollover"
+  "last_completed": 759,
+  "last_published": 759,
+  "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
+  "last_published_date": "2026-08-16",
+  "last_journalist": "Vin Wreckage"
 }
