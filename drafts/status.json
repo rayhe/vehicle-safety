@@ -116,9 +116,16 @@
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
+    },
+    {
+      "slug": "expedition-five-stars-a-pillar-collapse",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-09-01",
+      "status": "SHIP_BLOCKED",
+      "score": 9.0
     }
   ],
-  "last_completed": 761,
+  "last_completed": 762,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
