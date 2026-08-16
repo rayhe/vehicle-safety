@@ -45,7 +45,7 @@
     },
     {
       "number": 751,
-      "slug": "sk-on-electrode-misalignment-two-oems-one-defect",
+      "slug": "<redacted>",
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
       "ship_date": "2026-08-22"
@@ -62,59 +62,39 @@
       "slug": "point-nine-nine-norway-is-at-point-two",
       "phase": "SHIP_BLOCKED",
       "journalist": "Axle McScatter",
-      "ship_date": "2026-08-24",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 9.0,
-        "data": 9.5
-      }
+      "ship_date": "2026-08-24"
     },
     {
       "number": 754,
       "slug": "gm-ten-vehicle-battery-swap-fire-recall",
       "phase": "SHIP_BLOCKED",
       "journalist": "Mia Crumplezone",
-      "ship_date": "2026-08-25",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 9.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 8.5
-      }
+      "ship_date": "2026-08-25"
     },
     {
       "number": 755,
       "slug": "level-2-automation-heated-seats-not-safety",
       "phase": "SHIP_BLOCKED",
       "journalist": "Dale Impactor III",
-      "ship_date": "2026-08-26",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 8.5,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.6,
-        "actionable_insights": 9.0
-      }
+      "ship_date": "2026-08-26"
     },
     {
       "number": 756,
       "slug": "mass-shooting-road-death-spillover",
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
-      "ship_date": "2026-08-27",
+      "ship_date": "2026-08-27"
+    },
+    {
+      "number": 758,
+      "slug": "stellantis-zero-iihs-awards-two-years",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "ship_date": "2026-08-28",
       "scores": {
         "general_editor": 9.0,
         "voice_coach": 9.0,
-        "ethics_reviewer": 8.7,
+        "ethics_reviewer": 9.0,
         "social_shareability": 9.5,
         "legal_accuracy": 9.0,
         "research_rigor": 9.0,
@@ -122,9 +102,9 @@
       }
     }
   ],
-  "last_completed": 756,
+  "last_completed": 758,
   "last_published": 745,
   "last_published_slug": "adas-repair-cost-simpsons-paradox",
   "last_published_date": "2026-08-16",
-  "last_journalist": "Vin Wreckage"
+  "last_journalist": "Clara Rollover"
 }
