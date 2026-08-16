@@ -100,9 +100,25 @@
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
+    },
+    {
+      "number": 761,
+      "slug": "petition-denied-escape-hatch",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "ship_date": "2026-08-31",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      }
     }
   ],
-  "last_completed": 759,
+  "last_completed": 761,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
