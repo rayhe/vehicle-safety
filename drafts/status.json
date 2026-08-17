@@ -1,22 +1,5 @@
 {
-  "current": {
-    "number": 769,
-    "slug": "nine-states-wrong-direction-record-low",
-    "phase": "SHIP",
-    "journalist": "Axle McScatter",
-    "ship_date": "2026-09-03",
-    "revision_count": 0,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "actionable_insights": 9.0
-    },
-    "notes": "Hero image generation failed (upstream unavailable). Needs image before ship."
-  },
+  "current": null,
   "next": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
@@ -191,24 +174,16 @@
       "ship_date": "2026-08-18",
       "critic_avg": 8.93,
       "title": "Honda Knew Its Odyssey Camera Fix Was Broken in 2021. It Just Got Around to Telling You."
-    },
-    {
-      "number": 769,
-      "slug": "nine-states-wrong-direction-record-low",
-      "phase": "SHIP",
-      "journalist": "Axle McScatter",
-      "ship_date": "2026-09-03",
-      "notes": "Hero image generation failed; needs image before ship."
     }
   ],
-  "last_completed": 767,
+  "last_completed": 769,
   "last_published": {
-    "number": 767,
-    "slug": "dc-safety-miracle-evaporated",
-    "date": "2026-08-18",
-    "journalist": "Vin Wreckage"
+    "number": 769,
+    "slug": "nine-states-wrong-direction-record-low",
+    "date": "2026-08-17",
+    "journalist": "Axle McScatter"
   },
-  "last_published_slug": "toyota-combination-meter-serial-failure",
+  "last_published_slug": "nine-states-wrong-direction-record-low",
   "last_published_date": "2026-08-17",
-  "last_journalist": "Mia Crumplezone"
+  "last_journalist": "Axle McScatter"
 }
