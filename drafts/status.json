@@ -1,20 +1,13 @@
 {
   "current": null,
   "next": {
-    "number": 746,
-    "slug": "toyota-combination-meter-serial-failure",
+    "number": 747,
+    "slug": "dui-arrest-collapse-deaths-dropped-anyway",
     "phase": "SHIP_BLOCKED",
-    "journalist": "Mia Crumplezone",
-    "ship_date": "2026-08-17"
+    "journalist": "Dale Impactor III",
+    "ship_date": "2026-08-18"
   },
   "queue": [
-    {
-      "number": 746,
-      "slug": "toyota-combination-meter-serial-failure",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-08-17"
-    },
     {
       "number": 747,
       "slug": "dui-arrest-collapse-deaths-dropped-anyway",
@@ -184,8 +177,8 @@
     }
   ],
   "last_completed": 766,
-  "last_published": 759,
-  "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
-  "last_published_date": "2026-08-16",
-  "last_journalist": "Vin Wreckage"
+  "last_published": 746,
+  "last_published_slug": "toyota-combination-meter-serial-failure",
+  "last_published_date": "2026-08-17",
+  "last_journalist": "Mia Crumplezone"
 }
