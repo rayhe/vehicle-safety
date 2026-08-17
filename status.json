@@ -154,9 +154,26 @@
       "kicker": "The Gap",
       "status": "SHIP_BLOCKED",
       "ship_date": "2026-09-01"
+    },
+    {
+      "number": 763,
+      "slug": "odometer-fraud-study-from-2002",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "ship_date": "2026-09-02",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      }
     }
   ],
-  "last_completed": 762,
+  "last_completed": 763,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
