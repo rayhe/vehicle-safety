@@ -2,13 +2,6 @@
   "current": null,
   "queue": [
     {
-      "number": 746,
-      "slug": "toyota-combination-meter-serial-failure",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-08-17"
-    },
-    {
       "number": 747,
       "slug": "dui-arrest-collapse-deaths-dropped-anyway",
       "phase": "SHIP_BLOCKED",
@@ -67,22 +60,6 @@
       }
     },
     {
-      "number": 754,
-      "slug": "gm-ten-vehicle-battery-swap-fire-recall",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-08-25",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 9.5,
-        "legal": 9.0,
-        "rigor": 8.5,
-        "data": 8.5
-      }
-    },
-    {
       "number": 756,
       "slug": "mass-shooting-road-death-spillover",
       "phase": "SHIP_BLOCKED",
@@ -99,81 +76,38 @@
       }
     },
     {
-      "number": 757,
-      "slug": "tire-grading-fraud-18750-installments",
-      "journalist": "Vin Wreckage",
-      "ship_date": "2026-08-28",
-      "phase": "SHIP_BLOCKED",
-      "kicker": "Existential Dread"
-    },
-    {
-      "number": 758,
-      "slug": "stellantis-zero-iihs-awards-two-years",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Clara Rollover",
-      "ship_date": "2026-08-29"
-    },
-    {
-      "number": 760,
-      "slug": "recall-false-positive-rate-completion-death-spiral",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Axle McScatter",
-      "ship_date": "2026-08-30",
-      "kicker": "By The Numbers",
-      "scores": {
-        "general": 9.0,
-        "voice": 8.5,
-        "ethics": 8.7,
-        "social": 9.0,
-        "legal": 8.7,
-        "rigor": 8.5,
-        "data": 9.0
-      }
-    },
-    {
-      "number": 761,
-      "slug": "petition-denied-escape-hatch",
+      "number": 767,
+      "slug": "acura-awd-loss-nhtsa-not-defect",
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
-      "ship_date": "2026-08-31",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      }
-    },
-    {
-      "number": 762,
-      "slug": "awd-suv-saves-pickup-kills",
-      "title": "AWD Cuts SUV Deaths by 44%. For Pickups, It Doubles the Rollover Kill Rate.",
-      "journalist": "Mia Crumplezone",
-      "kicker": "The Gap",
-      "status": "SHIP_BLOCKED",
-      "ship_date": "2026-09-01"
-    },
-    {
-      "number": 763,
-      "slug": "odometer-fraud-study-from-2002",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Clara Rollover",
-      "ship_date": "2026-09-02",
+      "ship_date": "2026-09-03",
       "kicker": "Investigation",
       "scores": {
         "general_editor": 9.0,
-        "voice_coach": 9.0,
+        "voice_coach": 8.8,
         "ethics_reviewer": 9.0,
         "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.3,
+        "actionable_insights": 9.2
       }
+    },
+    {
+      "number": 764,
+      "slug": "ota-vs-parts-recall-two-tier-gap",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "ship_date": "2026-09-04"
+    },
+    {
+      "number": 765,
+      "slug": "cx90-three-fixes-steering-still-broken",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Vin Wreckage",
+      "ship_date": "2026-09-05"
     }
   ],
-  "last_completed": 763,
+  "last_completed": 767,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
