@@ -1,0 +1,48 @@
+{
+  "critics": {
+    "general": {
+      "score": 9.0,
+      "notes": "Strong headline with specificity (2021, five years). Lede contextualizes with FMVSS 111 mandate. Pull stat (5 years) is compelling and earned. Body flows logically: mandate → original recall → failed fix → Magna abandonment → expanded recall → FARS context → actionable advice. Clara's consumer-advocate voice is consistent throughout. Closing line lands well."
+    },
+    "voice": {
+      "score": 9.0,
+      "notes": "All rhythm gates pass (variance 681, short 14.3%, long 47.6%). Zero em dashes. Zero banned phrases. The/That starters 6.7%. Clara's signature directness present ('you might expect urgency'). No AI tells. Sentence variety strong with mix of punchy midlength and complex long constructions. 'Magna cameras out, Sony cameras in' is character-consistent shorthand."
+    },
+    "ethics": {
+      "score": 9.0,
+      "notes": "No self-congratulation. No moralizing. Counterargument implicitly present (0.8% estimated defect rate per NHTSA filing; Honda may argue precautionary). Honest about limitations in disclaimer: FARS doesn't isolate camera malfunctions as contributing factor. The 'institutional denial' framing from earlier draft was removed. Tone is appropriately indignant without being preachy."
+    },
+    "social": {
+      "score": 9.0,
+      "notes": "Headline is highly shareable — specific timeline + corporate negligence + family vehicle. '1,648 warranty claims and a confession baked into the remedy itself: Magna cameras out, Sony cameras in' is quotable. The FMVSS 111 mandate angle gives it policy weight beyond typical recall coverage. Strong parent-audience engagement triggers."
+    },
+    "legal": {
+      "score": 9.0,
+      "notes": "Five references properly cited with working URLs. NHTSA Part 573 filing (26V423) is primary source. FMVSS 111 mandate date (May 2018) verified. MotorSafety.org and CarBuzz provide timeline details. FARS data sourced to NHTSA. No case law claims. The 210 backover deaths figure is from NHTSA's own rear visibility page. No legal exposure."
+    },
+    "rigor": {
+      "score": 8.5,
+      "notes": "Novel contribution: cross-referencing FMVSS 111 mandate timeline with recall failure timeline to show first-generation legally mandated cameras were defective by design, plus Magna supplier abandonment as untold dimension. Limitations in disclaimer. Counterargument could be stronger — 0.8% estimated defect rate suggests vast majority unaffected. Minor weakness: causal link between camera failure and FARS deaths acknowledged as circumstantial. Strongest counterargument: Honda may have been waiting for conclusive root cause analysis before expanding, which is responsible engineering practice."
+    },
+    "data": {
+      "score": 9.0,
+      "notes": "325,588 vehicles verified against NHTSA 26V423 filing. 212,000 original recall from 20V-438. 1,648 warranty claims from NHTSA Part 573. Magna/Sony supplier swap from same filing. June 2021 failure report from MotorSafety.org and CarBuzz. FARS: 864 deaths, 15.4% impairment verified against fars_output.js. 210 backover deaths from NHTSA. All numbers trace to cited sources."
+    }
+  },
+  "average": 8.93,
+  "passed": true,
+  "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": [],
+    "the_starters_pct": 6.7,
+    "sentence_rhythm": {
+      "variance": 681,
+      "short_pct": 14.3,
+      "long_pct": 47.6,
+      "passed": true
+    },
+    "css_class": "story",
+    "css_file": "style.css",
+    "word_count": 423
+  }
+}

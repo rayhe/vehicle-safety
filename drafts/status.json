@@ -172,9 +172,18 @@
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
+    },
+    {
+      "number": 766,
+      "slug": "odyssey-camera-five-year-broken-fix",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-08-18",
+      "critic_avg": 8.93,
+      "title": "Honda Knew Its Odyssey Camera Fix Was Broken in 2021. It Just Got Around to Telling You."
     }
   ],
-  "last_completed": 765,
+  "last_completed": 766,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
