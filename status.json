@@ -145,9 +145,18 @@
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
+    },
+    {
+      "number": 762,
+      "slug": "awd-suv-saves-pickup-kills",
+      "title": "AWD Cuts SUV Deaths by 44%. For Pickups, It Doubles the Rollover Kill Rate.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "status": "SHIP_BLOCKED",
+      "ship_date": "2026-09-01"
     }
   ],
-  "last_completed": 761,
+  "last_completed": 762,
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
