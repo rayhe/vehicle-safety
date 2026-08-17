@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "number": 769,
+    "slug": "nine-states-wrong-direction-record-low",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "ship_date": "2026-09-03",
+    "revision_count": 0
+  },
   "next": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
@@ -174,6 +181,13 @@
       "ship_date": "2026-08-18",
       "critic_avg": 8.93,
       "title": "Honda Knew Its Odyssey Camera Fix Was Broken in 2021. It Just Got Around to Telling You."
+    },
+    {
+      "number": 769,
+      "slug": "nine-states-wrong-direction-record-low",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "ship_date": "2026-09-03"
     }
   ],
   "last_completed": 767,
