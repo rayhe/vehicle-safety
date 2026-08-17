@@ -2,10 +2,20 @@
   "current": {
     "number": 769,
     "slug": "nine-states-wrong-direction-record-low",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Axle McScatter",
     "ship_date": "2026-09-03",
-    "revision_count": 0
+    "revision_count": 0,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0
+    },
+    "notes": "Hero image generation failed (upstream unavailable). Needs image before ship."
   },
   "next": {
     "number": 747,
@@ -45,7 +55,7 @@
     },
     {
       "number": 751,
-      "slug": "<redacted>",
+      "slug": "jeep-wrangler-frame-weld-failure-silence",
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
       "ship_date": "2026-08-22"
@@ -185,9 +195,10 @@
     {
       "number": 769,
       "slug": "nine-states-wrong-direction-record-low",
-      "phase": "SHIP_BLOCKED",
+      "phase": "SHIP",
       "journalist": "Axle McScatter",
-      "ship_date": "2026-09-03"
+      "ship_date": "2026-09-03",
+      "notes": "Hero image generation failed; needs image before ship."
     }
   ],
   "last_completed": 767,
