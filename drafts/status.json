@@ -265,9 +265,41 @@
         }
       },
       "ship_date": "2026-09-05"
+    },
+    {
+      "number": 774,
+      "slug": "mg3-seat-broke-four-stars-anyway",
+      "title": "A Seat Broke Loose Mid-Crash for the First Time in 29 Years. Euro NCAP Had No Way to Dock a Star.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "started": "2026-08-18T14:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 14.7,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 585.1,
+          "short_pct": 11.5,
+          "long_pct": 57.7,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-06"
     }
   ],
-  "last_completed": 773,
+  "last_completed": 774,
   "last_published": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
