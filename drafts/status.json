@@ -1,20 +1,13 @@
 {
   "current": null,
   "next": {
-    "number": 747,
-    "slug": "dui-arrest-collapse-deaths-dropped-anyway",
+    "number": 748,
+    "slug": "ford-741k-rollaway-recall-remedy-gap",
     "phase": "SHIP_BLOCKED",
-    "journalist": "Dale Impactor III",
-    "ship_date": "2026-08-18"
+    "journalist": "Axle McScatter",
+    "ship_date": "2026-08-19"
   },
   "queue": [
-    {
-      "number": 747,
-      "slug": "dui-arrest-collapse-deaths-dropped-anyway",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "ship_date": "2026-08-18"
-    },
     {
       "number": 748,
       "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -237,12 +230,12 @@
   ],
   "last_completed": 771,
   "last_published": {
-    "number": 769,
-    "slug": "nine-states-wrong-direction-record-low",
-    "date": "2026-08-17",
-    "journalist": "Axle McScatter"
+    "number": 747,
+    "slug": "dui-arrest-collapse-deaths-dropped-anyway",
+    "date": "2026-08-18",
+    "journalist": "Dale Impactor III"
   },
-  "last_published_slug": "nine-states-wrong-direction-record-low",
-  "last_published_date": "2026-08-17",
-  "last_journalist": "Axle McScatter"
+  "last_published_slug": "dui-arrest-collapse-deaths-dropped-anyway",
+  "last_published_date": "2026-08-18",
+  "last_journalist": "Dale Impactor III"
 }
