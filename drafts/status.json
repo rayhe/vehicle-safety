@@ -226,9 +226,16 @@
         }
       },
       "ship_date": "2026-09-03"
+    },
+    {
+      "number": 772,
+      "slug": "tesla-robotaxi-remote-operators-crash-every-time",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "ship_date": "2026-09-04"
     }
   ],
-  "last_completed": 771,
+  "last_completed": 772,
   "last_published": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",

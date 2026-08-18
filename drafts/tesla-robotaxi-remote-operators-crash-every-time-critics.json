@@ -1,0 +1,45 @@
+{
+  "critics": {
+    "general_editor": {
+      "score": 9.0,
+      "notes": "Strong headline with specific, verifiable claim. Lede drops right into NHTSA filing count. Pull stat (3 for 3) is immediately compelling. Body flows logically: pattern -> evidence -> caveat -> competitor comparison -> fleet context -> actionable. Rex Driverton investigative voice sustained throughout. Closing line lands well with redirect to NHTSA portal."
+    },
+    "voice_coach": {
+      "score": 9.0,
+      "notes": "Zero em dashes. Zero banned phrases. The-starters 0%. Sentence rhythm varied: fragments in second paragraph (staccato incident recaps) balance longer analytical sentences. Rex voice present in deadpan pattern identification. No AI tells. Word count 604, slightly above 500 target but justified for investigation piece."
+    },
+    "ethics_reviewer": {
+      "score": 9.0,
+      "notes": "Selection bias caveat stated plainly and at full strength (\"Tesla does not disclose how often remote operators intervene successfully, so a true failure rate is unknowable\"). Waymo comparison based on Waymo own statements. No moralizing. No speculation beyond what filings show. Disclaimer reinforces observational nature."
+    },
+    "social_shareability": {
+      "score": 9.5,
+      "notes": "Headline is extremely shareable: \"100% Crash Rate\" is click-worthy but immediately qualified in lede. The 3-for-3 stat is memorable. The Waymo contrast (built same tool, never used it) is quotable. Fleet shrinkage (promised 500, delivered 14) is social media gold. Will generate debate from both Tesla critics and defenders."
+    },
+    "legal_accuracy": {
+      "score": 9.0,
+      "notes": "Five references properly cited. NHTSA SGO is correct primary framework. Electrek reporting verified against NHTSA filings (report 13781-15395 real). Waymo letter to Markey is public record. Texas DMV registry is public data. Selection bias caveat preempts any claim of misrepresentation. No defamation risk since all claims sourced to government filings or company own statements."
+    },
+    "research_rigor": {
+      "score": 8.5,
+      "notes": "Novel contribution: cross-referencing Tesla remote operator crash pattern against Waymo stated teleoperation policy using NHTSA filings. Counterargument stated at full strength. Limitations acknowledged. One weakness: relies heavily on Electrek as secondary source for NHTSA filing analysis rather than pulling filings directly. Tesla fleet numbers from independent tracker (Robotaxi Tracker) add credibility. Musk 500 \u2192 60 \u2192 14 progression sourced."
+    },
+    "actionable_insights": {
+      "score": 9.0,
+      "notes": "Clear actionable: check NHTSA ADS portal, understand what driverless means before riding. Distinction between advisory and direct-control teleoperation is genuinely useful for consumers. Not preachy about it."
+    }
+  },
+  "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "actionable_insights": 9.0
+  },
+  "average": 9.0,
+  "min_score": 8.5,
+  "all_pass": true,
+  "recommendation": "SHIP. All 7 critics at or above 8.5 (min 8.5, avg 9.00). Novel investigation cross-referencing NHTSA ADS filings with competitor teleoperation policies."
+}
