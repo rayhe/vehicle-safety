@@ -332,6 +332,38 @@
         "css_class_story": true,
         "style_css": true
       }
+    },
+    {
+      "number": 778,
+      "slug": "tesla-suspension-three-recalls-same-part",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "started": "2026-08-18T22:30:00Z",
+      "title": "Tesla Recalled the Same Suspension Part Twice. Now NHTSA Is Investigating 1.2 Million Cars.",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 921.9,
+          "short_pct": 14.8,
+          "long_pct": 59.3,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-08-19"
     }
   ],
   "last_completed": 777,
