@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 777,
+    "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
+    "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-18T20:30:00Z",
+    "critique_round": 1
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -306,7 +314,7 @@
       "ship_date": "2026-09-07"
     }
   ],
-  "last_completed": 776,
+  "last_completed": 777,
   "last_published": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
