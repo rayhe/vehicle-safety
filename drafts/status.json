@@ -297,9 +297,16 @@
         }
       },
       "ship_date": "2026-09-06"
+    },
+    {
+      "number": 776,
+      "slug": "autoliv-supplier-pattern",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-09-07"
     }
   ],
-  "last_completed": 774,
+  "last_completed": 776,
   "last_published": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
