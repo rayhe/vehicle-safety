@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping. &mdash; The Crash Report</title>
+  <meta name="description" content="Seven recall campaigns. The same Uconnect radio software blocking the same backup camera display. Over 2 million vehicles. Stellantis patches each batch and ships the next one broken.">
+  <meta property="og:title" content="Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.">
+  <meta property="og:description" content="Seven recall campaigns, same architectural flaw, 2M+ vehicles. Each fix patches one generation while the next ships broken.">
+  <meta property="og:image" content="../images/stellantis-camera-recall-groundhog-day.jpg?v=39c60593">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">August 19, 2026</div>
+
+      <p>On August 17, Stellantis filed a recall for <strong>955,000 vehicles worldwide</strong> because Uconnect radio software can blank out the rearview camera display.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Consumer Reports covered the filing with an unusual editorial addendum, listing six previous Stellantis backup camera recalls issued over the past four years for the same category of defect.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">7+</div>
+      <div class="pull-label">Separate backup camera recall campaigns filed by Stellantis since 2022, all caused by radio software failing to display the rearview image</div>
+
+      <p>Seven campaigns following the same pattern: Uconnect software prevents the camera feed from reaching the screen. The June 2024 campaign alone covered 1,033,433 vehicles across model years 2021 through 2023, while two mid-2025 campaigns added another 454,000 ProMaster vans and Dodge Journeys stretching back to 2019.<sup class="ref-link"><a href="#ref-3">[3]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup> Now the 2026 and 2027 model years, vehicles built after every prior patch shipped, have the same problem in entirely new code.</p>
+
+      <p>ISO 26262, the automotive functional safety standard, calls the relevant principle &ldquo;freedom from interference&rdquo;: a non-safety software component like a radio tuner should not be architecturally capable of disabling a safety-critical system like a backup camera.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Stellantis&rsquo;s Uconnect platform routes the camera feed through the same media display pipeline that handles radio, navigation, and CarPlay, which means a fault in any subsystem can take the camera down with it. Each OTA patch fixes the specific code path that broke while leaving the coupling intact for the next software version to fail identically.</p>
+
+      <p>In FARS data from 2014 through 2023, the models covered by this recall chain account for <strong>6,963 occupant deaths</strong> across Stellantis brands, nearly 30% of all Stellantis fatalities in the dataset.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Among the affected vehicles is the Chrysler Pacifica, a minivan marketed to families with young children, and backover crashes disproportionately kill children under five. Stellantis has reported zero injuries across all seven campaigns, each recall was filed voluntarily and remedied at no charge, and the individual bugs are technically separate defects in different software versions. But an automaker that files the same category of recall seven times in four years is not having seven unrelated bad days; it is shipping a system architecture that permits a known failure mode and patching retroactively instead of redesigning the pipeline.</p>
+
+      <p><strong>If you drive any 2019&ndash;2027 Chrysler, Dodge, Jeep, or Ram:</strong> check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>, test your camera display every time you start the vehicle, and if the screen blanks in reverse, walk behind the car before backing up. Install the OTA update the moment it appears, or visit a dealer for the free fix and contact Stellantis at 1-800-853-1403 or <a href="https://recalls.mopar.com" target="_blank" rel="noopener">recalls.mopar.com</a> with any questions.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Reuters, &ldquo;Stellantis recalls 955,000 vehicles because radio software may disrupt rear-view camera,&rdquo; August 17, 2026. <a href="https://www.reuters.com/legal/litigation/stellantis-recalls-955000-vehicles-because-radio-software-may-disrupt-rear-view-2026-08-17/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-2">Consumer Reports, &ldquo;Chrysler, Dodge, Jeep, and Ram Vehicles Recalled Because Backup Camera May Fail,&rdquo; listing six previous similar recalls by Stellantis since 2022. <a href="https://www.consumerreports.org/cars/car-recalls-defects/chrysler-dodge-jeep-ram-recall-backup-camera-may-fail-a7019256987/" target="_blank" rel="noopener">consumerreports.org</a></li>
+          <li id="ref-3">NHTSA recall 24V436000 (FCA recall 66B), covering 1,033,433 vehicles whose radio software prevents the rearview image from displaying, filed June 2024. <a href="https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V436-3057.PDF" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">MoparInsiders, &ldquo;Stellantis Recalls Ram ProMaster and Dodge Journey for Rearview Camera Defect,&rdquo; covering 141,906 ProMaster (MY2019&ndash;2021) and 77,671 Journey (MY2019&ndash;2020); USA TODAY / Beacon Journal, &ldquo;Over 200,000 Ram vehicles recalled,&rdquo; covering ~235,000 ProMaster MY2022&ndash;2025. <a href="https://moparinsiders.com/stellantis-recalls-ram-promaster-and-dodge-journey-for-rearview-camera-defect/" target="_blank" rel="noopener">moparinsiders.com</a></li>
+          <li id="ref-5">ISO 26262:2018, &ldquo;Road vehicles &mdash; Functional safety,&rdquo; Part 6, defining &ldquo;freedom from interference&rdquo; requirements for coexisting software components at different ASIL ratings. <a href="https://www.iso.org/standard/68383.html" target="_blank" rel="noopener">iso.org</a></li>
+          <li id="ref-6">NHTSA Fatality Analysis Reporting System (FARS), 2014&ndash;2023, cross-tabulating deaths by make/model for recalled Stellantis vehicles: Jeep Cherokee 2,276 deaths, Wrangler 1,842, Grand Cherokee 1,161, Dodge Charger 715, Jeep Compass 453, Dodge Durango 356, Chrysler Pacifica 160. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings, FARS 2014&ndash;2023, ISO 26262:2018; no injuries have been reported across any of the recalled campaigns covered above. The &ldquo;seven campaigns&rdquo; count is a minimum based on Consumer Reports&rsquo; six prior listings plus the August 17 filing; some campaigns may overlap in vehicle populations, and FARS death counts reflect all fatal crashes involving these models rather than backover incidents specifically, so readers should consult the <a href="../#method">methodology page</a> for additional caveats on how these numbers were calculated.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub</a> &mdash; Pull requests are always welcome from contributors who care about road safety data.
+    </footer>
+  </div>
+</body>
+</html>

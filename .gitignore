@@ -1,3 +1,5 @@
 .fars_cache/
 fars_process.log
 .wrangler/
+images/media-generation-*.webp
+images/media-generation-*.json

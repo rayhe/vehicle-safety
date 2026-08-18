@@ -1,12 +1,5 @@
 {
-  "current": {
-    "number": 771,
-    "slug": "stellantis-camera-recall-groundhog-day",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-08-18T06:30:00Z",
-    "scores": {}
-  },
+  "current": null,
   "next": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
@@ -210,9 +203,39 @@
         }
       },
       "ship_date": "2026-08-19"
+    },
+    {
+      "number": 771,
+      "slug": "stellantis-camera-recall-groundhog-day",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-18T06:30:00Z",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5
+      },
+      "critic_avg": 8.58,
+      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.",
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 1978.5,
+          "short_pct": 6.7,
+          "long_pct": 80.0,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-03"
     }
   ],
-  "last_completed": 769,
+  "last_completed": 771,
   "last_published": {
     "number": 769,
     "slug": "nine-states-wrong-direction-record-low",
