@@ -1,13 +1,5 @@
 {
-  "current": {
-    "number": 777,
-    "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
-    "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-08-18T20:30:00Z",
-    "critique_round": 1
-  },
+  "current": null,
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -312,6 +304,34 @@
       "phase": "SHIP_BLOCKED",
       "journalist": "Mia Crumplezone",
       "ship_date": "2026-09-07"
+    },
+    {
+      "number": 777,
+      "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
+      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-08",
+      "scores": {
+        "general_editor": 8.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.0,
+        "research_rigor": 8.0,
+        "actionable_insights": 9.0,
+        "average": 8.57
+      },
+      "hard_gates": {
+        "word_count": 500,
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "rhythm_pass": true,
+        "css_class_story": true,
+        "style_css": true
+      }
     }
   ],
   "last_completed": 777,
