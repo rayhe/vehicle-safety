@@ -51,41 +51,11 @@
       "ship_date": "2026-08-24"
     },
     {
-      "number": 754,
-      "slug": "gm-ten-vehicle-battery-swap-fire-recall",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-08-25"
-    },
-    {
-      "number": 755,
-      "slug": "level-2-automation-heated-seats-not-safety",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "ship_date": "2026-08-26"
-    },
-    {
       "number": 756,
       "slug": "mass-shooting-road-death-spillover",
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
       "ship_date": "2026-08-27"
-    },
-    {
-      "number": 758,
-      "slug": "stellantis-zero-iihs-awards-two-years",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Clara Rollover",
-      "ship_date": "2026-08-28",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      }
     },
     {
       "number": 763,
@@ -103,29 +73,6 @@
         "actionable_insights": 9.0
       },
       "notes": "Hero image generation failed; needs image before ship."
-    },
-    {
-      "number": 761,
-      "slug": "petition-denied-escape-hatch",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Rex Driverton",
-      "ship_date": "2026-08-31",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      }
-    },
-    {
-      "slug": "expedition-five-stars-a-pillar-collapse",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-09-01",
-      "status": "SHIP_BLOCKED",
-      "score": 9.0
     },
     {
       "number": 764,
@@ -158,44 +105,6 @@
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
-    },
-    {
-      "number": 766,
-      "slug": "odyssey-camera-five-year-broken-fix",
-      "journalist": "Clara Rollover",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-18",
-      "critic_avg": 8.93,
-      "title": "Honda Knew Its Odyssey Camera Fix Was Broken in 2021. It Just Got Around to Telling You."
-    },
-    {
-      "number": 770,
-      "slug": "stellantis-848k-use-your-mirrors",
-      "title": "Stellantis Told 848,000 Drivers to Use Their Mirrors. The Government Spent 11 Years Proving Mirrors Kill Kids.",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Vin Wreckage",
-      "critique_round": 1,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.9,
-        "css_class": true,
-        "sentence_rhythm": {
-          "variance": 441.7,
-          "short_pct": 7.7,
-          "long_pct": 43.6,
-          "passed": true
-        }
-      },
-      "ship_date": "2026-08-19"
     },
     {
       "number": 771,
@@ -233,77 +142,6 @@
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
       "ship_date": "2026-09-04"
-    },
-    {
-      "number": 773,
-      "slug": "rivian-every-link-broke",
-      "title": "Rivian's Supplier Was Told to Quarantine Bad Parts a Year Ago. It Didn't.",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Vin Wreckage",
-      "started": "2026-08-18T18:00:00Z",
-      "critique_round": 1,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      },
-      "critic_avg": 9.07,
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 0.0,
-        "css_class": true,
-        "sentence_rhythm": {
-          "variance": 436.0,
-          "short_pct": 7.7,
-          "long_pct": 53.8,
-          "passed": true
-        }
-      },
-      "ship_date": "2026-09-05"
-    },
-    {
-      "number": 774,
-      "slug": "mg3-seat-broke-four-stars-anyway",
-      "title": "A Seat Broke Loose Mid-Crash for the First Time in 29 Years. Euro NCAP Had No Way to Dock a Star.",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Clara Rollover",
-      "started": "2026-08-18T14:30:00Z",
-      "critique_round": 1,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      },
-      "critic_avg": 9.07,
-      "hard_gates": {
-        "em_dashes": 1,
-        "banned_phrases": 0,
-        "the_starters_pct": 14.7,
-        "css_class": true,
-        "sentence_rhythm": {
-          "variance": 585.1,
-          "short_pct": 11.5,
-          "long_pct": 57.7,
-          "passed": true
-        }
-      },
-      "ship_date": "2026-09-06"
-    },
-    {
-      "number": 776,
-      "slug": "autoliv-supplier-pattern",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-09-07"
     },
     {
       "number": 777,
@@ -430,12 +268,12 @@
   ],
   "last_completed": 780,
   "last_published": {
-    "number": 747,
-    "slug": "dui-arrest-collapse-deaths-dropped-anyway",
-    "date": "2026-08-18",
-    "journalist": "Dale Impactor III"
+    "number": 770,
+    "slug": "stellantis-848k-use-your-mirrors",
+    "date": "2026-08-19",
+    "journalist": "Vin Wreckage"
   },
-  "last_published_slug": "dui-arrest-collapse-deaths-dropped-anyway",
-  "last_published_date": "2026-08-18",
-  "last_journalist": "Dale Impactor III"
+  "last_published_slug": "stellantis-848k-use-your-mirrors",
+  "last_published_date": "2026-08-19",
+  "last_journalist": "Vin Wreckage"
 }
