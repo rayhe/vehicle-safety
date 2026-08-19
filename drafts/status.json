@@ -296,9 +296,42 @@
         }
       },
       "ship_date": "2026-08-20"
+    },
+    {
+      "number": 782,
+      "slug": "toxicology-backlog-evidence-expires",
+      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "started": "2026-08-19T10:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.5,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 219.5,
+          "short_pct": 30.6,
+          "long_pct": 22.4,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 781,
+  "last_completed": 782,
   "last_published": {
     "number": 770,
     "slug": "stellantis-848k-use-your-mirrors",
