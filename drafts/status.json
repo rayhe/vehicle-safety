@@ -364,9 +364,40 @@
         }
       },
       "ship_date": "2026-08-19"
+    },
+    {
+      "number": 779,
+      "slug": "recall-letter-lag-millions-drive-unaware",
+      "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.6,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 572.8,
+          "short_pct": 5.7,
+          "long_pct": 34.3,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-09"
     }
   ],
-  "last_completed": 777,
+  "last_completed": 779,
   "last_published": {
     "number": 747,
     "slug": "dui-arrest-collapse-deaths-dropped-anyway",
