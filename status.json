@@ -1,13 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "number": 783,
+    "slug": "roundabout-82-percent-fix-america-wont-build",
+    "phase": "DRAFTED",
+    "journalist": "Clara Rollover",
+    "kicker": "The Gap",
+    "headline": "A Concrete Circle Prevents 82% of Fatal Intersection Crashes. America Builds 409 a Year.",
+    "revision": 0
+  },
+  "next": {
+    "number": 748,
+    "slug": "ford-741k-rollaway-recall-remedy-gap",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Axle McScatter",
+    "ship_date": "2026-08-19"
+  },
   "queue": [
-    {
-      "number": 747,
-      "slug": "dui-arrest-collapse-deaths-dropped-anyway",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "ship_date": "2026-08-18"
-    },
     {
       "number": 748,
       "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -31,7 +39,7 @@
     },
     {
       "number": 751,
-      "slug": "sk-on-electrode-misalignment-two-oems-one-defect",
+      "slug": "jeep-wrangler-frame-weld-failure-silence",
       "phase": "SHIP_BLOCKED",
       "journalist": "Rex Driverton",
       "ship_date": "2026-08-22"
@@ -48,88 +56,54 @@
       "slug": "point-nine-nine-norway-is-at-point-two",
       "phase": "SHIP_BLOCKED",
       "journalist": "Axle McScatter",
-      "ship_date": "2026-08-24",
-      "scores": {
-        "general": 9.0,
-        "voice": 9.0,
-        "ethics": 9.0,
-        "social": 8.5,
-        "legal": 9.0,
-        "rigor": 9.0,
-        "data": 9.5
-      }
+      "ship_date": "2026-08-24"
     },
     {
       "number": 756,
       "slug": "mass-shooting-road-death-spillover",
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
-      "ship_date": "2026-08-27",
+      "ship_date": "2026-08-27"
+    },
+    {
+      "number": 763,
+      "slug": "ev-fire-blanket-explosion-risk",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2026-08-29",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "notes": "Hero image generation failed; needs image before ship."
+    },
+    {
+      "number": 764,
+      "slug": "ota-recall-fix-parts-tariff-two-tier",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "ship_date": "2026-08-30",
       "scores": {
         "general_editor": 9.0,
         "voice_coach": 9.0,
-        "ethics_reviewer": 8.7,
+        "ethics_reviewer": 9.0,
         "social_shareability": 9.5,
         "legal_accuracy": 9.0,
         "research_rigor": 9.0,
         "actionable_insights": 9.0
       }
-    },
-    {
-      "number": 767,
-      "slug": "acura-awd-loss-nhtsa-not-defect",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Rex Driverton",
-      "ship_date": "2026-09-03",
-      "kicker": "Investigation",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.2,
-        "research_rigor": 9.3,
-        "actionable_insights": 9.2
-      }
-    },
-    {
-      "number": 764,
-      "slug": "ota-vs-parts-recall-two-tier-gap",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Axle McScatter",
-      "ship_date": "2026-09-04"
     },
     {
       "number": 765,
       "slug": "cx90-three-fixes-steering-still-broken",
       "phase": "SHIP_BLOCKED",
       "journalist": "Vin Wreckage",
-      "ship_date": "2026-09-05"
-    },
-    {
-      "number": 768,
-      "slug": "narrow-recall-scope-shield",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "ship_date": "2026-09-06",
-      "kicker": "By The Numbers",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 8.7,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      }
-    },
-    {
-      "number": 775,
-      "slug": "bilstein-off-road-shock-corrodes-off-road",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "ship_date": "2026-09-07",
-      "kicker": "Investigation",
+      "ship_date": "2026-09-02",
       "scores": {
         "general_editor": 9.0,
         "voice_coach": 9.0,
@@ -141,17 +115,206 @@
       }
     },
     {
-      "number": 779,
-      "slug": "nhtsa-deaths-fell-dont-credit-the-cuts",
+      "number": 771,
+      "slug": "stellantis-camera-recall-groundhog-day",
       "phase": "SHIP_BLOCKED",
-      "journalist": "Clara Rollover",
-      "headline": "NHTSA Lost a Quarter of Its Staff While Fatalities Hit a Record Low, and Those Two Facts Are Not Friends",
-      "ship_date": "2026-09-08"
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-18T06:30:00Z",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5
+      },
+      "critic_avg": 8.58,
+      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.",
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 1978.5,
+          "short_pct": 6.7,
+          "long_pct": 80.0,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-03"
+    },
+    {
+      "number": 772,
+      "slug": "tesla-robotaxi-remote-operators-crash-every-time",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "ship_date": "2026-09-04"
+    },
+    {
+      "number": 777,
+      "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
+      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-08",
+      "scores": {
+        "general_editor": 8.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.0,
+        "research_rigor": 8.0,
+        "actionable_insights": 9.0,
+        "average": 8.57
+      },
+      "hard_gates": {
+        "word_count": 500,
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "rhythm_pass": true,
+        "css_class_story": true,
+        "style_css": true
+      }
+    },
+    {
+      "number": 779,
+      "slug": "recall-letter-lag-millions-drive-unaware",
+      "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.6,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 572.8,
+          "short_pct": 5.7,
+          "long_pct": 34.3,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-09"
+    },
+    {
+      "number": 780,
+      "slug": "powertrain-recall-explosion-251-percent",
+      "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.5,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 514.6,
+          "short_pct": 11.1,
+          "long_pct": 55.6,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-10"
+    },
+    {
+      "number": 781,
+      "slug": "honda-v6-three-investigations-engine-eating-itself",
+      "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-19T08:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 63.3,
+          "short_pct": 38.8,
+          "long_pct": 6.1,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-08-20"
+    },
+    {
+      "number": 782,
+      "slug": "toxicology-backlog-evidence-expires",
+      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "started": "2026-08-19T10:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.5,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 219.5,
+          "short_pct": 30.6,
+          "long_pct": 22.4,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 779,
-  "last_published": 759,
-  "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
-  "last_published_date": "2026-08-16",
-  "last_journalist": "Clara Rollover"
+  "last_completed": 783,
+  "last_published": {
+    "number": 778,
+    "slug": "tesla-suspension-three-recalls-same-part",
+    "date": "2026-08-19",
+    "journalist": "Rex Driverton"
+  },
+  "last_published_slug": "tesla-suspension-three-recalls-same-part",
+  "last_published_date": "2026-08-19",
+  "last_journalist": "Rex Driverton"
 }

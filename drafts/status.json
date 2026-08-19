@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 783,
+    "slug": "roundabout-82-percent-fix-america-wont-build",
+    "phase": "DRAFTED",
+    "journalist": "Clara Rollover",
+    "kicker": "The Gap",
+    "headline": "A Concrete Circle Prevents 82% of Fatal Intersection Crashes. America Builds 409 a Year.",
+    "revision": 0
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -299,7 +307,7 @@
       "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 782,
+  "last_completed": 783,
   "last_published": {
     "number": 778,
     "slug": "tesla-suspension-three-recalls-same-part",
