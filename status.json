@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "number": 779,
+    "slug": "nhtsa-deaths-fell-dont-credit-the-cuts",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "headline": "NHTSA Lost a Quarter of Its Staff While Fatalities Hit a Record Low, and Those Two Facts Are Not Friends"
+  },
   "queue": [
     {
       "number": 747,
@@ -145,5 +151,5 @@
   "last_published": 759,
   "last_published_slug": "rear-seat-beep-saves-fifty-of-nine-thousand",
   "last_published_date": "2026-08-16",
-  "last_journalist": "Vin Wreckage"
+  "last_journalist": "Clara Rollover"
 }
