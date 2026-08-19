@@ -264,9 +264,41 @@
         }
       },
       "ship_date": "2026-09-10"
+    },
+    {
+      "number": 781,
+      "slug": "honda-v6-three-investigations-engine-eating-itself",
+      "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-19T08:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 63.3,
+          "short_pct": 38.8,
+          "long_pct": 6.1,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-08-20"
     }
   ],
-  "last_completed": 780,
+  "last_completed": 781,
   "last_published": {
     "number": 770,
     "slug": "stellantis-848k-use-your-mirrors",
