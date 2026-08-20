@@ -2,7 +2,7 @@
   "current": {
     "number": 783,
     "slug": "roundabout-82-percent-fix-america-wont-build",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "kicker": "The Gap",
     "headline": "A Concrete Circle Prevents 82% of Fatal Intersection Crashes. America Builds 409 a Year.",
@@ -333,12 +333,12 @@
   ],
   "last_completed": 783,
   "last_published": {
-    "number": 778,
-    "slug": "tesla-suspension-three-recalls-same-part",
-    "date": "2026-08-19",
-    "journalist": "Rex Driverton"
+    "number": 783,
+    "slug": "roundabout-82-percent-fix-america-wont-build",
+    "date": "2026-08-20",
+    "journalist": "Clara Rollover"
   },
-  "last_published_slug": "tesla-suspension-three-recalls-same-part",
-  "last_published_date": "2026-08-19",
-  "last_journalist": "Rex Driverton"
+  "last_published_slug": "roundabout-82-percent-fix-america-wont-build",
+  "last_published_date": "2026-08-20",
+  "last_journalist": "Clara Rollover"
 }
