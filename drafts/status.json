@@ -1,5 +1,37 @@
 {
-  "current": null,
+  "current": {
+    "number": 784,
+    "slug": "isa-speed-limiter-every-eu-car-us-nothing",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "kicker": "The Gap",
+    "headline": "Every New Car in Europe Has a Speed Limiter. America Has Not Started Writing the Rule.",
+    "revision": 0,
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0
+    },
+    "critic_avg": 9.0,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 10.4,
+      "css_class": true,
+      "sentence_rhythm": {
+        "variance": 116.8,
+        "short_pct": 35.4,
+        "long_pct": 16.7,
+        "passed": true
+      }
+    },
+    "ship_date": "2026-08-21"
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -299,7 +331,7 @@
       "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 783,
+  "last_completed": 784,
   "last_published": {
     "number": 783,
     "slug": "roundabout-82-percent-fix-america-wont-build",
