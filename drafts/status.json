@@ -21,12 +21,12 @@
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 10.4,
+      "the_starters_pct": 9.2,
       "css_class": true,
       "sentence_rhythm": {
-        "variance": 116.8,
-        "short_pct": 35.4,
-        "long_pct": 16.7,
+        "variance": 201.0,
+        "short_pct": 14.0,
+        "long_pct": 44.0,
         "passed": true
       }
     },
