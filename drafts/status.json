@@ -1,5 +1,37 @@
 {
-  "current": null,
+  "current": {
+    "number": 785,
+    "slug": "phantom-airbags-spec-sheet-nobody-checked",
+    "phase": "QA",
+    "journalist": "Mia Crumplezone",
+    "kicker": "The Gap",
+    "headline": "Two Airbags Were on the Spec Sheet for Eight Months. They Were Never in the Car.",
+    "revision": 0,
+    "critique_round": 1,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 13.2,
+      "css_class": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 243.4,
+        "short_pct": 13.3,
+        "long_pct": 46.7,
+        "passed": true
+      }
+    },
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0
+    },
+    "critic_avg": 9.0
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
