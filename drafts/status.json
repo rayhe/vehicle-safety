@@ -1,36 +1,38 @@
 {
   "current": {
-    "number": 785,
-    "slug": "phantom-airbags-spec-sheet-nobody-checked",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "kicker": "The Gap",
-    "headline": "Two Airbags Were on the Spec Sheet for Eight Months. They Were Never in the Car.",
+    "number": 786,
+    "slug": "safest-year-except-if-youre-65",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "kicker": "By The Numbers",
+    "headline": "Every Category of Traffic Death Declined Last Year. Except People Over 65.",
     "revision": 0,
     "critique_round": 1,
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 13.2,
+      "the_starters_pct": 6.4,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
-        "variance": 243.4,
-        "short_pct": 13.3,
-        "long_pct": 46.7,
+        "variance": 522.8,
+        "short_pct": 12.5,
+        "long_pct": 75.0,
         "passed": true
       }
     },
     "scores": {
       "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.5,
       "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "actionable_insights": 9.0
+      "legal_accuracy": 9.5,
+      "research_rigor": 8.5,
+      "data_presentation": 9.0
     },
-    "critic_avg": 9.0
+    "critic_avg": 9.0,
+    "ship_date": "2026-08-23",
+    "notes": "Panel passed 9.0 avg. Files in stories/, images/, index.html. Needs: sitemap.xml entry + Publish commit."
   },
   "next": {
     "number": 748,
@@ -40,6 +42,25 @@
     "ship_date": "2026-08-19"
   },
   "queue": [
+    {
+      "number": 785,
+      "slug": "phantom-airbags-spec-sheet-nobody-checked",
+      "phase": "SHIP",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "headline": "Two Airbags Were on the Spec Sheet for Eight Months. They Were Never in the Car.",
+      "ship_date": "2026-08-22",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.0
+    },
     {
       "number": 748,
       "slug": "ford-741k-rollaway-recall-remedy-gap",
