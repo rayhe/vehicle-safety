@@ -2,7 +2,7 @@
   "current": {
     "number": 786,
     "slug": "safest-year-except-if-youre-65",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Dale Impactor III",
     "kicker": "By The Numbers",
     "headline": "Every Category of Traffic Death Declined Last Year. Except People Over 65.",
@@ -32,7 +32,7 @@
     },
     "critic_avg": 9.0,
     "ship_date": "2026-08-23",
-    "notes": "Panel passed 9.0 avg. Files in stories/, images/, index.html. Needs: sitemap.xml entry + Publish commit."
+    "notes": "Panel passed 9.0 avg. All hard gates verified. Files in stories/, images/, index.html. Needs: sitemap.xml entry + Publish commit on ship_date 2026-08-23."
   },
   "next": {
     "number": 748,
