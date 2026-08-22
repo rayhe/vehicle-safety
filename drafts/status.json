@@ -43,25 +43,6 @@
   },
   "queue": [
     {
-      "number": 785,
-      "slug": "phantom-airbags-spec-sheet-nobody-checked",
-      "phase": "SHIP",
-      "journalist": "Mia Crumplezone",
-      "kicker": "The Gap",
-      "headline": "Two Airbags Were on the Spec Sheet for Eight Months. They Were Never in the Car.",
-      "ship_date": "2026-08-22",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      },
-      "critic_avg": 9.0
-    },
-    {
       "number": 748,
       "slug": "ford-741k-rollaway-recall-remedy-gap",
       "phase": "SHIP_BLOCKED",
@@ -352,14 +333,14 @@
       "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 784,
+  "last_completed": 785,
   "last_published": {
-    "number": 784,
-    "slug": "isa-speed-limiter-every-eu-car-us-nothing",
-    "date": "2026-08-21",
-    "journalist": "Vin Wreckage"
+    "number": 785,
+    "slug": "phantom-airbags-spec-sheet-nobody-checked",
+    "date": "2026-08-22",
+    "journalist": "Mia Crumplezone"
   },
-  "last_published_slug": "isa-speed-limiter-every-eu-car-us-nothing",
-  "last_published_date": "2026-08-21",
-  "last_journalist": "Vin Wreckage"
+  "last_published_slug": "phantom-airbags-spec-sheet-nobody-checked",
+  "last_published_date": "2026-08-22",
+  "last_journalist": "Mia Crumplezone"
 }
