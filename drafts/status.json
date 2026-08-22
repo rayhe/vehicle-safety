@@ -32,7 +32,7 @@
     },
     "critic_avg": 9.0,
     "ship_date": "2026-08-23",
-    "notes": "Panel passed 9.0 avg. All hard gates verified. Files in stories/, images/, index.html. Needs: sitemap.xml entry + Publish commit on ship_date 2026-08-23."
+    "notes": "Panel passed 9.0 avg. All hard gates verified. Files in stories/, images/, index.html, sitemap.xml. Ready for Publish commit on ship_date 2026-08-23."
   },
   "next": {
     "number": 748,
