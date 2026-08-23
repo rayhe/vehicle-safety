@@ -20,7 +20,15 @@
   },
   "next": {
     "number": 788,
-    "phase": "RESEARCH"
+    "slug": "wrong-way-detection-camera-82-percent",
+    "phase": "RESEARCH_COMPLETE",
+    "journalist": "Axle McScatter",
+    "kicker": "The Fix",
+    "headline_candidates": [
+      "A $120,000 Camera Catches 82% of Wrong-Way Drivers Before They Kill Anyone. Most States Don't Have One.",
+      "Wrong-Way Crashes Kill 500 Americans a Year. A $120,000 Camera Stops 82% of Them."
+    ],
+    "research_file": "drafts/788-wrong-way-detection-research.md"
   },
   "queue": [
     {
