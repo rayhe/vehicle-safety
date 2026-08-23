@@ -1,38 +1,38 @@
 {
   "current": {
-    "number": 786,
-    "slug": "safest-year-except-if-youre-65",
+    "number": 787,
+    "slug": "gm-l87-oil-fix-7000-failures",
     "phase": "SHIP",
-    "journalist": "Dale Impactor III",
-    "kicker": "By The Numbers",
-    "headline": "Every Category of Traffic Death Declined Last Year. Except People Over 65.",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "headline": "GM Recalled 600,000 V8 Engines for Seizing at Highway Speed. The Fix for Most Owners Was an Oil Change.",
     "revision": 0,
     "critique_round": 1,
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 6.4,
+      "the_starters_pct": 11.5,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
-        "variance": 522.8,
-        "short_pct": 12.5,
-        "long_pct": 75.0,
+        "variance": 739.3,
+        "short_pct": 10.7,
+        "long_pct": 57.1,
         "passed": true
       }
     },
     "scores": {
       "general_editor": 9.0,
       "voice_coach": 8.5,
-      "ethics_reviewer": 9.5,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.5,
-      "research_rigor": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
       "data_presentation": 9.0
     },
     "critic_avg": 9.0,
-    "ship_date": "2026-08-23",
-    "notes": "Panel passed 9.0 avg. All hard gates verified. Files in stories/, images/, index.html, sitemap.xml. Ready for Publish commit on ship_date 2026-08-23."
+    "ship_date": "2026-08-24",
+    "notes": "Panel passed 9.0 avg. All hard gates verified. Files in stories/, images/, index.html, sitemap.xml. Ready for Publish commit on ship_date 2026-08-24."
   },
   "next": {
     "number": 748,
@@ -333,14 +333,14 @@
       "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 785,
+  "last_completed": 786,
   "last_published": {
-    "number": 785,
-    "slug": "phantom-airbags-spec-sheet-nobody-checked",
-    "date": "2026-08-22",
-    "journalist": "Mia Crumplezone"
+    "number": 786,
+    "slug": "safest-year-except-if-youre-65",
+    "date": "2026-08-23",
+    "journalist": "Dale Impactor III"
   },
-  "last_published_slug": "phantom-airbags-spec-sheet-nobody-checked",
-  "last_published_date": "2026-08-22",
-  "last_journalist": "Mia Crumplezone"
+  "last_published_slug": "safest-year-except-if-youre-65",
+  "last_published_date": "2026-08-23",
+  "last_journalist": "Dale Impactor III"
 }
