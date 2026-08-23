@@ -1,19 +1,26 @@
 {
   "current": {
-    "number": 783,
-    "slug": "roundabout-82-percent-fix-america-wont-build",
-    "phase": "DRAFTED",
-    "journalist": "Clara Rollover",
-    "kicker": "The Gap",
-    "headline": "A Concrete Circle Prevents 82% of Fatal Intersection Crashes. America Builds 409 a Year.",
-    "revision": 0
+    "number": 787,
+    "slug": "gm-l87-oil-fix-7000-failures",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "headline": "GM Recalled 600,000 V8 Engines for Seizing at Highway Speed. The Fix for Most Owners Was an Oil Change.",
+    "ship_date": "2026-08-24",
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0
+    },
+    "critic_avg": 9.0
   },
   "next": {
-    "number": 748,
-    "slug": "ford-741k-rollaway-recall-remedy-gap",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Axle McScatter",
-    "ship_date": "2026-08-19"
+    "number": 788,
+    "phase": "RESEARCH"
   },
   "queue": [
     {
@@ -307,14 +314,14 @@
       "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 783,
+  "last_completed": 787,
   "last_published": {
-    "number": 778,
-    "slug": "tesla-suspension-three-recalls-same-part",
-    "date": "2026-08-19",
-    "journalist": "Rex Driverton"
+    "number": 786,
+    "slug": "safest-year-except-if-youre-65",
+    "date": "2026-08-23",
+    "journalist": "Dale Impactor III"
   },
-  "last_published_slug": "tesla-suspension-three-recalls-same-part",
-  "last_published_date": "2026-08-19",
-  "last_journalist": "Rex Driverton"
+  "last_published_slug": "safest-year-except-if-youre-65",
+  "last_published_date": "2026-08-23",
+  "last_journalist": "Dale Impactor III"
 }
