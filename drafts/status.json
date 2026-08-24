@@ -1,39 +1,5 @@
 {
-  "current": {
-    "number": 787,
-    "slug": "gm-l87-oil-fix-7000-failures",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "headline": "GM Recalled 600,000 V8 Engines for Seizing at Highway Speed. The Fix for Most Owners Was an Oil Change.",
-    "revision": 0,
-    "critique_round": 1,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 11.5,
-      "css_class": true,
-      "style_css": true,
-      "sentence_rhythm": {
-        "variance": 739.3,
-        "short_pct": 10.7,
-        "long_pct": 57.1,
-        "passed": true
-      }
-    },
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "critic_avg": 9.0,
-    "ship_date": "2026-08-24",
-    "notes": "Panel passed 9.0 avg. All hard gates verified. Files in stories/, images/, index.html, sitemap.xml. Ready for Publish commit on ship_date 2026-08-24."
-  },
+  "current": null,
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -333,14 +299,14 @@
       "ship_date": "2026-08-21"
     }
   ],
-  "last_completed": 786,
+  "last_completed": 787,
   "last_published": {
-    "number": 786,
-    "slug": "safest-year-except-if-youre-65",
-    "date": "2026-08-23",
-    "journalist": "Dale Impactor III"
+    "number": 787,
+    "slug": "gm-l87-oil-fix-7000-failures",
+    "date": "2026-08-24",
+    "journalist": "Rex Driverton"
   },
-  "last_published_slug": "safest-year-except-if-youre-65",
-  "last_published_date": "2026-08-23",
-  "last_journalist": "Dale Impactor III"
+  "last_published_slug": "gm-l87-oil-fix-7000-failures",
+  "last_published_date": "2026-08-24",
+  "last_journalist": "Rex Driverton"
 }
