@@ -1,5 +1,39 @@
 {
-  "current": null,
+  "current": {
+    "number": 788,
+    "slug": "wrong-way-crashes-302-per-year-camera-fix",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "kicker": "The Gap",
+    "headline": "A \\$120,000 Camera Catches 82% of Wrong-Way Drivers Before They Kill Anyone. Most States Don't Have One.",
+    "revision": 1,
+    "critique_round": 1,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 5.7,
+      "css_class": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 632.9,
+        "short_pct": 13.9,
+        "long_pct": 38.9,
+        "passed": true
+      }
+    },
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "critic_avg": 9.0,
+    "ship_date": "2026-08-25",
+    "notes": "Panel passed 9.0 avg. All hard gates verified. Hero image generated (JPEG verified). Ready to ship tomorrow (1/day limit)."
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
