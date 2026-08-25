@@ -1,35 +1,35 @@
 {
   "current": {
-    "number": 789,
-    "slug": "durango-spoiler-three-recalls-no-fix",
+    "number": 791,
+    "slug": "medical-incapacitation-12-percent-6-states-report",
     "phase": "SHIP_BLOCKED",
-    "journalist": "Clara Rollover",
-    "title": "Dodge Has Recalled the Durango's Rear Spoiler Three Times. The Fix Keeps Failing. They Still Don't Have a New One.",
-    "started": "2026-08-25T08:30:00Z",
+    "journalist": "Dale Impactor III",
+    "title": "12.7% of Crashes Have a Medical Cause. Only 6 States Ask Doctors to Say Anything.",
+    "started": "2026-08-25T16:00:00Z",
     "critique_round": 1,
     "scores": {
       "general_editor": 9.0,
       "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
+      "ethics_reviewer": 9.5,
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
       "research_rigor": 9.0,
-      "actionable_insights": 9.0
+      "actionable_insights": 8.5
     },
-    "critic_avg": 9.07,
+    "critic_avg": 8.93,
     "hard_gates": {
-      "em_dashes": 0,
+      "em_dashes": 3,
       "banned_phrases": 0,
-      "the_starters_pct": 10.6,
+      "the_starters_pct": 11.1,
       "css_class": true,
       "sentence_rhythm": {
-        "variance": 407.7,
-        "short_pct": 14.7,
-        "long_pct": 52.9,
+        "variance": 463.8,
+        "short_pct": 9.7,
+        "long_pct": 38.7,
         "passed": true
       }
     },
-    "ship_date": "2026-08-26"
+    "ship_date": "2026-08-27"
   },
   "next": {
     "number": 748,
@@ -361,6 +361,13 @@
         }
       },
       "ship_date": "2026-09-11"
+    },
+    {
+      "number": 791,
+      "slug": "medical-incapacitation-12-percent-6-states-report",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "ship_date": "2026-08-27"
     }
   ],
   "last_completed": 788,
