@@ -328,6 +328,39 @@
         }
       },
       "ship_date": "2026-08-21"
+    },
+    {
+      "number": 790,
+      "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
+      "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "started": "2026-08-25T12:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 226.3,
+          "short_pct": 5.9,
+          "long_pct": 70.6,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-09-11"
     }
   ],
   "last_completed": 788,
