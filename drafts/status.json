@@ -1,5 +1,36 @@
 {
-  "current": null,
+  "current": {
+    "number": 789,
+    "slug": "durango-spoiler-three-recalls-no-fix",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Clara Rollover",
+    "title": "Dodge Has Recalled the Durango's Rear Spoiler Three Times. The Fix Keeps Failing. They Still Don't Have a New One.",
+    "started": "2026-08-25T08:30:00Z",
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0
+    },
+    "critic_avg": 9.07,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 10.6,
+      "css_class": true,
+      "sentence_rhythm": {
+        "variance": 407.7,
+        "short_pct": 14.7,
+        "long_pct": 52.9,
+        "passed": true
+      }
+    },
+    "ship_date": "2026-08-26"
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
