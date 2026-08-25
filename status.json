@@ -320,16 +320,35 @@
         }
       },
       "ship_date": "2026-08-21"
+    },
+    {
+      "number": 790,
+      "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
+      "phase": "CRITIQUED",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "headline": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation.",
+      "ship_date": "2026-09-11",
+      "scores": {
+        "accuracy": 9.0,
+        "voice": 9.0,
+        "structure": 9.0,
+        "actionability": 9.0,
+        "brevity": 9.0,
+        "originality": 9.0,
+        "formatting": 9.0
+      },
+      "critic_avg": 9.0
     }
   ],
-  "last_completed": 787,
+  "last_completed": 788,
   "last_published": {
     "number": 786,
     "slug": "safest-year-except-if-youre-65",
     "date": "2026-08-23",
     "journalist": "Dale Impactor III"
   },
-  "last_published_slug": "safest-year-except-if-youre-65",
-  "last_published_date": "2026-08-23",
-  "last_journalist": "Dale Impactor III"
+  "last_published_slug": "wrong-way-detection-camera-82-percent",
+  "last_published_date": "2026-08-25",
+  "last_journalist": "Axle McScatter"
 }
