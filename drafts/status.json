@@ -3,7 +3,7 @@
     "number": 793,
     "slug": "tire-recall-12-percent-completion-rate",
     "title": "Only 12% of Recalled Tires Get Fixed. NHTSA Cannot Find the Other 88%.",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
     "kicker": "The Gap",
     "started": "2026-08-26T08:30:00Z",
@@ -32,7 +32,8 @@
     },
     "hero_image": "images/tire-recall-12-percent-completion-rate.jpg",
     "hero_hash": "bcab97d3",
-    "ship_date": "2026-08-27"
+    "ship_date": "2026-08-27",
+    "hard_gates_verified": true
   },
   "next": {
     "number": 748,
