@@ -1,38 +1,5 @@
 {
-  "current": {
-    "number": 792,
-    "slug": "rear-seat-belt-beep-15-year-delay",
-    "phase": "QA",
-    "journalist": "Vin Wreckage",
-    "title": "NHTSA Took 15 Years to Move a Beep Three Feet",
-    "kicker": "The Gap",
-    "started": "2026-08-25T17:30:00Z",
-    "critique_round": 1,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.5,
-      "actionable_insights": 8.5
-    },
-    "critic_avg": 8.93,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 0.0,
-      "css_class": true,
-      "sentence_rhythm": {
-        "variance": 207.5,
-        "short_pct": 15.0,
-        "long_pct": 65.0,
-        "passed": true
-      }
-    },
-    "ship_date": "2026-08-26",
-    "shipped_date": "2026-08-26"
-  },
+  "current": null,
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -372,14 +339,14 @@
       "ship_date": "2026-08-27"
     }
   ],
-  "last_completed": 788,
+  "last_completed": 792,
   "last_published": {
-    "number": 788,
-    "slug": "wrong-way-crashes-302-per-year-camera-fix",
-    "date": "2026-08-25",
-    "journalist": "Axle McScatter"
+    "number": 792,
+    "slug": "rear-seat-belt-beep-15-year-delay",
+    "date": "2026-08-26",
+    "journalist": "Vin Wreckage"
   },
-  "last_published_slug": "wrong-way-crashes-302-per-year-camera-fix",
-  "last_published_date": "2026-08-25",
-  "last_journalist": "Axle McScatter"
+  "last_published_slug": "rear-seat-belt-beep-15-year-delay",
+  "last_published_date": "2026-08-26",
+  "last_journalist": "Vin Wreckage"
 }
