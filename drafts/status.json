@@ -2,7 +2,7 @@
   "current": {
     "number": 792,
     "slug": "rear-seat-belt-beep-15-year-delay",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Vin Wreckage",
     "title": "NHTSA Took 15 Years to Move a Beep Three Feet",
     "kicker": "The Gap",
@@ -30,7 +30,8 @@
         "passed": true
       }
     },
-    "ship_date": "2026-08-26"
+    "ship_date": "2026-08-26",
+    "shipped_date": "2026-08-26"
   },
   "next": {
     "number": 748,
