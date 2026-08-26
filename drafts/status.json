@@ -1,35 +1,36 @@
 {
   "current": {
-    "number": 791,
-    "slug": "medical-incapacitation-12-percent-6-states-report",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Dale Impactor III",
-    "title": "12.7% of Crashes Have a Medical Cause. Only 6 States Ask Doctors to Say Anything.",
-    "started": "2026-08-25T16:00:00Z",
+    "number": 792,
+    "slug": "rear-seat-belt-beep-15-year-delay",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "title": "NHTSA Took 15 Years to Move a Beep Three Feet",
+    "kicker": "The Gap",
+    "started": "2026-08-25T17:30:00Z",
     "critique_round": 1,
     "scores": {
       "general_editor": 9.0,
       "voice_coach": 9.0,
-      "ethics_reviewer": 9.5,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
       "actionable_insights": 8.5
     },
     "critic_avg": 8.93,
     "hard_gates": {
-      "em_dashes": 3,
+      "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 11.1,
+      "the_starters_pct": 0.0,
       "css_class": true,
       "sentence_rhythm": {
-        "variance": 463.8,
-        "short_pct": 9.7,
-        "long_pct": 38.7,
+        "variance": 207.5,
+        "short_pct": 15.0,
+        "long_pct": 65.0,
         "passed": true
       }
     },
-    "ship_date": "2026-08-27"
+    "ship_date": "2026-08-26"
   },
   "next": {
     "number": 748,
