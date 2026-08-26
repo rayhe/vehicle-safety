@@ -1,5 +1,39 @@
 {
-  "current": null,
+  "current": {
+    "number": 793,
+    "slug": "tire-recall-12-percent-completion-rate",
+    "title": "Only 12% of Recalled Tires Get Fixed. NHTSA Cannot Find the Other 88%.",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "kicker": "The Gap",
+    "started": "2026-08-26T08:30:00Z",
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0
+    },
+    "critic_avg": 9.07,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": true,
+      "sentence_rhythm": {
+        "variance": 1281.8,
+        "short_pct": 0.0,
+        "long_pct": 88.9,
+        "passed": true
+      }
+    },
+    "hero_image": "images/tire-recall-12-percent-completion-rate.jpg",
+    "hero_hash": "bcab97d3",
+    "ship_date": "2026-08-27"
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
