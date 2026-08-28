@@ -2,12 +2,37 @@
   "current": {
     "number": 796,
     "slug": "durango-spoiler-third-recall-road-debris",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
     "started": "2026-08-28T14:28:51.604437Z",
     "kicker": "Investigation",
     "round": 0,
-    "title": "Chrysler Recalls 74,578 Durangos for the Third Time for the Same Spoiler That Falls Off"
+    "title": "Chrysler Recalls 74,578 Durangos for the Third Time for the Same Spoiler That Falls Off",
+    "ship_date": "2026-08-29",
+    "critique_round": 0,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.5,
+      "actionable_insights": 9.0,
+      "average": 9.07
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 513.1,
+        "short_pct": 8.0,
+        "long_pct": 46.0,
+        "passed": true
+      }
+    }
   },
   "next": {
     "number": 748,
@@ -346,6 +371,41 @@
       "phase": "SHIP_BLOCKED",
       "journalist": "Dale Impactor III",
       "ship_date": "2026-08-27"
+    },
+    {
+      "number": 796,
+      "slug": "durango-spoiler-third-recall-road-debris",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-28T14:28:51.604437Z",
+      "kicker": "Investigation",
+      "round": 0,
+      "title": "Chrysler Recalls 74,578 Durangos for the Third Time for the Same Spoiler That Falls Off",
+      "ship_date": "2026-08-29",
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.5,
+        "actionable_insights": 9.0,
+        "average": 9.07
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 513.1,
+          "short_pct": 8.0,
+          "long_pct": 46.0,
+          "passed": true
+        }
+      }
     }
   ],
   "last_completed": 795,
