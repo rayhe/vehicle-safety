@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "gm-l87-million-probe-oil-fix-failed",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-08-28T10:30:00Z",
     "number": 795,
@@ -35,7 +35,8 @@
     "ship_date": "2026-08-29",
     "title": "GM's Fix Was Thicker Oil. 26 Trucks Got New Engines and Still Failed. Now a Million Are Under Investigation.",
     "kicker": "Investigation",
-    "word_count": 850
+    "word_count": 850,
+    "published_date": "2026-08-28"
   },
   "next": {
     "number": 748,
