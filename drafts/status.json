@@ -1,10 +1,41 @@
 {
   "current": {
     "slug": "gm-l87-million-probe-oil-fix-failed",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-08-28T10:30:00Z",
-    "number": 795
+    "number": 795,
+    "round": 0,
+    "critique_date": "2026-08-28T10:35:00Z",
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0,
+      "average": 9.0
+    },
+    "critic_avg": 9.0,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 2.1,
+      "css_class": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 1594.9,
+        "short_pct": 11.8,
+        "long_pct": 70.6,
+        "passed": true
+      },
+      "word_count": 850
+    },
+    "ship_date": "2026-08-29",
+    "title": "GM's Fix Was Thicker Oil. 26 Trucks Got New Engines and Still Failed. Now a Million Are Under Investigation.",
+    "kicker": "Investigation",
+    "word_count": 850
   },
   "next": {
     "number": 748,
