@@ -1,39 +1,5 @@
 {
-  "current": {
-    "number": 794,
-    "slug": "nhtsa-five-av-rules-zero-pedestrian-rules",
-    "title": "NHTSA Has Written Five AV Rules in Six Months. The $3 Pedestrian Fix Has Taken Two Years and Counting.",
-    "phase": "QA",
-    "journalist": "Axle McScatter",
-    "kicker": "The Gap",
-    "started": "2026-08-27T08:30:00Z",
-    "critique_round": 1,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "actionable_insights": 9.0
-    },
-    "critic_avg": 9.07,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 8.0,
-      "css_class": true,
-      "sentence_rhythm": {
-        "variance": 77.2,
-        "short_pct": 20.0,
-        "long_pct": 24.0,
-        "passed": true
-      }
-    },
-    "hero_image": "images/nhtsa-five-av-rules-zero-pedestrian-rules.jpg",
-    "ship_date": "2026-08-28",
-    "hard_gates_verified": true
-  },
+  "current": null,
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -373,14 +339,14 @@
       "ship_date": "2026-08-27"
     }
   ],
-  "last_completed": 793,
+  "last_completed": 794,
   "last_published": {
     "number": 794,
     "slug": "nhtsa-five-av-rules-zero-pedestrian-rules",
     "date": "2026-08-28",
     "journalist": "Axle McScatter"
   },
-  "last_published_slug": "tire-recall-12-percent-completion-rate",
-  "last_published_date": "2026-08-27",
-  "last_journalist": "Clara Rollover"
+  "last_published_slug": "nhtsa-five-av-rules-zero-pedestrian-rules",
+  "last_published_date": "2026-08-28",
+  "last_journalist": "Axle McScatter"
 }
