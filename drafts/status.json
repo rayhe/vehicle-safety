@@ -2,7 +2,7 @@
   "current": {
     "number": 796,
     "slug": "durango-spoiler-third-recall-road-debris",
-    "phase": "SHIP_BLOCKED",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "started": "2026-08-28T14:28:51.604437Z",
     "kicker": "Investigation",
@@ -32,7 +32,8 @@
         "long_pct": 46.0,
         "passed": true
       }
-    }
+    },
+    "published_date": "2026-08-29"
   },
   "next": {
     "number": 748,
@@ -410,12 +411,12 @@
   ],
   "last_completed": 795,
   "last_published": {
-    "number": 795,
-    "slug": "gm-l87-million-probe-oil-fix-failed",
-    "date": "2026-08-28",
-    "journalist": "Rex Driverton"
+    "number": 796,
+    "slug": "durango-spoiler-third-recall-road-debris",
+    "date": "2026-08-29",
+    "journalist": "Mia Crumplezone"
   },
-  "last_published_slug": "gm-l87-million-probe-oil-fix-failed",
-  "last_published_date": "2026-08-28",
-  "last_journalist": "Rex Driverton"
+  "last_published_slug": "durango-spoiler-third-recall-road-debris",
+  "last_published_date": "2026-08-29",
+  "last_journalist": "Mia Crumplezone"
 }
