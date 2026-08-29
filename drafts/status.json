@@ -1,5 +1,40 @@
 {
-  "current": null,
+  "current": {
+    "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Rex Driverton",
+    "started": "2026-08-29T10:30:00Z",
+    "number": 797,
+    "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation",
+    "kicker": "Investigation",
+    "phase_detail": "CRITIQUE passed round 0, avg 9.0",
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 8.5,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0,
+      "average": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 2,
+      "banned_phrases": 0,
+      "the_starters_pct": 1.2,
+      "css_class_story": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 217.0,
+        "short_pct": 0.0,
+        "long_pct": 58.8,
+        "passed": true
+      },
+      "jpeg_valid": true
+    },
+    "ship_date": "2026-08-30",
+    "critique_round": 0
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -23,10 +58,75 @@
       "ship_date": "2026-08-20"
     },
     {
+      "number": 781,
+      "slug": "honda-v6-three-investigations-engine-eating-itself",
+      "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-08-19T08:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 63.3,
+          "short_pct": 38.8,
+          "long_pct": 6.1,
+          "passed": true
+        }
+      },
+      "ship_date": "2026-08-20"
+    },
+    {
       "number": 750,
       "slug": "nissan-sentra-same-driveshaft-defect-twice",
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
+      "ship_date": "2026-08-21"
+    },
+    {
+      "number": 782,
+      "slug": "toxicology-backlog-evidence-expires",
+      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "started": "2026-08-19T10:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.5,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 219.5,
+          "short_pct": 30.6,
+          "long_pct": 22.4,
+          "passed": true
+        }
+      },
       "ship_date": "2026-08-21"
     },
     {
@@ -55,6 +155,13 @@
       "slug": "mass-shooting-road-death-spillover",
       "phase": "SHIP_BLOCKED",
       "journalist": "Clara Rollover",
+      "ship_date": "2026-08-27"
+    },
+    {
+      "number": 791,
+      "slug": "medical-incapacitation-12-percent-6-states-report",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Dale Impactor III",
       "ship_date": "2026-08-27"
     },
     {
@@ -88,6 +195,40 @@
         "legal_accuracy": 9.0,
         "research_rigor": 9.0,
         "actionable_insights": 9.0
+      }
+    },
+    {
+      "number": 797,
+      "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "ship_date": "2026-08-30",
+      "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0,
+        "average": 9.0
+      },
+      "critic_avg": 9.0,
+      "hard_gates": {
+        "em_dashes": 2,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.2,
+        "css_class_story": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 217.0,
+          "short_pct": 0.0,
+          "long_pct": 58.8,
+          "passed": true
+        },
+        "jpeg_valid": true
       }
     },
     {
@@ -234,71 +375,6 @@
       "ship_date": "2026-09-10"
     },
     {
-      "number": 781,
-      "slug": "honda-v6-three-investigations-engine-eating-itself",
-      "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Mia Crumplezone",
-      "started": "2026-08-19T08:30:00Z",
-      "critique_round": 1,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      },
-      "critic_avg": 9.07,
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 0.0,
-        "css_class": true,
-        "sentence_rhythm": {
-          "variance": 63.3,
-          "short_pct": 38.8,
-          "long_pct": 6.1,
-          "passed": true
-        }
-      },
-      "ship_date": "2026-08-20"
-    },
-    {
-      "number": 782,
-      "slug": "toxicology-backlog-evidence-expires",
-      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "started": "2026-08-19T10:30:00Z",
-      "critique_round": 1,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0
-      },
-      "critic_avg": 9.07,
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 10.5,
-        "css_class": true,
-        "sentence_rhythm": {
-          "variance": 219.5,
-          "short_pct": 30.6,
-          "long_pct": 22.4,
-          "passed": true
-        }
-      },
-      "ship_date": "2026-08-21"
-    },
-    {
       "number": 790,
       "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation.",
@@ -330,13 +406,6 @@
         }
       },
       "ship_date": "2026-09-11"
-    },
-    {
-      "number": 791,
-      "slug": "medical-incapacitation-12-percent-6-states-report",
-      "phase": "SHIP_BLOCKED",
-      "journalist": "Dale Impactor III",
-      "ship_date": "2026-08-27"
     }
   ],
   "last_completed": 796,
