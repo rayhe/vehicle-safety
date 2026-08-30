@@ -1,40 +1,5 @@
 {
-  "current": {
-    "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
-    "phase": "QA",
-    "journalist": "Rex Driverton",
-    "started": "2026-08-29T10:30:00Z",
-    "number": 797,
-    "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation",
-    "kicker": "Investigation",
-    "phase_detail": "CRITIQUE passed round 0, avg 9.0",
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 8.5,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "actionable_insights": 9.0,
-      "average": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 2,
-      "banned_phrases": 0,
-      "the_starters_pct": 1.2,
-      "css_class_story": true,
-      "style_css": true,
-      "sentence_rhythm": {
-        "variance": 217.0,
-        "short_pct": 0.0,
-        "long_pct": 58.8,
-        "passed": true
-      },
-      "jpeg_valid": true
-    },
-    "ship_date": "2026-08-30",
-    "critique_round": 0
-  },
+  "current": null,
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
@@ -408,14 +373,14 @@
       "ship_date": "2026-09-11"
     }
   ],
-  "last_completed": 796,
+  "last_completed": 797,
   "last_published": {
-    "number": 796,
-    "slug": "durango-spoiler-third-recall-road-debris",
-    "date": "2026-08-29",
-    "journalist": "Mia Crumplezone"
+    "number": 797,
+    "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
+    "date": "2026-08-30",
+    "journalist": "Rex Driverton"
   },
-  "last_published_slug": "durango-spoiler-third-recall-road-debris",
-  "last_published_date": "2026-08-29",
-  "last_journalist": "Mia Crumplezone"
+  "last_published_slug": "gm-l87-v8-recall-fix-failed-997k-probe",
+  "last_published_date": "2026-08-30",
+  "last_journalist": "Rex Driverton"
 }
