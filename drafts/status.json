@@ -1,5 +1,43 @@
 {
-  "current": null,
+  "current": {
+    "number": 798,
+    "slug": "2025-traffic-deaths-down-pedalcyclists-up",
+    "phase": "SHIP",
+    "journalist": "Axle McScatter",
+    "started": "2026-08-30T10:27:58Z",
+    "title": "Traffic Deaths Fell 6.7% to a 15-Quarter Low. The Only Group That Got Worse Rides a Bike.",
+    "kicker": "By The Numbers",
+    "critique_round": 1,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0,
+      "average": 9.07
+    },
+    "critic_avg": 9.07,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 2.1,
+      "css_class_story": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 463.8,
+        "short_pct": 7.5,
+        "long_pct": 70.0,
+        "passed": true
+      },
+      "jpeg_valid": true,
+      "word_count": 850
+    },
+    "image_hash": "22329f08",
+    "ready_for_ship_date": "2026-08-31",
+    "ship_blocked_reason": "1/day limit - already published 2026-08-30, ship tomorrow"
+  },
   "next": {
     "number": 748,
     "slug": "ford-741k-rollaway-recall-remedy-gap",
