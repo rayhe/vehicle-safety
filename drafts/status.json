@@ -371,6 +371,43 @@
         }
       },
       "ship_date": "2026-09-11"
+    },
+    {
+      "number": 799,
+      "slug": "traffic-decline-narrows-39-states-to-30",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "title": "Traffic Deaths Fell 6.7% to a 15-Quarter Low. But Only 30 States Are Still Improving.",
+      "started": "2026-08-31T10:30:00Z",
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0,
+        "average": 9.07
+      },
+      "critic_avg": 9.07,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class_story": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 184.3,
+          "short_pct": 28.6,
+          "long_pct": 5.7,
+          "passed": true
+        },
+        "jpeg_valid": true,
+        "word_count": 627
+      },
+      "ship_date": "2026-09-01"
     }
   ],
   "last_completed": 798,
