@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
-    "phase": "SHIP",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Clara Rollover",
     "number": 801,
     "started": "2026-09-01T10:29:43.559573Z",
@@ -34,7 +34,8 @@
     },
     "ship_date": "2026-09-03",
     "kicker": "Investigation",
-    "image_hash": "dtn801"
+    "image_hash": "dtn801",
+    "ship_blocked_reason": "daily_limit_2026-09-01_already_published_799_and_future_ship_date_2026-09-03"
   },
   "last_completed": 799,
   "last_journalist": "Axle McScatter",
@@ -459,41 +460,6 @@
       "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
       "started": "2026-08-25T12:30:00Z",
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
-    },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 0,
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 5.7,
-        "css_class_story": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "sentence_rhythm": {
-          "passed": true
-        },
-        "word_count": 650
-      },
-      "journalist": "Clara Rollover",
-      "kicker": "Investigation",
-      "number": 801,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0,
-        "average": 9.07
-      },
-      "ship_date": "2026-09-03",
-      "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
-      "started": "2026-09-01T10:29:43.559573Z",
-      "title": "NHTSA Ordered Its First Forced Recall In 20 Years After 10 People Died From $30 Airbags",
-      "ship_blocked_reason": "daily_limit_2026-09-01_already_published_799"
     }
   ]
 }
