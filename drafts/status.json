@@ -1,10 +1,41 @@
 {
   "current": {
-    "slug": "veloster-tracker-sober-deathtraps",
-    "phase": "QA",
-    "journalist": "Mia Crumplezone",
-    "number": 800,
-    "title": "The Two Deadliest Vehicles Have the Soberest Drivers. That's the Problem."
+    "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Clara Rollover",
+    "number": 801,
+    "started": "2026-09-01T10:29:43.559573Z",
+    "title": "NHTSA Ordered Its First Forced Recall In 20 Years After 10 People Died From $30 Airbags",
+    "round": 0,
+    "critique_started": "2026-09-01T10:31:50.063002Z",
+    "critique_round": 0,
+    "critic_avg": 9.07,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 9.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "actionable_insights": 9.0,
+      "average": 9.07
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 5.7,
+      "css_class_story": true,
+      "style_css": true,
+      "jpeg_valid": true,
+      "sentence_rhythm": {
+        "passed": true
+      },
+      "word_count": 650
+    },
+    "ship_date": "2026-09-03",
+    "kicker": "Investigation",
+    "image_hash": "dtn801",
+    "ship_blocked_reason": "daily_limit_2026-09-02_published_800"
   },
   "last_completed": 800,
   "last_journalist": "Mia Crumplezone",
@@ -390,6 +421,6 @@
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
     }
   ],
-  "last_checked": "2026-09-02T06:30:00Z",
-  "last_check_note": "Verified via git log --since full timestamp+tz: Publish #799 already shipped 2026-09-01; #801 SHIP_BLOCKED until 2026-09-03, #800 until 2026-09-02. No action."
+  "last_checked": "2026-09-02T08:35:00Z",
+  "last_check_note": "QA complete: #800 veloster-tracker-sober-deathtraps deployed to vehicle-safety.org, all checks pass (story 200, og tags, index card, sitemap, hero 200). #801 SHIP_BLOCKED until 2026-09-03."
 }
