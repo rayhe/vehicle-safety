@@ -1,59 +1,28 @@
 {
   "current": {
-    "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Clara Rollover",
-    "number": 801,
-    "started": "2026-09-01T10:29:43.559573Z",
-    "title": "NHTSA Ordered Its First Forced Recall In 20 Years After 10 People Died From $30 Airbags",
-    "round": 0,
-    "critique_started": "2026-09-01T10:31:50.063002Z",
-    "critique_round": 0,
-    "critic_avg": 9.07,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "actionable_insights": 9.0,
-      "average": 9.07
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 5.7,
-      "css_class_story": true,
-      "style_css": true,
-      "jpeg_valid": true,
-      "sentence_rhythm": {
-        "passed": true
-      },
-      "word_count": 650
-    },
-    "ship_date": "2026-09-03",
-    "kicker": "Investigation",
-    "image_hash": "dtn801",
-    "ship_blocked_reason": "daily_limit_2026-09-01_already_published_799_and_future_ship_date_2026-09-03"
-  },
-  "last_completed": 799,
-  "last_journalist": "Axle McScatter",
-  "last_published": {
-    "date": "2026-09-01",
-    "journalist": "Axle McScatter",
-    "number": 799,
-    "slug": "traffic-decline-narrows-39-states-to-30",
-    "title": "Traffic Deaths Fell 6.7% to a 15-Quarter Low. But Only 30 States Are Still Improving."
-  },
-  "last_published_date": "2026-09-01",
-  "last_published_slug": "traffic-decline-narrows-39-states-to-30",
-  "next": {
+    "slug": "veloster-tracker-sober-deathtraps",
+    "phase": "QA",
     "journalist": "Mia Crumplezone",
     "number": 800,
+    "title": "The Two Deadliest Vehicles Have the Soberest Drivers. That's the Problem."
+  },
+  "last_completed": 800,
+  "last_journalist": "Mia Crumplezone",
+  "last_published": {
+    "date": "2026-09-02",
+    "journalist": "Mia Crumplezone",
+    "number": 800,
+    "slug": "veloster-tracker-sober-deathtraps",
+    "title": "The Two Deadliest Vehicles Have the Soberest Drivers. That's the Problem."
+  },
+  "last_published_date": "2026-09-02",
+  "last_published_slug": "veloster-tracker-sober-deathtraps",
+  "next": {
+    "journalist": "Clara Rollover",
+    "number": 801,
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2026-09-02",
-    "slug": "veloster-tracker-sober-deathtraps"
+    "ship_date": "2026-09-03",
+    "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years"
   },
   "queue": [
     {
@@ -259,47 +228,6 @@
       },
       "ship_date": "2026-09-02",
       "slug": "cx90-three-fixes-steering-still-broken"
-    },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 1,
-      "critique_started": "2026-08-31T14:32:14Z",
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class_story": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "sentence_rhythm": {
-          "long_pct": 7.6,
-          "passed": true,
-          "short_pct": 33.3,
-          "variance": 99.2
-        },
-        "style_css": true,
-        "the_starters_pct": 0.0,
-        "total_word_count": 1021,
-        "word_count": 650
-      },
-      "image_hash": "cfdba1a7",
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "number": 800,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "average": 9.07,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_blocked_reason": "daily_limit_2026-08-31_already_published_798",
-      "ship_date": "2026-09-02",
-      "slug": "veloster-tracker-sober-deathtraps",
-      "started": "2026-08-31T14:29:08Z",
-      "title": "The Two Deadliest Vehicles Have the Soberest Drivers. That's the Problem."
     },
     {
       "critic_avg": 8.58,
