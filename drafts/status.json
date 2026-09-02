@@ -461,5 +461,7 @@
       "started": "2026-08-25T12:30:00Z",
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
     }
-  ]
+  ],
+  "last_checked": "2026-09-02T06:30:00Z",
+  "last_check_note": "Verified via git log --since full timestamp+tz: Publish #799 already shipped 2026-09-01; #801 SHIP_BLOCKED until 2026-09-03, #800 until 2026-09-02. No action."
 }
