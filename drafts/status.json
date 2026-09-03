@@ -12,8 +12,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Dale Impactor III",
-    "number": 805,
+    "journalist": "Vin Wreckage",
+    "number": 806,
     "phase": "RESEARCH"
   },
   "queue": [
@@ -479,8 +479,45 @@
       "slug": "kia-ev9-ods-child-airbag-suppression",
       "started": "2026-09-03T14:45:00Z",
       "title": "Kia Recalled 21,290 EV9s Because Adjusting the Passenger Seat Can Disarm the Child Airbag Sensor"
+    },
+    {
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "jpeg_valid": true,
+        "sentence_rhythm": {
+          "variance": 1333.8,
+          "short_pct": 13.8,
+          "long_pct": 34.5,
+          "passed": true
+        },
+        "style_css": true,
+        "the_starters_pct": 10.3,
+        "word_count": 514
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "number": 805,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 8.93
+      },
+      "ship_date": "2026-09-07",
+      "slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
+      "started": "2026-09-03T16:00:00Z",
+      "title": "The Oldsmobile Alero Died in 2004. Its Drivers Lead the League in Driving High."
     }
   ],
-  "last_checked": "2026-09-03T15:00:00Z",
-  "last_check_note": "Worker 2026-09-03 07:30 PDT: #804 (Rex Driverton, Kia EV9 ODS child-suppression recall, 26V545) passed critique 8.93 avg round 0, all hard gates. Blocked by 1/day rule (#801 shipped today; #802 queued 09-04, #803 queued 09-05). Queued SHIP_BLOCKED for 2026-09-06; draft+hero remain in drafts/."
+  "last_checked": "2026-09-03T23:35:00Z",
+  "last_check_note": "Worker 2026-09-03 09:30 PDT: #805 (Dale Impactor III, Alero beater-effect: impairment vs fleet age, r=-0.323, n=303) passed critique 8.93 avg round 0, all hard gates (rhythm script exit 0). Blocked by 1/day rule (#801 shipped today; #802 queued 09-04, #803 09-05, #804 09-06). Queued SHIP_BLOCKED for 2026-09-07; draft+hero+research+critique remain in drafts/."
 }
