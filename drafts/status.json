@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "lucid-air-efuse-fire-recall",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "number": 802,
+    "started": "2026-09-03T10:45:00Z",
+    "kicker": "Investigation"
+  },
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -12,8 +19,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Rex Driverton",
-    "number": 802,
+    "journalist": "Mia Crumplezone",
+    "number": 803,
     "phase": "RESEARCH"
   },
   "queue": [
