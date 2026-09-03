@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "toyota-replacement-curtain-airbag-recall",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "number": 808,
+    "started": "2026-09-03T22:45:00Z",
+    "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata. Finding the Trucks Is Somebody Else's Problem."
+  },
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -592,6 +599,6 @@
       "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing."
     }
   ],
-  "last_checked": "2026-09-03T20:45:00Z",
-  "last_check_note": "Worker 2026-09-03 13:30 PDT: #807 (Axle McScatter, NSC 434 Labor Day forecast audit: per-day normalization 133.5/day +25%, vs 2024 actual 505) passed critique 8.93 avg round 0, all hard gates (rhythm exit 0 after fragment merges; 531 words). Blocked by 1/day rule (#801 shipped today; queue through 09-08). Queued SHIP_BLOCKED for 2026-09-09; draft+hero+research+critique in drafts/. FLAG: peg expires Sep 7, ship date is Sep 9."
+  "last_checked": "2026-09-03T22:45:00Z",
+  "last_check_note": "Worker 2026-09-03 15:30 PDT: #808 (Rex Driverton) RESEARCH done. Angle: Toyota equipment recalls 26E050/26E051, 4,118 Joyson replacement curtain airbags (Tacoma/Tundra), traceability gap (notify only owners \"known to have had\" part), supplier is Takata-asset successor. Kill test passed. Moving to DRAFT."
 }
