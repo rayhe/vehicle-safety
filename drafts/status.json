@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "mustang-ground-eyelet-fatigue-fracture",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "number": 803,
-    "started": "2026-09-03T12:45:00Z"
-  },
+  "current": null,
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -412,8 +406,44 @@
       "slug": "lucid-air-efuse-fire-recall",
       "started": "2026-09-03T10:45:00Z",
       "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
+    },
+    {
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class_story": true,
+        "style_css": true,
+        "em_dashes": 0,
+        "the_starters_pct": 0.0,
+        "sentence_rhythm": {
+          "variance": 451.9,
+          "short_pct": 7.1,
+          "long_pct": 57.1,
+          "passed": true
+        },
+        "jpeg_valid": true
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "number": 803,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "actionable_insights": 9.0,
+        "average": 9.0
+      },
+      "ship_date": "2026-09-05",
+      "slug": "mustang-ground-eyelet-fatigue-fracture",
+      "started": "2026-09-03T12:45:00Z",
+      "title": "Ford Recalled 148,663 Mustangs Over a Ground Wire That Can Kill the Headlights, the Engine, and the Cooling Fan in One Snap"
     }
   ],
-  "last_checked": "2026-09-03T11:15:00Z",
-  "last_check_note": "Worker 2026-09-03 03:30 PDT: #802 (Rex Driverton, Lucid eFuse fire recall) passed critique 9.07 avg, all hard gates. Blocked by 1/day rule (#801 shipped 01:27 PDT today, verified tz-aware). Queued SHIP_BLOCKED for 2026-09-04; draft+hero remain in drafts/."
+  "last_checked": "2026-09-03T13:00:00Z",
+  "last_check_note": "Worker 2026-09-03 05:30 PDT: #803 (Mia Crumplezone, Mustang ground-eyelet fatigue fracture, Ford 26C40) passed critique 9.0 avg round 0, all hard gates. Blocked by 1/day rule (#801 shipped today, #802 queued 2026-09-04). Queued SHIP_BLOCKED for 2026-09-05; draft+hero remain in drafts/."
 }
