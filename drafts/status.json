@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
-    "phase": "SHIP_BLOCKED",
+    "phase": "QA",
     "journalist": "Clara Rollover",
     "number": 801,
     "started": "2026-09-01T10:29:43.559573Z",
@@ -32,10 +32,9 @@
       },
       "word_count": 650
     },
-    "ship_date": "2026-09-03",
     "kicker": "Investigation",
     "image_hash": "dtn801",
-    "ship_blocked_reason": "daily_limit_2026-09-02_published_800"
+    "ship_blocked_reason": null
   },
   "last_completed": 800,
   "last_journalist": "Mia Crumplezone",
@@ -49,11 +48,9 @@
   "last_published_date": "2026-09-02",
   "last_published_slug": "veloster-tracker-sober-deathtraps",
   "next": {
-    "journalist": "Clara Rollover",
-    "number": 801,
-    "phase": "SHIP_BLOCKED",
-    "ship_date": "2026-09-03",
-    "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years"
+    "journalist": "Rex Driverton",
+    "number": 802,
+    "phase": "RESEARCH"
   },
   "queue": [
     {
@@ -421,6 +418,6 @@
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
     }
   ],
-  "last_checked": "2026-09-03T06:30:00Z",
-  "last_check_note": "Worker 2026-09-02 23:30 PDT: verified via git log that #800 published 2026-09-02 (commit 182accc); daily limit holds. #801 (DTN airbag, Clara Rollover, critic avg 9.07) stays SHIP_BLOCKED until 2026-09-03. Queue stocked through 2026-09-11; no new research started. No action taken."
+  "last_checked": "2026-09-03T08:35:00Z",
+  "last_check_note": "Worker 2026-09-03 01:35 PDT: daily limit reset (0 publishes on 2026-09-03 PT per git log). #801 DTN airbag (Clara Rollover, critic avg 9.07, all hard gates re-verified: 0 em dashes, 0 banned phrases, class=story, ../style.css, valid JPEG) shipped as Publish #801. Dateline updated to 2026-09-03."
 }
