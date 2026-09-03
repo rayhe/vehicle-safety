@@ -12,8 +12,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Axle McScatter",
-    "number": 807,
+    "journalist": "Rex Driverton",
+    "number": 808,
     "phase": "RESEARCH"
   },
   "queue": [
@@ -552,8 +552,46 @@
       "slug": "iihs-september-wave-badge-inversion",
       "started": "2026-09-03T18:45:00Z",
       "title": "IIHS Crowned a Kia and a Tesla This Week. BMW's Icon Failed, and the Morgue Agrees"
+    },
+    {
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "jpeg_valid": true,
+        "style_css": true,
+        "the_starters_pct": 5.3,
+        "sentence_rhythm": {
+          "variance": 444.0,
+          "short_pct": 13.0,
+          "long_pct": 47.8,
+          "passed": true
+        },
+        "word_count": 531
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5,
+        "average": 8.93
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "number": 807,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-09",
+      "slug": "labor-day-434-forecast-audit",
+      "started": "2026-09-03T20:30:00Z",
+      "title": "The NSC Says 434 People Will Die on the Road This Weekend. I Checked the Math.",
+      "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing."
     }
   ],
-  "last_checked": "2026-09-03T19:30:00Z",
-  "last_check_note": "Worker 2026-09-03 11:30 PDT: #806 (Vin Wreckage, Sept IIHS wave prestige inversion: 91x BMW 3 Series vs Model Y, lab-vs-morgue convergence) passed critique 9.0 avg round 0, all hard gates (rhythm script exit 0 after fragment merges). Blocked by 1/day rule (#801 shipped today; #802 queued 09-04, #803 09-05, #804 09-06, #805 09-07). Queued SHIP_BLOCKED for 2026-09-08; draft+hero+research+critique remain in drafts/."
+  "last_checked": "2026-09-03T20:45:00Z",
+  "last_check_note": "Worker 2026-09-03 13:30 PDT: #807 (Axle McScatter, NSC 434 Labor Day forecast audit: per-day normalization 133.5/day +25%, vs 2024 actual 505) passed critique 8.93 avg round 0, all hard gates (rhythm exit 0 after fragment merges; 531 words). Blocked by 1/day rule (#801 shipped today; queue through 09-08). Queued SHIP_BLOCKED for 2026-09-09; draft+hero+research+critique in drafts/. FLAG: peg expires Sep 7, ship date is Sep 9."
 }
