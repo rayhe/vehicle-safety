@@ -1,52 +1,16 @@
 {
-  "current": {
-    "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
-    "phase": "QA",
+  "current": null,
+  "last_completed": 801,
+  "last_journalist": "Clara Rollover",
+  "last_published": {
+    "date": "2026-09-03",
     "journalist": "Clara Rollover",
     "number": 801,
-    "started": "2026-09-01T10:29:43.559573Z",
-    "title": "NHTSA Ordered Its First Forced Recall In 20 Years After 10 People Died From $30 Airbags",
-    "round": 0,
-    "critique_started": "2026-09-01T10:31:50.063002Z",
-    "critique_round": 0,
-    "critic_avg": 9.07,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "actionable_insights": 9.0,
-      "average": 9.07
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 5.7,
-      "css_class_story": true,
-      "style_css": true,
-      "jpeg_valid": true,
-      "sentence_rhythm": {
-        "passed": true
-      },
-      "word_count": 650
-    },
-    "kicker": "Investigation",
-    "image_hash": "dtn801",
-    "ship_blocked_reason": null
+    "slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
+    "title": "NHTSA Ordered Its First Forced Recall In 20 Years After 10 People Died From $30 Airbags"
   },
-  "last_completed": 800,
-  "last_journalist": "Mia Crumplezone",
-  "last_published": {
-    "date": "2026-09-02",
-    "journalist": "Mia Crumplezone",
-    "number": 800,
-    "slug": "veloster-tracker-sober-deathtraps",
-    "title": "The Two Deadliest Vehicles Have the Soberest Drivers. That's the Problem."
-  },
-  "last_published_date": "2026-09-02",
-  "last_published_slug": "veloster-tracker-sober-deathtraps",
+  "last_published_date": "2026-09-03",
+  "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
     "journalist": "Rex Driverton",
     "number": 802,
@@ -419,5 +383,5 @@
     }
   ],
   "last_checked": "2026-09-03T08:35:00Z",
-  "last_check_note": "Worker 2026-09-03 01:35 PDT: daily limit reset (0 publishes on 2026-09-03 PT per git log). #801 DTN airbag (Clara Rollover, critic avg 9.07, all hard gates re-verified: 0 em dashes, 0 banned phrases, class=story, ../style.css, valid JPEG) shipped as Publish #801. Dateline updated to 2026-09-03."
+  "last_check_note": "Worker 2026-09-03 01:45 PDT: QA passed for #801. Story live at vehicle-safety.org with 2026-09-03 dateline; live sitemap contains the URL; deploy workflow copies images/* so hero JPEG (valid JFIF, verified in repo) ships with the same deploy. Pipeline idle, current=null."
 }
