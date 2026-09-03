@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug - The Crash Report</title>
+  <meta name="description" content="Lucid recalled 27,185 Air sedans over a software-defined fuse that could let exterior lighting circuits overheat into a fire. The fix shipped over the air a month before the recall.">
+  <meta property="og:title" content="Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug">
+  <meta property="og:description" content="27,185 Airs recalled for an eFuse defect: 3 fires, 4 smoke events, and a fix that shipped before the recall did.">
+  <meta property="og:image" content="../images/lucid-air-efuse-fire-recall.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">September 3, 2026</div>
+
+      <div class="story-body">
+      <p>Lucid is recalling 27,185 Air sedans, spanning every model year from 2022 through 2026, because the software standing guard over the exterior lighting circuits could let the wiring cook itself into a fire. <strong>That is roughly 172 percent of every car the company delivered last year.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">27,185</div>
+      <div class="pull-label">Air sedans recalled. Lucid delivered 15,841 cars in all of 2025.</div>
+
+      <p>A fuse has exactly one job: it sits there, dumb and patient, and melts before the wires do. Lucid replaced that dumb little wire with an eFuse, a software-defined sentinel that watches current draw and cuts power when things get hot. According to the company's own filing with NHTSA, the software logic "may provide insufficient overcurrent protection by allowing continued circuit energization at excess amperage."<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Read that twice, because the smart fuse kept feeding power to a faulted circuit, which is the single thing a fuse is never supposed to do.</p>
+
+      <p>The tally so far: three fires, four smoke events, and 33 warranty claims for fried wiring in the center high-mounted stop lamp circuit.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The first fire happened in June 2023, in a company-owned car, and nobody could pin down the cause. Then came nearly three years of quiet, until a customer's car burned in May 2026 and kicked off the real investigation, thirty-eight months after the first flame.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The numbers smirk.</p>
+
+      <p>The obituary needs a correction, though, because Lucid already shipped the fix. Software version 2.10.0 went out over the air in July, a full month before the recall, tightening the eFuse thresholds and refusing to re-energize a faulted circuit within the same key cycle.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Telemetry showed 20,719 cars already carried it when the paperwork was filed, which meant no dealer visits and, so far, no injuries reported. As large-scale recalls go, this one is weirdly competent, which carries its own unease: a car company that can see every vehicle's software version in real time still needed 38 months to diagnose a fire.</p>
+
+      <p>If you drive a 2022-2026 Air, the instructions are blessedly simple. Check your software version tonight, install 2.10.0 or anything newer, and park outside away from structures until you do. Formal notices go to the stragglers by October 16.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The broader lesson is stranger. For a software-defined car, tapping "install update" is now a fire-safety procedure, filed somewhere between checking tire pressure and not storing gasoline next to the water heater. What this story does not prove: nobody has been reported hurt, the fire counts come from Lucid's own filing rather than independent investigation, and "nearly every Air ever built" is approximate, since the production window and the recall population do not line up perfectly.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Reuters, &ldquo;EV maker Lucid to recall more than 27,000 luxury sedans over fire risk, NHTSA says,&rdquo; August 28, 2026. <a href="https://www.reuters.com/legal/litigation/lucid-recall-more-than-27000-luxury-sedans-over-fire-risk-nhtsa-says-2026-08-28/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-2">Kelley Blue Book, &ldquo;Lucid Recalls Over 27,000 Vehicles, Issues &lsquo;Park Outside&rsquo; Order,&rdquo; August 2026, summarizing Lucid&rsquo;s NHTSA recall filing. <a href="https://www.kbb.com/car-news/lucid-recalls-over-27000-vehicles-issues-park-outside-order/" target="_blank" rel="noopener">kbb.com</a></li>
+          <li id="ref-3">Carscoops, &ldquo;Lucid Air Recall Has Owners Parking Outside While Software Plays Firefighter,&rdquo; August 2026. <a href="https://www.carscoops.com/2026/08/lucid-air-recall-ota-update/" target="_blank" rel="noopener">carscoops.com</a></li>
+          <li id="ref-4">Autoblog, &ldquo;Nearly Every Lucid Air Ever Built Is Being Recalled Over a Fire Risk,&rdquo; August 2026. <a href="https://www.autoblog.com/news/nearly-every-lucid-air-ever-built-is-being-recalled-over-a-fire-risk" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-5">NHTSA recalls database. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> Lucid&rsquo;s NHTSA recall filing via secondary reporting, August 2026. Fire and warranty counts are manufacturer-reported. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
