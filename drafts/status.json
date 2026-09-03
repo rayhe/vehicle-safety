@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "kia-ev9-ods-child-airbag-suppression",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "number": 804,
-    "started": "2026-09-03T14:45:00Z",
-    "round": 0
-  },
+  "current": null,
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -19,7 +12,7 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Mia Crumplezone",
+    "journalist": "Dale Impactor III",
     "number": 805,
     "phase": "RESEARCH"
   },
@@ -449,8 +442,45 @@
       "slug": "mustang-ground-eyelet-fatigue-fracture",
       "started": "2026-09-03T12:45:00Z",
       "title": "Ford Recalled 148,663 Mustangs Over a Ground Wire That Can Kill the Headlights, the Engine, and the Cooling Fan in One Snap"
+    },
+    {
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "jpeg_valid": true,
+        "style_css": true,
+        "the_starters_pct": 2.8,
+        "sentence_rhythm": {
+          "variance": 481.9,
+          "short_pct": 14.3,
+          "long_pct": 39.3,
+          "passed": true
+        },
+        "word_count": 499
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "number": 804,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 8.93
+      },
+      "ship_date": "2026-09-06",
+      "slug": "kia-ev9-ods-child-airbag-suppression",
+      "started": "2026-09-03T14:45:00Z",
+      "title": "Kia Recalled 21,290 EV9s Because Adjusting the Passenger Seat Can Disarm the Child Airbag Sensor"
     }
   ],
-  "last_checked": "2026-09-03T13:00:00Z",
-  "last_check_note": "Worker 2026-09-03 05:30 PDT: #803 (Mia Crumplezone, Mustang ground-eyelet fatigue fracture, Ford 26C40) passed critique 9.0 avg round 0, all hard gates. Blocked by 1/day rule (#801 shipped today, #802 queued 2026-09-04). Queued SHIP_BLOCKED for 2026-09-05; draft+hero remain in drafts/."
+  "last_checked": "2026-09-03T15:00:00Z",
+  "last_check_note": "Worker 2026-09-03 07:30 PDT: #804 (Rex Driverton, Kia EV9 ODS child-suppression recall, 26V545) passed critique 8.93 avg round 0, all hard gates. Blocked by 1/day rule (#801 shipped today; #802 queued 09-04, #803 queued 09-05). Queued SHIP_BLOCKED for 2026-09-06; draft+hero remain in drafts/."
 }
