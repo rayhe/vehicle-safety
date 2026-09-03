@@ -1,14 +1,5 @@
 {
-  "current": {
-    "slug": "lucid-air-efuse-fire-recall",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "number": 802,
-    "started": "2026-09-03T10:45:00Z",
-    "kicker": "Investigation",
-    "round": 0,
-    "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
-  },
+  "current": null,
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -389,8 +380,34 @@
       "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
       "started": "2026-08-25T12:30:00Z",
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
+    },
+    {
+      "critic_avg": 9.07,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "sentence_rhythm": {
+          "long_pct": 50.0,
+          "passed": true,
+          "short_pct": 15.0,
+          "variance": 632.5
+        },
+        "style_css": true,
+        "the_starters_pct": 9.5,
+        "jpeg_valid": true
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "number": 802,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-04",
+      "slug": "lucid-air-efuse-fire-recall",
+      "started": "2026-09-03T10:45:00Z",
+      "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
     }
   ],
-  "last_checked": "2026-09-03T08:35:00Z",
-  "last_check_note": "Worker 2026-09-03 01:45 PDT: QA passed for #801. Story live at vehicle-safety.org with 2026-09-03 dateline; live sitemap contains the URL; deploy workflow copies images/* so hero JPEG (valid JFIF, verified in repo) ships with the same deploy. Pipeline idle, current=null."
+  "last_checked": "2026-09-03T11:15:00Z",
+  "last_check_note": "Worker 2026-09-03 03:30 PDT: #802 (Rex Driverton, Lucid eFuse fire recall) passed critique 9.07 avg, all hard gates. Blocked by 1/day rule (#801 shipped 01:27 PDT today, verified tz-aware). Queued SHIP_BLOCKED for 2026-09-04; draft+hero remain in drafts/."
 }
