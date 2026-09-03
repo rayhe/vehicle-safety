@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "toyota-replacement-curtain-airbag-recall",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "number": 808,
-    "started": "2026-09-03T22:45:00Z",
-    "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata. Finding the Trucks Is Somebody Else's Problem."
-  },
+  "current": null,
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -19,8 +12,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Rex Driverton",
-    "number": 808,
+    "journalist": "Mia Crumplezone",
+    "number": 809,
     "phase": "RESEARCH"
   },
   "queue": [
@@ -597,8 +590,45 @@
       "started": "2026-09-03T20:30:00Z",
       "title": "The NSC Says 434 People Will Die on the Road This Weekend. I Checked the Math.",
       "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing."
+    },
+    {
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "jpeg_valid": true,
+        "sentence_rhythm": {
+          "variance": 853.8,
+          "short_pct": 8.0,
+          "long_pct": 60.0,
+          "passed": true
+        },
+        "style_css": true,
+        "the_starters_pct": 7.0,
+        "word_count": 784
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "number": 808,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-10",
+      "slug": "toyota-replacement-curtain-airbag-recall",
+      "started": "2026-09-03T22:45:00Z",
+      "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata: Finding the Trucks Is Somebody Else's Problem."
     }
   ],
-  "last_checked": "2026-09-03T22:45:00Z",
-  "last_check_note": "Worker 2026-09-03 15:30 PDT: #808 (Rex Driverton) RESEARCH done. Angle: Toyota equipment recalls 26E050/26E051, 4,118 Joyson replacement curtain airbags (Tacoma/Tundra), traceability gap (notify only owners \"known to have had\" part), supplier is Takata-asset successor. Kill test passed. Moving to DRAFT."
+  "last_checked": "2026-09-03T23:15:00Z",
+  "last_check_note": "Worker 2026-09-03 15:30 PDT: #808 (Rex Driverton, Toyota 26E050/26E051 replacement curtain airbag recall) passed critique 9.0 avg round 0, all hard gates (rhythm PASS after fragment merges; 0 em dashes). Blocked by 1/day rule (#801 shipped today; queue through 09-09). Queued SHIP_BLOCKED for 2026-09-10; draft+hero+research+critique in drafts/."
 }
