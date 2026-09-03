@@ -421,6 +421,6 @@
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
     }
   ],
-  "last_checked": "2026-09-03T04:30:00Z",
-  "last_check_note": "Worker 2026-09-02 21:30 PDT: verified via git log that #800 published 2026-09-02 (commit 182accc); daily limit holds. #801 (DTN airbag, Clara Rollover, critic avg 9.07) stays SHIP_BLOCKED until 2026-09-03. Queue stocked through 2026-09-11; no new research started. No action taken."
+  "last_checked": "2026-09-03T06:30:00Z",
+  "last_check_note": "Worker 2026-09-02 23:30 PDT: verified via git log that #800 published 2026-09-02 (commit 182accc); daily limit holds. #801 (DTN airbag, Clara Rollover, critic avg 9.07) stays SHIP_BLOCKED until 2026-09-03. Queue stocked through 2026-09-11; no new research started. No action taken."
 }
