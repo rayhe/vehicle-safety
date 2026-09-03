@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "mustang-ground-eyelet-fatigue-fracture",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "number": 803,
+    "started": "2026-09-03T12:45:00Z"
+  },
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -12,8 +18,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Mia Crumplezone",
-    "number": 803,
+    "journalist": "Rex Driverton",
+    "number": 804,
     "phase": "RESEARCH"
   },
   "queue": [
