@@ -851,8 +851,47 @@
         "word_count": 790
       },
       "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/."
+    },
+    {
+      "number": 816,
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "slug": "mitsubishi-outlander-blank-camera",
+      "title": "Mitsubishi Recalled 67,146 Outlanders Because the Backup Camera Can Just Go Blank",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-18",
+      "started": "2026-09-04T16:30:00Z",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.8,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "9004ef6f",
+        "sentence_rhythm": {
+          "variance": 327.2,
+          "short_pct": 8.9,
+          "long_pct": 48.9,
+          "passed": true
+        },
+        "word_count": 1090
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T14:30:29Z",
-  "last_check_note": "Worker 2026-09-04 07:30 PDT: SHIPPED + QA'd #772 tesla-robotaxi-remote-operators-crash-every-time (Rex Driverton). Live URL 200 (CF pretty-URL redirect), og:title present, hero 200 image/jpeg, index card present, sitemap entry present. 1/day slot filled. #802 lucid-air stays queued for next slot. #811 current SHIP_BLOCKED (eligible 2026-09-13). Note: unrelated scripts/validate.sh grep||true fix (AGENTS.md 2026-09-04 lesson) was uncommitted in tree, swept into Publish #772 commit."
+  "last_checked": "2026-09-04T17:05:00Z",
+  "last_check_note": "Worker 2026-09-04 09:30 PDT: produced #816 mitsubishi-outlander-blank-camera (Mia Crumplezone). Round-0 9.0 avg, all hard gates pass. Queued for 2026-09-18 (1/day filled by #772). #811 stays current (eligible 2026-09-13)."
 }
