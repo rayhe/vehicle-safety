@@ -1,5 +1,23 @@
 {
-  "current": null,
+  "current": {
+    "n": 811,
+    "persona": "Vin Wreckage",
+    "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
+    "phase": "SHIP_BLOCKED",
+    "started": "2026-09-04T04:40:00Z",
+    "ship_eligible_date": "2026-09-13",
+    "critics": {
+      "general": 9.0,
+      "voice": 9.2,
+      "ethics": 9.0,
+      "social": 9.0,
+      "legal": 9.5,
+      "rigor": 9.0,
+      "data": 9.0,
+      "rounds": 1
+    },
+    "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3)."
+  },
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -12,8 +30,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Vin Wreckage",
-    "number": 811,
+    "n": 812,
+    "persona": "TBD",
     "phase": "RESEARCH"
   },
   "queue": [
