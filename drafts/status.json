@@ -29,11 +29,7 @@
   },
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
-  "next": {
-    "n": 814,
-    "persona": "TBD",
-    "phase": "RESEARCH"
-  },
+  "next": null,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -784,8 +780,47 @@
         }
       },
       "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/."
+    },
+    {
+      "number": 814,
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "slug": "q1-2026-099-rate-record-chase",
+      "title": "The U.S. Just Posted a 0.99 Traffic Fatality Rate. The All-Time Record Is 0.98.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-16",
+      "started": "2026-09-04T10:30:00Z",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "ca093eb1",
+        "sentence_rhythm": {
+          "variance": 785.6,
+          "short_pct": 5.0,
+          "long_pct": 50.0,
+          "passed": true
+        },
+        "word_count": 478
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T09:15:00Z",
-  "last_check_note": "Worker 2026-09-04 01:30 PDT: #813 (Axle McScatter, drunk-tank-index: impairment x fatality-rate cross-tab) passed critique 9.0 avg round 0. All hard gates pass. Queued SHIP_BLOCKED for 2026-09-15 (1/day rule)."
+  "last_checked": "2026-09-04T11:15:00Z",
+  "last_check_note": "Worker 2026-09-04 ~04:15 PDT: #814 completed full pipeline (research/kill-test, draft, JPEG hero ca093eb1, 7 critics avg 9.0, all hard gates pass) and queued SHIP_BLOCKED for 2026-09-16 (1/day: 09-12 #810, 09-13 #811, 09-14 #812, 09-15 #813). #811 remains current SHIP_BLOCKED (eligible 2026-09-13). Also fixed sentence-rhythm-check.py: strips head/header/footer boilerplate and protects single-letter initials (U.S.) so the gate measures prose, not template."
 }
