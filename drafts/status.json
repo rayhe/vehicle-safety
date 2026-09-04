@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "810-sobriety-ladder-test",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "number": 810,
+    "started": "2026-09-04T02:29:34Z",
+    "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
+  },
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
   "last_published": {
@@ -12,8 +19,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Dale Impactor III",
-    "number": 810,
+    "journalist": "Vin Wreckage",
+    "number": 811,
     "phase": "RESEARCH"
   },
   "queue": [
@@ -666,6 +673,6 @@
       "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
     }
   ],
-  "last_checked": "2026-09-04T00:45:00Z",
-  "last_check_note": "Worker 2026-09-03 17:30 PDT: #809 (Mia Crumplezone, Ford 26V548/26S61 EcoBoost piston-dome crater cracks) passed critique 9.0 avg round 0, all hard gates (rhythm PASS after fragment merges; 0 em dashes; valid JPEG hero verified visually). Blocked by 1/day rule (#801 shipped today; queue through 09-10). Queued SHIP_BLOCKED for 2026-09-11; draft+hero+research+critique in drafts/."
+  "last_checked": "2026-09-04T02:29:34Z",
+  "last_check_note": "Worker 2026-09-03 19:30 PDT: #810 research done (Dale Impactor III, within-brand sobriety ladders: Audi staircase vs BMW inversion). Committed; proceeding to DRAFT."
 }
