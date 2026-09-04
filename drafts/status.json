@@ -30,7 +30,7 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "n": 812,
+    "n": 813,
     "persona": "TBD",
     "phase": "RESEARCH"
   },
@@ -718,8 +718,46 @@
       "slug": "810-sobriety-ladder-test",
       "started": "2026-09-04T02:29:34Z",
       "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
+    },
+    {
+      "number": 812,
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
+      "title": "Tesla Is Carrying Passengers in a Car With No Steering Wheel. Washington Is \"Evaluating the Situation.\"",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-14",
+      "started": "2026-09-04T06:15:00Z",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.1,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "873a51ea",
+        "sentence_rhythm": {
+          "variance": 540.0,
+          "short_pct": 9.7,
+          "long_pct": 54.8,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T02:32:57Z",
-  "last_check_note": "Worker 2026-09-03 19:30 PDT: #810 (Dale Impactor III, within-brand sobriety ladders: Audi staircase vs BMW inversion) passed critique 9.0 avg round 1 (fixed false Land Cruiser superlative, Tesla price-order overclaim, M5 superlative, rhythm FAIL->PASS). All hard gates pass. Blocked by 1/day rule (#801 shipped today; queue through 09-11). Queued SHIP_BLOCKED for 2026-09-12; draft+hero+research+critique in drafts/."
+  "last_checked": "2026-09-04T06:45:00Z",
+  "last_check_note": "Worker 2026-09-03 23:30 PDT: #812 (Clara Rollover, Cybercab no-steering-wheel rides in Austin vs NHTSA eleven-word evaluation) passed critique 9.0 avg round 0. All hard gates pass. Queued SHIP_BLOCKED for 2026-09-14 (1/day rule)."
 }
