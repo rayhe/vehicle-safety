@@ -967,8 +967,41 @@
     "word_count": 775
    },
    "note": "Round-0 9.07 avg; 7/7 critics >= 8.5. Novel contribution: per-rider fatality rate (70 passenger deaths / 10 yrs / ~21.4M daily riders = ~1 per 3M riders/yr) + NHTSA 2015-2024 victim-type inversion (70% other-vehicle occupants, 19% nonoccupants, only 11% on the bus). Primary NHTSA PDF cited directly. Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 819,
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "slug": "cadillac-cts-drunker-than-bmw-rate-paradox",
+   "title": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-21",
+   "started": "2026-09-04T22:45:00Z",
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.5,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.07
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "f5aa4023",
+    "word_count": 646
+   },
+   "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 'largest Cadillac tox sample' false (Escalade n=1169 > CTS n=931). Novel contribution: CTS 25.9% impaired (n=931, z=2.29 vs 3 Series 22.1%) with fatality rate 1.32 vs 3 Series 2.73, an impairment-rate inversion. Draft+hero+research+critique in drafts/."
   }
  ],
- "last_checked": "2026-09-04T20:31:43Z",
- "last_check_note": "Worker 2026-09-04 12:35 PDT: produced #818 school-bus-safest-ride-deadliest-curb (Rex Driverton). Round-0 9.07 avg, all hard gates pass; primary NHTSA 2015-2024 PDF cited directly after review fix. Queued for 2026-09-20 (queue full through 09-19). Removed duplicate #817 queue entry. #811 stays current (eligible 2026-09-13). 1/day gate: #772 published 2026-09-04, no publish today."
+ "last_checked": "2026-09-04T23:15:00Z",
+ "last_check_note": "Worker 2026-09-04 15:30 PDT: produced #819 cadillac-cts-drunker-than-bmw-rate-paradox (Dale Impactor III). Round-0 9.07 avg, all hard gates pass; pre-panel fix on Escalade sample-size claim. Queued for 2026-09-21 (queue full through 09-20). #811 stays current (eligible 2026-09-13). 1/day gate: #772 published 2026-09-04, no publish today."
 }
