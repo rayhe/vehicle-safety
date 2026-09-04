@@ -31,8 +31,12 @@
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
     "n": 813,
-    "persona": "TBD",
-    "phase": "RESEARCH"
+    "persona": "Axle McScatter",
+    "slug": "drunk-tank-index",
+    "phase": "DRAFT",
+    "kicker": "By The Numbers",
+    "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road.",
+    "started": "2026-09-04T08:30:00Z"
   },
   "queue": [
     {
@@ -758,6 +762,6 @@
       "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T06:45:00Z",
+  "last_checked": "2026-09-04T08:30:00Z",
   "last_check_note": "Worker 2026-09-03 23:30 PDT: #812 (Clara Rollover, Cybercab no-steering-wheel rides in Austin vs NHTSA eleven-word evaluation) passed critique 9.0 avg round 0. All hard gates pass. Queued SHIP_BLOCKED for 2026-09-14 (1/day rule)."
 }
