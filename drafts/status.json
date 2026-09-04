@@ -853,6 +853,6 @@
       "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T14:27:48Z",
-  "last_check_note": "Worker 2026-09-04 ~07:30 PDT: SHIPPED #772 tesla-robotaxi-remote-operators-crash-every-time (Rex Driverton, avg 9.0, all gates pass) \u2014 1/day slot filled. #802 lucid-air still eligible 2026-09-04 but only one publish/day; it will hold until next run's slot. #811 remains current SHIP_BLOCKED (eligible 2026-09-13). Dateline updated to 2026-09-04 on ship."
+  "last_checked": "2026-09-04T14:30:29Z",
+  "last_check_note": "Worker 2026-09-04 07:30 PDT: SHIPPED + QA'd #772 tesla-robotaxi-remote-operators-crash-every-time (Rex Driverton). Live URL 200 (CF pretty-URL redirect), og:title present, hero 200 image/jpeg, index card present, sitemap entry present. 1/day slot filled. #802 lucid-air stays queued for next slot. #811 current SHIP_BLOCKED (eligible 2026-09-13). Note: unrelated scripts/validate.sh grep||true fix (AGENTS.md 2026-09-04 lesson) was uncommitted in tree, swept into Publish #772 commit."
 }
