@@ -819,8 +819,47 @@
         "word_count": 478
       },
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/."
+    },
+    {
+      "number": 815,
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "slug": "ford-2026-model-year-recall-census",
+      "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-17",
+      "started": "2026-09-04T12:45:00Z",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.5,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "cd68cd15",
+        "sentence_rhythm": {
+          "variance": 256.2,
+          "short_pct": 11.8,
+          "long_pct": 44.1,
+          "passed": true
+        },
+        "word_count": 790
+      },
+      "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T11:15:00Z",
-  "last_check_note": "Worker 2026-09-04 ~04:15 PDT: #814 completed full pipeline (research/kill-test, draft, JPEG hero ca093eb1, 7 critics avg 9.0, all hard gates pass) and queued SHIP_BLOCKED for 2026-09-16 (1/day: 09-12 #810, 09-13 #811, 09-14 #812, 09-15 #813). #811 remains current SHIP_BLOCKED (eligible 2026-09-13). Also fixed sentence-rhythm-check.py: strips head/header/footer boilerplate and protects single-letter initials (U.S.) so the gate measures prose, not template."
+  "last_checked": "2026-09-04T12:55:00Z",
+  "last_check_note": "Worker 2026-09-04 ~05:45 PDT: #815 completed full pipeline (research/kill-test, draft, JPEG hero cd68cd15, 7 critics avg 9.0, all hard gates pass) and queued SHIP_BLOCKED for 2026-09-17. #811 remains current SHIP_BLOCKED (eligible 2026-09-13); nothing published today yet (1/day check: 0)."
 }
