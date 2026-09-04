@@ -30,13 +30,9 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "n": 813,
-    "persona": "Axle McScatter",
-    "slug": "drunk-tank-index",
-    "phase": "DRAFT",
-    "kicker": "By The Numbers",
-    "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road.",
-    "started": "2026-09-04T08:30:00Z"
+    "n": 814,
+    "persona": "TBD",
+    "phase": "RESEARCH"
   },
   "queue": [
     {
@@ -760,8 +756,36 @@
         }
       },
       "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/."
+    },
+    {
+      "number": 813,
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "slug": "drunk-tank-index",
+      "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-15",
+      "started": "2026-09-04T08:30:00Z",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.0,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "64ea37d9",
+        "sentence_rhythm": {
+          "variance": 937.0,
+          "short_pct": 9.7,
+          "long_pct": 48.4,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T08:30:00Z",
-  "last_check_note": "Worker 2026-09-03 23:30 PDT: #812 (Clara Rollover, Cybercab no-steering-wheel rides in Austin vs NHTSA eleven-word evaluation) passed critique 9.0 avg round 0. All hard gates pass. Queued SHIP_BLOCKED for 2026-09-14 (1/day rule)."
+  "last_checked": "2026-09-04T09:15:00Z",
+  "last_check_note": "Worker 2026-09-04 01:30 PDT: #813 (Axle McScatter, drunk-tank-index: impairment x fatality-rate cross-tab) passed critique 9.0 avg round 0. All hard gates pass. Queued SHIP_BLOCKED for 2026-09-15 (1/day rule)."
 }
