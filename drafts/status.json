@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "810-sobriety-ladder-test",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
     "number": 810,
     "started": "2026-09-04T02:29:34Z",
-    "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
+    "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around.",
+    "round": 0
   },
   "last_completed": 801,
   "last_journalist": "Clara Rollover",
@@ -673,6 +674,6 @@
       "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
     }
   ],
-  "last_checked": "2026-09-04T02:29:34Z",
-  "last_check_note": "Worker 2026-09-03 19:30 PDT: #810 research done (Dale Impactor III, within-brand sobriety ladders: Audi staircase vs BMW inversion). Committed; proceeding to DRAFT."
+  "last_checked": "2026-09-04T02:31:58Z",
+  "last_check_note": "Worker 2026-09-03 19:30 PDT: #810 draft written (Dale Impactor III, within-brand sobriety ladders). Hero JPEG generated and verified visually. All hard gates pass (0 em dashes, 0 banned, the-starters 8.7%, rhythm PASS variance 535). Entering CRITIQUE round 0."
 }
