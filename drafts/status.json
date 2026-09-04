@@ -1,973 +1,974 @@
 {
-  "current": {
-    "n": 811,
-    "persona": "Vin Wreckage",
-    "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
-    "phase": "SHIP_BLOCKED",
-    "started": "2026-09-04T04:40:00Z",
-    "ship_eligible_date": "2026-09-13",
-    "critics": {
-      "general": 9.0,
-      "voice": 9.2,
-      "ethics": 9.0,
-      "social": 9.0,
-      "legal": 9.5,
-      "rigor": 9.0,
-      "data": 9.0,
-      "rounds": 1
-    },
-    "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3)."
+ "current": {
+  "n": 811,
+  "persona": "Vin Wreckage",
+  "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
+  "phase": "SHIP_BLOCKED",
+  "started": "2026-09-04T04:40:00Z",
+  "ship_eligible_date": "2026-09-13",
+  "critics": {
+   "general": 9.0,
+   "voice": 9.2,
+   "ethics": 9.0,
+   "social": 9.0,
+   "legal": 9.5,
+   "rigor": 9.0,
+   "data": 9.0,
+   "rounds": 1
   },
-  "last_completed": 772,
-  "last_journalist": "Rex Driverton",
-  "last_published": {
-    "date": "2026-09-04",
-    "journalist": "Rex Driverton",
-    "number": 772,
-    "slug": "tesla-robotaxi-remote-operators-crash-every-time",
-    "title": "Tesla's Robotaxi Remote Operators Have a 100% Crash Rate in NHTSA Filings"
+  "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3)."
+ },
+ "last_completed": 772,
+ "last_journalist": "Rex Driverton",
+ "last_published": {
+  "date": "2026-09-04",
+  "journalist": "Rex Driverton",
+  "number": 772,
+  "slug": "tesla-robotaxi-remote-operators-crash-every-time",
+  "title": "Tesla's Robotaxi Remote Operators Have a 100% Crash Rate in NHTSA Filings"
+ },
+ "last_published_date": "2026-09-04",
+ "last_published_slug": "tesla-robotaxi-remote-operators-crash-every-time",
+ "next": null,
+ "queue": [
+  {
+   "journalist": "Axle McScatter",
+   "number": 748,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-19",
+   "slug": "ford-741k-rollaway-recall-remedy-gap"
   },
-  "last_published_date": "2026-09-04",
-  "last_published_slug": "tesla-robotaxi-remote-operators-crash-every-time",
-  "next": null,
-  "queue": [
-    {
-      "journalist": "Axle McScatter",
-      "number": 748,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-19",
-      "slug": "ford-741k-rollaway-recall-remedy-gap"
+  {
+   "journalist": "Rex Driverton",
+   "number": 749,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-20",
+   "slug": "ford-trailer-module-race-condition"
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 6.1,
+     "passed": true,
+     "short_pct": 38.8,
+     "variance": 63.3
     },
-    {
-      "journalist": "Rex Driverton",
-      "number": 749,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-20",
-      "slug": "ford-trailer-module-race-condition"
+    "the_starters_pct": 0.0
+   },
+   "journalist": "Mia Crumplezone",
+   "number": 781,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-08-20",
+   "slug": "honda-v6-three-investigations-engine-eating-itself",
+   "started": "2026-08-19T08:30:00Z",
+   "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running."
+  },
+  {
+   "journalist": "Clara Rollover",
+   "number": 750,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-21",
+   "slug": "nissan-sentra-same-driveshaft-defect-twice"
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 22.4,
+     "passed": true,
+     "short_pct": 30.6,
+     "variance": 219.5
     },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 1,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 6.1,
-          "passed": true,
-          "short_pct": 38.8,
-          "variance": 63.3
-        },
-        "the_starters_pct": 0.0
-      },
-      "journalist": "Mia Crumplezone",
-      "number": 781,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-08-20",
-      "slug": "honda-v6-three-investigations-engine-eating-itself",
-      "started": "2026-08-19T08:30:00Z",
-      "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running."
+    "the_starters_pct": 10.5
+   },
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "number": 782,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-08-21",
+   "slug": "toxicology-backlog-evidence-expires",
+   "started": "2026-08-19T10:30:00Z",
+   "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
+  },
+  {
+   "journalist": "Rex Driverton",
+   "number": 751,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-22",
+   "slug": "jeep-wrangler-frame-weld-failure-silence"
+  },
+  {
+   "journalist": "Vin Wreckage",
+   "number": 752,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-23",
+   "slug": "mach-e-every-model-year-recalled"
+  },
+  {
+   "journalist": "Axle McScatter",
+   "number": 753,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-24",
+   "slug": "point-nine-nine-norway-is-at-point-two"
+  },
+  {
+   "journalist": "Clara Rollover",
+   "number": 756,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-27",
+   "slug": "mass-shooting-road-death-spillover"
+  },
+  {
+   "journalist": "Dale Impactor III",
+   "number": 791,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-08-27",
+   "slug": "medical-incapacitation-12-percent-6-states-report"
+  },
+  {
+   "journalist": "Mia Crumplezone",
+   "notes": "Hero image generation failed; needs image before ship.",
+   "number": 763,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 8.5
+   },
+   "ship_date": "2026-08-29",
+   "slug": "ev-fire-blanket-explosion-risk"
+  },
+  {
+   "journalist": "Axle McScatter",
+   "number": 764,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-08-30",
+   "slug": "ota-recall-fix-parts-tariff-two-tier"
+  },
+  {
+   "critic_avg": 9.0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class_story": true,
+    "em_dashes": 2,
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "long_pct": 58.8,
+     "passed": true,
+     "short_pct": 0.0,
+     "variance": 217.0
     },
-    {
-      "journalist": "Clara Rollover",
-      "number": 750,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-21",
-      "slug": "nissan-sentra-same-driveshaft-defect-twice"
+    "style_css": true,
+    "the_starters_pct": 1.2
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "number": 797,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "average": 9.0,
+    "ethics_reviewer": 8.5,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-08-30",
+   "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
+   "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation"
+  },
+  {
+   "journalist": "Vin Wreckage",
+   "number": 765,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-09-02",
+   "slug": "cx90-three-fixes-steering-still-broken"
+  },
+  {
+   "critic_avg": 8.58,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 1,
+    "sentence_rhythm": {
+     "long_pct": 80.0,
+     "passed": true,
+     "short_pct": 6.7,
+     "variance": 1978.5
     },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 1,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 22.4,
-          "passed": true,
-          "short_pct": 30.6,
-          "variance": 219.5
-        },
-        "the_starters_pct": 10.5
-      },
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "number": 782,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-08-21",
-      "slug": "toxicology-backlog-evidence-expires",
-      "started": "2026-08-19T10:30:00Z",
-      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
+    "the_starters_pct": 8.3
+   },
+   "journalist": "Mia Crumplezone",
+   "number": 771,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "ethics_reviewer": 8.5,
+    "general_editor": 8.5,
+    "legal_accuracy": 8.5,
+    "research_rigor": 8.5,
+    "social_shareability": 9.0,
+    "voice_coach": 8.5
+   },
+   "ship_date": "2026-09-03",
+   "slug": "stellantis-camera-recall-groundhog-day",
+   "started": "2026-08-18T06:30:00Z",
+   "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping."
+  },
+  {
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class_story": true,
+    "em_dashes": 0,
+    "rhythm_pass": true,
+    "style_css": true,
+    "the_starters_pct": 0.0,
+    "word_count": 500
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "number": 777,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "average": 8.57,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.0,
+    "legal_accuracy": 8.0,
+    "research_rigor": 8.0,
+    "social_shareability": 9.0,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-09-08",
+   "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
+   "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive"
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 34.3,
+     "passed": true,
+     "short_pct": 5.7,
+     "variance": 572.8
     },
-    {
-      "journalist": "Rex Driverton",
-      "number": 751,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-22",
-      "slug": "jeep-wrangler-frame-weld-failure-silence"
+    "the_starters_pct": 3.6
+   },
+   "journalist": "Axle McScatter",
+   "number": 779,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-09-09",
+   "slug": "recall-letter-lag-millions-drive-unaware",
+   "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks."
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 55.6,
+     "passed": true,
+     "short_pct": 11.1,
+     "variance": 514.6
     },
-    {
-      "journalist": "Vin Wreckage",
-      "number": 752,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-23",
-      "slug": "mach-e-every-model-year-recalled"
+    "the_starters_pct": 7.5
+   },
+   "journalist": "Axle McScatter",
+   "number": 780,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-09-10",
+   "slug": "powertrain-recall-explosion-251-percent",
+   "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update."
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 1,
+    "sentence_rhythm": {
+     "long_pct": 70.6,
+     "passed": true,
+     "short_pct": 5.9,
+     "variance": 226.3
     },
-    {
-      "journalist": "Axle McScatter",
-      "number": 753,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-24",
-      "slug": "point-nine-nine-norway-is-at-point-two"
+    "the_starters_pct": 0.0
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "number": 790,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-09-11",
+   "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
+   "started": "2026-08-25T12:30:00Z",
+   "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 50.0,
+     "passed": true,
+     "short_pct": 15.0,
+     "variance": 632.5
     },
-    {
-      "journalist": "Clara Rollover",
-      "number": 756,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-27",
-      "slug": "mass-shooting-road-death-spillover"
+    "style_css": true,
+    "the_starters_pct": 9.5,
+    "jpeg_valid": true
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "number": 802,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-04",
+   "slug": "lucid-air-efuse-fire-recall",
+   "started": "2026-09-03T10:45:00Z",
+   "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
+  },
+  {
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class_story": true,
+    "style_css": true,
+    "em_dashes": 0,
+    "the_starters_pct": 0.0,
+    "sentence_rhythm": {
+     "variance": 451.9,
+     "short_pct": 7.1,
+     "long_pct": 57.1,
+     "passed": true
     },
-    {
-      "journalist": "Dale Impactor III",
-      "number": 791,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-27",
-      "slug": "medical-incapacitation-12-percent-6-states-report"
+    "jpeg_valid": true
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "number": 803,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "actionable_insights": 9.0,
+    "average": 9.0
+   },
+   "ship_date": "2026-09-05",
+   "slug": "mustang-ground-eyelet-fatigue-fracture",
+   "started": "2026-09-03T12:45:00Z",
+   "title": "Ford Recalled 148,663 Mustangs Over a Ground Wire That Can Kill the Headlights, the Engine, and the Cooling Fan in One Snap"
+  },
+  {
+   "critic_avg": 8.93,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "style_css": true,
+    "the_starters_pct": 2.8,
+    "sentence_rhythm": {
+     "variance": 481.9,
+     "short_pct": 14.3,
+     "long_pct": 39.3,
+     "passed": true
     },
-    {
-      "journalist": "Mia Crumplezone",
-      "notes": "Hero image generation failed; needs image before ship.",
-      "number": 763,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 8.5
-      },
-      "ship_date": "2026-08-29",
-      "slug": "ev-fire-blanket-explosion-risk"
+    "word_count": 499
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "number": 804,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 8.5,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 8.93
+   },
+   "ship_date": "2026-09-06",
+   "slug": "kia-ev9-ods-child-airbag-suppression",
+   "started": "2026-09-03T14:45:00Z",
+   "title": "Kia Recalled 21,290 EV9s Because Adjusting the Passenger Seat Can Disarm the Child Airbag Sensor"
+  },
+  {
+   "critic_avg": 8.93,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 1333.8,
+     "short_pct": 13.8,
+     "long_pct": 34.5,
+     "passed": true
     },
-    {
-      "journalist": "Axle McScatter",
-      "number": 764,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-08-30",
-      "slug": "ota-recall-fix-parts-tariff-two-tier"
-    },
-    {
-      "critic_avg": 9.0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class_story": true,
-        "em_dashes": 2,
-        "jpeg_valid": true,
-        "sentence_rhythm": {
-          "long_pct": 58.8,
-          "passed": true,
-          "short_pct": 0.0,
-          "variance": 217.0
-        },
-        "style_css": true,
-        "the_starters_pct": 1.2
-      },
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "number": 797,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "average": 9.0,
-        "ethics_reviewer": 8.5,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-08-30",
-      "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
-      "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation"
-    },
-    {
-      "journalist": "Vin Wreckage",
-      "number": 765,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-09-02",
-      "slug": "cx90-three-fixes-steering-still-broken"
-    },
-    {
-      "critic_avg": 8.58,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 1,
-        "sentence_rhythm": {
-          "long_pct": 80.0,
-          "passed": true,
-          "short_pct": 6.7,
-          "variance": 1978.5
-        },
-        "the_starters_pct": 8.3
-      },
-      "journalist": "Mia Crumplezone",
-      "number": 771,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "ethics_reviewer": 8.5,
-        "general_editor": 8.5,
-        "legal_accuracy": 8.5,
-        "research_rigor": 8.5,
-        "social_shareability": 9.0,
-        "voice_coach": 8.5
-      },
-      "ship_date": "2026-09-03",
-      "slug": "stellantis-camera-recall-groundhog-day",
-      "started": "2026-08-18T06:30:00Z",
-      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping."
-    },
-    {
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class_story": true,
-        "em_dashes": 0,
-        "rhythm_pass": true,
-        "style_css": true,
-        "the_starters_pct": 0.0,
-        "word_count": 500
-      },
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "number": 777,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "average": 8.57,
-        "ethics_reviewer": 9.0,
-        "general_editor": 8.0,
-        "legal_accuracy": 8.0,
-        "research_rigor": 8.0,
-        "social_shareability": 9.0,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-09-08",
-      "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
-      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive"
-    },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 1,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 34.3,
-          "passed": true,
-          "short_pct": 5.7,
-          "variance": 572.8
-        },
-        "the_starters_pct": 3.6
-      },
-      "journalist": "Axle McScatter",
-      "number": 779,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-09-09",
-      "slug": "recall-letter-lag-millions-drive-unaware",
-      "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks."
-    },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 1,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 55.6,
-          "passed": true,
-          "short_pct": 11.1,
-          "variance": 514.6
-        },
-        "the_starters_pct": 7.5
-      },
-      "journalist": "Axle McScatter",
-      "number": 780,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-09-10",
-      "slug": "powertrain-recall-explosion-251-percent",
-      "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update."
-    },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 1,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 1,
-        "sentence_rhythm": {
-          "long_pct": 70.6,
-          "passed": true,
-          "short_pct": 5.9,
-          "variance": 226.3
-        },
-        "the_starters_pct": 0.0
-      },
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "number": 790,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "ethics_reviewer": 9.0,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-09-11",
-      "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
-      "started": "2026-08-25T12:30:00Z",
-      "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
-    },
-    {
-      "critic_avg": 9.07,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "sentence_rhythm": {
-          "long_pct": 50.0,
-          "passed": true,
-          "short_pct": 15.0,
-          "variance": 632.5
-        },
-        "style_css": true,
-        "the_starters_pct": 9.5,
-        "jpeg_valid": true
-      },
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "number": 802,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-04",
-      "slug": "lucid-air-efuse-fire-recall",
-      "started": "2026-09-03T10:45:00Z",
-      "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
-    },
-    {
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class_story": true,
-        "style_css": true,
-        "em_dashes": 0,
-        "the_starters_pct": 0.0,
-        "sentence_rhythm": {
-          "variance": 451.9,
-          "short_pct": 7.1,
-          "long_pct": 57.1,
-          "passed": true
-        },
-        "jpeg_valid": true
-      },
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "number": 803,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0,
-        "average": 9.0
-      },
-      "ship_date": "2026-09-05",
-      "slug": "mustang-ground-eyelet-fatigue-fracture",
-      "started": "2026-09-03T12:45:00Z",
-      "title": "Ford Recalled 148,663 Mustangs Over a Ground Wire That Can Kill the Headlights, the Engine, and the Cooling Fan in One Snap"
-    },
-    {
-      "critic_avg": 8.93,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "style_css": true,
-        "the_starters_pct": 2.8,
-        "sentence_rhythm": {
-          "variance": 481.9,
-          "short_pct": 14.3,
-          "long_pct": 39.3,
-          "passed": true
-        },
-        "word_count": 499
-      },
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "number": 804,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 8.5,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 8.93
-      },
-      "ship_date": "2026-09-06",
-      "slug": "kia-ev9-ods-child-airbag-suppression",
-      "started": "2026-09-03T14:45:00Z",
-      "title": "Kia Recalled 21,290 EV9s Because Adjusting the Passenger Seat Can Disarm the Child Airbag Sensor"
-    },
-    {
-      "critic_avg": 8.93,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "sentence_rhythm": {
-          "variance": 1333.8,
-          "short_pct": 13.8,
-          "long_pct": 34.5,
-          "passed": true
-        },
-        "style_css": true,
-        "the_starters_pct": 10.3,
-        "word_count": 514
-      },
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "number": 805,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.5,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 8.93
-      },
-      "ship_date": "2026-09-07",
-      "slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
-      "started": "2026-09-03T16:00:00Z",
-      "title": "The Oldsmobile Alero Died in 2004. Its Drivers Lead the League in Driving High."
-    },
-    {
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "style_css": true,
-        "the_starters_pct": 4.8,
-        "sentence_rhythm": {
-          "variance": 301.4,
-          "short_pct": 14.0,
-          "long_pct": 46.5,
-          "passed": true
-        }
-      },
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "journalist": "Vin Wreckage",
-      "kicker": "Existential Dread",
-      "number": 806,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-08",
-      "slug": "iihs-september-wave-badge-inversion",
-      "started": "2026-09-03T18:45:00Z",
-      "title": "IIHS Crowned a Kia and a Tesla This Week. BMW's Icon Failed, and the Morgue Agrees"
-    },
-    {
-      "critic_avg": 8.93,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "style_css": true,
-        "the_starters_pct": 5.3,
-        "sentence_rhythm": {
-          "variance": 444.0,
-          "short_pct": 13.0,
-          "long_pct": 47.8,
-          "passed": true
-        },
-        "word_count": 531
-      },
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 8.5,
-        "average": 8.93
-      },
-      "journalist": "Axle McScatter",
-      "kicker": "By The Numbers",
-      "number": 807,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-09",
-      "slug": "labor-day-434-forecast-audit",
-      "started": "2026-09-03T20:30:00Z",
-      "title": "The NSC Says 434 People Will Die on the Road This Weekend. I Checked the Math.",
-      "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing."
-    },
-    {
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "sentence_rhythm": {
-          "variance": 853.8,
-          "short_pct": 8.0,
-          "long_pct": 60.0,
-          "passed": true
-        },
-        "style_css": true,
-        "the_starters_pct": 7.0,
-        "word_count": 784
-      },
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "number": 808,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-10",
-      "slug": "toyota-replacement-curtain-airbag-recall",
-      "started": "2026-09-03T22:45:00Z",
-      "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata: Finding the Trucks Is Somebody Else's Problem."
-    },
-    {
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "style_css": true,
-        "the_starters_pct": 6.7,
-        "sentence_rhythm": {
-          "variance": 277.5,
-          "short_pct": 5.6,
-          "long_pct": 52.8,
-          "passed": true
-        },
-        "word_count": 775
-      },
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "number": 809,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-11",
-      "slug": "ford-ecoboost-piston-dome-crater-crack",
-      "started": "2026-09-04T00:30:00Z",
-      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
-    },
-    {
-      "critic_avg": 9.0,
-      "critique_round": 1,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "jpeg_valid": true,
-        "style_css": true,
-        "the_starters_pct": 8.8,
-        "sentence_rhythm": {
-          "variance": 535.3,
-          "short_pct": 8.6,
-          "long_pct": 51.4,
-          "passed": true
-        }
-      },
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "number": 810,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-12",
-      "slug": "810-sobriety-ladder-test",
-      "started": "2026-09-04T02:29:34Z",
-      "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
-    },
-    {
-      "number": 812,
-      "journalist": "Clara Rollover",
-      "kicker": "The Gap",
-      "slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
-      "title": "Tesla Is Carrying Passengers in a Car With No Steering Wheel. Washington Is \"Evaluating the Situation.\"",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-14",
-      "started": "2026-09-04T06:15:00Z",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 3.1,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "873a51ea",
-        "sentence_rhythm": {
-          "variance": 540.0,
-          "short_pct": 9.7,
-          "long_pct": 54.8,
-          "passed": true
-        }
-      },
-      "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/."
-    },
-    {
-      "number": 813,
-      "journalist": "Axle McScatter",
-      "kicker": "By The Numbers",
-      "slug": "drunk-tank-index",
-      "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road.",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-15",
-      "started": "2026-09-04T08:30:00Z",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 2.0,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "64ea37d9",
-        "sentence_rhythm": {
-          "variance": 937.0,
-          "short_pct": 9.7,
-          "long_pct": 48.4,
-          "passed": true
-        }
-      },
-      "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/."
-    },
-    {
-      "number": 814,
-      "journalist": "Axle McScatter",
-      "kicker": "By The Numbers",
-      "slug": "q1-2026-099-rate-record-chase",
-      "title": "The U.S. Just Posted a 0.99 Traffic Fatality Rate. The All-Time Record Is 0.98.",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-16",
-      "started": "2026-09-04T10:30:00Z",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 9.1,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "ca093eb1",
-        "sentence_rhythm": {
-          "variance": 785.6,
-          "short_pct": 5.0,
-          "long_pct": 50.0,
-          "passed": true
-        },
-        "word_count": 478
-      },
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/."
-    },
-    {
-      "number": 815,
-      "journalist": "Clara Rollover",
-      "kicker": "The Gap",
-      "slug": "ford-2026-model-year-recall-census",
-      "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s.",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-17",
-      "started": "2026-09-04T12:45:00Z",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 3.5,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "cd68cd15",
-        "sentence_rhythm": {
-          "variance": 256.2,
-          "short_pct": 11.8,
-          "long_pct": 44.1,
-          "passed": true
-        },
-        "word_count": 790
-      },
-      "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/."
-    },
-    {
-      "number": 816,
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "slug": "mitsubishi-outlander-blank-camera",
-      "title": "Mitsubishi Recalled 67,146 Outlanders Because the Backup Camera Can Just Go Blank",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-18",
-      "started": "2026-09-04T16:30:00Z",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 10.8,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "9004ef6f",
-        "sentence_rhythm": {
-          "variance": 327.2,
-          "short_pct": 8.9,
-          "long_pct": 48.9,
-          "passed": true
-        },
-        "word_count": 1090
-      },
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/."
-    },
-    {
-      "number": 817,
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "slug": "alcohol-crash-innocent-victims-39-percent",
-      "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking.",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-19",
-      "started": "2026-09-04T18:00:00Z",
-      "critic_avg": 9.07,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.07
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.0,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "ebe7455e",
-        "sentence_rhythm": {
-          "variance": 566.8,
-          "short_pct": 4.2,
-          "long_pct": 50.0,
-          "passed": true
-        }
-      },
-      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/."
-    },
-    {
-      "number": 817,
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "slug": "alcohol-crash-innocent-victims-39-percent",
-      "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking.",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-19",
-      "started": "2026-09-04T18:00:00Z",
-      "critic_avg": 9.07,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0,
-        "average": 9.07
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.0,
-        "css_class": true,
-        "style_css": true,
-        "jpeg_valid": true,
-        "hero_hash": "ebe7455e",
-        "sentence_rhythm": {
-          "variance": 566.8,
-          "short_pct": 4.2,
-          "long_pct": 50.0,
-          "passed": true
-        }
-      },
-      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/."
+    "style_css": true,
+    "the_starters_pct": 10.3,
+    "word_count": 514
+   },
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "number": 805,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 8.93
+   },
+   "ship_date": "2026-09-07",
+   "slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
+   "started": "2026-09-03T16:00:00Z",
+   "title": "The Oldsmobile Alero Died in 2004. Its Drivers Lead the League in Driving High."
+  },
+  {
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "style_css": true,
+    "the_starters_pct": 4.8,
+    "sentence_rhythm": {
+     "variance": 301.4,
+     "short_pct": 14.0,
+     "long_pct": 46.5,
+     "passed": true
     }
-  ],
-  "last_checked": "2026-09-05T01:45:00Z",
-  "last_check_note": "Worker 2026-09-04 11:30 PDT: produced #817 alcohol-crash-innocent-victims-39-percent (Dale Impactor III). Round-0 9.07 avg, all hard gates pass. Queued for 2026-09-19 (queue full through 09-18). #811 stays current (eligible 2026-09-13)."
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "number": 806,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-08",
+   "slug": "iihs-september-wave-badge-inversion",
+   "started": "2026-09-03T18:45:00Z",
+   "title": "IIHS Crowned a Kia and a Tesla This Week. BMW's Icon Failed, and the Morgue Agrees"
+  },
+  {
+   "critic_avg": 8.93,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "style_css": true,
+    "the_starters_pct": 5.3,
+    "sentence_rhythm": {
+     "variance": 444.0,
+     "short_pct": 13.0,
+     "long_pct": 47.8,
+     "passed": true
+    },
+    "word_count": 531
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.5,
+    "average": 8.93
+   },
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "number": 807,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-09",
+   "slug": "labor-day-434-forecast-audit",
+   "started": "2026-09-03T20:30:00Z",
+   "title": "The NSC Says 434 People Will Die on the Road This Weekend. I Checked the Math.",
+   "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing."
+  },
+  {
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 853.8,
+     "short_pct": 8.0,
+     "long_pct": 60.0,
+     "passed": true
+    },
+    "style_css": true,
+    "the_starters_pct": 7.0,
+    "word_count": 784
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "number": 808,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-10",
+   "slug": "toyota-replacement-curtain-airbag-recall",
+   "started": "2026-09-03T22:45:00Z",
+   "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata: Finding the Trucks Is Somebody Else's Problem."
+  },
+  {
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "style_css": true,
+    "the_starters_pct": 6.7,
+    "sentence_rhythm": {
+     "variance": 277.5,
+     "short_pct": 5.6,
+     "long_pct": 52.8,
+     "passed": true
+    },
+    "word_count": 775
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "number": 809,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-11",
+   "slug": "ford-ecoboost-piston-dome-crater-crack",
+   "started": "2026-09-04T00:30:00Z",
+   "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
+  },
+  {
+   "critic_avg": 9.0,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "jpeg_valid": true,
+    "style_css": true,
+    "the_starters_pct": 8.8,
+    "sentence_rhythm": {
+     "variance": 535.3,
+     "short_pct": 8.6,
+     "long_pct": 51.4,
+     "passed": true
+    }
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "number": 810,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-12",
+   "slug": "810-sobriety-ladder-test",
+   "started": "2026-09-04T02:29:34Z",
+   "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
+  },
+  {
+   "number": 812,
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
+   "title": "Tesla Is Carrying Passengers in a Car With No Steering Wheel. Washington Is \"Evaluating the Situation.\"",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-14",
+   "started": "2026-09-04T06:15:00Z",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 3.1,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "873a51ea",
+    "sentence_rhythm": {
+     "variance": 540.0,
+     "short_pct": 9.7,
+     "long_pct": 54.8,
+     "passed": true
+    }
+   },
+   "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 813,
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "slug": "drunk-tank-index",
+   "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-15",
+   "started": "2026-09-04T08:30:00Z",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 2.0,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "64ea37d9",
+    "sentence_rhythm": {
+     "variance": 937.0,
+     "short_pct": 9.7,
+     "long_pct": 48.4,
+     "passed": true
+    }
+   },
+   "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 814,
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "slug": "q1-2026-099-rate-record-chase",
+   "title": "The U.S. Just Posted a 0.99 Traffic Fatality Rate. The All-Time Record Is 0.98.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-16",
+   "started": "2026-09-04T10:30:00Z",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.1,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "ca093eb1",
+    "sentence_rhythm": {
+     "variance": 785.6,
+     "short_pct": 5.0,
+     "long_pct": 50.0,
+     "passed": true
+    },
+    "word_count": 478
+   },
+   "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 815,
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "slug": "ford-2026-model-year-recall-census",
+   "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-17",
+   "started": "2026-09-04T12:45:00Z",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 3.5,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "cd68cd15",
+    "sentence_rhythm": {
+     "variance": 256.2,
+     "short_pct": 11.8,
+     "long_pct": 44.1,
+     "passed": true
+    },
+    "word_count": 790
+   },
+   "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 816,
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "slug": "mitsubishi-outlander-blank-camera",
+   "title": "Mitsubishi Recalled 67,146 Outlanders Because the Backup Camera Can Just Go Blank",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-18",
+   "started": "2026-09-04T16:30:00Z",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 10.8,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "9004ef6f",
+    "sentence_rhythm": {
+     "variance": 327.2,
+     "short_pct": 8.9,
+     "long_pct": 48.9,
+     "passed": true
+    },
+    "word_count": 1090
+   },
+   "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 817,
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "slug": "alcohol-crash-innocent-victims-39-percent",
+   "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-19",
+   "started": "2026-09-04T18:00:00Z",
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.07
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.0,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "ebe7455e",
+    "sentence_rhythm": {
+     "variance": 566.8,
+     "short_pct": 4.2,
+     "long_pct": 50.0,
+     "passed": true
+    }
+   },
+   "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 818,
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "slug": "school-bus-safest-ride-deadliest-curb",
+   "title": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-20",
+   "started": "2026-09-04T19:30:00Z",
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.5,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.5,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.07
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "1c9af868",
+    "sentence_rhythm": {
+     "variance": 285.7,
+     "short_pct": 6.8,
+     "long_pct": 50.0,
+     "passed": true
+    },
+    "word_count": 775
+   },
+   "note": "Round-0 9.07 avg; 7/7 critics >= 8.5. Novel contribution: per-rider fatality rate (70 passenger deaths / 10 yrs / ~21.4M daily riders = ~1 per 3M riders/yr) + NHTSA 2015-2024 victim-type inversion (70% other-vehicle occupants, 19% nonoccupants, only 11% on the bus). Primary NHTSA PDF cited directly. Draft+hero+research+critique in drafts/."
+  }
+ ],
+ "last_checked": "2026-09-04T20:31:43Z",
+ "last_check_note": "Worker 2026-09-04 12:35 PDT: produced #818 school-bus-safest-ride-deadliest-curb (Rex Driverton). Round-0 9.07 avg, all hard gates pass; primary NHTSA 2015-2024 PDF cited directly after review fix. Queued for 2026-09-20 (queue full through 09-19). Removed duplicate #817 queue entry. #811 stays current (eligible 2026-09-13). 1/day gate: #772 published 2026-09-04, no publish today."
 }
