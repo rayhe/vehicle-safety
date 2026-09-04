@@ -63,26 +63,32 @@ fi
 echo ""
 
 # 5. Every image referenced must exist on disk
+# NOTE (2026-09-04): `grep ... || true | sed` is a shell-parsing trap — it parses as
+# `grep || (true | sed ...)`, so on a grep hit the `while` check NEVER runs and raw
+# grep output spills to the terminal. Parenthesize the (grep || true) group so the
+# pipe sees grep's output. Also use a mktemp file: a fixed /tmp path left stale
+# tallies behind when an earlier run died before `rm`, inflating later error counts.
 echo "=== Image File References ==="
 MISSING_FILES=0
-grep -oP 'src="images/[^"]+' index.html 2>/dev/null || true | sed 's/src="//' | sed 's/?.*//' | sort -u | while read -r img; do
+ERRFILE=$(mktemp /tmp/vs_validate_errors.XXXXXX)
+(grep -oP 'src="images/[^"]+' index.html 2>/dev/null || true) | sed 's/src="//' | sed 's/?.*//' | sort -u | while read -r img; do
     if [ ! -f "$img" ]; then
         echo "  ❌ MISSING file: $img"
-        echo "1" >> /tmp/vs_validate_errors
+        echo "1" >> "$ERRFILE"
     fi
 done
 for f in stories/*.html; do
-    grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null || true | sed 's/src="//' | sed 's|../||' | sed 's/?.*//' | while read -r img; do
+    (grep -oP 'src="[^"]*images/[^"]+' "$f" 2>/dev/null || true) | sed 's/src="//' | sed 's|^\.\./||' | sed 's/?.*//' | while read -r img; do
         if [ ! -f "$img" ]; then
             echo "  ❌ MISSING file in $(basename "$f"): $img"
-            echo "1" >> /tmp/vs_validate_errors
+            echo "1" >> "$ERRFILE"
         fi
     done
 done
-if [ -f /tmp/vs_validate_errors ]; then
-    count=$(wc -l < /tmp/vs_validate_errors)
+count=$(wc -l < "$ERRFILE")
+rm -f "$ERRFILE"
+if [ "$count" -gt 0 ]; then
     ERRORS=$((ERRORS + count))
-    rm /tmp/vs_validate_errors
 else
     echo "  ✅ All referenced images exist"
 fi
