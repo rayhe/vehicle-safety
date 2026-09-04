@@ -12,8 +12,8 @@
   "last_published_date": "2026-09-03",
   "last_published_slug": "dtn-illegal-airbag-10-deaths-first-forced-recall-20-years",
   "next": {
-    "journalist": "Mia Crumplezone",
-    "number": 809,
+    "journalist": "Dale Impactor III",
+    "number": 810,
     "phase": "RESEARCH"
   },
   "queue": [
@@ -627,8 +627,45 @@
       "slug": "toyota-replacement-curtain-airbag-recall",
       "started": "2026-09-03T22:45:00Z",
       "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata: Finding the Trucks Is Somebody Else's Problem."
+    },
+    {
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "jpeg_valid": true,
+        "style_css": true,
+        "the_starters_pct": 6.7,
+        "sentence_rhythm": {
+          "variance": 277.5,
+          "short_pct": 5.6,
+          "long_pct": 52.8,
+          "passed": true
+        },
+        "word_count": 775
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "number": 809,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-11",
+      "slug": "ford-ecoboost-piston-dome-crater-crack",
+      "started": "2026-09-04T00:30:00Z",
+      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
     }
   ],
-  "last_checked": "2026-09-03T23:15:00Z",
-  "last_check_note": "Worker 2026-09-03 15:30 PDT: #808 (Rex Driverton, Toyota 26E050/26E051 replacement curtain airbag recall) passed critique 9.0 avg round 0, all hard gates (rhythm PASS after fragment merges; 0 em dashes). Blocked by 1/day rule (#801 shipped today; queue through 09-09). Queued SHIP_BLOCKED for 2026-09-10; draft+hero+research+critique in drafts/."
+  "last_checked": "2026-09-04T00:45:00Z",
+  "last_check_note": "Worker 2026-09-03 17:30 PDT: #809 (Mia Crumplezone, Ford 26V548/26S61 EcoBoost piston-dome crater cracks) passed critique 9.0 avg round 0, all hard gates (rhythm PASS after fragment merges; 0 em dashes; valid JPEG hero verified visually). Blocked by 1/day rule (#801 shipped today; queue through 09-10). Queued SHIP_BLOCKED for 2026-09-11; draft+hero+research+critique in drafts/."
 }
