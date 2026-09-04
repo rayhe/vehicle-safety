@@ -890,8 +890,84 @@
         "word_count": 1090
       },
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/."
+    },
+    {
+      "number": 817,
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "slug": "alcohol-crash-innocent-victims-39-percent",
+      "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-19",
+      "started": "2026-09-04T18:00:00Z",
+      "critic_avg": 9.07,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.07
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.0,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "ebe7455e",
+        "sentence_rhythm": {
+          "variance": 566.8,
+          "short_pct": 4.2,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/."
+    },
+    {
+      "number": 817,
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "slug": "alcohol-crash-innocent-victims-39-percent",
+      "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-19",
+      "started": "2026-09-04T18:00:00Z",
+      "critic_avg": 9.07,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.07
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.0,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "ebe7455e",
+        "sentence_rhythm": {
+          "variance": 566.8,
+          "short_pct": 4.2,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/."
     }
   ],
-  "last_checked": "2026-09-04T17:05:00Z",
-  "last_check_note": "Worker 2026-09-04 09:30 PDT: produced #816 mitsubishi-outlander-blank-camera (Mia Crumplezone). Round-0 9.0 avg, all hard gates pass. Queued for 2026-09-18 (1/day filled by #772). #811 stays current (eligible 2026-09-13)."
+  "last_checked": "2026-09-05T01:45:00Z",
+  "last_check_note": "Worker 2026-09-04 11:30 PDT: produced #817 alcohol-crash-innocent-victims-39-percent (Dale Impactor III). Round-0 9.07 avg, all hard gates pass. Queued for 2026-09-19 (queue full through 09-18). #811 stays current (eligible 2026-09-13)."
 }
