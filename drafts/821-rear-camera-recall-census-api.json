@@ -1,0 +1,74 @@
+[
+ {
+  "n": "24V748000",
+  "date": "03/10/2024",
+  "mfr": "Nissan North America, Inc.",
+  "ota": true,
+  "comp": "BACK OVER PREVENTION",
+  "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2024-2025 Rogue and 2025 INFINITI QX80 vehicles.  A software error may cause the rearview camera to display a blank screen when the vehicle is in reverse.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+  "remedy": "The in-vehicle infotainment software will be updated by an over-the-air (OTA) software update or by a dealer, free of charge.  Owner notification letters were mailed December 2, 2024.  Owners may contact Nissan's customer service at 800-647-7261 or INFINITI's customer service at 1-800-662-6200.  Nissan's numbers for this recall are R24B3 and R24B4."
+ },
+ {
+  "n": "24V801000",
+  "date": "25/10/2024",
+  "mfr": "Ford Motor Company",
+  "ota": true,
+  "comp": "BACK OVER PREVENTION:SOFTWARE",
+  "summary": "Ford Motor Company (Ford) is recalling certain 2025 Explorer and Lincoln Aviator vehicles.  The rearview camera image may fail when the vehicle speed reaches 10 MPH or greater.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+  "remedy": "The accessory protocol interface module (APIM) software will be updated through an over-the-air (OTA) update or by a dealer, free of charge.  Owner notification letters were mailed on March 28, 2025.  Owners may contact Ford customer service at 1-866-436-7332.  Ford's number for this recall is 24C34."
+ },
+ {
+  "n": "25V002000",
+  "date": "07/01/2025",
+  "mfr": "Tesla, Inc.",
+  "ota": false,
+  "comp": "BACK OVER PREVENTION:SOFTWARE",
+  "summary": "Tesla, Inc. (Tesla) is recalling certain 2024-2025 Model 3, Model S, 2023-2025 Model X, and Model Y vehicles.  The computer circuit board may short, resulting in the loss of the rearview camera image.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "remedy": "Tesla released an over-the-air (OTA) software update, free of charge. Tesla will also identify any vehicles that experienced a circuit board failure, or stress that may lead to a circuit board failure, and replace the affected computers, free of charge.  Owner notification letters were mailed March 7, 2025.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-25-00-001."
+ },
+ {
+  "n": "25V744000",
+  "date": "30/10/2025",
+  "mfr": "Toyota Motor Engineering & Manufacturing",
+  "ota": false,
+  "comp": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25."
+ },
+ {
+  "n": "26V165000",
+  "date": "19/03/2026",
+  "mfr": "Ford Motor Company",
+  "ota": false,
+  "comp": "BACK OVER PREVENTION:SOFTWARE",
+  "summary": "Ford Motor Company (Ford) is recalling certain 2022-2025 Lincoln Navigator, 2024-2025 Lincoln Nautilus, 2025 Lincoln Aviator and Explorer vehicles. The Image Processing Module A (IPMA) may experience multiple unexpected resets, resulting in loss of the rearview camera image and advanced driver assistance (ADAS) features, including pre-collision assist, lane-keeping assist, and blind-spot monitoring.",
+  "remedy": "The Image Processing Module A software will be updated by a dealer, or through an over-the-air (OTA) update, free of charge. This is a Phased campaign. Phase 1 will include 2025 Aviator, 2025 Explorer, 2025 Nautilus notified owners on 4/13/2026. Phase 2 will include 2025 Navigator will notify owners on or about 4/20/2026. Phase 3 will include 2022-2024 Navigator will notify owners on or about 6/8/2026. Phase 4 will include 2024 Nautilus will notify owners on or about 6/22/2026. Owner notification letters were mailed April 13, 2026. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 26S21. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning March 25, 2026."
+ },
+ {
+  "n": "26V327000",
+  "date": "21/05/2026",
+  "mfr": "Chrysler (FCA US, LLC)",
+  "ota": false,
+  "comp": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+  "summary": "Chrysler (FCA US, LLC) is recalling certain 2019 and 2023 Chrysler Pacifica, 2024 Ram 1500, Ram 2500, and 2024-2025 Jeep Wrangler vehicles. Contamination in the central vision processing module or improper programming may cause the rearview camera image not to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "remedy": "Dealers will update the central vision processing module software or replace the module, as necessary, free of charge. Owner notification letters are expected to be mailed beginning July 16, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 46D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov on May 28, 2026."
+ },
+ {
+  "n": "26V531000",
+  "date": "13/08/2026",
+  "mfr": "Chrysler (FCA US, LLC)",
+  "ota": false,
+  "comp": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+  "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler, Jeep Gladiator, Jeep Compass, Jeep Cherokee, Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Wagoneer, Jeep Grand Wagoneer L, Ram Promaster, Ram Promaster EV, Ram 1500, Ram 2500, Chrysler Pacifica Plug-In Hybrid, Chrysler Voyager, and 2026-2027 Chrysler Pacifica and Dodge Charger vehicles. The rearview camera image may fail to display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "remedy": "Radio software will be updated by a dealer or through an over-the-air (OTA) update, free of charge. Owner notification letters were mailed beginning September 2, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 78D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov on August 20, 2026."
+ },
+ {
+  "n": "26V560000",
+  "date": "01/09/2026",
+  "mfr": "Chrysler (FCA US, LLC)",
+  "ota": false,
+  "comp": "BACK OVER PREVENTION:SOFTWARE",
+  "summary": "Chrysler (FCA US, LLC) is recalling certain 2025-2026 Ram 1500 vehicles. A radio software error may cause the rearview camera image not to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "remedy": "The radio software will be updated over-the-air (OTA) or by a dealer, free of charge. Owner notification letters are expected to be mailed September 24, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 83D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov on September 9, 2026."
+ }
+]

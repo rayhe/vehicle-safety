@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tesla Recalled 239,000 Vehicles for a Dead Rear Camera. This Week, Ram Recalled 239,131. The Camera Was Never the Problem. &mdash; The Crash Report</title>
+  <meta name="description" content="Eight rear-camera recalls in 23 months covering 2.37 million vehicles. Every one is a software or screen failure. Zero failed camera lenses.">
+  <meta property="og:title" content="Tesla Recalled 239,000 Vehicles for a Dead Rear Camera. This Week, Ram Recalled 239,131.">
+  <meta property="og:description" content="Eight rear-camera recalls, 2.37 million vehicles, and not a single broken camera lens. The screens are the problem.">
+  <meta property="og:image" content="../images/821-rear-camera-recall-census.jpg?v=1618f51e">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Tesla Recalled 239,000 Vehicles for a Dead Rear Camera. This Week, Ram Recalled 239,131. The Camera Was Never the Problem.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">September 4, 2026</div>
+
+      <p>I ran the numbers, then I ran them again, and they didn't get better.</p>
+
+      <p>On September 1, Chrysler filed federal recall <strong>26V560</strong>: <strong>239,131</strong> Ram 1500 pickups whose rearview camera can show a blue screen instead of what's behind the truck.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Twenty months earlier, Tesla filed <strong>25V002</strong>: <strong>about 239,000</strong> vehicles whose rearview camera could go dark from a shorted computer board.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Same population size. Same defect category, different decade of the same problem.</p>
+
+      <div class="pull-stat">8</div>
+      <div class="pull-label">rear-camera recalls filed in the last 23 months, covering ~2.37 million vehicles</div>
+
+      <div class="pull-stat">0</div>
+      <div class="pull-label">failed camera lenses among them. Every one is a software, screen, or computer failure.</div>
+
+      <p>That second number is the story, which is why I pulled every BACK OVER PREVENTION recall filed since October 2024 across 28 high-volume models through NHTSA's own recalls API, then read the Part 573 chronologies for the big ones. The failure modes: radio software, infotainment software, APIM software, a video processing module, a panoramic monitor that freezes, a car computer that shorts, and not one failed camera. FMVSS 111, the rear-visibility standard, is being violated by the screen, never the sensor. Your backup camera works fine; the television it reports to is haunted.</p>
+
+      <p>Here is the census:</p>
+
+      <p><strong>Nissan 24V748</strong> (Oct 2024): Rogue and QX80, infotainment software blank screen, fixed OTA.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> <strong>Ford 24V801</strong> (Oct 2024): Explorer and Aviator, camera dies above 10 mph, fixed OTA.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> <strong>Tesla 25V002</strong> (Jan 2025): ~239,000 cars, circuit board short, fixed OTA plus computer replacements.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> <strong>Toyota 25V744</strong> (Oct 2025): ~1,005,000 Toyota, Lexus, and Subaru vehicles, panoramic monitor freeze, dealer software update.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> <strong>Ford 26V165</strong> (Mar 2026): 47,587 F-Series trucks, infotainment home screen covering the camera image, dealer or OTA.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> <strong>Chrysler 26V327</strong> (May 2026): dozens of Wranglers, Rams, and Pacificas, video module software, dealer fix.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> <strong>Chrysler 26V531</strong> (Aug 2026): 844,027 vehicles across 16 nameplates, radio software, dealer or OTA.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> <strong>Chrysler 26V560</strong> (Sep 2026): 239,131 Ram 1500s, radio software blue screen, OTA or dealer.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Four of the eight are Chrysler. Same company, same radio-software failure mode, three filings in four months. I keep a spreadsheet, and it keeps getting longer.</p>
+
+      <p>The chronologies tell a second story, about speed. Tesla spotted a spike in computer replacements in November 2024 and filed 25V002 on January 7, 2025: about <strong>two months</strong>, with 887 warranty claims and zero crashes.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Ford's engineers flagged the F-Series camera reset in March 2025, decided that April it posed "no unreasonable risk," got challenged by NHTSA at a June safety meeting, and filed 26V165 in March 2026: <strong>twelve months</strong>.<sup class="ref-link"><a href="#ref-8">[8]</a></sup> Chrysler opened its 26V327 investigation in February 2025 and filed in May 2026: <strong>fifteen months</strong>.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Toyota found its monitor defect in bench testing in 2024 and filed 25V744 in October 2025: roughly <strong>a year</strong>.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Two months versus fifteen. Same regulation. Your odds of driving a blind truck for a year depend entirely on which logo is on the grille.</p>
+
+      <p>One more finding, and it is my favorite kind: the data is wrong about itself. NHTSA's recalls API has an <code>overTheAirUpdate</code> flag, and it says False for the Tesla, Ford F-Series, and both big Chrysler recalls. The official remedy text for all four explicitly offers over-the-air updates.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Anyone screening recalls by that flag, researcher or regulator, gets the wrong answer four times out of eight. I checked twice, and it stayed wrong.</p>
+
+      <p><strong>What to do:</strong> if you own a 2025-2026 Ram 1500, check your VIN at nhtsa.gov/recalls; Chrysler's owner letters go out September 24 and the fix is a free radio software update, OTA or at the dealer. More broadly: until your camera recall is remedied, back up like it is 1997. Mirrors, shoulder check, spotter if you have one. The screen is a convenience that became a compliance device and then a liar. And if your automaker offers OTA updates, take them; Tesla's two-month turnaround is what the other seven are being graded against, and most of them are failing.</p>
+
+      <p><strong>What this does not prove</strong> is as important as what it does. My census queried 28 high-volume models, not the entire fleet, so smaller-volume camera recalls outside the sample are missing. The Part 573 reports for 26V531 and 26V560 were not yet posted when I pulled this together, so Chrysler's internal timelines for those two come from press and API data, not the filed chronology. Lag times are measured from investigation-open to filing; the first field report always predates the investigation, so every lag here is a lower bound.</p>
+
+      <p><strong>The counterargument, at full strength:</strong> eight recalls in 23 months is the system working. Every defect was caught, every fix is free, and nobody died waiting — Tesla's filing lists zero crashes across 887 warranty claims. Fair. But Ford sat on its camera defect for a year after an internal "no unreasonable risk" finding until NHTSA pushed back, and one company accounts for half the campaigns with the same radio-software failure. The system catches the fires, but it does not stop anyone from striking the same match.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API, campaign 26V560000 (filed 2026-09-01); USA Today, Greta Cross, "More than 239,000 Ram vehicles recalled," 2026-09-04. <a href="https://www.usatoday.com/story/cars/recalls/2026/09/04/ram-1500-vehicles-recalled/91609746007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-2">NHTSA campaign 25V-002; Reuters via Claims Journal, "Tesla recalls about 239,000 vehicles over rear-view camera issue," 2026-01-10. <a href="https://www.claimsjournal.com/news/national/2025/01/10/328350.htm" target="_blank" rel="noopener">claimsjournal.com</a></li>
+          <li id="ref-3">NHTSA recalls API, campaigns 24V748000, 24V801000 (queried 2026-09-04). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">NHTSA campaign 25V744000; MotorTrend, "1 Million Toyota, Lexus, and Subaru Models Being Recalled Over Camera Glitch." <a href="https://www.motortrend.com/news/one-million-toyota-lexus-subarus-recalled-due-to-backup-camera-failure" target="_blank" rel="noopener">motortrend.com</a></li>
+          <li id="ref-5">NHTSA campaign 26V165000; Ford Authority, "2021-2026 Ford F-Series Recalled Over Rearview Camera Issue," 2026-08-03. <a href="https://fordauthority.com/2026/08/2021-2026-ford-f-series-recalled-over-rearview-camera-issue/" target="_blank" rel="noopener">fordauthority.com</a></li>
+          <li id="ref-6">NHTSA Part 573 Safety Recall Report 26V327 (RCLRPT-26V327-3833.pdf), filed 2026-05-21. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V327-3833.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-7">NHTSA campaign 26V531000; usedcarnews.com, "Chrysler Issues Massive Recall." <a href="https://usedcarnews.com/news-page/recalls/chrysler-issues-massive-recall" target="_blank" rel="noopener">usedcarnews.com</a></li>
+          <li id="ref-8">NHTSA Part 573 Safety Recall Report 26V165 (RCLRPT-26V165-2897.pdf), filed 2026-03-19. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V165-2897.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-9">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API queried 2026-09-04 (28 models &times; MY2025/2026) and Part 573 chronologies. Census is a sample of high-volume models, not the full fleet. Lag times are lower bounds. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
