@@ -18,17 +18,17 @@
     },
     "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3)."
   },
-  "last_completed": 772,
-  "last_journalist": "Rex Driverton",
+  "last_completed": 803,
+  "last_journalist": "Mia Crumplezone",
   "last_published": {
-    "date": "2026-09-04",
-    "journalist": "Rex Driverton",
-    "number": 772,
-    "slug": "tesla-robotaxi-remote-operators-crash-every-time",
-    "title": "Tesla's Robotaxi Remote Operators Have a 100% Crash Rate in NHTSA Filings"
+    "date": "2026-09-05",
+    "journalist": "Mia Crumplezone",
+    "number": 803,
+    "slug": "mustang-ground-eyelet-fatigue-fracture",
+    "title": "Ford Recalled 148,663 Mustangs Over a Ground Wire That Can Kill the Headlights, the Engine, and the Cooling Fan in One Snap"
   },
-  "last_published_date": "2026-09-04",
-  "last_published_slug": "tesla-robotaxi-remote-operators-crash-every-time",
+  "last_published_date": "2026-09-05",
+  "last_published_slug": "mustang-ground-eyelet-fatigue-fracture",
   "next": null,
   "queue": [
     {
@@ -413,42 +413,6 @@
       "slug": "lucid-air-efuse-fire-recall",
       "started": "2026-09-03T10:45:00Z",
       "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
-    },
-    {
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class_story": true,
-        "style_css": true,
-        "em_dashes": 0,
-        "the_starters_pct": 0.0,
-        "sentence_rhythm": {
-          "variance": 451.9,
-          "short_pct": 7.1,
-          "long_pct": 57.1,
-          "passed": true
-        },
-        "jpeg_valid": true
-      },
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "number": 803,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "actionable_insights": 9.0,
-        "average": 9.0
-      },
-      "ship_date": "2026-09-05",
-      "slug": "mustang-ground-eyelet-fatigue-fracture",
-      "started": "2026-09-03T12:45:00Z",
-      "title": "Ford Recalled 148,663 Mustangs Over a Ground Wire That Can Kill the Headlights, the Engine, and the Cooling Fan in One Snap"
     },
     {
       "critic_avg": 8.93,
@@ -1158,6 +1122,6 @@
       "note": "Round-1 pass 8.9 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: KE/stopping-distance ratios at the statute's actual thresholds (100 vs 70 = 2.04x energy; 116 in 40 = 8.41x; 147 ft/s, 220-ft reaction distance); 'criminalization as confession that fines failed' frame; Virginia 46.2-862 counterfactual with 2020 80-to-85 threshold correction, cited; mandatory-court-appearance-as-certainty insight. News peg: law at 14 months with fresh April 2026 arrest wave. No publish: Sept 4 PDT slot used by #772."
     }
   ],
-  "last_checked": "2026-09-05T06:45:00Z",
-  "last_check_note": "Drafted+critiqued #823 (Florida super speeder law, Vin Wreckage); queued SHIP_BLOCKED 2026-09-25. No publish: Sept 4 PDT slot used by #772. Current #811 unchanged."
+  "last_checked": "2026-09-05T08:35:00Z",
+  "last_check_note": "Worker 2026-09-05 ~01:35 PDT: SHIPPED #803 mustang-ground-eyelet-fatigue-fracture (Mia Crumplezone, critic avg 9.0, all hard gates pass) \u2014 1/day slot filled. #811 remains current SHIP_BLOCKED (eligible 2026-09-13); #804 kia-ev9-ods queued for 2026-09-06. Dateline updated to 2026-09-05 on ship."
 }
