@@ -1078,8 +1078,47 @@
         }
       },
       "note": "Round-0 pass 9.1 avg; 7/7 critics >= 8.5. Merged 10 fragments pre-panel to clear rhythm gate. Novel contribution: first cross-manufacturer census of 8 BACK OVER PREVENTION recalls (Oct 2024-Sep 2026, ~2.37M vehicles) from NHTSA API + field-report-to-filing lag analysis (2 vs 12 vs 15 months) from Part 573 chronologies; finding that all 8 are software/display failures (0 broken cameras); NHTSA API overTheAirUpdate flag False for 4 campaigns whose remedy text explicitly offers OTA. Raw API JSON saved in drafts/. News peg: Chrysler 26V560 (239,131 Ram 1500s) filed 2026-09-01."
+    },
+    {
+      "number": 822,
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "slug": "tesla-cybercab-aq26002-zoox-precedent",
+      "title": "One Day After Launch, the Feds Asked Tesla to Prove the Cybercab Is Legal. The Last Company That Got This Letter Needed Four Years.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-24",
+      "started": "2026-09-05T04:45:00Z",
+      "critic_avg": 8.97,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 8.97
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.9,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "381d1133",
+        "word_count": 1035,
+        "sentence_rhythm": {
+          "variance": 325.0,
+          "short_pct": 12.8,
+          "long_pct": 53.2,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: Part 555 2,500/year cap math vs Tesla's dozen-state expansion (12x250=3,000 > cap in year one); rulemaking-race frame (June 2026 brake-pedal proposal vs AQ26002 timeline); 4-year Zoox AQ23001 precedent clock. News peg: NHTSA AQ26002 opened 2026-09-03, same day as Cybercab commercial launch in Austin. AQ26002 filing summarized from press (Reuters/Electrek/TechTimes/USA Today), disclosed in limitations."
     }
   ],
-  "last_checked": "2026-09-05T02:35:00Z",
-  "last_check_note": "Queued #821 (Axle McScatter, rear-camera-recall-census) for 2026-09-23. Draft+hero+research+critique+API data in drafts/."
+  "last_checked": "2026-09-05T04:30:27Z",
+  "last_check_note": "Queued #822 (Clara Rollover, Cybercab AQ26002 / Zoox precedent) for 2026-09-24. Draft+hero+research+critique in drafts/."
 }
