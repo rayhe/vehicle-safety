@@ -1117,8 +1117,47 @@
         }
       },
       "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: Part 555 2,500/year cap math vs Tesla's dozen-state expansion (12x250=3,000 > cap in year one); rulemaking-race frame (June 2026 brake-pedal proposal vs AQ26002 timeline); 4-year Zoox AQ23001 precedent clock. News peg: NHTSA AQ26002 opened 2026-09-03, same day as Cybercab commercial launch in Austin. AQ26002 filing summarized from press (Reuters/Electrek/TechTimes/USA Today), disclosed in limitations."
+    },
+    {
+      "number": 823,
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "slug": "florida-super-speeder-100-mph-jail-law",
+      "title": "Florida Made 100 MPH a Jailable Offense. The Physics Had Already Sentenced You.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-25",
+      "started": "2026-09-05T06:30:00Z",
+      "critic_avg": 8.9,
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.6,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "f5b0b6d4",
+        "word_count": 1025,
+        "sentence_rhythm": {
+          "variance": 1177.1,
+          "short_pct": 6.4,
+          "long_pct": 46.8,
+          "passed": true
+        }
+      },
+      "note": "Round-1 pass 8.9 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: KE/stopping-distance ratios at the statute's actual thresholds (100 vs 70 = 2.04x energy; 116 in 40 = 8.41x; 147 ft/s, 220-ft reaction distance); 'criminalization as confession that fines failed' frame; Virginia 46.2-862 counterfactual with 2020 80-to-85 threshold correction, cited; mandatory-court-appearance-as-certainty insight. News peg: law at 14 months with fresh April 2026 arrest wave. No publish: Sept 4 PDT slot used by #772."
     }
   ],
-  "last_checked": "2026-09-05T04:30:27Z",
-  "last_check_note": "Queued #822 (Clara Rollover, Cybercab AQ26002 / Zoox precedent) for 2026-09-24. Draft+hero+research+critique in drafts/."
+  "last_checked": "2026-09-05T06:45:00Z",
+  "last_check_note": "Drafted+critiqued #823 (Florida super speeder law, Vin Wreckage); queued SHIP_BLOCKED 2026-09-25. No publish: Sept 4 PDT slot used by #772. Current #811 unchanged."
 }
