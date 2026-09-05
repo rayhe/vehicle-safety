@@ -1000,8 +1000,47 @@
     "word_count": 646
    },
    "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 'largest Cadillac tox sample' false (Escalade n=1169 > CTS n=931). Novel contribution: CTS 25.9% impaired (n=931, z=2.29 vs 3 Series 22.1%) with fatality rate 1.32 vs 3 Series 2.73, an impairment-rate inversion. Draft+hero+research+critique in drafts/."
+  },
+  {
+   "number": 820,
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "slug": "mach-e-fast-jig-loose-trim",
+   "title": "Ford Sped Up the Assembly Line. The Glue Never Got the Memo.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-09-22",
+   "started": "2026-09-05T00:30:00Z",
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0,
+    "average": 9.07
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 13.2,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "hero_hash": "bc5fd3da",
+    "word_count": 667,
+    "sentence_rhythm": {
+     "variance": 393.8,
+     "short_pct": 10.7,
+     "long_pct": 35.7,
+     "passed": true
+    }
+   },
+   "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Merged 5 fragments pre-panel to clear rhythm gate. Novel contribution: 22-month gap between supplier line fix (Sep 28, 2024 timer) and field action (Jul 21, 2026) + 0.25% observed vs 1% estimated rate. Primary: NHTSA 573 report 26V487. Draft+hero+research+critique in drafts/."
   }
  ],
- "last_checked": "2026-09-04T23:15:00Z",
- "last_check_note": "Worker 2026-09-04 15:30 PDT: produced #819 cadillac-cts-drunker-than-bmw-rate-paradox (Dale Impactor III). Round-0 9.07 avg, all hard gates pass; pre-panel fix on Escalade sample-size claim. Queued for 2026-09-21 (queue full through 09-20). #811 stays current (eligible 2026-09-13). 1/day gate: #772 published 2026-09-04, no publish today."
+ "last_checked": "2026-09-05T00:45:00Z",
+ "last_check_note": "Worker 2026-09-04 17:30 PDT: produced #820 mach-e-fast-jig-loose-trim (Mia Crumplezone). Round-0 9.07 avg, all hard gates pass; pre-panel rhythm fix. Queued for 2026-09-22 (queue full through 09-21). #811 stays current (eligible 2026-09-13). 1/day gate: #772 published 2026-09-04, no publish today."
 }
