@@ -96,18 +96,23 @@ echo ""
 
 # 6. Article count consistency
 echo "=== Story Count ==="
+# NOTE (2026-09-05): stories may be file-style (stories/<slug>.html) or directory-style
+# (stories/<slug>/index.html, e.g. rural-interstate-holdout #523). Compare story slugs to
+# distinct indexed hrefs rather than raw file/card counts.
 FILE_COUNT=$(ls stories/*.html 2>/dev/null | wc -l)
+DIR_STORIES=$(find stories -mindepth 2 -maxdepth 2 -name 'index.html' 2>/dev/null | grep -v '^stories/images/' | wc -l)
+STORY_COUNT=$((FILE_COUNT + DIR_STORIES))
 INDEX_CARDS=$(python3 -c "
 import re
 with open('index.html') as f:
     content = f.read()
-cards = re.findall(r'class=\"story-card\"', content)
+cards = set(re.findall(r'href=\"(stories/[a-z0-9-]+(?:\.html|/))\"', content))
 print(len(cards))
 " 2>/dev/null || echo "0")
 
-echo "  Files: $FILE_COUNT | Index cards: $INDEX_CARDS"
-if [ "$FILE_COUNT" -ne "$INDEX_CARDS" ]; then
-    echo "  ⚠️  Story file count ($FILE_COUNT) != index card count ($INDEX_CARDS)"
+echo "  Stories: $STORY_COUNT ($FILE_COUNT files + $DIR_STORIES dir-style) | Index cards: $INDEX_CARDS"
+if [ "$STORY_COUNT" -ne "$INDEX_CARDS" ]; then
+    echo "  ⚠️  Story count ($STORY_COUNT) != index card count ($INDEX_CARDS)"
     WARNINGS=$((WARNINGS + 1))
 fi
 echo ""
