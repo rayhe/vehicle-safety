@@ -148,13 +148,6 @@
       "slug": "mass-shooting-road-death-spillover"
     },
     {
-      "journalist": "Dale Impactor III",
-      "number": 791,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-27",
-      "slug": "medical-incapacitation-12-percent-6-states-report"
-    },
-    {
       "journalist": "Mia Crumplezone",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
@@ -186,40 +179,6 @@
       },
       "ship_date": "2026-08-30",
       "slug": "ota-recall-fix-parts-tariff-two-tier"
-    },
-    {
-      "critic_avg": 9.0,
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class_story": true,
-        "em_dashes": 2,
-        "jpeg_valid": true,
-        "sentence_rhythm": {
-          "long_pct": 58.8,
-          "passed": true,
-          "short_pct": 0.0,
-          "variance": 217.0
-        },
-        "style_css": true,
-        "the_starters_pct": 1.2
-      },
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "number": 797,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "actionable_insights": 9.0,
-        "average": 9.0,
-        "ethics_reviewer": 8.5,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "social_shareability": 9.5,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2026-08-30",
-      "slug": "gm-l87-v8-recall-fix-failed-997k-probe",
-      "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation"
     },
     {
       "journalist": "Vin Wreckage",
@@ -1087,6 +1046,6 @@
       "note": "Round-1 pass 8.9 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: KE/stopping-distance ratios at the statute's actual thresholds (100 vs 70 = 2.04x energy; 116 in 40 = 8.41x; 147 ft/s, 220-ft reaction distance); 'criminalization as confession that fines failed' frame; Virginia 46.2-862 counterfactual with 2020 80-to-85 threshold correction, cited; mandatory-court-appearance-as-certainty insight. News peg: law at 14 months with fresh April 2026 arrest wave. No publish: Sept 4 PDT slot used by #772."
     }
   ],
-  "last_checked": "2026-09-06T10:30:00Z",
-  "last_check_note": "Worker 2026-09-06 03:30 PDT: no publish action (1/day rule: #804 published 2026-09-06). Pre-ship validation: #805 (alero-beater-effect, Dale Impactor III, slot 2026-09-07) — 0 em dashes, 0 banned phrases, The-starters 4.5%, class=\"story\" + ../style.css (matches shipped #804 structure; no story-body div, consistent with live site), JPEG hero 1920x1280 valid, critique avg 8.93 all >=8.5 — SHIP-READY. #811 (tesla-model-y-19-bolt, Vin Wreckage, slot 2026-09-13) — 0 em dashes, 0 banned, The-starters 5.5%, class/CSS correct, JPEG hero valid — SHIP-READY. Queue holds 37 SHIP_BLOCKED items through 2026-09-25."
+  "last_checked": "2026-09-06T12:30:00Z",
+  "last_check_note": "Worker 2026-09-06 05:30 PDT: no publish action (1/day rule: #804 published 2026-09-06). Queue hygiene: removed #791 (medical-incapacitation, published 2026-08-25 as 'Article #791') and #797 (gm-l87-v8, published as 'Publish #797') from queue — both were live in stories/ yet still listed SHIP_BLOCKED (re-ship risk). Re-verified #805 (alero-beater-effect, Dale Impactor III, slot 2026-09-07) independently: 0 em dashes, 0 banned phrases, The-starters 4.5%, class=\"story\" + ../style.css, JPEG hero 1920x1280 valid — SHIP-READY. Queue now 36 items through 2026-09-25."
 }
