@@ -1,11 +1,22 @@
 {
   "current": {
-    "n": 824,
-    "slug": "dtn-11th-death-ban-failed",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-09-06T20:30:00Z",
-    "note": "Sequel to dtn-illegal-airbag-10-deaths-first-forced-recall-20-years (Sep 3). News peg: Reuters Sep 3, 2026 - 11th death, Aug 27 Dallas 2018 Equinox, first since April ban, first non-Malibu/Sonata."
+    "critics": {
+      "data": 9.0,
+      "ethics": 9.0,
+      "general": 9.0,
+      "legal": 9.5,
+      "rigor": 9.0,
+      "rounds": 1,
+      "social": 9.0,
+      "voice": 9.2
+    },
+    "n": 811,
+    "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3).",
+    "persona": "Vin Wreckage",
+    "phase": "SHIP_BLOCKED",
+    "ship_eligible_date": "2026-09-13",
+    "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
+    "started": "2026-09-04T04:40:00Z"
   },
   "last_check_note": "Worker 2026-09-06 13:45 PDT: no publish action (1/day rule: #804 published 2026-09-06). Re-verified #805 (alero-beater-effect, slot 2026-09-07): 0 em dashes, 0 banned phrases, 7.3% The-starters, class=\"story\" + ../style.css, JPEG hero 1920x1280 valid \u2014 SHIP-READY. Produced #824 (dtn-11th-death-ban-failed, Clara Rollover): research + draft + hero + round-0 critique (7/7 \u2265 8.5, avg 8.94), all hard gates pass \u2014 queued SHIP_BLOCKED for 2026-09-30. Current #811 stays SHIP_BLOCKED until 2026-09-13. Queue: Sep 7..30 slotted (#805..#824), older evergreen #777/#779/#780/#790 re-slotted Sep 26..29.",
   "last_checked": "2026-09-06T20:45:00Z",
