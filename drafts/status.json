@@ -250,9 +250,10 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-08",
+      "ship_date": "2026-09-26",
       "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
-      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive"
+      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-08 (double-booked with #806). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible."
     },
     {
       "critic_avg": 9.07,
@@ -281,9 +282,10 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-09",
+      "ship_date": "2026-09-27",
       "slug": "recall-letter-lag-millions-drive-unaware",
-      "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks."
+      "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks.",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-09 (double-booked with #807). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible."
     },
     {
       "critic_avg": 9.07,
@@ -312,9 +314,10 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-10",
+      "ship_date": "2026-09-28",
       "slug": "powertrain-recall-explosion-251-percent",
-      "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update."
+      "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update.",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-10 (double-booked with #808). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible."
     },
     {
       "critic_avg": 9.07,
@@ -344,10 +347,11 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-11",
+      "ship_date": "2026-09-29",
       "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
       "started": "2026-08-25T12:30:00Z",
-      "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
+      "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation.",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-11 (double-booked with #809). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible."
     },
     {
       "critic_avg": 9.07,
@@ -1046,6 +1050,6 @@
       "note": "Round-1 pass 8.9 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: KE/stopping-distance ratios at the statute's actual thresholds (100 vs 70 = 2.04x energy; 116 in 40 = 8.41x; 147 ft/s, 220-ft reaction distance); 'criminalization as confession that fines failed' frame; Virginia 46.2-862 counterfactual with 2020 80-to-85 threshold correction, cited; mandatory-court-appearance-as-certainty insight. News peg: law at 14 months with fresh April 2026 arrest wave. No publish: Sept 4 PDT slot used by #772."
     }
   ],
-  "last_checked": "2026-09-06T14:30:00Z",
-  "last_check_note": "Worker 2026-09-06 07:30 PDT: no publish action (1/day rule: #804 published 2026-09-06). Re-verified #805 (alero-beater-effect, Dale Impactor III, slot 2026-09-07): 0 em dashes, 0 banned phrases, class=\"story\" + ../style.css, JPEG hero 1920x1280 valid, not duplicated in stories/ \u2014 SHIP-READY. Current #811 (tesla-model-y-19-bolt-recall) stays SHIP_BLOCKED until 2026-09-13."
+  "last_checked": "2026-09-06T16:30:00Z",
+  "last_check_note": "Worker 2026-09-06 09:30 PDT: no publish action (1/day rule: #804 published 2026-09-06). Re-verified #805 (alero-beater-effect, Dale Impactor III, slot 2026-09-07): 0 em dashes, 0 banned phrases, class=\"story\" + ../style.css, JPEG hero 1920x1280 valid \u2014 SHIP-READY. Queue hygiene: Sep 8-11 were double-booked (#777/#806, #779/#807, #780/#808, #790/#809); newer sequence #806-#809 keeps dates, older evergreen #777/#779/#780/#790 re-slotted to 2026-09-26..29 with notes. Current #811 stays SHIP_BLOCKED until 2026-09-13."
 }
