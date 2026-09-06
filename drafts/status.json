@@ -1,25 +1,14 @@
 {
   "current": {
-    "critics": {
-      "data": 9.0,
-      "ethics": 9.0,
-      "general": 9.0,
-      "legal": 9.5,
-      "rigor": 9.0,
-      "rounds": 1,
-      "social": 9.0,
-      "voice": 9.2
-    },
-    "n": 811,
-    "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3).",
-    "persona": "Vin Wreckage",
-    "phase": "SHIP_BLOCKED",
-    "ship_eligible_date": "2026-09-13",
-    "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
-    "started": "2026-09-04T04:40:00Z"
+    "n": 824,
+    "slug": "dtn-11th-death-ban-failed",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-09-06T20:30:00Z",
+    "note": "Sequel to dtn-illegal-airbag-10-deaths-first-forced-recall-20-years (Sep 3). News peg: Reuters Sep 3, 2026 - 11th death, Aug 27 Dallas 2018 Equinox, first since April ban, first non-Malibu/Sonata."
   },
-  "last_check_note": "Worker 2026-09-06 11:30 PDT: no publish action (1/day rule: #804 published 2026-09-06). QA-verified live #804 (kia-ev9-ods-child-airbag-suppression): clean URL 200, og:title/og:image present, hero 200 (301KB), on homepage. Re-verified #805 (alero-beater-effect-oldest-cars-drunkest-drivers, Dale Impactor III, slot 2026-09-07): 0 em dashes, 0 banned phrases, class=\"story\" + ../style.css, The-starters 4.5%, JPEG hero 1920x1280 valid - SHIP-READY. Current #811 stays SHIP_BLOCKED until 2026-09-13. Queue intact: Sep 7..25 slotted (#805..#823), older evergreen #777/#779/#780/#790 re-slotted Sep 26..29.",
-  "last_checked": "2026-09-06T18:30:00Z",
+  "last_check_note": "Worker 2026-09-06 13:45 PDT: no publish action (1/day rule: #804 published 2026-09-06). Re-verified #805 (alero-beater-effect, slot 2026-09-07): 0 em dashes, 0 banned phrases, 7.3% The-starters, class=\"story\" + ../style.css, JPEG hero 1920x1280 valid \u2014 SHIP-READY. Produced #824 (dtn-11th-death-ban-failed, Clara Rollover): research + draft + hero + round-0 critique (7/7 \u2265 8.5, avg 8.94), all hard gates pass \u2014 queued SHIP_BLOCKED for 2026-09-30. Current #811 stays SHIP_BLOCKED until 2026-09-13. Queue: Sep 7..30 slotted (#805..#824), older evergreen #777/#779/#780/#790 re-slotted Sep 26..29.",
+  "last_checked": "2026-09-06T20:45:00Z",
   "last_completed": 804,
   "last_journalist": "Rex Driverton",
   "last_published": {
@@ -1050,6 +1039,43 @@
       "slug": "florida-super-speeder-100-mph-jail-law",
       "started": "2026-09-05T06:30:00Z",
       "title": "Florida Made 100 MPH a Jailable Offense. The Physics Had Already Sentenced You."
+    },
+    {
+      "number": 824,
+      "slug": "dtn-11th-death-ban-failed",
+      "title": "NHTSA Banned These Airbags in April. One Killed a Driver in August Anyway.",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-30",
+      "started": "2026-09-06T20:30:00Z",
+      "critique_round": 0,
+      "critic_avg": 8.94,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 2,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 1863.4,
+          "short_pct": 14.3,
+          "long_pct": 45.7,
+          "passed": true
+        },
+        "hero_hash": "d33b331b",
+        "jpeg_valid": true
+      },
+      "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Sequel to Sep 3 DTN story. News peg: Reuters Sep 3, 2026 - 11th death (Aug 27 Dallas 2018 Equinox, otherwise survivable crash), first since April ban, first non-Malibu/Sonata model. Novel: 120-day ban-to-death timeline arithmetic; WI SB 537 / ID HB 688 criminalization angle; DTN denial. No publish: 1/day rule, #804 shipped 2026-09-06."
     }
   ]
 }
