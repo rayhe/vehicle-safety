@@ -36,7 +36,8 @@
       "number": 748,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-08-19",
-      "slug": "ford-741k-rollaway-recall-remedy-gap"
+      "slug": "ford-741k-rollaway-ten-month-remedy-gap",
+      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files"
     },
     {
       "journalist": "Rex Driverton",
@@ -122,7 +123,8 @@
       "number": 751,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-08-22",
-      "slug": "jeep-wrangler-frame-weld-failure-silence"
+      "slug": "sk-on-electrode-misalignment-two-oems-one-defect",
+      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15)"
     },
     {
       "journalist": "Vin Wreckage",
@@ -1123,5 +1125,5 @@
     }
   ],
   "last_checked": "2026-09-06T06:30:00Z",
-  "last_check_note": "Worker 2026-09-05 23:30 PDT: no action. Publish #803 confirmed in git log since 00:00 PDT; 1/day rule holds. Current #811 (tesla-model-y-19-bolt-recall-torque-tool-off, Vin Wreckage) SHIP_BLOCKED to 2026-09-13, draft+hero+research+critique present as 811-*. Next slot #804 (kia-ev9) 2026-09-06. Queue 39 deep through 2026-09-25. Flag: 2 stale queue entries with past ship_dates have no matching drafts under their listed slugs — #748 ford-741k-rollaway-recall-remedy-gap (draft exists renamed as ford-741k-rollaway-ten-month-remedy-gap) and #751 jeep-wrangler-frame-weld-failure-silence (no draft at all). Skipped by prior runs; not blocking."
+  "last_check_note": "Worker 2026-09-05 23:30 PDT: no action. Publish #803 confirmed in git log since 00:00 PDT; 1/day rule holds. Current #811 (tesla-model-y-19-bolt-recall-torque-tool-off, Vin Wreckage) SHIP_BLOCKED to 2026-09-13, draft+hero+research+critique present as 811-*. Next slot #804 (kia-ev9) 2026-09-06. Queue 39 deep through 2026-09-25. Flag: 2 stale queue entries with past ship_dates have no matching drafts under their listed slugs \u2014 #748 ford-741k-rollaway-recall-remedy-gap (draft exists renamed as ford-741k-rollaway-ten-month-remedy-gap) and #751 jeep-wrangler-frame-weld-failure-silence (no draft at all). Skipped by prior runs; not blocking."
 }
