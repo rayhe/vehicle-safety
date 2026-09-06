@@ -18,8 +18,8 @@
     "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
     "started": "2026-09-04T04:40:00Z"
   },
-  "last_check_note": "Worker 2026-09-06 13:45 PDT: no publish action (1/day rule: #804 published 2026-09-06). Re-verified #805 (alero-beater-effect, slot 2026-09-07): 0 em dashes, 0 banned phrases, 7.3% The-starters, class=\"story\" + ../style.css, JPEG hero 1920x1280 valid \u2014 SHIP-READY. Produced #824 (dtn-11th-death-ban-failed, Clara Rollover): research + draft + hero + round-0 critique (7/7 \u2265 8.5, avg 8.94), all hard gates pass \u2014 queued SHIP_BLOCKED for 2026-09-30. Current #811 stays SHIP_BLOCKED until 2026-09-13. Queue: Sep 7..30 slotted (#805..#824), older evergreen #777/#779/#780/#790 re-slotted Sep 26..29.",
-  "last_checked": "2026-09-06T20:45:00Z",
+  "last_check_note": "Worker 2026-09-06 15:45 PDT: no publish action (1/day rule: #804 published 2026-09-06). Produced #825 (ford-mustang-148k-ground-recall-fix-march-2027, Vin Wreckage): research + draft + hero (JPEG 1920x1280, hash ca9c6390) + round-0 critique (7/7 >= 8.5, avg 8.97), all hard gates pass (0 literal em dashes, 2 entities, 0 banned, 9.8% The-starters). Queued SHIP_BLOCKED for 2026-10-01. Current #811 stays SHIP_BLOCKED until 2026-09-13. Queue: Sep 7..Oct 1 slotted (#805..#825).",
+  "last_checked": "2026-09-06T22:45:00Z",
   "last_completed": 804,
   "last_journalist": "Rex Driverton",
   "last_published": {
@@ -1087,6 +1087,44 @@
         "jpeg_valid": true
       },
       "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Sequel to Sep 3 DTN story. News peg: Reuters Sep 3, 2026 - 11th death (Aug 27 Dallas 2018 Equinox, otherwise survivable crash), first since April ban, first non-Malibu/Sonata model. Novel: 120-day ban-to-death timeline arithmetic; WI SB 537 / ID HB 688 criminalization angle; DTN denial. No publish: 1/day rule, #804 shipped 2026-09-06."
+    },
+    {
+      "number": 825,
+      "slug": "ford-mustang-148k-ground-recall-fix-march-2027",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "title": "Ford Recalled 148,663 Mustangs Because Their Ground Wires Can Snap Mid-Drive. The Fix Isn't Expected Until March.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-01",
+      "started": "2026-09-06T22:30:00Z",
+      "critique_round": 0,
+      "critic_avg": 8.97,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "em_dash_entities_body": 2,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.8,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 113.2,
+          "short_pct": 33.3,
+          "long_pct": 17.6,
+          "passed": true
+        },
+        "hero_hash": "ca9c6390",
+        "jpeg_valid": true
+      },
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (825- prefix). Ford 26C40: 148,663 2024-2026 Mustangs, ground eyelet fatigue fracture from adhesive spill, discovered on 2027 durability mule, 1% defect estimate (~1,487), remedy anticipated March 2027. Novel: 2027-mule lede, 100:1 recall-to-defect ratio, remedy-gap-as-story. Disambiguated from #809's 26S61 piston recall. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-09-30."
     }
   ]
 }
