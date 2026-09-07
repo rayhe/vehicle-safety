@@ -1,9 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "number": 836,
+    "slug": "china-door-mega-recall-43-million",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "kicker": "The Gap",
+    "started": "2026-09-07T20:45:00Z",
+    "title": null
+  },
   "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13).",
-  "last_checked": "2026-09-07T19:15:00Z",
+  "last_checked": "2026-09-07T20:45:00Z",
   "last_completed": 805,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
