@@ -18,10 +18,10 @@
   "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
   "started": "2026-09-04T04:40:00Z"
  },
- "last_check_note": "Worker 2026-09-07 01:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; queue through 2026-10-06). Produced #830 (heavy-truck-aeb-mandate-phantom-brake-probe, Mia Crumplezone): research + draft + hero (real JPEG 1920x1280, md5 85bf98ed) + round-1 critique (7/7 >= 8.5, avg 9.07), all hard gates pass (0 em dashes, 0 banned, 13.3% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-06. Queue now runs Sep 7..Oct 6 (#805..#830).",
- "last_checked": "2026-09-07T08:35:00Z",
+ "last_check_note": "Worker 2026-09-07 03:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; queue through 2026-10-07). Produced #831 (nhtsa-impaired-driving-rule-21-months-late, Axle McScatter): research + draft + hero (real JPEG 1920x1280, md5 d2067dac) + round-0 critique (7/7 >= 8.5, avg 9.07), all hard gates pass (0 em dashes, 0 banned, 0.0% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-07. Queue now runs Sep 7..Oct 7 (#805..#831).",
+ "last_checked": "2026-09-07T10:55:00Z",
  "last_completed": 804,
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Axle McScatter",
  "last_published": {
   "date": "2026-09-06",
   "journalist": "Rex Driverton",
@@ -1310,6 +1310,44 @@
     "jpeg_valid": true
    },
    "note": "Round-1 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (830- prefix). Novel: induced-crash gap in the mandate's 155-lives math (NHTSA counts only striking-vehicle rear-enders; phantom braking makes the truck the struck vehicle, uncounted), 24 crashes/347 reports ~7% floor, Detroit Assurance 2.0/4.0/5.0 same failure rate vs lower-claim OnGuard (complexity correlates with failure), mandate probe and defect probe same age (PE23010 May 2023 vs NPRM June 2023; EA25006 upgraded Oct 23 2025, still open). News peg: 2026 regulatory agenda supplemental NPRM imminent. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-06."
+  },
+  {
+   "number": 831,
+   "slug": "nhtsa-impaired-driving-rule-21-months-late",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "title": "Congress Ordered Drunk-Driving Tech in Every New Car by 2024. NHTSA Has Produced 18,367 Comments and Zero Rules.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-10-07",
+   "started": "2026-09-07T10:45:00Z",
+   "critique_round": 0,
+   "critic_avg": 9.07,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.5,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 1245.7,
+     "short_pct": 11.1,
+     "long_pct": 44.4,
+     "passed": true
+    },
+    "hero_hash": "d2067dac",
+    "jpeg_valid": true,
+    "word_count": 926
+   },
+   "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (831- prefix). News pegs: NHTSA Feb/Mar 2026 Report to Congress (no commercial passive detection tech; error rate 'unacceptably high'), docket NHTSA-2022-0079 last modified June 9, 2026, Massie amendment failed 164-268 Jan 2026. Novel: 661-day delay arithmetic (11,904/366*661 = ~21,500 alcohol deaths since Nov 15, 2024 deadline), IIHS 9,409 fantasy-ceiling over window (~17,000), honest audit that on-time compliance still equips zero cars before late 2027 (3-yr lead time), 18,367 comments -> 0 final rules, 'legally alive, technically unborn' mandate framing. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-07."
   }
  ]
 }
