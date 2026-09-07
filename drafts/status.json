@@ -18,8 +18,8 @@
   "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
   "started": "2026-09-04T04:40:00Z"
  },
- "last_check_note": "Worker 2026-09-06 23:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; queue through 2026-10-04). Produced #829 (deer-season-clock-change-33-deaths, Rex Driverton): research + draft + hero (JPEG 1920x1280, md5 2137e49b) + round-1 critique (7/7 >= 8.5, avg 9.0), all hard gates pass (0 em dashes, 0 banned, 8.5% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-05. Queue now runs Sep 7..Oct 5 (#805..#829).",
- "last_checked": "2026-09-07T06:45:00Z",
+ "last_check_note": "Worker 2026-09-07 01:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; queue through 2026-10-06). Produced #830 (heavy-truck-aeb-mandate-phantom-brake-probe, Mia Crumplezone): research + draft + hero (real JPEG 1920x1280, md5 85bf98ed) + round-1 critique (7/7 >= 8.5, avg 9.07), all hard gates pass (0 em dashes, 0 banned, 13.3% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-06. Queue now runs Sep 7..Oct 6 (#805..#830).",
+ "last_checked": "2026-09-07T08:35:00Z",
  "last_completed": 804,
  "last_journalist": "Rex Driverton",
  "last_published": {
@@ -49,76 +49,11 @@
    "slug": "ford-trailer-module-race-condition"
   },
   {
-   "critic_avg": 9.07,
-   "critique_round": 1,
-   "hard_gates": {
-    "banned_phrases": 0,
-    "css_class": true,
-    "em_dashes": 0,
-    "sentence_rhythm": {
-     "long_pct": 6.1,
-     "passed": true,
-     "short_pct": 38.8,
-     "variance": 63.3
-    },
-    "the_starters_pct": 0.0
-   },
-   "journalist": "Mia Crumplezone",
-   "number": 781,
-   "phase": "SHIP_BLOCKED",
-   "scores": {
-    "actionable_insights": 9.0,
-    "ethics_reviewer": 9.0,
-    "general_editor": 9.0,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 9.5,
-    "voice_coach": 9.0
-   },
-   "ship_date": "2026-08-20",
-   "slug": "honda-v6-three-investigations-engine-eating-itself",
-   "started": "2026-08-19T08:30:00Z",
-   "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running."
-  },
-  {
    "journalist": "Clara Rollover",
    "number": 750,
    "phase": "SHIP_BLOCKED",
    "ship_date": "2026-08-21",
    "slug": "nissan-sentra-same-driveshaft-defect-twice"
-  },
-  {
-   "critic_avg": 9.07,
-   "critique_round": 1,
-   "hard_gates": {
-    "banned_phrases": 0,
-    "css_class": true,
-    "em_dashes": 0,
-    "sentence_rhythm": {
-     "long_pct": 22.4,
-     "passed": true,
-     "short_pct": 30.6,
-     "variance": 219.5
-    },
-    "the_starters_pct": 10.5
-   },
-   "journalist": "Dale Impactor III",
-   "kicker": "Sobriety Report",
-   "number": 782,
-   "phase": "SHIP_BLOCKED",
-   "scores": {
-    "actionable_insights": 9.0,
-    "ethics_reviewer": 9.0,
-    "general_editor": 9.0,
-    "legal_accuracy": 9.0,
-    "research_rigor": 9.0,
-    "social_shareability": 9.5,
-    "voice_coach": 9.0
-   },
-   "ship_date": "2026-08-21",
-   "slug": "toxicology-backlog-evidence-expires",
-   "started": "2026-08-19T10:30:00Z",
-   "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
   },
   {
    "journalist": "Rex Driverton",
@@ -320,6 +255,71 @@
    "ship_date": "2026-09-28",
    "slug": "powertrain-recall-explosion-251-percent",
    "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update."
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 6.1,
+     "passed": true,
+     "short_pct": 38.8,
+     "variance": 63.3
+    },
+    "the_starters_pct": 0.0
+   },
+   "journalist": "Mia Crumplezone",
+   "number": 781,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-08-20",
+   "slug": "honda-v6-three-investigations-engine-eating-itself",
+   "started": "2026-08-19T08:30:00Z",
+   "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running."
+  },
+  {
+   "critic_avg": 9.07,
+   "critique_round": 1,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "long_pct": 22.4,
+     "passed": true,
+     "short_pct": 30.6,
+     "variance": 219.5
+    },
+    "the_starters_pct": 10.5
+   },
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "number": 782,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "actionable_insights": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 9.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2026-08-21",
+   "slug": "toxicology-backlog-evidence-expires",
+   "started": "2026-08-19T10:30:00Z",
+   "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
   },
   {
    "critic_avg": 9.07,
@@ -1273,6 +1273,43 @@
     "jpeg_valid": true
    },
    "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (829- prefix). First deer/animal-strike article in 800+ (zero prior coverage, grepped 2026-09-06). News peg: Sept deer-movement ramp + Nov 1, 2026 fall-back (8 weeks) at rut peak. Novel: 440-vs-~200 death-toll discrepancy (2x+ undercount, FARS first-harmful-event coding vs claims data), clock-change-as-deer-safety framing (UW Current Biology study: permanent DST would prevent 33 deaths/yr). Journalist: Rex Driverton (paradox beat; Vin used for 823/825/828). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-05."
+  },
+  {
+   "number": 830,
+   "slug": "heavy-truck-aeb-mandate-phantom-brake-probe",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "title": "NHTSA Wants AEB on Every New Semi. Its Own Investigators Found the System Slamming Trucks to a Stop on Empty Highways.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-10-06",
+   "started": "2026-09-07T08:15:00Z",
+   "critique_round": 1,
+   "critic_avg": 9.07,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.5,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 13.3,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 465.7,
+     "short_pct": 13.5,
+     "long_pct": 59.5,
+     "passed": true
+    },
+    "hero_hash": "85bf98ed",
+    "jpeg_valid": true
+   },
+   "note": "Round-1 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (830- prefix). Novel: induced-crash gap in the mandate's 155-lives math (NHTSA counts only striking-vehicle rear-enders; phantom braking makes the truck the struck vehicle, uncounted), 24 crashes/347 reports ~7% floor, Detroit Assurance 2.0/4.0/5.0 same failure rate vs lower-claim OnGuard (complexity correlates with failure), mandate probe and defect probe same age (PE23010 May 2023 vs NPRM June 2023; EA25006 upgraded Oct 23 2025, still open). News peg: 2026 regulatory agenda supplemental NPRM imminent. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-06."
   }
  ]
 }
