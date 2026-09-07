@@ -1,9 +1,9 @@
 {
   "current": null,
-  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13).",
-  "last_checked": "2026-09-07T21:30:00Z",
-  "last_completed": 836,
-  "last_journalist": "Clara Rollover",
+  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13). #837 researched/drafted/critiqued (8.93 avg, Mia Crumplezone) on Tesla Model Y L rear suspension collapse in China, queued SHIP_BLOCKED for 2026-10-13.",
+  "last_checked": "2026-09-07T23:00:00Z",
+  "last_completed": 837,
+  "last_journalist": "Mia Crumplezone",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
@@ -1491,6 +1491,37 @@
         "word_count": 817
       },
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (836- prefix). News peg: Aug 21, 2026 China recall of ~4.3M vehicles (Tesla 2.98M Model 3/Y/S/X from Sept 25; Xiaomi ~390K; Leapmotor ~371K; Xpeng ~264K), China's largest automotive recall, over hidden emergency door handles. Remedy: warning labels + OTA window-lowering. Novel: remedy-to-recall mismatch (sticker for a physical entrapment hazard), 28-day China-recall vs US-petition-denial timeline, Leapmotor 'sense of responsibility' quote. No publish: 1/day rule, #805 shipped 2026-09-07."
+    },
+    {
+      "number": 837,
+      "slug": "tesla-model-y-l-rear-suspension-collapse-china",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "title": "Tesla's Six-Seat Family SUV Sags Under Its Own Job Description",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-13",
+      "started": "2026-09-07T22:45:00Z",
+      "critique_round": 0,
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.5,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "css": "pass",
+        "word_count": 824
+      },
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (837- prefix). News peg: Sep 1-2, 2026 China reports of Tesla Model Y L (6-seat, Shanghai, launched Aug 2025) rear suspension 'collapsing' under load; owners invented 'finger test' (4 fingers normal, <=2.5 failure); Tesla service threshold 764mm wheel-arch height; one car relapsed 10 days after spring replacement with service center reportedly admitting 'no final solution'; springs free under warranty but owners pay for prematurely worn tires; Tesla China issued no public statement. Novel: load paradox (6-seat flagship fails under load), recurrence-as-design-signal, 19-car US front-suspension precision recall (26V-558) vs China shrug contrast. No publish: 1/day rule, #805 shipped 2026-09-07."
     }
   ]
 }
