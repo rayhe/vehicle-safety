@@ -18,8 +18,8 @@
     "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
     "started": "2026-09-04T04:40:00Z"
   },
-  "last_check_note": "Worker 2026-09-06 15:45 PDT: no publish action (1/day rule: #804 published 2026-09-06). Produced #825 (ford-mustang-148k-ground-recall-fix-march-2027, Vin Wreckage): research + draft + hero (JPEG 1920x1280, hash ca9c6390) + round-0 critique (7/7 >= 8.5, avg 8.97), all hard gates pass (0 literal em dashes, 2 entities, 0 banned, 9.8% The-starters). Queued SHIP_BLOCKED for 2026-10-01. Current #811 stays SHIP_BLOCKED until 2026-09-13. Queue: Sep 7..Oct 1 slotted (#805..#825).",
-  "last_checked": "2026-09-06T22:45:00Z",
+  "last_check_note": "Worker 2026-09-06 17:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; current #811 SHIP_BLOCKED until 2026-09-13). Produced #826 (utah-005-bac-law-deters-heavy-drinkers, Dale Impactor III): research + draft + hero (JPEG 2048x1152, hash 33441736) + round-0 critique (7/7 >= 8.5, avg 9.0), all hard gates pass (0 em dashes, 0 banned, 5.4% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-02. Queue now runs Sep 7..Oct 2 (#805..#826, 39 items).",
+  "last_checked": "2026-09-07T00:35:00Z",
   "last_completed": 804,
   "last_journalist": "Rex Driverton",
   "last_published": {
@@ -1125,6 +1125,43 @@
         "jpeg_valid": true
       },
       "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (825- prefix). Ford 26C40: 148,663 2024-2026 Mustangs, ground eyelet fatigue fracture from adhesive spill, discovered on 2027 durability mule, 1% defect estimate (~1,487), remedy anticipated March 2027. Novel: 2027-mule lede, 100:1 recall-to-defect ratio, remedy-gap-as-story. Disambiguated from #809's 26S61 piston recall. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-09-30."
+    },
+    {
+      "number": 826,
+      "slug": "utah-005-bac-law-deters-heavy-drinkers",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "title": "Utah Lowered the Drunk-Driving Limit to 0.05. The Drivers Who Changed Were the Ones at 0.16.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-02",
+      "started": "2026-09-06T17:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 9.0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.4,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 1263.4,
+          "short_pct": 8.0,
+          "long_pct": 72.0,
+          "passed": true
+        },
+        "hero_hash": "33441736",
+        "jpeg_valid": true
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (826- prefix). Li et al., AJPM June 2026: first rigorous US county-level diff-in-diff of Utah's 0.05 law (FARS 2013-2023 vs 6 neighboring states); alcohol deaths fell more in Utah, non-alcohol deaths unchanged, deterrence extended across higher BAC levels. Novel: heavy-drinker deterrence twist (68% of 2024 alcohol deaths at BAC>=0.15), national ~1,300 lives/yr arithmetic (11% x 11,904, labeled back-of-envelope), COVID-firewall subsample note. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-01."
     }
   ]
 }
