@@ -18,10 +18,10 @@
     "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
     "started": "2026-09-04T04:40:00Z"
   },
-  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #832 researched/drafted/critiqued (8.84 avg), queued SHIP_BLOCKED for 2026-10-08.",
-  "last_checked": "2026-09-07T13:10:00Z",
+  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #833 researched/drafted/critiqued (8.97 avg, Clara Rollover), queued SHIP_BLOCKED for 2026-10-09.",
+  "last_checked": "2026-09-07T14:40:00Z",
   "last_completed": 805,
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Clara Rollover",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
@@ -1372,6 +1372,38 @@
         "hero_jpeg": true,
         "css": "pass"
       }
+    },
+    {
+      "number": 833,
+      "slug": "provo-orem-deadliest-school-zones",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "title": "The Deadliest School Zones in America Are in Provo, Utah. The Speed Limit Signs Are Just Decoration.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-09",
+      "started": "2026-09-07T14:40:00Z",
+      "critique_round": 0,
+      "critic_avg": 8.97,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.7,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "css": "pass",
+        "hero_hash": "2d1fbf2c",
+        "word_count": 952
+      },
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (833- prefix). News pegs: Aug 2026 Sweat study (Provo-Orem 5.01/100K, Oxnard 4.22, Des Moines 3.88, SLC 3.66; Las Vegas 13 raw), Jenoptik/Palm Beach County school-zone speeding study (70% >20 over, Feb 2026), NHTSA 2014-2023 school-transport fact sheet (79 child pedestrians vs 38 in-bus). Novel: enforcement-gap physics math (70% noncompliance x 5/40/80% mortality curve = 8x), small-numerator counterargument answered. No publish: 1/day rule, #805 shipped 2026-09-07."
     }
   ]
 }
