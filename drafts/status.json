@@ -1,16 +1,8 @@
 {
-  "current": {
-    "number": 836,
-    "slug": "china-door-mega-recall-43-million",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "kicker": "The Gap",
-    "started": "2026-09-07T20:45:00Z",
-    "title": null
-  },
+  "current": null,
   "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13).",
-  "last_checked": "2026-09-07T20:45:00Z",
-  "last_completed": 805,
+  "last_checked": "2026-09-07T21:30:00Z",
+  "last_completed": 836,
   "last_journalist": "Clara Rollover",
   "last_published": 805,
   "last_published_date": "2026-09-07",
@@ -1467,6 +1459,38 @@
         "word_count": 718
       },
       "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (835- prefix). News peg: NHTSA EA26006 opened Aug 21, 2026 (escalation of PE24011, Apr 2024) covering 1,164,820 vehicles, 745 incidents, 22 crashes/fires, 5 injury incidents, 6 injuries, 0 fatalities. Novel: GM's stated failure sequence (assist until complete stop) vs driver-reported mid-braking assist loss, quoted from ODI resume; Honda Prologue/Acura ZDX peer-vehicle kicker; 28-month timeline math. No publish: 1/day rule, #805 shipped 2026-09-07."
+    },
+    {
+      "number": 836,
+      "slug": "china-door-mega-recall-43-million",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "title": "China Recalled 4.3 Million Cars Over Doors You Can't Open. The Fix Is a Sticker.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-12",
+      "started": "2026-09-07T20:45:00Z",
+      "critique_round": 0,
+      "critic_avg": 9.0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "css": "pass",
+        "hero_hash": "a392d2c6",
+        "word_count": 817
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (836- prefix). News peg: Aug 21, 2026 China recall of ~4.3M vehicles (Tesla 2.98M Model 3/Y/S/X from Sept 25; Xiaomi ~390K; Leapmotor ~371K; Xpeng ~264K), China's largest automotive recall, over hidden emergency door handles. Remedy: warning labels + OTA window-lowering. Novel: remedy-to-recall mismatch (sticker for a physical entrapment hazard), 28-day China-recall vs US-petition-denial timeline, Leapmotor 'sense of responsibility' quote. No publish: 1/day rule, #805 shipped 2026-09-07."
     }
   ]
 }
