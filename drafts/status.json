@@ -18,8 +18,8 @@
   "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
   "started": "2026-09-04T04:40:00Z"
  },
- "last_check_note": "Worker 2026-09-06 21:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; current #811 SHIP_BLOCKED until 2026-09-13). Produced #828 (telematics-7x-phone-use-undercount, Vin Wreckage): research + draft + hero (JPEG 1920x1280, md5 825e6839) + round-1 critique (7/7 >= 8.5, avg 9.1), all hard gates pass (0 em dashes, 0 banned, 9.8% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-04. Queue now runs Sep 7..Oct 4 (#805..#828, 41 items).",
- "last_checked": "2026-09-07T04:40:00Z",
+ "last_check_note": "Worker 2026-09-06 23:30 PDT: no publish action (1/day rule: #804 published 2026-09-06; queue through 2026-10-04). Produced #829 (deer-season-clock-change-33-deaths, Rex Driverton): research + draft + hero (JPEG 1920x1280, md5 2137e49b) + round-1 critique (7/7 >= 8.5, avg 9.0), all hard gates pass (0 em dashes, 0 banned, 8.5% The-starters, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-05. Queue now runs Sep 7..Oct 5 (#805..#829).",
+ "last_checked": "2026-09-07T06:45:00Z",
  "last_completed": 804,
  "last_journalist": "Rex Driverton",
  "last_published": {
@@ -1236,6 +1236,43 @@
     "jpeg_valid": true
    },
    "note": "Round-1 pass 9.1 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (828- prefix). News peg: IIHS telematics study (Aug 27, 2026), coverage Sept 1-5 - phone use in 30s before impact in 7-8% of ~17,000 linked crashes vs <1% in police reports (>=7x undercount). Novel: behavior-level undercount ratios (3.1x calls / 90x hands-free / 32x manipulation / 29x passive), 3-of-17000 police-telematics agreement (0.018%), selection-bias floor argument, maps-app passive-use paradox. Distinct from May 2026 distracted-driving-undercount-3x (estimated 3x via NSC math). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-04."
+  },
+  {
+   "number": 829,
+   "slug": "deer-season-clock-change-33-deaths",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "title": "The Clocks Fall Back November 1. Deer Collisions Are About to Triple.",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-10-05",
+   "started": "2026-09-07T06:40:00Z",
+   "critique_round": 1,
+   "critic_avg": 9.0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 8.5,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 440.2,
+     "short_pct": 12.9,
+     "long_pct": 51.6,
+     "passed": true
+    },
+    "hero_hash": "2137e49b",
+    "jpeg_valid": true
+   },
+   "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (829- prefix). First deer/animal-strike article in 800+ (zero prior coverage, grepped 2026-09-06). News peg: Sept deer-movement ramp + Nov 1, 2026 fall-back (8 weeks) at rut peak. Novel: 440-vs-~200 death-toll discrepancy (2x+ undercount, FARS first-harmful-event coding vs claims data), clock-change-as-deer-safety framing (UW Current Biology study: permanent DST would prevent 33 deaths/yr). Journalist: Rex Driverton (paradox beat; Vin used for 823/825/828). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-05."
   }
  ]
 }
