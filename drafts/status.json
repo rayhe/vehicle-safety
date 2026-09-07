@@ -1,27 +1,9 @@
 {
-  "current": {
-    "critics": {
-      "data": 9.0,
-      "ethics": 9.0,
-      "general": 9.0,
-      "legal": 9.5,
-      "rigor": 9.0,
-      "rounds": 1,
-      "social": 9.0,
-      "voice": 9.2
-    },
-    "n": 811,
-    "note": "7/7 critics >= 8.5 in round 1. Blocked by 1/day rule: #801 shipped 2026-09-03, #810 queued 2026-09-12. Ship-worker notes in critique file (hero hash e757a3b3).",
-    "persona": "Vin Wreckage",
-    "phase": "SHIP_BLOCKED",
-    "ship_eligible_date": "2026-09-13",
-    "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
-    "started": "2026-09-04T04:40:00Z"
-  },
-  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #833 researched/drafted/critiqued (8.97 avg, Clara Rollover), queued SHIP_BLOCKED for 2026-10-09.",
+  "current": null,
+  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13).",
   "last_checked": "2026-09-07T14:40:00Z",
   "last_completed": 805,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
@@ -1404,6 +1386,47 @@
         "word_count": 952
       },
       "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (833- prefix). News pegs: Aug 2026 Sweat study (Provo-Orem 5.01/100K, Oxnard 4.22, Des Moines 3.88, SLC 3.66; Las Vegas 13 raw), Jenoptik/Palm Beach County school-zone speeding study (70% >20 over, Feb 2026), NHTSA 2014-2023 school-transport fact sheet (79 child pedestrians vs 38 in-bus). Novel: enforcement-gap physics math (70% noncompliance x 5/40/80% mortality curve = 8x), small-numerator counterargument answered. No publish: 1/day rule, #805 shipped 2026-09-07."
+    },
+    {
+      "number": 811,
+      "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-13",
+      "critic_avg": 9.04,
+      "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07."
+    },
+    {
+      "number": 834,
+      "slug": "pedestrian-crash-lethality-doubled",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "title": "Getting Hit by a Car Is Twice as Deadly as a Decade Ago. Deaths Fell Anyway.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-10",
+      "started": "2026-09-07T16:30:00Z",
+      "critique_round": 0,
+      "critic_avg": 9.03,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.8,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "css": "pass",
+        "hero_hash": "2f91af3b",
+        "word_count": 993
+      },
+      "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (834- prefix). News peg: GHSA July 2026 full-year report (6,732 projected, -7%, third straight decline). Novel: pedestrian crash lethality doubled 2015-2024 (4.0%->10.1% CRSS); decomposition implies crash volume roughly halved (~137K->~70K). Denominator-artifact counterargument stated at full strength. IIHS 27% AEB figure independently verified. No publish: 1/day rule, #805 shipped 2026-09-07."
     }
   ]
 }
