@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "tesla-cybercab-aq26002-inapplicable",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
     "number": 848,
     "started": "2026-09-08T20:40:00Z",
     "kicker": "Investigation",
-    "title": "The Car That Is Legal Because the Law Does Not Apply"
+    "title": "The Car That Is Legal Because the Law Does Not Apply",
+    "round": 0
   },
   "last_check_note": "Article #847 (Clara Rollover, Jeep Grand Cherokee third coil-spring recall 89D) drafted, critiqued 8.74 avg round 0, SHIP_BLOCKED for 2026-10-23 (after #846 on 2026-10-22). #806 published today (1/day rule). Queue: 61 blocked.",
   "last_checked": "2026-09-08T18:35:00Z",
