@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "842-nhtsa-backlog-body-count",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-09-08T08:31:51Z",
-    "kicker": "Investigation",
-    "title": "NHTSA Is 10 Rules Behind Congress and 236 Employees Short. The Backlog Has a Body Count."
-  },
+  "current": null,
   "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession — queued SHIP_BLOCKED for 2026-10-17.",
   "last_checked": "2026-09-08T04:30:00Z",
-  "last_completed": 840,
-  "last_journalist": "Dale Impactor III",
+  "last_completed": 842,
+  "last_journalist": "Rex Driverton",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
-  "next": 842,
+  "next": 843,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1653,6 +1646,25 @@
         "actionable_insights": true
       },
       "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (841- prefix). News peg: GHSA ISA guidebook 'Intelligent Speed Assistance: A New Tool for Safer Roads' (May 2026), amplified at GHSA 2026 Annual Meeting Minneapolis Aug 29-Sep 2. Novel: 42-minute speeding-death cadence; 950-lives/yr conservative floor (8.4% NSW advisory-ISA figure x 11,288); adoption-speed arithmetic (guidebook pace = decade to reach easy slice = 100k+ more deaths vs EU one-act mandate); NHTSA/FMCSA truck-limiter withdrawal vs GHSA deployment manual contradiction; SteerSafe vendor funding disclosed. Counterargument at full strength (EU override, targeted beats resented mandate). No publish: 1/day rule, #805 shipped 2026-09-07; queue backlog through 2026-10-16."
+    },
+    {
+      "number": 842,
+      "slug": "nhtsa-backlog-body-count",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "NHTSA Is 10 Rules Behind Congress and 236 Employees Short. The Backlog Has a Body Count.",
+      "phase": "SHIP_BLOCKED",
+      "score": 8.8,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-18",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/842-nhtsa-backlog-body-count-research.md",
+        "draft": "drafts/842-nhtsa-backlog-body-count.html",
+        "hero": "drafts/842-nhtsa-backlog-body-count.jpg",
+        "critic_panel": "drafts/842-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind 55 prior drafts; next publish slot after #841 (2026-10-17)"
     }
   ]
 }
