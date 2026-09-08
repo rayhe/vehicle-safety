@@ -1,7 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "number": 849,
+    "slug": "polestar-rq25004-three-recalls-one-camera",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-08",
+    "research": "drafts/polestar-rq25004-three-recalls-one-camera-research.md"
+  },
   "last_check_note": "Article #848 (Tesla Cybercab AQ26002 self-certification probe, Rex Driverton) drafted, critiqued 8.93 avg round 0, SHIP_BLOCKED for 2026-10-24 (after #847 on 2026-10-23). #806 published today (1/day rule). Queue: 62 blocked.",
-  "last_checked": "2026-09-08T18:35:00Z",
+  "last_checked": "2026-09-08T22:35:00Z",
   "last_completed": 844,
   "last_journalist": "Rex Driverton",
   "last_published": 806,
