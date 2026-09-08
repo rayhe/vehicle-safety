@@ -1,6 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession \u2014 queued SHIP_BLOCKED for 2026-10-17.",
+  "current": {
+    "slug": "842-nhtsa-backlog-body-count",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-09-08T08:31:51Z",
+    "kicker": "Investigation",
+    "title": "NHTSA Is 10 Rules Behind Congress and 236 Employees Short. The Backlog Has a Body Count."
+  },
+  "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession — queued SHIP_BLOCKED for 2026-10-17.",
   "last_checked": "2026-09-08T04:30:00Z",
   "last_completed": 840,
   "last_journalist": "Dale Impactor III",
