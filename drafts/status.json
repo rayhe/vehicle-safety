@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "Article #846 (Rex Driverton, wheel-off loose lug nuts as other-lane projectiles) drafted, critiqued 8.79 avg round 0, SHIP_BLOCKED for 2026-10-22 (after #845 on 2026-10-21). #806 published today (1/day rule). Queue: 60 blocked.",
-  "last_checked": "2026-09-08T13:10:00Z",
+  "last_check_note": "Article #847 (Clara Rollover, Jeep Grand Cherokee third coil-spring recall 89D) drafted, critiqued 8.74 avg round 0, SHIP_BLOCKED for 2026-10-23 (after #846 on 2026-10-22). #806 published today (1/day rule). Queue: 61 blocked.",
+  "last_checked": "2026-09-08T18:35:00Z",
   "last_completed": 844,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 846,
+  "next": 848,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1768,6 +1768,35 @@
       },
       "blocked_reason": "Queued behind 59 prior drafts; next publish slot after #845 (2026-10-21)",
       "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Anchor: Aug 3, 2026 Odessa TX wheel-off fatality (Texas DPS via Spagnoletti). Novel: FARS has no wheel-off code + victim-is-in-other-lane asymmetry thesis."
+    },
+    {
+      "number": 847,
+      "slug": "jeep-grand-cherokee-third-coil-spring-recall",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "title": "The Recall of the Recall of the Recall: 328,000 Grand Cherokees, Same Springs, Third Time",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/jeep-grand-cherokee-third-coil-spring-recall-research.md",
+        "draft": "drafts/847-jeep-grand-cherokee-third-coil-spring-recall.html",
+        "hero": "drafts/847-jeep-grand-cherokee-third-coil-spring-recall.jpg",
+        "critic_panel": "drafts/847-critic-panel-r0.md"
+      },
+      "score": 8.74,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-23",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "rhythm": "pass (var 1781, short 14.3%, long 42.9%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 60 prior drafts; next publish slot after #846 (2026-10-22)",
+      "note": "Round-0 pass 8.74 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 FCA recall 89D / NHTSA 26V-562 (328,381 vehicles). Novel: escalating-remedy chain 64A(2023)->26V-051(Jan 2026)->89D(Sep 2026) + defect-rate collapse 13%->0.1% with population re-expansion."
     }
   ]
 }
