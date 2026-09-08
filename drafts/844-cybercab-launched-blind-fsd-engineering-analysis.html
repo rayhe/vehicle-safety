@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tesla's Cybercab Has No Steering Wheel. Its Cameras Still Go Blind in the Sun. &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA opened Audit Query AQ26002 the same day Tesla launched Cybercab rides in Austin. Meanwhile the camera-only FSD stack underneath it is under a federal Engineering Analysis for failing to see hazards in sun glare, dust, and fog.">
+  <meta property="og:title" content="Tesla's Cybercab Has No Steering Wheel. Its Cameras Still Go Blind in the Sun.">
+  <meta property="og:description" content="Same-day federal probe into the Cybercab's self-certification, plus an open Engineering Analysis on the vision stack it runs on. Removing the wheel removed the fallback.">
+  <meta property="og:image" content="../images/844-cybercab-launched-blind-fsd-engineering-analysis.jpg">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Tesla's Cybercab Has No Steering Wheel. Its Cameras Still Go Blind in the Sun.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">September 8, 2026</div>
+
+      <img src="../images/844-cybercab-launched-blind-fsd-engineering-analysis.jpg" alt="Tesla Cybercab robotaxi in Austin at sunset, sun glare flaring across the camera housing, no steering wheel visible" class="story-hero" loading="eager">
+
+      <div class="story-body">
+
+      <p>On September 3, 2026, Tesla started charging real fares for rides in a car with <strong>no steering wheel, no brake pedal, no accelerator, and no mirrors</strong>. The same day, NHTSA opened a formal probe into how Tesla decided that car was road-legal.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>This is not how approval is supposed to work, because approval is not a thing that happens. Under US law, automakers self-certify: nobody at NHTSA rode in a Cybercab, inspected a Cybercab, or signed off on a Cybercab before the first paying passenger climbed in. The agency investigates after the fact, and the fact arrived on September 3.</p>
+
+      <p>Tesla's position, stated by VP of Vehicle Engineering Lars Moravy, is that the Cybercab complies with all applicable Federal Motor Vehicle Safety Standards, and that certain standards simply do not apply to a vehicle built without the components they regulate.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> FMVSS 111 governs mirrors, 124 covers accelerator controls, 135 covers brake systems, and 203 and 204 address steering-column impact protection. A Cybercab contains none of those components, so Tesla's legal determination is that those standards are inapplicable. Note the move: this is not an exemption request. It is a declaration that the rules do not reach the car.</p>
+
+      <p>NHTSA's Audit Query AQ26002 is a demand to see the work behind that declaration. The one-page filing, prompted by public information and covering an estimated 1,000 vehicles, says the agency will consider "the extent to which Tesla's certification depended on determinations that certain FMVSS are inapplicable to the Cybercab."<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Administrator Jonathan Morrison was diplomatic: "NHTSA fully supports the safe development and deployment of automated vehicles. But as the federal regulator, we need to ensure that all of our laws are followed."<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <div class="pull-stat">3,200,000</div>
+      <div class="pull-label">Tesla vehicles under NHTSA Engineering Analysis for FSD failures to detect hazards when cameras are impaired</div>
+
+      <p>Now the part that should worry anyone who thinks about failure modes for a living. NHTSA has a separate, open Engineering Analysis into Tesla's Full Self-Driving software covering about 3.2 million vehicles, and its central finding is brutal for a camera-only company: the system <strong>may fail to detect hazardous situations when camera functionality is impaired, giving warnings seconds before a crash or none at all</strong>.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The named failure conditions are sun glare, dust, and fog. Nine crashes, including one death, have been connected so far, with six more under review. Engineering Analysis is the final investigative stage before NHTSA can seek a mandatory recall.</p>
+
+      <p>And the Cybercab runs on what Electrek describes as "a very similar FSD software."<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Read that again. Tesla removed the human fallback from a vehicle whose vision system is under federal investigation for not seeing. A human driver squinting into a low Texas sun can shade their eyes, slow down, or pull over; the decision to do any of that requires a mind behind the windshield, and the Cybercab deliberately has no provision for one. The launch city is Austin and the launch month is September. Anyone who has driven in central Texas in September knows exactly what the sun does at 6 p.m., and NHTSA has named that exact condition, sun glare, as a failure mode in writing.</p>
+
+      <p>Put the two dockets side by side and the timeline reads like a dare. In March, NHTSA escalated the FSD vision investigation to Engineering Analysis. In June, the agency proposed scrapping the brake-pedal requirement for autonomous vehicles, admitting the rules are obsolete. In July, it granted Zoox the industry's first exemption petition for a steering-wheel-free robotaxi, the legal path Tesla declined to walk. On September 3, Tesla put paying passengers in a wheel-less, pedal-less, mirror-less car on public roads in Austin and told NHTSA the old standards do not apply, and hours later NHTSA opened AQ26002.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
+
+      <p><strong>The counterargument, at full strength:</strong> camera-only stacks have driven billions of miles, and nine crashes across 3.2 million vehicles is thin evidence of a systemic defect. Every sensor suite degrades in fog and glare, lidar included. Self-certification is the same legal pathway every Camry and F-150 uses, and NHTSA is already rewriting the standards, eight rulemakings underway on pedals, wipers, lighting, and mirrors, because it agrees they are obsolete.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Zoox waited years for an exemption Tesla skipped, but Tesla's bet is that the petition process is the anachronism, not the car. And removing the wheel removes the distraction problem at its root: there is no human left to misuse the automation.</p>
+
+      <p><strong>What this does not prove:</strong> the Engineering Analysis covers FSD in consumer Teslas, not the Cybercab specifically. Tesla has not published the Cybercab's sensor or processing differences, if any exist, so identical failure modes are plausible rather than proven. AQ26002 alleges nothing about safety; it asks for paperwork. And an audit query is an investigative step, not an enforcement action. Nothing about it stops a Cybercab from picking up a rider in Austin this afternoon.</p>
+
+      <h3>What This Means for You</h3>
+
+      <p>If you are riding in a Cybercab in Austin, you are riding in a vehicle whose federal compliance is under same-day review. Check nhtsa.gov for AQ26002 updates before assuming the planned expansion to roughly a dozen states carries federal blessing.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Watch the Engineering Analysis outcome: if NHTSA mandates action on the FSD vision stack, the Cybercab's camera-only architecture is next in line. And if you are pricing the robotaxi thesis as an investor, remember the exemption path exists, it allows 2,500 vehicles per manufacturer per year, and Zoox used it while Tesla declined. The audit will reveal whether that confidence was engineering or paperwork.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Office of Defects Investigation, <em>Open Audit Query Resume AQ26002</em> (Subject: Tesla Cybercab FMVSS Certification; opened 09/03/2026; investigator Syed Rahaman; prompted by public information; population 1,000 estimated). <a href="https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf" target="_blank" rel="noopener">static.nhtsa.gov (PDF)</a></li>
+          <li id="ref-2">Electrek, "Tesla Cybercab is already under NHTSA investigation after launch," Sep 4, 2026 &mdash; commercial launch in Austin Sep 3; shareholders and influencers reportedly signed NDAs; "The Cybercab runs on a very similar FSD software"; open FSD probe covering 3.2 million vehicles after visibility-related crashes. <a href="https://electrek.co/2026/09/04/tesla-cybercab-nhtsa-investigation-fmvss-certification/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-3">USA Today (Keith Laing), "Can NHTSA slow down Tesla's Cybercab launch with new probe?," Sep 4, 2026 &mdash; NHTSA: "until that work is completed, however, existing standards remain in force"; Administrator Jonathan Morrison statement; Robotaxi operating areas (Austin, Dallas, Houston, Miami, Orlando, Tampa); Sept 3 announcement of expansion to roughly a dozen additional states; Musk April 2026 earnings call on validation. <a href="https://www.usatoday.com/story/cars/news/2026/09/04/tesla-cybercab-probe-expected-launch/91609244007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-4">Autoblog (Simran Rastogi), "Tesla Just Dodged a 2.26 Million-Car Recall, The Next One Could Be Far Worse," Mar 22, 2026 &mdash; NHTSA upgraded FSD visibility investigation to Engineering Analysis covering ~3.2 million vehicles; system "may fail to detect hazardous situations and alert the driver as it should when camera functionality is impaired"; sun glare, dust, fog named; 9 accidents including 1 death, 6 more under review; separate 2.88M-vehicle probe over 50+ traffic-safety-violation reports. <a href="https://www.autoblog.com/news/tesla-just-dodged-a-2-26-million-car-recall-the-next-one-could-be-far-worse" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-5">TechTimes, "Tesla Cybercab Launched; NHTSA Opened Probe It Once Sent Zoox Down for Four Years," Sep 4, 2026 &mdash; FMVSS 111, 124, 135, 203, 204 at issue; VP Vehicle Engineering Lars Moravy: self-certified as fully compliant, certain standards determined inapplicable (a legal determination, not an exemption request). <a href="https://www.techtimes.com/articles/326717/20260904/tesla-cybercab-launched-nhtsa-opened-probe-it-once-sent-zoox-down-four-years.htm" target="_blank" rel="noopener">techtimes.com</a></li>
+          <li id="ref-6">Reuters (David Shepardson), "US auto safety regulator opens probe into nearly 1,000 Tesla Cybercabs," Sep 4, 2026 &mdash; Texas records: 420 Tesla autonomous vehicles registered, including 45 Cybercabs; June proposal to end manual brake pedal requirement for self-driving vehicles; July Zoox exemption approval (first for industry); 2,500 vehicles/manufacturer/year petition cap. <a href="https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-opens-probe-into-nearly-1000-tesla-cybercabs-2026-09-04/" target="_blank" rel="noopener">reuters.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA ODI Audit Query AQ26002 (opened Sep 3, 2026); NHTSA FSD Engineering Analysis reporting, Mar 2026. Crash counts and investigation scope are as reported by NHTSA and cited press; Engineering Analysis is an investigative stage, not a defect finding. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+      <span class="footer-sep">&bull;</span> The Crash Report
+    </footer>
+  </div>
+</body>
+</html>

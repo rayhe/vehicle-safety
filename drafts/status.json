@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession \u2014 queued SHIP_BLOCKED for 2026-10-17.",
-  "last_checked": "2026-09-08T04:30:00Z",
-  "last_completed": 842,
-  "last_journalist": "Rex Driverton",
+  "last_check_note": "Article #844 drafted+critiqued (9.0 avg, Mia Crumplezone): Cybercab AQ26002 x FSD camera-blindness EA \u2014 queued SHIP_BLOCKED for 2026-10-20. #806 already published today (1/day rule).",
+  "last_checked": "2026-09-08T13:10:00Z",
+  "last_completed": 844,
+  "last_journalist": "Mia Crumplezone",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 844,
+  "next": 845,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1694,6 +1694,35 @@
       },
       "blocked_reason": "Queued behind 55+ prior drafts; next publish slot after #842 (2026-10-18)",
       "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Defect-spread census: five recalls Aug 25-Sep 1 2026 (Ford 26V548 0.5%, Mitsubishi 26V549 ~1%, Ford 26V547 1%, Tesla 26V558 75%, Chrysler 26V560 100%); ex-Ram only 0.94% actually defective. Follow-up to June 1%-uniformity piece, differentiated."
+    },
+    {
+      "number": 844,
+      "slug": "cybercab-launched-blind-fsd-engineering-analysis",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "title": "Tesla's Cybercab Has No Steering Wheel. Its Cameras Still Go Blind in the Sun.",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/844-cybercab-launched-blind-fsd-engineering-analysis-research.md",
+        "draft": "drafts/844-cybercab-launched-blind-fsd-engineering-analysis.html",
+        "hero": "drafts/844-cybercab-launched-blind-fsd-engineering-analysis.jpg",
+        "critic_panel": "drafts/844-critic-panel-r0.md"
+      },
+      "score": 9.0,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-20",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.9,
+        "rhythm": "pass (4.9% short, 43.9% long, var 2548)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 55+ prior drafts; next publish slot after #843 (2026-10-19)",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel link: AQ26002 self-certification audit (opened 09/03/2026, same day as commercial Cybercab launch) + open FSD Engineering Analysis (3.2M vehicles, camera impairment: sun glare/dust/fog, 9 crashes 1 death). Electrek confirms EA still open Sep 4, 2026."
     }
   ]
 }
