@@ -1,12 +1,12 @@
 {
   "current": null,
-  "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession — queued SHIP_BLOCKED for 2026-10-17.",
+  "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession \u2014 queued SHIP_BLOCKED for 2026-10-17.",
   "last_checked": "2026-09-08T04:30:00Z",
   "last_completed": 842,
   "last_journalist": "Rex Driverton",
-  "last_published": 805,
-  "last_published_date": "2026-09-07",
-  "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
+  "last_published": 806,
+  "last_published_date": "2026-09-08",
+  "last_published_slug": "iihs-september-wave-badge-inversion",
   "next": 843,
   "queue": [
     {
@@ -415,7 +415,7 @@
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
       "number": 806,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
@@ -426,10 +426,10 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-08",
       "slug": "iihs-september-wave-badge-inversion",
       "started": "2026-09-03T18:45:00Z",
-      "title": "IIHS Crowned a Kia and a Tesla This Week. BMW's Icon Failed, and the Morgue Agrees"
+      "title": "IIHS Crowned a Kia and a Tesla This Week. BMW's Icon Failed, and the Morgue Agrees",
+      "published_date": "2026-09-08"
     },
     {
       "critic_avg": 8.93,
