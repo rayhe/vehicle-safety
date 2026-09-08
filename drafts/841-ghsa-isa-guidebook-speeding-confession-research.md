@@ -60,7 +60,7 @@ Is this genuinely newsworthy? YES. The guidebook got minimal mainstream coverage
 
 ## Novel Contribution (original findings/calculations)
 
-1. **The confession, quantified.** 125,000 speeding deaths in 10 years = one speeding death roughly every 4.2 minutes, nonstop, for a decade. NHTSA's own 2025 early estimate shows speeding deaths fell 11% (11,288 → 10,035) — the "modest success" Adkins is describing. The article frames it: after 125,000 bodies, the enforcement establishment conceded.
+1. **The confession, quantified.** 125,000 speeding deaths in 10 years = one speeding death roughly every 42 minutes, nonstop, for a decade. NHTSA's own 2025 early estimate shows speeding deaths fell 11% (11,288 → 10,035) — the "modest success" Adkins is describing. The article frames it: after 125,000 bodies, the enforcement establishment conceded.
 
 2. **The adoption-speed arithmetic (original).** The guidebook path is voluntary: state fleet pilots → high-risk-driver laws (DC model: 4 states in, 5 considering) → teen/fleet adoption. Even the advocate's own ceiling (NRSF: "up to 22,000 fatal crashes each year") is meaningless without a penetration rate. Conservative floor from NSW data: advisory ISA fleet-wide ≈ 8.4% of the speeding death toll ≈ ~950 lives/year at 2024's 11,288. With active ISA (NYC pilot: 64% speeding reduction on fleets), the persistent-speeder + fleet + teen slice is plausibly 15–25% of the speeding toll = 1,700–2,800 lives/year. At guidebook pace (a handful of state laws per year, fleet pilots in the dozens), reaching even that slice takes a decade — roughly another 110,000+ speeding deaths in the interim. EU got universal coverage in new cars in one regulatory act (July 2024).
 

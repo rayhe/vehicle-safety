@@ -1,13 +1,6 @@
 {
-  "current": {
-    "slug": "ghsa-isa-guidebook-speeding-confession",
-    "number": 841,
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-09-08T06:30:00Z",
-    "kicker": "The Gap"
-  },
-  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #840 researched/drafted/critiqued (9.0 avg, Dale Impactor III) on cannabis legalization +4.1% fatal crash tax (Farmer IIHS JSAD study, Sept 2026), queued SHIP_BLOCKED for 2026-10-16.",
+  "current": null,
+  "last_check_note": "Article #841 drafted+critiqued (8.93 avg, Axle McScatter): GHSA ISA guidebook speeding confession \u2014 queued SHIP_BLOCKED for 2026-10-17.",
   "last_checked": "2026-09-08T04:30:00Z",
   "last_completed": 840,
   "last_journalist": "Dale Impactor III",
@@ -1622,6 +1615,37 @@
         "actionable_insights": true
       },
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (840- prefix). News peg: IIHS Charles Farmer JSAD study published Sept 4 2026 (cannabis legalization +5.8% injury, +4.1% fatal crash rates in 5 legal states vs 6 control states). Novel: original FARS 2014-2023 computation that 24.6% of impaired fatal-crash drivers (24,169 of 98,348) had zero alcohol in system; compensation-effect geometry (fatalities rose less than injuries); grandma-sedan drug-positive extremes; testing-artifact counterargument at full strength. No publish: 1/day rule, #805 shipped 2026-09-07; queue backlog through 2026-10-15."
+    },
+    {
+      "number": 841,
+      "slug": "ghsa-isa-guidebook-speeding-confession",
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "title": "125,000 Speeding Deaths Later, the Safety Establishment Admits Enforcement Isn't Working. Its Fix Is a PDF.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-17",
+      "started": "2026-09-08T06:30:00Z",
+      "critique_round": 0,
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.6,
+        "rhythm": "pass (variance 1453.2, short 2.7%, long 40.5%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (841- prefix). News peg: GHSA ISA guidebook 'Intelligent Speed Assistance: A New Tool for Safer Roads' (May 2026), amplified at GHSA 2026 Annual Meeting Minneapolis Aug 29-Sep 2. Novel: 42-minute speeding-death cadence; 950-lives/yr conservative floor (8.4% NSW advisory-ISA figure x 11,288); adoption-speed arithmetic (guidebook pace = decade to reach easy slice = 100k+ more deaths vs EU one-act mandate); NHTSA/FMCSA truck-limiter withdrawal vs GHSA deployment manual contradiction; SteerSafe vendor funding disclosed. Counterargument at full strength (EU override, targeted beats resented mandate). No publish: 1/day rule, #805 shipped 2026-09-07; queue backlog through 2026-10-16."
     }
   ]
 }
