@@ -1,9 +1,9 @@
 {
   "current": null,
-  "last_check_note": "Article #845 (Vin Wreckage, IIHS telematics phone-use undercount) drafted, critiqued 8.9 avg round 0, SHIP_BLOCKED for 2026-10-21 (after #844 on 2026-10-20). #806 published today (1/day rule). Queue: 59 blocked.",
+  "last_check_note": "Article #846 (Rex Driverton, wheel-off loose lug nuts as other-lane projectiles) drafted, critiqued 8.79 avg round 0, SHIP_BLOCKED for 2026-10-22 (after #845 on 2026-10-21). #806 published today (1/day rule). Queue: 60 blocked.",
   "last_checked": "2026-09-08T13:10:00Z",
   "last_completed": 844,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
@@ -1739,6 +1739,35 @@
       "score": 8.9,
       "critic_rounds": 1,
       "ship_date": "2026-10-21"
+    },
+    {
+      "number": 846,
+      "slug": "wheel-off-loose-lug-projectile",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "The Most Dangerous Part of Your Car Is the Part That Leaves It",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/wheel-off-loose-lug-projectile-research.md",
+        "draft": "drafts/846-wheel-off-loose-lug-projectile.html",
+        "hero": "drafts/846-wheel-off-loose-lug-projectile.jpg",
+        "critic_panel": "drafts/846-critic-panel-r0.md"
+      },
+      "score": 8.79,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-22",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "rhythm": "pass (3.7% short, 66.7% long, var 389)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 59 prior drafts; next publish slot after #845 (2026-10-21)",
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Anchor: Aug 3, 2026 Odessa TX wheel-off fatality (Texas DPS via Spagnoletti). Novel: FARS has no wheel-off code + victim-is-in-other-lane asymmetry thesis."
     }
   ]
 }
