@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13). #837 researched/drafted/critiqued (8.93 avg, Mia Crumplezone) on Tesla Model Y L rear suspension collapse in China, queued SHIP_BLOCKED for 2026-10-13.",
-  "last_checked": "2026-09-08T03:00:00Z",
-  "last_completed": 838,
-  "last_journalist": "Vin Wreckage",
+  "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #840 researched/drafted/critiqued (9.0 avg, Dale Impactor III) on cannabis legalization +4.1% fatal crash tax (Farmer IIHS JSAD study, Sept 2026), queued SHIP_BLOCKED for 2026-10-16.",
+  "last_checked": "2026-09-08T04:30:00Z",
+  "last_completed": 840,
+  "last_journalist": "Dale Impactor III",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
-  "next": 840,
+  "next": 841,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1584,6 +1584,37 @@
         "actionable_insights": true
       },
       "note": "Round-0 pass 9.04 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (839- prefix). News peg: NHTSA Audit Query AQ26002 opened Sept 3 2026 into Tesla's self-certification of the steering-wheel/pedal/mirror-free Cybercab. Novel: 50x exemption-path arithmetic (125k/yr capacity vs 2,500/yr Part 555 cap), Zoox 4-year playbook quantified, 'compliance by declared inapplicability' framing, June brake-pedal-rule-delete proposal vs September audit irony. No publish: 1/day rule, #805 shipped 2026-09-07."
+    },
+    {
+      "number": 840,
+      "slug": "legalization-fatality-tax-four-percent",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "title": "Cannabis Legalization Raised Fatal Crashes 4.1%. One in Four Impaired Drivers Is Invisible to the Breathalyzer.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-16",
+      "started": "2026-09-08T04:30:00Z",
+      "critique_round": 0,
+      "critic_avg": 9.0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.7,
+        "rhythm": "pass (variance 286.4, short 10.0%, long 50.0%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (840- prefix). News peg: IIHS Charles Farmer JSAD study published Sept 4 2026 (cannabis legalization +5.8% injury, +4.1% fatal crash rates in 5 legal states vs 6 control states). Novel: original FARS 2014-2023 computation that 24.6% of impaired fatal-crash drivers (24,169 of 98,348) had zero alcohol in system; compensation-effect geometry (fatalities rose less than injuries); grandma-sedan drug-positive extremes; testing-artifact counterargument at full strength. No publish: 1/day rule, #805 shipped 2026-09-07; queue backlog through 2026-10-15."
     }
   ]
 }
