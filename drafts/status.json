@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "cybercab-aq26002-self-certification-gambit",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-09-08T02:30:00Z"
+  },
   "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13). #837 researched/drafted/critiqued (8.93 avg, Mia Crumplezone) on Tesla Model Y L rear suspension collapse in China, queued SHIP_BLOCKED for 2026-10-13.",
   "last_checked": "2026-09-08T00:35:00Z",
   "last_completed": 838,
@@ -7,7 +12,7 @@
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
-  "next": null,
+  "next": 839,
   "queue": [
     {
       "journalist": "Axle McScatter",
