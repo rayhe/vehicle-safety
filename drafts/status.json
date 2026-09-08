@@ -1,22 +1,13 @@
 {
-  "current": {
-    "slug": "tesla-cybercab-aq26002-inapplicable",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "number": 848,
-    "started": "2026-09-08T20:40:00Z",
-    "kicker": "Investigation",
-    "title": "The Car That Is Legal Because the Law Does Not Apply",
-    "round": 0
-  },
-  "last_check_note": "Article #847 (Clara Rollover, Jeep Grand Cherokee third coil-spring recall 89D) drafted, critiqued 8.74 avg round 0, SHIP_BLOCKED for 2026-10-23 (after #846 on 2026-10-22). #806 published today (1/day rule). Queue: 61 blocked.",
+  "current": null,
+  "last_check_note": "Article #848 (Tesla Cybercab AQ26002 self-certification probe, Rex Driverton) drafted, critiqued 8.93 avg round 0, SHIP_BLOCKED for 2026-10-24 (after #847 on 2026-10-23). #806 published today (1/day rule). Queue: 62 blocked.",
   "last_checked": "2026-09-08T18:35:00Z",
   "last_completed": 844,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 848,
+  "next": 849,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1806,6 +1797,35 @@
       },
       "blocked_reason": "Queued behind 60 prior drafts; next publish slot after #846 (2026-10-22)",
       "note": "Round-0 pass 8.74 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 FCA recall 89D / NHTSA 26V-562 (328,381 vehicles). Novel: escalating-remedy chain 64A(2023)->26V-051(Jan 2026)->89D(Sep 2026) + defect-rate collapse 13%->0.1% with population re-expansion."
+    },
+    {
+      "number": 848,
+      "slug": "tesla-cybercab-aq26002-inapplicable",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "The Car That's Legal Because the Law Doesn't Apply",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/tesla-cybercab-aq26002-inapplicable-research.md",
+        "draft": "drafts/848-tesla-cybercab-aq26002-inapplicable.html",
+        "hero": "drafts/848-tesla-cybercab-aq26002-inapplicable.jpg",
+        "critic_panel": "drafts/848-critic-panel-r0.md"
+      },
+      "score": 8.93,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-24",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.5,
+        "rhythm": "pass (var 414, short 0.0%, long 43.3%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 61 prior drafts; next publish slot after #847 (2026-10-23); 1/day rule consumed by #806 on 2026-09-08",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Anchor: Sept 3, 2026 NHTSA AQ26002 opened same day Cybercab fares began in Austin. Novel: self-certification-by-inapplicability thesis + Zoox 4-year exemption contrast + NHTSA rewriting the rulebook it is enforcing."
     }
   ]
 }
