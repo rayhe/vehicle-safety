@@ -1,9 +1,9 @@
 {
   "current": null,
   "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #835 researched/drafted/critiqued (9.03 avg, Rex Driverton) on NHTSA EA26006 GM eBoost brake-assist investigation, queued SHIP_BLOCKED for 2026-10-11. #834 researched/drafted/critiqued (9.03 avg, Axle McScatter), queued SHIP_BLOCKED for 2026-10-10. #811 archived to queue (ship 2026-09-13). #837 researched/drafted/critiqued (8.93 avg, Mia Crumplezone) on Tesla Model Y L rear suspension collapse in China, queued SHIP_BLOCKED for 2026-10-13.",
-  "last_checked": "2026-09-07T23:00:00Z",
-  "last_completed": 837,
-  "last_journalist": "Mia Crumplezone",
+  "last_checked": "2026-09-08T00:35:00Z",
+  "last_completed": 838,
+  "last_journalist": "Rex Driverton",
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
@@ -1522,6 +1522,37 @@
         "word_count": 824
       },
       "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (837- prefix). News peg: Sep 1-2, 2026 China reports of Tesla Model Y L (6-seat, Shanghai, launched Aug 2025) rear suspension 'collapsing' under load; owners invented 'finger test' (4 fingers normal, <=2.5 failure); Tesla service threshold 764mm wheel-arch height; one car relapsed 10 days after spring replacement with service center reportedly admitting 'no final solution'; springs free under warranty but owners pay for prematurely worn tires; Tesla China issued no public statement. Novel: load paradox (6-seat flagship fails under load), recurrence-as-design-signal, 19-car US front-suspension precision recall (26V-558) vs China shrug contrast. No publish: 1/day rule, #805 shipped 2026-09-07."
+    },
+    {
+      "number": 838,
+      "slug": "right-on-red-1975-oil-law-pedestrian-toll",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "Right Turn on Red Was a 1975 Gas-Saving Scheme. The Savings Expired. The Deaths Didn't.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-14",
+      "started": "2026-09-08T00:30:00Z",
+      "critique_round": 0,
+      "critic_avg": 9.0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.2,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "css": "pass",
+        "word_count": 1190
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (838- prefix). News peg: Atlanta RTOR ban effective 2026; Nashville council bill (filed Jul 28 2026, first reading passed, 28 ped deaths YTD). Novel: RTOR as EPCA-1975 fuel-conservation mandate (not traffic policy) with dead-benefit framing; original fleet-mix lethality index (1.30 -> 1.60 = +23% per-strike lethality vs 1995) computed in-article; CMF 0.709 (~29% ped crash reduction). Zero prior RTOR coverage in 800+ articles. No publish: 1/day rule, #805 shipped 2026-09-07."
     }
   ]
 }
