@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ghsa-isa-guidebook-speeding-confession",
+    "number": 841,
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-09-08T06:30:00Z",
+    "kicker": "The Gap"
+  },
   "last_check_note": "Article #805 published 2026-09-07 (Dale Impactor III). Article #840 researched/drafted/critiqued (9.0 avg, Dale Impactor III) on cannabis legalization +4.1% fatal crash tax (Farmer IIHS JSAD study, Sept 2026), queued SHIP_BLOCKED for 2026-10-16.",
   "last_checked": "2026-09-08T04:30:00Z",
   "last_completed": 840,
@@ -7,7 +14,7 @@
   "last_published": 805,
   "last_published_date": "2026-09-07",
   "last_published_slug": "alero-beater-effect-oldest-cars-drunkest-drivers",
-  "next": 841,
+  "next": 842,
   "queue": [
     {
       "journalist": "Axle McScatter",
