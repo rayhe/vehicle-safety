@@ -1,19 +1,6 @@
 {
-  "current": {
-    "slug": "phone-crash-undercount-seven-times",
-    "number": 845,
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "started": "2026-09-08T07:35:00-07:00",
-    "files": {
-      "research": "drafts/845-phone-crash-undercount-seven-times-research.md",
-      "draft": "drafts/845-phone-crash-undercount-seven-times.html",
-      "hero": "drafts/845-phone-crash-undercount-seven-times.jpg"
-    },
-    "round": 0
-  },
-  "last_check_note": "Article #845 drafted (IIHS telematics vs police phone-use undercount, Vin Wreckage); hard gates pass (0 em dashes, 13.2% The-starters, rhythm PASS, real JPEG hero). Entering CRITIQUE. #844 queued SHIP_BLOCKED for 2026-10-20. #806 published today (1/day rule).",
+  "current": null,
+  "last_check_note": "Article #845 (Vin Wreckage, IIHS telematics phone-use undercount) drafted, critiqued 8.9 avg round 0, SHIP_BLOCKED for 2026-10-21 (after #844 on 2026-10-20). #806 published today (1/day rule). Queue: 59 blocked.",
   "last_checked": "2026-09-08T13:10:00Z",
   "last_completed": 844,
   "last_journalist": "Mia Crumplezone",
@@ -1736,6 +1723,22 @@
       },
       "blocked_reason": "Queued behind 55+ prior drafts; next publish slot after #843 (2026-10-19)",
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel link: AQ26002 self-certification audit (opened 09/03/2026, same day as commercial Cybercab launch) + open FSD Engineering Analysis (3.2M vehicles, camera impairment: sun glare/dust/fog, 9 crashes 1 death). Electrek confirms EA still open Sep 4, 2026."
+    },
+    {
+      "number": 845,
+      "slug": "phone-crash-undercount-seven-times",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "title": "Your Phone Says You Were Using It. The Police Report Says You Weren't. Your Phone Is Right.",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "draft": "drafts/845-phone-crash-undercount-seven-times.html",
+        "hero": "drafts/845-phone-crash-undercount-seven-times.jpg"
+      },
+      "score": 8.9,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-21"
     }
   ]
 }
