@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ford Says 0.5% of Its Recalled Engines Are Actually Broken. Ram Says 100% of Its Trucks Are. &mdash; The Crash Report</title>
+  <meta name="description" content="Five recalls filed Aug 25-Sep 1, 2026. The mandatory defect-percentage estimates range from 0.5% to 100%. Strip out the software recall and fewer than 1 in 100 recalled vehicles actually has the defect.">
+  <meta property="og:title" content="Ford Says 0.5% of Its Recalled Engines Are Actually Broken. Ram Says 100% of Its Trucks Are.">
+  <meta property="og:description" content="Five recalls, 474,960 vehicles, one mandatory field nobody reads. The defect-percentage spread is a fingerprint of how recalls really work.">
+  <meta property="og:image" content="../images/843-recall-defect-spread-half-percent-vs-100.jpg">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Ford Says 0.5% of Its Recalled Engines Are Actually Broken. Ram Says 100% of Its Trucks Are.</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">September 8, 2026</div>
+
+      <img src="../images/843-recall-defect-spread-half-percent-vs-100.jpg" alt="Ford Says 0.5% of Its Recalled Engines Are Actually Broken. Ram Says 100% of Its Trucks Are." class="story-hero" loading="eager">
+
+      <div class="story-body">
+
+      <p>Your recall letter is a lottery ticket. The odds are printed on it, in a federal form most owners never read past the first paragraph.</p>
+
+      <p>On August 25, Ford filed recall <strong>26V548</strong>: 10,001 Broncos and Explorers whose 2.3-liter pistons can develop a cracked dome, wreck the engine, and cut drive power without warning.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Then comes the number that matters. Ford estimates <strong>0.5%</strong> of those 10,001 vehicles actually carry the defect. Do the arithmetic and you get roughly 50 bad engines hiding inside 10,001 mailed letters.</p>
+
+      <p>Seven days later, Chrysler filed recall <strong>26V560</strong>: 239,131 Ram 1500 pickups whose rearview camera can be replaced by a blue screen, courtesy of bad radio software.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Its estimate in the same mandatory field: <strong>100%</strong>. Every truck. No lottery at all.</p>
+
+      <p>Same form. Same field. A 200-fold spread between 0.5% and 100%. Federal regulation forces every automaker to estimate what fraction of a recalled population actually has the defect, and the late-August filings turned that obscure field into a census of how recalls really work.</p>
+
+      <div class="pull-stat">474,960</div>
+      <div class="pull-label">vehicles recalled across five federal filings, August 25 to September 1, 2026</div>
+
+      <div class="pull-stat">0.94%</div>
+      <div class="pull-label">estimated actually defective once you set aside the one software recall: about 2,222 of 235,829 vehicles</div>
+
+      <p>The full census, in order of precision:</p>
+
+      <p><strong>Ford 26V548</strong> (Aug 25): 10,001 Broncos and Explorers, cracked piston dome, <strong>0.5%</strong>, about 50 vehicles.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> <strong>Mitsubishi 26V549</strong> (Aug 25): 67,146 Outlanders and Outlander PHEVs, infotainment software that can kill the rearview image in violation of FMVSS 111, <strong>about 1%</strong>, about 671 vehicles.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> <strong>Ford 26V547</strong> (Aug 25): 148,663 Mustangs, engine-compartment ground eyelets that can overheat, <strong>1%</strong>, about 1,487 vehicles.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Then the two outliers that make the spread: <strong>Tesla 26V558</strong> (Aug 31): 19 Model Ys, front suspension bolts left loose by a deactivated torque tool, <strong>75%</strong>, about 14 vehicles.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> <strong>Chrysler 26V560</strong> (Sep 1): 239,131 Ram 1500s, radio software blue screen, <strong>100%</strong>, all of them.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <p>Add them up: 474,960 vehicles recalled, roughly 241,353 estimated defective, about 51%. That headline number is a lie told by one outlier. Remove the Ram software recall and the picture flips: 235,829 vehicles recalled, about 2,222 actually defective. <strong>Fewer than one in a hundred.</strong> The September wave was not a defect epidemic. It was a precision-recall epidemic with one deterministic software failure sitting on top.</p>
+
+      <p>Read the percentages as a defect-type fingerprint. Three patterns cover all five filings.</p>
+
+      <p><strong>Pattern one: deterministic.</strong> Bad code shipped in every unit, so every unit is defective by construction. The Ram radio software cannot be wrong in only some trucks; it went out to all 239,131. Software recalls live here, which is also why the fix can go out to all of them at once, over the air or at the dealer.</p>
+
+      <p><strong>Pattern two: stochastic escape.</strong> A cracked piston dome here, a loose ground eyelet there, a software race condition that bites one boot in a hundred. The manufacturer knows the defect exists somewhere in the batch and cannot say which VINs, so it recalls the whole batch and tells you the odds: 0.5%, 1%, 1%. The percentage is a confession of uncertainty, filed under penalty of law.</p>
+
+      <p><strong>Pattern three: the contaminated window.</strong> Tesla's torque tool had its controller deactivated for ten days of Model Y production, July 26 to August 4. Most cars from that window are suspect; cars outside it are not. Hence 75%: not a guess about the fleet, a measurement of a poisoned time window.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>Why not just recall the 50 bad engines? Because Ford cannot name them with certainty, and the law does not let it try. Federal rules require notifying every owner of a potentially affected vehicle. Miss one bad car and somebody loses drive power at highway speed; alarm 9,951 healthy ones and the worst outcome is an annoyed customer. Notably, Ford's own filing says its process is capable of tracing piston production to the vehicle each piston went into, yet the estimate still came out at 0.5%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Traceability narrows the population. It does not eliminate the uncertainty.</p>
+
+      <p>The cost of that caution is recall fatigue, and it is measurable. Roughly a quarter of recalled vehicles in the United States never get the fix. Every letter that alarms 99 healthy owners trains the hundredth owner to toss the next envelope unopened. The 0.5% recalls are the price of the 100% ones, paid in attention.</p>
+
+      <h3>What This Means for You</h3>
+
+      <p>Read the percentage on your letter, then act the same either way. A low number means your odds are good; it does not mean you are cleared. Only a VIN check does that: nhtsa.gov/recalls, or your dealer's service department. A 100% number means assume you are affected until the remedy is done. Either way, do not ignore the letter. The defect rate describes the population. You are not a population.</p>
+
+      <p>One more consumer note: Mitsubishi's 2026 camera recall is a sequel. The company recalled 56,080 Outlanders in 2022 for the same infotainment-camera lineage.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> When your car's safety-critical display runs on the same software stack as its Spotify app, expect encores.</p>
+
+      <p><strong>What this does not prove:</strong> these percentages are manufacturer self-estimates, not independently verified by NHTSA. The percentage measures defect presence, not danger. A 0.5% piston crack can kill at highway speed; a 100% blue screen has caused zero reported crashes. Do not rank your fear by the number.</p>
+
+      <p><strong>The counterargument, at full strength:</strong> this is the system working as designed. Every defect here was caught, every remedy is free, and the alternative to over-recalling is under-recalling, which is how people die. Ford's 10,001 letters for 50 bad engines is not waste. It is the cost of certainty in a system that cannot afford to guess wrong about which 50.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Part 573 Safety Recall Report 26V548</em> (Ford 26S61), filed Aug 25, 2026 &mdash; 10,001 vehicles (2026 Bronco, Explorer); 2.3L piston dome may crack causing engine damage and loss of drive power; "Estimated percentage with defect: 0.5%"; Ford states its process can trace piston production to the vehicle. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V548-3059.pdf" target="_blank" rel="noopener">static.nhtsa.gov (PDF)</a></li>
+          <li id="ref-2">NHTSA, <em>Part 573 Safety Recall Report 26V549</em> (Mitsubishi SR-26-002); Autoblog, Sep 2026 &mdash; 67,146 vehicles (2025&ndash;2026 Outlander, Outlander PHEV; 65,940 gas, 1,206 PHEV); improper A-IVI infotainment software programming may cause boot failure, freeze, restart, black screen, or unintended scrolling; FMVSS 111 rear-visibility noncompliance; "only around 1 percent are estimated to be defective"; supplier Bosch Corporation. Precedent: 56,080 2022 Outlanders recalled in 2022 (SR-22-003) for the same camera lineage. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V549-3979.pdf" target="_blank" rel="noopener">static.nhtsa.gov (PDF)</a></li>
+          <li id="ref-3">Fox Business, Aug 28, 2026 &mdash; Ford recall 26C40 (26V547): 148,663 2024&ndash;2026 Mustangs; engine-compartment ground eyelets may overheat creating fire risk; "Approximately 1% of the recalled vehicles are estimated to contain the defect, according to the recall notice."</li>
+          <li id="ref-4">NHTSA, <em>Part 573 Safety Recall Report 26V558</em> (Tesla SB-26-31-004), filed Aug 31, 2026 &mdash; 19 units, 2026 Model Y built Jul 26&ndash;Aug 4, 2026; front suspension lateral-link fasteners not properly tightened after torque-tool PLC deactivation; 75% defect estimate; 1 field report, 0 crashes. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V558-2943.pdf" target="_blank" rel="noopener">static.nhtsa.gov (PDF)</a></li>
+          <li id="ref-5">USA Today (Greta Cross), Sep 4, 2026; Reuters, Sep 4, 2026 &mdash; Chrysler recall 26V560: 239,131 2025&ndash;2026 Ram 1500; radio software may replace rearview image with blue screen; FMVSS 111; "FCA US estimates 100% of the outlined vehicles are impacted by the issue"; filed Sep 1, 2026.</li>
+          <li id="ref-6">NHTSA, <em>Recalls</em> &mdash; VIN lookup and recall database; Vehicle Safety Hotline 1-888-327-4236. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Part 573 filings and recall reports, Aug 25&ndash;Sep 1, 2026. Defect percentages are manufacturer self-estimates filed under 49 CFR 573, not independently verified by NHTSA. Percentages measure estimated defect presence, not crash risk. "About" counts are the author's arithmetic (units &times; estimated %). See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+      <span class="footer-sep">&bull;</span> The Crash Report
+    </footer>
+  </div>
+</body>
+</html>

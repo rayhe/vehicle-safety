@@ -7,7 +7,7 @@
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 843,
+  "next": 844,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -578,6 +578,15 @@
       "slug": "810-sobriety-ladder-test",
       "started": "2026-09-04T02:29:34Z",
       "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
+    },
+    {
+      "number": 811,
+      "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-13",
+      "critic_avg": 9.04,
+      "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07."
     },
     {
       "critic_avg": 9.0,
@@ -1388,15 +1397,6 @@
       "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (833- prefix). News pegs: Aug 2026 Sweat study (Provo-Orem 5.01/100K, Oxnard 4.22, Des Moines 3.88, SLC 3.66; Las Vegas 13 raw), Jenoptik/Palm Beach County school-zone speeding study (70% >20 over, Feb 2026), NHTSA 2014-2023 school-transport fact sheet (79 child pedestrians vs 38 in-bus). Novel: enforcement-gap physics math (70% noncompliance x 5/40/80% mortality curve = 8x), small-numerator counterargument answered. No publish: 1/day rule, #805 shipped 2026-09-07."
     },
     {
-      "number": 811,
-      "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
-      "journalist": "Vin Wreckage",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-13",
-      "critic_avg": 9.04,
-      "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07."
-    },
-    {
       "number": 834,
       "slug": "pedestrian-crash-lethality-doubled",
       "journalist": "Axle McScatter",
@@ -1665,6 +1665,35 @@
         "critic_panel": "drafts/842-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind 55 prior drafts; next publish slot after #841 (2026-10-17)"
+    },
+    {
+      "number": 843,
+      "slug": "recall-defect-spread-half-percent-vs-100",
+      "journalist": "Clara Rollover",
+      "kicker": "By The Numbers",
+      "title": "Ford Says 0.5% of Its Recalled Engines Are Actually Broken. Ram Says 100% of Its Trucks Are.",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/843-recall-defect-spread-half-percent-vs-100-research.md",
+        "draft": "drafts/843-recall-defect-spread-half-percent-vs-100.html",
+        "hero": "drafts/843-recall-defect-spread-half-percent-vs-100.jpg",
+        "critic_panel": "drafts/843-critic-panel-r0.md"
+      },
+      "score": 8.79,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-19",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.9,
+        "rhythm": "pass (30.6% short, 7.1% long, stdev 13.2)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 55+ prior drafts; next publish slot after #842 (2026-10-18)",
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Defect-spread census: five recalls Aug 25-Sep 1 2026 (Ford 26V548 0.5%, Mitsubishi 26V549 ~1%, Ford 26V547 1%, Tesla 26V558 75%, Chrysler 26V560 100%); ex-Ram only 0.94% actually defective. Follow-up to June 1%-uniformity piece, differentiated."
     }
   ]
 }
