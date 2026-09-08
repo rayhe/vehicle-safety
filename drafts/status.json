@@ -1,13 +1,23 @@
 {
-  "current": null,
-  "last_check_note": "Article #844 drafted+critiqued (9.0 avg, Mia Crumplezone): Cybercab AQ26002 x FSD camera-blindness EA \u2014 queued SHIP_BLOCKED for 2026-10-20. #806 already published today (1/day rule).",
+  "current": {
+    "slug": "phone-crash-undercount-seven-times",
+    "number": 845,
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "kicker": "Existential Dread",
+    "started": "2026-09-08T07:35:00-07:00",
+    "files": {
+      "research": "drafts/845-phone-crash-undercount-seven-times-research.md"
+    }
+  },
+  "last_check_note": "Article #845 researched (IIHS telematics vs police reports, 7x phone-use undercount, Vin Wreckage) — drafting next. #844 drafted+critiqued (9.0 avg, Mia Crumplezone): Cybercab AQ26002 x FSD camera-blindness EA — queued SHIP_BLOCKED for 2026-10-20. #806 already published today (1/day rule).",
   "last_checked": "2026-09-08T13:10:00Z",
   "last_completed": 844,
   "last_journalist": "Mia Crumplezone",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 845,
+  "next": 846,
   "queue": [
     {
       "journalist": "Axle McScatter",
