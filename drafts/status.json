@@ -1,20 +1,13 @@
 {
-  "current": {
-    "number": 849,
-    "slug": "polestar-rq25004-three-recalls-one-camera",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-09-08",
-    "research": "drafts/polestar-rq25004-three-recalls-one-camera-research.md"
-  },
-  "last_check_note": "Article #848 (Tesla Cybercab AQ26002 self-certification probe, Rex Driverton) drafted, critiqued 8.93 avg round 0, SHIP_BLOCKED for 2026-10-24 (after #847 on 2026-10-23). #806 published today (1/day rule). Queue: 62 blocked.",
+  "current": null,
+  "last_check_note": "Article #849 (Polestar RQ25004 three-recalls-one-camera, Mia Crumplezone) drafted, critiqued 8.86 avg round 0, SHIP_BLOCKED for 2026-10-25 (after #848 on 2026-10-24). #806 published today (1/day rule). Queue: 63 blocked.",
   "last_checked": "2026-09-08T22:35:00Z",
   "last_completed": 844,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 849,
+  "next": 850,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1833,6 +1826,35 @@
       },
       "blocked_reason": "Queued behind 61 prior drafts; next publish slot after #847 (2026-10-23); 1/day rule consumed by #806 on 2026-09-08",
       "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Anchor: Sept 3, 2026 NHTSA AQ26002 opened same day Cybercab fares began in Austin. Novel: self-certification-by-inapplicability thesis + Zoox 4-year exemption contrast + NHTSA rewriting the rulebook it is enforcing."
+    },
+    {
+      "number": 849,
+      "slug": "polestar-rq25004-three-recalls-one-camera",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "title": "Polestar Patched Its Backup Camera Twice. On September 1, NHTSA Finally Believed the Third Fix.",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/polestar-rq25004-three-recalls-one-camera-research.md",
+        "draft": "drafts/849-polestar-rq25004-three-recalls-one-camera.html",
+        "hero": "drafts/849-polestar-rq25004-three-recalls-one-camera.jpg",
+        "critic_panel": "drafts/849-critic-panel-r0.md"
+      },
+      "score": 8.86,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-25",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "rhythm": "pass (49 sentences, varied lengths)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 62 prior drafts; next publish slot after #848 (2026-10-24); 1/day rule consumed by #806 on 2026-09-08",
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Anchor: Sept 1, 2026 NHTSA closed Recall Query RQ25004. Novel: recall-query-as-remedy-audit thesis + software-as-mandated-equipment (FMVSS 111); camera hardware was never broken, only the code deciding whether to trust the feed. Sources: RQ25004 open resume, IR letter, 25V-615 acknowledgement (static.nhtsa.gov), Reuters, Autowire."
     }
   ]
 }
