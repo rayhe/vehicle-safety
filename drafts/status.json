@@ -1,32 +1,18 @@
 {
-  "current": {
-    "slug": "861-nsc-h1-2026-split-country",
-    "number": 861,
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Axle McScatter",
-    "kicker": "By The Numbers",
-    "title": "America's Roads Got Safer, and Illinois Did Most of the Work",
-    "started": "2026-09-09T15:45:00-07:00",
-    "files": {
-      "research": "drafts/861-nsc-h1-2026-split-country-research.md",
-      "draft": "drafts/861-nsc-h1-2026-split-country.html",
-      "hero": "drafts/861-nsc-h1-2026-split-country.jpg"
-    }
-  },
-  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) SHIP_BLOCKED 2026-11-04; #860 researched/drafted/critiqued (8.80 avg) SHIP_BLOCKED 2026-11-05; queue now 74 items; current=null",
-  "last_checked": "2026-09-09T14:10:00-07:00",
+  "current": null,
+  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) SHIP_BLOCKED 2026-11-04; #860 researched/drafted/critiqued (8.80 avg) SHIP_BLOCKED 2026-11-05; #861 researched/drafted/critiqued (8.91 avg) SHIP_BLOCKED 2026-11-06; queue now 75 items; current=null",
+  "last_checked": "2026-09-09T16:00:00-07:00",
   "last_completed": {
-    "number": 860,
-    "slug": "860-cafe-crossover-truck-loophole",
+    "number": 861,
+    "slug": "861-nsc-h1-2026-split-country",
     "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.8
+    "avg_critic": 8.91
   },
   "last_journalist": "Axle McScatter",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 861,
+  "next": 862,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2279,6 +2265,49 @@
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
       "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
+    },
+    {
+      "number": 861,
+      "slug": "861-nsc-h1-2026-split-country",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "title": "America's Roads Got Safer, and Illinois Did a Third of the Work",
+      "ship_date": "2026-11-06",
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "sentence_rhythm": {
+          "variance": 721.4,
+          "short_pct": 9.5,
+          "long_pct": 66.7,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "word_count": 778
+      },
+      "files": {
+        "research": "drafts/861-nsc-h1-2026-split-country-research.md",
+        "draft": "drafts/861-nsc-h1-2026-split-country.html",
+        "hero": "drafts/861-nsc-h1-2026-split-country.jpg",
+        "critic_panel": "drafts/861-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-06; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
     }
   ]
 }
