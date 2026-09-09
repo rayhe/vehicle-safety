@@ -1,7 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-09T11:45:00-07:00",
+    "number": 859
+  },
   "last_check_note": "#808 PUBLISHED 2026-09-09; #858 researched/drafted/critiqued (8.79 avg) and queued SHIP_BLOCKED for 2026-11-03 (1/day rule); queue now 72 items; current=null",
-  "last_checked": "2026-09-09T10:15:00-07:00",
+  "last_checked": "2026-09-09T11:45:00-07:00",
   "last_completed": {
     "number": 858,
     "slug": "858-grand-cherokee-third-spring-recall",
