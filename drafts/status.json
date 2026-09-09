@@ -1,13 +1,24 @@
 {
-  "current": null,
+  "current": {
+    "number": 856,
+    "slug": "856-q1-2026-second-lowest-rate-099",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "kicker": "By The Numbers",
+    "title": "0.99: One Hundredth From History",
+    "started": "2026-09-09T05:30:00-07:00",
+    "files": {
+      "research": "drafts/856-q1-2026-second-lowest-rate-099-research.md"
+    }
+  },
   "last_check_note": "#808 PUBLISHED 2026-09-09 (swapped ahead of stale #807, marked SKIPPED); #855 queued SHIP_BLOCKED for 2026-10-31; queue now 68 items (67 blocked + 807 skipped); current=null",
-  "last_checked": "2026-09-09T03:30:00-07:00",
+  "last_checked": "2026-09-09T05:30:00-07:00",
   "last_completed": 855,
   "last_journalist": "Mia Crumplezone",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 856,
+  "next": 857,
   "queue": [
     {
       "journalist": "Axle McScatter",
