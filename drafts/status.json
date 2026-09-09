@@ -1,25 +1,18 @@
 {
-  "current": {
-    "slug": "860-cafe-crossover-truck-loophole",
-    "number": 860,
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "started": "2026-09-09T13:45:00-07:00"
-  },
-  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) and queued SHIP_BLOCKED for 2026-11-04 (1/day rule); queue now 73 items; current=null",
-  "last_checked": "2026-09-09T13:45:00-07:00",
+  "current": null,
+  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) SHIP_BLOCKED 2026-11-04; #860 researched/drafted/critiqued (8.80 avg) SHIP_BLOCKED 2026-11-05; queue now 74 items; current=null",
+  "last_checked": "2026-09-09T14:10:00-07:00",
   "last_completed": {
-    "number": 859,
-    "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
+    "number": 860,
+    "slug": "860-cafe-crossover-truck-loophole",
     "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.83
+    "avg_critic": 8.8
   },
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 860,
+  "next": 861,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2228,6 +2221,50 @@
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
       "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+    },
+    {
+      "number": 860,
+      "slug": "860-cafe-crossover-truck-loophole",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "The Truck That Wasn't: Washington Says Your Crossover Is a Car",
+      "ship_date": "2026-11-05",
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.0,
+        "sentence_rhythm": {
+          "variance": 592.4,
+          "short_pct": 3.6,
+          "long_pct": 53.6,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "05dd727d",
+        "word_count": 594
+      },
+      "files": {
+        "research": "drafts/860-cafe-crossover-truck-loophole-research.md",
+        "draft": "drafts/860-cafe-crossover-truck-loophole.html",
+        "hero": "drafts/860-cafe-crossover-truck-loophole.jpg",
+        "critic_panel": "drafts/860-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
     }
   ]
 }
