@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "Article #849 (Polestar RQ25004 three-recalls-one-camera, Mia Crumplezone) drafted, critiqued 8.86 avg round 0, SHIP_BLOCKED for 2026-10-25 (after #848 on 2026-10-24). #806 published today (1/day rule). Queue: 63 blocked.",
-  "last_checked": "2026-09-08T22:35:00Z",
+  "last_check_note": "Article #850 (Chrysler 26V561 cracked-capacitor-kills-ESC, Axle McScatter) researched, drafted, critiqued 8.91 avg round 0, SHIP_BLOCKED for 2026-10-26 (after #849 on 2026-10-25). #806 published today (1/day rule). Queue: 64 blocked.",
+  "last_checked": "2026-09-09T00:45:00Z",
   "last_completed": 844,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 850,
+  "next": 851,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1855,6 +1855,46 @@
       },
       "blocked_reason": "Queued behind 62 prior drafts; next publish slot after #848 (2026-10-24); 1/day rule consumed by #806 on 2026-09-08",
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Anchor: Sept 1, 2026 NHTSA closed Recall Query RQ25004. Novel: recall-query-as-remedy-audit thesis + software-as-mandated-equipment (FMVSS 111); camera hardware was never broken, only the code deciding whether to trust the feed. Sources: RQ25004 open resume, IR letter, 25V-615 acknowledgement (static.nhtsa.gov), Reuters, Autowire."
+    },
+    {
+      "number": 850,
+      "slug": "chrysler-26v561-cracked-capacitor-kills-esc",
+      "title": "A Cracked Capacitor Defeated the Most Effective Safety Mandate in American Cars",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-08",
+      "files": {
+        "research": "drafts/850-chrysler-26v561-cracked-capacitor-kills-esc-research.md",
+        "draft": "drafts/850-chrysler-26v561-cracked-capacitor-kills-esc.html",
+        "hero": "drafts/850-chrysler-26v561-cracked-capacitor-kills-esc.jpg",
+        "critic_panel": "drafts/850-critic-panel-r0.md"
+      },
+      "score": 8.91,
+      "critic_rounds": 1,
+      "ship_date": "2026-10-26",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.2,
+        "rhythm": "pass (var 554.5, short 2.9%, long 52.9%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "hero_hash": "4912e27d",
+        "word_count": 763,
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 63 prior drafts; next publish slot after #849 (2026-10-25); 1/day rule consumed by #806 on 2026-09-08",
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5 (rhythm gate failed first check at 26.1% short, fixed pre-panel to 2.9%). Anchor: NHTSA 26V561 (Jan 9, 2026 filing; 2,017 2025-2026 Voyager/Pacifica/PHEV; cracked capacitor in brake pedal position sensor -> loss of ESC -> FMVSS 126 noncompliance; FCA 69D; letters Sept 29; VINs searchable Sept 9; no OTA). Novel: 4-campaign FMVSS-126 noncompliance census (22E-017, 24E-047, 24V-838, 26V561) - all electronics ghosts, zero missing-hardware; 'mandate made ESC universal, not its electronics robust' thesis. Sources: NHTSA recalls API, Delaware Online Sept 8 2026, 3 published Part 573 reports, govinfo/NHTSA ESC rulemaking docs."
     }
   ]
 }
