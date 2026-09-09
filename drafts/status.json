@@ -1,13 +1,20 @@
 {
-  "current": null,
+  "current": {
+    "slug": "light-boy-26v564-detachable-light-tower",
+    "number": 854,
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "kicker": "Existential Dread",
+    "started": "2026-09-09T01:45:00-07:00"
+  },
   "last_check_note": "Article #853 (Ricon runaway wheelchair lift 26V565, Mia Crumplezone) researched, drafted, critiqued (7-critic self-panel, score 8.94), SHIP_BLOCKED for 2026-10-29 (after #852 on 2026-10-28). #806 published 2026-09-08 (1/day rule). Queue: 67 blocked.",
   "last_checked": "2026-09-09T06:34:59Z",
   "last_completed": 844,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 854,
+  "next": 855,
   "queue": [
     {
       "journalist": "Axle McScatter",
