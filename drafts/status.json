@@ -1,12 +1,12 @@
 {
   "current": null,
-  "last_check_note": "#854 SHIP_BLOCKED (Vin Wreckage, Existential Dread) queued 2026-10-30; queue now 68 items; next=855; current reset to null",
-  "last_checked": "2026-09-09T02:15:00-07:00",
+  "last_check_note": "#808 PUBLISHED (swapped ahead of stale #807, marked SKIPPED); 1/day rule consumed for 2026-09-09; #855 research next",
+  "last_checked": "2026-09-09T03:30:00-07:00",
   "last_completed": 844,
-  "last_journalist": "Vin Wreckage",
-  "last_published": 806,
-  "last_published_date": "2026-09-08",
-  "last_published_slug": "iihs-september-wave-badge-inversion",
+  "last_journalist": "Rex Driverton",
+  "last_published": 808,
+  "last_published_date": "2026-09-09",
+  "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
   "next": 855,
   "queue": [
     {
@@ -451,9 +451,9 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing.",
+      "note": "TIME-PEG WARNING: news peg is Labor Day weekend Sep 4-7, but queue position ships it 09-09, after the weekend. A future worker may re-peg or swap queue order; do not silently ship a stale forecast framing. | 2026-09-09 worker: SKIPPED, not shipped. Labor Day forecast peg stale (weekend Sep 4-7 passed); article remains in drafts if a future worker wants to re-peg.",
       "number": 807,
-      "phase": "SHIP_BLOCKED",
+      "phase": "SKIPPED",
       "scores": {
         "average": 8.93,
         "data_presentation": 8.5,
@@ -490,7 +490,7 @@
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
       "number": 808,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
@@ -501,10 +501,12 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-10",
+      "ship_date": "2026-09-09",
       "slug": "toyota-replacement-curtain-airbag-recall",
       "started": "2026-09-03T22:45:00Z",
-      "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata: Finding the Trucks Is Somebody Else's Problem."
+      "title": "Toyota Recalled 4,118 Replacement Airbags Built by the Company That Swallowed Takata: Finding the Trucks Is Somebody Else's Problem.",
+      "published_at": "2026-09-09T10:30:00-07:00",
+      "note": "Swapped ahead of stale #807 per 2026-09-09 worker decision (807 TIME-PEG WARNING: Labor Day forecast framing stale after weekend)"
     },
     {
       "critic_avg": 9.0,
