@@ -1,5 +1,19 @@
 {
-  "current": null,
+  "current": {
+    "slug": "861-nsc-h1-2026-split-country",
+    "number": 861,
+    "phase": "CRITIQUE",
+    "round": 0,
+    "journalist": "Axle McScatter",
+    "kicker": "By The Numbers",
+    "title": "America's Roads Got Safer, and Illinois Did Most of the Work",
+    "started": "2026-09-09T15:45:00-07:00",
+    "files": {
+      "research": "drafts/861-nsc-h1-2026-split-country-research.md",
+      "draft": "drafts/861-nsc-h1-2026-split-country.html",
+      "hero": "drafts/861-nsc-h1-2026-split-country.jpg"
+    }
+  },
   "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) SHIP_BLOCKED 2026-11-04; #860 researched/drafted/critiqued (8.80 avg) SHIP_BLOCKED 2026-11-05; queue now 74 items; current=null",
   "last_checked": "2026-09-09T14:10:00-07:00",
   "last_completed": {
@@ -8,7 +22,7 @@
     "phase": "SHIP_BLOCKED",
     "avg_critic": 8.8
   },
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
@@ -2176,7 +2190,7 @@
         "critic_panel": "drafts/858-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle."
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
     },
     {
       "number": 859,
@@ -2220,7 +2234,7 @@
         "critic_panel": "drafts/859-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
     },
     {
       "number": 860,
@@ -2264,7 +2278,7 @@
         "critic_panel": "drafts/860-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
     }
   ]
 }
