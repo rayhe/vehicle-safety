@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Lift That Won't Stop Has Already Been Excused Once &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA recall 26V565: 55 Forest River transit buses carry Ricon S-Series and K-Series wheelchair lifts whose contactor can fail, so the controls cannot stop the lift. NHTSA previously excused these same lifts from an interlock noncompliance as 'inconsequential.'">
+  <meta property="og:title" content="The Lift That Won't Stop Has Already Been Excused Once">
+  <meta property="og:description" content="NHTSA recall 26V565: a failed electrical contactor can prevent the controls from stopping a Ricon wheelchair lift while it is occupied. These are the same S-Series and K-Series lifts NHTSA already excused from an interlock violation as inconsequential.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/853-ricon-runaway-lift-two-diodes.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>The Lift That Won't Stop Has Already Been Excused Once</h1>
+      <div class="byline">Mia Crumplezone &bull; Safety Engineering Desk</div>
+      <div class="dateline">September 8, 2026</div>
+
+      <img src="../images/853-ricon-runaway-lift-two-diodes.jpg" alt="A wheelchair platform lift deployed at the side door of a transit bus, photographed from below at the base of the ramp" class="story-hero">
+
+      <div class="story-body">
+      <p>This week, NHTSA logged recall 26V565, covering 55 Forest River transit buses that carry Ricon S-Series and K-Series wheelchair platform lifts whose electrical contactor may fail. When it fails, the controls cannot stop the lift.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The lift keeps moving while someone is on it. A wheelchair lift that ignores its own stop command is about as close to a contradiction as safety engineering gets.</p>
+
+      <p>The fix is two diodes: dealers will correct the wiring free of charge, and owner notification letters go out October 10, 2026.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> These are transit buses, not connected vehicles; there is no software update to push. Someone has to open the wiring and add the diodes by hand.</p>
+
+      <div class="pull-stat">13 mm</div>
+      <div class="pull-label">Maximum vertical movement federal regulators cared about on these exact lifts, when they ruled a stop-related violation inconsequential</div>
+
+      <p>That is not a random number. These exact lift families, the Ricon S-Series and K-Series, are already famous in the world of federal vehicle standards for the opposite of this problem. Ricon determined that its S-Series and K-Series lifts do not fully comply with the inner roll stop interlock requirements of FMVSS 403: the rule says the platform must stop unless the inner roll stop has deployed, and the vertical movement during the test must not exceed 13 millimeters, half an inch.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Ricon and the bus manufacturers that installed the lifts petitioned NHTSA to declare the noncompliance inconsequential. NHTSA granted the petitions.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> They were excused from recalling.</p>
+
+      <p>Now, on the same lift families, the stop function itself is the defect. The federal rulebook measured stopping within 13 millimeters, found a deviation, and called it harmless. This week's recall is about a lift that may not stop at all.</p>
+
+      <p>Some engineering matters here, because a contactor is an electromechanical relay that carries the motor current for the lift. When the operator releases the control or hits stop, the contactor is supposed to open and cut power to the drive. If the contactor fails, typically welded or stuck contacts, the stop command goes out and nothing happens. The motor keeps running, and the platform keeps moving. Diodes in this context are the cheapest possible correction: placed across the coil or in the control path, they manage current flow so the relay releases cleanly instead of welding itself shut. Two diodes, a few dollars in parts, are the difference between a lift that stops when told and one that does not.</p>
+
+      <p>None of this is exotic technology, which is what makes the timeline sting. The federal platform lift standards, FMVSS 403 for the lift equipment and 404 for its installation, date to a final rule on December 27, 2002. They were written explicitly to protect "individuals who are aided by canes, walkers, wheelchairs, scooters, and other mobility devices."<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The standards require interlocks, threshold warning signals, and an operations counter; public-use lifts must carry a 600-pound standard load and survive 15,600 endurance cycles.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> One more requirement, from Ricon's own service checklist for these very lifts: "Manual backup operation fully functional."<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The lifts have a manual way to be operated. If the attendant knows where it is, a failed contactor does not have to mean an uncontrollable lift.</p>
+
+      <p>Everyone involved has a strong defense, and it deserves a full hearing. Ricon self-reported the roll-stop deviation and self-reported this contactor defect. That is the system working as designed, twice. NHTSA's grant of the inconsequentiality petitions was an engineering judgment by the agency's own staff, not a favor: they looked at the inner roll stop interlock deviation and concluded it did not affect safety. The contactor failure is a different subsystem from the roll stop. Conflating the two would be a category error, and a 55-bus population with no reported injuries and a simple dealer fix is exactly the kind of recall that resolves quietly, and the irony is rhetorical, not mechanical.</p>
+
+      <p>Fair enough, but rhetoric matters when the passengers are the least able to help themselves. The people who ride these lifts are paratransit riders and wheelchair users who cannot simply step off a moving platform. The federal standard for these lifts is written in millimeters and cycle counts. When the stop button stops working, none of the millimeters matter.</p>
+
+      <p>Here is what to do: if your transit agency or paratransit operator runs 2024 Mobility Trans Safetbus or Glaval Universal buses, or 2025 Senator II or Starcraft Allstar buses, check whether they carry Ricon S-Series or K-Series lifts and run the VINs at nhtsa.gov/recalls; letters post October 10 and the fix is free.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> If you ride a wheelchair lift, or you assist someone who does, find out where the manual backup operation is before the lift ever moves, because Ricon requires it to be functional and your attendant should be able to point to it without looking it up.</p>
+
+      <p>NHTSA once looked at these lifts and ruled that a small failure to stop did not matter; this time the failure is not small, and two diodes will fix it.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Recall 26V565000: Forest River Bus, LLC; 55 transit buses (2024 Mobility Trans Safetbus, 2024 Glaval Universal, 2025 Senator II, 2025 Starcraft Allstar) equipped with Ricon S-Series and K-Series wheelchair platform lifts; electrical contactor may fail preventing the controls from stopping the lift; remedy is a wiring correction installing two diodes, free; owner letters expected October 10, 2026; Forest River number 51-2093. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>; summary via Consumer Affairs auto-safety recall derby, Sept 8, 2026.</li>
+          <li id="ref-2">U.S. Department of Transportation, Grant of Petitions for Decision of Inconsequential Noncompliance, FR 2024-17818: Ricon Corporation determined that certain Mirage, S-Series, and K-Series wheelchair lifts do not fully comply with FMVSS No. 403; various vehicle manufacturers determined noncompliance with FMVSS No. 404; NHTSA granted the petitions. The underlying noncompliance: Classic S-Series and K-Series lifts do not comply with the inner roll stop interlock requirements of FMVSS No. 403, S6.10.2.4 and S6.10.2.7 (platform must stop unless the inner roll stop has deployed; vertical change not to exceed 13 mm / 0.5 in per test S7.6.1). <a href="https://www.transportation.gov/regulations/federal-register-documents/2024-17818" target="_blank" rel="noopener">transportation.gov</a></li>
+          <li id="ref-3">NHTSA, FMVSS No. 403/404 Final Rule, Dec 27, 2002: Platform Lift Systems for Motor Vehicles and Platform Lift Installation in Motor Vehicles; standards established "to protect individuals who are aided by canes, walkers, wheelchairs, scooters, and other mobility devices"; public-use lift requirements include 600 lb standard load, 15,600-cycle fatigue endurance, interlocks (S6.10), operations counter (S6.11). <a href="http://nhtsa.gov/sites/nhtsa.gov/files/fmvss/Lift_FinalRule_Dec-27-02.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">Ricon Corporation, S-Series and K-Series Service Manuals: safety checklist requires "Manual backup operation fully functional (see operator manual for directions)." <a href="https://www.riconcorp.com/pdfs/32dskl02/32dskl02A2.1.pdf" target="_blank" rel="noopener">riconcorp.com (S-Series)</a>, <a href="https://www.riconcorp.com/pdfs/32dssk06/32dssk06B2.3.pdf" target="_blank" rel="noopener">riconcorp.com (K-Series)</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls database, U.S. DOT Federal Register, NHTSA FMVSS 403/404 final rule, Ricon service manuals. No injuries or incidents are claimed in this article; the roll-stop interlock noncompliance and the contactor defect are distinct mechanisms, and no causal link between them is asserted. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
