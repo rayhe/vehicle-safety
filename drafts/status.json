@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "Article #850 (Chrysler 26V561 cracked-capacitor-kills-ESC, Axle McScatter) researched, drafted, critiqued 8.91 avg round 0, SHIP_BLOCKED for 2026-10-26 (after #849 on 2026-10-25). #806 published today (1/day rule). Queue: 64 blocked.",
-  "last_checked": "2026-09-09T00:45:00Z",
+  "last_check_note": "Article #851 (PACCAR 26V567 brake-timing / PACCAR v. NHTSA irony, Vin Wreckage) researched, drafted, critiqued 8.96 avg round 0, SHIP_BLOCKED for 2026-10-27 (after #850 on 2026-10-26). #806 published today (1/day rule). Queue: 65 blocked.",
+  "last_checked": "2026-09-09T02:45:00Z",
   "last_completed": 844,
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": 806,
   "last_published_date": "2026-09-08",
   "last_published_slug": "iihs-september-wave-badge-inversion",
-  "next": 851,
+  "next": 852,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -1895,6 +1895,43 @@
       },
       "blocked_reason": "Queued behind 63 prior drafts; next publish slot after #849 (2026-10-25); 1/day rule consumed by #806 on 2026-09-08",
       "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5 (rhythm gate failed first check at 26.1% short, fixed pre-panel to 2.9%). Anchor: NHTSA 26V561 (Jan 9, 2026 filing; 2,017 2025-2026 Voyager/Pacifica/PHEV; cracked capacitor in brake pedal position sensor -> loss of ESC -> FMVSS 126 noncompliance; FCA 69D; letters Sept 29; VINs searchable Sept 9; no OTA). Novel: 4-campaign FMVSS-126 noncompliance census (22E-017, 24E-047, 24V-838, 26V561) - all electronics ghosts, zero missing-hardware; 'mandate made ESC universal, not its electronics robust' thesis. Sources: NHTSA recalls API, Delaware Online Sept 8 2026, 3 published Part 573 reports, govinfo/NHTSA ESC rulemaking docs."
+    },
+    {
+      "number": 851,
+      "slug": "paccar-26v567-brake-timing-paccar-v-nhtsa",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-27",
+      "score": 8.96,
+      "critic_rounds": 1,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.8,
+        "rhythm": "pass (var 235.9, short 12.8%, long 40.0%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "hero_hash": "99664cff",
+        "word_count": 640,
+        "actionable_insights": true
+      },
+      "blocked_reason": "Queued behind 64 prior drafts; next publish slot after #850 (2026-10-26); 1/day rule consumed by #806 on 2026-09-08",
+      "note": "Round-0 pass 8.96 avg; 7/7 critics >= 8.5. Anchor: NHTSA 26V567 (Sept 1, 2026 filing; certain 2027 Peterbilt 548; wrong-size front brake valve/hoses -> delayed rear service brake application/release + trailer gladhand timing -> FMVSS 121 noncompliance; PACCAR 26PACF; letters Oct 31; no OTA). Novel: PACCAR v. NHTSA 1978 full-circle irony (company killed the stopping-distance half, now fails the surviving timing half) + 3-campaign platform census (23PBJ release-too-slow 2023, 25V353 geometry 2025, 26V567 application-too-slow 2026) + 0.45s/40ft arithmetic. Sources: NHTSA recalls API, Consumer Affairs Sept 8 2026, Justia 76 FR 44829, static.nhtsa.gov 23PBJ notice, nhtsa.gov interpretations nht78-4.13/4.14.",
+      "files": {
+        "research": "drafts/851-paccar-26v567-brake-timing-paccar-v-nhtsa-research.md",
+        "draft": "drafts/851-paccar-26v567-brake-timing-paccar-v-nhtsa.html",
+        "hero": "drafts/851-paccar-26v567-brake-timing-paccar-v-nhtsa.jpg",
+        "critic_panel": "drafts/851-critic-panel-r0.md"
+      }
     }
   ]
 }

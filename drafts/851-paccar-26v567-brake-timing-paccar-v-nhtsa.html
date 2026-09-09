@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Company That Killed Half of FMVSS 121 Can't Pass the Other Half &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA recall 26V567: certain 2027 Peterbilt 548 trucks shipped with wrong-size brake valves and hoses, delaying rear and trailer brake timing. PACCAR once sued to gut this very standard.">
+  <meta property="og:title" content="The Company That Killed Half of FMVSS 121 Can't Pass the Other Half">
+  <meta property="og:description" content="PACCAR sued NHTSA in 1978 and got the air-brake standard's stopping-distance rules thrown out. In 2026 its own trucks fail the timing rules that survived.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/851-paccar-26v567-brake-timing-paccar-v-nhtsa.jpg?v=99664cff">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>The Company That Killed Half of FMVSS 121 Can't Pass the Other Half</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">September 8, 2026</div>
+
+      <img src="../images/851-paccar-26v567-brake-timing-paccar-v-nhtsa.jpg?v=99664cff" alt="A semi truck's trailer beginning to swing on a desert highway at dusk, brake lights glowing" class="story-hero">
+
+      <div class="story-body">
+      <p>Here's a fun fact that will ruin your morning commute. In 1978, PACCAR, the company that builds Peterbilts and Kenworths, sued the federal government and got half of the air-brake safety standard thrown out by the Ninth Circuit. Last week, on September 1, PACCAR walked into NHTSA and confessed that its brand-new 2027 Peterbilt 548 trucks fail what's left of that very standard.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Not the half it killed; the half that survived its lawsuit. The universe has a sense of humor, and it's written in brake timing.</p>
+
+      <div class="pull-stat">0.45 seconds</div>
+      <div class="pull-label">The air pressure rise time FMVSS 121 demands, about 40 feet of travel at 60 mph before the brakes fully bite</div>
+
+      <p>The defect itself is a plumbing error. The front brake valve and hoses on certain 2027 Peterbilt 548s may be the wrong size, which delays the rear service brake application and release, and delays the trailer's gladhand application times, putting the trucks in noncompliance with Federal Motor Vehicle Safety Standard 121.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Dealer letters go out October 31, 2026. The fix is physical: new valves, new hoses, no charge. There is no software patch for a pipe that's the wrong diameter.</p>
+
+      <p>To understand why a timing problem is worse than it sounds, you have to think of an air-brake system as a pneumatic telegram. You stomp the pedal, and instead of hydraulic fluid shoving pistons, you send a puff of compressed air on a long journey through valves and hoses to brakes that might be 60 feet behind you. The standard demands that telegram arrive and take full effect within 0.45 seconds. Miss that, and at highway speed the truck has sailed an extra dozen-plus feet before full deceleration even begins.</p>
+
+      <p>Worse: it's a combination vehicle. If the trailer's brakes apply late relative to the tractor's, the trailer keeps shoving a slowing tractor, which is the exact recipe for a jackknife. This is why the standard micromanages timing across the whole combination, not just total stopping distance.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> A brake that works perfectly but arrives half a second late is, for directional stability purposes, a brake that failed.</p>
+
+      <p>And this is where the story turns from engineering into farce. This is the second time in three years the Peterbilt 500-series platform has been recalled for brake timing, and it has now failed in both directions. In 2023, Safety Recall 23PBJ covered 2020-2024 Peterbilt 536, 537, 548, and 567 chassis, 141 of them, whose trailer brake release was delayed, a Canada Motor Vehicle Safety Standard 121 noncompliance.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The brakes grabbed on time but let go too slowly. Now the 2027 548's brakes apply too slowly: release too slow, then apply too slow, and Goldilocks would weep.</p>
+
+      <p>The historical irony deserves its own paragraph, honestly. In <em>PACCAR v. NHTSA</em>, 573 F.2d 632 (9th Cir. 1978), PACCAR was the named plaintiff that got FMVSS 121's road-testing provisions, the stopping-distance performance requirements, invalidated as improperly promulgated, arguing the ABS of the era was unreliable, and certiorari was denied, 439 U.S. 862 (1978). What survived the ruling were the timing, dynamometer, and equipment requirements, which NHTSA itself confirmed remained valid and enforceable.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> So to be precise: the company didn't kill the whole standard. It killed the stopping-distance half. And 48 years later, the surviving timing half is the one its own trucks can't pass. There is something almost elegant about a lawsuit that backfires across five decades.</p>
+
+      <p>Full credit where due: PACCAR self-reported this one. The system working exactly as designed is still the system catching the defect. But a self-report is also an admission, and the admission here is that one truck platform has now produced two pure brake-timing noncompliances, in opposite directions, in three years, plus a 2025 brake-geometry campaign (25V353) where rear brake piping could interfere with the brake modulator on the same 548.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That's not a bad batch. That's a design process with a blind spot shaped exactly like the air-brake circuit.</p>
+
+      <p>What should you do? If you run a fleet with 2027 Peterbilt 548s on order or delivered, don't wait for the October 31 letter. Call your dealer with the VINs now; the fix is free and it's hardware. For the rest of us who share the highway with these things: your ABS warning lamp will tell you about lockup. There is no dashboard light for brakes that arrive late, and nobody makes a chime for that.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, Recall 26V567000: PACCAR Incorporated, 2027 Peterbilt 548, delayed brake timing / FMVSS 121 noncompliance, report received Sept 1, 2026; PACCAR recall number 26PACF. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>; summary via Consumer Affairs weekly roundup, Sept 8, 2026.</li>
+          <li id="ref-2">NHTSA, Final Rule: Federal Motor Vehicle Safety Standards; Air Brake Systems, 76 FR 44829 (July 27, 2011): air pressure rise time tr = 0.45 s as the brake actuation timing requirement; stopping-distance derivation. <a href="https://regulations.justia.com/regulations/fedreg/2011/07/27/2011-18929.html" target="_blank" rel="noopener">justia.com</a></li>
+          <li id="ref-3">Peterbilt Motors Company, Safety Recall 23PBJ: 2020&ndash;2024 Peterbilt 536/537/548/567, delayed trailer brake release, 141 chassis (Transport Canada 2023-524); owner notification via NHTSA TSBs. <a href="https://static.nhtsa.gov/odi/tsbs/2023/MC-10248328-0001.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-4"><em>PACCAR v. NHTSA</em>, 573 F.2d 632 (9th Cir. 1978), cert. denied, 439 U.S. 862 (1978); NHTSA FMVSS interpretations nht78-4.13 / nht78-4.14 (Nov 28, 1978): road-testing requirements invalidated, timing/dynamometer/equipment requirements remain enforceable. <a href="https://www.nhtsa.gov/es/node/73336" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API, FMVSS 121 rulemaking record, federal case law. The population count for recall 26V567 was not stated in NHTSA's published summary; no field crashes, injuries, or warranty claims are claimed in this article. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
