@@ -1,18 +1,18 @@
 {
   "current": null,
-  "last_check_note": "#808 PUBLISHED 2026-09-09 (swapped ahead of stale #807, marked SKIPPED); #855 queued SHIP_BLOCKED for 2026-10-31; #856 queued SHIP_BLOCKED for 2026-11-01 (avg critic 8.93); queue now 70 items; current=null",
-  "last_checked": "2026-09-09T05:30:00-07:00",
+  "last_check_note": "#808 PUBLISHED 2026-09-09; #857 researched/drafted/critiqued (8.80 avg) and queued SHIP_BLOCKED for 2026-11-02 (1/day rule); queue now 71 items; current=null",
+  "last_checked": "2026-09-09T07:45:00-07:00",
   "last_completed": {
-    "number": 856,
-    "slug": "856-q1-2026-second-lowest-rate-099",
+    "number": 857,
+    "slug": "857-loose-bolt-census",
     "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.93
+    "avg_critic": 8.8
   },
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 857,
+  "next": 858,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2089,6 +2089,50 @@
       "ship_date": "2026-11-01",
       "title": "0.99: One Hundredth From History",
       "avg_critic": 8.93
+    },
+    {
+      "number": 857,
+      "slug": "857-loose-bolt-census",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "title": "The Same Bolt, Four Times: 2026 Is the Year of the Loose Bolt",
+      "ship_date": "2026-11-02",
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.6,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.0,
+        "sentence_rhythm": {
+          "variance": 706.5,
+          "short_pct": 5.0,
+          "long_pct": 60.0,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "4225b14b",
+        "word_count": 647
+      },
+      "files": {
+        "research": "drafts/857-loose-bolt-census-research.md",
+        "draft": "drafts/857-loose-bolt-census.html",
+        "hero": "drafts/857-loose-bolt-census.jpg",
+        "critic_panel": "drafts/857-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-02; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: first cross-manufacturer 2026 torque/fastener census (26V-330 Ford 179,698 + 26V-444 Volvo Trucks 3,794 + 26V-501 Autocar 137 + 26V-558 Tesla 19 = 183,648 vehicles) with mis-sequenced/absent/deactivated verification-failure taxonomy. Anchor: Sep 9, 2026 analysis that 26V-558 is the fourth filing on the same Tesla suspension bolt since 2021 (2,800 in 2021, 422 in 2023, 1.2M-vehicle probe with 156 complaints)."
     }
   ]
 }
