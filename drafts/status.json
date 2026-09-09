@@ -1,14 +1,7 @@
 {
-  "current": {
-    "slug": "light-boy-26v564-detachable-light-tower",
-    "number": 854,
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "started": "2026-09-09T01:45:00-07:00"
-  },
-  "last_check_note": "Article #853 (Ricon runaway wheelchair lift 26V565, Mia Crumplezone) researched, drafted, critiqued (7-critic self-panel, score 8.94), SHIP_BLOCKED for 2026-10-29 (after #852 on 2026-10-28). #806 published 2026-09-08 (1/day rule). Queue: 67 blocked.",
-  "last_checked": "2026-09-09T06:34:59Z",
+  "current": null,
+  "last_check_note": "#854 SHIP_BLOCKED (Vin Wreckage, Existential Dread) queued 2026-10-30; queue now 68 items; next=855; current reset to null",
+  "last_checked": "2026-09-09T02:15:00-07:00",
   "last_completed": 844,
   "last_journalist": "Vin Wreckage",
   "last_published": 806,
@@ -1995,6 +1988,46 @@
       "ship_date": "2026-10-29",
       "blocked_reason": "Queued behind 66 prior drafts; next publish slot after #852 (2026-10-28); 1/day rule consumed by #806 on 2026-09-08",
       "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 Consumer Affairs recall derby flagged NHTSA 26V565 (Forest River Bus, 55 transit buses, Ricon S-Series/K-Series wheelchair lifts, failed electrical contactor -> controls cannot stop occupied lift; remedy: install two diodes; letters Oct 10; FR 51-2093). Novel: first linkage of 26V565 to NHTSA's granted inconsequential-noncompliance petitions (FR 2024-17818) covering the same S/K-Series lifts over the inner roll stop interlock (S6.10.2.4/2.7, 13 mm test S7.6.1); '13 mm vs cannot stop at all' contrast; two-diode fix as cheapest remedy in queue. Sources: NHTSA recalls API, DOT Federal Register, NHTSA FMVSS 403/404 final rule (Dec 27 2002), Ricon S/K-Series service manuals."
+    },
+    {
+      "number": 854,
+      "slug": "light-boy-26v564-detachable-light-tower",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "title": "The Night Light That Unplugs Itself on the Interstate",
+      "phase": "SHIP_BLOCKED",
+      "created": "2026-09-09",
+      "files": {
+        "research": "drafts/854-light-boy-26v564-detachable-light-tower-research.md",
+        "draft": "drafts/854-light-boy-26v564-detachable-light-tower.html",
+        "hero": "drafts/854-light-boy-26v564-detachable-light-tower.jpg",
+        "critic_panel": "drafts/854-critic-panel-r0.md"
+      },
+      "score": 8.71,
+      "critic_rounds": 1,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.6,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.8,
+        "rhythm": "pass (var 823.8, short 4.2%, long 54.2%)",
+        "hero_jpeg": true,
+        "css": "pass",
+        "hero_hash": "a842f9ac",
+        "word_count": 474,
+        "actionable_insights": true
+      },
+      "ship_date": "2026-10-30",
+      "blocked_reason": "Queued behind 67 prior drafts; next publish slot after #853 (2026-10-29); 1/day rule consumed by #806 on 2026-09-08",
+      "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 Consumer Affairs recall derby flagged NHTSA 26V564 (Light Boy America, Inc; LIGHT BOY GBX12SK 2020; 'Light Tower May Detach During Towing'). Novel: original breakaway KE calculation (584 kg at 29.06 m/s = 247 kJ, equivalent to 14-story drop) linked to AAA Foundation 2011-2014 debris study (200,000+ crashes, 39,000 injuries, 500 deaths; 4x as likely on Interstates; 37% of deaths from swerving; trailer separation named as common debris type). Sources: Consumer Affairs/NHTSA 26V564 announcement, AAA Foundation study + fact sheet, Multiquip GBX12SK ops manual (1,288 lb dry, Table 1), Kirby-Smith dealer spec, nhtsa.gov/recalls. Limitation: Part 573 report not retrievable; population/mechanism unstated. Ship slot 2026-10-30."
     }
   ]
 }
