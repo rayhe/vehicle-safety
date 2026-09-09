@@ -1,7 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "858-grand-cherokee-third-spring-recall",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "kicker": "Investigation",
+    "number": 858,
+    "started": "2026-09-09T09:30:00-07:00",
+    "headline": "Third Time's the Recall: Jeep's Grand Cherokee Springs Get a Third Federal Campaign"
+  },
   "last_check_note": "#808 PUBLISHED 2026-09-09; #857 researched/drafted/critiqued (8.80 avg) and queued SHIP_BLOCKED for 2026-11-02 (1/day rule); queue now 71 items; current=null",
-  "last_checked": "2026-09-09T07:45:00-07:00",
+  "last_checked": "2026-09-09T09:30:00-07:00",
   "last_completed": {
     "number": 857,
     "slug": "857-loose-bolt-census",
