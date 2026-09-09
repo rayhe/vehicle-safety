@@ -1,7 +1,14 @@
 {
-  "current": null,
+  "current": {
+    "slug": "860-cafe-crossover-truck-loophole",
+    "number": 860,
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "started": "2026-09-09T13:45:00-07:00"
+  },
   "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) and queued SHIP_BLOCKED for 2026-11-04 (1/day rule); queue now 73 items; current=null",
-  "last_checked": "2026-09-09T12:30:00-07:00",
+  "last_checked": "2026-09-09T13:45:00-07:00",
   "last_completed": {
     "number": 859,
     "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
@@ -2176,7 +2183,7 @@
         "critic_panel": "drafts/858-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle."
     },
     {
       "number": 859,
@@ -2220,7 +2227,7 @@
         "critic_panel": "drafts/859-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
     }
   ]
 }
