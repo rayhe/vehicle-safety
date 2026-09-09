@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#808 PUBLISHED (swapped ahead of stale #807, marked SKIPPED); 1/day rule consumed for 2026-09-09; #855 research next",
+  "last_check_note": "#808 PUBLISHED 2026-09-09 (swapped ahead of stale #807, marked SKIPPED); #855 queued SHIP_BLOCKED for 2026-10-31; queue now 68 items (67 blocked + 807 skipped); current=null",
   "last_checked": "2026-09-09T03:30:00-07:00",
-  "last_completed": 844,
-  "last_journalist": "Rex Driverton",
+  "last_completed": 855,
+  "last_journalist": "Mia Crumplezone",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 855,
+  "next": 856,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2030,6 +2030,51 @@
       "ship_date": "2026-10-30",
       "blocked_reason": "Queued behind 67 prior drafts; next publish slot after #853 (2026-10-29); 1/day rule consumed by #806 on 2026-09-08",
       "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 Consumer Affairs recall derby flagged NHTSA 26V564 (Light Boy America, Inc; LIGHT BOY GBX12SK 2020; 'Light Tower May Detach During Towing'). Novel: original breakaway KE calculation (584 kg at 29.06 m/s = 247 kJ, equivalent to 14-story drop) linked to AAA Foundation 2011-2014 debris study (200,000+ crashes, 39,000 injuries, 500 deaths; 4x as likely on Interstates; 37% of deaths from swerving; trailer separation named as common debris type). Sources: Consumer Affairs/NHTSA 26V564 announcement, AAA Foundation study + fact sheet, Multiquip GBX12SK ops manual (1,288 lb dry, Table 1), Kirby-Smith dealer spec, nhtsa.gov/recalls. Limitation: Part 573 report not retrievable; population/mechanism unstated. Ship slot 2026-10-30."
+    },
+    {
+      "number": 855,
+      "slug": "855-stellantis-tpms-radio-silence-202k",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "title": "Stellantis Recalled 202,000 Jeeps Because the Radio Forgot to Watch the Tires",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-31",
+      "started": "2026-09-09T03:30:00-07:00",
+      "critic_avg": 8.77,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.9,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.2,
+        "sentence_rhythm": {
+          "variance": 652.7,
+          "short_pct": 11.5,
+          "long_pct": 53.8,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "ae935e51",
+        "word_count": 826
+      },
+      "files": {
+        "research": "drafts/855-stellantis-tpms-radio-silence-202k-research.md",
+        "draft": "drafts/855-stellantis-tpms-radio-silence-202k.html",
+        "hero": "drafts/855-stellantis-tpms-radio-silence-202k.jpg",
+        "critic_panel": "drafts/855-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-10-31; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.77 avg; 7/7 critics >= 8.5. Anchor: Sep 9, 2026 Reuters/NHTSA report (201,976 Jeeps, TPMS software error in RF hub, FMVSS 138 noncompliance). Novel: 844K (Aug 26V531 rearview camera, FMVSS 111) + 202K = 1,045,976 vehicles in ~4 weeks whose mandated safety warnings were disabled by radio-stack software; the no-watchdog architectural claim. NHTSA campaign number not yet published at press time. Mia Crumplezone sequel to her Jul 1 TPMS piece."
     }
   ]
 }

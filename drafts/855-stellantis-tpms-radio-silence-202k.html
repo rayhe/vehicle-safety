@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stellantis Recalled 202,000 Jeeps Because the Radio Forgot to Watch the Tires &mdash; The Crash Report</title>
+  <meta name="description" content="A software bug in the radio frequency hub can silently kill the federally mandated tire-pressure warning on 201,976 Jeeps. It is the second Stellantis recall in four weeks where radio software disabled a mandated safety system.">
+  <meta property="og:title" content="Stellantis Recalled 202,000 Jeeps Because the Radio Forgot to Watch the Tires">
+  <meta property="og:description" content="Two federally mandated safety warnings, one radio software stack, zero warnings. Over a million Stellantis vehicles recalled in four weeks.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/855-stellantis-tpms-radio-silence-202k.jpg?v=ae935e51">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/855-stellantis-tpms-radio-silence-202k.jpg?v=ae935e51">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Stellantis Recalled 202,000 Jeeps Because the Radio Forgot to Watch the Tires</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">September 9, 2026</div>
+
+      <img src="../images/855-stellantis-tpms-radio-silence-202k.jpg?v=ae935e51" alt="Jeep dashboard glowing at night with the tire-pressure warning area dark and unlit" class="story-hero">
+
+      <p>Your tire-pressure warning is a software feature now. It lives in the radio frequency hub, sharing silicon with the Bluetooth stack and the satellite radio tuner. Today Stellantis recalled <strong>201,976 Jeep vehicles</strong> because a bug in that hub can prevent the tire pressure monitoring system from detecting low pressure or lighting the warning at all.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> No light. No chime. Nothing to tell you the thing that tells you things is broken.</p>
+
+      <div class="pull-stat">1,045,976</div>
+      <div class="pull-label">Stellantis vehicles recalled in about four weeks because radio or RF-hub software disabled a federally mandated safety warning</div>
+
+      <p>Start with the failure mode, because it is the whole story. FMVSS 138 requires the low-pressure telltale to illuminate within 20 minutes of a tire dropping to 25 percent below placard pressure.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> That 20-minute clock only starts if the hub software processes the sensor data and decides a warning is warranted. Kill the processing and the clock never starts, the telltale never lights, and the driver has no self-test, no diagnostic, no dashboard confession that the watchdog is asleep. A warning system with no warning for its own failure. Elegant.</p>
+
+      <p>Now the pattern, because this is the second time in a month. In mid-August Stellantis recalled roughly 844,000 vehicles (campaign 26V531) after radio software caused the rearview camera image to fail to display, sometimes showing a blue screen instead, a violation of FMVSS 111's rear visibility standard.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup> Add today's 201,976 and you get over a million vehicles in about four weeks recalled because software in the radio stack disabled a federally mandated safety warning: two standards, one compute stack, zero warnings. Consolidation is efficient right up until one bug class takes out two safety systems at once.</p>
+
+      <p>And the stakes are not theoretical. NHTSA attributes nearly <strong>11,000 crashes and more than 600 deaths a year</strong> to tire problems.<sup class="ref-link"><a href="#ref-6">[6]</a></sup> Back in July I wrote that TPMS is already legally permitted to stay dark until you are 25 percent underinflated, which the tire industry itself calls too late to prevent damage for some vehicles. A software bug that silences even that permissive warning is not a marginal degradation. It is the difference between a late warning and no warning on a system where 85 percent of drivers never check pressure manually.</p>
+
+      <p>What to do: if you drive a Wagoneer, Grand Cherokee, Grand Cherokee L, Grand Cherokee 4xe, Grand Wagoneer, Wagoneer L, or Cherokee from the affected years, check your VIN at nhtsa.gov/recalls today and get the free dealer software update when the letters go out.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-8">[8]</a></sup> Everyone else: buy a ten-dollar gauge and check your pressures monthly, because the dashboard light, when it works exactly as designed, is allowed to wait until you are a quarter low. Trust, but verify, preferably with a gauge in your own hand.</p>
+
+      <p>Fairness requires the other side. Software consolidation is the industry's direction for real reasons: a software defect gets fixed in minutes at a dealer, or overnight over the air, instead of the months a hardware recall takes. No crashes or injuries have been tied to this TPMS bug, which suggests the internal testing and NHTSA monitoring caught it before the failure mode met the real world. And the correlated-failure critique cuts both ways: one software stack means one fix deploys everywhere simultaneously. The honest limitations: NHTSA had not published the campaign number or the Part 573 chronology at press time, the fraction of the 201,976 vehicles actually exhibiting the bug is unknown, and the 1,045,976 combined figure spans two distinct defects, measuring exposure to the pattern rather than a single root cause.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Reuters, &ldquo;Stellantis to recall over 200,000 Jeep vehicles in US over tire-pressure monitor issue,&rdquo; Sep 9, 2026. <a href="https://www.reuters.com/legal/litigation/stellantis-recall-over-200000-jeep-vehicles-us-over-tire-pressure-monitor-issue-2026-09-09/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-2">Democrat &amp; Chronicle / USA Today Network, &ldquo;Jeep, Chrysler, more vehicles recalled. See list of affected cars,&rdquo; Aug 18, 2026. <a href="https://www.usatoday.com/story/cars/recalls/2026/08/18/jeep-chrysler-dodge-car-recall-stellantis-list/91354331007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-3">CarBuzz, &ldquo;All 2026 Jeep Recalls By Model In One Place&rdquo; (Recall 26V531000, rearview camera, 844,027 vehicles). <a href="https://CarBuzz.com/jeep-latest-recalls/" target="_blank" rel="noopener">carbuzz.com</a>; NHTSA listing: <a href="https://www.nhtsa.gov/recalls?nhtsaId=26V531000" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">USA Today, &ldquo;More than 239,000 Ram vehicles recalled&rdquo; (blue screen instead of rearview image), Sep 4, 2026. <a href="https://www.usatoday.com/story/cars/recalls/2026/09/04/ram-1500-vehicles-recalled/91609746007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-5">49 CFR &sect; 571.138, FMVSS 138 (warning within 20 minutes at 25% below placard). <a href="https://www.law.cornell.edu/cfr/text/49/section-571.138" target="_blank" rel="noopener">law.cornell.edu</a></li>
+          <li id="ref-6">NHTSA, &ldquo;Safety and Savings Ride on Your Tires&rdquo; (11,000 crashes, 600+ fatalities annually). <a href="https://www.nhtsa.gov/equipment/tires/safety-and-savings-ride-your-tires" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-7">FCA US recall 56C (2024&ndash;2025 Jeep Wrangler TPMS antenna cable), 2025. <a href="https://www.autoevolution.com/pdf/news_attachements/stellantis-recalls-jeep-wrangler-vehicles-over-tpms-issue-256210.pdf" target="_blank" rel="noopener">autoevolution.com</a></li>
+          <li id="ref-8">NHTSA recalls database. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> Reuters/NHTSA reporting on the Sep 9, 2026 Stellantis TPMS recall; NHTSA and press coverage of recall 26V531; FMVSS 138 text. NHTSA had not published the new recall's campaign number or Part 573 report at press time. The 1,045,976 combined figure is the author's sum of the two recall populations. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
