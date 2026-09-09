@@ -1,26 +1,18 @@
 {
-  "current": {
-    "slug": "858-grand-cherokee-third-spring-recall",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "kicker": "Investigation",
-    "number": 858,
-    "started": "2026-09-09T09:30:00-07:00",
-    "headline": "Third Time's the Recall: Jeep's Grand Cherokee Springs Get a Third Federal Campaign"
-  },
-  "last_check_note": "#808 PUBLISHED 2026-09-09; #857 researched/drafted/critiqued (8.80 avg) and queued SHIP_BLOCKED for 2026-11-02 (1/day rule); queue now 71 items; current=null",
-  "last_checked": "2026-09-09T09:30:00-07:00",
+  "current": null,
+  "last_check_note": "#808 PUBLISHED 2026-09-09; #858 researched/drafted/critiqued (8.79 avg) and queued SHIP_BLOCKED for 2026-11-03 (1/day rule); queue now 72 items; current=null",
+  "last_checked": "2026-09-09T10:15:00-07:00",
   "last_completed": {
-    "number": 857,
-    "slug": "857-loose-bolt-census",
+    "number": 858,
+    "slug": "858-grand-cherokee-third-spring-recall",
     "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.8
+    "avg_critic": 8.79
   },
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Clara Rollover",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 858,
+  "next": 859,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2141,6 +2133,50 @@
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-02; 1/day rule consumed by #808 on 2026-09-09",
       "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: first cross-manufacturer 2026 torque/fastener census (26V-330 Ford 179,698 + 26V-444 Volvo Trucks 3,794 + 26V-501 Autocar 137 + 26V-558 Tesla 19 = 183,648 vehicles) with mis-sequenced/absent/deactivated verification-failure taxonomy. Anchor: Sep 9, 2026 analysis that 26V-558 is the fourth filing on the same Tesla suspension bolt since 2021 (2,800 in 2021, 422 in 2023, 1.2M-vehicle probe with 156 complaints)."
+    },
+    {
+      "number": 858,
+      "slug": "858-grand-cherokee-third-spring-recall",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "title": "Third Time's the Recall: Jeep's Grand Cherokee Gets a Third Campaign for the Same Springs",
+      "ship_date": "2026-11-03",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.6,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.5,
+        "sentence_rhythm": {
+          "variance": 1608.9,
+          "short_pct": 4.5,
+          "long_pct": 45.5,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "b4c1debb",
+        "word_count": 735
+      },
+      "files": {
+        "research": "drafts/858-grand-cherokee-third-spring-recall-research.md",
+        "draft": "drafts/858-grand-cherokee-third-spring-recall.html",
+        "hero": "drafts/858-grand-cherokee-third-spring-recall.jpg",
+        "critic_panel": "drafts/858-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
     }
   ]
 }
