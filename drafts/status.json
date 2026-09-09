@@ -1,24 +1,18 @@
 {
-  "current": {
-    "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-09-09T11:45:00-07:00",
-    "number": 859
-  },
-  "last_check_note": "#808 PUBLISHED 2026-09-09; #858 researched/drafted/critiqued (8.79 avg) and queued SHIP_BLOCKED for 2026-11-03 (1/day rule); queue now 72 items; current=null",
-  "last_checked": "2026-09-09T11:45:00-07:00",
+  "current": null,
+  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) and queued SHIP_BLOCKED for 2026-11-04 (1/day rule); queue now 73 items; current=null",
+  "last_checked": "2026-09-09T12:30:00-07:00",
   "last_completed": {
-    "number": 858,
-    "slug": "858-grand-cherokee-third-spring-recall",
+    "number": 859,
+    "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.79
+    "avg_critic": 8.83
   },
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 859,
+  "next": 860,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2183,6 +2177,50 @@
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
       "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
+    },
+    {
+      "number": 859,
+      "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "title": "Four Stars Up Front, Marginal in the Back: The 2026 GMC Canyon's IIHS Report Card",
+      "ship_date": "2026-11-04",
+      "avg_critic": 8.83,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.4,
+        "sentence_rhythm": {
+          "variance": 888.6,
+          "short_pct": 2.9,
+          "long_pct": 58.8,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "e025c01e",
+        "word_count": 977
+      },
+      "files": {
+        "research": "drafts/859-gmc-canyon-iihs-rear-seat-flunk-research.md",
+        "draft": "drafts/859-gmc-canyon-iihs-rear-seat-flunk.html",
+        "hero": "drafts/859-gmc-canyon-iihs-rear-seat-flunk.jpg",
+        "critic_panel": "drafts/859-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
     }
   ]
 }
