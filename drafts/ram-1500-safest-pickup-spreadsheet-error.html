@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>America's Safest Pickup Is a Spreadsheet Error &mdash; The Crash Report</title>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="description" content="The Ram 1500's published fatality rate of 0.13 deaths per 100M miles made it the safest full-size pickup in America. It was a denominator counted twice: FARS codes the same trucks as both Dodge RAM and Ram 1500, and each row got the full 4.2M-vehicle fleet. The corrected rate is 0.90.">
+  <meta property="og:title" content="America's Safest Pickup Is a Spreadsheet Error">
+  <meta property="og:description" content="The Ram 1500's 0.13 fatality rate was a denominator counted twice. FARS codes the same trucks as Dodge RAM and Ram 1500; each row got the full 4.2M fleet. Corrected: 0.90.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/ram-1500-safest-pickup-spreadsheet-error.jpg?v=4ba4dbba">
+  <link rel="canonical" href="https://vehicle-safety.org/stories/ram-1500-safest-pickup-spreadsheet-error.html">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/ram-1500-safest-pickup-spreadsheet-error.html">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>America's Safest Pickup Is a Spreadsheet Error</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">September 10, 2026</div>
+
+      <img src="../images/ram-1500-safest-pickup-spreadsheet-error.jpg?v=4ba4dbba" alt="A pickup truck duplicated in a spreadsheet grid, one copy labeled for each of its two identities" class="story-hero" loading="eager">
+
+      <div class="story-body">
+
+      <p>I ran the numbers. Then I ran them again, because the numbers were obviously lying. According to our fatality-rate table, the Ram 1500 kills at <strong>0.13 deaths per 100 million vehicle miles</strong>, the lowest rate of any full-size pickup in America and eight times better than the Ford F-150<sup class="ref-link"><a href="#ref-1">[1]</a></sup>. Either Ram engineers discovered a force field, or the denominator is wrong.</p>
+
+      <div class="pull-stat">0.13 &rarr; 0.90</div>
+      <div class="pull-label">Published Ram 1500 fatality rate vs. the corrected rate after merging FARS's split rows</div>
+
+      <p>Spoiler: the denominator is wrong. Our table lists two rows for what is mechanically one truck line. "Dodge RAM" accounts for 4,407 deaths at a rate of 0.78. "Ram 1500" accounts for 714 deaths at a rate of 0.13. Both rows carry the identical fleet estimate, 4,200,000 vehicles, and the identical VMT figure, 56,700<sup class="ref-link"><a href="#ref-1">[1]</a></sup>. Same denominator, because both rows were fed the same 480,000-a-year sales estimate, which means the fleet got counted twice while the deaths got split in two. Nobody noticed, because 0.13 looks like good news and good news never gets audited.</p>
+
+      <p>Here is the mechanism, and it starts with a corporate divorce. Chrysler spun Ram off from Dodge in October 2009, effective with the 2011 model year<sup class="ref-link"><a href="#ref-2">[2]</a></sup>. But the NHTSA FARS coding manual instructs that vehicle make and model come from the accident report, verified against state registration data, with registration data winning any disagreement<sup class="ref-link"><a href="#ref-3">[3]</a></sup>. So a 2015 Ram 1500 shows up as "Dodge" on the crash report written by a trooper going on muscle memory and as "Ram" on the registration, and both codings persist in the data indefinitely. In our dataset the "Dodge RAM" row spans model years 1994 through 2019 while the "Ram 1500" row spans 2013 through 2023, which means FARS dual-coded the same trucks for seven full model years. Our own pipeline even left a confession at the scene: the sales table contains <code>('Dodge', 'RAM'): 480000</code> annotated "older FARS entries before Ram was separate make"<sup class="ref-link"><a href="#ref-1">[1]</a></sup>. That comment assumed every Dodge-coded entry predated the split. FARS kept coding Dodge RAM through model year 2019. That assumption was wrong, and the denominator doubled.</p>
+
+      <p>Do the honest arithmetic: 4,407 plus 714 is 5,121 deaths, divided by the one real fleet of 4.2 million vehicles. Combined, the rate is <strong>0.90 deaths per 100M VMT</strong>, which lands just under the Toyota Tundra (0.94), inside the full-size cluster with the GMC Sierra (1.01), a rounding error from the Ford F-150 (1.04) and well under the Chevrolet Silverado (1.25)<sup class="ref-link"><a href="#ref-1">[1]</a></sup>. That is exactly where a body-on-frame full-size pickup belongs. Boring. Correct. Miracles evaporate the moment you stop dividing by a fleet that exists twice.</p>
+
+      <p>Nor is it a one-off: the same artifact hides 313 deaths in a slash variant: "Dodge GRAND CARAVAN" (1,782 deaths, rate 1.33) and "Dodge CARAVAN/GRAND CARAVAN" (313 deaths, rate 0.23) share one 1,137,500-vehicle fleet, for a combined <strong>1.56</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup>. Every rebrand, every naming-variant cleanup, every slash in a make-model field is a place where a denominator can quietly duplicate itself while the numerator splits. Per-model FARS rates are only as trustworthy as the coding underneath them, and rebrands break that coding silently.</p>
+
+      <h3>What to do with this</h3>
+
+      <p>Shopping for a full-size pickup? No Ram 1500 is eight times safer than an F-150. Corrected, the segment reads: Silverado 1.25, F-150 1.04, Sierra 1.01, Tundra 0.94, Ram 0.90. Buy on IIHS ratings at <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a>, where the test vehicle is unambiguous, and treat any per-model FARS leaderboard with a rebranded nameplate on it as guilty until proven innocent. If you are a researcher or journalist reusing FARS per-model rates, merge the split rows before dividing, or your denominator double-counts exactly the way ours did. And for the record: we are fixing our own table. Our Ram rows get presented combined at 0.90, the Caravan rows combined at 1.56, because publishing a correction is the entire point of running the numbers twice.</p>
+
+      <h3>The strongest counterargument</h3>
+
+      <p>Some of the gap is real engineering, not just bad bookkeeping. A 2013-and-newer Ram 1500 genuinely is a safer truck than the 1994-2012 Dodge Ram it replaced: the fourth generation brought standard electronic stability control under the federal mandate phased in from 2009 to 2012, side-curtain airbags, and a stiffer frame, and every one of those buys measurable fatality reduction. So the true rate for the trucks actually on dealer lots today sits somewhere between the published 0.13 and the combined 0.90, and the combined figure overstates the danger of a 2026 Ram by blending in three decades of older iron. FARS alone cannot pin down the post-2013 number, because no model-year fleet split exists in this data. But scale matters here: ESC and airbags buy tens of percent of improvement, not sevenfold, and the seven model years of dual-coding mean neither published row was ever a clean cohort in the first place. A real safety gain is hiding inside this artifact. It is just much smaller than 8x.</p>
+
+      <h3>Limitations</h3>
+
+      <p>Fleet denominators here are estimates, annual sales multiplied by an 8.75-year survival factor, not actual registrations, and VMT uses class-average annual miles rather than odometer readings, which is why our methodology note flags roughly 15 percent uncertainty for low-volume models, uncertainty the combined 0.90 inherits in full. FARS captures fatal crashes only, so injury and property-damage outcomes are invisible. That 0.90 blends model years 1994 through 2023, which describes the nameplate's history, not the truck on the lot today. Likewise, the Grand Caravan correction assumes the 130,000-a-year sales estimate covers the whole Caravan line, the same assumption class as the Ram fix. None of this changes the core finding: the 0.13 was computed against a denominator that was counted twice.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Per-model deaths, fleet, and VMT from <code>fars_output.js</code>; fleet estimation logic and the doubled 480,000/yr sales figure in <code>fars_process.py</code> (SALES_DATA). <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a> and query tool <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-2">Ram Trucks spun off from Dodge, deed official Oct 5, 2009; "separated from Dodge for the 2011 model year." Autoblog, <a href="https://www.autoblog.com/features/ram-trucks-10th-anniversary-standalone-brand" target="_blank" rel="noopener">autoblog.com</a>; Wikipedia, <a href="https://en.wikipedia.org/wiki/Ram_pickup" target="_blank" rel="noopener">Ram pickup</a></li>
+          <li id="ref-3">NHTSA FARS coding manual: vehicle make, model, body type, and model year as shown on accident reports "must be verified with registration data," with registration data taking precedence on inconsistency. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/Publication/07CV" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-4">IIHS vehicle ratings, <a href="https://www.iihs.org/ratings" target="_blank" rel="noopener">iihs.org/ratings</a>; IIHS on vehicle size and weight, <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Fatality rates are estimates: fleet denominators use annual sales &times; 8.75 survival factor and class-average annual miles, not registrations or odometer readings (&plusmn;15% uncertainty for low-volume models). FARS captures fatal crashes only. The 0.90 combined Ram rate blends MY1994&ndash;2023. See <a href="../#method">methodology</a> for full caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome, especially with additional primary sources or VIN-level analysis.
+    </footer>
+  </div>
+</body>
+</html>
