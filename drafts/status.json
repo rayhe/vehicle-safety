@@ -1,18 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#867 queued: motorcycle drunkest operators (Dale Impactor III, 8.79 avg), SHIP_BLOCKED 2026-11-11; queue now 81 items; current=null",
+  "last_check_note": "2026-09-10: #869 drafted, panel-passed (avg 8.79), SHIP_BLOCKED pending hero image. No Publish # commit today (0 since 2026-09-10 00:00 PDT); status note says 2026-09-10 slot consumed by #864 but no such commit exists in git log \u2014 inconsistency documented in memory note.",
   "last_checked": "2026-09-10T04:10:00-07:00",
-  "last_completed": {
-    "number": 867,
-    "slug": "867-motorcycle-drunkest-operators",
-    "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.79
-  },
-  "last_journalist": "Dale Impactor III",
+  "last_completed": 869,
+  "last_journalist": "Rex Driverton",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 869,
+  "next": 870,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2599,6 +2594,33 @@
         "hero_md5": "f8edf526"
       },
       "note": "2026-09-10 slot consumed by #864 (ship_date 2026-09-10); queued for next open date after #867 (2026-11-11)"
+    },
+    {
+      "number": 869,
+      "slug": "869-june-2026-rate-reversal",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-13",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "June Spoiled the Victory Lap",
+      "files": [
+        "drafts/869-june-2026-rate-reversal.html",
+        "drafts/869-june-2026-rate-reversal-research.md",
+        "drafts/869-critic-panel-r0.md"
+      ],
+      "critics": {
+        "round": 0,
+        "verdict": "PASS",
+        "min_score": 8.5
+      },
+      "gates": {
+        "word_count": 362,
+        "em_dashes": 0,
+        "the_starters_pct": 5.9,
+        "rhythm": "pass",
+        "hero_md5": null
+      },
+      "note": "7 critics all >=8.5 (avg 8.79). SHIP_BLOCKED: hero JPEG generation failed 2026-09-10 (media upstream 503 x3). Generate drafts/869-june-2026-rate-reversal.jpg, move to images/, add ?v= hash to og:image and hero img before ship. Queued for next open date after #868 (2026-11-12)."
     }
   ]
 }
