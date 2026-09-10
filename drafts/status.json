@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "868-buick-park-avenue-druggiest-drivers",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
     "kicker": "Sobriety Report",
     "title": "The Druggiest Drivers in America Drive a Buick",
-    "started": "2026-09-10T05:45:00-07:00"
+    "started": "2026-09-10T05:45:00-07:00",
+    "critique_round": 0
   },
   "last_check_note": "#867 queued: motorcycle drunkest operators (Dale Impactor III, 8.79 avg), SHIP_BLOCKED 2026-11-11; queue now 81 items; current=null",
   "last_checked": "2026-09-10T04:10:00-07:00",
