@@ -1,13 +1,5 @@
 {
-  "current": {
-    "slug": "868-buick-park-avenue-druggiest-drivers",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "kicker": "Sobriety Report",
-    "title": "The Druggiest Drivers in America Drive a Buick",
-    "started": "2026-09-10T05:45:00-07:00",
-    "critique_round": 0
-  },
+  "current": null,
   "last_check_note": "#867 queued: motorcycle drunkest operators (Dale Impactor III, 8.79 avg), SHIP_BLOCKED 2026-11-11; queue now 81 items; current=null",
   "last_checked": "2026-09-10T04:10:00-07:00",
   "last_completed": {
@@ -2579,6 +2571,34 @@
       },
       "blocked_reason": "1/day rule consumed by #864 on 2026-09-10; next available queue slot 2026-11-11",
       "note": "Protection paradox: 26% of motorcycle riders in fatal crashes alcohol-impaired (2023 DOT HS 813 732), highest of any vehicle type (24% cars, 20% light trucks, 4% large trucks); 41% of single-vehicle rider deaths impaired; drunk riders helmeted 52% vs 66% sober (2021 Countermeasures That Work); 2024: 1,529 of 5,950 dead operators drunk (DOT HS 813 815). Mirror image of #817: on bikes the drunk IS the victim. Zero prior motorcycle+alcohol coverage on site. One pre-panel fragment-merge revision to clear rhythm gate."
+    },
+    {
+      "number": 868,
+      "slug": "868-buick-park-avenue-druggiest-drivers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-12",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "title": "The Druggiest Drivers in America Drive a Buick",
+      "files": [
+        "drafts/868-buick-park-avenue-druggiest-drivers.html",
+        "drafts/868-buick-park-avenue-druggiest-drivers.jpg",
+        "drafts/868-buick-park-avenue-druggiest-drivers-research.md",
+        "drafts/868-buick-park-avenue-druggiest-drivers-critics.json"
+      ],
+      "critics": {
+        "round": 0,
+        "verdict": "PASS",
+        "min_score": 8.8
+      },
+      "gates": {
+        "word_count": 500,
+        "em_dashes": 0,
+        "the_starters_pct": 7.9,
+        "rhythm": "pass",
+        "hero_md5": "f8edf526"
+      },
+      "note": "2026-09-10 slot consumed by #864 (ship_date 2026-09-10); queued for next open date after #867 (2026-11-11)"
     }
   ]
 }
