@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-09-10 09:30 run continued: corrected the 1/day gate note (committed 22c3c02; gate CONSUMED today by reverted Publish #864, nothing else may ship). Verified deployment: canonical #797 live with EA26005 + 10yr/150k coverage + Sep 10 dateline; duplicate 864 URL 404s; homepage single card linking to canonical; feed/sitemap clean. Then ran full pipeline for #870 (crash-test-dummy body-size gap, Vin Wreckage): research, draft, critic panel (avg 8.79, all gates PASS incl. rhythm), hero image generated 1920x1280 hash 9bf8d757. #870 queued SHIP_BLOCKED for 2026-09-11. current=null; next=871.",
- "last_checked": "2026-09-10T11:20:00-07:00",
- "last_completed": 870,
- "last_journalist": "Vin Wreckage",
+ "last_check_note": "2026-09-10 11:30 run: full pipeline for #871 (Axle McScatter, Ram 1500 blue-screen camera recall / infotainment-hosting architecture angle). First TPMS angle killed at research (duplicate of queued #855). Research->draft->critique->hero complete; avg 8.79, all 7 critics >= 8.5, all gates PASS incl. rhythm. Queued SHIP_BLOCKED for 2026-11-14 (1/day gate consumed today by reverted Publish #864; #870 ships 2026-09-11, #869 holds 2026-11-13).",
+ "last_checked": "2026-09-10T12:30:00-07:00",
+ "last_completed": 871,
+ "last_journalist": "Axle McScatter",
  "last_published": 808,
  "last_published_date": "2026-09-09",
  "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
- "next": 871,
+ "next": 872,
  "queue": [
   {
    "journalist": "Axle McScatter",
@@ -2171,7 +2171,7 @@
     "critic_panel": "drafts/858-critic-panel-r0.md"
    },
    "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
-   "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle."
+   "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
   },
   {
    "number": 859,
@@ -2215,7 +2215,7 @@
     "critic_panel": "drafts/859-critic-panel-r0.md"
    },
    "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
-   "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+   "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
   },
   {
    "number": 860,
@@ -2259,7 +2259,7 @@
     "critic_panel": "drafts/860-critic-panel-r0.md"
    },
    "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
-   "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
+   "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
   },
   {
    "number": 861,
@@ -2302,7 +2302,7 @@
     "critic_panel": "drafts/861-critic-panel-r0.md"
    },
    "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-06; 1/day rule consumed by #808 on 2026-09-09",
-   "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) — Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
+   "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
   },
   {
    "number": 862,
@@ -2665,6 +2665,51 @@
    "blocked_reason": "1/day gate consumed on 2026-09-10 by reverted Publish #864 commit (adceb29); earliest slot 2026-09-11",
    "note": "Fresh Free Press investigation (Sep 10, 2026) peg: Hybrid III dummy = 1976 median man (5ft9, 171 lbs) vs today 193 lbs; 40.3% obese; THOR delayed 2019->2029; Euro NCAP THOR since 2020. Uncovered angle (gender-gap piece covered women, May 2026). Research->draft->critique->hero all complete in the 09:30 run continuation; avg 8.79, all 7 critics >= 8.5.",
    "ship_date": "2026-09-11"
+  },
+  {
+   "number": 871,
+   "slug": "871-blue-screen-safety-runs-on-radio",
+   "phase": "SHIP_BLOCKED",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "title": "Your Backup Camera Runs on Your Radio. Your Radio Just Got Recalled.",
+   "ship_date": "2026-11-14",
+   "started": "2026-09-10T11:30:00-07:00",
+   "critic_avg": 8.79,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 8.5,
+    "research_rigor": 8.5,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 5.9,
+    "sentence_rhythm": {
+     "variance": 913.8,
+     "short_pct": 8.3,
+     "long_pct": 41.7,
+     "passed": true
+    },
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "2987033e",
+    "word_count": 570
+   },
+   "files": {
+    "research": "drafts/871-blue-screen-safety-runs-on-radio-research.md",
+    "draft": "drafts/871-blue-screen-safety-runs-on-radio.html",
+    "hero": "drafts/871-blue-screen-safety-runs-on-radio.jpg",
+    "critic_panel": "drafts/871-critic-panel-r0.md"
+   },
+   "blocked_reason": "1/day gate consumed on 2026-09-10 by reverted Publish #864 commit (adceb29); earliest slot after #869 (2026-11-13) is 2026-11-14",
+   "note": "Original TPMS angle killed at research: #855 (avg 8.77, ships 2026-10-31) already covers the Sep 9 Jeep TPMS recall. Anchor: Sep 4 USA Today Ram 1500 recall (239,131, radio software error, blue screen, 100% estimated affected, 83D). Novel: infotainment-hosting architecture critique + 100%-affected=architectural-flaw framing + GAO $43-45 vs $132-142 mechanism. Round-0 pass 8.79 avg; 7/7 critics >= 8.5; all hard gates pass."
   }
  ]
 }
