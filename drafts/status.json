@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-09-10 11:30 run: full pipeline for #871 (Axle McScatter, Ram 1500 blue-screen camera recall / infotainment-hosting architecture angle). First TPMS angle killed at research (duplicate of queued #855). Research->draft->critique->hero complete; avg 8.79, all 7 critics >= 8.5, all gates PASS incl. rhythm. Queued SHIP_BLOCKED for 2026-11-14 (1/day gate consumed today by reverted Publish #864; #870 ships 2026-09-11, #869 holds 2026-11-13).",
- "last_checked": "2026-09-10T12:30:00-07:00",
- "last_completed": 871,
- "last_journalist": "Axle McScatter",
+ "last_check_note": "2026-09-10 13:30 run: full pipeline for #872 (Rex Driverton, rate-decomposition: involvement-rate x per-crash-lethality are near-independent axes, r=0.293). Research->draft->critique->hero complete; avg 8.86, all 7 critics >= 8.5, all gates PASS (em 0, banned 0, The 3.3%, rhythm 370.4/7.7/50.0). Queued SHIP_BLOCKED for 2026-11-15 (1/day gate consumed today; after #871 on 2026-11-14).",
+ "last_checked": "2026-09-10T13:45:00-07:00",
+ "last_completed": 872,
+ "last_journalist": "Rex Driverton",
  "last_published": 808,
  "last_published_date": "2026-09-09",
  "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
- "next": 872,
+ "next": 873,
  "queue": [
   {
    "journalist": "Axle McScatter",
@@ -2710,6 +2710,50 @@
    },
    "blocked_reason": "1/day gate consumed on 2026-09-10 by reverted Publish #864 commit (adceb29); earliest slot after #869 (2026-11-13) is 2026-11-14",
    "note": "Original TPMS angle killed at research: #855 (avg 8.77, ships 2026-10-31) already covers the Sep 9 Jeep TPMS recall. Anchor: Sep 4 USA Today Ram 1500 recall (239,131, radio software error, blue screen, 100% estimated affected, 83D). Novel: infotainment-hosting architecture critique + 100%-affected=architectural-flaw framing + GAO $43-45 vs $132-142 mechanism. Round-0 pass 8.79 avg; 7/7 critics >= 8.5; all hard gates pass."
+  },
+  {
+   "number": 872,
+   "slug": "same-rate-two-autopsies",
+   "phase": "SHIP_BLOCKED",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "title": "Same Death Rate, Two Different Autopsies",
+   "ship_date": "2026-11-15",
+   "started": "2026-09-10T13:30:00-07:00",
+   "critic_avg": 8.86,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 3.3,
+    "sentence_rhythm": {
+     "variance": 370.4,
+     "short_pct": 7.7,
+     "long_pct": 50.0,
+     "passed": true
+    },
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "d3088470"
+   },
+   "files": {
+    "research": "drafts/same-rate-two-autopsies-research.md",
+    "draft": "drafts/same-rate-two-autopsies.html",
+    "hero": "drafts/same-rate-two-autopsies.jpg",
+    "critic_panel": "drafts/872-critic-panel-r0.md"
+   },
+   "blocked_reason": "1/day gate consumed on 2026-09-10 (4 Publish # commits today); queue slot after #871 (2026-11-14) is 2026-11-15",
+   "note": "Original contribution: rate decomposed as (fatal-crash involvements/100M VMT) x (occupant deaths/100 involvements), Pearson r=0.293 (near-independent axes). Matched-rate opposite-path pairs: E-350 vs Buick Century (2.51 vs 2.41), Tahoe vs Cavalier (2.49 vs 2.43), Camry vs HHR (2.03 vs 2.12), Corvette vs Suburban (1.52 vs 1.36). Hook: IIHS commercial-vehicle ratings (The Drive, Mar 23 2026) focus on avoidance; the E-350 data says why. Round-0 pass 8.86 avg; 7/7 >= 8.5; all hard gates pass incl. rhythm (2 rewrite rounds for short_pct/The-starters)."
   }
  ]
 }
