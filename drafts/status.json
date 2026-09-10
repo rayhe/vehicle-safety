@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-09-10 09:30 run: FIXED duplicate publish. #864 was a Sep 9 revival of the #797 story (published 2026-08-30, same headline). Shipped as #864 in error, then reverted (git revert, commit 23dfddc) and folded the freshened facts (EA26005 designation, GM 10yr/150k special coverage, Sep 10 dateline) into the live #797 story page. #864 PARKED as duplicate. CORRECTION 10:35: git history still contains a Publish # commit today (adceb29, reverted by 23dfddc), so the mechanical 1/day gate is CONSUMED and no other article may ship 2026-09-10. Do not rewrite history to erase it. Queue 83 items; next=870; current=null.",
- "last_checked": "2026-09-10T10:35:00-07:00",
- "last_completed": 869,
- "last_journalist": "Rex Driverton",
+ "last_check_note": "2026-09-10 09:30 run continued: corrected the 1/day gate note (committed 22c3c02; gate CONSUMED today by reverted Publish #864, nothing else may ship). Verified deployment: canonical #797 live with EA26005 + 10yr/150k coverage + Sep 10 dateline; duplicate 864 URL 404s; homepage single card linking to canonical; feed/sitemap clean. Then ran full pipeline for #870 (crash-test-dummy body-size gap, Vin Wreckage): research, draft, critic panel (avg 8.79, all gates PASS incl. rhythm), hero image generated 1920x1280 hash 9bf8d757. #870 queued SHIP_BLOCKED for 2026-09-11. current=null; next=871.",
+ "last_checked": "2026-09-10T11:20:00-07:00",
+ "last_completed": 870,
+ "last_journalist": "Vin Wreckage",
  "last_published": 808,
  "last_published_date": "2026-09-09",
  "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
- "next": 870,
+ "next": 871,
  "queue": [
   {
    "journalist": "Axle McScatter",
@@ -2621,6 +2621,50 @@
     "hero_md5": null
    },
    "note": "7 critics all >=8.5 (avg 8.79). SHIP_BLOCKED: hero JPEG generation failed 2026-09-10 (media upstream 503 x3). Generate drafts/869-june-2026-rate-reversal.jpg, move to images/, add ?v= hash to og:image and hero img before ship. Queued for next open date after #868 (2026-11-12)."
+  },
+  {
+   "number": 870,
+   "slug": "five-star-rating-1976-body-dummy-gap",
+   "phase": "SHIP_BLOCKED",
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "title": "Your Five-Star Safety Rating Was Earned by a 1976 Body",
+   "avg_critic": 8.79,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 8.5,
+    "research_rigor": 8.5,
+    "data_presentation": 8.5
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 10.5,
+    "sentence_rhythm": {
+     "variance": 501.3,
+     "short_pct": 5.3,
+     "long_pct": 68.4,
+     "passed": true
+    },
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "9bf8d757",
+    "word_count": 443
+   },
+   "files": {
+    "research": "drafts/870-five-star-rating-1976-body-dummy-gap-research.md",
+    "draft": "drafts/870-five-star-rating-1976-body-dummy-gap.html",
+    "hero": "drafts/870-five-star-rating-1976-body-dummy-gap.jpg",
+    "critic_panel": "drafts/870-five-star-rating-1976-body-dummy-gap-critique.md"
+   },
+   "blocked_reason": "1/day gate consumed on 2026-09-10 by reverted Publish #864 commit (adceb29); earliest slot 2026-09-11",
+   "note": "Fresh Free Press investigation (Sep 10, 2026) peg: Hybrid III dummy = 1976 median man (5ft9, 171 lbs) vs today 193 lbs; 40.3% obese; THOR delayed 2019->2029; Euro NCAP THOR since 2020. Uncovered angle (gender-gap piece covered women, May 2026). Research->draft->critique->hero all complete in the 09:30 run continuation; avg 8.79, all 7 critics >= 8.5.",
+   "ship_date": "2026-09-11"
   }
  ]
 }
