@@ -1,21 +1,14 @@
 {
-  "current": {
-    "slug": "866-id4-battery-fire-two-year-gap",
-    "number": 866,
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "kicker": "Investigation",
-    "started": "2026-09-10T01:45:00-07:00"
-  },
-  "last_check_note": "#865 queued: Jeep spring third recall (Mia Crumplezone, 8.79 avg), SHIP_BLOCKED 2026-11-09; queue now 79 items; current=null",
-  "last_checked": "2026-09-09T23:55:00-07:00",
+  "current": null,
+  "last_check_note": "#866 queued: ID.4 battery fire two-year gap (Clara Rollover, 8.79 avg), SHIP_BLOCKED 2026-11-10; queue now 80 items; current=null",
+  "last_checked": "2026-09-10T01:55:00-07:00",
   "last_completed": {
     "number": 861,
     "slug": "861-nsc-h1-2026-split-country",
     "phase": "SHIP_BLOCKED",
     "avg_critic": 8.91
   },
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
@@ -2490,6 +2483,50 @@
       },
       "blocked_reason": "1/day rule consumed by #808 on 2026-09-09; next publish slot 2026-09-10 taken by #864; queue position 2026-11-09",
       "note": "Third NHTSA campaign for Grand Cherokee rear coil spring detachments (26V562/89D, 328,381 vehicles, Sep 2026). Novel: campaign genealogy 23V413 -> 26V051 -> 26V562 with 4.07x population growth and remedy change from inspect to blanket isolator replacement; FARS paradox (GC rate 0.51 vs Explorer 1.54). Zero injuries; 0.1% est. defect rate (~328 vehicles). Rhythm gate needed one in-draft fragment-merge revision before round 0."
+    },
+    {
+      "journalist": "Clara Rollover",
+      "number": 866,
+      "phase": "SHIP_BLOCKED",
+      "slug": "866-id4-battery-fire-two-year-gap",
+      "kicker": "Investigation",
+      "title": "VW Knew About ID.4 Battery Fires for Nearly Two Years Before Recalling a Single Car",
+      "ship_date": "2026-11-10",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "sentence_rhythm": {
+          "variance": 238.4,
+          "short_pct": 0.0,
+          "long_pct": 61.5,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "05534ba5",
+        "word_count": 400
+      },
+      "files": {
+        "research": "drafts/866-id4-battery-fire-two-year-gap-research.md",
+        "draft": "drafts/866-id4-battery-fire-two-year-gap.html",
+        "hero": "drafts/866-id4-battery-fire-two-year-gap.jpg",
+        "critic_panel": "drafts/866-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #864 on 2026-09-10; next available queue slot 2026-11-10",
+      "note": "Federal class action Chen v Volkswagen AG (2:26-cv-05409, D.N.J.) filed Sep 4, 2026 over 2023-2025 ID.4 HV battery fires. Original: 683-day knowledge-to-recall gap (Jan 18, 2024 first known fire -> Dec 2025 first recall); 3-campaign genealogy 25V836 -> 26V028 -> 26V030 totaling 45,180 US vehicles; March 2026 global ~100k expansion; VW admitted no clear root cause. One pre-panel fragment-merge revision to clear rhythm gate. Zero prior ID.4 coverage on site."
     }
   ]
 }
