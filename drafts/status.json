@@ -1,7 +1,13 @@
 {
- "current": null,
+ "current": {
+  "slug": "ram-1500-safest-pickup-spreadsheet-error",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-09-10T15:35:00-07:00",
+  "number": 873
+ },
  "last_check_note": "2026-09-10 13:30 run: full pipeline for #872 (Rex Driverton, rate-decomposition: involvement-rate x per-crash-lethality are near-independent axes, r=0.293). Research->draft->critique->hero complete; avg 8.86, all 7 critics >= 8.5, all gates PASS (em 0, banned 0, The 3.3%, rhythm 370.4/7.7/50.0). Queued SHIP_BLOCKED for 2026-11-15 (1/day gate consumed today; after #871 on 2026-11-14).",
- "last_checked": "2026-09-10T13:45:00-07:00",
+ "last_checked": "2026-09-10T15:35:00-07:00",
  "last_completed": 872,
  "last_journalist": "Rex Driverton",
  "last_published": 808,
