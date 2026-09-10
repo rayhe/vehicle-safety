@@ -1,18 +1,18 @@
 {
   "current": null,
-  "last_check_note": "#808 PUBLISHED 2026-09-09; #863 researched/drafted/critiqued (9.0 avg) SHIP_BLOCKED 2026-11-08 (NCAP pedestrian-protection delay, Clara Rollover); queue now 77 items; current=null",
-  "last_checked": "2026-09-09T19:37:33.262135-07:00",
+  "last_check_note": "#864 revived from Aug 29 orphan queue; SHIP_BLOCKED to 2026-09-10 (1/day consumed by #808); queue now 78 items; current=null",
+  "last_checked": "2026-09-09T21:45:00-07:00",
   "last_completed": {
     "number": 861,
     "slug": "861-nsc-h1-2026-split-country",
     "phase": "SHIP_BLOCKED",
     "avg_critic": 8.91
   },
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 864,
+  "next": 865,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2176,7 +2176,7 @@
         "critic_panel": "drafts/858-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle."
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
     },
     {
       "number": 859,
@@ -2220,7 +2220,7 @@
         "critic_panel": "drafts/859-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
     },
     {
       "number": 860,
@@ -2264,7 +2264,7 @@
         "critic_panel": "drafts/860-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
     },
     {
       "number": 861,
@@ -2307,7 +2307,7 @@
         "critic_panel": "drafts/861-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-06; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) — Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
     },
     {
       "number": 862,
@@ -2395,6 +2395,50 @@
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-08; 1/day rule consumed by #808 on 2026-09-09",
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Zero prior NCAP coverage on site. Novel: 38.2% pedestrian-death rise 2015-2022 arithmetic (NHTSA DOT HS 813 818), MY2026 test-list composition 29/38 SUVs (76.3%, 2 sedans), delay-mechanics framing (Alliance's stated reason = unpublished pedestrian procedures, i.e. the pedestrian half of the rule bought the delay). Counterargument + limitations at full strength."
+    },
+    {
+      "number": 864,
+      "slug": "864-gm-l87-v8-recall-fix-failed-997k-probe",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "GM Recalled 597,000 V8s for Engine Failure and the Fix Failed, Now 997,743 Are Under Federal Investigation",
+      "ship_date": "2026-09-10",
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 2,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.1,
+        "sentence_rhythm": {
+          "variance": 203.2,
+          "short_pct": 1.9,
+          "long_pct": 59.6,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "e4514656",
+        "word_count": 1391
+      },
+      "files": {
+        "research": "drafts/864-gm-l87-v8-recall-fix-failed-997k-probe-research.md",
+        "draft": "drafts/864-gm-l87-v8-recall-fix-failed-997k-probe.html",
+        "hero": "drafts/864-gm-l87-v8-recall-fix-failed-997k-probe.jpg",
+        "critic_panel": "drafts/864-gm-l87-v8-recall-fix-failed-997k-probe-critique.md"
+      },
+      "blocked_reason": "1/day rule consumed by #808 on 2026-09-09; next publish slot 2026-09-10",
+      "note": "Revived Aug 29 orphan (research+draft+critique all complete, avg 9.0, all 7 critics >= 8.5) on Sep 9. Verified story still current: EA26005 still open, no new recall, no EA closure. Freshened: Sep 9 dateline, EA26005 designation, GM 10yr/150k special-coverage detail, one Rex punch line (re-gated: variance 203.2 PASS). Original arithmetic: 28,102 complaints / 597,630 = 4.7% field complaint rate vs GM's 3% estimated defect; 6,953/597,630 = 1.16% post-remedy; ~11,500 tail on 997,743 population."
     }
   ]
 }
