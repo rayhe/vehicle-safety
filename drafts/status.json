@@ -1,23 +1,18 @@
 {
-  "current": {
-    "slug": "867-motorcycle-drunkest-operators",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-09-10T03:45:00-07:00"
-  },
-  "last_check_note": "#866 queued: ID.4 battery fire two-year gap (Clara Rollover, 8.79 avg), SHIP_BLOCKED 2026-11-10; queue now 80 items; current=null",
-  "last_checked": "2026-09-10T01:55:00-07:00",
+  "current": null,
+  "last_check_note": "#867 queued: motorcycle drunkest operators (Dale Impactor III, 8.79 avg), SHIP_BLOCKED 2026-11-11; queue now 81 items; current=null",
+  "last_checked": "2026-09-10T04:10:00-07:00",
   "last_completed": {
-    "number": 861,
-    "slug": "861-nsc-h1-2026-split-country",
+    "number": 867,
+    "slug": "867-motorcycle-drunkest-operators",
     "phase": "SHIP_BLOCKED",
-    "avg_critic": 8.91
+    "avg_critic": 8.79
   },
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 867,
+  "next": 868,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2532,6 +2527,50 @@
       },
       "blocked_reason": "1/day rule consumed by #864 on 2026-09-10; next available queue slot 2026-11-10",
       "note": "Federal class action Chen v Volkswagen AG (2:26-cv-05409, D.N.J.) filed Sep 4, 2026 over 2023-2025 ID.4 HV battery fires. Original: 683-day knowledge-to-recall gap (Jan 18, 2024 first known fire -> Dec 2025 first recall); 3-campaign genealogy 25V836 -> 26V028 -> 26V030 totaling 45,180 US vehicles; March 2026 global ~100k expansion; VW admitted no clear root cause. One pre-panel fragment-merge revision to clear rhythm gate. Zero prior ID.4 coverage on site."
+    },
+    {
+      "journalist": "Dale Impactor III",
+      "number": 867,
+      "phase": "SHIP_BLOCKED",
+      "slug": "867-motorcycle-drunkest-operators",
+      "kicker": "Sobriety Report",
+      "title": "The Least-Protected Vehicle on the Road Has the Drunkest Operators",
+      "ship_date": "2026-11-11",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.9,
+        "sentence_rhythm": {
+          "variance": 406.0,
+          "short_pct": 9.5,
+          "long_pct": 61.9,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "93747e56",
+        "word_count": 497
+      },
+      "files": {
+        "research": "drafts/867-motorcycle-drunkest-operators-research.md",
+        "draft": "drafts/867-motorcycle-drunkest-operators.html",
+        "hero": "drafts/867-motorcycle-drunkest-operators.jpg",
+        "critic_panel": "drafts/867-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #864 on 2026-09-10; next available queue slot 2026-11-11",
+      "note": "Protection paradox: 26% of motorcycle riders in fatal crashes alcohol-impaired (2023 DOT HS 813 732), highest of any vehicle type (24% cars, 20% light trucks, 4% large trucks); 41% of single-vehicle rider deaths impaired; drunk riders helmeted 52% vs 66% sober (2021 Countermeasures That Work); 2024: 1,529 of 5,950 dead operators drunk (DOT HS 813 815). Mirror image of #817: on bikes the drunk IS the victim. Zero prior motorcycle+alcohol coverage on site. One pre-panel fragment-merge revision to clear rhythm gate."
     }
   ]
 }
