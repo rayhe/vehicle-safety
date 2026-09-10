@@ -1,25 +1,18 @@
 {
-  "current": {
-    "slug": "862-young-riders-surge",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "number": 862,
-    "started": "2026-09-09T17:30:00-07:00",
-    "title": "Motorcycle Deaths Fell 2.2% in 2024. Young Riders Missed the Memo."
-  },
-  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 researched/drafted/critiqued (8.83 avg) SHIP_BLOCKED 2026-11-04; #860 researched/drafted/critiqued (8.80 avg) SHIP_BLOCKED 2026-11-05; #861 researched/drafted/critiqued (8.91 avg) SHIP_BLOCKED 2026-11-06; queue now 75 items; current=null",
-  "last_checked": "2026-09-09T16:00:00-07:00",
+  "current": null,
+  "last_check_note": "#808 PUBLISHED 2026-09-09; #859 SHIP_BLOCKED 2026-11-04; #860 SHIP_BLOCKED 2026-11-05; #861 SHIP_BLOCKED 2026-11-06; #862 researched/drafted/critiqued (8.90 avg) SHIP_BLOCKED 2026-11-07 (young-rider motorcycle surge, Rex Driverton); queue now 76 items; current=null",
+  "last_checked": "2026-09-09T17:45:00-07:00",
   "last_completed": {
     "number": 861,
     "slug": "861-nsc-h1-2026-split-country",
     "phase": "SHIP_BLOCKED",
     "avg_critic": 8.91
   },
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": 808,
   "last_published_date": "2026-09-09",
   "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 862,
+  "next": 863,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2315,6 +2308,49 @@
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-06; 1/day rule consumed by #808 on 2026-09-09",
       "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
+    },
+    {
+      "number": 862,
+      "slug": "862-young-riders-surge",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "Motorcycle Deaths Fell 2.2% in 2024. Young Riders Went the Wrong Way.",
+      "ship_date": "2026-11-07",
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.7,
+        "sentence_rhythm": {
+          "variance": 293.3,
+          "short_pct": 9.1,
+          "long_pct": 39.4,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "word_count": 583
+      },
+      "files": {
+        "research": "drafts/862-young-riders-surge-research.md",
+        "draft": "drafts/862-young-riders-surge.html",
+        "hero": "drafts/862-young-riders-surge.jpg",
+        "critic_panel": "drafts/862-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-07; 1/day rule consumed by #808 on 2026-09-09",
+      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group."
     }
   ]
 }
