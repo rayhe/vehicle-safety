@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "867-motorcycle-drunkest-operators",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-09-10T03:45:00-07:00"
+  },
   "last_check_note": "#866 queued: ID.4 battery fire two-year gap (Clara Rollover, 8.79 avg), SHIP_BLOCKED 2026-11-10; queue now 80 items; current=null",
   "last_checked": "2026-09-10T01:55:00-07:00",
   "last_completed": {
