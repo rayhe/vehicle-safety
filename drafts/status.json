@@ -1,6 +1,14 @@
 {
- "current": null,
- "last_check_note": "2026-09-10 15:30 run: full pipeline for #873 (Axle McScatter, ram-1500-safest-pickup-spreadsheet-error). Research->draft->critique->hero complete; avg 8.93, all 7 critics >= 8.5, all gates PASS (em 0, banned 0, The 1.9%, rhythm 256.6/7.8/41.2). Panel caught and fixed two data errors pre-ship (combined rate 0.91->0.90; peer-placement misstatement). Queued SHIP_BLOCKED for 2026-11-16 (1/day gate consumed today; after #872 on 2026-11-15).",
+ "current": {
+  "slug": "874-telluride-tsp-build-month-asterisk",
+  "phase": "DRAFT",
+  "journalist": "Clara Rollover",
+  "kicker": "The Gap",
+  "started": "2026-09-10T17:30:00-07:00",
+  "number": 874,
+  "title": "The Award Is on the Model, Not the Car on the Lot"
+ },
+ "last_check_note": "2026-09-10 17:30 run: RESEARCH complete for #874 (Clara Rollover, telluride-tsp-build-month-asterisk). Fresh hook: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab validates outgoing gen (0.04 rate). Continuing to DRAFT.",
  "last_checked": "2026-09-10T15:55:00-07:00",
  "last_completed": 873,
  "last_journalist": "Axle McScatter",
