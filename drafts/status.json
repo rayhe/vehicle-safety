@@ -1,21 +1,13 @@
 {
- "current": {
-  "slug": "874-telluride-tsp-build-month-asterisk",
-  "phase": "DRAFT",
-  "journalist": "Clara Rollover",
-  "kicker": "The Gap",
-  "started": "2026-09-10T17:30:00-07:00",
-  "number": 874,
-  "title": "The Award Is on the Model, Not the Car on the Lot"
- },
- "last_check_note": "2026-09-10 17:30 run: RESEARCH complete for #874 (Clara Rollover, telluride-tsp-build-month-asterisk). Fresh hook: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab validates outgoing gen (0.04 rate). Continuing to DRAFT.",
- "last_checked": "2026-09-10T15:55:00-07:00",
- "last_completed": 873,
- "last_journalist": "Axle McScatter",
+ "current": null,
+ "last_check_note": "2026-09-10 17:30 run: full pipeline for #874 (Clara Rollover, telluride-tsp-build-month-asterisk). Research->draft->critique->hero complete; avg 8.86, all 7 critics >= 8.5, all gates PASS (em 0, banned 0, The 12.5%, rhythm 575.1/12.5/40.6). Panel caught and fixed three factual nits pre-score (invented Freep byline, third-lowest->ten-lowest, fars_output.py->.js). Queued SHIP_BLOCKED for 2026-11-17 (1/day gate consumed today).",
+ "last_checked": "2026-09-10T17:45:00-07:00",
+ "last_completed": 874,
+ "last_journalist": "Clara Rollover",
  "last_published": 808,
  "last_published_date": "2026-09-09",
  "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
- "next": 874,
+ "next": 875,
  "queue": [
   {
    "journalist": "Axle McScatter",
@@ -2806,6 +2798,50 @@
    },
    "blocked_reason": "1/day gate consumed on 2026-09-10; queue slot after #872 (2026-11-15) is 2026-11-16",
    "note": "Original contribution: FARS dual-coding denominator artifact \u2014 Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass."
+  },
+  {
+   "number": 874,
+   "slug": "874-telluride-tsp-build-month-asterisk",
+   "phase": "SHIP_BLOCKED",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "title": "The 2027 Telluride Won IIHS's Highest Award. Yours Might Not Have.",
+   "ship_date": "2026-11-17",
+   "avg_critic": 8.86,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.9
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.5,
+    "sentence_rhythm": {
+     "variance": 575.1,
+     "short_pct": 12.5,
+     "long_pct": 40.6,
+     "passed": true
+    },
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "0cf05c47",
+    "word_count": 698
+   },
+   "files": {
+    "research": "drafts/874-telluride-tsp-build-month-asterisk-research.md",
+    "draft": "drafts/874-telluride-tsp-build-month-asterisk.html",
+    "hero": "drafts/874-telluride-tsp-build-month-asterisk.jpg",
+    "critic_panel": "drafts/874-critic-panel-r0.md"
+   },
+   "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-17; 1/day rule consumed by 4 Publish commits on 2026-09-10",
+   "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure."
   }
  ]
 }
