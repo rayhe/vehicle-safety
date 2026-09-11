@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-09-11 05:30 run: #880 RESEARCH+DRAFT+CRITIQUE complete (Mia Crumplezone) — China 4.3M door-handle sticker recall. Round-0 panel pass (7/7 >= 8.5; avg 9.0). Gates: literal em-dashes 0 (3 rendered entities in body), banned phrases 0, The-starters 12.8%, real JPEG hero (2f9ebcb2, 1920x1280). 1/day rule consumed by #878 → SHIP_BLOCKED, nominal slot 2026-11-21. Queue now 93 entries.",
-  "last_checked": "2026-09-11T06:00:00-07:00",
+  "last_check_note": "2026-09-11 07:30 run: #881 RESEARCH+DRAFT+CRITIQUE complete (Vin Wreckage) \u2014 Dallas Waymo fatality exoneration, 49:1 energy ratio. Round-0 panel pass (7/7 >= 8.5; avg 9.0). Gates: literal em-dashes 0, banned phrases 0, The-starters 14.7%, rhythm PASS, real JPEG hero (6398f822). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-22.",
+  "last_checked": "2026-09-11T07:35:00-07:00",
   "last_completed": 878,
   "last_journalist": "Dale Impactor III",
   "last_published": 878,
@@ -2171,7 +2171,7 @@
         "critic_panel": "drafts/858-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle."
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
     },
     {
       "number": 859,
@@ -2215,7 +2215,7 @@
         "critic_panel": "drafts/859-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
     },
     {
       "number": 860,
@@ -2259,7 +2259,7 @@
         "critic_panel": "drafts/860-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
     },
     {
       "number": 861,
@@ -2302,7 +2302,7 @@
         "critic_panel": "drafts/861-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-06; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) — Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
     },
     {
       "number": 862,
@@ -2797,7 +2797,7 @@
         "critic_panel": "drafts/873-critic-panel-r0.md"
       },
       "blocked_reason": "1/day gate consumed on 2026-09-10; queue slot after #872 (2026-11-15) is 2026-11-16",
-      "note": "Original contribution: FARS dual-coding denominator artifact — Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass."
+      "note": "Original contribution: FARS dual-coding denominator artifact \u2014 Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass."
     },
     {
       "number": 874,
@@ -2841,7 +2841,7 @@
         "critic_panel": "drafts/874-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-17; 1/day rule consumed by 4 Publish commits on 2026-09-10",
-      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch — 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure."
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure."
     },
     {
       "number": 875,
@@ -2929,7 +2929,7 @@
         "critic_panel": "drafts/876-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-19; 1/day rule consumed 2026-09-10",
-      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) — regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR."
+      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) \u2014 regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR."
     },
     {
       "number": 877,
@@ -2970,6 +2970,40 @@
       },
       "blocked_reason": "Queued behind prior drafts; nominal slot 2026-11-21; 1/day rule consumed 2026-09-11 (#878)",
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel: China's Aug 21 2026 record 4.3M-vehicle door-handle recall (Tesla 2,975,910, effective Sep 25) fixed with warning labels + OTA; China bans hidden handles from 2027; US got 0 recalls (NHTSA denied ~180K Model 3 petition July 2026, rulemaking instead). No site coverage of this."
+    },
+    {
+      "number": 881,
+      "slug": "881-waymo-dallas-fatal-exoneration",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-22",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 14.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "6398f822",
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 559.8,
+          "short_pct": 3.3,
+          "long_pct": 50.0
+        }
+      },
+      "files": {
+        "research": "drafts/881-waymo-dallas-fatal-exoneration-research.md",
+        "draft": "drafts/881-waymo-dallas-fatal-exoneration.html",
+        "hero": "drafts/881-waymo-dallas-fatal-exoneration.jpg",
+        "critic_panel": "drafts/881-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed 2026-09-11 (#878); queued behind prior drafts",
+      "title": "The Robotaxi Did Everything Right and a Man Still Died in Dallas",
+      "kicker": "Existential Dread",
+      "note": "Round-0 panel 9.0 avg; 7/7 critics >= 8.5. Novel: Aug 7 2026 Dallas Waymo fatality (Maple Ave), Waymo 24->5 mph after 150-ft detection, SUV doing 35 in 30; original 49:1 kinetic-energy ratio + stopping-distance sanity check. No site coverage of this event."
     }
   ]
 }
