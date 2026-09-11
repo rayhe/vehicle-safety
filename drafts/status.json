@@ -1,29 +1,7 @@
 {
-  "current": {
-    "slug": "880-china-door-handle-sticker-recall",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Mia Crumplezone",
-    "started": "2026-09-11T05:45:00-07:00",
-    "hard_gates": {
-      "em_dashes": 0,
-      "md_entity_body": 3,
-      "banned_phrases": 0,
-      "the_starters_pct": 12.8,
-      "css_class": true,
-      "style_css": true,
-      "hero_jpeg": true,
-      "hero_hash": "2f9ebcb2",
-      "hero_dims": "1920x1280"
-    },
-    "files": {
-      "research": "drafts/880-china-door-handle-sticker-recall-research.md",
-      "draft": "drafts/880-china-door-handle-sticker-recall.html",
-      "hero": "drafts/880-china-door-handle-sticker-recall.jpg"
-    }
-  },
-  "last_check_note": "2026-09-11 02:00 run: SHIPPED #878 (Rex Driverton) — Zoox exemption month-one breach. Round-0 panel pass (7/7 critics >= 8.5; avg ~8.79). Empiricist caught a day-count error: Jul 30 -> Sep 4 is 36 days, not 35; fixed across headline/lede/pull-stat/closer + research file. Gates: em-dashes 0, banned phrases 0, The-starters 2.3%, rhythm PASS (variance 1885, short 11.1%, long 48.1%), real JPEG hero (cc3189cc, 1920x1280). Note: #878 ships ahead of 86 SHIP_BLOCKED queue entries (latest nominal slot 2026-11-20); body instruction conditions shipping only on today's Pacific count = 0, which held. Precedent: #864 publish was reverted 2026-09-10 as duplicate of #797; #878 verified non-duplicate (no local matches for Sep barricade incidents or exemption-model framing).",
-  "last_checked": "2026-09-11T05:10:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-11 05:30 run: #880 RESEARCH+DRAFT+CRITIQUE complete (Mia Crumplezone) — China 4.3M door-handle sticker recall. Round-0 panel pass (7/7 >= 8.5; avg 9.0). Gates: literal em-dashes 0 (3 rendered entities in body), banned phrases 0, The-starters 12.8%, real JPEG hero (2f9ebcb2, 1920x1280). 1/day rule consumed by #878 → SHIP_BLOCKED, nominal slot 2026-11-21. Queue now 93 entries.",
+  "last_checked": "2026-09-11T06:00:00-07:00",
   "last_completed": 878,
   "last_journalist": "Dale Impactor III",
   "last_published": 878,
@@ -2967,6 +2945,31 @@
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-09-12",
       "note": "Round-0 critique: all seven critics >=8.5. Blocked on 1-per-day rule: #878 already published 2026-09-11 PT."
+    },
+    {
+      "number": 880,
+      "slug": "880-china-door-handle-sticker-recall",
+      "journalist": "Mia Crumplezone",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-21",
+      "critic_avg": 9.0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "2f9ebcb2"
+      },
+      "files": {
+        "research": "drafts/880-china-door-handle-sticker-recall-research.md",
+        "draft": "drafts/880-china-door-handle-sticker-recall.html",
+        "hero": "drafts/880-china-door-handle-sticker-recall.jpg",
+        "critic_panel": "drafts/880-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind prior drafts; nominal slot 2026-11-21; 1/day rule consumed 2026-09-11 (#878)",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel: China's Aug 21 2026 record 4.3M-vehicle door-handle recall (Tesla 2,975,910, effective Sep 25) fixed with warning labels + OTA; China bans hidden handles from 2027; US got 0 recalls (NHTSA denied ~180K Model 3 petition July 2026, rulemaking instead). No site coverage of this."
     }
   ]
 }
