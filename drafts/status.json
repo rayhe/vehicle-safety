@@ -1,21 +1,13 @@
 {
-  "current": {
-    "slug": "883-nissan-nv200-drug-beats-alcohol",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-09-11T13:32:04-07:00",
-    "number": 883,
-    "title": "The Delivery Van Where Drugs Beat Alcohol",
-    "kicker": "Sobriety Report"
-  },
-  "last_check_note": "2026-09-11 11:30 run: #882 RESEARCH+DRAFT+CRITIQUE complete (Jeep Grand Cherokee coil spring, third recall 26V562). Round-0 panel pass (7/7 >= 8.5; avg 8.93). Gates: literal em-dashes 0, banned phrases 0, The-starters 14.6%, rhythm PASS, real JPEG hero (4eced03d). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-23.",
+  "current": null,
+  "last_check_note": "2026-09-11 13:30 run: #883 RESEARCH+DRAFT+CRITIQUE complete (Nissan NV200 drug>alcohol inversion, Dale Impactor III). Round-0 panel pass (7/7 >= 8.5; avg 8.91). Gates: em-dashes 0, banned 0, The-starters 9.1%, rhythm PASS (var 206.8), real JPEG hero (52964e8a). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-24. Note: first angle (Jeep TPMS 54D recall) killed on duplicate check vs #855.",
   "last_checked": "2026-09-11T11:30:00-07:00",
   "last_completed": 878,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": 878,
   "last_published_date": "2026-09-11",
   "last_published_slug": "878-zoox-exemption-month-one-breach",
-  "next": 883,
+  "next": 884,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3046,6 +3038,50 @@
       "title": "Jeep Has Recalled the Same Coil Spring Three Times. The Fix Is Still Coming.",
       "kicker": "Investigation",
       "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Novel: third campaign (26V562/89D) for the same rear coil spring defect (23V413 Jun 2023 -> 26V051 Jan 2026 -> Sep 2026); 328,381 vehicles; 0.12% observed warranty-claim rate vs Stellantis 0.1% estimate cross-check; 23% of campaign-1 population re-recalled in campaign 2. No site coverage of this."
+    },
+    {
+      "number": 883,
+      "slug": "883-nissan-nv200-drug-beats-alcohol",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "title": "The Delivery Van Where Drugs Beat Alcohol",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-24",
+      "started": "2026-09-11T13:30:00-07:00",
+      "critic_avg": 8.91,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 206.8,
+          "short_pct": 12.5,
+          "long_pct": 62.5
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "52964e8a"
+      },
+      "files": {
+        "research": "drafts/883-nissan-nv200-drug-beats-alcohol-research.md",
+        "draft": "drafts/883-nissan-nv200-drug-beats-alcohol.html",
+        "hero": "drafts/883-nissan-nv200-drug-beats-alcohol.jpg",
+        "critic_panel": "drafts/883-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed 2026-09-11 (#878); queued behind prior drafts",
+      "note": "Round-0 panel pass (7/7 >= 8.5; avg 8.91). Novel: 2-of-307 drug>alcohol inversion cross-tab (NV200 12.7% drug vs 11.8% alc, n=212; only Grand Vitara also inverts); detection-window dissolution (THC ~30d vs alcohol hours); 27v25 margin flagged as noise. Pivot: initial TPMS-recall angle scrapped after discovering #855 already covers the identical recall."
     }
   ]
 }
