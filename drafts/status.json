@@ -1,21 +1,13 @@
 {
-  "current": {
-    "slug": "878-zoox-exemption-month-one-breach",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "number": 878,
-    "started": "2026-09-11T01:45:00-07:00",
-    "title": "Thirty-Five Days After Winning America's First Robotaxi Exemption, a Zoox Drove Around a Road-Closed Sign"
-  },
-  "last_check_note": "2026-09-11 01:45 run: RESEARCH #878 (Rex Driverton) \u2014 Zoox paid-launch month-one incidents (Sept 4 Arts District barricade breach + Decatur/Russell rear-end) stress-test the July 30 exemption. Killed: Jeep 89D coil spring, Jeep TPMS 54D, Ram 83D, Forest River Vibe, PACCAR 26V567, Ricon lift, Light Boy, NSC H1 2026, Tesla asleep/Krishnamoorthi, Cybercab AQ26002, Toyota C-HR 26TA17, Rivian 26V-508, IIHS Sep wave, GM V8 probe; Rivian 24,214 HWA is 25V585 (Sep 2025, hallucinated-2026-date trap).",
-  "last_checked": "2026-09-11T01:45:00-07:00",
-  "last_completed": 874,
-  "last_journalist": "Vin Wreckage",
-  "last_published": 808,
-  "last_published_date": "2026-09-09",
-  "last_published_slug": "808-toyota-replacement-curtain-airbag-recall",
-  "next": 878,
+  "current": null,
+  "last_check_note": "2026-09-11 02:00 run: SHIPPED #878 (Rex Driverton) \u2014 Zoox exemption month-one breach. Round-0 panel pass (7/7 critics >= 8.5; avg ~8.79). Empiricist caught a day-count error: Jul 30 -> Sep 4 is 36 days, not 35; fixed across headline/lede/pull-stat/closer + research file. Gates: em-dashes 0, banned phrases 0, The-starters 2.3%, rhythm PASS (variance 1885, short 11.1%, long 48.1%), real JPEG hero (cc3189cc, 1920x1280). Note: #878 ships ahead of 86 SHIP_BLOCKED queue entries (latest nominal slot 2026-11-20); body instruction conditions shipping only on today's Pacific count = 0, which held. Precedent: #864 publish was reverted 2026-09-10 as duplicate of #797; #878 verified non-duplicate (no local matches for Sep barricade incidents or exemption-model framing).",
+  "last_checked": "2026-09-11T02:00:00-07:00",
+  "last_completed": 878,
+  "last_journalist": "Rex Driverton",
+  "last_published": 878,
+  "last_published_date": "2026-09-11",
+  "last_published_slug": "878-zoox-exemption-month-one-breach",
+  "next": 879,
   "queue": [
     {
       "journalist": "Axle McScatter",
