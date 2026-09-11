@@ -1,19 +1,13 @@
 {
-  "current": {
-    "num": 879,
-    "slug": "879-young-drunk-driver-pedestrian-doubling",
-    "journalist": "Dale Impactor III",
-    "phase": "DRAFT",
-    "timestamp": "2026-09-11T04:55:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-09-11 02:00 run: SHIPPED #878 (Rex Driverton) \u2014 Zoox exemption month-one breach. Round-0 panel pass (7/7 critics >= 8.5; avg ~8.79). Empiricist caught a day-count error: Jul 30 -> Sep 4 is 36 days, not 35; fixed across headline/lede/pull-stat/closer + research file. Gates: em-dashes 0, banned phrases 0, The-starters 2.3%, rhythm PASS (variance 1885, short 11.1%, long 48.1%), real JPEG hero (cc3189cc, 1920x1280). Note: #878 ships ahead of 86 SHIP_BLOCKED queue entries (latest nominal slot 2026-11-20); body instruction conditions shipping only on today's Pacific count = 0, which held. Precedent: #864 publish was reverted 2026-09-10 as duplicate of #797; #878 verified non-duplicate (no local matches for Sep barricade incidents or exemption-model framing).",
-  "last_checked": "2026-09-11T02:00:00-07:00",
+  "last_checked": "2026-09-11T05:10:00-07:00",
   "last_completed": 878,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": 878,
   "last_published_date": "2026-09-11",
   "last_published_slug": "878-zoox-exemption-month-one-breach",
-  "next": 879,
+  "next": 880,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -2943,6 +2937,14 @@
       "journalist": "Vin Wreckage",
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-11-20"
+    },
+    {
+      "number": 879,
+      "slug": "879-young-drunk-driver-pedestrian-doubling",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-12",
+      "note": "Round-0 critique: all seven critics >=8.5. Blocked on 1-per-day rule: #878 already published 2026-09-11 PT."
     }
   ]
 }
