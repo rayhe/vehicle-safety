@@ -1,7 +1,15 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-10 23:30 run: full pipeline for #877 (Rivian 26V-508 turn-signal recall expansion; Myotek failed to quarantine). Research->draft->critique->hero complete; avg 8.71, all 7 critics >= 8.5, all gates PASS (em 0, banned 0, The 10.7%, 472 words). Killed angles: Ford 26V487 (covered 820), Durango spoiler 61D (covered), Jeep TPMS 54D (855), Rivian HWA 25V585 (stale + hallucinated date), Jeep coil-spring (847/858/865), NSC June state data (861/869). Queued SHIP_BLOCKED for 2026-11-20 (1/day gate consumed today).",
-  "last_checked": "2026-09-10T23:45:00-07:00",
+  "current": {
+    "slug": "878-zoox-exemption-month-one-breach",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "number": 878,
+    "started": "2026-09-11T01:45:00-07:00",
+    "title": "Thirty-Five Days After Winning America's First Robotaxi Exemption, a Zoox Drove Around a Road-Closed Sign"
+  },
+  "last_check_note": "2026-09-11 01:45 run: RESEARCH #878 (Rex Driverton) \u2014 Zoox paid-launch month-one incidents (Sept 4 Arts District barricade breach + Decatur/Russell rear-end) stress-test the July 30 exemption. Killed: Jeep 89D coil spring, Jeep TPMS 54D, Ram 83D, Forest River Vibe, PACCAR 26V567, Ricon lift, Light Boy, NSC H1 2026, Tesla asleep/Krishnamoorthi, Cybercab AQ26002, Toyota C-HR 26TA17, Rivian 26V-508, IIHS Sep wave, GM V8 probe; Rivian 24,214 HWA is 25V585 (Sep 2025, hallucinated-2026-date trap).",
+  "last_checked": "2026-09-11T01:45:00-07:00",
   "last_completed": 874,
   "last_journalist": "Vin Wreckage",
   "last_published": 808,
