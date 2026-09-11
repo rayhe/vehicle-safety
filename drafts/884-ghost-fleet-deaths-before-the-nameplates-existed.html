@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ghost Fleet: 1,466 Deaths Filed Under Cars That Didn't Exist Yet &mdash; The Crash Report</title>
+  <meta name="description" content="Our own FARS pipeline mislabeled 1,466 deaths across 11 nameplates. Lincoln MKCs dying in 2001. Chevy Sparks dying in 1995. The cars did not exist. The codes were recycled.">
+  <meta property="og:title" content="The Ghost Fleet: 1,466 Deaths Filed Under Cars That Didn't Exist Yet">
+  <meta property="og:description" content="A self-audit of our FARS pipeline found 1,466 deaths attributed to model years before the nameplates existed. The HHR's death rate halves. The MKC's falls 84 percent.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/884-ghost-fleet-deaths-before-the-nameplates-existed.jpg?v=6e3c47f9">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>The Ghost Fleet: 1,466 Deaths Filed Under Cars That Didn't Exist Yet</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">September 11, 2026</div>
+
+      <img src="../images/884-ghost-fleet-deaths-before-the-nameplates-existed.jpg?v=6e3c47f9" alt="A phantom car silhouette fading out of a spreadsheet of model-year death counts">
+
+      <div class="story-body">
+      <p>I ran the numbers, then I ran them again, and they didn't get better.</p>
+
+      <p>Our database credits the Chevrolet HHR with 269 deaths in model years 1992 through 2001, fourteen years before the first HHR existed. A car cannot kill anyone before it is built, so I traced those deaths. They were Chevrolet Luminas, mislabeled by our own pipeline. Eleven nameplates carry <strong>1,466 deaths</strong> from model years in which the nameplate did not exist. The HHR is merely the one I found first.</p>
+
+      <div class="pull-stat">86.7%</div>
+      <div class="pull-label">Share of the Lincoln MKC's recorded deaths from model years before the MKC existed (2000&ndash;2006; the MKC launched for 2015)</div>
+
+      <p>Cross-tabulating every model's deaths by model year against production history gives the ghost census:</p>
+
+      <table class="data-table">
+        <thead><tr><th>Labeled model</th><th>Ghost years</th><th>Ghost deaths</th><th>Share</th><th>Really were</th></tr></thead>
+        <tbody>
+          <tr><td>Lincoln MKC</td><td>2000&ndash;2006</td><td>144</td><td>86.7%</td><td>Lincoln LS</td></tr>
+          <tr><td>Chevrolet Spark</td><td>1995&ndash;2007</td><td>348</td><td>67.7%</td><td>Monte Carlo</td></tr>
+          <tr><td>Chevrolet Sonic</td><td>2004&ndash;2011</td><td>296</td><td>59.9%</td><td>Aveo</td></tr>
+          <tr><td>Chevrolet HHR</td><td>1992&ndash;2001</td><td>269</td><td>50.9%</td><td>Lumina</td></tr>
+          <tr><td>Buick Encore</td><td>2002&ndash;2007</td><td>172</td><td>50.9%</td><td>Rendezvous</td></tr>
+          <tr><td>Honda Fit</td><td>1988&ndash;2001</td><td>62</td><td>23.4%</td><td>Prelude</td></tr>
+          <tr><td>Buick Enclave</td><td>2004&ndash;2006</td><td>54</td><td>28.4%</td><td>Rainier</td></tr>
+          <tr><td>Chevrolet Equinox</td><td>1991&ndash;2000</td><td>54</td><td>5.2%</td><td>Geo Metro</td></tr>
+          <tr><td>Toyota Prius</td><td>1990&ndash;2000</td><td>37</td><td>8.0%</td><td>Celica</td></tr>
+          <tr><td>Nissan Rogue</td><td>1985&ndash;1995</td><td>25</td><td>2.6%</td><td>Z-car</td></tr>
+          <tr><td>Toyota Sienna</td><td>1992</td><td>5</td><td>1.2%</td><td>Previa</td></tr>
+        </tbody>
+      </table>
+
+      <p>The mechanism is a recycled codebook. FARS identifies models with a make-plus-model number, and NHTSA reuses a dead model's number for a new nameplate. Chevrolet 036 meant the Monte Carlo for years; after the Monte Carlo died, 036 became the Spark. Our pipeline maps every pre-2019 FARS record with one static table, so it reads 1998 Monte Carlos as 1998 Sparks. Every case shows the same fingerprint: ghost deaths, then a zero-death gap while the old car is dead and the new one is unborn, then real deaths. NHTSA's own manual warns analysts to use the VIN-decoded model field instead of the raw code for exactly this reason.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Corrected rates change numbers this site has published. Start with the HHR: it falls from 2.12 to about 1.05, breaking the central matched pair in our Camry-versus-HHR story (#872): 2.03 against 1.05 is not the same rate. Next the Spark, from 1.28 to about 0.42; the Sonic from 1.40 to about 0.56; the Encore from 0.52 to about 0.26; the MKC from 0.79 to about 0.13. It runs both ways: roughly 348 Monte Carlos hide in the Spark row, 296 Aveos in the Sonic row, 144 Lincoln LS sedans in the MKC row. Those donor models are undercounted by the same stroke.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>The HHR case has two more errors stacked inside it. Real pre-2019 HHRs were coded 023, which our map omits entirely, so genuine HHR deaths were dropped while 269 Luminas were added. Impairment statistics for all eleven models mix ghost drivers with real ones; the toxicology rows cannot be split by model year and stay contaminated until the dataset is rebuilt.</p>
+
+      <p>Limitations first; self-audits get no charity. These corrections assume fleet and mileage denominators belong to the true nameplate. Crash data from 2019 on uses VIN-decoded models and is clean, so the rot is confined to earlier years. National fatality counts are untouched. Every one of these 1,466 deaths is real; only the badge is wrong.</p>
+
+      <p>Strongest counterargument: brand-level conclusions barely move, and that much is true. But model-level numbers are the product this site sells. A rate that halves when you remove cars that never existed was never a measurement; it was a typo with a confidence interval. Fixing it means a year-aware code map, a rebuilt dataset, and corrections to the stories that cited these figures, and that work starts now.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>FARS Analytical User&rsquo;s Manual 1975&ndash;2011</em> (DOT HS 811 693), Appendix A: Vehicle Make/Model Designation; VIN Model element: &ldquo;If one needs to select cars based on make and model the data element of choice is VINA_MOD rather than MAK_MOD.&rdquo; <a href="https://data.nber.org/fars/ftp.nhtsa.dot.gov/FARS/FARS-DOC/USERGUIDE-2011.pdf" target="_blank" rel="noopener">nber.org (NHTSA mirror)</a></li>
+          <li id="ref-3">Vehicle-safety.org pipeline sources: <em>fars_process.py</em> MAK_MOD_MAP and <em>fars_output.js</em> FARS_MODEL_YEAR / FARS_BY_MODEL (model-year death distributions and published rates used for the ghost census and corrections). <a href="https://github.com/rayhe/vehicle-safety" target="_blank" rel="noopener">github.com/rayhe/vehicle-safety</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Ghost-death census computed from model-year death distributions cross-tabulated against nameplate production history; corrected rates scale published rates by the true-death fraction. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
