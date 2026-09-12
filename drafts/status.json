@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "893-bluecruise-ntsb-toxicology-report",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-09-12T09:30:00-07:00"
+  },
   "last_check_note": "QA passed 2026-09-12: live URL 200, hero 200 real JPEG, index card + sitemap present",
   "last_checked": "2026-09-12T05:30:00-07:00",
   "last_completed": 892,
