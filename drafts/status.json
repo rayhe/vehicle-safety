@@ -1,7 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "888-tesla-lateral-link-blame-the-driver-probe",
+    "number": 888,
+    "journalist": "Rex Driverton",
+    "phase": "DRAFT",
+    "started": "2026-09-11T23:30:00-07:00",
+    "kicker": "Investigation",
+    "title": "Tesla Told Drivers the Suspension Failures Were Their Fault. NHTSA Just Opened a Probe Into 1.2 Million Cars."
+  },
   "last_check_note": "2026-09-11 21:30 run: #887 RESEARCH+DRAFT+CRITIQUE complete (Tesla Certified a Car With No Brake Pedal as Compliant, Mia Crumplezone). Round-0 pass 8.71 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 0 pct, rhythm PASS (var 53.3), real JPEG hero (7bbcb8ae). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-28.",
-  "last_checked": "2026-09-11T21:30:00-07:00",
+  "last_checked": "2026-09-11T23:30:00-07:00",
   "last_completed": 878,
   "last_journalist": "Mia Crumplezone",
   "last_published": 878,
