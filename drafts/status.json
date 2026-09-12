@@ -1,7 +1,17 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-11 15:30 run: #884 RESEARCH+DRAFT+CRITIQUE complete (Ghost Fleet: 1,466 deaths filed under cars that didn't exist yet, Axle McScatter Investigation). Round-0 panel pass (7/7 >= 8.5; avg 8.86). Gates: em-dashes 0, banned 0, The-starters 3.0%, rhythm PASS (var 575.9), real JPEG hero (6e3c47f9). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-25. Confirmed static-code-map defect: 11 nameplates carry ghost deaths from recycled MAK_MOD codes (MKC 86.7%, Spark 67.7%, Sonic 59.9%); corrected HHR 2.12->1.05 invalidates #872 Camry/HHR comparison (2.03 vs 1.05). HHR reverse error: real pre-2019 HHRs coded 023, map omits 023.",
-  "last_checked": "2026-09-11T11:30:00-07:00",
+  "current": {
+    "number": 885,
+    "slug": "retraction-rankings-spark-was-never-a-death-trap",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "kicker": "The Gap",
+    "title": "The Retraction: The Chevrolet Spark Was Never a Death Trap",
+    "started": "2026-09-11T17:30:00-07:00",
+    "critique_round": 0,
+    "note": "Retraction column applying #884 Ghost Fleet corrections: Spark 1.28->0.42, Sonic 1.40->0.56, MKC 0.79->0.13, HHR 2.12->1.05; donor undercounts (Monte Carlo ~2.09, Aveo ~2.17). Real JPEG hero cffcc3c0 wired with og:image."
+  },
+  "last_check_note": "2026-09-11 17:30 run: #885 RESEARCH+DRAFT complete (The Retraction: Spark corrected 1.28->0.42, Rex Driverton). Phase=CRITIQUE round 0.",
+  "last_checked": "2026-09-11T17:30:00-07:00",
   "last_completed": 878,
   "last_journalist": "Dale Impactor III",
   "last_published": 878,
@@ -2171,7 +2181,7 @@
         "critic_panel": "drafts/858-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-03; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle."
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle."
     },
     {
       "number": 859,
@@ -2215,7 +2225,7 @@
         "critic_panel": "drafts/859-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-04; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation)."
     },
     {
       "number": 860,
@@ -2259,7 +2269,7 @@
         "critic_panel": "drafts/860-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-05; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight."
     },
     {
       "number": 861,
@@ -2302,7 +2312,7 @@
         "critic_panel": "drafts/861-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-06; 1/day rule consumed by #808 on 2026-09-09",
-      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) — Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025)."
     },
     {
       "number": 862,
@@ -2797,7 +2807,7 @@
         "critic_panel": "drafts/873-critic-panel-r0.md"
       },
       "blocked_reason": "1/day gate consumed on 2026-09-10; queue slot after #872 (2026-11-15) is 2026-11-16",
-      "note": "Original contribution: FARS dual-coding denominator artifact — Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass."
+      "note": "Original contribution: FARS dual-coding denominator artifact \u2014 Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass."
     },
     {
       "number": 874,
@@ -2841,7 +2851,7 @@
         "critic_panel": "drafts/874-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-17; 1/day rule consumed by 4 Publish commits on 2026-09-10",
-      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch — 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure."
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure."
     },
     {
       "number": 875,
@@ -2929,7 +2939,7 @@
         "critic_panel": "drafts/876-critic-panel-r0.md"
       },
       "blocked_reason": "Queued behind prior drafts; next publish slot 2026-11-19; 1/day rule consumed 2026-09-10",
-      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) — regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR."
+      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) \u2014 regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR."
     },
     {
       "number": 877,

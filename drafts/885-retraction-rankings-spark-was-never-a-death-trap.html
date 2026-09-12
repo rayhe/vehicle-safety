@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Retraction: The Chevrolet Spark Was Never a Death Trap &mdash; The Crash Report</title>
+  <meta name="description" content="After the Ghost Fleet audit found 1,466 mislabeled FARS deaths, we recompute the real fatality leaderboard. The Chevrolet Spark was never a death trap: its corrected rate is 0.42.">
+  <meta property="og:title" content="The Retraction: The Chevrolet Spark Was Never a Death Trap">
+  <meta property="og:description" content="1,466 FARS deaths were filed under the wrong badges. Corrected numbers: the Spark is one of the safest cheap cars in the database.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/885-retraction-rankings-spark-was-never-a-death-trap.jpg?v=cffcc3c0">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>The Retraction: The Chevrolet Spark Was Never a Death Trap</h1>
+      <div class="byline">Rex Driverton &bull; Clautomotive Desk</div>
+      <div class="dateline">September 11, 2026</div>
+
+      <img src="../images/885-retraction-rankings-spark-was-never-a-death-trap.jpg?v=cffcc3c0" alt="A tiny silver hatchback alone on a used-car lot at dusk, with a giant magnifying glass looming in the sky above it">
+
+            <div class="story-body">
+      <p>After yesterday's finding that 1,466 FARS deaths were filed under cars that didn't exist yet, this site has a debt to pay: <strong>two-thirds of the Chevrolet Spark's recorded deaths were actually 1995-2007 Monte Carlos, mislabeled by our own static make-model map</strong>, and the 1.28 deaths per 100M VMT we printed for years was wrong. Corrected rate: 0.42.</p>
+
+      <div class="pull-stat">0.42</div>
+      <div class="pull-label">Chevrolet Spark's corrected fatality rate, second-safest cheap car in the database</div>
+
+      <p>Wrong car. One paragraph of plumbing: pre-2019 FARS records were mapped with a single static make-model table, and NHTSA reuses dead models' codes for new nameplates, so code 20036 kept meaning Monte Carlo long after our map read it as Spark. Three hundred forty-eight Monte Carlos died on the Spark's behalf. We printed the obituary under the wrong badge.</p>
+
+      <p>Strip the ghosts and the cheap-car leaderboard we published for years collapses. Spark: 1.28 to 0.42, second-safest of the cheap set behind only the Mirage at 0.40. Sonic: 1.40 to 0.56, now safer than the Fit (0.72 to 0.57). The Lincoln MKC, saddled with 144 Lincoln LS ghosts, falls from 0.79 to 0.13, quietly one of the safest luxury crossovers per mile in the dataset. Our &ldquo;cheapest cars are the deadliest&rdquo; narrative, run across <em>Subcompact Death Lottery</em> and the Spark-to-Trax piece, does not survive contact with its own audit.</p>
+
+      <p>Nobody set out to libel a subcompact. We ran the pipeline's numbers and trusted them, which is the same sin we're now documenting in everyone else. That is exactly why the retraction runs at full size.</p>
+
+      <p>Those 1,466 ghosts are real deaths belonging to real donor cars whose own rows sit in this database undercounted. The Monte Carlo's row shows 178 deaths against a true figure near 526, rough corrected rate around 2.09. Two hundred ninety-six Aveo deaths hide in the Sonic row, so the Aveo's own row shows 138 and should show about 434. Lumina, Rendezvous, Lincoln LS: same robbery of their own dead. Both directions, then, the defect flattering the old muscle while punishing the new cheap, and somewhere out there a buyer skipped a safe used Spark because of a number we printed while a used Aveo looked safer than it was.</p>
+
+      <p>Shopping the bottom of the used market? A 2013-or-newer Spark or 2012-or-newer Sonic is now a legitimately strong safety buy at $5,000 to $9,000. Check any candidate's VIN at nhtsa.gov/recalls before money changes hands, and remember per-mile risk says nothing about how a car handles the one crash you actually have.</p>
+
+      <p>Shown arithmetic, so you can check it: corrected rate equals published rate times true deaths divided by published deaths, with fleet and VMT denominators assumed to belong to the true nameplate. Decimals approximate; direction not. Donor-side corrections are rougher, since those denominators were keyed to different fleets. Our toxicology rows for all eleven receiver models still mix ghost-model drivers and can't be split from the current output. Post-2018 crash data was VIN-decoded and never touched by this bug.</p>
+
+      <p>Strongest objection: nobody cross-shops a 2013 Spark against a Mirage on deaths per hundred million vehicle miles traveled. True. But shoppers absolutely cross-shop used Sparks against used Sonics, the badge is the product we sold, and we printed wrong numbers next to real badges for three years. Saying so out loud is the least we can do.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>FARS Analytical User's Manual 1975&ndash;2011</em> (DOT HS 811 693), Appendix A, Vehicle Make/Model Designation. <a href="https://data.nber.org/fars/ftp.nhtsa.dot.gov/FARS/FARS-DOC/USERGUIDE-2011.pdf" target="_blank" rel="noopener">data.nber.org</a></li>
+          <li id="ref-3">The Crash Report, #884, &ldquo;The Ghost Fleet: 1,466 Deaths Filed Under Cars That Didn't Exist Yet&rdquo; (2026), and the site's own published stories it cites, including <em>Same Rate, Two Autopsies</em> (#872), <em>Subcompact Death Lottery</em>, and <em>Honda Fit: Safest Subcompact, Killed</em>. <a href="https://github.com/rayhe/vehicle-safety" target="_blank" rel="noopener">github.com/rayhe/vehicle-safety</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Corrected rates are approximate: denominators (fleet/VMT) are assumed keyed to the true nameplate, donor-side corrections are rough, and toxicology rows remain contaminated. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
