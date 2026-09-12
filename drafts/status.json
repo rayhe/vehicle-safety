@@ -1,29 +1,20 @@
 {
   "current": {
     "slug": "892-canyon-colorado-twins",
-    "phase": "SHIP",
+    "phase": "QA",
     "journalist": "Rex Driverton",
     "started": "2026-09-12T07:30:00-07:00",
     "number": 892,
-    "critique_rounds": 1,
-    "scores": {
-      "general": 9.0,
-      "voice": 9.0,
-      "ethics": 9.0,
-      "social": 8.5,
-      "legal": 9.0,
-      "rigor": 9.0,
-      "data": 9.0
-    }
+    "published": "2026-09-12"
   },
   "last_check_note": "2026-09-12 05:30 run: #891 RESEARCH+DRAFT+CRITIQUE complete (Jeep Grand Cherokee Third Coil Spring Recall, Mia Crumplezone). Round-0 pass 8.86 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 5.6 pct, rhythm PASS (var 219.3, short 13.9 pct), real JPEG hero (a2e32dab). 1/day rule -> SHIP_BLOCKED, nominal slot 2026-12-02.",
   "last_checked": "2026-09-12T05:30:00-07:00",
-  "last_completed": 878,
+  "last_completed": 892,
   "last_journalist": "Rex Driverton",
-  "last_published": 878,
-  "last_published_date": "2026-09-11",
-  "last_published_slug": "878-zoox-exemption-month-one-breach",
-  "next": 892,
+  "last_published": "GM Builds Two Identical Trucks in the Same Missouri Plant. One Kills at Twice the Rate.",
+  "last_published_date": "2026-09-12",
+  "last_published_slug": "892-canyon-colorado-twins",
+  "next": 893,
   "queue": [
     {
       "journalist": "Axle McScatter",
