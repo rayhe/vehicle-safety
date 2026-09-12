@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-11 19:30 run: #886 RESEARCH+DRAFT+CRITIQUE complete (The Recall That Recalled the Recall Just Got Recalled, Clara Rollover). Round-0 pass 8.86 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 6.9 pct, rhythm PASS (var 338.8), real JPEG hero (a2789514). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-27.",
-  "last_checked": "2026-09-11T19:30:00-07:00",
+  "last_check_note": "2026-09-11 21:30 run: #887 RESEARCH+DRAFT+CRITIQUE complete (Tesla Certified a Car With No Brake Pedal as Compliant, Mia Crumplezone). Round-0 pass 8.71 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 0 pct, rhythm PASS (var 53.3), real JPEG hero (7bbcb8ae). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-28.",
+  "last_checked": "2026-09-11T21:30:00-07:00",
   "last_completed": 878,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 878,
   "last_published_date": "2026-09-11",
   "last_published_slug": "878-zoox-exemption-month-one-breach",
-  "next": 887,
+  "next": 888,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3199,6 +3199,45 @@
         "word_count": 463
       },
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Triple recall: 23V413 (~345K, 2023) -> 26V051 (80,620, botched-remedy recall, 2026) -> 89D/26V562 (328,381, Sept 2026, replaces both). Novel: 754,001 cumulative notices on one ~345K fleet. Draft+hero+research in drafts/ (886- prefix). No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-26."
+    },
+    {
+      "number": 887,
+      "slug": "cybercab-self-certified-no-pedal",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "title": "Tesla Certified a Car With No Brake Pedal as Compliant. NHTSA Asked to See the Homework.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-28",
+      "started": "2026-09-11T21:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.71,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 8.71
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 53.3,
+          "short_pct": 21.7,
+          "long_pct": 26.1,
+          "passed": true
+        },
+        "hero_hash": "7bbcb8ae",
+        "jpeg_valid": true,
+        "word_count": 457
+      },
+      "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. AQ26002 opened Sept 3 same day Tesla launched commercial Cybercab rides in Austin; NHTSA examining technical basis of Tesla's self-certification of pedalless/wheel-less car; Zoox precedent (2022 self-cert -> audit -> Part 555 exemption Jul 2026, 2,500/yr cap); novel: cap math makes self-certification the only scalable route; Tesla launched into gap between existing standards and June 2026 manual-control rulemaking. One fix applied pre-score: 'hours later' sequencing -> neutral. Draft+hero+research in drafts/ (887- prefix). No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-27."
     }
   ]
 }
