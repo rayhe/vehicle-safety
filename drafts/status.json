@@ -1,17 +1,9 @@
 {
-  "current": {
-    "slug": "888-tesla-lateral-link-blame-the-driver-probe",
-    "number": 888,
-    "journalist": "Rex Driverton",
-    "phase": "DRAFT",
-    "started": "2026-09-11T23:30:00-07:00",
-    "kicker": "Investigation",
-    "title": "Tesla Told Drivers the Suspension Failures Were Their Fault. NHTSA Just Opened a Probe Into 1.2 Million Cars."
-  },
-  "last_check_note": "2026-09-11 21:30 run: #887 RESEARCH+DRAFT+CRITIQUE complete (Tesla Certified a Car With No Brake Pedal as Compliant, Mia Crumplezone). Round-0 pass 8.71 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 0 pct, rhythm PASS (var 53.3), real JPEG hero (7bbcb8ae). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-28.",
+  "current": null,
+  "last_check_note": "2026-09-11 23:30 run: #888 RESEARCH+DRAFT+CRITIQUE complete (Tesla Told Drivers the Suspension Failures Were Their Fault. NHTSA Just Opened a Probe Into 1.2 Million Cars., Rex Driverton). Round-0 pass 9.0 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 12.5 pct, rhythm PASS (var 86.9), real JPEG hero (06bceb4d). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-29.",
   "last_checked": "2026-09-11T23:30:00-07:00",
   "last_completed": 878,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": 878,
   "last_published_date": "2026-09-11",
   "last_published_slug": "878-zoox-exemption-month-one-breach",
@@ -3246,6 +3238,44 @@
         "word_count": 457
       },
       "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. AQ26002 opened Sept 3 same day Tesla launched commercial Cybercab rides in Austin; NHTSA examining technical basis of Tesla's self-certification of pedalless/wheel-less car; Zoox precedent (2022 self-cert -> audit -> Part 555 exemption Jul 2026, 2,500/yr cap); novel: cap math makes self-certification the only scalable route; Tesla launched into gap between existing standards and June 2026 manual-control rulemaking. One fix applied pre-score: 'hours later' sequencing -> neutral. Draft+hero+research in drafts/ (887- prefix). No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-27."
+    },
+    {
+      "number": 888,
+      "slug": "888-tesla-lateral-link-blame-the-driver-probe",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "title": "Tesla Told Drivers the Suspension Failures Were Their Fault. NHTSA Just Opened a Probe Into 1.2 Million Cars.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-29",
+      "started": "2026-09-11T23:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 9.0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 86.9,
+          "mean": 13.8,
+          "passed": true
+        },
+        "hero_hash": "06bceb4d",
+        "jpeg_valid": true,
+        "word_count": 554
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. News peg: NHTSA PE26006 opened Jul 29, 2026 (1,198,300 MY2018-2020 Model 3 / MY2021-2023 Model Y, 156 complaints, front lower lateral link detachment, no warning in most cases, 0 crashes/injuries). Novel: 0.27% population-to-recall math (3,213 recalled vs 1.2M under probe); NHTSA says failures exceed scope of 21V-835/23V-235 and are not the production issue; Reuters Dec 2023 blame-the-driver pattern + China 2020 aft-link recall under pressure vs no US recall; Dec 2023 Senate letter. One pre-score fix: closing gloss 'called these parts flawed' -> documented redesign/supplier-billing language. Draft+hero+research+critics in drafts/ (888- prefix). No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-29."
     }
   ]
 }
