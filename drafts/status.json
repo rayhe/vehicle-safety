@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "893-bluecruise-ntsb-toxicology-report",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Dale Impactor III",
     "started": "2026-09-12T09:30:00-07:00"
   },
@@ -3398,6 +3398,14 @@
         "word_count": 442
       },
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. One pre-score revision: rhythm failed (var 190.3<200), lengthened claims sentence + short punch, re-run 219.3 PASS. News peg: FCA recall 89D (NHTSA 26V562000, Sep 2026), 328,381 Grand Cherokees, rear coil springs detach, supersedes 26V051 + 23V413; previously-remedied owners must return again. Novel: repair-of-a-repair-of-a-repair ladder (345k inspect 2023 -> 80.6k re-inspect Feb 2026 -> 328.4k isolator replacement), process failure not parts failure. Draft+hero+research+critics in drafts/ (891- prefix). No publish: 1/day rule, queue through 2026-12-02."
+    },
+    {
+      "number": 893,
+      "slug": "893-bluecruise-ntsb-toxicology-report",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-12-03",
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Pre-score revisions: merged short fragments (short_pct 29.7->4.2), The-starters 15.4->11.5%, linked nhtsa.gov/recalls. News peg: NTSB HIR-26-02 (adopted Mar 31, 2026), two fatal BlueCruise crashes Feb-Mar 2024. Novel: toxicology cross-tab, impairment on both sides of both impacts; sober San Antonio Mach-E driver twist. Draft+hero+research+critics in drafts/ (893- prefix). No publish: 1/day rule, #892 published 2026-09-12; queue through 2026-12-03."
     }
   ]
 }
