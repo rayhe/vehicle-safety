@@ -5,8 +5,8 @@
     "journalist": "Dale Impactor III",
     "started": "2026-09-12T09:30:00-07:00"
   },
-  "last_check_note": "QA passed 2026-09-12: live URL 200, hero 200 real JPEG, index card + sitemap present",
-  "last_checked": "2026-09-12T05:30:00-07:00",
+  "last_check_note": "2026-09-12 11:30 run: #892 published today (dc42328, Rex Driverton), 1/day rule exhausted. #893 stays SHIP_BLOCKED; queue through 2026-12-03.",
+  "last_checked": "2026-09-12T11:30:00-07:00",
   "last_completed": 892,
   "last_journalist": "Rex Driverton",
   "last_published": "GM Builds Two Identical Trucks in the Same Missouri Plant. One Kills at Twice the Rate.",
