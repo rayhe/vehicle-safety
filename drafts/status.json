@@ -1,23 +1,13 @@
 {
-  "current": {
-    "number": 885,
-    "slug": "retraction-rankings-spark-was-never-a-death-trap",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "kicker": "The Gap",
-    "title": "The Retraction: The Chevrolet Spark Was Never a Death Trap",
-    "started": "2026-09-11T17:30:00-07:00",
-    "critique_round": 0,
-    "note": "Retraction column applying #884 Ghost Fleet corrections: Spark 1.28->0.42, Sonic 1.40->0.56, MKC 0.79->0.13, HHR 2.12->1.05; donor undercounts (Monte Carlo ~2.09, Aveo ~2.17). Real JPEG hero cffcc3c0 wired with og:image."
-  },
-  "last_check_note": "2026-09-11 17:30 run: #885 RESEARCH+DRAFT complete (The Retraction: Spark corrected 1.28->0.42, Rex Driverton). Phase=CRITIQUE round 0.",
+  "current": null,
+  "last_check_note": "2026-09-11 17:30 run: #885 RESEARCH+DRAFT+CRITIQUE complete (The Retraction: Spark 1.28->0.42, Rex Driverton). Round-0 pass 8.79 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 6.5%, rhythm PASS (var 283.8), real JPEG hero (cffcc3c0). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-26.",
   "last_checked": "2026-09-11T17:30:00-07:00",
   "last_completed": 878,
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": 878,
   "last_published_date": "2026-09-11",
   "last_published_slug": "878-zoox-exemption-month-one-breach",
-  "next": 885,
+  "next": 886,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3131,6 +3121,45 @@
         "word_count": 486
       },
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (884- prefix). Static make-model code map defect: FARS reuses retired MAK_MOD codes (2011 AUM vs fars_process.py); 1,466 ghost deaths across 11 nameplates coded under models not yet launched (MKC 86.7%, Spark 67.7%, Sonic 59.9%, HHR 50.9%, Encore 50.9%, Fit 23.4%, Enclave 28.4%, Equinox 5.2%, Prius 8.0%, Rogue 2.6%, Sienna 1.2%); corrected rates: HHR 2.12->1.05, Spark 1.28->0.42, Sonic 1.40->0.56, Encore 0.52->0.26, MKC 0.79->0.13; HHR also has reverse error (real pre-2019 HHRs coded 023, map omits 023 entirely); contaminates published #872 (Camry/HHR same-rate claim: 2.03 vs 1.05) + HHR/Fit/Spark toxicology rows. No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-24."
+    },
+    {
+      "number": 885,
+      "slug": "retraction-rankings-spark-was-never-a-death-trap",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "title": "The Retraction: The Chevrolet Spark Was Never a Death Trap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-26",
+      "started": "2026-09-11T17:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.79,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5,
+        "average": 8.79
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.5,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 283.8,
+          "short_pct": 12.5,
+          "long_pct": 34.4,
+          "passed": true
+        },
+        "hero_hash": "cffcc3c0",
+        "jpeg_valid": true,
+        "word_count": 500
+      },
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Applies #884 Ghost Fleet corrections as retraction column: Spark 1.28->0.42 (2nd-safest cheap car), Sonic 1.40->0.56, Fit 0.72->0.57, MKC 0.79->0.13, HHR 2.12->1.05, Encore 0.52->0.26; donor mirror (Monte Carlo ~2.09, Aveo ~2.17). Draft+hero+research+critique in drafts/ (885- prefix). No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-25."
     }
   ]
 }
