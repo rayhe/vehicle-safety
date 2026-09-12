@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-11 23:30 run: #888 RESEARCH+DRAFT+CRITIQUE complete (Tesla Told Drivers the Suspension Failures Were Their Fault. NHTSA Just Opened a Probe Into 1.2 Million Cars., Rex Driverton). Round-0 pass 9.0 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 12.5 pct, rhythm PASS (var 86.9), real JPEG hero (06bceb4d). 1/day rule consumed by #878 -> SHIP_BLOCKED, nominal slot 2026-11-29.",
-  "last_checked": "2026-09-11T23:30:00-07:00",
+  "last_check_note": "2026-09-12 01:30 run: #889 RESEARCH+DRAFT+CRITIQUE complete (Waymo Answered 12 Questions About Hitting a 9-Year-Old. Every Answer Is Redacted., Vin Wreckage). Round-0 pass 8.86 avg, 7/7 critics >= 8.5. Gates: em-dashes 0, banned 0, The-starters 2.8 pct, rhythm PASS (var 345.2, short 4.8 pct), real JPEG hero (c9151e32). 1/day rule -> SHIP_BLOCKED, nominal slot 2026-11-30.",
+  "last_checked": "2026-09-12T01:30:00-07:00",
   "last_completed": 878,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Vin Wreckage",
   "last_published": 878,
   "last_published_date": "2026-09-11",
   "last_published_slug": "878-zoox-exemption-month-one-breach",
-  "next": 888,
+  "next": 890,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3276,6 +3276,45 @@
         "word_count": 554
       },
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. News peg: NHTSA PE26006 opened Jul 29, 2026 (1,198,300 MY2018-2020 Model 3 / MY2021-2023 Model Y, 156 complaints, front lower lateral link detachment, no warning in most cases, 0 crashes/injuries). Novel: 0.27% population-to-recall math (3,213 recalled vs 1.2M under probe); NHTSA says failures exceed scope of 21V-835/23V-235 and are not the production issue; Reuters Dec 2023 blame-the-driver pattern + China 2020 aft-link recall under pressure vs no US recall; Dec 2023 Senate letter. One pre-score fix: closing gloss 'called these parts flawed' -> documented redesign/supplier-billing language. Draft+hero+research+critics in drafts/ (888- prefix). No publish: 1/day rule, #878 shipped 2026-09-11, queue through 2026-11-29."
+    },
+    {
+      "number": 889,
+      "slug": "889-waymo-redacted-answers-santa-monica",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "title": "Waymo Answered 12 Questions About Hitting a 9-Year-Old. Every Answer Is Redacted.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-11-30",
+      "started": "2026-09-12T01:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.86,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 8.86
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.8,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 345.2,
+          "short_pct": 4.8,
+          "long_pct": 45.2,
+          "passed": true
+        },
+        "hero_hash": "c9151e32",
+        "jpeg_valid": true,
+        "word_count": 512
+      },
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. One pre-score revision: merged 8 short fragments to fix rhythm gate (short 22.6% -> 4.8%) and cut The-starters (19.1% -> 2.8%). News peg: Waymo completed NHTSA PE26001 submissions (12 ODI questions on school-zone behavior); all substantive answers published fully redacted as CBI; first batch posted only after TechCrunch inquired (Aug 21). Novel: stopping math (17->6 mph over ~14 ft = ~0.55s visibility, quantifying unavoidable); 17 mph legal in 25-mph zone 40 ft past 15-mph school-zone boundary vs NHTSA 'appropriate caution' question; transparency ledger (same-day SGO report + 'transparent when incidents occur' pledge + 10x-safer ad campaign vs 100% redacted answers). Draft+hero+research+critics in drafts/ (889- prefix). No publish: 1/day rule, queue through 2026-11-30."
     }
   ]
 }
