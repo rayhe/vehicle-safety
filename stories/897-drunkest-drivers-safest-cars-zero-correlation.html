@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models. &mdash; The Crash Report</title>
+  <meta name="description" content="Across 307 FARS models and 490,736 toxicology screens, the correlation between a car's fatality rate and its drivers' impairment rate is -0.14. Basically zero.">
+  <meta property="og:title" content="The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.">
+  <meta property="og:description" content="Across 307 FARS models and 490,736 toxicology screens, the correlation between a car's fatality rate and its drivers' impairment rate is -0.14. Basically zero.">
+  <meta property="og:image" content="../images/897-drunkest-drivers-safest-cars-zero-correlation.jpg?v=8bb49362">
+<meta name="twitter:card" content="summary_large_image" />
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">September 13, 2026</div>
+
+      <img src="../images/897-drunkest-drivers-safest-cars-zero-correlation.jpg?v=8bb49362" alt="A beige early-2000s Buick Park Avenue sedan parked outside a dive bar at night, neon sign glowing in the window" class="story-hero" loading="eager">
+
+      <p>I ran the numbers. Then I ran them again, and they didn't get better. Across every model in the federal fatal-crash database with at least 100 toxicology screens, 307 nameplates and 490,736 tested drivers, the Pearson correlation between a vehicle's fatality rate and the share of its drivers who were impaired is <strong>-0.139</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Zero would mean no relationship at all. This is, for all practical purposes, zero.</p>
+
+      <div class="pull-stat">-0.14</div>
+      <div class="pull-label">Pearson correlation between model fatality rate and driver impairment rate &mdash; 307 models, 490,736 toxicology screens, FARS 2014&ndash;2023</div>
+
+      <p>Read that again slowly, because your intuition is currently filing a complaint. It feels obvious that dangerous cars are driven by dangerous people. The data disagrees in both directions at once. Start with the drunk end: the Buick Park Avenue, whose drivers posted the highest impairment rate in the entire dataset at 31.7 percent, carries a fatality rate of 0.48, one of the lowest on record. Below it on the impairment leaderboard sit the Oldsmobile Alero (29.1 percent impaired, rate 0.16), the Chevrolet C/K pickup (28.0 percent, rate 0.19), and the Audi A3 (27.1 percent, rate 0.23). Every one of them is safer, statistically, than the average Camry.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Now flip it. The Hyundai Veloster, the deadliest nameplate in the database at 8.54 deaths per 100 million miles, was driven by people who were impaired 17.4 percent of the time, below the 20.0 percent dataset average, while Chevy Tracker drivers came in at 12.7 percent. Toyota Land Cruiser: 8.9 percent, against a fatality rate of 6.27 that ranks third-worst overall. And the Toyota Solara, rate 4.25, managed an impairment rate of just 4.1 percent across 195 tested drivers, which makes its drivers roughly eight times more sober than Park Avenue drivers and its car roughly nine times more lethal. Sober does not mean safe, and drunk does not mean doomed. The car is doing the killing, or the saving, mostly on its own.</p>
+
+      <p>Because single-model anecdotes are how people lie with statistics, including me, here is the aggregate version. Split all 307 models at the mean impairment rate: the 166 models above it average a fatality rate of 0.99, and the 141 below it average 0.90, and that gap is noise. Compare the 20 deadliest models against the 20 safest and their average impairment rates are 18.6 percent versus 18.0 percent, a difference you could not detect with a breathalyzer, a regression, or a Ouija board. However you slice this dataset, the impairment profile of a model's typical driver tells you essentially nothing about whether the model will kill you.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>A note on the machinery, since the machinery is the story. Each point on this scatterplot is one model: x-axis fatality rate (deaths per 100 million vehicle miles, estimated from federal travel-survey mileage), y-axis the share of that model's tested drivers in fatal crashes with any positive alcohol or drug result. The 100-driver cutoff keeps small-sample flukes out, and rates carry roughly 15 percent uncertainty for low-volume models. None of that moves the correlation, which stays glued near zero under every cutoff and weighting I tried, and I tried several, because that is what I do at parties.</p>
+
+      <p>Now the part where I argue against myself, at full volume. None of this exonerates alcohol, and anyone quoting this article to defend drunk driving should be ignored the way I ignore my check-engine light. Roughly three in ten American traffic deaths involve an impaired driver,<sup class="ref-link"><a href="#ref-1">[1]</a></sup> and a drunk driver in a Park Avenue remains far more dangerous than a sober one in the same car. What the correlation actually measures is narrower: conditional on a fatal crash already happening, which models show up, and the answer does not track impairment. FARS only records fatal crashes, so we are measuring impairment among people who already crashed badly, not among each model's everyday drivers. Vehicle age confounds everything, since cheap old cars attract impaired buyers while also being driven fewer, shorter, slower miles. And the rate denominator is estimated mileage, not odometer truth.</p>
+
+      <p>So what do you do with a zero? You stop shopping by clientele and start shopping by crashworthiness, which is what the engineers keep telling you while you keep buying the cool one. IIHS Top Safety Pick+ ratings, electronic stability control, vehicle weight, and structural design predict outcomes in this dataset; the moral character of the typical buyer does not.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> <sup class="ref-link"><a href="#ref-4">[4]</a></sup> Before your next oil change, run your VIN through the federal recall database and confirm nothing on your car is waiting to fail.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> And if you drive a Park Avenue: the car is protecting you far better than you are protecting yourself, so return the favor.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Author's analysis: 307 models matched between fatality and toxicology tables, minimum 100 tested drivers, n=490,736. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA FARS query system (CDAN). <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a></li>
+          <li id="ref-3">IIHS, fatality statistics by vehicle characteristics. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">IIHS, vehicle size and weight and occupant protection. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-5">NHTSA recalls database; check any VIN. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+        <p>Related prior coverage: the one-directional version of this finding (soberest vehicles still kill) was reported by Dale Impactor III in <a href="ascent-soberest-vehicle-426-dead.html">The 10 Soberest Vehicles in Fatal Crashes Are All Family Cars</a> (July 13, 2026).</p>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Correlation computed across 307 models with 100+ toxicology screens; fatality rates are VMT-estimated with roughly 15% uncertainty for low-volume models. Impairment is measured among tested drivers in fatal crashes only, not each model's general driving population. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
