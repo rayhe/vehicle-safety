@@ -4,10 +4,12 @@
     "phase": "QA",
     "journalist": "Axle McScatter",
     "started": "2026-09-13T01:30:00-07:00",
-    "number": 897
+    "number": 897,
+    "qa_local": "PASS 2026-09-13 (story structure 14/14, real JPEG hero, index card first, sitemap valid 795 urls, commits 9befea6+0edf213)",
+    "qa_live": "PENDING network \u2014 push blocked (egress proxy unreachable, IPv6 connect fails; direct curl also 000), browser_open upstream unavailable"
   },
-  "last_check_note": "2026-09-13 01:30 run: #897 (Axle McScatter) RESEARCH+DRAFT+CRITIQUE complete in one run: round-0 PASS 9.07 avg, 7/7 critics >= 8.5, all hard gates pass (0 em dashes, The-starters 5.3%, rhythm PASS 299.8/7.7%/46.2%, real JPEG hero 1920x1280 FF D8, hash 8bb49362). Novel: Pearson r=-0.139 between model fatality rate and driver impairment across 307 FARS models (n=490,736); mirror extremes (Park Ave 31.7%/0.48 vs Veloster 17.4%/8.54). Kill-test rejects: C-HR EV (#876), Jeep TPMS 54D (#855), Jeep coil-spring 89D (#882/#886/#891), Stellantis camera (#821), Audi A3 impairment (published). 1/day slot fresh (0 publishes today). Pushed as Publish #897; #893..#896 stay SHIP_BLOCKED (2026-12-03..06).",
-  "last_checked": "2026-09-12T23:30:00-07:00",
+  "last_check_note": "2026-09-13 01:30 run: #897 PUBLISHED locally (1/day slot used): RESEARCH+DRAFT+CRITIQUE round-0 PASS 9.07 avg / 7/7 critics >= 8.5, all hard gates pass. Novel: Pearson r=-0.139 fatality-rate vs impairment, 307 models, n=490,736. Local QA PASS (14/14 structure, JPEG hero, index, sitemap fixed+valid). Push + live QA BLOCKED: egress proxy unreachable (connect fails, not 407), browser_open upstream down. Commits 9befea6 (publish) + 0edf213 (sitemap fix) kept local. current stays phase=QA for next run to retry push/live-verify. #893..#896 remain SHIP_BLOCKED (2026-12-03..06).",
+  "last_checked": "2026-09-13T01:30:00-07:00",
   "last_completed": 897,
   "last_journalist": "Axle McScatter",
   "last_published": "The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.",
