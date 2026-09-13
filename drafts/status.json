@@ -8,8 +8,8 @@
     "qa_local": "PASS 2026-09-13 (story structure 14/14, real JPEG hero, index card first, sitemap valid 795 urls, commits 9befea6+0edf213)",
     "qa_live": "PENDING network — 2026-09-13 05:30 run: push STILL BLOCKED (git: 'Failed to connect to hatch-egress-proxy port 3128'; direct curl DNS 000). browser_open failed too (sentinel egress-approvals-admin.sock missing). Local commits 9befea6 (publish #897) + 0edf213 (sitemap fix) + abddd15 (status 03:30) + this run remain unpushed; live QA impossible until push lands."
   },
-  "last_check_note": "2026-09-13 07:30 run: #897 QA retry -- push STILL BLOCKED (git: 'Failed to connect to hatch-egress-proxy port 3128'; direct curl --noproxy fails DNS; /dev/tcp probe => Connection refused). browser.search path works (crawl-fresh results returned), confirming VM egress is the isolated failure, not total network loss. Local commits remain unpushed; live QA impossible until push lands. 1/day already used (#897 published locally 2026-09-13); queue unchanged. current stays phase=QA; next run retries push/live-verify.",
-  "last_checked": "2026-09-13T07:30:00-07:00",
+  "last_check_note": "2026-09-13 09:30 run: #897 QA retry -- push STILL BLOCKED (proxy TCP connection refused on hatch-egress-proxy:3128; all 5 credential userinfos tested, curl code=000; git: 'Failed to connect'; /dev/tcp probe => Connection refused). Egress proxy down at VM layer; local commits cf8490a+b905369+a2bb9e7+abddd15+0edf213 remain unpushed; live QA impossible until push lands. 1/day already used (#897 published locally 2026-09-13). current stays phase=QA; next run retries push/live-verify.",
+  "last_checked": "2026-09-13T09:30:00-07:00",
   "last_completed": 897,
   "last_journalist": "Axle McScatter",
   "last_published": "The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.",
