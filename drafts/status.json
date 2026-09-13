@@ -1,18 +1,18 @@
 {
   "current": {
-    "journalist": "Dale Impactor III",
+    "journalist": "Clara Rollover",
     "phase": "SHIP_BLOCKED",
-    "slug": "893-bluecruise-ntsb-toxicology-report",
-    "started": "2026-09-12T09:30:00-07:00"
+    "slug": "894-dc-whiplash-25-to-30",
+    "started": "2026-09-12T19:30:00-07:00"
   },
-  "last_check_note": "2026-09-12 17:30 run: #892 published today (dc42328, Rex Driverton), 1/day rule exhausted (git log confirms 1 Publish commit today). #893 (bluecruise-ntsb-toxicology-report, Dale Impactor III, CRITIQUE PASS) stays SHIP_BLOCKED; queue through 2026-12-03. No network to GitHub this run (egress proxy unreachable, all credential lines 000); commit kept local. No phase change.",
-  "last_checked": "2026-09-12T17:30:00-07:00",
+  "last_check_note": "2026-09-12 19:30 run: #892 published today (dc42328), 1/day rule exhausted. #893 stays SHIP_BLOCKED (2026-12-03). New #894 (dc-whiplash-25-to-30, Clara Rollover) completed RESEARCH+DRAFT+CRITIQUE in one run: round-0 pass 8.93 avg, 7/7 critics >= 8.5, all hard gates pass (0 em dashes, rhythm PASS after merging short fragments). News pegs: MPD dashboard Sep 11 (30 YTD, +88%; 2025 full-year 25, 13-year low), NSC H1 2026 (DC +133%, largest increase; DC was -52% in 2025, largest decrease). Draft+hero+research+critics in drafts/ (894- prefix). Queued SHIP_BLOCKED 2026-12-04. No network to GitHub this run (egress proxy unreachable); commits kept local.",
+  "last_checked": "2026-09-12T19:30:00-07:00",
   "last_completed": 892,
   "last_journalist": "Rex Driverton",
   "last_published": "GM Builds Two Identical Trucks in the Same Missouri Plant. One Kills at Twice the Rate.",
   "last_published_date": "2026-09-12",
   "last_published_slug": "892-canyon-colorado-twins",
-  "next": 893,
+  "next": 895,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3406,6 +3406,26 @@
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-12-03",
       "slug": "893-bluecruise-ntsb-toxicology-report"
+    },
+    {
+      "journalist": "Clara Rollover",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Pre-score revision: merged short fragments (short_pct 23.3->8.0), rhythm PASS; 0 literal em dashes; The-starters 10.0%. News pegs: MPD dashboard Sep 11 (30 deaths YTD, +88%; 2025 full-year 25, 13-yr low), NSC H1 2026 (DC +133%, largest increase of any jurisdiction; DC was -52% in 2025, largest decrease). Novel: whiplash cross-tab + pace math (annualized ~43, near 2023-24's 52). Human anchor: Sep 6 I-66 triple-fatality (Fairfax Co VA, not in DC count; stated explicitly). Draft+hero+research+critics in drafts/ (894- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
+      "number": 894,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "average": 8.93,
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2026-12-04",
+      "slug": "894-dc-whiplash-25-to-30",
+      "started": "2026-09-12T19:30:00-07:00",
+      "title": "Washington DC Logged Its Safest Traffic Year in Over a Decade. Nine Months Later, Deaths Are Up 88%."
     }
   ]
 }
