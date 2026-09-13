@@ -1,18 +1,18 @@
 {
   "current": {
-    "journalist": "Clara Rollover",
+    "journalist": "Vin Wreckage",
     "phase": "SHIP_BLOCKED",
-    "slug": "894-dc-whiplash-25-to-30",
-    "started": "2026-09-12T19:30:00-07:00"
+    "slug": "895-ford-f150-fuel-tank-trilogy",
+    "started": "2026-09-12T21:30:00-07:00"
   },
-  "last_check_note": "2026-09-12 19:30 run: #892 published today (dc42328), 1/day rule exhausted. #893 stays SHIP_BLOCKED (2026-12-03). New #894 (dc-whiplash-25-to-30, Clara Rollover) completed RESEARCH+DRAFT+CRITIQUE in one run: round-0 pass 8.93 avg, 7/7 critics >= 8.5, all hard gates pass (0 em dashes, rhythm PASS after merging short fragments). News pegs: MPD dashboard Sep 11 (30 YTD, +88%; 2025 full-year 25, 13-year low), NSC H1 2026 (DC +133%, largest increase; DC was -52% in 2025, largest decrease). Draft+hero+research+critics in drafts/ (894- prefix). Queued SHIP_BLOCKED 2026-12-04. No network to GitHub this run (egress proxy unreachable); commits kept local.",
-  "last_checked": "2026-09-12T19:30:00-07:00",
+  "last_check_note": "2026-09-12 21:30 run: #892 published today (1/day rule exhausted); #893 stays SHIP_BLOCKED (2026-12-03); #894 stays SHIP_BLOCKED (2026-12-04). New #895 (ford-f150-fuel-tank-trilogy, Vin Wreckage) completed RESEARCH+DRAFT+CRITIQUE: round-0 pass 9.0 avg, 7/7 critics >= 8.5, all hard gates pass (0 em dashes, The-starters 13.0%, rhythm PASS, real JPEG hero). News peg: Sep 12 Ford recall of 223,472 2023-2027 F-150s (fuel tanks may detach). Novel: 15-year retention trilogy + 27% scale math. Queued SHIP_BLOCKED 2026-12-05. Network to GitHub still down (egress proxy unreachable); commits kept local.",
+  "last_checked": "2026-09-12T21:30:00-07:00",
   "last_completed": 892,
   "last_journalist": "Rex Driverton",
   "last_published": "GM Builds Two Identical Trucks in the Same Missouri Plant. One Kills at Twice the Rate.",
   "last_published_date": "2026-09-12",
   "last_published_slug": "892-canyon-colorado-twins",
-  "next": 895,
+  "next": 896,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3426,6 +3426,26 @@
       "slug": "894-dc-whiplash-25-to-30",
       "started": "2026-09-12T19:30:00-07:00",
       "title": "Washington DC Logged Its Safest Traffic Year in Over a Decade. Nine Months Later, Deaths Are Up 88%."
+    },
+    {
+      "journalist": "Vin Wreckage",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Pre-score revision: merged a 'The' sentence starter (17.4->13.0%); 0 literal em dashes; rhythm PASS (variance 962.9, short 6.9%, long 55.2%); hero real JPEG (FF D8, 369,502 bytes, hash 28ef543c). News peg: Reuters Sep 12, 2026 — Ford recalls 223,472 2023-2027 F-150s, fuel tanks may detach while driving; dealers inspect/replace straps. Novel: 15-year fuel-tank retention trilogy genealogy (11V-385 corrosion 2011 -> 22V-414 missing bracket 2022 -> Sep 2026 strap defect, three root causes, one failure mode) + 27% scale arithmetic vs 2025 F-Series sales (828,832). Limitations: 2026 Part 573 report not yet public; root cause/defect rate pending; 2011 fire-chain arithmetic illustrative. Draft+hero+research+critics in drafts/ (895- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
+      "number": 895,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "average": 9.0,
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2026-12-05",
+      "slug": "895-ford-f150-fuel-tank-trilogy",
+      "started": "2026-09-12T21:30:00-07:00",
+      "title": "Ford Recalled 223,472 F-150s Because the Gas Tank Can Fall Out. This Is the Third Time in Fifteen Years."
     }
   ]
 }
