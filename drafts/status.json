@@ -1,18 +1,18 @@
 {
   "current": {
-    "journalist": "Vin Wreckage",
+    "journalist": "Clara Rollover",
     "phase": "SHIP_BLOCKED",
-    "slug": "895-ford-f150-fuel-tank-trilogy",
-    "started": "2026-09-12T21:30:00-07:00"
+    "slug": "896-school-bus-stop-arm-violations",
+    "started": "2026-09-12T23:30:00-07:00"
   },
-  "last_check_note": "2026-09-12 21:30 run: #892 published today (1/day rule exhausted); #893 stays SHIP_BLOCKED (2026-12-03); #894 stays SHIP_BLOCKED (2026-12-04). New #895 (ford-f150-fuel-tank-trilogy, Vin Wreckage) completed RESEARCH+DRAFT+CRITIQUE: round-0 pass 9.0 avg, 7/7 critics >= 8.5, all hard gates pass (0 em dashes, The-starters 13.0%, rhythm PASS, real JPEG hero). News peg: Sep 12 Ford recall of 223,472 2023-2027 F-150s (fuel tanks may detach). Novel: 15-year retention trilogy + 27% scale math. Queued SHIP_BLOCKED 2026-12-05. Network to GitHub still down (egress proxy unreachable); commits kept local.",
-  "last_checked": "2026-09-12T21:30:00-07:00",
+  "last_check_note": "2026-09-12 23:30 run: #892 published today (1/day rule exhausted); #893..#895 stay SHIP_BLOCKED (2026-12-03..05). New #896 (school-bus-stop-arm-violations, Clara Rollover) completed RESEARCH+DRAFT+CRITIQUE: round-0 pass 9.0 avg, 7/7 critics >= 8.5, all hard gates pass (0 em dashes, The-starters 13.3%, rhythm PASS, real JPEG hero). News pegs: Sep 9 MI near-miss + KY camera law + FL 27,000 violations. Kill-test rejects: C-HR EV (covered #876), Toyota curtain-airbag (published #808), GM L87 (#864 PARKED as dup of #797), AAA speeding (#832), pedestrian lethality (#834), school-bus curb (#818 adjacent, distinct angle kept). Queued SHIP_BLOCKED 2026-12-06. Network to GitHub still down (egress proxy unreachable); commits kept local.",
+  "last_checked": "2026-09-12T23:30:00-07:00",
   "last_completed": 892,
   "last_journalist": "Rex Driverton",
   "last_published": "GM Builds Two Identical Trucks in the Same Missouri Plant. One Kills at Twice the Rate.",
   "last_published_date": "2026-09-12",
   "last_published_slug": "892-canyon-colorado-twins",
-  "next": 896,
+  "next": 897,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3446,6 +3446,26 @@
       "slug": "895-ford-f150-fuel-tank-trilogy",
       "started": "2026-09-12T21:30:00-07:00",
       "title": "Ford Recalled 223,472 F-150s Because the Gas Tank Can Fall Out. This Is the Third Time in Fifteen Years."
+    },
+    {
+      "journalist": "Clara Rollover",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Pre-score revision: rephrased a 'The' sentence starter (15.6->13.3%); 0 literal em dashes; rhythm PASS (variance 438.4, short 13.5%, long 35.1%); hero real JPEG (FF D8, 1920x1280, 421,094 bytes, hash a8ed3fef). News pegs: Sep 9 Monroe County MI near-miss (19yo blew past stopped bus, missed child by inches, ABC World News Sep 10, ID'd via Flock ALPR) + Sep 1 KY dashcam pass + KY 2026 stop-arm camera law ($300/$500) + Lee County FL 27,000 camera violations/7 months with >90% non-recidivism. Novel: ~180 illegal passes per school day in one county (author arithmetic) + deterrence paradox (punishment works, coverage doesn't) + 51 ft/sec physics illustration. Limitations: no national census, one county, KY outcomes pending, district self-report. Draft+hero+research+critics in drafts/ (896- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
+      "number": 896,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "average": 9.0,
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2026-12-06",
+      "slug": "896-school-bus-stop-arm-violations",
+      "started": "2026-09-12T23:30:00-07:00",
+      "title": "He Blew Past a Stopped School Bus and Missed a Child by Inches. Cameras in One Florida County Caught 27,000 More."
     }
   ]
 }
