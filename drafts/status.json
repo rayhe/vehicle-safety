@@ -5,11 +5,11 @@
     "journalist": "Axle McScatter",
     "started": "2026-09-13T01:30:00-07:00",
     "number": 897,
-    "qa_local": "PASS 2026-09-13 (story structure 14/14, real JPEG hero, index card first, sitemap valid 795 urls, commits 9befea6+0edf213)",
-    "qa_live": "2026-09-14 05:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused: 'Failed to connect to hatch-egress-proxy port 3128', confirmed this run via direct curl rc=7 and git push; git pull also fails). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (FF D8 JFIF, 1920x1280, 488,915 bytes), index.html 2 refs, sitemap.xml entry present, CSS class=\"story\" + ../style.css correct, 0 em dashes. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA."
+    "qa_local": "PASS 2026-09-13; re-verified intact 2026-09-14 07:30 (story 9,465B, real JPEG hero 1920x1280, index 2 refs, sitemap 1, class=story+style.css, 0 emdash, og OK, tree clean)",
+    "qa_live": "2026-09-14 07:30 run: #897 QA retry -- push/pull STILL BLOCKED (egress proxy TCP refused port 3128, git push + pull both fail rc=7). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (JFIF, 1920x1280), index.html 2 refs, sitemap entry present, class=\"story\" + ../style.css correct, 0 em dashes, og tags present, working tree clean. Live QA impossible until push lands; 1/day #897 published locally 2026-09-13. current stays phase=QA. 20 queue entries SHIP_BLOCKED with ship_date <= 2026-09-14 but current phase machine holds at QA; no new publish started (network down)."
   },
-  "last_check_note": "2026-09-14 05:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused: 'Failed to connect to hatch-egress-proxy port 3128', confirmed this run via direct curl rc=7 and git push; git pull also fails). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (FF D8 JFIF, 1920x1280, 488,915 bytes), index.html 2 refs, sitemap.xml entry present, CSS class=\"story\" + ../style.css correct, 0 em dashes. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA.",
-  "last_checked": "2026-09-14T05:30:00-07:00",
+  "last_check_note": "2026-09-14 07:30 run: #897 QA retry -- push/pull STILL BLOCKED (egress proxy TCP refused port 3128, git push + pull both fail rc=7). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (JFIF, 1920x1280), index.html 2 refs, sitemap entry present, class=\"story\" + ../style.css correct, 0 em dashes, og tags present, working tree clean. Live QA impossible until push lands; 1/day #897 published locally 2026-09-13. current stays phase=QA. 20 queue entries SHIP_BLOCKED with ship_date <= 2026-09-14 but current phase machine holds at QA; no new publish started (network down).",
+  "last_checked": "2026-09-14T07:30:00-07:00",
   "last_completed": 897,
   "last_journalist": "Axle McScatter",
   "last_published": "The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.",
