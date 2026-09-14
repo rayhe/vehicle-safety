@@ -6,10 +6,10 @@
     "started": "2026-09-13T01:30:00-07:00",
     "number": 897,
     "qa_local": "PASS 2026-09-13; re-verified intact 2026-09-14 07:30 (story 9,465B, real JPEG hero 1920x1280, index 2 refs, sitemap 1, class=story+style.css, 0 emdash, og OK, tree clean)",
-    "qa_live": "2026-09-14 07:30 run: #897 QA retry -- push/pull STILL BLOCKED (egress proxy TCP refused port 3128, git push + pull both fail rc=7). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (JFIF, 1920x1280), index.html 2 refs, sitemap entry present, class=\"story\" + ../style.css correct, 0 em dashes, og tags present, working tree clean. Live QA impossible until push lands; 1/day #897 published locally 2026-09-13. current stays phase=QA. 20 queue entries SHIP_BLOCKED with ship_date <= 2026-09-14 but current phase machine holds at QA; no new publish started (network down)."
+    "qa_live": "2026-09-14 09:30 run: #897 QA retry -- push/pull STILL BLOCKED (egress proxy TCP refused port 3128, rc=7). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (JFIF, 1920x1280, 488,915 bytes), index.html 2 refs, sitemap 1 ref, class=\"story\" + ../style.css correct, 0 em dashes, 3 og tags, working tree clean. Live QA impossible until push lands; 1/day #897 published locally 2026-09-13. current stays phase=QA."
   },
-  "last_check_note": "2026-09-14 07:30 run: #897 QA retry -- push/pull STILL BLOCKED (egress proxy TCP refused port 3128, git push + pull both fail rc=7). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (JFIF, 1920x1280), index.html 2 refs, sitemap entry present, class=\"story\" + ../style.css correct, 0 em dashes, og tags present, working tree clean. Live QA impossible until push lands; 1/day #897 published locally 2026-09-13. current stays phase=QA. 20 queue entries SHIP_BLOCKED with ship_date <= 2026-09-14 but current phase machine holds at QA; no new publish started (network down).",
-  "last_checked": "2026-09-14T07:30:00-07:00",
+  "last_check_note": "2026-09-14 09:30 run: #897 QA retry -- push/pull STILL BLOCKED (egress proxy TCP refused port 3128, rc=7). Local QA re-verified intact: stories/897 HTML (9,465 bytes), images/897 real JPEG (JFIF, 1920x1280, 488,915 bytes), index.html 2 refs, sitemap 1 ref, class=\"story\" + ../style.css correct, 0 em dashes, 3 og tags, working tree clean. Live QA impossible until push lands; 1/day #897 published locally 2026-09-13. current stays phase=QA.",
+  "last_checked": "2026-09-14T09:30:00-07:00",
   "last_completed": 897,
   "last_journalist": "Axle McScatter",
   "last_published": "The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.",
