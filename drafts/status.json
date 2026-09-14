@@ -1,15 +1,7 @@
 {
-  "current": {
-    "slug": "898-verano-drug-positive-king",
-    "phase": "QA",
-    "journalist": "Dale Impactor III",
-    "started": "2026-09-14T11:35:00-07:00",
-    "number": 898,
-    "qa_local": "PASS 2026-09-14 11:50: stories/898 HTML (11,329 bytes), images/898 real JPEG (JFIF, 1920x1280), index card added newest-first, sitemap entry added, class=story + ../style.css, 0 emdash, 0 banned, 0% The-starters, rhythm PASS (var 1535, short 6.5%, long 54.8%), og tags + ?v=d93bb55a cache-bust, 7 refs. Critic panel round-0: 8.9 avg, 7/7 >= 8.5.",
-    "qa_live": "PENDING: push blocked by fleet egress outage (proxy TCP refused). Live URL QA impossible until push lands."
-  },
-  "last_check_note": "2026-09-14 11:50 run: #898 SHIPPED locally (Publish #898). Critique round-0 pass (8.9 avg, all hard gates). 1/day check clear (0 publishes today). Live QA + push blocked by egress outage.",
-  "last_checked": "2026-09-14T11:50:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-14 13:55 run: #898 QA local PASS, live QA+push still blocked by egress outage. #899 RESEARCH+DRAFT+CRITIQUE complete (Vin Wreckage, 8.89 avg round-0, all hard gates); queued SHIP_BLOCKED behind 1/day rule (#898 published today).",
+  "last_checked": "2026-09-14T13:55:00-07:00",
   "last_completed": 898,
   "last_journalist": "Dale Impactor III",
   "last_published": "The Most Drug-Positive Drivers in America All Drive the Same Dead Buick",
@@ -3469,6 +3461,49 @@
       "slug": "896-school-bus-stop-arm-violations",
       "started": "2026-09-12T23:30:00-07:00",
       "title": "He Blew Past a Stopped School Bus and Missed a Child by Inches. Cameras in One Florida County Caught 27,000 More."
+    },
+    {
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "number": 899,
+      "phase": "SHIP_BLOCKED",
+      "slug": "899-aaa-speeding-new-normal-nimby",
+      "title": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
+      "started": "2026-09-14T13:40:00-07:00",
+      "blocked_reason": "1/day rule consumed 2026-09-14 by #898 (Publish #898 local); queued for next publish slot",
+      "critic_avg": 8.89,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "7eeadf17",
+        "rhythm": {
+          "variance": 87.4,
+          "short_pct": 25.6,
+          "long_pct": 10.3
+        },
+        "word_count": 850
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.9
+      },
+      "files": {
+        "research": "drafts/899-aaa-speeding-new-normal-nimby-research.md",
+        "draft": "drafts/899-aaa-speeding-new-normal-nimby.html",
+        "hero": "drafts/899-aaa-speeding-new-normal-nimby.jpg",
+        "critic_panel": "drafts/899-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: AAA Foundation Aug 18 2026 speeding-attitudes study (3 in 10 say nobody drives the limit; ~half say keeping up with traffic is safer). Novel: punish-them-not-me paradox (82% want mandatory limiters for serious speeders vs 51% want advisory ISA in own car; >90% say humps work vs <50% want one on their street); 79% slow for tickets vs 72% for crashes. Sequel to #784 EU ISA. Draft+hero+research+critique in drafts/ (899- prefix)."
     }
   ]
 }
