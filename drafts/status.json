@@ -6,10 +6,10 @@
     "started": "2026-09-13T01:30:00-07:00",
     "number": 897,
     "qa_local": "PASS 2026-09-13 (story structure 14/14, real JPEG hero, index card first, sitemap valid 795 urls, commits 9befea6+0edf213)",
-    "qa_live": "PENDING network -- 2026-09-13 15:30 run: #897 QA retry -- push STILL BLOCKED (git push: 'Failed to connect to hatch-egress-proxy port 3128'; /dev/tcp probe => Connection refused). qa_live: browser.search live OK via fallback path but #897 headline is NOT indexed anywhere -- consistent with never-deployed (no push since 11:30 run either; no new local commits this run). qa_local unchanged (stories/897 html + images/897 jpg present). Unpushed local commits since 09:30 remain; live QA impossible until push lands. 1/day already used (#897 published locally 2026-09-13). current stays phase=QA; next run retries push/live-verify."
+    "qa_live": "PENDING network -- 2026-09-13 17:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused on all credential lines; direct github.com unreachable: shell DNS fails, TCP probe FAIL). Local QA unchanged and intact: story present, real JPEG hero (ff d8), index card x2, sitemap url present (796 urls), 0 literal em dashes, story CSS structure per accepted QA baseline. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA."
   },
-  "last_check_note": "2026-09-13 15:30 run: #897 QA retry -- push STILL BLOCKED (git push: 'Failed to connect to hatch-egress-proxy port 3128'; /dev/tcp probe => Connection refused). qa_live: browser.search live OK via fallback path but #897 headline is NOT indexed anywhere -- consistent with never-deployed (no push since 11:30 run either; no new local commits this run). qa_local unchanged (stories/897 html + images/897 jpg present). Unpushed local commits since 09:30 remain; live QA impossible until push lands. 1/day already used (#897 published locally 2026-09-13). current stays phase=QA; next run retries push/live-verify.",
-  "last_checked": "2026-09-13T15:30:00-07:00",
+  "last_check_note": "2026-09-13 17:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused on all credential lines; direct github.com unreachable: shell DNS fails, TCP probe FAIL). Local QA unchanged and intact: story present, real JPEG hero (ff d8), index card x2, sitemap url present (796 urls), 0 literal em dashes, story CSS structure per accepted QA baseline. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA.",
+  "last_checked": "2026-09-13T17:30:00-07:00",
   "last_completed": 897,
   "last_journalist": "Axle McScatter",
   "last_published": "The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.",
