@@ -6,10 +6,10 @@
     "started": "2026-09-13T01:30:00-07:00",
     "number": 897,
     "qa_local": "PASS 2026-09-13 (story structure 14/14, real JPEG hero, index card first, sitemap valid 795 urls, commits 9befea6+0edf213)",
-    "qa_live": "2026-09-13 21:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused: 'Failed to connect to hatch-egress-proxy port 3128'; direct /dev/tcp probe also refused). Local QA re-verified intact: story present, real JPEG hero (ff d8), index card x2, sitemap url present, 0 literal em dashes, class=\"story\" + ../style.css, no story.css. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA."
+    "qa_live": "2026-09-13 23:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused: 'Failed to connect to hatch-egress-proxy port 3128'; proxy also refused on git pull earlier this run). Local QA re-verified intact: stories/897 HTML present, images/897 real JPEG hero (488,915 bytes), index card + sitemap entry present per prior checks. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA."
   },
-  "last_check_note": "2026-09-13 21:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused: 'Failed to connect to hatch-egress-proxy port 3128'; direct /dev/tcp probe also refused). Local QA re-verified intact: story present, real JPEG hero (ff d8), index card x2, sitemap url present, 0 literal em dashes, class=\"story\" + ../style.css, no story.css. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA.",
-  "last_checked": "2026-09-13T21:30:00-07:00",
+  "last_check_note": "2026-09-13 23:30 run: #897 QA retry -- push STILL BLOCKED (egress proxy TCP refused: 'Failed to connect to hatch-egress-proxy port 3128'; proxy also refused on git pull earlier this run). Local QA re-verified intact: stories/897 HTML present, images/897 real JPEG hero (488,915 bytes), index card + sitemap entry present per prior checks. Live QA impossible until push lands; 1/day already used (#897 published locally 2026-09-13). current stays phase=QA.",
+  "last_checked": "2026-09-13T23:30:00-07:00",
   "last_completed": 897,
   "last_journalist": "Axle McScatter",
   "last_published": "The Drunkest Drivers in America Drive the Safest Cars. We Ran the Math on 307 Models.",
