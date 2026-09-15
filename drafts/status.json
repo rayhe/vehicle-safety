@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-14 19:30 run: #902 RESEARCH+DRAFT+CRITIQUE complete (Mia Crumplezone, 8.90 avg round-0, all hard gates; rhythm FAIL fixed by merging 4 short sentences and rewriting 10 The-starters to 0%); queued SHIP_BLOCKED behind #899/#900/#901 (#898 published today, 1/day consumed). Push still blocked by egress outage.",
-  "last_checked": "2026-09-14T19:35:00-07:00",
+  "last_check_note": "2026-09-14 21:30 run: #903 RESEARCH+DRAFT+CRITIQUE complete (Axle McScatter, 8.96 avg round-0, all hard gates; rhythm FAIL fixed by merging 11 short sentences and cutting The-starters to 2.9%); queued SHIP_BLOCKED behind #899/#900/#901/#902 (#898 published today, 1/day consumed). Push still blocked by egress outage.",
+  "last_checked": "2026-09-14T21:45:00-07:00",
   "last_completed": 898,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "The Most Drug-Positive Drivers in America All Drive the Same Dead Buick",
   "last_published_date": "2026-09-14",
   "last_published_slug": "898-verano-drug-positive-king",
-  "next": 902,
+  "next": 903,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3635,6 +3635,50 @@
         "critic_panel": "drafts/902-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5; all hard gates. News pegs: Sep 10, 2026 Freep dummy investigation + NHTSA 2026 Report to Congress urging THOR-05F adoption. Novel: BMI cross-comparison (THOR-05F = 21.8 vs average woman = 30.0); zero federal dummies at BMI 30+ despite NHTSA flagging BMI>=30 as higher injury risk. Distinct from existing dummy-gender-gap and dummy-seating-position stories."
+    },
+    {
+      "number": 903,
+      "slug": "903-ford-three-tiny-recalls-quality-machines",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "title": "37 Trucks, 17 Raptors, 1,945 Vans: Ford's Three Tiniest Recalls Were All About the Machines That Check the Machines",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-09-14T21:30:00-07:00",
+      "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901, #902 queued ahead; #903 queued for next publish slot; push blocked by egress outage",
+      "critic_avg": 8.96,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "dce23f6d",
+        "rhythm": {
+          "variance": 481.3,
+          "short_pct": 9.4,
+          "long_pct": 68.8,
+          "passed": true
+        },
+        "word_count": 800
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.7
+      },
+      "files": {
+        "research": "drafts/903-ford-three-tiny-recalls-quality-machines-research.md",
+        "draft": "drafts/903-ford-three-tiny-recalls-quality-machines.html",
+        "hero": "drafts/903-ford-three-tiny-recalls-quality-machines.jpg",
+        "critic_panel": "drafts/903-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.96 avg; 7/7 critics >= 8.5; all hard gates (rhythm FAIL fixed by merging 11 short sentences; The-starters cut to 2.9%). News pegs: Sept 9, 2026 Ford 4-recall filing (225,471 vehicles; Freep/Carscoops/USA Today). Novel: exact filing arithmetic (223,472+1,945+37+17=225,471) + quality-machinery thread grouping the three small campaigns; distinct from #895 tank trilogy and #815 Ford recall census."
     }
   ]
 }
