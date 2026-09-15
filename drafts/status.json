@@ -1,19 +1,13 @@
 {
-  "current": {
-    "slug": "904-whose-funeral-fatal-crash-lethality",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-09-14T23:40:00-07:00",
-    "number": 904
-  },
-  "last_check_note": "2026-09-14 23:30 run: #904 RESEARCH complete (Vin Wreckage, occupant-lethality-per-fatal-crash: Saturn S 92.4% vs Ram 2500 20.5%, Land Cruiser paradox 6.27/100M rate at 34.7% occupant lethality; impairment flat 19-23% across extremes; kill-test PASS, novel for the site). News well dry: TPMS/Ford recall/DTN covered by #855/#903/#824, IIHS wave by #806, Tesla asleep by #875. #904 queued behind #899-#903; push blocked by egress outage.",
-  "last_checked": "2026-09-14T23:40:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-14 23:30 run: #904 RESEARCH+DRAFT+CRITIQUE complete (Vin Wreckage, 8.90 avg round-0, all hard gates; rhythm FAIL at 34% short fixed by merging 13 short sentences to 8.8%). Queued SHIP_BLOCKED behind #899-#903 (#898 published today, 1/day consumed). Push still blocked by egress outage.",
+  "last_checked": "2026-09-14T23:59:00-07:00",
   "last_completed": 898,
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": "The Most Drug-Positive Drivers in America All Drive the Same Dead Buick",
   "last_published_date": "2026-09-14",
   "last_published_slug": "898-verano-drug-positive-king",
-  "next": 903,
+  "next": 905,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3685,6 +3679,50 @@
         "critic_panel": "drafts/903-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.96 avg; 7/7 critics >= 8.5; all hard gates (rhythm FAIL fixed by merging 11 short sentences; The-starters cut to 2.9%). News pegs: Sept 9, 2026 Ford 4-recall filing (225,471 vehicles; Freep/Carscoops/USA Today). Novel: exact filing arithmetic (223,472+1,945+37+17=225,471) + quality-machinery thread grouping the three small campaigns; distinct from #895 tank trilogy and #815 Ford recall census."
+    },
+    {
+      "number": 904,
+      "slug": "904-whose-funeral-fatal-crash-lethality",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "title": "In a Saturn S, a Fatal Crash Is Your Fatality. In a Ram 2500, It's Somebody Else's.",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-09-14T23:40:00-07:00",
+      "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901, #902, #903 queued ahead; #904 queued for next publish slot; push blocked by egress outage",
+      "critic_avg": 8.9,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "140b4369",
+        "rhythm": {
+          "variance": 339.3,
+          "short_pct": 8.8,
+          "long_pct": 44.1,
+          "passed": true
+        },
+        "word_count": 750
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.7
+      },
+      "files": {
+        "research": "drafts/904-whose-funeral-fatal-crash-lethality-research.md",
+        "draft": "drafts/904-whose-funeral-fatal-crash-lethality.html",
+        "hero": "drafts/904-whose-funeral-fatal-crash-lethality.jpg",
+        "critic_panel": "drafts/904-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5; all hard gates (rhythm FAIL at 34% short fixed by merging 13 short sentences). Novel metric: occupant deaths per fatal crash by nameplate across 337 models (FARS 2014-2023). Saturn S 92.4% vs Ram 2500 20.5% (4.5x spread); Land Cruiser paradox (6.27/100M rate, 34.7% occupant lethality); impairment flat 19-23% across extremes, ruling out behavior."
     }
   ]
 }
