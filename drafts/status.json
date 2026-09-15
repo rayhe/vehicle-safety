@@ -1,9 +1,9 @@
 {
   "current": null,
-  "last_check_note": "2026-09-14 17:30 run: #901 RESEARCH+DRAFT+CRITIQUE complete (Rex Driverton, 8.88 avg round-0, all hard gates); queued SHIP_BLOCKED behind #899/#900 (#898 published today, 1/day consumed). Push still blocked by egress outage.",
-  "last_checked": "2026-09-14T17:45:00-07:00",
+  "last_check_note": "2026-09-14 19:30 run: #902 RESEARCH+DRAFT+CRITIQUE complete (Mia Crumplezone, 8.90 avg round-0, all hard gates; rhythm FAIL fixed by merging 4 short sentences and rewriting 10 The-starters to 0%); queued SHIP_BLOCKED behind #899/#900/#901 (#898 published today, 1/day consumed). Push still blocked by egress outage.",
+  "last_checked": "2026-09-14T19:35:00-07:00",
   "last_completed": 898,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "The Most Drug-Positive Drivers in America All Drive the Same Dead Buick",
   "last_published_date": "2026-09-14",
   "last_published_slug": "898-verano-drug-positive-king",
@@ -3591,6 +3591,50 @@
         "critic_panel": "drafts/901-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.88 avg; 7/7 critics >= 8.5; all hard gates. News peg: Sep 10, 2026 Foushee/Thompson letter opposing FHWA bike-safety resource removals + BUILD grant bike-lane funding restrictions, against 1,148 cyclist deaths in 2025 (near 40-year high, +87% since 2010) while Q1 2026 logged the safest start in a decade (7,770 deaths, 0.99 rate). Novel: 62%-of-deaths-on-40+mph-roads x grant-mechanism causal chain; NHTSA NCAP pedestrian proposal excludes bicyclists."
+    },
+    {
+      "number": 902,
+      "slug": "902-dummy-wrong-body",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "title": "America's Newest Crash Test Dummy Weighs 108 Pounds. The Average American Woman Weighs 172.",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-09-14T19:30:00-07:00",
+      "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901 queued ahead; #902 queued for next publish slot; push blocked by egress outage",
+      "critic_avg": 8.9,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "16a334c4",
+        "rhythm": {
+          "variance": 401.9,
+          "short_pct": 10.5,
+          "long_pct": 47.4,
+          "passed": true
+        },
+        "word_count": 740
+      },
+      "scores": {
+        "general_editor": 8.9,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.1,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "files": {
+        "research": "drafts/902-dummy-wrong-body-research.md",
+        "draft": "drafts/902-dummy-wrong-body.html",
+        "hero": "drafts/902-dummy-wrong-body.jpg",
+        "critic_panel": "drafts/902-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5; all hard gates. News pegs: Sep 10, 2026 Freep dummy investigation + NHTSA 2026 Report to Congress urging THOR-05F adoption. Novel: BMI cross-comparison (THOR-05F = 21.8 vs average woman = 30.0); zero federal dummies at BMI 30+ despite NHTSA flagging BMI>=30 as higher injury risk. Distinct from existing dummy-gender-gap and dummy-seating-position stories."
     }
   ]
 }
