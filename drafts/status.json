@@ -43,14 +43,14 @@
     "qa_local": "PASS 2026-09-15: stories/899 HTML (9,280 bytes), images/899 real JPEG (551,721 bytes), index card added newest-first, sitemap entry added, og tags + ?v=7eeadf17 cache-bust present in draft. Critic panel round-0: 8.89 avg, 7/7 >= 8.5.",
     "qa_live": "PENDING: push blocked by fleet egress outage. Live URL QA impossible until push lands; 1/day #899 published locally 2026-09-15."
   },
-  "last_check_note": "2026-09-15 03:30 run: #906 RESEARCH+DRAFT+CRITIQUE complete (Clara Rollover, 8.81 avg round-0, all hard gates). #906 queued SHIP_BLOCKED behind #900-#905. #899 still QA-blocked on live (push blocked by egress outage).",
-  "last_checked": "2026-09-15T03:30:00-07:00",
+  "last_check_note": "2026-09-15 05:30 run: #907 RESEARCH+DRAFT+CRITIQUE complete (Rex Driverton, 8.83 avg round-0, all hard gates). #907 queued SHIP_BLOCKED behind #900-#906. #899 still QA-blocked on live (push blocked by egress outage); fleet egress still down (proxy 000 on all credential lines).",
+  "last_checked": "2026-09-15T05:30:00-07:00",
   "last_completed": 899,
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
   "last_published_date": "2026-09-15",
   "last_published_slug": "899-aaa-speeding-new-normal-nimby",
-  "next": 907,
+  "next": 908,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3811,6 +3811,50 @@
         "critic_panel": "drafts/906-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: IIHS Sept 3 2026 round (7 models tested, only Telluride + Model Y earned TSP+). Novel: build-date trap (Telluride award only post-June-2026 builds, check jamb sticker), belt-reminder loophole (Model Y Marginal reminders not award criteria), rear-seat pattern (Canyon chest index 40 / 5.7 kN)."
+    },
+    {
+      "number": 907,
+      "slug": "907-bmw-z4-safest-sports-car-paradox",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "title": "The Safest Sports Car in America Is a BMW Roadster. It Is Safer Per Mile Than a Camry.",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-09-15T05:30:00-07:00",
+      "blocked_reason": "1/day rule: #899 published 2026-09-15; #900-#906 queued ahead in FIFO; push blocked by fleet egress outage",
+      "critic_avg": 8.83,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "91b2d9cf",
+        "rhythm": {
+          "variance": 247.9,
+          "short_pct": 10.7,
+          "long_pct": 64.3,
+          "passed": true
+        },
+        "word_count": 560
+      },
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.9,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "files": {
+        "research": "drafts/907-bmw-z4-safest-sports-car-paradox-research.md",
+        "draft": "drafts/907-bmw-z4-safest-sports-car-paradox.html",
+        "hero": "drafts/907-bmw-z4-safest-sports-car-paradox.jpg",
+        "critic_panel": "drafts/907-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5; all hard gates. Novel: BMW Z4 0.46 deaths/100M VMT is the lowest sports-car rate and below Camry (2.03), Civic (2.25), Accord (3.07); Mustang 6.02 = 13.1x Z4; Veloster 8.54 = 18.6x Z4 (widest intra-class spread on the board); Poisson CI check keeps inversion robust. Counterargument given full strength (driver selection; IIHS Harkey July 2026 quote used against thesis). Draft+hero+research+critique in drafts/ (907- prefix)."
     }
   ]
 }
