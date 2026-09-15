@@ -41,10 +41,10 @@
     },
     "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: AAA Foundation Aug 18 2026 speeding-attitudes study (3 in 10 say nobody drives the limit; ~half say keeping up with traffic is safer). Novel: punish-them-not-me paradox (82% want mandatory limiters for serious speeders vs 51% want advisory ISA in own car; >90% say humps work vs <50% want one on their street); 79% slow for tickets vs 72% for crashes. Sequel to #784 EU ISA. Draft+hero+research+critique in drafts/ (899- prefix).",
     "qa_local": "PASS 2026-09-15: stories/899 HTML (9,280 bytes), images/899 real JPEG (551,721 bytes), index card added newest-first, sitemap entry added, og tags + ?v=7eeadf17 cache-bust present in draft. Critic panel round-0: 8.89 avg, 7/7 >= 8.5.",
-    "qa_live": "PENDING 2026-09-15 07:30: push blocked by fleet egress outage; browser.open unavailable for live verification."
+    "qa_live": "PENDING 2026-09-15 09:30: push blocked by fleet egress outage; browser.open upstream unavailable this turn."
   },
-  "last_check_note": "2026-09-15 07:30 run: #899 QA local re-verified PASS (stories/899 HTML 9,280B, real JPEG hero 2048x1152, og tags + ?v=7eeadf17, index card x2, sitemap x1, 1 publish commit today). Live QA still blocked: fleet egress down (proxy 000 on all 6 credential lines), browser_open upstream unavailable this turn. #900-#907 remain SHIP_BLOCKED in FIFO behind #899; 116 total queued. 1/day rule satisfied by #899; no new RESEARCH started (current occupied).",
-  "last_checked": "2026-09-15T07:30:00-07:00",
+  "last_check_note": "2026-09-15 09:30 run: #899 QA local re-verified PASS (stories/899 HTML 9,280B, real JPEG hero 2048x1152, og tags + ?v=7eeadf17, index card x2, sitemap x1, 1 publish commit today). Live QA still blocked: fleet egress outage persists (proxy 000 on all 6 credential lines), browser_open upstream unavailable this turn (dev-fence: do not retry). #900-#907 remain SHIP_BLOCKED in FIFO behind #899; 13 commits stacked unpushed (HEAD 471c175). 1/day rule satisfied by #899; no new RESEARCH started (current occupied).",
+  "last_checked": "2026-09-15T09:30:00-07:00",
   "last_completed": 899,
   "last_journalist": "Rex Driverton",
   "last_published": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
