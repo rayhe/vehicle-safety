@@ -43,14 +43,14 @@
     "qa_local": "PASS 2026-09-15: stories/899 HTML (9,280 bytes), images/899 real JPEG (551,721 bytes), index card added newest-first, sitemap entry added, og tags + ?v=7eeadf17 cache-bust present in draft. Critic panel round-0: 8.89 avg, 7/7 >= 8.5.",
     "qa_live": "PENDING: push blocked by fleet egress outage. Live URL QA impossible until push lands; 1/day #899 published locally 2026-09-15."
   },
-  "last_check_note": "2026-09-15 02:00 run: #905 RESEARCH+DRAFT+CRITIQUE complete (Rex Driverton, 8.81 avg round-0, all hard gates). #899 PUBLISHED locally (1/day slot 2026-09-15; queue FIFO). #905 queued SHIP_BLOCKED behind #900-#904. Push still blocked by egress outage.",
-  "last_checked": "2026-09-15T02:00:00-07:00",
+  "last_check_note": "2026-09-15 03:30 run: #906 RESEARCH+DRAFT+CRITIQUE complete (Clara Rollover, 8.81 avg round-0, all hard gates). #906 queued SHIP_BLOCKED behind #900-#905. #899 still QA-blocked on live (push blocked by egress outage).",
+  "last_checked": "2026-09-15T03:30:00-07:00",
   "last_completed": 899,
   "last_journalist": "Vin Wreckage",
   "last_published": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
   "last_published_date": "2026-09-15",
   "last_published_slug": "899-aaa-speeding-new-normal-nimby",
-  "next": 906,
+  "next": 907,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3767,6 +3767,50 @@
         "critic_panel": "drafts/905-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Sept 2026 investigation matching Tesla's redacted NHTSA SGO filings to police reports \u2014 8 fatal crashes where Tesla's data shows driver-assist engaged but the public record never mentions it (Vinemont AL, Clute TX, Lake Mary FL, Mesa AZ, Batavia IL, Moraine OH, Buena Vista NJ, Pattonsburg MO). Novel: the crash record is missing the robot; NHTSA Audit Query (Aug 2025) + 6 open Tesla probes context."
+    },
+    {
+      "number": 906,
+      "slug": "906-iihs-september-round-build-date-trap",
+      "journalist": "Clara Rollover",
+      "kicker": "Buyer Beware",
+      "title": "Two of Seven Cars Earned IIHS's Top Award. Your Telluride Might Not Be One of Them.",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-09-15T03:30:00-07:00",
+      "blocked_reason": "1/day rule: #899 published 2026-09-15; #900, #901, #902, #903, #904, #905 queued ahead; #906 queued for next publish slot; push blocked by egress outage",
+      "critic_avg": 8.81,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "349fdfec",
+        "rhythm": {
+          "variance": 12.0,
+          "short_pct": 14.8,
+          "long_pct": 22.2,
+          "passed": true
+        },
+        "word_count": 509
+      },
+      "scores": {
+        "general_editor": 8.6,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "files": {
+        "research": "drafts/906-iihs-september-round-build-date-trap-research.md",
+        "draft": "drafts/906-iihs-september-round-build-date-trap.html",
+        "hero": "drafts/906-iihs-september-round-build-date-trap.jpg",
+        "critic_panel": "drafts/906-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: IIHS Sept 3 2026 round (7 models tested, only Telluride + Model Y earned TSP+). Novel: build-date trap (Telluride award only post-June-2026 builds, check jamb sticker), belt-reminder loophole (Model Y Marginal reminders not award criteria), rear-seat pattern (Canyon chest index 40 / 5.7 kN)."
     }
   ]
 }
