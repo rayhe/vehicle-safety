@@ -1,12 +1,12 @@
 {
   "current": null,
-  "last_check_note": "2026-09-15 23:30 run: #908 Tracker article RESEARCH+DRAFT+CRITIQUE complete (8.91 avg, round-0 pass). Joined SHIP_BLOCKED FIFO behind #900-#907 (1/day rule; #899 published today). Nothing ships tonight.",
-  "last_checked": "2026-09-15T23:30:00-07:00",
-  "last_completed": 899,
-  "last_journalist": "Rex Driverton",
-  "last_published": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
-  "last_published_date": "2026-09-15",
-  "last_published_slug": "899-aaa-speeding-new-normal-nimby",
+  "last_check_note": "2026-09-16 01:30 run: #900 PUBLISHED (1/day slot; FIFO head, #899 shipped 2026-09-15). Mia Crumplezone C-HR overcharge sequel, 8.89 avg round-0.",
+  "last_checked": "2026-09-16T01:28:29-07:00",
+  "last_completed": 900,
+  "last_journalist": "Mia Crumplezone",
+  "last_published": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
+  "last_published_date": "2026-09-16",
+  "last_published_slug": "900-c-hr-overcharge-sequel-ecu",
   "next": 909,
   "queue": [
     {
@@ -3466,7 +3466,7 @@
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
       "number": 900,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "slug": "900-c-hr-overcharge-sequel-ecu",
       "title": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
       "started": "2026-09-14T15:30:00-07:00",
@@ -3503,7 +3503,8 @@
         "hero": "drafts/900-c-hr-overcharge-sequel-ecu.jpg",
         "critic_panel": "drafts/900-critic-panel-r0.md"
       },
-      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: Toyota Sept 2 C-HR EV recall (8,521, charge-limiter bug overcharges pack via regen -> protective shutdown kills drive power; found in April testing an undisclosed future BEV, zero warranty claims). Novel: sequel to June bZ/Solterra/RZ race-condition recall (20,991) — two campaigns, two root causes, one failure mode, both discovered testing a DIFFERENT vehicle; 29,512 combined; 'protection logic became the hazard'. Journalist Mia Crumplezone."
+      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: Toyota Sept 2 C-HR EV recall (8,521, charge-limiter bug overcharges pack via regen -> protective shutdown kills drive power; found in April testing an undisclosed future BEV, zero warranty claims). Novel: sequel to June bZ/Solterra/RZ race-condition recall (20,991) — two campaigns, two root causes, one failure mode, both discovered testing a DIFFERENT vehicle; 29,512 combined; 'protection logic became the hazard'. Journalist Mia Crumplezone.",
+      "publish_date": "2026-09-16"
     },
     {
       "number": 901,
