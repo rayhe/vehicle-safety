@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-09-16 01:30 run: #900 PUBLISHED + QA LIVE PASS (story 200 9,597B, hero JPEG 579,705B, index x2, sitemap x1). 1/day slot consumed. current=null.",
-  "last_checked": "2026-09-16T01:38:58-07:00",
+  "last_check_note": "2026-09-16 03:30 run: #909 DRAFTED + CRITIQUE ROUND-0 PASS (avg 8.9, 7/7 >= 8.5, all hard gates; hero JPEG 281,792B, cache-busted). Queued SHIP_BLOCKED: 1/day slot already consumed by #900. current=null.",
+  "last_checked": "2026-09-16T03:35:00-07:00",
   "last_completed": 900,
   "last_journalist": "Mia Crumplezone",
   "last_published": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
@@ -3854,14 +3854,39 @@
     },
     {
       "number": 909,
-      "phase": "RESEARCH",
+      "phase": "SHIP_BLOCKED",
       "title": "Suspended Licenses Don't Stop Speeders. Oregon Wants to Govern the Car Instead.",
       "slug": "909-oregon-super-speeder-isa-governor",
       "journalist": "Vin Wreckage",
       "kicker": "Investigation",
-      "note": "RESEARCH complete 2026-09-16. News peg: Sept 8, 2026 Oregon 'Stop Super Speeders' ISA bill concept (Senate Judiciary; 2027 session; Grayber/Families for Safe Streets/Oregon Walks). Novel: interlock-precedent frame (ignition interlocks = same regulatory theory, 50-state proof) + the 75% suspended-driver noncompliance problem. 6 primary sources. Verified no overlap with #823 (FL jail), #841 (GHSA guidebook), #903. Kill test PASS. Next: DRAFT.",
+      "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5; all hard gates. Novel: interlock-precedent frame (ignition interlocks = same regulatory theory, 50-state proof) + the 75% suspended-driver noncompliance problem as load-bearing number. Counterargument given full strength (cost/equity, tamper unknowns, Youngkin 100+ mph carve-out strip). Hero JPEG 281,792B. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
       "files": {
-        "research": "drafts/909-oregon-super-speeder-isa-governor-research.md"
+        "research": "drafts/909-oregon-super-speeder-isa-governor-research.md",
+        "draft": "drafts/909-oregon-super-speeder-isa-governor.html",
+        "hero": "drafts/909-oregon-super-speeder-isa-governor.jpg",
+        "critic_panel": "drafts/909-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critic_avg": 8.9,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.5,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 1590.8,
+          "short_pct": 11.5,
+          "long_pct": 57.7,
+          "passed": true
+        }
       }
     }
   ]
