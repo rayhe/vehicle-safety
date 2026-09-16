@@ -1,9 +1,11 @@
 {
   "current": {
     "slug": "911-jeep-tpms-silent-warning-recall",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
-    "started": "2026-09-16T07:45:00-07:00"
+    "started": "2026-09-16T07:45:00-07:00",
+    "critic_avg": 8.97,
+    "round": 0
   },
   "last_check_note": "2026-09-16 05:45 run: #910 DRAFTED + CRITIQUE ROUND-0 PASS (avg 8.97, 7/7 >= 8.5, all hard gates; hero JPEG 429,879B, cache-busted). Queued SHIP_BLOCKED: 1/day slot already consumed by #900. current=null.",
   "last_checked": "2026-09-16T05:45:00-07:00",
