@@ -1,50 +1,7 @@
 {
-  "current": {
-    "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "number": 899,
-    "phase": "QA",
-    "slug": "899-aaa-speeding-new-normal-nimby",
-    "title": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
-    "started": "2026-09-14T13:40:00-07:00",
-    "critic_avg": 8.89,
-    "critique_round": 0,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 10.3,
-      "css_class": true,
-      "style_css": true,
-      "hero_jpeg": true,
-      "hero_hash": "7eeadf17",
-      "rhythm": {
-        "variance": 87.4,
-        "short_pct": 25.6,
-        "long_pct": 10.3
-      },
-      "word_count": 850
-    },
-    "scores": {
-      "general_editor": 8.8,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 8.7,
-      "social_shareability": 9.0,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.8,
-      "data_presentation": 8.9
-    },
-    "files": {
-      "research": "drafts/899-aaa-speeding-new-normal-nimby-research.md",
-      "draft": "drafts/899-aaa-speeding-new-normal-nimby.html",
-      "hero": "drafts/899-aaa-speeding-new-normal-nimby.jpg",
-      "critic_panel": "drafts/899-critic-panel-r0.md"
-    },
-    "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: AAA Foundation Aug 18 2026 speeding-attitudes study (3 in 10 say nobody drives the limit; ~half say keeping up with traffic is safer). Novel: punish-them-not-me paradox (82% want mandatory limiters for serious speeders vs 51% want advisory ISA in own car; >90% say humps work vs <50% want one on their street); 79% slow for tickets vs 72% for crashes. Sequel to #784 EU ISA. Draft+hero+research+critique in drafts/ (899- prefix).",
-    "qa_local": "PASS 2026-09-15: stories/899 HTML (9,280 bytes), images/899 real JPEG (551,721 bytes), index card added newest-first, sitemap entry added, og tags + ?v=7eeadf17 cache-bust present in draft. Critic panel round-0: 8.89 avg, 7/7 >= 8.5.",
-    "qa_live": "PENDING 2026-09-15 15:30: fleet egress outage persists (browser_open upstream unavailable: sentinel egress socket missing; direct VM curl to vehicle-safety.org = 000)"
-  },
-  "last_check_note": "2026-09-15 19:30 run: #899 QA local re-verified PASS (stories/899 HTML 9280B, class=story x1, 0 em dashes, index x1 + sitemap x1, real JPEG hero 551,721B). Live QA still blocked: fleet egress outage persists (direct curl to vehicle-safety.org = 000; browser.open upstream unavailable: sentinel egress socket missing; git pull/push also blocked). #900-#907 remain SHIP_BLOCKED in FIFO behind #899. 1/day rule satisfied by #899; current stays in QA until live verifies.",
-  "last_checked": "2026-09-15T19:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-15 21:30 run: #899 QA LIVE PASS \u2014 outage over, push landed, CF Pages deployed, all live checks pass. current cleared to null. #900-#907 remain SHIP_BLOCKED in FIFO (1/day rule; #900 eligible 2026-09-16).",
+  "last_checked": "2026-09-15T21:30:00-07:00",
   "last_completed": 899,
   "last_journalist": "Rex Driverton",
   "last_published": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
