@@ -43,8 +43,8 @@
     "qa_local": "PASS 2026-09-15: stories/899 HTML (9,280 bytes), images/899 real JPEG (551,721 bytes), index card added newest-first, sitemap entry added, og tags + ?v=7eeadf17 cache-bust present in draft. Critic panel round-0: 8.89 avg, 7/7 >= 8.5.",
     "qa_live": "PENDING 2026-09-15 15:30: fleet egress outage persists (browser_open upstream unavailable: sentinel egress socket missing; direct VM curl to vehicle-safety.org = 000)"
   },
-  "last_check_note": "2026-09-15 17:30 run: #899 QA local re-verified PASS (stories/899 HTML 9280B, class=story x1, 0 story.css, og x3, 0 em dashes, index x1, sitemap x1, real JPEG hero 551,721B). Live QA still blocked: fleet egress outage persists (direct curl to vehicle-safety.org = 000; git pull/push also blocked). #900-#907 remain SHIP_BLOCKED in FIFO behind #899. 1/day rule satisfied by #899; current stays in QA until live verifies.",
-  "last_checked": "2026-09-15T17:30:00-07:00",
+  "last_check_note": "2026-09-15 19:30 run: #899 QA local re-verified PASS (stories/899 HTML 9280B, class=story x1, 0 em dashes, index x1 + sitemap x1, real JPEG hero 551,721B). Live QA still blocked: fleet egress outage persists (direct curl to vehicle-safety.org = 000; browser.open upstream unavailable: sentinel egress socket missing; git pull/push also blocked). #900-#907 remain SHIP_BLOCKED in FIFO behind #899. 1/day rule satisfied by #899; current stays in QA until live verifies.",
+  "last_checked": "2026-09-15T19:30:00-07:00",
   "last_completed": 899,
   "last_journalist": "Rex Driverton",
   "last_published": "Nine in Ten Drivers Say Speed Humps Work. Fewer Than Half Want One on Their Street.",
