@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-16 01:30 run: #900 PUBLISHED (1/day slot; FIFO head, #899 shipped 2026-09-15). Mia Crumplezone C-HR overcharge sequel, 8.89 avg round-0.",
-  "last_checked": "2026-09-16T01:28:29-07:00",
+  "last_check_note": "2026-09-16 01:30 run: #900 PUBLISHED + QA LIVE PASS (story 200 9,597B, hero JPEG 579,705B, index x2, sitemap x1). 1/day slot consumed. current=null.",
+  "last_checked": "2026-09-16T01:38:58-07:00",
   "last_completed": 900,
   "last_journalist": "Mia Crumplezone",
   "last_published": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
   "last_published_date": "2026-09-16",
   "last_published_slug": "900-c-hr-overcharge-sequel-ecu",
-  "next": 909,
+  "next": 910,
   "queue": [
     {
       "journalist": "Axle McScatter",
@@ -3851,6 +3851,18 @@
         "critic_panel": "drafts/908-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5; all hard gates. Novel: Tracker 7.83 = highest SUV rate in dataset (41.2x RAV4), 2nd overall behind Veloster 8.54; impairment 12.7% vs 20.0% avg = sober-killer inversion; FARS model-year audit shows 89.2% of Tracker deaths coded to post-2004 years (production ended 2004); mechanism triangulated from IIHS side-Poor rating + Garrott et al. 1999 dynamic rollover tests (highest fatal rollover rates of any tested). Counterargument given full strength (denominator estimate, miscoding, selection)."
+    },
+    {
+      "number": 909,
+      "phase": "RESEARCH",
+      "title": "Suspended Licenses Don't Stop Speeders. Oregon Wants to Govern the Car Instead.",
+      "slug": "909-oregon-super-speeder-isa-governor",
+      "journalist": "Vin Wreckage",
+      "kicker": "Investigation",
+      "note": "RESEARCH complete 2026-09-16. News peg: Sept 8, 2026 Oregon 'Stop Super Speeders' ISA bill concept (Senate Judiciary; 2027 session; Grayber/Families for Safe Streets/Oregon Walks). Novel: interlock-precedent frame (ignition interlocks = same regulatory theory, 50-state proof) + the 75% suspended-driver noncompliance problem. 6 primary sources. Verified no overlap with #823 (FL jail), #841 (GHSA guidebook), #903. Kill test PASS. Next: DRAFT.",
+      "files": {
+        "research": "drafts/909-oregon-super-speeder-isa-governor-research.md"
+      }
     }
   ]
 }
