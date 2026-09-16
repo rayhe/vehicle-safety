@@ -1,14 +1,7 @@
 {
-  "current": {
-    "slug": "911-jeep-tpms-silent-warning-recall",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-09-16T07:45:00-07:00",
-    "critic_avg": 8.97,
-    "round": 0
-  },
-  "last_check_note": "2026-09-16 05:45 run: #910 DRAFTED + CRITIQUE ROUND-0 PASS (avg 8.97, 7/7 >= 8.5, all hard gates; hero JPEG 429,879B, cache-busted). Queued SHIP_BLOCKED: 1/day slot already consumed by #900. current=null.",
-  "last_checked": "2026-09-16T05:45:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-16 07:30 run: #911 DRAFTED + CRITIQUE ROUND-0 PASS (avg 8.97, 7/7 >= 8.5, all hard gates; hero JPEG 207,530B, cache-busted). Queued SHIP_BLOCKED: 1/day slot already consumed by #900. current=null.",
+  "last_checked": "2026-09-16T08:00:00-07:00",
   "last_completed": 900,
   "last_journalist": "Mia Crumplezone",
   "last_published": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
@@ -3929,6 +3922,44 @@
           "variance": 207.7,
           "short_pct": 14.6,
           "long_pct": 31.7,
+          "passed": true
+        }
+      }
+    },
+    {
+      "number": 911,
+      "phase": "SHIP_BLOCKED",
+      "title": "Stellantis Recalled 201,976 Jeeps Whose Tire-Pressure Warnings May Never Come. The Watchdog Can't Bark.",
+      "slug": "911-jeep-tpms-silent-warning-recall",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "ship_date": "2026-09-17",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late \u2014 FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
+      "files": {
+        "research": "drafts/911-jeep-tpms-silent-warning-recall-research.md",
+        "draft": "drafts/911-jeep-tpms-silent-warning-recall.html",
+        "hero": "images/911-jeep-tpms-silent-warning-recall.jpg",
+        "critic_panel": "drafts/911-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "critic_avg": 8.97,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.6,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 477.2,
+          "short_pct": 3.2,
+          "long_pct": 58.1,
           "passed": true
         }
       }
