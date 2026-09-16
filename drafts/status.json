@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "910-f150-detached-fuel-tank-recall",
+    "number": 910,
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "started": "2026-09-16T05:40:00-07:00",
+    "note": "Ford 26V578/26S69: 223,472 F-150s (2023-2027) recalled for detaching fuel tank; FARS vintage inversion: recall fleet ~0% of death record, <=2005 trucks = 59% of 9,194 deaths."
+  },
   "last_check_note": "2026-09-16 03:30 run: #909 DRAFTED + CRITIQUE ROUND-0 PASS (avg 8.9, 7/7 >= 8.5, all hard gates; hero JPEG 281,792B, cache-busted). Queued SHIP_BLOCKED: 1/day slot already consumed by #900. current=null.",
   "last_checked": "2026-09-16T03:35:00-07:00",
   "last_completed": 900,
