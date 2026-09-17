@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-17 01:35 run: #748 SHIPPED (FIFO queue head, SHIP_BLOCKED since 2026-08-19; round-0 pass all 7 critics >= 8.5, gates: em 0, banned 0; hero JPEG 338,288B 2048x1152, cache-busted ?v=18f6da20). 1/day slot free (0 publishes today). Queue now 123 entries. current=null.",
-  "last_checked": "2026-09-17T01:35:00-07:00",
+  "last_check_note": "2026-09-17 03:55 run: created #916 (Mia Crumplezone, Daimler 26V583000 recall-of-recall), round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5, gates: em 0, banned 0, The 14.3%). Queued SHIP_BLOCKED (1 publish already today, #748). Queue 123 -> 124. current=null.",
+  "last_checked": "2026-09-17T03:55:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 916,
+  "next": 917,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4099,6 +4099,43 @@
         "sentence_rhythm": {
           "variance": 1452.3,
           "short_pct": 3.8,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      }
+    },
+    {
+      "number": 916,
+      "phase": "SHIP_BLOCKED",
+      "title": "Daimler Is Recalling 2,404 Trucks Because the Repair Was Wrong Too. Welcome to the Recalled Recall.",
+      "slug": "916-freightliner-modulator-recall-of-recall",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 14.3%, rhythm var 5326.2, short 8.3%, long 50.0%). Novel: the recursion count (~237K 22V817 -> 2,404, ~1%, same corrosion failure mode), ESC/RSC-initiated braking as the failure trigger, ABS-light caveat (degradation signal is not corrosion signal). 26V583000 / DTNA F1039, 2,403 Cascadia 4x2 (24 CNG) 2020-2023 + 2 Western Star 49X 2022, wrong modulator valves installed under 23V073/22V817 repairs, discovered in internal process review late Aug 2026, zero crashes reported, owner letters Nov 8. Hero JPEG 487,442B 1920x1280, cache-busted ?v=123fb9a6. Blocked: 1/day slot consumed by #748 on 2026-09-17.",
+      "files": {
+        "research": "drafts/916-freightliner-modulator-recall-of-recall-research.md",
+        "draft": "drafts/916-freightliner-modulator-recall-of-recall.html",
+        "hero": "images/916-freightliner-modulator-recall-of-recall.jpg",
+        "critic_panel": "drafts/916-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critic_avg": 8.94,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 14.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 5326.2,
+          "short_pct": 8.3,
           "long_pct": 50.0,
           "passed": true
         }
