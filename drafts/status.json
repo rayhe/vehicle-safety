@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "917-ntsb-toll-booth-abolition-ohio",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-09-17T05:30:00-07:00"
+  },
   "last_check_note": "2026-09-17 03:55 run: created #916 (Mia Crumplezone, Daimler 26V583000 recall-of-recall), round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5, gates: em 0, banned 0, The 14.3%). Queued SHIP_BLOCKED (1 publish already today, #748). Queue 123 -> 124. current=null.",
   "last_checked": "2026-09-17T03:55:00-07:00",
   "last_completed": 748,
@@ -7,7 +12,7 @@
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 917,
+  "next": 918,
   "queue": [
     {
       "journalist": "Rex Driverton",
