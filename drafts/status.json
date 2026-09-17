@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-09-16 09:30 run: #912 RESEARCH+DRAFT+CRITIQUE ROUND-0 PASS (avg 8.94, 7/7 >= 8.5, all hard gates; hero JPEG 366,406B, cache-busted). Queued SHIP_BLOCKED: 1/day slot consumed by #900. current=null.",
-  "last_checked": "2026-09-16T08:00:00-07:00",
+  "last_check_note": "2026-09-16 19:30 run: #913 RESEARCH+DRAFT+CRITIQUE ROUND-0 PASS (avg 8.97, 7/7 >= 8.5, all hard gates; hero JPEG 503,686B, cache-busted). Queued SHIP_BLOCKED: 1/day slot consumed by #900. current=null.",
+  "last_checked": "2026-09-16T19:30:00-07:00",
   "last_completed": 900,
   "last_journalist": "Clara Rollover",
   "last_published": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
@@ -3997,6 +3997,43 @@
           "variance": 363.4,
           "short_pct": 0.0,
           "long_pct": 71.4,
+          "passed": true
+        }
+      }
+    },
+    {
+      "number": 913,
+      "phase": "SHIP_BLOCKED",
+      "title": "Ford Recalls 223,472 F-150s. The Cameras Were Watching Everything Except the Fuel Tank Straps",
+      "slug": "913-f150-fuel-tank-camera-gap-recall",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 9.4%, rhythm var 222.2, short 13.2%, long 47.4%). Novel: MAIVS AI-vision paradox (publicized cameras vs strap check 'not in continuous use' Jan 2023-Aug 2026), scope-limitation arithmetic (unsold/<3mo-in-service population), warranty-claim timeline mismatch (earliest 2018 predates camera-gap window). Hero JPEG 503,686B 1920x1280, cache-busted ?v=18f9c7fc. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
+      "files": {
+        "research": "drafts/913-f150-fuel-tank-camera-gap-recall-research.md",
+        "draft": "drafts/913-f150-fuel-tank-camera-gap-recall.html",
+        "hero": "images/913-f150-fuel-tank-camera-gap-recall.jpg",
+        "critic_panel": "drafts/913-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.2,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "critic_avg": 8.97,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.4,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 222.2,
+          "short_pct": 13.2,
+          "long_pct": 47.4,
           "passed": true
         }
       }
