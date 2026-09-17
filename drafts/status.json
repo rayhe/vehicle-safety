@@ -1,18 +1,13 @@
 {
-  "current": {
-    "slug": "920-f150-fuel-tank-detachment-camera",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-09-17T11:35:00-07:00"
-  },
-  "last_check_note": "2026-09-17 10:00 run: #919 (Axle McScatter, Sedgwick billion-unit recall surge) round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5, gates: em 0, banned 0, The 11.9%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-20 (1/day slot consumed by #748 today; #918 ships 2026-09-19). Queue 126 -> 127. current=null.",
-  "last_checked": "2026-09-17T07:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-17 11:30 run: #920 (Rex Driverton, Ford F-150 fuel tank detachment 26S69) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 11.6%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-21 (#748 shipped 2026-09-17; #919 ships 2026-09-20). Queue 127 -> 128. current=null.",
+  "last_checked": "2026-09-17T11:45:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 919,
+  "next": 921,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4258,6 +4253,44 @@
         "draft": "drafts/919-billion-unit-recall-surge-auto.html",
         "hero": "images/919-billion-unit-recall-surge-auto.jpg",
         "critic_panel": "drafts/919-critic-panel-r0.md"
+      }
+    },
+    {
+      "number": 920,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-21",
+      "slug": "920-f150-fuel-tank-detachment-camera",
+      "journalist": "Rex Driverton",
+      "title": "The Cameras Were There. They Just Weren't Watching.",
+      "kicker": "Investigation",
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.6,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 266.0,
+          "short_pct": 9.7,
+          "long_pct": 61.3,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates. Novel: Ford MAIVS phone-camera quality system + 'not in continuous use' recall admission; three-recall verification-pattern angle. Hero JPEG 1920x1280, cache-busted ?v=dbc017ba. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20.",
+      "files": {
+        "research": "drafts/920-f150-fuel-tank-detachment-camera-research.md",
+        "draft": "drafts/920-f150-fuel-tank-detachment-camera.html",
+        "hero": "drafts/920-f150-fuel-tank-detachment-camera.jpg",
+        "critic_panel": "drafts/920-critic-panel-r0.md"
       }
     }
   ]
