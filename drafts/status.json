@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "921-thirty-percent-flat",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "number": 921,
-    "started": "2026-09-17T13:30:00-07:00",
-    "title": "One Every 44 Minutes: Drunk-Driving Deaths Fell 4%. So Did Everything Else."
-  },
-  "last_check_note": "2026-09-17 11:30 run: #920 (Rex Driverton, Ford F-150 fuel tank detachment 26S69) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 11.6%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-21 (#748 shipped 2026-09-17; #919 ships 2026-09-20). Queue 127 -> 128. current=null.",
-  "last_checked": "2026-09-17T11:45:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-17 13:30 run: #921 (Dale Impactor III, alcohol-impaired share stuck at 30.3%) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 2.3%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-22 (#748 shipped 2026-09-17; #919 ships 2026-09-20; #920 ships 2026-09-21). Queue 128 -> 129. current=null.",
+  "last_checked": "2026-09-17T13:45:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 921,
+  "next": 922,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4298,6 +4291,42 @@
         "draft": "drafts/920-f150-fuel-tank-detachment-camera.html",
         "hero": "drafts/920-f150-fuel-tank-detachment-camera.jpg",
         "critic_panel": "drafts/920-critic-panel-r0.md"
+      }
+    },
+    {
+      "number": 921,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-22",
+      "slug": "921-thirty-percent-flat",
+      "journalist": "Dale Impactor III",
+      "title": "One Every 44 Minutes: Drunk-Driving Deaths Fell 4%, and So Did Everything Else.",
+      "kicker": "Sobriety Report",
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 421.4,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates. Novel: alcohol-impaired share of deaths flat 30.18%->30.32% while NHTSA touts 3.9% decline; 44-minute metronome. Hero JPEG 1920x1280, cache-busted ?v=45aacd90. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20, #920 ships 2026-09-21.",
+      "files": {
+        "research": "drafts/921-thirty-percent-flat-research.md",
+        "draft": "drafts/921-thirty-percent-flat.html",
+        "hero": "drafts/921-thirty-percent-flat-hero.jpg",
+        "critic_panel": "drafts/921-critic-panel-r0.md"
       }
     }
   ]
