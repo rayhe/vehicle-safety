@@ -1,12 +1,7 @@
 {
-  "current": {
-    "slug": "917-ntsb-toll-booth-abolition-ohio",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-09-17T05:30:00-07:00"
-  },
-  "last_check_note": "2026-09-17 03:55 run: created #916 (Mia Crumplezone, Daimler 26V583000 recall-of-recall), round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5, gates: em 0, banned 0, The 14.3%). Queued SHIP_BLOCKED (1 publish already today, #748). Queue 123 -> 124. current=null.",
-  "last_checked": "2026-09-17T03:55:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-17 05:30 run: created #917 (Rex Driverton, NTSB toll-booth abolition recs H-26-10..H-26-18, Swanton OH I-80), round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5, gates: em 0, banned 0, The 11.8%, rhythm PASS). Queued SHIP_BLOCKED (1 publish already today, #748). Queue 124 -> 125. current=null.",
+  "last_checked": "2026-09-17T05:30:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
@@ -4144,6 +4139,44 @@
           "long_pct": 50.0,
           "passed": true
         }
+      }
+    },
+    {
+      "number": 917,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-18",
+      "slug": "917-ntsb-toll-booth-abolition-ohio",
+      "journalist": "Rex Driverton",
+      "title": "1,099 Near-Misses in Three Weeks. Now the NTSB Says the Toll Booth Has to Go.",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.97,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.8,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 592.9,
+          "short_pct": 6.7,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: 52/day near-miss lottery (1,099 in 3 weeks), 70-to-0 speed differential as engineered constant, cascade body count 4 not 2. NTSB NR20260916 (Sep 16) recs H-26-10..H-26-18 + reiterated H-15-42; Swanton Township Toll Plaza, I-80, Ohio; 2015 Highlander vs 2019 Mack Anthem, sulfonic acid spill. Hero JPEG, cache-busted ?v=355feeed. Blocked: 1/day slot consumed by #748 on 2026-09-17.",
+      "files": {
+        "research": "drafts/917-ntsb-toll-booth-abolition-ohio-research.md",
+        "draft": "drafts/917-ntsb-toll-booth-abolition-ohio.html",
+        "hero": "images/917-ntsb-toll-booth-abolition-ohio.jpg",
+        "critic_panel": "drafts/917-critic-panel-r0.md"
       }
     }
   ]
