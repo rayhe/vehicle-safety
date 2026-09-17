@@ -1,7 +1,14 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-17 13:30 run: #921 (Dale Impactor III, alcohol-impaired share stuck at 30.3%) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 2.3%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-22 (#748 shipped 2026-09-17; #919 ships 2026-09-20; #920 ships 2026-09-21). Queue 128 -> 129. current=null.",
-  "last_checked": "2026-09-17T13:45:00-07:00",
+  "current": {
+    "number": 922,
+    "slug": "922-f150-micro-recall-100-percent-defective",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-09-17T15:30:00-07:00",
+    "title": "Ford Recalled 37 Trucks at a 100% Defect Rate. The Machine That Was Supposed to Catch the Other One Was Turned Off."
+  },
+  "last_check_note": "2026-09-17 15:30 run: #922 (Rex Driverton, Ford Sept 9 micro-recalls: 26S63 37-truck 100% axle bearing + 26S66 17-Raptor Panhard bypass) RESEARCH done, entering DRAFT.",
+  "last_checked": "2026-09-17T15:35:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
