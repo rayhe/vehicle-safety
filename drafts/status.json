@@ -1,20 +1,13 @@
 {
-  "current": {
-    "number": 922,
-    "slug": "922-f150-micro-recall-100-percent-defective",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-09-17T15:30:00-07:00",
-    "title": "Ford Recalled 37 Trucks at a 100% Defect Rate. The Machine That Was Supposed to Catch the Other One Was Turned Off."
-  },
-  "last_check_note": "2026-09-17 15:30 run: #922 (Rex Driverton, Ford Sept 9 micro-recalls: 26S63 37-truck 100% axle bearing + 26S66 17-Raptor Panhard bypass) RESEARCH done, entering DRAFT.",
-  "last_checked": "2026-09-17T15:35:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-17 15:30 run: #922 (Rex Driverton, Ford Sept 9 micro-recalls) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 3.3%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-23 (#748 shipped 2026-09-17; #919 -> 2026-09-20; #920 -> 2026-09-21; #921 -> 2026-09-22). Queue 130. current=null.",
+  "last_checked": "2026-09-17T16:00:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 922,
+  "next": 923,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4334,6 +4327,44 @@
         "draft": "drafts/921-thirty-percent-flat.html",
         "hero": "drafts/921-thirty-percent-flat-hero.jpg",
         "critic_panel": "drafts/921-critic-panel-r0.md"
+      }
+    },
+    {
+      "number": 922,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-23",
+      "slug": "922-f150-micro-recall-100-percent-defective",
+      "journalist": "Rex Driverton",
+      "title": "37 Trucks, 100% Defective: The Recall So Small Ford Named Every Victim",
+      "kicker": "Investigation",
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 1331.4,
+          "short_pct": 10.0,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates (rhythm fixed via fragment merges; The-starters 3.3%). Novel: 100% defect rate from Part 573 26V576 + Raptor error-proofing bypass + 71-vs-peers campaign tally. Hero JPEG 1920x1280, cache-busted ?v=49f59330. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20, #920 ships 2026-09-21, #921 ships 2026-09-22.",
+      "files": {
+        "research": "drafts/922-f150-micro-recall-100-percent-defective-research.md",
+        "draft": "drafts/922-f150-micro-recall-100-percent-defective.html",
+        "hero": "drafts/922-f150-micro-recall-100-percent-defective.jpg",
+        "critic_panel": "drafts/922-critic-panel-r0.md"
       }
     }
   ]
