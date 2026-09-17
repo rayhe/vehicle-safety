@@ -1,22 +1,14 @@
 {
   "current": null,
-  "last_check_note": "2026-09-16 23:30 run: #915 RESEARCH+DRAFT+CRITIQUE ROUND-0 PASS (avg 8.81, 7/7 >= 8.5, all hard gates; hero JPEG 401,554B, cache-busted). Queued SHIP_BLOCKED: 1/day slot consumed by #900. current=null.",
-  "last_checked": "2026-09-16T23:30:00-07:00",
-  "last_completed": 900,
-  "last_journalist": "Rex Driverton",
-  "last_published": "Toyota's New C-HR Can Overcharge Itself Down a Mountain. The Bug Was Found in a Car That Doesn't Exist Yet.",
-  "last_published_date": "2026-09-16",
-  "last_published_slug": "900-c-hr-overcharge-sequel-ecu",
+  "last_check_note": "2026-09-17 01:35 run: #748 SHIPPED (FIFO queue head, SHIP_BLOCKED since 2026-08-19; round-0 pass all 7 critics >= 8.5, gates: em 0, banned 0; hero JPEG 338,288B 2048x1152, cache-busted ?v=18f6da20). 1/day slot free (0 publishes today). Queue now 123 entries. current=null.",
+  "last_checked": "2026-09-17T01:35:00-07:00",
+  "last_completed": 748,
+  "last_journalist": "Axle McScatter",
+  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
+  "last_published_date": "2026-09-17",
+  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
   "next": 916,
   "queue": [
-    {
-      "journalist": "Axle McScatter",
-      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files",
-      "number": 748,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-19",
-      "slug": "ford-741k-rollaway-ten-month-remedy-gap"
-    },
     {
       "journalist": "Rex Driverton",
       "number": 749,
@@ -4076,41 +4068,41 @@
       }
     },
     {
-        "number": 915,
-        "phase": "SHIP_BLOCKED",
-        "title": "Ford Is Recalling 223,472 F-150s. Your Fuel Tank May Be Held On By Hope.",
-        "slug": "915-f150-fuel-tank-strap-camera-gap",
-        "journalist": "Rex Driverton",
-        "kicker": "Investigation",
-        "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 12.9%, rhythm var 1452.3, short 3.8%, long 50.0%). Novel: verification-camera gap (strap-verification cameras not continuously in use during affected build periods), 1% defect math (~2,235 trucks), 16-of-2,235 detection ratio (~140 inspected per expected bad strap), 2026 F-150 in 3 of Ford's 4 same-week recalls (26V576/577/578). 26V578 / Ford 26S69, 223,472 F-150s 2023-2027, built Jan 4 2023-Aug 27 2026, owner letters Sep 21. Hero JPEG 401,554B 1920x1280, cache-busted ?v=147f8f24. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
-        "files": {
-            "research": "drafts/915-f150-fuel-tank-strap-camera-gap-research.md",
-            "draft": "drafts/915-f150-fuel-tank-strap-camera-gap.html",
-            "hero": "images/915-f150-fuel-tank-strap-camera-gap.jpg",
-            "critic_panel": "drafts/915-critic-panel-r0.md"
-        },
-        "scores": {
-            "general_editor": 8.8,
-            "voice_coach": 8.6,
-            "ethics_reviewer": 9.0,
-            "social_shareability": 8.8,
-            "legal_accuracy": 9.0,
-            "research_rigor": 8.5,
-            "data_presentation": 8.8
-        },
-        "critic_avg": 8.81,
-        "hard_gates": {
-            "em_dashes": 0,
-            "banned_phrases": 0,
-            "the_starters_pct": 12.9,
-            "css_class": true,
-            "sentence_rhythm": {
-                "variance": 1452.3,
-                "short_pct": 3.8,
-                "long_pct": 50.0,
-                "passed": true
-            }
+      "number": 915,
+      "phase": "SHIP_BLOCKED",
+      "title": "Ford Is Recalling 223,472 F-150s. Your Fuel Tank May Be Held On By Hope.",
+      "slug": "915-f150-fuel-tank-strap-camera-gap",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 12.9%, rhythm var 1452.3, short 3.8%, long 50.0%). Novel: verification-camera gap (strap-verification cameras not continuously in use during affected build periods), 1% defect math (~2,235 trucks), 16-of-2,235 detection ratio (~140 inspected per expected bad strap), 2026 F-150 in 3 of Ford's 4 same-week recalls (26V576/577/578). 26V578 / Ford 26S69, 223,472 F-150s 2023-2027, built Jan 4 2023-Aug 27 2026, owner letters Sep 21. Hero JPEG 401,554B 1920x1280, cache-busted ?v=147f8f24. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
+      "files": {
+        "research": "drafts/915-f150-fuel-tank-strap-camera-gap-research.md",
+        "draft": "drafts/915-f150-fuel-tank-strap-camera-gap.html",
+        "hero": "images/915-f150-fuel-tank-strap-camera-gap.jpg",
+        "critic_panel": "drafts/915-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.8
+      },
+      "critic_avg": 8.81,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.9,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 1452.3,
+          "short_pct": 3.8,
+          "long_pct": 50.0,
+          "passed": true
         }
+      }
     }
   ]
 }
