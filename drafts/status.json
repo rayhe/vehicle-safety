@@ -2,13 +2,19 @@
   "current": {
     "number": 919,
     "slug": "919-billion-unit-recall-surge-auto",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
     "kicker": "By The Numbers",
     "started": "2026-09-17T09:40:00-07:00",
-    "title": "Recalls Aren't Rising. They're Detonating."
+    "title": "Recalls Aren't Rising. They're Detonating.",
+    "round": 0,
+    "files": {
+      "research": "drafts/919-billion-unit-recall-surge-auto-research.md",
+      "draft": "drafts/919-billion-unit-recall-surge-auto.html",
+      "hero": "images/919-billion-unit-recall-surge-auto.jpg"
+    }
   },
-  "last_check_note": "2026-09-17 09:40 run: #919 C-HR draft abandoned pre-draft (dup of published #900 from Sep 14; same 26V570/prototype angle). Re-pivoted to Sedgwick H1 2026 billion-unit recall surge (Axle McScatter, By The Numbers). Research done, moving to DRAFT.",
+  "last_check_note": "2026-09-17 09:55 run: #919 draft + hero complete (Axle McScatter). Hard gates pre-panel: em 0, banned 0, The 11.9%, rhythm PASS (var 265, short 4.8%, long 45.2%). Running 7-critic panel.",
   "last_checked": "2026-09-17T07:30:00-07:00",
   "last_completed": 748,
   "last_journalist": "Mia Crumplezone",
