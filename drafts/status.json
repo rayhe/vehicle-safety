@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "931-navigator-escalade-impairment-paradox",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "number": 931,
-    "started": "2026-09-18T09:30:00-07:00",
-    "title": "Cadillac Drivers Are Drunker. Their SUV Is Still Safer."
-  },
-  "last_check_note": "2026-09-18 09:30 run: #931 RESEARCH done (Dale Impactor III, Sobriety Report). Navigator 209 deaths rate 1.06 vs Escalade 211 deaths rate 0.64; impairment paradox (Escalade 22.0% vs Navigator 17.7%); gap widens to 1.75x after impairment adjustment. Continuing to DRAFT.",
+  "current": null,
+  "last_check_note": "2026-09-18 09:30 run: #931 (Navigator vs Escalade impairment paradox, Dale Impactor III) round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-02 (queue drains through 9/30, #930 holds 10-01). current=null, next=932.",
   "last_checked": "2026-09-18T09:30:00-07:00",
   "last_completed": 748,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 931,
+  "next": 932,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4676,6 +4669,44 @@
         "draft": "drafts/930-f150-three-recalls-one-week.html",
         "hero": "drafts/930-f150-three-recalls-one-week.jpg",
         "critic_panel": "drafts/930-f150-three-recalls-one-week-critique.md"
+      }
+    },
+    {
+      "number": 931,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-02",
+      "slug": "931-navigator-escalade-impairment-paradox",
+      "journalist": "Dale Impactor III",
+      "title": "Cadillac Drivers Are Drunker. Their SUV Is Still Safer.",
+      "kicker": "Sobriety Report",
+      "critic_avg": 8.79,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.7,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 333.2,
+          "short_pct": 12.9,
+          "long_pct": 32.3,
+          "passed": true
+        }
+      },
+      "note": "Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: impairment is the red herring \u2014 Escalade 22.0% impaired vs Navigator 17.7%, yet Navigator kills at 1.66x the rate (1.06 vs 0.64); gap widens to 1.75x after backing out impaired drivers (0.87 vs 0.50). Segment context: Expedition 2.31, Yukon 2.55. Timeliness: Navigator 2026 recall spree (26V165, 26V402, seat-belt pretensioner ~420K). Hero JPEG 1920x1280 verified, ?v=7c7e86fa. Blocked: queue drains through 9/30 (#929), #930 holds 10-01.",
+      "files": {
+        "research": "drafts/931-navigator-escalade-impairment-paradox-research.md",
+        "draft": "drafts/931-navigator-escalade-impairment-paradox.html",
+        "hero": "drafts/931-navigator-escalade-impairment-paradox.jpg",
+        "critic_panel": "drafts/931-navigator-escalade-impairment-paradox-critique.md"
       }
     }
   ]
