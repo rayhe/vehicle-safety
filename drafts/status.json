@@ -1,7 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-18 03:30 run: #928 (Macan/GLK druggiest luxury, Vin Wreckage) round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 7.5%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-29 (queue drains through 9/28). current=null, next=929.",
-  "last_checked": "2026-09-18T01:45:00-07:00",
+  "current": {
+    "slug": "929-vw-steering-bolt-rust-loss-of-control",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-09-18T05:30:00-07:00",
+    "number": 929
+  },
+  "last_check_note": "2026-09-18 05:30 run: #929 (VW steering rack bolt recall 26V590000, Rex Driverton) \u2014 research complete, entering DRAFT.",
+  "last_checked": "2026-09-18T05:30:00-07:00",
   "last_completed": 748,
   "last_journalist": "Vin Wreckage",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
