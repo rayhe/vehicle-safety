@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "number": 932,
+    "slug": "932-bronco-ninth-recall-airbag-bracket-burr",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-18T20:35:00Z",
+    "kicker": "Trend Watch"
+  },
   "last_check_note": "2026-09-18 09:30 run: #931 (Navigator vs Escalade impairment paradox, Dale Impactor III) round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-02 (queue drains through 9/30, #930 holds 10-01). current=null, next=932.",
   "last_checked": "2026-09-18T09:30:00-07:00",
   "last_completed": 816,
