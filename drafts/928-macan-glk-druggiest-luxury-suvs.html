@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Safest Cars in America Have the Druggiest Drivers &mdash; The Crash Report</title>
+  <meta name="description" content="The Porsche Macan is the 5th-safest vehicle in FARS data and the Mercedes GLK-Class sits in the safest quintile. Both also have the highest drug-positive driver rates of any luxury vehicle.">
+  <meta property="og:title" content="The Safest Cars in America Have the Druggiest Drivers">
+  <meta property="og:description" content="The Porsche Macan is the 5th-safest vehicle in FARS data. It is also one of the two drug-happiest luxury cars in America.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/928-macan-glk-druggiest-luxury-suvs.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>The Safest Cars in America Have the Druggiest Drivers</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">September 18, 2026</div>
+
+      <img src="../images/928-macan-glk-druggiest-luxury-suvs.jpg" alt="Porsche Macan and Mercedes GLK at night" class="story-hero">
+
+      <p>Here's a fun fact that will ruin your morning commute: of all luxury vehicles in FARS data, the Mercedes GLK-Class has <strong>the highest drug-positive driver rate (12.2%)</strong>, and the Porsche Macan sits right behind it at 12.1%. It is simultaneously the fifth-safest vehicle in the entire dataset.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">12.2% vs 8.7%</div>
+      <div class="pull-label">GLK-Class drug-positive rate vs. the all-vehicle median, with a fatality rate in the safest quintile</div>
+
+      <p>Run the cross-tab nobody ran. Take every vehicle with 100+ tested fatal-crash drivers, rank them by drug-positive rate, then rank them by fatality rate per 100M VMT. Meanwhile the GLK lands 53rd of 328 on safety (rate 0.17) and first among all luxury SUVs on drug-positive drivers (229 drivers tested). And the Macan is 5th of 328 on safety (rate 0.03, seven deaths total) and second among luxury SUVs on drug positives (107 drivers). Closest behind them, the Cadillac XT5 and Infiniti QX56 top out at 10.9%.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Context matters. Against an all-vehicle median of 8.7%, GLK and Macan drivers test positive about 40% more often than average. Nationally, NHTSA's own data shows drug-positive shares of fatally injured drivers climbing from 25% in 2007 to 42% in 2016, with cannabinoid positives doubling from 8% to 18%.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> A 2022 NHTSA trauma-center study found more than half of seriously or fatally injured road users had drugs or alcohol in their bloodstreams, and nearly one in five had two or more substances aboard.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>So what breaks? That inverts the usual story. Normally the beaters top the impairment charts; the Buick Park Avenue leads all vehicles at 16.6%. But at the luxury end, it is the engineering showcases that concentrate the drugged drivers. Seven people died in Macan crashes over a decade, and the ones who did were disproportionately drug-positive. The five-star crash structure held; the driver didn't.</p>
+
+      <p>That is the cosmic joke buried in this table. We spent a decade perfecting crumple zones and deploying airbags in milliseconds, and the marginal killer left standing is the person behind the wheel with something in their bloodstream. ADAS cannot override a driver who is not processing the road. AEB brakes for the obstacle; it does not brake for the mindset.</p>
+
+      <p>What should you actually do with this? If you are buying a used Macan or GLK, the safety record is real and you should trust it, but understand what it assumes. Every IIHS rating, every fatality statistic, every crash-test star implicitly assumes a sober driver. There is no breathalyzer equivalent for THC at a traffic stop in most states, no per-se drugged-driving standard, and resale markets price impairment risk at exactly zero. No Carfax will tell you the last three owners smoked weed. If you are lending the keys to anyone, that is the risk you are absorbing: the car is engineered to survive almost everything except the driver.</p>
+
+      <p>The strongest counterargument is that drug-positive is not impairment-positive, and it deserves its full weight. THC metabolites linger in regular users for days or weeks. FARS lumps prescription opioids, stimulants, and over-the-counter sedatives together with cocaine and meth. Testing practices vary wildly by state and coroner office. A 107-driver Macan sample means one bad year moves the needle. Wealth correlates with prescription drug access, which could inflate luxury drug-positive rates without a single impaired driver in the mix. This analysis cannot distinguish the stoned driver from the driver who took a legal prescription last Tuesday.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>And the honest accounting of what this does not prove: FARS captures fatal crashes only, roughly 36,000 annual deaths against ~6.7 million total crashes. Estimated fatality rates use VMT approximations, introducing roughly ±15% uncertainty for low-volume models like the Macan, whose entire conclusion rests on seven deaths. And the toxicology table is an any-drug aggregate: it cannot tell you whether the GLK's 12.2% is cannabis, stimulants, or grandma's Ambien. That breakdown does not exist in this dataset.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023, via The Crash Report <code>fars_output.js</code> (per-model toxicology table; drugPct = drug-positive drivers / drivers in fatal crashes; rate = estimated deaths per 100M VMT). <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, &ldquo;Drugged Facts: Presence of Drugs in Drivers&rdquo; flyer: drug-positive share of fatally injured drivers rose 25% (2007) to 42% (2016); cannabinoid positives doubled 8% to 18%. <a href="https://www.nhtsa.gov/sites/nhtsa.gov/files/documents/13839-drugged_facts_flyer_101918_v8_002.pdf" target="_blank" rel="noopener">nhtsa.gov (PDF)</a></li>
+          <li id="ref-3">NHTSA trauma-center study, Dec 2022: &gt;50% of seriously/fatally injured road users had drugs or alcohol in blood; ~20% had two or more substances; THC most prevalent; authors caution results cannot gauge national roadside prevalence. <a href="https://www.delmarvapublicmedia.org/2022-12-13/over-half-of-car-crash-victims-had-drugs-or-alcohol-in-their-systems-a-study-says" target="_blank" rel="noopener">AP via delmarvapublicmedia.org</a></li>
+          <li id="ref-4">NHTSA, &ldquo;Reducing Drugged Driving&rdquo; (2012): 1 in 3 deceased drivers with known results tested positive (illicit + prescription + OTC); marijuana 25% of positive tests; testing inconsistent across states. <a href="https://www.govinfo.gov/content/pkg/GOVPUB-PREX26-PURL-gpo72303/pdf/GOVPUB-PREX26-PURL-gpo72303.pdf" target="_blank" rel="noopener">govinfo.gov (PDF)</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Drug-positive means any drug detected in toxicology (illicit, prescription, or OTC), not impairment. Macan toxicology sample n=107; GLK n=229. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
