@@ -1,7 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "923-f150-fuel-tank-road-hazard",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-09-17T17:30:00-07:00",
+    "number": 923
+  },
   "last_check_note": "2026-09-17 15:30 run: #922 (Rex Driverton, Ford Sept 9 micro-recalls) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 3.3%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-23 (#748 shipped 2026-09-17; #919 -> 2026-09-20; #920 -> 2026-09-21; #921 -> 2026-09-22). Queue 130. current=null.",
-  "last_checked": "2026-09-17T16:00:00-07:00",
+  "last_checked": "2026-09-17T17:30:00-07:00",
   "last_completed": 748,
   "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
