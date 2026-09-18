@@ -1,7 +1,14 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-18 07:30 run: #930 (Ford F-150 triple-recall week, Clara Rollover) round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 7.4%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-01 (queue drains through 9/30). current=null, next=931.",
-  "last_checked": "2026-09-18T07:30:00-07:00",
+  "current": {
+    "slug": "931-navigator-escalade-impairment-paradox",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "number": 931,
+    "started": "2026-09-18T09:30:00-07:00",
+    "title": "Cadillac Drivers Are Drunker. Their SUV Is Still Safer."
+  },
+  "last_check_note": "2026-09-18 09:30 run: #931 RESEARCH done (Dale Impactor III, Sobriety Report). Navigator 209 deaths rate 1.06 vs Escalade 211 deaths rate 0.64; impairment paradox (Escalade 22.0% vs Navigator 17.7%); gap widens to 1.75x after impairment adjustment. Continuing to DRAFT.",
+  "last_checked": "2026-09-18T09:30:00-07:00",
   "last_completed": 748,
   "last_journalist": "Clara Rollover",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
