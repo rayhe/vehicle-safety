@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-09-18 09:30 run: #931 (Navigator vs Escalade impairment paradox, Dale Impactor III) round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-02 (queue drains through 9/30, #930 holds 10-01). current=null, next=932.",
   "last_checked": "2026-09-18T09:30:00-07:00",
-  "last_completed": 748,
+  "last_completed": 816,
   "last_journalist": "Dale Impactor III",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
@@ -747,9 +747,9 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/. Published 2026-09-18 (1/day check passed: 0 prior publishes). Awaiting QA verify.",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/. Published 2026-09-18 (1/day check passed: 0 prior publishes). Awaiting QA verify. QA 2026-09-18: story 200 (11,154 bytes), hero JPEG 200 valid 1920x1280, og tags present, index card + sitemap entries live.",
       "number": 816,
-      "phase": "QA",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
@@ -763,7 +763,8 @@
       "ship_date": "2026-09-18",
       "slug": "mitsubishi-outlander-blank-camera",
       "started": "2026-09-04T16:30:00Z",
-      "title": "Mitsubishi Recalled 67,146 Outlanders Because the Backup Camera Can Just Go Blank"
+      "title": "Mitsubishi Recalled 67,146 Outlanders Because the Backup Camera Can Just Go Blank",
+      "published_at": "2026-09-18"
     },
     {
       "critic_avg": 9.07,
