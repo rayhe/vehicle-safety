@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-18 09:30 run: #931 (Navigator vs Escalade impairment paradox, Dale Impactor III) round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-02 (queue drains through 9/30, #930 holds 10-01). current=null, next=932.",
-  "last_checked": "2026-09-18T09:30:00-07:00",
+  "last_check_note": "2026-09-18 15:30 run: #933 (Ioniq 9 three-nameplate power-seat recall, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 9.1%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-04 (1/day slot consumed by #816; queue drains through 10-03). current=null, next=934.",
+  "last_checked": "2026-09-18T15:30:00-07:00",
   "last_completed": 816,
   "last_journalist": "Mia Crumplezone",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 933,
+  "next": 934,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4751,6 +4751,49 @@
         "draft": "drafts/932-bronco-ninth-recall-airbag-bracket-burr.html",
         "hero": "drafts/932-bronco-ninth-recall-airbag-bracket-burr.jpg",
         "critic_panel": "drafts/932-bronco-ninth-recall-airbag-bracket-burr-critique.md"
+      }
+    },
+    {
+      "number": 933,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-04",
+      "slug": "933-ioniq9-three-nameplate-seat-recall",
+      "journalist": "Mia Crumplezone",
+      "title": "A Toddler Died Under a Power Seat in March. Today Hyundai Recalled a Third SUV for the Same Seat.",
+      "kicker": "Investigation",
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_class": true,
+        "style_css": true,
+        "word_count": 468,
+        "hero_jpeg": true,
+        "hero_hash": "b8d9a3d5",
+        "sentence_rhythm": {
+          "variance": 965.3,
+          "short_pct": 10.3,
+          "long_pct": 48.3,
+          "passed": true
+        }
+      },
+      "note": "Round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, all hard gates). Novel: cross-nameplate Palisade(26V160)->Telluride Hybrid(26V173)->Ioniq 9(26V588000) failure-mode pattern + FMVSS 118 regulatory gap (windows reverse at 100N, power seats unregulated) + 66,661 fleet math. Hero JPEG 1920x1280, ?v=b8d9a3d5. Blocked: 1/day slot consumed by #816 on 2026-09-18; queue drains through 10-03.",
+      "files": {
+        "research": "drafts/933-ioniq9-three-nameplate-seat-recall-research.md",
+        "draft": "drafts/933-ioniq9-three-nameplate-seat-recall.html",
+        "hero": "drafts/933-ioniq9-three-nameplate-seat-recall.jpg",
+        "critic_panel": "drafts/933-ioniq9-three-nameplate-seat-recall-critique.md"
       }
     }
   ]
