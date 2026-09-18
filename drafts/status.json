@@ -1,19 +1,13 @@
 {
-  "current": {
-    "slug": "923-f150-fuel-tank-road-hazard",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-09-17T17:30:00-07:00",
-    "number": 923
-  },
-  "last_check_note": "2026-09-17 15:30 run: #922 (Rex Driverton, Ford Sept 9 micro-recalls) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 3.3%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-23 (#748 shipped 2026-09-17; #919 -> 2026-09-20; #920 -> 2026-09-21; #921 -> 2026-09-22). Queue 130. current=null.",
-  "last_checked": "2026-09-17T17:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-17 17:30 run: #923 (Clara Rollover, Ford F-150 26V578 fuel-tank straps) round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 0%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-24 (#748 shipped 2026-09-17; #919 -> 2026-09-20; #920 -> 2026-09-21; #921 -> 2026-09-22; #922 -> 2026-09-23). Queue 131. current=null.",
+  "last_checked": "2026-09-17T17:45:00-07:00",
   "last_completed": 748,
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Clara Rollover",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 923,
+  "next": 924,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4371,6 +4365,44 @@
         "draft": "drafts/922-f150-micro-recall-100-percent-defective.html",
         "hero": "drafts/922-f150-micro-recall-100-percent-defective.jpg",
         "critic_panel": "drafts/922-critic-panel-r0.md"
+      }
+    },
+    {
+      "number": 923,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-24",
+      "slug": "923-f150-fuel-tank-road-hazard",
+      "journalist": "Clara Rollover",
+      "title": "223,472 F-150s Have Gas Tanks That Can Fall Out. The Fix Is a Letter in the Mail.",
+      "kicker": "Investigation",
+      "critic_avg": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 476.2,
+          "short_pct": 3.8,
+          "long_pct": 42.3,
+          "passed": true
+        }
+      },
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; all hard gates (rhythm fixed via fragment merges; The-starters 0%). Novel: 245-lb tank mass calc + AAA debris secondhand-victim frame + 2022 22V-414 same-component precedent + FMVSS 301 torque-audit gap. Hero JPEG 1920x1280, cache-busted ?v=990e69be. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 9/20, #920 ships 9/21, #921 ships 9/22, #922 ships 9/23.",
+      "files": {
+        "research": "drafts/923-f150-fuel-tank-road-hazard-research.md",
+        "draft": "drafts/923-f150-fuel-tank-road-hazard.html",
+        "hero": "drafts/923-f150-fuel-tank-road-hazard-hero.jpg",
+        "critic_panel": "drafts/923-critic-panel-r0.md"
       }
     }
   ]
