@@ -1,20 +1,13 @@
 {
-  "current": {
-    "slug": "925-ford-37-truck-recall-per-vehicle-risk",
-    "number": 925,
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-09-17T21:35:00-07:00",
-    "research": "drafts/925-ford-37-truck-recall-per-vehicle-risk-research.md"
-  },
-  "last_check_note": "2026-09-17 19:55 run: #924 (NHTSA red-box fire-recall banner, Clara Rollover) round-1 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-25 (#748 shipped 2026-09-17; #919 -> 9/20; #920 -> 9/21; #921 -> 9/22; #922 -> 9/23; #923 -> 9/24). Queue 132. current=null.",
-  "last_checked": "2026-09-17T19:55:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-17 21:45 run: #925 (Ford 37-truck 26V576 axle bearing recall, Axle McScatter) round-0 panel VERDICT: SHIP (avg 8.82, all 7 >= 8.5, gates: em 0, banned 0, The 5.7%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-26 (queue drains through 9/25). current=null, next=926.",
+  "last_checked": "2026-09-17T21:45:00-07:00",
   "last_completed": 748,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 925,
+  "next": 926,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4448,6 +4441,44 @@
         "draft": "drafts/924-nhtsa-red-box-fire-recall-banner.html",
         "hero": "drafts/924-nhtsa-red-box-fire-recall-banner.jpg",
         "critic_panel": "drafts/924-nhtsa-red-box-fire-recall-banner-critique.md"
+      }
+    },
+    {
+      "number": 925,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-09-26",
+      "slug": "925-ford-37-truck-recall-per-vehicle-risk",
+      "journalist": "Axle McScatter",
+      "title": "37 Trucks Have the Wrong Bearings, and Per Vehicle That's This Week's Worst Recall.",
+      "kicker": "By The Numbers",
+      "critic_avg": 8.82,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.7,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 295.4,
+          "short_pct": 9.1,
+          "long_pct": 42.4,
+          "passed": true
+        }
+      },
+      "note": "Round-0 panel VERDICT: SHIP (avg 8.82, all 7 >= 8.5). Novel: per-vehicle severity ranking of Ford's 4-campaign Sept week; 26V576 (37 Max Tow F-150s, 8.8in vs 9.75in bearings, worker caught at Sterling Axle May 26) + 26V577 (17 trucks, loose stabilizer rod). ~16wk build-to-letter gap. Hero JPEG 1920x1280 verified. Blocked: 1/day consumed by #748 on 2026-09-17; queue drains through 9/25 (#924).",
+      "files": {
+        "research": "drafts/925-ford-37-truck-recall-per-vehicle-risk-research.md",
+        "draft": "drafts/925-ford-37-truck-recall-per-vehicle-risk.html",
+        "hero": "drafts/925-ford-37-truck-recall-per-vehicle-risk.jpg",
+        "critic_panel": "drafts/925-ford-37-truck-recall-per-vehicle-risk-critique.md"
       }
     }
   ]
