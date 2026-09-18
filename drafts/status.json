@@ -747,9 +747,9 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: recall-to-sales ratio (67,146 recalled vs 42,189 sold in all of 2025 = 1.59x, ~19 months of production) + NHTSA overTheAirUpdate:false finding vs Lucid OTA contrast. Draft+hero+research+critique in drafts/. Published 2026-09-18 (1/day check passed: 0 prior publishes). Awaiting QA verify.",
       "number": 816,
-      "phase": "SHIP_BLOCKED",
+      "phase": "QA",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
