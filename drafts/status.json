@@ -1,12 +1,15 @@
 {
   "current": {
     "slug": "927-point-fifteen-club-bac-distribution",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
-    "started": "2026-09-18T01:30:00-07:00"
+    "round": 0,
+    "started": "2026-09-18T01:30:00-07:00",
+    "hero": "drafts/927-point-fifteen-club-bac-distribution.jpg",
+    "hero_v": "bd4dd4ed"
   },
-  "last_check_note": "2026-09-18 01:30 run: RESEARCH for #927 (The .15 Club, Dale Impactor III). NHTSA TSF 2024: 68% of alcohol deaths involve driver BAC >= .15; modal BAC .15; Labor Day window 77%. Novel: complements site's own below-limit story (June).",
-  "last_checked": "2026-09-18T01:30:00-07:00",
+  "last_check_note": "2026-09-18 01:35 run: DRAFT for #927 written (Dale Impactor III). Hero JPEG 1920x1280 verified, ?v=bd4dd4ed. Moved to CRITIQUE round 0.",
+  "last_checked": "2026-09-18T01:35:00-07:00",
   "last_completed": 748,
   "last_journalist": "Rex Driverton",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
