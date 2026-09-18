@@ -1,6 +1,14 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-18 01:45 run: #927 (The .15 Club, Dale Impactor III) round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 14.3%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-28 (queue drains through 9/27). current=null, next=928.",
+  "current": {
+    "slug": "928-macan-glk-druggiest-luxury-suvs",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "number": 928,
+    "started": "2026-09-18T03:30:00-07:00",
+    "title": "The Safest Cars in America Have the Druggiest Drivers",
+    "kicker": "Existential Dread"
+  },
+  "last_check_note": "2026-09-18 03:30 run: #928 (The Safest Cars in America Have the Druggiest Drivers, Vin Wreckage) RESEARCH complete, GLK/Macan toxicology x rate cross-tab, fresh angle. Phase -> DRAFT.",
   "last_checked": "2026-09-18T01:45:00-07:00",
   "last_completed": 748,
   "last_journalist": "Rex Driverton",
