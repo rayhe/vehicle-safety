@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-18 05:30 run: #929 (VW steering rack bolt recall 26V590000, Rex Driverton) round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 5.9%, rhythm PASS). Queued SHIP_BLOCKED for 2026-09-30 (queue drains through 9/29). current=null, next=930.",
-  "last_checked": "2026-09-18T06:00:00-07:00",
+  "last_check_note": "2026-09-18 07:30 run: #930 (Ford F-150 triple-recall week, Clara Rollover) round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 7.4%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-01 (queue drains through 9/30). current=null, next=931.",
+  "last_checked": "2026-09-18T07:30:00-07:00",
   "last_completed": 748,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 930,
+  "next": 931,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4631,6 +4631,44 @@
         "draft": "drafts/929-vw-steering-bolt-rust-loss-of-control.html",
         "hero": "drafts/929-vw-steering-bolt-rust-loss-of-control.jpg",
         "critic_panel": "drafts/929-vw-steering-bolt-rust-loss-of-control-critique.md"
+      }
+    },
+    {
+      "number": 930,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-01",
+      "slug": "930-f150-three-recalls-one-week",
+      "journalist": "Clara Rollover",
+      "title": "Ford's F-150 Got Recalled Three Times in One Week \u2013 for the Parts That Hold It Together",
+      "kicker": "Investigation",
+      "critic_avg": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.4,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 215.3,
+          "short_pct": 5.3,
+          "long_pct": 44.7,
+          "passed": true
+        }
+      },
+      "note": "Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5). Novel: triple-recall week (26V578000 tank straps 223,472; 26V576000 wrong 8.8\" axle bearings 37; 26V577000 Panhard rod 17) + FARS cross-tab (F-150 9,194 deaths #2 raw, rate 1.04 mid-pack vs Tacoma 0.80). Hero JPEG 1920x1280 verified, ?v=73cbf73b. Blocked: queue drains through 9/30 (#929).",
+      "files": {
+        "research": "drafts/930-f150-three-recalls-one-week-research.md",
+        "draft": "drafts/930-f150-three-recalls-one-week.html",
+        "hero": "drafts/930-f150-three-recalls-one-week.jpg",
+        "critic_panel": "drafts/930-f150-three-recalls-one-week-critique.md"
       }
     }
   ]
