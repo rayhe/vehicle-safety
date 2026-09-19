@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "#941 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-08",
- "last_checked": "2026-09-19T07:30:00-07:00",
+ "last_check_note": "#942 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-09",
+ "last_checked": "2026-09-19T09:30:00-07:00",
  "last_completed": 816,
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Dale Impactor III",
  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
  "last_published_date": "2026-09-17",
  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
- "next": 942,
+ "next": 943,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5083,6 +5083,44 @@
     "draft": "drafts/941-gm-transfer-case-missing-tube.html",
     "hero": "drafts/941-gm-transfer-case-missing-tube.jpg",
     "critic_panel": "drafts/941-gm-transfer-case-missing-tube-critique.md"
+   }
+  },
+  {
+   "number": 942,
+   "slug": "942-halt-act-missed-breathalyzer",
+   "journalist": "Dale Impactor III",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-12-09",
+   "critic_avg": 9.0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 8.2,
+    "css_class_story": true,
+    "sentence_rhythm": {
+     "short_pct": 10.3,
+     "long_pct": 58.6,
+     "variance": 11092.7,
+     "passed": true
+    }
+   },
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "title": "Congress Ordered Every New Car to Be a Breathalyzer by 2024. The Breathalyzer Doesn't Exist.",
+   "started": "2026-09-19T09:30:00-07:00",
+   "note": "2026-09-19 09:30 run: #942 (IIJA Sec 24220 HALT Act mandate, missed Nov 2024 rule deadline, NHTSA 99.9%-accuracy false-positive math ~219M/yr, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 8.2%, rhythm variance 11092.7 PASS). Hero JPEG 1920x1280, ?v=ee8f38d4. Queued SHIP_BLOCKED for 2026-12-09 (1/day; queue drains through 2026-12-08). Flag for next Dale assignment: 'worth reading twice' echoed across #941/#942.",
+   "files": {
+    "research": "drafts/942-halt-act-missed-breathalyzer-research.md",
+    "draft": "drafts/942-halt-act-missed-breathalyzer.html",
+    "hero": "drafts/942-halt-act-missed-breathalyzer.jpg",
+    "critic_panel": "drafts/942-halt-act-missed-breathalyzer-critique.md"
    }
   }
  ]
