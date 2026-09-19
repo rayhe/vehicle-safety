@@ -1,10 +1,5 @@
 {
- "current": {
-  "slug": "935-zombie-nameplates-deadliest-cars",
-  "phase": "DRAFT",
-  "journalist": "Vin Wreckage",
-  "started": "2026-09-18T19:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-09-18 17:30 run: #934 (FARS ghost deaths / phantom model years, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.07, all 7 >= 8.5, gates: em 0, banned 0, The 8.6%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-05 (1/day slot consumed by #816; queue drains through 10-04). current=null, next=935.",
  "last_checked": "2026-09-18T17:30:00-07:00",
  "last_completed": 816,
@@ -4837,6 +4832,47 @@
     "draft": "drafts/934-fars-ghost-deaths-phantom-model-years.html",
     "hero": "drafts/934-fars-ghost-deaths-phantom-model-years.jpg",
     "critic_panel": "drafts/934-fars-ghost-deaths-phantom-model-years-critique.md"
+   }
+  },
+  {
+   "number": 935,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-10-06",
+   "slug": "935-zombie-nameplates-deadliest-cars",
+   "journalist": "Vin Wreckage",
+   "title": "The Deadliest Car in America Is One You Can't Buy Anymore",
+   "kicker": "Existential Dread",
+   "critic_avg": 8.93,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "avg_words_per_sent": 16.8,
+     "short_pct": 18.4,
+     "long_pct": 21.1,
+     "passed": true
+    }
+   },
+   "critique_round": 1,
+   "note": "Round-0 panel caught The-starter gate at 21.1% (8/38); rewrote 8 openers to 0%. Round-1 micro-fixes: comma spacing, IIHS ESC 37% figure now names its 70+ study sample. Verdict SHIP (avg 8.93, all 7 >= 8.5). Novel: discontinued nameplates (n=45) median fatality rate 1.22 vs 0.83 active (+47%); 8 of 10 worst-rate models are dead nameplates; Veloster 8.54 worst of 337. Hero JPEG 1920x1280 verified, ?v=eb83e67c. Blocked: queue drains through 10-05 (#934), #935 holds 10-06.",
+   "files": {
+    "research": "drafts/935-zombie-nameplates-deadliest-cars-research.md",
+    "draft": "drafts/935-zombie-nameplates-deadliest-cars.html",
+    "hero": "drafts/935-zombie-nameplates-deadliest-cars.jpg",
+    "critic_panel": "drafts/935-zombie-nameplates-deadliest-cars-critique.md"
    }
   }
  ]
