@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "#944 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-11",
- "last_checked": "2026-09-19T13:30:00-07:00",
+ "last_check_note": "2026-09-19 15:30 run: #781 published (earliest-due SHIP_BLOCKED w/ complete files; QA all green); #945 drafted+queued SHIP_BLOCKED 2026-12-12 (round-0 SHIP, avg 9.07).",
+ "last_checked": "2026-09-19T16:05:00-07:00",
  "last_completed": 781,
  "last_journalist": "Mia Crumplezone",
  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
@@ -256,7 +256,7 @@
    "started": "2026-08-19T08:30:00Z",
    "title": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
    "published": "2026-09-19",
-   "note": "Published 2026-09-19 (1/day check passed: 0 prior publishes; earliest-due SHIP_BLOCKED item with complete files, ship_date 2026-08-20). Added missing og:image/og:type/twitter:card/twitter:image meta + inline story-hero img (was missing; validate.sh requires). Hero JPEG 2048x1152 valid, ?v=a5a1fd53. Files published with 781- prefix per recent convention."
+   "note": "Published 2026-09-19 (1/day check passed: 0 prior publishes; earliest-due SHIP_BLOCKED item with complete files, ship_date 2026-08-20). Added missing og:image/og:type/twitter:card/twitter:image meta + inline story-hero img (was missing; validate.sh requires). Hero JPEG 2048x1152 valid, ?v=a5a1fd53. Files published with 781- prefix per recent convention. QA 2026-09-19: story page 200 (correct title, og:image+twitter:card present), hero 200 valid JPEG FF D8 (440,681 bytes), homepage card live, sitemap entry live."
   },
   {
    "critic_avg": 9.07,
