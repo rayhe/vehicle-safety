@@ -13,7 +13,7 @@ Every fatality rate this site has ever published is actually two numbers multipl
 ## Kill test
 - **Novel?** YES. Grep across 800+ stories and ~939 research drafts for "per registered vehicle" / "crash-involvement rate" / "crashiness": no data story has ever run fatal-crash involvement per registered vehicle as a standalone metric, and nobody has published the decomposition showing the two factors are nearly independent. #904 (Vin Wreckage, 2026-09-14) ran the lethality half; this is the other half plus the joint finding.
 - **Newsworthy?** No news peg — data piece, a house genre. The finding is the peg (cf. #935 zombie nameplates, #897 drunkest-drivers).
-- **Surprising?** YES. The Ford E-350 — a commercial work van — is the second most crash-involved nameplate in America (7.21 fatal-crash involvements per 1,000 registered vehicles) yet one of the least lethal per crash (0.41). Sports cars are in fatal crashes 2-4x more often per vehicle than anything else (median 4.39/1000 vs sedan 1.99, SUV 0.93) — and sedans are the class most lethal to their own occupants (median lethality 0.644 vs SUV 0.489). The Honda Fit is rarely in a fatal crash (1.15/1000) but when it is, its occupants die 72% of the time.
+- **Surprising?** YES. The Ford E-350 — a commercial work van — is the second most crash-involved nameplate in America (7.21 fatal-crash involvements per 1,000 registered vehicles) yet one of the least lethal per crash (0.41). Sports cars are in fatal crashes more often per vehicle than any other class (median 2.96/1000 vs sedan 1.99, SUV 0.91) — and sports cars are also the class most lethal to their own occupants (median lethality 0.661 vs sedans 0.644, SUV 0.489). The Honda Fit is rarely in a fatal crash (1.15/1000) but when it is, its occupants die 72% of the time.
 - **Rex-appropriate?** A paradox with a spreadsheet behind it is exactly his beat.
 
 ## Primary sources
@@ -42,7 +42,7 @@ For each nameplate: crashiness (fatal-crash involvements per 1,000 registered ve
 
 **The inversion tier (low crashiness, high lethality):** Nissan Kicks 1.17 / 0.74; Honda Fit 1.15 / 0.72. Rarely in fatal crashes; occupants die ~3 of 4 times when it happens.
 
-**Class medians (crashiness / lethality):** Sports car 4.39 / 0.696 (n=4); Sedan 1.99 / 0.644 (n=71); Pickup 2.29 / 0.486 (n=20); Van 1.22 / 0.489 (n=11); SUV 0.93 / 0.489 (n=76).
+**Class medians (crashiness / lethality, true median; median bug fixed 2026-09-18 — sorted_list[len//2] returns upper-middle for even-n):** Sports car 2.96 / 0.661 (n=4); Sedan 1.99 / 0.644 (n=71); Pickup 2.18 / 0.484 (n=20, Ram 3500 n=1-crash outlier excluded); Van 1.22 / 0.489 (n=11); SUV 0.91 / 0.489 (n=76).
 
 **Scale anchors:** Ford F-150 was involved in 20,066 fatal crashes in ten years (3.06 per 1,000 vehicles); Chevrolet Silverado 19,732. Median nameplate crashiness: 1.275 per 1,000 vehicles.
 
