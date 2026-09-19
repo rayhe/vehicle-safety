@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "#943 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-10",
- "last_checked": "2026-09-19T09:30:00-07:00",
+ "last_check_note": "#944 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-11",
+ "last_checked": "2026-09-19T13:30:00-07:00",
  "last_completed": 816,
- "last_journalist": "Dale Impactor III",
+ "last_journalist": "Axle McScatter",
  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
  "last_published_date": "2026-09-17",
  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
- "next": 944,
+ "next": 945,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5160,6 +5160,45 @@
     "draft": "drafts/943-drunk-pedestrian-not-driver.html",
     "hero": "drafts/943-drunk-pedestrian-not-driver.jpg",
     "critic_panel": "drafts/943-drunk-pedestrian-not-driver-critique.md"
+   }
+  },
+  {
+   "number": 944,
+   "slug": "944-drunkest-drivers-safest-cars",
+   "journalist": "Axle McScatter",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-12-11",
+   "critic_avg": 9.07,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 5.4,
+    "css_class_story": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "short_pct": 4.9,
+     "long_pct": 41.5,
+     "variance": 403.9,
+     "passed": true
+    }
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 9.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "title": "The Drunkest Drivers in America Drive the Safest Cars, Per Mile",
+   "started": "2026-09-19T13:30:00-07:00",
+   "note": "2026-09-19 13:30 run: #944 (novel FARS cross-tab: model impairment share vs per-mile death rate, r=-0.14, n=307, r^2=0.02; drunkest cohort Park Avenue 31.7% at rate 0.48 vs soberest Solara 4.1% at rate 4.25; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.07, all 7 >= 8.5, gates: em 0, banned 0, The 5.4%, rhythm variance 403.9 PASS). Pre-panel fix: merged short-sentence fragments (short_pct 25.5% -> 4.9%). Hero JPEG 1920x1280, ?v=25ce6d39. Queued SHIP_BLOCKED for 2026-12-11 (1/day; queue drains through 2026-12-10).",
+   "files": {
+    "research": "drafts/944-drunkest-drivers-safest-cars-research.md",
+    "draft": "drafts/944-drunkest-drivers-safest-cars.html",
+    "hero": "drafts/944-drunkest-drivers-safest-cars.jpg",
+    "critic_panel": "drafts/944-drunkest-drivers-safest-cars-critique.md"
    }
   }
  ]

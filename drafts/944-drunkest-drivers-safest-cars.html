@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Drunkest Drivers in America Drive the Safest Cars, Per Mile &mdash; The Crash Report</title>
+  <meta name="description" content="Across 307 vehicles in NHTSA FARS data, the correlation between a model's impairment share and its per-mile death rate is -0.14. The deadliest cars are driven by the soberest drivers.">
+  <meta property="og:title" content="The Drunkest Drivers in America Drive the Safest Cars, Per Mile">
+  <meta property="og:description" content="I correlated impairment rates with per-mile death rates across 307 vehicles. r = -0.14. Impairment explains 2% of why cars differ in lethality. Physics explains the rest.">
+  <meta property="og:image" content="../images/944-drunkest-drivers-safest-cars.jpg?v=25ce6d39">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Drunkest Drivers in America Drive the Safest Cars, Per Mile</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">September 19, 2026</div>
+
+      <p>I ran the numbers, then I ran them again, and they didn't get better. Across all 307 vehicles in our FARS dataset, the share of drivers testing positive for alcohol or drugs has <strong>essentially zero relationship with how deadly the vehicle is per mile</strong>: Pearson r = -0.14. Square it and you get 0.02, which means impairment explains roughly two percent of the variance in model lethality. Ninety-eight percent of why one car kills more than another has nothing to do with the bottle.</p>
+
+      <div class="pull-stat">-0.14</div>
+      <div class="pull-label">Correlation between a model's impairment share and its per-mile death rate (n=307 models, FARS 2014&ndash;2023)</div>
+
+      <p>Start with the extremes, because extremes are where regressions go to be embarrassed. Of all 307 models, Buick Park Avenue drivers are the most impaired in America: 31.7% of the drivers in its fatal crashes tested positive for alcohol or drugs, across 259 drivers' worth of toxicology. Park Avenue's death rate sits at 0.48 per 100 million miles, among the lowest in the dataset. Meanwhile the Chevrolet Tracker kills at 7.83 per 100 million miles with only 12.7% impaired. So the drunkest cohort drives a car one-sixteenth as lethal per mile, which is the kind of result that makes a regression weep.</p>
+
+      <p>Flip it around and the picture gets uglier. Toyota Solara drivers are the soberest cohort in the entire dataset: 4.1% positive, out of 195 drivers. That same car is the ninth-deadliest vehicle per mile, at 4.25. Hyundai's Veloster is the single deadliest vehicle we track, 8.54 per 100 million miles, and its impairment share is a perfectly ordinary 17.4%, below the fleet-wide baseline of 20.0%. Sobriety did not save these cars from physics. Sobriety, in fact, appears to have been irrelevant, which is a sentence I did not expect to type today.</p>
+
+      <p>Physics is the actual story, and these sober killers share a design profile: tall, narrow, and short-wheeled like the Tracker; high center of gravity plus two tons of mass like the Land Cruiser (6.27, just 8.9% impaired); or pre-stability-control coupes built to invite speed, like the Solara and Veloster. Big soft discontinued sedans dominate the drunk end of the table instead, the Park Avenue, the Ford Five Hundred, the Cadillac Seville. Mass and crush space protect occupants; bars and parking lots do not.</p>
+
+      <p>Now the part where I get very loud, because the regression demands it: none of this is an argument that impairment is fine, since it multiplies your individual risk enormously. NHTSA counts 12,429 alcohol-impaired driving deaths in 2023, thirty percent of all traffic fatalities, one every forty-two minutes, and estimates alcohol is a causal factor in 94% of crashes where a driver sits at or above 0.08.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup> A drunk driver in a Tracker is vastly more dangerous than a sober driver in a Park Avenue. This finding is about vehicle lethality, not driver absolution, so do not tweet at me.</p>
+
+      <p>Here is the strongest case against my own finding, stated at full strength. Impaired drivers probably crash far more often per mile than sober ones, but they do it at lower speeds, on familiar roads, in town, at night. Those crashes kill less often, so FARS, which only records the fatal tail, systematically undercounts them. Per-mile fatality rate is not per-mile crash risk. Maybe the drunk cohorts are crashing constantly and walking away while the sober cohorts crash rarely and die, because their crashes happen at highway speed in rollover-prone packages. Under that reading, the -0.14 is not exoneration; it is survivorship.</p>
+
+      <p>Standard dishonesty audit, since you asked: drug-positive is not drug-impaired, because THC lingers for weeks, and expanding drug testing over 2014-2023 inflates the drug share over time. Testing is not uniform; survivors get tested less than the dead. Death rates use estimated vehicle miles traveled, not odometer readings, so treat low-volume models as approximate, the Alero's 0.16 rests on 49 deaths. And this is an ecological correlation at the model level. It says nothing about your Tuesday night drive home.</p>
+
+      <p>So what do you do with this: shop by per-mile death rate for the specific model, not vibes about who drives it: this site's dataset has the numbers, and a Tracker at 7.83 against a Park Avenue at 0.48 is not a personality difference, it is sixteen-fold physics. Steer clear of tall, narrow, short-wheelbase SUVs and pre-2012 coupes without electronic stability control, which became mandatory for the 2012 model year,<sup class="ref-link"><a href="#ref-5">[5]</a></sup> and check the NHTSA rollover star rating. And the obvious part, which I refuse to skip: none of this makes impairment okay. The bottle still accounts for roughly thirty percent of the annual total.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Cross-tabulation of FARS_BY_MODEL fatality rates with FARS_TOXICOLOGY impairment data (307 models) computed by The Crash Report; data file <code>fars_output.js</code> in this repo. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, &ldquo;2023 Data: Alcohol-Impaired Driving&rdquo; (DOT HS 813 713): 12,429 fatalities in alcohol-impaired-driving crashes in 2023, 30% of all traffic fatalities, one every 42 minutes. <a href="http://crashstats.nhtsa.dot.gov/Api/Public/Publication/813713" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-3">NHTSA, Report to Congress, &ldquo;Advanced Impaired Driving Prevention Technology,&rdquo; March 2026: alcohol estimated causal in 94% of crashes involving a driver with BAC &ge; 0.08. <a href="https://www.nhtsa.gov/sites/nhtsa.gov/files/2026-03/Report-to-Congress-Advanced-Impaired-Driving-Prevention-Technology.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">IIHS, &ldquo;Vehicle size and weight&rdquo; &mdash; mass, crash compatibility, and rollover physics. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-5">NHTSA, Electronic Stability Control final rule (FMVSS 126), 2007 &mdash; ESC mandatory for model year 2012 and later. <a href="https://www.govinfo.gov/content/pkg/FR-2007-06-22/html/E7-11965.htm" target="_blank" rel="noopener">govinfo.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023, cross-tabulated with toxicology data by The Crash Report. Death rates use estimated VMT, not odometer readings. Drug-positive does not equal drug-impaired. This is a model-level correlation; it says nothing about individual driver risk. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
