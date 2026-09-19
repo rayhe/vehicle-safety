@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-09-18 21:30 run: #936 (crashiness x lethality death-rate decomposition, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 11.1%, rhythm variance 210.6 PASS). Queued SHIP_BLOCKED for 2026-10-07 (1/day; queue drains through 10-06). current=null, next=937.",
- "last_checked": "2026-09-18T21:30:00-07:00",
+ "last_check_note": "2026-09-18 23:30 run: #937 (Accord reputation gap / deadliest sedan vintage, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm variance 207.2 PASS). Queued SHIP_BLOCKED for 2026-10-08 (1/day; queue drains through 10-07). current=null, next=938.",
+ "last_checked": "2026-09-18T23:30:00-07:00",
  "last_completed": 816,
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Rex Driverton",
  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
  "last_published_date": "2026-09-17",
  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
- "next": 937,
+ "next": 938,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -4914,6 +4914,47 @@
     "draft": "drafts/936-crashy-vs-lethal-death-rate-decomposition.html",
     "hero": "drafts/936-crashy-vs-lethal-death-rate-decomposition.jpg",
     "critic_panel": "drafts/936-crashy-vs-lethal-death-rate-decomposition-critique.md"
+   }
+  },
+  {
+   "number": 937,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-10-08",
+   "slug": "937-accord-deadliest-sedan-vintage",
+   "journalist": "Rex Driverton",
+   "title": "The Deadliest Sedan in America Is the Car Your Mechanic Told You to Buy",
+   "kicker": "Investigation",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 4.7,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 207.2,
+     "short_pct": 13.5,
+     "long_pct": 43.2,
+     "passed": true
+    }
+   },
+   "note": "Round-0 VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm variance 207.2 PASS). Novel: sedan model-year vintage ranking; 2005 Accord 444 deaths (deadliest sedan vintage); 5 of 6 deadliest sedan vintages are Accords; Accord rate 3.07 vs Camry 2.03; 67% of Accord deaths in 2007-or-older; 2018+ (Honda Sensing standard) just 5%. Impairment 20.0% (average, not a DUI story). Hero JPEG 1920x1280, ?v=7889e0c4. Blocked: queue drains through 10-07 (#936), #937 holds 10-08.",
+   "files": {
+    "research": "drafts/937-accord-deadliest-sedan-vintage-research.md",
+    "draft": "drafts/937-accord-deadliest-sedan-vintage.html",
+    "hero": "drafts/937-accord-deadliest-sedan-vintage.jpg",
+    "critic_panel": "drafts/937-accord-deadliest-sedan-vintage-critique.md"
    }
   }
  ]
