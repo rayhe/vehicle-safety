@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-09-18 23:30 run: #937 (Accord reputation gap / deadliest sedan vintage, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 4.7%, rhythm variance 207.2 PASS). Queued SHIP_BLOCKED for 2026-10-08 (1/day; queue drains through 10-07). current=null, next=938.",
- "last_checked": "2026-09-18T23:30:00-07:00",
+ "last_check_note": "2026-09-19 01:30 run: #938 (VW steering rack bolt corrosion recall, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. One rhythm revision (short 31.5%->14.3%). Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 0%, rhythm variance 436.7 PASS). Queued SHIP_BLOCKED for 2026-10-09 (1/day; queue drains through 10-08). current=null, next=939.",
+ "last_checked": "2026-09-19T01:30:00-07:00",
  "last_completed": 816,
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
  "last_published_date": "2026-09-17",
  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
- "next": 938,
+ "next": 939,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -4955,6 +4955,47 @@
     "draft": "drafts/937-accord-deadliest-sedan-vintage.html",
     "hero": "drafts/937-accord-deadliest-sedan-vintage.jpg",
     "critic_panel": "drafts/937-accord-deadliest-sedan-vintage-critique.md"
+   }
+  },
+  {
+   "number": 938,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-10-09",
+   "slug": "938-vw-steering-bolt-rots",
+   "journalist": "Mia Crumplezone",
+   "title": "Your Steering Hangs on One Bolt. In 208,724 VWs, It's Rotting.",
+   "kicker": "Investigation",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 436.7,
+     "short_pct": 14.3,
+     "long_pct": 47.6,
+     "passed": true
+    }
+   },
+   "note": "Round-0 VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 0%, rhythm PASS). Novel: steering-loss single point of failure (no redundancy vs dual-circuit brakes); FARS preventive-recall paradox (Tiguan 0.14/Atlas 0.06 among safest per mile); corrosion clock (2018 vintages = 8 winters, peak danger now). Sept 18 NHTSA recall, 208,724 units + 44,303 Canada; 1% defect est -> ~2,087 vehicles; plus 49,958 2025-Tiguan software recall same week. Hero JPEG 1920x1280, ?v=6fc96df5. Blocked: queue drains through 10-08 (#937), #938 holds 10-09.",
+   "files": {
+    "research": "drafts/938-vw-steering-bolt-rots-research.md",
+    "draft": "drafts/938-vw-steering-bolt-rots.html",
+    "hero": "drafts/938-vw-steering-bolt-rots.jpg",
+    "critic_panel": "drafts/938-vw-steering-bolt-rots-critique.md"
    }
   }
  ]
