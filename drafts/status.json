@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-18 15:30 run: #933 (Ioniq 9 three-nameplate power-seat recall, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 9.1%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-04 (1/day slot consumed by #816; queue drains through 10-03). current=null, next=934.",
-  "last_checked": "2026-09-18T15:30:00-07:00",
+  "last_check_note": "2026-09-18 17:30 run: #934 (FARS ghost deaths / phantom model years, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.07, all 7 >= 8.5, gates: em 0, banned 0, The 8.6%, rhythm PASS). Queued SHIP_BLOCKED for 2026-10-05 (1/day slot consumed by #816; queue drains through 10-04). current=null, next=935.",
+  "last_checked": "2026-09-18T17:30:00-07:00",
   "last_completed": 816,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
   "last_published_date": "2026-09-17",
   "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
-  "next": 934,
+  "next": 935,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -4794,6 +4794,44 @@
         "draft": "drafts/933-ioniq9-three-nameplate-seat-recall.html",
         "hero": "drafts/933-ioniq9-three-nameplate-seat-recall.jpg",
         "critic_panel": "drafts/933-ioniq9-three-nameplate-seat-recall-critique.md"
+      }
+    },
+    {
+      "number": 934,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-10-05",
+      "slug": "934-fars-ghost-deaths-phantom-model-years",
+      "journalist": "Axle McScatter",
+      "title": "1,186 FARS Deaths Are Attributed to Cars That Didn't Exist Yet",
+      "kicker": "By The Numbers",
+      "critic_avg": 9.07,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.6,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 275.9,
+          "short_pct": 6.2,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "note": "Round-0 panel VERDICT: SHIP (avg 9.07, all 7 >= 8.5). Novel: cross-tab of FARS_MODEL_YEAR vs launch years finds 1,186 phantom deaths across 19 models; Kicks 248 phantoms (74.9%), rate 0.69->0.17; Solara 131 phantoms, published 4.25 rate restated to 3.38 in print. Ghosts traced to MAK_MOD_MAP guesses + FARS MOD_YEAR noise. Hero JPEG 1920x1280 verified, ?v=e2fc3561. Blocked: queue drains through 10-04 (#933), #934 holds 10-05.",
+      "files": {
+        "research": "drafts/934-fars-ghost-deaths-phantom-model-years-research.md",
+        "draft": "drafts/934-fars-ghost-deaths-phantom-model-years.html",
+        "hero": "drafts/934-fars-ghost-deaths-phantom-model-years.jpg",
+        "critic_panel": "drafts/934-fars-ghost-deaths-phantom-model-years-critique.md"
       }
     }
   ]

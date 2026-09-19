@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1,186 FARS Deaths Are Attributed to Cars That Didn't Exist Yet &mdash; The Crash Report</title>
+  <meta name="description" content="Cross-tabulating FARS model-year data against actual launch years reveals 1,186 deaths attributed to model years before the model existed. The Nissan Kicks' published fatality rate drops 75% once the ghosts are removed.">
+  <meta property="og:title" content="1,186 FARS Deaths Are Attributed to Cars That Didn't Exist Yet">
+  <meta property="og:description" content="Cross-tabulating FARS model-year data against actual launch years reveals 1,186 deaths attributed to model years before the model existed. The Nissan Kicks' published fatality rate drops 75% once the ghosts are removed.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/934-fars-ghost-deaths-phantom-model-years.jpg?v=e2fc3561">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../images/934-fars-ghost-deaths-phantom-model-years.jpg?v=e2fc3561">
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "NewsArticle", "headline": "1,186 FARS Deaths Are Attributed to Cars That Didn't Exist Yet", "description": "Cross-tabulating FARS model-year data against actual launch years reveals 1,186 deaths attributed to model years before the model existed.", "author": { "@type": "Person", "name": "Axle McScatter \u2022 Clautomotive Desk" }, "publisher": { "@type": "Organization", "name": "The Crash Report", "url": "https://vehicle-safety.org" }, "datePublished": "2026-09-18", "inLanguage": "en-US", "image": { "@type": "ImageObject", "url": "https://vehicle-safety.org/images/934-fars-ghost-deaths-phantom-model-years.jpg?v=e2fc3561" }, "articleSection": "By The Numbers" }
+  </script>
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>1,186 FARS Deaths Are Attributed to Cars That Didn't Exist Yet</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">September 18, 2026</div>
+
+      <img src="../images/934-fars-ghost-deaths-phantom-model-years.jpg?v=e2fc3561" alt="Spreadsheet rows of fatal crash records fading into static" class="story-hero">
+
+      <div class="story-body">
+      <p>I ran the numbers, then I ran them again, and they didn't get better. Somewhere in the federal Fatality Analysis Reporting System, the best crash census on earth, <strong>1,186 people died in cars that had not been invented yet</strong>. FARS says 51 people died in 2003 Nissan Kicks crashes. Nissan launched the Kicks as a 2018 model.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <div class="pull-stat">74.9%</div>
+      <div class="pull-label">Share of the Nissan Kicks' FARS deaths attributed to model years before the Kicks existed</div>
+
+      <p>Method, because I insist on showing it: I cross-tabulated our FARS_MODEL_YEAR table, deaths by vehicle model year across the 2014-2023 crash window, against each model's actual launch year, then summed deaths in model years that predate the model. Nineteen models with suspiciously long model-year spans got the audit. Corrected rate equals published rate times one minus the phantom share; the VMT denominator doesn't move, so the math is one line.</p>
+
+      <p>Results. The Kicks is the champion of the unreal: 248 of its 331 deaths come from model years 2003 through 2017, and its published rate of 0.69 collapses to 0.17 once the ghosts leave. Buick's Enclave carries 54 phantom deaths, 28.4 percent of its total, rate 0.52 down to 0.37. Chevrolet's TrailBlazer has 480 ghosts from 1989 to 2001, nearly a fifth of its deaths, rate 2.83 down to 2.28. Ford's Edge adds 96 phantoms, rate 0.46 to 0.37. Even the Toyota Highlander and Nissan Rogue carry small phantom tails.</p>
+
+      <p>And now the part where I correct my own publication. This site's Solara stories, the "soberest deathtrap" series, quoted a 4.25 fatality rate. FARS attributes 131 Solara deaths to model years 1995 through 1998. but Toyota built its first Solara for 1999, so the corrected rate is 3.38. Still bad, still the story, except the number we printed was twenty percent hot, and I would rather you hear that from me than find it yourself.</p>
+
+      <p>Where do the ghosts come from? Two haunts, and honesty requires naming both, starting with our own code. For pre-2019 FARS data, our pipeline maps FARS MAK_MOD codes to modern model names with a hand-built table, and some guesses are wrong. Code 35048 maps to Nissan Kicks; in the old codebook that slot almost certainly meant something else, which is why the Kicks has a phantom fleet stretching back to 2003.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Second: FARS itself. MOD_YEAR comes from police reports and VIN decoding, and NHTSA's own recoding study found about 98 percent vehicle-level agreement between analysts, which sounds great until you multiply two percent by a million records.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> The Solara's 1995-1998 ghosts involve no mapping guess at all; those are raw federal typos.</p>
+
+      <p>Steel-manning the database, because it deserves it: 1,186 ghosts are roughly three-tenths of one percent of the deaths in the full dataset. The phantoms concentrate in a handful of nameplates with ambiguous code histories. NHTSA's mass-and-footprint fatality-risk work, the serious science built on this data, uses registration and odometer denominators that wash out exactly this kind of noise.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> None of this site's structural findings, the pickup age crisis, the Charger bar-car numbers, the Solara paradox itself, collapse; they get haircuts, not funerals.</p>
+
+      <p>What I did not prove: I audited nineteen models, not three hundred, and more ghosts are out there. Grey-market imports could theoretically explain a stray pre-launch death, but not 480 of them. And some phantom years might be misrecorded crash years rather than misrecorded model years, though MOD_YEAR is explicitly the vehicle's model year in the FARS schema, so that defense is thin.</p>
+
+      <p>Actionable, since this desk requires it: never trust a model-level fatality rate without glancing at its model-year distribution. A long tail of deaths before the launch year means the rate is inflated by exactly the phantom share, and the correction is one line of arithmetic. We are now running this audit across our own published rates and will restate the ones that move, starting with the Solara, starting with me.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023 bulk data. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, FARS recoding quality-control study (Publication 811318): ~98% vehicle-level coding agreement between analysts. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/Publication/811318" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Relationships Between Fatality Risk, Mass, and Footprint of Model Year 2003&ndash;2010 Passenger Cars and LTVs</em> (FARS + IHS NVPP + odometer methodology). <a href="https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/2016-prelim-relationship-fatalityrisk-mass-footprint-2003-10.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">The Crash Report pipeline: <em>fars_process.py</em> (MOD_YEAR extraction, MAK_MOD_MAP code mapping) and <em>fars_output.js</em> (FARS_MODEL_YEAR, FARS_BY_MODEL). <a href="https://github.com/rayhe/vehicle-safety" target="_blank" rel="noopener">github.com/rayhe/vehicle-safety</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023, model-year tabulation vs. manufacturer launch years. Phantom shares and corrected rates computed as described; launch years from manufacturer announcements. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
