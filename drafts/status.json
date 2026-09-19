@@ -3,11 +3,11 @@
  "last_check_note": "#944 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-11",
  "last_checked": "2026-09-19T13:30:00-07:00",
  "last_completed": 781,
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
  "last_published_date": "2026-09-19",
  "last_published_slug": "781-honda-v6-three-investigations-engine-eating-itself",
- "next": 945,
+ "next": 946,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5201,6 +5201,50 @@
     "draft": "drafts/944-drunkest-drivers-safest-cars.html",
     "hero": "drafts/944-drunkest-drivers-safest-cars.jpg",
     "critic_panel": "drafts/944-drunkest-drivers-safest-cars-critique.md"
+   }
+  },
+  {
+   "number": 945,
+   "slug": "945-old-fleet-esc-mandate-gap",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Trend Watch",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-12-12",
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class_story": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 983.9,
+     "short_pct": 6.7,
+     "long_pct": 46.7,
+     "passed": true
+    },
+    "hero_jpeg_valid": true,
+    "hero_hash": "ce82fd14",
+    "actionable_insights": true
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "title": "Six in Ten Deaths Are in Cars Built Before the Stability-Control Mandate",
+   "started": "2026-09-19T15:30:00-07:00",
+   "note": "2026-09-19 15:30 run: #945 (novel FMVSS 126 cohort cut: 116,597/187,058 = 62.3% of occupant deaths in MY<=2008 vehicles; pickups 75.5% pre-mandate; median death car MY2006; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.07, all 7 >= 8.5, gates: em 0, banned 0, The 0%, rhythm variance 983.9 PASS). Pre-panel fix: merged 7 short-sentence fragments (short_pct 24.3% -> 6.7%). Hero JPEG 2352x1008, ?v=ce82fd14. Queued SHIP_BLOCKED for 2026-12-12 (1/day; queue drains through 2026-12-11).",
+   "files": {
+    "research": "drafts/945-old-fleet-esc-mandate-gap-research.md",
+    "draft": "drafts/945-old-fleet-esc-mandate-gap.html",
+    "hero": "drafts/945-old-fleet-esc-mandate-gap.jpg",
+    "critic_panel": "drafts/945-old-fleet-esc-mandate-gap-critique.md"
    }
   }
  ]
