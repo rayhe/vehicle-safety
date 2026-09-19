@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-09-19 05:30 run: #940 (IIHS Sept 3 rating round, 7 tested/2 passed, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Two rhythm revisions (short 17.9%->11.5%). Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 10.3%, rhythm variance 1521.9 PASS). Hero JPEG 1920x1280, ?v=9411d3cd. Queued SHIP_BLOCKED for 2026-12-07 (1/day; queue drains through 2026-12-06).",
- "last_checked": "2026-09-19T05:30:00-07:00",
+ "last_check_note": "#941 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-08",
+ "last_checked": "2026-09-19T07:30:00-07:00",
  "last_completed": 816,
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
  "last_published_date": "2026-09-17",
  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
- "next": 941,
+ "next": 942,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5054,6 +5054,35 @@
     "draft": "drafts/940-iihs-seven-tested-two-passed.html",
     "hero": "drafts/940-iihs-seven-tested-two-passed.jpg",
     "critic_panel": "drafts/940-iihs-seven-tested-two-passed-critique.md"
+   }
+  },
+  {
+   "number": 941,
+   "slug": "941-gm-transfer-case-missing-tube",
+   "journalist": "Mia Crumplezone",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-12-08",
+   "critic_avg": 9.17,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.7,
+    "css_class_story": true,
+    "sentence_rhythm": {
+     "short_pct": 5.9,
+     "long_pct": 35.3,
+     "variance": 2719.3,
+     "passed": true
+    }
+   },
+   "title": "66 GM Trucks Are Missing the Tube That Keeps Their Wheels Turning. GM Says Park Them.",
+   "started": "2026-09-19T07:30:00-07:00",
+   "note": "2026-09-19 07:30 run: #941 (NHTSA 26V289/GM N262557620, missing transfer-case oil pickup tube, 66 vehicles, do-not-drive, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Two rhythm revisions (short 17.1%->5.9%); em dashes 12->0. Round-1 panel VERDICT: SHIP (avg 9.17, all 7 >= 8.5). Hero JPEG 1920x1280, ?v=fb0099f1. Research note: chronology's 68-suspect-assembly count deliberately not decomposed against 66-vehicle recall population (46-vs-45 assembly ambiguity left unresolved per primary report). Queued SHIP_BLOCKED for 2026-12-08 (1/day; queue drains through 2026-12-07).",
+   "files": {
+    "research": "drafts/941-gm-transfer-case-missing-tube-research.md",
+    "draft": "drafts/941-gm-transfer-case-missing-tube.html",
+    "hero": "drafts/941-gm-transfer-case-missing-tube.jpg",
+    "critic_panel": "drafts/941-gm-transfer-case-missing-tube-critique.md"
    }
   }
  ]
