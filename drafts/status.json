@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "#942 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-09",
+ "last_check_note": "#943 RESEARCH->DRAFT->CRITIQUE complete, queued SHIP_BLOCKED for 2026-12-10",
  "last_checked": "2026-09-19T09:30:00-07:00",
  "last_completed": 816,
  "last_journalist": "Dale Impactor III",
  "last_published": "741,195 Vehicles Have a Known Rollaway Defect. The Fix Arrives in 10 Months.",
  "last_published_date": "2026-09-17",
  "last_published_slug": "748-ford-741k-rollaway-ten-month-remedy-gap",
- "next": 943,
+ "next": 944,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5121,6 +5121,45 @@
     "draft": "drafts/942-halt-act-missed-breathalyzer.html",
     "hero": "drafts/942-halt-act-missed-breathalyzer.jpg",
     "critic_panel": "drafts/942-halt-act-missed-breathalyzer-critique.md"
+   }
+  },
+  {
+   "number": 943,
+   "slug": "943-drunk-pedestrian-not-driver",
+   "journalist": "Dale Impactor III",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-12-10",
+   "critic_avg": 8.93,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 6.2,
+    "css_class_story": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "short_pct": 3.0,
+     "long_pct": 51.5,
+     "variance": 340.2,
+     "passed": true
+    }
+   },
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "title": "The Drunk One in a Pedestrian Death Is Usually the Pedestrian",
+   "started": "2026-09-19T11:30:00-07:00",
+   "note": "2026-09-19 11:30 run: #943 (NHTSA Pedestrians 2024 DOT HS 813 818: drunk-pedestrian/sober-driver cell 2.1x drunk-driver/sober-pedestrian cell; single-party drunk crashes 68% pedestrian; Guzman et al Injury Prevention 2026; Blomberg replication, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.93, all 7 >= 8.5, gates: em 0, banned 0, The 6.2%, rhythm variance 340.2 PASS). Hero JPEG 1920x1280, ?v=e715d924. Queued SHIP_BLOCKED for 2026-12-10 (1/day; queue drains through 2026-12-09).",
+   "files": {
+    "research": "drafts/943-drunk-pedestrian-not-driver-research.md",
+    "draft": "drafts/943-drunk-pedestrian-not-driver.html",
+    "hero": "drafts/943-drunk-pedestrian-not-driver.jpg",
+    "critic_panel": "drafts/943-drunk-pedestrian-not-driver-critique.md"
    }
   }
  ]
