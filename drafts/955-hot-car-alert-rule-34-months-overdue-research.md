@@ -15,7 +15,9 @@ Congress ordered NHTSA to issue a final rule requiring rear-occupant alerts by N
 4. **NHTSA press release, "NHTSA Urges the Public to Help Prevent Child Heatstroke"** — 2024: 39 deaths (up from 29 in 2023); "heatstroke kills around 40 kids in cars every year"; "more than 1,000 children since 1998"; May 1 is National Heatstroke Prevention Day; agency urges "Stop. Look. Lock."; temps rise 20F in 10 minutes; even on a 60-degree day a child can die; children's bodies warm 3-5x faster than adults'. https://WWW.NHTSA.GOV/press-releases/nhtsa-urges-public-help-prevent-child-heatstroke
 5. **USA Today, "Where are kids dying in hot cars? Data reveals when, where" (June 30, 2026)** — 8 deaths YTD as of June 30; interior can rise 20 degrees in 10 minutes, reach 110F even in the 60s outside; Texas leads with 173 deaths as of 2025 (KidsandCarsSafety.org); 52.6% forgotten / 23.8% gained access / 21.8% knowingly left; voluntary rear-occupant alarm systems: as of the 2025 model year "the majority of new cars will have rear passenger alert systems thanks to an industry-wide program" (Kelly Blue Book). https://www.usatoday.com/story/graphics/2026/06/30/child-hot-car-deaths-2026-data-maps/90736117007/
 
-Corroboration only (not opened / paywalled): Bloomberg Law snippet reporting advocates hung 1,000 onesies outside the Transportation Department on the first day of summer 2026 over the overdue rule. Keep out of the article's factual claims.
+6. **S&P Global Mobility via AAPEX, "What is the Average Age of a Vehicle in the United States?" (June 27, 2025)** — average age of U.S. light vehicles at a record 12.8 years in 2025 (search result opened 2026-09-20; corroborated by multiple outlets citing the same S&P data). https://www.aapexshow.com/blog/average-vehicle-age/
+
+Corroboration only (not opened / paywalled): Bloomberg Law snippet reporting advocates hung 1,000 onesies outside the Transportation Department on the first day of summer 2026 over the overdue rule. Kept out of the article's factual claims.
 
 ## Verified numbers (byte-for-byte, from the sources above)
 - Final-rule deadline: Nov. 2023 (Kids and Car Safety). Today 2026-09-20 = 34 months overdue (Nov 2023 -> Nov 2025 = 24 mo; Nov 2025 -> Sept 2026 = 10 mo). 34 months, exact.
@@ -28,6 +30,7 @@ Corroboration only (not opened / paywalled): Bloomberg Law snippet reporting adv
 - Plantation FL, Sept. 2026: 18-month-old boy, father forgot daycare drop-off, found ~5:30 p.m.
 - Phoenix AZ, 9/13/2026: 5-year-old boy, 103F outside temperature (noheatstroke.org case table).
 - Texas: 173 deaths as of 2025, most of any state.
+- Average age of U.S. light vehicles: record 12.8 years in 2025 (S&P Global Mobility via AAPEX).
 
 ## Original contribution (required)
 1. **The deadline arithmetic.** Nov. 2023 deadline -> Sept. 20, 2026 = 34 months, two missed NHTSA targets (the congressional final-rule date and its own April 2025 NPRM estimate). Nobody has framed the rulemaking's status as a month-by-month body count.
@@ -36,7 +39,7 @@ Corroboration only (not opened / paywalled): Bloomberg Law snippet reporting adv
 4. **The voluntary-tech paradox.** Most 2025-model-year vehicles already carry rear-passenger alerts via an industry-wide program, yet 24 children died in 2026 anyway. Reason: voluntary systems are mostly rear-door-logic reminders (did a rear door open?), not the true occupant detection the statute requires (detect a child who cannot exit independently). The article's discovery: voluntary coverage is not the statutory coverage, which is why the body count kept moving under full voluntary deployment.
 
 ## Counterargument (full strength)
-- A final rule would only apply to NEW vehicles; the U.S. fleet turns over at roughly 12 years to reach half of registered vehicles, so an FMVSS on rear-occupant detection would barely touch the cars on the road for a decade. The 2026 body count is dominated by vehicles a rule could not have reached anyway.
+- A final rule would only apply to NEW vehicles; with the average U.S. light vehicle at a record 12.8 years old (S&P Global Mobility, 2025), a rule would take years to meaningfully penetrate the fleet, and much of the 2026 body count rides in vehicles a rule could not have reached anyway.
 - The voluntary-tech experiment is the strongest evidence against the mandate's efficacy: most new cars already chime about the back seat, and deaths persist. Alerts get disabled, dismissed as nagging, or tuned out; the failure is behavioral (attention, routine deviation), and a mandatory chime is a technological answer to an inattention problem. Alarm fatigue is real; false positives erode trust until drivers silence the system.
 - 45.7% of deaths (21.9% knowingly left + 23.8% gained access) are scenarios an engine-off rear-seat alert addresses only partially; a child who climbs into an unlocked car is not caught by a door-logic reminder, and a knowingly-left child is a behavioral failure, not a detection failure.
 - NHTSA rulemakings take years for reasons: cost-benefit analysis, false-positive rates, and hundreds of competing mandates. Advocates conflate "a rule was due" with "a rule would have worked." The deadline is a legal fact; the lives-saved counterfactual is not.
