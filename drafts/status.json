@@ -1,9 +1,9 @@
 {
-  "current": null,
+  "current": 955,
   "last_check_note": "#954 SHIP_BLOCKED (ship 2026-12-21). Queue length now 162.",
   "last_checked": "2026-09-20T09:45:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Clara Rollover",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
   "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
@@ -5642,6 +5642,18 @@
         "word_count": 877
       },
       "ship_date_note": "2026-09-20 09:30 run: #954 (Zilocar 2026 do-not-drive census, Sept 15 data pull; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 12.2%, rhythm PASS variance 208.0/short 15.0/long 55.0). Novel: campaign-count inversion (39.8% of campaigns on 0-9yr cars hold 1.33% of units), 48.6% of units 15+ years old, free-repair paradox framing. Primary source: Zilocar census page opened live 2026-09-20; NHTSA recalls parent page. Hero JPEG 1920x1280, ?v=ab6f91bd. Queued SHIP_BLOCKED for 2026-12-21 (1/day; queue drains through 12-20)."
+    },
+    {
+      "number": 955,
+      "slug": "955-hot-car-alert-rule-34-months-overdue",
+      "phase": "DRAFT",
+      "journalist": "Clara Rollover",
+      "title": "Congress Ordered a Hot-Car Rule by 2023. 98 Children Have Died Since.",
+      "kicker": "The Gap",
+      "started": "2026-09-20T11:30:00-07:00",
+      "ship_date": null,
+      "critic_avg": null,
+      "critique_round": 0
     }
   ]
 }
