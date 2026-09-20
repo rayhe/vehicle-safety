@@ -1,13 +1,26 @@
 {
- "current": null,
+ "current": {
+  "slug": "948-rideshare-1-in-4-recall-law-gap",
+  "phase": "DRAFT",
+  "journalist": "Clara Rollover",
+  "started": "2026-09-19T21:32:56.025871-07:00",
+  "number": 948,
+  "kicker": "The Gap",
+  "title": "Two Sisters Died in a Recalled Rental Car. Congress Banned That. Your Uber Never Got the Memo.",
+  "ship_date": "2026-12-15",
+  "files": {
+   "research": "drafts/948-rideshare-1-in-4-recall-law-gap-research.md"
+  },
+  "note": "2026-09-19 21:30 run: #948 (Carfax Sept 14 2026: 27% of 438k taxi/rideshare VINs carry unfixed recalls, NYC 38.6%; vs Houck Safe Rental Car Act 2015 federal grounding for rentals; GAO-23-105996; Clara Rollover) RESEARCH complete. Novelty verified: zero queue/stories matches for houck/rental-law/rideshare-recall."
+ },
  "last_check_note": "2026-09-19 19:30 run: #781 already published today (1/day rule); #947 drafted+queued SHIP_BLOCKED 2026-12-14 (round-0 SHIP, avg 9.14).",
  "last_checked": "2026-09-19T20:10:00-07:00",
  "last_completed": 781,
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Clara Rollover",
  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
  "last_published_date": "2026-09-19",
  "last_published_slug": "781-honda-v6-three-investigations-engine-eating-itself",
- "next": 948,
+ "next": 949,
  "queue": [
   {
    "journalist": "Rex Driverton",
