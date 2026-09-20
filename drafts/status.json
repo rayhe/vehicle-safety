@@ -3,11 +3,11 @@
  "last_check_note": "2026-09-19 15:30 run: #781 published (earliest-due SHIP_BLOCKED w/ complete files; QA all green); #945 drafted+queued SHIP_BLOCKED 2026-12-12 (round-0 SHIP, avg 9.07).",
  "last_checked": "2026-09-19T16:05:00-07:00",
  "last_completed": 781,
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Vin Wreckage",
  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
  "last_published_date": "2026-09-19",
  "last_published_slug": "781-honda-v6-three-investigations-engine-eating-itself",
- "next": 946,
+ "next": 947,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5245,6 +5245,50 @@
     "draft": "drafts/945-old-fleet-esc-mandate-gap.html",
     "hero": "drafts/945-old-fleet-esc-mandate-gap.jpg",
     "critic_panel": "drafts/945-old-fleet-esc-mandate-gap-critique.md"
+   }
+  },
+  {
+   "number": 946,
+   "slug": "946-sedans-deadlier-than-suvs-per-vehicle",
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2026-12-13",
+   "critic_avg": 9.07,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 7.9,
+    "css_class_story": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 203.6,
+     "short_pct": 5.6,
+     "long_pct": 44.4,
+     "passed": true
+    },
+    "hero_jpeg_valid": true,
+    "hero_hash": "f8667681",
+    "actionable_insights": true
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "title": "The Sedan Is America's Deadliest Body Style. The SUV Is Its Safest.",
+   "started": "2026-09-19T17:30:00-07:00",
+   "note": "2026-09-19 17:30 run: #946 (novel class-level cut: sedans 1.60 vs SUVs 0.68 deaths/1,000 veh = 2.34x; per-mile 1.39 vs 0.55 = 2.54x; excess 51,077/~5,100/yr at SUV rate; impairment 20.4 vs 19.5% and median death-MY 2007 vs 2006 reject confounders; Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.07, all 7 >= 8.5, gates: em 0, banned 0, The 7.9%, rhythm variance 203.6 PASS). Pre-panel fix: merged 7 short fragments (short_pct 20.9% -> 5.6%). Hero JPEG 2048x1152, ?v=f8667681. Queued SHIP_BLOCKED for 2026-12-13 (1/day; queue drains through 2026-12-12).",
+   "files": {
+    "research": "drafts/946-sedans-deadlier-than-suvs-per-vehicle-research.md",
+    "draft": "drafts/946-sedans-deadlier-than-suvs-per-vehicle.html",
+    "hero": "drafts/946-sedans-deadlier-than-suvs-per-vehicle.jpg",
+    "critic_panel": "drafts/946-sedans-deadlier-than-suvs-per-vehicle-critique.md"
    }
   }
  ]
