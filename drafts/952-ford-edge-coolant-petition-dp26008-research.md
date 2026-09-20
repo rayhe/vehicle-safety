@@ -41,11 +41,12 @@ Genuinely newsworthy? Yes: half a million SUVs, highway-speed power loss, a seve
 
 ## Sources (3+ primary)
 
-1. NHTSA ODI Resume, Investigation DP26008 (opened 09/03/2026) — static.nhtsa.gov/odi/inv/2026/INOA-DP26008-17074.pdf
-2. Ford TSB 19-2346 (Dec 20, 2019) via NHTSA TSB database / CarComplaints — carcomplaints.com/Ford/Edge/2016/tsb/tsb-tsb-19-2346.shtml
-3. Miller et al. v. Ford, E.D. Cal. 2:20-cv-01796-DAD-CKD — classaction.org / carcomplaints.com/news/2025/ford-ecoboost-lawsuit-15l-16l-20l-engines.shtml
-4. Technical root-cause writeup — fordauthority.com/2026/09/nhtsa-may-investigate-500k-ford-edge-suvs-over-coolant-intrusion/ (Sept 8, 2026)
-5. News coverage — cleverdude.com (DP26008 explainer); autoblog.com/news/thousands-of-ford-edge-complaints-prompt-new-nhtsa-review (Sept 2026)
+1. NHTSA ODI Resume, Investigation DP26008 (opened 09/03/2026) — static.nhtsa.gov/odi/inv/2026/INOA-DP26008-17074.pdf (primary: federal record)
+2. Ford TSB 19-2346 (Dec 19, 2019; supersedes 19-2208), "2.0L EcoBoost - Coolant In Cylinders, White Exhaust Smoke And/Or Illuminated MIL" — static.nhtsa.gov/odi/tsbs/2019/MC-10169807-0001.pdf (primary: manufacturer document hosted by NHTSA; verified full 8-page PDF 2026-09-20. Note: prescription reads "follow the Service Procedure steps to replace the long block engine assembly" — NOT verified as all-caps, so the draft does not claim that)
+3. First Amended Consolidated Class Action Complaint, Miller et al. v. Ford, E.D. Cal. 2:20-cv-01796-DAD-CKD (filed 09/28/2022) — classaction.org/media/miller-et-al-v-ford-motor-company-first-amended-complaint.pdf (primary: filed pleading; allegations only, case pending); docket — courtlistener.com/docket/18570693/miller-v-ford-motor-co/
+4. NHTSA FARS program page — nhtsa.gov (primary: scope of fatal-crash data)
+5. Technical root-cause writeup — fordauthority.com/2026/09/nhtsa-may-investigate-500k-ford-edge-suvs-over-coolant-intrusion/ (Sept 8, 2026) (secondary)
+6. News coverage — cleverdude.com (DP26008 explainer) (secondary); autoblog.com/news/thousands-of-ford-edge-complaints-prompt-new-nhtsa-review (Sept 2026) (secondary)
 
 ## Actionable takeaways (for the draft)
 

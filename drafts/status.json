@@ -1,18 +1,8 @@
 {
-  "current": {
-    "number": 952,
-    "slug": "952-ford-edge-coolant-petition-dp26008",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-09-20T05:35:00-07:00",
-    "title": "Ford Wrote the Fix for Its Leaking EcoBoost Engines in 2019. 499,603 Edges Are Still Waiting for the Recall.",
-    "critique_round": 0,
-    "status": "awaiting critique round 0",
-    "updated_at": "2026-09-20T05:45:00-07:00"
-  },
-  "last_check_note": "2026-09-20 03:55 run: #951 complete (RESEARCH->DRAFT->CRITIQUE, VERDICT SHIP, queued 2026-12-18). current=null.",
-  "last_checked": "2026-09-20T03:40:00-07:00",
-  "last_completed": 951,
+  "current": null,
+  "last_check_note": "#952 SHIP_BLOCKED (ship 2026-12-19). Queue length now 160.",
+  "last_checked": "2026-09-20T06:00:00-07:00",
+  "last_completed": 952,
   "last_journalist": "Rex Driverton",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
@@ -5523,6 +5513,51 @@
       },
       "started": "2026-09-20T03:50:00-07:00",
       "note": "2026-09-20 03:55 run: #951 (NHTSA 26V587000 VW 2025 Tiguan BCM software reset, Sept 18 news peg; Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5, all hard gates pass). Novel: deterministic software defect rate (100%) vs probabilistic hardware (same-day 1% steering-bolt contrast); four-FMVSS single-module cascade; hazard-light inference flagged as inference. Pre-panel fixes: merged 5 fragments (short 21.9%->12.1%), dropped uncited FARS ref. Hero JPEG 2352x1008, ?v=bf9fe3fc. Queued SHIP_BLOCKED for 2026-12-18 (1/day; queue drains through 2026-12-17)."
+    },
+    {
+      "number": 952,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-12-19",
+      "slug": "952-ford-edge-coolant-petition-dp26008",
+      "journalist": "Rex Driverton",
+      "title": "Ford Wrote the Fix for Its Leaking EcoBoost Engines in 2019. 499,603 Edges Are Still Waiting for the Recall.",
+      "kicker": "Investigation",
+      "critic_avg": 9.03,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.2
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.8,
+        "css_class_story": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 473.6,
+          "short_pct": 9.7,
+          "long_pct": 51.6,
+          "passed": true
+        },
+        "hero_jpeg_valid": true,
+        "hero_hash": "c241199a",
+        "actionable_insights": true,
+        "word_count": 555
+      },
+      "files": {
+        "research": "drafts/952-ford-edge-coolant-petition-dp26008-research.md",
+        "draft": "drafts/952-ford-edge-coolant-petition-dp26008.html",
+        "hero": "images/952-ford-edge-coolant-petition-dp26008.jpg",
+        "critic_panel": "drafts/952-critic-panel-r0.md"
+      },
+      "started": "2026-09-20T05:35:00-07:00",
+      "note": "2026-09-20 06:00 run: #952 (NHTSA DP26008 Ford Edge 2.0L EcoBoost coolant-intrusion defect petition, Sept 3 news peg; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: all 7 critics >= 8.5 (avg 9.03), all hard gates pass. Novel: Ford documented the defect and long-block remedy in TSB 19-2346 (Dec 2019), years before the citizen petition forced federal review; 0.31% documented incident rate = 1-in-320 reporting floor. Primary sources: NHTSA ODI resume INOA-DP26008-17074, TSB 19-2346 PDF (static.nhtsa.gov, verified 8pp), Miller v. Ford first-amended complaint + CourtListener docket, NHTSA FARS. SHIP_BLOCKED: queue full through 2026-12-18; ship 2026-12-19."
     }
   ]
 }
