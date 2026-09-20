@@ -1,21 +1,13 @@
 {
-  "current": {
-    "slug": "950-pedestrian-deaths-fell-distraction-rose",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-09-20T01:40:00-07:00",
-    "number": 950,
-    "kicker": "Trend Watch",
-    "title": "Pedestrian Deaths Dropped 7% Last Year. Distraction Nearly Doubled Since 2019. Do the Math."
-  },
+  "current": null,
   "last_check_note": "2026-09-19 21:30 run: #948 complete (RESEARCH->DRAFT->CRITIQUE, VERDICT SHIP, queued 2026-12-15). current=null.",
   "last_checked": "2026-09-19T23:55:00-07:00",
   "last_completed": 949,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
   "last_published_date": "2026-09-19",
   "last_published_slug": "781-honda-v6-three-investigations-engine-eating-itself",
-  "next": 950,
+  "next": 951,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -5431,6 +5423,51 @@
         "data_presentation": 9.0
       },
       "note": "2026-09-19 23:30 run: #949 (NHTSA Sept 10 Special Order: 21 requests, sworn by Sept 30, $139M/15yr penalties, Simshauser; foot-brake FMVSS 135 Request 19; make-inoperative trap; Zoox Part 555 contrast, 7 days vs ~4 yrs; twin docket EA26002/43 asleep videos; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 5.7%, rhythm short 14.3%/long 54.3% PASS). Pre-panel fixes: merged 4 fragment chains, corrected 12d->7d dating. Hero JPEG, ?v=0574247f. Queued SHIP_BLOCKED for 2026-12-16 (1/day; queue drains through 2026-12-15)."
+    },
+    {
+      "number": 950,
+      "slug": "950-pedestrian-deaths-fell-distraction-rose",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Mia Crumplezone",
+      "started": "2026-09-20T01:40:00-07:00",
+      "kicker": "Trend Watch",
+      "title": "Pedestrian Deaths Dropped 7% Last Year. Distraction Nearly Doubled Since 2019. Do the Math.",
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/950-pedestrian-deaths-fell-distraction-rose-research.md",
+        "draft": "drafts/950-pedestrian-deaths-fell-distraction-rose.html",
+        "hero": "drafts/950-pedestrian-deaths-fell-distraction-rose.jpg",
+        "critic_panel": "drafts/950-critic-panel-r0.md"
+      },
+      "ship_date": "2026-12-17",
+      "critic_avg": 8.91,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.2,
+        "css_class_story": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 8624.3,
+          "short_pct": 11.1,
+          "long_pct": 55.6,
+          "passed": true
+        },
+        "hero_jpeg_valid": true,
+        "hero_hash": "d05a0657",
+        "actionable_insights": true,
+        "word_count": 581
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0
+      },
+      "note": "2026-09-20 01:30 run: #950 (GHSA Sept 2026 preliminary 2025: 6,732 pedestrian deaths, -7%, 3rd straight annual decline; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.91, all 7 >= 8.5, gates: em 0, banned 0, The 3.2%, rhythm short 11.1%/long 55.6% PASS). Pre-panel fixes: merged 4 short fragments (short 22.6%->11.1%), bolded lede stat. Hero JPEG 1920x1280, ?v=d05a0657. Novel: 18.2/18.4/18.4% pedestrian share of all deaths (proportional decline, zero extra pedestrian safety); distraction headwind ~1,570 vs ~1,000 at 2019 rate. Queued SHIP_BLOCKED for 2026-12-17 (1/day; queue drains through 2026-12-16). Two items due 2026-09-20 (#818 school-bus, #919 billion-unit-recall-surge) left for the publish cycle."
     }
   ]
 }
