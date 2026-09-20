@@ -1,12 +1,12 @@
 {
   "current": null,
-  "last_check_note": "2026-09-19 21:30 run: #948 complete (RESEARCH->DRAFT->CRITIQUE, VERDICT SHIP, queued 2026-12-15). current=null.",
+  "last_check_note": "2026-09-20 03:30 run: Published #818 (school-bus, Rex Driverton, 1/day slot). #919 bumped to 2026-09-21. current=null.",
   "last_checked": "2026-09-19T23:55:00-07:00",
   "last_completed": 949,
   "last_journalist": "Mia Crumplezone",
-  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
-  "last_published_date": "2026-09-19",
-  "last_published_slug": "781-honda-v6-three-investigations-engine-eating-itself",
+  "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
+  "last_published_date": "2026-09-20",
+  "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
   "next": 951,
   "queue": [
     {
@@ -829,7 +829,7 @@
       "kicker": "Investigation",
       "note": "Round-0 9.07 avg; 7/7 critics >= 8.5. Novel contribution: per-rider fatality rate (70 passenger deaths / 10 yrs / ~21.4M daily riders = ~1 per 3M riders/yr) + NHTSA 2015-2024 victim-type inversion (70% other-vehicle occupants, 19% nonoccupants, only 11% on the bus). Primary NHTSA PDF cited directly. Draft+hero+research+critique in drafts/.",
       "number": 818,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.07,
         "data_presentation": 9.0,
@@ -4223,7 +4223,7 @@
     {
       "number": 919,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-20",
+      "ship_date": "2026-09-21",
       "slug": "919-billion-unit-recall-surge-auto",
       "journalist": "Axle McScatter",
       "title": "Recalls Aren't Rising. They're Detonating.",
@@ -4250,7 +4250,7 @@
           "passed": true
         }
       },
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: combined four Sedgwick releases (Feb/25 State of Nation, May Q1, Aug H1 US, Aug/Sep EU) into one auto synthesis; events-flat (1,634 vs 1,636) vs units +345.5% paradox; 2025 11-year-low-to-2026 2-year-high reversal; EU fire-risk record 82 events. Two data errors caught+fixed pre-verdict (4.46x ratio; 2026 is the 4th billion-unit year, not 5th). Hero JPEG 1920x1280, cache-busted ?v=446d2c70. Blocked: 1/day slot consumed by #748 on 2026-09-17.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: combined four Sedgwick releases (Feb/25 State of Nation, May Q1, Aug H1 US, Aug/Sep EU) into one auto synthesis; events-flat (1,634 vs 1,636) vs units +345.5% paradox; 2025 11-year-low-to-2026 2-year-high reversal; EU fire-risk record 82 events. Two data errors caught+fixed pre-verdict (4.46x ratio; 2026 is the 4th billion-unit year, not 5th). Hero JPEG 1920x1280, cache-busted ?v=446d2c70. Blocked: 1/day slot consumed by #748 on 2026-09-17. | 2026-09-20 03:30 run: 1/day slot consumed by #818; bumped ship_date to 2026-09-21.",
       "files": {
         "research": "drafts/919-billion-unit-recall-surge-auto-research.md",
         "draft": "drafts/919-billion-unit-recall-surge-auto.html",
