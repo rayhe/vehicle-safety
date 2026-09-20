@@ -1,5 +1,20 @@
 {
- "current": null,
+ "current": {
+  "slug": "947-jeep-brand-fails-three-tests-mazda-none",
+  "phase": "CRITIQUE",
+  "journalist": "Axle McScatter",
+  "started": "2026-09-19T19:40:00-07:00",
+  "number": 947,
+  "kicker": "By The Numbers",
+  "title": "The Average Jeep Fails Three IIHS Safety Tests. The Average Mazda Fails None.",
+  "critique_round": 0,
+  "files": {
+   "research": "drafts/947-jeep-brand-fails-three-tests-mazda-none-research.md",
+   "draft": "drafts/947-jeep-brand-fails-three-tests-mazda-none.html",
+   "hero": "drafts/947-jeep-brand-fails-three-tests-mazda-none.jpg",
+   "critic_panel": "drafts/947-jeep-brand-fails-three-tests-mazda-none-critique.md"
+  }
+ },
  "last_check_note": "2026-09-19 15:30 run: #781 published (earliest-due SHIP_BLOCKED w/ complete files; QA all green); #945 drafted+queued SHIP_BLOCKED 2026-12-12 (round-0 SHIP, avg 9.07).",
  "last_checked": "2026-09-19T16:05:00-07:00",
  "last_completed": 781,
