@@ -1,13 +1,19 @@
 {
-  "current": null,
+  "current": {
+    "slug": "951-vw-tiguan-bcm-reset-100-percent",
+    "number": 951,
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-09-20T03:50:00-07:00"
+  },
   "last_check_note": "2026-09-20 03:40 run: #818 QA PASS (live 200, hero JPEG 374165B, og/twitter meta present, index+sitemap updated). Publish+QA complete, current=null.",
   "last_checked": "2026-09-20T03:40:00-07:00",
   "last_completed": 949,
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
   "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
-  "next": 951,
+  "next": 952,
   "queue": [
     {
       "journalist": "Rex Driverton",
