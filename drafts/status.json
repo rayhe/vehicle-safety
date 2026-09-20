@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#953 SHIP_BLOCKED (ship 2026-12-20). Queue length now 161.",
-  "last_checked": "2026-09-20T07:30:00-07:00",
+  "last_check_note": "#954 SHIP_BLOCKED (ship 2026-12-21). Queue length now 162.",
+  "last_checked": "2026-09-20T09:45:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
   "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
-  "next": 954,
+  "next": 955,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -5603,6 +5603,45 @@
       },
       "ship_date": "2026-12-20",
       "note": "2026-09-20 07:30 run: #953 (VW steering rack mounting bolt recall 26V590000, Sept 18-19 news peg; Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: all 7 critics >= 8.5 (avg 9.03), all hard gates pass. Novel: the invisible-bolt framing (owner can never inspect it; recall IS the inspection), 100:1 recall-to-defect ratio (208,724 recalled for ~2,087 estimated defective per Dow Jones), second-owner notification gap (letters go Nov 10 to registered owners). Primary sources: NHTSA recalls API campaign 26V590000 (fetched 2026-09-20), Reuters, USA Today (model counts + production dates + mechanism), Morningstar/Dow Jones (1% estimate). SHIP_BLOCKED: queue full through 2026-12-19; ship 2026-12-20."
+    },
+    {
+      "number": 954,
+      "slug": "954-do-not-drive-20-million-census",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Axle McScatter",
+      "title": "The Government Told 20.75 Million Cars to Stop Driving. The Fix Is Free. Most Never Came In.",
+      "kicker": "By The Numbers",
+      "started": "2026-09-20T09:30:00-07:00",
+      "ship_date": "2026-12-21",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.2,
+        "css_class_story": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 208.0,
+          "short_pct": 15.0,
+          "long_pct": 55.0,
+          "passed": true
+        },
+        "hero_jpeg_valid": true,
+        "hero_hash": "ab6f91bd",
+        "actionable_insights": true,
+        "word_count": 877
+      },
+      "ship_date_note": "2026-09-20 09:30 run: #954 (Zilocar 2026 do-not-drive census, Sept 15 data pull; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 12.2%, rhythm PASS variance 208.0/short 15.0/long 55.0). Novel: campaign-count inversion (39.8% of campaigns on 0-9yr cars hold 1.33% of units), 48.6% of units 15+ years old, free-repair paradox framing. Primary source: Zilocar census page opened live 2026-09-20; NHTSA recalls parent page. Hero JPEG 1920x1280, ?v=ab6f91bd. Queued SHIP_BLOCKED for 2026-12-21 (1/day; queue drains through 12-20)."
     }
   ]
 }
