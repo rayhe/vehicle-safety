@@ -19,7 +19,7 @@ A September 15, 2026 census of NHTSA's do-not-drive recalls finds 108 active do-
 - 202 campaigns / 20,908,823 units on NHTSA's whole "V" class (94 non-car/light-truck campaigns = 156,683 units, 0.75%).
 - 99.4% of car/light-truck units (20,622,908) on vehicles 10+ model years old (MY 2016 or older).
 - Airbag-component campaigns: 50 of 108, 19,820,917 units (95.5%), overwhelmingly Takata. Ex-airbag remainder: 58 campaigns, 931,223 units, still 86.1% on 10+ yr-old vehicles.
-- Age buckets (newest affected MY): 0-4 yrs (MY2022+): 127,461 units / 81 campaigns; 5-9 yrs (MY2017-2021): 148,135 / 41; 10-14 yrs (MY2012-2016): 10,537,713 / 44; 15+ yrs (MY2011 or older): 10,095,514 / 36.
+- Age buckets (newest affected MY) — WHOLE-VEHICLE-CLASS basis (202 campaigns), NOT cars-only; do not quote these absolutes as cars-only shares: 0-4 yrs (MY2022+): 127,461 units / 81 campaigns; 5-9 yrs (MY2017-2021): 148,135 / 41; 10-14 yrs (MY2012-2016): 10,537,713 / 44; 15+ yrs (MY2011 or older): 10,095,514 / 36.
 - Manufacturers (Part 573 filer): Chrysler (FCA US) 10,958,409 (52.8%), Ford 5,455,681 (26.3%), BMW 2,011,206 (9.7%), Mazda 1,309,362 (6.3%), GM 386,698 (1.9%), Mercedes-Benz 366,795 (1.8%).
 - Largest campaign: 16V352000, Chrysler/Dodge/Jeep/Ram/Mitsubishi MY2004-2012, 4,648,270 units, passenger inflator may rupture (Takata).
 - Largest non-airbag: 21V473000, Cadillac/Saab MY2010-2016, 380,498, rear suspension arm may fracture. Next: 22V315000, Mercedes MY2006-2012, 350,294, brake-booster power-assist loss.
@@ -27,8 +27,8 @@ A September 15, 2026 census of NHTSA's do-not-drive recalls finds 108 active do-
 - Methodology: text-matching defect/consequence/remedy fields for "do not drive" etc. finds 12 campaigns, overlaps the structured set on 5, misses 197 of 202.
 
 ## Original contribution (required)
-1. **The campaign-count inversion.** 43 of the 108 campaigns (39.8%) sit on 0-9-year-old vehicles but hold just 275,596 units (1.33%); the 65 campaigns on 10+ year-old vehicles (60.2%) hold 20,622,908 units (99.4%). Translation: modern do-not-drive orders are surgical micro-campaigns; the mass is historical. Nobody drew this split.
-2. **Half the fleet is 15+ years old.** 10,095,514 units (48.6%) have newest affected MY of 2011 or older. These are not cars; they are artifacts that happen to still run.
+1. **The campaign-count inversion.** 43 of the 108 campaigns (39.8%) sit on 0-9-year-old vehicles but hold just 0.6% of the units (per the census's cars-and-light-trucks basis statement); the 65 campaigns on 10+ year-old vehicles (60.2%) hold the other 99.4%. Translation: modern do-not-drive orders are surgical micro-campaigns; the mass is historical. Nobody drew this split. NOTE: the age-bucket table's absolute figures (e.g. 275,596 units for 0-9 yrs) are on NHTSA's whole-vehicle-class basis (202 campaigns / 20,908,823 units), NOT the 108 cars-only campaigns — do not mix bases.
+2. **The units skew hard toward 15+ year-old vehicles.** The census's age table (whole-class basis) shows roughly half the covered units at 15+ years old; a cars-only 15+ share is not stated by the source and must not be asserted as one. These are not cars; they are artifacts that happen to still run.
 3. **The free-repair paradox frame.** The repair costs $0 and the order is the strongest NHTSA has, yet the vehicles sit in the cheapest listings on every used-car marketplace. The binding constraint is information flow (second, third, fourth owners never get letters), not money.
 
 ## Counterargument (full strength)

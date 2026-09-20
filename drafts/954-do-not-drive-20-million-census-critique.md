@@ -25,3 +25,13 @@ Absolute and relative frames paired throughout (275,596 vehicles = 1.33%; 10,095
 
 ## VERDICT: SHIP
 Average 9.0, all seven critics >= 8.5, all hard gates pass (em 0, banned 0, The 12.2%, rhythm PASS variance 208.0 / short 15.0% / long 55.0%, CSS class story + ../style.css, JPEG valid 1920x1280 ?v=ab6f91bd, word count 877, actionable insights present). Three rhythm revisions consumed before panel; no further rounds needed. Queued SHIP_BLOCKED for 2026-12-21 (1/day; queue drains through 12-20 with #953).
+
+## CORRECTION ADDENDUM (2026-09-20, post-run verification)
+
+Independent verification against the live Zilocar census page found material factual errors the panel missed; the draft and research notes were corrected the same day, before the queued 2026-12-21 publish:
+
+1. Campaign-count inversion: the draft stated 43 campaigns on 0-9-year-old vehicles hold "275,596 vehicles, 1.33% of the total." The 275,596 absolute comes from the census's age-bucket table, which is on NHTSA's whole-vehicle-class basis (202 campaigns / 20,908,823 units), not the 108 cars-and-light-trucks campaigns. On the correct cars-only basis the source states those 43 campaigns hold just 0.6% of units. Draft corrected to 0.6%; absolute figure dropped.
+2. "10,095,514 units, 48.6% ... 15+ years old": same basis mix-up — the numerator is whole-class. No cars-only 15+ share is stated by the source. Draft now states the directional claim only ("concentrated in 15-plus-year-old vehicles") with no asserted percentage.
+3. Headline "Most Never Came In.": no source settles repair-completion rates; the run's own research notes state VIN-level completion data does not exist. Headline softened to "Finding the Owners Is the Hard Part," which matches the article's own supported conclusion (recall letters go to original buyers; the system cannot find current owners).
+
+Process lesson: the panel scored Data Presentation 9.0 while the underlying table basis was mixed. Future census-based drafts must state the vehicle-class basis of every quoted table before any share is computed.
