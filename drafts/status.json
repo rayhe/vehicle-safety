@@ -1,39 +1,8 @@
 {
- "current": {
-  "slug": "948-rideshare-1-in-4-recall-law-gap",
-  "phase": "CRITIQUE",
-  "journalist": "Clara Rollover",
-  "started": "2026-09-19T21:32:56.025871-07:00",
-  "number": 948,
-  "kicker": "The Gap",
-  "title": "Two Sisters Died in a Recalled Rental Car, and Congress Banned the Practice. Your Uber Never Got the Memo.",
-  "ship_date": "2026-12-15",
-  "files": {
-   "research": "drafts/948-rideshare-1-in-4-recall-law-gap-research.md",
-   "draft": "drafts/948-rideshare-1-in-4-recall-law-gap.html",
-   "hero": "drafts/948-rideshare-1-in-4-recall-law-gap.jpg"
-  },
-  "note": "2026-09-19 21:30 run: #948 (Carfax Sept 14 2026: 27% of 438k taxi/rideshare VINs carry unfixed recalls, NYC 38.6%; vs Houck Safe Rental Car Act 2015 federal grounding for rentals; GAO-23-105996; Clara Rollover) RESEARCH complete. Novelty verified: zero queue/stories matches for houck/rental-law/rideshare-recall.",
-  "critique_round": 0,
-  "hard_gates": {
-   "em_dashes": 0,
-   "banned_phrases": 0,
-   "the_starters_pct": 12.0,
-   "css_class_story": true,
-   "style_css": true,
-   "sentence_rhythm": {
-    "variance": 1342.7,
-    "short_pct": 6.9,
-    "long_pct": 62.1,
-    "passed": true
-   },
-   "hero_jpeg_valid": true,
-   "hero_hash": "56e22ae6"
-  }
- },
- "last_check_note": "2026-09-19 19:30 run: #781 already published today (1/day rule); #947 drafted+queued SHIP_BLOCKED 2026-12-14 (round-0 SHIP, avg 9.14).",
+ "current": null,
+ "last_check_note": "2026-09-19 21:30 run: #948 complete (RESEARCH->DRAFT->CRITIQUE, VERDICT SHIP, queued 2026-12-15). current=null.",
  "last_checked": "2026-09-19T20:10:00-07:00",
- "last_completed": 781,
+ "last_completed": 948,
  "last_journalist": "Clara Rollover",
  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
  "last_published_date": "2026-09-19",
@@ -5366,6 +5335,50 @@
     "data_presentation": 9.5
    },
    "note": "2026-09-19 19:30 run: #947 (ForCar Sept 16 IIHS failure-count aggregation: Jeep 3.07 vs Mazda 0.08 avg failures/vehicle = 38x; Audi 1.56 mid-table shows price doesn't predict; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.14, all 7 >= 8.5, gates: em 0, banned 0, The 4.8%, rhythm short 14.3%/long 57.1% PASS). Pre-panel fix: merged 5 fragment chains (short 42% -> 14.3%). Hero JPEG 2048x1152, ?v=25701634. Queued SHIP_BLOCKED for 2026-12-14 (1/day; queue drains through 2026-12-13)."
+  },
+  {
+   "slug": "948-rideshare-1-in-4-recall-law-gap",
+   "phase": "SHIP_BLOCKED",
+   "journalist": "Clara Rollover",
+   "started": "2026-09-19T21:32:56.025871-07:00",
+   "number": 948,
+   "kicker": "The Gap",
+   "title": "Two Sisters Died in a Recalled Rental Car, and Congress Banned the Practice. Your Uber Never Got the Memo.",
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/948-rideshare-1-in-4-recall-law-gap-research.md",
+    "draft": "drafts/948-rideshare-1-in-4-recall-law-gap.html",
+    "hero": "drafts/948-rideshare-1-in-4-recall-law-gap.jpg",
+    "critic_panel": "drafts/948-rideshare-1-in-4-recall-law-gap-critique.md"
+   },
+   "ship_date": "2026-12-15",
+   "critic_avg": 9.0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 10.0,
+    "css_class_story": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 1348.5,
+     "short_pct": 6.9,
+     "long_pct": 62.1,
+     "passed": true
+    },
+    "hero_jpeg_valid": true,
+    "hero_hash": "56e22ae6",
+    "actionable_insights": true
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.5,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "note": "2026-09-19 21:30 run: #948 (Carfax Sept 14 2026: 27% of 438k taxi/rideshare VINs carry unfixed recalls, NYC 38.6% vs LA 11% = 3.5x; vs Houck Safe Rental Car Act 2015 federal grounding for rentals; GAO-23-105996; Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The ~10%, rhythm short 6.9%/long 62.1% PASS). Pre-panel fix: merged 4 fragment chains (short 18.2% -> 6.9%). Hero JPEG 1920x1280, ?v=56e22ae6. Queued SHIP_BLOCKED for 2026-12-15 (1/day; queue drains through 2026-12-14)."
   }
  ]
 }
