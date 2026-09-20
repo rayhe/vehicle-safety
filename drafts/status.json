@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#952 SHIP_BLOCKED (ship 2026-12-19). Queue length now 160.",
-  "last_checked": "2026-09-20T06:00:00-07:00",
+  "last_check_note": "#953 SHIP_BLOCKED (ship 2026-12-20). Queue length now 161.",
+  "last_checked": "2026-09-20T07:30:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
   "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
-  "next": 953,
+  "next": 954,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -5558,6 +5558,51 @@
       },
       "started": "2026-09-20T05:35:00-07:00",
       "note": "2026-09-20 06:00 run: #952 (NHTSA DP26008 Ford Edge 2.0L EcoBoost coolant-intrusion defect petition, Sept 3 news peg; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: all 7 critics >= 8.5 (avg 9.03), all hard gates pass. Novel: Ford documented the defect and long-block remedy in TSB 19-2346 (Dec 2019), years before the citizen petition forced federal review; 0.31% documented incident rate = 1-in-320 reporting floor. Primary sources: NHTSA ODI resume INOA-DP26008-17074, TSB 19-2346 PDF (static.nhtsa.gov, verified 8pp), Miller v. Ford first-amended complaint + CourtListener docket, NHTSA FARS. SHIP_BLOCKED: queue full through 2026-12-18; ship 2026-12-19."
+    },
+    {
+      "number": 953,
+      "slug": "953-vw-steering-rack-bolt-26v590000",
+      "phase": "SHIP_BLOCKED",
+      "journalist": "Clara Rollover",
+      "started": "2026-09-20T07:30:00-07:00",
+      "kicker": "The Gap",
+      "title": "One Bolt Holds Your Steering Rack On. VW Is Replacing 208,724 of Them.",
+      "critique_round": 0,
+      "critic_avg": 9.03,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.8,
+        "css_class_story": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 610.9,
+          "short_pct": 14.3,
+          "long_pct": 42.9,
+          "passed": true
+        },
+        "hero_jpeg_valid": true,
+        "hero_hash": "3648a7c9",
+        "actionable_insights": true,
+        "word_count": 606
+      },
+      "files": {
+        "research": "drafts/953-vw-steering-rack-bolt-26v590000-research.md",
+        "draft": "drafts/953-vw-steering-rack-bolt-26v590000.html",
+        "hero": "images/953-vw-steering-rack-bolt-26v590000.jpg",
+        "critic_panel": "drafts/953-critic-panel-r0.md"
+      },
+      "ship_date": "2026-12-20",
+      "note": "2026-09-20 07:30 run: #953 (VW steering rack mounting bolt recall 26V590000, Sept 18-19 news peg; Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: all 7 critics >= 8.5 (avg 9.03), all hard gates pass. Novel: the invisible-bolt framing (owner can never inspect it; recall IS the inspection), 100:1 recall-to-defect ratio (208,724 recalled for ~2,087 estimated defective per Dow Jones), second-owner notification gap (letters go Nov 10 to registered owners). Primary sources: NHTSA recalls API campaign 26V590000 (fetched 2026-09-20), Reuters, USA Today (model counts + production dates + mechanism), Morningstar/Dow Jones (1% estimate). SHIP_BLOCKED: queue full through 2026-12-19; ship 2026-12-20."
     }
   ]
 }
