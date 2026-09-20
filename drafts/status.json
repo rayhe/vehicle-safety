@@ -1,28 +1,13 @@
 {
- "current": {
-  "slug": "947-jeep-brand-fails-three-tests-mazda-none",
-  "phase": "CRITIQUE",
-  "journalist": "Axle McScatter",
-  "started": "2026-09-19T19:40:00-07:00",
-  "number": 947,
-  "kicker": "By The Numbers",
-  "title": "The Average Jeep Fails Three IIHS Safety Tests. The Average Mazda Fails None.",
-  "critique_round": 0,
-  "files": {
-   "research": "drafts/947-jeep-brand-fails-three-tests-mazda-none-research.md",
-   "draft": "drafts/947-jeep-brand-fails-three-tests-mazda-none.html",
-   "hero": "drafts/947-jeep-brand-fails-three-tests-mazda-none.jpg",
-   "critic_panel": "drafts/947-jeep-brand-fails-three-tests-mazda-none-critique.md"
-  }
- },
- "last_check_note": "2026-09-19 15:30 run: #781 published (earliest-due SHIP_BLOCKED w/ complete files; QA all green); #945 drafted+queued SHIP_BLOCKED 2026-12-12 (round-0 SHIP, avg 9.07).",
- "last_checked": "2026-09-19T16:05:00-07:00",
+ "current": null,
+ "last_check_note": "2026-09-19 19:30 run: #781 already published today (1/day rule); #947 drafted+queued SHIP_BLOCKED 2026-12-14 (round-0 SHIP, avg 9.14).",
+ "last_checked": "2026-09-19T20:10:00-07:00",
  "last_completed": 781,
- "last_journalist": "Vin Wreckage",
+ "last_journalist": "Axle McScatter",
  "last_published": "Honda's V6 Has Been Federally Investigated Three Times for Destroying Itself. 1.4 Million Are Still Running.",
  "last_published_date": "2026-09-19",
  "last_published_slug": "781-honda-v6-three-investigations-engine-eating-itself",
- "next": 947,
+ "next": 948,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -5305,6 +5290,51 @@
     "hero": "drafts/946-sedans-deadlier-than-suvs-per-vehicle.jpg",
     "critic_panel": "drafts/946-sedans-deadlier-than-suvs-per-vehicle-critique.md"
    }
+  },
+  {
+   "slug": "947-jeep-brand-fails-three-tests-mazda-none",
+   "phase": "SHIP_BLOCKED",
+   "journalist": "Axle McScatter",
+   "started": "2026-09-19T19:40:00-07:00",
+   "number": 947,
+   "kicker": "By The Numbers",
+   "title": "The Average Jeep Fails Three IIHS Safety Tests. The Average Mazda Fails None.",
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/947-jeep-brand-fails-three-tests-mazda-none-research.md",
+    "draft": "drafts/947-jeep-brand-fails-three-tests-mazda-none.html",
+    "hero": "drafts/947-jeep-brand-fails-three-tests-mazda-none.jpg",
+    "critic_panel": "drafts/947-jeep-brand-fails-three-tests-mazda-none-critique.md"
+   },
+   "ship_date": "2026-12-14",
+   "critic_avg": 9.14,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 4.8,
+    "css_class_story": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 10.8,
+     "short_pct": 14.3,
+     "long_pct": 57.1,
+     "passed": true
+    },
+    "hero_jpeg_valid": true,
+    "hero_hash": "25701634",
+    "actionable_insights": true,
+    "word_count": 435
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.5,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.5
+   },
+   "note": "2026-09-19 19:30 run: #947 (ForCar Sept 16 IIHS failure-count aggregation: Jeep 3.07 vs Mazda 0.08 avg failures/vehicle = 38x; Audi 1.56 mid-table shows price doesn't predict; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.14, all 7 >= 8.5, gates: em 0, banned 0, The 4.8%, rhythm short 14.3%/long 57.1% PASS). Pre-panel fix: merged 5 fragment chains (short 42% -> 14.3%). Hero JPEG 2048x1152, ?v=25701634. Queued SHIP_BLOCKED for 2026-12-14 (1/day; queue drains through 2026-12-13)."
   }
  ]
 }
