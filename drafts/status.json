@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "950-pedestrian-deaths-fell-distraction-rose",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-20T01:40:00-07:00",
+    "number": 950,
+    "kicker": "Trend Watch",
+    "title": "Pedestrian Deaths Dropped 7% Last Year. Distraction Nearly Doubled Since 2019. Do the Math."
+  },
   "last_check_note": "2026-09-19 21:30 run: #948 complete (RESEARCH->DRAFT->CRITIQUE, VERDICT SHIP, queued 2026-12-15). current=null.",
   "last_checked": "2026-09-19T23:55:00-07:00",
   "last_completed": 949,
