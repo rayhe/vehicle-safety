@@ -1,17 +1,35 @@
 {
  "current": {
   "slug": "948-rideshare-1-in-4-recall-law-gap",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Clara Rollover",
   "started": "2026-09-19T21:32:56.025871-07:00",
   "number": 948,
   "kicker": "The Gap",
-  "title": "Two Sisters Died in a Recalled Rental Car. Congress Banned That. Your Uber Never Got the Memo.",
+  "title": "Two Sisters Died in a Recalled Rental Car, and Congress Banned the Practice. Your Uber Never Got the Memo.",
   "ship_date": "2026-12-15",
   "files": {
-   "research": "drafts/948-rideshare-1-in-4-recall-law-gap-research.md"
+   "research": "drafts/948-rideshare-1-in-4-recall-law-gap-research.md",
+   "draft": "drafts/948-rideshare-1-in-4-recall-law-gap.html",
+   "hero": "drafts/948-rideshare-1-in-4-recall-law-gap.jpg"
   },
-  "note": "2026-09-19 21:30 run: #948 (Carfax Sept 14 2026: 27% of 438k taxi/rideshare VINs carry unfixed recalls, NYC 38.6%; vs Houck Safe Rental Car Act 2015 federal grounding for rentals; GAO-23-105996; Clara Rollover) RESEARCH complete. Novelty verified: zero queue/stories matches for houck/rental-law/rideshare-recall."
+  "note": "2026-09-19 21:30 run: #948 (Carfax Sept 14 2026: 27% of 438k taxi/rideshare VINs carry unfixed recalls, NYC 38.6%; vs Houck Safe Rental Car Act 2015 federal grounding for rentals; GAO-23-105996; Clara Rollover) RESEARCH complete. Novelty verified: zero queue/stories matches for houck/rental-law/rideshare-recall.",
+  "critique_round": 0,
+  "hard_gates": {
+   "em_dashes": 0,
+   "banned_phrases": 0,
+   "the_starters_pct": 12.0,
+   "css_class_story": true,
+   "style_css": true,
+   "sentence_rhythm": {
+    "variance": 1342.7,
+    "short_pct": 6.9,
+    "long_pct": 62.1,
+    "passed": true
+   },
+   "hero_jpeg_valid": true,
+   "hero_hash": "56e22ae6"
+  }
  },
  "last_check_note": "2026-09-19 19:30 run: #781 already published today (1/day rule); #947 drafted+queued SHIP_BLOCKED 2026-12-14 (round-0 SHIP, avg 9.14).",
  "last_checked": "2026-09-19T20:10:00-07:00",
