@@ -13,8 +13,8 @@
     "hero_hash": "970fc719",
     "word_count": 867
   },
-  "last_check_note": "2026-09-21 10:05 run: Article #962 (Mia Crumplezone, Lexus IS rear-seat IIHS failure) RESEARCH+DRAFT+CRITIQUE complete, round-0 pass 9.0 avg, all hard gates green, SHIP_BLOCKED 2026-12-29. #819 already published today; 1/day rule holds.",
-  "last_checked": "2026-09-21T10:05:00-07:00",
+  "last_check_note": "2026-09-21 11:30 run: #819 already published today (d07fbce7); 1/day rule holds. #962 SHIP_BLOCKED 2026-12-29; 25 queue items past ship_date but still held by 1/day cadence. No RESEARCH/DRAFT/CRITIQUE/SHIP/QA work needed.",
+  "last_checked": "2026-09-21T11:27:47-07:00",
   "last_completed": 952,
   "last_journalist": "Mia Crumplezone",
   "last_published": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
