@@ -1,26 +1,26 @@
 {
   "current": {
-    "slug": "959-drugged-driving-nobody-is-counting",
-    "number": 959,
+    "slug": "960-pilot-highlander-iihs-rear-seat",
+    "number": 960,
     "phase": "SHIP_BLOCKED",
-    "journalist": "Dale Impactor III",
-    "started": "2026-09-21T03:40:00-07:00",
-    "ship_date": "2026-12-26",
-    "title": "43% of Impaired Drivers in Fatal Crashes Are on Drugs. Nobody Is Counting Them.",
-    "kicker": "Sobriety Report",
-    "critic_avg": 9.01,
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-21T05:35:00-07:00",
+    "ship_date": "2026-12-27",
+    "title": "IIHS Flunked Both Family SUVs on Rear-Seat Safety. Ten Years of Crash Data Picks the Same Winner.",
+    "kicker": "The Gap",
+    "critic_avg": 9.03,
     "critique_round": 0,
-    "hero_hash": "4aeb9264",
-    "word_count": 1220
+    "hero_hash": "ac921476",
+    "word_count": 920
   },
   "last_check_note": "2026-09-21 01:42 run: #819 QA PASS (story live 200 after canonical 308, hero JPEG 689093B 200, og/twitter meta present, index card + sitemap live). Publish+QA complete. current untouched (#958 SHIP_BLOCKED draft stays current).",
   "last_checked": "2026-09-21T01:42:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
   "last_published_date": "2026-09-21",
   "last_published_slug": "819-cadillac-cts-drunker-than-bmw-rate-paradox",
-  "next": 960,
+  "next": 961,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -5843,6 +5843,39 @@
       "slug": "959-drugged-driving-nobody-is-counting",
       "started": "2026-09-21T03:40:00-07:00",
       "title": "43% of Impaired Drivers in Fatal Crashes Are on Drugs. Nobody Is Counting Them."
+    },
+    {
+      "number": 960,
+      "slug": "960-pilot-highlander-iihs-rear-seat",
+      "title": "IIHS Flunked Both Family SUVs on Rear-Seat Safety. Ten Years of Crash Data Picks the Same Winner.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-12-27",
+      "started": "2026-09-21T05:35:00-07:00",
+      "critic_avg": 9.03,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.9,
+        "css": "pass",
+        "rhythm": "pass",
+        "word_count": 920,
+        "hero_jpeg": true,
+        "hero_hash": "ac921476",
+        "actionable_insights": true
+      },
+      "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (960- prefix). News peg: Sept 2026 Road Ethos head-to-head of April 2026 IIHS 3-row SUV ratings (CX-90 TSP+, Pilot Acceptable, Highlander Marginal w/ increased rear head/neck injuries). Novel: first lab-vs-FARS cross-tab for the two nameplates (Pilot 0.29 vs Highlander 0.42 per 10M VMT, 2014-2023); lab and road agree on ranking. Honda MY2025 rear-seat-belt revision + Pilot TSP+ loss-without-change under tightened 2026 criteria. No publish: 1/day rule, #819 shipped 2026-09-21."
     }
   ]
 }
