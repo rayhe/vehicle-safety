@@ -2,16 +2,19 @@
   "current": {
     "slug": "962-lexus-is-rear-seat-flunks-iihs-award",
     "number": 962,
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
     "started": "2026-09-21T09:45:00-07:00",
     "ship_date": "2026-12-29",
     "title": "Lexus Fixed the Driver. The Back-Seat Dummy Is What Flunked the Crash Test.",
     "kicker": "The Gap",
-    "note": "RESEARCH done. News peg: IIHS September 2026 ratings wave (Autoblog Sep 3; AutoSpies Sep 14). Novel: driver load-limiter fix aces the front seat, Marginal rear-seat chest (index 36, 6.5 kN belt tension) kills the award; zero prior Lexus coverage; Premium Triple-Beam LED package (A) worse than standard headlights (G)."
+    "critic_avg": 9.0,
+    "critique_round": 0,
+    "hero_hash": "970fc719",
+    "word_count": 867
   },
-  "last_check_note": "2026-09-21 01:42 run: #819 QA PASS (story live 200 after canonical 308, hero JPEG 689093B 200, og/twitter meta present, index card + sitemap live). Publish+QA complete. current untouched (#958 SHIP_BLOCKED draft stays current).",
-  "last_checked": "2026-09-21T01:42:00-07:00",
+  "last_check_note": "2026-09-21 10:05 run: Article #962 (Mia Crumplezone, Lexus IS rear-seat IIHS failure) RESEARCH+DRAFT+CRITIQUE complete, round-0 pass 9.0 avg, all hard gates green, SHIP_BLOCKED 2026-12-29. #819 already published today; 1/day rule holds.",
+  "last_checked": "2026-09-21T10:05:00-07:00",
   "last_completed": 952,
   "last_journalist": "Mia Crumplezone",
   "last_published": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
@@ -5906,6 +5909,39 @@
         "actionable_insights": true
       },
       "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (961- prefix). News peg: Apr 8, 2026 IIHS announces no minivan earned a 2026 Top Safety Pick award after updated rear-seat tests. Novel: first FARS rate-vs-toxicology cross-tab for the minivan class; impairment inversion (Grand Caravan drivers 15.3% impaired vs Sienna 19.0%, yet 2.71x the death rate) rules out driver-blame; IIHS small-overlap Poor vs Acceptable corroborates the structural gap; 12-year 2008 platform sold through 2020 MY. No publish: 1/day rule, #819 shipped 2026-09-21."
+    },
+    {
+      "number": 962,
+      "slug": "962-lexus-is-rear-seat-flunks-iihs-award",
+      "title": "Lexus Fixed the Driver. The Back-Seat Dummy Is What Flunked the Crash Test.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2026-12-29",
+      "started": "2026-09-21T09:45:00-07:00",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.7,
+        "css": "pass",
+        "rhythm": "pass",
+        "word_count": 867,
+        "hero_jpeg": true,
+        "hero_hash": "970fc719",
+        "actionable_insights": true
+      },
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (962- prefix). News peg: IIHS September 2026 rating wave (Autoblog Sep 3; AutoSpies Sep 14); ratings verified live on iihs.org (test CEF2618). Novel: driver load-limiter fix aces all driver injury measures (HIC-15 188, chest compression 33mm) yet Marginal overall on rear-seat chest (index 36, 6.5 kN belt tension); zero prior Lexus coverage; Premium Triple-Beam LED package (A) worse than standard headlights (G); 12-year-old platform (2014 MY), third facelift, $49,345 F Sport. No publish: 1/day rule, #819 shipped 2026-09-21."
     }
   ]
 }
