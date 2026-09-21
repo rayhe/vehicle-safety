@@ -1,26 +1,23 @@
 {
   "current": {
-    "slug": "961-grand-caravan-sienna-minivan-death-gap",
-    "number": 961,
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Axle McScatter",
-    "started": "2026-09-21T07:30:00-07:00",
-    "ship_date": "2026-12-28",
-    "title": "The Deadliest Minivan in America Has Soberer Drivers Than the Safest One, So Blame the Van",
+    "slug": "962-lexus-is-rear-seat-flunks-iihs-award",
+    "number": 962,
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-21T09:45:00-07:00",
+    "ship_date": "2026-12-29",
+    "title": "Lexus Fixed the Driver. The Back-Seat Dummy Is What Flunked the Crash Test.",
     "kicker": "The Gap",
-    "critic_avg": 9.03,
-    "critique_round": 0,
-    "hero_hash": "95825400",
-    "word_count": 857
+    "note": "RESEARCH done. News peg: IIHS September 2026 ratings wave (Autoblog Sep 3; AutoSpies Sep 14). Novel: driver load-limiter fix aces the front seat, Marginal rear-seat chest (index 36, 6.5 kN belt tension) kills the award; zero prior Lexus coverage; Premium Triple-Beam LED package (A) worse than standard headlights (G)."
   },
   "last_check_note": "2026-09-21 01:42 run: #819 QA PASS (story live 200 after canonical 308, hero JPEG 689093B 200, og/twitter meta present, index card + sitemap live). Publish+QA complete. current untouched (#958 SHIP_BLOCKED draft stays current).",
   "last_checked": "2026-09-21T01:42:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
   "last_published_date": "2026-09-21",
   "last_published_slug": "819-cadillac-cts-drunker-than-bmw-rate-paradox",
-  "next": 962,
+  "next": 963,
   "queue": [
     {
       "journalist": "Rex Driverton",
