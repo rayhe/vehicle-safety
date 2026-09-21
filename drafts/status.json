@@ -1,26 +1,26 @@
 {
   "current": {
-    "slug": "956-tire-aging-expiration-date-code",
-    "number": 956,
+    "slug": "957-nhtsa-first-mandatory-recall-decades-dtn-inflators",
+    "number": 957,
     "phase": "SHIP_BLOCKED",
-    "journalist": "Vin Wreckage",
-    "started": "2026-09-20T13:33:18.226341-07:00",
-    "ship_date": "2026-12-23",
-    "title": "Your Tires Expire Like Milk. The Date Is Stamped on the Sidewall in Code.",
-    "kicker": "Existential Dread",
-    "critic_avg": 9.1,
-    "critique_round": 1,
-    "hero_hash": "52744344",
-    "word_count": 1786
+    "journalist": "Rex Driverton",
+    "started": "2026-09-20T22:04:00-07:00",
+    "ship_date": "2026-12-24",
+    "title": "NHTSA Issued Its First Mandatory Recall Order in Decades. Nobody Can Find the Cars.",
+    "kicker": "Investigation",
+    "critic_avg": 9.04,
+    "critique_round": 0,
+    "hero_hash": "983b4aa0",
+    "word_count": 1570
   },
   "last_check_note": "#956 SHIP_BLOCKED (ship 2026-12-23). Queue length now 164.",
-  "last_checked": "2026-09-20T09:45:00-07:00",
+  "last_checked": "2026-09-20T22:45:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
   "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
-  "next": 957,
+  "next": 958,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -5732,6 +5732,45 @@
       "slug": "tire-aging-expiration-date-code",
       "started": "2026-09-20T13:33:18.226341-07:00",
       "title": "Your Tires Expire Like Milk. The Date Is Stamped on the Sidewall in Code."
+    },
+    {
+      "critic_avg": 9.04,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "983b4aa0",
+        "hero_jpeg": true,
+        "rhythm": "pass",
+        "sentence_rhythm": {
+          "long_pct": 51.7,
+          "short_pct": 10.3,
+          "variance": 669.0
+        },
+        "style_css": true,
+        "the_starters_pct": 3.1,
+        "word_count": 1570,
+        "actionable_insights": true
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "Round-0 pass 9.04 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (957- prefix). News pegs: NHTSA April 29, 2026 final decision ordering recall of DTN60DB inflators (first formal defect recall order in decades), NHTSA warning updated Sept 3 (11 deaths, 3 severe, 14 crashes), 11th death Aug 27 Dallas Equinox. Novel: 0.1% arithmetic (1 ordered of 997 recalls 2025; 88% uninfluenced, 12% influenced-but-voluntary), mechanism-by-mechanism autopsy of recall-system failure, speed paradox (27-day initial-to-final, ~3,000-word decisions vs 21,000-word ARC still pending), regressive owner-pays bill. Ship 2026-12-24: queue already through 2026-12-23. No publish (1/day rule; #818 shipped 2026-09-20).",
+      "number": 957,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2026-12-24",
+      "slug": "nhtsa-first-mandatory-recall-decades-dtn-inflators",
+      "started": "2026-09-20T22:04:00-07:00",
+      "title": "NHTSA Issued Its First Mandatory Recall Order in Decades. Nobody Can Find the Cars."
     }
   ]
 }
