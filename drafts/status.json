@@ -1,26 +1,26 @@
 {
   "current": {
-    "slug": "957-nhtsa-first-mandatory-recall-decades-dtn-inflators",
-    "number": 957,
+    "slug": "958-ebay-airbag-ban-certified-market-failure",
+    "number": 958,
     "phase": "SHIP_BLOCKED",
-    "journalist": "Rex Driverton",
-    "started": "2026-09-20T22:04:00-07:00",
-    "ship_date": "2026-12-24",
-    "title": "NHTSA Issued Its First Mandatory Recall Order in Decades. Nobody Can Find the Cars.",
+    "journalist": "Clara Rollover",
+    "started": "2026-09-20T23:35:00-07:00",
+    "ship_date": "2026-12-25",
+    "title": "eBay Spent Years Building a Safe Way to Buy Used Airbags, Then Banned the Whole Category.",
     "kicker": "Investigation",
-    "critic_avg": 9.04,
+    "critic_avg": 8.9,
     "critique_round": 0,
-    "hero_hash": "983b4aa0",
-    "word_count": 1570
+    "hero_hash": "993d206d",
+    "word_count": 1590
   },
-  "last_check_note": "#956 SHIP_BLOCKED (ship 2026-12-23). Queue length now 164.",
-  "last_checked": "2026-09-20T22:45:00-07:00",
+  "last_check_note": "2026-09-20 article-crashreport: drafted #958 (eBay airbag ban, Clara Rollover, avg 8.9, SHIP_BLOCKED 2026-12-25); marked #957 PARKED as duplicate of published stories/counterfeit-airbag-phantom-recall.html; 1/day rule still blocks publish (last #818 2026-09-20).",
+  "last_checked": "2026-09-20T23:50:00-07:00",
   "last_completed": 952,
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "The School Bus Is the Safest Vehicle in America. The Most Dangerous Place Is Standing Next to It.",
   "last_published_date": "2026-09-20",
   "last_published_slug": "818-school-bus-safest-ride-deadliest-curb",
-  "next": 958,
+  "next": 959,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -5757,7 +5757,7 @@
       "kicker": "Investigation",
       "note": "Round-0 pass 9.04 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (957- prefix). News pegs: NHTSA April 29, 2026 final decision ordering recall of DTN60DB inflators (first formal defect recall order in decades), NHTSA warning updated Sept 3 (11 deaths, 3 severe, 14 crashes), 11th death Aug 27 Dallas Equinox. Novel: 0.1% arithmetic (1 ordered of 997 recalls 2025; 88% uninfluenced, 12% influenced-but-voluntary), mechanism-by-mechanism autopsy of recall-system failure, speed paradox (27-day initial-to-final, ~3,000-word decisions vs 21,000-word ARC still pending), regressive owner-pays bill. Ship 2026-12-24: queue already through 2026-12-23. No publish (1/day rule; #818 shipped 2026-09-20).",
       "number": 957,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PARKED",
       "scores": {
         "general_editor": 9.0,
         "voice_coach": 9.0,
@@ -5770,7 +5770,46 @@
       "ship_date": "2026-12-24",
       "slug": "nhtsa-first-mandatory-recall-decades-dtn-inflators",
       "started": "2026-09-20T22:04:00-07:00",
-      "title": "NHTSA Issued Its First Mandatory Recall Order in Decades. Nobody Can Find the Cars."
+      "title": "NHTSA Issued Its First Mandatory Recall Order in Decades. Nobody Can Find the Cars.",
+      "parked_reason": "DUPLICATE of published story stories/counterfeit-airbag-phantom-recall.html ('NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.') \u2014 same DTN60DB mandatory-recall thesis, near-identical headline. Discovered 2026-09-20 during article-crashreport run #958 prep: #957's research notes falsely claimed zero queue/published overlap. Do not ship."
+    },
+    {
+      "critic_avg": 8.9,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "993d206d",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 66.7,
+          "short_pct": 2.6,
+          "variance": 1675.5
+        },
+        "style_css": true,
+        "the_starters_pct": 10.0,
+        "word_count": 1590,
+        "actionable_insights": true
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (958- prefix). News peg: eBay bans all airbag/inflator/steering-wheel-cover sales effective Sept 24, 2026. Original: ban-as-confession of the ARA certified-recycler program; Michigan enforcement ratio (1 seller, $600K, 9 felonies vs ~81,000 AG-estimated affected vehicles); two failure modes (DTN60DB shrapnel vs 80% non-deployment). Kill test: zero queue/published overlap. Ship 2026-12-25: queue already through 2026-12-24. No publish (1/day rule; #818 shipped 2026-09-20).",
+      "number": 958,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2026-12-25",
+      "slug": "ebay-airbag-ban-certified-market-failure",
+      "started": "2026-09-20T23:35:00-07:00",
+      "title": "eBay Spent Years Building a Safe Way to Buy Used Airbags, Then Banned the Whole Category."
     }
   ]
 }
