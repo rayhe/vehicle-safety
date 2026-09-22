@@ -1,13 +1,13 @@
 {
  "current": {
-  "number": 964,
-  "slug": "964-honda-ridgeline-probe-closed-remedy-passed",
-  "title": "NHTSA Spent 20 Months Investigating Whether Honda's Recall Worked. It Did.",
-  "journalist": "Rex Driverton",
+  "number": 965,
+  "slug": "965-seatback-collapse-fmvss-207-obsolete",
+  "title": "NHTSA Finally Touched the Seat-Strength Standard. It Deleted a Footnote Instead of Fixing the Collapse.",
+  "journalist": "Mia Crumplezone",
   "kicker": "Investigation",
   "phase": "SHIP_BLOCKED",
-  "started": "2026-09-22T05:30:00-07:00",
-  "ship_date": "2026-12-31",
+  "started": "2026-09-22T07:30:00-07:00",
+  "ship_date": "2027-01-01",
   "critic_avg": 9.0,
   "critique_round": 0,
   "scores": {
@@ -22,18 +22,18 @@
   "hard_gates": {
    "em_dashes": 0,
    "banned_phrases": 0,
-   "the_starters_pct": 2.8,
+   "the_starters_pct": 13.2,
    "css_class": true,
    "style_css": true,
-   "rhythm": "pass (variance 939.6, short 3.6%, long 46.4%)",
+   "rhythm": "pass (variance 515.9, short 10.5%, long 55.3%; round-0 fail 23.3% fixed via 5 fragment merges)",
    "hero_jpeg": true,
-   "hero_hash": "54968c30",
-   "word_count": 516
+   "hero_hash": "9d2778d6",
+   "word_count": 833
   },
-  "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (964- prefix). News peg: Reuters Sept 22, 2026 - NHTSA closes EA into 129,092 MY 2017-2019 Ridgelines without action. Novel: 270x complaint-rate drop after remedy (3,437/117,445 vs 14/129,092, directional caveat stated), 46-month recall-to-closure timeline, 'Recall Remedy Review' frame (RQ24-011 explicitly prompted by remedy review). Zero prior probe-closure coverage in 963 articles. Rhythm round-0 fail (short 18.8%) fixed via 4 fragment merges, re-verified PASS. No publish: 1/day rule, #749 shipped 2026-09-22."
+  "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (965- prefix). Zero prior seatback-collapse coverage in 816 stories. Novel: 2025 FMVSS 207 NPRM only deletes obsolete school-bus text while BIL 2021 mandate (2-yr deadline) remains unfulfilled; ANPRM July 2024 is think-about-thinking-about-it stage; Transport Canada 23/23 case series with 11 ejections as pull stat. Actionable: kid behind unoccupied front seat (CAS 2016 petition language NHTSA never adopted). No publish: 1/day rule, #749 shipped 2026-09-22."
  },
- "last_check_note": "05:30 run: #749 shipped today (1/day rule holds). Article #964 complete (Rex Driverton, 9.0 avg, round-0), SHIP_BLOCKED 2026-12-31. Queue 172 deep.",
- "last_checked": "2026-09-22T05:45:00-07:00",
+ "last_check_note": "Article #965 researched, drafted, critiqued (round-0 pass 9.0). SHIP_BLOCKED; next open ship_date 2027-01-01. Today's #749 already published.",
+ "last_checked": "2026-09-22T07:30:00-07:00",
  "last_completed": {
   "completed_at": "2026-09-22T01:37:00-07:00",
   "number": 749,
@@ -44,7 +44,7 @@
   "qa_live_verified": true,
   "qa_note": "Live URL 200, title correct, hero img in story-body, og:image correct, hero JPEG 200 (175KB). Verified by main agent after worker browser_open failure."
  },
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Mia Crumplezone",
  "last_published": 749,
  "last_published_date": "2026-09-22",
  "last_published_slug": "749-ford-trailer-module-race-condition",
@@ -6049,6 +6049,39 @@
     "word_count": 516
    },
    "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (964- prefix). News peg: Reuters Sept 22, 2026 - NHTSA closes EA into 129,092 MY 2017-2019 Ridgelines without action. Novel: 270x complaint-rate drop after remedy (3,437/117,445 vs 14/129,092, directional caveat stated), 46-month recall-to-closure timeline, 'Recall Remedy Review' frame (RQ24-011 explicitly prompted by remedy review). Zero prior probe-closure coverage in 963 articles. Rhythm round-0 fail (short 18.8%) fixed via 4 fragment merges, re-verified PASS. No publish: 1/day rule, #749 shipped 2026-09-22."
+  },
+  {
+   "number": 965,
+   "slug": "965-seatback-collapse-fmvss-207-obsolete",
+   "title": "NHTSA Finally Touched the Seat-Strength Standard. It Deleted a Footnote Instead of Fixing the Collapse.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "started": "2026-09-22T07:30:00-07:00",
+   "ship_date": "2027-01-01",
+   "critic_avg": 9.0,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 13.2,
+    "css_class": true,
+    "style_css": true,
+    "rhythm": "pass (variance 515.9, short 10.5%, long 55.3%; round-0 fail 23.3% fixed via 5 fragment merges)",
+    "hero_jpeg": true,
+    "hero_hash": "9d2778d6",
+    "word_count": 833
+   },
+   "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (965- prefix). Zero prior seatback-collapse coverage in 816 stories. Novel: 2025 FMVSS 207 NPRM only deletes obsolete school-bus text while BIL 2021 mandate (2-yr deadline) remains unfulfilled; ANPRM July 2024 is think-about-thinking-about-it stage; Transport Canada 23/23 case series with 11 ejections as pull stat. Actionable: kid behind unoccupied front seat (CAS 2016 petition language NHTSA never adopted). No publish: 1/day rule, #749 shipped 2026-09-22."
   }
  ]
 }
