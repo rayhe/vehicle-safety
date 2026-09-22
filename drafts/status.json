@@ -13,8 +13,8 @@
     "title": "Lexus Fixed the Driver. The Back-Seat Dummy Is What Flunked the Crash Test.",
     "word_count": 867
   },
-  "last_check_note": "19:30 worker: #819 published 2026-09-21 (1/day satisfied). current #962 SHIP_BLOCKED (ship 2026-12-29). Integrity re-verified: hero hash 970fc719, 0 em dashes, 0 banned, story CSS, 6.8% The-starters, real JPEG. Queue 170 deep. No actionable phase; exit.",
-  "last_checked": "2026-09-21T19:30:00-07:00",
+  "last_check_note": "Cron run 21:30 PT: Publish #819 already shipped today (d07fbce7). Current #962 Lexus IS (SHIP_BLOCKED, ship 2026-12-29) not due. QA spot-check on #819: live URL renders, hero JPG present, og:image set, index.html + sitemap.xml references OK. 32 SHIP_BLOCKED items now past their ship dates; next publish slot opens 2026-09-22.",
+  "last_checked": "2026-09-21T21:30:00-07:00",
   "last_completed": 952,
   "last_journalist": "Mia Crumplezone",
   "last_published": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
