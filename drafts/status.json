@@ -1,44 +1,44 @@
 {
  "current": {
-  "number": 967,
-  "slug": "967-frontover-cameras-pointed-wrong-way",
-  "title": "We Put Cameras on the Back of Every Car. The Deaths Moved to the Front.",
-  "journalist": "Vin Wreckage",
-  "kicker": "Existential Dread",
+  "number": 968,
+  "slug": "968-tesla-drowsiness-detected-stay-focused-fsd",
+  "title": "Tesla Detected That You Were Drowsy. It Politely Suggested You Keep Driving.",
+  "journalist": "Dale Impactor III",
+  "kicker": "Sobriety Report",
   "phase": "SHIP_BLOCKED",
-  "started": "2026-09-22T11:30:00-07:00",
-  "ship_date": "2027-01-03",
-  "critic_avg": 8.94,
+  "started": "2026-09-22T13:30:00-07:00",
+  "ship_date": "2027-01-04",
+  "critic_avg": 8.89,
   "critique_round": 0,
   "scores": {
-   "general_editor": 9.0,
+   "general_editor": 8.8,
    "voice_coach": 8.8,
    "ethics_reviewer": 9.0,
-   "social_shareability": 8.8,
+   "social_shareability": 9.0,
    "legal_accuracy": 9.0,
-   "research_rigor": 9.0,
+   "research_rigor": 8.8,
    "data_presentation": 9.0
   },
   "hard_gates": {
    "em_dashes": 0,
    "banned_phrases": 0,
-   "the_starters_pct": 6.0,
+   "the_starters_pct": 11.7,
    "css_class": true,
    "style_css": true,
-   "rhythm": "pass (variance 270.9, short 5.3%, long 42.1%)",
+   "rhythm": "pass (variance 661.1, short 4.8%, long 42.9%)",
    "hero_jpeg": true,
-   "hero_hash": "aa79976e",
-   "word_count": 1004
+   "hero_hash": "579dd134",
+   "word_count": 1205
   },
   "files": {
-   "research": "drafts/967-frontover-cameras-pointed-wrong-way-research.md",
-   "draft": "drafts/967-frontover-cameras-pointed-wrong-way.html",
-   "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
-   "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
+   "research": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-research.md",
+   "draft": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.html",
+   "hero": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.jpg",
+   "critic_panel": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-critique.md"
   },
-  "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
+  "note": "2026-09-22 13:30 run: #968 (Tesla drowsiness alert, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 11.7%, rhythm PASS, hero JPEG 1920x1080 ?v=579dd134). Zero prior EA26002/Krishnamoorthi-letter coverage in 816 stories + 175 queued. Novel: alert-inversion analysis ('Drowsiness detected. Stay focused with FSD' prescribes continued automation), May-7-Model-Y-ADAS-pass vs Sept-9-defect-letter 4-month arithmetic, two-docket framing (EA26002 vs AQ26002). Primary sources: Krishnamoorthi letter (primary), NBC Aug 25 2026, Wired Sept 2025, NHTSA May 7 press release, OnStar Super Cruise protocol. Social-critic required fix applied (deadline-agnostic framing for Jan-2027 ship). Queued SHIP_BLOCKED for 2027-01-04 (1/day; #749 shipped 2026-09-22)."
  },
- "last_check_note": "Article #966 researched, drafted, critiqued (round-0 pass 9.0). SHIP_BLOCKED; next open ship_date 2027-01-02. Today's #749 already published.",
+ "last_check_note": "Article #968 researched, drafted, critiqued (round-0 pass 8.89). SHIP_BLOCKED; next open ship_date 2027-01-04. Today's #749 already published.",
  "last_checked": "2026-09-22T11:30:00-07:00",
  "last_completed": {
   "completed_at": "2026-09-22T01:37:00-07:00",
@@ -50,11 +50,11 @@
   "qa_live_verified": true,
   "qa_note": "Live URL 200, title correct, hero img in story-body, og:image correct, hero JPEG 200 (175KB). Verified by main agent after worker browser_open failure."
  },
- "last_journalist": "Vin Wreckage",
+ "last_journalist": "Dale Impactor III",
  "last_published": 749,
  "last_published_date": "2026-09-22",
  "last_published_slug": "749-ford-trailer-module-race-condition",
- "next": 968,
+ "next": 969,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -6166,6 +6166,45 @@
     "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
    },
    "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
+  },
+  {
+   "number": 968,
+   "slug": "968-tesla-drowsiness-detected-stay-focused-fsd",
+   "title": "Tesla Detected That You Were Drowsy. It Politely Suggested You Keep Driving.",
+   "journalist": "Dale Impactor III",
+   "kicker": "Sobriety Report",
+   "phase": "SHIP_BLOCKED",
+   "started": "2026-09-22T13:30:00-07:00",
+   "ship_date": "2027-01-04",
+   "critic_avg": 8.89,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.8,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 11.7,
+    "css_class": true,
+    "style_css": true,
+    "rhythm": "pass (variance 661.1, short 4.8%, long 42.9%)",
+    "hero_jpeg": true,
+    "hero_hash": "579dd134",
+    "word_count": 1205
+   },
+   "files": {
+    "research": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-research.md",
+    "draft": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.html",
+    "hero": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.jpg",
+    "critic_panel": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-critique.md"
+   },
+   "note": "2026-09-22 13:30 run: #968 (Tesla drowsiness alert, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 11.7%, rhythm PASS, hero JPEG 1920x1080 ?v=579dd134). Zero prior EA26002/Krishnamoorthi-letter coverage in 816 stories + 175 queued. Novel: alert-inversion analysis ('Drowsiness detected. Stay focused with FSD' prescribes continued automation), May-7-Model-Y-ADAS-pass vs Sept-9-defect-letter 4-month arithmetic, two-docket framing (EA26002 vs AQ26002). Primary sources: Krishnamoorthi letter (primary), NBC Aug 25 2026, Wired Sept 2025, NHTSA May 7 press release, OnStar Super Cruise protocol. Social-critic required fix applied (deadline-agnostic framing for Jan-2027 ship). Queued SHIP_BLOCKED for 2027-01-04 (1/day; #749 shipped 2026-09-22)."
   }
  ]
 }
