@@ -1,20 +1,20 @@
 {
  "current": {
-  "number": 966,
-  "slug": "966-drowsy-driving-no-breathalyzer",
-  "title": "NHTSA Says Drowsy Driving Kills 800 Americans a Year. The Cameras Say 6,400.",
-  "journalist": "Dale Impactor III",
-  "kicker": "Sobriety Report",
+  "number": 967,
+  "slug": "967-frontover-cameras-pointed-wrong-way",
+  "title": "We Put Cameras on the Back of Every Car. The Deaths Moved to the Front.",
+  "journalist": "Vin Wreckage",
+  "kicker": "Existential Dread",
   "phase": "SHIP_BLOCKED",
-  "started": "2026-09-22T09:30:00-07:00",
-  "ship_date": "2027-01-02",
-  "critic_avg": 9.0,
+  "started": "2026-09-22T11:30:00-07:00",
+  "ship_date": "2027-01-03",
+  "critic_avg": 8.97,
   "critique_round": 0,
   "scores": {
    "general_editor": 9.0,
-   "voice_coach": 9.0,
+   "voice_coach": 8.8,
    "ethics_reviewer": 9.0,
-   "social_shareability": 9.0,
+   "social_shareability": 8.8,
    "legal_accuracy": 9.0,
    "research_rigor": 9.0,
    "data_presentation": 9.0
@@ -22,18 +22,24 @@
   "hard_gates": {
    "em_dashes": 0,
    "banned_phrases": 0,
-   "the_starters_pct": 0.0,
+   "the_starters_pct": 6.0,
    "css_class": true,
    "style_css": true,
-   "rhythm": "pass (variance 2965.6, short 6.8%, long 34.1%; round-0 fail 22.0% fixed via 8 fragment merges)",
+   "rhythm": "pass (variance 270.9, short 5.3%, long 42.1%)",
    "hero_jpeg": true,
-   "hero_hash": "e1a44f05",
-   "word_count": 1000
+   "hero_hash": "aa79976e",
+   "word_count": 1004
   },
-  "note": "2026-09-22 09:30 run: #966 (drowsy driving undercount, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=e1a44f05). Zero prior drowsy/fatigue/sleep coverage in 816 stories + 173 queued. Novel: toxicology-desk undercount-mechanism framing (no test for sleep; dead drivers don't self-report) + Wyoming 10.26% vs Nevada 0.59% state spread as reporting artifact. NHTSA + AAA pages verified live; 2nd browser_open attempt failed mid-run (terminal for turn) so remaining refs use parent-domain links per guide. Queued SHIP_BLOCKED for 2027-01-02 (1/day; #749 shipped 2026-09-22)."
+  "files": {
+   "research": "drafts/967-frontover-cameras-pointed-wrong-way-research.md",
+   "draft": "drafts/967-frontover-cameras-pointed-wrong-way.html",
+   "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
+   "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
+  },
+  "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
  },
  "last_check_note": "Article #966 researched, drafted, critiqued (round-0 pass 9.0). SHIP_BLOCKED; next open ship_date 2027-01-02. Today's #749 already published.",
- "last_checked": "2026-09-22T09:30:00-07:00",
+ "last_checked": "2026-09-22T11:30:00-07:00",
  "last_completed": {
   "completed_at": "2026-09-22T01:37:00-07:00",
   "number": 749,
@@ -44,11 +50,11 @@
   "qa_live_verified": true,
   "qa_note": "Live URL 200, title correct, hero img in story-body, og:image correct, hero JPEG 200 (175KB). Verified by main agent after worker browser_open failure."
  },
- "last_journalist": "Dale Impactor III",
+ "last_journalist": "Vin Wreckage",
  "last_published": 749,
  "last_published_date": "2026-09-22",
  "last_published_slug": "749-ford-trailer-module-race-condition",
- "next": 967,
+ "next": 968,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -6121,6 +6127,45 @@
     "critic_panel": "drafts/966-drowsy-driving-no-breathalyzer-critique.md"
    },
    "note": "2026-09-22 09:30 run: #966 (drowsy driving undercount, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=e1a44f05). Zero prior drowsy/fatigue/sleep coverage in 816 stories + 173 queued. Novel: toxicology-desk undercount-mechanism framing (no test for sleep; dead drivers don't self-report) + Wyoming 10.26% vs Nevada 0.59% state spread as reporting artifact. NHTSA + AAA pages verified live; 2nd browser_open attempt failed mid-run (terminal for turn) so remaining refs use parent-domain links per guide. Queued SHIP_BLOCKED for 2027-01-02 (1/day; #749 shipped 2026-09-22)."
+  },
+  {
+   "number": 967,
+   "slug": "967-frontover-cameras-pointed-wrong-way",
+   "title": "We Put Cameras on the Back of Every Car. The Deaths Moved to the Front.",
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "phase": "SHIP_BLOCKED",
+   "started": "2026-09-22T11:30:00-07:00",
+   "ship_date": "2027-01-03",
+   "critic_avg": 8.97,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 6.0,
+    "css_class": true,
+    "style_css": true,
+    "rhythm": "pass (variance 270.9, short 5.3%, long 42.1%)",
+    "hero_jpeg": true,
+    "hero_hash": "aa79976e",
+    "word_count": 1004
+   },
+   "files": {
+    "research": "drafts/967-frontover-cameras-pointed-wrong-way-research.md",
+    "draft": "drafts/967-frontover-cameras-pointed-wrong-way.html",
+    "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
+    "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
+   },
+   "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
   }
  ]
 }
