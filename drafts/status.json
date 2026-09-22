@@ -31,57 +31,63 @@
     },
     "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (963- prefix). News peg: ForCar Sept 2026 brand analysis of 1,643 IIHS-rated vehicles (542 Poor/Marginal = 33%; Cadillac 79%, Chevrolet 77%, GMC 76%, Jeep 62%, Chrysler 60%). Novel: headlights as fastest-improving IIHS metric (82% bad 2016 -> 8% bad 2025 MY, driven by Top Safety Pick award requirement, not regulation); trim-trap arithmetic (IIHS rates fitted hardware, same nameplate can carry two ratings); 2.4x brand risk multiplier. Zero prior headlight coverage in 962 articles. Hero is downloaded-photo fallback (media.generate_image upstream down this run); regen AI hero before ship. No publish: 1/day rule, #819 shipped 2026-09-21."
   },
-  "last_check_note": "Cron run 21:30 PT: Publish #819 already shipped today (d07fbce7). Current #962 Lexus IS (SHIP_BLOCKED, ship 2026-12-29) not due. QA spot-check on #819: live URL renders, hero JPG present, og:image set, index.html + sitemap.xml references OK. 32 SHIP_BLOCKED items now past their ship dates; next publish slot opens 2026-09-22.",
-  "last_checked": "2026-09-21T21:30:00-07:00",
+  "last_check_note": "2026-09-22 01:30 run: Published #749 (Ford trailer-module race condition, Rex Driverton, 1/day slot). 28 other due items bumped to 2026-09-23.",
+  "last_checked": "2026-09-22T01:35:00-07:00",
   "last_completed": 952,
   "last_journalist": "Clara Rollover",
-  "last_published": "The Cadillac CTS Out-Drinks the BMW 3 Series. It Still Kills at Half the Rate.",
-  "last_published_date": "2026-09-21",
-  "last_published_slug": "819-cadillac-cts-drunker-than-bmw-rate-paradox",
+  "last_published": "Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race.",
+  "last_published_date": "2026-09-22",
+  "last_published_slug": "749-ford-trailer-module-race-condition",
   "next": 964,
   "queue": [
     {
       "journalist": "Rex Driverton",
       "number": 749,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "ship_date": "2026-08-20",
-      "slug": "ford-trailer-module-race-condition"
+      "slug": "ford-trailer-module-race-condition",
+      "title": "Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race.",
+      "note": "2026-09-22 01:30 run: published as #749 (earliest-due SHIP_BLOCKED, first in queue order; 1/day slot; 0 prior publishes today)."
     },
     {
       "journalist": "Clara Rollover",
       "number": 750,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-21",
-      "slug": "nissan-sentra-same-driveshaft-defect-twice"
+      "ship_date": "2026-09-23",
+      "slug": "nissan-sentra-same-driveshaft-defect-twice",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "journalist": "Rex Driverton",
-      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15)",
+      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 751,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-22",
+      "ship_date": "2026-09-23",
       "slug": "sk-on-electrode-misalignment-two-oems-one-defect"
     },
     {
       "journalist": "Vin Wreckage",
       "number": 752,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-23",
-      "slug": "mach-e-every-model-year-recalled"
+      "ship_date": "2026-09-23",
+      "slug": "mach-e-every-model-year-recalled",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "journalist": "Axle McScatter",
       "number": 753,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-24",
-      "slug": "point-nine-nine-norway-is-at-point-two"
+      "ship_date": "2026-09-23",
+      "slug": "point-nine-nine-norway-is-at-point-two",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "journalist": "Clara Rollover",
       "number": 756,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-08-27",
-      "slug": "mass-shooting-road-death-spillover"
+      "ship_date": "2026-09-23",
+      "slug": "mass-shooting-road-death-spillover",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "journalist": "Mia Crumplezone",
@@ -97,8 +103,9 @@
         "social_shareability": 9.5,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-08-29",
-      "slug": "ev-fire-blanket-explosion-risk"
+      "ship_date": "2026-09-23",
+      "slug": "ev-fire-blanket-explosion-risk",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "journalist": "Axle McScatter",
@@ -113,8 +120,9 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-08-30",
-      "slug": "ota-recall-fix-parts-tariff-two-tier"
+      "ship_date": "2026-09-23",
+      "slug": "ota-recall-fix-parts-tariff-two-tier",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "journalist": "Vin Wreckage",
@@ -129,8 +137,9 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-02",
-      "slug": "cx90-three-fixes-steering-still-broken"
+      "ship_date": "2026-09-23",
+      "slug": "cx90-three-fixes-steering-still-broken",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "critic_avg": 8.58,
@@ -157,10 +166,11 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-09-03",
+      "ship_date": "2026-09-23",
       "slug": "stellantis-camera-recall-groundhog-day",
       "started": "2026-08-18T06:30:00Z",
-      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping."
+      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "hard_gates": {
@@ -317,10 +327,11 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-08-21",
+      "ship_date": "2026-09-23",
       "slug": "toxicology-backlog-evidence-expires",
       "started": "2026-08-19T10:30:00Z",
-      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
+      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "critic_avg": 9.07,
@@ -377,10 +388,11 @@
       "kicker": "Investigation",
       "number": 802,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-04",
+      "ship_date": "2026-09-23",
       "slug": "lucid-air-efuse-fire-recall",
       "started": "2026-09-03T10:45:00Z",
-      "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
+      "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "critic_avg": 8.93,
@@ -565,10 +577,11 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-11",
+      "ship_date": "2026-09-23",
       "slug": "ford-ecoboost-piston-dome-crater-crack",
       "started": "2026-09-04T00:30:00Z",
-      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
+      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "critic_avg": 9.0,
@@ -601,18 +614,19 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-12",
+      "ship_date": "2026-09-23",
       "slug": "810-sobriety-ladder-test",
       "started": "2026-09-04T02:29:34Z",
-      "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
+      "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
     {
       "critic_avg": 9.04,
       "journalist": "Vin Wreckage",
-      "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07.",
+      "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 811,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-13",
+      "ship_date": "2026-09-23",
       "slug": "tesla-model-y-19-bolt-recall-torque-tool-off"
     },
     {
@@ -635,7 +649,7 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.0 avg (fixed eight->eleven word count pre-critique). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 812,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -648,7 +662,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-14",
+      "ship_date": "2026-09-23",
       "slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
       "started": "2026-09-04T06:15:00Z",
       "title": "Tesla Is Carrying Passengers in a Car With No Steering Wheel. Washington Is \"Evaluating the Situation.\""
@@ -673,10 +687,10 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 813,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-15",
+      "ship_date": "2026-09-23",
       "slug": "drunk-tank-index",
       "started": "2026-09-04T08:30:00Z",
       "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road."
@@ -702,7 +716,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 814,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -715,7 +729,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-16",
+      "ship_date": "2026-09-23",
       "slug": "q1-2026-099-rate-record-chase",
       "started": "2026-09-04T10:30:00Z",
       "title": "The U.S. Just Posted a 0.99 Traffic Fatality Rate. The All-Time Record Is 0.98."
@@ -741,7 +755,7 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 815,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -754,7 +768,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-17",
+      "ship_date": "2026-09-23",
       "slug": "ford-2026-model-year-recall-census",
       "started": "2026-09-04T12:45:00Z",
       "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s."
@@ -819,7 +833,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
-      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 817,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -832,7 +846,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-19",
+      "ship_date": "2026-09-23",
       "slug": "alcohol-crash-innocent-victims-39-percent",
       "started": "2026-09-04T18:00:00Z",
       "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking."
@@ -930,7 +944,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Merged 5 fragments pre-panel to clear rhythm gate. Novel contribution: 22-month gap between supplier line fix (Sep 28, 2024 timer) and field action (Jul 21, 2026) + 0.25% observed vs 1% estimated rate. Primary: NHTSA 573 report 26V487. Draft+hero+research+critique in drafts/.",
+      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Merged 5 fragments pre-panel to clear rhythm gate. Novel contribution: 22-month gap between supplier line fix (Sep 28, 2024 timer) and field action (Jul 21, 2026) + 0.25% observed vs 1% estimated rate. Primary: NHTSA 573 report 26V487. Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 820,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -943,7 +957,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-22",
+      "ship_date": "2026-09-23",
       "slug": "mach-e-fast-jig-loose-trim",
       "started": "2026-09-05T00:30:00Z",
       "title": "Ford Sped Up the Assembly Line. The Glue Never Got the Memo."
@@ -2676,7 +2690,7 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Fresh Free Press investigation (Sep 10, 2026) peg: Hybrid III dummy = 1976 median man (5ft9, 171 lbs) vs today 193 lbs; 40.3% obese; THOR delayed 2019->2029; Euro NCAP THOR since 2020. Uncovered angle (gender-gap piece covered women, May 2026). Research->draft->critique->hero all complete in the 09:30 run continuation; avg 8.79, all 7 critics >= 8.5.",
+      "note": "Fresh Free Press investigation (Sep 10, 2026) peg: Hybrid III dummy = 1976 median man (5ft9, 171 lbs) vs today 193 lbs; 40.3% obese; THOR delayed 2019->2029; Euro NCAP THOR since 2020. Uncovered angle (gender-gap piece covered women, May 2026). Research->draft->critique->hero all complete in the 09:30 run continuation; avg 8.79, all 7 critics >= 8.5. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 870,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2688,7 +2702,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-11",
+      "ship_date": "2026-09-23",
       "slug": "five-star-rating-1976-body-dummy-gap",
       "title": "Your Five-Star Safety Rating Was Earned by a 1976 Body"
     },
@@ -2966,10 +2980,10 @@
     },
     {
       "journalist": "Dale Impactor III",
-      "note": "Round-0 critique: all seven critics >=8.5. Blocked on 1-per-day rule: #878 already published 2026-09-11 PT.",
+      "note": "Round-0 critique: all seven critics >=8.5. Blocked on 1-per-day rule: #878 already published 2026-09-11 PT. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 879,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-12",
+      "ship_date": "2026-09-23",
       "slug": "879-young-drunk-driver-pedestrian-doubling"
     },
     {
@@ -3974,7 +3988,7 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late — FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late — FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 911,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3986,7 +4000,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-17",
+      "ship_date": "2026-09-23",
       "slug": "911-jeep-tpms-silent-warning-recall",
       "title": "Stellantis Recalled 201,976 Jeeps Whose Tire-Pressure Warnings May Never Come. The Watchdog Can't Bark."
     },
@@ -4197,7 +4211,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: 52/day near-miss lottery (1,099 in 3 weeks), 70-to-0 speed differential as engineered constant, cascade body count 4 not 2. NTSB NR20260916 (Sep 16) recs H-26-10..H-26-18 + reiterated H-15-42; Swanton Township Toll Plaza, I-80, Ohio; 2015 Highlander vs 2019 Mack Anthem, sulfonic acid spill. Hero JPEG, cache-busted ?v=355feeed. Blocked: 1/day slot consumed by #748 on 2026-09-17.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: 52/day near-miss lottery (1,099 in 3 weeks), 70-to-0 speed differential as engineered constant, cascade body count 4 not 2. NTSB NR20260916 (Sep 16) recs H-26-10..H-26-18 + reiterated H-15-42; Swanton Township Toll Plaza, I-80, Ohio; 2015 Highlander vs 2019 Mack Anthem, sulfonic acid spill. Hero JPEG, cache-busted ?v=355feeed. Blocked: 1/day slot consumed by #748 on 2026-09-17. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 917,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4209,7 +4223,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-18",
+      "ship_date": "2026-09-23",
       "slug": "917-ntsb-toll-booth-abolition-ohio",
       "title": "1,099 Near-Misses in Three Weeks. Now the NTSB Says the Toll Booth Has to Go."
     },
@@ -4235,7 +4249,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: ~200-vehicle/2x-risk math from IIHS ESC effectiveness data, 5-month FCA timeline (Mar 25 investigation to Aug 26 noncompliance determination), single-point-of-failure engineering critique. NHTSA 26V561/FCA 69D (Sep 1); CTS sensor 68236598AA; suspect build Jun 28-Oct 31 2025; owner letters Sep 29. Hero JPEG 1920x1280, cache-busted ?v=29d833c0. Headline corrected pre-panel for accuracy (recall population vs 10% defect estimate). Blocked: 1/day slot consumed by #748 on 2026-09-17.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: ~200-vehicle/2x-risk math from IIHS ESC effectiveness data, 5-month FCA timeline (Mar 25 investigation to Aug 26 noncompliance determination), single-point-of-failure engineering critique. NHTSA 26V561/FCA 69D (Sep 1); CTS sensor 68236598AA; suspect build Jun 28-Oct 31 2025; owner letters Sep 29. Hero JPEG 1920x1280, cache-busted ?v=29d833c0. Headline corrected pre-panel for accuracy (recall population vs 10% defect estimate). Blocked: 1/day slot consumed by #748 on 2026-09-17. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 918,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4247,7 +4261,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-19",
+      "ship_date": "2026-09-23",
       "slug": "918-pacifica-voyager-esc-capacitor",
       "title": "A Cracked Capacitor Can Kill Your Minivan's Stability Control. 2,017 Were Recalled."
     },
@@ -4273,7 +4287,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: combined four Sedgwick releases (Feb/25 State of Nation, May Q1, Aug H1 US, Aug/Sep EU) into one auto synthesis; events-flat (1,634 vs 1,636) vs units +345.5% paradox; 2025 11-year-low-to-2026 2-year-high reversal; EU fire-risk record 82 events. Two data errors caught+fixed pre-verdict (4.46x ratio; 2026 is the 4th billion-unit year, not 5th). Hero JPEG 1920x1280, cache-busted ?v=446d2c70. Blocked: 1/day slot consumed by #748 on 2026-09-17. | 2026-09-20 03:30 run: 1/day slot consumed by #818; bumped ship_date to 2026-09-21. | 2026-09-21 01:30 run: 1/day slot consumed by #819; bumped ship_date to 2026-09-22.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates. Novel: combined four Sedgwick releases (Feb/25 State of Nation, May Q1, Aug H1 US, Aug/Sep EU) into one auto synthesis; events-flat (1,634 vs 1,636) vs units +345.5% paradox; 2025 11-year-low-to-2026 2-year-high reversal; EU fire-risk record 82 events. Two data errors caught+fixed pre-verdict (4.46x ratio; 2026 is the 4th billion-unit year, not 5th). Hero JPEG 1920x1280, cache-busted ?v=446d2c70. Blocked: 1/day slot consumed by #748 on 2026-09-17. | 2026-09-20 03:30 run: 1/day slot consumed by #818; bumped ship_date to 2026-09-21. | 2026-09-21 01:30 run: 1/day slot consumed by #819; bumped ship_date to 2026-09-22. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 919,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4285,7 +4299,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-22",
+      "ship_date": "2026-09-23",
       "slug": "919-billion-unit-recall-surge-auto",
       "title": "Recalls Aren't Rising. They're Detonating."
     },
@@ -4311,7 +4325,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates. Novel: Ford MAIVS phone-camera quality system + 'not in continuous use' recall admission; three-recall verification-pattern angle. Hero JPEG 1920x1280, cache-busted ?v=dbc017ba. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20. | 2026-09-21 01:30 run: 1/day slot consumed by #819; bumped ship_date to 2026-09-22.",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates. Novel: Ford MAIVS phone-camera quality system + 'not in continuous use' recall admission; three-recall verification-pattern angle. Hero JPEG 1920x1280, cache-busted ?v=dbc017ba. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20. | 2026-09-21 01:30 run: 1/day slot consumed by #819; bumped ship_date to 2026-09-22. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 920,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4323,7 +4337,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-22",
+      "ship_date": "2026-09-23",
       "slug": "920-f150-fuel-tank-detachment-camera",
       "title": "The Cameras Were There. They Just Weren't Watching."
     },
@@ -4347,7 +4361,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
-      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates. Novel: alcohol-impaired share of deaths flat 30.18%->30.32% while NHTSA touts 3.9% decline; 44-minute metronome. Hero JPEG 1920x1280, cache-busted ?v=45aacd90. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20, #920 ships 2026-09-21.",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5; all hard gates. Novel: alcohol-impaired share of deaths flat 30.18%->30.32% while NHTSA touts 3.9% decline; 44-minute metronome. Hero JPEG 1920x1280, cache-busted ?v=45aacd90. Blocked: 1/day slot consumed by #748 on 2026-09-17; #919 ships 2026-09-20, #920 ships 2026-09-21. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 921,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4359,7 +4373,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-09-22",
+      "ship_date": "2026-09-23",
       "slug": "921-thirty-percent-flat",
       "title": "One Every 44 Minutes: Drunk-Driving Deaths Fell 4%, and So Did Everything Else."
     },
