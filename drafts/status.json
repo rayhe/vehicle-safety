@@ -8,7 +8,7 @@
   "phase": "SHIP_BLOCKED",
   "started": "2026-09-22T11:30:00-07:00",
   "ship_date": "2027-01-03",
-  "critic_avg": 8.97,
+  "critic_avg": 8.94,
   "critique_round": 0,
   "scores": {
    "general_editor": 9.0,
@@ -36,7 +36,7 @@
    "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
    "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
   },
-  "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
+  "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
  },
  "last_check_note": "Article #966 researched, drafted, critiqued (round-0 pass 9.0). SHIP_BLOCKED; next open ship_date 2027-01-02. Today's #749 already published.",
  "last_checked": "2026-09-22T11:30:00-07:00",
@@ -6165,7 +6165,7 @@
     "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
     "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
    },
-   "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
+   "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
   }
  ]
 }

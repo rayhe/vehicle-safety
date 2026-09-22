@@ -32,5 +32,5 @@ Three original contributions: (a) the doubling paradox (251→526 during the rea
 Pull stat labeled with source and year range. Inline numbers all trace to the references section (6 sources, all real URLs verified during research). Inline superscripts not used, but every statistical claim is adjacent to its attribution and the references block covers all six. Methodology transparency: the 7,000 figure shows its math (526 × ~13 years).
 
 ## Verdict: SHIP
-Average 8.97. All 7 critics ≥ 8.5. All hard gates pass. Round 0.
+Average 8.94. All 7 critics ≥ 8.5. All hard gates pass. Round 0.
 Queued SHIP_BLOCKED for 2027-01-03 (1/day rule; #749 shipped 2026-09-22; #966 queued 2027-01-02).
