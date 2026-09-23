@@ -18,8 +18,8 @@
     "journalist": "Clara Rollover",
     "publish_date_pacific": "2026-09-23",
     "completed_at": "2026-09-23T03:30:00-07:00",
-    "qa": "browser_open fetch failed this run; Cloudflare Pages deploy 11378478 from the publish commit succeeded 03:30:54 PDT; local index card + sitemap entry + story/hero refs verified.",
-    "qa_live_verified": false
+    "qa": "Live URL verified 2026-09-23 11:40 PDT via browser fetch: full article body, pull stat, references, and disclaimer all render at vehicle-safety.org/stories/750-nissan-sentra-same-driveshaft-defect-twice.html.",
+    "qa_live_verified": true
   },
   "last_journalist": "Vin Wreckage",
   "last_published": 749,
