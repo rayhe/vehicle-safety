@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://vehicle-safety.org/stories/978-comma-ai-nhtsa-probe-forked-openpilot.html" />
+  <meta property="og:url" content="https://vehicle-safety.org/stories/978-comma-ai-nhtsa-probe-forked-openpilot.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="The Crash Report" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NHTSA Is Probing Comma.ai's Driver-Assistance Kit. Good Luck Finding the Manufacturer. &ndash; The Crash Report</title>
+  <meta name="description" content="NHTSA opened a defect probe into Comma.ai's aftermarket driver-assistance devices after five crashes killed three people. At least one fatal crash ran FrogPilot, a community fork of openpilot, which raises the question no recall flowchart can answer: who manufactured the defective product?">
+  <meta property="og:title" content="NHTSA Is Probing Comma.ai's Driver-Assistance Kit. Good Luck Finding the Manufacturer.">
+  <meta property="og:description" content="Five crashes, three deaths, and one fatality in a car running a GitHub fork of its own driving software. The defect-investigation machine was built for factories. It has no procedure for a repo.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/978-comma-ai-nhtsa-probe-forked-openpilot.html">
+  <meta property="og:site_name" content="The Crash Report">
+  <meta name="twitter:title" content="NHTSA Is Probing Comma.ai's Driver-Assistance Kit. Good Luck Finding the Manufacturer.">
+  <meta name="twitter:description" content="Five crashes, three deaths, and one fatality in a car running a GitHub fork of its own driving software.">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/978-comma-ai-nhtsa-probe-forked-openpilot.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>NHTSA Is Probing Comma.ai's Driver-Assistance Kit. Good Luck Finding the Manufacturer.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">September 23, 2026</div>
+      <div class="reading-time">☕ 4 min read</div>
+
+      <img src="../images/978-comma-ai-nhtsa-probe-forked-openpilot.jpg" alt="A car windshield at night with a small aftermarket driver-assistance device mounted behind the mirror, red emergency lights glowing ahead on the highway" class="story-hero">
+
+      <div class="story-body">
+      <p>Here is a fun fact that will ruin your morning commute. Somewhere on the highway next to you, a car may be steering itself with software forked on GitHub by a stranger, flashed onto an aftermarket box, and never crash-tested by anyone. On Wednesday, NHTSA's Office of Defects Investigation announced a probe into Comma.ai, the startup behind the open-source openpilot driver-assistance system, after <strong>five crashes killed three people and seriously injured eleven</strong>, every one of them a vehicle driving into a stopped or slow-moving vehicle it somehow never saw.</p>
+
+      <p>The part that should keep regulators up at night is not the five crashes. It is the February crash in Ascension Parish, Louisiana, where a 2022 Toyota RAV4 running FrogPilot, a community fork of openpilot, drove into a stopped first-responder vehicle and killed the two people riding in its own back seat. Forks can rewrite braking tuning, detection thresholds, engagement logic, and how strictly the driver-monitoring camera nags you about watching the road. So here is the question NHTSA now has to answer with a straight face: who manufactured the defective product? Comma built the box and wrote the stock software, a stranger on the internet wrote the fork, and the driver installed both in a driveway. The federal defect-investigation machine was designed for factories, VIN lists, and recall letters. It has no procedure for a GitHub repo.</p>
+
+      <div class="pull-stat">0.75</div>
+      <div class="pull-label">Deaths per 100M miles on Comma's claimed 402M openpilot miles, vs. 1.20 nationally in 2024. The math favors the robot, but the caveats are doing a lot of work.</div>
+
+      <p>Before anyone drafts the eulogy, do the division the company's critics would rather you skip. Three deaths across 402 million claimed miles is 0.75 deaths per 100 million miles, against a national rate of 1.20 in 2024. If Comma's odometer is honest, a mile driven under openpilot supervision is, statistically, a safer mile than the average American mile. Maybe five crashes in a 30,000-vehicle fleet is noise, or maybe highway-heavy engaged miles flatter the number. Maybe enthusiast drivers in newer cars are just better at not dying. All true, all worth saying, and none of it changes the part about the two people in the back seat of the RAV4. Rates are cold comfort when the failure mode is your car failing to notice a fire truck.</p>
+
+      <p>This is also a sequel: in 2016, NHTSA told Comma to prove its self-driving gadget was safe or stop selling it. Founder George Hotz canceled the device, said the company would chase "other products and markets," and California's DMV sent a cease-and-desist for good measure. Ten years later the products and markets turned out to be 30,000 cars running openpilot on public roads, and the federal government is back exactly where it started, except now the software is open source and anyone with a compiler can edit the braking logic, and you cannot cease-and-desist a fork.</p>
+
+      <p>The failure mode itself is the industry's shared nightmare. Teaching a camera-and-radar system to tell a stopped car from a road sign, a guardrail, or an overpass shadow is genuinely hard, and it is the same wall Tesla's Autopilot probes kept hitting, the same one that earned Ford's BlueCruise a public NTSB scolding in March for letting distracted drivers stay distracted through two fatal crashes, because physics does not read changelogs. A stopped emergency vehicle at highway speed is an unforgiving test, and it does not grade on a curve for open-source idealism.</p>
+
+      <p>If you run openpilot or one of its forks, today's probe makes your software choices federal evidence. Know exactly which build you flashed, because stock openpilot and a community fork are now different legal universes, and forks can loosen the driver monitoring that stands between you and a stopped fire truck. Aftermarket driver assistance was never crash-tested, never NCAP-rated, never FMVSS-certified the way factory systems are, and there is no recall infrastructure for a fork. None of this means ripping the box off the windshield tonight. It means treating a forked driving stack with the suspicion you would give any safety-critical software written by volunteers: pin your version, read the changelog before updating, and keep your hands near the wheel, because the driver-monitoring camera is only watching you as closely as the fork's author decided was enough.</p>
+
+      <p>The universe has a sense of humor, and it is a dark one. A decade ago the government asked a hacker to prove his self-driving box was safe. He open-sourced it instead, and now the government must investigate a product whose manufacturer might be a username. Somewhere in the defect-investigation manual there is a flowchart for this; there is not. That is the whole story, really: the flowchart ends, the road does not, and 30,000 cars are driving on the far side of the map's edge.</p>
+
+      <p class="limitations"><strong>What this doesn't prove:</strong> crash, death, and injury counts, and Comma's 30,000-vehicle and 402-million-mile figures, are from NHTSA's announcement and the company's claims as reported September 23, 2026. ODI had not published an investigation resume with a case number at press time, and Comma's mileage is unaudited. The 0.75-per-100M-mile figure divides Comma's claimed engaged miles into three deaths and compares against the all-VMT national rate of 1.20; engaged miles skew highway, enthusiast drivers skew careful, and three deaths is a tiny numerator, so treat the comparison as directional. Which crashes ran forked versus stock software is per ODI's preliminary account. FARS does not code aftermarket ADAS engagement, so no FARS cross-tabulation was possible.</p>
+      </div>
+    </article>
+
+    <section class="story-references">
+      <h3>Sources &amp; References</h3>
+      <ol>
+        <li id="ref-1">David Shepardson, Reuters, &ldquo;US probes Comma.AI over crashes tied to aftermarket driver assistance devices,&rdquo; Sep 23, 2026 &mdash; ODI probe, 5 crashes / 3 deaths / 11 serious injuries, 30,000 vehicles / 402M miles, 2016 NHTSA demand and CA DMV cease-and-desist. <a href="https://www.reuters.com/technology/us-probes-commaai-over-crashes-tied-aftermarket-driver-assistance-devices-2026-09-23/" target="_blank" rel="noopener">reuters.com</a></li>
+        <li id="ref-2">TechCrunch, &ldquo;Comma's hands-off driving tech under investigation after 2 fatal crashes,&rdquo; Sep 23, 2026 &mdash; stopped/slow-vehicle failure mode, forked software per ODI, Feb 2026 Ascension Parish FrogPilot crash (2022 RAV4, stopped first-responder vehicle, two rear-seat deaths), Hotz background. <a href="https://techcrunch.com/2026/09/23/commas-hands-off-driving-tech-under-investigation-after-2-fatal-crashes/" target="_blank" rel="noopener">techcrunch.com</a></li>
+        <li id="ref-3">The Brief, &ldquo;Comma.ai Under Federal Investigation After Crashes Linked to Stopped Vehicles,&rdquo; Sep 23, 2026 &mdash; camera-and-radar stopped-vehicle hard case, fork modification surface (braking tuning, thresholds, monitoring). <a href="https://www.thebrief.news/en/standard/article/22919/commaai-under-federal-investigation-after-crashes-linked-to-stopped-vehicles" target="_blank" rel="noopener">thebrief.news</a></li>
+        <li id="ref-4">NHTSA, &ldquo;Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2024,&rdquo; DOT HS 813 729, May 2025 &mdash; 39,345 deaths, 1.20 fatalities per 100M VMT. <a href="http://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813729" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+      </ol>
+    </section>
+
+    <p class="story-disclaimer"><strong>Source:</strong> Reuters, TechCrunch, The Brief (Sep 23, 2026), NHTSA CrashStats. Crash counts and Comma's mileage claims are as reported; the per-mile fatality calculation is the author's. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <div class="related-stories">
+      <h3>Keep Reading</h3>
+      <div class="related-grid">
+        <a href="robotaxi-cant-see-fire-trucks.html" class="related-card">
+          <div class="related-title">Robotaxis Can't See Fire Trucks. NHTSA Had to Write Them a Letter About It.</div>
+          <div class="related-excerpt">The stopped emergency vehicle problem, now with venture funding.</div>
+        </a>
+        <a href="bluecruise-no-data-recorder.html" class="related-card">
+          <div class="related-title">Ford BlueCruise Killed 3 People and Recorded Zero Data Points</div>
+          <div class="related-excerpt">The NTSB's March scolding of factory hands-free driving.</div>
+        </a>
+        <a href="nhtsa-four-investigators-six-million-teslas.html" class="related-card">
+          <div class="related-title">Four People Oversee Whether 6 Million Teslas Can Drive Themselves. Congress Wants to Cut Their Budget.</div>
+          <div class="related-excerpt">The defect-investigation machine, outnumbered and underfunded.</div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="../reading-progress.js"></script>
+  <script src="../related-stories.js"></script>
+  <script src="../share-buttons.js"></script>
+</body>
+</html>
