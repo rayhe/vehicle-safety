@@ -9,8 +9,8 @@
     "ship_date": "2026-09-24",
     "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24."
   },
-  "last_check_note": "01:41 run: #974 complete (RESEARCH->DRAFT->CRITIQUE, round-0 SHIP 8.91), queued SHIP_BLOCKED 2027-01-09. Queue now 182 drafts.",
-  "last_checked": "2026-09-23T01:41:00-07:00",
+  "last_check_note": "#975 complete and queued; #751 ship_date 2026-09-24 after 1/day slot consumed by #750",
+  "last_checked": "2026-09-23T05:30:00-07:00",
   "last_completed": {
     "number": 750,
     "slug": "750-nissan-sentra-same-driveshaft-defect-twice",
@@ -21,11 +21,11 @@
     "qa": "browser_open fetch failed this run; Cloudflare Pages deploy 11378478 from the publish commit succeeded 03:30:54 PDT; local index card + sitemap entry + story/hero refs verified.",
     "qa_live_verified": false
   },
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": 749,
   "last_published_date": "2026-09-22",
   "last_published_slug": "749-ford-trailer-module-race-condition",
-  "next": 975,
+  "next": 976,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -6411,6 +6411,46 @@
       },
       "blocked_reason": "Queued behind 181 prior drafts; next publish slot after #973 (2027-01-08); 1/day rule",
       "note": "2026-09-23 01:30 run: #974 (NHTSA EA26004 Ford 1.0L EcoBoost wet-belt defect, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 6.7%, rhythm PASS, hero JPEG 1920x1280 ?v=9e762cf0). Novel: zero-paradox audit of EA26004 failure summary (355 incidents, 0 crashes/fires/injuries/fatalities), 47% design-life calc (70k avg vs 150k interval), orphan-fleet framing (Fiesta/Focus/EcoSport all discontinued, fleet aging through failure window now), Ford's quiet 100k/6yr interval cut + reimbursement program as floor-not-ceiling signal. 6 sources incl. NHTSA ODI resume EA26004. Queued SHIP_BLOCKED for 2027-01-09. Pipeline incident: hash-stamp one-liner zeroed the draft (open(f,'w') before read); rewrote from source, verified 72 lines, added AGENTS.md lesson."
+    },
+    {
+      "number": 975,
+      "slug": "975-ford-maverick-brake-recall-gap",
+      "title": "15 Recalls, Zero for the Brakes: The 2024 Maverick Hybrid's Blind Spot",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-01-10",
+      "started": "2026-09-23T05:30:00-07:00",
+      "critic_avg": 8.8,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.0,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": "pass (variance 343.7, short 8.2%, long 49.0%)",
+        "hero_jpeg": true,
+        "hero_hash": "a2b150d7",
+        "word_count": 990
+      },
+      "files": {
+        "research": "drafts/975-ford-maverick-brake-recall-gap-research.md",
+        "draft": "drafts/975-ford-maverick-brake-recall-gap.html",
+        "hero": "drafts/975-ford-maverick-brake-recall-gap.jpg",
+        "critic_panel": "drafts/975-critic-panel-r0.md"
+      },
+      "blocked_reason": "Queued behind 182 prior drafts; next publish slot after #974 (2027-01-09); 1/day rule",
+      "note": "2026-09-23 05:30 run: #975 (NHTSA DP26007 on 2024 Maverick Hybrid brake petition, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 13.0%, rhythm PASS, hero JPEG 1920x1280 ?v=a2b150d7). Novel: complaints-API census (72 records, 8 brake-mentioning = 11%, 3 crash-flagged = 37.5%, petitioner's 3 ODI filings linked), 15-recall-zero-brake census, 4-slice brake-hardware boundary timeline (22V730 -> 25V124 -> 25V787 (2 vehicles) -> DP26007 pending on 82,040). Queued SHIP_BLOCKED for 2027-01-10."
     }
   ]
 }
