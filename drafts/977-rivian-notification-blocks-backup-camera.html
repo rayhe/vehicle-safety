@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://vehicle-safety.org/stories/977-rivian-notification-blocks-backup-camera.html" />
+  <meta property="og:url" content="https://vehicle-safety.org/stories/977-rivian-notification-blocks-backup-camera.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="The Crash Report" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Pop-Up Was Blocking the Backup Camera on 98,828 Rivians &ndash; The Crash Report</title>
+  <meta name="description" content="Rivian recalled 98,828 R1T, R1S, and R2 vehicles because an on-screen notification could cover the rearview camera image in reverse. The camera was fine. The fix was already pushed over the air.">
+  <meta property="og:title" content="A Pop-Up Was Blocking the Backup Camera on 98,828 Rivians">
+  <meta property="og:description" content="The camera worked. The wire was fine. A notification just rendered on top of the federally required image.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/977-rivian-notification-blocks-backup-camera.html">
+  <meta property="og:site_name" content="The Crash Report">
+  <meta name="twitter:title" content="A Pop-Up Was Blocking the Backup Camera on 98,828 Rivians">
+  <meta name="twitter:description" content="The camera worked. The wire was fine. A notification just rendered on top of the federally required image.">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/977-rivian-notification-blocks-backup-camera.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Trend Watch</div>
+      <h1>A Pop-Up Was Blocking the Backup Camera on 98,828 Rivians</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">September 23, 2026</div>
+      <div class="reading-time">☕ 4 min read</div>
+
+      <img src="../images/977-rivian-notification-blocks-backup-camera.jpg" alt="A Rivian's center display showing a rearview camera image partially covered by a notification pop-up while in reverse" class="story-hero">
+
+      <div class="story-body">
+      <p>Let's talk about what happens in the first few seconds after you shift into reverse. In a Rivian, the big center display swaps to the rearview camera feed, the one federal law has required on every new vehicle since 2018. On <strong>98,828 Rivians</strong>, a notification could slide on top of that image and sit there, covering the view behind the truck. Not a broken camera. Not a cut wire. A pop-up.</p>
+
+      <p>Rivian announced the recall on September 23, 2026, under its internal code FSAM-1866, and the population reads like the company's entire order book: 34,088 R1T pickups from 2022 through 2026, 62,259 R1S SUVs from 2022 through 2027, and 2,481 of the brand-new 2027 R2 crossovers. That last line is the one that should make you blink. A launch-year model, recalled in its first model year, for a software bug its engineers could have caught with a particularly unglamorous QA script: put it in reverse, fire every notification, check what wins.</p>
+
+      <p>What won, per the recall documents, was the notification. Display software logic allowed an on-screen alert to overlap the camera feed while the vehicle sat in reverse, and under Federal Motor Vehicle Safety Standard 111 the rearview image must be there when you need it. FMVSS 111 is a visibility standard, not a vibes standard: if the image is hidden or overridden before the wheels even turn, the vehicle does not comply. Somewhere in a UI review, a design team decided notifications could share the screen with the backup camera, and nobody in the room argued that the federally mandated rectangle should own its pixels exclusively. I am judgmental about this because the fix is obvious in hindsight, and obvious-in-hindsight defects are the ones that should never have needed a recall.</p>
+
+      <div class="pull-stat">98,828</div>
+      <div class="pull-label">Rivian vehicles recalled under FSAM-1866 &ndash; more than half of all the EVs the company has ever sold in America, per AutoGuide</div>
+
+      <p>Here is the part that earns Rivian some credit: the company reports zero accidents, zero injuries, and not even a single customer complaint tied to the defect. This one was caught by paperwork, not by pain. Somebody read the standard, looked at the render stack, and realized a pop-up was in violation of federal law. That is how the system is supposed to work. It is also, quietly, the tell that the defect is real and boring in the best way: no dramatic failure mode, just a display hierarchy bug that a lawyer with FMVSS 111 open in one tab could spot.</p>
+
+      <p>And now the part that makes me genuinely excited, because this is what software-defined vehicles are for: the fix already shipped. Rivian resolved it in software release 2026.23 for the R1 line and 2026.31 for the R2, pushed over the air before most owners will ever see a recall notice in their mailbox. Owner letters are not expected to mail until November 9. Your truck fixed itself six weeks before the envelope arrives. That inversion, the remedy arriving before the notification of the defect, is going to keep happening as more of the fleet becomes software, and the recall system, built for an era when a fix meant a service appointment, is going to keep mailing letters about problems that stopped existing a month ago.</p>
+
+      <p>A few cautions before anyone gets smug about it. Over-the-air only works if the vehicle is connected, so a Rivian sitting in a garage with no Wi-Fi and no cellular signal does not magically heal. And the safety report's own identification note is worth memorizing: if the reverse image ever fails to appear, it will be obvious, and tapping the camera page on the center display or simply rolling forward brings the feed back. That is a workaround, not an excuse, and it should not have been necessary in the first place.</p>
+
+      <p>If you own a 2022&ndash;2026 R1T, a 2022&ndash;2027 R1S, or a 2027 R2: connect to Wi-Fi tonight and confirm you are on software 2026.23 or newer (R1) or 2026.31 or newer (R2). Check your VIN at nhtsa.gov/recalls and reference FSAM-1866. Do not wait for the November 9 letter; by the time it arrives, the fix will be a month old. And if your reverse image ever goes missing before you update, tap the camera page on the display. Rivian's line is 1-888-748-4261. This is the rare recall where the correct consumer action takes ninety seconds and a Wi-Fi password.</p>
+
+      <p class="limitations"><strong>What this doesn't prove:</strong> per-model counts (34,088 R1T, 62,259 R1S, 2,481 R2) come from Rivian's filing as reported by riviantrackr; I did not have the full Part 573 text. The &ldquo;zero accidents, zero injuries, zero complaints&rdquo; figure is Rivian's reporting, not an independent count. Software release numbers 2026.23 and 2026.31 are from riviantrackr's coverage. &ldquo;More than half of all EVs it has ever sold&rdquo; is AutoGuide's framing of cumulative Rivian sales. No NHTSA 26V campaign number appeared in public coverage by press time, so this article references Rivian's FSAM-1866 code only.</p>
+      </div>
+    </article>
+
+    <section class="story-references">
+      <h3>Sources &amp; References</h3>
+      <ol>
+        <li id="ref-1">Reuters, &ldquo;Rivian recalls nearly 99,000 vehicles over rearview camera display issue,&rdquo; Sep 23, 2026 &mdash; 98,828 vehicles, notification obstruction, OTA remedy. <a href="https://www.reuters.com/legal/litigation/rivian-recalls-nearly-99000-vehicles-over-rearview-camera-display-issue-2026-09-23/" target="_blank" rel="noopener">reuters.com</a></li>
+        <li id="ref-2">Taylor Ardrey, USA Today, &ldquo;Over 98K Rivian vehicles recalled. See impacted models,&rdquo; Sep 23, 2026 &mdash; FSAM-1866, model years, owner letters Nov 9, 1-888-748-4261, identification note. <a href="https://www.usatoday.com/story/cars/recalls/2026/09/23/rivian-recalls-vehicles-r1t-r1s-r2-models/91901010007/" target="_blank" rel="noopener">usatoday.com</a></li>
+        <li id="ref-3">riviantrackr, &ldquo;Rivian Recalls 98,828 R1 and R2 Over Rearview Camera Bug,&rdquo; Sep 23, 2026 &mdash; per-model counts from the NHTSA filing, fixed in 2026.23 (R1) / 2026.31 (R2), recall-system-vs-OTA framing. <a href="https://riviantrackr.com/news/rivian-rearview-camera-recall/" target="_blank" rel="noopener">riviantrackr.com</a></li>
+        <li id="ref-4">AutoGuide, &ldquo;Rivian Recalls More Than Half Of All EVs It Has Ever Sold In America,&rdquo; Sep 23, 2026 &mdash; FMVSS 111 framing, fleet math. <a href="https://www.autoguide.com/auto/manufacturers/rivian/rivian-recalls-more-than-half-of-all-evs-it-has-ever-sold-in-america-44639062" target="_blank" rel="noopener">autoguide.com</a></li>
+        <li id="ref-5">NHTSA recalls database. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        <li id="ref-6">NHTSA, Federal Motor Vehicle Safety Standards (FMVSS No. 111, Rear Visibility). <a href="https://www.nhtsa.gov/laws-regulations/federal-motor-vehicle-safety-standards" target="_blank" rel="noopener">nhtsa.gov</a></li>
+      </ol>
+    </section>
+
+    <p class="story-disclaimer"><strong>Source:</strong> Reuters and USA Today (Sep 23, 2026), riviantrackr, AutoGuide, NHTSA. Per-model counts and software versions are from Rivian's filing as reported; zero casualty/complaint figures are the company's reporting. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <div class="related-stories">
+      <h3>Keep Reading</h3>
+      <div class="related-grid">
+        <a href="f150-backup-camera-software-blind.html" class="related-card">
+          <div class="related-title">F-150's Backup Camera Software Blind</div>
+          <div class="related-excerpt">Another software update carrying safety weight it was never designed for.</div>
+        </a>
+        <a href="ford-botched-recall-repair.html" class="related-card">
+          <div class="related-title">Ford's Botched Recall Repair</div>
+          <div class="related-excerpt">When the fix needs a fix: recalls repaired incorrectly, then recalled again.</div>
+        </a>
+        <a href="748-ford-741k-rollaway-ten-month-remedy-gap.html" class="related-card">
+          <div class="related-title">Ford's 741,000-Truck Rollaway and the Ten-Month Remedy Gap</div>
+          <div class="related-excerpt">Software that let trucks roll out of park, and the long wait for a fix.</div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="../reading-progress.js"></script>
+  <script src="../related-stories.js"></script>
+  <script src="../share-buttons.js"></script>
+</body>
+</html>
