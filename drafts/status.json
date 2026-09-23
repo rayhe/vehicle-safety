@@ -9,8 +9,8 @@
     "ship_date": "2026-09-24",
     "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24."
   },
-  "last_check_note": "#975 complete and queued; #751 ship_date 2026-09-24 after 1/day slot consumed by #750",
-  "last_checked": "2026-09-23T05:30:00-07:00",
+  "last_check_note": "#976 complete and queued; #751 ship_date 2026-09-24 after 1/day slot consumed by #750",
+  "last_checked": "2026-09-23T07:30:00-07:00",
   "last_completed": {
     "number": 750,
     "slug": "750-nissan-sentra-same-driveshaft-defect-twice",
@@ -25,7 +25,7 @@
   "last_published": 749,
   "last_published_date": "2026-09-22",
   "last_published_slug": "749-ford-trailer-module-race-condition",
-  "next": 976,
+  "next": 977,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -6451,6 +6451,50 @@
       },
       "blocked_reason": "Queued behind 182 prior drafts; next publish slot after #974 (2027-01-09); 1/day rule",
       "note": "2026-09-23 05:30 run: #975 (NHTSA DP26007 on 2024 Maverick Hybrid brake petition, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 13.0%, rhythm PASS, hero JPEG 1920x1280 ?v=a2b150d7). Novel: complaints-API census (72 records, 8 brake-mentioning = 11%, 3 crash-flagged = 37.5%, petitioner's 3 ODI filings linked), 15-recall-zero-brake census, 4-slice brake-hardware boundary timeline (22V730 -> 25V124 -> 25V787 (2 vehicles) -> DP26007 pending on 82,040). Queued SHIP_BLOCKED for 2027-01-10."
+    },
+    {
+      "avg_critic": 8.83,
+      "blocked_reason": "Queued behind 183 prior drafts; next publish slot after #975 (2027-01-10); 1/day rule",
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/976-critic-panel-r0.md",
+        "draft": "drafts/976-jlr-dcdc-converter-warning-recall.html",
+        "hero": "drafts/976-jlr-dcdc-converter-warning-recall.jpg",
+        "research": "drafts/976-jlr-dcdc-converter-warning-recall-research.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.3,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "long_pct": 32.7,
+          "passed": true,
+          "short_pct": 11.5,
+          "variance": 481.8
+        },
+        "hero_jpeg": true,
+        "hero_hash": "53258d05",
+        "word_count": 966
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-09-23 07:30 run: #976 (JLR 26V248 Sept remedy wave, 23,677 MHEVs, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.83, all 7 >= 8.5; gates: em 0, banned 0, The 3.3%, rhythm PASS, hero JPEG 2352x1008 ?v=53258d05). Novel: second filing under 26V248 (E008) with remedy = software limp-home + warning instead of new hardware; 80.6% two-model concentration (RRS 10,973 + Defender 8,100); Sept 2024 'not safety' -> Apr 2026 NHTSA 'safety rather than customer satisfaction' 19-month override; 5,952 claims zero casualties. Queued SHIP_BLOCKED for 2027-01-11.",
+      "number": 976,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2027-01-11",
+      "slug": "976-jlr-dcdc-converter-warning-recall",
+      "title": "JLR's Fix for 23,677 Cars That Can Die in the Dark Is a Warning Light"
     }
   ]
 }
