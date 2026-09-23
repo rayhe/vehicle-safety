@@ -1,45 +1,45 @@
 {
   "current": {
-    "number": 969,
-    "slug": "969-gm-backup-camera-glue-recall",
-    "title": "Your Backup Camera Is Federally Required. GM's Glue Failed on 306,511 of Them.",
-    "journalist": "Clara Rollover",
-    "kicker": "The Gap",
+    "number": 970,
+    "slug": "970-jeep-wagoneer-flying-roof-crossbar",
+    "title": "Jeep Bolted 100,387 Road Hazards to Its Own Roofs",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
     "phase": "SHIP_BLOCKED",
-    "started": "2026-09-22T15:30:00-07:00",
-    "ship_date": "2026-12-24",
-    "critic_avg": 9.0,
+    "started": "2026-09-22T17:30:00-07:00",
+    "ship_date": "2027-01-05",
+    "critic_avg": 9.03,
     "critique_round": 0,
     "scores": {
-      "general_editor": 8.8,
+      "general_editor": 9.0,
       "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
+      "ethics_reviewer": 9.2,
       "social_shareability": 9.0,
-      "legal_accuracy": 9.2,
+      "legal_accuracy": 9.0,
       "research_rigor": 9.0,
       "data_presentation": 9.0
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 9.1,
+      "the_starters_pct": 10.6,
       "css_class": true,
       "style_css": true,
-      "rhythm": "pass (variance 224.6, short 9.5%, long 47.6%)",
+      "rhythm": "pass (variance 379.3, short 10.8%, long 43.2%)",
       "hero_jpeg": true,
-      "hero_hash": "dde7443b",
-      "word_count": 853
+      "hero_hash": "5fe6a8cf",
+      "word_count": 870
     },
     "files": {
-      "research": "drafts/969-gm-backup-camera-glue-recall-research.md",
-      "draft": "drafts/969-gm-backup-camera-glue-recall.html",
-      "hero": "drafts/969-gm-backup-camera-glue-recall.jpg",
-      "critic_panel": "drafts/969-gm-backup-camera-glue-recall-critique.md"
+      "research": "drafts/970-jeep-wagoneer-flying-roof-crossbar-research.md",
+      "draft": "drafts/970-jeep-wagoneer-flying-roof-crossbar.html",
+      "hero": "drafts/970-jeep-wagoneer-flying-roof-crossbar.jpg",
+      "critic_panel": "drafts/970-jeep-wagoneer-flying-roof-crossbar-critique.md"
     },
-    "note": "2026-09-22 15:30 run: #969 (GM 26V539000 backup-camera glue recall, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 9.1%, rhythm PASS, hero JPEG 1920x1280 ?v=dde7443b). Zero prior 26V539000/Envista/Encore-GX coverage in 816 stories + 176 queued. Novel: complaint-density arithmetic (33,000/306,511 = 10.8%), Trax concentration (159,821 units = 52%), remedy-gap analysis ('inspect and replace if necessary' vs progressive moisture intrusion), used-buyer camera checklist. Primary sources: NHTSA recalls DB (26V539000), Autoblog Sept 19 (recall-document quotes, per-model counts, A262554900), USA Today Sept 21 (notification date, service numbers), LawyersTrend Sept 18 (remedy wording), Motoring Chronicle (FMVSS 111 mandate context). Rhythm gate initially failed (variance 198.6, short 19.1%); fixed by merging short punches into longer constructions; re-verified PASS. Queued SHIP_BLOCKED for 2026-12-24 (first open slot; 1/day; #749 shipped 2026-09-22)."
+    "note": "2026-09-22 17:30 run: #970 (Jeep Wagoneer 26V584/81D roof-crossbar recall, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.03, all 7 >= 8.5; gates: em 0, banned 0, The 10.6%, rhythm PASS, hero JPEG 1920x1280 ?v=5fe6a8cf). Zero prior 26V584 coverage in 816 stories + 177 queued. Novel: externality thesis (risk falls on trailing driver, letter goes to owner), 97,349+3,038=100,387 census, 100%-defect Mopar accessory population, rattle-as-smoke-alarm reframe, July 10 2026 accessory production date. Primary sources: NHTSA 26V584, Autoblog Sept 20, Carscoops Sept 20, Auto123, AutoBodyNews, AAA Foundation debris study (200k+ crashes, 500 deaths, 2011-2014). Rhythm gate initially failed (17.5% short); fixed by merging fragments; re-verified PASS. Queued SHIP_BLOCKED for 2027-01-05 (first open slot; 1/day; #749 shipped 2026-09-22)."
   },
-  "last_check_note": "Article #969 researched, drafted, critiqued (round-0 pass 9.0). SHIP_BLOCKED; next open ship_date 2026-12-24. Today's #749 already published.",
-  "last_checked": "2026-09-22T15:45:00-07:00",
+  "last_check_note": "Article #970 researched, drafted, critiqued (round-0 pass 9.03). SHIP_BLOCKED; next open ship_date 2027-01-05. Today's #749 already published.",
+  "last_checked": "2026-09-22T17:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-22T01:37:00-07:00",
     "number": 749,
@@ -50,11 +50,11 @@
     "qa_live_verified": true,
     "qa_note": "Live URL 200, title correct, hero img in story-body, og:image correct, hero JPEG 200 (175KB). Verified by main agent after worker browser_open failure."
   },
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": 749,
   "last_published_date": "2026-09-22",
   "last_published_slug": "749-ford-trailer-module-race-condition",
-  "next": 970,
+  "next": 971,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -6244,6 +6244,45 @@
         "critic_panel": "drafts/969-gm-backup-camera-glue-recall-critique.md"
       },
       "note": "2026-09-22 15:30 run: #969 (GM 26V539000 backup-camera glue recall, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 9.1%, rhythm PASS, hero JPEG 1920x1280 ?v=dde7443b). Zero prior 26V539000/Envista/Encore-GX coverage in 816 stories + 176 queued. Novel: complaint-density arithmetic (33,000/306,511 = 10.8%), Trax concentration (159,821 units = 52%), remedy-gap analysis ('inspect and replace if necessary' vs progressive moisture intrusion), used-buyer camera checklist. Primary sources: NHTSA recalls DB (26V539000), Autoblog Sept 19 (recall-document quotes, per-model counts, A262554900), USA Today Sept 21 (notification date, service numbers), LawyersTrend Sept 18 (remedy wording), Motoring Chronicle (FMVSS 111 mandate context). Rhythm gate initially failed (variance 198.6, short 19.1%); fixed by merging short punches into longer constructions; re-verified PASS. Queued SHIP_BLOCKED for 2026-12-24 (first open slot; 1/day; #749 shipped 2026-09-22)."
+    },
+    {
+      "number": 970,
+      "slug": "970-jeep-wagoneer-flying-roof-crossbar",
+      "title": "Jeep Bolted 100,387 Road Hazards to Its Own Roofs",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-09-22T17:30:00-07:00",
+      "ship_date": "2027-01-05",
+      "critic_avg": 9.03,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.6,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": "pass (variance 379.3, short 10.8%, long 43.2%)",
+        "hero_jpeg": true,
+        "hero_hash": "5fe6a8cf",
+        "word_count": 870
+      },
+      "files": {
+        "research": "drafts/970-jeep-wagoneer-flying-roof-crossbar-research.md",
+        "draft": "drafts/970-jeep-wagoneer-flying-roof-crossbar.html",
+        "hero": "drafts/970-jeep-wagoneer-flying-roof-crossbar.jpg",
+        "critic_panel": "drafts/970-jeep-wagoneer-flying-roof-crossbar-critique.md"
+      },
+      "note": "2026-09-22 17:30 run: #970 (Jeep Wagoneer 26V584/81D roof-crossbar recall, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.03, all 7 >= 8.5; gates: em 0, banned 0, The 10.6%, rhythm PASS, hero JPEG 1920x1280 ?v=5fe6a8cf). Zero prior 26V584 coverage in 816 stories + 177 queued. Novel: externality thesis (risk falls on trailing driver, letter goes to owner), 97,349+3,038=100,387 census, 100%-defect Mopar accessory population, rattle-as-smoke-alarm reframe, July 10 2026 accessory production date. Primary sources: NHTSA 26V584, Autoblog Sept 20, Carscoops Sept 20, Auto123, AutoBodyNews, AAA Foundation debris study (200k+ crashes, 500 deaths, 2011-2014). Rhythm gate initially failed (17.5% short); fixed by merging fragments; re-verified PASS. Queued SHIP_BLOCKED for 2027-01-05 (first open slot; 1/day; #749 shipped 2026-09-22)."
     }
   ]
 }
