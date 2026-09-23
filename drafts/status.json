@@ -6,8 +6,8 @@
     "journalist": "Rex Driverton",
     "kicker": null,
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2026-09-23",
-    "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+    "ship_date": "2026-09-24",
+    "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24."
   },
   "last_check_note": "01:41 run: #974 complete (RESEARCH->DRAFT->CRITIQUE, round-0 SHIP 8.91), queued SHIP_BLOCKED 2027-01-09. Queue now 182 drafts.",
   "last_checked": "2026-09-23T01:41:00-07:00",
@@ -46,10 +46,10 @@
     },
     {
       "journalist": "Rex Driverton",
-      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24.",
       "number": 751,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-24",
       "slug": "sk-on-electrode-misalignment-two-oems-one-defect"
     },
     {
