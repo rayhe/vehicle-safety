@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 982,
+    "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
+    "title": "IIHS Paid for a Study. It Says Weed Does Not Crash Cars. Alcohol Does.",
+    "journalist": "Dale Impactor III",
+    "kicker": "Sobriety Report",
+    "phase": "DRAFT",
+    "started": "2026-09-24T03:35:00-07:00"
+  },
   "last_check_note": "2026-09-23 23:30 run: 1/day slot consumed by Publish #750 (2026-09-23, QA live-verified); #751 (SK On electrode-misalignment, Rex Driverton) remains SHIP_BLOCKED for 2026-09-24 ship window. Draft files verified present (html 8348 bytes, hero 506813 bytes), tree clean. No phase advance.",
   "last_checked": "2026-09-24T03:35:00-07:00",
   "last_completed": {
@@ -12,11 +20,11 @@
     "qa": "Live URL verified 2026-09-24 ~03:35 PDT: full article body, pull stat, references render at vehicle-safety.org/stories/751-sk-on-electrode-misalignment-two-oems-one-defect.html. Hero image HTTP 200 image/jpeg. Sitemap + index contain story link.",
     "qa_live_verified": true
   },
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": 749,
   "last_published_date": "2026-09-22",
   "last_published_slug": "749-ford-trailer-module-race-condition",
-  "next": 982,
+  "next": 983,
   "queue": [
     {
       "journalist": "Rex Driverton",
