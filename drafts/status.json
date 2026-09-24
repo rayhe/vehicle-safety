@@ -1,59 +1,59 @@
 {
   "current": {
-    "number": 982,
-    "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
-    "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does.",
-    "journalist": "Dale Impactor III",
-    "kicker": "Sobriety Report",
-    "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-19",
-    "critique_round": 0,
     "avg_critic": 8.89,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 8.8,
-      "social_shareability": 8.7,
-      "legal_accuracy": 9.0,
-      "research_rigor": 8.7,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 0.0,
-      "css_class": true,
-      "style_css": true,
-      "sentence_rhythm": {
-        "variance": 214.1,
-        "short_pct": 11.5,
-        "long_pct": 34.6,
-        "passed": true
-      },
-      "hero_jpeg": true,
-      "hero_hash": "80fb21e7",
-      "word_count": 890
-    },
+    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-03-19",
+    "critique_round": 0,
     "files": {
-      "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md",
+      "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md",
       "draft": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.html",
       "hero": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.jpg",
-      "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md"
+      "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md"
     },
-    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-03-19",
-    "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study."
+    "hard_gates": {
+      "banned_phrases": 0,
+      "css_class": true,
+      "em_dashes": 0,
+      "hero_hash": "80fb21e7",
+      "hero_jpeg": true,
+      "sentence_rhythm": {
+        "long_pct": 34.6,
+        "passed": true,
+        "short_pct": 11.5,
+        "variance": 214.1
+      },
+      "style_css": true,
+      "the_starters_pct": 0.0,
+      "word_count": 890
+    },
+    "journalist": "Dale Impactor III",
+    "kicker": "Sobriety Report",
+    "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study.",
+    "number": 982,
+    "phase": "SHIP_BLOCKED",
+    "scores": {
+      "data_presentation": 9.0,
+      "ethics_reviewer": 8.8,
+      "general_editor": 9.0,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.7,
+      "social_shareability": 8.7,
+      "voice_coach": 9.0
+    },
+    "ship_date": "2027-03-19",
+    "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
+    "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does."
   },
-  "last_check_note": "2026-09-24 05:30 run: 1/day slot consumed by Publish #751 (QA live-verified 03:30). Queue hygiene: #751 marked PUBLISHED; last_published=751/2026-09-24; all 176 SHIP_BLOCKED ship_dates renumbered strict 1/day from 2026-09-25 in number order (fixes 46 overdue + 15 dateless + 2/day overlaps; tail now 2027-03-19). Ship order = lowest number first: #752 (Mach-E, Vin Wreckage, hero in images/) due 2026-09-25, #753 due 2026-09-26, #756 due 2026-09-27, #763 due 2026-09-28. Known hero gaps (ship run must generate or skip): #763, #817, #836, #869, #886; #817/#836 also lack draft HTML. Removed 2 stale untracked media-generation leftovers from #982. Tree clean, no phase advance.",
-  "last_checked": "2026-09-24T05:30:00-07:00",
+  "last_check_note": "2026-09-24 07:30 run: 1/day rule already consumed by #751 (published 2026-09-24; QA verified live ~03:35 PDT). Current #982 (Dale Impactor III, IIHS cannabis ER study) is SHIP_BLOCKED with next slot 2027-03-19 per renumbered queue. No ship. Pipeline idle; exiting.",
+  "last_checked": "2026-09-24T07:30:00-07:00",
   "last_completed": {
-    "number": 751,
-    "slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
-    "title": "Two Brands, One Factory, Same Battery Defect",
-    "journalist": "Rex Driverton",
-    "publish_date_pacific": "2026-09-24",
     "completed_at": "2026-09-24T03:30:00-07:00",
+    "journalist": "Rex Driverton",
+    "number": 751,
+    "publish_date_pacific": "2026-09-24",
     "qa": "Live URL verified 2026-09-24 ~03:35 PDT: full article body, pull stat, references render at vehicle-safety.org/stories/751-sk-on-electrode-misalignment-two-oems-one-defect.html. Hero image HTTP 200 image/jpeg. Sitemap + index contain story link.",
-    "qa_live_verified": true
+    "qa_live_verified": true,
+    "slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
+    "title": "Two Brands, One Factory, Same Battery Defect"
   },
   "last_journalist": "Dale Impactor III",
   "last_published": 751,
@@ -63,20 +63,20 @@
   "queue": [
     {
       "journalist": "Rex Driverton",
+      "note": "2026-09-22 01:30 run: published as #749 (earliest-due SHIP_BLOCKED, first in queue order; 1/day slot; 0 prior publishes today).",
       "number": 749,
       "phase": "PUBLISHED",
       "ship_date": "2026-08-20",
       "slug": "ford-trailer-module-race-condition",
-      "title": "Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race.",
-      "note": "2026-09-22 01:30 run: published as #749 (earliest-due SHIP_BLOCKED, first in queue order; 1/day slot; 0 prior publishes today)."
+      "title": "Ford's Trucks Had a Race Condition. 4.3 Million Trailers Lost the Race."
     },
     {
       "journalist": "Clara Rollover",
+      "note": "2026-09-23 03:30 run: published as #750 (1/day slot; 0 prior publishes today). Gates re-verified pre-ship: em 1, banned 0, The 6.9%, css ok, hero JPEG 2048x1152 ?v=a9152770.",
       "number": 750,
       "phase": "PUBLISHED",
       "ship_date": "2026-09-23",
-      "slug": "nissan-sentra-same-driveshaft-defect-twice",
-      "note": "2026-09-23 03:30 run: published as #750 (1/day slot; 0 prior publishes today). Gates re-verified pre-ship: em 1, banned 0, The 6.9%, css ok, hero JPEG 2048x1152 ?v=a9152770."
+      "slug": "nissan-sentra-same-driveshaft-defect-twice"
     },
     {
       "journalist": "Rex Driverton",
@@ -88,30 +88,31 @@
     },
     {
       "journalist": "Vin Wreckage",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 752,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-09-25",
-      "slug": "mach-e-every-model-year-recalled",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "slug": "mach-e-every-model-year-recalled"
     },
     {
       "journalist": "Axle McScatter",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 753,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-09-26",
-      "slug": "point-nine-nine-norway-is-at-point-two",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "slug": "point-nine-nine-norway-is-at-point-two"
     },
     {
       "journalist": "Clara Rollover",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 756,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-09-27",
-      "slug": "mass-shooting-road-death-spillover",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "slug": "mass-shooting-road-death-spillover"
     },
     {
       "journalist": "Mia Crumplezone",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -125,11 +126,11 @@
         "voice_coach": 8.5
       },
       "ship_date": "2026-09-28",
-      "slug": "ev-fire-blanket-explosion-risk",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "slug": "ev-fire-blanket-explosion-risk"
     },
     {
       "journalist": "Axle McScatter",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 764,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -142,11 +143,11 @@
         "voice_coach": 9.0
       },
       "ship_date": "2026-09-29",
-      "slug": "ota-recall-fix-parts-tariff-two-tier",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "slug": "ota-recall-fix-parts-tariff-two-tier"
     },
     {
       "journalist": "Vin Wreckage",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 765,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -159,8 +160,7 @@
         "voice_coach": 9.0
       },
       "ship_date": "2026-09-30",
-      "slug": "cx90-three-fixes-steering-still-broken",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "slug": "cx90-three-fixes-steering-still-broken"
     },
     {
       "critic_avg": 8.58,
@@ -177,6 +177,7 @@
         "the_starters_pct": 8.3
       },
       "journalist": "Mia Crumplezone",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 771,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -190,8 +191,7 @@
       "ship_date": "2026-10-01",
       "slug": "stellantis-camera-recall-groundhog-day",
       "started": "2026-08-18T06:30:00Z",
-      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping."
     },
     {
       "hard_gates": {
@@ -337,6 +337,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 782,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -351,8 +352,7 @@
       "ship_date": "2026-10-05",
       "slug": "toxicology-backlog-evidence-expires",
       "started": "2026-08-19T10:30:00Z",
-      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
     },
     {
       "critic_avg": 9.07,
@@ -407,13 +407,13 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 802,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-10-07",
       "slug": "lucid-air-efuse-fire-recall",
       "started": "2026-09-03T10:45:00Z",
-      "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug"
     },
     {
       "critic_avg": 8.93,
@@ -586,6 +586,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 809,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -601,8 +602,7 @@
       "ship_date": "2026-10-08",
       "slug": "ford-ecoboost-piston-dome-crater-crack",
       "started": "2026-09-04T00:30:00Z",
-      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind.",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
     },
     {
       "critic_avg": 9.0,
@@ -623,6 +623,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 810,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -638,8 +639,7 @@
       "ship_date": "2026-10-09",
       "slug": "810-sobriety-ladder-test",
       "started": "2026-09-04T02:29:34Z",
-      "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around.",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
+      "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around."
     },
     {
       "critic_avg": 9.04,
@@ -3607,10 +3607,10 @@
         "social_shareability": 8.8,
         "voice_coach": 8.7
       },
+      "ship_date": "2026-12-29",
       "slug": "901-bike-funding-cuts-foushee-letter",
       "started": "2026-09-14T17:30:00-07:00",
-      "title": "America's Roads Just Logged Their Safest Start in a Decade. Cyclists Just Logged Their Deadliest Year in 40.",
-      "ship_date": "2026-12-29"
+      "title": "America's Roads Just Logged Their Safest Start in a Decade. Cyclists Just Logged Their Deadliest Year in 40."
     },
     {
       "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901 queued ahead; #902 queued for next publish slot; push blocked by egress outage",
@@ -3652,10 +3652,10 @@
         "social_shareability": 8.8,
         "voice_coach": 8.8
       },
+      "ship_date": "2026-12-30",
       "slug": "902-dummy-wrong-body",
       "started": "2026-09-14T19:30:00-07:00",
-      "title": "America's Newest Crash Test Dummy Weighs 108 Pounds. The Average American Woman Weighs 172.",
-      "ship_date": "2026-12-30"
+      "title": "America's Newest Crash Test Dummy Weighs 108 Pounds. The Average American Woman Weighs 172."
     },
     {
       "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901, #902 queued ahead; #903 queued for next publish slot; push blocked by egress outage",
@@ -3697,10 +3697,10 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
+      "ship_date": "2026-12-31",
       "slug": "903-ford-three-tiny-recalls-quality-machines",
       "started": "2026-09-14T21:30:00-07:00",
-      "title": "37 Trucks, 17 Raptors, 1,945 Vans: Ford's Three Tiniest Recalls Were All About the Machines That Check the Machines",
-      "ship_date": "2026-12-31"
+      "title": "37 Trucks, 17 Raptors, 1,945 Vans: Ford's Three Tiniest Recalls Were All About the Machines That Check the Machines"
     },
     {
       "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901, #902, #903 queued ahead; #904 queued for next publish slot; push blocked by egress outage",
@@ -3742,10 +3742,10 @@
         "social_shareability": 8.8,
         "voice_coach": 8.8
       },
+      "ship_date": "2027-01-01",
       "slug": "904-whose-funeral-fatal-crash-lethality",
       "started": "2026-09-14T23:40:00-07:00",
-      "title": "In a Saturn S, a Fatal Crash Is Your Fatality. In a Ram 2500, It's Somebody Else's.",
-      "ship_date": "2027-01-01"
+      "title": "In a Saturn S, a Fatal Crash Is Your Fatality. In a Ram 2500, It's Somebody Else's."
     },
     {
       "blocked_reason": "1/day rule: #899 published 2026-09-15; #900, #901, #902, #903, #904 queued ahead; #905 queued for next publish slot; push blocked by egress outage",
@@ -3787,10 +3787,10 @@
         "social_shareability": 8.7,
         "voice_coach": 8.8
       },
+      "ship_date": "2027-01-02",
       "slug": "905-tesla-hidden-autopilot-crashes",
       "started": "2026-09-15T01:40:00-07:00",
-      "title": "Tesla's Data Says the Robot Was Driving. The Police Report Says Nothing.",
-      "ship_date": "2027-01-02"
+      "title": "Tesla's Data Says the Robot Was Driving. The Police Report Says Nothing."
     },
     {
       "blocked_reason": "1/day rule: #899 published 2026-09-15; #900, #901, #902, #903, #904, #905 queued ahead; #906 queued for next publish slot; push blocked by egress outage",
@@ -3832,10 +3832,10 @@
         "social_shareability": 8.8,
         "voice_coach": 8.9
       },
+      "ship_date": "2027-01-03",
       "slug": "906-iihs-september-round-build-date-trap",
       "started": "2026-09-15T03:30:00-07:00",
-      "title": "Two of Seven Cars Earned IIHS's Top Award. Your Telluride Might Not Be One of Them.",
-      "ship_date": "2027-01-03"
+      "title": "Two of Seven Cars Earned IIHS's Top Award. Your Telluride Might Not Be One of Them."
     },
     {
       "blocked_reason": "1/day rule: #899 published 2026-09-15; #900-#906 queued ahead in FIFO; push blocked by fleet egress outage",
@@ -3877,10 +3877,10 @@
         "social_shareability": 8.9,
         "voice_coach": 9.0
       },
+      "ship_date": "2027-01-04",
       "slug": "907-bmw-z4-safest-sports-car-paradox",
       "started": "2026-09-15T05:30:00-07:00",
-      "title": "The Safest Sports Car in America Is a BMW Roadster. It Is Safer Per Mile Than a Camry.",
-      "ship_date": "2027-01-04"
+      "title": "The Safest Sports Car in America Is a BMW Roadster. It Is Safer Per Mile Than a Camry."
     },
     {
       "critic_avg": 8.91,
@@ -3918,8 +3918,8 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "slug": "908-chevrolet-tracker-deadliest-suv-sober",
-      "ship_date": "2027-01-05"
+      "ship_date": "2027-01-05",
+      "slug": "908-chevrolet-tracker-deadliest-suv-sober"
     },
     {
       "critic_avg": 8.9,
@@ -3955,9 +3955,9 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
+      "ship_date": "2027-01-06",
       "slug": "909-oregon-super-speeder-isa-governor",
-      "title": "Suspended Licenses Don't Stop Speeders. Oregon Wants to Govern the Car Instead.",
-      "ship_date": "2027-01-06"
+      "title": "Suspended Licenses Don't Stop Speeders. Oregon Wants to Govern the Car Instead."
     },
     {
       "critic_avg": 8.97,
@@ -3993,9 +3993,9 @@
         "social_shareability": 9.0,
         "voice_coach": 8.8
       },
+      "ship_date": "2027-01-07",
       "slug": "910-f150-detached-fuel-tank-recall",
-      "title": "Ford's Newest F-150s Can Drop Their Fuel Tanks on the Highway. The Trucks Actually Killing People Are Old Enough to Vote.",
-      "ship_date": "2027-01-07"
+      "title": "Ford's Newest F-150s Can Drop Their Fuel Tanks on the Highway. The Trucks Actually Killing People Are Old Enough to Vote."
     },
     {
       "critic_avg": 8.97,
@@ -4069,9 +4069,9 @@
         "social_shareability": 8.8,
         "voice_coach": 8.8
       },
+      "ship_date": "2027-01-09",
       "slug": "912-can-am-spyder-blackout-recall",
-      "title": "Plug In Your Phone, Lose Your Speedometer: Can-Am Recalls 14,014 Bikes Whose Screens Can Go Blank",
-      "ship_date": "2027-01-09"
+      "title": "Plug In Your Phone, Lose Your Speedometer: Can-Am Recalls 14,014 Bikes Whose Screens Can Go Blank"
     },
     {
       "critic_avg": 8.97,
@@ -4107,9 +4107,9 @@
         "social_shareability": 9.2,
         "voice_coach": 9.0
       },
+      "ship_date": "2027-01-10",
       "slug": "913-f150-fuel-tank-camera-gap-recall",
-      "title": "Ford Recalls 223,472 F-150s. The Cameras Were Watching Everything Except the Fuel Tank Straps",
-      "ship_date": "2027-01-10"
+      "title": "Ford Recalls 223,472 F-150s. The Cameras Were Watching Everything Except the Fuel Tank Straps"
     },
     {
       "critic_avg": 8.94,
@@ -4145,9 +4145,9 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
+      "ship_date": "2027-01-11",
       "slug": "914-transit-wireless-seatbelt-reminder-lie",
-      "title": "Ford's Wireless Seatbelt Reminder Tells Drivers Everyone's Buckled. Some of Them Aren't.",
-      "ship_date": "2027-01-11"
+      "title": "Ford's Wireless Seatbelt Reminder Tells Drivers Everyone's Buckled. Some of Them Aren't."
     },
     {
       "critic_avg": 8.81,
@@ -4183,9 +4183,9 @@
         "social_shareability": 8.8,
         "voice_coach": 8.6
       },
+      "ship_date": "2027-01-12",
       "slug": "915-f150-fuel-tank-strap-camera-gap",
-      "title": "Ford Is Recalling 223,472 F-150s. Your Fuel Tank May Be Held On By Hope.",
-      "ship_date": "2027-01-12"
+      "title": "Ford Is Recalling 223,472 F-150s. Your Fuel Tank May Be Held On By Hope."
     },
     {
       "critic_avg": 8.94,
@@ -4221,9 +4221,9 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
+      "ship_date": "2027-01-13",
       "slug": "916-freightliner-modulator-recall-of-recall",
-      "title": "Daimler Is Recalling 2,404 Trucks Because the Repair Was Wrong Too. Welcome to the Recalled Recall.",
-      "ship_date": "2027-01-13"
+      "title": "Daimler Is Recalling 2,404 Trucks Because the Repair Was Wrong Too. Welcome to the Recalled Recall."
     },
     {
       "critic_avg": 8.97,
@@ -6012,494 +6012,494 @@
       "title": "Lexus Fixed the Driver. The Back-Seat Dummy Is What Flunked the Crash Test."
     },
     {
-      "number": 963,
-      "slug": "963-poor-headlights-used-car-blind-spot",
-      "title": "One in Three Cars Has Headlights IIHS Calls Poor or Marginal. At Cadillac, It's Four in Five.",
-      "journalist": "Clara Rollover",
-      "kicker": "The Gap",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-21T23:30:00-07:00",
-      "ship_date": "2027-02-28",
       "critic_avg": 9.0,
       "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 3.0,
         "css": "pass",
-        "rhythm": "pass (variance 624, short 8.8%, long 58.8%)",
-        "hero_jpeg": true,
+        "em_dashes": 0,
         "hero_hash": "2847e448",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 624, short 8.8%, long 58.8%)",
+        "the_starters_pct": 3.0,
         "word_count": 890
       },
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (963- prefix). News peg: ForCar Sept 2026 brand analysis of 1,643 IIHS-rated vehicles (542 Poor/Marginal = 33%; Cadillac 79%, Chevrolet 77%, GMC 76%, Jeep 62%, Chrysler 60%). Novel: headlights as fastest-improving IIHS metric (82% bad 2016 -> 8% bad 2025 MY, driven by Top Safety Pick award requirement, not regulation); trim-trap arithmetic (IIHS rates fitted hardware, same nameplate can carry two ratings); 2.4x brand risk multiplier. Zero prior headlight coverage in 962 articles. Hero is downloaded-photo fallback (media.generate_image upstream down this run); regen AI hero before ship. No publish: 1/day rule, #819 shipped 2026-09-21."
-    },
-    {
-      "number": 964,
-      "slug": "964-honda-ridgeline-probe-closed-remedy-passed",
-      "title": "NHTSA Spent 20 Months Investigating Whether Honda's Recall Worked. It Did.",
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T05:30:00-07:00",
-      "ship_date": "2027-03-01",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 2.8,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 939.6, short 3.6%, long 46.4%)",
-        "hero_jpeg": true,
-        "hero_hash": "54968c30",
-        "word_count": 516
-      },
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (964- prefix). News peg: Reuters Sept 22, 2026 - NHTSA closes EA into 129,092 MY 2017-2019 Ridgelines without action. Novel: 270x complaint-rate drop after remedy (3,437/117,445 vs 14/129,092, directional caveat stated), 46-month recall-to-closure timeline, 'Recall Remedy Review' frame (RQ24-011 explicitly prompted by remedy review). Zero prior probe-closure coverage in 963 articles. Rhythm round-0 fail (short 18.8%) fixed via 4 fragment merges, re-verified PASS. No publish: 1/day rule, #749 shipped 2026-09-22."
-    },
-    {
-      "number": 965,
-      "slug": "965-seatback-collapse-fmvss-207-obsolete",
-      "title": "NHTSA Finally Touched the Seat-Strength Standard. It Deleted a Footnote Instead of Fixing the Collapse.",
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T07:30:00-07:00",
-      "ship_date": "2027-03-02",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 13.2,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 515.9, short 10.5%, long 55.3%; round-0 fail 23.3% fixed via 5 fragment merges)",
-        "hero_jpeg": true,
-        "hero_hash": "9d2778d6",
-        "word_count": 833
-      },
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (965- prefix). Zero prior seatback-collapse coverage in 816 stories. Novel: 2025 FMVSS 207 NPRM only deletes obsolete school-bus text while BIL 2021 mandate (2-yr deadline) remains unfulfilled; ANPRM July 2024 is think-about-thinking-about-it stage; Transport Canada 23/23 case series with 11 ejections as pull stat. Actionable: kid behind unoccupied front seat (CAS 2016 petition language NHTSA never adopted). No publish: 1/day rule, #749 shipped 2026-09-22."
-    },
-    {
-      "number": 966,
-      "slug": "966-drowsy-driving-no-breathalyzer",
-      "title": "NHTSA Says Drowsy Driving Kills 800 Americans a Year. The Cameras Say 6,400.",
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T09:30:00-07:00",
-      "ship_date": "2027-03-03",
-      "critic_avg": 9.0,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 0.0,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 2965.6, short 6.8%, long 34.1%; round-0 fail 22.0% fixed via 8 fragment merges)",
-        "hero_jpeg": true,
-        "hero_hash": "e1a44f05",
-        "word_count": 1000
-      },
-      "files": {
-        "research": "drafts/966-drowsy-driving-no-breathalyzer-research.md",
-        "draft": "drafts/966-drowsy-driving-no-breathalyzer.html",
-        "hero": "drafts/966-drowsy-driving-no-breathalyzer.jpg",
-        "critic_panel": "drafts/966-drowsy-driving-no-breathalyzer-critique.md"
-      },
-      "note": "2026-09-22 09:30 run: #966 (drowsy driving undercount, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=e1a44f05). Zero prior drowsy/fatigue/sleep coverage in 816 stories + 173 queued. Novel: toxicology-desk undercount-mechanism framing (no test for sleep; dead drivers don't self-report) + Wyoming 10.26% vs Nevada 0.59% state spread as reporting artifact. NHTSA + AAA pages verified live; 2nd browser_open attempt failed mid-run (terminal for turn) so remaining refs use parent-domain links per guide. Queued SHIP_BLOCKED for 2027-01-02 (1/day; #749 shipped 2026-09-22)."
-    },
-    {
-      "number": 967,
-      "slug": "967-frontover-cameras-pointed-wrong-way",
-      "title": "We Put Cameras on the Back of Every Car. The Deaths Moved to the Front.",
-      "journalist": "Vin Wreckage",
-      "kicker": "Existential Dread",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T11:30:00-07:00",
-      "ship_date": "2027-03-04",
-      "critic_avg": 8.97,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.8,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 6.0,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 270.9, short 5.3%, long 42.1%)",
-        "hero_jpeg": true,
-        "hero_hash": "aa79976e",
-        "word_count": 1004
-      },
-      "files": {
-        "research": "drafts/967-frontover-cameras-pointed-wrong-way-research.md",
-        "draft": "drafts/967-frontover-cameras-pointed-wrong-way.html",
-        "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
-        "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md"
-      },
-      "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22)."
-    },
-    {
-      "number": 968,
-      "slug": "968-tesla-drowsiness-detected-stay-focused-fsd",
-      "title": "Tesla Detected That You Were Drowsy. It Politely Suggested You Keep Driving.",
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T13:30:00-07:00",
-      "ship_date": "2027-03-05",
-      "critic_avg": 8.89,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.8,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 11.7,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 661.1, short 4.8%, long 42.9%)",
-        "hero_jpeg": true,
-        "hero_hash": "579dd134",
-        "word_count": 1205
-      },
-      "files": {
-        "research": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-research.md",
-        "draft": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.html",
-        "hero": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.jpg",
-        "critic_panel": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-critique.md"
-      },
-      "note": "2026-09-22 13:30 run: #968 (Tesla drowsiness alert, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 11.7%, rhythm PASS, hero JPEG 1920x1080 ?v=579dd134). Zero prior EA26002/Krishnamoorthi-letter coverage in 816 stories + 175 queued. Novel: alert-inversion analysis ('Drowsiness detected. Stay focused with FSD' prescribes continued automation), May-7-Model-Y-ADAS-pass vs Sept-9-defect-letter 4-month arithmetic, two-docket framing (EA26002 vs AQ26002). Primary sources: Krishnamoorthi letter (primary), NBC Aug 25 2026, Wired Sept 2025, NHTSA May 7 press release, OnStar Super Cruise protocol. Social-critic required fix applied (deadline-agnostic framing for Jan-2027 ship). Queued SHIP_BLOCKED for 2027-01-04 (1/day; #749 shipped 2026-09-22)."
-    },
-    {
-      "number": 969,
-      "slug": "969-gm-backup-camera-glue-recall",
-      "title": "Your Backup Camera Is Federally Required. GM's Glue Failed on 306,511 of Them.",
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (963- prefix). News peg: ForCar Sept 2026 brand analysis of 1,643 IIHS-rated vehicles (542 Poor/Marginal = 33%; Cadillac 79%, Chevrolet 77%, GMC 76%, Jeep 62%, Chrysler 60%). Novel: headlights as fastest-improving IIHS metric (82% bad 2016 -> 8% bad 2025 MY, driven by Top Safety Pick award requirement, not regulation); trim-trap arithmetic (IIHS rates fitted hardware, same nameplate can carry two ratings); 2.4x brand risk multiplier. Zero prior headlight coverage in 962 articles. Hero is downloaded-photo fallback (media.generate_image upstream down this run); regen AI hero before ship. No publish: 1/day rule, #819 shipped 2026-09-21.",
+      "number": 963,
       "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T15:30:00-07:00",
-      "ship_date": "2027-03-06",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-02-28",
+      "slug": "963-poor-headlights-used-car-blind-spot",
+      "started": "2026-09-21T23:30:00-07:00",
+      "title": "One in Three Cars Has Headlights IIHS Calls Poor or Marginal. At Cadillac, It's Four in Five."
+    },
+    {
       "critic_avg": 9.0,
       "critique_round": 0,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.2,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 9.1,
         "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 224.6, short 9.5%, long 47.6%)",
+        "em_dashes": 0,
+        "hero_hash": "54968c30",
         "hero_jpeg": true,
-        "hero_hash": "dde7443b",
-        "word_count": 853
+        "rhythm": "pass (variance 939.6, short 3.6%, long 46.4%)",
+        "style_css": true,
+        "the_starters_pct": 2.8,
+        "word_count": 516
       },
-      "files": {
-        "research": "drafts/969-gm-backup-camera-glue-recall-research.md",
-        "draft": "drafts/969-gm-backup-camera-glue-recall.html",
-        "hero": "drafts/969-gm-backup-camera-glue-recall.jpg",
-        "critic_panel": "drafts/969-gm-backup-camera-glue-recall-critique.md"
-      },
-      "note": "2026-09-22 15:30 run: #969 (GM 26V539000 backup-camera glue recall, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 9.1%, rhythm PASS, hero JPEG 1920x1280 ?v=dde7443b). Zero prior 26V539000/Envista/Encore-GX coverage in 816 stories + 176 queued. Novel: complaint-density arithmetic (33,000/306,511 = 10.8%), Trax concentration (159,821 units = 52%), remedy-gap analysis ('inspect and replace if necessary' vs progressive moisture intrusion), used-buyer camera checklist. Primary sources: NHTSA recalls DB (26V539000), Autoblog Sept 19 (recall-document quotes, per-model counts, A262554900), USA Today Sept 21 (notification date, service numbers), LawyersTrend Sept 18 (remedy wording), Motoring Chronicle (FMVSS 111 mandate context). Rhythm gate initially failed (variance 198.6, short 19.1%); fixed by merging short punches into longer constructions; re-verified PASS. Queued SHIP_BLOCKED for 2026-12-24 (first open slot; 1/day; #749 shipped 2026-09-22)."
-    },
-    {
-      "number": 970,
-      "slug": "970-jeep-wagoneer-flying-roof-crossbar",
-      "title": "Jeep Bolted 100,387 Road Hazards to Its Own Roofs",
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (964- prefix). News peg: Reuters Sept 22, 2026 - NHTSA closes EA into 129,092 MY 2017-2019 Ridgelines without action. Novel: 270x complaint-rate drop after remedy (3,437/117,445 vs 14/129,092, directional caveat stated), 46-month recall-to-closure timeline, 'Recall Remedy Review' frame (RQ24-011 explicitly prompted by remedy review). Zero prior probe-closure coverage in 963 articles. Rhythm round-0 fail (short 18.8%) fixed via 4 fragment merges, re-verified PASS. No publish: 1/day rule, #749 shipped 2026-09-22.",
+      "number": 964,
       "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T17:30:00-07:00",
-      "ship_date": "2027-03-07",
-      "critic_avg": 9.03,
-      "critique_round": 0,
       "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.2,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 10.6,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 379.3, short 10.8%, long 43.2%)",
-        "hero_jpeg": true,
-        "hero_hash": "5fe6a8cf",
-        "word_count": 870
-      },
-      "files": {
-        "research": "drafts/970-jeep-wagoneer-flying-roof-crossbar-research.md",
-        "draft": "drafts/970-jeep-wagoneer-flying-roof-crossbar.html",
-        "hero": "drafts/970-jeep-wagoneer-flying-roof-crossbar.jpg",
-        "critic_panel": "drafts/970-jeep-wagoneer-flying-roof-crossbar-critique.md"
-      },
-      "note": "2026-09-22 17:30 run: #970 (Jeep Wagoneer 26V584/81D roof-crossbar recall, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.03, all 7 >= 8.5; gates: em 0, banned 0, The 10.6%, rhythm PASS, hero JPEG 1920x1280 ?v=5fe6a8cf). Zero prior 26V584 coverage in 816 stories + 177 queued. Novel: externality thesis (risk falls on trailing driver, letter goes to owner), 97,349+3,038=100,387 census, 100%-defect Mopar accessory population, rattle-as-smoke-alarm reframe, July 10 2026 accessory production date. Primary sources: NHTSA 26V584, Autoblog Sept 20, Carscoops Sept 20, Auto123, AutoBodyNews, AAA Foundation debris study (200k+ crashes, 500 deaths, 2011-2014). Rhythm gate initially failed (17.5% short); fixed by merging fragments; re-verified PASS. Queued SHIP_BLOCKED for 2027-01-05 (first open slot; 1/day; #749 shipped 2026-09-22)."
-    },
-    {
-      "number": 971,
-      "slug": "971-bmw-540i-defect-petition-wear-vs-failure",
-      "title": "One Driver Wrote a Letter to the Government. Now the Feds Are Investigating 18,150 BMWs.",
-      "journalist": "Clara Rollover",
-      "kicker": "Investigation",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T19:30:00-07:00",
-      "ship_date": "2027-03-08",
-      "critic_avg": 8.97,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 8.9,
-        "voice_coach": 9.0,
+        "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.9,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 13.8,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 209.9, short 13.7%, long 49.0%)",
-        "hero_jpeg": true,
-        "hero_hash": "d609c4a3",
-        "word_count": 1081
-      },
-      "files": {
-        "research": "drafts/971-bmw-540i-defect-petition-research.md",
-        "draft": "drafts/971-bmw-540i-defect-petition-wear-vs-failure.html",
-        "hero": "drafts/971-bmw-540i-defect-petition-wear-vs-failure.jpg",
-        "critic_panel": "drafts/971-bmw-540i-defect-petition-wear-vs-failure-critique.md"
-      },
-      "note": "2026-09-22 19:30 run: #971 (BMW 540i defect petition, Sept 1 2026, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 13.8%, rhythm PASS after 3 rewrite rounds, hero JPEG 1920x1280 ?v=d609c4a3). Novel: defect-petition mechanism (49 CFR 552, one letter -> 18,150-vehicle probe), wear-vs-total-failure framing gap vs 26V525 recall (27,720, 0.2% est, adhesive remedy, letters Oct 2), parking-pawl rollaway mechanics. Zero prior petition coverage in 816 stories + 178 queued (#777 covers 26V525 recall history only). 4 primary sources. Queued SHIP_BLOCKED for 2027-01-06 (first open slot; 1/day; #749 shipped 2026-09-22). Appended to queue by 21:30 run (19:30 run set current but missed the queue append)."
-    },
-    {
-      "number": 972,
-      "slug": "972-iihs-back-seat-dummy-census",
-      "title": "IIHS Put a Dummy in the Back Seat. 147 Cars Lost Their Good Rating.",
-      "journalist": "Axle McScatter",
-      "kicker": "By The Numbers",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T21:30:00-07:00",
-      "ship_date": "2027-03-09",
-      "critic_avg": 8.96,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 8.9,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.9,
-        "social_shareability": 8.8,
+        "general_editor": 9.0,
         "legal_accuracy": 9.0,
         "research_rigor": 9.0,
-        "data_presentation": 9.1
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
       },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.2,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 673.0, short 10.4%, long 56.2%)",
-        "hero_jpeg": true,
-        "hero_hash": "2c579f1c",
-        "word_count": 1072
-      },
-      "files": {
-        "research": "drafts/972-iihs-back-seat-dummy-census-research.md",
-        "draft": "drafts/972-iihs-back-seat-dummy-census.html",
-        "hero": "drafts/972-iihs-back-seat-dummy-census.jpg",
-        "critic_panel": "drafts/972-iihs-back-seat-dummy-census-critique.md"
-      },
-      "note": "2026-09-22 21:30 run: #972 (IIHS back-seat dummy fleet census, ForCar Sept 2026, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.96, all 7 >= 8.5; gates: em 0, banned 0, The 12.2%, rhythm PASS after fragment-merge pass, hero JPEG 1920x1280 ?v=2c579f1c). Novel: fleet-wide 227/58/147 census (zero prior; #960/#962/#906 model-specific only), missing-22 audit (58+147=205, Acceptable inferred), brand table (Lexus 12/15, Toyota 37/53), 77%-to-31% model-year fix trend, used-car arbitrage (2021 vs 2024 same model). 4 primary sources (ForCar, IIHS, Autoblog Sept 3, Autopian). Queued SHIP_BLOCKED for 2027-01-07 (first open slot; 1/day; #749 shipped 2026-09-22)."
+      "ship_date": "2027-03-01",
+      "slug": "964-honda-ridgeline-probe-closed-remedy-passed",
+      "started": "2026-09-22T05:30:00-07:00",
+      "title": "NHTSA Spent 20 Months Investigating Whether Honda's Recall Worked. It Did."
     },
     {
-      "number": 973,
-      "slug": "973-robotaxi-standard-2030",
-      "title": "The First Federal Robotaxi Rule Lands in 2030. About 85 Million Rides Happen Before It.",
-      "journalist": "Vin Wreckage",
-      "kicker": "Existential Dread",
-      "phase": "SHIP_BLOCKED",
-      "started": "2026-09-22T23:30:00-07:00",
-      "ship_date": "2027-03-10",
-      "critic_avg": 8.94,
+      "critic_avg": 9.0,
       "critique_round": 0,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.9,
-        "social_shareability": 8.9,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.2,
-        "data_presentation": 8.8
-      },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 10.1,
         "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 608.2, short 10.6%, long 46.8%)",
+        "em_dashes": 0,
+        "hero_hash": "9d2778d6",
         "hero_jpeg": true,
-        "hero_hash": "24e9613b",
-        "word_count": 660
+        "rhythm": "pass (variance 515.9, short 10.5%, long 55.3%; round-0 fail 23.3% fixed via 5 fragment merges)",
+        "style_css": true,
+        "the_starters_pct": 13.2,
+        "word_count": 833
       },
-      "files": {
-        "research": "drafts/973-robotaxi-standard-2030-research.md",
-        "draft": "drafts/973-robotaxi-standard-2030.html",
-        "hero": "drafts/973-robotaxi-standard-2030.jpg",
-        "critic_panel": "drafts/973-robotaxi-standard-2030-critique.md"
-      },
-      "note": "2026-09-22 23:30 run: #973 (A2SCEND/NHTSA-SAE first federal ADS performance standard, Morrison Sept 17 PGH summit, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 10.1%, rhythm PASS after fragment-merge pass, hero JPEG 1920x1280 ?v=24e9613b). Novel: original rides-before-rule calc (500k/wk x 171 wks = 85.5M paid Waymo rides before ~2030 enforceable standard) + 36x Self Drive Act exemption multiplier (2,500->90,000); first-responder interference evidence (July 8 NHTSA call to action; AVs driving into emergency scenes, blocking ambulances, ignoring flares/cones/hand signals); Cybercab AQ26002/Special Order Sept 30 deadline. 6 sources (EV, Repairer Driven News, JDSupra/H&K, Land Line, TeslaNorth, NHTSA Report to Congress). Queued SHIP_BLOCKED for 2027-01-08 (first open slot; 1/day; #749 shipped 2026-09-22)."
-    },
-    {
-      "number": 974,
-      "slug": "974-ford-fox-wet-belt-engine-seizure",
-      "title": "The Engine That Eats Its Own Timing Belt",
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (965- prefix). Zero prior seatback-collapse coverage in 816 stories. Novel: 2025 FMVSS 207 NPRM only deletes obsolete school-bus text while BIL 2021 mandate (2-yr deadline) remains unfulfilled; ANPRM July 2024 is think-about-thinking-about-it stage; Transport Canada 23/23 case series with 11 ejections as pull stat. Actionable: kid behind unoccupied front seat (CAS 2016 petition language NHTSA never adopted). No publish: 1/day rule, #749 shipped 2026-09-22.",
+      "number": 965,
       "phase": "SHIP_BLOCKED",
-      "started": "2026-09-23T01:30:00-07:00",
-      "ship_date": "2027-03-11",
-      "critic_avg": 8.91,
-      "critique_round": 0,
       "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.9,
-        "social_shareability": 8.8,
-        "legal_accuracy": 8.9,
-        "research_rigor": 9.2,
-        "data_presentation": 8.8
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
       },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 6.7,
-        "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 245.6, short 8.9%, long 40.0%)",
-        "hero_jpeg": true,
-        "hero_hash": "9e762cf0",
-        "word_count": 988
-      },
-      "files": {
-        "research": "drafts/974-ford-fox-wet-belt-engine-seizure-research.md",
-        "draft": "drafts/974-ford-fox-wet-belt-engine-seizure.html",
-        "hero": "drafts/974-ford-fox-wet-belt-engine-seizure.jpg",
-        "critic_panel": "drafts/974-critic-panel-r0.md"
-      },
-      "blocked_reason": "Queued behind 181 prior drafts; next publish slot after #973 (2027-01-08); 1/day rule",
-      "note": "2026-09-23 01:30 run: #974 (NHTSA EA26004 Ford 1.0L EcoBoost wet-belt defect, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 6.7%, rhythm PASS, hero JPEG 1920x1280 ?v=9e762cf0). Novel: zero-paradox audit of EA26004 failure summary (355 incidents, 0 crashes/fires/injuries/fatalities), 47% design-life calc (70k avg vs 150k interval), orphan-fleet framing (Fiesta/Focus/EcoSport all discontinued, fleet aging through failure window now), Ford's quiet 100k/6yr interval cut + reimbursement program as floor-not-ceiling signal. 6 sources incl. NHTSA ODI resume EA26004. Queued SHIP_BLOCKED for 2027-01-09. Pipeline incident: hash-stamp one-liner zeroed the draft (open(f,'w') before read); rewrote from source, verified 72 lines, added AGENTS.md lesson."
+      "ship_date": "2027-03-02",
+      "slug": "965-seatback-collapse-fmvss-207-obsolete",
+      "started": "2026-09-22T07:30:00-07:00",
+      "title": "NHTSA Finally Touched the Seat-Strength Standard. It Deleted a Footnote Instead of Fixing the Collapse."
     },
     {
-      "number": 975,
-      "slug": "975-ford-maverick-brake-recall-gap",
-      "title": "15 Recalls, Zero for the Brakes: The 2024 Maverick Hybrid's Blind Spot",
-      "journalist": "Axle McScatter",
-      "kicker": "By The Numbers",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-12",
-      "started": "2026-09-23T05:30:00-07:00",
-      "critic_avg": 8.8,
+      "critic_avg": 9.0,
       "critique_round": 0,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 8.9,
-        "social_shareability": 8.5,
-        "legal_accuracy": 8.9,
-        "research_rigor": 9.0,
-        "data_presentation": 8.8
+      "files": {
+        "critic_panel": "drafts/966-drowsy-driving-no-breathalyzer-critique.md",
+        "draft": "drafts/966-drowsy-driving-no-breathalyzer.html",
+        "hero": "drafts/966-drowsy-driving-no-breathalyzer.jpg",
+        "research": "drafts/966-drowsy-driving-no-breathalyzer-research.md"
       },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 13.0,
         "css_class": true,
-        "style_css": true,
-        "rhythm": "pass (variance 343.7, short 8.2%, long 49.0%)",
+        "em_dashes": 0,
+        "hero_hash": "e1a44f05",
         "hero_jpeg": true,
-        "hero_hash": "a2b150d7",
-        "word_count": 990
+        "rhythm": "pass (variance 2965.6, short 6.8%, long 34.1%; round-0 fail 22.0% fixed via 8 fragment merges)",
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1000
       },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-09-22 09:30 run: #966 (drowsy driving undercount, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=e1a44f05). Zero prior drowsy/fatigue/sleep coverage in 816 stories + 173 queued. Novel: toxicology-desk undercount-mechanism framing (no test for sleep; dead drivers don't self-report) + Wyoming 10.26% vs Nevada 0.59% state spread as reporting artifact. NHTSA + AAA pages verified live; 2nd browser_open attempt failed mid-run (terminal for turn) so remaining refs use parent-domain links per guide. Queued SHIP_BLOCKED for 2027-01-02 (1/day; #749 shipped 2026-09-22).",
+      "number": 966,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-03",
+      "slug": "966-drowsy-driving-no-breathalyzer",
+      "started": "2026-09-22T09:30:00-07:00",
+      "title": "NHTSA Says Drowsy Driving Kills 800 Americans a Year. The Cameras Say 6,400."
+    },
+    {
+      "critic_avg": 8.97,
+      "critique_round": 0,
       "files": {
-        "research": "drafts/975-ford-maverick-brake-recall-gap-research.md",
+        "critic_panel": "drafts/967-frontover-cameras-pointed-wrong-way-critique.md",
+        "draft": "drafts/967-frontover-cameras-pointed-wrong-way.html",
+        "hero": "drafts/967-frontover-cameras-pointed-wrong-way.jpg",
+        "research": "drafts/967-frontover-cameras-pointed-wrong-way-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "aa79976e",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 270.9, short 5.3%, long 42.1%)",
+        "style_css": true,
+        "the_starters_pct": 6.0,
+        "word_count": 1004
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-09-22 11:30 run: #967 (frontover blind zones, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.0%, rhythm PASS, hero JPEG 1920x1280 ?v=aa79976e). Zero prior frontover coverage in 816 stories + 174 queued. Novel: doubling paradox (251->526 child frontover deaths 2008->2020 during the rear-camera decade), 11-yr regulatory-timeline arithmetic (~2037, ~7,000-death waiting room), screen-already-there cost argument. Primary sources: DOT via WardsAuto, Consumer Reports, STOP Frontovers Act bill text, AP Nov 2024 NCAP, Blumenthal Sep 2024. Queued SHIP_BLOCKED for 2027-01-03 (1/day; #749 shipped 2026-09-22).",
+      "number": 967,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.8,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2027-03-04",
+      "slug": "967-frontover-cameras-pointed-wrong-way",
+      "started": "2026-09-22T11:30:00-07:00",
+      "title": "We Put Cameras on the Back of Every Car. The Deaths Moved to the Front."
+    },
+    {
+      "critic_avg": 8.89,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-critique.md",
+        "draft": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.html",
+        "hero": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd.jpg",
+        "research": "drafts/968-tesla-drowsiness-detected-stay-focused-fsd-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "579dd134",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 661.1, short 4.8%, long 42.9%)",
+        "style_css": true,
+        "the_starters_pct": 11.7,
+        "word_count": 1205
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-09-22 13:30 run: #968 (Tesla drowsiness alert, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 11.7%, rhythm PASS, hero JPEG 1920x1080 ?v=579dd134). Zero prior EA26002/Krishnamoorthi-letter coverage in 816 stories + 175 queued. Novel: alert-inversion analysis ('Drowsiness detected. Stay focused with FSD' prescribes continued automation), May-7-Model-Y-ADAS-pass vs Sept-9-defect-letter 4-month arithmetic, two-docket framing (EA26002 vs AQ26002). Primary sources: Krishnamoorthi letter (primary), NBC Aug 25 2026, Wired Sept 2025, NHTSA May 7 press release, OnStar Super Cruise protocol. Social-critic required fix applied (deadline-agnostic framing for Jan-2027 ship). Queued SHIP_BLOCKED for 2027-01-04 (1/day; #749 shipped 2026-09-22).",
+      "number": 968,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "social_shareability": 9.0,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2027-03-05",
+      "slug": "968-tesla-drowsiness-detected-stay-focused-fsd",
+      "started": "2026-09-22T13:30:00-07:00",
+      "title": "Tesla Detected That You Were Drowsy. It Politely Suggested You Keep Driving."
+    },
+    {
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/969-gm-backup-camera-glue-recall-critique.md",
+        "draft": "drafts/969-gm-backup-camera-glue-recall.html",
+        "hero": "drafts/969-gm-backup-camera-glue-recall.jpg",
+        "research": "drafts/969-gm-backup-camera-glue-recall-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "dde7443b",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 224.6, short 9.5%, long 47.6%)",
+        "style_css": true,
+        "the_starters_pct": 9.1,
+        "word_count": 853
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "2026-09-22 15:30 run: #969 (GM 26V539000 backup-camera glue recall, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5; gates: em 0, banned 0, The 9.1%, rhythm PASS, hero JPEG 1920x1280 ?v=dde7443b). Zero prior 26V539000/Envista/Encore-GX coverage in 816 stories + 176 queued. Novel: complaint-density arithmetic (33,000/306,511 = 10.8%), Trax concentration (159,821 units = 52%), remedy-gap analysis ('inspect and replace if necessary' vs progressive moisture intrusion), used-buyer camera checklist. Primary sources: NHTSA recalls DB (26V539000), Autoblog Sept 19 (recall-document quotes, per-model counts, A262554900), USA Today Sept 21 (notification date, service numbers), LawyersTrend Sept 18 (remedy wording), Motoring Chronicle (FMVSS 111 mandate context). Rhythm gate initially failed (variance 198.6, short 19.1%); fixed by merging short punches into longer constructions; re-verified PASS. Queued SHIP_BLOCKED for 2026-12-24 (first open slot; 1/day; #749 shipped 2026-09-22).",
+      "number": 969,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-06",
+      "slug": "969-gm-backup-camera-glue-recall",
+      "started": "2026-09-22T15:30:00-07:00",
+      "title": "Your Backup Camera Is Federally Required. GM's Glue Failed on 306,511 of Them."
+    },
+    {
+      "critic_avg": 9.03,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/970-jeep-wagoneer-flying-roof-crossbar-critique.md",
+        "draft": "drafts/970-jeep-wagoneer-flying-roof-crossbar.html",
+        "hero": "drafts/970-jeep-wagoneer-flying-roof-crossbar.jpg",
+        "research": "drafts/970-jeep-wagoneer-flying-roof-crossbar-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "5fe6a8cf",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 379.3, short 10.8%, long 43.2%)",
+        "style_css": true,
+        "the_starters_pct": 10.6,
+        "word_count": 870
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-09-22 17:30 run: #970 (Jeep Wagoneer 26V584/81D roof-crossbar recall, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.03, all 7 >= 8.5; gates: em 0, banned 0, The 10.6%, rhythm PASS, hero JPEG 1920x1280 ?v=5fe6a8cf). Zero prior 26V584 coverage in 816 stories + 177 queued. Novel: externality thesis (risk falls on trailing driver, letter goes to owner), 97,349+3,038=100,387 census, 100%-defect Mopar accessory population, rattle-as-smoke-alarm reframe, July 10 2026 accessory production date. Primary sources: NHTSA 26V584, Autoblog Sept 20, Carscoops Sept 20, Auto123, AutoBodyNews, AAA Foundation debris study (200k+ crashes, 500 deaths, 2011-2014). Rhythm gate initially failed (17.5% short); fixed by merging fragments; re-verified PASS. Queued SHIP_BLOCKED for 2027-01-05 (first open slot; 1/day; #749 shipped 2026-09-22).",
+      "number": 970,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.2,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-07",
+      "slug": "970-jeep-wagoneer-flying-roof-crossbar",
+      "started": "2026-09-22T17:30:00-07:00",
+      "title": "Jeep Bolted 100,387 Road Hazards to Its Own Roofs"
+    },
+    {
+      "critic_avg": 8.97,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/971-bmw-540i-defect-petition-wear-vs-failure-critique.md",
+        "draft": "drafts/971-bmw-540i-defect-petition-wear-vs-failure.html",
+        "hero": "drafts/971-bmw-540i-defect-petition-wear-vs-failure.jpg",
+        "research": "drafts/971-bmw-540i-defect-petition-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "d609c4a3",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 209.9, short 13.7%, long 49.0%)",
+        "style_css": true,
+        "the_starters_pct": 13.8,
+        "word_count": 1081
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "note": "2026-09-22 19:30 run: #971 (BMW 540i defect petition, Sept 1 2026, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 13.8%, rhythm PASS after 3 rewrite rounds, hero JPEG 1920x1280 ?v=d609c4a3). Novel: defect-petition mechanism (49 CFR 552, one letter -> 18,150-vehicle probe), wear-vs-total-failure framing gap vs 26V525 recall (27,720, 0.2% est, adhesive remedy, letters Oct 2), parking-pawl rollaway mechanics. Zero prior petition coverage in 816 stories + 178 queued (#777 covers 26V525 recall history only). 4 primary sources. Queued SHIP_BLOCKED for 2027-01-06 (first open slot; 1/day; #749 shipped 2026-09-22). Appended to queue by 21:30 run (19:30 run set current but missed the queue append).",
+      "number": 971,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.9,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-08",
+      "slug": "971-bmw-540i-defect-petition-wear-vs-failure",
+      "started": "2026-09-22T19:30:00-07:00",
+      "title": "One Driver Wrote a Letter to the Government. Now the Feds Are Investigating 18,150 BMWs."
+    },
+    {
+      "critic_avg": 8.96,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/972-iihs-back-seat-dummy-census-critique.md",
+        "draft": "drafts/972-iihs-back-seat-dummy-census.html",
+        "hero": "drafts/972-iihs-back-seat-dummy-census.jpg",
+        "research": "drafts/972-iihs-back-seat-dummy-census-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "2c579f1c",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 673.0, short 10.4%, long 56.2%)",
+        "style_css": true,
+        "the_starters_pct": 12.2,
+        "word_count": 1072
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-09-22 21:30 run: #972 (IIHS back-seat dummy fleet census, ForCar Sept 2026, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.96, all 7 >= 8.5; gates: em 0, banned 0, The 12.2%, rhythm PASS after fragment-merge pass, hero JPEG 1920x1280 ?v=2c579f1c). Novel: fleet-wide 227/58/147 census (zero prior; #960/#962/#906 model-specific only), missing-22 audit (58+147=205, Acceptable inferred), brand table (Lexus 12/15, Toyota 37/53), 77%-to-31% model-year fix trend, used-car arbitrage (2021 vs 2024 same model). 4 primary sources (ForCar, IIHS, Autoblog Sept 3, Autopian). Queued SHIP_BLOCKED for 2027-01-07 (first open slot; 1/day; #749 shipped 2026-09-22).",
+      "number": 972,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.1,
+        "ethics_reviewer": 8.9,
+        "general_editor": 8.9,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-09",
+      "slug": "972-iihs-back-seat-dummy-census",
+      "started": "2026-09-22T21:30:00-07:00",
+      "title": "IIHS Put a Dummy in the Back Seat. 147 Cars Lost Their Good Rating."
+    },
+    {
+      "critic_avg": 8.94,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/973-robotaxi-standard-2030-critique.md",
+        "draft": "drafts/973-robotaxi-standard-2030.html",
+        "hero": "drafts/973-robotaxi-standard-2030.jpg",
+        "research": "drafts/973-robotaxi-standard-2030-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "24e9613b",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 608.2, short 10.6%, long 46.8%)",
+        "style_css": true,
+        "the_starters_pct": 10.1,
+        "word_count": 660
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-09-22 23:30 run: #973 (A2SCEND/NHTSA-SAE first federal ADS performance standard, Morrison Sept 17 PGH summit, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 10.1%, rhythm PASS after fragment-merge pass, hero JPEG 1920x1280 ?v=24e9613b). Novel: original rides-before-rule calc (500k/wk x 171 wks = 85.5M paid Waymo rides before ~2030 enforceable standard) + 36x Self Drive Act exemption multiplier (2,500->90,000); first-responder interference evidence (July 8 NHTSA call to action; AVs driving into emergency scenes, blocking ambulances, ignoring flares/cones/hand signals); Cybercab AQ26002/Special Order Sept 30 deadline. 6 sources (EV, Repairer Driven News, JDSupra/H&K, Land Line, TeslaNorth, NHTSA Report to Congress). Queued SHIP_BLOCKED for 2027-01-08 (first open slot; 1/day; #749 shipped 2026-09-22).",
+      "number": 973,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 8.9,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "social_shareability": 8.9,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-10",
+      "slug": "973-robotaxi-standard-2030",
+      "started": "2026-09-22T23:30:00-07:00",
+      "title": "The First Federal Robotaxi Rule Lands in 2030. About 85 Million Rides Happen Before It."
+    },
+    {
+      "blocked_reason": "Queued behind 181 prior drafts; next publish slot after #973 (2027-01-08); 1/day rule",
+      "critic_avg": 8.91,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/974-critic-panel-r0.md",
+        "draft": "drafts/974-ford-fox-wet-belt-engine-seizure.html",
+        "hero": "drafts/974-ford-fox-wet-belt-engine-seizure.jpg",
+        "research": "drafts/974-ford-fox-wet-belt-engine-seizure-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "9e762cf0",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 245.6, short 8.9%, long 40.0%)",
+        "style_css": true,
+        "the_starters_pct": 6.7,
+        "word_count": 988
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-09-23 01:30 run: #974 (NHTSA EA26004 Ford 1.0L EcoBoost wet-belt defect, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 6.7%, rhythm PASS, hero JPEG 1920x1280 ?v=9e762cf0). Novel: zero-paradox audit of EA26004 failure summary (355 incidents, 0 crashes/fires/injuries/fatalities), 47% design-life calc (70k avg vs 150k interval), orphan-fleet framing (Fiesta/Focus/EcoSport all discontinued, fleet aging through failure window now), Ford's quiet 100k/6yr interval cut + reimbursement program as floor-not-ceiling signal. 6 sources incl. NHTSA ODI resume EA26004. Queued SHIP_BLOCKED for 2027-01-09. Pipeline incident: hash-stamp one-liner zeroed the draft (open(f,'w') before read); rewrote from source, verified 72 lines, added AGENTS.md lesson.",
+      "number": 974,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 8.9,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.2,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-11",
+      "slug": "974-ford-fox-wet-belt-engine-seizure",
+      "started": "2026-09-23T01:30:00-07:00",
+      "title": "The Engine That Eats Its Own Timing Belt"
+    },
+    {
+      "blocked_reason": "Queued behind 182 prior drafts; next publish slot after #974 (2027-01-09); 1/day rule",
+      "critic_avg": 8.8,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/975-critic-panel-r0.md",
         "draft": "drafts/975-ford-maverick-brake-recall-gap.html",
         "hero": "drafts/975-ford-maverick-brake-recall-gap.jpg",
-        "critic_panel": "drafts/975-critic-panel-r0.md"
+        "research": "drafts/975-ford-maverick-brake-recall-gap-research.md"
       },
-      "blocked_reason": "Queued behind 182 prior drafts; next publish slot after #974 (2027-01-09); 1/day rule",
-      "note": "2026-09-23 05:30 run: #975 (NHTSA DP26007 on 2024 Maverick Hybrid brake petition, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 13.0%, rhythm PASS, hero JPEG 1920x1280 ?v=a2b150d7). Novel: complaints-API census (72 records, 8 brake-mentioning = 11%, 3 crash-flagged = 37.5%, petitioner's 3 ODI filings linked), 15-recall-zero-brake census, 4-slice brake-hardware boundary timeline (22V730 -> 25V124 -> 25V787 (2 vehicles) -> DP26007 pending on 82,040). Queued SHIP_BLOCKED for 2027-01-10."
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "a2b150d7",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 343.7, short 8.2%, long 49.0%)",
+        "style_css": true,
+        "the_starters_pct": 13.0,
+        "word_count": 990
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-09-23 05:30 run: #975 (NHTSA DP26007 on 2024 Maverick Hybrid brake petition, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 13.0%, rhythm PASS, hero JPEG 1920x1280 ?v=a2b150d7). Novel: complaints-API census (72 records, 8 brake-mentioning = 11%, 3 crash-flagged = 37.5%, petitioner's 3 ODI filings linked), 15-recall-zero-brake census, 4-slice brake-hardware boundary timeline (22V730 -> 25V124 -> 25V787 (2 vehicles) -> DP26007 pending on 82,040). Queued SHIP_BLOCKED for 2027-01-10.",
+      "number": 975,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 8.9,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 8.7
+      },
+      "ship_date": "2027-03-12",
+      "slug": "975-ford-maverick-brake-recall-gap",
+      "started": "2026-09-23T05:30:00-07:00",
+      "title": "15 Recalls, Zero for the Brakes: The 2024 Maverick Hybrid's Blind Spot"
     },
     {
       "avg_critic": 8.83,
@@ -6512,19 +6512,19 @@
         "research": "drafts/976-jlr-dcdc-converter-warning-recall-research.md"
       },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 3.3,
         "css_class": true,
-        "style_css": true,
+        "em_dashes": 0,
+        "hero_hash": "53258d05",
+        "hero_jpeg": true,
         "sentence_rhythm": {
           "long_pct": 32.7,
           "passed": true,
           "short_pct": 11.5,
           "variance": 481.8
         },
-        "hero_jpeg": true,
-        "hero_hash": "53258d05",
+        "style_css": true,
+        "the_starters_pct": 3.3,
         "word_count": 966
       },
       "journalist": "Rex Driverton",
@@ -6546,268 +6546,268 @@
       "title": "JLR's Fix for 23,677 Cars That Can Die in the Dark Is a Warning Light"
     },
     {
-      "number": 977,
-      "slug": "977-rivian-notification-blocks-backup-camera",
-      "title": "A Pop-Up Was Blocking the Backup Camera on 98,828 Rivians",
-      "journalist": "Mia Crumplezone",
-      "kicker": "Trend Watch",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-14",
-      "critique_round": 0,
       "avg_critic": 8.79,
-      "scores": {
-        "general_editor": 8.7,
-        "voice_coach": 8.8,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 8.8,
-        "research_rigor": 8.8,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 2.6,
-        "css_class": true,
-        "style_css": true,
-        "sentence_rhythm": {
-          "long_pct": 26.3,
-          "passed": true,
-          "short_pct": 13.2,
-          "variance": 168.4
-        },
-        "hero_jpeg": true,
-        "hero_hash": "4df238b3",
-        "word_count": 825
-      },
+      "blocked_reason": "Queued behind 184 prior drafts; next publish slot 2027-01-12; 1/day rule consumed by #750 on 2026-09-23",
+      "critique_round": 0,
       "files": {
         "critic_panel": "drafts/977-critic-panel-r0.md",
         "draft": "drafts/977-rivian-notification-blocks-backup-camera.html",
         "hero": "drafts/977-rivian-notification-blocks-backup-camera.jpg",
         "research": "drafts/977-rivian-notification-blocks-backup-camera-research.md"
       },
-      "blocked_reason": "Queued behind 184 prior drafts; next publish slot 2027-01-12; 1/day rule consumed by #750 on 2026-09-23",
-      "note": "2026-09-23 09:30 run: #977 (Rivian FSAM-1866 backup-camera notification obstruction, 98,828 R1T/R1S/R2, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 2.6%, rhythm PASS, hero JPEG 2352x1008 ?v=4df238b3). Novel: UI-layer defect (notification occludes federally mandated FMVSS 111 display), first-model-year 2027 R2 included, OTA fix 2026.23/2026.31 shipped before Nov 9 mail letters. Queued SHIP_BLOCKED for 2027-01-12."
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "4df238b3",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 26.3,
+          "passed": true,
+          "short_pct": 13.2,
+          "variance": 168.4
+        },
+        "style_css": true,
+        "the_starters_pct": 2.6,
+        "word_count": 825
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Trend Watch",
+      "note": "2026-09-23 09:30 run: #977 (Rivian FSAM-1866 backup-camera notification obstruction, 98,828 R1T/R1S/R2, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 2.6%, rhythm PASS, hero JPEG 2352x1008 ?v=4df238b3). Novel: UI-layer defect (notification occludes federally mandated FMVSS 111 display), first-model-year 2027 R2 included, OTA fix 2026.23/2026.31 shipped before Nov 9 mail letters. Queued SHIP_BLOCKED for 2027-01-12.",
+      "number": 977,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2027-03-14",
+      "slug": "977-rivian-notification-blocks-backup-camera",
+      "title": "A Pop-Up Was Blocking the Backup Camera on 98,828 Rivians"
     },
     {
-      "number": 978,
-      "slug": "978-comma-ai-nhtsa-probe-forked-openpilot",
-      "title": "NHTSA Is Probing Comma.ai's Driver-Assistance Kit. Good Luck Finding the Manufacturer.",
-      "journalist": "Vin Wreckage",
-      "kicker": "Existential Dread",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-15",
-      "critique_round": 0,
       "avg_critic": 8.79,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 8.8,
-        "research_rigor": 8.7,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.5,
-        "css_class": true,
-        "style_css": true,
-        "sentence_rhythm": {
-          "long_pct": 43.1,
-          "passed": true,
-          "short_pct": 9.8,
-          "variance": 498.8
-        },
-        "hero_jpeg": true,
-        "hero_hash": "26ce5d10",
-        "word_count": 910
-      },
+      "blocked_reason": "Queued behind 185 prior drafts; next publish slot 2027-01-13; 1/day rule consumed by #750 on 2026-09-23",
+      "critique_round": 0,
       "files": {
         "critic_panel": "drafts/978-critic-panel-r0.md",
         "draft": "drafts/978-comma-ai-nhtsa-probe-forked-openpilot.html",
         "hero": "drafts/978-comma-ai-nhtsa-probe-forked-openpilot.jpg",
         "research": "drafts/978-comma-ai-nhtsa-probe-forked-openpilot-research.md"
       },
-      "blocked_reason": "Queued behind 185 prior drafts; next publish slot 2027-01-13; 1/day rule consumed by #750 on 2026-09-23",
-      "note": "2026-09-23 11:30 run: #978 (Comma.ai ODI probe Sep 23 2026, 5 crashes / 3 deaths / 11 injuries, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 12.5%, rhythm PASS, hero JPEG 1920x1280 ?v=26ce5d10). Novel: fork-accountability analysis (Feb 2026 Ascension Parish FrogPilot fatal crash, manufacturer = GitHub repo problem), original per-mile calc 0.75/100M vs 1.20 national with stated caveats, 2016-2026 regulatory arc. Queued SHIP_BLOCKED for 2027-01-13."
-    },
-    {
-      "number": 979,
-      "slug": "979-gm-eboost-brake-assist-engineering-analysis",
-      "title": "GM Says Its Brake Failures Happen After You Stop. 745 Drivers Say Otherwise.",
-      "journalist": "Clara Rollover",
-      "kicker": "The Gap",
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "26ce5d10",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 43.1,
+          "passed": true,
+          "short_pct": 9.8,
+          "variance": 498.8
+        },
+        "style_css": true,
+        "the_starters_pct": 12.5,
+        "word_count": 910
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-09-23 11:30 run: #978 (Comma.ai ODI probe Sep 23 2026, 5 crashes / 3 deaths / 11 injuries, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 12.5%, rhythm PASS, hero JPEG 1920x1280 ?v=26ce5d10). Novel: fork-accountability analysis (Feb 2026 Ascension Parish FrogPilot fatal crash, manufacturer = GitHub repo problem), original per-mile calc 0.75/100M vs 1.20 national with stated caveats, 2016-2026 regulatory arc. Queued SHIP_BLOCKED for 2027-01-13.",
+      "number": 978,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-16",
-      "critique_round": 0,
-      "avg_critic": 8.79,
       "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
+        "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
+        "general_editor": 8.8,
         "legal_accuracy": 8.8,
         "research_rigor": 8.7,
-        "data_presentation": 8.8
+        "social_shareability": 8.7,
+        "voice_coach": 8.7
       },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 8.3,
-        "css_class": true,
-        "style_css": true,
-        "sentence_rhythm": {
-          "variance": 633.3,
-          "short_pct": 11.1,
-          "long_pct": 37.0,
-          "passed": true
-        },
-        "hero_jpeg": true,
-        "hero_hash": "b29adb83",
-        "word_count": 709
-      },
+      "ship_date": "2027-03-15",
+      "slug": "978-comma-ai-nhtsa-probe-forked-openpilot",
+      "title": "NHTSA Is Probing Comma.ai's Driver-Assistance Kit. Good Luck Finding the Manufacturer."
+    },
+    {
+      "avg_critic": 8.79,
+      "blocked_reason": "Queued behind 186 prior drafts; next publish slot 2027-01-14; 1/day rule consumed by #750 on 2026-09-23",
+      "critique_round": 0,
       "files": {
         "critic_panel": "drafts/979-gm-eboost-brake-assist-engineering-analysis-critic-panel-r0.md",
         "draft": "drafts/979-gm-eboost-brake-assist-engineering-analysis.html",
         "hero": "drafts/979-gm-eboost-brake-assist-engineering-analysis.jpg",
         "research": "drafts/979-gm-eboost-brake-assist-engineering-analysis-research.md"
       },
-      "blocked_reason": "Queued behind 186 prior drafts; next publish slot 2027-01-14; 1/day rule consumed by #750 on 2026-09-23",
-      "note": "2026-09-23 17:30 run: #979 (GM eBoost brake-assist EA escalation ~Aug 21 2026, 745 incidents / 21 crashes / 5 injuries / ~1.16M vehicles incl. Honda Prologue + Acura ZDX, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 8.3%, rhythm PASS, hero JPEG 1920x1280 ?v=b29adb83). Novel: dueling-failure-descriptions framing (GM's benign post-stop sequence vs ODI's mid-braking reports) + 64/100k incident-rate calc + cross-brand part-sharing exposure. Queued SHIP_BLOCKED for 2027-01-14."
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "b29adb83",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 37.0,
+          "passed": true,
+          "short_pct": 11.1,
+          "variance": 633.3
+        },
+        "style_css": true,
+        "the_starters_pct": 8.3,
+        "word_count": 709
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "2026-09-23 17:30 run: #979 (GM eBoost brake-assist EA escalation ~Aug 21 2026, 745 incidents / 21 crashes / 5 injuries / ~1.16M vehicles incl. Honda Prologue + Acura ZDX, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 8.3%, rhythm PASS, hero JPEG 1920x1280 ?v=b29adb83). Novel: dueling-failure-descriptions framing (GM's benign post-stop sequence vs ODI's mid-braking reports) + 64/100k incident-rate calc + cross-brand part-sharing exposure. Queued SHIP_BLOCKED for 2027-01-14.",
+      "number": 979,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "social_shareability": 8.7,
+        "voice_coach": 8.7
+      },
+      "ship_date": "2027-03-16",
+      "slug": "979-gm-eboost-brake-assist-engineering-analysis",
+      "title": "GM Says Its Brake Failures Happen After You Stop. 745 Drivers Say Otherwise."
     },
     {
-      "number": 980,
-      "slug": "980-gm-camera-glue-recall",
-      "title": "GM Is Recalling 306,511 SUVs Because the Glue Holding Their Backup Cameras Together Gave Up",
-      "journalist": "Mia Crumplezone",
-      "kicker": "Investigation",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-17",
-      "critique_round": 0,
       "avg_critic": 8.83,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.9,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.6,
-        "legal_accuracy": 8.9,
-        "research_rigor": 8.8,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dashes": 1,
-        "banned_phrases": 0,
-        "the_starters_pct": 3.6,
-        "css_class": true,
-        "style_css": true,
-        "sentence_rhythm": {
-          "variance": 1053.7,
-          "short_pct": 14.3,
-          "long_pct": 34.3,
-          "passed": true
-        },
-        "hero_jpeg": true,
-        "hero_hash": "3a0d9bbc",
-        "word_count": 843
-      },
+      "blocked_reason": "Queued behind 187 prior drafts; next publish slot 2027-01-15; 1/day rule consumed by #750 on 2026-09-23",
+      "critique_round": 0,
       "files": {
         "critic_panel": "drafts/980-gm-camera-glue-recall-critic-panel-r0.md",
         "draft": "drafts/980-gm-camera-glue-recall.html",
         "hero": "drafts/980-gm-camera-glue-recall.jpg",
         "research": "drafts/980-gm-camera-glue-recall-research.md"
       },
-      "blocked_reason": "Queued behind 187 prior drafts; next publish slot 2027-01-15; 1/day rule consumed by #750 on 2026-09-23",
-      "note": "2026-09-23 19:30 run: #980 (GM 26V539000 camera recall, Sep 17 2026, 306,511 SUVs incl. 2025 Trax 52.1%, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.83, all 7 >= 8.5; gates: em 1, banned 0, The 3.6%, rhythm PASS, hero JPEG 1920x1280 ?v=3a0d9bbc). Novel: 10.8% complaint-density metric + mandated-equipment reframe (blank screen = FMVSS 111 required safety device failing, 292 backover deaths/yr context). Queued SHIP_BLOCKED for 2027-01-15."
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 1,
+        "hero_hash": "3a0d9bbc",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 34.3,
+          "passed": true,
+          "short_pct": 14.3,
+          "variance": 1053.7
+        },
+        "style_css": true,
+        "the_starters_pct": 3.6,
+        "word_count": 843
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-09-23 19:30 run: #980 (GM 26V539000 camera recall, Sep 17 2026, 306,511 SUVs incl. 2025 Trax 52.1%, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.83, all 7 >= 8.5; gates: em 1, banned 0, The 3.6%, rhythm PASS, hero JPEG 1920x1280 ?v=3a0d9bbc). Novel: 10.8% complaint-density metric + mandated-equipment reframe (blank screen = FMVSS 111 required safety device failing, 292 backover deaths/yr context). Queued SHIP_BLOCKED for 2027-01-15.",
+      "number": 980,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "social_shareability": 8.6,
+        "voice_coach": 8.9
+      },
+      "ship_date": "2027-03-17",
+      "slug": "980-gm-camera-glue-recall",
+      "title": "GM Is Recalling 306,511 SUVs Because the Glue Holding Their Backup Cameras Together Gave Up"
     },
     {
-      "number": 981,
-      "slug": "981-jeep-park-outside-fire-recall",
-      "title": "Jeep Told 1.08 Million Owners to Park Outside in June, and the Fix Still Isn't Here",
-      "journalist": "Rex Driverton",
-      "kicker": "Investigation",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-18",
-      "critique_round": 0,
       "avg_critic": 8.89,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.7,
-        "legal_accuracy": 8.8,
-        "research_rigor": 8.9,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 1,
-        "banned_phrases": 0,
-        "the_starters_pct": 3.1,
-        "css_class": true,
-        "style_css": true,
-        "sentence_rhythm": {
-          "variance": 1416.5,
-          "short_pct": 0.0,
-          "long_pct": 56.0,
-          "passed": true
-        },
-        "hero_jpeg": true,
-        "hero_hash": "b20e4a02",
-        "word_count": 648
-      },
+      "blocked_reason": "Queued behind 188 prior drafts; next publish slot 2027-01-16; 1/day rule consumed by #750 on 2026-09-23",
+      "critique_round": 0,
       "files": {
         "critic_panel": "drafts/981-jeep-park-outside-fire-recall-critic-panel-r0.md",
         "draft": "drafts/981-jeep-park-outside-fire-recall.html",
         "hero": "drafts/981-jeep-park-outside-fire-recall.jpg",
         "research": "drafts/981-jeep-park-outside-fire-recall-research.md"
       },
-      "blocked_reason": "Queued behind 188 prior drafts; next publish slot 2027-01-16; 1/day rule consumed by #750 on 2026-09-23",
-      "note": "2026-09-23 21:30 run: #981 (NHTSA 26V363/FCA 21D Jeep Wrangler+Gladiator park-outside fire recall, filed Jun 4 2026, 1,076,999 vehicles; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 1, banned 0, The 3.1%, rhythm PASS, hero JPEG 1920x1280 ?v=b20e4a02). Novel: missed end-of-July remedy deadline (still no fix per Sep 21 roundup) + closed-then-reopened investigation timeline (May 2023-Apr 2024 closed, reopened Aug 2024, NHTSA probe Sep 2024) + 0.1%-vs-100% contrast (~1,077 defective vs 1.08M displaced) + fire-rate math (6.7/100k). Pre-panel fix: 'eleven-month stretch' -> 'four months'. Queued SHIP_BLOCKED for 2027-01-16."
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 1,
+        "hero_hash": "b20e4a02",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 56.0,
+          "passed": true,
+          "short_pct": 0.0,
+          "variance": 1416.5
+        },
+        "style_css": true,
+        "the_starters_pct": 3.1,
+        "word_count": 648
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-09-23 21:30 run: #981 (NHTSA 26V363/FCA 21D Jeep Wrangler+Gladiator park-outside fire recall, filed Jun 4 2026, 1,076,999 vehicles; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 1, banned 0, The 3.1%, rhythm PASS, hero JPEG 1920x1280 ?v=b20e4a02). Novel: missed end-of-July remedy deadline (still no fix per Sep 21 roundup) + closed-then-reopened investigation timeline (May 2023-Apr 2024 closed, reopened Aug 2024, NHTSA probe Sep 2024) + 0.1%-vs-100% contrast (~1,077 defective vs 1.08M displaced) + fire-rate math (6.7/100k). Pre-panel fix: 'eleven-month stretch' -> 'four months'. Queued SHIP_BLOCKED for 2027-01-16.",
+      "number": 981,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-18",
+      "slug": "981-jeep-park-outside-fire-recall",
+      "title": "Jeep Told 1.08 Million Owners to Park Outside in June, and the Fix Still Isn't Here"
     },
     {
-      "number": 982,
-      "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
-      "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does.",
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-03-19",
-      "critique_round": 0,
       "avg_critic": 8.89,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.8,
-        "social_shareability": 8.7,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.7,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 0.0,
-        "css_class": true,
-        "style_css": true,
-        "sentence_rhythm": {
-          "variance": 214.1,
-          "short_pct": 11.5,
-          "long_pct": 34.6,
-          "passed": true
-        },
-        "hero_jpeg": true,
-        "hero_hash": "80fb21e7",
-        "word_count": 890
-      },
+      "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-01-17",
+      "critique_round": 0,
       "files": {
-        "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md",
+        "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md",
         "draft": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.html",
         "hero": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.jpg",
-        "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md"
+        "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md"
       },
-      "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-01-17",
-      "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study."
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "80fb21e7",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 34.6,
+          "passed": true,
+          "short_pct": 11.5,
+          "variance": 214.1
+        },
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 890
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study.",
+      "number": 982,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.8,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-03-19",
+      "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
+      "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does."
     }
   ]
 }
