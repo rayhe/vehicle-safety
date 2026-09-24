@@ -5,12 +5,12 @@
     "title": "Two Brands, One Factory, Same Battery Defect",
     "journalist": "Rex Driverton",
     "kicker": "Investigation",
-    "phase": "SHIP_BLOCKED",
+    "phase": "QA",
     "ship_date": "2026-09-24",
-    "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24. | 2026-09-23 13:30 run: fixed slug/file mismatch (Sep 5 hygiene rename 'chevrolet-colorado-wrong-gear' matched no files; real draft from Aug 15 CRITIQUE PASS is SK On electrode-misalignment investigation). Files git-mv'd to 751-sk-on-electrode-* and og:image updated. 1/day slot consumed by #750; #751 ships 2026-09-24.",
+    "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24. | 2026-09-23 13:30 run: fixed slug/file mismatch (Sep 5 hygiene rename 'chevrolet-colorado-wrong-gear' matched no files; real draft from Aug 15 CRITIQUE PASS is SK On electrode-misalignment investigation). Files git-mv'd to 751-sk-on-electrode-* and og:image updated. 1/day slot consumed by #750; #751 ships 2026-09-24. | 2026-09-24 01:30 run: published as #751 (git 7801d400), slot was free; moved to stories/ + images/, index card + sitemap entry added. | QA local checks (story, hero, og tags, index card, sitemap) all PASS. Live-site verification blocked: browser_open failed 2026-09-24 ~01:40 PDT (tool failure, no retry permitted); next run must verify https://vehicle-safety.org/stories/751-sk-on-electrode-misalignment-two-oems-one-defect.html before clearing current.",
     "files": {
-      "draft": "drafts/751-sk-on-electrode-misalignment-two-oems-one-defect.html",
-      "hero": "drafts/751-sk-on-electrode-misalignment-two-oems-one-defect.jpg",
+      "draft": "stories/751-sk-on-electrode-misalignment-two-oems-one-defect.html",
+      "hero": "images/751-sk-on-electrode-misalignment-two-oems-one-defect.jpg",
       "research": "drafts/751-sk-on-electrode-misalignment-two-oems-one-defect-research.md"
     }
   },
