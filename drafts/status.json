@@ -6,7 +6,7 @@
     "journalist": "Dale Impactor III",
     "kicker": "Sobriety Report",
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-01-17",
+    "ship_date": "2027-03-19",
     "critique_round": 0,
     "avg_critic": 8.89,
     "scores": {
@@ -40,11 +40,11 @@
       "hero": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.jpg",
       "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md"
     },
-    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-01-17",
+    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-03-19",
     "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study."
   },
-  "last_check_note": "2026-09-23 23:30 run: 1/day slot consumed by Publish #750 (2026-09-23, QA live-verified); #751 (SK On electrode-misalignment, Rex Driverton) remains SHIP_BLOCKED for 2026-09-24 ship window. Draft files verified present (html 8348 bytes, hero 506813 bytes), tree clean. No phase advance.",
-  "last_checked": "2026-09-24T04:10:00-07:00",
+  "last_check_note": "2026-09-24 05:30 run: 1/day slot consumed by Publish #751 (QA live-verified 03:30). Queue hygiene: #751 marked PUBLISHED; last_published=751/2026-09-24; all 176 SHIP_BLOCKED ship_dates renumbered strict 1/day from 2026-09-25 in number order (fixes 46 overdue + 15 dateless + 2/day overlaps; tail now 2027-03-19). Ship order = lowest number first: #752 (Mach-E, Vin Wreckage, hero in images/) due 2026-09-25, #753 due 2026-09-26, #756 due 2026-09-27, #763 due 2026-09-28. Known hero gaps (ship run must generate or skip): #763, #817, #836, #869, #886; #817/#836 also lack draft HTML. Removed 2 stale untracked media-generation leftovers from #982. Tree clean, no phase advance.",
+  "last_checked": "2026-09-24T05:30:00-07:00",
   "last_completed": {
     "number": 751,
     "slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
@@ -56,9 +56,9 @@
     "qa_live_verified": true
   },
   "last_journalist": "Dale Impactor III",
-  "last_published": 749,
-  "last_published_date": "2026-09-22",
-  "last_published_slug": "749-ford-trailer-module-race-condition",
+  "last_published": 751,
+  "last_published_date": "2026-09-24",
+  "last_published_slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
   "next": 983,
   "queue": [
     {
@@ -80,9 +80,9 @@
     },
     {
       "journalist": "Rex Driverton",
-      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24.",
+      "note": "2026-09-05 queue hygiene: slug corrected to match actual draft files (CRITIQUE PASS Aug 15) | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-23 05:30 run: 1/day slot consumed by #750; bumped ship_date to 2026-09-24. | 2026-09-24 03:30 run: shipped as Publish #751 + QA live-verified; queue entry marked PUBLISHED by 05:30 hygiene run.",
       "number": 751,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "ship_date": "2026-09-24",
       "slug": "sk-on-electrode-misalignment-two-oems-one-defect"
     },
@@ -90,7 +90,7 @@
       "journalist": "Vin Wreckage",
       "number": 752,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-25",
       "slug": "mach-e-every-model-year-recalled",
       "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
@@ -98,7 +98,7 @@
       "journalist": "Axle McScatter",
       "number": 753,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-26",
       "slug": "point-nine-nine-norway-is-at-point-two",
       "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
@@ -106,7 +106,7 @@
       "journalist": "Clara Rollover",
       "number": 756,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-27",
       "slug": "mass-shooting-road-death-spillover",
       "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
@@ -124,7 +124,7 @@
         "social_shareability": 9.5,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-28",
       "slug": "ev-fire-blanket-explosion-risk",
       "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
@@ -141,7 +141,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-29",
       "slug": "ota-recall-fix-parts-tariff-two-tier",
       "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
@@ -158,7 +158,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-09-30",
       "slug": "cx90-three-fixes-steering-still-broken",
       "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23."
     },
@@ -187,7 +187,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-01",
       "slug": "stellantis-camera-recall-groundhog-day",
       "started": "2026-08-18T06:30:00Z",
       "title": "Stellantis Has Recalled the Same Backup Camera Bug Seven Times. It Keeps Shipping.",
@@ -218,7 +218,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-26",
+      "ship_date": "2026-10-02",
       "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
       "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive"
     },
@@ -250,7 +250,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-27",
+      "ship_date": "2026-10-03",
       "slug": "recall-letter-lag-millions-drive-unaware",
       "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks."
     },
@@ -282,7 +282,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-28",
+      "ship_date": "2026-10-04",
       "slug": "powertrain-recall-explosion-251-percent",
       "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update."
     },
@@ -348,7 +348,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-05",
       "slug": "toxicology-backlog-evidence-expires",
       "started": "2026-08-19T10:30:00Z",
       "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
@@ -383,7 +383,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-29",
+      "ship_date": "2026-10-06",
       "slug": "gm-eboost-1-million-brakes-fail-mid-stop",
       "started": "2026-08-25T12:30:00Z",
       "title": "GM Replaced a Mechanical Brake Booster With Software. It Failed 745 Times. Now 1.16 Million Vehicles Are Under Federal Investigation."
@@ -409,7 +409,7 @@
       "kicker": "Investigation",
       "number": 802,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-07",
       "slug": "lucid-air-efuse-fire-recall",
       "started": "2026-09-03T10:45:00Z",
       "title": "Lucid Recalled Nearly Every Air It Ever Built Because the Fuse Was Software, and the Software Had a Bug",
@@ -598,7 +598,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-08",
       "slug": "ford-ecoboost-piston-dome-crater-crack",
       "started": "2026-09-04T00:30:00Z",
       "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind.",
@@ -635,7 +635,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-09",
       "slug": "810-sobriety-ladder-test",
       "started": "2026-09-04T02:29:34Z",
       "title": "The Cheaper the Audi, the Drunker the Driver. BMW Works the Other Way Around.",
@@ -647,7 +647,7 @@
       "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 811,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-10",
       "slug": "tesla-model-y-19-bolt-recall-torque-tool-off"
     },
     {
@@ -683,7 +683,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-11",
       "slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
       "started": "2026-09-04T06:15:00Z",
       "title": "Tesla Is Carrying Passengers in a Car With No Steering Wheel. Washington Is \"Evaluating the Situation.\""
@@ -711,7 +711,7 @@
       "note": "Round-0 pass 9.0 avg (split one 125-word sentence pre-critique; merged 6 short fragments to clear rhythm gate). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 813,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-12",
       "slug": "drunk-tank-index",
       "started": "2026-09-04T08:30:00Z",
       "title": "One in Four Drivers Who Died in These Cars Was Impaired. They Are Some of the Safest Cars on the Road."
@@ -750,7 +750,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-13",
       "slug": "q1-2026-099-rate-record-chase",
       "started": "2026-09-04T10:30:00Z",
       "title": "The U.S. Just Posted a 0.99 Traffic Fatality Rate. The All-Time Record Is 0.98."
@@ -789,7 +789,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-14",
       "slug": "ford-2026-model-year-recall-census",
       "started": "2026-09-04T12:45:00Z",
       "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s."
@@ -867,7 +867,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-15",
       "slug": "alcohol-crash-innocent-victims-39-percent",
       "started": "2026-09-04T18:00:00Z",
       "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking."
@@ -978,7 +978,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-16",
       "slug": "mach-e-fast-jig-loose-trim",
       "started": "2026-09-05T00:30:00Z",
       "title": "Ford Sped Up the Assembly Line. The Glue Never Got the Memo."
@@ -1017,7 +1017,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-10-17",
       "slug": "rear-camera-recall-census",
       "started": "2026-09-05T02:30:00Z",
       "title": "Tesla Recalled 239,000 Vehicles for a Dead Rear Camera. This Week, Ram Recalled 239,131. The Camera Was Never the Problem."
@@ -1056,7 +1056,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-24",
+      "ship_date": "2026-10-18",
       "slug": "tesla-cybercab-aq26002-zoox-precedent",
       "started": "2026-09-05T04:45:00Z",
       "title": "One Day After Launch, the Feds Asked Tesla to Prove the Cybercab Is Legal. The Last Company That Got This Letter Needed Four Years."
@@ -1095,7 +1095,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-25",
+      "ship_date": "2026-10-19",
       "slug": "florida-super-speeder-100-mph-jail-law",
       "started": "2026-09-05T06:30:00Z",
       "title": "Florida Made 100 MPH a Jailable Offense. The Physics Had Already Sentenced You."
@@ -1132,7 +1132,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-30",
+      "ship_date": "2026-10-20",
       "slug": "dtn-11th-death-ban-failed",
       "started": "2026-09-06T20:30:00Z",
       "title": "NHTSA Banned These Airbags in April. One Killed a Driver in August Anyway."
@@ -1170,7 +1170,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-01",
+      "ship_date": "2026-10-21",
       "slug": "ford-mustang-148k-ground-recall-fix-march-2027",
       "started": "2026-09-06T22:30:00Z",
       "title": "Ford Recalled 148,663 Mustangs Because Their Ground Wires Can Snap Mid-Drive. The Fix Isn't Expected Until March."
@@ -1207,7 +1207,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-02",
+      "ship_date": "2026-10-22",
       "slug": "utah-005-bac-law-deters-heavy-drinkers",
       "started": "2026-09-06T17:30:00-07:00",
       "title": "Utah Lowered the Drunk-Driving Limit to 0.05. The Drivers Who Changed Were the Ones at 0.16."
@@ -1244,7 +1244,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-03",
+      "ship_date": "2026-10-23",
       "slug": "robotaxi-brake-jab-whiplash",
       "started": "2026-09-07T02:30:00Z",
       "title": "Waymo's Cars Crash 68% Less Than Humans. The Humans Inside Keep Getting Whiplash."
@@ -1281,7 +1281,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-04",
+      "ship_date": "2026-10-24",
       "slug": "telematics-7x-phone-use-undercount",
       "started": "2026-09-07T04:35:00Z",
       "title": "The Cops Say <1% of Drivers Were on Their Phones. The Phones Say 8%."
@@ -1318,7 +1318,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-05",
+      "ship_date": "2026-10-25",
       "slug": "deer-season-clock-change-33-deaths",
       "started": "2026-09-07T06:40:00Z",
       "title": "The Clocks Fall Back November 1. Deer Collisions Are About to Triple."
@@ -1355,7 +1355,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-06",
+      "ship_date": "2026-10-26",
       "slug": "heavy-truck-aeb-mandate-phantom-brake-probe",
       "started": "2026-09-07T08:15:00Z",
       "title": "NHTSA Wants AEB on Every New Semi. Its Own Investigators Found the System Slamming Trucks to a Stop on Empty Highways."
@@ -1393,7 +1393,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-07",
+      "ship_date": "2026-10-27",
       "slug": "nhtsa-impaired-driving-rule-21-months-late",
       "started": "2026-09-07T10:45:00Z",
       "title": "Congress Ordered Drunk-Driving Tech in Every New Car by 2024. NHTSA Has Produced 18,367 Comments and Zero Rules."
@@ -1422,7 +1422,7 @@
         "safety_engineer": 8.9,
         "victim_advocate": 8.6
       },
-      "ship_date": "2026-10-08",
+      "ship_date": "2026-10-28",
       "slug": "aaa-flow-of-traffic-speeding-myth",
       "started": "2026-09-07T13:10:00Z",
       "title": "Half of American Drivers Think Obeying the Speed Limit Is the Dangerous Part"
@@ -1454,7 +1454,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-09",
+      "ship_date": "2026-10-29",
       "slug": "provo-orem-deadliest-school-zones",
       "started": "2026-09-07T14:40:00Z",
       "title": "The Deadliest School Zones in America Are in Provo, Utah. The Speed Limit Signs Are Just Decoration."
@@ -1486,7 +1486,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.2
       },
-      "ship_date": "2026-10-10",
+      "ship_date": "2026-10-30",
       "slug": "pedestrian-crash-lethality-doubled",
       "started": "2026-09-07T16:30:00Z",
       "title": "Getting Hit by a Car Is Twice as Deadly as a Decade Ago. Deaths Fell Anyway."
@@ -1518,7 +1518,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-11",
+      "ship_date": "2026-10-31",
       "slug": "gm-eboost-brake-failure-while-driving",
       "started": "2026-09-07T18:45:00Z",
       "title": "GM Said Its Brake Failures Only Happen After You've Stopped. Drivers Disagree."
@@ -1550,7 +1550,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-12",
+      "ship_date": "2026-11-01",
       "slug": "china-door-mega-recall-43-million",
       "started": "2026-09-07T20:45:00Z",
       "title": "China Recalled 4.3 Million Cars Over Doors You Can't Open. The Fix Is a Sticker."
@@ -1581,7 +1581,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-13",
+      "ship_date": "2026-11-02",
       "slug": "tesla-model-y-l-rear-suspension-collapse-china",
       "started": "2026-09-07T22:45:00Z",
       "title": "Tesla's Six-Seat Family SUV Sags Under Its Own Job Description"
@@ -1612,7 +1612,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-14",
+      "ship_date": "2026-11-03",
       "slug": "right-on-red-1975-oil-law-pedestrian-toll",
       "started": "2026-09-08T00:30:00Z",
       "title": "Right Turn on Red Was a 1975 Gas-Saving Scheme. The Savings Expired. The Deaths Didn't."
@@ -1643,7 +1643,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-15",
+      "ship_date": "2026-11-04",
       "slug": "cybercab-aq26002-self-certification-gambit",
       "started": "2026-09-08T02:30:00Z",
       "title": "Tesla Certified a Car With No Steering Wheel as Compliant. NHTSA Wants to See the Math."
@@ -1674,7 +1674,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-16",
+      "ship_date": "2026-11-05",
       "slug": "legalization-fatality-tax-four-percent",
       "started": "2026-09-08T04:30:00Z",
       "title": "Cannabis Legalization Raised Fatal Crashes 4.1%. One in Four Impaired Drivers Is Invisible to the Breathalyzer."
@@ -1705,7 +1705,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-17",
+      "ship_date": "2026-11-06",
       "slug": "ghsa-isa-guidebook-speeding-confession",
       "started": "2026-09-08T06:30:00Z",
       "title": "125,000 Speeding Deaths Later, the Safety Establishment Admits Enforcement Isn't Working. Its Fix Is a PDF."
@@ -1725,7 +1725,7 @@
       "number": 842,
       "phase": "SHIP_BLOCKED",
       "score": 8.8,
-      "ship_date": "2026-10-18",
+      "ship_date": "2026-11-07",
       "slug": "nhtsa-backlog-body-count",
       "title": "NHTSA Is 10 Rules Behind Congress and 236 Employees Short. The Backlog Has a Body Count."
     },
@@ -1754,7 +1754,7 @@
       "number": 843,
       "phase": "SHIP_BLOCKED",
       "score": 8.79,
-      "ship_date": "2026-10-19",
+      "ship_date": "2026-11-08",
       "slug": "recall-defect-spread-half-percent-vs-100",
       "title": "Ford Says 0.5% of Its Recalled Engines Are Actually Broken. Ram Says 100% of Its Trucks Are."
     },
@@ -1783,7 +1783,7 @@
       "number": 844,
       "phase": "SHIP_BLOCKED",
       "score": 9.0,
-      "ship_date": "2026-10-20",
+      "ship_date": "2026-11-09",
       "slug": "cybercab-launched-blind-fsd-engineering-analysis",
       "title": "Tesla's Cybercab Has No Steering Wheel. Its Cameras Still Go Blind in the Sun."
     },
@@ -1799,7 +1799,7 @@
       "number": 845,
       "phase": "SHIP_BLOCKED",
       "score": 8.9,
-      "ship_date": "2026-10-21",
+      "ship_date": "2026-11-10",
       "slug": "phone-crash-undercount-seven-times",
       "title": "Your Phone Says You Were Using It. The Police Report Says You Weren't. Your Phone Is Right."
     },
@@ -1828,7 +1828,7 @@
       "number": 846,
       "phase": "SHIP_BLOCKED",
       "score": 8.79,
-      "ship_date": "2026-10-22",
+      "ship_date": "2026-11-11",
       "slug": "wheel-off-loose-lug-projectile",
       "title": "The Most Dangerous Part of Your Car Is the Part That Leaves It"
     },
@@ -1857,7 +1857,7 @@
       "number": 847,
       "phase": "SHIP_BLOCKED",
       "score": 8.74,
-      "ship_date": "2026-10-23",
+      "ship_date": "2026-11-12",
       "slug": "jeep-grand-cherokee-third-coil-spring-recall",
       "title": "The Recall of the Recall of the Recall: 328,000 Grand Cherokees, Same Springs, Third Time"
     },
@@ -1886,7 +1886,7 @@
       "number": 848,
       "phase": "SHIP_BLOCKED",
       "score": 8.93,
-      "ship_date": "2026-10-24",
+      "ship_date": "2026-11-13",
       "slug": "tesla-cybercab-aq26002-inapplicable",
       "title": "The Car That's Legal Because the Law Doesn't Apply"
     },
@@ -1915,7 +1915,7 @@
       "number": 849,
       "phase": "SHIP_BLOCKED",
       "score": 8.86,
-      "ship_date": "2026-10-25",
+      "ship_date": "2026-11-14",
       "slug": "polestar-rq25004-three-recalls-one-camera",
       "title": "Polestar Patched Its Backup Camera Twice. On September 1, NHTSA Finally Believed the Third Fix."
     },
@@ -1955,7 +1955,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.8
       },
-      "ship_date": "2026-10-26",
+      "ship_date": "2026-11-15",
       "slug": "chrysler-26v561-cracked-capacitor-kills-esc",
       "title": "A Cracked Capacitor Defeated the Most Effective Safety Mandate in American Cars"
     },
@@ -1993,7 +1993,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-27",
+      "ship_date": "2026-11-16",
       "slug": "paccar-26v567-brake-timing-paccar-v-nhtsa"
     },
     {
@@ -2008,7 +2008,7 @@
       "number": 852,
       "phase": "SHIP_BLOCKED",
       "score": 8.91,
-      "ship_date": "2026-10-28",
+      "ship_date": "2026-11-17",
       "slug": "forest-river-vibe-fourth-carbon-monoxide-recall",
       "title": "The Camper Brand That Keeps Getting Recalled for Carbon Monoxide"
     },
@@ -2048,7 +2048,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-29",
+      "ship_date": "2026-11-18",
       "slug": "ricon-runaway-lift-two-diodes",
       "title": "The Lift That Won't Stop Has Already Been Excused Once"
     },
@@ -2088,7 +2088,7 @@
         "social_shareability": 8.5,
         "voice_coach": 8.7
       },
-      "ship_date": "2026-10-30",
+      "ship_date": "2026-11-19",
       "slug": "light-boy-26v564-detachable-light-tower",
       "title": "The Night Light That Unplugs Itself on the Interstate"
     },
@@ -2132,7 +2132,7 @@
         "social_shareability": 8.6,
         "voice_coach": 8.7
       },
-      "ship_date": "2026-10-31",
+      "ship_date": "2026-11-20",
       "slug": "855-stellantis-tpms-radio-silence-202k",
       "started": "2026-09-09T03:30:00-07:00",
       "title": "Stellantis Recalled 202,000 Jeeps Because the Radio Forgot to Watch the Tires"
@@ -2142,7 +2142,7 @@
       "journalist": "Axle McScatter",
       "number": 856,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-01",
+      "ship_date": "2026-11-21",
       "slug": "q1-2026-second-lowest-rate-099",
       "title": "0.99: One Hundredth From History"
     },
@@ -2186,7 +2186,7 @@
         "social_shareability": 8.7,
         "voice_coach": 8.9
       },
-      "ship_date": "2026-11-02",
+      "ship_date": "2026-11-22",
       "slug": "857-loose-bolt-census",
       "title": "The Same Bolt, Four Times: 2026 Is the Year of the Loose Bolt"
     },
@@ -2218,7 +2218,7 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle.",
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle.",
       "number": 858,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2230,7 +2230,7 @@
         "social_shareability": 8.7,
         "voice_coach": 8.8
       },
-      "ship_date": "2026-11-03",
+      "ship_date": "2026-11-23",
       "slug": "858-grand-cherokee-third-spring-recall",
       "title": "Third Time's the Recall: Jeep's Grand Cherokee Gets a Third Campaign for the Same Springs"
     },
@@ -2262,7 +2262,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation).",
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation).",
       "number": 859,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2274,7 +2274,7 @@
         "social_shareability": 8.7,
         "voice_coach": 8.8
       },
-      "ship_date": "2026-11-04",
+      "ship_date": "2026-11-24",
       "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
       "title": "Four Stars Up Front, Marginal in the Back: The 2026 GMC Canyon's IIHS Report Card"
     },
@@ -2306,7 +2306,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight.",
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight.",
       "number": 860,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2318,7 +2318,7 @@
         "social_shareability": 8.6,
         "voice_coach": 8.7
       },
-      "ship_date": "2026-11-05",
+      "ship_date": "2026-11-25",
       "slug": "860-cafe-crossover-truck-loophole",
       "title": "The Truck That Wasn't: Washington Says Your Crossover Is a Car"
     },
@@ -2349,7 +2349,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) — Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025).",
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025).",
       "number": 861,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2361,7 +2361,7 @@
         "social_shareability": 8.6,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-06",
+      "ship_date": "2026-11-26",
       "slug": "861-nsc-h1-2026-split-country",
       "title": "America's Roads Got Safer, and Illinois Did a Third of the Work"
     },
@@ -2404,7 +2404,7 @@
         "social_shareability": 8.6,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-07",
+      "ship_date": "2026-11-27",
       "slug": "862-young-riders-surge",
       "title": "Motorcycle Deaths Fell 2.2% in 2024. Young Riders Went the Wrong Way."
     },
@@ -2448,7 +2448,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-08",
+      "ship_date": "2026-11-28",
       "slug": "863-ncap-pedestrian-delay",
       "title": "Your Car's Five Stars Don't Grade How It Treats Pedestrians. That Test Got Pushed to 2027."
     },
@@ -2536,7 +2536,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-11-09",
+      "ship_date": "2026-11-29",
       "slug": "865-jeep-spring-recall-three-strikes",
       "title": "Jeep Recalled the Same Coil Spring Three Times. On the Third Try, It Stopped Trusting Its Own Mechanics."
     },
@@ -2580,7 +2580,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-10",
+      "ship_date": "2026-11-30",
       "slug": "866-id4-battery-fire-two-year-gap",
       "title": "VW Knew About ID.4 Battery Fires for Nearly Two Years Before Recalling a Single Car"
     },
@@ -2624,7 +2624,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-11",
+      "ship_date": "2026-12-01",
       "slug": "867-motorcycle-drunkest-operators",
       "title": "The Least-Protected Vehicle on the Road Has the Drunkest Operators"
     },
@@ -2652,7 +2652,7 @@
       "note": "2026-09-10 slot consumed by #864 (ship_date 2026-09-10); queued for next open date after #867 (2026-11-11)",
       "number": 868,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-12",
+      "ship_date": "2026-12-02",
       "slug": "868-buick-park-avenue-druggiest-drivers",
       "title": "The Druggiest Drivers in America Drive a Buick"
     },
@@ -2679,7 +2679,7 @@
       "note": "7 critics all >=8.5 (avg 8.79). SHIP_BLOCKED: hero JPEG generation failed 2026-09-10 (media upstream 503 x3). Generate drafts/869-june-2026-rate-reversal.jpg, move to images/, add ?v= hash to og:image and hero img before ship. Queued for next open date after #868 (2026-11-12).",
       "number": 869,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-13",
+      "ship_date": "2026-12-03",
       "slug": "869-june-2026-rate-reversal",
       "title": "June Spoiled the Victory Lap"
     },
@@ -2723,7 +2723,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-12-04",
       "slug": "five-star-rating-1976-body-dummy-gap",
       "title": "Your Five-Star Safety Rating Was Earned by a 1976 Body"
     },
@@ -2767,7 +2767,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-14",
+      "ship_date": "2026-12-05",
       "slug": "871-blue-screen-safety-runs-on-radio",
       "started": "2026-09-10T11:30:00-07:00",
       "title": "Your Backup Camera Runs on Your Radio. Your Radio Just Got Recalled."
@@ -2811,7 +2811,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-15",
+      "ship_date": "2026-12-06",
       "slug": "same-rate-two-autopsies",
       "started": "2026-09-10T13:30:00-07:00",
       "title": "Same Death Rate, Two Different Autopsies"
@@ -2843,7 +2843,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Original contribution: FARS dual-coding denominator artifact — Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass.",
+      "note": "Original contribution: FARS dual-coding denominator artifact \u2014 Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass.",
       "number": 873,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2855,7 +2855,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-16",
+      "ship_date": "2026-12-07",
       "slug": "ram-1500-safest-pickup-spreadsheet-error",
       "started": "2026-09-10T15:35:00-07:00",
       "title": "America's Safest Pickup Is a Spreadsheet Error"
@@ -2888,7 +2888,7 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch — 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure.",
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure.",
       "number": 874,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2900,7 +2900,7 @@
         "social_shareability": 8.8,
         "voice_coach": 8.8
       },
-      "ship_date": "2026-11-17",
+      "ship_date": "2026-12-08",
       "slug": "874-telluride-tsp-build-month-asterisk",
       "title": "The 2027 Telluride Won IIHS's Highest Award. Yours Might Not Have."
     },
@@ -2944,7 +2944,7 @@
         "social_shareability": 8.8,
         "voice_coach": 8.6
       },
-      "ship_date": "2026-11-18",
+      "ship_date": "2026-12-09",
       "slug": "875-tesla-asleep-cabin-camera-probe",
       "title": "Tesla's Cabin Camera Is Supposed to Catch You Sleeping. The Videos Say It Can't."
     },
@@ -2976,7 +2976,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Trend Watch",
-      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) — regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR.",
+      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) \u2014 regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR.",
       "number": 876,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2988,7 +2988,7 @@
         "social_shareability": 8.8,
         "voice_coach": 8.8
       },
-      "ship_date": "2026-11-19",
+      "ship_date": "2026-12-10",
       "slug": "876-toyota-c-hr-ev-regen-overcharge-recall",
       "title": "Toyota's New Electric C-HR Can Lose Power Because You Braked"
     },
@@ -2996,7 +2996,7 @@
       "journalist": "Vin Wreckage",
       "number": 877,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-20",
+      "ship_date": "2026-12-11",
       "slug": "877-rivian-turn-signal-recall-expansion"
     },
     {
@@ -3004,7 +3004,7 @@
       "note": "Round-0 critique: all seven critics >=8.5. Blocked on 1-per-day rule: #878 already published 2026-09-11 PT. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 879,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-23",
+      "ship_date": "2026-12-12",
       "slug": "879-young-drunk-driver-pedestrian-doubling"
     },
     {
@@ -3029,7 +3029,7 @@
       "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel: China's Aug 21 2026 record 4.3M-vehicle door-handle recall (Tesla 2,975,910, effective Sep 25) fixed with warning labels + OTA; China bans hidden handles from 2027; US got 0 recalls (NHTSA denied ~180K Model 3 petition July 2026, rulemaking instead). No site coverage of this.",
       "number": 880,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-21",
+      "ship_date": "2026-12-13",
       "slug": "880-china-door-handle-sticker-recall"
     },
     {
@@ -3062,7 +3062,7 @@
       "note": "Round-0 panel 9.0 avg; 7/7 critics >= 8.5. Novel: Aug 7 2026 Dallas Waymo fatality (Maple Ave), Waymo 24->5 mph after 150-ft detection, SUV doing 35 in 30; original 49:1 kinetic-energy ratio + stopping-distance sanity check. No site coverage of this event.",
       "number": 881,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-22",
+      "ship_date": "2026-12-14",
       "slug": "881-waymo-dallas-fatal-exoneration",
       "title": "The Robotaxi Did Everything Right and a Man Still Died in Dallas"
     },
@@ -3096,7 +3096,7 @@
       "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Novel: third campaign (26V562/89D) for the same rear coil spring defect (23V413 Jun 2023 -> 26V051 Jan 2026 -> Sep 2026); 328,381 vehicles; 0.12% observed warranty-claim rate vs Stellantis 0.1% estimate cross-check; 23% of campaign-1 population re-recalled in campaign 2. No site coverage of this.",
       "number": 882,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-11-23",
+      "ship_date": "2026-12-15",
       "slug": "882-jeep-grand-cherokee-coil-spring-third-recall",
       "title": "Jeep Has Recalled the Same Coil Spring Three Times. The Fix Is Still Coming."
     },
@@ -3139,7 +3139,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-24",
+      "ship_date": "2026-12-16",
       "slug": "883-nissan-nv200-drug-beats-alcohol",
       "started": "2026-09-11T13:30:00-07:00",
       "title": "The Delivery Van Where Drugs Beat Alcohol"
@@ -3178,7 +3178,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-25",
+      "ship_date": "2026-12-17",
       "slug": "ghost-fleet-deaths-before-the-nameplates-existed",
       "started": "2026-09-11T15:30:00-07:00",
       "title": "The Ghost Fleet: 1,466 Deaths Filed Under Cars That Didn't Exist Yet"
@@ -3217,7 +3217,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-26",
+      "ship_date": "2026-12-18",
       "slug": "retraction-rankings-spark-was-never-a-death-trap",
       "started": "2026-09-11T17:30:00-07:00",
       "title": "The Retraction: The Chevrolet Spark Was Never a Death Trap"
@@ -3256,7 +3256,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-27",
+      "ship_date": "2026-12-19",
       "slug": "grand-cherokee-coil-spring-third-recall",
       "started": "2026-09-11T19:30:00-07:00",
       "title": "The Recall That Recalled the Recall Just Got Recalled"
@@ -3295,7 +3295,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-28",
+      "ship_date": "2026-12-20",
       "slug": "cybercab-self-certified-no-pedal",
       "started": "2026-09-11T21:30:00-07:00",
       "title": "Tesla Certified a Car With No Brake Pedal as Compliant. NHTSA Asked to See the Homework."
@@ -3333,7 +3333,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-29",
+      "ship_date": "2026-12-21",
       "slug": "888-tesla-lateral-link-blame-the-driver-probe",
       "started": "2026-09-11T23:30:00-07:00",
       "title": "Tesla Told Drivers the Suspension Failures Were Their Fault. NHTSA Just Opened a Probe Into 1.2 Million Cars."
@@ -3372,7 +3372,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-11-30",
+      "ship_date": "2026-12-22",
       "slug": "889-waymo-redacted-answers-santa-monica",
       "started": "2026-09-12T01:30:00-07:00",
       "title": "Waymo Answered 12 Questions About Hitting a 9-Year-Old. Every Answer Is Redacted."
@@ -3411,7 +3411,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-12-01",
+      "ship_date": "2026-12-23",
       "slug": "890-ride-in-freedom-act",
       "started": "2026-09-12T03:30:00-07:00",
       "title": "Congress Wants to Repeal DC's Helmet Law. Every State That Tried It Buried More Riders."
@@ -3450,7 +3450,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-12-02",
+      "ship_date": "2026-12-24",
       "slug": "891-jeep-grand-cherokee-third-coil-spring-recall",
       "started": "2026-09-12T05:30:00-07:00",
       "title": "Jeep Recalled the Grand Cherokee's Rear Coil Springs a Third Time. The Springs Were Never the Problem."
@@ -3460,7 +3460,7 @@
       "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Pre-score revisions: merged short fragments (short_pct 29.7->4.2), The-starters 15.4->11.5%, linked nhtsa.gov/recalls. News peg: NTSB HIR-26-02 (adopted Mar 31, 2026), two fatal BlueCruise crashes Feb-Mar 2024. Novel: toxicology cross-tab, impairment on both sides of both impacts; sober San Antonio Mach-E driver twist. Draft+hero+research+critics in drafts/ (893- prefix). No publish: 1/day rule, #892 published 2026-09-12; queue through 2026-12-03.",
       "number": 893,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-12-03",
+      "ship_date": "2026-12-25",
       "slug": "893-bluecruise-ntsb-toxicology-report"
     },
     {
@@ -3478,14 +3478,14 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-12-04",
+      "ship_date": "2026-12-26",
       "slug": "894-dc-whiplash-25-to-30",
       "started": "2026-09-12T19:30:00-07:00",
       "title": "Washington DC Logged Its Safest Traffic Year in Over a Decade. Nine Months Later, Deaths Are Up 88%."
     },
     {
       "journalist": "Vin Wreckage",
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Pre-score revision: merged a 'The' sentence starter (17.4->13.0%); 0 literal em dashes; rhythm PASS (variance 962.9, short 6.9%, long 55.2%); hero real JPEG (FF D8, 369,502 bytes, hash 28ef543c). News peg: Reuters Sep 12, 2026 — Ford recalls 223,472 2023-2027 F-150s, fuel tanks may detach while driving; dealers inspect/replace straps. Novel: 15-year fuel-tank retention trilogy genealogy (11V-385 corrosion 2011 -> 22V-414 missing bracket 2022 -> Sep 2026 strap defect, three root causes, one failure mode) + 27% scale arithmetic vs 2025 F-Series sales (828,832). Limitations: 2026 Part 573 report not yet public; root cause/defect rate pending; 2011 fire-chain arithmetic illustrative. Draft+hero+research+critics in drafts/ (895- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Pre-score revision: merged a 'The' sentence starter (17.4->13.0%); 0 literal em dashes; rhythm PASS (variance 962.9, short 6.9%, long 55.2%); hero real JPEG (FF D8, 369,502 bytes, hash 28ef543c). News peg: Reuters Sep 12, 2026 \u2014 Ford recalls 223,472 2023-2027 F-150s, fuel tanks may detach while driving; dealers inspect/replace straps. Novel: 15-year fuel-tank retention trilogy genealogy (11V-385 corrosion 2011 -> 22V-414 missing bracket 2022 -> Sep 2026 strap defect, three root causes, one failure mode) + 27% scale arithmetic vs 2025 F-Series sales (828,832). Limitations: 2026 Part 573 report not yet public; root cause/defect rate pending; 2011 fire-chain arithmetic illustrative. Draft+hero+research+critics in drafts/ (895- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
       "number": 895,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3498,7 +3498,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-05",
+      "ship_date": "2026-12-27",
       "slug": "895-ford-f150-fuel-tank-trilogy",
       "started": "2026-09-12T21:30:00-07:00",
       "title": "Ford Recalled 223,472 F-150s Because the Gas Tank Can Fall Out. This Is the Third Time in Fifteen Years."
@@ -3518,7 +3518,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-06",
+      "ship_date": "2026-12-28",
       "slug": "896-school-bus-stop-arm-violations",
       "started": "2026-09-12T23:30:00-07:00",
       "title": "He Blew Past a Stopped School Bus and Missed a Child by Inches. Cameras in One Florida County Caught 27,000 More."
@@ -3550,7 +3550,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: Toyota Sept 2 C-HR EV recall (8,521, charge-limiter bug overcharges pack via regen -> protective shutdown kills drive power; found in April testing an undisclosed future BEV, zero warranty claims). Novel: sequel to June bZ/Solterra/RZ race-condition recall (20,991) — two campaigns, two root causes, one failure mode, both discovered testing a DIFFERENT vehicle; 29,512 combined; 'protection logic became the hazard'. Journalist Mia Crumplezone.",
+      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: Toyota Sept 2 C-HR EV recall (8,521, charge-limiter bug overcharges pack via regen -> protective shutdown kills drive power; found in April testing an undisclosed future BEV, zero warranty claims). Novel: sequel to June bZ/Solterra/RZ race-condition recall (20,991) \u2014 two campaigns, two root causes, one failure mode, both discovered testing a DIFFERENT vehicle; 29,512 combined; 'protection logic became the hazard'. Journalist Mia Crumplezone.",
       "number": 900,
       "phase": "PUBLISHED",
       "publish_date": "2026-09-16",
@@ -3609,7 +3609,8 @@
       },
       "slug": "901-bike-funding-cuts-foushee-letter",
       "started": "2026-09-14T17:30:00-07:00",
-      "title": "America's Roads Just Logged Their Safest Start in a Decade. Cyclists Just Logged Their Deadliest Year in 40."
+      "title": "America's Roads Just Logged Their Safest Start in a Decade. Cyclists Just Logged Their Deadliest Year in 40.",
+      "ship_date": "2026-12-29"
     },
     {
       "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901 queued ahead; #902 queued for next publish slot; push blocked by egress outage",
@@ -3653,7 +3654,8 @@
       },
       "slug": "902-dummy-wrong-body",
       "started": "2026-09-14T19:30:00-07:00",
-      "title": "America's Newest Crash Test Dummy Weighs 108 Pounds. The Average American Woman Weighs 172."
+      "title": "America's Newest Crash Test Dummy Weighs 108 Pounds. The Average American Woman Weighs 172.",
+      "ship_date": "2026-12-30"
     },
     {
       "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901, #902 queued ahead; #903 queued for next publish slot; push blocked by egress outage",
@@ -3697,7 +3699,8 @@
       },
       "slug": "903-ford-three-tiny-recalls-quality-machines",
       "started": "2026-09-14T21:30:00-07:00",
-      "title": "37 Trucks, 17 Raptors, 1,945 Vans: Ford's Three Tiniest Recalls Were All About the Machines That Check the Machines"
+      "title": "37 Trucks, 17 Raptors, 1,945 Vans: Ford's Three Tiniest Recalls Were All About the Machines That Check the Machines",
+      "ship_date": "2026-12-31"
     },
     {
       "blocked_reason": "1/day rule: #898 published 2026-09-14; #899, #900, #901, #902, #903 queued ahead; #904 queued for next publish slot; push blocked by egress outage",
@@ -3741,7 +3744,8 @@
       },
       "slug": "904-whose-funeral-fatal-crash-lethality",
       "started": "2026-09-14T23:40:00-07:00",
-      "title": "In a Saturn S, a Fatal Crash Is Your Fatality. In a Ram 2500, It's Somebody Else's."
+      "title": "In a Saturn S, a Fatal Crash Is Your Fatality. In a Ram 2500, It's Somebody Else's.",
+      "ship_date": "2027-01-01"
     },
     {
       "blocked_reason": "1/day rule: #899 published 2026-09-15; #900, #901, #902, #903, #904 queued ahead; #905 queued for next publish slot; push blocked by egress outage",
@@ -3771,7 +3775,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Sept 2026 investigation matching Tesla's redacted NHTSA SGO filings to police reports — 8 fatal crashes where Tesla's data shows driver-assist engaged but the public record never mentions it (Vinemont AL, Clute TX, Lake Mary FL, Mesa AZ, Batavia IL, Moraine OH, Buena Vista NJ, Pattonsburg MO). Novel: the crash record is missing the robot; NHTSA Audit Query (Aug 2025) + 6 open Tesla probes context.",
+      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Sept 2026 investigation matching Tesla's redacted NHTSA SGO filings to police reports \u2014 8 fatal crashes where Tesla's data shows driver-assist engaged but the public record never mentions it (Vinemont AL, Clute TX, Lake Mary FL, Mesa AZ, Batavia IL, Moraine OH, Buena Vista NJ, Pattonsburg MO). Novel: the crash record is missing the robot; NHTSA Audit Query (Aug 2025) + 6 open Tesla probes context.",
       "number": 905,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3785,7 +3789,8 @@
       },
       "slug": "905-tesla-hidden-autopilot-crashes",
       "started": "2026-09-15T01:40:00-07:00",
-      "title": "Tesla's Data Says the Robot Was Driving. The Police Report Says Nothing."
+      "title": "Tesla's Data Says the Robot Was Driving. The Police Report Says Nothing.",
+      "ship_date": "2027-01-02"
     },
     {
       "blocked_reason": "1/day rule: #899 published 2026-09-15; #900, #901, #902, #903, #904, #905 queued ahead; #906 queued for next publish slot; push blocked by egress outage",
@@ -3829,7 +3834,8 @@
       },
       "slug": "906-iihs-september-round-build-date-trap",
       "started": "2026-09-15T03:30:00-07:00",
-      "title": "Two of Seven Cars Earned IIHS's Top Award. Your Telluride Might Not Be One of Them."
+      "title": "Two of Seven Cars Earned IIHS's Top Award. Your Telluride Might Not Be One of Them.",
+      "ship_date": "2027-01-03"
     },
     {
       "blocked_reason": "1/day rule: #899 published 2026-09-15; #900-#906 queued ahead in FIFO; push blocked by fleet egress outage",
@@ -3873,7 +3879,8 @@
       },
       "slug": "907-bmw-z4-safest-sports-car-paradox",
       "started": "2026-09-15T05:30:00-07:00",
-      "title": "The Safest Sports Car in America Is a BMW Roadster. It Is Safer Per Mile Than a Camry."
+      "title": "The Safest Sports Car in America Is a BMW Roadster. It Is Safer Per Mile Than a Camry.",
+      "ship_date": "2027-01-04"
     },
     {
       "critic_avg": 8.91,
@@ -3911,7 +3918,8 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "slug": "908-chevrolet-tracker-deadliest-suv-sober"
+      "slug": "908-chevrolet-tracker-deadliest-suv-sober",
+      "ship_date": "2027-01-05"
     },
     {
       "critic_avg": 8.9,
@@ -3948,7 +3956,8 @@
         "voice_coach": 9.0
       },
       "slug": "909-oregon-super-speeder-isa-governor",
-      "title": "Suspended Licenses Don't Stop Speeders. Oregon Wants to Govern the Car Instead."
+      "title": "Suspended Licenses Don't Stop Speeders. Oregon Wants to Govern the Car Instead.",
+      "ship_date": "2027-01-06"
     },
     {
       "critic_avg": 8.97,
@@ -3972,7 +3981,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5; all hard gates (em 0, rhythm var 207.7). Novel: vintage inversion — recall fleet (2023-2027) ~0% of F-150 FARS death record vs 59% from <=2005 vintages. Counterargument steelmanned (recalls target defects; 16 claims/0 injuries = system working). Hero JPEG 429,879B. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
+      "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5; all hard gates (em 0, rhythm var 207.7). Novel: vintage inversion \u2014 recall fleet (2023-2027) ~0% of F-150 FARS death record vs 59% from <=2005 vintages. Counterargument steelmanned (recalls target defects; 16 claims/0 injuries = system working). Hero JPEG 429,879B. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
       "number": 910,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3985,7 +3994,8 @@
         "voice_coach": 8.8
       },
       "slug": "910-f150-detached-fuel-tank-recall",
-      "title": "Ford's Newest F-150s Can Drop Their Fuel Tanks on the Highway. The Trucks Actually Killing People Are Old Enough to Vote."
+      "title": "Ford's Newest F-150s Can Drop Their Fuel Tanks on the Highway. The Trucks Actually Killing People Are Old Enough to Vote.",
+      "ship_date": "2027-01-07"
     },
     {
       "critic_avg": 8.97,
@@ -4009,7 +4019,7 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late — FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late \u2014 FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 911,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4021,7 +4031,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-08",
       "slug": "911-jeep-tpms-silent-warning-recall",
       "title": "Stellantis Recalled 201,976 Jeeps Whose Tire-Pressure Warnings May Never Come. The Watchdog Can't Bark."
     },
@@ -4060,7 +4070,8 @@
         "voice_coach": 8.8
       },
       "slug": "912-can-am-spyder-blackout-recall",
-      "title": "Plug In Your Phone, Lose Your Speedometer: Can-Am Recalls 14,014 Bikes Whose Screens Can Go Blank"
+      "title": "Plug In Your Phone, Lose Your Speedometer: Can-Am Recalls 14,014 Bikes Whose Screens Can Go Blank",
+      "ship_date": "2027-01-09"
     },
     {
       "critic_avg": 8.97,
@@ -4097,7 +4108,8 @@
         "voice_coach": 9.0
       },
       "slug": "913-f150-fuel-tank-camera-gap-recall",
-      "title": "Ford Recalls 223,472 F-150s. The Cameras Were Watching Everything Except the Fuel Tank Straps"
+      "title": "Ford Recalls 223,472 F-150s. The Cameras Were Watching Everything Except the Fuel Tank Straps",
+      "ship_date": "2027-01-10"
     },
     {
       "critic_avg": 8.94,
@@ -4134,7 +4146,8 @@
         "voice_coach": 9.0
       },
       "slug": "914-transit-wireless-seatbelt-reminder-lie",
-      "title": "Ford's Wireless Seatbelt Reminder Tells Drivers Everyone's Buckled. Some of Them Aren't."
+      "title": "Ford's Wireless Seatbelt Reminder Tells Drivers Everyone's Buckled. Some of Them Aren't.",
+      "ship_date": "2027-01-11"
     },
     {
       "critic_avg": 8.81,
@@ -4171,7 +4184,8 @@
         "voice_coach": 8.6
       },
       "slug": "915-f150-fuel-tank-strap-camera-gap",
-      "title": "Ford Is Recalling 223,472 F-150s. Your Fuel Tank May Be Held On By Hope."
+      "title": "Ford Is Recalling 223,472 F-150s. Your Fuel Tank May Be Held On By Hope.",
+      "ship_date": "2027-01-12"
     },
     {
       "critic_avg": 8.94,
@@ -4208,7 +4222,8 @@
         "voice_coach": 9.0
       },
       "slug": "916-freightliner-modulator-recall-of-recall",
-      "title": "Daimler Is Recalling 2,404 Trucks Because the Repair Was Wrong Too. Welcome to the Recalled Recall."
+      "title": "Daimler Is Recalling 2,404 Trucks Because the Repair Was Wrong Too. Welcome to the Recalled Recall.",
+      "ship_date": "2027-01-13"
     },
     {
       "critic_avg": 8.97,
@@ -4244,7 +4259,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-14",
       "slug": "917-ntsb-toll-booth-abolition-ohio",
       "title": "1,099 Near-Misses in Three Weeks. Now the NTSB Says the Toll Booth Has to Go."
     },
@@ -4282,7 +4297,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-15",
       "slug": "918-pacifica-voyager-esc-capacitor",
       "title": "A Cracked Capacitor Can Kill Your Minivan's Stability Control. 2,017 Were Recalled."
     },
@@ -4320,7 +4335,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-16",
       "slug": "919-billion-unit-recall-surge-auto",
       "title": "Recalls Aren't Rising. They're Detonating."
     },
@@ -4358,7 +4373,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-17",
       "slug": "920-f150-fuel-tank-detachment-camera",
       "title": "The Cameras Were There. They Just Weren't Watching."
     },
@@ -4394,7 +4409,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-18",
       "slug": "921-thirty-percent-flat",
       "title": "One Every 44 Minutes: Drunk-Driving Deaths Fell 4%, and So Did Everything Else."
     },
@@ -4432,7 +4447,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-23",
+      "ship_date": "2027-01-19",
       "slug": "922-f150-micro-recall-100-percent-defective",
       "title": "37 Trucks, 100% Defective: The Recall So Small Ford Named Every Victim"
     },
@@ -4470,7 +4485,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-24",
+      "ship_date": "2027-01-20",
       "slug": "923-f150-fuel-tank-road-hazard",
       "title": "223,472 F-150s Have Gas Tanks That Can Fall Out. The Fix Is a Letter in the Mail."
     },
@@ -4508,7 +4523,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-25",
+      "ship_date": "2027-01-21",
       "slug": "924-nhtsa-red-box-fire-recall-banner",
       "title": "NHTSA Just Added a Red Box to Its Recall Site. It's a Sign 3.2 Million Cars Might Be on Fire."
     },
@@ -4546,7 +4561,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-26",
+      "ship_date": "2027-01-22",
       "slug": "925-ford-37-truck-recall-per-vehicle-risk",
       "title": "37 Trucks Have the Wrong Bearings, and Per Vehicle That's This Week's Worst Recall."
     },
@@ -4584,7 +4599,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-27",
+      "ship_date": "2027-01-23",
       "slug": "926-chrysler-esc-capacitor-minivan-disable",
       "title": "A Cracked Capacitor Just Demoted 2,017 Chrysler Minivans to 2011"
     },
@@ -4622,7 +4637,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-28",
+      "ship_date": "2027-01-24",
       "slug": "927-point-fifteen-club-bac-distribution",
       "title": "The .15 Club: 68% of Drunk-Driving Deaths Involve Drivers at Nearly Twice the Legal Limit"
     },
@@ -4660,7 +4675,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-29",
+      "ship_date": "2027-01-25",
       "slug": "928-macan-glk-druggiest-luxury-suvs",
       "title": "The Safest Cars in America Have the Druggiest Drivers"
     },
@@ -4698,7 +4713,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-09-30",
+      "ship_date": "2027-01-26",
       "slug": "929-vw-steering-bolt-rust-loss-of-control",
       "title": "America's Safest SUVs Just Got Recalled for a Bolt That Can Rust Off"
     },
@@ -4736,9 +4751,9 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-01",
+      "ship_date": "2027-01-27",
       "slug": "930-f150-three-recalls-one-week",
-      "title": "Ford's F-150 Got Recalled Three Times in One Week – for the Parts That Hold It Together"
+      "title": "Ford's F-150 Got Recalled Three Times in One Week \u2013 for the Parts That Hold It Together"
     },
     {
       "critic_avg": 8.79,
@@ -4762,7 +4777,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
-      "note": "Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: impairment is the red herring — Escalade 22.0% impaired vs Navigator 17.7%, yet Navigator kills at 1.66x the rate (1.06 vs 0.64); gap widens to 1.75x after backing out impaired drivers (0.87 vs 0.50). Segment context: Expedition 2.31, Yukon 2.55. Timeliness: Navigator 2026 recall spree (26V165, 26V402, seat-belt pretensioner ~420K). Hero JPEG 1920x1280 verified, ?v=7c7e86fa. Blocked: queue drains through 9/30 (#929), #930 holds 10-01.",
+      "note": "Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: impairment is the red herring \u2014 Escalade 22.0% impaired vs Navigator 17.7%, yet Navigator kills at 1.66x the rate (1.06 vs 0.64); gap widens to 1.75x after backing out impaired drivers (0.87 vs 0.50). Segment context: Expedition 2.31, Yukon 2.55. Timeliness: Navigator 2026 recall spree (26V165, 26V402, seat-belt pretensioner ~420K). Hero JPEG 1920x1280 verified, ?v=7c7e86fa. Blocked: queue drains through 9/30 (#929), #930 holds 10-01.",
       "number": 931,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4774,7 +4789,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-02",
+      "ship_date": "2027-01-28",
       "slug": "931-navigator-escalade-impairment-paradox",
       "title": "Cadillac Drivers Are Drunker. Their SUV Is Still Safer."
     },
@@ -4817,7 +4832,7 @@
         "social_shareability": 9.0,
         "voice_coach": 8.5
       },
-      "ship_date": "2026-10-03",
+      "ship_date": "2027-01-29",
       "slug": "932-bronco-ninth-recall-airbag-bracket-burr",
       "title": "The 2026 Bronco's Ninth Recall Is a Metal Burr That Shreds the Airbag"
     },
@@ -4860,7 +4875,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-04",
+      "ship_date": "2027-01-30",
       "slug": "933-ioniq9-three-nameplate-seat-recall",
       "title": "A Toddler Died Under a Power Seat in March. Today Hyundai Recalled a Third SUV for the Same Seat."
     },
@@ -4898,7 +4913,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-05",
+      "ship_date": "2027-01-31",
       "slug": "934-fars-ghost-deaths-phantom-model-years",
       "title": "1,186 FARS Deaths Are Attributed to Cars That Didn't Exist Yet"
     },
@@ -4939,7 +4954,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-06",
+      "ship_date": "2027-02-01",
       "slug": "935-zombie-nameplates-deadliest-cars",
       "title": "The Deadliest Car in America Is One You Can't Buy Anymore"
     },
@@ -4980,7 +4995,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-07",
+      "ship_date": "2027-02-02",
       "slug": "936-crashy-vs-lethal-death-rate-decomposition",
       "title": "Your Car's Death Rate Is Two Numbers. They Barely Know Each Other."
     },
@@ -5021,7 +5036,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-08",
+      "ship_date": "2027-02-03",
       "slug": "937-accord-deadliest-sedan-vintage",
       "title": "The Deadliest Sedan in America Is the Car Your Mechanic Told You to Buy"
     },
@@ -5062,7 +5077,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-09",
+      "ship_date": "2027-02-04",
       "slug": "938-vw-steering-bolt-rots",
       "title": "Your Steering Hangs on One Bolt. In 208,724 VWs, It's Rotting."
     },
@@ -5090,7 +5105,7 @@
       "note": "2026-09-19 03:30 run: #939 (GM 26V539000 rearview camera recall, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. One rhythm revision (short 37.5%->16.7%). Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 12.5%, rhythm variance 133.1 PASS). Hero JPEG 1920x1280, ?v=761f9c6d. Both external refs opened live via browser (curl 403 = WAF bot-block, not 404). Queued SHIP_BLOCKED for 2026-10-10 (1/day; queue drains through 10-09).",
       "number": 939,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-10-10",
+      "ship_date": "2027-02-05",
       "slug": "gm-blank-camera-sequel",
       "started": "2026-09-19T03:30:00-07:00",
       "title": "300,000+ GM SUVs Just Got Recalled Because the Backup Camera Shows Nothing"
@@ -5119,7 +5134,7 @@
       "note": "2026-09-19 05:30 run: #940 (IIHS Sept 3 rating round, 7 tested/2 passed, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Two rhythm revisions (short 17.9%->11.5%). Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5, gates: em 0, banned 0, The 10.3%, rhythm variance 1521.9 PASS). Hero JPEG 1920x1280, ?v=9411d3cd. Queued SHIP_BLOCKED for 2026-12-07 (1/day; queue drains through 2026-12-06).",
       "number": 940,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-12-07",
+      "ship_date": "2027-02-06",
       "slug": "940-iihs-seven-tested-two-passed",
       "started": "2026-09-19T05:30:00-07:00",
       "title": "Seven Cars Entered the IIHS Crash Lab. Only Two Left With an Award"
@@ -5148,7 +5163,7 @@
       "note": "2026-09-19 07:30 run: #941 (NHTSA 26V289/GM N262557620, missing transfer-case oil pickup tube, 66 vehicles, do-not-drive, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Two rhythm revisions (short 17.1%->5.9%); em dashes 12->0. Round-1 panel VERDICT: SHIP (avg 9.17, all 7 >= 8.5). Hero JPEG 1920x1280, ?v=fb0099f1. Research note: chronology's 68-suspect-assembly count deliberately not decomposed against 66-vehicle recall population (46-vs-45 assembly ambiguity left unresolved per primary report). Queued SHIP_BLOCKED for 2026-12-08 (1/day; queue drains through 2026-12-07).",
       "number": 941,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-12-08",
+      "ship_date": "2027-02-07",
       "slug": "941-gm-transfer-case-missing-tube",
       "started": "2026-09-19T07:30:00-07:00",
       "title": "66 GM Trucks Are Missing the Tube That Keeps Their Wheels Turning. GM Says Park Them."
@@ -5186,7 +5201,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-09",
+      "ship_date": "2027-02-08",
       "slug": "942-halt-act-missed-breathalyzer",
       "started": "2026-09-19T09:30:00-07:00",
       "title": "Congress Ordered Every New Car to Be a Breathalyzer by 2024. The Breathalyzer Doesn't Exist."
@@ -5225,7 +5240,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-10",
+      "ship_date": "2027-02-09",
       "slug": "943-drunk-pedestrian-not-driver",
       "started": "2026-09-19T11:30:00-07:00",
       "title": "The Drunk One in a Pedestrian Death Is Usually the Pedestrian"
@@ -5264,7 +5279,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-11",
+      "ship_date": "2027-02-10",
       "slug": "944-drunkest-drivers-safest-cars",
       "started": "2026-09-19T13:30:00-07:00",
       "title": "The Drunkest Drivers in America Drive the Safest Cars, Per Mile"
@@ -5308,7 +5323,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-12",
+      "ship_date": "2027-02-11",
       "slug": "945-old-fleet-esc-mandate-gap",
       "started": "2026-09-19T15:30:00-07:00",
       "title": "Six in Ten Deaths Are in Cars Built Before the Stability-Control Mandate"
@@ -5352,7 +5367,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-13",
+      "ship_date": "2027-02-12",
       "slug": "946-sedans-deadlier-than-suvs-per-vehicle",
       "started": "2026-09-19T17:30:00-07:00",
       "title": "The Sedan Is America's Deadliest Body Style. The SUV Is Its Safest."
@@ -5397,7 +5412,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-14",
+      "ship_date": "2027-02-13",
       "slug": "947-jeep-brand-fails-three-tests-mazda-none",
       "started": "2026-09-19T19:40:00-07:00",
       "title": "The Average Jeep Fails Three IIHS Safety Tests. The Average Mazda Fails None."
@@ -5441,7 +5456,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-15",
+      "ship_date": "2027-02-14",
       "slug": "948-rideshare-1-in-4-recall-law-gap",
       "started": "2026-09-19T21:32:56.025871-07:00",
       "title": "Two Sisters Died in a Recalled Rental Car, and Congress Banned the Practice. Your Uber Never Got the Memo."
@@ -5485,7 +5500,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-16",
+      "ship_date": "2027-02-15",
       "slug": "949-cybercab-special-order-oath",
       "started": "2026-09-19T23:35:00-07:00",
       "title": "NHTSA Ordered Tesla to Prove the Cybercab Is Legal. Under Oath. By September 30."
@@ -5530,7 +5545,7 @@
         "social_shareability": 8.7,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-17",
+      "ship_date": "2027-02-16",
       "slug": "950-pedestrian-deaths-fell-distraction-rose",
       "started": "2026-09-20T01:40:00-07:00",
       "title": "Pedestrian Deaths Dropped 7% Last Year. Distraction Nearly Doubled Since 2019. Do the Math."
@@ -5575,7 +5590,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-18",
+      "ship_date": "2027-02-17",
       "slug": "951-vw-tiguan-bcm-reset-100-percent",
       "started": "2026-09-20T03:50:00-07:00",
       "title": "Your Tiguan Can Stall, Go Dark, and Lose Its Backup Camera in a Single Software Reset. All 49,958 Have the Bug."
@@ -5620,7 +5635,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.2
       },
-      "ship_date": "2026-12-19",
+      "ship_date": "2027-02-18",
       "slug": "952-ford-edge-coolant-petition-dp26008",
       "started": "2026-09-20T05:35:00-07:00",
       "title": "Ford Wrote the Fix for Its Leaking EcoBoost Engines in 2019. 499,603 Edges Are Still Waiting for the Recall."
@@ -5665,7 +5680,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-20",
+      "ship_date": "2027-02-19",
       "slug": "953-vw-steering-rack-bolt-26v590000",
       "started": "2026-09-20T07:30:00-07:00",
       "title": "One Bolt Holds Your Steering Rack On. VW Is Replacing 208,724 of Them."
@@ -5703,7 +5718,7 @@
         "social_shareability": 8.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-21",
+      "ship_date": "2027-02-20",
       "ship_date_note": "2026-09-20 09:30 run: #954 (Zilocar 2026 do-not-drive census, Sept 15 data pull; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 9.0, all 7 >= 8.5, gates: em 0, banned 0, The 12.2%, rhythm PASS variance 208.0/short 15.0/long 55.0). Novel: campaign-count inversion (39.8% of campaigns on 0-9yr cars hold 1.33% of units), 48.6% of units 15+ years old, free-repair paradox framing. Primary source: Zilocar census page opened live 2026-09-20; NHTSA recalls parent page. Hero JPEG 1920x1280, ?v=ab6f91bd. Queued SHIP_BLOCKED for 2026-12-21 (1/day; queue drains through 12-20).",
       "slug": "954-do-not-drive-20-million-census",
       "started": "2026-09-20T09:30:00-07:00",
@@ -5742,7 +5757,7 @@
         "social_shareability": 9.0,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-22",
+      "ship_date": "2027-02-21",
       "slug": "955-hot-car-alert-rule-34-months-overdue",
       "started": "2026-09-20T11:30:00-07:00",
       "title": "Congress Ordered a Hot-Car Rule by 2023. 98 Children Have Died Since."
@@ -5781,7 +5796,7 @@
         "social_shareability": 9.2,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-23",
+      "ship_date": "2027-02-22",
       "slug": "tire-aging-expiration-date-code",
       "started": "2026-09-20T13:33:18.226341-07:00",
       "title": "Your Tires Expire Like Milk. The Date Is Stamped on the Sidewall in Code."
@@ -5810,7 +5825,7 @@
       "kicker": "Investigation",
       "note": "Round-0 pass 9.04 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (957- prefix). News pegs: NHTSA April 29, 2026 final decision ordering recall of DTN60DB inflators (first formal defect recall order in decades), NHTSA warning updated Sept 3 (11 deaths, 3 severe, 14 crashes), 11th death Aug 27 Dallas Equinox. Novel: 0.1% arithmetic (1 ordered of 997 recalls 2025; 88% uninfluenced, 12% influenced-but-voluntary), mechanism-by-mechanism autopsy of recall-system failure, speed paradox (27-day initial-to-final, ~3,000-word decisions vs 21,000-word ARC still pending), regressive owner-pays bill. Ship 2026-12-24: queue already through 2026-12-23. No publish (1/day rule; #818 shipped 2026-09-20).",
       "number": 957,
-      "parked_reason": "DUPLICATE of published story stories/counterfeit-airbag-phantom-recall.html ('NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.') — same DTN60DB mandatory-recall thesis, near-identical headline. Discovered 2026-09-20 during article-crashreport run #958 prep: #957's research notes falsely claimed zero queue/published overlap. Do not ship.",
+      "parked_reason": "DUPLICATE of published story stories/counterfeit-airbag-phantom-recall.html ('NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.') \u2014 same DTN60DB mandatory-recall thesis, near-identical headline. Discovered 2026-09-20 during article-crashreport run #958 prep: #957's research notes falsely claimed zero queue/published overlap. Do not ship.",
       "phase": "PARKED",
       "scores": {
         "data_presentation": 9.0,
@@ -5859,7 +5874,7 @@
         "social_shareability": 8.7,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-25",
+      "ship_date": "2027-02-23",
       "slug": "ebay-airbag-ban-certified-market-failure",
       "started": "2026-09-20T23:35:00-07:00",
       "title": "eBay Spent Years Building a Safe Way to Buy Used Airbags, Then Banned the Whole Category."
@@ -5892,7 +5907,7 @@
         "social_shareability": 8.7,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-26",
+      "ship_date": "2027-02-24",
       "slug": "959-drugged-driving-nobody-is-counting",
       "started": "2026-09-21T03:40:00-07:00",
       "title": "43% of Impaired Drivers in Fatal Crashes Are on Drugs. Nobody Is Counting Them."
@@ -5925,7 +5940,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-27",
+      "ship_date": "2027-02-25",
       "slug": "960-pilot-highlander-iihs-rear-seat",
       "started": "2026-09-21T05:35:00-07:00",
       "title": "IIHS Flunked Both Family SUVs on Rear-Seat Safety. Ten Years of Crash Data Picks the Same Winner."
@@ -5958,7 +5973,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-28",
+      "ship_date": "2027-02-26",
       "slug": "961-grand-caravan-sienna-minivan-death-gap",
       "started": "2026-09-21T07:30:00-07:00",
       "title": "The Deadliest Minivan in America Has Soberer Drivers Than the Safest One, So Blame the Van"
@@ -5991,7 +6006,7 @@
         "social_shareability": 8.8,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-12-29",
+      "ship_date": "2027-02-27",
       "slug": "962-lexus-is-rear-seat-flunks-iihs-award",
       "started": "2026-09-21T09:45:00-07:00",
       "title": "Lexus Fixed the Driver. The Back-Seat Dummy Is What Flunked the Crash Test."
@@ -6004,7 +6019,7 @@
       "kicker": "The Gap",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-21T23:30:00-07:00",
-      "ship_date": "2026-12-30",
+      "ship_date": "2027-02-28",
       "critic_avg": 9.0,
       "critique_round": 0,
       "scores": {
@@ -6036,7 +6051,7 @@
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T05:30:00-07:00",
-      "ship_date": "2026-12-31",
+      "ship_date": "2027-03-01",
       "critic_avg": 9.0,
       "critique_round": 0,
       "scores": {
@@ -6069,7 +6084,7 @@
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T07:30:00-07:00",
-      "ship_date": "2027-01-01",
+      "ship_date": "2027-03-02",
       "critic_avg": 9.0,
       "critique_round": 0,
       "scores": {
@@ -6102,7 +6117,7 @@
       "kicker": "Sobriety Report",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T09:30:00-07:00",
-      "ship_date": "2027-01-02",
+      "ship_date": "2027-03-03",
       "critic_avg": 9.0,
       "critique_round": 0,
       "scores": {
@@ -6141,7 +6156,7 @@
       "kicker": "Existential Dread",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T11:30:00-07:00",
-      "ship_date": "2027-01-03",
+      "ship_date": "2027-03-04",
       "critic_avg": 8.97,
       "critique_round": 0,
       "scores": {
@@ -6180,7 +6195,7 @@
       "kicker": "Sobriety Report",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T13:30:00-07:00",
-      "ship_date": "2027-01-04",
+      "ship_date": "2027-03-05",
       "critic_avg": 8.89,
       "critique_round": 0,
       "scores": {
@@ -6219,7 +6234,7 @@
       "kicker": "The Gap",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T15:30:00-07:00",
-      "ship_date": "2026-12-24",
+      "ship_date": "2027-03-06",
       "critic_avg": 9.0,
       "critique_round": 0,
       "scores": {
@@ -6258,7 +6273,7 @@
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T17:30:00-07:00",
-      "ship_date": "2027-01-05",
+      "ship_date": "2027-03-07",
       "critic_avg": 9.03,
       "critique_round": 0,
       "scores": {
@@ -6297,7 +6312,7 @@
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T19:30:00-07:00",
-      "ship_date": "2027-01-06",
+      "ship_date": "2027-03-08",
       "critic_avg": 8.97,
       "critique_round": 0,
       "scores": {
@@ -6336,7 +6351,7 @@
       "kicker": "By The Numbers",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T21:30:00-07:00",
-      "ship_date": "2027-01-07",
+      "ship_date": "2027-03-09",
       "critic_avg": 8.96,
       "critique_round": 0,
       "scores": {
@@ -6375,7 +6390,7 @@
       "kicker": "Existential Dread",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-22T23:30:00-07:00",
-      "ship_date": "2027-01-08",
+      "ship_date": "2027-03-10",
       "critic_avg": 8.94,
       "critique_round": 0,
       "scores": {
@@ -6414,7 +6429,7 @@
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
       "started": "2026-09-23T01:30:00-07:00",
-      "ship_date": "2027-01-09",
+      "ship_date": "2027-03-11",
       "critic_avg": 8.91,
       "critique_round": 0,
       "scores": {
@@ -6453,7 +6468,7 @@
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-10",
+      "ship_date": "2027-03-12",
       "started": "2026-09-23T05:30:00-07:00",
       "critic_avg": 8.8,
       "critique_round": 0,
@@ -6526,7 +6541,7 @@
         "social_shareability": 8.6,
         "voice_coach": 8.8
       },
-      "ship_date": "2027-01-11",
+      "ship_date": "2027-03-13",
       "slug": "976-jlr-dcdc-converter-warning-recall",
       "title": "JLR's Fix for 23,677 Cars That Can Die in the Dark Is a Warning Light"
     },
@@ -6537,7 +6552,7 @@
       "journalist": "Mia Crumplezone",
       "kicker": "Trend Watch",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-12",
+      "ship_date": "2027-03-14",
       "critique_round": 0,
       "avg_critic": 8.79,
       "scores": {
@@ -6581,7 +6596,7 @@
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-13",
+      "ship_date": "2027-03-15",
       "critique_round": 0,
       "avg_critic": 8.79,
       "scores": {
@@ -6625,7 +6640,7 @@
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-14",
+      "ship_date": "2027-03-16",
       "critique_round": 0,
       "avg_critic": 8.79,
       "scores": {
@@ -6669,7 +6684,7 @@
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-15",
+      "ship_date": "2027-03-17",
       "critique_round": 0,
       "avg_critic": 8.83,
       "scores": {
@@ -6713,7 +6728,7 @@
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-16",
+      "ship_date": "2027-03-18",
       "critique_round": 0,
       "avg_critic": 8.89,
       "scores": {
@@ -6757,7 +6772,7 @@
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-01-17",
+      "ship_date": "2027-03-19",
       "critique_round": 0,
       "avg_critic": 8.89,
       "scores": {
