@@ -1,50 +1,50 @@
 {
   "current": {
-    "number": 983,
-    "slug": "983-honda-cr-v-sticky-steering-recall-gap",
-    "title": "Honda Recalled 1.7 Million Cars for Sticky Steering. The 2021 CR-V Got a Service Bulletin and a $2,200 Bill.",
-    "journalist": "Clara Rollover",
-    "kicker": "The Gap",
+    "number": 984,
+    "slug": "984-nissan-vc-turbo-recall-math",
+    "title": "Nissan's Miracle Engine Has Been Recalled Three Times. The Warranty Lasts Ten Years.",
+    "journalist": "Axle McScatter",
+    "kicker": "By The Numbers",
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-20",
+    "ship_date": "2027-03-21",
     "critique_round": 0,
-    "avg_critic": 8.94,
+    "avg_critic": 8.89,
     "scores": {
-      "general_editor": 9.0,
+      "general_editor": 8.8,
       "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
-      "social_shareability": 8.8,
+      "social_shareability": 8.7,
       "legal_accuracy": 9.0,
-      "research_rigor": 8.8,
+      "research_rigor": 8.7,
       "data_presentation": 9.0
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 10.7,
+      "the_starters_pct": 8.0,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
         "passed": true,
-        "variance": 1039.4,
-        "short_pct": 7.7,
-        "long_pct": 53.8
+        "variance": 683.5,
+        "short_pct": 8.6,
+        "long_pct": 45.7
       },
-      "word_count": 761,
+      "word_count": 841,
       "hero_jpeg": true,
-      "hero_hash": "2c55e0ac"
+      "hero_hash": "9fec241e"
     },
     "files": {
-      "research": "drafts/983-honda-cr-v-sticky-steering-recall-gap-research.md",
-      "draft": "drafts/983-honda-cr-v-sticky-steering-recall-gap.html",
-      "hero": "drafts/983-honda-cr-v-sticky-steering-recall-gap.jpg",
-      "critic_panel": "drafts/983-honda-cr-v-sticky-steering-recall-gap-critic-panel-r0.md"
+      "research": "drafts/984-nissan-vc-turbo-recall-math-research.md",
+      "draft": "drafts/984-nissan-vc-turbo-recall-math.html",
+      "hero": "drafts/984-nissan-vc-turbo-recall-math.jpg",
+      "critic_panel": "drafts/984-nissan-vc-turbo-recall-math-critic-panel-r0.md"
     },
-    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-03-20",
-    "note": "2026-09-24 09:58 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 10.7%, rhythm PASS variance 1039.4, hero JPEG 2736x912 ?v=2c55e0ac). Novel: 30-model NHTSA complaint-to-recall cross-tab (api.nhtsa.gov, pulled 2026-09-24) showing 2021-2022 CR-V excluded from 24V-744 despite steering as #1 complaint (111/330 for 2021, 135/256 for 2022, zero steering recalls). TSB-vs-recall two-tier finding: same symptom, same fix bulletin A24-011, owners pay ~$2,200. Site overlap checked: prior sticky-steering coverage (lawsuit, recall) treated recall as end of story; no excluded-model-year analysis. Counterargument given full strength (different gearbox generation/part numbers, symptom != root cause)."
+    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-21",
+    "note": "2026-09-24 11:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 8.0%, rhythm PASS variance 683.5, hero JPEG 2352x1008 ?v=9fec241e). Novel: VC-Turbo recall arithmetic (fix cadence 18->7->1 months; 13% of Nissan's own 5,328-engine suspect population already claimed; 2023 Rogue engine complaints dominate NHTSA; oil-pan metal-debris inspection as diagnostic). Pre-panel fix: rhythm short_pct 20.9%->8.6% via fragment merges. Site overlap checked: zero Nissan coverage site-wide."
   },
-  "last_check_note": "2026-09-24 09:58 run: 1/day rule already consumed by #751 (published 2026-09-24; QA verified live ~03:35 PDT). Pipeline ran full RESEARCH->DRAFT->CRITIQUE for new #983 (Clara Rollover, Honda CR-V sticky-steering recall gap); round-0 panel passed (avg 8.94, all 7 >= 8.5). Added as SHIP_BLOCKED with next slot 2027-03-20. No ship. Exiting.",
-  "last_checked": "2026-09-24T09:58:59-07:00",
+  "last_check_note": "2026-09-24 11:30 run: 1/day rule already consumed by #751 (published 2026-09-24; QA verified live ~03:35 PDT). Pipeline ran full RESEARCH->DRAFT->CRITIQUE for new #984 (Axle McScatter, Nissan VC-Turbo recall math); round-0 panel passed (avg 8.89, all 7 >= 8.5). Added as SHIP_BLOCKED with next queue slot 2027-03-21.",
+  "last_checked": "2026-09-24T11:35:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-24T03:30:00-07:00",
     "journalist": "Rex Driverton",
@@ -55,11 +55,11 @@
     "slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
     "title": "Two Brands, One Factory, Same Battery Defect"
   },
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": 751,
   "last_published_date": "2026-09-24",
   "last_published_slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
-  "next": 984,
+  "next": 985,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -6852,6 +6852,50 @@
       "ship_date": "2027-03-19",
       "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
       "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does."
+    },
+    {
+      "number": 984,
+      "slug": "984-nissan-vc-turbo-recall-math",
+      "title": "Nissan's Miracle Engine Has Been Recalled Three Times. The Warranty Lasts Ten Years.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-03-21",
+      "critique_round": 0,
+      "avg_critic": 8.89,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.0,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 683.5,
+          "short_pct": 8.6,
+          "long_pct": 45.7
+        },
+        "word_count": 841,
+        "hero_jpeg": true,
+        "hero_hash": "9fec241e"
+      },
+      "files": {
+        "research": "drafts/984-nissan-vc-turbo-recall-math-research.md",
+        "draft": "drafts/984-nissan-vc-turbo-recall-math.html",
+        "hero": "drafts/984-nissan-vc-turbo-recall-math.jpg",
+        "critic_panel": "drafts/984-nissan-vc-turbo-recall-math-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-21",
+      "note": "2026-09-24 11:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 8.0%, rhythm PASS variance 683.5, hero JPEG 2352x1008 ?v=9fec241e). Novel: VC-Turbo recall arithmetic (fix cadence 18->7->1 months; 13% of Nissan's own 5,328-engine suspect population already claimed; 2023 Rogue engine complaints dominate NHTSA; oil-pan metal-debris inspection as diagnostic). Pre-panel fix: rhythm short_pct 20.9%->8.6% via fragment merges. Site overlap checked: zero Nissan coverage site-wide."
     }
   ]
 }
