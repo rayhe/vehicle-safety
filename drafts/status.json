@@ -5,11 +5,31 @@
     "title": "The Deadliest Car in America Aces Its Crash Tests",
     "journalist": "Rex Driverton",
     "kicker": "Investigation",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "started": "2026-09-24T13:45:00-07:00",
     "files": {
-      "research": "drafts/985-kia-rio-deadliest-good-ratings-research.md"
-    }
+      "research": "drafts/985-kia-rio-deadliest-good-ratings-research.md",
+      "draft": "drafts/985-kia-rio-deadliest-good-ratings.html",
+      "hero": "drafts/985-kia-rio-deadliest-good-ratings.jpg"
+    },
+    "critique_round": 0,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 3.8,
+      "css_class": true,
+      "style_css": true,
+      "word_count": 550,
+      "hero_jpeg": true,
+      "hero_hash": "697d7368",
+      "sentence_rhythm": {
+        "passed": true,
+        "variance": 558.9,
+        "short_pct": 3.7,
+        "long_pct": 59.3
+      }
+    },
+    "note": "2026-09-24 13:30 run: RESEARCH->DRAFT complete. Pre-panel fix: rhythm short_pct 25.7%->3.7% via fragment merges (7 merges)."
   },
   "last_check_note": "2026-09-24 11:30 run: 1/day rule already consumed by #751 (published 2026-09-24; QA verified live ~03:35 PDT). Pipeline ran full RESEARCH->DRAFT->CRITIQUE for new #984 (Axle McScatter, Nissan VC-Turbo recall math); round-0 panel passed (avg 8.89, all 7 >= 8.5). Added as SHIP_BLOCKED with next queue slot 2027-03-21.",
   "last_checked": "2026-09-24T11:35:00-07:00",
