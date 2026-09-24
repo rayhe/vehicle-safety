@@ -5,34 +5,46 @@
     "title": "The Deadliest Car in America Aces Its Crash Tests",
     "journalist": "Rex Driverton",
     "kicker": "Investigation",
-    "phase": "CRITIQUE",
-    "started": "2026-09-24T13:45:00-07:00",
-    "files": {
-      "research": "drafts/985-kia-rio-deadliest-good-ratings-research.md",
-      "draft": "drafts/985-kia-rio-deadliest-good-ratings.html",
-      "hero": "drafts/985-kia-rio-deadliest-good-ratings.jpg"
-    },
+    "phase": "SHIP_BLOCKED",
+    "ship_date": "2027-03-22",
     "critique_round": 0,
+    "avg_critic": 8.79,
+    "scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.5,
+      "data_presentation": 9.0
+    },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
       "the_starters_pct": 3.8,
       "css_class": true,
       "style_css": true,
-      "word_count": 550,
-      "hero_jpeg": true,
-      "hero_hash": "697d7368",
       "sentence_rhythm": {
         "passed": true,
         "variance": 558.9,
         "short_pct": 3.7,
         "long_pct": 59.3
-      }
+      },
+      "word_count": 550,
+      "hero_jpeg": true,
+      "hero_hash": "697d7368"
     },
-    "note": "2026-09-24 13:30 run: RESEARCH->DRAFT complete. Pre-panel fix: rhythm short_pct 25.7%->3.7% via fragment merges (7 merges)."
+    "files": {
+      "research": "drafts/985-kia-rio-deadliest-good-ratings-research.md",
+      "draft": "drafts/985-kia-rio-deadliest-good-ratings.html",
+      "hero": "drafts/985-kia-rio-deadliest-good-ratings.jpg",
+      "critic_panel": "drafts/985-kia-rio-deadliest-good-ratings-critic-panel-r0.md"
+    },
+    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-22",
+    "note": "2026-09-24 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 3.8%, rhythm PASS variance 558.9, hero JPEG 1920x1280 ?v=697d7368). Novel: IIHS lab-ratings vs death-rate cross-tab for same vehicle (Good/Good/Good yet #1 at 170 deaths/million registered vehicle years); FARS impairment cross-tab 21.5%; price-of-safety gradient (4,450 cheapest new car); denominator-divergence explainer (IIHS per-year vs FARS per-VMT, Spark 1.28 vs Rio 1.07). Pre-panel fix: rhythm short_pct 25.7%->3.7% via fragment merges. Site overlap checked: zero Rio coverage site-wide (killed Land Cruiser + Grand Caravan angles as already covered). Queue hygiene: removed stale duplicate #982 entry (blocked_reason contradicted ship_date)."
   },
-  "last_check_note": "2026-09-24 11:30 run: 1/day rule already consumed by #751 (published 2026-09-24; QA verified live ~03:35 PDT). Pipeline ran full RESEARCH->DRAFT->CRITIQUE for new #984 (Axle McScatter, Nissan VC-Turbo recall math); round-0 panel passed (avg 8.89, all 7 >= 8.5). Added as SHIP_BLOCKED with next queue slot 2027-03-21.",
-  "last_checked": "2026-09-24T11:35:00-07:00",
+  "last_check_note": "2026-09-24 13:30 run: 1/day rule already consumed by #751 (published 2026-09-24). Pipeline ran full RESEARCH->DRAFT->CRITIQUE for new #985 (Rex Driverton, Kia Rio deadliest/Good-ratings paradox); round-0 panel passed (avg 8.79, all 7 >= 8.5). Added as SHIP_BLOCKED with next queue slot 2027-03-22. Queue now 192 deep; deduped stale #982 entry.",
+  "last_checked": "2026-09-24T13:55:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-24T03:30:00-07:00",
     "journalist": "Rex Driverton",
@@ -6755,50 +6767,6 @@
     },
     {
       "avg_critic": 8.89,
-      "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-01-17",
-      "critique_round": 0,
-      "files": {
-        "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md",
-        "draft": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.html",
-        "hero": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.jpg",
-        "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md"
-      },
-      "hard_gates": {
-        "banned_phrases": 0,
-        "css_class": true,
-        "em_dashes": 0,
-        "hero_hash": "80fb21e7",
-        "hero_jpeg": true,
-        "sentence_rhythm": {
-          "long_pct": 34.6,
-          "passed": true,
-          "short_pct": 11.5,
-          "variance": 214.1
-        },
-        "style_css": true,
-        "the_starters_pct": 0.0,
-        "word_count": 890
-      },
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study.",
-      "number": 982,
-      "phase": "SHIP_BLOCKED",
-      "scores": {
-        "data_presentation": 9.0,
-        "ethics_reviewer": 8.8,
-        "general_editor": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.7,
-        "social_shareability": 8.7,
-        "voice_coach": 9.0
-      },
-      "ship_date": "2027-03-19",
-      "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
-      "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does."
-    },
-    {
-      "avg_critic": 8.89,
       "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-03-19",
       "critique_round": 0,
       "files": {
@@ -6884,6 +6852,50 @@
       },
       "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-21",
       "note": "2026-09-24 11:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 8.0%, rhythm PASS variance 683.5, hero JPEG 2352x1008 ?v=9fec241e). Novel: VC-Turbo recall arithmetic (fix cadence 18->7->1 months; 13% of Nissan's own 5,328-engine suspect population already claimed; 2023 Rogue engine complaints dominate NHTSA; oil-pan metal-debris inspection as diagnostic). Pre-panel fix: rhythm short_pct 20.9%->8.6% via fragment merges. Site overlap checked: zero Nissan coverage site-wide."
+    },
+    {
+      "number": 985,
+      "slug": "985-kia-rio-deadliest-good-ratings",
+      "title": "The Deadliest Car in America Aces Its Crash Tests",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-03-22",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.8,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 558.9,
+          "short_pct": 3.7,
+          "long_pct": 59.3
+        },
+        "word_count": 550,
+        "hero_jpeg": true,
+        "hero_hash": "697d7368"
+      },
+      "files": {
+        "research": "drafts/985-kia-rio-deadliest-good-ratings-research.md",
+        "draft": "drafts/985-kia-rio-deadliest-good-ratings.html",
+        "hero": "drafts/985-kia-rio-deadliest-good-ratings.jpg",
+        "critic_panel": "drafts/985-kia-rio-deadliest-good-ratings-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-22",
+      "note": "2026-09-24 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 3.8%, rhythm PASS variance 558.9, hero JPEG 1920x1280 ?v=697d7368). Novel: IIHS lab-ratings vs death-rate cross-tab for same vehicle (Good/Good/Good yet #1 at 170 deaths/million registered vehicle years); FARS impairment cross-tab 21.5%; price-of-safety gradient (4,450 cheapest new car); denominator-divergence explainer (IIHS per-year vs FARS per-VMT, Spark 1.28 vs Rio 1.07). Pre-panel fix: rhythm short_pct 25.7%->3.7% via fragment merges. Site overlap checked: zero Rio coverage site-wide (killed Land Cruiser + Grand Caravan angles as already covered). Queue hygiene: removed stale duplicate #982 entry (blocked_reason contradicted ship_date)."
     }
   ]
 }
