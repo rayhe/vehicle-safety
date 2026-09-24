@@ -2,14 +2,49 @@
   "current": {
     "number": 982,
     "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
-    "title": "IIHS Paid for a Study. It Says Weed Does Not Crash Cars. Alcohol Does.",
+    "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does.",
     "journalist": "Dale Impactor III",
     "kicker": "Sobriety Report",
-    "phase": "DRAFT",
-    "started": "2026-09-24T03:35:00-07:00"
+    "phase": "SHIP_BLOCKED",
+    "ship_date": "2027-01-17",
+    "critique_round": 0,
+    "avg_critic": 8.89,
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 8.8,
+      "social_shareability": 8.7,
+      "legal_accuracy": 9.0,
+      "research_rigor": 8.7,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 0.0,
+      "css_class": true,
+      "style_css": true,
+      "sentence_rhythm": {
+        "variance": 214.1,
+        "short_pct": 11.5,
+        "long_pct": 34.6,
+        "passed": true
+      },
+      "hero_jpeg": true,
+      "hero_hash": "80fb21e7",
+      "word_count": 890
+    },
+    "files": {
+      "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md",
+      "draft": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.html",
+      "hero": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.jpg",
+      "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md"
+    },
+    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-01-17",
+    "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study."
   },
   "last_check_note": "2026-09-23 23:30 run: 1/day slot consumed by Publish #750 (2026-09-23, QA live-verified); #751 (SK On electrode-misalignment, Rex Driverton) remains SHIP_BLOCKED for 2026-09-24 ship window. Draft files verified present (html 8348 bytes, hero 506813 bytes), tree clean. No phase advance.",
-  "last_checked": "2026-09-24T03:35:00-07:00",
+  "last_checked": "2026-09-24T04:10:00-07:00",
   "last_completed": {
     "number": 751,
     "slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
@@ -6714,6 +6749,50 @@
       },
       "blocked_reason": "Queued behind 188 prior drafts; next publish slot 2027-01-16; 1/day rule consumed by #750 on 2026-09-23",
       "note": "2026-09-23 21:30 run: #981 (NHTSA 26V363/FCA 21D Jeep Wrangler+Gladiator park-outside fire recall, filed Jun 4 2026, 1,076,999 vehicles; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 1, banned 0, The 3.1%, rhythm PASS, hero JPEG 1920x1280 ?v=b20e4a02). Novel: missed end-of-July remedy deadline (still no fix per Sep 21 roundup) + closed-then-reopened investigation timeline (May 2023-Apr 2024 closed, reopened Aug 2024, NHTSA probe Sep 2024) + 0.1%-vs-100% contrast (~1,077 defective vs 1.08M displaced) + fire-rate math (6.7/100k). Pre-panel fix: 'eleven-month stretch' -> 'four months'. Queued SHIP_BLOCKED for 2027-01-16."
+    },
+    {
+      "number": 982,
+      "slug": "982-iihs-er-study-cannabis-alone-no-crash-risk",
+      "title": "IIHS Paid for a Study. It Says Weed Doesn't Crash Cars. Alcohol Does.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-01-17",
+      "critique_round": 0,
+      "avg_critic": 8.89,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 214.1,
+          "short_pct": 11.5,
+          "long_pct": 34.6,
+          "passed": true
+        },
+        "hero_jpeg": true,
+        "hero_hash": "80fb21e7",
+        "word_count": 890
+      },
+      "files": {
+        "research": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-research.md",
+        "draft": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.html",
+        "hero": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk.jpg",
+        "critic_panel": "drafts/982-iihs-er-study-cannabis-alone-no-crash-risk-critique-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next publish slot 2027-01-17",
+      "note": "2026-09-24 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 214.1, hero JPEG 1920x1280 ?v=80fb21e7). Novel: funder-paradox framing (IIHS funded both the legalization crash-rate study AND the individual-level cannabis exoneration) + bridging arithmetic (cannabis-only OR ~1.0 means the +4-6% ecological bump rides the combined-use channel, Table A4 infrequent-user combo OR 8.11). Pre-panel fixes: 'The' starters 18.2%->0.0%, rhythm variance 181->214.1 via sentence merges + short punches. Site overlap checked: draft #840 covered the ecological Farmer study; no prior coverage of the Apr 2024 Accident Analysis & Prevention case-crossover ER study."
     }
   ]
 }
