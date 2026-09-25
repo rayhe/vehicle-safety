@@ -1,50 +1,50 @@
 {
   "current": {
-    "number": 986,
-    "slug": "986-aeb-mandate-one-in-five-flunks",
-    "title": "AEB Is Mandatory by 2029. One in Five Systems Flunks the Hard Test.",
-    "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
+    "number": 987,
+    "slug": "987-side-impact-test-trucks-got-heavier",
+    "title": "The Crash Test Didn't Get Harder. The Trucks Did.",
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-23",
+    "ship_date": "2027-03-24",
     "critique_round": 0,
-    "avg_critic": 8.86,
+    "avg_critic": 8.77,
     "scores": {
-      "general_editor": 8.5,
-      "voice_coach": 9.0,
+      "general_editor": 8.7,
+      "voice_coach": 8.8,
       "ethics_reviewer": 9.0,
       "social_shareability": 8.5,
       "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
+      "research_rigor": 8.8,
+      "data_presentation": 8.8
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 11.6,
+      "the_starters_pct": 2.9,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
         "passed": true,
-        "variance": 2722.4,
-        "short_pct": 12.0,
-        "long_pct": 52.0
+        "variance": 451.9,
+        "short_pct": 12.5,
+        "long_pct": 59.4
       },
-      "word_count": 609,
+      "word_count": 590,
       "hero_jpeg": true,
-      "hero_hash": "645d0c33"
+      "hero_hash": "88b90290"
     },
     "files": {
-      "research": "drafts/986-aeb-mandate-one-in-five-flunks-research.md",
-      "draft": "drafts/986-aeb-mandate-one-in-five-flunks.html",
-      "hero": "drafts/986-aeb-mandate-one-in-five-flunks.jpg",
-      "critic_panel": "drafts/986-aeb-mandate-one-in-five-flunks-critic-panel-r0.md"
+      "research": "drafts/987-side-impact-test-trucks-got-heavier-research.md",
+      "draft": "drafts/987-side-impact-test-trucks-got-heavier.html",
+      "hero": "drafts/987-side-impact-test-trucks-got-heavier.jpg",
+      "critic_panel": "drafts/987-side-impact-test-trucks-got-heavier-critic-panel-r0.md"
     },
-    "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-23",
-    "note": "2026-09-24 21:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 11.6%, rhythm PASS variance 2722.4, hero JPEG 1920x1280 ?v=645d0c33). Novel: FMVSS-127 mandate-performance gap (Sept 2029 requires dark-pedestrian detection; 22% of 524 rated systems fail the day+night test); Jeep outlier 60.9% fail = 2.7x fleet rate; price-irrelevance/hardware-generation finding (Audi 13/37). Pre-panel fixes: rhythm short_pct 24.1%->12.0% via fragment merges; ref-5 swapped to verified iihs.org/ratings after topics page failed to load; trimmed 690->609 prose words. Site overlap checked: killed VW steering bolt (#929/#953), Polestar RQ25004 (#849), Ridgeline (#964), Jeep crossbar (#970); sequel to May aeb-tested-at-parking-lot-speeds (old 25mph test vs new hard test census)."
+    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-24",
+    "note": "2026-09-25 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.77, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 451.9, hero JPEG 1920x1280 ?v=88b90290). Novel: inverted frame on IIHS updated side test (barrier 3300->4200 lbs, 31->37 mph, +82% crash energy) as fleet-weight admission, not lab triumph; original FARS cross-tab (sedan median 0.68 vs SUV 0.35 per 100M VMT, sedans 46.6% of 191,193 deaths). Pre-panel fixes: merged fragments to fix rhythm short_pct 33.3%->12.5%; The-starters 20.8%->2.9%. Overlap check: zero side-impact/barrier queue items; #946 overlaps only on sedan-rate stat, thesis differs."
   },
   "last_check_note": "2026-09-25 01:30 run: #752 published and QA-verified live (deploy ab02ed09). 1/day slot consumed today. Next due: #753 (ship_date 2026-09-26). Queue continues SHIP_BLOCKED; no new research against ~6-month backlog.",
-  "last_checked": "2026-09-25T01:45:00-07:00",
+  "last_checked": "2026-09-25T03:45:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-25T01:45:00-07:00",
     "journalist": "Vin Wreckage",
@@ -52,11 +52,11 @@
     "publish_date_pacific": "2026-09-25",
     "qa": "Live verified 2026-09-25 ~01:45 PDT on deployment 5047c535 (commit ab02ed09): story 200 with correct og:image/twitter:card/dateline, hero JPEG 200 357KB image/jpeg, index card present, sitemap entry present."
   },
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": 752,
   "last_published_date": "2026-09-25",
   "last_published_slug": "752-mach-e-every-model-year-recalled",
-  "next": 987,
+  "next": 988,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -6967,6 +6967,50 @@
       },
       "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-23",
       "note": "2026-09-24 21:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 11.6%, rhythm PASS variance 2722.4, hero JPEG 1920x1280 ?v=645d0c33). Novel: FMVSS-127 mandate-performance gap (Sept 2029 requires dark-pedestrian detection; 22% of 524 rated systems fail the day+night test); Jeep outlier 60.9% fail = 2.7x fleet rate; price-irrelevance/hardware-generation finding (Audi 13/37). Pre-panel fixes: rhythm short_pct 24.1%->12.0% via fragment merges; ref-5 swapped to verified iihs.org/ratings after topics page failed to load; trimmed 690->609 prose words. Site overlap checked: killed VW steering bolt (#929/#953), Polestar RQ25004 (#849), Ridgeline (#964), Jeep crossbar (#970); sequel to May aeb-tested-at-parking-lot-speeds (old 25mph test vs new hard test census)."
+    },
+    {
+      "number": 987,
+      "slug": "987-side-impact-test-trucks-got-heavier",
+      "title": "The Crash Test Didn't Get Harder. The Trucks Did.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-03-24",
+      "critique_round": 0,
+      "avg_critic": 8.77,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 451.9,
+          "short_pct": 12.5,
+          "long_pct": 59.4
+        },
+        "word_count": 590,
+        "hero_jpeg": true,
+        "hero_hash": "88b90290"
+      },
+      "files": {
+        "research": "drafts/987-side-impact-test-trucks-got-heavier-research.md",
+        "draft": "drafts/987-side-impact-test-trucks-got-heavier.html",
+        "hero": "drafts/987-side-impact-test-trucks-got-heavier.jpg",
+        "critic_panel": "drafts/987-side-impact-test-trucks-got-heavier-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-24",
+      "note": "2026-09-25 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.77, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 451.9, hero JPEG 1920x1280 ?v=88b90290). Novel: inverted frame on IIHS updated side test (barrier 3300->4200 lbs, 31->37 mph, +82% crash energy) as fleet-weight admission, not lab triumph; original FARS cross-tab (sedan median 0.68 vs SUV 0.35 per 100M VMT, sedans 46.6% of 191,193 deaths). Pre-panel fixes: merged fragments to fix rhythm short_pct 33.3%->12.5%; The-starters 20.8%->2.9%. Overlap check: zero side-impact/barrier queue items; #946 overlaps only on sedan-rate stat, thesis differs."
     }
   ]
 }
