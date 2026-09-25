@@ -1,47 +1,47 @@
 {
   "current": {
-    "number": 987,
-    "slug": "987-side-impact-test-trucks-got-heavier",
-    "title": "The Crash Test Didn't Get Harder. The Trucks Did.",
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
+    "number": 988,
+    "slug": "988-600m-crash-lab-50k-lives-roi",
+    "title": "IIHS Spent $600 Million Smashing Cars. It Got Back $538 Billion.",
+    "journalist": "Clara Rollover",
+    "kicker": "By The Numbers",
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-24",
+    "ship_date": "2027-03-25",
     "critique_round": 0,
-    "avg_critic": 8.77,
+    "avg_critic": 8.79,
     "scores": {
       "general_editor": 8.7,
-      "voice_coach": 8.8,
+      "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
       "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
+      "legal_accuracy": 8.8,
       "research_rigor": 8.8,
-      "data_presentation": 8.8
+      "data_presentation": 8.7
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 2.9,
+      "the_starters_pct": 10.3,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
         "passed": true,
-        "variance": 451.9,
-        "short_pct": 12.5,
-        "long_pct": 59.4
+        "variance": 603.6,
+        "short_pct": 3.4,
+        "long_pct": 48.3
       },
-      "word_count": 590,
+      "word_count": 593,
       "hero_jpeg": true,
-      "hero_hash": "88b90290"
+      "hero_hash": "7e726236"
     },
     "files": {
-      "research": "drafts/987-side-impact-test-trucks-got-heavier-research.md",
-      "draft": "drafts/987-side-impact-test-trucks-got-heavier.html",
-      "hero": "drafts/987-side-impact-test-trucks-got-heavier.jpg",
-      "critic_panel": "drafts/987-side-impact-test-trucks-got-heavier-critic-panel-r0.md"
+      "research": "drafts/988-600m-crash-lab-50k-lives-roi-research.md",
+      "draft": "drafts/988-600m-crash-lab-50k-lives-roi.html",
+      "hero": "drafts/988-600m-crash-lab-50k-lives-roi.jpg",
+      "critic_panel": "drafts/988-600m-crash-lab-50k-lives-roi-critic-panel-r0.md"
     },
-    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-24",
-    "note": "2026-09-25 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.77, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 451.9, hero JPEG 1920x1280 ?v=88b90290). Novel: inverted frame on IIHS updated side test (barrier 3300->4200 lbs, 31->37 mph, +82% crash energy) as fleet-weight admission, not lab triumph; original FARS cross-tab (sedan median 0.68 vs SUV 0.35 per 100M VMT, sedans 46.6% of 191,193 deaths). Pre-panel fixes: merged fragments to fix rhythm short_pct 33.3%->12.5%; The-starters 20.8%->2.9%. Overlap check: zero side-impact/barrier queue items; #946 overlaps only on sedan-rate stat, thesis differs."
+    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-25",
+    "note": "2026-09-25 07:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.3%, rhythm PASS variance 603.6, hero JPEG 1920x1280 ?v=7e726236). Novel: 900-to-1 ROI on IIHS 30th-anniv study (June 2026), $12,400 program cost per life saved, 1,860 lives/yr pace, oldest test (1995 moderate overlap) did most saving. Pre-panel fixes: added hero <img> + cache-bust hash, merged 7 fragments (short_pct 21.1%->3.4%), added seatbelt-trend citation. Overlap check: zero queue items on the IIHS 50k-lives study."
   },
   "last_check_note": "2026-09-25 05:30 run: no phases to advance. Current #987 SHIP_BLOCKED (queue tail, slot 2027-03-24). 1/day gate consumed by #752 (Publish commit 8601c4f0, QA verified 01:45). Backlog 179 SHIP_BLOCKED; no new research started to avoid deepening backlog. Updated last_checked only.",
   "last_checked": "2026-09-25T05:28:01.658804-07:00",
@@ -52,11 +52,11 @@
     "publish_date_pacific": "2026-09-25",
     "qa": "Live verified 2026-09-25 ~01:45 PDT on deployment 5047c535 (commit ab02ed09): story 200 with correct og:image/twitter:card/dateline, hero JPEG 200 357KB image/jpeg, index card present, sitemap entry present."
   },
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": 752,
   "last_published_date": "2026-09-25",
   "last_published_slug": "752-mach-e-every-model-year-recalled",
-  "next": 988,
+  "next": 989,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -7011,6 +7011,50 @@
       },
       "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-24",
       "note": "2026-09-25 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.77, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 451.9, hero JPEG 1920x1280 ?v=88b90290). Novel: inverted frame on IIHS updated side test (barrier 3300->4200 lbs, 31->37 mph, +82% crash energy) as fleet-weight admission, not lab triumph; original FARS cross-tab (sedan median 0.68 vs SUV 0.35 per 100M VMT, sedans 46.6% of 191,193 deaths). Pre-panel fixes: merged fragments to fix rhythm short_pct 33.3%->12.5%; The-starters 20.8%->2.9%. Overlap check: zero side-impact/barrier queue items; #946 overlaps only on sedan-rate stat, thesis differs."
+    },
+    {
+      "number": 988,
+      "slug": "988-600m-crash-lab-50k-lives-roi",
+      "title": "IIHS Spent $600 Million Smashing Cars. It Got Back $538 Billion.",
+      "journalist": "Clara Rollover",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-03-25",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.3,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 603.6,
+          "short_pct": 3.4,
+          "long_pct": 48.3
+        },
+        "word_count": 593,
+        "hero_jpeg": true,
+        "hero_hash": "7e726236"
+      },
+      "files": {
+        "research": "drafts/988-600m-crash-lab-50k-lives-roi-research.md",
+        "draft": "drafts/988-600m-crash-lab-50k-lives-roi.html",
+        "hero": "drafts/988-600m-crash-lab-50k-lives-roi.jpg",
+        "critic_panel": "drafts/988-600m-crash-lab-50k-lives-roi-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-25",
+      "note": "2026-09-25 07:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.3%, rhythm PASS variance 603.6, hero JPEG 1920x1280 ?v=7e726236). Novel: 900-to-1 ROI on IIHS 30th-anniv study (June 2026), $12,400 program cost per life saved, 1,860 lives/yr pace, oldest test (1995 moderate overlap) did most saving. Pre-panel fixes: added hero <img> + cache-bust hash, merged 7 fragments (short_pct 21.1%->3.4%), added seatbelt-trend citation. Overlap check: zero queue items on the IIHS 50k-lives study."
     }
   ]
 }
