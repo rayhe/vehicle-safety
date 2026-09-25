@@ -43,22 +43,19 @@
     "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-23",
     "note": "2026-09-24 21:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 11.6%, rhythm PASS variance 2722.4, hero JPEG 1920x1280 ?v=645d0c33). Novel: FMVSS-127 mandate-performance gap (Sept 2029 requires dark-pedestrian detection; 22% of 524 rated systems fail the day+night test); Jeep outlier 60.9% fail = 2.7x fleet rate; price-irrelevance/hardware-generation finding (Audi 13/37). Pre-panel fixes: rhythm short_pct 24.1%->12.0% via fragment merges; ref-5 swapped to verified iihs.org/ratings after topics page failed to load; trimmed 690->609 prose words. Site overlap checked: killed VW steering bolt (#929/#953), Polestar RQ25004 (#849), Ridgeline (#964), Jeep crossbar (#970); sequel to May aeb-tested-at-parking-lot-speeds (old 25mph test vs new hard test census)."
   },
-  "last_check_note": "23:30 run: 1/day slot consumed by #751 (Publish commit 7801d400, QA live-verified 03:30); #986 SHIP_BLOCKED 2027-03-23, hard gates re-verified (em 0, banned 0, story/style.css OK, hero real JPEG 1920x1280). Queue 179 SHIP_BLOCKED, strictly 1/day 2026-09-25..2027-03-23, no dupes, none due. No new research against ~6-month backlog; nothing ships today.",
-  "last_checked": "2026-09-24T23:30:00-07:00",
+  "last_check_note": "2026-09-25 01:30 run: #752 published and QA-verified live (deploy ab02ed09). 1/day slot consumed today. Next due: #753 (ship_date 2026-09-26). Queue continues SHIP_BLOCKED; no new research against ~6-month backlog.",
+  "last_checked": "2026-09-25T01:45:00-07:00",
   "last_completed": {
-    "completed_at": "2026-09-24T03:30:00-07:00",
-    "journalist": "Rex Driverton",
-    "number": 751,
-    "publish_date_pacific": "2026-09-24",
-    "qa": "Live URL verified 2026-09-24 ~03:35 PDT: full article body, pull stat, references render at vehicle-safety.org/stories/751-sk-on-electrode-misalignment-two-oems-one-defect.html. Hero image HTTP 200 image/jpeg. Sitemap + index contain story link.",
-    "qa_live_verified": true,
-    "slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
-    "title": "Two Brands, One Factory, Same Battery Defect"
+    "completed_at": "2026-09-25T01:45:00-07:00",
+    "journalist": "Vin Wreckage",
+    "number": 752,
+    "publish_date_pacific": "2026-09-25",
+    "qa": "Live verified 2026-09-25 ~01:45 PDT on deployment 5047c535 (commit ab02ed09): story 200 with correct og:image/twitter:card/dateline, hero JPEG 200 357KB image/jpeg, index card present, sitemap entry present."
   },
   "last_journalist": "Vin Wreckage",
-  "last_published": 751,
-  "last_published_date": "2026-09-24",
-  "last_published_slug": "751-sk-on-electrode-misalignment-two-oems-one-defect",
+  "last_published": 752,
+  "last_published_date": "2026-09-25",
+  "last_published_slug": "752-mach-e-every-model-year-recalled",
   "next": 987,
   "queue": [
     {
@@ -88,11 +85,41 @@
     },
     {
       "journalist": "Vin Wreckage",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": "2026-09-25 01:30 run: pre-ship re-verification of 26V417/26V487 against live NHTSA Part 573 PDFs + press (counts/dates/suppliers confirmed). Round-0 panel VERDICT: SHIP (avg 8.79). Ship fix commit ab02ed09 (publish commit had staged pre-edit HTML blob; corrected og:image/twitter/dateline/hero path, deployed clean). 1/day gate consumed today.",
       "number": 752,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "ship_date": "2026-09-25",
-      "slug": "mach-e-every-model-year-recalled"
+      "slug": "752-mach-e-every-model-year-recalled",
+      "title": "Every Model Year of the Mustang Mach-E Has Been Recalled",
+      "kicker": "Existential Dread",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "bcb141ee",
+        "word_count": 513
+      },
+      "files": {
+        "research": "drafts/mach-e-every-model-year-recalled-research.md",
+        "critic_panel": "drafts/mach-e-every-model-year-recalled-critic-panel-r0.md",
+        "story": "stories/752-mach-e-every-model-year-recalled.html",
+        "hero": "images/752-mach-e-every-model-year-recalled.jpg"
+      },
+      "publish_commit": "8601c4f0"
     },
     {
       "journalist": "Axle McScatter",
