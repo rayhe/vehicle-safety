@@ -43,8 +43,8 @@
     "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-24",
     "note": "2026-09-25 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.77, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 451.9, hero JPEG 1920x1280 ?v=88b90290). Novel: inverted frame on IIHS updated side test (barrier 3300->4200 lbs, 31->37 mph, +82% crash energy) as fleet-weight admission, not lab triumph; original FARS cross-tab (sedan median 0.68 vs SUV 0.35 per 100M VMT, sedans 46.6% of 191,193 deaths). Pre-panel fixes: merged fragments to fix rhythm short_pct 33.3%->12.5%; The-starters 20.8%->2.9%. Overlap check: zero side-impact/barrier queue items; #946 overlaps only on sedan-rate stat, thesis differs."
   },
-  "last_check_note": "2026-09-25 01:30 run: #752 published and QA-verified live (deploy ab02ed09). 1/day slot consumed today. Next due: #753 (ship_date 2026-09-26). Queue continues SHIP_BLOCKED; no new research against ~6-month backlog.",
-  "last_checked": "2026-09-25T03:45:00-07:00",
+  "last_check_note": "2026-09-25 05:30 run: no phases to advance. Current #987 SHIP_BLOCKED (queue tail, slot 2027-03-24). 1/day gate consumed by #752 (Publish commit 8601c4f0, QA verified 01:45). Backlog 179 SHIP_BLOCKED; no new research started to avoid deepening backlog. Updated last_checked only.",
+  "last_checked": "2026-09-25T05:28:01.658804-07:00",
   "last_completed": {
     "completed_at": "2026-09-25T01:45:00-07:00",
     "journalist": "Vin Wreckage",
