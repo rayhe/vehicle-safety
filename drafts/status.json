@@ -1,48 +1,47 @@
 {
   "current": {
-    "number": 989,
-    "slug": "989-kia-hyundai-immobilizer-settlement",
-    "title": "Hyundai Deleted the Immobilizer. 35 States Just Made Them Put It Back in 9 Million Cars.",
-    "journalist": "Clara Rollover",
-    "kicker": "The Gap",
+    "journalist": "Dale Impactor III",
+    "note": "2026-09-25 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 7.5%, rhythm PASS variance 382.6, hero JPEG 1920x1280 ?v=36dd1e9c). Novel: loneliness multiplier 2.5x (single-occupant 50% vs 5+ occupants 20%), stimulant +41% relative, young-cannabis +29% post-legalization, drug/alcohol inversion 1.41x. Fresh TIRF 2026 23-year dataset; zero queue overlap (grep canada/tirf/stimulant/3am/4am/saturday/thc: 0 hits). Pre-panel fix: merged 9 fragments (short_pct 25.0%->7.1%).",
+    "number": 990,
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-26",
+    "ship_date": "2027-03-27",
+    "slug": "990-canada-23-years-drugs-deadliest-factor",
+    "started": "2026-09-25T13:30:00-07:00",
+    "title": "Half the Drivers Who Die Alone at 4am Are on Drugs. Canada Counted 23 Years of Them.",
+    "kicker": "Sobriety Report",
     "critique_round": 0,
     "avg_critic": 8.79,
     "scores": {
-      "general_editor": 8.7,
-      "voice_coach": 9.0,
+      "general_editor": 9.0,
+      "voice_coach": 8.5,
       "ethics_reviewer": 9.0,
-      "social_shareability": 8.8,
-      "legal_accuracy": 8.7,
-      "research_rigor": 8.8,
-      "data_presentation": 8.7
+      "social_shareability": 9.0,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9.0,
+      "data_presentation": 8.5
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 10.5,
+      "the_starters_pct": 7.5,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
         "passed": true,
-        "variance": 645.8,
-        "short_pct": 6.1,
-        "long_pct": 54.5
+        "variance": 382.6,
+        "short_pct": 7.1,
+        "long_pct": 50.0
       },
-      "word_count": 771,
       "hero_jpeg": true,
-      "hero_hash": "2208df93"
+      "hero_hash": "36dd1e9c"
     },
     "files": {
-      "research": "drafts/989-kia-hyundai-immobilizer-settlement-research.md",
-      "draft": "drafts/989-kia-hyundai-immobilizer-settlement.html",
-      "hero": "drafts/989-kia-hyundai-immobilizer-settlement.jpg",
-      "critic_panel": "drafts/989-kia-hyundai-immobilizer-settlement-critic-panel-r0.md"
+      "research": "drafts/990-canada-23-years-drugs-deadliest-factor-research.md",
+      "draft": "drafts/990-canada-23-years-drugs-deadliest-factor.html",
+      "hero": "drafts/990-canada-23-years-drugs-deadliest-factor.jpg",
+      "critic_panel": "drafts/990-canada-23-years-drugs-deadliest-factor-critic-panel-r0.md"
     },
-    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-26",
-    "started": "2026-09-25T09:30:00-07:00",
-    "note": "2026-09-25 09:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.5%, rhythm PASS variance 645.8, hero JPEG 1920x1280 ?v=2208df93). Novel: $55/car retrofit arithmetic ($500M/9M), regulation-by-settlement framing (35 AGs, immobilizers on all future US Hyundais/Kias, no FMVSS rulemaking), missing-body-count argument (FARS has no stolen-vehicle flag). Zero queue overlap on Kia/Hyundai theft crisis (grep: 0 hits). Pre-panel fix: merged 7 fragments (short_pct 16.7%->6.1%)."
+    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
   },
   "last_check_note": "2026-09-25 11:30 run: no phases to advance. Current #989 SHIP_BLOCKED (queue tail, slot 2027-03-26). 1/day gate consumed by #752 (Publish commit, QA verified 01:45). Backlog 196 SHIP_BLOCKED; next ship slot #753 on 2026-09-26. No new research started to avoid deepening backlog.",
   "last_checked": "2026-09-25T11:30:00-07:00",
@@ -53,11 +52,11 @@
     "publish_date_pacific": "2026-09-25",
     "qa": "Live verified 2026-09-25 ~01:45 PDT on deployment 5047c535 (commit ab02ed09): story 200 with correct og:image/twitter:card/dateline, hero JPEG 200 357KB image/jpeg, index card present, sitemap entry present."
   },
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": 752,
   "last_published_date": "2026-09-25",
   "last_published_slug": "752-mach-e-every-model-year-recalled",
-  "next": 989,
+  "next": 990,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -7101,6 +7100,50 @@
       "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-26",
       "started": "2026-09-25T09:30:00-07:00",
       "note": "2026-09-25 09:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.5%, rhythm PASS variance 645.8, hero JPEG 1920x1280 ?v=2208df93). Novel: $55/car retrofit arithmetic ($500M/9M), regulation-by-settlement framing (35 AGs, immobilizers on all future US Hyundais/Kias, no FMVSS rulemaking), missing-body-count argument (FARS has no stolen-vehicle flag). Zero queue overlap on Kia/Hyundai theft crisis (grep: 0 hits). Pre-panel fix: merged 7 fragments (short_pct 16.7%->6.1%)."
+    },
+    {
+      "journalist": "Dale Impactor III",
+      "note": "2026-09-25 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 7.5%, rhythm PASS variance 382.6, hero JPEG 1920x1280 ?v=36dd1e9c). Novel: loneliness multiplier 2.5x (single-occupant 50% vs 5+ occupants 20%), stimulant +41% relative, young-cannabis +29% post-legalization, drug/alcohol inversion 1.41x. Fresh TIRF 2026 23-year dataset; zero queue overlap (grep canada/tirf/stimulant/3am/4am/saturday/thc: 0 hits). Pre-panel fix: merged 9 fragments (short_pct 25.0%->7.1%).",
+      "number": 990,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-03-27",
+      "slug": "990-canada-23-years-drugs-deadliest-factor",
+      "started": "2026-09-25T13:30:00-07:00",
+      "title": "Half the Drivers Who Die Alone at 4am Are on Drugs. Canada Counted 23 Years of Them.",
+      "kicker": "Sobriety Report",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.5,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 382.6,
+          "short_pct": 7.1,
+          "long_pct": 50.0
+        },
+        "hero_jpeg": true,
+        "hero_hash": "36dd1e9c"
+      },
+      "files": {
+        "research": "drafts/990-canada-23-years-drugs-deadliest-factor-research.md",
+        "draft": "drafts/990-canada-23-years-drugs-deadliest-factor.html",
+        "hero": "drafts/990-canada-23-years-drugs-deadliest-factor.jpg",
+        "critic_panel": "drafts/990-canada-23-years-drugs-deadliest-factor-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
     }
   ]
 }
