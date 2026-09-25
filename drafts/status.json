@@ -43,8 +43,8 @@
     "blocked_reason": "1/day rule consumed by #751 on 2026-09-24; next available queue slot 2027-03-22",
     "note": "2026-09-24 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 3.8%, rhythm PASS variance 558.9, hero JPEG 1920x1280 ?v=697d7368). Novel: IIHS lab-ratings vs death-rate cross-tab for same vehicle (Good/Good/Good yet #1 at 170 deaths/million registered vehicle years); FARS impairment cross-tab 21.5%; price-of-safety gradient (4,450 cheapest new car); denominator-divergence explainer (IIHS per-year vs FARS per-VMT, Spark 1.28 vs Rio 1.07). Pre-panel fix: rhythm short_pct 25.7%->3.7% via fragment merges. Site overlap checked: zero Rio coverage site-wide (killed Land Cruiser + Grand Caravan angles as already covered). Queue hygiene: removed stale duplicate #982 entry (blocked_reason contradicted ship_date)."
   },
-  "last_check_note": "2026-09-24 17:30 run: 1/day rule already consumed by #751 (published 2026-09-24). Current #985 SHIP_BLOCKED, queued 2027-03-22; queue 192 deep. Live check: index 200, story URL 308-redirects to extensionless path which returns 200, sitemap contains #751. No new article generated (queue already extends ~6 months); exited per SHIP-phase rule.",
-  "last_checked": "2026-09-24T17:30:00-07:00",
+  "last_check_note": "19:30 run: 1/day slot consumed by #751 (Publish commit 7801d400); #985 SHIP_BLOCKED 2027-03-22, hard gates re-verified (em 0, banned 0, story/style.css OK, hero JPEG 1920x1280). Queue 192 SHIP_BLOCKED, strictly renumbered 1/day from 2026-09-25. No phase applies; nothing ships today.",
+  "last_checked": "2026-09-24T19:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-24T03:30:00-07:00",
     "journalist": "Rex Driverton",
