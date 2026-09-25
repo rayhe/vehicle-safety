@@ -1,47 +1,48 @@
 {
   "current": {
-    "number": 988,
-    "slug": "988-600m-crash-lab-50k-lives-roi",
-    "title": "IIHS Spent $600 Million Smashing Cars. It Got Back $538 Billion.",
+    "number": 989,
+    "slug": "989-kia-hyundai-immobilizer-settlement",
+    "title": "Hyundai Deleted the Immobilizer. 35 States Just Made Them Put It Back in 9 Million Cars.",
     "journalist": "Clara Rollover",
-    "kicker": "By The Numbers",
+    "kicker": "The Gap",
     "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-25",
+    "ship_date": "2027-03-26",
     "critique_round": 0,
     "avg_critic": 8.79,
     "scores": {
       "general_editor": 8.7,
       "voice_coach": 9.0,
       "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 8.8,
+      "social_shareability": 8.8,
+      "legal_accuracy": 8.7,
       "research_rigor": 8.8,
       "data_presentation": 8.7
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 10.3,
+      "the_starters_pct": 10.5,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
         "passed": true,
-        "variance": 603.6,
-        "short_pct": 3.4,
-        "long_pct": 48.3
+        "variance": 645.8,
+        "short_pct": 6.1,
+        "long_pct": 54.5
       },
-      "word_count": 593,
+      "word_count": 771,
       "hero_jpeg": true,
-      "hero_hash": "7e726236"
+      "hero_hash": "2208df93"
     },
     "files": {
-      "research": "drafts/988-600m-crash-lab-50k-lives-roi-research.md",
-      "draft": "drafts/988-600m-crash-lab-50k-lives-roi.html",
-      "hero": "drafts/988-600m-crash-lab-50k-lives-roi.jpg",
-      "critic_panel": "drafts/988-600m-crash-lab-50k-lives-roi-critic-panel-r0.md"
+      "research": "drafts/989-kia-hyundai-immobilizer-settlement-research.md",
+      "draft": "drafts/989-kia-hyundai-immobilizer-settlement.html",
+      "hero": "drafts/989-kia-hyundai-immobilizer-settlement.jpg",
+      "critic_panel": "drafts/989-kia-hyundai-immobilizer-settlement-critic-panel-r0.md"
     },
-    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-25",
-    "note": "2026-09-25 07:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.3%, rhythm PASS variance 603.6, hero JPEG 1920x1280 ?v=7e726236). Novel: 900-to-1 ROI on IIHS 30th-anniv study (June 2026), $12,400 program cost per life saved, 1,860 lives/yr pace, oldest test (1995 moderate overlap) did most saving. Pre-panel fixes: added hero <img> + cache-bust hash, merged 7 fragments (short_pct 21.1%->3.4%), added seatbelt-trend citation. Overlap check: zero queue items on the IIHS 50k-lives study."
+    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-26",
+    "started": "2026-09-25T09:30:00-07:00",
+    "note": "2026-09-25 09:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.5%, rhythm PASS variance 645.8, hero JPEG 1920x1280 ?v=2208df93). Novel: $55/car retrofit arithmetic ($500M/9M), regulation-by-settlement framing (35 AGs, immobilizers on all future US Hyundais/Kias, no FMVSS rulemaking), missing-body-count argument (FARS has no stolen-vehicle flag). Zero queue overlap on Kia/Hyundai theft crisis (grep: 0 hits). Pre-panel fix: merged 7 fragments (short_pct 16.7%->6.1%)."
   },
   "last_check_note": "2026-09-25 05:30 run: no phases to advance. Current #987 SHIP_BLOCKED (queue tail, slot 2027-03-24). 1/day gate consumed by #752 (Publish commit 8601c4f0, QA verified 01:45). Backlog 179 SHIP_BLOCKED; no new research started to avoid deepening backlog. Updated last_checked only.",
   "last_checked": "2026-09-25T05:28:01.658804-07:00",
@@ -7055,6 +7056,51 @@
       },
       "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-25",
       "note": "2026-09-25 07:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.3%, rhythm PASS variance 603.6, hero JPEG 1920x1280 ?v=7e726236). Novel: 900-to-1 ROI on IIHS 30th-anniv study (June 2026), $12,400 program cost per life saved, 1,860 lives/yr pace, oldest test (1995 moderate overlap) did most saving. Pre-panel fixes: added hero <img> + cache-bust hash, merged 7 fragments (short_pct 21.1%->3.4%), added seatbelt-trend citation. Overlap check: zero queue items on the IIHS 50k-lives study."
+    },
+    {
+      "number": 989,
+      "slug": "989-kia-hyundai-immobilizer-settlement",
+      "title": "Hyundai Deleted the Immobilizer. 35 States Just Made Them Put It Back in 9 Million Cars.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-03-26",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.5,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 645.8,
+          "short_pct": 6.1,
+          "long_pct": 54.5
+        },
+        "word_count": 771,
+        "hero_jpeg": true,
+        "hero_hash": "2208df93"
+      },
+      "files": {
+        "research": "drafts/989-kia-hyundai-immobilizer-settlement-research.md",
+        "draft": "drafts/989-kia-hyundai-immobilizer-settlement.html",
+        "hero": "drafts/989-kia-hyundai-immobilizer-settlement.jpg",
+        "critic_panel": "drafts/989-kia-hyundai-immobilizer-settlement-critic-panel-r0.md"
+      },
+      "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-26",
+      "started": "2026-09-25T09:30:00-07:00",
+      "note": "2026-09-25 09:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.5%, rhythm PASS variance 645.8, hero JPEG 1920x1280 ?v=2208df93). Novel: $55/car retrofit arithmetic ($500M/9M), regulation-by-settlement framing (35 AGs, immobilizers on all future US Hyundais/Kias, no FMVSS rulemaking), missing-body-count argument (FARS has no stolen-vehicle flag). Zero queue overlap on Kia/Hyundai theft crisis (grep: 0 hits). Pre-panel fix: merged 7 fragments (short_pct 16.7%->6.1%)."
     }
   ]
 }
