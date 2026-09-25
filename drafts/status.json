@@ -44,8 +44,8 @@
     "started": "2026-09-25T09:30:00-07:00",
     "note": "2026-09-25 09:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.5%, rhythm PASS variance 645.8, hero JPEG 1920x1280 ?v=2208df93). Novel: $55/car retrofit arithmetic ($500M/9M), regulation-by-settlement framing (35 AGs, immobilizers on all future US Hyundais/Kias, no FMVSS rulemaking), missing-body-count argument (FARS has no stolen-vehicle flag). Zero queue overlap on Kia/Hyundai theft crisis (grep: 0 hits). Pre-panel fix: merged 7 fragments (short_pct 16.7%->6.1%)."
   },
-  "last_check_note": "2026-09-25 05:30 run: no phases to advance. Current #987 SHIP_BLOCKED (queue tail, slot 2027-03-24). 1/day gate consumed by #752 (Publish commit 8601c4f0, QA verified 01:45). Backlog 179 SHIP_BLOCKED; no new research started to avoid deepening backlog. Updated last_checked only.",
-  "last_checked": "2026-09-25T05:28:01.658804-07:00",
+  "last_check_note": "2026-09-25 11:30 run: no phases to advance. Current #989 SHIP_BLOCKED (queue tail, slot 2027-03-26). 1/day gate consumed by #752 (Publish commit, QA verified 01:45). Backlog 196 SHIP_BLOCKED; next ship slot #753 on 2026-09-26. No new research started to avoid deepening backlog.",
+  "last_checked": "2026-09-25T11:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-25T01:45:00-07:00",
     "journalist": "Vin Wreckage",
