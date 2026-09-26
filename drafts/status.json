@@ -1,7 +1,7 @@
 {
   "current": {
     "journalist": "Dale Impactor III",
-    "note": "2026-09-25 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 7.5%, rhythm PASS variance 382.6, hero JPEG 1920x1280 ?v=36dd1e9c). Novel: loneliness multiplier 2.5x (single-occupant 50% vs 5+ occupants 20%), stimulant +41% relative, young-cannabis +29% post-legalization, drug/alcohol inversion 1.41x. Fresh TIRF 2026 23-year dataset; zero queue overlap (grep canada/tirf/stimulant/3am/4am/saturday/thc: 0 hits). Pre-panel fix: merged 9 fragments (short_pct 25.0%->7.1%).",
+    "note": "2026-09-25 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 7.5%, rhythm PASS variance 382.6, hero JPEG 1920x1280 ?v=36dd1e9c). Novel: loneliness multiplier 2.5x (single-occupant 50% vs 5+ occupants 20%), stimulant +41% relative, young-cannabis +29% post-legalization, drug/alcohol inversion 1.41x. Fresh TIRF 2026 23-year dataset; zero queue overlap (grep canada/tirf/stimulant/3am/4am/saturday/thc: 0 hits). Pre-panel fix: merged 9 fragments (short_pct 25.0%->7.1%). | 2026-09-25 23:30 run: gates re-verified live (em 0, banned 0, The 2.8%, class=story, style.css OK, hero JPEG 1920x1280 real JPEG); stays SHIP_BLOCKED, slot 2027-03-27.",
     "number": 990,
     "phase": "SHIP_BLOCKED",
     "ship_date": "2027-03-27",
@@ -43,8 +43,8 @@
     },
     "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
   },
-  "last_check_note": "2026-09-25 21:30 run: no phase action available. Current #990 SHIP_BLOCKED (1/day consumed by Publish #752 2026-09-25; next slot 2026-09-26 = #753). Gates re-verified on #990 (em 0, banned 0, class=story, style.css, hero JPEG 1920x1280). #753 pre-ship ready: gates pass (em 0, banned 0, class=story, style.css, hero JPEG 2048x1152), dateline September 26, 2026 matches ship_date. No new research started (backlog 197 SHIP_BLOCKED through 2027-03-27).",
-  "last_checked": "2026-09-25T21:30:00-07:00",
+  "last_check_note": "#990 stays SHIP_BLOCKED (slot 2027-03-27); #753 pre-verified for 2026-09-26 slot (gates pass, dateline set, hero JPEG); no new research (1/day consumed by #752, backlog 197).",
+  "last_checked": "2026-09-25T23:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-25T01:45:00-07:00",
     "journalist": "Vin Wreckage",
@@ -123,7 +123,7 @@
     },
     {
       "journalist": "Axle McScatter",
-      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-25 19:30 run: title resolved from draft; files keys backfilled; dateline pre-set to September 26, 2026 (ship_date); gates pass (em 0, banned 0, class=story, style.css, hero JPEG 2048x1152 ?v=b2bac2bc). | 2026-09-25 21:30 run: pre-ship re-verify OK (gates pass, dateline 2026-09-26, hero JPEG 2048x1152).",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-25 19:30 run: title resolved from draft; files keys backfilled; dateline pre-set to September 26, 2026 (ship_date); gates pass (em 0, banned 0, class=story, style.css, hero JPEG 2048x1152 ?v=b2bac2bc). | 2026-09-25 21:30 run: pre-ship re-verify OK (gates pass, dateline 2026-09-26, hero JPEG 2048x1152). | 2026-09-25 23:30 run: pre-ship re-verify OK (em 0, banned 0, The 8.0%, class=story, style.css OK, hero JPEG 2048x1152, dateline 2026-09-26).",
       "number": 753,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-09-26",
