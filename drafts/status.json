@@ -43,8 +43,8 @@
     },
     "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
   },
-  "last_check_note": "2026-09-25 19:30 run: no phase action available. Current #990 SHIP_BLOCKED (1/day consumed by Publish #752 2026-09-25; next slot 2026-09-26 = #753). Gates re-verified on #990 (em 0, banned 0, class=story, style.css, hero JPEG 1920x1280). No new research started (backlog 182 SHIP_BLOCKED through 2027-03-27).",
-  "last_checked": "2026-09-25T19:30:00-07:00",
+  "last_check_note": "2026-09-25 21:30 run: no phase action available. Current #990 SHIP_BLOCKED (1/day consumed by Publish #752 2026-09-25; next slot 2026-09-26 = #753). Gates re-verified on #990 (em 0, banned 0, class=story, style.css, hero JPEG 1920x1280). #753 pre-ship ready: gates pass (em 0, banned 0, class=story, style.css, hero JPEG 2048x1152), dateline September 26, 2026 matches ship_date. No new research started (backlog 197 SHIP_BLOCKED through 2027-03-27).",
+  "last_checked": "2026-09-25T21:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-25T01:45:00-07:00",
     "journalist": "Vin Wreckage",
@@ -123,7 +123,7 @@
     },
     {
       "journalist": "Axle McScatter",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-25 19:30 run: title resolved from draft; files keys backfilled; dateline pre-set to September 26, 2026 (ship_date); gates pass (em 0, banned 0, class=story, style.css, hero JPEG 2048x1152 ?v=b2bac2bc).",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-25 19:30 run: title resolved from draft; files keys backfilled; dateline pre-set to September 26, 2026 (ship_date); gates pass (em 0, banned 0, class=story, style.css, hero JPEG 2048x1152 ?v=b2bac2bc). | 2026-09-25 21:30 run: pre-ship re-verify OK (gates pass, dateline 2026-09-26, hero JPEG 2048x1152).",
       "number": 753,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2026-09-26",
