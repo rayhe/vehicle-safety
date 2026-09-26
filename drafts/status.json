@@ -43,8 +43,8 @@
     },
     "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
   },
-  "last_check_note": "2026-09-25 15:30 run: status check only. Current #990 SHIP_BLOCKED, all hard gates re-verified PASS (em 0, banned 0, The-starters 2.9%, class=story, style.css, hero JPEG 1920x1280). Tomorrow head #753 pre-checked: gates pass (em 0, banned 0, hero JPEG 2048x1152); note: its queue entry is sparse (no title/files keys) - publish run should resolve title. 1/day gate consumed by #752 today. No new research started; backlog 182 SHIP_BLOCKED (slots through 2027-03-27).",
-  "last_checked": "2026-09-25T15:30:00-07:00",
+  "last_check_note": "2026-09-25 17:30 run: no phase action available. Current #990 SHIP_BLOCKED (1/day consumed by Publish #752 2026-09-25; next slot 2026-09-26). Live re-verified #752: story 200, dateline Sep 25 2026, hero JPEG 200 357KB image/jpeg, og:image + twitter:card present, index card + sitemap present, worktree matches HEAD. Queue depth 197 (next: #990). No new cycle started per pipeline (current non-null).",
+  "last_checked": "2026-09-25T17:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-25T01:45:00-07:00",
     "journalist": "Vin Wreckage",
