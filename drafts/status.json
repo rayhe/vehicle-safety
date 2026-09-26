@@ -46,11 +46,11 @@
   "last_check_note": "#990 stays SHIP_BLOCKED (slot 2027-03-27); #753 pre-verified for 2026-09-26 slot (gates pass, dateline set, hero JPEG); no new research (1/day consumed by #752, backlog 197).",
   "last_checked": "2026-09-25T23:30:00-07:00",
   "last_completed": {
-    "completed_at": "2026-09-25T01:45:00-07:00",
-    "journalist": "Vin Wreckage",
-    "number": 752,
-    "publish_date_pacific": "2026-09-25",
-    "qa": "Live verified 2026-09-25 ~01:45 PDT on deployment 5047c535 (commit ab02ed09): story 200 with correct og:image/twitter:card/dateline, hero JPEG 200 357KB image/jpeg, index card present, sitemap entry present."
+    "completed_at": "2026-09-26T01:50:00-07:00",
+    "journalist": "Axle McScatter",
+    "number": 753,
+    "publish_date_pacific": "2026-09-26",
+    "qa": "Live verified 2026-09-26 ~01:50 PDT (commit 06d929e4): story 200 (via 308 redirect follow) with absolute og:image ?v=5411e601, twitter:card + twitter:image, dateline September 26, 2026; hero 200 image/jpeg 190713B; index card present (href+img); sitemap entry present."
   },
   "last_journalist": "Axle McScatter",
   "last_published": 753,
