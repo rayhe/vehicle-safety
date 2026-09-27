@@ -1,19 +1,5 @@
 {
- "current": {
-  "number": 995,
-  "slug": "995-waymo-271-million-miles-iihs-convergence",
-  "title": "Waymo Drove 271 Million Miles Without a Driver. The Insurance Industry Checked the Math.",
-  "journalist": "Axle McScatter",
-  "kicker": "By The Numbers",
-  "phase": "CRITIQUE",
-  "started": "2026-09-27T07:30:00-07:00",
-  "files": {
-   "research": "drafts/995-waymo-271-million-miles-iihs-convergence-research.md",
-   "draft": "drafts/995-waymo-271-million-miles-iihs-convergence.html",
-   "hero": "drafts/995-waymo-271-million-miles-iihs-convergence.jpg"
-  },
-  "critique_round": 0
- },
+ "current": null,
  "last_check_note": "1/day slot: published #756 (Mass Shootings Kill People Who Never Heard the Shots) 2026-09-27; queue now 197 items",
  "last_checked": "2026-09-27T01:30:00-07:00",
  "last_completed": 756,
@@ -21,7 +7,7 @@
  "last_published": 756,
  "last_published_date": "2026-09-27",
  "last_published_slug": "756-mass-shooting-road-death-spillover",
- "next": 992,
+ "next": 996,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -7294,6 +7280,51 @@
    },
    "blocked_reason": "1/day rule consumed 2026-09-27 (#756); queued behind #993 (ship 2027-03-30)",
    "note": "2026-09-27 05:30 run: RESEARCH->DRAFT->CRITIQUE complete (round 0). VERDICT: SHIP (avg 8.84, all 7 >= 8.5). Novel: suspected-counterfeit MLCC in 2026 Ranger infotainment screen (NHTSA 26V605, Ford 26C42, 11,405 units, supplier SUZHOU DONGSHAN DISPLAY INC.); crack->short->fuse->black SYNC 4->FMVSS 111 violation; no remedy (interim letters Oct 5); first site story on counterfeit electronics (ERAI 2024: 1,055 suspect parts, +25% YoY). Pre-panel fixes: 4 The-opener rewrites (19.2%->4.0%)."
+  },
+  {
+   "number": 995,
+   "slug": "995-waymo-271-million-miles-iihs-convergence",
+   "title": "Waymo Drove 271 Million Miles Without a Driver. The Insurance Industry Checked the Math.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-04-01",
+   "started": "2026-09-27T07:30:00-07:00",
+   "critique_round": 0,
+   "critic_avg": 8.57,
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 8.5,
+    "research_rigor": 8.8,
+    "data_presentation": 8.7
+   },
+   "hard_gates": {
+    "em_dashes": 2,
+    "banned_phrases": 0,
+    "the_starters_pct": 6.1,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "afaf890b",
+    "word_count": 490,
+    "sentence_rhythm": {
+     "variance": 747.8,
+     "short_pct": 10.0,
+     "long_pct": 45.0,
+     "passed": true
+    }
+   },
+   "files": {
+    "research": "drafts/995-waymo-271-million-miles-iihs-convergence-research.md",
+    "draft": "drafts/995-waymo-271-million-miles-iihs-convergence.html",
+    "hero": "drafts/995-waymo-271-million-miles-iihs-convergence.jpg",
+    "critic_panel": "drafts/995-critic-panel-r0.md"
+   },
+   "blocked_reason": "1/day rule consumed 2026-09-27 (#756); queued behind #994 (ship 2027-03-31)",
+   "note": "2026-09-27 07:30 run: RESEARCH->DRAFT->CRITIQUE complete (round 0). VERDICT: SHIP (avg 8.57, all 7 >= 8.5). Novel: IIHS independent 81% vs Waymo self-reported 82% injury-crash reduction convergence (one point apart); 22,600 driver-years exposure arithmetic; conservative-filter paradox (IIHS discarded 78% of AV crashes, gap survived). Pre-panel fixes: 2 em-dash removals, 3 choppy-sentence merge (short_pct 16.7->10.0)."
   }
  ],
  "last_qa_date": "2026-09-27"
