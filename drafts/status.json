@@ -1,9 +1,20 @@
 {
- "current": null,
+ "current": {
+  "number": 995,
+  "slug": "995-waymo-271-million-miles-iihs-convergence",
+  "title": "Waymo Drove 271 Million Miles Without a Driver. The Insurance Industry Checked the Math.",
+  "journalist": "Axle McScatter",
+  "kicker": "By The Numbers",
+  "phase": "DRAFT",
+  "started": "2026-09-27T07:30:00-07:00",
+  "files": {
+   "research": "drafts/995-waymo-271-million-miles-iihs-convergence-research.md"
+  }
+ },
  "last_check_note": "1/day slot: published #756 (Mass Shootings Kill People Who Never Heard the Shots) 2026-09-27; queue now 197 items",
  "last_checked": "2026-09-27T01:30:00-07:00",
  "last_completed": 756,
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Axle McScatter",
  "last_published": 756,
  "last_published_date": "2026-09-27",
  "last_published_slug": "756-mass-shooting-road-death-spillover",
