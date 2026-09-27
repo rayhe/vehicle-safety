@@ -7332,7 +7332,7 @@
    "title": "Older Pedestrians Don't Get Hit More Often. Their Bodies Just Can't Take the Hit.",
    "journalist": "Vin Wreckage",
    "kicker": "Existential Dread",
-   "phase": "CRITIQUE",
+   "phase": "SHIP_BLOCKED",
    "ship_date": "2027-04-02",
    "started": "2026-09-27T09:30:00-07:00",
    "critique_round": 0,
@@ -7352,8 +7352,8 @@
     "the_starters_pct": 10.3,
     "css_class": true,
     "style_css": true,
-    "hero_jpeg": false,
-    "hero_hash": null,
+    "hero_jpeg": true,
+    "hero_hash": "a73e1fad",
     "word_count": 613,
     "sentence_rhythm": {
      "variance": 83.1,
@@ -7365,11 +7365,11 @@
    "files": {
     "research": "drafts/996-older-pedestrian-death-gap-research.md",
     "draft": "drafts/996-older-pedestrian-death-gap.html",
-    "hero": null,
+    "hero": "drafts/996-older-pedestrian-death-gap.jpg",
     "critic_panel": "drafts/996-critic-panel-r0.md"
    },
-   "blocked_reason": "HERO MISSING: media.generate_image upstream 503 (3 attempts) on 2026-09-27 09:30 run; og:image PLACEHOLDER unresolved. Next run: generate hero JPEG, set hash, then SHIP_BLOCKED behind #995.",
-   "note": "2026-09-27 09:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: HOLD at CRITIQUE (avg 8.81, all 7 critics >= 8.5; all content hard gates pass). Novel: older-pedestrian paradox (KFF/Paula Span Aug 28, 2026 peg) - 8,200 injured 65+ in 2023 at no higher injury rate than younger pedestrians, yet 1,500+ died; IIHS 70+ fatality rate flat ~2008-2024 vs 2025 system-wide -6.7% improvement (36,640 deaths). No queue dupes. Pre-panel fixes: 696->613 words, 3 choppy-sentence merges, 3 The-opener rewrites."
+   "blocked_reason": "1/day gate; queued behind #995 (ship 2027-04-01). Hero resolved 2026-09-27 11:30 run: JPEG 1920x1280, hash a73e1fad.",
+   "note": "2026-09-27 09:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: HOLD at CRITIQUE (avg 8.81, all 7 critics >= 8.5; all content hard gates pass). Novel: older-pedestrian paradox (KFF/Paula Span Aug 28, 2026 peg) - 8,200 injured 65+ in 2023 at no higher injury rate than younger pedestrians, yet 1,500+ died; IIHS 70+ fatality rate flat ~2008-2024 vs 2025 system-wide -6.7% improvement (36,640 deaths). No queue dupes. Pre-panel fixes: 696->613 words, 3 choppy-sentence merges, 3 The-opener rewrites. 2026-09-27 11:30 run: hero JPEG generated (media pipeline recovered from 503), og:image PLACEHOLDER resolved -> v=a73e1fad. Phase -> SHIP_BLOCKED."
   }
  ],
  "last_qa_date": "2026-09-27"
