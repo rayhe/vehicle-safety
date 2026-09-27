@@ -1,50 +1,50 @@
 {
   "current": {
-    "journalist": "Dale Impactor III",
-    "note": "2026-09-25 13:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 7.5%, rhythm PASS variance 382.6, hero JPEG 1920x1280 ?v=36dd1e9c). Novel: loneliness multiplier 2.5x (single-occupant 50% vs 5+ occupants 20%), stimulant +41% relative, young-cannabis +29% post-legalization, drug/alcohol inversion 1.41x. Fresh TIRF 2026 23-year dataset; zero queue overlap (grep canada/tirf/stimulant/3am/4am/saturday/thc: 0 hits). Pre-panel fix: merged 9 fragments (short_pct 25.0%->7.1%). | 2026-09-25 23:30 run: gates re-verified live (em 0, banned 0, The 2.8%, class=story, style.css OK, hero JPEG 1920x1280 real JPEG); stays SHIP_BLOCKED, slot 2027-03-27. | 2026-09-26 05:30 run: 1/day rule consumed by #753 today; draft re-verified (em 0, banned 0, The 6.9%, class=story, style.css, hero JPEG 1920x1280 real); stays SHIP_BLOCKED, slot 2027-03-27. | 2026-09-26 07:30 run: 1/day rule consumed by #753 today; draft re-verified (em 0, banned 0, The 2.5%, class=story, style.css, hero JPEG 1920x1280 real); stays SHIP_BLOCKED, slot 2027-03-27. | 2026-09-26 09:30 run: 1/day rule consumed by #753 today; draft re-verified (em 0, banned 0, The 4.8%, class=story, style.css, hero JPEG 1920x1280 real); stays SHIP_BLOCKED, slot 2027-03-27. Queue: 181 SHIP_BLOCKED, next due #756 on 2026-09-27. | 2026-09-26 11:30 run: 1/day rule consumed by #753 today; draft re-verified (em 0, banned 0, The 2.5%, class=story, style.css, hero JPEG 1920x1280 real); stays SHIP_BLOCKED, slot 2027-03-27. | 2026-09-26 13:30 run: 1/day rule consumed by #753 today; draft re-verified (em 0, banned 0 [prior -oicE|wc-l false positive], The 2.5%, class=story, style.css, hero JPEG 1920x1280 real); stays SHIP_BLOCKED, slot 2027-03-27. Queue: 197 SHIP_BLOCKED. | 2026-09-26 15:30 run: 1/day rule consumed by #753 today; draft re-verified (body em 0 [2 &mdash; entities in title/footer chrome], banned 0, The 6.7%, class=story, style.css, hero JPEG 1920x1280 real, rhythm PASS variance 382.6); stays SHIP_BLOCKED, slot 2027-03-27. Queue: 197 SHIP_BLOCKED; next due #756 on 2026-09-27. | 2026-09-26 17:30 run: 1/day rule consumed by #753 today (1 Publish commit since midnight PT); draft re-verified live (body em 0, banned 0 [grep -oic|wc -l false positive confirmed], The 6.2 pct, class=story, ../style.css, hero real JPEG 1920x1280); stays SHIP_BLOCKED, slot 2027-03-27. Queue: 181 SHIP_BLOCKED; next due #756 on 2026-09-27. | 2026-09-26 19:27 run: 1/day rule consumed by #753 today (1 Publish commit since midnight PT); #990 draft re-verified live (body em 0 [2 &mdash; chrome entities in title/footer], banned 0, The 2.7 pct, class=story, ../style.css, hero real JPEG 1920x1280 md5 36dd1e9c, rhythm PASS variance 382.6); stays SHIP_BLOCKED, slot 2027-03-27. Queue: 197 items; next due #756 on 2026-09-27. | 2026-09-26 21:30 run: 1/day rule consumed by #753 today (1 Publish commit since midnight PT); #990 re-verified live (body em 0 [2 &mdash; chrome entities in title/footer], banned 0, The 4.8 pct, class=story, ../style.css, hero real JPEG 1920x1280 md5 36dd1e9c); stays SHIP_BLOCKED, slot 2027-03-27. Queue: 197 items; next due #756 on 2026-09-27.",
-    "number": 990,
-    "phase": "SHIP_BLOCKED",
-    "ship_date": "2027-03-27",
-    "slug": "990-canada-23-years-drugs-deadliest-factor",
-    "started": "2026-09-25T13:30:00-07:00",
-    "title": "Half the Drivers Who Die Alone at 4am Are on Drugs. Canada Counted 23 Years of Them.",
-    "kicker": "Sobriety Report",
+    "avg_critic": 8.81,
+    "blocked_reason": "1/day rule consumed by #753 on 2026-09-26; next available queue slot 2027-03-28",
     "critique_round": 0,
-    "avg_critic": 8.79,
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.5,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 9.0,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "data_presentation": 8.5
+    "files": {
+      "research": "drafts/991-side-underride-guard-rule-gap-research.md",
+      "draft": "drafts/991-side-underride-guard-rule-gap.html",
+      "hero": "drafts/991-side-underride-guard-rule-gap.jpg",
+      "critic_panel": "drafts/991-critic-panel-r0.md"
     },
     "hard_gates": {
       "em_dashes": 0,
       "banned_phrases": 0,
-      "the_starters_pct": 6.2,
+      "the_starters_pct": 4.7,
       "css_class": true,
       "style_css": true,
       "sentence_rhythm": {
         "passed": true,
-        "variance": 382.6,
-        "short_pct": 7.1,
-        "long_pct": 50.0
+        "short_pct": 20.9,
+        "long_pct": 27.9
       },
       "hero_jpeg": true,
-      "hero_hash": "36dd1e9c"
+      "hero_hash": "4368b582",
+      "word_count": 735
     },
-    "files": {
-      "research": "drafts/990-canada-23-years-drugs-deadliest-factor-research.md",
-      "draft": "drafts/990-canada-23-years-drugs-deadliest-factor.html",
-      "hero": "drafts/990-canada-23-years-drugs-deadliest-factor.jpg",
-      "critic_panel": "drafts/990-canada-23-years-drugs-deadliest-factor-critic-panel-r0.md"
+    "journalist": "Rex Driverton",
+    "kicker": "Investigation",
+    "note": "2026-09-26 23:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.81, all 7 >= 8.5; gates: em 0, banned 0, The 4.7%, rhythm 20.9/27.9, hero JPEG 2048x1152 ?v=4368b582). Novel: three-underride-types/one-guarded frame + undercount-as-mechanism (219 official vs 300-600 est vs 31,500 cumulative => ~570/yr); zero queue overlap (grep underride: 0 hits). Pre-panel fix: rewrote 8 The-openers (21.7%->4.7%), merged 3 fragments. Flagged risk: H.R.7354/S.3775 bill numbers from 7-mo-old trade article, attributed not primary-verified; recheck at QA publish time.",
+    "number": 991,
+    "phase": "SHIP_BLOCKED",
+    "scores": {
+      "general_editor": 9.0,
+      "voice_coach": 8.7,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.8,
+      "legal_accuracy": 8.5,
+      "research_rigor": 9.0,
+      "data_presentation": 8.7
     },
-    "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
+    "ship_date": "2027-03-28",
+    "slug": "991-side-underride-guard-rule-gap",
+    "started": "2026-09-26T23:30:00-07:00",
+    "title": "The Crash Your Airbags Can't Survive Has No Federal Guard"
   },
-  "last_check_note": "21:30 run: 1/day consumed by #753; #990 gates re-verified, stays SHIP_BLOCKED (slot 2027-03-27)",
-  "last_checked": "2026-09-26T21:30:00-07:00",
+  "last_check_note": "23:30 run: #991 RESEARCH->DRAFT->CRITIQUE complete, SHIP_BLOCKED (slot 2027-03-28); 1/day consumed by #753",
+  "last_checked": "2026-09-26T23:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-26T01:50:00-07:00",
     "journalist": "Axle McScatter",
@@ -52,11 +52,11 @@
     "publish_date_pacific": "2026-09-26",
     "qa": "Live verified 2026-09-26 ~01:50 PDT (commit 06d929e4): story 200 (via 308 redirect follow) with absolute og:image ?v=5411e601, twitter:card + twitter:image, dateline September 26, 2026; hero 200 image/jpeg 190713B; index card present (href+img); sitemap entry present."
   },
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": 753,
   "last_published_date": "2026-09-26",
   "last_published_slug": "753-point-nine-nine-norway-is-at-point-two",
-  "next": 990,
+  "next": 992,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -7177,6 +7177,50 @@
         "critic_panel": "drafts/990-canada-23-years-drugs-deadliest-factor-critic-panel-r0.md"
       },
       "blocked_reason": "1/day rule consumed by #752 on 2026-09-25; next available queue slot 2027-03-27"
+    },
+    {
+      "avg_critic": 8.81,
+      "blocked_reason": "1/day rule consumed by #753 on 2026-09-26; next available queue slot 2027-03-28",
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/991-side-underride-guard-rule-gap-research.md",
+        "draft": "drafts/991-side-underride-guard-rule-gap.html",
+        "hero": "drafts/991-side-underride-guard-rule-gap.jpg",
+        "critic_panel": "drafts/991-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.7,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "short_pct": 20.9,
+          "long_pct": 27.9
+        },
+        "hero_jpeg": true,
+        "hero_hash": "4368b582",
+        "word_count": 735
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-09-26 23:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.81, all 7 >= 8.5; gates: em 0, banned 0, The 4.7%, rhythm 20.9/27.9, hero JPEG 2048x1152 ?v=4368b582). Novel: three-underride-types/one-guarded frame + undercount-as-mechanism (219 official vs 300-600 est vs 31,500 cumulative => ~570/yr); zero queue overlap (grep underride: 0 hits). Pre-panel fix: rewrote 8 The-openers (21.7%->4.7%), merged 3 fragments. Flagged risk: H.R.7354/S.3775 bill numbers from 7-mo-old trade article, attributed not primary-verified; recheck at QA publish time.",
+      "number": 991,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "ship_date": "2027-03-28",
+      "slug": "991-side-underride-guard-rule-gap",
+      "started": "2026-09-26T23:30:00-07:00",
+      "title": "The Crash Your Airbags Can't Survive Has No Federal Guard"
     }
   ]
 }
