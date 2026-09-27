@@ -5,11 +5,14 @@
   "title": "Waymo Drove 271 Million Miles Without a Driver. The Insurance Industry Checked the Math.",
   "journalist": "Axle McScatter",
   "kicker": "By The Numbers",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "started": "2026-09-27T07:30:00-07:00",
   "files": {
-   "research": "drafts/995-waymo-271-million-miles-iihs-convergence-research.md"
-  }
+   "research": "drafts/995-waymo-271-million-miles-iihs-convergence-research.md",
+   "draft": "drafts/995-waymo-271-million-miles-iihs-convergence.html",
+   "hero": "drafts/995-waymo-271-million-miles-iihs-convergence.jpg"
+  },
+  "critique_round": 0
  },
  "last_check_note": "1/day slot: published #756 (Mass Shootings Kill People Who Never Heard the Shots) 2026-09-27; queue now 197 items",
  "last_checked": "2026-09-27T01:30:00-07:00",
