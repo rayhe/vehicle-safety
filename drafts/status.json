@@ -1,50 +1,7 @@
 {
-  "current": {
-    "avg_critic": 8.81,
-    "blocked_reason": "1/day rule consumed by #753 on 2026-09-26; next available queue slot 2027-03-28",
-    "critique_round": 0,
-    "files": {
-      "research": "drafts/991-side-underride-guard-rule-gap-research.md",
-      "draft": "drafts/991-side-underride-guard-rule-gap.html",
-      "hero": "drafts/991-side-underride-guard-rule-gap.jpg",
-      "critic_panel": "drafts/991-critic-panel-r0.md"
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 4.7,
-      "css_class": true,
-      "style_css": true,
-      "sentence_rhythm": {
-        "passed": true,
-        "short_pct": 20.9,
-        "long_pct": 27.9
-      },
-      "hero_jpeg": true,
-      "hero_hash": "4368b582",
-      "word_count": 735
-    },
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "note": "2026-09-26 23:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.81, all 7 >= 8.5; gates: em 0, banned 0, The 4.7%, rhythm 20.9/27.9, hero JPEG 2048x1152 ?v=4368b582). Novel: three-underride-types/one-guarded frame + undercount-as-mechanism (219 official vs 300-600 est vs 31,500 cumulative => ~570/yr); zero queue overlap (grep underride: 0 hits). Pre-panel fix: rewrote 8 The-openers (21.7%->4.7%), merged 3 fragments. Flagged risk: H.R.7354/S.3775 bill numbers from 7-mo-old trade article, attributed not primary-verified; recheck at QA publish time.",
-    "number": 991,
-    "phase": "SHIP_BLOCKED",
-    "scores": {
-      "general_editor": 9.0,
-      "voice_coach": 8.7,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.8,
-      "legal_accuracy": 8.5,
-      "research_rigor": 9.0,
-      "data_presentation": 8.7
-    },
-    "ship_date": "2027-03-28",
-    "slug": "991-side-underride-guard-rule-gap",
-    "started": "2026-09-26T23:30:00-07:00",
-    "title": "The Crash Your Airbags Can't Survive Has No Federal Guard"
-  },
-  "last_check_note": "23:30 run: #991 RESEARCH->DRAFT->CRITIQUE complete, SHIP_BLOCKED (slot 2027-03-28); 1/day consumed by #753",
-  "last_checked": "2026-09-26T23:30:00-07:00",
+  "current": null,
+  "last_check_note": "1/day slot: published #756 (Mass Shootings Kill People Who Never Heard the Shots) 2026-09-27; queue now 197 items",
+  "last_checked": "2026-09-27T01:30:00-07:00",
   "last_completed": {
     "completed_at": "2026-09-26T01:50:00-07:00",
     "journalist": "Axle McScatter",
@@ -52,10 +9,10 @@
     "publish_date_pacific": "2026-09-26",
     "qa": "Live verified 2026-09-26 ~01:50 PDT (commit 06d929e4): story 200 (via 308 redirect follow) with absolute og:image ?v=5411e601, twitter:card + twitter:image, dateline September 26, 2026; hero 200 image/jpeg 190713B; index card present (href+img); sitemap entry present."
   },
-  "last_journalist": "Rex Driverton",
-  "last_published": 753,
-  "last_published_date": "2026-09-26",
-  "last_published_slug": "753-point-nine-nine-norway-is-at-point-two",
+  "last_journalist": "Clara Rollover",
+  "last_published": 756,
+  "last_published_date": "2026-09-27",
+  "last_published_slug": "756-mass-shooting-road-death-spillover",
   "next": 992,
   "queue": [
     {
@@ -143,31 +100,6 @@
         "hero_jpeg": true,
         "hero_hash": "5411e601",
         "hero_dim": "2048x1152"
-      }
-    },
-    {
-      "journalist": "Clara Rollover",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-26 03:30 run: pre-ship prep for 2026-09-27 slot. Gates pass (em 0, banned 0, The 12.5% broad-scope / 5.9% body-scope, class=story, style.css, hero JPEG 2048x1152 ?v=6e3fc81e matches md5). Dateline set September 27, 2026. Fixed 1 The-starter (p4 rewrite). NOTE: no critic-panel file exists for this draft (pre-panels era, Aug 15); tomorrow's SHIP run may want a spot check.",
-      "number": 756,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2026-09-27",
-      "slug": "mass-shooting-road-death-spillover",
-      "title": "Mass Shootings Kill People Who Never Heard the Shots",
-      "kicker": "Existential Dread",
-      "files": {
-        "research": "drafts/mass-shooting-road-death-spillover-research.md",
-        "draft": "drafts/mass-shooting-road-death-spillover.html",
-        "hero": "images/mass-shooting-road-death-spillover.jpg"
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.5,
-        "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
-        "hero_hash": "6e3fc81e",
-        "word_count": 544
       }
     },
     {
