@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "article-crashreport 2026-09-28 01:30 PDT: #1003 full pipeline complete (research/draft/critique r0, avg 8.87, Clara Rollover). Queued SHIP_BLOCKED for 2027-04-09. Published #757 = queue item 764 (ota-recall-fix-parts-tariff-two-tier, Axle McScatter) \u2014 earliest shippable SHIP_BLOCKED; #763 skipped (hero image policy-blocked, no retry permitted). 1/day slot consumed.",
+ "last_check_note": "article-crashreport 2026-09-28 01:30 PDT: full pipeline complete. #1003 new article queued SHIP_BLOCKED for 2027-04-09 (avg 8.87, Clara Rollover; polished post-critique: 0 body em-dashes, 15 inline citations, absolute OG tags). Published #757 = queue item 764 (Axle McScatter) as earliest shippable SHIP_BLOCKED; #763 skipped (hero image generation policy-blocked, no retry permitted). 1/day slot consumed. Commit d2deba4b pushed to origin main.",
  "last_checked": "2026-09-28T06:35:00Z",
  "last_completed": 1002,
  "last_journalist": "Clara Rollover",
@@ -7671,9 +7671,10 @@
      "variance": 243.9,
      "short_pct": 13.3,
      "long_pct": 26.7
-    }
+    },
+    "inline_citations": 15
    },
-   "note": "2026-09-28 01:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.87, 7/7 >= 8.5, all hard gates pass; Clara Rollover). Novel: trim-gated turn signals (SE->XLE $2,700 buys immunity from NHTSA 26V511), one screen bug breaks FMVSS 101/108/114/208, 2-yr replication gap (Jul 2024 reports -> late Jul 2026 bench replication), 100% defect rate + random manifestation. Global expansion 655K announced Sep 27, 2026 (VNAuto). Zero queue overlap (slug scan)."
+   "note": "2026-09-28 01:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.87, 7/7 >= 8.5, all hard gates pass; Clara Rollover). Novel: trim-gated turn signals (SE->XLE $2,700 buys immunity from NHTSA 26V511), one screen bug breaks FMVSS 101/108/114/208, 2-yr replication gap (Jul 2024 reports -> late Jul 2026 bench replication), 100% defect rate + random manifestation. Global expansion 655K announced Sep 27, 2026 (VNAuto). Zero queue overlap (slug scan). | 2026-09-28 01:30 run (post-commit polish): body em-dashes 4->0, 15 inline ref-links added to major claims, og:image/twitter:image made absolute."
   }
  ],
  "last_qa_date": "2026-09-27"
