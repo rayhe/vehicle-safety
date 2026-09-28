@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "article-crashreport 2026-09-27 23:30 PDT: #1002 full pipeline complete (research/draft/critique r0, avg 8.80, Dale Impactor III). Queued SHIP_BLOCKED for 2027-04-08 behind #1001. current cleared, next=1003.",
+ "last_check_note": "article-crashreport 2026-09-28 01:30 PDT: #1003 full pipeline complete (research/draft/critique r0, avg 8.87, Clara Rollover). Queued SHIP_BLOCKED for 2027-04-09. Published #757 = queue item 764 (ota-recall-fix-parts-tariff-two-tier, Axle McScatter) \u2014 earliest shippable SHIP_BLOCKED; #763 skipped (hero image policy-blocked, no retry permitted). 1/day slot consumed.",
  "last_checked": "2026-09-28T06:35:00Z",
  "last_completed": 1002,
- "last_journalist": "Dale Impactor III",
- "last_published": 756,
- "last_published_date": "2026-09-27",
- "last_published_slug": "756-mass-shooting-road-death-spillover",
- "next": 1003,
+ "last_journalist": "Clara Rollover",
+ "last_published": 757,
+ "last_published_date": "2026-09-28",
+ "last_published_slug": "ota-recall-fix-parts-tariff-two-tier",
+ "next": 1004,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -98,7 +98,7 @@
   },
   {
    "journalist": "Mia Crumplezone",
-   "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+   "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship.",
    "notes": "Hero image generation failed; needs image before ship.",
    "number": 763,
    "phase": "SHIP_BLOCKED",
@@ -116,9 +116,9 @@
   },
   {
    "journalist": "Axle McScatter",
-   "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+   "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: published as #757 (earliest shippable SHIP_BLOCKED; #763 blocked on hero image \u2014 generation policy-blocked, no retry permitted). Gates re-verified pre-ship: em 0, banned 0, The-starters ok, class=story, style.css, rhythm PASS, hero JPEG FF D8 ?v=5d2b430c. Dateline set 2026-09-28.",
    "number": 764,
-   "phase": "SHIP_BLOCKED",
+   "phase": "PUBLISHED",
    "scores": {
     "actionable_insights": 9.0,
     "ethics_reviewer": 9.0,
@@ -129,7 +129,8 @@
     "voice_coach": 9.0
    },
    "ship_date": "2026-09-29",
-   "slug": "ota-recall-fix-parts-tariff-two-tier"
+   "slug": "ota-recall-fix-parts-tariff-two-tier",
+   "title": "Half of Recalled Cars Never Get Fixed. The Other Half Fix Themselves at 2 AM."
   },
   {
    "journalist": "Vin Wreckage",
@@ -7640,6 +7641,39 @@
     "data_presentation": 8.7
    },
    "note": "2026-09-27 23:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.80, all 7 critics >= 8.5; all hard gates pass). Novel: rate-vs-impairment decomposition (Maxima 5.11 rate, 2.52x Camry, but any-impaired 20.9% vs Camry 19.2%/Altima 20.0%/Accord 20.0% \u2014 toxicology clears the drunk explanation) + beater-fleet split (52.1% of deaths in 2000-2009 MY cars). Maxima is #1 deadliest sedan of 122 in FARS; Cobalt tied a tenth behind (disclosed). Pre-panel fixes: short-sentence rhythm merge (24.4->8.8), The-starters rewrite (13.9->6.2). Zero queue overlap (slug scan)."
+  },
+  {
+   "number": 1003,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-04-09",
+   "slug": "1003-toyota-camry-7-inch-turn-signals-recall",
+   "title": "Toyota\u2019s $28,700 Camry Can Lose Its Turn Signals. The $33,700 One Can\u2019t.",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "critic_avg": 8.87,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1003-toyota-camry-7-inch-turn-signals-recall-research.md",
+    "draft": "drafts/1003-toyota-camry-7-inch-turn-signals-recall.html",
+    "hero": "drafts/1003-toyota-camry-7-inch-turn-signals-recall.jpg",
+    "critic_panel": "drafts/1003-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.5,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "e1cdccbd",
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 243.9,
+     "short_pct": 13.3,
+     "long_pct": 26.7
+    }
+   },
+   "note": "2026-09-28 01:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.87, 7/7 >= 8.5, all hard gates pass; Clara Rollover). Novel: trim-gated turn signals (SE->XLE $2,700 buys immunity from NHTSA 26V511), one screen bug breaks FMVSS 101/108/114/208, 2-yr replication gap (Jul 2024 reports -> late Jul 2026 bench replication), 100% defect rate + random manifestation. Global expansion 655K announced Sep 27, 2026 (VNAuto). Zero queue overlap (slug scan)."
   }
  ],
  "last_qa_date": "2026-09-27"
