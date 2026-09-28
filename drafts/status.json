@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "#998 draft complete, round-0 critique avg 8.79 (all >= 8.5), all hard gates pass. Held at SHIP_BLOCKED: 1/day gate consumed 2026-09-27; ship_date 2027-04-04 behind #997.",
+ "last_check_note": "article-crashreport 2026-09-27 17:30 PDT: #999 RESEARCH->DRAFT->CRITIQUE r0 complete, SHIP_BLOCKED (1/day gate consumed by Publish #756). Queued for 2027-04-05 behind #998.",
  "last_checked": "2026-09-27T15:30:00-07:00",
- "last_completed": 756,
- "last_journalist": "Mia Crumplezone",
+ "last_completed": 999,
+ "last_journalist": "Clara Rollover",
  "last_published": 756,
  "last_published_date": "2026-09-27",
  "last_published_slug": "756-mass-shooting-road-death-spillover",
- "next": 999,
+ "next": 1000,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -7460,6 +7460,51 @@
    "slug": "998-ebike-deaths-regulation-gap",
    "started": "2026-09-27T15:30:00-07:00",
    "title": "310 People Died on E-Bikes. The Government Calls Them Bicycles."
+  },
+  {
+   "number": 999,
+   "slug": "999-aeb-mandate-slips-two-years",
+   "title": "The 2029 Auto-Brake Mandate Is Quietly Sliding to 2031. That Delay Costs 720 Lives.",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-04-05",
+   "started": "2026-09-27T17:30:00-07:00",
+   "avg_critic": 8.81,
+   "critique_round": 0,
+   "blocked_reason": "1/day gate consumed 2026-09-27 (Publish #756); queued behind #998 (ship 2027-04-04)",
+   "files": {
+    "research": "drafts/999-aeb-mandate-slips-two-years-research.md",
+    "draft": "drafts/999-aeb-mandate-slips-two-years.html",
+    "hero": "drafts/999-aeb-mandate-slips-two-years.jpg",
+    "critic_panel": "drafts/999-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.9,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "df69aecc",
+    "word_count": 685,
+    "sentence_rhythm": {
+     "variance": 231.4,
+     "short_pct": 0.0,
+     "long_pct": 38.7,
+     "passed": true
+    }
+   },
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.8,
+    "data_presentation": 8.8
+   },
+   "note": "2026-09-27 17:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.81, all 7 critics >= 8.5; all hard gates pass). Novel: delay-cost arithmetic (720 lives/48,000 injuries from NHTSA projections, fleet-turnover caveat); full litigation timeline (petition->denial->lawsuit #25-1026->abeyance->Mar 23 2026 status report->pending 2-yr extension NPRM); 'challenging aspects' inventory. No queue dupes (0 FMVSS-127-litigation articles in 204-entry queue; #986 covers test performance only). Pre-panel fixes: rhythm rewrite (variance 144->231), The-starters 16.1->12.9."
   }
  ],
  "last_qa_date": "2026-09-27"
