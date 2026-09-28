@@ -1,21 +1,13 @@
 {
-  "current": {
-    "number": 1001,
-    "slug": "1001-truck-speed-limiter-dead",
-    "title": "The Government Killed the Truck Speed Limiter in the Name of Safety. Its Own Math Said 214 Lives a Year.",
-    "journalist": "Rex Driverton",
-    "phase": "CRITIQUE",
-    "started": "2026-09-28T04:40:00Z",
-    "note": "article-crashreport 2026-09-27 21:30 PDT run: DRAFT complete (Rex Driverton, Investigation). Hero JPEG 2736x912 valid FF D8, ?v=3a43a4f8. Critic panel next."
-  },
-  "last_check_note": "article-crashreport 2026-09-27 21:30 PDT: #1001 DRAFT complete, hero verified. CRITIQUE next.",
-  "last_checked": "2026-09-28T05:05:00Z",
-  "last_completed": 999,
-  "last_journalist": "Dale Impactor III",
+  "current": null,
+  "last_check_note": "article-crashreport 2026-09-27 21:30 PDT: #1001 full pipeline complete (research/draft/critique r0, avg 8.79). Queued SHIP_BLOCKED for 2027-04-07 behind #1000. last_completed reconciled 999->1001. current cleared, next=1002.",
+  "last_checked": "2026-09-28T05:35:00Z",
+  "last_completed": 1001,
+  "last_journalist": "Rex Driverton",
   "last_published": 756,
   "last_published_date": "2026-09-27",
   "last_published_slug": "756-mass-shooting-road-death-spillover",
-  "next": 1001,
+  "next": 1002,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -7558,6 +7550,51 @@
         "data_presentation": 8.9
       },
       "note": "2026-09-27 19:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.84, all 7 critics >= 8.5; all hard gates pass). Novel: NHTSA's own false-positive math (213 sober drivers harassed per life saved at the 2M low-end bound) vs IIHS 9,409 counterfactual; IIHS dual-position paradox (tech not ready / mandate will force it); EU ADDW statutory privacy envelope vs identical hardware shipping in US governed by privacy policies only (Seeing Machines 4.8M cars). Deliberately excluded unverified 'Sept 2026 229-201 House vote' claim (only recycled partisan outlets; verified Jan 2026 vote was 164-268). Pre-panel fixes: The-starters 16.1->11.1, short-sentence rhythm merge (25.0->2.4)."
+    },
+    {
+      "number": 1001,
+      "slug": "1001-truck-speed-limiter-dead",
+      "title": "The Government Killed the Truck Speed Limiter in the Name of Safety. Its Own Math Said 214 Lives a Year.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-07",
+      "started": "2026-09-27T21:30:00-07:00",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "blocked_reason": "1/day gate consumed 2026-09-27 PDT (Publish #756); queued behind #1000 (ship 2027-04-06)",
+      "files": {
+        "research": "drafts/1001-truck-speed-limiter-dead-research.md",
+        "draft": "drafts/1001-truck-speed-limiter-dead.html",
+        "hero": "drafts/1001-truck-speed-limiter-dead.jpg",
+        "critic_panel": "drafts/1001-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "3a43a4f8",
+        "word_count": 1200,
+        "sentence_rhythm": {
+          "variance": 1763.2,
+          "short_pct": 4.2,
+          "long_pct": 43.8,
+          "passed": true
+        }
+      },
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.8
+      },
+      "note": "2026-09-27 21:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.79, all 7 critics >= 8.5; all hard gates pass). Novel: AEB-gap arithmetic (withdrawal cited AEB overlap; heavy-truck AEB final rule not before 2027-2028, effective ~2030-2031, so 139/yr x 5.5yr = ~765 modeled lives traded for a system that does not exist yet, labeled upper bound) + KE physics (24.9% less energy at 65 vs 75) + voluntary-adoption discount (~21/yr marginal vs 214 gross, labeled crude). Steel-manned OOIDA differential case incl. 2012 study first-draft caveat. Deliberately excluded nothing contested; FR quotes secondhand via trade press (automated retrieval blocked, disclosed in draft). Pre-panel fixes: The-starters 22.2->5.2, short-sentence rhythm merge (33.9->4.2)."
     }
   ],
   "last_qa_date": "2026-09-27"
