@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "article-crashreport 2026-09-28 01:30 PDT: full pipeline complete. #1003 new article queued SHIP_BLOCKED for 2027-04-09 (avg 8.87, Clara Rollover; polished post-critique: 0 body em-dashes, 15 inline citations, absolute OG tags). Published #757 = queue item 764 (Axle McScatter) as earliest shippable SHIP_BLOCKED; #763 skipped (hero image generation policy-blocked, no retry permitted). 1/day slot consumed. Commit d2deba4b pushed to origin main.",
- "last_checked": "2026-09-28T06:35:00Z",
- "last_completed": 1002,
- "last_journalist": "Clara Rollover",
+ "last_check_note": "article-crashreport 2026-09-28 03:30 PDT: full pipeline complete. #1004 new article queued SHIP_BLOCKED for 2027-04-10 (avg 9.04, Mia Crumplezone; 633 words, all hard gates pass). 1/day slot consumed by #757 published 2026-09-28.",
+ "last_checked": "2026-09-28T10:35:00Z",
+ "last_completed": 1004,
+ "last_journalist": "Mia Crumplezone",
  "last_published": 757,
  "last_published_date": "2026-09-28",
  "last_published_slug": "ota-recall-fix-parts-tariff-two-tier",
- "next": 1004,
+ "next": 1005,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -7675,6 +7675,35 @@
     "inline_citations": 15
    },
    "note": "2026-09-28 01:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.87, 7/7 >= 8.5, all hard gates pass; Clara Rollover). Novel: trim-gated turn signals (SE->XLE $2,700 buys immunity from NHTSA 26V511), one screen bug breaks FMVSS 101/108/114/208, 2-yr replication gap (Jul 2024 reports -> late Jul 2026 bench replication), 100% defect rate + random manifestation. Global expansion 655K announced Sep 27, 2026 (VNAuto). Zero queue overlap (slug scan). | 2026-09-28 01:30 run (post-commit polish): body em-dashes 4->0, 15 inline ref-links added to major claims, og:image/twitter:image made absolute."
+  },
+  {
+   "number": 1004,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-04-10",
+   "slug": "1004-kia-forte-newer-deadlier",
+   "title": "The 2019 Forte Won Every Safety Award. Its Body Count Doubled Anyway.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Trend Watch",
+   "critic_avg": 9.04,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1004-kia-forte-newer-deadlier-research.md",
+    "draft": "drafts/1004-kia-forte-newer-deadlier.html",
+    "hero": "drafts/1004-kia-forte-newer-deadlier.jpg",
+    "critic_panel": "drafts/1004-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes_literal": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.8,
+    "css_class_story": true,
+    "stylesheet": "../style.css",
+    "rhythm": "PASS (variance 340.9, short 8.1%, long 37.8%)",
+    "word_count": 633,
+    "hero_jpeg_verified": true,
+    "hero_hash": "64efe284"
+   },
+   "note": "2026-09-28 03:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 9.04, 7/7 >= 8.5; all hard gates pass; Mia Crumplezone). Novel: model-year-split exposure adjustment - 2019-2021 Fortes killed 182 vs 91 for 2010-2012 (2.0x raw, ~5x per-vehicle-year); rival controls all declined (Elantra 0.49, Civic 0.31, Corolla 0.47); impairment matched (20.1% vs 18.6-20.4%); pandemic confound ruled out by same controls. Mechanism: Poor-rated halogen projectors on volume LX/LXS trims (22.5m = 1.12s visibility at 45mph) while TSP+ applied to GT config. Queued 2027-04-10 (1/day: #757 published today). Zero queue overlap (slug scan)."
   }
  ],
  "last_qa_date": "2026-09-27"
