@@ -1,7 +1,15 @@
 {
-  "current": null,
-  "last_check_note": "article-crashreport 2026-09-27 19:30 PDT: #1000 RESEARCH->DRAFT->CRITIQUE r0 complete, SHIP_BLOCKED (1/day gate consumed by Publish #756). Queued for 2027-04-06 behind #999.",
-  "last_checked": "2026-09-27T19:30:00-07:00",
+  "current": {
+    "number": 1001,
+    "slug": "1001-truck-speed-limiter-dead",
+    "title": "The Government Killed the Truck Speed Limiter in the Name of Safety. Its Own Math Said 214 Lives a Year.",
+    "journalist": "Rex Driverton",
+    "phase": "DRAFT",
+    "started": "2026-09-28T04:40:00Z",
+    "note": "article-crashreport 2026-09-27 21:30 PDT run: research complete, zero queue overlap (no prior speed-limiter coverage in 1000 articles). Drafting next."
+  },
+  "last_check_note": "article-crashreport 2026-09-27 21:30 PDT: #1001 RESEARCH complete (truck speed limiter withdrawal + AEB gap). DRAFT next.",
+  "last_checked": "2026-09-28T04:40:00Z",
   "last_completed": 999,
   "last_journalist": "Dale Impactor III",
   "last_published": 756,
