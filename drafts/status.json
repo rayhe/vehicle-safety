@@ -1,13 +1,5 @@
 {
-  "current": {
-    "number": 1014,
-    "slug": "1014-aeb-one-in-five-poor-marginal",
-    "title": "Your Car Has Automatic Braking. One in Five Systems Can't See a Pedestrian at Night.",
-    "journalist": "Clara Rollover",
-    "kicker": "The Gap",
-    "phase": "DRAFT",
-    "started": "2026-09-29T11:35:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-09-29 07:30 run: published #758 cx90 steering (earliest shippable; #763 still blocked on policy-blocked hero). QA fix: inline story-hero img + absolute og:image. Queue: 200 SHIP_BLOCKED remain, tail 2027-04-18.",
   "last_checked": "2026-09-29T07:45:00-07:00",
   "last_completed": "2026-09-29",
@@ -8122,6 +8114,51 @@
         "hero": "drafts/1013-fj-cruiser-solara-impairment-inversion.jpg"
       },
       "note": "Round-0 panel 8.64 avg; Ethics 8.0 (misreading risk: 'drunk driving safe in big SUV') and Rigor 8.0 (unsourced Solara weight) failed. Fixed: added 'physics, not a permission slip' line (67 impaired FJ drivers, 95 deaths); sourced Solara curb weight to KBB (3,230-3,440 lb), ref [5]. Round-1: 9.0 avg, 7/7 >= 8.5. Novel: Toyota intra-brand impairment spread 21.2pp (widest of any brand); FJ impairment 6.2x Solara's while Solara fatality rate 9.9x the FJ's (0.43 vs 4.25). Zero prior Crash Report coverage of FJ Cruiser. Counterargument full-strength (sample size, exposure, state testing variance). No publish: 1/day rule, #758 shipped 2026-09-29; queue tail now 2027-04-19."
+    },
+    {
+      "number": 1014,
+      "slug": "1014-aeb-one-in-five-poor-marginal",
+      "title": "Your Car Has Automatic Braking. One in Five Systems Can't See a Pedestrian at Night.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "started": "2026-09-29T11:35:00-07:00",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-20",
+      "critique_round": 0,
+      "critic_avg": 8.94,
+      "scores": {
+        "average": 8.94,
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.2,
+        "sentence_rhythm": {
+          "variance": 1237.3,
+          "short_pct": 14.6,
+          "long_pct": 26.8,
+          "passed": true
+        },
+        "word_count": 652,
+        "css_class": true,
+        "style_css": true,
+        "hero_hash": "baafb91c",
+        "jpeg_valid": true
+      },
+      "files": {
+        "research": "drafts/1014-aeb-one-in-five-poor-marginal-research.md",
+        "critic_panel": "drafts/1014-aeb-one-in-five-poor-marginal-critic-panel.md",
+        "story": "drafts/1014-aeb-one-in-five-poor-marginal.html",
+        "hero": "drafts/1014-aeb-one-in-five-poor-marginal.jpg"
+      },
+      "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5; all hard gates. Novel: IIHS front crash prevention distribution (117/524 Poor or Marginal) framed as the FMVSS 127 rehearsal; brand failure rates (Jeep 61%, Ford/Chevy 50%, Audi 35%); model-year trend 26%->19%. Counterargument full-strength (test harder than law, phantom braking, hardware cost). Limitations explicit (third-party tally, no independent recount). No publish: 1/day rule, #758 shipped 2026-09-29; queue tail now 2027-04-20."
     }
   ],
   "last_qa_date": "2026-09-29",
