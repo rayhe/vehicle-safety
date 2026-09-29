@@ -1,7 +1,7 @@
 {
-  "current": null,
+  "current": {"article": 1011, "journalist": "Mia Crumplezone", "phase": "DRAFT", "slug": "1011-range-rover-sport-subframe-cracks", "title": "Last Year It Was the Knuckles. Now the Range Rover Sport's Subframe Is Cracking.", "started": "2026-09-29T10:35:00Z"},
   "last_check_note": "Article #1010 queued SHIP_BLOCKED 2027-04-16 (Jeep TPMS warning recall, Clara Rollover, critic avg 8.87 round-0 pass).",
-  "last_checked": "2026-09-29T08:30:00Z",
+  "last_checked": "2026-09-29T10:35:00Z",
   "last_completed": 1010,
   "last_journalist": "Clara Rollover",
   "last_published": 757,
