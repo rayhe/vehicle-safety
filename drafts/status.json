@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "draft_number": 1013,
+    "slug": "fj-cruiser-solara-impairment-inversion",
+    "title": "Toyota's Drunkest Drivers Survive. Its Soberest Drivers Don't.",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "ship_date": null,
+    "quality_score": 0.0
+  },
   "last_check_note": "2026-09-29 07:30 run: published #758 cx90 steering (earliest shippable; #763 still blocked on policy-blocked hero). QA fix: inline story-hero img + absolute og:image. Queue: 200 SHIP_BLOCKED remain, tail 2027-04-18.",
   "last_checked": "2026-09-29T07:45:00-07:00",
   "last_completed": "2026-09-29",
@@ -7,7 +15,7 @@
   "last_published": 758,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1012,
+  "next": 1014,
   "queue": [
     {
       "journalist": "Rex Driverton",
