@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "#1011 queued SHIP_BLOCKED for 2027-04-17",
-  "last_checked": "2026-09-29T10:55:00Z",
+  "last_check_note": "2026-09-29 07:30 run: published #758 cx90 steering (earliest shippable; #763 still blocked on policy-blocked hero). QA fix: inline story-hero img + absolute og:image. Queue: 200 SHIP_BLOCKED remain, tail 2027-04-18.",
+  "last_checked": "2026-09-29T07:45:00-07:00",
   "last_completed": "2026-09-29",
   "last_journalist": "Mia Crumplezone",
   "last_published": 758,
@@ -134,7 +134,7 @@
     },
     {
       "journalist": "Vin Wreckage",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-29 07:30 run: gates re-verified pre-ship (em 0, banned 0, The-starters 4.0%, class=story, style.css, hero JPEG 36644e79); dateline set 2026-09-29; published as #758 (earliest shippable SHIP_BLOCKED; #763 still blocked on policy-blocked hero).",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-29 07:30 run: gates re-verified pre-ship (em 0, banned 0, The-starters 4.0%, class=story, style.css, hero JPEG 36644e79); dateline set 2026-09-29; published as #758 (earliest shippable SHIP_BLOCKED; #763 still blocked on policy-blocked hero). | QA: live verified 2026-09-29 (article 200, homepage card, sitemap); draft had omitted inline story-hero img \u2014 added story-hero after dateline + absolute og:image; committed+pushed 507bca59.",
       "number": 765,
       "phase": "PUBLISHED",
       "scores": {
