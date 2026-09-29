@@ -1,19 +1,13 @@
 {
-  "current": {
-    "slug": "1010-jeep-tpms-warning-recall",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-09-29T01:30:00-07:00",
-    "number": 1010
-  },
-  "last_check_note": "Article #1010 research complete: FCA 54D/NHTSA 26V559 TPMS warning recall, 201,976 Jeeps, letters out 2026-09-29 (Clara Rollover).",
+  "current": null,
+  "last_check_note": "Article #1010 queued SHIP_BLOCKED 2027-04-16 (Jeep TPMS warning recall, Clara Rollover, critic avg 8.87 round-0 pass).",
   "last_checked": "2026-09-29T08:30:00Z",
-  "last_completed": 1008,
-  "last_journalist": "Vin Wreckage",
+  "last_completed": 1010,
+  "last_journalist": "Clara Rollover",
   "last_published": 757,
   "last_published_date": "2026-09-28",
   "last_published_slug": "ota-recall-fix-parts-tariff-two-tier",
-  "next": 1010,
+  "next": 1011,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -7929,6 +7923,51 @@
         "critic_panel": "drafts/1009-geller-uber-arbitration-wrongful-death-critic-panel-r0.md",
         "story": "drafts/1009-geller-uber-arbitration-wrongful-death.html",
         "hero": "drafts/1009-geller-uber-arbitration-wrongful-death.jpg"
+      }
+    },
+    {
+      "critic_avg": 8.87,
+      "critique_round": 0,
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "e63b38f0",
+        "jpeg_valid": true,
+        "sentence_rhythm": {
+          "variance": 787.5,
+          "short_pct": 10.5,
+          "long_pct": 42.1,
+          "passed": true
+        },
+        "style_css": true,
+        "the_starters_pct": 10.3,
+        "word_count": 740
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Pre-score revision: merged three short fragments (rhythm failed at 19.0% short, re-run 10.5% PASS). News peg: FCA 54D / NHTSA 26V559 TPMS software recall, 201,976 Jeeps, owner letters Sept 29-Oct 21 2026 (letters out today). Novel: warning system's failure mode is silence, indistinguishable from safety; Firestone/TREAD Act/FMVSS 138 lineage; original 530,357 two-recall September calculation (328,381 coil springs + 201,976 TPMS). Counterargument full-strength (software reflash, no injuries, TPMS is a backstop). Draft+hero+research+critics in drafts/ (1010- prefix). No publish: 1/day rule, queue through 2027-04-15.",
+      "number": 1010,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "average": 8.87,
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-04-16",
+      "slug": "1010-jeep-tpms-warning-recall",
+      "started": "2026-09-29T01:30:00-07:00",
+      "title": "Your Dashboard Forgot How to Warn You. 202,000 Jeeps Recalled, Letters Out Today.",
+      "files": {
+        "research": "drafts/1010-jeep-tpms-warning-recall-research.md",
+        "critic_panel": "drafts/1010-jeep-tpms-warning-recall-critic-panel-r0.md",
+        "story": "drafts/1010-jeep-tpms-warning-recall.html",
+        "hero": "drafts/1010-jeep-tpms-warning-recall.jpg"
       }
     }
   ],
