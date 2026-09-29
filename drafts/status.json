@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1012-odyssey-airbag-petition-denied",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-09-29T05:45:00-07:00",
-    "number": 1012
-  },
+  "current": null,
   "last_check_note": "#1011 queued SHIP_BLOCKED for 2027-04-17",
   "last_checked": "2026-09-29T10:55:00Z",
   "last_completed": 1011,
@@ -8020,6 +8014,51 @@
         "story": "drafts/1011-range-rover-sport-subframe-cracks.html",
         "hero": "drafts/1011-range-rover-sport-subframe-cracks.jpg"
       }
+    },
+    {
+      "number": 1012,
+      "slug": "1012-odyssey-airbag-petition-denied",
+      "title": "NHTSA Just Closed the File on 807,000 Odysseys. The Airbags That Fire on Their Own Walk Free.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "started": "2026-09-29T05:45:00-07:00",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-18",
+      "critique_round": 0,
+      "critic_avg": 8.86,
+      "scores": {
+        "average": 8.86,
+        "safety_engineer": 9.0,
+        "data_skeptic": 9.0,
+        "legal_regulatory": 9.0,
+        "consumer_advocate": 8.5,
+        "copy_chief": 9.0,
+        "contrarian": 8.5,
+        "news_editor": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "sentence_rhythm": {
+          "variance": 225,
+          "short_pct": 6.2,
+          "long_pct": 40.6,
+          "passed": true
+        },
+        "word_count": 792,
+        "css_class": true,
+        "style_css": true,
+        "hero_hash": "bc49071d",
+        "jpeg_valid": true
+      },
+      "files": {
+        "research": "drafts/1012-odyssey-airbag-petition-denied-research.md",
+        "critic_panel": "drafts/1012-odyssey-airbag-petition-denied-critic-panel-r0.md",
+        "story": "drafts/1012-odyssey-airbag-petition-denied.html",
+        "hero": "drafts/1012-odyssey-airbag-petition-denied.jpg"
+      },
+      "note": "Round-0 panel 8.86 avg; 7/7 critics >= 8.5 after 3 small fixes (detonate->ignite; fleet impairment verified 20.0%; added 'and other reports' to NHTSA review). Pre-panel gate fixes: merged fragments, reworded 6 The-starters (15.8%->0%). News peg: NHTSA denied DP26005 Sept 29, 2026 (806,963 2011-2017 Odysseys, 10 complaints, zero crashes/injuries). Novel: measurement paradox (SRS records inaccurate data, so 'no pattern' is partly a measurement failure); generational split (April 2026 440,830-unit pothole recall + May 2026 seat-sensor recall on 2018+ vs denial for 2011-2017). FARS: Odyssey 864 deaths, rate 0.93 (1.9x Sienna 0.49, 4.9x Pacifica 0.19), tox 15.4% impaired (n=2,641) vs 20.0% fleet. Counterargument full-strength (1.2/100k, triage). Draft+hero+research+critics in drafts/ (1012- prefix). No publish: 1/day rule, queue tail now 2027-04-18."
     }
   ],
   "last_qa_date": "2026-09-27",
