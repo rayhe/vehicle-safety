@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Autopilot You Install Yourself Is Under Federal Investigation. One Fatal Crash Was Running Somebody Else's Code. &mdash; The Crash Report</title>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="description" content="NHTSA opened PE26007 into comma.ai's openpilot after five crashes into stopped vehicles killed three people. One of the cars was running a GitHub fork comma didn't write.">
+  <meta property="og:title" content="The Autopilot You Install Yourself Is Under Federal Investigation. One Fatal Crash Was Running Somebody Else's Code.">
+  <meta property="og:description" content="Five crashes into stopped vehicles. Three deaths. 30,000 devices. And the software in one fatal crash was a community fork.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1015-comma-openpilot-nhtsa-probe.jpg?v=1b16b44c">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>The Autopilot You Install Yourself Is Under Federal Investigation. One Fatal Crash Was Running Somebody Else's Code.</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">September 29, 2026</div>
+
+      <img src="../images/1015-comma-openpilot-nhtsa-probe.jpg?v=1b16b44c" alt="Night highway view from a car approaching a stopped police cruiser with flashing emergency lights" class="story-hero" loading="eager">
+
+      <p>Here's a fun fact that will ruin your morning commute: the federal government is now investigating an autopilot you can buy for $999, install in your driveway in 15 minutes, and reprogram from a GitHub fork at 2 a.m. On September 21, NHTSA's Office of Defects Investigation opened Preliminary Evaluation PE26007 into comma.ai's openpilot after five crashes in which equipped cars plowed into stopped or slow-moving vehicles in their lanes.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> <strong>Three people are dead.</strong></p>
+
+      <div class="pull-stat">82</div>
+      <div class="pull-label">mph at impact when an openpilot-equipped Honda Accord rear-ended a stopped car in Missouri</div>
+
+      <p>The details read like a horror anthology for the camera-only era. In February 2026, a 2022 Toyota RAV4 carrying a comma device struck a stopped Gonzales Police Department cruiser in Ascension Parish, Louisiana, its emergency lights flashing. Two rear-seat passengers died. In September 2025, a 2020 Honda Accord with openpilot "verified engaged" rear-ended a stopped car on a Missouri highway at 82 mph. Honda's own report, citing the police report and a related lawsuit, says the driver had set cruise control to 80 and fallen asleep.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> In July 2026, a 2021 Toyota Corolla with openpilot engaged hit a stopped passenger car at 56 mph near Mona, Utah. Same script every time: highway speed, a stopped vehicle sitting in the lane ahead, and a system that never saw it.</p>
+
+      <p>Now the story stops being a recall and starts being a philosophy seminar. Comma's own crash filing says the Louisiana RAV4 "appears to have been running 3rd party non-comma software," meaning a community fork of openpilot called FrogPilot. Forks like FrogPilot and sunnypilot are built on comma's driving model and codebase, which is exactly why NHTSA says it will evaluate modified versions and the components they share with the original. Consider the stack of deniability: comma sold the box, the internet wrote the code, and neither built the car. A recall of software anyone can fork on GitHub has no enforcement precedent, because NHTSA's defect authority was designed for automakers with controlled release pipelines, not a repo with a thousand contributors.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>NHTSA's opening materials quote comma's own pitch back at it: "hands free driving for the car you already have," a 15-minute self-install, and software that "can drive for hours without intervention." The fine print says the driver must stay alert and ready to take over at all times, which is doing an enormous amount of work in that sentence. Comma's posture toward the regulator is openly adversarial: every Standing General Order crash filing opens with a disclaimer that the information is provided "without agreeing with NHTSA's interpretations or conceding that comma is obligated to respond to the General Order." It answers "Unknown" when asked whether the car was inside the system's operational design domain, on the grounds that it doesn't build the car or its stock driver assistance. On the Accord crash, comma noted in capital letters that adaptive cruise was "performed by Honda system."<sup class="ref-link"><a href="#ref-1">[1]</a></sup> It sells a device that takes over steering and speed, then tells the feds the braking is Honda's problem.</p>
+
+      <p>The strongest defense is that this is physics, not malice. Stationary vehicles in the lane are the known weak spot of camera-based driver assistance: NHTSA ran this exact probe against Tesla Autopilot in 2021 over crashes into stopped emergency vehicles, and it ended with a recall of roughly two million Teslas for more driver alerts. Consumer Reports once ranked openpilot the best driver-assistance system it had tested. And the Missouri driver had set cruise to 80 and fallen asleep, which is not a sensor problem. None of that changes the number on the scale: 30,000 devices, five documented crashes into stopped traffic, three dead. Comma claims 400 million miles across those devices, which works out to roughly 1.25 reported crashes per 100 million miles, though the numerator is only reported ADAS crashes and the denominator is comma's own unaudited claim.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> If you run openpilot or a fork, stopped vehicles in your lane are the documented blind spot. Drive like the fine print is the product, because it is.</p>
+
+      <p><strong>What this article did not prove:</strong> PE26007 is a preliminary evaluation, not a defect finding, and NHTSA may close it quietly. The fifth crash report ID was not in the public Standing General Order datasets reviewed by reporters, so its details are unavailable. The 400-million-mile figure is comma's own unaudited claim. This analysis covers only crashes reported under the Standing General Order; it says nothing about openpilot's injury-only or property-damage record, and it cannot separate comma's shipped releases from community forks in the aggregate.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Electrek, &ldquo;NHTSA investigates comma.ai's openpilot over 5 crashes that killed 3,&rdquo; Sept 24, 2026. Original reporting reviewing NHTSA's PE26007 opening materials and the public Standing General Order crash data. <a href="https://electrek.co/2026/09/24/comma-ai-openpilot-nhtsa-investigation-crashes/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-2">Dow Jones Newswires via Morningstar, &ldquo;Regulators Investigate Crashes Involving Autonomous-Driving Products from Comma.ai,&rdquo; Sept 23, 2026. <a href="https://www.morningstar.com/news/dow-jones/202609234513/regulators-investigate-crashes-involving-autonomous-driving-products-from-commaai" target="_blank" rel="noopener">morningstar.com</a></li>
+          <li id="ref-3">NHTSA, Office of Defects Investigation, Preliminary Evaluation PE26007 (opened Sept 21, 2026); crash reports filed under NHTSA's Standing General Order for Level 2 advanced driver assistance systems. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">comma.ai &mdash; comma three / 3X / four devices and openpilot documentation (company primary source for product claims). <a href="https://comma.ai" target="_blank" rel="noopener">comma.ai</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA ODI PE26007 investigation materials (via Electrek's review of the public Standing General Order data), NHTSA Standing General Order crash reports, and comma.ai's own SGO filings. No defect finding has been made; PE26007 is a preliminary evaluation. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

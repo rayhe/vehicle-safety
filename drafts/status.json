@@ -1,21 +1,13 @@
 {
-  "current": {
-    "number": 1015,
-    "slug": "1015-comma-openpilot-nhtsa-probe",
-    "title": "The Autopilot You Install Yourself Is Under Federal Investigation. One Fatal Crash Was Running Somebody Else's Code.",
-    "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "phase": "DRAFT",
-    "started": "2026-09-29T13:35:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-09-29 07:30 run: published #758 cx90 steering (earliest shippable; #763 still blocked on policy-blocked hero). QA fix: inline story-hero img + absolute og:image. Queue: 200 SHIP_BLOCKED remain, tail 2027-04-18.",
   "last_checked": "2026-09-29T07:45:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Vin Wreckage",
   "last_published": 758,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1015,
+  "next": 1016,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8167,6 +8159,50 @@
         "hero": "drafts/1014-aeb-one-in-five-poor-marginal.jpg"
       },
       "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5; all hard gates. Novel: IIHS front crash prevention distribution (117/524 Poor or Marginal) framed as the FMVSS 127 rehearsal; brand failure rates (Jeep 61%, Ford/Chevy 50%, Audi 35%); model-year trend 26%->19%. Counterargument full-strength (test harder than law, phantom braking, hardware cost). Limitations explicit (third-party tally, no independent recount). No publish: 1/day rule, #758 shipped 2026-09-29; queue tail now 2027-04-20."
+    },
+    {
+      "number": 1015,
+      "slug": "1015-comma-openpilot-nhtsa-probe",
+      "title": "The Autopilot You Install Yourself Is Under Federal Investigation. One Fatal Crash Was Running Somebody Else's Code.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "started": "2026-09-29T13:35:00-07:00",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-21",
+      "critique_round": 0,
+      "critic_avg": 8.94,
+      "scores": {
+        "average": 8.94,
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.2,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.3,
+        "sentence_rhythm": {
+          "variance": 633.2,
+          "short_pct": 6.5,
+          "long_pct": 54.8,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_hash": "1b16b44c",
+        "jpeg_valid": true
+      },
+      "files": {
+        "research": "drafts/1015-comma-openpilot-nhtsa-probe-research.md",
+        "critic_panel": "drafts/1015-critic-panel-r0.md",
+        "story": "drafts/1015-comma-openpilot-nhtsa-probe.html",
+        "hero": "drafts/1015-comma-openpilot-nhtsa-probe.jpg"
+      },
+      "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 9.3%, rhythm var 633.2). Novel: three-layer liability gap (hardware/comma vs shipped software/comma vs fork/community) + 1.25 SGO crashes/100M mi with caveats; fork-accountability question (FrogPilot fatal crash) on the regulatory record. Counterargument full-strength (sensor physics, CR 2020 #1, asleep driver, PE!=finding). Hero JPEG 421,715B. Blocked: 1/day slot consumed by #758 on 2026-09-29."
     }
   ],
   "last_qa_date": "2026-09-29",
