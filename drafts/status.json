@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "article-crashreport 2026-09-28 21:30 PDT: #1008 (Grand Prix W-body platform autopsy, Rex Driverton) RESEARCH+DRAFT+critic panel complete; SHIP_BLOCKED for 2027-04-14; next=1009.",
- "last_checked": "2026-09-29T05:10:00Z",
+ "last_check_note": "Article #1009 drafted (Geller v. Uber, 2026 IL 132066, Sep 24 2026); SHIP_BLOCKED 2027-04-15; critic avg 8.86 round-0 pass.",
+ "last_checked": "2026-09-29T06:40:00Z",
  "last_completed": 1008,
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Vin Wreckage",
  "last_published": 757,
  "last_published_date": "2026-09-28",
  "last_published_slug": "ota-recall-fix-parts-tariff-two-tier",
- "next": 1009,
+ "next": 1010,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -7878,6 +7878,51 @@
     "critic_panel": "drafts/1008-grand-prix-w-body-platform-autopsy-critic-panel-r0.md",
     "story": "drafts/1008-grand-prix-w-body-platform-autopsy.html",
     "hero": "drafts/1008-grand-prix-w-body-platform-autopsy.jpg"
+   }
+  },
+  {
+   "critic_avg": 8.86,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "d5555bcc",
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 317.3,
+     "short_pct": 21.4,
+     "long_pct": 39.3,
+     "passed": true
+    },
+    "style_css": true,
+    "the_starters_pct": 7.1,
+    "word_count": 679
+   },
+   "journalist": "Vin Wreckage",
+   "kicker": "Investigation",
+   "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: 53-month sealed-proceedings timeline (Apr 2022 crash to Sep 24 2026 ruling); estate voluntarily dismissed survival claims to escape arbitration; both of Uber's agreement theories (decedent's and survivor's) rejected as applied to the wrongful-death claim; confidential arbitration framed as safety-data black hole. Counterargument stated full-strength (speed/cost, facial reasonableness, Illinois-only, derivative-claim states, survival claims did go to arbitration). Primary sources: 2026 IL 132066 via Justia, Clifford Law Offices, Legal Newsline, LawyerTrend, law.com. Draft+hero+research+critics in drafts/ (1009- prefix). No publish: 1/day rule, #757 shipped 2026-09-28, queue through 2027-04-14.",
+   "number": 1009,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "average": 8.86,
+    "data_presentation": 8.9,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.8,
+    "legal_accuracy": 8.6,
+    "research_rigor": 8.8,
+    "social_shareability": 8.7,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2027-04-15",
+   "slug": "1009-geller-uber-arbitration-wrongful-death",
+   "started": "2026-09-28T23:30:00-07:00",
+   "title": "Uber Spent Four Years Trying to Bury a Fatal Crash in Arbitration. Illinois' Highest Court Just Dug It Up.",
+   "files": {
+    "research": "drafts/1009-geller-uber-arbitration-wrongful-death-research.md",
+    "critic_panel": "drafts/1009-geller-uber-arbitration-wrongful-death-critic-panel-r0.md",
+    "story": "drafts/1009-geller-uber-arbitration-wrongful-death.html",
+    "hero": "drafts/1009-geller-uber-arbitration-wrongful-death.jpg"
    }
   }
  ],
