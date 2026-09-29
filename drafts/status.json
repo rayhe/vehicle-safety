@@ -1,21 +1,9 @@
 {
- "current": {
-  "slug": "1007-corvette-drunkest-car-in-america",
-  "phase": "DRAFT",
-  "journalist": "Vin Wreckage",
-  "number": 1007,
-  "started": "2026-09-28T19:30:00-07:00",
-  "kicker": "Sobriety Report",
-  "title": "The Corvette Is the Drunkest Car in America. FARS Has the Receipts.",
-  "ship_date": "2027-04-13",
-  "files": {
-   "research": "drafts/1007-corvette-drunkest-car-in-america-research.md"
-  }
- },
- "last_check_note": "article-crashreport 2026-09-28 19:30 PDT: RESEARCH complete for #1007 (Corvette drunkest car, Vin Wreckage). Proceeding to DRAFT.",
- "last_checked": "2026-09-29T02:30:00Z",
- "last_completed": 1005,
- "last_journalist": "Rex Driverton",
+ "current": null,
+ "last_check_note": "article-crashreport 2026-09-28 19:30 PDT: full pipeline complete. #1007 new article queued SHIP_BLOCKED for 2027-04-13 (avg 8.89, Vin Wreckage; 540 words, all hard gates pass). 1/day slot consumed by #757 published 2026-09-28.",
+ "last_checked": "2026-09-29T02:45:00Z",
+ "last_completed": 1007,
+ "last_journalist": "Vin Wreckage",
  "last_published": 757,
  "last_published_date": "2026-09-28",
  "last_published_slug": "ota-recall-fix-parts-tariff-two-tier",
@@ -7800,6 +7788,51 @@
     "critic_panel": "drafts/1006-e350-outcrashes-the-mustang-critic-panel-r0.md",
     "story": "drafts/1006-e350-outcrashes-the-mustang.html",
     "hero": "drafts/1006-e350-outcrashes-the-mustang.jpg"
+   }
+  },
+  {
+   "critic_avg": 8.89,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "baf68ed3",
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 863.5,
+     "short_pct": 10.0,
+     "long_pct": 45.0,
+     "passed": true
+    },
+    "style_css": true,
+    "the_starters_pct": 9.5,
+    "word_count": 540
+   },
+   "journalist": "Vin Wreckage",
+   "kicker": "Sobriety Report",
+   "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5. Novel: full 168-nameplate FARS alcohol-positive ranking (BAC>0, 500+ driver threshold); Corvette #1 at 21.3% (244/1,147), beats Camaro 17.1/Challenger 17.5/Mustang 16.4 and CTS 20.6. News pegs: Newport Beach Feb 2026 DUI Corvette pedestrian killing; Henry Ruggs (0.161 BAC, 156 mph). Counterargument stated full-strength (speed makes crashes fatal). Draft+hero+research+critics in drafts/ (1007- prefix). No publish: 1/day rule, #757 shipped 2026-09-28, queue through 2027-04-13.",
+   "number": 1007,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "average": 8.89,
+    "data_presentation": 9.0,
+    "ethics_reviewer": 8.8,
+    "general_editor": 8.7,
+    "legal_accuracy": 8.7,
+    "research_rigor": 9.0,
+    "social_shareability": 9.0,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2027-04-13",
+   "slug": "1007-corvette-drunkest-car-in-america",
+   "started": "2026-09-28T19:30:00-07:00",
+   "title": "The Corvette Is the Drunkest Car in America. FARS Has the Receipts.",
+   "files": {
+    "research": "drafts/1007-corvette-drunkest-car-in-america-research.md",
+    "critic_panel": "drafts/1007-corvette-drunkest-car-in-america-critic-panel-r0.md",
+    "story": "drafts/1007-corvette-drunkest-car-in-america.html",
+    "hero": "drafts/1007-corvette-drunkest-car-in-america.jpg"
    }
   }
  ],
