@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1012-odyssey-airbag-petition-denied",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-29T05:45:00-07:00",
+    "number": 1012
+  },
   "last_check_note": "#1011 queued SHIP_BLOCKED for 2027-04-17",
   "last_checked": "2026-09-29T10:55:00Z",
   "last_completed": 1011,
