@@ -1,18 +1,13 @@
 {
- "current": {
-  "slug": "1008-grand-prix-w-body-platform-autopsy",
-  "phase": "DRAFT",
-  "journalist": "Rex Driverton",
-  "started": "2026-09-28T21:30:00-07:00"
- },
- "last_check_note": "article-crashreport 2026-09-28 21:30 PDT: RESEARCH #1008 (Grand Prix W-body platform autopsy, Rex Driverton) complete; proceeding to DRAFT.",
- "last_checked": "2026-09-29T04:35:00Z",
- "last_completed": 1007,
- "last_journalist": "Vin Wreckage",
+ "current": null,
+ "last_check_note": "article-crashreport 2026-09-28 21:30 PDT: #1008 (Grand Prix W-body platform autopsy, Rex Driverton) RESEARCH+DRAFT+critic panel complete; SHIP_BLOCKED for 2027-04-14; next=1009.",
+ "last_checked": "2026-09-29T05:10:00Z",
+ "last_completed": 1008,
+ "last_journalist": "Rex Driverton",
  "last_published": 757,
  "last_published_date": "2026-09-28",
  "last_published_slug": "ota-recall-fix-parts-tariff-two-tier",
- "next": 1008,
+ "next": 1009,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -7838,6 +7833,51 @@
     "critic_panel": "drafts/1007-corvette-drunkest-car-in-america-critic-panel-r0.md",
     "story": "drafts/1007-corvette-drunkest-car-in-america.html",
     "hero": "drafts/1007-corvette-drunkest-car-in-america.jpg"
+   }
+  },
+  {
+   "critic_avg": 8.81,
+   "critique_round": 0,
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "39c4c296",
+    "jpeg_valid": true,
+    "sentence_rhythm": {
+     "variance": 923.2,
+     "short_pct": 9.1,
+     "long_pct": 54.5,
+     "passed": true
+    },
+    "style_css": true,
+    "the_starters_pct": 6.5,
+    "word_count": 728
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5. Novel: W-body platform-family cross-tab \u2014 six platform-mates, impairment rates flat (19.3-21.8%) but death rates spanning 7x (Impala 5.00 down to Monte Carlo 0.71), killing the drunk-driver theory; Grand Prix 970 deaths (2.14/100M VMT). Counterargument stated full-strength (fleet VMT undercount, Impala generation mix). Primary sources: NHTSA FARS 2014-2023, IIHS Grand Prix ratings, GM Pontiac 2009 discontinuation. Draft+hero+research+critics in drafts/ (1008- prefix). No publish: 1/day rule, #757 shipped 2026-09-28, queue through 2027-04-14.",
+   "number": 1008,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "average": 8.81,
+    "data_presentation": 8.8,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.9,
+    "legal_accuracy": 8.6,
+    "research_rigor": 8.8,
+    "social_shareability": 8.7,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2027-04-14",
+   "slug": "1008-grand-prix-w-body-platform-autopsy",
+   "started": "2026-09-28T21:30:00-07:00",
+   "title": "Pontiac Died 16 Years Ago. The Grand Prix Still Kills 97 People a Year.",
+   "files": {
+    "research": "drafts/1008-grand-prix-w-body-platform-autopsy-research.md",
+    "critic_panel": "drafts/1008-grand-prix-w-body-platform-autopsy-critic-panel-r0.md",
+    "story": "drafts/1008-grand-prix-w-body-platform-autopsy.html",
+    "hero": "drafts/1008-grand-prix-w-body-platform-autopsy.jpg"
    }
   }
  ],
