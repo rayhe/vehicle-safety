@@ -1,13 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "number": 1014,
+    "slug": "1014-aeb-one-in-five-poor-marginal",
+    "title": "Your Car Has Automatic Braking. One in Five Systems Can't See a Pedestrian at Night.",
+    "journalist": "Clara Rollover",
+    "kicker": "The Gap",
+    "phase": "DRAFT",
+    "started": "2026-09-29T11:35:00-07:00"
+  },
   "last_check_note": "2026-09-29 07:30 run: published #758 cx90 steering (earliest shippable; #763 still blocked on policy-blocked hero). QA fix: inline story-hero img + absolute og:image. Queue: 200 SHIP_BLOCKED remain, tail 2027-04-18.",
   "last_checked": "2026-09-29T07:45:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": 758,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1014,
+  "next": 1015,
   "queue": [
     {
       "journalist": "Rex Driverton",
