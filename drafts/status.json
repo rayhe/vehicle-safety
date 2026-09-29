@@ -1,7 +1,12 @@
 {
- "current": null,
- "last_check_note": "article-crashreport 2026-09-28 19:30 PDT: full pipeline complete. #1007 new article queued SHIP_BLOCKED for 2027-04-13 (avg 8.89, Vin Wreckage; 540 words, all hard gates pass). 1/day slot consumed by #757 published 2026-09-28.",
- "last_checked": "2026-09-29T02:45:00Z",
+ "current": {
+  "slug": "1008-grand-prix-w-body-platform-autopsy",
+  "phase": "DRAFT",
+  "journalist": "Rex Driverton",
+  "started": "2026-09-28T21:30:00-07:00"
+ },
+ "last_check_note": "article-crashreport 2026-09-28 21:30 PDT: RESEARCH #1008 (Grand Prix W-body platform autopsy, Rex Driverton) complete; proceeding to DRAFT.",
+ "last_checked": "2026-09-29T04:35:00Z",
  "last_completed": 1007,
  "last_journalist": "Vin Wreckage",
  "last_published": 757,
