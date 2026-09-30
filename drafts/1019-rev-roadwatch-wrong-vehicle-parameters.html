@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Computer That Keeps Your Motorhome Upright Was Taught the Wrong Vehicle &mdash; The Crash Report</title>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="description" content="NHTSA campaign 26V602: REV Recreation Group recalled 47 luxury motorhomes whose RoadWatch Safety System was programmed with the wrong vehicle parameters, potentially defeating electronic stability control.">
+  <meta property="og:title" content="The Computer That Keeps Your Motorhome Upright Was Taught the Wrong Vehicle">
+  <meta property="og:description" content="ESC works by comparing a mathematical model of the vehicle to live sensor data. REV programmed 47 coaches with the wrong model. Here's what that means at 65 mph.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1019-rev-roadwatch-wrong-vehicle-parameters.jpg?v=6090cc89">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>The Computer That Keeps Your Motorhome Upright Was Taught the Wrong Vehicle</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">September 29, 2026</div>
+
+      <img src="../images/1019-rev-roadwatch-wrong-vehicle-parameters.jpg?v=6090cc89" alt="A luxury Class A motorhome on a desert highway at dusk with faint stability-control sensor graphics around it" class="story-hero" loading="eager">
+
+      <p>Let&rsquo;s talk about what happens in the first 150 milliseconds of a rollover. That is how fast electronic stability control has to decide your vehicle is leaving the road: cut the throttle, brake one wheel, catch the slide before you ever feel it. In September 2026, NHTSA logged campaign 26V602 against REV Recreation Group: <strong>47 flagship luxury coaches</strong> &mdash; American Coach American Dreams, Fleetwood Discovery LXEs, Fleetwood Palisades, Holiday Rambler Armadas &mdash; whose RoadWatch Safety System &ldquo;may have been programmed with the incorrect vehicle parameters.&rdquo;<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The consequence line in the filing says the quiet part plainly: safety functions including ESC &ldquo;may have diminished or lost functionality.&rdquo;<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">47</div>
+      <div class="pull-label">Coaches recalled, every one built on a single production day &mdash; March 30, 2026 &mdash; for one bad parameter file</div>
+
+      <p>This is where the engineering gets genuinely interesting, and where it gets scary. A stability ECU doesn&rsquo;t just watch sensors; in Bendix&rsquo;s own description, the computer constantly compares a mathematical <em>performance model</em> of the vehicle to live readings from the wheel-speed, lateral-acceleration, yaw, and steering-angle sensors, and intervenes when reality drifts from the model.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> That model is built from parameters: how much the vehicle weighs, where its center of gravity sits, how long the wheelbase is. Feed it the wrong numbers and the computer is driving a ghost. It brakes for a slide that isn&rsquo;t happening, or stays quiet through the one that is. Bendix&rsquo;s effectiveness data says ESC is 78% effective overall: rollovers down 83%, loss-of-control crashes down 69%.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Take the physics model away, and a coach this size leaning into an off-ramp curve is on its own.</p>
+
+      <p>Now read the filing the way an engineer would. Look at what the paperwork doesn&rsquo;t say: no FMVSS number anywhere. REV didn&rsquo;t claim a standard violation; it filed a straight defect, on its own initiative &mdash; the recall initiator field reads MFR. NHTSA&rsquo;s component classification reads ESC control module, while the manufacturer&rsquo;s own label calls it an ABS ECU, &ldquo;Tag ECU,&rdquo; part number 4008629010.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The remedy is a dealer reprogramming, free, with owner letters going out November 16, 2026.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Forty-seven coaches, one production day, one bad config: this is what a safety device looks like when the failure isn&rsquo;t a part, but a number somebody typed.</p>
+
+      <p>Here is the strongest defense of REV, stated at full strength, because it deserves it. This is arguably the system working: the company caught a configuration error, self-reported to NHTSA, and is reprogramming 47 coaches with zero crashes, injuries, or complaints in the public record. Misconfigured ESC usually fails loud &mdash; a dash fault, the system standing down &mdash; not as a silent saboteur. And these are vacation vehicles driven a few thousand miles a year, not transit buses in daily revenue service. Honest accounting: a good-citizen recall about a config file, and the story it reveals about how much trust a vehicle this heavy places in typed numbers. What the record does <em>not</em> say is which parameters were wrong, how the error was discovered, or whether &ldquo;diminished or lost functionality&rdquo; meant a lit warning or a silently wrong intervention &mdash; and that uncertainty is the real gap.</p>
+
+      <p>If you own one of these coaches, check your VIN at nhtsa.gov/recalls now; don&rsquo;t wait for the November letter. Call REV at 1-800-509-3417 and ask whether your coach&rsquo;s RoadWatch has been reprogrammed, referencing recall 260911REV. If you&rsquo;re shopping for a used diesel pusher, run the VIN too &mdash; software recalls don&rsquo;t leave a dent you can see. And the general rule, worth memorizing: an ESC or ABS warning light on a heavy vehicle means the physics cop has left the building, so slow down, leave more room, and get it serviced. A computer only knows what somebody told it, and somebody typed the wrong numbers.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Recall 26V602 (REV Recreation Group), record creation Sept 21, 2026. 47 units: 2025&ndash;2026 American Coach American Dream, 2026&ndash;2027 Fleetwood Discovery LXE, 2026 Fleetwood Palisade, Holiday Rambler Armada. Manufacturer recall 260911REV, MFR-initiated; component &ldquo;ELECTRONIC STABILITY CONTROL (ESC): CONTROL MODULE&rdquo; (ABS ECU / Tag ECU, P/N 4008629010); begin/end manufacturing dates 2026-03-30; no FMVSS number cited. <a href="https://oemdtc.com/recall/26V602000/" target="_blank" rel="noopener">oemdtc.com (NHTSA record mirror)</a></li>
+          <li id="ref-2">CamperReport, &ldquo;NHTSA RV Recalls for September 2026.&rdquo; Owner letters expected Nov 16, 2026; REV customer service 800-509-3417; NHTSA ID 26V602000. <a href="https://camperreport.com/september-2026-rv-recalls/" target="_blank" rel="noopener">camperreport.com</a></li>
+          <li id="ref-3">Bendix Commercial Vehicle Systems, &ldquo;How does the Bendix ESP stability system work?&rdquo; ECU &ldquo;constantly compares performance models to the vehicle&rsquo;s actual movement, using the wheel speed sensors of the ABS system, as well as lateral, yaw, and steering angle sensors.&rdquo; <a href="https://www.bendix.com/media/products/products/trailer-solutions/abs-6-advaned-with-esp-stability-system-faq.pdf" target="_blank" rel="noopener">bendix.com (PDF)</a></li>
+          <li id="ref-4">Bendix, &ldquo;Bendix Stability Effectiveness Analysis&rdquo;: ESC effectiveness 78% overall, 83% rollover, 69% loss-of-control. <a href="https://www.bendixvrc.com/itemDisplay.asp?documentID=6972" target="_blank" rel="noopener">bendixvrc.com</a></li>
+          <li id="ref-5">Trucks, Parts, Service, &ldquo;NHTSA commercial vehicle recalls for the week of Sept. 28, 2026.&rdquo; Lists 26V602 alongside Forest River (26V608, 132 units), Volvo Bus 9700 FMVSS 217 (1,236 units), Winnebago Arka FMVSS 120 (26V601, 56 units). <a href="https://www.truckpartsandservice.com/regulations/equipment/article/15835980/nhtsa-commercial-vehicle-recalls-for-the-week-of-sept-28-2026" target="_blank" rel="noopener">truckpartsandservice.com</a></li>
+          <li id="ref-6">NHTSA recalls database. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA campaign 26V602 (REV Recreation Group), record retrieved Sept 29, 2026; Bendix ESP technical documentation. The full Part 573 PDF for 26V602 was not publicly indexed at writing; unit counts, dates, and remedy details above come from NHTSA&rsquo;s campaign record via three independent mirrors. No crashes, injuries, or deaths are listed in the public filings. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
