@@ -1,7 +1,14 @@
 {
-  "current": null,
-  "last_check_note": "21:30 run: researched, drafted, paneled, and queued #1019 (REV RoadWatch wrong-parameter ESC recall, Mia Crumplezone). Round-0 critic pass 8.69 avg, all hard gates incl. story-hero and absolute og:image. Preserved as SHIP_BLOCKED for 2027-04-25 (daily slot consumed). Next is 1020.",
-  "last_checked": "2026-09-29T21:30:00-07:00",
+  "current": {
+    "number": 1020,
+    "slug": "1020-milligan-cyclists-ntsb-bike-route",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "kicker": "Existential Dread",
+    "started": "2026-09-29T23:30:00-07:00"
+  },
+  "last_check_note": "#1020 Milligan cyclists NTSB preliminary report (HWY26FH018, released Sept 15): research complete, Vin Wreckage, moving to DRAFT.",
+  "last_checked": "2026-09-29T23:30:00-07:00",
   "last_completed": "2026-09-29",
   "last_journalist": "Axle McScatter",
   "last_published": 758,
