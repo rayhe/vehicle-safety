@@ -1,17 +1,9 @@
 {
-  "current": {
-    "number": 1026,
-    "journalist": "Dale Impactor III",
-    "phase": "SHIP",
-    "slug": "gm-joyson-roof-rail-airbag-26v611",
-    "title": "Takata's Ghost: A 2021 Lawsuit Predicted This Airbag Recall. GM Needed Three Tries.",
-    "revisions": 4,
-    "critique": "7-critic panel (6 roster journalists + skeptical reader): avg ~8.0/10. Findings: (1) accuracy fix: HD models are 2016-only in 26V611; (2) added no-do-not-drive status + free module-replacement logistics; (3) added scope note: only one customer report on record for 26V611; earlier-campaign rupture history unknown. All hard gates re-verified after revision."
-  },
+  "current": null,
   "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
   "last_checked": "2026-09-30T09:30:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Dale Impactor III",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
@@ -8629,6 +8621,15 @@
         "critic_panel": "drafts/1025-critic-panel-r0.md"
       },
       "note": "2026-09-30 09:30 run: round-0 panel pass (avg 8.97, 7/7 >= 8.5, all hard gates). Novel: NHTSA EA26005 (opened Aug 20, 2026) probes 997,743 GM trucks/SUVs over post-remedy L87 failures; 499 ODI complaints (473 oil-remedy, 26 replacement engines); GM reported 6,953 post-remedy complaints (14x undercount gap); 191 failures in post-window engines undercut the closed-defect-window root-cause narrative. Killed angles: Bronco 9th recall airbag (#-), Rivian R2 first recall, Tesla Model Y suspension, Can-Am instrument cluster, Cybercab AQ26002 (covered), L87 not previously covered. Today's publish slot consumed (4 publishes); ship_date 2027-05-01."
+    },
+    {
+      "number": 1026,
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-02",
+      "slug": "1026-gm-joyson-roof-rail-airbag-26v611",
+      "title": "Takata's Ghost: A 2021 Lawsuit Predicted This Airbag Recall. GM Needed Three Tries.",
+      "note": "2026-09-30 11:30 run: round-0 panel pass (avg 8.71, 7/7 >= 8.2, all hard gates; rhythm variance 160.7 below 200 benchmark, accepted on voice grounds). Fresh Sep 30 NHTSA 26V611: GM's 3rd roof-rail airbag recall of 2026 (1,559 MY2016-17 Silverado/Sierra crew cabs, lot B116B). Novel: Joyson Safety Systems (built from Takata's bankrupt assets, Apr 2018, liabilities excluded) supplied the Hermoso inflators; a 2021 class action named the same trucks, same Mexico plant, same moisture-corrosion rupture mechanism. Killed angle: Honda Ridgeline RQ24011 closure (duplicate of #964, killed pre-draft). Today's publish slot consumed (4 publishes); ship_date 2027-05-02."
     }
   ],
   "last_qa_date": "2026-09-30",
