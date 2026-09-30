@@ -1,20 +1,13 @@
 {
-  "current": {
-    "number": 1020,
-    "slug": "1020-milligan-cyclists-ntsb-bike-route",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "kicker": "Existential Dread",
-    "started": "2026-09-29T23:30:00-07:00"
-  },
-  "last_check_note": "#1020 Milligan cyclists NTSB preliminary report (HWY26FH018, released Sept 15): research complete, Vin Wreckage, moving to DRAFT.",
-  "last_checked": "2026-09-29T23:30:00-07:00",
+  "current": null,
+  "last_check_note": "#1020 SHIP_BLOCKED (1/day slot consumed by #758). Round-0 pass, 8.79 avg, ship_date 2027-04-26.",
+  "last_checked": "2026-09-29T23:35:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": 758,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1020,
+  "next": 1021,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8389,6 +8382,52 @@
         "hero": "drafts/1019-rev-roadwatch-wrong-vehicle-parameters.jpg"
       },
       "note": "Round-0 pass 8.69 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 3.8%, rhythm var 1101.1, short 3.7%, long 55.6%). Novel: RoadWatch misprogrammed vehicle parameters (26V602, MFR-initiated, no FMVSS cited); single production day 2026-03-30 for all 47 coaches; physics-model framing (Bendix ECU compares performance model to live sensors); defect-vs-noncompliance read. 2025-2026 American Coach American Dream, 2026-2027 Fleetwood Discovery LXE, 2026 Fleetwood Palisade, Holiday Rambler Armada; letters Nov 16, 2026; REV 1-800-509-3417; 260911REV. Bendix ESC 78% overall / 83% rollover / 69% LOC. Hero JPEG 1920x1280 622,334B, cache-busted 6090cc89. Blocked: 1/day Pacific publish slot consumed by #758 on 2026-09-29."
+    },
+    {
+      "number": 1020,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-26",
+      "slug": "1020-milligan-cyclists-ntsb-bike-route",
+      "title": "Tennessee Designated This 55-MPH Highway a Bicycle Route. Two Cyclists Are Dead.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "started": "2026-09-29T23:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.79,
+      "scores": {
+        "average": 8.79,
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "sentence_rhythm": {
+          "variance": 463.9,
+          "short_pct": 4.7,
+          "long_pct": 41.9,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_hash": "de0ab94d",
+        "jpeg_valid": true,
+        "story_hero_imgs": 1,
+        "og_image_absolute": true
+      },
+      "files": {
+        "research": "drafts/1020-milligan-cyclists-ntsb-bike-route-research.md",
+        "critic_panel": "drafts/1020-critic-panel-r0.md",
+        "story": "drafts/1020-milligan-cyclists-ntsb-bike-route.html",
+        "hero": "drafts/1020-milligan-cyclists-ntsb-bike-route.jpg"
+      },
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 0.0%, rhythm var 463.9, short 4.7%, long 41.9%). Novel: moving-occlusion stopping-distance math (AASHTO ~490 ft at 55 mph; crash decided by following distance, not reaction); TDOT designated-vs-designed bike-route paradox; NTSB HWY26FH018 docket-signal. Aug 19, 2026 US 19E Hampton TN: 2003 Subaru Baja through 10 Milligan cyclists, 2 fatal 5 serious, no braking per THP affidavit; designated bike route at 55 mph; report released Sept 15. Hero JPEG 1920x1280 569,502B, cache-busted de0ab94d. Blocked: 1/day Pacific publish slot consumed by #758 on 2026-09-29."
     }
   ],
   "last_qa_date": "2026-09-29",
