@@ -1,17 +1,9 @@
 {
-  "current": {
-    "number": 1028,
-    "slug": "1028-side-impact-barrier-81-percent-energy",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "kicker": "The Gap",
-    "title": "IIHS Made the Side Crash Test 81% More Violent. Two-Thirds of Good Ratings Did Not Survive.",
-    "started": "2026-09-30T15:30:00-07:00"
-  },
-  "last_check_note": "2026-09-30 15:30 run: RESEARCH complete for #1028 (IIHS updated side barrier: 81% KE increase own calc; 338->106 Good collapse; 17%->5% MY2023-2026 recovery; ForCar analysis Sep 29, 2026). Kill test PASS; no duplication. Journalist: Axle McScatter. Phase -> DRAFT.",
-  "last_checked": "2026-09-30T15:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-09-30 15:30 run: #1028 SHIP_BLOCKED (ship 2027-05-04), panel avg 8.83. Pipeline idle; next article #1029 on next run.",
+  "last_checked": "2026-09-30T15:45:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
@@ -8676,6 +8668,44 @@
         "critic_panel": "drafts/1027-critic-panel-r0.md"
       },
       "note": "2026-09-30 13:30 run: round-0 panel pass (avg 8.90, 7/7 >= 8.5, all hard gates; rhythm fixed via fragment merge, short_pct 13.5). Novel: 26E050+26E051 recall 4,118 replacement curtain airbags (Takata-asset heir Joyson Safety Systems); filed 1% defect rate is portal code for unknown (Toyota's own footnote); defect only manifests in a second crash; notification traces through body-shop parts counters; owner letters due Sep 27 just passed. Killed angles: none new. Hero JPEG 1920x1280, cache-busted ?v=1fdea763, story-hero inline + absolute og:image. Today's publish slot consumed (4 publishes); ship_date 2027-05-03."
+    },
+    {
+      "number": 1028,
+      "slug": "1028-side-impact-barrier-81-percent-energy",
+      "title": "IIHS Made the Side Crash Test 81% More Violent \u2014 Two-Thirds of Good Ratings Did Not Survive",
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-04",
+      "critic_avg": 8.83,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.5,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 218.4,
+          "short_pct": 0.0,
+          "long_pct": 67.7,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1028-side-impact-barrier-81-percent-energy-research.md",
+        "draft": "drafts/1028-side-impact-barrier-81-percent-energy.html",
+        "hero": "drafts/1028-side-impact-barrier-81-percent-energy.jpg",
+        "critic_panel": "drafts/1028-critic-panel-r0.md"
+      },
+      "note": "2026-09-30 15:30 run: round-0 panel pass (avg 8.83, 7/7 >= 8.5, all hard gates; rhythm fixed via fragment merges, short_pct 0.0). Novel: 81% KE increase own calc from IIHS specs + 338->106 Good collapse + 17%->5% MY2023-2026 recovery + used-car rating-scale trap. Hero JPEG 2736x912, cache-busted ?v=3665711a, story-hero inline + absolute og:image. Today's publish slot consumed (4 publishes); ship_date 2027-05-04."
     }
   ],
   "last_qa_date": "2026-09-30",
