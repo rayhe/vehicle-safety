@@ -1,13 +1,21 @@
 {
-  "current": null,
-  "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
-  "last_checked": "2026-09-30T09:30:00-07:00",
+  "current": {
+    "number": 1028,
+    "slug": "1028-side-impact-barrier-81-percent-energy",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "kicker": "The Gap",
+    "title": "IIHS Made the Side Crash Test 81% More Violent. Two-Thirds of Good Ratings Did Not Survive.",
+    "started": "2026-09-30T15:30:00-07:00"
+  },
+  "last_check_note": "2026-09-30 15:30 run: RESEARCH complete for #1028 (IIHS updated side barrier: 81% KE increase own calc; 338->106 Good collapse; 17%->5% MY2023-2026 recovery; ForCar analysis Sep 29, 2026). Kill test PASS; no duplication. Journalist: Axle McScatter. Phase -> DRAFT.",
+  "last_checked": "2026-09-30T15:30:00-07:00",
   "last_completed": "2026-09-29",
   "last_journalist": "Mia Crumplezone",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1028,
+  "next": 1029,
   "queue": [
     {
       "journalist": "Rex Driverton",
