@@ -3,11 +3,11 @@
   "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
   "last_checked": "2026-09-30T09:30:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1025,
+  "next": 1028,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8630,6 +8630,44 @@
       "slug": "1026-gm-joyson-roof-rail-airbag-26v611",
       "title": "Takata's Ghost: A 2021 Lawsuit Predicted This Airbag Recall. GM Needed Three Tries.",
       "note": "2026-09-30 11:30 run: round-0 panel pass (avg 8.71, 7/7 >= 8.2, all hard gates; rhythm variance 160.7 below 200 benchmark, accepted on voice grounds). Fresh Sep 30 NHTSA 26V611: GM's 3rd roof-rail airbag recall of 2026 (1,559 MY2016-17 Silverado/Sierra crew cabs, lot B116B). Novel: Joyson Safety Systems (built from Takata's bankrupt assets, Apr 2018, liabilities excluded) supplied the Hermoso inflators; a 2021 class action named the same trucks, same Mexico plant, same moisture-corrosion rupture mechanism. Killed angle: Honda Ridgeline RQ24011 closure (duplicate of #964, killed pre-draft). Today's publish slot consumed (4 publishes); ship_date 2027-05-02."
+    },
+    {
+      "number": 1027,
+      "journalist": "Mia Crumplezone",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-03",
+      "slug": "1027-joyson-replacement-airbag-recall",
+      "title": "The Airbag That Replaced Your Airbag Has Been Recalled",
+      "kicker": "Investigation",
+      "critic_avg": 8.9,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 357.5,
+          "short_pct": 13.5,
+          "long_pct": 48.6,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1027-joyson-replacement-airbag-recall-research.md",
+        "draft": "drafts/1027-joyson-replacement-airbag-recall.html",
+        "hero": "drafts/1027-joyson-replacement-airbag-recall.jpg",
+        "critic_panel": "drafts/1027-critic-panel-r0.md"
+      },
+      "note": "2026-09-30 13:30 run: round-0 panel pass (avg 8.90, 7/7 >= 8.5, all hard gates; rhythm fixed via fragment merge, short_pct 13.5). Novel: 26E050+26E051 recall 4,118 replacement curtain airbags (Takata-asset heir Joyson Safety Systems); filed 1% defect rate is portal code for unknown (Toyota's own footnote); defect only manifests in a second crash; notification traces through body-shop parts counters; owner letters due Sep 27 just passed. Killed angles: none new. Hero JPEG 1920x1280, cache-busted ?v=1fdea763, story-hero inline + absolute og:image. Today's publish slot consumed (4 publishes); ship_date 2027-05-03."
     }
   ],
   "last_qa_date": "2026-09-30",
