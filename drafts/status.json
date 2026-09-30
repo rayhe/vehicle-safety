@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-29 15:30 run: drafted+critiqued #1016 Cybercab FMVSS self-certification audit (Rex Driverton, 8.86 avg, round-0 SHIP). 1/day slot consumed by #758; queued SHIP_BLOCKED 2027-04-22. Queue: 204 SHIP_BLOCKED remain.",
+  "last_check_note": "2026-09-29 17:30 run: drafted+critiqued #1017 one-car federal recall 26V607000 (Axle McScatter, 8.86 avg, round-0 SHIP). 1/day slot consumed by #758; queued SHIP_BLOCKED 2027-04-23. Queue: 205 SHIP_BLOCKED remain.",
   "last_checked": "2026-09-29T15:36:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": 758,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1017,
+  "next": 1018,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -116,7 +116,7 @@
     },
     {
       "journalist": "Axle McScatter",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: published as #757 (earliest shippable SHIP_BLOCKED; #763 blocked on hero image — generation policy-blocked, no retry permitted). Gates re-verified pre-ship: em 0, banned 0, The-starters ok, class=story, style.css, rhythm PASS, hero JPEG FF D8 ?v=5d2b430c. Dateline set 2026-09-28.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: published as #757 (earliest shippable SHIP_BLOCKED; #763 blocked on hero image \u2014 generation policy-blocked, no retry permitted). Gates re-verified pre-ship: em 0, banned 0, The-starters ok, class=story, style.css, rhythm PASS, hero JPEG FF D8 ?v=5d2b430c. Dateline set 2026-09-28.",
       "number": 764,
       "phase": "PUBLISHED",
       "scores": {
@@ -134,7 +134,7 @@
     },
     {
       "journalist": "Vin Wreckage",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-29 07:30 run: gates re-verified pre-ship (em 0, banned 0, The-starters 4.0%, class=story, style.css, hero JPEG 36644e79); dateline set 2026-09-29; published as #758 (earliest shippable SHIP_BLOCKED; #763 still blocked on policy-blocked hero). | QA: live verified 2026-09-29 (article 200, homepage card, sitemap); draft had omitted inline story-hero img — added story-hero after dateline + absolute og:image; committed+pushed 507bca59.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-29 07:30 run: gates re-verified pre-ship (em 0, banned 0, The-starters 4.0%, class=story, style.css, hero JPEG 36644e79); dateline set 2026-09-29; published as #758 (earliest shippable SHIP_BLOCKED; #763 still blocked on policy-blocked hero). | QA: live verified 2026-09-29 (article 200, homepage card, sitemap); draft had omitted inline story-hero img \u2014 added story-hero after dateline + absolute og:image; committed+pushed 507bca59.",
       "number": 765,
       "phase": "PUBLISHED",
       "scores": {
@@ -2215,7 +2215,7 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 → 26V051 Jan 2026 → 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect → re-inspect the repair → replace both isolators on every vehicle.",
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: three-campaign recall cascade math on one Jeep Grand Cherokee rear coil spring family (23V413 June 2023 \u2192 26V051 Jan 2026 \u2192 26V562 Sep 2026): ~754K cumulative recall actions over 39 months, remedy ladder inspect \u2192 re-inspect the repair \u2192 replace both isolators on every vehicle.",
       "number": 858,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2259,7 +2259,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit — GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation).",
+      "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation).",
       "number": 859,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2303,7 +2303,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates — the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight.",
+      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight.",
       "number": 860,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2346,7 +2346,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) — Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025).",
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025).",
       "number": 861,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2840,7 +2840,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Original contribution: FARS dual-coding denominator artifact — Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass.",
+      "note": "Original contribution: FARS dual-coding denominator artifact \u2014 Dodge RAM (4,407 deaths, 0.78) and Ram 1500 (714 deaths, 0.13) share one 4.2M fleet (pipeline SALES_DATA assigns 480k/yr to both); combined 5,121 deaths = 0.90, in the full-size pack (Tundra 0.94, Sierra 1.01, F-150 1.04). Same artifact: Grand Caravan 1.33+0.23 -> 1.56. Round-0 pass 8.93 avg; 7/7 >= 8.5; all hard gates pass.",
       "number": 873,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2885,7 +2885,7 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch — 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure.",
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: Sept 3 2026 IIHS batch \u2014 2027 Telluride TSP+ applies only to post-June-2026 builds (headlight fix); FARS cross-tab of outgoing gen (0.04, one of ten lowest) validates the award, making the build-month asterisk the trap. Batch audit: 3 of 5 failures were V2V-prevention (AEB software), not structure.",
       "number": 874,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -2973,7 +2973,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Trend Watch",
-      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) — regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR.",
+      "note": "Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Novel: Sept 2/10 2026 Toyota C-HR EV recall 26TA17 (8,521 US units) \u2014 regen braking at high SoC overcharges pack, drive system shuts down; 2026 C-HR has no OTA so fix is dealer-only, notifications not until Oct 18. Pattern context: July 2026 ~21k Toyota/Lexus/Subaru Denso battery-ECU recall, same failure class (Toyota first said BEVs unaffected, Sept 2025, then reopened). No site coverage of C-HR.",
       "number": 876,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3482,7 +3482,7 @@
     },
     {
       "journalist": "Vin Wreckage",
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Pre-score revision: merged a 'The' sentence starter (17.4->13.0%); 0 literal em dashes; rhythm PASS (variance 962.9, short 6.9%, long 55.2%); hero real JPEG (FF D8, 369,502 bytes, hash 28ef543c). News peg: Reuters Sep 12, 2026 — Ford recalls 223,472 2023-2027 F-150s, fuel tanks may detach while driving; dealers inspect/replace straps. Novel: 15-year fuel-tank retention trilogy genealogy (11V-385 corrosion 2011 -> 22V-414 missing bracket 2022 -> Sep 2026 strap defect, three root causes, one failure mode) + 27% scale arithmetic vs 2025 F-Series sales (828,832). Limitations: 2026 Part 573 report not yet public; root cause/defect rate pending; 2011 fire-chain arithmetic illustrative. Draft+hero+research+critics in drafts/ (895- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Pre-score revision: merged a 'The' sentence starter (17.4->13.0%); 0 literal em dashes; rhythm PASS (variance 962.9, short 6.9%, long 55.2%); hero real JPEG (FF D8, 369,502 bytes, hash 28ef543c). News peg: Reuters Sep 12, 2026 \u2014 Ford recalls 223,472 2023-2027 F-150s, fuel tanks may detach while driving; dealers inspect/replace straps. Novel: 15-year fuel-tank retention trilogy genealogy (11V-385 corrosion 2011 -> 22V-414 missing bracket 2022 -> Sep 2026 strap defect, three root causes, one failure mode) + 27% scale arithmetic vs 2025 F-Series sales (828,832). Limitations: 2026 Part 573 report not yet public; root cause/defect rate pending; 2011 fire-chain arithmetic illustrative. Draft+hero+research+critics in drafts/ (895- prefix). No publish: 1/day rule, #892 published 2026-09-12.",
       "number": 895,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3547,7 +3547,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: Toyota Sept 2 C-HR EV recall (8,521, charge-limiter bug overcharges pack via regen -> protective shutdown kills drive power; found in April testing an undisclosed future BEV, zero warranty claims). Novel: sequel to June bZ/Solterra/RZ race-condition recall (20,991) — two campaigns, two root causes, one failure mode, both discovered testing a DIFFERENT vehicle; 29,512 combined; 'protection logic became the hazard'. Journalist Mia Crumplezone.",
+      "note": "Round-0 pass 8.89 avg; 7/7 critics >= 8.5; all hard gates. News peg: Toyota Sept 2 C-HR EV recall (8,521, charge-limiter bug overcharges pack via regen -> protective shutdown kills drive power; found in April testing an undisclosed future BEV, zero warranty claims). Novel: sequel to June bZ/Solterra/RZ race-condition recall (20,991) \u2014 two campaigns, two root causes, one failure mode, both discovered testing a DIFFERENT vehicle; 29,512 combined; 'protection logic became the hazard'. Journalist Mia Crumplezone.",
       "number": 900,
       "phase": "PUBLISHED",
       "publish_date": "2026-09-16",
@@ -3772,7 +3772,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Sept 2026 investigation matching Tesla's redacted NHTSA SGO filings to police reports — 8 fatal crashes where Tesla's data shows driver-assist engaged but the public record never mentions it (Vinemont AL, Clute TX, Lake Mary FL, Mesa AZ, Batavia IL, Moraine OH, Buena Vista NJ, Pattonsburg MO). Novel: the crash record is missing the robot; NHTSA Audit Query (Aug 2025) + 6 open Tesla probes context.",
+      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Sept 2026 investigation matching Tesla's redacted NHTSA SGO filings to police reports \u2014 8 fatal crashes where Tesla's data shows driver-assist engaged but the public record never mentions it (Vinemont AL, Clute TX, Lake Mary FL, Mesa AZ, Batavia IL, Moraine OH, Buena Vista NJ, Pattonsburg MO). Novel: the crash record is missing the robot; NHTSA Audit Query (Aug 2025) + 6 open Tesla probes context.",
       "number": 905,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -3978,7 +3978,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5; all hard gates (em 0, rhythm var 207.7). Novel: vintage inversion — recall fleet (2023-2027) ~0% of F-150 FARS death record vs 59% from <=2005 vintages. Counterargument steelmanned (recalls target defects; 16 claims/0 injuries = system working). Hero JPEG 429,879B. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
+      "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5; all hard gates (em 0, rhythm var 207.7). Novel: vintage inversion \u2014 recall fleet (2023-2027) ~0% of F-150 FARS death record vs 59% from <=2005 vintages. Counterargument steelmanned (recalls target defects; 16 claims/0 injuries = system working). Hero JPEG 429,879B. Blocked: 1/day slot consumed by #900 on 2026-09-16.",
       "number": 910,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4016,7 +4016,7 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late — FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 13.6%, rhythm var 477.2). Novel: sequel to tpms-warns-too-late \u2014 FCA 54D, 201,976 Jeeps, RF hub software may silently kill low-pressure detection; 2nd Stellantis TPMS recall in 13 months (Wrangler pinched antenna cable, Sep 2025). Hero JPEG 207,530B, cache-busted. Blocked: 1/day slot consumed by #900 on 2026-09-16. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
       "number": 911,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -4750,7 +4750,7 @@
       },
       "ship_date": "2027-01-27",
       "slug": "930-f150-three-recalls-one-week",
-      "title": "Ford's F-150 Got Recalled Three Times in One Week – for the Parts That Hold It Together"
+      "title": "Ford's F-150 Got Recalled Three Times in One Week \u2013 for the Parts That Hold It Together"
     },
     {
       "critic_avg": 8.79,
@@ -4774,7 +4774,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
-      "note": "Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: impairment is the red herring — Escalade 22.0% impaired vs Navigator 17.7%, yet Navigator kills at 1.66x the rate (1.06 vs 0.64); gap widens to 1.75x after backing out impaired drivers (0.87 vs 0.50). Segment context: Expedition 2.31, Yukon 2.55. Timeliness: Navigator 2026 recall spree (26V165, 26V402, seat-belt pretensioner ~420K). Hero JPEG 1920x1280 verified, ?v=7c7e86fa. Blocked: queue drains through 9/30 (#929), #930 holds 10-01.",
+      "note": "Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: impairment is the red herring \u2014 Escalade 22.0% impaired vs Navigator 17.7%, yet Navigator kills at 1.66x the rate (1.06 vs 0.64); gap widens to 1.75x after backing out impaired drivers (0.87 vs 0.50). Segment context: Expedition 2.31, Yukon 2.55. Timeliness: Navigator 2026 recall spree (26V165, 26V402, seat-belt pretensioner ~420K). Hero JPEG 1920x1280 verified, ?v=7c7e86fa. Blocked: queue drains through 9/30 (#929), #930 holds 10-01.",
       "number": 931,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -5822,7 +5822,7 @@
       "kicker": "Investigation",
       "note": "Round-0 pass 9.04 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (957- prefix). News pegs: NHTSA April 29, 2026 final decision ordering recall of DTN60DB inflators (first formal defect recall order in decades), NHTSA warning updated Sept 3 (11 deaths, 3 severe, 14 crashes), 11th death Aug 27 Dallas Equinox. Novel: 0.1% arithmetic (1 ordered of 997 recalls 2025; 88% uninfluenced, 12% influenced-but-voluntary), mechanism-by-mechanism autopsy of recall-system failure, speed paradox (27-day initial-to-final, ~3,000-word decisions vs 21,000-word ARC still pending), regressive owner-pays bill. Ship 2026-12-24: queue already through 2026-12-23. No publish (1/day rule; #818 shipped 2026-09-20).",
       "number": 957,
-      "parked_reason": "DUPLICATE of published story stories/counterfeit-airbag-phantom-recall.html ('NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.') — same DTN60DB mandatory-recall thesis, near-identical headline. Discovered 2026-09-20 during article-crashreport run #958 prep: #957's research notes falsely claimed zero queue/published overlap. Do not ship.",
+      "parked_reason": "DUPLICATE of published story stories/counterfeit-airbag-phantom-recall.html ('NHTSA Used Its Most Powerful Enforcement Tool for the First Time in 20 Years. It Can't Find the Cars.') \u2014 same DTN60DB mandatory-recall thesis, near-identical headline. Discovered 2026-09-20 during article-crashreport run #958 prep: #957's research notes falsely claimed zero queue/published overlap. Do not ship.",
       "phase": "PARKED",
       "scores": {
         "data_presentation": 9.0,
@@ -7650,14 +7650,14 @@
         "research_rigor": 8.8,
         "data_presentation": 8.7
       },
-      "note": "2026-09-27 23:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.80, all 7 critics >= 8.5; all hard gates pass). Novel: rate-vs-impairment decomposition (Maxima 5.11 rate, 2.52x Camry, but any-impaired 20.9% vs Camry 19.2%/Altima 20.0%/Accord 20.0% — toxicology clears the drunk explanation) + beater-fleet split (52.1% of deaths in 2000-2009 MY cars). Maxima is #1 deadliest sedan of 122 in FARS; Cobalt tied a tenth behind (disclosed). Pre-panel fixes: short-sentence rhythm merge (24.4->8.8), The-starters rewrite (13.9->6.2). Zero queue overlap (slug scan)."
+      "note": "2026-09-27 23:30 run: RESEARCH->DRAFT->CRITIQUE round 0 complete. VERDICT: SHIP (avg 8.80, all 7 critics >= 8.5; all hard gates pass). Novel: rate-vs-impairment decomposition (Maxima 5.11 rate, 2.52x Camry, but any-impaired 20.9% vs Camry 19.2%/Altima 20.0%/Accord 20.0% \u2014 toxicology clears the drunk explanation) + beater-fleet split (52.1% of deaths in 2000-2009 MY cars). Maxima is #1 deadliest sedan of 122 in FARS; Cobalt tied a tenth behind (disclosed). Pre-panel fixes: short-sentence rhythm merge (24.4->8.8), The-starters rewrite (13.9->6.2). Zero queue overlap (slug scan)."
     },
     {
       "number": 1003,
       "phase": "SHIP_BLOCKED",
       "ship_date": "2027-04-09",
       "slug": "1003-toyota-camry-7-inch-turn-signals-recall",
-      "title": "Toyota’s $28,700 Camry Can Lose Its Turn Signals. The $33,700 One Can’t.",
+      "title": "Toyota\u2019s $28,700 Camry Can Lose Its Turn Signals. The $33,700 One Can\u2019t.",
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
       "critic_avg": 8.87,
@@ -7866,7 +7866,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5. Novel: W-body platform-family cross-tab — six platform-mates, impairment rates flat (19.3-21.8%) but death rates spanning 7x (Impala 5.00 down to Monte Carlo 0.71), killing the drunk-driver theory; Grand Prix 970 deaths (2.14/100M VMT). Counterargument stated full-strength (fleet VMT undercount, Impala generation mix). Primary sources: NHTSA FARS 2014-2023, IIHS Grand Prix ratings, GM Pontiac 2009 discontinuation. Draft+hero+research+critics in drafts/ (1008- prefix). No publish: 1/day rule, #757 shipped 2026-09-28, queue through 2027-04-14.",
+      "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5. Novel: W-body platform-family cross-tab \u2014 six platform-mates, impairment rates flat (19.3-21.8%) but death rates spanning 7x (Impala 5.00 down to Monte Carlo 0.71), killing the drunk-driver theory; Grand Prix 970 deaths (2.14/100M VMT). Counterargument stated full-strength (fleet VMT undercount, Impala generation mix). Primary sources: NHTSA FARS 2014-2023, IIHS Grand Prix ratings, GM Pontiac 2009 discontinuation. Draft+hero+research+critics in drafts/ (1008- prefix). No publish: 1/day rule, #757 shipped 2026-09-28, queue through 2027-04-14.",
       "number": 1008,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -8247,6 +8247,49 @@
         "hero": "drafts/1016-cybercab-fmvss-self-certification-audit.jpg"
       },
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 8.5%, rhythm var 335.4). Novel: FMVSS-by-FMVSS collision accounting (135 S5.3.1 foot control, 111 mirrors, 203/204 column, 208 driver position) + Zoox Part-555 contrast (4 yrs, 2,500/yr cap) vs Tesla self-cert shortcut. Counterargument full-strength (self-cert is the norm; FARS Tesla 278 deaths/~3.7M fleet). Hero JPEG 1920x1280 525,324B, cache-busted. Blocked: 1/day slot consumed by #758 on 2026-09-29."
+    },
+    {
+      "slug": "1017-one-car-recall-pcm-board",
+      "title": "NHTSA Filed a Federal Recall for Exactly One Range Rover Sport. The Paperwork Outweighs the Repair.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "started": "2026-09-29T17:35:00-07:00",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-23",
+      "critique_round": 0,
+      "critic_avg": 8.86,
+      "scores": {
+        "average": 8.86,
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.1,
+        "sentence_rhythm": {
+          "variance": 986.5,
+          "short_pct": 13.8,
+          "long_pct": 51.7,
+          "passed": true
+        },
+        "css_class": true,
+        "style_css": true,
+        "hero_hash": "c289e433",
+        "jpeg_valid": true
+      },
+      "files": {
+        "research": "drafts/1017-one-car-recall-pcm-board-research.md",
+        "critic_panel": "drafts/1017-critic-panel-r0.md",
+        "story": "drafts/1017-one-car-recall-pcm-board.html",
+        "hero": "drafts/1017-one-car-recall-pcm-board.jpg"
+      },
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 11.1%, rhythm var 986.5). Novel: NHTSA 26V607000 (Sept 23, 2026) recalls exactly ONE 2026 Range Rover Sport (misaligned PCM circuit board, loss of drive power, JLR D164, interim letters Nov 20 2026); five 2026-RRS campaigns in 2026 census from single API query; 26V607 vs 26V613 (subframe) filed 24h apart. Counterargument full-strength (traceability = system working). Hero JPEG 1920x1280 509,127B, cache-busted ?v=c289e433. Pre-panel: rhythm fix (short 24.3%->13.8%), legal wording fix. Blocked: 1/day slot consumed by #758 on 2026-09-29."
     }
   ],
   "last_qa_date": "2026-09-29",
