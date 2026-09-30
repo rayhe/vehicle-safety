@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#1020 SHIP_BLOCKED (1/day slot consumed by #758). Round-0 pass, 8.79 avg, ship_date 2027-04-26.",
-  "last_checked": "2026-09-29T23:35:00-07:00",
+  "last_check_note": "#759 published (queue #771, Stellantis backup camera, Mia Crumplezone); #1021 SHIP_BLOCKED (1/day queue).",
+  "last_checked": "2026-09-30T01:30:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Vin Wreckage",
-  "last_published": 758,
+  "last_journalist": "Clara Rollover",
+  "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1021,
+  "next": 1022,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -174,9 +174,9 @@
         "the_starters_pct": 8.3
       },
       "journalist": "Mia Crumplezone",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-30 01:30 run: published as #759 (earliest shippable SHIP_BLOCKED); pre-ship gates re-verified (em 0, banned 0, The-starters OK, CSS OK); added story-hero img to body, absolutized og:image, updated dateline to 2026-09-30.",
       "number": 771,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "ethics_reviewer": 8.5,
         "general_editor": 8.5,
@@ -8428,6 +8428,40 @@
         "hero": "drafts/1020-milligan-cyclists-ntsb-bike-route.jpg"
       },
       "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 0.0%, rhythm var 463.9, short 4.7%, long 41.9%). Novel: moving-occlusion stopping-distance math (AASHTO ~490 ft at 55 mph; crash decided by following distance, not reaction); TDOT designated-vs-designed bike-route paradox; NTSB HWY26FH018 docket-signal. Aug 19, 2026 US 19E Hampton TN: 2003 Subaru Baja through 10 Milligan cyclists, 2 fatal 5 serious, no braking per THP affidavit; designated bike route at 55 mph; report released Sept 15. Hero JPEG 1920x1280 569,502B, cache-busted de0ab94d. Blocked: 1/day Pacific publish slot consumed by #758 on 2026-09-29."
+    },
+    {
+      "number": 1021,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-27",
+      "slug": "seatbelt-alarm-front-now-backseat-2027",
+      "title": "Your Car's Seatbelt Alarm Got Louder This Month. The Backseat's Alarm Is Still a Year Away.",
+      "journalist": "Clara Rollover",
+      "critic_avg": 8.79,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 822.4,
+          "short_pct": 12.5,
+          "long_pct": 43.8,
+          "passed": true
+        },
+        "hero_jpeg": true,
+        "story_hero_img": true,
+        "og_image_absolute": true
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "note": "2026-09-30 01:30 run: round-0 panel pass (avg 8.79, 7/7 >= 8.5, all hard gates pass). Initial draft failed rhythm gate (variance 83); body rewritten, official script confirms pass. SHIP_BLOCKED 2027-04-27 (1/day queue). Hero stays in drafts/ until publish."
     }
   ],
   "last_qa_date": "2026-09-29",
