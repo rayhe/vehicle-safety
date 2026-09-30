@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "number": 1026,
+    "slug": "1026-ridgeline-audit-finds-nothing",
+    "title": "NHTSA Spent 27 Months Testing Honda's Repaired Backup Cameras. The Fix Held.",
+    "journalist": "Axle McScatter",
+    "kicker": "The Audit",
+    "phase": "DRAFT",
+    "started": "2026-09-30 11:30"
+  },
   "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
   "last_checked": "2026-09-30T09:30:00-07:00",
   "last_completed": "2026-09-29",
