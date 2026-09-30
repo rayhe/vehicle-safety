@@ -1,17 +1,9 @@
 {
-  "current": {
-    "slug": "1025-gm-l87-engine-fix-failed-ea26005",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-09-30T09:35:00-07:00",
-    "number": 1025,
-    "kicker": "Investigation",
-    "title": "GM's Fix for 600,000 Failing V8s Was Thicker Oil. 499 of Them Failed Anyway."
-  },
+  "current": null,
   "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
-  "last_checked": "2026-09-30T08:30:00-07:00",
+  "last_checked": "2026-09-30T09:30:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
@@ -8588,6 +8580,47 @@
         "critic_panel": "drafts/1024-critic-panel-r0.md"
       },
       "note": "2026-09-30 07:30 run: round-0 panel pass (avg 8.96, 7/7 >= 8.5, all hard gates pass). Fresh Sep 29 TAPCO/MassDOT release (decade toll 4,164 crashes/5,730 deaths; Healey signed statewide wrong-way strategy law Jul 2026; 1,000+ detector events/2yrs, most self-correct); original iceberg-math contribution (fatal crashes as conversion rate of near-miss funnel); NHTSA PE25012 Tesla FSD wrong-way probe. Killed angles: BMW 5 petition (#971), Comma AI (#1015/#978), Cybercab AQ26002, VW 26V590 bolt (x4), JLR DC-DC (#976), Rivian R2 camera (#977), IIHS Sep 2026 (#906/#874), GMC Canyon seat (#859), NSC H1 2026 (#861), DTN 11th death (#824), NHTSA pedestrian ratings (#1022). Today's publish slot consumed by #759."
+    },
+    {
+      "number": 1025,
+      "slug": "1025-gm-l87-engine-fix-failed-ea26005",
+      "title": "GM's Fix for 600,000 Failing V8s Was Thicker Oil. 499 of Them Failed Anyway.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-01",
+      "critic_avg": 8.97,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.1,
+        "css_class": true,
+        "story_hero_img": true,
+        "og_image_absolute": true,
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "variance": 440.5,
+          "short_pct": 14.6,
+          "long_pct": 43.9,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1025-gm-l87-engine-fix-failed-ea26005-research.md",
+        "draft": "drafts/1025-gm-l87-engine-fix-failed-ea26005.html",
+        "hero": "drafts/1025-gm-l87-engine-fix-failed-ea26005.jpg",
+        "critic_panel": "drafts/1025-critic-panel-r0.md"
+      },
+      "note": "2026-09-30 09:30 run: round-0 panel pass (avg 8.97, 7/7 >= 8.5, all hard gates). Novel: NHTSA EA26005 (opened Aug 20, 2026) probes 997,743 GM trucks/SUVs over post-remedy L87 failures; 499 ODI complaints (473 oil-remedy, 26 replacement engines); GM reported 6,953 post-remedy complaints (14x undercount gap); 191 failures in post-window engines undercut the closed-defect-window root-cause narrative. Killed angles: Bronco 9th recall airbag (#-), Rivian R2 first recall, Tesla Model Y suspension, Can-Am instrument cluster, Cybercab AQ26002 (covered), L87 not previously covered. Today's publish slot consumed (4 publishes); ship_date 2027-05-01."
     }
   ],
   "last_qa_date": "2026-09-30",
