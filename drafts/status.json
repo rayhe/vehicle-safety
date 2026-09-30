@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1025-gm-l87-engine-fix-failed-ea26005",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-09-30T09:35:00-07:00",
+    "number": 1025,
+    "kicker": "Investigation",
+    "title": "GM's Fix for 600,000 Failing V8s Was Thicker Oil. 499 of Them Failed Anyway."
+  },
   "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
   "last_checked": "2026-09-30T08:30:00-07:00",
   "last_completed": "2026-09-29",
