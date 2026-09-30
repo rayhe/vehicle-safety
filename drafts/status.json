@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "number": 1026,
+    "journalist": "Dale Impactor III",
+    "phase": "DRAFT",
+    "slug": "gm-joyson-roof-rail-airbag-26v611",
+    "title": "Takata's Ghost: A 2021 Lawsuit Predicted This Airbag Recall. GM Needed Three Tries."
+  },
   "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
   "last_checked": "2026-09-30T09:30:00-07:00",
   "last_completed": "2026-09-29",
