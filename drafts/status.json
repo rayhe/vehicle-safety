@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "Article #1023 RESEARCH->DRAFT->critique round 0 complete (avg 8.86, all critics >=8.5, all hard gates pass). Dale Impactor III, Washington drunk-driving jump. Today's 1/day slot consumed by Publish #759; queued SHIP_BLOCKED for 2027-04-29. Next: 1024.",
-  "last_checked": "2026-09-30T05:55:00-07:00",
+  "last_check_note": "2026-09-30 07:30 run: article #1024 queued SHIP_BLOCKED (ship 2027-04-30), panel avg 8.96",
+  "last_checked": "2026-09-30T08:30:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1024,
+  "next": 1025,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8538,6 +8538,48 @@
         "critic_panel": "drafts/1023-critic-panel-r0.md"
       },
       "note": "2026-09-30 05:30 run: round-0 panel pass (avg 8.86, 7/7 >= 8.5, all hard gates pass). Fresh Sep 23 Lantana/Seattle Red study (WA +46.28% alcohol-impaired death rate 2015-2024, 4th-steepest US), WTSC 2025 prelims, SB 5067 death, JLARC 41%/59% interlock audit. Killed angles: NHTSA 'record low' (covered x3), VW 26V590 bolt (queued #938/#953), DTN forced recall (queued #957), tox backlog (queued #782). Novel: interlock enforcement-gap arithmetic. SHIP_BLOCKED 2027-04-29 (1/day slot consumed by Publish #759 on 2026-09-30). Hero stays in drafts/ until publish. Next: 1024."
+    },
+    {
+      "number": 1024,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-04-30",
+      "slug": "1024-wrong-way-driving-iceberg",
+      "title": "500 People Die Every Year Driving the Wrong Way. Most Wrong-Way Drivers Just Turn Around.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "critic_avg": 8.96,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.8,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 377.1,
+          "short_pct": 7.7,
+          "long_pct": 61.5,
+          "passed": true
+        },
+        "hero_jpeg": true,
+        "story_hero_img": true,
+        "og_image_absolute": true
+      },
+      "files": {
+        "research": "drafts/1024-wrong-way-driving-research.md",
+        "draft": "drafts/1024-wrong-way-driving-iceberg.html",
+        "hero": "drafts/1024-wrong-way-driving-iceberg.jpg",
+        "critic_panel": "drafts/1024-critic-panel-r0.md"
+      },
+      "note": "2026-09-30 07:30 run: round-0 panel pass (avg 8.96, 7/7 >= 8.5, all hard gates pass). Fresh Sep 29 TAPCO/MassDOT release (decade toll 4,164 crashes/5,730 deaths; Healey signed statewide wrong-way strategy law Jul 2026; 1,000+ detector events/2yrs, most self-correct); original iceberg-math contribution (fatal crashes as conversion rate of near-miss funnel); NHTSA PE25012 Tesla FSD wrong-way probe. Killed angles: BMW 5 petition (#971), Comma AI (#1015/#978), Cybercab AQ26002, VW 26V590 bolt (x4), JLR DC-DC (#976), Rivian R2 camera (#977), IIHS Sep 2026 (#906/#874), GMC Canyon seat (#859), NSC H1 2026 (#861), DTN 11th death (#824), NHTSA pedestrian ratings (#1022). Today's publish slot consumed by #759."
     }
   ],
   "last_qa_date": "2026-09-30",
