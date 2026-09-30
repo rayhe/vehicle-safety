@@ -8540,6 +8540,7 @@
       "note": "2026-09-30 05:30 run: round-0 panel pass (avg 8.86, 7/7 >= 8.5, all hard gates pass). Fresh Sep 23 Lantana/Seattle Red study (WA +46.28% alcohol-impaired death rate 2015-2024, 4th-steepest US), WTSC 2025 prelims, SB 5067 death, JLARC 41%/59% interlock audit. Killed angles: NHTSA 'record low' (covered x3), VW 26V590 bolt (queued #938/#953), DTN forced recall (queued #957), tox backlog (queued #782). Novel: interlock enforcement-gap arithmetic. SHIP_BLOCKED 2027-04-29 (1/day slot consumed by Publish #759 on 2026-09-30). Hero stays in drafts/ until publish. Next: 1024."
     }
   ],
-  "last_qa_date": "2026-09-29",
-  "last_completed_date": "2026-09-29"
+  "last_qa_date": "2026-09-30",
+  "last_completed_date": "2026-09-29",
+  "last_qa_note": "2026-09-30 05:30 run: QA-verified Publish #759 live (stellantis-camera-recall-groundhog-day.html): hero image loads, og:image, index card + sitemap present. #1023 (Washington drunk-driving) SHIP_BLOCKED for 2027-04-29. Queue: 229 entries, next: 1024."
 }
