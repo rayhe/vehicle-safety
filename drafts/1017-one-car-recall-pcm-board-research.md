@@ -30,6 +30,19 @@ URL: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Land%20Rover&model=Rang
 - ConsumerAffairs "Auto Safety Recall Derby — Week of September 28" (2026-09-28): lists 26V607000 as "Powertrain Control Module May Cause a Loss of Drive Power," 2026 Range Rover Sport. URL: https://www.consumeraffairs.com/news/auto-safety-recall-derby-week-of-september-28-092826.html
 - Same roundup lists the week's other campaigns: Forest River 26V608 (sleeper sofa blocks bunkroom door), Ford Ranger 26V605 (rearview camera, already covered by site #994), Nova Bus 26V604 (parking brake may activate), Forest River 26V603.
 
+## Part 573 detail (RCLRPT retrieved 2026-09-29, via nhtsa.gov)
+
+- RCLRPT: https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V607-0797.pdf (4 pages, submitted 09/23/2026, JLR D164). RCAK: https://static.nhtsa.gov/odi/rcl/2026/RCAK-26V607-7415.pdf. No separate chronology document; chronology is in the RCLRPT (pages 2-3).
+- Defect (verbatim): "A concern has been identified where a misalignment may have occurred during printed circuit board assembly resulting in potential deformation to the circuit board within the Powertrain Control Module (PCM)." Safety risk: "Deformation of the circuit board in the PCM can result in various effects including engine stall without prior warning."
+- **Discovery: supplier self-report.** On 18 Aug 2026, PCM supplier Robert Bosch Elektronik GmbH (Salzgitter, Germany) informed JLR that a review of production records had identified modules with anomalous production parameters; JLR then traced affected modules to vehicles.
+- 24 Aug 2026: pre stop-shipment meeting confirmed at-risk PCMs had been assembled into new vehicles; quarantine notice + Update Prior to Sale; PSCC investigation requested.
+- 16 Sep 2026: PSCC Decision Forum agreed it constitutes a safety defect, requested recall. 23 Sep 2026: Part 573 submitted.
+- Population: exactly 1 vehicle ("Total number of potentially involved: 1", 100% estimated defective). One 2026 Range Rover Sport, production date 02/16/2026, built at Solihull Vehicle Assembly Plant. Recall population basis: "supplier analysis of build records, matched against JLR production records."
+- Nuance: chronology notes 4 additional vehicles were manufactured in this condition but were in customers' hands (US campaign = exactly 1).
+- Crashes/injuries/fires: ZERO. "JLR has not received any claims or field reports in the US related to this issue. There have been no reported accidents, injuries or fires in the US as a result of this concern."
+- Remedy: repair — replace PCM (part R8A2-14C568-JB), no charge; replacement modules confirmed defect-free; supplier QC updated. Dealer notifications Oct 7, 2026; owner letters on or before Nov 20, 2026.
+- 5th reference: RCLRPT PDF; 6th: RCAK PDF.
+
 ## Novel angle (kill test: PASS)
 
 A federal safety recall campaign — campaign number, Part 573 report, interim owner letters, quarterly status reports under 49 U.S.C. § 30118(f) — filed for a population of **exactly one vehicle**. This is the smallest possible recall: n=1. The full weight of the federal recall apparatus mobilized around a single misaligned circuit board in a single SUV.
@@ -38,9 +51,8 @@ Original contribution: counting and contextualizing — the 2026 Range Rover Spo
 
 ## Limitations
 
-- No public Part 573 chronology retrieved yet (browser task dispatched to fetch RCLRPT PDF; fold in when it arrives).
-- Unknown how the defect was discovered (supplier self-report vs. dealer finding vs. field incident). Do not speculate beyond "misaligned during production."
-- No crash/injury/fire counts published in the API record — state explicitly that none are listed, not that none occurred.
+- Part 573 RCLRPT retrieved 2026-09-29: discovery was a Bosch supplier production-record review (Aug 18, 2026), not a dealer/warranty finding. Zero US claims, accidents, injuries, fires per JLR.
+- Chronology mentions 4 additional vehicles built with suspect PCMs in customers' hands; US campaign = exactly 1.
 - NHTSA API "ReportReceivedDate" uses DD/MM/YYYY format (23/09/2026).
 
 ## Strongest counterargument

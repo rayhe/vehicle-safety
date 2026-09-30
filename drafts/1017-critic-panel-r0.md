@@ -47,3 +47,13 @@ Pull stat "1" is the cleanest number the site has ever published. The five-campa
 
 **Average: 8.86 — 7/7 critics ≥ 8.5, all hard gates pass → SHIP.**
 Round 0. No revision round needed. One rhythm pre-fix (short 24.3% → 13.8%) and one legal wording fix applied before scoring.
+
+## Post-panel enrichment (2026-09-29, ~17:33 PDT)
+
+The Part 573 RCLRPT arrived after scoring. Folded into the draft:
+- Defect paragraph now cites the verbatim safety risk ("engine stall without prior warning") and the Bosch Salzgitter supplier production-record review of Aug 18, 2026 as the discovery mechanism (refs [5]).
+- Counterargument strengthened with concrete trace: Bosch flagged anomalous boards → JLR matched build records → single VIN built 02/16/2026 at Solihull.
+- Limitations paragraph now states JLR's affirmative zero (no US claims/accidents/injuries/fires) and the 4-additional-vehicles nuance.
+- References: added RCLRPT (ref-5) and RCAK (ref-6).
+
+Gates re-verified post-edit: em 0, banned 0, The-starters 6.9%, rhythm var 1486.2 / short 14.8% / long 51.9%, CSS/img/og all pass. No score change warranted (enrichment strengthens rigor and legal accuracy, both already ≥8.8).

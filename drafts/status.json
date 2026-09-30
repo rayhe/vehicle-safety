@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-09-29 17:30 run: drafted+critiqued #1017 one-car federal recall 26V607000 (Axle McScatter, 8.86 avg, round-0 SHIP). 1/day slot consumed by #758; queued SHIP_BLOCKED 2027-04-23. Queue: 205 SHIP_BLOCKED remain.",
+  "last_check_note": "2026-09-29 17:30 run (+RCLRPT handoff): #1017 enriched with Part 573 chronology (Bosch supplier discovery Aug 18 2026; single VIN built 02/16/2026 Solihull; zero US claims/fires); gates re-verified. Queued SHIP_BLOCKED 2027-04-23.",
   "last_checked": "2026-09-29T15:36:00-07:00",
   "last_completed": "2026-09-29",
   "last_journalist": "Axle McScatter",
@@ -8271,11 +8271,11 @@
       "hard_gates": {
         "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 11.1,
+        "the_starters_pct": 6.9,
         "sentence_rhythm": {
-          "variance": 986.5,
-          "short_pct": 13.8,
-          "long_pct": 51.7,
+          "variance": 1486.2,
+          "short_pct": 14.8,
+          "long_pct": 51.9,
           "passed": true
         },
         "css_class": true,
@@ -8289,7 +8289,7 @@
         "story": "drafts/1017-one-car-recall-pcm-board.html",
         "hero": "drafts/1017-one-car-recall-pcm-board.jpg"
       },
-      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 11.1%, rhythm var 986.5). Novel: NHTSA 26V607000 (Sept 23, 2026) recalls exactly ONE 2026 Range Rover Sport (misaligned PCM circuit board, loss of drive power, JLR D164, interim letters Nov 20 2026); five 2026-RRS campaigns in 2026 census from single API query; 26V607 vs 26V613 (subframe) filed 24h apart. Counterargument full-strength (traceability = system working). Hero JPEG 1920x1280 509,127B, cache-busted ?v=c289e433. Pre-panel: rhythm fix (short 24.3%->13.8%), legal wording fix. Blocked: 1/day slot consumed by #758 on 2026-09-29."
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; all hard gates (em 0, banned 0, The-starters 6.9%, rhythm var 1486.2). Novel: NHTSA 26V607000 (Sept 23, 2026) recalls exactly ONE 2026 Range Rover Sport (misaligned PCM circuit board, engine stall w/o warning, JLR D164, interim letters Nov 20 2026); RCLRPT retrieved post-panel: discovery = Bosch Salzgitter supplier production-record review Aug 18 2026 (not dealer/warranty); chronology Aug 18 -> PSCC decision Sep 16 -> filing Sep 23; single VIN built 02/16/2026 Solihull, part R8A2-14C568-JB; 4 additional suspect vehicles in customers' hands (US campaign = 1); zero US claims/accidents/injuries/fires; dealer notices Oct 7 2026. Enrichment folded into draft post-panel; gates re-verified. Hero JPEG 1920x1280 509,127B, cache-busted ?v=c289e433. Blocked: 1/day slot consumed by #758 on 2026-09-29."
     }
   ],
   "last_qa_date": "2026-09-29",
