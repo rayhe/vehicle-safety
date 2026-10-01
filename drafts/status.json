@@ -1,19 +1,13 @@
 {
-  "current": {
-    "slug": "1029-rollover-6250-falling-over",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-09-30T17:30:00-07:00",
-    "number": 1029
-  },
-  "last_check_note": "2026-09-30 15:30 run: #1028 SHIP_BLOCKED (ship 2027-05-04), panel avg 8.83. Pipeline idle; next article #1029 on next run.",
+  "current": null,
+  "last_check_note": "2026-09-30 17:30 run: #1029 SHIP_BLOCKED (slot consumed), queued for 2027-05-05, next=1030",
   "last_checked": "2026-09-30T17:30:00-07:00",
-  "last_completed": "2026-09-29",
+  "last_completed": "1029-rollover-6250-falling-over",
   "last_journalist": "Vin Wreckage",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1029,
+  "next": 1030,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8712,9 +8706,47 @@
         "critic_panel": "drafts/1028-critic-panel-r0.md"
       },
       "note": "2026-09-30 15:30 run: round-0 panel pass (avg 8.83, 7/7 >= 8.5, all hard gates; rhythm fixed via fragment merges, short_pct 0.0). Novel: 81% KE increase own calc from IIHS specs + 338->106 Good collapse + 17%->5% MY2023-2026 recovery + used-car rating-scale trap. Hero JPEG 2736x912, cache-busted ?v=3665711a, story-hero inline + absolute og:image. Today's publish slot consumed (4 publishes); ship_date 2027-05-04."
+    },
+    {
+      "number": 1029,
+      "slug": "1029-rollover-6250-falling-over",
+      "title": "Your Car's Deadliest Trick Is Falling Over. 6,250 People Died That Way in 2024.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-05",
+      "critic_avg": 8.97,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.3,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 303.4,
+          "short_pct": 12.0,
+          "long_pct": 56.0,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1029-rollover-6250-falling-over-research.md",
+        "draft": "drafts/1029-rollover-6250-falling-over.html",
+        "hero": "drafts/1029-rollover-6250-falling-over.jpg",
+        "critic_panel": "drafts/1029-critic-panel-r1.md"
+      },
+      "note": "2026-09-30 17:30 run: round-1 panel pass (avg 8.97, 7/7 >= 8.5, all hard gates; round-0 ding was dangling ref-3, fixed). Novel: zero-rollover queue gap filled; 41.7% decline vs 33%->28% share paradox; pickup rollover share flat 39%->38% over 46 years; very-large-pickup 42% single-vehicle rollover; 1,375 no-prior-impact rollovers. Hero JPEG 1920x1280, cache-busted ?v=063cb207, story-hero inline + absolute og:image. Today's publish slot consumed (#759 published 01:36 PDT); ship_date 2027-05-05."
     }
   ],
   "last_qa_date": "2026-09-30",
-  "last_completed_date": "2026-09-29",
+  "last_completed_date": "2026-09-30",
   "last_qa_note": "2026-09-30 05:30 run: QA-verified Publish #759 live (stellantis-camera-recall-groundhog-day.html): hero image loads, og:image, index card + sitemap present. #1023 (Washington drunk-driving) SHIP_BLOCKED for 2027-04-29. Queue: 229 entries, next: 1024."
 }
