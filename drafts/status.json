@@ -1,13 +1,5 @@
 {
-  "current": {
-    "slug": "1033-ford-headlight-led-electronics-recall-pattern",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-01T01:45:00-07:00",
-    "number": 1033,
-    "title": "Four Headlight Recalls in 14 Months. Zero Burned-Out Bulbs.",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "760-recall-letter-lag-millions-drive-unaware",
@@ -8866,6 +8858,28 @@
       "ship_date": "2027-05-08",
       "slug": "1032-jeep-parked-fire-probe-closed-108m",
       "title": "NHTSA Spent Two Years Investigating Jeeps That Catch Fire While Parked. Yesterday It Closed the File."
+    },
+    {
+      "number": 1033,
+      "slug": "1033-ford-headlight-led-electronics-recall-pattern",
+      "title": "Four Headlight Recalls in 14 Months. Zero Burned-Out Bulbs.",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2027-05-09",
+      "phase": "SHIP_BLOCKED",
+      "reason": "Daily publish slot consumed (#760, 2026-10-01); queued in order",
+      "critique": {
+        "rounds": 2,
+        "scores": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "min": 9.0
+      }
     }
   ],
   "last_qa_date": "2026-10-01",
