@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NHTSA Filed Two Recalls of Repairs One Number Apart. Ford&rsquo;s Version Is a Battery Gauge That Lies. &mdash; The Crash Report</title>
+  <meta name="description" content="86 Mustang Mach-Es got replacement Battery Energy Control Modules that report 100% charge no matter what's in the pack. NHTSA 26V582 and 26V583 were filed days apart, and both trace the defect to the repair channel itself.">
+  <meta property="og:url" content="https://vehicle-safety.org/stories/1037-mach-e-becm-recalled-repair.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="The Crash Report" />
+  <meta property="og:title" content="NHTSA Filed Two Recalls of Repairs One Number Apart. Ford&rsquo;s Version Is a Battery Gauge That Lies.">
+  <meta property="og:description" content="86 Mustang Mach-Es got replacement Battery Energy Control Modules that report 100% charge no matter what's in the pack. The defect came through the service-parts channel, and the fix won't exist until December.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1037-mach-e-becm-recalled-repair.jpg?v=a62b2aa1">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>NHTSA Filed Two Recalls of Repairs One Number Apart. Ford&rsquo;s Version Is a Battery Gauge That Lies.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">October 1, 2026</div>
+
+      <img src="../images/1037-mach-e-becm-recalled-repair.jpg?v=a62b2aa1" alt="A Mustang Mach-E at a dealership service bay at night, dashboard battery gauge glowing near 100 percent" class="story-hero" loading="eager">
+
+      <div class="story-body">
+        <p>Let&rsquo;s talk about what happens when the part that measures your battery has no idea what&rsquo;s in it. A Battery Energy Control Module, the BECM, is the pack&rsquo;s accountant. It reads cell voltages, estimates state of charge, and tells the dashboard what to print. Ford&rsquo;s replacement BECMs shipped as service parts were calibrated to 100 percent state of charge instead of the pack&rsquo;s actual state, which means <strong>86 Mustang Mach-Es may display a charge reading that has no relationship to the charge in the battery</strong>. Forget estimates: the gauge is a fixed answer to a changing question.</p>
+
+        <div class="pull-stat">26V582 / 26V583</div>
+        <div class="pull-label">Two consecutive NHTSA campaign numbers, filed days apart, both tracing the defect to the repair channel instead of the factory</div>
+
+        <p>The failure mode splits two ways, and both are ugly. If the actual state of charge sits below what the gauge claims, the car can hit unexpected power limitation and lose forward propulsion. That is the kind of surprise you schedule for a merge lane. Separately, the bad calibration can push the pack into a severe high-voltage condition, which Ford&rsquo;s own filing says may cause a fire, with the risk rising after repeated DC fast charging.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The affected cars are 2023&ndash;2025 Mach-Es with lithium iron phosphate packs, and the defective modules are two service part numbers: PZ98-10B687-K and PZ98-14C197-K.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+        <p>None of this came from the factory. Every affected car drove into a shop once already, warranty repair or over-the-counter parts sale, and drove out with a module carrying the wrong calibration.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> That is the structural point. Recall systems are built around VINs and factory build records, but this defect traveled through the service-parts supply chain. A module bought over the counter and installed at an independent shop leaves no dealer-service trail, and an owner Ford has never met is not going to get an owner letter. We have now seen this vector twice in one month: Daimler&rsquo;s 26V583, filed days later, recalled 2,404 trucks because dealers installed the wrong brake modulator valves during earlier recall repairs, a story this site covered as #916.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Campaigns 26V582 and 26V583 sit one number apart. The factory got the parts right, and the fix channel still managed to get it wrong.</p>
+
+        <p>Ford put the affected VINs on NHTSA.gov on September 9. Interim owner letters go out around October 26. No software fix is expected until December.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That is three months of knowing about a battery-fire risk with nothing to install, and the interim letter is, per the filing, mostly a promise of a future letter. If your Mach-E has a replacement BECM, the gauge is the diagnostic: a charge reading that sits at 100 percent and refuses to move is not a miracle, it is the defect. Check your VIN at nhtsa.gov/recalls now, call Ford at 1-866-436-7332 and cite 26S68, and go easy on the DC fast chargers until the update lands.</p>
+
+        <p>In fairness: eighty-six cars, zero reported fires, zero injuries, and the fire scenario is a conditional tail risk after repeated fast charging. Ford caught this through internal review and disclosed it. Ranked honestly: lying gauge first, power loss second, fire a distant third. What makes it matter is the vector, not the volume. Service parts are the least scrutinized link in the recall chain, and nothing external audited this one before Ford did. Nobody audited it at all.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Recall 26V582000 (Ford 26S68), filed 2026-09-10: 86 vehicles, 2023&ndash;2025 Mustang Mach-E that received a new BECM during a prior repair; incorrect state of charge display, unexpected loss of drive power, increased risk of high-voltage battery fire after repeated DC fast charging; remedy software anticipated December 2026; VINs searchable since 2026-09-09. <a href="https://oemdtc.com/recall/26V582000/" target="_blank" rel="noopener">oemdtc.com</a> (NHTSA filing mirror)</li>
+          <li id="ref-2">Ford Authority, &ldquo;Ford Mustang Mach-E BECM Recalled Over Incorrect Software,&rdquo; Sep 20, 2026: defect detail (modules calibrated to 100% SoC instead of actual), part numbers PZ98-10B687-K and PZ98-14C197-K, Ford unaware of accidents, injuries, or fires. <a href="https://fordauthority.com/2026/09/ford-mustang-mach-e-becm-recalled-over-incorrect-software/" target="_blank" rel="noopener">fordauthority.com</a></li>
+          <li id="ref-3">Autobodynews, &ldquo;F-150 Fuel Tank Straps, a Bronco Side Air Curtain Defect, and a Mach-E Battery Module Recall,&rdquo; Sep 2026: LFP battery detail; service BECMs from both over-the-counter sales and warranty repairs affected; modules default to 100% state of health instead of actual pack condition. <a href="https://www.autobodynews.com/news/f-150-fuel-tank-straps-a-bronco-side-air-curtain-defect-and-a-mach-e-battery-module-recall" target="_blank" rel="noopener">autobodynews.com</a></li>
+          <li id="ref-4">The Crash Report #916, &ldquo;Daimler Is Recalling 2,404 Trucks Because the Repair Was Wrong Too. Welcome to the Recalled Recall,&rdquo; drafts: Daimler DTNA 26V583 / F1039, wrong brake modulator valves installed during earlier recall repairs under 23V073/22V817; discovered late Aug 2026, decided Sep 8, 2026, owner letters Nov 8, 2026. <a href="https://www.truckpartsandservice.com/regulations/equipment/article/15834770/nhtsa-commercial-vehicle-recalls-for-the-week-of-sept-14-2026" target="_blank" rel="noopener">truckpartsandservice.com</a> (NHTSA weekly recall roundup)</li>
+          <li id="ref-5">The Truth About Cars, &ldquo;Bad Software Update Sends 86 Mach-Es Back to the Shop,&rdquo; Sep 2026: trigger was a repair-time software update rather than a factory error; affected cars came in for service and left with the wrong code loaded. <a href="https://www.thetruthaboutcars.com/cars/news-blog/bad-software-update-sends-86-mach-es-back-to-the-shop-45136465" target="_blank" rel="noopener">thetruthaboutcars.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Recall 26V582000 (Ford 26S68), filed September 2026. Population counts are Ford&rsquo;s estimates; interim letter dates (Sep 18 vs Oct 26) conflict across secondary sources, and Ford&rsquo;s build-date ranges vary slightly between reports. Fire risk is conditional on repeated DC fast charging per the filing. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

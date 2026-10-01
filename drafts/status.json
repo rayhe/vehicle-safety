@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-10-01 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1035 (Lexus LS deadliest flagship, Dale Impactor III); panel 8.93 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-11. Queue: 220 SHIP_BLOCKED.",
- "last_checked": "2026-09-30T17:30:00-07:00",
+ "last_check_note": "2026-10-01 11:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1037 (Ford Mach-E BECM 26V582 recall-of-repair, Mia Crumplezone); panel 8.89 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-13. Queue: 222 SHIP_BLOCKED. Duplicate saves: skipped VW 26V590 bolt (covered #953/#992), Ranger 26V605 camera (covered #994), Ford 26C43 LED headlight (covered #1033), Daimler 26V583 modulator (covered #916) after reading their research notes.",
+ "last_checked": "2026-10-01T11:30:00-07:00",
  "last_completed": "760-recall-letter-lag-millions-drive-unaware",
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Mia Crumplezone",
  "last_published": 760,
  "last_published_date": "2026-10-01",
  "last_published_slug": "recall-letter-lag-millions-drive-unaware",
- "next": 1036,
+ "next": 1038,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -8977,6 +8977,46 @@
     "hero": "drafts/1036-toyota-knuckle-furnace-two-recalls.jpg",
     "critic_panel": "drafts/1036-toyota-knuckle-furnace-two-recalls-critique.md"
    }
+  },
+  {
+   "critic_avg": 8.89,
+   "files": {
+    "critic_panel": "drafts/1037-mach-e-becm-recalled-repair-critic-panel-r0.md",
+    "draft": "drafts/1037-mach-e-becm-recalled-repair.html",
+    "hero": "drafts/1037-mach-e-becm-recalled-repair.jpg",
+    "research": "drafts/1037-mach-e-becm-recalled-repair-research.md"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "sentence_rhythm": {
+     "variance": 890.1,
+     "short_pct": 6.5,
+     "long_pct": 48.4,
+     "passed": true
+    },
+    "the_starters_pct": 2.7,
+    "hero_jpeg": true,
+    "og_image_absolute": true
+   },
+   "note": "Round-0 panel VERDICT: SHIP (mean 8.89, floor 8.6 Social). Novel: 26V582000/26V583000 consecutive-number cross-tab (Ford BECM repair-channel defect + Daimler 26V583 wrong-valve repair; #916 covered Daimler only); service-parts as least-scrutinized defect vector incl. over-the-counter BECM trail gap; 86 2023-2025 Mach-E LFP, modules default 100% SoC, fire risk after repeated DC fast charging, remedy Dec 2026. Hero JPEG 1920x1280 verified real, ?v=a62b2aa1. Blocked: 1/day slot consumed by #760 on 2026-10-01; queue drains through 2027-05-12 (#1036).",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "number": 1037,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 8.8,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 8.6,
+    "voice_coach": 8.8
+   },
+   "ship_date": "2027-05-13",
+   "slug": "1037-mach-e-becm-recalled-repair",
+   "title": "NHTSA Filed Two Recalls of Repairs One Number Apart. Ford's Version Is a Battery Gauge That Lies."
   }
  ],
  "last_qa_date": "2026-10-01",
