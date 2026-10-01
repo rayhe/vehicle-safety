@@ -1,8 +1,9 @@
 {
   "current": {
     "slug": "1031-gm-transfer-case-33-outstanding",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
+    "round": 0,
     "started": "2026-09-30T21:30:00-07:00"
   },
   "last_check_note": "2026-09-30 19:30 run: #1030 (Optiq window recall) researched, drafted, round-0 critic pass (avg 8.86), SHIP_BLOCKED for 2027-05-06. Queue now 236 entries.",
