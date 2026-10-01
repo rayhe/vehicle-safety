@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
   "last_checked": "2026-09-30T17:30:00-07:00",
-  "last_completed": "1029-rollover-6250-falling-over",
+  "last_completed": "760-recall-letter-lag-millions-drive-unaware",
   "last_journalist": "Axle McScatter",
   "last_published": 760,
   "last_published_date": "2026-10-01",
@@ -8860,7 +8860,7 @@
       "title": "NHTSA Spent Two Years Investigating Jeeps That Catch Fire While Parked. Yesterday It Closed the File."
     }
   ],
-  "last_qa_date": "2026-09-30",
-  "last_completed_date": "2026-09-30",
-  "last_qa_note": "2026-09-30 05:30 run: QA-verified Publish #759 live (stellantis-camera-recall-groundhog-day.html): hero image loads, og:image, index card + sitemap present. #1023 (Washington drunk-driving) SHIP_BLOCKED for 2027-04-29. Queue: 229 entries, next: 1024."
+  "last_qa_date": "2026-10-01",
+  "last_completed_date": "2026-10-01",
+  "last_qa_note": "2026-10-01 01:30 run: QA-verified Publish #760 live (recall-letter-lag-millions-drive-unaware.html): hero image loads (200), og:title/og:description/og:image present, index card + sitemap present. Queue: 217 SHIP_BLOCKED remaining, next publish candidate #780."
 }
