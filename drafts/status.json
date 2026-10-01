@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1032-jeep-parked-fire-probe-closed-108m",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
     "kicker": "By The Numbers",
     "started": "2026-09-30T23:30",
     "number": 1032,
-    "note": "RESEARCH done: NHTSA closed Jeep parked-fire probe Sep 29, 2026 (Reuters). Novel: probe-to-recall growth 781.5k->1.077M (+37.8%), fire rate ~4.7/100k, 2019 first-report anomaly vs Jun-2020 build start."
+    "note": "DRAFT done: HTML written per template, all hard gates pass (em 0, banned 0, The-starters 0%, rhythm var 567.4). Hero JPEG 1920x1280 verified, ?v=d8d8cc21. Ready for critic panel.",
+    "round": 0
   },
   "last_check_note": "2026-09-30 19:30 run: #1030 (Optiq window recall) researched, drafted, round-0 critic pass (avg 8.86), SHIP_BLOCKED for 2027-05-06. Queue now 236 entries.",
   "last_checked": "2026-09-30T17:30:00-07:00",
