@@ -1,15 +1,5 @@
 {
-  "current": {
-    "number": 1034,
-    "slug": "1034-kia-youngest-fleet-safest-brand",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-01T05:30:00-07:00",
-    "kicker": "The Gap",
-    "title": "Kia Is the Safest Mainstream Brand in America. Its Cars Are Also the Youngest.",
-    "note": "2026-10-01 05:30 run: draft complete (Rex Driverton, ~480 words). Hero JPEG 1920x1280 verified real (ffd8), ?v=c7a9c447. Awaiting 7-critic panel.",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "760-recall-letter-lag-millions-drive-unaware",
@@ -8890,6 +8880,15 @@
         ],
         "min": 9.0
       }
+    },
+    {
+      "number": 1034,
+      "slug": "1034-kia-youngest-fleet-safest-brand",
+      "title": "Kia Is the Safest Mainstream Brand in America. Its Cars Are Also the Youngest.",
+      "status": "SHIP_BLOCKED",
+      "ship_date": "2027-05-10",
+      "journalist": "Rex Driverton",
+      "note": "Critique r0 mean 9.06/10 (floor 8.5 Data Presentation); all hard gates pass. Blocked by 1/day gate (published #760 on 2026-10-01). Hero JPEG verified real, ?v=c7a9c447."
     }
   ],
   "last_qa_date": "2026-10-01",
