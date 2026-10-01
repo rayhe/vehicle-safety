@@ -1,14 +1,5 @@
 {
-  "current": {
-    "slug": "1032-jeep-parked-fire-probe-closed-108m",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "kicker": "By The Numbers",
-    "started": "2026-09-30T23:30",
-    "number": 1032,
-    "note": "DRAFT done: HTML written per template, all hard gates pass (em 0, banned 0, The-starters 0%, rhythm var 567.4). Hero JPEG 1920x1280 verified, ?v=d8d8cc21. Ready for critic panel.",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-09-30 19:30 run: #1030 (Optiq window recall) researched, drafted, round-0 critic pass (avg 8.86), SHIP_BLOCKED for 2027-05-06. Queue now 236 entries.",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "1029-rollover-6250-falling-over",
@@ -8829,6 +8820,44 @@
         "critic_panel": "drafts/1031-gm-transfer-case-33-outstanding-critique.md"
       },
       "note": "2026-09-30 21:30 run: round-0 panel pass (avg 8.86, 7/7 >= 8.5, all hard gates). Novel: outstanding-defect arithmetic (66-33)x0.697 = ~23 likely-defective trucks still on road, from GM's own disclosures; 69.7% defect-rate honesty is rare in Part 573 filings; reach-back to 2015-2020 via suspect service-replacement transfer case (54 dealers, 21 vehicles). Primary: NHTSA quarterly RCLQRT-26V289-7126.pdf opened+verified (33/66 remedied, do-not-drive subject). Hero JPEG 1920x1280, ?v=7a6e18ab. Blocked: 1/day consumed by #759; ship_date 2027-05-07."
+    },
+    {
+      "critic_avg": 8.86,
+      "files": {
+        "research": "drafts/1032-jeep-parked-fire-probe-closed-108m-research.md",
+        "draft": "drafts/1032-jeep-parked-fire-probe-closed-108m.html",
+        "hero": "drafts/1032-jeep-parked-fire-probe-closed-108m.jpg",
+        "critic_panel": "drafts/1032-jeep-parked-fire-probe-closed-108m-critique.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.9,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 564.4,
+          "short_pct": 11.9,
+          "long_pct": 38.1,
+          "passed": true
+        }
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-09-30 23:30 run: round-0 panel pass (avg 8.86, 7/7 >= 8.5, all hard gates). Novel: probe-to-recall growth arithmetic (781.5k->1.077M, +37.8%, 295,499 vehicles the probe never examined); fire rate ~4.7/100k; Part 573 anomaly (first field report Jul 13, 2019 predates Jun 24, 2020 build start). Round-0 fixes: legal qualifier on private-seller claim (49 USC 30120(i) scope), timeline direction (defect determination May 28 preceded NHTSA notice Jun 4). Hero JPEG 1920x1280 verified, ?v=d8d8cc21. Blocked: 1/day consumed by #759; ship_date 2027-05-08.",
+      "number": 1032,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2027-05-08",
+      "slug": "1032-jeep-parked-fire-probe-closed-108m",
+      "title": "NHTSA Spent Two Years Investigating Jeeps That Catch Fire While Parked. Yesterday It Closed the File."
     }
   ],
   "last_qa_date": "2026-09-30",
