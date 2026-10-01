@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GM Recalled 29,347 Cadillacs Because a Key Fob Can Close the Window. Nobody Complained. &mdash; The Crash Report</title>
+  <meta name="description" content="The 2025-2027 Cadillac Optiq's front windows can fail to stop and reverse during the final 13 millimeters of upward travel when closed with the key fob's express-up feature. GM knew of zero complaints. The fix is a free software update.">
+  <meta property="og:title" content="GM Recalled 29,347 Cadillacs Because a Key Fob Can Close the Window. Nobody Complained.">
+  <meta property="og:description" content="The anti-pinch rule has a 13-millimeter blind spot at the top of the window. GM's key-fob remote-close logic fell straight into it. Check your VIN; the fix is a free software update.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1030-optiq-keyfob-window-13mm.jpg?v=e2078478">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>GM Recalled 29,347 Cadillacs Because a Key Fob Can Close the Window. Nobody Complained.</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">September 30, 2026</div>
+
+      <img src="../images/1030-optiq-keyfob-window-13mm.jpg?v=e2078478" alt="A Cadillac Optiq SUV at dusk with a nearly-closed front window and a car key fob in the foreground" class="story-hero" loading="eager">
+
+      <div class="story-body">
+
+      <p>Thirteen millimeters, roughly the width of your thumb. On 29,347 Cadillac Optiqs, that is the exact distance during which the window forgets it is supposed to feel your fingers.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">13 mm</div>
+      <div class="pull-label">Final travel where the anti-pinch logic failed on key-fob express-up</div>
+
+      <p>But here is the "how": it only happens when you close the window with the express-up button on the key fob, from across the parking lot, not looking at the car.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Meanwhile the remote-close feature that sold you the fob is now the hazard, and the one safety system that exists for this exact moment was asleep.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Inside that door sits the body control module, the little computer that runs the windows, which simply never applied its obstruction-detection logic to the key-fob express-up path. Press the switch inside the door and the anti-pinch works. Press the fob from ten feet away and it does not.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Somebody at GM coded two code paths, tested one, and shipped both.</p>
+
+      <p>And yet, remarkably, zero complaints. GM told the agency it was not aware of a single one.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> No injuries, no angry forum threads, no viral video. This is a pure noncompliance recall, filed because the windows do not meet FMVSS 118, the federal standard for power-operated window systems, which has required stop-and-reverse behavior on closing windows for decades.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <p>Now, the contrarian reading of this is obvious and I will state it at full strength: if nobody complained and nobody was hurt, the system caught a paperwork-grade defect and that is how regulation is supposed to work. Remote-close is an opt-in convenience feature, so until the patch lands, do not use it and the problem solves itself. A software update fixes it, many cars can take it over the air, and the whole thing costs owners nothing but a few minutes.</p>
+
+      <p>Fine. But the thirteen millimeters keep me up at night. The standard was written around a physical obstruction test performed from inside the car, with a person at the switch, and the remote-close path sailed right past the assumptions the standard was built on. That is how a modern car ends up violating a rule written before key fobs existed: not by engineering failure, by interface sprawl. The car learned a new trick that the safety check never followed.</p>
+
+      <h3>What to do with this</h3>
+      <p>Own a 2025, 2026, or 2027 Cadillac Optiq, built between July 2024 and September 2026? Check your VIN at <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a>. The recall is NHTSA campaign 26V612; GM calls it N262567230. The remedy is a free body-control-module software calibration, available over the air if your car accepts wireless updates, or at any Cadillac dealer. GM started building the fix into production on September 22; owner notification letters go out November 9.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Until it is patched, use the switches inside the doors, not the fob.</p>
+
+      <p>What this does not prove: the absence of complaints is not proof that nobody was pinched. FARS captures only fatal crashes, so a window-pinch story leaves no statistical footprint anywhere; this article is built on recall documents, not crash data. How often owners actually use remote express-up is unknown, so the real exposure could be large or tiny. And this is one model's software bug, not evidence that remote-close features are broadly broken across the industry.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">USA Today, "GM recalls more than 29K Cadillac vehicles," September 30, 2026. <a href="https://www.usatoday.com/story/cars/recalls/2026/09/30/gm-cadillac-vehicle-recall-september-2026/92025637007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-2">NHTSA, recall campaign 26V612 (GM N262567230), Cadillac Optiq power-operated window noncompliance, filed September 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Money Talks News, "GM Recalls More Than 29K Cadillac Vehicles," September 2026. <a href="https://www.moneytalksnews.com/gm-recalls-more-than-k-cadillac-vehicles-see-affected-models/" target="_blank" rel="noopener">moneytalksnews.com</a></li>
+          <li id="ref-4">GM Authority, "Cadillac Optiq Recalled For Keyfob Operated Power Window Issue," September 2026. <a href="https://gmauthority.com/blog/2026/09/cadillac-optiq-recalled-for-keyfob-operated-power-window-issue/" target="_blank" rel="noopener">gmauthority.com</a></li>
+          <li id="ref-5">FMVSS No. 118, Power-Operated Window, Partition, and Roof Panel Systems, 49 CFR 571.118. <a href="https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.118" target="_blank" rel="noopener">ecfr.gov</a></li>
+        </ol>
+      </section>
+
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall documents (campaign 26V612) and press reports, September 2026; see <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

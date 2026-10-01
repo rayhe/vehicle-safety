@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-09-30 17:30 run: #1029 SHIP_BLOCKED (slot consumed), queued for 2027-05-05, next=1030",
+  "last_check_note": "2026-09-30 19:30 run: #1030 (Optiq window recall) researched, drafted, round-0 critic pass (avg 8.86), SHIP_BLOCKED for 2027-05-06. Queue now 236 entries.",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "1029-rollover-6250-falling-over",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Clara Rollover",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
-  "next": 1030,
+  "next": 1031,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8744,6 +8744,44 @@
         "critic_panel": "drafts/1029-critic-panel-r1.md"
       },
       "note": "2026-09-30 17:30 run: round-1 panel pass (avg 8.97, 7/7 >= 8.5, all hard gates; round-0 ding was dangling ref-3, fixed). Novel: zero-rollover queue gap filled; 41.7% decline vs 33%->28% share paradox; pickup rollover share flat 39%->38% over 46 years; very-large-pickup 42% single-vehicle rollover; 1,375 no-prior-impact rollovers. Hero JPEG 1920x1280, cache-busted ?v=063cb207, story-hero inline + absolute og:image. Today's publish slot consumed (#759 published 01:36 PDT); ship_date 2027-05-05."
+    },
+    {
+      "number": 1030,
+      "slug": "1030-optiq-keyfob-window-13mm",
+      "title": "GM Recalled 29,347 Cadillacs Because a Key Fob Can Close the Window. Nobody Complained.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-06",
+      "critic_avg": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.3,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 741.5,
+          "short_pct": 8.3,
+          "long_pct": 45.8,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1030-optiq-keyfob-window-13mm-research.md",
+        "draft": "drafts/1030-optiq-keyfob-window-13mm.html",
+        "hero": "drafts/1030-optiq-keyfob-window-13mm.jpg",
+        "critic_panel": "drafts/1030-optiq-keyfob-window-13mm-critique.md"
+      },
+      "note": "2026-09-30 19:30 run: round-0 panel pass (avg 8.86, 7/7 >= 8.5, all hard gates). Novel: first power-window story in 862 Crash Report articles; 26V612/GM N262567230, 29,347 Optiqs (2025-2027), key-fob express-up misses anti-pinch in final 13mm; GM aware of zero complaints; fix = free BCM software calibration (OTA/dealer), production fixed Sept 22, owner letters Nov 9. Hero JPEG 1920x1280, ?v=e2078478. Blocked: 1/day consumed by #759; ship_date 2027-05-06."
     }
   ],
   "last_qa_date": "2026-09-30",
