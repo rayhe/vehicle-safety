@@ -1,13 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "number": 1034,
+    "slug": "1034-kia-youngest-fleet-safest-brand",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-01T05:30:00-07:00",
+    "kicker": "The Gap",
+    "title": "Kia Is the Safest Mainstream Brand in America. Its Cars Are Also the Youngest.",
+    "note": "2026-10-01 05:30 run: research complete. Novel: brand x class fleet-weighted rates + death-weighted mean model year \u2014 Kia sedans 0.53 vs Honda 2.44 (4.6x), but Kia death-weighted MY 2015.1 vs Honda 2006.4 (8.7-yr gap); Nissan sedans equally deadly 3.7 yrs newer = worst per-year. 4 primary sources (FARS x2, IIHS Sep 3 2026 TSP+, FMVSS 126 ESC rule)."
+  },
   "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "760-recall-letter-lag-millions-drive-unaware",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": 760,
   "last_published_date": "2026-10-01",
   "last_published_slug": "recall-letter-lag-millions-drive-unaware",
-  "next": 1034,
+  "next": 1035,
   "queue": [
     {
       "journalist": "Rex Driverton",
