@@ -1,25 +1,13 @@
 {
- "current": {
-  "slug": "1038-toyota-prius-doors-open-twice",
-  "phase": "CRITIQUE",
-  "journalist": "Clara Rollover",
-  "started": "2026-10-01T13:30:00-07:00",
-  "number": 1038,
-  "round": 0,
-  "files": {
-   "draft": "drafts/1038-toyota-prius-doors-open-twice.html",
-   "hero": "drafts/1038-toyota-prius-doors-open-twice.jpg",
-   "research": "drafts/1038-toyota-prius-doors-open-twice-research.md"
-  }
- },
- "last_check_note": "2026-10-01 11:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1037 (Ford Mach-E BECM 26V582 recall-of-repair, Mia Crumplezone); panel 8.89 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-13. Queue: 222 SHIP_BLOCKED. Duplicate saves: skipped VW 26V590 bolt (covered #953/#992), Ranger 26V605 camera (covered #994), Ford 26C43 LED headlight (covered #1033), Daimler 26V583 modulator (covered #916) after reading their research notes.",
+ "current": null,
+ "last_check_note": "2026-10-01 13:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1038 (Toyota Prius rear-door 26V049 replaces 24V274 recall-of-recall, Clara Rollover); panel 8.9 mean, all gates pass; 1/day consumed by #760 (2 publishes today) so SHIP_BLOCKED with ship_date 2027-05-14. Queue: 223 SHIP_BLOCKED. Duplicate sweeps: skipped VW 26V590 (#992), Ranger 26V605 (#994), GM 26V539 (#980), Rivian camera (#977), Ioniq 9 seats (#933), Jeep coil spring (#847/#858/#865/#882/#886/#891), DTN inflators (#824/#957) after reading their research notes.",
  "last_checked": "2026-10-01T13:30:00-07:00",
  "last_completed": "760-recall-letter-lag-millions-drive-unaware",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Clara Rollover",
  "last_published": 760,
  "last_published_date": "2026-10-01",
  "last_published_slug": "recall-letter-lag-millions-drive-unaware",
- "next": 1038,
+ "next": 1039,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -9029,6 +9017,47 @@
    "ship_date": "2027-05-13",
    "slug": "1037-mach-e-becm-recalled-repair",
    "title": "NHTSA Filed Two Recalls of Repairs One Number Apart. Ford's Version Is a Battery Gauge That Lies."
+  },
+  {
+   "number": 1038,
+   "slug": "1038-toyota-prius-doors-open-twice",
+   "title": "Toyota Recalled the Prius Twice for Rear Doors That Open While You Drive. The First Fix Wasn't One.",
+   "journalist": "Clara Rollover",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-05-14",
+   "critic_avg": 8.9,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 10.4,
+    "css_class": true,
+    "story_hero_img": 1,
+    "og_image_absolute": true,
+    "hero_jpeg": true,
+    "sentence_rhythm": {
+     "variance": 1070.5,
+     "short_pct": 5.6,
+     "long_pct": 50.0,
+     "passed": true
+    }
+   },
+   "files": {
+    "research": "drafts/1038-toyota-prius-doors-open-twice-research.md",
+    "draft": "drafts/1038-toyota-prius-doors-open-twice.html",
+    "hero": "drafts/1038-toyota-prius-doors-open-twice.jpg",
+    "critic_panel": "drafts/1038-toyota-prius-doors-open-twice-critic-panel-r0.md"
+   },
+   "note": "2026-10-01 13:30 run: #1038 (Toyota Prius 26V049 replaces 24V274 rear-door recall-of-recall, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.9, all 7 >= 8.5; gates: em 0, banned 0, The 10.4%, rhythm PASS via 5 fragment merges, hero JPEG 1920x1280 ?v=b7c1607f). Novel: 2.54x population growth while first remedy in field + remedy escalation (switch replacement -> circuit modification) + electronic-latch architecture framing. Duplicate sweeps skipped covered recalls (GM 26V539, Jeep coil x5, Ioniq 9 seats, DTN inflators, etc.). Blocked: 1/day slot consumed by #760 on 2026-10-01 (2 Publish commits today); queue drains through 2027-05-14."
   }
  ],
  "last_qa_date": "2026-10-01",
