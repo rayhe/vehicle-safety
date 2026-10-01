@@ -1,12 +1,12 @@
 {
   "current": null,
-  "last_check_note": "2026-09-30 19:30 run: #1030 (Optiq window recall) researched, drafted, round-0 critic pass (avg 8.86), SHIP_BLOCKED for 2027-05-06. Queue now 236 entries.",
+  "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "1029-rollover-6250-falling-over",
-  "last_journalist": "Clara Rollover",
-  "last_published": 759,
-  "last_published_date": "2026-09-29",
-  "last_published_slug": "cx90-three-fixes-steering-still-broken",
+  "last_journalist": "Axle McScatter",
+  "last_published": 760,
+  "last_published_date": "2026-10-01",
+  "last_published_slug": "recall-letter-lag-millions-drive-unaware",
   "next": 1031,
   "queue": [
     {
@@ -237,7 +237,7 @@
       "journalist": "Axle McScatter",
       "note": "2026-09-06 queue hygiene: moved from 2026-09-09 (double-booked with #807). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible.",
       "number": 779,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "actionable_insights": 9.0,
         "ethics_reviewer": 9.0,
@@ -247,7 +247,7 @@
         "social_shareability": 9.5,
         "voice_coach": 9.0
       },
-      "ship_date": "2026-10-03",
+      "ship_date": "2026-10-01",
       "slug": "recall-letter-lag-millions-drive-unaware",
       "title": "NHTSA Announced Six Recalls Covering 1.4 Million Vehicles. The Owners Won't Find Out for Six Weeks."
     },
