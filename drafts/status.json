@@ -5,10 +5,25 @@
     "title": "The Lexus LS Is the Deadliest Flagship Sedan in America",
     "journalist": "Dale Impactor III",
     "kicker": "Sobriety Report",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "started": "2026-10-01T07:30:00-07:00",
     "files": {
-      "research": "drafts/1035-lexus-ls-deadliest-flagship-sedan-research.md"
+      "research": "drafts/1035-lexus-ls-deadliest-flagship-sedan-research.md",
+      "draft": "drafts/1035-lexus-ls-deadliest-flagship-sedan.html",
+      "hero": "drafts/1035-lexus-ls-deadliest-flagship-sedan.jpg"
+    },
+    "round": 0,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 5.0,
+      "css_class": true,
+      "sentence_rhythm": {
+        "variance": 400.3,
+        "short_pct": 8.0,
+        "long_pct": 40.0,
+        "passed": true
+      }
     }
   },
   "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
