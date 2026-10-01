@@ -1,32 +1,6 @@
 {
-  "current": {
-    "number": 1035,
-    "slug": "1035-lexus-ls-deadliest-flagship-sedan",
-    "title": "The Lexus LS Is the Deadliest Flagship Sedan in America",
-    "journalist": "Dale Impactor III",
-    "kicker": "Sobriety Report",
-    "phase": "CRITIQUE",
-    "started": "2026-10-01T07:30:00-07:00",
-    "files": {
-      "research": "drafts/1035-lexus-ls-deadliest-flagship-sedan-research.md",
-      "draft": "drafts/1035-lexus-ls-deadliest-flagship-sedan.html",
-      "hero": "drafts/1035-lexus-ls-deadliest-flagship-sedan.jpg"
-    },
-    "round": 0,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 5.0,
-      "css_class": true,
-      "sentence_rhythm": {
-        "variance": 400.3,
-        "short_pct": 8.0,
-        "long_pct": 40.0,
-        "passed": true
-      }
-    }
-  },
-  "last_check_note": "2026-10-01 01:30 run: published #779 (recall-letter-lag) as Publish #760; slot consumed",
+  "current": null,
+  "last_check_note": "2026-10-01 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1035 (Lexus LS deadliest flagship, Dale Impactor III); panel 8.93 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-11. Queue: 220 SHIP_BLOCKED.",
   "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "760-recall-letter-lag-millions-drive-unaware",
   "last_journalist": "Rex Driverton",
@@ -8915,6 +8889,49 @@
       "ship_date": "2027-05-10",
       "journalist": "Rex Driverton",
       "note": "Critique r0 mean 9.06/10 (floor 8.5 Data Presentation); all hard gates pass. Blocked by 1/day gate (published #760 on 2026-10-01). Hero JPEG verified real, ?v=c7a9c447."
+    },
+    {
+      "number": 1035,
+      "slug": "1035-lexus-ls-deadliest-flagship-sedan",
+      "title": "The Lexus LS Is the Deadliest Flagship Sedan in America",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-11",
+      "reason": "Daily publish slot consumed (#760, 2026-10-01); queued in order",
+      "critique": {
+        "rounds": 1,
+        "scores": [
+          9.0,
+          9.0,
+          8.5,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "mean": 8.93,
+        "min": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.0,
+        "css_class": true,
+        "sentence_rhythm": {
+          "variance": 400.3,
+          "short_pct": 8.0,
+          "long_pct": 40.0,
+          "passed": true
+        }
+      },
+      "note": "Round-0 panel VERDICT: SHIP (mean 8.93, floor 8.5 Ethics). Novel: first flagship-to-flagship cross-tab - LS rate 1.44 highest of flagships (4.5x Audi A6 0.32, 3.6x S-Class 0.40); BMW 7 Series alc 21.3% tied 5th of 307 models; 93% of LS deaths pre-2010 (partial series, disclosed). Hero JPEG 1920x1280 verified real, ?v=2cf439fe. Blocked: queue drains through 2027-05-10 (#1034).",
+      "files": {
+        "research": "drafts/1035-lexus-ls-deadliest-flagship-sedan-research.md",
+        "draft": "drafts/1035-lexus-ls-deadliest-flagship-sedan.html",
+        "hero": "drafts/1035-lexus-ls-deadliest-flagship-sedan.jpg",
+        "critic_panel": "drafts/1035-lexus-ls-deadliest-flagship-sedan-critique.md"
+      }
     }
   ],
   "last_qa_date": "2026-10-01",
