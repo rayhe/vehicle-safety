@@ -1,7 +1,13 @@
 {
- "current": null,
+ "current": {
+  "slug": "1038-toyota-prius-doors-open-twice",
+  "phase": "DRAFT",
+  "journalist": "Clara Rollover",
+  "started": "2026-10-01T13:30:00-07:00",
+  "number": 1038
+ },
  "last_check_note": "2026-10-01 11:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1037 (Ford Mach-E BECM 26V582 recall-of-repair, Mia Crumplezone); panel 8.89 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-13. Queue: 222 SHIP_BLOCKED. Duplicate saves: skipped VW 26V590 bolt (covered #953/#992), Ranger 26V605 camera (covered #994), Ford 26C43 LED headlight (covered #1033), Daimler 26V583 modulator (covered #916) after reading their research notes.",
- "last_checked": "2026-10-01T11:30:00-07:00",
+ "last_checked": "2026-10-01T13:30:00-07:00",
  "last_completed": "760-recall-letter-lag-millions-drive-unaware",
  "last_journalist": "Mia Crumplezone",
  "last_published": 760,
