@@ -1,9 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1029-rollover-6250-falling-over",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-09-30T17:30:00-07:00",
+    "number": 1029
+  },
   "last_check_note": "2026-09-30 15:30 run: #1028 SHIP_BLOCKED (ship 2027-05-04), panel avg 8.83. Pipeline idle; next article #1029 on next run.",
-  "last_checked": "2026-09-30T15:45:00-07:00",
+  "last_checked": "2026-09-30T17:30:00-07:00",
   "last_completed": "2026-09-29",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": 759,
   "last_published_date": "2026-09-29",
   "last_published_slug": "cx90-three-fixes-steering-still-broken",
