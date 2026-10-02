@@ -1,16 +1,24 @@
 {
-  "current": null,
+  "current": {
+    "number": 1051,
+    "slug": "1051-sports-cars-drunkest-deadliest-classes-lie",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "kicker": "By The Numbers",
+    "started": "2026-10-02T15:30:00-07:00",
+    "title": "Sports Cars Are the Drunkest, Deadliest Class on the Road. Your Sports Car Probably Isn't."
+  },
   "last_check_note": "2026-10-02 01:30 run: #1044 researched/drafted/critiqued (SHIP, queued 2027-05-20). current=null.",
   "last_checked": "2026-10-01T23:30:00-07:00",
   "last_completed": "2026-10-02",
   "last_completed_date": "2026-10-02",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1051,
+  "next": 1052,
   "queue": [
     {
       "journalist": "Rex Driverton",
