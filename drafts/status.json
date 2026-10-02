@@ -1,10 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1049-ford-78th-recall-record-broken",
+    "number": 1049,
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-02T11:30:00-07:00",
+    "title": "Ford Tied the All-Time Recall Record on Monday. It Passed It on Wednesday.",
+    "kicker": "Investigation",
+    "files": {
+      "research": "drafts/1049-ford-78th-recall-record-broken-research.md"
+    }
+  },
   "last_check_note": "2026-10-02 01:30 run: #1044 researched/drafted/critiqued (SHIP, queued 2027-05-20). current=null.",
   "last_checked": "2026-10-01T23:30:00-07:00",
   "last_completed": "2026-10-02",
   "last_completed_date": "2026-10-02",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
