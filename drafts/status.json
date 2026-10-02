@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-10-01 13:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1038 (Toyota Prius rear-door 26V049 replaces 24V274 recall-of-recall, Clara Rollover); panel 8.9 mean, all gates pass; 1/day consumed by #760 (2 publishes today) so SHIP_BLOCKED with ship_date 2027-05-14. Queue: 223 SHIP_BLOCKED. Duplicate sweeps: skipped VW 26V590 (#992), Ranger 26V605 (#994), GM 26V539 (#980), Rivian camera (#977), Ioniq 9 seats (#933), Jeep coil spring (#847/#858/#865/#882/#886/#891), DTN inflators (#824/#957) after reading their research notes.",
-  "last_checked": "2026-10-01T13:30:00-07:00",
+  "last_check_note": "2026-10-01 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1040 (Micro Bird G5e electric school buses, Mia Crumplezone); panel 8.93 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-16. Duplicate sweeps: skipped Ford 26C43 headlights (#1033 pattern), Ranger 26C42 camera (#994), Optiq window (#1030), GM transfer case (#941/#1031), Range Rover subframe (#1011), Comma.ai (#978/#1015), Cybercab (6x), Stellantis 26V531 camera (same as #771 campaign 7), Palisade/Ioniq9 seats (#933), Tiguan BCM (#951).",
+  "last_checked": "2026-10-01T17:30:00-07:00",
   "last_completed": "760-recall-letter-lag-millions-drive-unaware",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 760,
   "last_published_date": "2026-10-01",
   "last_published_slug": "recall-letter-lag-millions-drive-unaware",
-  "next": 1039,
+  "next": 1041,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9099,6 +9099,49 @@
         "critic_panel": "drafts/1039-rv-september-esc-propane-recalls-critic-panel-r1.md"
       },
       "note": "2026-10-01 15:30 run: #1039 (September 2026 RV recalls, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-1 panel VERDICT: SHIP (mean 8.81, all 7 >= 8.5; gates: em 0, banned 0, The 2.7%, rhythm PASS). Novel: first-ever RV coverage on site (0 prior hits); FMVSS 126 10,000-lb ESC mandate gap frame (verified via NHTSA TP-126-02); MaxxAir fan same-component two-recall cross-tab (26V566 Storyteller + 26V574 Kibbi). Hero JPEG 2048x1152 ?v=a3b92509. Blocked: 1/day slot consumed by #760 on 2026-10-01."
+    },
+    {
+      "number": 1040,
+      "slug": "1040-micro-bird-g5e-electric-school-bus-wiring-recalls",
+      "title": "278 Electric School Buses Have a Wire Chafing Against a Metal Bracket. Five Electrical Recalls in Nine Months.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-16",
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.5,
+        "css_class": true,
+        "style_css": true,
+        "story_hero_img": 1,
+        "og_image_absolute": true,
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "variance": 4142.2,
+          "short_pct": 8.3,
+          "long_pct": 50.0,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1040-micro-bird-g5e-electric-school-bus-wiring-recalls-research.md",
+        "draft": "drafts/1040-micro-bird-g5e-electric-school-bus-wiring-recalls.html",
+        "hero": "drafts/1040-micro-bird-g5e-electric-school-bus-wiring-recalls.jpg",
+        "critic_panel": "drafts/1040-micro-bird-g5e-electric-school-bus-wiring-recalls-critique.md"
+      },
+      "note": "2026-10-01 17:30 run: #1040 (Micro Bird G5e electric school buses, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 6.5%, rhythm PASS after 3 short-sentence merges, 489 words). Novel: first-ever electric-school-bus coverage on site (0 queue hits); five-campaign 2026 G5e electrical cross-tab (81+197+486+2428+513=3,705 buses, upper bound); 26V591/26V594 dual-filing same-defect observation; EPA Sept 24 Clean School Bus stats frame. Hero JPEG 1920x1280 verified, ?v=b3fbfb26. Blocked: 1/day slot consumed by #760 on 2026-10-01."
     }
   ],
   "last_qa_date": "2026-10-01",
