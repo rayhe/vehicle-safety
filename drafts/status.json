@@ -7,7 +7,7 @@
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
-  "next": 1046,
+  "next": 1047,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9345,6 +9345,47 @@
       "slug": "1045-f150-fuel-tank-falls-off",
       "started": "2026-10-02T03:30:00-07:00",
       "title": "Ford Recalled 223,472 F-150s Because the Gas Tank Can Just Fall Off"
+    },
+    {
+      "blocked_reason": "1/day; queue drains through 2027-05-21",
+      "critic_avg": 9.09,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1046-cummins-l9-fuel-hose-fifth-recall-critique.md",
+        "draft": "drafts/1046-cummins-l9-fuel-hose-fifth-recall.html",
+        "hero": "drafts/1046-cummins-l9-fuel-hose-fifth-recall.jpg",
+        "research": "drafts/1046-cummins-l9-fuel-hose-fifth-recall-research.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.1,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "rhythm_variance": 2771.2,
+        "rhythm_short_pct": 13.3,
+        "rhythm_long_pct": 60.0,
+        "rhythm_pass": true
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-10-02 05:30 run: #1046 (Cummins L9 fuel hose recall 26E066, 39,052 engines, FIFTH recall of the same remote fuel filter hose 21E063/23E055/24E038/25E004/26E066, fifth filing voids the 2023/2024/2025 remedies, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Two rhythm revisions (short 25.0%->13.3%, merged two body fragments). Round-0 panel VERDICT: SHIP (mean 9.09, all 7 >= 8.5; gates: em 0, banned 0, The 7.1%, rhythm variance 2771.2 PASS). Novel: fifth-recall-voids-prior-fixes angle; Apr-2026 builds five years after the 'new design'; surveillance-vs-failure framing. Hero JPEG 1920x1280, ?v=4a1bac35. Blocked: 1/day queue.",
+      "number": 1046,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.2,
+        "voice_coach": 9.3,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.4,
+        "data_presentation": 8.9
+      },
+      "ship_date": "2027-05-22",
+      "slug": "1046-cummins-l9-fuel-hose-fifth-recall",
+      "started": "2026-10-02T05:30:00-07:00",
+      "title": "Cummins Recalled the Same Fuel Hose Five Times in Five Years. The Fifth Recall Is for the Fixes."
     }
   ],
   "last_qa_date": "2026-10-02",
