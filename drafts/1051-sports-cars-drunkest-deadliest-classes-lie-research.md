@@ -8,7 +8,7 @@
 
 ## Angle (1-2 sentences)
 
-At the model level, a car's fatality rate has essentially zero correlation with how impaired its drivers are (Pearson r = -0.008 across 262 models) — this site proved that in #897. But zoom out one level to vehicle class and the correlation is 0.94: sports cars are simultaneously the deadliest class (1.95 deaths/100M VMT) and the drunkest (22.5% of drivers in fatal crashes impaired). Both findings are true, and the contradiction between them is a textbook ecological fallacy — which means class-level safety stereotypes are useless for judging any individual car.
+At the model level, a car's fatality rate has essentially zero correlation with how impaired its drivers are (Pearson r = -0.008 across 262 models) — this site proved that in #897. But zoom out one level to vehicle class and the correlation is 0.91: sports cars are simultaneously the deadliest class (2.80 deaths/100M VMT, VMT-weighted) and the drunkest (22.5% of drivers in fatal crashes impaired). Both findings are true, and the contradiction between them is a textbook ecological fallacy — which means class-level safety stereotypes are useless for judging any individual car.
 
 ## Kill test
 
@@ -27,17 +27,20 @@ At the model level, a car's fatality rate has essentially zero correlation with 
 
 ### Class table (the whole argument in five rows)
 
-| Class | Mean fatality rate (/100M VMT) | Any-impaired % | Drivers (n) |
-|---|---|---|---|
-| Sports Car | **1.95** | **22.5%** | 14,061 |
-| Pickup | 1.09 | 20.1% | 111,320 |
-| Sedan | 1.02 | 20.4% | 197,584 |
-| SUV | 0.63 | 19.5% | 146,411 |
-| Van | 0.63 | 18.1% | 21,360 |
+Class fatality rates are VMT-weighted (total class deaths / total class VMT), the epidemiological standard; models with fleet < 50,000 excluded for consistency with the model-level sample. Impairment is driver-weighted (impaired drivers / all drivers in fatal crashes).
 
-- Class-level Pearson r(rate, impairment) = **0.936** (n = 5 classes).
+| Class | VMT-weighted fatality rate (/100M VMT) | Any-impaired % | Drivers (n) |
+|---|---|---|---|
+| Sports Car | **2.80** | **22.5%** | 14,061 |
+| Sedan | 1.39 | 20.4% | 197,584 |
+| Pickup | 0.89 | 20.1% | 111,320 |
+| Van | 0.65 | 18.1% | 21,360 |
+| SUV | 0.54 | 19.5% | 146,411 |
+
+- Class-level Pearson r(VMT-weighted rate, impairment) = **0.912** (n = 5 classes).
 - Model-level Pearson r(rate, impairment) = **-0.008** (n = 262 models with ≥200 drivers and fleet ≥ 50,000).
-- Sports-car rate is 3.1x the SUV/van rate (1.95 vs 0.63). Sports-car impairment is 4.4 points above vans (22.5% vs 18.1%).
+- Sports-car rate is 5.2x the SUV rate (2.80 vs 0.54). Sports-car impairment is 4.4 points above vans (22.5% vs 18.1%).
+- Methodology note (2026-10-02): an earlier draft used unweighted mean-of-model-rates (sports car 1.95); the VMT-weighted measure is the correct class-level rate and strengthens the finding (2.80, 5.2x vs SUV).
 
 ### Inside the sports-car class (why the class number lies)
 
@@ -61,7 +64,7 @@ Pearson correlations computed on the same underlying FARS extract at two aggrega
 
 ## Strongest counterargument (full strength)
 
-Five data points is a joke of a sample for a correlation coefficient — r = 0.94 on n=5 has enormous confidence intervals, and dropping any single class could collapse it. Worse, the class pattern may be pure demographics, not vehicles: sports-car buyers skew young and male, the two demographics that independently crash more and drink more. If that's the whole story, then "sports cars are drunkest and deadliest" is just "young men are drunkest and deadliest" wearing a fender badge, and the article's paradox dissolves into a census table. The model-level zero correlation is the more robust statistic (n=262), and it says the vehicle doesn't matter — so the class-level pattern, while real, may not be *about* the cars at all.
+Five data points is a joke of a sample for a correlation coefficient — r = 0.91 on n=5 has enormous confidence intervals, and dropping any single class could collapse it. Worse, the class pattern may be pure demographics, not vehicles: sports-car buyers skew young and male, the two demographics that independently crash more and drink more. If that's the whole story, then "sports cars are drunkest and deadliest" is just "young men are drunkest and deadliest" wearing a fender badge, and the article's paradox dissolves into a census table. The model-level zero correlation is the more robust statistic (n=262), and it says the vehicle doesn't matter — so the class-level pattern, while real, may not be *about* the cars at all.
 
 ## Limitations (for the article)
 

@@ -1,20 +1,6 @@
 {
-  "current": {
-    "number": 1051,
-    "slug": "1051-sports-cars-drunkest-deadliest-classes-lie",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "kicker": "By The Numbers",
-    "started": "2026-10-02T15:30:00-07:00",
-    "title": "Sports Cars Are the Drunkest, Deadliest Class on the Road. Your Sports Car Probably Isn't.",
-    "files": {
-      "research": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie-research.md",
-      "draft": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie.html",
-      "hero": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie.jpg"
-    },
-    "hero_hash": "d33b8740"
-  },
-  "last_check_note": "2026-10-02 01:30 run: #1044 researched/drafted/critiqued (SHIP, queued 2027-05-20). current=null.",
+  "current": null,
+  "last_check_note": "2026-10-02 15:30 run: #1051 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (9.00), queued SHIP_BLOCKED 2027-05-27. Queue: 235 SHIP_BLOCKED. current=null.",
   "last_checked": "2026-10-01T23:30:00-07:00",
   "last_completed": "2026-10-02",
   "last_completed_date": "2026-10-02",
@@ -9567,6 +9553,49 @@
         "data_presentation": 8.7
       },
       "note": "2026-10-02 13:30 run: #1050 (NHTSA EA26006 eBoost brake investigation, 1,164,820 vehicles, 745 incidents / 22 crashes+fires / 6 injuries / 0 deaths; novel: failure-mode dispute GM stop-first vs owner mid-brake-loss accounts as escalation driver; 0.064% incident rate, 1-in-34 crash-among-reports; hidden-Honda angle: GM-built Prologue/ZDX; Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.96, all 7 >= 8.5; gates: em 0, banned 0, The 11.4%, rhythm PASS; pre-panel fix: merged 3 short fragments, short_pct 19.2% -> 8.3%). Hero JPEG 1920x1280, ?v=aa28c6bc. Queued SHIP_BLOCKED for 2027-05-26 (1/day; 2 publishes already 2026-10-02)."
+    },
+    {
+      "number": 1051,
+      "slug": "1051-sports-cars-drunkest-deadliest-classes-lie",
+      "title": "Sports Cars Are the Drunkest, Deadliest Class on the Road. Your Sports Car Probably Isn't.",
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-27",
+      "started": "2026-10-02T15:30:00-07:00",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.9,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "d33b8740",
+        "rhythm_variance": 372.7,
+        "rhythm_short_pct": 10.8,
+        "rhythm_long_pct": 54.1,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 809
+      },
+      "files": {
+        "research": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie-research.md",
+        "draft": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie.html",
+        "hero": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie.jpg",
+        "critic_panel": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie-critique.md"
+      },
+      "note": "2026-10-02 15:30 run: #1051 (model-level r(rate,impairment)=-0.008 n=262 vs class-level r=0.91 n=5: ecological fallacy; sports cars VMT-weighted 2.80/100M VMT = 5.2x SUV rate, 22.5% impaired; Veloster deadliest-but-soberest vs Corvette drunkest-but-mid-rate inversion; Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 9.00, all 7 >= 8.5; gates: em 0, banned 0, The 7.9%, rhythm PASS; pre-panel fixes: merged 10 short fragments short_pct 32.7% -> 10.8%, 6 The-starters reworded 16.1% -> 7.9%; methodology correction: VMT-weighted class rates replaced mean-of-rates, 1.95 -> 2.80). Hero JPEG 1920x1280, ?v=d33b8740. Queued SHIP_BLOCKED for 2027-05-27 (1/day; publishes already 2026-10-02)."
     }
   ]
 }
