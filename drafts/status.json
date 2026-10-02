@@ -9306,7 +9306,7 @@
       "title": "Toyota's Premium Shocks Are Falling Off 48,280 Tacomas. The Base Model's Cheap Ones Are Fine."
     }
   ],
-  "last_qa_date": "2026-10-01",
+  "last_qa_date": "2026-10-02",
   "last_completed_date": "2026-10-02",
-  "last_qa_note": "2026-10-01 01:30 run: QA-verified Publish #760 live (recall-letter-lag-millions-drive-unaware.html): hero image loads (200), og:title/og:description/og:image present, index card + sitemap present. Queue: 217 SHIP_BLOCKED remaining, next publish candidate #780."
+  "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04)."
 }
