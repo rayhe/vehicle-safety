@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-10-01 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1040 (Micro Bird G5e electric school buses, Mia Crumplezone); panel 8.93 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-16. Duplicate sweeps: skipped Ford 26C43 headlights (#1033 pattern), Ranger 26C42 camera (#994), Optiq window (#1030), GM transfer case (#941/#1031), Range Rover subframe (#1011), Comma.ai (#978/#1015), Cybercab (6x), Stellantis 26V531 camera (same as #771 campaign 7), Palisade/Ioniq9 seats (#933), Tiguan BCM (#951).",
-  "last_checked": "2026-10-01T17:30:00-07:00",
+  "last_check_note": "2026-10-01 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE for #1041 (Volvo Bus 9700 missing exit instructions, Vin Wreckage); panel 8.86 mean, all gates pass; 1/day consumed by #760 so SHIP_BLOCKED with ship_date 2027-05-17. Duplicate sweeps: skipped Ford 26C43 headlights (#1033 pattern), Ranger 26C42 camera (#994), Optiq window (#1030), GM transfer case (#941/#1031), Wagoneer crossbars (#970), Mach-E BECM (#1037), JLR DCDC (#976), C-HR overcharge (#876/#900), VW steering bolt (#953), GM L87 (#864/#1025), Bronco airbag bracket (#932), Ioniq 9 seats (#933), VW Tiguan BCM (#951), Toyota knuckles (#1036), Land Cruiser tox (#land-cruiser-paradox).",
+  "last_checked": "2026-10-01T19:30:00-07:00",
   "last_completed": "760-recall-letter-lag-millions-drive-unaware",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": 760,
   "last_published_date": "2026-10-01",
   "last_published_slug": "recall-letter-lag-millions-drive-unaware",
-  "next": 1041,
+  "next": 1042,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9142,6 +9142,48 @@
         "critic_panel": "drafts/1040-micro-bird-g5e-electric-school-bus-wiring-recalls-critique.md"
       },
       "note": "2026-10-01 17:30 run: #1040 (Micro Bird G5e electric school buses, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 6.5%, rhythm PASS after 3 short-sentence merges, 489 words). Novel: first-ever electric-school-bus coverage on site (0 queue hits); five-campaign 2026 G5e electrical cross-tab (81+197+486+2428+513=3,705 buses, upper bound); 26V591/26V594 dual-filing same-defect observation; EPA Sept 24 Clean School Bus stats frame. Hero JPEG 1920x1280 verified, ?v=b3fbfb26. Blocked: 1/day slot consumed by #760 on 2026-10-01."
+    },
+    {
+      "number": 1041,
+      "slug": "1041-volvo-bus-9700-missing-exit-instructions",
+      "title": "The Emergency Exit on 1,236 Coach Buses Doesn't Tell You How to Open It",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-17",
+      "critique_round": 0,
+      "critic_avg": 8.86,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.4,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "sentence_rhythm": {
+          "variance": 635.7,
+          "short_pct": 12.5,
+          "long_pct": 45.8,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1041-volvo-bus-9700-missing-exit-instructions-research.md",
+        "draft": "drafts/1041-volvo-bus-9700-missing-exit-instructions.html",
+        "hero": "drafts/1041-volvo-bus-9700-missing-exit-instructions.jpg",
+        "critic_panel": "drafts/1041-volvo-bus-9700-missing-exit-instructions-critique.md"
+      },
+      "note": "2026-10-01 19:30 run: #1041 (Volvo Bus 9700 emergency-exit label recall 26V600000, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 7.4%, rhythm PASS after short-sentence merges). Novel: first coach-bus article on site (zero prior coverage); 16-model-year (2009-2025) informational defect - designation without operating instructions; FMVSS 217 1-cm/15-cm requirements; motorcoach rollover/fire stats frame. Hero JPEG 1920x1280 verified, ?v=7ba6a933. Blocked: 1/day slot consumed by #760 on 2026-10-01.",
+      "started": "2026-10-01T19:30:00-07:00"
     }
   ],
   "last_qa_date": "2026-10-01",
