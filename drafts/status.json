@@ -7,7 +7,7 @@
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
-  "next": 1045,
+  "next": 1046,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9304,6 +9304,47 @@
       "slug": "1044-tacoma-shock-reservoir-road-debris",
       "started": "2026-10-02T01:30:00-07:00",
       "title": "Toyota's Premium Shocks Are Falling Off 48,280 Tacomas. The Base Model's Cheap Ones Are Fine."
+    },
+    {
+      "blocked_reason": "1/day; queue drains through 2027-05-20",
+      "critic_avg": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1045-f150-fuel-tank-falls-off-critique.md",
+        "draft": "drafts/1045-f150-fuel-tank-falls-off.html",
+        "hero": "drafts/1045-f150-fuel-tank-falls-off.jpg",
+        "research": "drafts/1045-f150-fuel-tank-falls-off-research.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.3,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "rhythm_variance": 2481.3,
+        "rhythm_short_pct": 3.7,
+        "rhythm_long_pct": 55.6,
+        "rhythm_pass": true
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-10-02 03:30 run: #1045 (Ford F-150 fuel tank strap recall 26V578000/26S69, 223,472 trucks 2023-2027, Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. One rhythm revision (short 29.7%->3.7%). Round-0 panel VERDICT: SHIP (mean 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 8.3%, rhythm variance 2481.3 PASS). Novel: road-hazard-to-trailing-drivers consequence reading; idle QA camera root cause; 1%-of-population math (~2,200); J.D. Power 90-day-window contrast. Hero JPEG 1920x1280, ?v=0e9e57f3. Blocked: 1/day queue.",
+      "number": 1045,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "ship_date": "2027-05-21",
+      "slug": "1045-f150-fuel-tank-falls-off",
+      "started": "2026-10-02T03:30:00-07:00",
+      "title": "Ford Recalled 223,472 F-150s Because the Gas Tank Can Just Fall Off"
     }
   ],
   "last_qa_date": "2026-10-02",
