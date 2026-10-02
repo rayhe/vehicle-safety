@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "1048-ford-77-recalls-record-pace",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-02T09:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-02 01:30 run: #1044 researched/drafted/critiqued (SHIP, queued 2027-05-20). current=null.",
   "last_checked": "2026-10-01T23:30:00-07:00",
   "last_completed": "2026-10-02",
@@ -9433,6 +9428,46 @@
       "slug": "1047-rivian-r2-robot-torque-recall",
       "started": "2026-10-02T07:30:00-07:00",
       "title": "A Robot Forgot to Tighten 14 Battery Bolts. A Human Caught It."
+    },
+    {
+      "number": 1048,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-24",
+      "slug": "1048-ford-77-recalls-record-pace",
+      "started": "2026-10-02T09:30:00-07:00",
+      "title": "Ford's 77th Recall of 2026 Just Tied the Record Ford Itself Broke Last Year.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "critic_avg": 8.89,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1048-ford-77-recalls-record-pace-research.md",
+        "draft": "drafts/1048-ford-77-recalls-record-pace.html",
+        "hero": "drafts/1048-ford-77-recalls-record-pace.jpg",
+        "critic_panel": "drafts/1048-ford-77-recalls-record-pace-critique.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.6,
+        "css_class_story": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "rhythm_variance": 4183.3,
+        "rhythm_short_pct": 0.0,
+        "rhythm_long_pct": 74.1,
+        "rhythm_pass": true
+      },
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "note": "2026-10-02 09:30 run: #1048 (Ford 77th recall of 2026 = Ranger backup camera 26C42, 11,451, Sept 28; ties GM 2014 all-time record of 77; original finding: vehicles-per-recall doubled 84,700->182,500 while count fell 50%, 2026 YTD 14.05M vehicles already exceeds 2025 record year 12.96M; J.D. Power IQS paradox; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 2.6%, rhythm PASS; pre-panel fix: merged 9 short fragments, short_pct 34.9% -> 0.0%). Hero JPEG 1920x1280, ?v=07be9bc7. Blocked: 1/day queue (2 publishes already 2026-10-02)."
     }
   ]
 }
