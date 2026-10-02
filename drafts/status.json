@@ -10,7 +10,7 @@
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1050,
+  "next": 1051,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9510,6 +9510,49 @@
         "data_presentation": 8.8
       },
       "note": "2026-10-02 11:30 run: #1049 (Ford 78th recall of 2026 = 26C43 contaminated LED headlight chip, 41,748 Expedition/Super Duty, Sept 30; passes GM 2014 mark of 77 two days after #77 tied it; new math: 78 recalls/273 days = 1 per 3.50 days, 14,090,586 vehicles YTD = 1.13M past all of 2025, per-recall mean 180,648 vs 84,693 (+113%); Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.96, all 7 >= 8.5; gates: em 0, banned 0, The 10.9%, rhythm PASS; pre-panel fix: merged 5 short fragments, short_pct 25.5% -> 10.9%). Hero JPEG 1920x1280, ?v=6e3b8f32. Queued SHIP_BLOCKED for 2027-05-25 (1/day; 2 publishes already 2026-10-02)."
+    },
+    {
+      "number": 1050,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-26",
+      "slug": "1050-gm-eboost-brake-assist-failure-modes",
+      "started": "2026-10-02T13:30:00-07:00",
+      "title": "GM Says Your Brakes Only Fail After You Stop. Your Brakes Say Otherwise.",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "critic_avg": 8.96,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1050-gm-eboost-brake-assist-failure-modes-research.md",
+        "draft": "drafts/1050-gm-eboost-brake-assist-failure-modes.html",
+        "hero": "drafts/1050-gm-eboost-brake-assist-failure-modes.jpg",
+        "critic_panel": "drafts/1050-gm-eboost-brake-assist-failure-modes-critique.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.4,
+        "css_class_story": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "hero_hash": "aa28c6bc",
+        "rhythm_variance": 1154.5,
+        "rhythm_short_pct": 8.3,
+        "rhythm_long_pct": 50.0,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 660
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.7
+      },
+      "note": "2026-10-02 13:30 run: #1050 (NHTSA EA26006 eBoost brake investigation, 1,164,820 vehicles, 745 incidents / 22 crashes+fires / 6 injuries / 0 deaths; novel: failure-mode dispute GM stop-first vs owner mid-brake-loss accounts as escalation driver; 0.064% incident rate, 1-in-34 crash-among-reports; hidden-Honda angle: GM-built Prologue/ZDX; Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.96, all 7 >= 8.5; gates: em 0, banned 0, The 11.4%, rhythm PASS; pre-panel fix: merged 3 short fragments, short_pct 19.2% -> 8.3%). Hero JPEG 1920x1280, ?v=aa28c6bc. Queued SHIP_BLOCKED for 2027-05-26 (1/day; 2 publishes already 2026-10-02)."
     }
   ]
 }
