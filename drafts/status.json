@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "23:30 run: produced #1043 (Nissan Titan drunkest-pickup paradox, Dale), round-0 SHIP, queued SHIP_BLOCKED for 2027-05-19. 249 SHIP_BLOCKED in queue.",
+  "last_check_note": "2026-10-02 01:30 run: #1044 researched/drafted/critiqued (SHIP, queued 2027-05-20). current=null.",
   "last_checked": "2026-10-01T23:30:00-07:00",
-  "last_completed": "760-recall-letter-lag-millions-drive-unaware",
-  "last_journalist": "Dale Impactor III",
-  "last_published": 760,
-  "last_published_date": "2026-10-01",
-  "last_published_slug": "recall-letter-lag-millions-drive-unaware",
-  "next": 1044,
+  "last_completed": "2026-10-02",
+  "last_journalist": "Clara Rollover",
+  "last_published": 777,
+  "last_published_date": "2026-10-02",
+  "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
+  "next": 1045,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -202,9 +202,9 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "2026-09-06 queue hygiene: moved from 2026-09-08 (double-booked with #806). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible.",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-08 (double-booked with #806). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible. | 2026-10-02 01:30 run: published as #777 (earliest-due publishable SHIP_BLOCKED; 763 skipped pending hero, hero generated this run; 1/day slot; 0 prior publishes today).",
       "number": 777,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "actionable_insights": 9.0,
         "average": 8.57,
@@ -217,7 +217,10 @@
       },
       "ship_date": "2026-10-02",
       "slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
-      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive"
+      "title": "BMW's Driveshaft Has Been Recalled Seven Times in Fifteen Years, and the Latest Fix Is Adhesive",
+      "files": {
+        "hero": "drafts/bmw-driveshaft-seven-recalls-adhesive-fix.jpg"
+      }
     },
     {
       "critic_avg": 9.07,
@@ -9263,9 +9266,47 @@
       "slug": "1043-titan-drunkest-pickup-dead",
       "started": "2026-10-01T23:30:00-07:00",
       "title": "The Drunkest Pickup in America Is the One Nissan Just Killed"
+    },
+    {
+      "blocked_reason": "1/day rule; queued behind prior drafts",
+      "critic_avg": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1044-critic-panel-r0.md",
+        "draft": "drafts/1044-tacoma-shock-reservoir-road-debris.html",
+        "hero": "drafts/1044-tacoma-shock-reservoir-road-debris.jpg",
+        "research": "drafts/1044-tacoma-shock-reservoir-road-debris-research.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.1,
+        "css_class": true,
+        "style_css": true,
+        "jpeg_valid": true,
+        "rhythm_variance": 607.3
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "2026-10-02 01:30 run: #1044 (Toyota Tacoma TRD Off-Road shock-reservoir recall 26V514000, 48,280 trucks, Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 12.1%, rhythm variance 607.3 PASS). Novel: premium-upgrade-is-the-defect concentration; NHTSA consequence protects trailing drivers, not the buyer; corrosion clock (first failures <2yr). Hero JPEG 1920x1280. Blocked: 1/day queue.",
+      "number": 1044,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "ship_date": "2027-05-20",
+      "slug": "1044-tacoma-shock-reservoir-road-debris",
+      "started": "2026-10-02T01:30:00-07:00",
+      "title": "Toyota's Premium Shocks Are Falling Off 48,280 Tacomas. The Base Model's Cheap Ones Are Fine."
     }
   ],
   "last_qa_date": "2026-10-01",
-  "last_completed_date": "2026-10-01",
+  "last_completed_date": "2026-10-02",
   "last_qa_note": "2026-10-01 01:30 run: QA-verified Publish #760 live (recall-letter-lag-millions-drive-unaware.html): hero image loads (200), og:title/og:description/og:image present, index card + sitemap present. Queue: 217 SHIP_BLOCKED remaining, next publish candidate #780."
 }
