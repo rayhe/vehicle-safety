@@ -1,12 +1,18 @@
 {
   "current": {
     "slug": "1062-older-drivers-fragility-paradox",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
     "started": "2026-10-03T13:30:00-07:00",
     "number": 1062,
     "kicker": "Existential Dread",
-    "title": "Drivers 85 and Older Crash More Per Mile Than Teenagers. They're Not Worse Drivers. They're Just More Breakable."
+    "title": "Drivers 85 and Older Crash More Per Mile Than Teenagers. They're Not Worse Drivers. They're Just More Breakable.",
+    "round": 0,
+    "files": {
+      "research": "drafts/1062-older-drivers-fragility-paradox-research.md",
+      "draft": "drafts/1062-older-drivers-fragility-paradox.html",
+      "hero": "drafts/1062-older-drivers-fragility-paradox.jpg"
+    }
   },
   "last_check_note": "#1061 queued SHIP_BLOCKED 2027-06-06; current=null",
   "last_checked": "2026-10-03T11:30:00-07:00",
