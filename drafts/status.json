@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "#1061 queued SHIP_BLOCKED 2027-06-06; current=null",
-  "last_checked": "2026-10-03T11:30:00-07:00",
-  "last_completed": 1062,
+  "last_check_note": "#1063 queued SHIP_BLOCKED 2027-06-08; current=null",
+  "last_checked": "2026-10-03T15:30:00-07:00",
+  "last_completed": 1063,
   "last_completed_date": "2026-10-03",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1060,
+  "next": 1064,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10076,6 +10076,51 @@
         "critic_panel": "drafts/1062-critic-panel-r0.md"
       },
       "note": "2026-10-03 13:30 run: #1062 (older-driver fragility paradox, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 8.3%, rhythm PASS variance 215.8). Novel: first FARS/IIHS data story in ~30 pipeline articles (all recent were recall-based); 50%-up/47%-down paradox with population denominator; 85+ per-mile 7.9 vs teen 7.5 framed by Cicchino fragility decomposition; who-dies inversion (57% self vs 37%); retirement-vehicle compounding (no ESC +37%, no side airbags 2x). Kill-test: zero queue overlap (elderly/senior-driver/fragility/retirement-vehicle all empty; #996 is pedestrians-only). Queued SHIP_BLOCKED for 2027-06-07 (1/day; #1061 holds 2027-06-06). No publish (1/day rule; #777 published 2026-10-02; next scheduled #780 ships 2026-10-04)."
+    },
+    {
+      "number": 1063,
+      "slug": "1063-tahoe-expedition-full-size-suv-death-gap",
+      "title": "The Bigger the SUV, the Bigger the Body Count",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-08",
+      "started": "2026-10-03T15:30:00-07:00",
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "f8fdcdcd",
+        "sentence_rhythm": {
+          "variance": 457.0,
+          "short_pct": 13.8,
+          "long_pct": 34.5,
+          "passed": true
+        },
+        "actionable_insights": true,
+        "word_count": 998
+      },
+      "files": {
+        "research": "drafts/1063-tahoe-expedition-full-size-suv-death-gap-research.md",
+        "draft": "drafts/1063-tahoe-expedition-full-size-suv-death-gap.html",
+        "hero": "drafts/1063-tahoe-expedition-full-size-suv-death-gap.jpg",
+        "critic_panel": "drafts/1063-critic-panel-r0.md"
+      },
+      "note": "2026-10-03 15:30 run: #1063 (full-size SUV death gap, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 457.0). Novel: first lab-vs-FARS cross-tab for full-size SUVs; IIHS June 2024 lab (Tahoe Poor, Expedition Marginal, Wagoneer TSP) matches FARS road ranking (Yukon 2.55, Tahoe 2.49, Expedition 2.31 vs Telluride 0.04 = 62x). Pre-panel catch: Wagoneer is body-on-frame (Ram 1500 DT), not unibody; corrected, which sharpened the thesis (engineering, not architecture). Fleet-age asterisk at full strength (89% of Tahoe deaths pre-2010). Kill-test: zero queue overlap (tahoe/expedition/suburban/palisade all empty). Queued SHIP_BLOCKED for 2027-06-08 (1/day; #1062 holds 2027-06-07). No publish (1/day rule; #777 published 2026-10-02)."
     }
   ]
 }
