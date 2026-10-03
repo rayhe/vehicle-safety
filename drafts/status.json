@@ -1,14 +1,8 @@
 {
-  "current": {
-    "number": 1057,
-    "slug": "1057-gm-backup-camera-glue-26v539",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-03T03:30:00-07:00"
-  },
-  "last_check_note": "2026-10-03 01:30 run: #1056 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.90), queued SHIP_BLOCKED 2027-06-01. Queue: 262 SHIP_BLOCKED pending. current=null.",
+  "current": null,
+  "last_check_note": "2026-10-03 03:30 run: #1057 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.91), queued SHIP_BLOCKED 2027-06-02. Queue: 263 SHIP_BLOCKED pending. current=null.",
   "last_checked": "2026-10-03T01:30:00-07:00",
-  "last_completed": 1056,
+  "last_completed": 1057,
   "last_completed_date": "2026-10-03",
   "last_journalist": "Clara Rollover",
   "last_published": 777,
@@ -16,7 +10,7 @@
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1057,
+  "next": 1058,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9817,6 +9811,49 @@
       "phase": "SHIP_BLOCKED",
       "ship_date": "2027-06-01",
       "note": "2026-10-03 01:30 run: #1056 (Toyota Highlander/Kluger second-row seatback recliner recall 26V128000; Oct 2 2026 AU expansion to 46,467; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.90, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 750; pre-panel fix: lede reworded to match survey unit of analysis). Novel: three-market 636,474-vehicle census from one supplier design change + 3.5%-to-~19,000 upper-bound extrapolation (caveated) + invisible-latch framing. Hero JPEG 1920x1280, ?v=994624a4. Queued SHIP_BLOCKED for 2027-06-01 (1/day; #1055 holds 2027-05-31)."
+    },
+    {
+      "number": 1057,
+      "slug": "1057-gm-backup-camera-glue-26v539",
+      "title": "GM Closed Its Backup-Camera Investigation. 33,365 Complaints Later, It's Recalling 306,511 SUVs.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "started": "2026-10-03T03:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.91,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "911007d0",
+        "rhythm_variance": 326,
+        "rhythm_short_pct": 14.3,
+        "rhythm_long_pct": 61.9,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 573
+      },
+      "files": {
+        "research": "drafts/1057-gm-backup-camera-glue-26v539-research.md",
+        "draft": "drafts/1057-gm-backup-camera-glue-26v539.html",
+        "hero": "drafts/1057-gm-backup-camera-glue-26v539.jpg",
+        "critic_panel": "drafts/1057-critic-panel-r0.md"
+      },
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-02",
+      "note": "2026-10-03 03:30 run: #1057 (GM backup-camera glue recall 26V539; Clara Rollover) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 326; pre-panel fix: body rewritten for The-starter 18.4%->0.0% and variance 99->326). Novel: GM closed investigation Sep 2025, reopened Mar 2026; plasma-cleaning broke the adhesive seal; standard cameras only (Surround Vision exempt); ~30,651 expected defective from 10% estimate. Hero JPEG 1920x1280, ?v=911007d0. Queued SHIP_BLOCKED for 2027-06-02 (1/day; #1056 holds 2027-06-01)."
     }
   ]
 }
