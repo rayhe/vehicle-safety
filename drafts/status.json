@@ -1,21 +1,10 @@
 {
-  "current": {
-    "number": 1055,
-    "slug": "1055-jeep-wrangler-gladiator-fire-probe-closed",
-    "title": "NHTSA Just Closed the Book on 1.08M Burning Jeeps. The Park-Outside Order Stays.",
-    "journalist": "Rex Driverton",
-    "kicker": "Investigation",
-    "phase": "DRAFT",
-    "started": "2026-10-02T23:35:00-07:00",
-    "files": {
-      "research": "drafts/1055-jeep-wrangler-gladiator-fire-probe-closed-research.md"
-    }
-  },
-  "last_check_note": "2026-10-02 21:30 run: #1054 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.91), queued SHIP_BLOCKED 2027-05-30. Queue: 238 SHIP_BLOCKED. current=null.",
-  "last_checked": "2026-10-02T22:15:00.000000-07:00",
-  "last_completed": 1054,
+  "current": null,
+  "last_check_note": "2026-10-02 23:55 run: #1055 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.90), queued SHIP_BLOCKED 2027-05-31. Queue: 239 SHIP_BLOCKED pending. current=null.",
+  "last_checked": "2026-10-02T23:55:00-07:00",
+  "last_completed": 1055,
   "last_completed_date": "2026-10-02",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
@@ -9736,6 +9725,49 @@
         "critic_panel": "drafts/1054-ford-led-headlight-contaminated-chip-critique.md"
       },
       "note": "2026-10-02 21:30 run: #1054 (Ford 26C43, 41,748 Expedition 2025-27 + Super Duty 2026, contaminated LED chip, FMVSS 108, zero injuries, Oct 26 letters; Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 14.0%, rhythm PASS variance 514; pre-panel fixes: merged 7 fragments short 16.7%->3.0%, rewrote 4 The-openers 18.2%->14.0%). Novel: batch-concentration analysis (Expedition 12+mo production window vs Super Duty single-day population, same chip = supplier-batch problem); indicator paradox (dashboard warning is the most dependable lamp on the truck). Hero JPEG 1920x1280, ?v=73f85eb5. Queued SHIP_BLOCKED for 2027-05-30 (1/day; #777 published 2026-10-02; queue drains through 2027-05-29)."
+    },
+    {
+      "number": 1055,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-31",
+      "slug": "1055-jeep-wrangler-gladiator-fire-probe-closed",
+      "title": "NHTSA Just Closed the Book on 1.08M Burning Jeeps. The Park-Outside Order Stays.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "started": "2026-10-02T23:35:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.9,
+      "scores": {
+        "general_editor": 8.9,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.1
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "dfbba14d",
+        "rhythm_variance": 1367.0,
+        "rhythm_short_pct": 8.3,
+        "rhythm_long_pct": 45.8,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 586
+      },
+      "files": {
+        "research": "drafts/1055-jeep-wrangler-gladiator-fire-probe-closed-research.md",
+        "draft": "drafts/1055-jeep-wrangler-gladiator-fire-probe-closed.html",
+        "hero": "drafts/1055-jeep-wrangler-gladiator-fire-probe-closed.jpg",
+        "critic_panel": "drafts/1055-critic-panel-r0.md"
+      },
+      "note": "2026-10-02 23:55 run: #1055 (NHTSA closed Wrangler/Gladiator fire probe Sept 29, 1.08M, park-outside stays; Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.90, all 7 >= 8.5; gates: em 0, banned 0, The 12.5%, rhythm PASS variance 1367; pre-panel fixes: merged 5 fragments short 20.7%->8.3%). Novel: closure-isn't-acquittal framing; 38% probe-to-recall expansion (781,500->1.08M); two-closure symmetry (Stellantis 2024 self-close, NHTSA 2026 close). Hero JPEG 1920x1280, ?v=dfbba14d. Queued SHIP_BLOCKED for 2027-05-31 (1/day; #777 published 2026-10-02; queue drains through 2027-05-30)."
     }
   ]
 }
