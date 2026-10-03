@@ -1,22 +1,8 @@
 {
-  "current": {
-    "slug": "1062-older-drivers-fragility-paradox",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-03T13:30:00-07:00",
-    "number": 1062,
-    "kicker": "Existential Dread",
-    "title": "Drivers 85 and Older Crash More Per Mile Than Teenagers. They're Not Worse Drivers. They're Just More Breakable.",
-    "round": 0,
-    "files": {
-      "research": "drafts/1062-older-drivers-fragility-paradox-research.md",
-      "draft": "drafts/1062-older-drivers-fragility-paradox.html",
-      "hero": "drafts/1062-older-drivers-fragility-paradox.jpg"
-    }
-  },
+  "current": null,
   "last_check_note": "#1061 queued SHIP_BLOCKED 2027-06-06; current=null",
   "last_checked": "2026-10-03T11:30:00-07:00",
-  "last_completed": 1061,
+  "last_completed": 1062,
   "last_completed_date": "2026-10-03",
   "last_journalist": "Vin Wreckage",
   "last_published": 777,
@@ -10045,6 +10031,51 @@
         "critic_panel": "drafts/1061-critic-panel-r0.md"
       },
       "note": "2026-10-03 11:30 run: #1061 (JLR Defender 26V615/D130 seatbelt stitching recall, Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 571.2 short 6.5%, hero JPEG f51e2b84, 1 story-hero img, absolute og:image). Novel: one-photo->PE25-019->recall arc (Aug 2025 complaint, Dec 2025 PE, 14 mo to recall), six-month parts-harvest that missed because the suspect pallet stalled lineside at Nitra, belts not sequenced to VINs forcing 100% window recall (371 units, Jan 31-Feb 2 2024, ~124/day), Autoliv Switzerland LR190158. Kill-test: rejected Ford 71-recall story (#903 covered same peg), Comma AI PE26007 (covered 2x: #978 #1015), GM L87 probe expansion (covered 5x), VW 4.64M steering screw (covered 4x), Ram 239K camera (#871/#843), JLR DC-DC 26V599 (#976), IIHS rear-seat fixing story (#972). Zero queue overlap on 26V615/D130/stitching/Nitra/harvesting. Queued SHIP_BLOCKED for 2027-06-06 (1/day; #1060 holds 2027-06-05). No publish (1/day rule; #777 published 2026-10-02)."
+    },
+    {
+      "number": 1062,
+      "slug": "1062-older-drivers-fragility-paradox",
+      "title": "Drivers 85 and Older Crash More Per Mile Than Teenagers. They're Not Worse Drivers. They're Just More Breakable.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-07",
+      "started": "2026-10-03T13:30:00-07:00",
+      "critic_avg": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.3,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "37060f8f",
+        "sentence_rhythm": {
+          "variance": 215.8,
+          "short_pct": 14.0,
+          "long_pct": 42.0,
+          "passed": true
+        },
+        "actionable_insights": true,
+        "word_count": 860
+      },
+      "files": {
+        "research": "drafts/1062-older-drivers-fragility-paradox-research.md",
+        "draft": "drafts/1062-older-drivers-fragility-paradox.html",
+        "hero": "drafts/1062-older-drivers-fragility-paradox.jpg",
+        "critic_panel": "drafts/1062-critic-panel-r0.md"
+      },
+      "note": "2026-10-03 13:30 run: #1062 (older-driver fragility paradox, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 8.3%, rhythm PASS variance 215.8). Novel: first FARS/IIHS data story in ~30 pipeline articles (all recent were recall-based); 50%-up/47%-down paradox with population denominator; 85+ per-mile 7.9 vs teen 7.5 framed by Cicchino fragility decomposition; who-dies inversion (57% self vs 37%); retirement-vehicle compounding (no ESC +37%, no side airbags 2x). Kill-test: zero queue overlap (elderly/senior-driver/fragility/retirement-vehicle all empty; #996 is pedestrians-only). Queued SHIP_BLOCKED for 2027-06-07 (1/day; #1061 holds 2027-06-06). No publish (1/day rule; #777 published 2026-10-02; next scheduled #780 ships 2026-10-04)."
     }
   ]
 }
