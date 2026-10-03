@@ -2,15 +2,15 @@
   "current": null,
   "last_check_note": "2026-10-02 17:30 run: #1052 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.97), queued SHIP_BLOCKED 2027-05-28. Queue: 236 SHIP_BLOCKED. current=null.",
   "last_checked": "2026-10-02T17:34:55.667617-07:00",
-  "last_completed": "2026-10-02",
+  "last_completed": 1053,
   "last_completed_date": "2026-10-02",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1053,
+  "next": 1054,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9639,6 +9639,49 @@
         "critic_panel": "drafts/1052-pacifica-killed-grand-caravan-safety-gap-critique.md"
       },
       "note": "2026-10-02 17:30 run: #1052 (Grand Caravan 1.33/100M VMT, 1782 deaths vs replacement Pacifica 0.19, 160 deaths = 7.0x, 86% decline; frequency-vs-survivability decomposition 5.75x vs 1.18x; IIHS TSP+ vs Poor small overlap; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.97, all 7 >= 8.5; gates: em 2, banned 0, The 10.1%, rhythm PASS; pre-panel fix: merged 2 short fragments short_pct 15.6% -> 9.7%). Hero JPEG 2048x1152, ?v=474379f6. Queued SHIP_BLOCKED for 2027-05-28 (1/day; publishes already 2026-10-02)."
+    },
+    {
+      "number": 1053,
+      "slug": "1053-decade-low-deaths-vulnerable-divergence",
+      "title": "Road Deaths Hit a Decade Low in 2026. Bicyclist Deaths Hit a 40-Year High.",
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-29",
+      "started": "2026-10-02T19:30:23.356098-07:00",
+      "critic_avg": 9.04,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.3,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.9,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "01e4ceee",
+        "rhythm_variance": 2228.4,
+        "rhythm_short_pct": 11.1,
+        "rhythm_long_pct": 50.0,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 435
+      },
+      "files": {
+        "research": "drafts/1053-decade-low-deaths-vulnerable-divergence-research.md",
+        "draft": "drafts/1053-decade-low-deaths-vulnerable-divergence.html",
+        "hero": "drafts/1053-decade-low-deaths-vulnerable-divergence.jpg",
+        "critic_panel": "drafts/1053-decade-low-deaths-vulnerable-divergence-critique.md"
+      },
+      "note": "2026-10-02 19:30 run: #1053 (NHTSA Q1 2026 CrashStats: 7,770 deaths, -4.3%, rate 0.99 matching lowest-Q1-since-2014; 2025 36,640/-6.7%/rate 1.10 second-lowest-ever; NSC H1 2026: 18,460/-2%/rate 1.12, DC +133%/CA +14% vs HI -30%/IL -24%; TRIP Sept 23 2026: 4th straight decline, ped +5% 2020-25, bike +29% to 1,148 near-40yr-high, ped+bike=21% of deaths, moto 36x rate; original math: pandemic excess ~15,686, vulnerable backslide erased 8.3% of post-2021 decline; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 9.04, all 7 >= 8.5; gates: em 0, banned 0, The 8.9%, rhythm PASS; pre-panel fixes: merged 2 fragments short 20%->11.1%, corrected Q1-rate phrasing). Hero JPEG 2352x1008, ?v=01e4ceee. Queued SHIP_BLOCKED for 2027-05-29 (1/day; #777 published 2026-10-02; queue drains through 2027-05-28)."
     }
   ]
 }
