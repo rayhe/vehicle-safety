@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1052-pacifica-killed-grand-caravan-safety-gap",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-02T17:31:15.658197-07:00",
+    "number": 1052,
+    "kicker": "The Gap",
+    "title": "Chrysler Replaced the Grand Caravan With the Pacifica. Deaths Per Mile Fell 86%."
+  },
   "last_check_note": "2026-10-02 15:30 run: #1051 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (9.00), queued SHIP_BLOCKED 2027-05-27. Queue: 235 SHIP_BLOCKED. current=null.",
   "last_checked": "2026-10-01T23:30:00-07:00",
   "last_completed": "2026-10-02",
