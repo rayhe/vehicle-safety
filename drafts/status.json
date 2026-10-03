@@ -1,24 +1,16 @@
 {
-  "current": {
-    "slug": "1052-pacifica-killed-grand-caravan-safety-gap",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-02T17:31:15.658197-07:00",
-    "number": 1052,
-    "kicker": "The Gap",
-    "title": "Chrysler Replaced the Grand Caravan With the Pacifica. Deaths Per Mile Fell 86%."
-  },
-  "last_check_note": "2026-10-02 15:30 run: #1051 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (9.00), queued SHIP_BLOCKED 2027-05-27. Queue: 235 SHIP_BLOCKED. current=null.",
-  "last_checked": "2026-10-01T23:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-02 17:30 run: #1052 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.97), queued SHIP_BLOCKED 2027-05-28. Queue: 236 SHIP_BLOCKED. current=null.",
+  "last_checked": "2026-10-02T17:34:55.667617-07:00",
   "last_completed": "2026-10-02",
   "last_completed_date": "2026-10-02",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1052,
+  "next": 1053,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9604,6 +9596,49 @@
         "critic_panel": "drafts/1051-sports-cars-drunkest-deadliest-classes-lie-critique.md"
       },
       "note": "2026-10-02 15:30 run: #1051 (model-level r(rate,impairment)=-0.008 n=262 vs class-level r=0.91 n=5: ecological fallacy; sports cars VMT-weighted 2.80/100M VMT = 5.2x SUV rate, 22.5% impaired; Veloster deadliest-but-soberest vs Corvette drunkest-but-mid-rate inversion; Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 9.00, all 7 >= 8.5; gates: em 0, banned 0, The 7.9%, rhythm PASS; pre-panel fixes: merged 10 short fragments short_pct 32.7% -> 10.8%, 6 The-starters reworded 16.1% -> 7.9%; methodology correction: VMT-weighted class rates replaced mean-of-rates, 1.95 -> 2.80). Hero JPEG 1920x1280, ?v=d33b8740. Queued SHIP_BLOCKED for 2027-05-27 (1/day; publishes already 2026-10-02)."
+    },
+    {
+      "number": 1052,
+      "slug": "1052-pacifica-killed-grand-caravan-safety-gap",
+      "title": "Chrysler Replaced the Grand Caravan With the Pacifica. Deaths Per Mile Fell 86%.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-28",
+      "started": "2026-10-02T17:31:15.658197-07:00",
+      "critic_avg": 8.97,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 2,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.1,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "474379f6",
+        "rhythm_variance": 513.7,
+        "rhythm_short_pct": 9.7,
+        "rhythm_long_pct": 58.1,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 435
+      },
+      "files": {
+        "research": "drafts/1052-pacifica-killed-grand-caravan-safety-gap-research.md",
+        "draft": "drafts/1052-pacifica-killed-grand-caravan-safety-gap.html",
+        "hero": "drafts/1052-pacifica-killed-grand-caravan-safety-gap.jpg",
+        "critic_panel": "drafts/1052-pacifica-killed-grand-caravan-safety-gap-critique.md"
+      },
+      "note": "2026-10-02 17:30 run: #1052 (Grand Caravan 1.33/100M VMT, 1782 deaths vs replacement Pacifica 0.19, 160 deaths = 7.0x, 86% decline; frequency-vs-survivability decomposition 5.75x vs 1.18x; IIHS TSP+ vs Poor small overlap; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.97, all 7 >= 8.5; gates: em 2, banned 0, The 10.1%, rhythm PASS; pre-panel fix: merged 2 short fragments short_pct 15.6% -> 9.7%). Hero JPEG 2048x1152, ?v=474379f6. Queued SHIP_BLOCKED for 2027-05-28 (1/day; publishes already 2026-10-02)."
     }
   ]
 }
