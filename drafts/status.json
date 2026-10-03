@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-02 17:30 run: #1052 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.97), queued SHIP_BLOCKED 2027-05-28. Queue: 236 SHIP_BLOCKED. current=null.",
-  "last_checked": "2026-10-02T17:34:55.667617-07:00",
-  "last_completed": 1053,
+  "last_check_note": "2026-10-02 21:30 run: #1054 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.91), queued SHIP_BLOCKED 2027-05-30. Queue: 238 SHIP_BLOCKED. current=null.",
+  "last_checked": "2026-10-02T22:15:00.000000-07:00",
+  "last_completed": 1054,
   "last_completed_date": "2026-10-02",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1054,
+  "next": 1055,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -9682,6 +9682,49 @@
         "critic_panel": "drafts/1053-decade-low-deaths-vulnerable-divergence-critique.md"
       },
       "note": "2026-10-02 19:30 run: #1053 (NHTSA Q1 2026 CrashStats: 7,770 deaths, -4.3%, rate 0.99 matching lowest-Q1-since-2014; 2025 36,640/-6.7%/rate 1.10 second-lowest-ever; NSC H1 2026: 18,460/-2%/rate 1.12, DC +133%/CA +14% vs HI -30%/IL -24%; TRIP Sept 23 2026: 4th straight decline, ped +5% 2020-25, bike +29% to 1,148 near-40yr-high, ped+bike=21% of deaths, moto 36x rate; original math: pandemic excess ~15,686, vulnerable backslide erased 8.3% of post-2021 decline; Axle McScatter) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 9.04, all 7 >= 8.5; gates: em 0, banned 0, The 8.9%, rhythm PASS; pre-panel fixes: merged 2 fragments short 20%->11.1%, corrected Q1-rate phrasing). Hero JPEG 2352x1008, ?v=01e4ceee. Queued SHIP_BLOCKED for 2027-05-29 (1/day; #777 published 2026-10-02; queue drains through 2027-05-28)."
+    },
+    {
+      "number": 1054,
+      "slug": "1054-ford-led-headlight-contaminated-chip",
+      "title": "Ford Recalled 41,748 Trucks Over Headlights That Can Die in the Dark. The Warning Light Works Fine.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-05-30",
+      "started": "2026-10-02T21:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.91,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 14.0,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "73f85eb5",
+        "rhythm_variance": 514.0,
+        "rhythm_short_pct": 3.0,
+        "rhythm_long_pct": 54.5,
+        "rhythm_pass": true,
+        "actionable_insights": true,
+        "word_count": 820
+      },
+      "files": {
+        "research": "drafts/1054-ford-led-headlight-contaminated-chip-research.md",
+        "draft": "drafts/1054-ford-led-headlight-contaminated-chip.html",
+        "hero": "drafts/1054-ford-led-headlight-contaminated-chip.jpg",
+        "critic_panel": "drafts/1054-ford-led-headlight-contaminated-chip-critique.md"
+      },
+      "note": "2026-10-02 21:30 run: #1054 (Ford 26C43, 41,748 Expedition 2025-27 + Super Duty 2026, contaminated LED chip, FMVSS 108, zero injuries, Oct 26 letters; Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 14.0%, rhythm PASS variance 514; pre-panel fixes: merged 7 fragments short 16.7%->3.0%, rewrote 4 The-openers 18.2%->14.0%). Novel: batch-concentration analysis (Expedition 12+mo production window vs Super Duty single-day population, same chip = supplier-batch problem); indicator paradox (dashboard warning is the most dependable lamp on the truck). Hero JPEG 1920x1280, ?v=73f85eb5. Queued SHIP_BLOCKED for 2027-05-30 (1/day; #777 published 2026-10-02; queue drains through 2027-05-29)."
     }
   ]
 }
