@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1056-highlander-kluger-seatback-recliner",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-03T01:30:00-07:00"
+  },
   "last_check_note": "2026-10-02 23:55 run: #1055 RESEARCH->DRAFT->CRITIQUE complete, panel SHIP (8.90), queued SHIP_BLOCKED 2027-05-31. Queue: 239 SHIP_BLOCKED pending. current=null.",
   "last_checked": "2026-10-02T23:55:00-07:00",
   "last_completed": 1055,
@@ -10,7 +15,7 @@
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1056,
+  "next": 1057,
   "queue": [
     {
       "journalist": "Rex Driverton",
