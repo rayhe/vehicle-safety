@@ -1,17 +1,8 @@
 {
-  "current": {
-    "slug": "1064-hyundai-veloster-deadliest-sober-drivers",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-03T17:30:00-07:00",
-    "number": 1064,
-    "ship_date": "2027-06-09",
-    "title": "The Deadliest Car in America Has the Soberest Drivers, So Stop Blaming the Drivers",
-    "kicker": "Sobriety Report"
-  },
-  "last_check_note": "#1064 RESEARCH started (Veloster, Dale Impactor III); 1/day ok (0 published today)",
+  "current": null,
+  "last_check_note": "#1064 SHIP_BLOCKED 2027-06-09; current=null",
   "last_checked": "2026-10-03T17:30:00-07:00",
-  "last_completed": 1063,
+  "last_completed": 1064,
   "last_completed_date": "2026-10-03",
   "last_journalist": "Dale Impactor III",
   "last_published": 777,
@@ -10130,6 +10121,45 @@
         "critic_panel": "drafts/1063-critic-panel-r0.md"
       },
       "note": "2026-10-03 15:30 run: #1063 (full-size SUV death gap, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 457.0). Novel: first lab-vs-FARS cross-tab for full-size SUVs; IIHS June 2024 lab (Tahoe Poor, Expedition Marginal, Wagoneer TSP) matches FARS road ranking (Yukon 2.55, Tahoe 2.49, Expedition 2.31 vs Telluride 0.04 = 62x). Pre-panel catch: Wagoneer is body-on-frame (Ram 1500 DT), not unibody; corrected, which sharpened the thesis (engineering, not architecture). Fleet-age asterisk at full strength (89% of Tahoe deaths pre-2010). Kill-test: zero queue overlap (tahoe/expedition/suburban/palisade all empty). Queued SHIP_BLOCKED for 2027-06-08 (1/day; #1062 holds 2027-06-07). No publish (1/day rule; #777 published 2026-10-02)."
+    },
+    {
+      "number": 1064,
+      "slug": "1064-hyundai-veloster-deadliest-sober-drivers",
+      "title": "The Deadliest Car in America Has the Soberest Drivers. Blame the Car.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-09",
+      "started": "2026-10-03T17:30:00-07:00",
+      "critic_avg": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.9,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.1,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg_valid": true,
+        "hero_hash": "4aeba07e",
+        "actionable_insights": true,
+        "word_count": 825
+      },
+      "files": {
+        "research": "drafts/1064-hyundai-veloster-deadliest-sober-drivers-research.md",
+        "draft": "drafts/1064-hyundai-veloster-deadliest-sober-drivers.html",
+        "hero": "drafts/1064-hyundai-veloster-deadliest-sober-drivers.jpg",
+        "critic_panel": "drafts/1064-critic-panel-r0.md"
+      },
+      "note": "2026-10-03 17:30 run: #1064 (Veloster, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 7.1%, CSS pass). Novel: first rate x impairment x lab-rating x fleet-age cross-tab; #1 death-rate nameplate (Veloster 8.54) with below-average impairment (17.4% vs 20.0% fleet); the three deadliest cars per mile (Veloster, Tracker 7.83, Land Cruiser 6.27) all carry below-average impairment. Paradox: 5-star NHTSA vs IIHS Marginal small overlap. Pre-panel catches: (1) The-starter gate failed at 32.7% -> rewritten to 7.1%; (2) false 'same old-car mix' Equinox claim caught and replaced with verified distributions (Veloster 39/75% vs Equinox 21/46% pre-2010/pre-2015). Kill-test: zero queue overlap (veloster empty). Queued SHIP_BLOCKED for 2027-06-09 (1/day; #1063 holds 2027-06-08). No publish (1/day rule; #777 published 2026-10-02)."
     }
   ]
 }
