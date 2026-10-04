@@ -1,16 +1,25 @@
 {
-  "current": null,
-  "last_check_note": "#1063 queued SHIP_BLOCKED 2027-06-08; current=null",
-  "last_checked": "2026-10-03T15:30:00-07:00",
+  "current": {
+    "slug": "1064-hyundai-veloster-deadliest-sober-drivers",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-03T17:30:00-07:00",
+    "number": 1064,
+    "ship_date": "2027-06-09",
+    "title": "The Deadliest Car in America Has the Soberest Drivers, So Stop Blaming the Drivers",
+    "kicker": "Sobriety Report"
+  },
+  "last_check_note": "#1064 RESEARCH started (Veloster, Dale Impactor III); 1/day ok (0 published today)",
+  "last_checked": "2026-10-03T17:30:00-07:00",
   "last_completed": 1063,
   "last_completed_date": "2026-10-03",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1064,
+  "next": 1065,
   "queue": [
     {
       "journalist": "Rex Driverton",
