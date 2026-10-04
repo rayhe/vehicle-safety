@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1068-trailblazer-death-rate-reboot-artifact",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-04T01:30:00-07:00",
+    "number": 1068
+  },
   "last_check_note": "#1067 SHIP_BLOCKED 2027-06-12; current=null; no publish (1/day rule; #763 hero-blocked)",
   "last_checked": "2026-10-03T23:35:07.793256-07:00",
   "last_completed": 1067,
