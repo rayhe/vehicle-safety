@@ -1,16 +1,16 @@
 {
   "current": {
     "slug": "1072-ford-recall-leader-quality-paradox",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Vin Wreckage",
     "number": 1072,
-    "started": "2026-10-04T09:35:00-07:00"
+    "ship_date": "2027-06-17"
   },
-  "last_check_note": "#1071 SHIP_BLOCKED 2027-06-16; started #1072 (Vin Wreckage, Ford recall-leadership paradox) RESEARCH/DRAFT",
-  "last_checked": "2026-10-04T09:35:00-07:00",
-  "last_completed": 1071,
+  "last_check_note": "#1072 SHIP_BLOCKED 2027-06-17 (Vin Wreckage, Ford recall-leadership paradox, round-0 avg 8.80); current=#1072 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run), no publish this run; queue now 255 SHIP_BLOCKED",
+  "last_checked": "2026-10-04T09:45:00-07:00",
+  "last_completed": 1072,
   "last_completed_date": "2026-10-04",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": 780,
   "last_published_date": "2026-10-04",
   "last_published_slug": "powertrain-recall-explosion-251-percent",
@@ -10453,6 +10453,44 @@
         "hero_dim": "1920x1280",
         "hero_hash": "7f1063e0",
         "word_count": 731
+      }
+    },
+    {
+      "journalist": "Vin Wreckage",
+      "note": "2026-10-04 09:30 run: full pipeline (research, draft, hero JPEG 2048x1152 ?v=7ffaab45, round-0 panel). Round-0 VERDICT: SHIP (avg 8.80). 1/day gate consumed by Publish #780 (01:30 run), no publish this run.",
+      "number": 1072,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-17",
+      "slug": "1072-ford-recall-leader-quality-paradox",
+      "title": "Ford Issued 78 Recalls This Year. That's the Good News.",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "kicker": "Existential Dread",
+      "files": {
+        "research": "drafts/1072-ford-recall-leader-quality-paradox-research.md",
+        "story": "drafts/1072-ford-recall-leader-quality-paradox.html",
+        "hero": "drafts/1072-ford-recall-leader-quality-paradox.jpg",
+        "critic_panel": "drafts/1072-ford-recall-leader-quality-paradox-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "7ffaab45",
+        "word_count": 623
       }
     }
   ]
