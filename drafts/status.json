@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#1067 SHIP_BLOCKED 2027-06-12; current=null; no publish (1/day rule; #763 hero-blocked)",
+  "last_check_note": "#1068 SHIP_BLOCKED 2027-06-13; current=null; published #780 (due 2026-10-04; #763 still hero-less)",
   "last_checked": "2026-10-03T23:35:07.793256-07:00",
   "last_completed": 1068,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Axle McScatter",
-  "last_published": 777,
-  "last_published_date": "2026-10-02",
-  "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
+  "last_published": 780,
+  "last_published_date": "2026-10-04",
+  "last_published_slug": "powertrain-recall-explosion-251-percent",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
   "next": 1069,
@@ -273,9 +273,9 @@
         "the_starters_pct": 7.5
       },
       "journalist": "Axle McScatter",
-      "note": "2026-09-06 queue hygiene: moved from 2026-09-10 (double-booked with #808). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible.",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-10 (double-booked with #808). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible. | 2026-10-04 01:30 run: published as #780 (earliest-due SHIP_BLOCKED, first in queue order after #763 hero-block skip; 0 prior publishes today). Pre-ship fixes: dateline August 19 -> October 4, 2026; og:image -> absolute URL w/ hash 3e6898c2; added canonical/og:url/og:site_name/twitter card+title+description+image. Hero JPEG 2048x1152 real JPEG verified.",
       "number": 780,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "actionable_insights": 9.0,
         "ethics_reviewer": 9.0,
@@ -287,7 +287,13 @@
       },
       "ship_date": "2026-10-04",
       "slug": "powertrain-recall-explosion-251-percent",
-      "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update."
+      "title": "Powertrain Recalls Tripled Last Year. The Average Fix Takes Twenty Times Longer Than a Software Update.",
+      "publish_date": "2026-10-04",
+      "files": {
+        "story": "stories/powertrain-recall-explosion-251-percent.html",
+        "hero": "images/powertrain-recall-explosion-251-percent.jpg",
+        "research": "drafts/powertrain-recall-explosion-251-percent-research.md"
+      }
     },
     {
       "critic_avg": 9.07,
