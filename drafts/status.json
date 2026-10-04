@@ -1,10 +1,10 @@
 {
   "current": {
-    "slug": "1070-explorer-pilot-death-rate-gap",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Clara Rollover",
-    "number": 1070,
-    "ship_date": "2027-06-15"
+    "slug": "1071-vw-steering-bolt-4-million-recall",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "number": 1071,
+    "started": "2026-10-04T07:30:00-07:00"
   },
   "last_check_note": "#1070 SHIP_BLOCKED 2027-06-15 (Clara Rollover, Explorer vs Pilot 5.3x gap, round-0 avg 8.64); current=#1070 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run), no publish this run; queue now 253 SHIP_BLOCKED",
   "last_checked": "2026-10-04T05:30:00-07:00",
