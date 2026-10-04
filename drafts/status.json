@@ -1,22 +1,22 @@
 {
   "current": {
     "slug": "1071-vw-steering-bolt-4-million-recall",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
     "number": 1071,
-    "started": "2026-10-04T07:30:00-07:00"
+    "ship_date": "2027-06-16"
   },
-  "last_check_note": "#1070 SHIP_BLOCKED 2027-06-15 (Clara Rollover, Explorer vs Pilot 5.3x gap, round-0 avg 8.64); current=#1070 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run), no publish this run; queue now 253 SHIP_BLOCKED",
-  "last_checked": "2026-10-04T05:30:00-07:00",
-  "last_completed": 1070,
+  "last_check_note": "#1071 SHIP_BLOCKED 2027-06-16 (Mia Crumplezone, VW 4M steering screw recall, round-0 avg 8.79); current=#1071 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run), no publish this run; queue now 254 SHIP_BLOCKED",
+  "last_checked": "2026-10-04T07:30:00-07:00",
+  "last_completed": 1071,
   "last_completed_date": "2026-10-04",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 780,
   "last_published_date": "2026-10-04",
   "last_published_slug": "powertrain-recall-explosion-251-percent",
   "last_qa_date": "2026-10-04",
   "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
-  "next": 1071,
+  "next": 1072,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10416,6 +10416,44 @@
         "critic_panel": "drafts/1070-explorer-pilot-death-rate-gap-critic-panel-r0.md"
       },
       "note": "2026-10-04 05:30 run: round-0 panel VERDICT SHIP (avg 8.64); all hard gates pass. Explorer 1.54 vs Pilot 0.29 per 100M VMT (5.3x); tox dead heat 19.5/19.4%; police-interceptor confounder steelmanned. Ship fix: rhythm revision-1 (short-sentence gate 25.8->4.2%)."
+    },
+    {
+      "journalist": "Mia Crumplezone",
+      "note": "2026-10-04 07:30 run: full pipeline (research, draft, hero JPEG 1920x1280 ?v=7f1063e0, round-0 panel). Round-0 VERDICT: SHIP (avg 8.79). 1/day gate consumed by Publish #780 (01:30 run), no publish this run.",
+      "number": 1071,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-16",
+      "slug": "1071-vw-steering-bolt-4-million-recall",
+      "title": "The Biggest Recall Since Dieselgate Is Over a Single Screw",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "kicker": "Trend Watch",
+      "files": {
+        "research": "drafts/1071-vw-steering-bolt-4-million-recall-research.md",
+        "story": "drafts/1071-vw-steering-bolt-4-million-recall.html",
+        "hero": "drafts/1071-vw-steering-bolt-4-million-recall.jpg",
+        "critic_panel": "drafts/1071-vw-steering-bolt-4-million-recall-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7f1063e0",
+        "word_count": 731
+      }
     }
   ]
 }
