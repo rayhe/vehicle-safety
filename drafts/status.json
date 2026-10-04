@@ -1,16 +1,25 @@
 {
   "current": {
-    "slug": "1072-ford-recall-leader-quality-paradox",
+    "slug": "1073-twice-the-limit-015-cohort",
+    "number": 1073,
     "phase": "SHIP_BLOCKED",
-    "journalist": "Vin Wreckage",
-    "number": 1072,
-    "ship_date": "2027-06-17"
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-04T11:30:00-07:00",
+    "kicker": "Sobriety Report",
+    "round": 0,
+    "files": {
+      "research": "drafts/1073-twice-the-limit-015-cohort-research.md",
+      "story": "drafts/1073-twice-the-limit-015-cohort.html",
+      "hero": "drafts/1073-twice-the-limit-015-cohort.jpg",
+      "critic_panel": "drafts/1073-twice-the-limit-015-cohort-critic-panel-r0.md"
+    },
+    "ship_date": "2027-06-18"
   },
   "last_check_note": "#1072 SHIP_BLOCKED 2027-06-17 (Vin Wreckage, Ford recall-leadership paradox, round-0 avg 8.80); current=#1072 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run), no publish this run; queue now 255 SHIP_BLOCKED",
   "last_checked": "2026-10-04T09:45:00-07:00",
   "last_completed": 1072,
   "last_completed_date": "2026-10-04",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Dale Impactor III",
   "last_published": 780,
   "last_published_date": "2026-10-04",
   "last_published_slug": "powertrain-recall-explosion-251-percent",
@@ -10492,6 +10501,46 @@
         "hero_hash": "7ffaab45",
         "word_count": 623
       }
+    },
+    {
+      "critic_avg": 8.94,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1073-twice-the-limit-015-cohort-research.md",
+        "story": "drafts/1073-twice-the-limit-015-cohort.html",
+        "hero": "drafts/1073-twice-the-limit-015-cohort.jpg",
+        "critic_panel": "drafts/1073-twice-the-limit-015-cohort-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "dd114577",
+        "word_count": 821,
+        "rhythm": "pass (variance 615.8, short 9.1%, long 31.8%)"
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-10-04 11:30 run: #1073 (NHTSA 2024 alcohol data, Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 6.2%, rhythm PASS, hero JPEG 2048x1152 ?v=dd114577; round-0 repair: added ref-7 for 837 interlock figure). Novel: 0.15+ tail decomposition (68%/8,097 of alcohol deaths; 20.6% of ALL traffic deaths), 0.08-0.14 band is only 32% minority, restraint gradient 65/57/41, counterfactual ceiling vs 837/yr capture. Zero prior 0.15-cohort coverage in queue. 6 primary/secondary sources. Queued SHIP_BLOCKED for 2027-06-18 (latest + 1 day; 1/day; #1072 at 2027-06-17).",
+      "number": 1073,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "ship_date": "2027-06-18",
+      "slug": "1073-twice-the-limit-015-cohort",
+      "started": "2026-10-04T11:30:00-07:00",
+      "title": "Twice the Limit, No Seatbelt: The Drunk-Driving Epidemic Is a 0.15 Problem"
     }
   ]
 }
