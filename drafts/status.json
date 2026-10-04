@@ -116,7 +116,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04).",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780).",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
