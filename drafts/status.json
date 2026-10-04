@@ -1,17 +1,20 @@
 {
   "current": {
     "slug": "ford-led-chip-total-lighting-loss",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
     "started": "2026-10-03T23:31:00.315910-07:00",
     "number": 1067,
-    "research": "drafts/1067-ford-led-chip-total-lighting-loss-research.md"
+    "research": "drafts/1067-ford-led-chip-total-lighting-loss-research.md",
+    "round": 0,
+    "story": "drafts/1067-ford-led-chip-total-lighting-loss.html",
+    "hero": "drafts/1067-ford-led-chip-total-lighting-loss.jpg"
   },
   "last_check_note": "#1066 SHIP_BLOCKED 2027-06-11; current=null; no publish (1/day rule; #763 hero-blocked)",
   "last_checked": "2026-10-03T19:34:04.639589-07:00",
   "last_completed": 1066,
   "last_completed_date": "2026-10-03",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
