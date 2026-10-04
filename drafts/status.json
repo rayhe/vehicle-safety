@@ -2,18 +2,22 @@
   "current": {
     "slug": "1074-ct5-five-star-poor-gap",
     "number": 1074,
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Axle McScatter",
     "started": "2026-10-04T13:35:00-07:00",
     "kicker": "The Gap",
     "round": 0,
+    "ship_date": "2027-06-19",
     "files": {
-      "research": "drafts/1074-ct5-five-star-poor-gap-research.md"
+      "research": "drafts/1074-ct5-five-star-poor-gap-research.md",
+      "story": "drafts/1074-ct5-five-star-poor-gap.html",
+      "hero": "drafts/1074-ct5-five-star-poor-gap.jpg",
+      "critic_panel": "drafts/1074-ct5-five-star-poor-gap-critic-panel-r0.md"
     }
   },
-  "last_check_note": "#1072 SHIP_BLOCKED 2027-06-17 (Vin Wreckage, Ford recall-leadership paradox, round-0 avg 8.80); current=#1072 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run), no publish this run; queue now 255 SHIP_BLOCKED",
-  "last_checked": "2026-10-04T09:45:00-07:00",
-  "last_completed": 1072,
+  "last_check_note": "#1074 SHIP_BLOCKED 2027-06-19 (Axle McScatter, CT5 5-star-vs-double-Poor gap, round-0 avg 8.86); current=#1074 SHIP_BLOCKED; 1/day gate consumed by Publish #780 (01:30 run); only due entry #763 still hero-less; no publish this run; queue now 257 SHIP_BLOCKED",
+  "last_checked": "2026-10-04T13:55:00-07:00",
+  "last_completed": 1074,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Axle McScatter",
   "last_published": 780,
@@ -10537,6 +10541,33 @@
       "slug": "1073-twice-the-limit-015-cohort",
       "started": "2026-10-04T11:30:00-07:00",
       "title": "Twice the Limit, No Seatbelt: The Drunk-Driving Epidemic Is a 0.15 Problem"
+    },
+    {
+      "number": 1074,
+      "slug": "1074-ct5-five-star-poor-gap",
+      "title": "The CT5 Earned Five Stars and Two Poors. Both Are True.",
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-19",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1074-ct5-five-star-poor-gap-research.md",
+        "story": "drafts/1074-ct5-five-star-poor-gap.html",
+        "hero": "drafts/1074-ct5-five-star-poor-gap.jpg",
+        "critic_panel": "drafts/1074-ct5-five-star-poor-gap-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "word_count": 819
+      },
+      "note": "2026-10-04 13:30 run: research, draft, hero JPEG 2048x1152, round-0 panel VERDICT: SHIP (avg 8.86). CT5 NHTSA-5-star vs IIHS double-Poor ratings gap; original 82% side-test energy verification + 4-of-5 batch rear-occupant miss pattern."
     }
   ]
 }
