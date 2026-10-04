@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1068-trailblazer-death-rate-reboot-artifact",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-04T01:30:00-07:00",
-    "number": 1068
-  },
+  "current": null,
   "last_check_note": "#1067 SHIP_BLOCKED 2027-06-12; current=null; no publish (1/day rule; #763 hero-blocked)",
   "last_checked": "2026-10-03T23:35:07.793256-07:00",
-  "last_completed": 1067,
-  "last_completed_date": "2026-10-03",
-  "last_journalist": "Mia Crumplezone",
+  "last_completed": 1068,
+  "last_completed_date": "2026-10-04",
+  "last_journalist": "Axle McScatter",
   "last_published": 777,
   "last_published_date": "2026-10-02",
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1068,
+  "next": 1069,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10286,6 +10280,49 @@
         "critic_panel": "drafts/1067-critic-panel-r1.md"
       },
       "note": "2026-10-03 23:30 run: #1067 (Ford 26C43 LED chip total-lighting-loss) passed critique round 1 (avg 8.76, legal 8.2->8.7 after revisions: announced-not-filed wording, dropped unverified price claim, NYT citation via verified mirror). SHIP_BLOCKED 2027-06-12 (1 day after #1066)."
+    },
+    {
+      "number": 1068,
+      "slug": "1068-trailblazer-death-rate-reboot-artifact",
+      "title": "The Chart Says the Trailblazer Is America's Deadliest SUV. The Chart Is Counting the Wrong Truck.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-13",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "317451ff",
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 340.7,
+          "short_pct": 6.2,
+          "long_pct": 40.6
+        }
+      },
+      "files": {
+        "research": "drafts/1068-trailblazer-death-rate-reboot-artifact-research.md",
+        "draft": "drafts/1068-trailblazer-death-rate-reboot-artifact.html",
+        "hero": "drafts/1068-trailblazer-death-rate-reboot-artifact.jpg",
+        "critic_panel": "drafts/1068-critic-panel-r0.md"
+      },
+      "note": "2026-10-04 01:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5). Novel: first FARS_BY_MODEL x FARS_MODEL_YEAR cross-tab quantifying the nameplate-reboot artifact (Trailblazer 98.7% pre-2021 deaths, Ranger 98.3% pre-2019, Blazer 89.9% pre-2019). Gates: em 0, banned 0, The 0%, rhythm PASS, hero JPEG 1920x1280 ?v=317451ff. Dateline pre-set to ship_date June 13, 2027."
     }
   ]
 }
