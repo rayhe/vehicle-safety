@@ -1,16 +1,16 @@
 {
   "current": {
     "slug": "1069-altima-five-stars-triple-deaths",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Rex Driverton",
-    "started": "2026-10-04T03:30:00-07:00",
-    "number": 1069
+    "number": 1069,
+    "ship_date": "2027-06-14"
   },
   "last_check_note": "#1068 SHIP_BLOCKED 2027-06-13; current=null; published+QA #780 (due 2026-10-04; #763 still hero-less)",
   "last_checked": "2026-10-04T01:45:00-07:00",
-  "last_completed": 1068,
+  "last_completed": 1069,
   "last_completed_date": "2026-10-04",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": 780,
   "last_published_date": "2026-10-04",
   "last_published_slug": "powertrain-recall-explosion-251-percent",
@@ -10335,6 +10335,49 @@
         "critic_panel": "drafts/1068-critic-panel-r0.md"
       },
       "note": "2026-10-04 01:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5). Novel: first FARS_BY_MODEL x FARS_MODEL_YEAR cross-tab quantifying the nameplate-reboot artifact (Trailblazer 98.7% pre-2021 deaths, Ranger 98.3% pre-2019, Blazer 89.9% pre-2019). Gates: em 0, banned 0, The 0%, rhythm PASS, hero JPEG 1920x1280 ?v=317451ff. Dateline pre-set to ship_date June 13, 2027."
+    },
+    {
+      "number": 1069,
+      "slug": "1069-altima-five-stars-triple-deaths",
+      "title": "NHTSA Gave the Altima Five Stars; the Road Gave It 4,787 Bodies.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-14",
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "4f4501d4",
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 1365.4,
+          "short_pct": 5.6,
+          "long_pct": 61.1
+        }
+      },
+      "files": {
+        "research": "drafts/1069-altima-five-stars-triple-deaths-research.md",
+        "draft": "drafts/1069-altima-five-stars-triple-deaths.html",
+        "hero": "drafts/1069-altima-five-stars-triple-deaths.jpg",
+        "critic_panel": "drafts/1069-altima-five-stars-triple-deaths-critic-panel-r0.md"
+      },
+      "note": "2026-10-04 03:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.71, all 7 >= 8.5). Novel: impairment-controlled Altima/Corolla head-to-head (2.88 vs 1.85 = 56% gap; impairment 20.0% vs 19.2% rules out DUI explanation) + model-year persistence (elevated 2000-2023, all generations) + IIHS independent confirmation (113 vs 38 avg driver deaths/million vehicle-years, ~3x). Draft failed rhythm gate once (short 40.4%); rewrote with fused long constructions, now PASS. Gates: em 0, banned 0, The 5.9%, hero JPEG 1920x1280 ?v=4f4501d4. Dateline pre-set to ship_date June 14, 2027."
     }
   ]
 }
