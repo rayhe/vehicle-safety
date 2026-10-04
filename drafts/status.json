@@ -1,15 +1,15 @@
 {
   "current": null,
-  "last_check_note": "#1068 SHIP_BLOCKED 2027-06-13; current=null; published #780 (due 2026-10-04; #763 still hero-less)",
-  "last_checked": "2026-10-03T23:35:07.793256-07:00",
+  "last_check_note": "#1068 SHIP_BLOCKED 2027-06-13; current=null; published+QA #780 (due 2026-10-04; #763 still hero-less)",
+  "last_checked": "2026-10-04T01:45:00-07:00",
   "last_completed": 1068,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Axle McScatter",
   "last_published": 780,
   "last_published_date": "2026-10-04",
   "last_published_slug": "powertrain-recall-explosion-251-percent",
-  "last_qa_date": "2026-10-02",
-  "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
+  "last_qa_date": "2026-10-04",
+  "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
   "next": 1069,
   "queue": [
     {
@@ -273,7 +273,7 @@
         "the_starters_pct": 7.5
       },
       "journalist": "Axle McScatter",
-      "note": "2026-09-06 queue hygiene: moved from 2026-09-10 (double-booked with #808). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible. | 2026-10-04 01:30 run: published as #780 (earliest-due SHIP_BLOCKED, first in queue order after #763 hero-block skip; 0 prior publishes today). Pre-ship fixes: dateline August 19 -> October 4, 2026; og:image -> absolute URL w/ hash 3e6898c2; added canonical/og:url/og:site_name/twitter card+title+description+image. Hero JPEG 2048x1152 real JPEG verified.",
+      "note": "2026-09-06 queue hygiene: moved from 2026-09-10 (double-booked with #808). Newer sequence #805-#810 keeps Sep 7-12 (time-pegged: #806 'this week', #807 Labor Day weekend). This evergreen piece re-slotted to next free date. Reversible. | 2026-10-04 01:30 run: published as #780 (earliest-due SHIP_BLOCKED, first in queue order after #763 hero-block skip; 0 prior publishes today). Pre-ship fixes: dateline August 19 -> October 4, 2026; og:image -> absolute URL w/ hash 3e6898c2; added canonical/og:url/og:site_name/twitter card+title+description+image. Hero JPEG 2048x1152 real JPEG verified. | 2026-10-04 QA: verified Publish #780 live (story 200 via .html->redirect, hero JPEG 200 real JPEG, og:title/og:description/og:image present, index card present, sitemap present).",
       "number": 780,
       "phase": "PUBLISHED",
       "scores": {
