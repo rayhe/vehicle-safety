@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1069-altima-five-stars-triple-deaths",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-04T03:30:00-07:00",
+    "number": 1069
+  },
   "last_check_note": "#1068 SHIP_BLOCKED 2027-06-13; current=null; published+QA #780 (due 2026-10-04; #763 still hero-less)",
   "last_checked": "2026-10-04T01:45:00-07:00",
   "last_completed": 1068,
@@ -10,7 +16,7 @@
   "last_published_slug": "powertrain-recall-explosion-251-percent",
   "last_qa_date": "2026-10-04",
   "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
-  "next": 1069,
+  "next": 1070,
   "queue": [
     {
       "journalist": "Rex Driverton",
