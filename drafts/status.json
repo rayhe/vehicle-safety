@@ -1,18 +1,8 @@
 {
-  "current": {
-    "slug": "ford-led-chip-total-lighting-loss",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-03T23:31:00.315910-07:00",
-    "number": 1067,
-    "research": "drafts/1067-ford-led-chip-total-lighting-loss-research.md",
-    "round": 0,
-    "story": "drafts/1067-ford-led-chip-total-lighting-loss.html",
-    "hero": "drafts/1067-ford-led-chip-total-lighting-loss.jpg"
-  },
+  "current": null,
   "last_check_note": "#1066 SHIP_BLOCKED 2027-06-11; current=null; no publish (1/day rule; #763 hero-blocked)",
   "last_checked": "2026-10-03T19:34:04.639589-07:00",
-  "last_completed": 1066,
+  "last_completed": 1067,
   "last_completed_date": "2026-10-03",
   "last_journalist": "Mia Crumplezone",
   "last_published": 777,
@@ -20,7 +10,7 @@
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1067,
+  "next": 1068,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10250,6 +10240,46 @@
         "critic_panel": "drafts/1066-critic-panel-r0.md"
       },
       "note": "2026-10-03 21:30 run: #1066 (E-350 vs E-150/E-250 within-lineup rollover gap + NHTSA Fishhook-removal RFC, Rex Driverton) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (mean 8.96, all 7 >= 8.5; gates: em 0, banned 0, The 12.9%, rhythm PASS). Novel: 7.2x/8.1x within-lineup rate gap (E-350 2.51 vs E-150 0.35 vs E-250 0.31) + sobriety inversion (deadliest = soberest, 15.7% vs 22.1%/19.0%) + NHTSA own 15-passenger occupancy rollover ratios (12.3%/35.4%/70%) + docket NHTSA-2026-1651 comment deadline Oct 16, 2026. Zero E-150/E-250/15-passenger/NCAP-cut coverage in 826 stories + queue (grep-verified). Queued SHIP_BLOCKED for 2027-06-11 (1/day; #1065 holds 2027-06-10). No publish (1/day rule; nothing due except hero-blocked #763)."
+    },
+    {
+      "number": 1067,
+      "slug": "1067-ford-led-chip-total-lighting-loss",
+      "title": "One Chip, Four Dead Lights: Ford's Headlight Recall Is a Masterclass in Single Points of Failure",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-12",
+      "started": "2026-10-03T23:31:00.315910-07:00",
+      "critic_avg": 8.76,
+      "critique_round": 1,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.9,
+        "css_class_story": true,
+        "style_css": true,
+        "rhythm": "pass (variance 871.4, short 0.0%, long 47.4%)",
+        "hero_jpeg_valid": true,
+        "hero_hash": "724e61e8",
+        "actionable_insights": true,
+        "word_count": 1085
+      },
+      "files": {
+        "research": "drafts/1067-ford-led-chip-total-lighting-loss-research.md",
+        "draft": "drafts/1067-ford-led-chip-total-lighting-loss.html",
+        "hero": "drafts/1067-ford-led-chip-total-lighting-loss.jpg",
+        "critic_panel": "drafts/1067-critic-panel-r1.md"
+      },
+      "note": "2026-10-03 23:30 run: #1067 (Ford 26C43 LED chip total-lighting-loss) passed critique round 1 (avg 8.76, legal 8.2->8.7 after revisions: announced-not-filed wording, dropped unverified price claim, NYT citation via verified mirror). SHIP_BLOCKED 2027-06-12 (1 day after #1066)."
     }
   ]
 }
