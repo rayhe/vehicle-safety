@@ -1,5 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "ford-led-chip-total-lighting-loss",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-03T23:31:00.315910-07:00",
+    "number": 1067,
+    "research": "drafts/1067-ford-led-chip-total-lighting-loss-research.md"
+  },
   "last_check_note": "#1066 SHIP_BLOCKED 2027-06-11; current=null; no publish (1/day rule; #763 hero-blocked)",
   "last_checked": "2026-10-03T19:34:04.639589-07:00",
   "last_completed": 1066,
@@ -10,7 +17,7 @@
   "last_published_slug": "bmw-driveshaft-seven-recalls-adhesive-fix",
   "last_qa_date": "2026-10-02",
   "last_qa_note": "2026-10-02 01:30 run: QA-verified Publish #777 live (bmw-driveshaft-seven-recalls-adhesive-fix.html): story 200, hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card + sitemap present. Hero generated this run (prior runs never made one). Queue: 229 SHIP_BLOCKED remaining (763 still hero-less), next publish candidate #780 (due 2026-10-04).",
-  "next": 1066,
+  "next": 1067,
   "queue": [
     {
       "journalist": "Rex Driverton",
