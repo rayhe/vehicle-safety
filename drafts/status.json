@@ -1,22 +1,22 @@
 {
   "current": {
-    "slug": "1075-ranger-recall-follows-the-part",
-    "number": 1075,
+    "slug": "1076-vw-atlas-water-pump-settlement-deadline",
+    "number": 1076,
     "phase": "SHIP_BLOCKED",
     "journalist": "Clara Rollover",
     "kicker": "The Gap",
-    "started": "2026-10-04T23:35:00-07:00",
+    "started": "2026-10-05T01:30:00-07:00",
     "round": 0,
-    "ship_date": "2027-06-20",
+    "ship_date": "2027-06-21",
     "files": {
-      "research": "drafts/1075-ranger-recall-follows-the-part-research.md",
-      "story": "drafts/1075-ranger-recall-follows-the-part.html",
-      "hero": "drafts/1075-ranger-recall-follows-the-part.jpg",
-      "critic_panel": "drafts/1075-ranger-recall-follows-the-part-critic-panel-r0.md"
+      "research": "drafts/1076-vw-atlas-water-pump-settlement-deadline-research.md",
+      "story": "drafts/1076-vw-atlas-water-pump-settlement-deadline.html",
+      "hero": "drafts/1076-vw-atlas-water-pump-settlement-deadline.jpg",
+      "critic_panel": "drafts/1076-vw-atlas-water-pump-settlement-deadline-critic-panel-r0.md"
     }
   },
-  "last_check_note": "#782 published (Dale Impactor III, toxicology backlog); #763 hero-less skip noted. 1/day gate consumed.",
-  "last_checked": "2026-10-05T01:35:00-07:00",
+  "last_check_note": "#1076 researched, drafted, critiqued (r0), SHIP_BLOCKED 2027-06-21 (Clara Rollover, VW Atlas water pump settlement deadline). #782 published this run; 1/day gate consumed.",
+  "last_checked": "2026-10-05T01:55:00-07:00",
   "last_completed": 1075,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Clara Rollover",
@@ -25,7 +25,7 @@
   "last_published_slug": "782-toxicology-backlog-evidence-expires",
   "last_qa_date": "2026-10-04",
   "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
-  "next": 1076,
+  "next": 1077,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -8919,8 +8919,8 @@
       "number": 1034,
       "ship_date": "2027-05-10",
       "slug": "1034-kia-youngest-fleet-safest-brand",
-      "status": "SHIP_BLOCKED",
-      "title": "Kia Is the Safest Mainstream Brand in America. Its Cars Are Also the Youngest."
+      "title": "Kia Is the Safest Mainstream Brand in America. Its Cars Are Also the Youngest.",
+      "phase": "SHIP_BLOCKED"
     },
     {
       "critique": {
@@ -10601,6 +10601,47 @@
         "word_count": 771
       },
       "note": "2026-10-04 23:30 run: research, draft, hero JPEG 2048x1152, round-0 panel VERDICT: SHIP (avg 8.79). Ranger 26E065000 equipment campaign (46 service replacement screens) vs 26V605000 vehicle campaign; VIN-vs-part tracking gap with dealer part-date check as consumer action."
+    },
+    {
+      "number": 1076,
+      "slug": "1076-vw-atlas-water-pump-settlement-deadline",
+      "title": "VW Chose a Courtroom Over a Recall. Your Atlas Water Pump Claim Expires Today.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "ship_date": "2027-06-21",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.4,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 255.9,
+          "short_pct": 11.1,
+          "long_pct": 40.7
+        },
+        "hero_jpeg": true
+      },
+      "files": {
+        "research": "drafts/1076-vw-atlas-water-pump-settlement-deadline-research.md",
+        "story": "drafts/1076-vw-atlas-water-pump-settlement-deadline.html",
+        "hero": "drafts/1076-vw-atlas-water-pump-settlement-deadline.jpg",
+        "critic_panel": "drafts/1076-vw-atlas-water-pump-settlement-deadline-critic-panel-r0.md"
+      },
+      "note": "2026-10-05 01:30 run: round-0 panel VERDICT: SHIP (avg 8.79). Briggs v. VW Atlas water pump settlement (D.N.J.); recall-vs-settlement mechanism story. TIMELINESS FLAG: claim deadline Oct 5, 2026 expires before ship date; verify no late-filing extension before publish. #1034 status->phase key hygiene applied."
     }
   ]
 }
