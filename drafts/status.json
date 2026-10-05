@@ -1,31 +1,30 @@
 {
   "current": {
-    "slug": "1074-ct5-five-star-poor-gap",
-    "number": 1074,
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-04T13:35:00-07:00",
+    "slug": "1075-ranger-recall-follows-the-part",
+    "number": 1075,
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
     "kicker": "The Gap",
+    "started": "2026-10-04T23:35:00-07:00",
     "round": 0,
-    "ship_date": "2027-06-19",
     "files": {
-      "research": "drafts/1074-ct5-five-star-poor-gap-research.md",
-      "story": "drafts/1074-ct5-five-star-poor-gap.html",
-      "hero": "drafts/1074-ct5-five-star-poor-gap.jpg",
-      "critic_panel": "drafts/1074-ct5-five-star-poor-gap-critic-panel-r0.md"
+      "research": "drafts/1075-ranger-recall-follows-the-part-research.md",
+      "story": "drafts/1075-ranger-recall-follows-the-part.html",
+      "hero": "drafts/1075-ranger-recall-follows-the-part.jpg",
+      "critic_panel": "drafts/1075-ranger-recall-follows-the-part-critic-panel-r0.md"
     }
   },
-  "last_check_note": "#1074 SHIP_BLOCKED 2027-06-19 (Axle McScatter, CT5 5-star-vs-double-Poor gap); 1/day gate consumed (4 Publish commits today, incl. #780 at 01:30); only due entry #763 ev-fire-blanket-explosion-risk still hero-less (no .jpg in drafts/); no publish this run; queue 257 SHIP_BLOCKED",
-  "last_checked": "2026-10-04T21:30:00-07:00",
+  "last_check_note": "#1074 SHIP_BLOCKED 2027-06-19 already in queue; current pointer cleared. #1075 RESEARCH done (Ranger 26E065000 equipment campaign, 46 service screens); current=#1075 DRAFT.",
+  "last_checked": "2026-10-04T23:35:00-07:00",
   "last_completed": 1074,
   "last_completed_date": "2026-10-04",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Clara Rollover",
   "last_published": 780,
   "last_published_date": "2026-10-04",
   "last_published_slug": "powertrain-recall-explosion-251-percent",
   "last_qa_date": "2026-10-04",
   "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
-  "next": 1075,
+  "next": 1076,
   "queue": [
     {
       "journalist": "Rex Driverton",
