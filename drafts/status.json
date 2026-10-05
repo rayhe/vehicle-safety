@@ -2,11 +2,12 @@
   "current": {
     "slug": "1075-ranger-recall-follows-the-part",
     "number": 1075,
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Clara Rollover",
     "kicker": "The Gap",
     "started": "2026-10-04T23:35:00-07:00",
     "round": 0,
+    "ship_date": "2027-06-20",
     "files": {
       "research": "drafts/1075-ranger-recall-follows-the-part-research.md",
       "story": "drafts/1075-ranger-recall-follows-the-part.html",
@@ -14,9 +15,9 @@
       "critic_panel": "drafts/1075-ranger-recall-follows-the-part-critic-panel-r0.md"
     }
   },
-  "last_check_note": "#1074 SHIP_BLOCKED 2027-06-19 already in queue; current pointer cleared. #1075 RESEARCH done (Ranger 26E065000 equipment campaign, 46 service screens); current=#1075 DRAFT.",
-  "last_checked": "2026-10-04T23:35:00-07:00",
-  "last_completed": 1074,
+  "last_check_note": "#1075 SHIP_BLOCKED 2027-06-20 (Clara Rollover, Ranger 26E065000 equipment recall); queued. 1/day publish gate consumed (4 Publish commits today); no publish this run.",
+  "last_checked": "2026-10-04T23:55:00-07:00",
+  "last_completed": 1075,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Clara Rollover",
   "last_published": 780,
@@ -10567,6 +10568,34 @@
         "word_count": 819
       },
       "note": "2026-10-04 13:30 run: research, draft, hero JPEG 2048x1152, round-0 panel VERDICT: SHIP (avg 8.86). CT5 NHTSA-5-star vs IIHS double-Poor ratings gap; original 82% side-test energy verification + 4-of-5 batch rear-occupant miss pattern."
+    },
+    {
+      "number": 1075,
+      "slug": "1075-ranger-recall-follows-the-part",
+      "title": "Ford Recalled 11,405 Rangers. Then It Recalled the Replacement Screens Too.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-20",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1075-ranger-recall-follows-the-part-research.md",
+        "story": "drafts/1075-ranger-recall-follows-the-part.html",
+        "hero": "drafts/1075-ranger-recall-follows-the-part.jpg",
+        "critic_panel": "drafts/1075-ranger-recall-follows-the-part-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "00f9efa8",
+        "word_count": 771
+      },
+      "note": "2026-10-04 23:30 run: research, draft, hero JPEG 2048x1152, round-0 panel VERDICT: SHIP (avg 8.79). Ranger 26E065000 equipment campaign (46 service replacement screens) vs 26V605000 vehicle campaign; VIN-vs-part tracking gap with dealer part-date check as consumer action."
     }
   ]
 }
