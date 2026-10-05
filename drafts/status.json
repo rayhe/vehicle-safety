@@ -15,8 +15,8 @@
       "critic_panel": "drafts/1076-vw-atlas-water-pump-settlement-deadline-critic-panel-r0.md"
     }
   },
-  "last_check_note": "PUBLISH-QUEUE: 1/day gate consumed (3 Publish # commits today incl. #782); #763 still hero-blocked (policy-blocked fire imagery), skipped per hero-gate rule, cadence preserved; no hero-ready due article. No new research started (current #1076 SHIP_BLOCKED complete for 2027-06-21; queue backlog 282 entries, extends 259 days out). Queue hygiene note: entry for 1017-one-car-recall-pcm-board lacks number/phase/ship_date keys (pre-existing malformed entry, inert, flagged not fixed).",
-  "last_checked": "2026-10-05T13:30:00-07:00",
+  "last_check_note": "PUBLISH-QUEUE: 1/day gate consumed (4 Publish # commits today); #763 still hero-blocked (policy-blocked fire imagery), skipped per hero-gate rule, cadence preserved; no hero-ready due article. No new research started (current #1076 SHIP_BLOCKED queued for 2027-06-21; queue backlog 282 entries, extends to 2027-06-21).",
+  "last_checked": "2026-10-05T15:30:00-07:00",
   "last_completed": 1075,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Clara Rollover",
