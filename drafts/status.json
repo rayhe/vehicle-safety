@@ -15,16 +15,16 @@
       "critic_panel": "drafts/1076-vw-atlas-water-pump-settlement-deadline-critic-panel-r0.md"
     }
   },
-  "last_check_note": "#1076 researched, drafted, critiqued (r0), SHIP_BLOCKED 2027-06-21 (Clara Rollover, VW Atlas water pump settlement deadline). #782 published this run; 1/day gate consumed.",
-  "last_checked": "2026-10-05T01:55:00-07:00",
+  "last_check_note": "Run complete: #782 published + QA-verified live; #763 hero-less skip noted; #1076 researched/drafted/critiqued/queued SHIP_BLOCKED 2027-06-21.",
+  "last_checked": "2026-10-05T02:05:00-07:00",
   "last_completed": 1075,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Clara Rollover",
   "last_published": 782,
   "last_published_date": "2026-10-05",
   "last_published_slug": "782-toxicology-backlog-evidence-expires",
-  "last_qa_date": "2026-10-04",
-  "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
+  "last_qa_date": "2026-10-05",
+  "last_qa_note": "2026-10-05 02:00 run: QA-verified Publish #782 live (782-toxicology-backlog-evidence-expires): story 200 (CF extensionless redirect), hero JPEG 200 (485079 bytes), og tags present, index card + sitemap present.",
   "next": 1077,
   "queue": [
     {
@@ -361,7 +361,7 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
-      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-05 01:30 run: published as Publish #782 (earliest-due SHIP_BLOCKED with hero; 0 prior publishes today). Gates re-verified: em 0, banned 0, The 12.5%, css ok, hero JPEG ?v=b4ea7089.",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-05 01:30 run: published as Publish #782 (earliest-due SHIP_BLOCKED with hero; 0 prior publishes today). Gates re-verified: em 0, banned 0, The 12.5%, css ok, hero JPEG ?v=b4ea7089. | QA 2026-10-05 02:00 run: live verified (story 200 via CF extensionless redirect, hero JPEG 200 image/jpeg 485079B, og:title/og:description/og:image present with ?v=b4ea7089, index card + sitemap present).",
       "number": 782,
       "phase": "PUBLISHED",
       "scores": {
