@@ -15,14 +15,14 @@
       "critic_panel": "drafts/1075-ranger-recall-follows-the-part-critic-panel-r0.md"
     }
   },
-  "last_check_note": "#1075 SHIP_BLOCKED 2027-06-20 (Clara Rollover, Ranger 26E065000 equipment recall); queued. 1/day publish gate consumed (4 Publish commits today); no publish this run.",
-  "last_checked": "2026-10-04T23:55:00-07:00",
+  "last_check_note": "#782 published (Dale Impactor III, toxicology backlog); #763 hero-less skip noted. 1/day gate consumed.",
+  "last_checked": "2026-10-05T01:35:00-07:00",
   "last_completed": 1075,
   "last_completed_date": "2026-10-04",
   "last_journalist": "Clara Rollover",
-  "last_published": 780,
-  "last_published_date": "2026-10-04",
-  "last_published_slug": "powertrain-recall-explosion-251-percent",
+  "last_published": 782,
+  "last_published_date": "2026-10-05",
+  "last_published_slug": "782-toxicology-backlog-evidence-expires",
   "last_qa_date": "2026-10-04",
   "last_qa_note": "2026-10-04 01:30 run: QA-verified Publish #780 live (powertrain-recall-explosion-251-percent.html): story 200, hero JPEG 200 (2048x1152, FF D8), og:title/og:description/og:image present, index card + sitemap present. Deploy picked up publish commit within ~1 min. Queue: 251 SHIP_BLOCKED remaining (763 still hero-less), #1068 queued 2027-06-13.",
   "next": 1076,
@@ -116,7 +116,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact.",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-05 01:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, cadence preserved by #782 publish.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -361,9 +361,9 @@
       },
       "journalist": "Dale Impactor III",
       "kicker": "Sobriety Report",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-05 01:30 run: published as Publish #782 (earliest-due SHIP_BLOCKED with hero; 0 prior publishes today). Gates re-verified: em 0, banned 0, The 12.5%, css ok, hero JPEG ?v=b4ea7089.",
       "number": 782,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "actionable_insights": 9.0,
         "ethics_reviewer": 9.0,
@@ -374,9 +374,14 @@
         "voice_coach": 9.0
       },
       "ship_date": "2026-10-05",
-      "slug": "toxicology-backlog-evidence-expires",
+      "slug": "782-toxicology-backlog-evidence-expires",
       "started": "2026-08-19T10:30:00Z",
-      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours."
+      "title": "DUI Blood Tests Take 370 Days to Process. The Drugs Leave Your System in 72 Hours.",
+      "files": {
+        "research": "drafts/toxicology-backlog-evidence-expires-research.md",
+        "story": "stories/782-toxicology-backlog-evidence-expires.html",
+        "hero": "images/782-toxicology-backlog-evidence-expires.jpg"
+      }
     },
     {
       "critic_avg": 9.07,
