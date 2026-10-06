@@ -1,18 +1,10 @@
 {
-  "current": {
-    "number": 1081,
-    "slug": "1081-older-drivers-refuse-to-get-safer",
-    "title": "Everyone Else Got Safer. Drivers Over 65 Didn't Get the Memo.",
-    "journalist": "Axle McScatter",
-    "kicker": "By The Numbers",
-    "phase": "DRAFT",
-    "started": "2026-10-06T09:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-06 07:30 run: 1/day gate consumed by Publish #790 (3 grep hits incl. 2 status commits; 1 actual Publish # commit today); #763 hero-blocked skip re-confirmed (no hero file, policy-blocked generation); current=null; no new research (backlog healthy: 262 SHIP_BLOCKED, queue to 2027-06-25; candidate angles verified saturated: Cummins L9 26E066->#1046, VW steering bolt->#1071, Ford LED chip->#1067/#1078, GM L87->#864, Cybercab AQ26002->#839/#844/#887/#949, Model 3 door petition DP25-002->#761, Model Y door probe->door-egress-step-zero research, Rivian R2->#1047, Solara sober-killer->3 prior stories).",
   "last_checked": "2026-10-06T09:30:00-07:00",
-  "last_completed": 1080,
+  "last_completed": "2026-10-06T09:30:00-07:00",
   "last_completed_date": "2026-10-06",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": 790,
   "last_published_date": "2026-10-06",
   "last_published_slug": "790-gm-eboost-1-million-brakes-fail-mid-stop",
@@ -109,7 +101,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-05 01:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, cadence preserved by #782 publish. | 2026-10-05 03:30 run: hero-less skip re-confirmed (policy-blocked generation); 1/day slot already consumed today by 2 publishes — skipped, cadence not stalled. | 2026-10-05 07:30 run: still hero-blocked (policy-blocked fire imagery); 1/day slot already consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 09:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 11:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publish-related commits today); skipped per gate rule, cadence preserved. | 2026-10-05 13:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 19:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (4 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-06 01:30 run: skipped again (hero policy-blocked, no image); cadence preserved via #790. | 2026-10-06 05:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, 1/day gate consumed by #790; cadence preserved.",
+      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-05 01:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, cadence preserved by #782 publish. | 2026-10-05 03:30 run: hero-less skip re-confirmed (policy-blocked generation); 1/day slot already consumed today by 2 publishes — skipped, cadence not stalled. | 2026-10-05 07:30 run: still hero-blocked (policy-blocked fire imagery); 1/day slot already consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 09:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 11:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publish-related commits today); skipped per gate rule, cadence preserved. | 2026-10-05 13:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 19:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (4 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-06 01:30 run: skipped again (hero policy-blocked, no image); cadence preserved via #790. | 2026-10-06 05:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, 1/day gate consumed by #790; cadence preserved. 2026-10-06 09:30 run: still hero-less (policy-blocked generation); skipped per blocked-hero rule so it cannot stall the 1/day cadence. No other SHIP_BLOCKED entries were due today; 1/day gate already consumed by 4 publishes today.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -10771,6 +10763,50 @@
         "critic_panel": "drafts/1080-critic-panel-r0.md"
       },
       "note": "2026-10-06 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton). Melbourne 10,000-crash study (11%/10cm) + Tyndall US corroboration (22%/10cm front-end) + Imperial 682k-collision review; original height-tax arithmetic (1.11^3=1.37). Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.9%, rhythm PASS, hero JPEG 1920x1280 ?v=5fce05e6). Queued SHIP_BLOCKED for 2027-06-25."
+    },
+    {
+      "number": 1081,
+      "slug": "1081-older-drivers-refuse-to-get-safer",
+      "title": "Everyone Else Got Safer. Drivers Over 65 Didn't Get the Memo.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-26",
+      "started": "2026-10-06T09:30:00-07:00",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.3,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 2227.1,
+          "short_pct": 10.0,
+          "long_pct": 42.5,
+          "passed": true
+        },
+        "hero_jpeg": true,
+        "hero_hash": "f92a1b5f",
+        "word_count": 1010
+      },
+      "files": {
+        "research": "drafts/1081-older-drivers-refuse-to-get-safer-research.md",
+        "story": "drafts/1081-older-drivers-refuse-to-get-safer.html",
+        "hero": "drafts/1081-older-drivers-refuse-to-get-safer.jpg",
+        "critic_panel": "drafts/1081-critic-panel-r0.md"
+      },
+      "note": "2026-10-06 09:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (Axle McScatter). Older drivers 65+ the lone cohort that missed the safety gains: 2024 deaths involving 65+ rose 1.5% (9,727 CDC / 8,019 NHTSA) while national deaths fell 4.3%; original cross-tab: 66.2% of deaths in older-driver crashes were the older driver + their older passenger; decade surge (+33%) is mostly demography (+28% pop, +3.5% per-capita rate); 2025 early estimate 65+ flat while everything else fell. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 11.3%, rhythm PASS, hero JPEG 1920x1280 ?v=f92a1b5f). Queued SHIP_BLOCKED for 2027-06-26."
     }
   ]
 }
