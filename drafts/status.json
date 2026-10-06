@@ -1,16 +1,31 @@
 {
-  "current": null,
-  "last_check_note": "Published #790 (earliest-due hero-ready); #763 skipped (hero policy-blocked); #1079 SHIP_BLOCKED queued 2027-06-24; starting #1080 research",
+  "current": {
+    "slug": "1080-melbourne-height-tax-pedestrian",
+    "number": 1080,
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Rex Driverton",
+    "kicker": "The Gap",
+    "started": "2026-10-06T01:30:00-07:00",
+    "round": 0,
+    "ship_date": "2027-06-25",
+    "files": {
+      "research": "drafts/1080-melbourne-height-tax-pedestrian-research.md",
+      "story": "drafts/1080-melbourne-height-tax-pedestrian.html",
+      "hero": "drafts/1080-melbourne-height-tax-pedestrian.jpg",
+      "critic_panel": "drafts/1080-critic-panel-r0.md"
+    }
+  },
+  "last_check_note": "Published #790 (Mia Crumplezone); #763 skipped (hero policy-blocked); #1080 queued SHIP_BLOCKED 2027-06-25",
   "last_checked": "2026-10-06T01:30:00-07:00",
-  "last_completed": 1079,
+  "last_completed": 1080,
   "last_completed_date": "2026-10-06",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": 790,
   "last_published_date": "2026-10-06",
   "last_published_slug": "790-gm-eboost-1-million-brakes-fail-mid-stop",
   "last_qa_date": "2026-10-05",
   "last_qa_note": "2026-10-05 02:00 run: QA-verified Publish #782 live (782-toxicology-backlog-evidence-expires): story 200 (CF extensionless redirect), hero JPEG 200 (485079 bytes), og tags present, index card + sitemap present.",
-  "next": 1080,
+  "next": 1081,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10719,6 +10734,50 @@
         "hero": "drafts/1079-tanker-brakes-failed-arithmetic.jpg",
         "critic_panel": "drafts/1079-tanker-brakes-failed-arithmetic-critic-panel-r0.md"
       }
+    },
+    {
+      "number": 1080,
+      "slug": "1080-melbourne-height-tax-pedestrian",
+      "title": "Australia Priced Your Car's Height in Dead Pedestrians: 11% per 10 Centimeters",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-25",
+      "started": "2026-10-06T01:30:00-07:00",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.9,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "variance": 264.7,
+          "short_pct": 5.1,
+          "long_pct": 48.7,
+          "passed": true
+        },
+        "hero_jpeg": true,
+        "hero_hash": "5fce05e6",
+        "word_count": 974
+      },
+      "files": {
+        "research": "drafts/1080-melbourne-height-tax-pedestrian-research.md",
+        "story": "drafts/1080-melbourne-height-tax-pedestrian.html",
+        "hero": "drafts/1080-melbourne-height-tax-pedestrian.jpg",
+        "critic_panel": "drafts/1080-critic-panel-r0.md"
+      },
+      "note": "2026-10-06 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton). Melbourne 10,000-crash study (11%/10cm) + Tyndall US corroboration (22%/10cm front-end) + Imperial 682k-collision review; original height-tax arithmetic (1.11^3=1.37). Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 10.9%, rhythm PASS, hero JPEG 1920x1280 ?v=5fce05e6). Queued SHIP_BLOCKED for 2027-06-25."
     }
   ]
 }
