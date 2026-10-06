@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Their Brakes Couldn&rsquo;t Do Math. The Fix Was to Make Them Dumber. &mdash; The Crash Report</title>
+  <meta name="description" content="Mack and Volvo are recalling 1,242 tanker trucks because the tanker application package miscalculates axle loads, degrading braking on smoothbore trailers. The remedy: software that turns the calculation off.">
+  <meta property="og:title" content="Their Brakes Couldn&rsquo;t Do Math. The Fix Was to Make Them Dumber.">
+  <meta property="og:description" content="1,242 Mack and Volvo tanker trucks recalled for brake software that miscalculated axle loads. The dealer remedy is software that disables the calculation entirely. Volvo Group has now recalled 6,379 trucks for braking defects in 2026.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1079-tanker-brakes-failed-arithmetic.jpg?v=10b4b737">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Their Brakes Couldn&rsquo;t Do Math. The Fix Was to Make Them Dumber.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">October 5, 2026</div>
+
+      <img src="../images/1079-tanker-brakes-failed-arithmetic.jpg?v=10b4b737" alt="A semi truck pulling a smoothbore tanker trailer on a highway at dusk" class="story-hero">
+
+      <div class="story-body">
+      <p>Inside the computers of 1,242 nearly new tanker trucks, a piece of software is doing arithmetic wrong. Mack is recalling 850 Anthem and Pioneer tractors (NHTSA 26V620) and Volvo is recalling 392 VNL and VNR tractors (26V619) because the tanker application package calculates axle loads inaccurately.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Wrong axle-load math means degraded braking performance while the trucks pull smoothbore tanker trailers: longer stops, more crash risk, exactly the failure mode you never want on a rig hauling thousands of gallons of sloshing liquid.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">6,379</div>
+      <div class="pull-label">Volvo Group trucks recalled for braking defects in 2026, across the same four model lines, twice in five months</div>
+
+      <p>Pause on the remedy, because it is the part that makes engineers wince. Dealers will install new software that <strong>disables the dynamic trailer braking calculations</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The official repair is not a repair at all: it permanently takes away the computer&rsquo;s math homework. Somewhere a software team spent months building dynamic axle-load modeling into the braking stack, and the field fix was a kill switch. Smoothbore tankers are the trailers where the liquid cargo surges the most, which is why they got the smart braking in the first place, which means the feature was wrong precisely in the case it was built for.</p>
+
+      <p>This is not Volvo Group&rsquo;s first braking recall of the year. In May 2026, Volvo recalled 2,800 VNL/VNR tractors and Mack recalled 2,337 Anthem/Pioneer tractors (26V260 and 26V261) because rear brake modulator electrical connectors could short-circuit and knock out ABS and electronic stability control entirely.<sup class="ref-link"><a href="#ref-5">[5]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup> Same four model lines, and the same two brands are one company. Run the totals: 5,137 trucks in May plus 1,242 this week equals <strong>6,379 braking-defect recalls in 2026</strong>, and some VINs very plausibly appear in both campaigns. Two brake recalls in five months is a pattern, not a coincidence.</p>
+
+      <p>And braking was not even the biggest recall of the week. Mack also recalled 3,096 Anthem and Pioneer tractors (26V631) because the intake and grille bezels may detach and become road hazards.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Add it up: 850 + 392 + 3,096 = <strong>4,338 trucks</strong> recalled across the two brands this week. The defect where the truck sheds pieces of itself onto the highway outnumbered the braking defect 2.5 to 1. It was quite a week for the Volvo Group.</p>
+
+      <p>The counterargument, stated at full strength: disabling the dynamic calculation is not a lobotomy but the correct engineering response. If the dynamic trailer braking calculation was producing braking worse than the standard baseline, then every affected truck is safer with the feature off than it was with the feature on. Mocking the fix as &ldquo;dumber&rdquo; ignores that the alternative, leaving known-bad math in the loop on loaded tankers, is strictly worse. Nobody lost a capability that worked. They lost a capability that was actively hurting them, which is the one case where deleting software is the responsible fix.</p>
+
+      <p>What the public record does not tell us: how wrong the axle-load calculations were. No stopping-distance delta, no deceleration figures, no test data appear in the published summaries, so &ldquo;reduced braking performance&rdquo; is the entire technical description. No crashes, injuries, or field incidents are cited for this campaign, which means the defect was caught before the body count or before anyone counted publicly. And we cannot confirm VIN overlap between the May and October campaigns; same model lines and same brands make it plausible, but plausible is not proven.</p>
+
+      <p>What you do with this. If you run a fleet or drive a 2026&ndash;2027 Mack Anthem/Pioneer or a 2025&ndash;2027 Volvo VNL/VNR with the tanker application package, check your VINs at nhtsa.gov/recalls; they became searchable October 5.<sup class="ref-link"><a href="#ref-7">[7]</a></sup> Owner letters mail November 27, the software update is free, and the reference numbers are Mack SC0500 (1-800-866-1177) and Volvo RVXX2610 (800-528-6586).<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Tractors without the tanker package are not in this campaign, but run the May recalls (26V260/26V261) through your VIN list anyway, since they covered the same model lines. And the next time a recall remedy reads &ldquo;we turned the feature off,&rdquo; ask what the feature was doing before it was turned off, and for how long.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">The BRAKE Report, &ldquo;Volvo, Mack Recall Tanker Trucks Over Braking Software,&rdquo; Oct 2, 2026: 850 Mack tractors (26V620, SC0500) and 392 Volvo tractors (26V619, RVXX2610) with tanker application package; inaccurate axle-load calculations reduce braking performance on smoothbore tanker trailers; remedy is software disabling the dynamic trailer braking calculations; letters Nov 27, 2026; VINs searchable Oct 5, 2026; Mack 1-800-866-1177, Volvo 800-528-6586. <a href="https://thebrakereport.com/volvo-mack-tanker-truck-recall-braking-software/" target="_blank" rel="noopener">thebrakereport.com</a></li>
+          <li id="ref-2">TheTrucker.com, &ldquo;Mack and Volvo recall over 4000 trucks over safety concerns,&rdquo; Oct 4, 2026: combined 4,338 trucks; Mack bezel recall 3,096 (26V631, SC0501), letters Nov 30; confirms 850-truck Mack and 392-truck Volvo brake campaigns. <a href="https://www.thetrucker.com/trucking-news/business/mack-and-volvo-recall-over-4000-trucks-over-safety-concerns" target="_blank" rel="noopener">thetrucker.com</a></li>
+          <li id="ref-3">Truck Parts &amp; Service, &ldquo;NHTSA commercial vehicle recalls for the week of Oct. 5, 2026,&rdquo; Oct 5, 2026: 26V631 bezel detachment on 2026&ndash;2027 Anthem/Pioneer; 26V619/26V620 tanker brake-software campaigns in the same weekly batch. <a href="https://www.truckpartsandservice.com/regulations/equipment/article/15836593/nhtsa-commercial-vehicle-recalls-for-the-week-of-oct-5-2026" target="_blank" rel="noopener">truckpartsandservice.com</a></li>
+          <li id="ref-4">ConsumerAffairs, &ldquo;Auto Safety Recall Derby &ndash; Week of October 05,&rdquo; Oct 5, 2026: NHTSA recall IDs 26V631000 (Mack bezels), 26V625000 (Rivian R2), 26V624000 (Nova Bus) in the weekly roundup; confirms week-of-Oct-5 batch timing. <a href="https://www.consumeraffairs.com/news/auto-safety-recall-derby-week-of-october-05-100526.html" target="_blank" rel="noopener">consumeraffairs.com</a></li>
+          <li id="ref-5">Overdrive, &ldquo;Brakes issue prompts 2025&ndash;&rsquo;27 Volvo, Mack recalls,&rdquo; May 2026: 2,800 Volvo VNL/VNR (26V260, RVXX2605) and 2,337 Mack Pioneer/Anthem (26V261, SC0494) recalled for rear brake modulator connectors that could short and kill ABS/ESC; same model lines as October campaigns. <a href="https://www.overdriveonline.com/regulations/article/15824461/bill-would-increase-fmcsa-nondomiciled-cdl-oversight-brakes-issue-prompts-202527-volvo-mack-recalls" target="_blank" rel="noopener">overdriveonline.com</a></li>
+          <li id="ref-6">Truckers News, &ldquo;Macks and Volvos recalled for same rear brake modulator problem,&rdquo; May 2026: confirms the May 2026 ABS/ESC recall populations and remedy (protective covers, modulator replacement). <a href="https://www.truckersnews.com/trucks/article/15824386/macks-and-volvos-recalled-for-same-rear-brake-modulator-problem" target="_blank" rel="noopener">truckersnews.com</a></li>
+          <li id="ref-7">NHTSA recalls database: VIN-level recall lookup; campaign search. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings and trade-press summaries, Oct 2026. Stopping-distance figures and VIN-overlap counts are not in the public summaries; see <a href="../#method">methodology</a> for caveats.</p>
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
