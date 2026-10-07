@@ -1,23 +1,16 @@
 {
-  "current": {
-    "slug": "1084-interlock-states-safest-drunk-driving",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-07T03:31:41.944543-07:00",
-    "round": 0,
-    "title": "The Two Safest States for Drunk Driving Make Every Convicted Drunk Driver Blow Into Their Car"
-  },
-  "last_check_note": "2026-10-07 03:30 run: #1084 drafted (NJ/NY interlock-law overlay on fresh Gimblin/FARS state ranking, Dale Impactor III, round-0); hero JPEG 1920x1280 ?v=50d76c21; rhythm PASS; gates: em 0, banned 0, The 12.9%, css ok.",
-  "last_checked": "2026-10-07T03:31:41.944543-07:00",
+  "current": null,
+  "last_check_note": "2026-10-07 03:30 run: #1084 queued SHIP_BLOCKED 2027-06-29 (round-0 SHIP avg 8.93). Proceeding to PUBLISH-QUEUE.",
+  "last_checked": "2026-10-07T03:32:17.365302-07:00",
   "last_completed": "2026-10-07T01:30:00-07:00",
   "last_completed_date": "2026-10-06",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-07T01:30:00-07:00",
   "last_published_date": "2026-10-07",
   "last_published_slug": "802-lucid-air-efuse-fire-recall",
   "last_qa_date": "2026-10-07",
   "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1084,
+  "next": 1085,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10903,6 +10896,45 @@
       "ship_date": "2027-06-28",
       "slug": "1083-nhtsa-recalls-next-meeting-not-streamed",
       "title": "NHTSA Wants Your Ideas on Recalls. It Just Won't Let You Watch."
+    },
+    {
+      "number": 1084,
+      "slug": "1084-interlock-states-safest-drunk-driving",
+      "title": "The Two Safest States for Drunk Driving Make Every Convicted Drunk Driver Blow Into Their Car",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-06-29",
+      "critique_round": 0,
+      "avg_critic": 8.93,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "50d76c21",
+        "word_count": 549,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1084-interlock-states-safest-drunk-driving-research.md",
+        "story": "drafts/1084-interlock-states-safest-drunk-driving.html",
+        "hero": "drafts/1084-interlock-states-safest-drunk-driving.jpg",
+        "critic_panel": "drafts/1084-interlock-states-safest-drunk-driving-critic-panel-r0.md"
+      },
+      "note": "2026-10-07 03:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5). Gates: em 0, banned 0, The 12.9%, css ok, hero JPEG 1920x1280 ?v=50d76c21, rhythm PASS. Dateline pre-set to ship_date 2027-06-29."
     }
   ]
 }
