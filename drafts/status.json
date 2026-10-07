@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-06 15:30 run: 1/day gate consumed by Publish #790 (multiple Publish # commits today); #763 hero-blocked skip re-confirmed (still no hero file in drafts/, ship_date 2026-09-28, policy-blocked generation - does not stall cadence); current=null; no new research (backlog healthy: 263 SHIP_BLOCKED, queue tail 2027-06-26).",
-  "last_checked": "2026-10-06T15:30:00-07:00",
+  "last_check_note": "2026-10-06 17:30 run: 1/day gate consumed by Publish #790 (actual publish commit 071da0e8 today; multiple Publish # refs in today's log); #763 hero-blocked skip re-confirmed (still no hero file in drafts/, policy-blocked fire-imagery generation - does not stall cadence); current=null; no new research (backlog healthy: 263 SHIP_BLOCKED, queue tail 2027-06-26).",
+  "last_checked": "2026-10-06T17:30:00-07:00",
   "last_completed": "2026-10-06T09:30:00-07:00",
   "last_completed_date": "2026-10-06",
   "last_journalist": "Axle McScatter",
