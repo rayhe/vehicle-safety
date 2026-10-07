@@ -2,15 +2,15 @@
   "current": null,
   "last_check_note": "2026-10-06 23:30 run: 1/day gate consumed by Publish #790 (commit 071da0e8 today). #763 ev-fire-blanket hero-blocked skip re-confirmed (only SHIP_BLOCKED due <= 2026-10-06, no hero in drafts/, policy-blocked; does not stall cadence). current=null; no new research (backlog healthy: 264 SHIP_BLOCKED to 2027-06-27). Queue hygiene: no dup/missing numbers, no dup ship_dates, next=1083 correct (max used 1082).",
   "last_checked": "2026-10-06T23:30:00-07:00",
-  "last_completed": "2026-10-06T19:30:00-07:00",
+  "last_completed": "2026-10-07T01:30:00-07:00",
   "last_completed_date": "2026-10-06",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": 790,
   "last_published_date": "2026-10-06",
   "last_published_slug": "790-gm-eboost-1-million-brakes-fail-mid-stop",
   "last_qa_date": "2026-10-06",
   "last_qa_note": "2026-10-06 05:30 run: QA-verified Publish #790 live (790-gm-eboost-1-million-brakes-fail-mid-stop): story 200 (CF redirect), hero JPEG 200 image/jpeg, og tags present, index card + sitemap present.",
-  "next": 1083,
+  "next": 1084,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -10852,6 +10852,50 @@
       "ship_date": "2027-06-27",
       "slug": "1082-rivian-r2-loose-hv-battery-fastener",
       "title": "A Bolt Was Loose on the R2's High-Voltage Battery. The Torque Station Passed It Anyway."
+    },
+    {
+      "avg_critic": 8.8,
+      "blocked_reason": "Queued behind 288 prior drafts; next publish slot 2027-06-29; 1/day rule handled by publish-queue phase",
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1083-critic-panel-r0.md",
+        "hero": "drafts/1083-nhtsa-recalls-next-meeting-not-streamed.jpg",
+        "research": "drafts/1083-nhtsa-recalls-next-meeting-not-streamed-research.md",
+        "story": "drafts/1083-nhtsa-recalls-next-meeting-not-streamed.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "2bb43633",
+        "hero_jpeg": true,
+        "sentence_rhythm": {
+          "long_pct": 59.4,
+          "passed": true,
+          "short_pct": 12.5,
+          "variance": 380.5
+        },
+        "style_css": true,
+        "the_starters_pct": 10.5,
+        "word_count": 727
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-10-07 01:30 run: #1083 (NHTSA 'Recalls Next' public meeting Nov 5 2026, FR Doc. 2026-19712, docket NHTSA-2026-2014, not streamed/recorded, Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 10.5%, rhythm PASS, hero JPEG 1920x1280 ?v=2bb43633). Novel: first policy/meta-recall story on the site (recall-completion crisis as subject); original fleet math (29.2M/~282M = 1 in 10 vehicles recalled in 2025; illustrative 5.8M open-defect sizing), comment-window asymmetry, procedure asymmetry (49 CFR 512 sealed vs verbatim), Oct 28/29 deadline mismatch. Queued SHIP_BLOCKED for 2027-06-28.",
+      "number": 1083,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "social_shareability": 8.6,
+        "voice_coach": 8.9
+      },
+      "ship_date": "2027-06-28",
+      "slug": "1083-nhtsa-recalls-next-meeting-not-streamed",
+      "title": "NHTSA Wants Your Ideas on Recalls. It Just Won't Let You Watch."
     }
   ]
 }
