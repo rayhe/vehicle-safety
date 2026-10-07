@@ -1,9 +1,9 @@
 {
   "current": null,
-  "last_check_note": "2026-10-07 03:30 run: #1084 queued SHIP_BLOCKED 2027-06-29 (round-0 SHIP avg 8.93). Proceeding to PUBLISH-QUEUE.",
-  "last_checked": "2026-10-07T03:32:17.365302-07:00",
-  "last_completed": "2026-10-07T01:30:00-07:00",
-  "last_completed_date": "2026-10-06",
+  "last_check_note": "2026-10-07 03:30 run: #1084 researched, drafted, round-0 critiqued (SHIP avg 8.93) and queued SHIP_BLOCKED 2027-06-29 (Dale Impactor III). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today); only due entry #763 remains hero-blocked. No publish. Queue now extends to 2027-06-29; next=1085.",
+  "last_checked": "2026-10-07T03:32:27.128522-07:00",
+  "last_completed": "2026-10-07T03:32:27.128522-07:00",
+  "last_completed_date": "2026-10-07",
   "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-07T01:30:00-07:00",
   "last_published_date": "2026-10-07",
