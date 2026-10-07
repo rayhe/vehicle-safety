@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-07 09:30 run: #1087 researched, drafted, round-0 critiqued (SHIP avg 8.9) and queued SHIP_BLOCKED 2027-07-02 (Vin Wreckage). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today). No publish. Queue extends to 2027-07-02; next=1088.",
-  "last_checked": "2026-10-07T10:15:00-07:00",
+  "last_check_note": "2026-10-07 11:30 run: #1088 researched, drafted, round-0 critiqued (avg 8.87) and queued SHIP_BLOCKED 2027-07-03 (Rex Driverton). PUBLISH-QUEUE pending this run.",
+  "last_checked": "2026-10-07T11:45:00-07:00",
   "last_completed": "2026-10-07T09:30:00-07:00",
   "last_completed_date": "2026-10-07",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-07T01:30:00-07:00",
   "last_published_date": "2026-10-07",
   "last_published_slug": "802-lucid-air-efuse-fire-recall",
   "last_qa_date": "2026-10-07",
   "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1088,
+  "next": 1089,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11028,6 +11028,34 @@
         "actionable": "present"
       },
       "note": "2026-10-07 09:30 run: #1087 (Vin Wreckage) RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run. Angle: NHTSA 26V625 recalls 14 MY2027 R2s for an under-torqued HV battery fastener (M6x1.0x24.5, SC00036202-D); the automated torque station certified it and a human operator caught it Sep 17, 2026. Original contribution: recall window maps exactly onto the mis-programmed station's run; OTA-vs-hardware irony vs recall #1 (2,481 R2s, camera bug, fixed over the air). Round-0 panel avg 8.9 (all 7 >= 8.5). Queued 2027-07-02."
+    },
+    {
+      "number": 1088,
+      "slug": "range-rover-sport-recall-of-one",
+      "title": "Land Rover Filed a Safety Recall for Exactly One SUV",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2027-07-03",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 14.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "b141d3e6",
+        "word_count": 479
+      },
+      "files": {
+        "research": "drafts/range-rover-sport-recall-of-one-research.md",
+        "story": "drafts/range-rover-sport-recall-of-one.html",
+        "hero": "drafts/1088-range-rover-sport-recall-of-one.jpg",
+        "critic_panel": "drafts/range-rover-sport-recall-of-one-critic-panel-r0.md"
+      },
+      "note": "2026-10-07 11:30 run: researched, drafted, round-0 critiqued (avg 8.87, all 7 critics >=8.5, hard gates pass) and queued SHIP_BLOCKED 2027-07-03 (Rex Driverton)."
     }
   ]
 }
