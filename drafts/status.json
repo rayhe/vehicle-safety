@@ -1,15 +1,15 @@
 {
   "current": null,
-  "last_check_note": "2026-10-06 23:30 run: 1/day gate consumed by Publish #790 (commit 071da0e8 today). #763 ev-fire-blanket hero-blocked skip re-confirmed (only SHIP_BLOCKED due <= 2026-10-06, no hero in drafts/, policy-blocked; does not stall cadence). current=null; no new research (backlog healthy: 264 SHIP_BLOCKED to 2027-06-27). Queue hygiene: no dup/missing numbers, no dup ship_dates, next=1083 correct (max used 1082).",
-  "last_checked": "2026-10-06T23:30:00-07:00",
+  "last_check_note": "2026-10-07 01:30 run: #1083 drafted (NHTSA Recalls Next meeting, Vin Wreckage, round-0 SHIP avg 8.80) and queued SHIP_BLOCKED 2027-06-28; #802 Lucid eFuse published (1/day gate open; QA live OK: story 200, hero 200 image/jpeg, og tags, index card, sitemap). #763 hero-blocked skip re-confirmed.",
+  "last_checked": "2026-10-07T01:30:00-07:00",
   "last_completed": "2026-10-07T01:30:00-07:00",
   "last_completed_date": "2026-10-06",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-07T01:30:00-07:00",
   "last_published_date": "2026-10-07",
   "last_published_slug": "802-lucid-air-efuse-fire-recall",
-  "last_qa_date": "2026-10-06",
-  "last_qa_note": "2026-10-06 05:30 run: QA-verified Publish #790 live (790-gm-eboost-1-million-brakes-fail-mid-stop): story 200 (CF redirect), hero JPEG 200 image/jpeg, og tags present, index card + sitemap present.",
+  "last_qa_date": "2026-10-07",
+  "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
   "next": 1084,
   "queue": [
     {
