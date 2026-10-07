@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-06 21:30 run: 1/day gate consumed by Publish #790 (commit 071da0e8 today; gate count 8 incl. status subjects). #763 ev-fire-blanket hero-blocked skip re-confirmed (no hero in drafts/, policy-blocked; does not stall cadence). current=null; no new research (backlog healthy: 264 SHIP_BLOCKED, tail 2027-06-27). Queue hygiene: assigned missing number 1017 to the Sep-29 Range Rover one-car-recall entry (ship_date 2027-04-23 unique, no collision); set next=1083 (max used 1082).",
-  "last_checked": "2026-10-06T21:30:00-07:00",
+  "last_check_note": "2026-10-06 23:30 run: 1/day gate consumed by Publish #790 (commit 071da0e8 today). #763 ev-fire-blanket hero-blocked skip re-confirmed (only SHIP_BLOCKED due <= 2026-10-06, no hero in drafts/, policy-blocked; does not stall cadence). current=null; no new research (backlog healthy: 264 SHIP_BLOCKED to 2027-06-27). Queue hygiene: no dup/missing numbers, no dup ship_dates, next=1083 correct (max used 1082).",
+  "last_checked": "2026-10-06T23:30:00-07:00",
   "last_completed": "2026-10-06T19:30:00-07:00",
   "last_completed_date": "2026-10-06",
   "last_journalist": "Axle McScatter",
