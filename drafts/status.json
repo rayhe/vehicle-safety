@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-07 07:30 run: #1086 researched, drafted, round-0 critiqued (SHIP avg 8.9) and queued SHIP_BLOCKED 2027-07-01 (Rex Driverton). Renumbered from 1085 — 05:30 run had taken 1085 (telematics). PUBLISH-QUEUE check pending this run.",
+  "last_check_note": "2026-10-07 07:30 run: #1086 researched, drafted, round-0 critiqued (SHIP avg 8.9) and queued SHIP_BLOCKED 2027-07-01 (Rex Driverton). Renumbered from 1085 — 05:30 run took 1085 (telematics). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today). No publish. Queue now extends to 2027-07-01; next=1087.",
   "last_checked": "2026-10-07T07:58:38.038333-07:00",
   "last_completed": "2026-10-07T05:30:00-07:00",
   "last_completed_date": "2026-10-07",
