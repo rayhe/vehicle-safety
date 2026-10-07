@@ -1,7 +1,14 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-07 01:30 run: #1083 drafted (NHTSA Recalls Next meeting, Vin Wreckage, round-0 SHIP avg 8.80) and queued SHIP_BLOCKED 2027-06-28; #802 Lucid eFuse published (1/day gate open; QA live OK: story 200, hero 200 image/jpeg, og tags, index card, sitemap). #763 hero-blocked skip re-confirmed.",
-  "last_checked": "2026-10-07T01:30:00-07:00",
+  "current": {
+    "slug": "1084-interlock-states-safest-drunk-driving",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-07T03:31:41.944543-07:00",
+    "round": 0,
+    "title": "The Two Safest States for Drunk Driving Make Every Convicted Drunk Driver Blow Into Their Car"
+  },
+  "last_check_note": "2026-10-07 03:30 run: #1084 drafted (NJ/NY interlock-law overlay on fresh Gimblin/FARS state ranking, Dale Impactor III, round-0); hero JPEG 1920x1280 ?v=50d76c21; rhythm PASS; gates: em 0, banned 0, The 12.9%, css ok.",
+  "last_checked": "2026-10-07T03:31:41.944543-07:00",
   "last_completed": "2026-10-07T01:30:00-07:00",
   "last_completed_date": "2026-10-06",
   "last_journalist": "Vin Wreckage",
