@@ -1,16 +1,8 @@
 {
-  "current": {
-    "number": 1093,
-    "slug": "1093-work-trucks-flunk-first-iihs-test",
-    "title": "IIHS Finally Crash-Tested the Work Truck. It Flunked.",
-    "journalist": "Mia Crumplezone",
-    "phase": "CRITIQUE",
-    "started": "2026-10-07T21:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-07 19:30 run: #1092 researched, drafted, round-0 critiqued (avg 8.81) and queued SHIP_BLOCKED 2027-07-07 (Rex Driverton). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today); nothing due. Queue extends to 2027-07-07; next=1093.",
   "last_checked": "2026-10-07T17:30:00-07:00",
-  "last_completed": "2026-10-07T19:30:00-07:00",
+  "last_completed": "2026-10-07T21:30:00-07:00",
   "last_completed_date": "2026-10-07",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-10-07T01:30:00-07:00",
@@ -11213,6 +11205,50 @@
         }
       },
       "note": "2026-10-07 19:30 run: researched, drafted, round-0 critiqued (avg 8.81, all 7 critics 8.5+; all hard gates pass) and queued SHIP_BLOCKED 2027-07-07 (Rex Driverton). Queue extends to 2027-07-07; next=1093."
+    },
+    {
+      "number": 1093,
+      "slug": "1093-work-trucks-flunk-first-iihs-test",
+      "title": "IIHS Finally Crash-Tested the Work Truck. It Flunked.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "ship_date": "2027-07-08",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "a06c9139",
+        "word_count": 668,
+        "sentence_rhythm": {
+          "variance": 594.5,
+          "short_pct": 7.7,
+          "long_pct": 65.4,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1093-work-trucks-flunk-first-iihs-test-research.md",
+        "story": "drafts/1093-work-trucks-flunk-first-iihs-test.html",
+        "critic_panel": "drafts/1093-work-trucks-flunk-first-iihs-test-critic-panel-r0.md",
+        "hero": "drafts/1093-work-trucks-flunk-first-iihs-test.jpg"
+      },
+      "blocked_reason": "1/day rule; next available queue slot 2027-07-08",
+      "note": "2026-10-07 21:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 594.5, hero JPEG 1920x1280). Novel: first-ever IIHS work-vehicle crash-avoidance results (Oct 2026); original 17x calc (6,215 work-vehicle deaths/yr vs 360 FMVSS-127 lives/yr); 30-year-old Express/Savana platform double-Poor with no AEB; child dummies 'disappear' at tall front ends. Queued SHIP_BLOCKED 2027-07-08 (Mia Crumplezone). Dateline pre-set to July 8, 2027."
     }
   ]
 }
