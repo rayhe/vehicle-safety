@@ -6,16 +6,16 @@
     "number": 1094,
     "ship_date": "2027-07-09"
   },
-  "last_check_note": "2026-10-08 01:30 run: current was null -> RESEARCH. Angle: Tesla Cybercab door-panel crash in Philadelphia (Oct 7, 2026) + NHTSA SGO classification-dependent reporting blind spot + Cybercab FMVSS self-certification Special Order. Kill test PASS (no Philly coverage; data-integrity angle novel). Journalist: Axle McScatter (rotation after Mia/Clara/Rex/Mia).",
-  "last_checked": "2026-10-08T01:45:00-07:00",
+  "last_check_note": "2026-10-08 01:30 run complete: #1094 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.90, queued 2027-07-09); PUBLISH-QUEUE shipped #809 (1/day slot; #763 hero-blocked skipped per rule); QA all pass; all commits pushed.",
+  "last_checked": "2026-10-08T02:00:00-07:00",
   "last_completed": "2026-10-08T01:45:00-07:00",
   "last_completed_date": "2026-10-08",
   "last_journalist": "Axle McScatter",
-  "last_published": "2026-10-07T01:30:00-07:00",
-  "last_published_date": "2026-10-07",
-  "last_published_slug": "802-lucid-air-efuse-fire-recall",
-  "last_qa_date": "2026-10-07",
-  "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
+  "last_published": "2026-10-08T02:00:00-07:00",
+  "last_published_date": "2026-10-08",
+  "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
+  "last_qa_date": "2026-10-08",
+  "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
   "next": 1095,
   "queue": [
     {
@@ -606,9 +606,9 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": " | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-08 01:30 run: published as #809 (earliest-due hero-ready SHIP_BLOCKED, ship_date 2026-10-08; #763 still hero-blocked, skipped per no-stall rule; 1/day slot). QA live-verified: story 200 (clean-URL redirect), hero 200 image/jpeg, og:title/description/image present, index card present, sitemap entry present. All pass.",
       "number": 809,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
@@ -622,7 +622,13 @@
       "ship_date": "2026-10-08",
       "slug": "ford-ecoboost-piston-dome-crater-crack",
       "started": "2026-09-04T00:30:00Z",
-      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind."
+      "title": "A Loose Lock Nut Cracked 10,001 Ford Pistons. The Machine That Should Have Caught It Was Blind.",
+      "files": {
+        "research": "drafts/ford-ecoboost-piston-dome-crater-crack-research.md",
+        "story": "stories/809-ford-ecoboost-piston-dome-crater-crack.html",
+        "hero": "images/809-ford-ecoboost-piston-dome-crater-crack.jpg",
+        "critic_panel": "drafts/ford-ecoboost-piston-dome-crater-crack-critique.md"
+      }
     },
     {
       "critic_avg": 9.0,
