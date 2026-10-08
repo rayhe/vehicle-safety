@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "vw-steering-screw-4-million-recall",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-10-07T17:30:00-07:00"
+    "started": "2026-10-07T17:30:00-07:00",
+    "round": 0
   },
-  "last_check_note": "2026-10-07 17:30 run: #1091 RESEARCHED (VW steering-screw global recall ~4.64M, NHTSA 26V590, Clara Rollover), status set to DRAFT.",
+  "last_check_note": "2026-10-07 17:30 run: #1091 drafted (Clara Rollover, 430 words, gates pass) + hero JPEG 2048x1152 (?v=22c0e26b). Running critic panel.",
   "last_checked": "2026-10-07T17:30:00-07:00",
   "last_completed": "2026-10-07T09:30:00-07:00",
   "last_completed_date": "2026-10-07",
