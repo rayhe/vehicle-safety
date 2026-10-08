@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "vw-steering-screw-4-million-recall",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-07T17:30:00-07:00",
-    "round": 0
-  },
-  "last_check_note": "2026-10-07 17:30 run: #1091 drafted (Clara Rollover, 430 words, gates pass) + hero JPEG 2048x1152 (?v=22c0e26b). Running critic panel.",
+  "current": null,
+  "last_check_note": "2026-10-07 17:30 run: #1091 RESEARCHED+DRAFTED+CRITIQUED (avg 8.64, round 1) and queued SHIP_BLOCKED 2027-07-06 (Clara Rollover). Queue extends to 2027-07-06; next=1092.",
   "last_checked": "2026-10-07T17:30:00-07:00",
-  "last_completed": "2026-10-07T09:30:00-07:00",
+  "last_completed": "2026-10-07T17:30:00-07:00",
   "last_completed_date": "2026-10-07",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-07T01:30:00-07:00",
@@ -16,7 +10,7 @@
   "last_published_slug": "802-lucid-air-efuse-fire-recall",
   "last_qa_date": "2026-10-07",
   "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1091,
+  "next": 1092,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11146,6 +11140,43 @@
         "hero": "drafts/1090-maxxfan-invisible-recall-pcb-overheat.jpg"
       },
       "note": "2026-10-07 15:30 run: researched, drafted, round-0 critiqued (avg 8.79; rhythm fixed r1-revision before panel) and queued SHIP_BLOCKED 2027-07-05 (Mia Crumplezone). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today). Queue extends to 2027-07-05; next=1091."
+    },
+    {
+      "number": 1091,
+      "phase": "SHIP_BLOCKED",
+      "slug": "vw-steering-screw-4-million-recall",
+      "title": "One Rusting Bolt Is Dragging 4.6 Million VWs Back to the Dealer",
+      "journalist": "Clara Rollover",
+      "kicker": "The Fix",
+      "ship_date": "2027-07-06",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.64,
+      "critique_round": 1,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "22c0e26b",
+        "word_count": 460
+      },
+      "files": {
+        "research": "drafts/1091-vw-steering-screw-4-million-recall-research.md",
+        "story": "drafts/1091-vw-steering-screw-4-million-recall.html",
+        "critic_panel": "drafts/1091-vw-steering-screw-4-million-recall-critic-panel-r1.md",
+        "hero": "drafts/1091-vw-steering-screw-4-million-recall.jpg"
+      },
+      "note": "2026-10-07 17:30 run: round-0 panel (avg 8.36, data_presentation 8.0 below gate); round-1 revision folded in per-model US counts + global brand breakdown; round-1 VERDICT SHIP (avg 8.64). Queued SHIP_BLOCKED 2027-07-06 (1 day after latest). Hero JPEG 2048x1152 ?v=22c0e26b; dateline pre-set to July 6, 2027."
     }
   ]
 }
