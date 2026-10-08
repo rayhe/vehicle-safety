@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-07 15:30 run: #1090 researched, drafted, round-0 critiqued (avg 8.79) and queued SHIP_BLOCKED 2027-07-05 (Mia Crumplezone). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today); #763 still hero-less, skipped per cadence rule. Queue extends to 2027-07-05; next=1091.",
-  "last_checked": "2026-10-07T15:30:00-07:00",
+  "current": {
+    "slug": "vw-steering-screw-4-million-recall",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-10-07T17:30:00-07:00"
+  },
+  "last_check_note": "2026-10-07 17:30 run: #1091 RESEARCHED (VW steering-screw global recall ~4.64M, NHTSA 26V590, Clara Rollover), status set to DRAFT.",
+  "last_checked": "2026-10-07T17:30:00-07:00",
   "last_completed": "2026-10-07T09:30:00-07:00",
   "last_completed_date": "2026-10-07",
   "last_journalist": "Mia Crumplezone",
