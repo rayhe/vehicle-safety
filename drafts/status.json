@@ -1,13 +1,13 @@
 {
   "current": {
-    "slug": "1095-school-bus-drunk-driver-millstone-alcohol-detection",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Dale Impactor III",
-    "number": 1095,
-    "ship_date": "2027-07-10"
+    "slug": "1096-halloween-deadliest-night-pedestrians",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "number": 1096,
+    "started": "2026-10-08T05:35:00-07:00"
   },
-  "last_check_note": "2026-10-08 01:30 run complete: #1094 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.90, queued 2027-07-09); PUBLISH-QUEUE shipped #809 (1/day slot; #763 hero-blocked skipped per rule); QA all pass; all commits pushed.",
-  "last_checked": "2026-10-08T02:00:00-07:00",
+  "last_check_note": "2026-10-08 05:30 run: #1095 SHIP handling complete (03:30 run); current cleared, next=1096. PUBLISH-QUEUE gate consumed today (Publish #809 + note commit; 1/day slot used). Starting RESEARCH #1096.",
+  "last_checked": "2026-10-08T05:30:00-07:00",
   "last_completed": "2026-10-08T01:45:00-07:00",
   "last_completed_date": "2026-10-08",
   "last_journalist": "Axle McScatter",
@@ -16,7 +16,7 @@
   "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
   "last_qa_date": "2026-10-08",
   "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1095,
+  "next": 1096,
   "queue": [
     {
       "journalist": "Rex Driverton",
