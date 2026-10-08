@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1098-mack-volvo-tanker-braking-software-disable",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Clara Rollover",
-    "started": "2026-10-08T09:40:00-07:00"
+    "shipped": "2026-10-08T10:00:00-07:00",
+    "ship_date": "2027-07-13"
   },
-  "last_check_note": "2026-10-08 09:30 run: #1097 current cleared (already SHIP_BLOCKED in queue, ship_date 2027-07-12); PUBLISH-QUEUE skipped (1/day gate consumed, 2 Publish commits today); RESEARCH #1098: Mack+Volvo tanker braking software disable + bezel recall (Clara Rollover).",
-  "last_checked": "2026-10-08T09:40:00-07:00",
+  "last_check_note": "2026-10-08 09:30 run complete: #1098 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.79, Clara Rollover, queued 2027-07-12+1=2027-07-13); PUBLISH-QUEUE skipped (1/day gate consumed, 2 Publish commits today); all commits pushed.",
+  "last_checked": "2026-10-08T10:00:00-07:00",
   "last_completed": "2026-10-08T01:45:00-07:00",
   "last_completed_date": "2026-10-08",
   "last_journalist": "Mia Crumplezone",
@@ -15,7 +16,7 @@
   "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
   "last_qa_date": "2026-10-08",
   "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1098,
+  "next": 1099,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11390,6 +11391,43 @@
         "research_rigor": 8.7,
         "social_shareability": 8.5,
         "voice_coach": 8.8
+      },
+      "kicker": "Investigation"
+    },
+    {
+      "journalist": "Clara Rollover",
+      "note": "2026-10-08 09:30 run: round-0 panel VERDICT SHIP (avg 8.79). Pre-ship fixes: NHTSA campaign numbers 26V619/26V620 confirmed via The Brake Report + NHTSA 26V620 filing; corrected field-report counts (3 Volvo / 0 Mack, zero warranty claims/crashes/injuries); fixed VIN-searchable dates (braking Oct 5, bezels Oct 8). Queued 2027-07-13 (1 day after #1097).",
+      "number": 1098,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-13",
+      "slug": "1098-mack-volvo-tanker-braking-software-disable",
+      "title": "The Brake Software Was the Defect. Mack's Fix Is to Turn It Off.",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1098-mack-volvo-tanker-braking-software-disable-critic-panel-r0.md",
+        "hero": "drafts/1098-mack-volvo-tanker-braking-software-disable.jpg",
+        "research": "drafts/1098-mack-volvo-tanker-braking-software-disable-research.md",
+        "story": "drafts/1098-mack-volvo-tanker-braking-software-disable.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "ad032c1b",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 11.1,
+        "word_count": 747
+      },
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
       },
       "kicker": "Investigation"
     }

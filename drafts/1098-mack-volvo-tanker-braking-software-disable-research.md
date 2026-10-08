@@ -18,6 +18,8 @@ Investigation
 
 ## Primary Sources
 
+0. **NHTSA campaign numbers confirmed (Oct 8 verification):** Mack tanker-braking recall = **26V620** (Mack SC0500, 850 units, filed Sep 28, 2026, VINs searchable Oct 5); Volvo = **26V619** (Volvo RVXX2610, 392 units). Source: The Brake Report (https://thebrakereport.com/volvo-mack-tanker-truck-recall-braking-software/) + NHTSA 26V620 via oemdtc (https://oemdtc.com/recall/26V620000/). Land Line Media adds: **Volvo logged 3 field reports, Mack logged 0; neither reports any warranty claims, crashes, or injuries** on the braking defect. Correction to an early draft claim: the braking defect was NOT caught through warranty monitoring — Mack had zero reports.
+
 1. **TheTrucker.com, Oct 6-7, 2026 — "Mack and Volvo recall over 4000 trucks over safety concerns"** (Dana Guthrie)
    - Combined 4,338 trucks across Mack + Volvo
    - Mack SC0500: 850 trucks — 2026-2027 Anthem AN(4) and Pioneer PR(4) with tanker application package; inaccurate axle load calculations may cause reduced braking performance while transporting smoothbore tanker trailers

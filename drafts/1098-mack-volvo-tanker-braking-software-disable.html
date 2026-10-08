@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Brake Software Was the Defect. Mack's Fix Is to Turn It Off. &mdash; The Crash Report</title>
+  <meta name="description" content="Mack and Volvo recalled 4,338 trucks last week, including 1,242 tanker rigs whose braking-optimization software made braking worse. The remedy: disable it.">
+  <meta property="og:title" content="The Brake Software Was the Defect. Mack's Fix Is to Turn It Off.">
+  <meta property="og:description" content="Mack and Volvo recalled 4,338 trucks last week, including 1,242 tanker rigs whose braking-optimization software made braking worse. The remedy: disable it.">
+  <meta property="og:image" content="images/1098-mack-volvo-tanker-braking-software-disable.jpg?v=ad032c1b">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>The Brake Software Was the Defect. Mack's Fix Is to Turn It Off.</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">October 8, 2026</div>
+
+      <p>Before you let a tanker pull out of your yard this week, you might want to see this. Mack and Volvo recalled <strong>4,338 trucks</strong> across three campaigns in the first week of October, and the strangest one is not the trim falling off at highway speed, though 3,096 trucks do have that problem. The strangest one is a braking feature that made braking worse, on tanker trailers, and whose official remedy is to stop using it.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">4,338</div>
+      <div class="pull-label">Trucks recalled by Mack and Volvo in one week &mdash; including 1,242 tanker rigs with faulty braking software</div>
+
+      <p>Start with the feature. Mack's SC0500 recall (NHTSA campaign 26V620) covers 850 trucks: 2026&ndash;2027 Anthem AN(4) and Pioneer PR(4) models equipped with a tanker application package. Volvo's RVXX2610 (NHTSA 26V619) covers 392 more: 2025&ndash;2027 VNL(4) and 2026&ndash;2027 VNR(4) trucks with the same package.<sup class="ref-link"><a href="#ref-5">[5]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup> In both cases, the dynamic trailer braking calculations were computing axle loads inaccurately, which reduced braking performance while the trucks were hauling smoothbore tanker trailers. Two brands, the same parent company, the same defect, the same week: one engineering failure wearing two badges.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Now the physics, because this is where it stops being a software story and starts being a mass-times-velocity story. A smoothbore tanker has no baffles inside, so under hard braking, thousands of gallons of liquid surge forward inside the trailer, pushing the whole rig toward whatever it was trying to stop for. Braking performance is not one system among many on a tanker; it is the entire safety case. When the software that optimizes it is computing the wrong answer, every stop is a guess, and the guess is being made by 80,000 pounds of moving liquid.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>And the remedy is the part that should make every fleet manager sit up. Mack and Volvo are not recalibrating the calculations. Dealers will install new software that <strong>disables the dynamic trailer braking calculations entirely</strong>: the feature gets deleted, and that is the fix. When your optimization layer is producing worse outcomes than no optimization at all, the honest move is the off switch, and credit to both companies for choosing it, but every one of those 1,242 trucks spent its working life until now braking under the influence of bad math.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Then there is the week's other Mack recall, SC0501 (NHTSA 26V631): 3,096 Anthem and Pioneer trucks whose intake and grille bezels can detach and become road hazards at speed.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Mack logged 243 warranty claims and 95 field reports before filing, which means roughly one in nine recalled trucks had already shown the problem, and zero crashes or injuries have been reported.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> The remedy is to inspect and replace the bezels and install cable ties, which is a sentence I did not expect to type about a six-figure truck. You can check your own rig in thirty seconds: a wider-than-normal gap along the outer edge of the bezel means the clip has let go.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Fair is fair, and the fair version is this: nobody got hurt. On the braking defect, Volvo logged three field reports and Mack logged none, and neither company reports a single warranty claim, crash, or injury from it.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Both defects were reported voluntarily, and both get fixed free. Disabling a misbehaving optimization rather than shipping a patched one and hoping is the conservative engineering choice. The recall system is doing exactly what it was built to do. But here is the part worth acting on. The braking defect never announced itself with a warning light. It just quietly lengthened stopping distances on trucks hauling liquid, and after the dealer visit those trucks will brake differently than their drivers are used to. If you manage a fleet with 2025&ndash;2027 Mack Anthems or Pioneers, or 2025&ndash;2027 Volvo VNLs or VNRs, with tanker packages: check the VINs at nhtsa.gov/recalls today, because the braking recalls have been searchable since October 5 and the bezel recall follows on October 8, and brief your drivers before the fix, not after. The owner letters do not mail until late November.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
+
+      <p>And for everyone else on the highway: a detached truck bezel at speed is a projectile. If the truck ahead of you has front trim that looks loose, give it room. That gap in the grille is exactly what 3,096 recall letters are about.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Dana Guthrie, &ldquo;Mack and Volvo recall over 4000 trucks over safety concerns,&rdquo; TheTrucker.com, Oct 6&ndash;7, 2026. <a href="https://www.thetrucker.com/trucking-news/business/mack-and-volvo-recall-over-4000-trucks-over-safety-concerns" target="_blank" rel="noopener">thetrucker.com</a></li>
+          <li id="ref-2">NHTSA Recall 26V631 (Mack SC0501), filed Oct 1, 2026. <a href="https://oemdtc.com/recall/26V631000/" target="_blank" rel="noopener">oemdtc.com</a></li>
+          <li id="ref-3">Land Line Media, &ldquo;Mack trucks recalled over loose parts, braking concerns,&rdquo; Oct 7, 2026. <a href="https://landline.media/mack-trucks-recalled-over-loose-parts-braking-concerns/" target="_blank" rel="noopener">landline.media</a></li>
+          <li id="ref-4">Consumer Affairs, &ldquo;Auto Safety Recall Derby &ndash; Week of October 05,&rdquo; Oct 5, 2026. <a href="https://www.consumeraffairs.com/news/auto-safety-recall-derby-week-of-october-05-100526.html" target="_blank" rel="noopener">consumeraffairs.com</a></li>
+          <li id="ref-5">The Brake Report, &ldquo;Volvo, Mack Recall Tanker Trucks Over Braking Software,&rdquo; Oct 2026 (NHTSA 26V619 Volvo / 26V620 Mack; reduced braking can lengthen stopping distances). <a href="https://thebrakereport.com/volvo-mack-tanker-truck-recall-braking-software/" target="_blank" rel="noopener">thebrakereport.com</a></li>
+          <li id="ref-6">NHTSA Recall 26V620 (Mack SC0500), filed Sep 28, 2026 (850 units; VINs searchable Oct 5, 2026). <a href="https://oemdtc.com/recall/26V620000/" target="_blank" rel="noopener">oemdtc.com</a></li>
+          <li id="ref-7">Fleet Maintenance, &ldquo;NHTSA recall notices cover truck braking, lighting, and boom safety systems,&rdquo; Oct 6, 2026. <a href="https://www.fleetmaintenance.com/equipment/news/55409713/nhtsa-recall-notices-cover-truck-braking-lighting-and-boom-safety-systems" target="_blank" rel="noopener">fleetmaintenance.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings and trade press, October 2026. Mack and Volvo have not published the magnitude of the braking-performance reduction, so no stopping-distance figures are stated here. The smoothbore-tanker surge mechanism is general heavy-truck physics, not the filed defect. No crashes or injuries were reported in any of the three campaigns. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
