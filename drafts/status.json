@@ -1,10 +1,11 @@
 {
   "current": {
-    "slug": "cybercab-philadelphia-crash-database-blind-spot",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Axle McScatter",
-    "number": 1094,
-    "ship_date": "2027-07-09"
+    "slug": "1095-school-bus-drunk-driver-millstone-alcohol-detection",
+    "phase": "CRITIQUE",
+    "journalist": "Dale Impactor III",
+    "number": 1095,
+    "started": "2026-10-08T03:30:00-07:00",
+    "round": 0
   },
   "last_check_note": "2026-10-08 01:30 run complete: #1094 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.90, queued 2027-07-09); PUBLISH-QUEUE shipped #809 (1/day slot; #763 hero-blocked skipped per rule); QA all pass; all commits pushed.",
   "last_checked": "2026-10-08T02:00:00-07:00",
