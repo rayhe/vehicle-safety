@@ -1,11 +1,10 @@
 {
   "current": {
     "slug": "1095-school-bus-drunk-driver-millstone-alcohol-detection",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Dale Impactor III",
     "number": 1095,
-    "started": "2026-10-08T03:30:00-07:00",
-    "round": 0
+    "ship_date": "2027-07-10"
   },
   "last_check_note": "2026-10-08 01:30 run complete: #1094 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.90, queued 2027-07-09); PUBLISH-QUEUE shipped #809 (1/day slot; #763 hero-blocked skipped per rule); QA all pass; all commits pushed.",
   "last_checked": "2026-10-08T02:00:00-07:00",
@@ -11287,6 +11286,40 @@
         "hero_jpeg": "1920x1280 ffd8"
       },
       "note": "2026-10-08 01:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.90, all 7 critics >= 8.5, gates verified). Angle: Cybercab door-panel crash, Philadelphia Oct 7 + NHTSA SGO Level 2 reporting blind spot + Sept 10 FMVSS self-certification Special Order. Queued 2027-07-09 (1 day after 2027-07-08 latest)."
+    },
+    {
+      "number": 1095,
+      "slug": "1095-school-bus-drunk-driver-millstone-alcohol-detection",
+      "title": "The School Bus Driver Blew a 0.161. Nobody Made Him Blow Into Anything First.",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-10",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1095-school-bus-drunk-driver-millstone-alcohol-detection-research.md",
+        "story": "drafts/1095-school-bus-drunk-driver-millstone-alcohol-detection.html",
+        "hero": "drafts/1095-school-bus-drunk-driver-millstone-alcohol-detection.jpg",
+        "critic_panel": "drafts/1095-school-bus-drunk-driver-millstone-alcohol-detection-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_ok": true,
+        "rhythm": "variance 126.8, short 0.0%, long 27.6% (accepted on voice grounds, #1026 precedent)",
+        "hero_jpeg": "1920x1280 ffd8"
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "note": "2026-10-08 03:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.84, all 7 critics >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm variance 126.8 accepted on voice grounds, hero JPEG 1920x1280). Novel: NTSB Apr 2026 recommendation that NHTSA require alcohol detection on all new school buses after Millstone WV rollover (driver 0.161, 19 students, 3 serious/16 minor injuries); Stateline 118 impaired school bus drivers 2015-2019; conviction-gated vs job-gated interlock contrast (MADD 5.7M stops since 2006); renewed lap/shoulder belt call (Dale TX crash); FMVSS 208 belt-reminder exemption for school buses. Zero queue overlap (grep millstone/alcohol detection: 0 hits). Pre-panel fixes: merged 8 fragments (short_pct 35.9%->0.0%). Queued SHIP_BLOCKED 2027-07-10 (Dale Impactor III). Dateline pre-set to July 10, 2027."
     }
   ]
 }
