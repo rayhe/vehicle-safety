@@ -1,22 +1,22 @@
 {
   "current": {
     "slug": "cybercab-philadelphia-crash-database-blind-spot",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Axle McScatter",
-    "started": "2026-10-08T01:35:00-07:00",
-    "number": 1094
+    "number": 1094,
+    "ship_date": "2027-07-09"
   },
   "last_check_note": "2026-10-08 01:30 run: current was null -> RESEARCH. Angle: Tesla Cybercab door-panel crash in Philadelphia (Oct 7, 2026) + NHTSA SGO classification-dependent reporting blind spot + Cybercab FMVSS self-certification Special Order. Kill test PASS (no Philly coverage; data-integrity angle novel). Journalist: Axle McScatter (rotation after Mia/Clara/Rex/Mia).",
-  "last_checked": "2026-10-08T01:35:00-07:00",
-  "last_completed": "2026-10-07T21:30:00-07:00",
-  "last_completed_date": "2026-10-07",
-  "last_journalist": "Rex Driverton",
+  "last_checked": "2026-10-08T01:45:00-07:00",
+  "last_completed": "2026-10-08T01:45:00-07:00",
+  "last_completed_date": "2026-10-08",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-07T01:30:00-07:00",
   "last_published_date": "2026-10-07",
   "last_published_slug": "802-lucid-air-efuse-fire-recall",
   "last_qa_date": "2026-10-07",
   "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1094,
+  "next": 1095,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11255,6 +11255,31 @@
       },
       "blocked_reason": "1/day rule; next available queue slot 2027-07-08",
       "note": "2026-10-07 21:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 594.5, hero JPEG 1920x1280). Novel: first-ever IIHS work-vehicle crash-avoidance results (Oct 2026); original 17x calc (6,215 work-vehicle deaths/yr vs 360 FMVSS-127 lives/yr); 30-year-old Express/Savana platform double-Poor with no AEB; child dummies 'disappear' at tall front ends. Queued SHIP_BLOCKED 2027-07-08 (Mia Crumplezone). Dateline pre-set to July 8, 2027."
+    },
+    {
+      "number": 1094,
+      "slug": "cybercab-philadelphia-crash-database-blind-spot",
+      "title": "A Cybercab Lost Its Door in Philadelphia; the Federal Database May Never Know",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-09",
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1094-cybercab-philadelphia-crash-database-blind-spot-research.md",
+        "story": "drafts/1094-cybercab-philadelphia-crash-database-blind-spot.html",
+        "hero": "images/1094-cybercab-philadelphia-crash-database-blind-spot.jpg",
+        "critic_panel": "drafts/1094-cybercab-philadelphia-crash-database-blind-spot-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.0,
+        "css_ok": true,
+        "rhythm": "variance 840.5, short 0.0%, long 56.0%",
+        "hero_jpeg": "1920x1280 ffd8"
+      },
+      "note": "2026-10-08 01:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.90, all 7 critics >= 8.5, gates verified). Angle: Cybercab door-panel crash, Philadelphia Oct 7 + NHTSA SGO Level 2 reporting blind spot + Sept 10 FMVSS self-certification Special Order. Queued 2027-07-09 (1 day after 2027-07-08 latest)."
     }
   ]
 }
