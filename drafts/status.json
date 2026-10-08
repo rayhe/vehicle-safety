@@ -1,22 +1,22 @@
 {
   "current": {
-    "slug": "1098-mack-volvo-tanker-braking-software-disable",
+    "slug": "1099-rivian-r2-loose-bolt-second-recall",
     "phase": "SHIP_BLOCKED",
-    "journalist": "Clara Rollover",
-    "shipped": "2026-10-08T10:00:00-07:00",
-    "ship_date": "2027-07-13"
+    "journalist": "Vin Wreckage",
+    "shipped": "2026-10-08T11:30:00-07:00",
+    "ship_date": "2027-07-14"
   },
-  "last_check_note": "2026-10-08 09:30 run complete: #1098 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.79, Clara Rollover, queued 2027-07-12+1=2027-07-13); PUBLISH-QUEUE skipped (1/day gate consumed, 2 Publish commits today); all commits pushed.",
-  "last_checked": "2026-10-08T10:00:00-07:00",
+  "last_check_note": "2026-10-08 11:30 run complete: #1099 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.79, Vin Wreckage, queued 2027-07-13+1=2027-07-14); PUBLISH-QUEUE skipped (1/day gate consumed, 2 Publish commits today); commits pushed.",
+  "last_checked": "2026-10-08T11:30:00-07:00",
   "last_completed": "2026-10-08T01:45:00-07:00",
   "last_completed_date": "2026-10-08",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-08T02:00:00-07:00",
   "last_published_date": "2026-10-08",
   "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
   "last_qa_date": "2026-10-08",
   "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1099,
+  "next": 1100,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11430,6 +11430,43 @@
         "voice_coach": 9.0
       },
       "kicker": "Investigation"
+    },
+    {
+      "journalist": "Vin Wreckage",
+      "note": "2026-10-08 11:30 run: round-0 panel VERDICT SHIP (avg 8.79). Pre-ship fixes: merged 9 short fragments (rhythm gate now PASS), reworded 2 The-starters (13.2%), fixed 2 backslash-escaped HTML attrs, added story-body wrapper. Queued 2027-07-14 (1 day after #1098).",
+      "number": 1099,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-14",
+      "slug": "1099-rivian-r2-loose-bolt-second-recall",
+      "title": "One Loose Bolt Put Fourteen Rivian R2s Under Recall. The Robot Missed It.",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1099-rivian-r2-loose-bolt-second-recall-critic-panel-r0.md",
+        "hero": "drafts/1099-rivian-r2-loose-bolt-second-recall.jpg",
+        "research": "drafts/1099-rivian-r2-loose-bolt-second-recall-research.md",
+        "story": "drafts/1099-rivian-r2-loose-bolt-second-recall.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "668005b4",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 13.2,
+        "word_count": 772
+      },
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "kicker": "Existential Dread"
     }
   ]
 }
