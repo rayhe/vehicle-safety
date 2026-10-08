@@ -1,21 +1,22 @@
 {
   "current": {
     "slug": "1097-ford-contaminated-led-headlight-blackout",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
-    "started": "2026-10-08T07:40:00-07:00"
+    "shipped": "2026-10-08T08:00:00-07:00",
+    "ship_date": "2027-07-12"
   },
   "last_check_note": "2026-10-08 05:30 run complete: #1096 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.87, queued 2027-07-11); PUBLISH-QUEUE gate consumed today (Publish #809; 1/day slot used); all commits pushed.",
   "last_checked": "2026-10-08T06:00:00-07:00",
   "last_completed": "2026-10-08T01:45:00-07:00",
   "last_completed_date": "2026-10-08",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-08T02:00:00-07:00",
   "last_published_date": "2026-10-08",
   "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
   "last_qa_date": "2026-10-08",
   "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1097,
+  "next": 1098,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11355,6 +11356,43 @@
       },
       "note": "2026-10-08 05:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.87, all 7 critics >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS, hero JPEG 2352x1008). Novel: JAMA Pediatrics 42-yr NHTSA study (43% Halloween pedestrian risk, 10x ages 4-8, ~4 extra deaths/yr) crossed with the candy-tampering myth (Snopes/Joel Best: zero documented stranger poisonings) — the fear-ratio frame; ~168 excess deaths 1975-2016 vs 0 phantom poisoners. Seasonal note: ships 2027-07-11 per strict 1/day queue spacing (backlog normal); evergreen for Oct 2027. One revision in round 0: removed unverifiable per-hour figures (2.07/1.45) from secondary aggregator.",
       "kicker": "Existential Dread"
+    },
+    {
+      "journalist": "Mia Crumplezone",
+      "note": "2026-10-08 07:30 run: round-0 panel VERDICT SHIP (avg 8.71). Pre-ship fix: softened unsourced 'four-figure assembly' cost claim. Queued 2027-07-12 (1 day after #1096).",
+      "number": 1097,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-12",
+      "slug": "1097-ford-contaminated-led-headlight-blackout",
+      "title": "A Speck of Contamination Killed Every Headlight on 41,748 Fords. There Is No Bulb to Replace.",
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1097-ford-contaminated-led-headlight-blackout-critic-panel-r0.md",
+        "hero": "drafts/1097-ford-contaminated-led-headlight-blackout.jpg",
+        "research": "drafts/1097-ford-contaminated-led-headlight-blackout-research.md",
+        "story": "drafts/1097-ford-contaminated-led-headlight-blackout.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "303b3cad",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 700
+      },
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.7,
+        "social_shareability": 8.5,
+        "voice_coach": 8.8
+      },
+      "kicker": "Investigation"
     }
   ]
 }
