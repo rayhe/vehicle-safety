@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "1096-halloween-deadliest-night-pedestrians",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
     "number": 1096,
-    "started": "2026-10-08T05:35:00-07:00"
+    "started": "2026-10-08T05:35:00-07:00",
+    "critique_round": 0
   },
   "last_check_note": "2026-10-08 05:30 run: #1095 SHIP handling complete (03:30 run); current cleared, next=1096. PUBLISH-QUEUE gate consumed today (Publish #809 + note commit; 1/day slot used). Starting RESEARCH #1096.",
   "last_checked": "2026-10-08T05:30:00-07:00",
