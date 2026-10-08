@@ -6,8 +6,8 @@
     "shipped": "2026-10-08T08:00:00-07:00",
     "ship_date": "2027-07-12"
   },
-  "last_check_note": "2026-10-08 05:30 run complete: #1096 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.87, queued 2027-07-11); PUBLISH-QUEUE gate consumed today (Publish #809; 1/day slot used); all commits pushed.",
-  "last_checked": "2026-10-08T06:00:00-07:00",
+  "last_check_note": "2026-10-08 07:30 run complete: #1097 drafted+shipped (RESEARCH->DRAFT->CRITIQUE round-0 SHIP avg 8.71, Mia Crumplezone, queued 2027-07-11+1=2027-07-12); PUBLISH-QUEUE skipped (1/day gate consumed, 2 Publish commits today); all commits pushed.",
+  "last_checked": "2026-10-08T08:05:00-07:00",
   "last_completed": "2026-10-08T01:45:00-07:00",
   "last_completed_date": "2026-10-08",
   "last_journalist": "Mia Crumplezone",
