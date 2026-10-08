@@ -1,7 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-07 23:30 run: recovered the 21:30 run, which had completed #1093 (RESEARCH->DRAFT->CRITIQUE round-0 SHIP, avg 8.80, gates verified) and queued it SHIP_BLOCKED 2027-07-08 (Mia Crumplezone) but died before bookkeeping/push. Hard gates re-verified: em 0, banned 0, class=story, style.css, hero real JPEG 1920x1280. Bookkeeping repaired (next=1094) and commits 564758b0/2042c1f2/9f646059 pushed. PUBLISH-QUEUE: 1/day gate consumed today (#802 published 01:30); #763 ev-fire-blanket still hero-blocked; nothing due to ship.",
-  "last_checked": "2026-10-07T23:30:00-07:00",
+  "current": {
+    "slug": "cybercab-philadelphia-crash-database-blind-spot",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-08T01:35:00-07:00",
+    "number": 1094
+  },
+  "last_check_note": "2026-10-08 01:30 run: current was null -> RESEARCH. Angle: Tesla Cybercab door-panel crash in Philadelphia (Oct 7, 2026) + NHTSA SGO classification-dependent reporting blind spot + Cybercab FMVSS self-certification Special Order. Kill test PASS (no Philly coverage; data-integrity angle novel). Journalist: Axle McScatter (rotation after Mia/Clara/Rex/Mia).",
+  "last_checked": "2026-10-08T01:35:00-07:00",
   "last_completed": "2026-10-07T21:30:00-07:00",
   "last_completed_date": "2026-10-07",
   "last_journalist": "Rex Driverton",
