@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1092-rv-falling-water-tank-double-recall",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-07T19:30:00-07:00",
-    "number": 1092
-  },
-  "last_check_note": "2026-10-07 19:30 run: #1092 researched (Rex Driverton; Jayco double water-tank recall 26V626/26V627 + 2013 Monaco + 2024/2025 Forest River pattern). Drafting next.",
+  "current": null,
+  "last_check_note": "2026-10-07 19:30 run: #1092 researched, drafted, round-0 critiqued (avg 8.81) and queued SHIP_BLOCKED 2027-07-07 (Rex Driverton). PUBLISH-QUEUE: 1/day gate consumed (#802 published 01:30 today); nothing due. Queue extends to 2027-07-07; next=1093.",
   "last_checked": "2026-10-07T17:30:00-07:00",
-  "last_completed": "2026-10-07T17:30:00-07:00",
+  "last_completed": "2026-10-07T19:30:00-07:00",
   "last_completed_date": "2026-10-07",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-07T01:30:00-07:00",
   "last_published_date": "2026-10-07",
   "last_published_slug": "802-lucid-air-efuse-fire-recall",
   "last_qa_date": "2026-10-07",
   "last_qa_note": "Publish #802 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1092,
+  "next": 1093,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11183,6 +11177,34 @@
         "hero": "drafts/1091-vw-steering-screw-4-million-recall.jpg"
       },
       "note": "2026-10-07 17:30 run: round-0 panel (avg 8.36, data_presentation 8.0 below gate); round-1 revision folded in per-model US counts + global brand breakdown; round-1 VERDICT SHIP (avg 8.64). Queued SHIP_BLOCKED 2027-07-06 (1 day after latest). Hero JPEG 2048x1152 ?v=22c0e26b; dateline pre-set to July 6, 2027."
+    },
+    {
+      "number": 1092,
+      "slug": "1092-rv-falling-water-tank-double-recall",
+      "title": "Two Recalls, One Week, Same Falling Water Tank. The RV Industry Has a Dropping Problem.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2027-07-07",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.81,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1092-rv-falling-water-tank-double-recall-research.md",
+        "story": "drafts/1092-rv-falling-water-tank-double-recall.html",
+        "hero": "drafts/1092-rv-falling-water-tank-double-recall.jpg",
+        "critic_panel": "drafts/1092-rv-falling-water-tank-double-recall-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.6,
+        "css_ok": true,
+        "rhythm": {
+          "variance": 551.8,
+          "short_pct": 6.5,
+          "long_pct": 58.1
+        }
+      },
+      "note": "2026-10-07 19:30 run: researched, drafted, round-0 critiqued (avg 8.81, all 7 critics 8.5+; all hard gates pass) and queued SHIP_BLOCKED 2027-07-07 (Rex Driverton). Queue extends to 2027-07-07; next=1093."
     }
   ]
 }
