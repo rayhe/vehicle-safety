@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "2026-10-08 15:30 run: #1100 RESEARCH+DRAFT+CRITIQUE complete in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED for 2027-07-15.",
+ "last_check_note": "2026-10-08 15:30 run: #1100 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED 2027-07-15; current=null, next=1101. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted; next due #810 on 2026-10-09).",
  "last_checked": "2026-10-08T15:30:00-07:00",
  "last_completed": "2026-10-08T01:45:00-07:00",
  "last_completed_date": "2026-10-08",
