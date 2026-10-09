@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-08 23:30 run: #1104 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg); queued SHIP_BLOCKED 2027-07-19; current=null, next=1105. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted).",
- "last_checked": "2026-10-08T21:30:00-07:00",
+ "last_check_note": "2026-10-09 01:30 run: #1105 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.71 avg); queued SHIP_BLOCKED 2027-07-20; current=null, next=1106. PUBLISH-QUEUE: 0 Publish commits today; due: #763 (hero-less, skip), #810 (check).",
+ "last_checked": "2026-10-09T01:30:00-07:00",
  "last_completed": "2026-10-08T23:30:00-07:00",
  "last_completed_date": "2026-10-08",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-10-08T02:00:00-07:00",
  "last_published_date": "2026-10-08",
  "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
  "last_qa_date": "2026-10-08",
  "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
- "next": 1105,
+ "next": 1106,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -11670,6 +11670,50 @@
     "hero": "drafts/1104-ram-promaster-no-warning-steering.jpg"
    },
    "note": "2026-10-08 23:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg). NHTSA 26V621000 (Chrysler 92D, PE26002): 265,512 ProMasters, water in EPS harness, no-warning assist loss. Original finding: 16V202000/S24 (2016 ProMaster City water-in-harness) is the same failure family a decade apart."
+  },
+  {
+   "number": 1105,
+   "slug": "1105-id4-fourth-battery-recall-80-percent-cap",
+   "title": "Volkswagen Recalled the ID.4 a Fourth Time. The Fix Is “Charge It Less.”",
+   "journalist": "Clara Rollover",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-07-20",
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 8.5,
+    "research_rigor": 9.0,
+    "data_presentation": 8.5
+   },
+   "avg_critic": 8.71,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 2.6,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "14266488",
+    "word_count": 596,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 529.8,
+     "short_pct": 11.1,
+     "long_pct": 55.6
+    }
+   },
+   "files": {
+    "research": "drafts/1105-id4-fourth-battery-recall-80-percent-cap-research.md",
+    "story": "drafts/1105-id4-fourth-battery-recall-80-percent-cap.html",
+    "hero": "drafts/1105-id4-fourth-battery-recall-80-percent-cap.jpg",
+    "critic_panel": "drafts/1105-id4-fourth-battery-recall-80-percent-cap-critic-panel-r0.md"
+   },
+   "note": "2026-10-09 01:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.71 avg); queued SHIP_BLOCKED 2027-07-20 (1 day after #1104). Sequel to #866: new fourth ID.4 battery campaign 26V630 (Oct 6, 2026), 22,524 units MY 2023-2026, thermal propagation >80% charge, unknown root cause, no remedy. Dateline pre-set to July 20, 2027."
   }
  ]
 }
