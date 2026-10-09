@@ -1,16 +1,9 @@
 {
-  "current": {
-    "slug": "1110-iihs-commercial-crash-prevention-grades",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-09T11:40:00-07:00",
-    "avg_critic": 8.64,
-    "critique_round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-09 09:30 run: #1109 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg, Dale Impactor III); queued SHIP_BLOCKED 2027-07-24; current=null, next=1110. PUBLISH-QUEUE: 1/day gate consumed by #810 earlier today (01:45); no publish this run. Only due entry is #763 (hero-blocked); cadence satisfied.",
-  "last_checked": "2026-10-09T09:45:00-07:00",
-  "last_completed": "2026-10-09T09:45:00-07:00",
-  "last_completed_date": "2026-10-08",
+  "last_checked": "2026-10-09T12:05:00-07:00",
+  "last_completed": "2026-10-09T12:05:00-07:00",
+  "last_completed_date": "2026-10-09",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-09T01:45:00-07:00",
   "last_published_date": "2026-10-09",
@@ -11873,6 +11866,43 @@
         "average": 8.86
       },
       "note": "2026-10-09 09:30 run: #1109 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); Dale Impactor III."
+    },
+    {
+      "number": 1110,
+      "slug": "1110-iihs-commercial-crash-prevention-grades",
+      "title": "IIHS Finally Graded the Trucks Most Likely to Flatten You. Almost Everyone Failed.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "ship_date": "2027-07-25",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.64,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "342ebcc9",
+        "word_count": 529
+      },
+      "files": {
+        "research": "drafts/1110-iihs-commercial-crash-prevention-grades-research.md",
+        "story": "drafts/1110-iihs-commercial-crash-prevention-grades.html",
+        "critic_panel": "drafts/1110-iihs-commercial-crash-prevention-grades-critic-panel-r0.md",
+        "hero": "images/1110-iihs-commercial-crash-prevention-grades.jpg"
+      },
+      "note": "2026-10-09 11:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.64 avg, Vin Wreckage); queued SHIP_BLOCKED 2027-07-25; current=null, next=1111."
     }
   ]
 }
