@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-08 15:30 run: #1100 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED 2027-07-15; current=null, next=1101. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted; next due #810 on 2026-10-09).",
- "last_checked": "2026-10-08T15:30:00-07:00",
- "last_completed": "2026-10-08T01:45:00-07:00",
+ "last_check_note": "2026-10-08 17:30 run: #1101 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED 2027-07-16; current=null, next=1102. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted; next due #810 on 2026-10-09).",
+ "last_checked": "2026-10-08T17:30:00-07:00",
+ "last_completed": "2026-10-08T17:30:00-07:00",
  "last_completed_date": "2026-10-08",
- "last_journalist": "Dale Impactor III",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-10-08T02:00:00-07:00",
  "last_published_date": "2026-10-08",
  "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
  "last_qa_date": "2026-10-08",
  "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
- "next": 1101,
+ "next": 1102,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -101,7 +101,7 @@
   },
   {
    "journalist": "Mia Crumplezone",
-   "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-05 01:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, cadence preserved by #782 publish. | 2026-10-05 03:30 run: hero-less skip re-confirmed (policy-blocked generation); 1/day slot already consumed today by 2 publishes — skipped, cadence not stalled. | 2026-10-05 07:30 run: still hero-blocked (policy-blocked fire imagery); 1/day slot already consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 09:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 11:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publish-related commits today); skipped per gate rule, cadence preserved. | 2026-10-05 13:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 19:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (4 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-06 01:30 run: skipped again (hero policy-blocked, no image); cadence preserved via #790. | 2026-10-06 05:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, 1/day gate consumed by #790; cadence preserved. 2026-10-06 09:30 run: still hero-less (policy-blocked generation); skipped per blocked-hero rule so it cannot stall the 1/day cadence. No other SHIP_BLOCKED entries were due today; 1/day gate already consumed by 4 publishes today. | 2026-10-06 15:30 run: still hero-less (policy-blocked generation, no hero file in drafts/); skipped per blocked-hero rule so it cannot stall the 1/day cadence. 1/day gate consumed by Publish #790 today. | 2026-10-07 05:30 run: still hero-less (policy-blocked fire imagery); skipped per blocked-hero rule, cadence preserved (1/day gate already consumed by Publish #802 today). | 2026-10-07 11:30 run: 1/day gate consumed (#802); #763 still hero-less (policy-blocked generation) — skipped again, must never stall cadence. | 2026-10-07 23:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed by #802 publish earlier today; skipped, cadence intact. | 2026-10-08 03:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed today by Publish #809; skipped per hero-gate rule, cadence intact. | 2026-10-08 13:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule.",
+   "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-05 01:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, cadence preserved by #782 publish. | 2026-10-05 03:30 run: hero-less skip re-confirmed (policy-blocked generation); 1/day slot already consumed today by 2 publishes — skipped, cadence not stalled. | 2026-10-05 07:30 run: still hero-blocked (policy-blocked fire imagery); 1/day slot already consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 09:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 11:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publish-related commits today); skipped per gate rule, cadence preserved. | 2026-10-05 13:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 19:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (4 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-06 01:30 run: skipped again (hero policy-blocked, no image); cadence preserved via #790. | 2026-10-06 05:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, 1/day gate consumed by #790; cadence preserved. 2026-10-06 09:30 run: still hero-less (policy-blocked generation); skipped per blocked-hero rule so it cannot stall the 1/day cadence. No other SHIP_BLOCKED entries were due today; 1/day gate already consumed by 4 publishes today. | 2026-10-06 15:30 run: still hero-less (policy-blocked generation, no hero file in drafts/); skipped per blocked-hero rule so it cannot stall the 1/day cadence. 1/day gate consumed by Publish #790 today. | 2026-10-07 05:30 run: still hero-less (policy-blocked fire imagery); skipped per blocked-hero rule, cadence preserved (1/day gate already consumed by Publish #802 today). | 2026-10-07 11:30 run: 1/day gate consumed (#802); #763 still hero-less (policy-blocked generation) — skipped again, must never stall cadence. | 2026-10-07 23:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed by #802 publish earlier today; skipped, cadence intact. | 2026-10-08 03:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed today by Publish #809; skipped per hero-gate rule, cadence intact. | 2026-10-08 13:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule.",
    "notes": "Hero image generation failed; needs image before ship.",
    "number": 763,
    "phase": "SHIP_BLOCKED",
@@ -11499,6 +11499,50 @@
    "ship_date": "2027-07-15",
    "slug": "1100-waymo-sober-nighttime-39x-risk",
    "title": "You're Sober. The Night Doesn't Care."
+  },
+  {
+   "number": 1101,
+   "slug": "1101-kia-ev9-ods-airbag-child",
+   "title": "Kia's Child-Sensing Airbag Can't Tell a Kid From a Seat. 21,290 EV9s Are Recalled.",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-07-16",
+   "critique_round": 0,
+   "avg_critic": 8.86,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.9,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 395.8,
+     "short_pct": 7.1,
+     "long_pct": 60.7,
+     "passed": true
+    },
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "d4de141b",
+    "word_count": 646
+   },
+   "files": {
+    "research": "drafts/1101-kia-ev9-ods-airbag-child-research.md",
+    "story": "drafts/1101-kia-ev9-ods-airbag-child.html",
+    "hero": "drafts/1101-kia-ev9-ods-airbag-child.jpg",
+    "critic_panel": "drafts/1101-kia-ev9-ods-airbag-child-critic-panel-r0.md"
+   },
+   "note": "2026-10-08 17:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 12.9%, rhythm PASS variance 395.8, hero JPEG 1920x1280 ?v=d4de141b). Novel: entire Georgia production run (all US-built 2025s + certain 2026s, May 2024-May 2026) not a bad batch; 6% defect estimate = ~1,277 of 21,290 with all needing inspection; silent degradation of federally-mandated ODS via ordinary seat-height adjustment. Site overlap checked: zero EV9/ODS coverage in 306 queue entries (killed Ranger screen #994/#1075 dupe and ID.4 #866 sequel as already covered). Pre-panel fixes: fragment merges (short_pct 35.4%->7.1%); factual corrections (nearly two years on line; 'Kia has not reported any injuries'; 'certain 2026s')."
   }
  ]
 }
