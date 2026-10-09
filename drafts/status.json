@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-09 05:30 run: #1107 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg); queued SHIP_BLOCKED 2027-07-22; current=null, next=1108. PUBLISH-QUEUE: 1/day gate consumed by #810 earlier today (01:45); no publish this run.",
-  "last_checked": "2026-10-09T05:55:00-07:00",
+  "current": {
+    "slug": "1108-ram-1500-nine-recalls-ten-months",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-09T07:55:00-07:00"
+  },
+  "last_check_note": "2026-10-09 07:30 run: #1108 RESEARCH done (2026 Ram 1500 nine-recall cluster, FARS paradox angle, Axle McScatter); phase=DRAFT.",
+  "last_checked": "2026-10-09T07:58:00-07:00",
   "last_completed": "2026-10-08T23:30:00-07:00",
   "last_completed_date": "2026-10-08",
   "last_journalist": "Clara Rollover",
