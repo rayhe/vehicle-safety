@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1112-dodge-avenger-druggiest-drivers",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-09T15:30:00-07:00",
-    "number": 1112
-  },
+  "current": null,
   "last_check_note": "2026-10-09 13:30 run: #1111 shipped to queue (2027-07-26); 1/day publish gate already consumed today (Publish #810 at 01:45 PT); #763 still hero-blocked, skipped per no-stall rule.",
   "last_checked": "2026-10-09T13:45:00-07:00",
-  "last_completed": "2026-10-09T13:45:00-07:00",
+  "last_completed": "2026-10-09T15:30:00-07:00",
   "last_completed_date": "2026-10-09",
   "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-09T01:45:00-07:00",
@@ -11953,6 +11947,50 @@
       },
       "started": "2026-10-09T13:30:00-07:00",
       "note": "2026-10-09 13:30 run: #1111 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.80 avg); Dale Impactor III. Novel: flagship-tier impairment cross-tab (7 Series #9/307 at 26.1%; 7 of top 40 are luxury flagships) + depreciation counterargument (Lincoln LS dead since 2006, rank 17). Pre-panel fixes: merged 2 choppy fragments (rhythm short_pct 16.0->8.7), The-starters 0 remaining after draft-time rewrite. Zero queue overlap (7 Series/Q50/E-Class/S-Class all uncovered)."
+    },
+    {
+      "number": 1112,
+      "slug": "1112-dodge-avenger-druggiest-drivers",
+      "title": "The Dodge Avenger Died in 2014. Its Drivers Are Still the Druggiest on American Roads.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "ship_date": "2027-07-27",
+      "phase": "SHIP_BLOCKED",
+      "critic_avg": 8.73,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "9457bf6a",
+        "word_count": 507,
+        "sentence_rhythm": {
+          "variance": 357.2,
+          "short_pct": 9.1,
+          "long_pct": 63.6,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1112-dodge-avenger-druggiest-drivers-research.md",
+        "story": "drafts/1112-dodge-avenger-druggiest-drivers.html",
+        "critic_panel": "drafts/1112-dodge-avenger-druggiest-drivers-critic-panel-r0.md",
+        "hero": "drafts/1112-dodge-avenger-druggiest-drivers.jpg"
+      },
+      "started": "2026-10-09T15:30:00-07:00",
+      "note": "2026-10-09 15:30 run: RESEARCH->DRAFT->CRITIQUE in one run; round-0 SHIP (8.73 avg); Dale Impactor III. Novel: highest drug-positive rate (11.3%, n=877) among 500+ driver nameplates + dead-car hook (production ended 2014) + limitation-as-spine (drug+ != impaired per NHTSA research note). Pre-panel fixes: pull-label median claim corrected (26% above sedan median, computed), unverified Takata claim removed, rhythm fragments merged (short 20.8->9.1). Zero queue overlap (avenger: no hits)."
     }
   ]
 }
