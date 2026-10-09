@@ -1,16 +1,21 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1110-iihs-commercial-crash-prevention-grades",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-09T11:40:00-07:00"
+  },
   "last_check_note": "2026-10-09 09:30 run: #1109 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg, Dale Impactor III); queued SHIP_BLOCKED 2027-07-24; current=null, next=1110. PUBLISH-QUEUE: 1/day gate consumed by #810 earlier today (01:45); no publish this run. Only due entry is #763 (hero-blocked); cadence satisfied.",
   "last_checked": "2026-10-09T09:45:00-07:00",
   "last_completed": "2026-10-09T09:45:00-07:00",
   "last_completed_date": "2026-10-08",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-09T01:45:00-07:00",
   "last_published_date": "2026-10-09",
   "last_published_slug": "810-sobriety-ladder-test",
   "last_qa_date": "2026-10-09",
   "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1110,
+  "next": 1111,
   "queue": [
     {
       "journalist": "Rex Driverton",
