@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-08 17:30 run: #1101 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED 2027-07-16; current=null, next=1102. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted; next due #810 on 2026-10-09).",
+ "last_check_note": "2026-10-08 19:30 run: #1102 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED 2027-07-17; current=null, next=1103. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted; next due #810 on 2026-10-09).",
  "last_checked": "2026-10-08T17:30:00-07:00",
- "last_completed": "2026-10-08T17:30:00-07:00",
+ "last_completed": "2026-10-08T19:30:00-07:00",
  "last_completed_date": "2026-10-08",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-08T02:00:00-07:00",
  "last_published_date": "2026-10-08",
  "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
  "last_qa_date": "2026-10-08",
  "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
- "next": 1102,
+ "next": 1103,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -11543,6 +11543,50 @@
     "critic_panel": "drafts/1101-kia-ev9-ods-airbag-child-critic-panel-r0.md"
    },
    "note": "2026-10-08 17:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 12.9%, rhythm PASS variance 395.8, hero JPEG 1920x1280 ?v=d4de141b). Novel: entire Georgia production run (all US-built 2025s + certain 2026s, May 2024-May 2026) not a bad batch; 6% defect estimate = ~1,277 of 21,290 with all needing inspection; silent degradation of federally-mandated ODS via ordinary seat-height adjustment. Site overlap checked: zero EV9/ODS coverage in 306 queue entries (killed Ranger screen #994/#1075 dupe and ID.4 #866 sequel as already covered). Pre-panel fixes: fragment merges (short_pct 35.4%->7.1%); factual corrections (nearly two years on line; 'Kia has not reported any injuries'; 'certain 2026s')."
+  },
+  {
+   "number": 1102,
+   "slug": "1102-child-dummy-disappears-work-trucks",
+   "title": "IIHS Crash-Tested Work Trucks for the First Time. The Sensors Keep Losing the Kid.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-07-17",
+   "critique_round": 0,
+   "avg_critic": 8.86,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 8.5,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 983.6,
+     "short_pct": 6.7,
+     "long_pct": 46.7,
+     "passed": true
+    },
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "e2cb9922",
+    "word_count": 810
+   },
+   "files": {
+    "research": "drafts/1102-child-dummy-disappears-work-trucks-research.md",
+    "story": "drafts/1102-child-dummy-disappears-work-trucks.html",
+    "hero": "drafts/1102-child-dummy-disappears-work-trucks.jpg",
+    "critic_panel": "drafts/1102-child-dummy-disappears-work-trucks-critic-panel-r0.md"
+   },
+   "note": "2026-10-08 19:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 983.6, hero JPEG 1920x1280 ?v=e2cb9922). Novel: IIHS Oct 8, 2026 first-ever commercial crash-prevention ratings (11 vans/Class 3 pickups); original 3-of-22 Good census; inverted mechanism (tall hood + mirror-mounted sensor = self-blinding geometry; child dummy detected then disappears); Express/Savana 2500 Poor in both, no AEB offered in 2026. Site overlap checked: #830 (Class 7/8 mandate/probe) and #993 (Ram 3500 death rates) differ; zero commercial-ratings coverage in 307 queue entries. Pre-panel fixes: fragment merges (short_pct 21.6%->6.7%); P6 repetition fix."
   }
  ]
 }
