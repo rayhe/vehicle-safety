@@ -1,14 +1,8 @@
 {
- "current": {
-  "critique_round": 0,
-  "journalist": "Rex Driverton",
-  "phase": "CRITIQUE",
-  "slug": "1103-nhtsa-headlight-glare-rule-rewrite",
-  "started": "2026-10-08T21:30:00-07:00"
- },
- "last_check_note": "2026-10-08 19:30 run: #1102 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); queued SHIP_BLOCKED 2027-07-17; current=null, next=1103. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted; next due #810 on 2026-10-09).",
+ "current": null,
+ "last_check_note": "2026-10-08 21:30 run: #1103 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg); queued SHIP_BLOCKED 2027-07-18; current=null, next=1104. PUBLISH-QUEUE: skipped (1/day gate consumed, 2 Publish commits today; #763 still hero-less, skip noted).",
  "last_checked": "2026-10-08T21:30:00-07:00",
- "last_completed": "2026-10-08T19:30:00-07:00",
+ "last_completed": "2026-10-08T21:30:00-07:00",
  "last_completed_date": "2026-10-08",
  "last_journalist": "Rex Driverton",
  "last_published": "2026-10-08T02:00:00-07:00",
@@ -16,7 +10,7 @@
  "last_published_slug": "809-ford-ecoboost-piston-dome-crater-crack",
  "last_qa_date": "2026-10-08",
  "last_qa_note": "Publish #809 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg, og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
- "next": 1103,
+ "next": 1104,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -11593,6 +11587,50 @@
    "ship_date": "2027-07-17",
    "slug": "1102-child-dummy-disappears-work-trucks",
    "title": "IIHS Crash-Tested Work Trucks for the First Time. The Sensors Keep Losing the Kid."
+  },
+  {
+   "avg_critic": 8.79,
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1103-nhtsa-headlight-glare-rule-rewrite-critic-panel-r0.md",
+    "draft": "drafts/1103-nhtsa-headlight-glare-rule-rewrite.html",
+    "hero": "drafts/1103-nhtsa-headlight-glare-rule-rewrite.jpg",
+    "research": "drafts/1103-nhtsa-headlight-glare-rule-rewrite-research.md"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_dim": "1920x1280",
+    "hero_hash": "beb6de51",
+    "hero_jpeg": true,
+    "sentence_rhythm": {
+     "long_pct": 41.7,
+     "passed": true,
+     "short_pct": 8.3,
+     "variance": 730.4
+    },
+    "style_css": true,
+    "the_starters_pct": 3.2,
+    "word_count": 606
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "note": "2026-10-08 21:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 3.2%, rhythm PASS variance 730.4, hero JPEG 1920x1280 ?v=beb6de51). Novel: complaint-vs-lab inversion (measured excessive glare 21%->3% 2017-2025 while complaints rose); one-driver asymmetric ledger (~19%/23% fewer crashes vs 0.1-0.2% glare-coded); most 'glare' crashes happened in daylight. Hook: NHTSA Oct 6, 2026 negotiated rulemaking to rewrite FMVSS 108 (first since 1997). Pre-panel fixes: rhythm short_pct 20.7%->8.3% (fragment merges); The-starters 19.0%->3.2%; 70,000-petition citation re-attributed to Land Line Media. Overlap check: zero 'glare' or FMVSS-108 queue items; six Ford-LED headlight items are defect-pattern beats, not rulemaking.",
+   "number": 1103,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 8.7,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.7,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.8,
+    "social_shareability": 8.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2027-07-18",
+   "slug": "1103-nhtsa-headlight-glare-rule-rewrite",
+   "title": "The Headlight Complaint Boom vs. the Crash Data. The Crash Data Wins."
   }
  ]
 }
