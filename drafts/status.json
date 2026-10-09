@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1109-honda-element-impairment-paradox",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-09T09:35:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-09 07:30 run: #1108 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.90 avg); queued SHIP_BLOCKED 2027-07-23; current=null, next=1109. PUBLISH-QUEUE: 1/day gate consumed by #810 earlier today (01:45); no publish this run.",
   "last_checked": "2026-10-09T08:05:00-07:00",
-  "last_completed": "2026-10-08T23:30:00-07:00",
+  "last_completed": "2026-10-09T09:45:00-07:00",
   "last_completed_date": "2026-10-08",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-09T01:45:00-07:00",
   "last_published_date": "2026-10-09",
   "last_published_slug": "810-sobriety-ladder-test",
   "last_qa_date": "2026-10-09",
   "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1109,
+  "next": 1110,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11852,6 +11847,25 @@
         "critic_panel": "drafts/1108-ram-1500-nine-recalls-ten-months-critic-panel-r0.md"
       },
       "note": "2026-10-09 07:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.90 avg); queued SHIP_BLOCKED 2027-07-23 (1 day after #1107). Axle McScatter on NHTSA campaign-per-model-year count: nine campaigns name the 2026 Ram 1500 (Dec 2025-Sep 2026), incl. twin recalls filed Sep 29 (26V622 side-airbag connectors + 26V623 TPMS), twice-recalled backup camera and instrument cluster; FARS paradox: Ram 1500 at 0.13/100M VMT, lowest of any 200+ death model. Legal-critic edit applied (voluntary-filing claim sourced to Reuters)."
+    },
+    {
+      "number": 1109,
+      "slug": "1109-honda-element-impairment-paradox",
+      "title": "The Honda Element Is a Top Safety Pick. Its Drivers Keep Failing Drug Tests.",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-24",
+      "scores": {
+        "general": 8.8,
+        "voice": 9.0,
+        "ethics": 8.8,
+        "social": 8.7,
+        "legal": 9.0,
+        "rigor": 8.9,
+        "data": 8.8,
+        "average": 8.86
+      },
+      "note": "2026-10-09 09:30 run: #1109 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg); Dale Impactor III."
     }
   ]
 }
