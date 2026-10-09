@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1108-ram-1500-nine-recalls-ten-months",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-09T07:55:00-07:00"
-  },
-  "last_check_note": "2026-10-09 07:30 run: #1108 RESEARCH done (2026 Ram 1500 nine-recall cluster, FARS paradox angle, Axle McScatter); phase=DRAFT.",
-  "last_checked": "2026-10-09T07:58:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-09 07:30 run: #1108 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.90 avg); queued SHIP_BLOCKED 2027-07-23; current=null, next=1109. PUBLISH-QUEUE: 1/day gate consumed by #810 earlier today (01:45); no publish this run.",
+  "last_checked": "2026-10-09T08:05:00-07:00",
   "last_completed": "2026-10-08T23:30:00-07:00",
   "last_completed_date": "2026-10-08",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-09T01:45:00-07:00",
   "last_published_date": "2026-10-09",
   "last_published_slug": "810-sobriety-ladder-test",
   "last_qa_date": "2026-10-09",
   "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1108,
+  "next": 1109,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11808,6 +11803,50 @@
         "critic_panel": "drafts/1107-ram-tpms-blind-guard-critic-panel-r0.md"
       },
       "note": "2026-10-09 05:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg); queued SHIP_BLOCKED 2027-07-22 (1 day after #1106). Clara Rollover on FCA's 26V623000: 16,385 2026 Ram 1500s, TPMS sensors may fail to detect low pressure and/or fail to light the warning lamp, FMVSS 138 noncompliance; mirror-image of Ram's 2025 over-inflation recall (10,396 units told to inflate to 50 psi). Dateline pre-set to July 22, 2027."
+    },
+    {
+      "number": 1108,
+      "slug": "1108-ram-1500-nine-recalls-ten-months",
+      "title": "Nine Recalls in Ten Months: The 2026 Ram 1500 Is a Statistical Outlier",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-23",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "f75e35e8",
+        "word_count": 448,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 401.2,
+          "short_pct": 14.3,
+          "long_pct": 57.1
+        }
+      },
+      "files": {
+        "research": "drafts/1108-ram-1500-nine-recalls-ten-months-research.md",
+        "story": "drafts/1108-ram-1500-nine-recalls-ten-months.html",
+        "hero": "drafts/1108-ram-1500-nine-recalls-ten-months.jpg",
+        "critic_panel": "drafts/1108-ram-1500-nine-recalls-ten-months-critic-panel-r0.md"
+      },
+      "note": "2026-10-09 07:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.90 avg); queued SHIP_BLOCKED 2027-07-23 (1 day after #1107). Axle McScatter on NHTSA campaign-per-model-year count: nine campaigns name the 2026 Ram 1500 (Dec 2025-Sep 2026), incl. twin recalls filed Sep 29 (26V622 side-airbag connectors + 26V623 TPMS), twice-recalled backup camera and instrument cluster; FARS paradox: Ram 1500 at 0.13/100M VMT, lowest of any 200+ death model. Legal-critic edit applied (voluntary-filing claim sourced to Reuters)."
     }
   ]
 }
