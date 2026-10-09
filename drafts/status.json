@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-09 01:30 run: #1105 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.71 avg); queued SHIP_BLOCKED 2027-07-20; current=null, next=1106. PUBLISH-QUEUE: Publish #810 shipped+QA live-verified (1/day gate consumed); #763 hero-less skip noted.",
- "last_checked": "2026-10-09T01:45:00-07:00",
+ "last_check_note": "2026-10-09 03:30 run: #1106 RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg); queued SHIP_BLOCKED 2027-07-21; current=null, next=1107. PUBLISH-QUEUE: 1/day gate consumed by #810 earlier today (01:45); no publish this run.",
+ "last_checked": "2026-10-09T03:45:00-07:00",
  "last_completed": "2026-10-08T23:30:00-07:00",
  "last_completed_date": "2026-10-08",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-10-09T01:45:00-07:00",
  "last_published_date": "2026-10-09",
  "last_published_slug": "810-sobriety-ladder-test",
  "last_qa_date": "2026-10-09",
  "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
- "next": 1106,
+ "next": 1107,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -11715,6 +11715,50 @@
     "critic_panel": "drafts/1105-id4-fourth-battery-recall-80-percent-cap-critic-panel-r0.md"
    },
    "note": "2026-10-09 01:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.71 avg); queued SHIP_BLOCKED 2027-07-20 (1 day after #1104). Sequel to #866: new fourth ID.4 battery campaign 26V630 (Oct 6, 2026), 22,524 units MY 2023-2026, thermal propagation >80% charge, unknown root cause, no remedy. Dateline pre-set to July 20, 2027."
+  },
+  {
+   "number": 1106,
+   "slug": "1106-rivian-r2-two-recalls-hv-fastener",
+   "title": "The Rivian R2 Is Four Months Old. It Already Has Two Recalls.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-07-21",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 8.5
+   },
+   "avg_critic": 8.79,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.8,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "9e32552e",
+    "word_count": 483,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 2244.3,
+     "short_pct": 12.5,
+     "long_pct": 43.8
+    }
+   },
+   "files": {
+    "research": "drafts/1106-rivian-r2-two-recalls-hv-fastener-research.md",
+    "story": "drafts/1106-rivian-r2-two-recalls-hv-fastener.html",
+    "hero": "drafts/1106-rivian-r2-two-recalls-hv-fastener.jpg",
+    "critic_panel": "drafts/1106-rivian-r2-two-recalls-hv-fastener-critic-panel-r0.md"
+   },
+   "note": "2026-10-09 03:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.79 avg); queued SHIP_BLOCKED 2027-07-21 (1 day after #1105). Rex Driverton on Rivian R2's two recalls in four months: 26V597 (98,828 vehicles, camera software, 96% OTA-fixed) + 26V625 (14 R2s, under-torqued HV battery fastener caught by a human operator Sept 17, 2026). Dateline pre-set to July 21, 2027."
   }
  ]
 }
