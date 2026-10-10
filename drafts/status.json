@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-09 13:30 run: #1111 shipped to queue (2027-07-26); 1/day publish gate already consumed today (Publish #810 at 01:45 PT); #763 still hero-blocked, skipped per no-stall rule.",
-  "last_checked": "2026-10-09T13:45:00-07:00",
-  "last_completed": "2026-10-09T15:30:00-07:00",
+  "last_check_note": "2026-10-09 17:30 run: #1113 shipped to queue (2027-07-28); 1/day publish gate already consumed today (Publish #810 at 01:45 PT); #763 still hero-blocked, skipped per no-stall rule. Fixed next: 1112 -> 1114 (15:30 run used 1112 without bumping).",
+  "last_checked": "2026-10-09T17:55:00-07:00",
+  "last_completed": "2026-10-09T17:55:00-07:00",
   "last_completed_date": "2026-10-09",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-09T01:45:00-07:00",
   "last_published_date": "2026-10-09",
   "last_published_slug": "810-sobriety-ladder-test",
   "last_qa_date": "2026-10-09",
   "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1112,
+  "next": 1114,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -11991,6 +11991,34 @@
       },
       "started": "2026-10-09T15:30:00-07:00",
       "note": "2026-10-09 15:30 run: RESEARCH->DRAFT->CRITIQUE in one run; round-0 SHIP (8.73 avg); Dale Impactor III. Novel: highest drug-positive rate (11.3%, n=877) among 500+ driver nameplates + dead-car hook (production ended 2014) + limitation-as-spine (drug+ != impaired per NHTSA research note). Pre-panel fixes: pull-label median claim corrected (26% above sedan median, computed), unverified Takata claim removed, rhythm fragments merged (short 20.8->9.1). Zero queue overlap (avenger: no hits)."
+    },
+    {
+      "number": 1113,
+      "slug": "1113-cybercab-extension-denied-oct30-countdown",
+      "title": "Tesla Asked for Eight Weeks to Explain the Cybercab. NHTSA Gave It Thirty Days.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-28",
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "fe9e890e",
+        "word_count": 614
+      },
+      "files": {
+        "research": "drafts/1113-cybercab-extension-denied-oct30-countdown-research.md",
+        "story": "drafts/1113-cybercab-extension-denied-oct30-countdown.html",
+        "hero": "drafts/1113-cybercab-extension-denied-oct30-countdown.jpg",
+        "critic_panel": "drafts/1113-critic-panel-r0.md"
+      },
+      "note": "2026-10-09 17:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.89 avg, Rex Driverton); queued SHIP_BLOCKED 2027-07-28. Novel: Cybercab extension-denial follow-up (8 wks asked, 30 days granted, Oct 30 sworn deadline); countdown timeline original contribution."
     }
   ]
 }
