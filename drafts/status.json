@@ -1,5 +1,10 @@
 {
- "current": null,
+ "current": {
+  "slug": "1120-ram-1500-five-truck-airbag-recall-26v622",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-10-10T07:30:50.099898-07:00"
+ },
  "last_check_note": "2026-10-10 05:30 run: #1119 shipped to queue (2027-08-03, SHIP_BLOCKED); no publish (1/day slot already used by #811 at 01:55 PT; earliest-due #812 ships 2026-10-11). Cadence intact.",
  "last_checked": "2026-10-10T06:15:00-07:00",
  "last_completed": "2026-10-10T06:10:00-07:00",
