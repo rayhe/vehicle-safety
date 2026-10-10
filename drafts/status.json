@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-09 17:30 run: #1113 shipped to queue (2027-07-28); 1/day publish gate already consumed today (Publish #810 at 01:45 PT); #763 still hero-blocked, skipped per no-stall rule. Fixed next: 1112 -> 1114 (15:30 run used 1112 without bumping).",
-  "last_checked": "2026-10-09T17:55:00-07:00",
-  "last_completed": "2026-10-09T20:45:00-07:00",
+  "last_check_note": "2026-10-09 21:30 run: #1115 shipped to queue (2027-07-30); 1/day publish gate consumed today (Publish #810 at 01:45 PT); #763 hero-blocked, skipped per no-stall rule; fixed stale next counter (1114->1116, #1114 had queued without bump).",
+  "last_checked": "2026-10-09T21:45:00-07:00",
+  "last_completed": "2026-10-09T21:45:00-07:00",
   "last_completed_date": "2026-10-09",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-09T01:45:00-07:00",
   "last_published_date": "2026-10-09",
   "last_published_slug": "810-sobriety-ladder-test",
   "last_qa_date": "2026-10-09",
   "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1114,
+  "next": 1116,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -12037,6 +12037,34 @@
         "draft": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse.html",
         "hero": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse.jpg",
         "critic_panel": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse-critic-panel-r0.md"
+      }
+    },
+    {
+      "number": 1115,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-30",
+      "slug": "1115-chevy-astro-outdrinks-corvette",
+      "title": "The Chevy Astro Out-Drinks the Corvette",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "note": "2026-10-09 21:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (9.0 avg, Dale Impactor III). Novel: Astro van 27.0% impaired (n=281) beats Corvette 26.2%; 4th of all models n>=150; van-class leader by 4pts. Also fixed stale next counter (1114->1116).",
+      "files": {
+        "research": "drafts/1115-chevy-astro-outdrinks-corvette-research.md",
+        "story": "drafts/1115-chevy-astro-outdrinks-corvette.html",
+        "hero": "drafts/1115-chevy-astro-outdrinks-corvette.jpg",
+        "critic_panel": "drafts/1115-chevy-astro-outdrinks-corvette-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "7f597013",
+        "word_count": 698
       }
     }
   ]
