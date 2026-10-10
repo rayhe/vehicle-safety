@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-10 09:30 run: #1121 SHIP -> queue (2027-08-05, SHIP_BLOCKED), round-0 panel PASS (avg 8.79, all hard gates). No publish (1/day slot used by #811 at 01:55 PT; sole overdue #763 hero-blocked). Cadence intact; queue 298 SHIP_BLOCKED, next=1122.",
+  "last_check_note": "2026-10-10 11:30 run: #1122 SHIP -> queue (2027-08-06, SHIP_BLOCKED), round-0 panel PASS (avg 8.99, all hard gates; rhythm fixed r0). No publish (1/day slot used by #811 at 01:55 PT). Cadence intact; queue 300 SHIP_BLOCKED, next=1123.",
   "last_checked": "2026-10-10T09:55:00-07:00",
-  "last_completed": "2026-10-10T09:55:00-07:00",
+  "last_completed": "2026-10-10T11:45:00-07:00",
   "last_completed_date": "2026-10-10",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-10T01:55:00-07:00",
   "last_published_date": "2026-10-10",
   "last_published_slug": "811-tesla-model-y-19-bolt-recall-torque-tool-off",
   "last_qa_date": "2026-10-10",
   "last_qa_note": "Publish #811 QA: story 200, hero 200 image/jpeg (FF D8), og:title/og:image present, body hero img present, index card present, sitemap entry present, dateline Oct 10 2026. All pass.",
-  "next": 1122,
+  "next": 1123,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -12277,6 +12277,34 @@
         "critic_panel": "drafts/1121-iihs-commercial-trucks-crash-prevention-poor-critic-panel-r0.md"
       },
       "note": "2026-10-10 09:30 run: round-0 panel VERDICT: SHIP (avg 8.79). IIHS first commercial-vehicle crash-prevention ratings (Oct 8, 2026): 7 of 11 Poor, motorcycle blind spot, Express/Savana no-AEB (1996 platform), child-dummy sight-line failure, 6,215 deaths = 16% of 2024 fatalities. Shipped to queue (2027-08-05, SHIP_BLOCKED); strict 1/day spacing."
+    },
+    {
+      "number": 1122,
+      "slug": "1122-mustang-camaro-challenger-death-rate-gap",
+      "title": "The Same Drivers, the Same Roads, Six Times the Dying",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-08-06",
+      "critique_round": 0,
+      "avg_critic": 8.99,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "ba96365c",
+        "word_count": 442
+      },
+      "files": {
+        "research": "drafts/1122-mustang-camaro-challenger-death-rate-gap-research.md",
+        "story": "drafts/1122-mustang-camaro-challenger-death-rate-gap.html",
+        "hero": "drafts/1122-mustang-camaro-challenger-death-rate-gap.jpg",
+        "critic_panel": "drafts/1122-mustang-camaro-challenger-death-rate-gap-critic-panel-r0.md"
+      },
+      "note": "2026-10-10 11:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.99 avg, all 7 critics >=8.5, all hard gates). Novel: Mustang 6.02 vs Camaro 3.44 vs Challenger 1.00 rate with 21.9-23.0%% impairment parity; buyer-age paradox (Challenger youngest at 51) falsifies driver-age theory; mechanism = mass (IIHS size/weight). Hero JPEG 1920x1280."
     }
   ]
 }
