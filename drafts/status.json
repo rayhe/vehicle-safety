@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-10-10 01:30 run: #1117 shipped to queue (2027-08-01); round-0 critic PASS (avg 8.79).",
- "last_checked": "2026-10-10T01:50:00-07:00",
+ "last_check_note": "2026-10-10 01:30 run: #1117 shipped to queue (2027-08-01); #811 published (1/day slot); #763 hero-blocked, skipped per no-stall rule.",
+ "last_checked": "2026-10-10T01:55:00-07:00",
  "last_completed": "2026-10-10T01:45:00-07:00",
  "last_completed_date": "2026-10-10",
  "last_journalist": "Mia Crumplezone",
- "last_published": "2026-10-09T01:45:00-07:00",
- "last_published_date": "2026-10-09",
- "last_published_slug": "810-sobriety-ladder-test",
+ "last_published": "2026-10-10T01:55:00-07:00",
+ "last_published_date": "2026-10-10",
+ "last_published_slug": "811-tesla-model-y-19-bolt-recall-torque-tool-off",
  "last_qa_date": "2026-10-09",
  "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
  "next": 1118,
@@ -665,11 +665,18 @@
   {
    "critic_avg": 9.04,
    "journalist": "Vin Wreckage",
-   "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+   "note": "7/7 critics >= 8.5 in round 1. Hero hash e757a3b3. Archived from current 2026-09-07. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-10 01:30 run: SHIPPED as Publish #811 (1/day slot; 0 prior publishes today). Pre-ship fixes: dateline Sep 3 -> Oct 10, 2026; added body hero img. Gates re-verified: em 0, banned 0, class=story, style.css, hero JPEG 1920x1280 ?v=e757a3b3.",
    "number": 811,
-   "phase": "SHIP_BLOCKED",
+   "phase": "PUBLISHED",
    "ship_date": "2026-10-10",
-   "slug": "tesla-model-y-19-bolt-recall-torque-tool-off"
+   "slug": "tesla-model-y-19-bolt-recall-torque-tool-off",
+   "files": {
+    "research": "drafts/811-tesla-model-y-19-bolt-recall-torque-tool-off-research.md",
+    "story": "stories/811-tesla-model-y-19-bolt-recall-torque-tool-off.html",
+    "hero": "images/811-tesla-model-y-19-bolt-recall-torque-tool-off.jpg",
+    "critique": "drafts/811-tesla-model-y-19-bolt-recall-torque-tool-off-critique.md"
+   },
+   "title": "The Safest Car of the Week Is Being Recalled Because Somebody Turned Off the Wrench"
   },
   {
    "critic_avg": 9.0,
