@@ -1,15 +1,15 @@
 {
  "current": null,
- "last_check_note": "2026-10-10 01:30 run: #1117 shipped to queue (2027-08-01); #811 published (1/day slot); #763 hero-blocked, skipped per no-stall rule.",
- "last_checked": "2026-10-10T01:55:00-07:00",
- "last_completed": "2026-10-10T01:45:00-07:00",
+ "last_check_note": "2026-10-10 01:30 run: #1117 shipped to queue (2027-08-01); #811 published + QA pass; #763 hero-blocked skipped. Cadence intact.",
+ "last_checked": "2026-10-10T02:05:00-07:00",
+ "last_completed": "2026-10-10T02:05:00-07:00",
  "last_completed_date": "2026-10-10",
  "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-10T01:55:00-07:00",
  "last_published_date": "2026-10-10",
  "last_published_slug": "811-tesla-model-y-19-bolt-recall-torque-tool-off",
- "last_qa_date": "2026-10-09",
- "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
+ "last_qa_date": "2026-10-10",
+ "last_qa_note": "Publish #811 QA: story 200, hero 200 image/jpeg (FF D8), og:title/og:image present, body hero img present, index card present, sitemap entry present, dateline Oct 10 2026. All pass.",
  "next": 1118,
  "queue": [
   {
