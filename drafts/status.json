@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1114-vw-id4-80-percent-cap-thermal-propagation",
+    "number": 1114,
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-09T19:35:00-07:00"
+  },
   "last_check_note": "2026-10-09 17:30 run: #1113 shipped to queue (2027-07-28); 1/day publish gate already consumed today (Publish #810 at 01:45 PT); #763 still hero-blocked, skipped per no-stall rule. Fixed next: 1112 -> 1114 (15:30 run used 1112 without bumping).",
   "last_checked": "2026-10-09T17:55:00-07:00",
   "last_completed": "2026-10-09T17:55:00-07:00",
