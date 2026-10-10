@@ -2,9 +2,9 @@
   "current": {
     "slug": "1114-kalmar-ottawa-t2-thermal-events-fuse",
     "number": 1114,
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
-    "started": "2026-10-09T20:15:00-07:00"
+    "ship_date": "2027-07-29"
   },
   "last_check_note": "2026-10-09 17:30 run: #1113 shipped to queue (2027-07-28); 1/day publish gate already consumed today (Publish #810 at 01:45 PT); #763 still hero-blocked, skipped per no-stall rule. Fixed next: 1112 -> 1114 (15:30 run used 1112 without bumping).",
   "last_checked": "2026-10-09T17:55:00-07:00",
@@ -12025,6 +12025,25 @@
         "critic_panel": "drafts/1113-critic-panel-r0.md"
       },
       "note": "2026-10-09 17:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.89 avg, Rex Driverton); queued SHIP_BLOCKED 2027-07-28. Novel: Cybercab extension-denial follow-up (8 wks asked, 30 days granted, Oct 30 sworn deadline); countdown timeline original contribution."
+    },
+    {
+      "number": 1114,
+      "slug": "1114-kalmar-ottawa-t2-thermal-events-fuse",
+      "title": "The Trucks That Move Every Shipping Container Have an Electrical Fire Problem. The Fix Is a Fuse.",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2027-07-29",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "avg": 8.73,
+        "round": 0
+      },
+      "note": "Round-0 SHIP (8.73 avg). Kalmar Ottawa T2 NHTSA filing Oct 5, 2026: cabin power board insulation breakdown, rare thermal events (<0.001%, no denominator disclosed), RGS/fuse remedy. Third T2 recall since 2022 across unrelated systems.",
+      "files": {
+        "research": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse-research.md",
+        "draft": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse.html",
+        "hero": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse.jpg",
+        "critic_panel": "drafts/1114-kalmar-ottawa-t2-thermal-events-fuse-critic-panel-r0.md"
+      }
     }
   ]
 }
