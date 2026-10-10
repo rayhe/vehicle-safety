@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-10 13:30 run: #1123 SHIP -> queue (2027-08-07, SHIP_BLOCKED), round-0 panel PASS (avg 8.80, all hard gates; rhythm variance 729.9). No publish pending (1/day gate check next). Queue 301 SHIP_BLOCKED, next=1124.",
+  "last_check_note": "2026-10-10 13:30 run: #1123 SHIP -> queue (2027-08-07, SHIP_BLOCKED), round-0 panel PASS (avg 8.80, all hard gates; rhythm variance 729.9). PUBLISH-QUEUE: 1/day gate consumed (Publish #811 at 01:55 PT) \u2014 nothing published. Only due entry #763 ev-fire-blanket (hero policy-blocked, noted per cadence rule). Queue 301 SHIP_BLOCKED, next=1124.",
   "last_checked": "2026-10-10T13:30:00-07:00",
   "last_completed": "2026-10-10T13:30:00-07:00",
   "last_completed_date": "2026-10-10",
