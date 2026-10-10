@@ -10,7 +10,7 @@
   "last_published_slug": "810-sobriety-ladder-test",
   "last_qa_date": "2026-10-09",
   "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
-  "next": 1116,
+  "next": 1117,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -12065,6 +12065,34 @@
         "hero_jpeg": true,
         "hero_hash": "7f597013",
         "word_count": 698
+      }
+    },
+    {
+      "number": 1116,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-07-31",
+      "slug": "1116-impala-deadliest-american-sedan",
+      "title": "GM Killed the Impala in 2020. It Was Already the Deadliest American Sedan on the Road.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "note": "2026-10-09 23:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.71 avg, Rex Driverton). Novel: 62.4% of Impala MY deaths (2,328/3,732) from the 2006-2014 ignition-switch recall years; peak MY 2008 (401). Only 21.4% impaired. Fixed 'The'-starter gate 34.9%->14.3% in revision.",
+      "files": {
+        "research": "drafts/1116-impala-deadliest-american-sedan-research.md",
+        "story": "drafts/1116-impala-deadliest-american-sedan.html",
+        "hero": "drafts/1116-impala-deadliest-american-sedan.jpg",
+        "critic_panel": "drafts/1116-impala-deadliest-american-sedan-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 14.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "a7422b0f",
+        "word_count": 641
       }
     }
   ]
