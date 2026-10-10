@@ -1,8 +1,8 @@
 {
   "current": null,
-  "last_check_note": "2026-10-10 07:30 run: #1120 shipped to queue (2027-08-04, SHIP_BLOCKED); no publish (1/day slot already used by #811 at 01:55 PT; sole overdue #763 hero-blocked). Cadence intact.",
-  "last_checked": "2026-10-10T07:34:32.683408-07:00",
-  "last_completed": "2026-10-10T07:34:14.273286-07:00",
+  "last_check_note": "2026-10-10 09:30 run: #1121 SHIP -> queue (2027-08-05, SHIP_BLOCKED), round-0 panel PASS (avg 8.79, all hard gates). No publish (1/day slot used by #811 at 01:55 PT; sole overdue #763 hero-blocked). Cadence intact; queue 298 SHIP_BLOCKED, next=1122.",
+  "last_checked": "2026-10-10T09:55:00-07:00",
+  "last_completed": "2026-10-10T09:55:00-07:00",
   "last_completed_date": "2026-10-10",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-10-10T01:55:00-07:00",
