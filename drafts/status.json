@@ -1,7 +1,13 @@
 {
- "current": null,
+ "current": {
+  "slug": "1119-mack-flying-grille-bezels-cable-tie-fix",
+  "phase": "DRAFT",
+  "journalist": "Clara Rollover",
+  "started": "2026-10-10T05:35:00-07:00",
+  "number": 1119
+ },
  "last_check_note": "2026-10-10 03:30 run: #1118 shipped to queue (2027-08-02, SHIP_BLOCKED); no publish (1/day slot already used by #811 at 01:55 PT; earliest-due #812 ships 2026-10-11). Cadence intact.",
- "last_checked": "2026-10-10T04:15:00-07:00",
+ "last_checked": "2026-10-10T05:35:00-07:00",
  "last_completed": "2026-10-10T04:10:00-07:00",
  "last_completed_date": "2026-10-10",
  "last_journalist": "Vin Wreckage",
