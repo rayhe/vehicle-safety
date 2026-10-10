@@ -1,21 +1,16 @@
 {
- "current": {
-  "slug": "1117-fsd-stops-for-red-lights-then-runs-them",
-  "phase": "DRAFT",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-10-10T01:30:00-07:00"
- },
- "last_check_note": "2026-10-10 01:30 run: RESEARCH #1117 (Mia Crumplezone) \u2014 NHTSA PE25012 FSD red-light/wrong-way probe; full-queue dup-check clean (322 entries).",
- "last_checked": "2026-10-10T01:35:00-07:00",
- "last_completed": "2026-10-09T21:45:00-07:00",
- "last_completed_date": "2026-10-09",
- "last_journalist": "Dale Impactor III",
+ "current": null,
+ "last_check_note": "2026-10-10 01:30 run: #1117 shipped to queue (2027-08-01); round-0 critic PASS (avg 8.79).",
+ "last_checked": "2026-10-10T01:50:00-07:00",
+ "last_completed": "2026-10-10T01:45:00-07:00",
+ "last_completed_date": "2026-10-10",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-09T01:45:00-07:00",
  "last_published_date": "2026-10-09",
  "last_published_slug": "810-sobriety-ladder-test",
  "last_qa_date": "2026-10-09",
  "last_qa_note": "Publish #810 QA: story 200 (clean-URL redirect from .html), hero 200 image/jpeg (FF D8), og:title/og:description/og:image present, index card present, sitemap entry present. All pass.",
- "next": 1117,
+ "next": 1118,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -12099,6 +12094,45 @@
     "hero_hash": "a7422b0f",
     "word_count": 641
    }
+  },
+  {
+   "number": 1117,
+   "slug": "1117-fsd-stops-for-red-lights-then-runs-them",
+   "title": "Full Self-Driving Stopped at the Red Light. Then It Drove Through It.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-08-01",
+   "critique_round": 0,
+   "avg_critic": 8.79,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 8.5
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 11.1,
+    "css_class": true,
+    "style_css": true,
+    "rhythm": "pass",
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "ba96a029",
+    "word_count": 462
+   },
+   "files": {
+    "research": "drafts/1117-fsd-stops-for-red-lights-then-runs-them-research.md",
+    "story": "drafts/1117-fsd-stops-for-red-lights-then-runs-them.html",
+    "hero": "drafts/1117-fsd-stops-for-red-lights-then-runs-them.jpg",
+    "critic_panel": "drafts/1117-fsd-critic-panel-r0.md"
+   },
+   "note": "2026-10-10 01:30 run: round-0 panel VERDICT SHIP (avg 8.79, all 7 >= 8.5). NHTSA PE25012 FSD probe: 2,882,566 cars, 58 reports / 14 crashes / 23 injuries per ODI opening resume (10/07/2025); stop-then-proceed behavior + repeatable Joppa MD intersection. Hero JPEG 1920x1280 ?v=ba96a029."
   }
  ]
 }

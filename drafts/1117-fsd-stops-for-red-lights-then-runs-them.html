@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full Self-Driving Stopped at the Red Light. Then It Drove Through It. &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA's PE25012 probe covers 2.88 million Teslas after reports of FSD running red lights and driving the wrong way. Some cars stopped first, then went anyway.">
+  <meta property="og:title" content="Full Self-Driving Stopped at the Red Light. Then It Drove Through It.">
+  <meta property="og:description" content="NHTSA is investigating 2.88 million FSD-equipped Teslas for red-light running and wrong-way driving. Some cars came to a complete stop first, then went anyway.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1117-fsd-stops-for-red-lights-then-runs-them.jpg?v=ba96a029">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/1117-fsd-stops-for-red-lights-then-runs-them.jpg?v=ba96a029">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Full Self-Driving Stopped at the Red Light. Then It Drove Through It.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">October 10, 2026</div>
+
+      <img src="../images/1117-fsd-stops-for-red-lights-then-runs-them.jpg?v=ba96a029" alt="Electric sedan stopped at a red light at dusk" class="story-hero">
+
+      <p>Let's talk about what happens when a machine does everything right and then does the thing anyway. On October 7, 2025, NHTSA opened a federal investigation into <strong>2,882,566 Tesla vehicles</strong> equipped with Full Self-Driving, after 58 reports of the software committing traffic violations.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Running red lights, driving into oncoming lanes, turning onto one-way roads facing the wrong direction.</p>
+
+      <div class="pull-stat">2,882,566</div>
+      <div class="pull-label">Teslas with FSD under federal investigation &mdash; and at least some of them stopped for red lights before running them</div>
+
+      <p>In several cases, the car <strong>came to a complete stop at the red light</strong>, then drove into the intersection anyway. That is not the failure mode of a blind system, and this is not a failure to detect the signal. The car saw it, stopped, and went anyway, which is the failure mode of a system that decided.</p>
+
+      <p>This is where the engineering gets uncomfortable, because Tesla markets FSD as SAE Level 2, partial automation with a fully attentive driver who stays responsible at all times.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> NHTSA's investigation zeroes in on the gap between that theory and practice: whether FSD's driving inputs can "forestall the driver's supervision when they are unexpectedly performed." Translation from regulator-speak: when a car stops for a red light and then accelerates into cross traffic, does a human hand on the wheel have time to do anything about it? That is not a philosophical question so much as a control-loop latency question, and the answer so far looks bad.</p>
+
+      <p>Then there is Joppa, Maryland, where NHTSA coordinated with the Maryland Transportation Authority and State Police and found <strong>multiple incidents at the same intersection</strong>, suggesting the behavior is repeatable.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> A repeatable traffic violation in a deterministic system is not a freak occurrence. It is a scenario the software can reliably produce, which means it is a scenario that can be fixed, tested, and verified. Tesla has since acted on that intersection, according to the agency. Good. One down.</p>
+
+      <p>The second pattern is worse in its own way. The resume catalogs FSD lane changes into opposing traffic, crossings of double-yellow lines, and turns onto roads <strong>despite wrong-way signage</strong>.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Wrong-way driving is one of the most lethal things a vehicle can do, and it is a perceptual failure, not a decision failure. A system that cannot read a lane marking cannot be trusted to arbitrate which way traffic flows.</p>
+
+      <p>Meanwhile, getting answers has been slow: after the incident count grew roughly 60 percent to about 80 reports by December, NHTSA issued a sweeping information request covering complaints, crash data, video, event recorders, and CAN bus files, due January 19, 2026.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Tesla missed it, told the agency 8,313 records needed manual review at roughly 300 a day, and received a second extension pushing the deadline to March 9, 2026.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> A company that can ship an over-the-air update to millions of cars in an afternoon needed eleven weeks to read its own log files. Digest that.</p>
+
+      <p>If you run FSD: treat every intersection as a supervised event, because the car is capable of behaviors no human would attempt. File a complaint at NHTSA's public VOQ portal when it does something wrong, because those 44 complaints are literally what opened this investigation. And check nhtsa.gov/recalls quarterly for your VIN, because if this probe ends in a recall, software will fix your car in the middle of the night while you sleep, and you should know when that night is.</p>
+
+      <h3>The Strongest Counterargument</h3>
+      <p>Human drivers run red lights constantly. NHTSA's own past estimates put red-light running in the hundreds of thousands of violations per day. Fifty-eight incidents across 2.88 million vehicles over months of deployment is a tiny reporting rate, and complaint data is a funhouse mirror: VOQs skew toward dramatic failures, FSD software versions span years, and the incidents mix old and new builds. Weird behavior is not the same as worse-than-human behavior. NHTSA has not answered the comparative question yet. It may never be able to, because Tesla does not publish per-mile exposure data for FSD in a form anyone can audit.</p>
+
+      <h3>Limitations</h3>
+      <p>This is a Preliminary Evaluation, not a finding of defect and not a recall. Zero fatalities appear in the opening resume; 14 crashes and 23 injuries are what the agency had at the time. The escalation numbers (about 80 reports, the March 9 deadline) come from press reporting of NHTSA's tally, not from a published NHTSA document. I did not run my own analysis on the SGO reports, and the Joppa intersection detail comes from the agency's summary, not from independent verification. FSD deployment mix matters enormously here and I do not have it.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Office of Defects Investigation, <em>ODI Resume: Investigation PE25012, Traffic safety violations while Full Self Driving (FSD) is engaged</em>, opened 10/07/2025. <a href="https://static.nhtsa.gov/odi/inv/2025/INOA-PE25012-19171.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-2">Reuters, "NHTSA opens probe into about 2.88 million Tesla vehicles with FSD over 58 reports of traffic violations," October 9, 2025, via Tesery and Insurance Journal summaries. <a href="https://www.insurancejournal.com/news/national/2026/03/20/862650.htm" target="_blank" rel="noopener">insurancejournal.com</a></li>
+          <li id="ref-3">Electrek, "Tesla is having a hard time turning over its FSD traffic violation data," February 23, 2026. <a href="https://electrek.co/2026/02/23/tesla-nhtsa-fsd-traffic-violation-investigation-second-extension/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">The Weekly Driver, "NHTSA Tesla FSD Investigation: 2.88 Million Cars, Red Lights," July 2026. <a href="http://theweeklydriver.com/2026/07/tesla-fsd-nhtsa-investigation-red-light/" target="_blank" rel="noopener">theweeklydriver.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA ODI Resume PE25012 (opened 10/07/2025). Incident counts are from the agency's opening resume; escalation figures from press reports. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
