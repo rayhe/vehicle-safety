@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-10 17:30 run: #1125 SHIP -> queue (2027-08-09, SHIP_BLOCKED), round-0 panel PASS (avg 8.66, all hard gates; rhythm variance 1272.8). Angle: post-scandal Cobalt death toll (FARS 2014-2023: 1,540 deaths, rate 5.1 = 6th of 337, ~4.4x national avg; nearly all post-2014 recall). Rex Driverton. Full-queue dup check clean (cobalt/ignition-switch). PUBLISH-QUEUE: 1/day gate consumed (Publish #811 at 01:55 PT) \u2014 nothing published. Only due entry #763 ev-fire-blanket (hero policy-blocked, noted per cadence rule). Queue 302 SHIP_BLOCKED, next=1126.",
-  "last_checked": "2026-10-10T17:30:00-07:00",
-  "last_completed": "2026-10-10T17:30:00-07:00",
+  "last_check_note": "2026-10-10 19:30 run: #1126 SHIP -> queue (2027-08-10, SHIP_BLOCKED), round-0 panel PASS (avg 8.91, all hard gates; rhythm variance 709.4). Angle: Silverado body-count crown (9,591, first coverage ever) vs badge twin GMC Sierra 24% per-mile gap with identical platform/factories/impairment; buyer-trim-mix theory, exposure counterargument at full strength. Clara Rollover. PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits) \u2014 nothing published. Queue 303 SHIP_BLOCKED.",
+  "last_checked": "2026-10-10T19:30:00-07:00",
+  "last_completed": "2026-10-10T19:30:00-07:00",
   "last_completed_date": "2026-10-10",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-10T01:55:00-07:00",
   "last_published_date": "2026-10-10",
   "last_published_slug": "811-tesla-model-y-19-bolt-recall-torque-tool-off",
   "last_qa_date": "2026-10-10",
   "last_qa_note": "Publish #811 QA: story 200, hero 200 image/jpeg (FF D8), og:title/og:image present, body hero img present, index card present, sitemap entry present, dateline Oct 10 2026. All pass.",
-  "next": 1126,
+  "next": 1127,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -12433,6 +12433,47 @@
       },
       "started": "2026-10-10T17:30:00-07:00",
       "note": "2026-10-10 17:30 run: round-0 panel PASS (avg 8.66, all 7 >= 8.5; rhythm PASS variance 1272.8; em 0; banned 0; The-starters 3.8%). Angle: post-scandal Cobalt death toll never connected to scandal legacy \u2014 FARS 2014-2023: 1,540 deaths, rate 5.1 (6th of 337), ~4.4x national avg, nearly all post-2014 recall; 2006 MY peak (328); 22.4% impaired vs 20.0% baseline. Pre-panel legal fix: 800k figure corrected to Cobalts+G5s. Full-queue dup check clean (cobalt/ignition-switch). Draft+hero+research+critics in drafts/ (1125- prefix). Queued SHIP_BLOCKED 2027-08-09."
+    },
+    {
+      "number": 1126,
+      "slug": "1126-silverado-sierra-twin-death-rate-gap",
+      "title": "GM Builds the Same Truck Twice. The Cheap Badge Kills 24% More Per Mile.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "ship_date": "2027-08-10",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.2,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.1,
+        "data_presentation": 8.8
+      },
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "81fcfbb0",
+        "word_count": 542,
+        "rhythm_variance": 709.4,
+        "rhythm_short_pct": 7.4,
+        "rhythm_long_pct": 44.4
+      },
+      "files": {
+        "research": "drafts/1126-silverado-sierra-twin-death-rate-gap-research.md",
+        "story": "drafts/1126-silverado-sierra-twin-death-rate-gap.html",
+        "hero": "drafts/1126-silverado-sierra-twin-death-rate-gap.jpg",
+        "critic_panel": "drafts/1126-silverado-sierra-twin-death-rate-gap-critic-panel-r0.md"
+      },
+      "note": "2026-10-10 19:30 run: RESEARCH->DRAFT->CRITIQUE round 0 SHIP (avg 8.91, all 7 >= 8.5, all hard gates; rhythm variance 709.4). Angle: Silverado #1 body count (9,591, zero prior coverage in 1,125 articles) vs twin GMC Sierra (1.25 vs 1.01 = 24% gap, same platform/factories, alc 15.7/15.7 identical, model-year shapes matched); buyer/trim-mix theory + exposure counterargument; Ram 0.78 safest of American trio. Clara Rollover."
     }
   ]
 }
