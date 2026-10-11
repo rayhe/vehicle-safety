@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1128-ford-ranger-counterfeit-capacitor",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-10T23:30:00-07:00"
+  },
   "last_check_note": "#1127 SHIP -> queue (2027-08-11, SHIP_BLOCKED), round-0 panel PASS (avg 8.93, all hard gates; rhythm variance 571.6). Angle: Seville IIHS-Good paradox vs DeVille 10.2x gap, soberest luxury drivers. Vin Wreckage.",
   "last_checked": "2026-10-10T21:30:00-07:00",
   "last_completed": "2026-10-10T21:30:00-07:00",
