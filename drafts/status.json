@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "continental-931m-test-track-verdicts",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-11T07:35:00-07:00"
-  },
-  "last_check_note": "2026-10-11 07:30 run: #1132 RESEARCH complete (Continental test-track verdicts: 3 trials, $931M combined, zero settlement offers, $1M insurance sanction; killed IIHS-commercial, RAV4-PHEV, Ford-LED-headlight, Ram-TPMS, L87 angles as queue duplicates). Phase -> DRAFT.",
+  "current": null,
+  "last_check_note": "#1132 SHIP -> queue (2027-08-16, SHIP_BLOCKED), round-0 panel PASS (avg 8.93, all hard gates; rhythm variance 527.4). Angle: Continental test-track drift demo, 3 trials, $931.2M, zero offers, $1M insurance sanction. Vin Wreckage. PUBLISH-QUEUE: 1/day gate fired (1 Publish commit today, #812); #763 due since 2026-09-28 remains SHIP_BLOCKED (hero-blocked per standing note).",
   "last_checked": "2026-10-11T13:35:00-07:00",
-  "last_completed": "2026-10-11T02:10:00-07:00",
+  "last_completed": "2026-10-11T08:00:00-07:00",
   "last_completed_date": "2026-10-11",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-11T02:00:00-07:00",
   "last_published_date": "2026-10-11",
   "last_published_slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
@@ -12619,6 +12614,44 @@
         }
       },
       "note": "2026-10-11 12:45 run: round-0 panel PASS (avg 9.01, all hard gates; rhythm variance 299.0). Angle: NHTSA FLAT_RCL_POST_2010 analysis \u2014 Ford 146 vehicle campaigns in 2025, all-time automaker record (GM 2014: 77); camera trilogy ~4M units, 25V572000 expands 25V270 (same cameras recalled twice in 2025). Ship 2027-08-15 (1 day after #1130)."
+    },
+    {
+      "number": 1132,
+      "slug": "continental-931m-test-track-verdicts",
+      "title": "They Drifted a Mustang Next to Schoolchildren. Three Juries Charged $931 Million.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-08-16",
+      "critique_round": 0,
+      "avg_critic": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "fa8cdd4a",
+        "word_count": 611
+      },
+      "files": {
+        "research": "drafts/continental-931m-test-track-verdicts-research.md",
+        "story": "drafts/continental-931m-test-track-verdicts.html",
+        "hero": "drafts/1132-continental-931m-test-track-verdicts.jpg",
+        "critic_panel": "drafts/1132-continental-931m-test-track-verdicts-critic-panel-r0.md"
+      },
+      "note": "2026-10-11 07:30 run: RESEARCH killed 5 duplicate angles (IIHS-commercial x4, RAV4-PHEV #1130, Ford-LED-headlight x4, Ram-TPMS, GM-L87 x3). Round-0 panel SHIP (avg 8.93, all hard gates; rhythm variance 527.4). Angle: Continental test-track drift demo -> 3 damages-only trials, $931.2M combined, zero settlement offers, $1M insurance-hiding sanction. Vin Wreckage."
     }
   ]
 }
