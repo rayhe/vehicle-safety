@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ford Filed 146 Recalls in 2025. The Backup Camera Got Recalled Twice. &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA's own recall flat file shows Ford filed 146 vehicle campaigns in 2025, one every 2.5 days, an all-time automaker record. The backup camera alone was recalled twice.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Ford Filed 146 Recalls in 2025. The Backup Camera Got Recalled Twice.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">October 11, 2026</div>
+
+      <div class="story-body">
+      <p>I ran the numbers twice, and they didn't get better. In calendar year 2025, Ford Motor Company filed <strong>146 separate vehicle recall campaigns</strong> with NHTSA, covering 12.9 million potential units.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That is one recall every two and a half days, the most campaigns any automaker has ever filed in a single year, and it more than doubled Ford's own 2024 total of 62. The previous record holder was General Motors in 2014, the ignition-switch year, with 77 campaigns, and Ford nearly doubled that too.</p>
+
+      <div class="pull-stat">146</div>
+      <div class="pull-label">Vehicle recall campaigns Ford filed in 2025, per NHTSA's official flat file. Next-busiest automaker: Chrysler, at 41.</div>
+
+      <p>Start with the backup camera, because Ford did. Three of the 146 campaigns, covering nearly 4 million vehicles, were about the rearview camera failing to show you what's behind the truck. Campaign 25V572000 (1.46 million units): the camera can display a distorted, inverted, or blank image.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Campaign 25V695000 (1.45 million): same symptom, different model years. Campaign 25V315000 (1.08 million): a software error that makes the camera image delay, freeze, or vanish entirely. And 25V572000 contains my favorite line in the entire file: "This recall expands previous NHTSA recall number 25V270." Read that again. Ford recalled the same cameras twice in one calendar year. Ten of the 146 campaigns carry backup-camera component codes. The most recalled part on the most recalled automaker's most recalled year is the thing that shows you where you're going backwards.</p>
+
+      <p>Zoom out and the machine's shape gets weird. Of the 146 campaigns, 105 were defect recalls and 41 were FMVSS noncompliance filings, the paperwork-grade kind. Ford initiated 121 of the 146 voluntarily; only 23 came after NHTSA's defect office got involved. This is not a company being dragged to the altar; it is a company that files. Software is eating the defect mix: the 1.08-million-unit camera-software recall and a 356,000-unit instrument-cluster recall both fix over the air, yet only 8 of the 146 campaigns mention an OTA remedy at all. The recall system was built for wrenches. Ford's defect list was increasingly built for downloads. And the year-over-year curve is a hockey stick with no blade: 53 campaigns in 2021, 67 in 2022, 58 in 2023, 62 in 2024, 146 in 2025. For perspective, the next-busiest automaker in 2025 was Chrysler at 41 campaigns; Toyota filed 15.</p>
+
+      <p>Steel-manning the other side, because the numbers demand it. Campaigns are not vehicles: one F-150 can sit in the camera, software, fuel-pump, and brake-hose campaigns simultaneously, so 146 filings overstates the number of distinct broken things. "Potential units" is the maximum exposed population, not the defect rate; most recalled trucks are fine. Ford's count partly measures the industry's most aggressive self-reporting culture, and a quieter automaker with identical defects would file fewer campaigns without having fewer problems. And on raw exposure, GM's 2014 still dwarfs this: 77 campaigns, 26.5 million units, more than double Ford's 12.9 million. What Ford set is a record for filing frequency, not for scale of harm.</p>
+
+      <p>If you own a Ford, check your VIN at nhtsa.gov/recalls first, because recalls now stack on the same vehicle and multiple open campaigns on one truck is the norm, not the exception. Turn on automatic software updates; an overnight download already fixes the camera-software and instrument-cluster recalls, and it is the fastest-growing remedy in the file. If you're buying a used Ford, run the VIN before you sign and ask specifically whether the software recalls were applied, since OTA fixes leave no dealer service record to inspect. A filing lands every two and a half days, so check more often than that.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Office of Defects Investigation, <em>Recalls flat file (FLAT_RCL_POST_2010)</em>, downloaded and analyzed Oct. 11, 2026. 146 vehicle campaigns (RCLTYPECD=V) numbered 25Vxxx with Part-573 report received in calendar 2025, filed by Ford Motor Company, deduplicated to one row per campaign number with maximum potential units affected: 12,914,776. Field layout per RCL.txt. <a href="https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Recalls data dictionary (RCL.txt)</em>: field 16 (RCDATE, Part 573 report received date), field 12 (POTAFF, potential number of units affected), field 14 (INFLUENCED_BY). <a href="https://static.nhtsa.gov/odi/ffdd/rcl/RCL.txt" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA campaign records (from ref-1): 25V572000 (1,456,417 units, rearview camera distorted/inverted/blank, "expands previous NHTSA recall number 25V270"), 25V695000 (1,448,655 units, rearview camera), 25V315000 (1,076,138 units, APIM software, dealer or over-the-air update), 25V455000 (850,318 units, low-pressure fuel pump stall), 25V467000 (694,271 units, fuel injector fire risk), 25V540000 (355,656 units, instrument panel cluster, over-the-air update).</li>
+          <li id="ref-4">NHTSA, <em>Recalls dashboard</em>: 50+ years of recall data, updated daily. <a href="https://www.nhtsa.gov/press-releases/nhtsa-launches-interactive-searchable-recall-dashboard" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">NHTSA, <em>Recalls database &amp; VIN lookup</em>. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+      <p><strong>Limitations:</strong> Campaign counts come from NHTSA's Part-573 flat file (post-2010 records only), deduplicated to one row per campaign number with maximum potential units; they count filings, not distinct VINs, and "potential units affected" is NHTSA's term for maximum exposure, not confirmed defects, and initiation codes (MFR/ODI/OVSC) are as filed. Historical Ford counts may be split across manufacturer-name variants; the 2025 figure uses a single filing name. 2026's count (74 campaigns) is a partial year through Oct. 11 and will grow, and cross-manufacturer comparisons use the same filing-year methodology.</p>
+
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA ODI recalls flat file (FLAT_RCL_POST_2010), campaigns received in calendar 2025, analyzed Oct. 11, 2026. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
