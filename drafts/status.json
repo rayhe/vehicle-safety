@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1128-ford-ranger-counterfeit-capacitor",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-10T23:30:00-07:00"
-  },
-  "last_check_note": "#1127 SHIP -> queue (2027-08-11, SHIP_BLOCKED), round-0 panel PASS (avg 8.93, all hard gates; rhythm variance 571.6). Angle: Seville IIHS-Good paradox vs DeVille 10.2x gap, soberest luxury drivers. Vin Wreckage.",
-  "last_checked": "2026-10-10T21:30:00-07:00",
-  "last_completed": "2026-10-10T21:30:00-07:00",
+  "current": null,
+  "last_check_note": "#1128 SHIP -> queue (2027-08-12, SHIP_BLOCKED), round-0 panel PASS (avg 8.79, all hard gates; rhythm variance 202.6). Angle: Ford 26V605 suspected counterfeit MLCC -> SYNC 4 black screen -> FMVSS 111 backup camera loss, 11,405 Rangers. Rex Driverton.",
+  "last_checked": "2026-10-10T23:30:00-07:00",
+  "last_completed": "2026-10-10T23:30:00-07:00",
   "last_completed_date": "2026-10-10",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-10T01:55:00-07:00",
   "last_published_date": "2026-10-10",
   "last_published_slug": "811-tesla-model-y-19-bolt-recall-torque-tool-off",
   "last_qa_date": "2026-10-10",
   "last_qa_note": "Publish #811 QA: story 200, hero 200 image/jpeg (FF D8), og:title/og:image present, body hero img present, index card present, sitemap entry present, dateline Oct 10 2026. All pass.",
-  "next": 1128,
+  "next": 1129,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -12520,6 +12515,15 @@
         "critic_panel": "drafts/1127-seville-deville-death-rate-gap-critic-panel-r0.md"
       },
       "note": "2026-10-10 21:30 run: RESEARCH->DRAFT->CRITIQUE round 0 SHIP (avg 8.93, all 7 >= 8.5, all hard gates; rhythm variance 571.6). Angle: Seville IIHS-Good paradox (3.89/100M VMT, 391 deaths) vs DeVille 0.38 = 10.2x intra-brand gap, soberest luxury-sedan drivers (10.5% vs 20.4%); zero prior Seville coverage in 332 queue entries. Counterarguments at full strength (denominator noise, single-mode test, STS speed theory, survivorship)."
+    },
+    {
+      "journalist": "Rex Driverton",
+      "note": "2026-10-10 23:30 run: round-0 panel PASS (avg 8.79, all hard gates; rhythm variance 202.6, short 0%, em 0, The-starters 11.8%). Angle: suspected counterfeit MLCC blacking out SYNC 4 screen, killing FMVSS-111 backup camera on 11,405 Rangers; remedy still under development.",
+      "number": 1128,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-08-12",
+      "slug": "1128-ford-ranger-counterfeit-capacitor",
+      "title": "A Counterfeit Capacitor Killed the Backup Camera on 11,405 Brand-New Rangers"
     }
   ]
 }
