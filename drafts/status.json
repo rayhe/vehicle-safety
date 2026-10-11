@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "#1130 SHIP -> queue (2027-08-14, SHIP_BLOCKED), round-0 panel PASS (avg 8.96, all hard gates; rhythm variance 225.4). Angle: Toyota 2026 RAV4 PHEV MG-ECU defect -> loss of motive power at speed, 31k US / 7,846 CA / 5,925 AU = 44,771; letters delayed to December; failure-class lineage 2021/2025/2026. Clara Rollover.",
-  "last_checked": "2026-10-11T10:35:00-07:00",
+  "current": {
+    "slug": "1131-ford-recall-machine-146-campaigns",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-11T12:45:00-07:00"
+  },
+  "last_check_note": "#1131 RESEARCH: Ford 146 vehicle campaigns in 2025 (all-time automaker record per NHTSA FLAT_RCL_POST_2010, analyzed this run). Camera trilogy ~4M units; 25V572000 expands 25V270 (same cameras recalled twice in 2025). Axle McScatter.",
+  "last_checked": "2026-10-11T12:45:00-07:00",
   "last_completed": "2026-10-11T02:10:00-07:00",
   "last_completed_date": "2026-10-11",
   "last_journalist": "Clara Rollover",
