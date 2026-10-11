@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1134-pacifica-phev-fourth-fire-recall",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-10-11T11:30:00-07:00"
+  },
   "last_check_note": "2026-10-11 09:30 run: #1133 SHIP -> queue (2027-08-17, SHIP_BLOCKED), round-0 panel PASS (avg 8.71, all hard gates). Angle: NHTSA PE26004 Rivian toe-link probe vs 26V003000 recall. PUBLISH-QUEUE: check 1/day gate next.",
-  "last_checked": "2026-10-11T13:35:00-07:00",
+  "last_checked": "2026-10-11T11:30:00-07:00",
   "last_completed": "2026-10-11T09:30:00-07:00",
   "last_completed_date": "2026-10-11",
   "last_journalist": "Mia Crumplezone",
