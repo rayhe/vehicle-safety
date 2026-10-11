@@ -1,7 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-11 11:30 run: #1134 SHIP -> queue (2027-08-18, SHIP_BLOCKED), round-0 panel PASS (avg 8.80, all hard gates). Angle: Chrysler 26V362 Pacifica PHEV fourth fire recall (17,277, parked-fire, unlimited-warranty admission). PUBLISH-QUEUE: check 1/day gate next.",
-  "last_checked": "2026-10-11T11:30:00-07:00",
+  "current": {
+    "slug": "1135-honda-cracked-capacitor-airbag-child-seat",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-11T13:30:00-07:00",
+    "number": 1135
+  },
+  "last_check_note": "2026-10-11 13:30 run: #1135 RESEARCH complete (Mia Crumplezone). Angle: Honda 26V332000 \u2014 humidity-cracked capacitor in passenger seat weight sensor defeats child-suppression, frontal+knee airbags may deploy at infant/child/sub-AF5 occupant; disaster-substituted PCB base material (Aisin); triple-error expansion from 24V064; 98,892 vehicles, 228 claims, 0 injuries. Full-queue dup check clean.",
+  "last_checked": "2026-10-11T13:30:00-07:00",
   "last_completed": "2026-10-11T11:30:00-07:00",
   "last_completed_date": "2026-10-11",
   "last_journalist": "Clara Rollover",
