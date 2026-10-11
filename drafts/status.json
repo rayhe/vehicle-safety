@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "#1131 SHIP -> queue (2027-08-15, SHIP_BLOCKED), round-0 panel PASS (avg 9.01, all hard gates; rhythm variance 299.0). Angle: Ford 146 campaigns in 2025 = all-time record; camera trilogy ~4M units; 25V572000 expands 25V270. Axle McScatter. PUBLISH-QUEUE: 1/day gate fired (1 Publish commit today, #812); #763 due since 2026-09-28 remains SHIP_BLOCKED (hero-blocked per standing note) for next run.",
+  "current": {
+    "slug": "continental-931m-test-track-verdicts",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-11T07:35:00-07:00"
+  },
+  "last_check_note": "2026-10-11 07:30 run: #1132 RESEARCH complete (Continental test-track verdicts: 3 trials, $931M combined, zero settlement offers, $1M insurance sanction; killed IIHS-commercial, RAV4-PHEV, Ford-LED-headlight, Ram-TPMS, L87 angles as queue duplicates). Phase -> DRAFT.",
   "last_checked": "2026-10-11T13:35:00-07:00",
   "last_completed": "2026-10-11T02:10:00-07:00",
   "last_completed_date": "2026-10-11",
