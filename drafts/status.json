@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "#1132 SHIP -> queue (2027-08-16, SHIP_BLOCKED), round-0 panel PASS (avg 8.93, all hard gates; rhythm variance 527.4). Angle: Continental test-track drift demo, 3 trials, $931.2M, zero offers, $1M insurance sanction. Vin Wreckage. PUBLISH-QUEUE: 1/day gate fired (1 Publish commit today, #812); #763 due since 2026-09-28 remains SHIP_BLOCKED (hero-blocked per standing note).",
+  "last_check_note": "2026-10-11 09:30 run: #1133 SHIP -> queue (2027-08-17, SHIP_BLOCKED), round-0 panel PASS (avg 8.71, all hard gates). Angle: NHTSA PE26004 Rivian toe-link probe vs 26V003000 recall. PUBLISH-QUEUE: check 1/day gate next.",
   "last_checked": "2026-10-11T13:35:00-07:00",
-  "last_completed": "2026-10-11T08:00:00-07:00",
+  "last_completed": "2026-10-11T09:30:00-07:00",
   "last_completed_date": "2026-10-11",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-11T02:00:00-07:00",
   "last_published_date": "2026-10-11",
   "last_published_slug": "tesla-cybercab-no-steering-wheel-nhtsa-evaluating",
   "last_qa_date": "2026-10-11",
   "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1132,
+  "next": 1134,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -12652,6 +12652,44 @@
         "critic_panel": "drafts/1132-continental-931m-test-track-verdicts-critic-panel-r0.md"
       },
       "note": "2026-10-11 07:30 run: RESEARCH killed 5 duplicate angles (IIHS-commercial x4, RAV4-PHEV #1130, Ford-LED-headlight x4, Ram-TPMS, GM-L87 x3). Round-0 panel SHIP (avg 8.93, all hard gates; rhythm variance 527.4). Angle: Continental test-track drift demo -> 3 damages-only trials, $931.2M combined, zero settlement offers, $1M insurance-hiding sanction. Vin Wreckage."
+    },
+    {
+      "number": 1133,
+      "slug": "1133-rivian-toe-link-blamed-mechanics",
+      "title": "Rivian Blamed the Mechanics for a Failing Rear Suspension. NHTSA Is Looking at the Bolts Instead.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "ship_date": "2027-08-17",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "2be25637",
+        "hero_dim": "1920x1280",
+        "word_count": 452
+      },
+      "files": {
+        "research": "drafts/1133-rivian-toe-link-blamed-mechanics-research.md",
+        "story": "drafts/1133-rivian-toe-link-blamed-mechanics.html",
+        "critic_panel": "drafts/1133-rivian-toe-link-blamed-mechanics-critic-panel-r0.md",
+        "hero": "drafts/1133-rivian-toe-link-blamed-mechanics.jpg"
+      },
+      "note": "2026-10-11 09:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 panel VERDICT SHIP (avg 8.71, Mia Crumplezone). Angle: NHTSA PE26004 (May 26, 2026, 114,922 R1T/R1S) vs Rivian recall 26V003000 (19,641, blames service procedure); bolt fracture at speed, no warning light. Shipped to queue (2027-08-17, SHIP_BLOCKED); strict 1/day spacing."
     }
   ]
 }
