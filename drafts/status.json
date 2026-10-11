@@ -4,7 +4,7 @@
   "last_checked": "2026-10-10T23:30:00-07:00",
   "last_completed": "2026-10-10T23:30:00-07:00",
   "last_completed_date": "2026-10-10",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-10T01:55:00-07:00",
   "last_published_date": "2026-10-10",
   "last_published_slug": "811-tesla-model-y-19-bolt-recall-torque-tool-off",
@@ -12524,6 +12524,38 @@
       "ship_date": "2027-08-12",
       "slug": "1128-ford-ranger-counterfeit-capacitor",
       "title": "A Counterfeit Capacitor Killed the Backup Camera on 11,405 Brand-New Rangers"
+    },
+    {
+      "critic_avg": 8.84,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "91883bd8",
+        "rhythm_variance": 212.1,
+        "rhythm_short_pct": 13.9,
+        "rhythm_long_pct": 33.3
+      },
+      "files": {
+        "research": "drafts/1129-nova-bus-bike-rack-recall-recall-research.md",
+        "story": "drafts/1129-nova-bus-bike-rack-recall-recall.html",
+        "hero": "drafts/1129-nova-bus-bike-rack-recall-recall.jpg",
+        "critic_panel": "drafts/1129-nova-bus-bike-rack-recall-recall-critic-panel-r0.md"
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-10-11 01:30 run: RESEARCH->DRAFT->CRITIQUE round 0 SHIP (avg 8.84, all 7 >= 8.5, all hard gates; rhythm variance 212.1). Angle: Nova Bus 26V624000 recall-of-a-recall (supersedes 24V873) \u2014 bike-rack mounting screws too short, threads strip, 18 LFS buses (2022-2023), letters Nov 2 2026. Zero prior Nova Bus coverage in 334 queue entries. Counterargument full-strength (18 buses, daily inspections, no injuries).",
+      "number": 1129,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-08-13",
+      "slug": "1129-nova-bus-bike-rack-recall-recall",
+      "started": "2026-10-11T01:45:00-07:00",
+      "title": "Nova Bus Recalled 18 City Buses Because the Fix Used Screws That Were Too Short"
     }
   ]
 }
