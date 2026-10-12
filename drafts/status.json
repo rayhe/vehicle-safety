@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-10-12 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1142 (Blue Bird EV school bus battery bolts, Clara Rollover, round-0 8.86, queued SHIP_BLOCKED 2027-08-26). Restored pipeline: cleared stale current=#1141/SHIP_BLOCKED (01:30 ship run left it; 03:30/05:30 runs stalled). PUBLISH-QUEUE: 1/day gate consumed (Publish #813 at 01:45 PT); only due entry #763 still hero-less, skipped per hero-gate rule. validate.sh: 1 pre-existing error (stories/813-drunk-tank-index.html missing twitter:card, from 01:45 publish run) \u2014 not touched.",
- "last_checked": "2026-10-12T07:30:00-07:00",
+ "last_check_note": "2026-10-12 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1143 (E-One 26V652 fire-truck busbar trilogy: 519 units/3 recalls/83 days, Rex Driverton, round-0 8.71, queued SHIP_BLOCKED 2027-08-27). PUBLISH-QUEUE: 1/day gate consumed (Publish #813); only due entry #763 still hero-less, skipped per hero-gate rule. Note: gate grep matched 2 commits today (892800f3 actual publish + bb66b5e6 bookkeeping mention of Publish #813).",
+ "last_checked": "2026-10-12T09:30:00-07:00",
  "last_completed": "2026-10-12T09:30:00-07:00",
  "last_completed_date": "2026-10-12",
  "last_journalist": "Rex Driverton",
