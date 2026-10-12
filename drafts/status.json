@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "1138-large-truck-deaths-not-in-truck",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-11T19:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-11 17:30 run: #1137 SHIP -> queue (2027-08-21). PUBLISH-QUEUE: 1/day gate consumed (2 Publish-# commits today); no publish. #763 still hero-blocked, skip noted.",
   "last_checked": "2026-10-11T17:30:00-07:00",
   "last_completed": "2026-10-11T17:30:00-07:00",
@@ -12845,6 +12840,46 @@
         "critic_panel": "drafts/1137-atv-death-census-15250-on-roads-critic-panel-r0.md"
       },
       "note": "2026-10-11 17:30 run: #1137 RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Angle: CPSC ATV death census crossed 15,250 (FairWarning Sep 2026); CFA 2025 tables show 63% of deaths on roads (209 vs 75, 2.8:1); ROVs excluded by 3-2 CPSC vote; WI record pace; Apr 2026 youth-ATV recall. Zero ATV coverage in 342-entry queue. Round-0 panel PASS (avg 8.89)."
+    },
+    {
+      "number": 1138,
+      "slug": "1138-large-truck-deaths-not-in-truck",
+      "title": "5,340 People Died in Large-Truck Crashes in 2024. 83% of Them Were Not in the Truck.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-08-22",
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "word_count": 688,
+        "rhythm_variance": 749.2,
+        "rhythm_short_pct": 13.5,
+        "rhythm_long_pct": 37.8
+      },
+      "files": {
+        "research": "drafts/1138-large-truck-deaths-not-in-truck-research.md",
+        "story": "drafts/1138-large-truck-deaths-not-in-truck.html",
+        "hero": "drafts/1138-large-truck-deaths-not-in-truck.jpg",
+        "critic_panel": "drafts/1138-large-truck-deaths-not-in-truck-critic-panel-r0.md"
+      },
+      "note": "2026-10-11 19:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.93, floor 8.5; gates: em 1 in refs line, 0 in prose; banned 0; The 0.0 pct; rhythm PASS variance 749.2/short 13.5 pct; hero JPEG 1920x1280 hash a2afdfc5). Novel: DOT HS 813 816 person-type distribution - 4,420 of 5,340 dead (83 pct, 4.8:1) were not in the truck; CA nonoccupant share 17.4 pct vs 12.5 pct national (FL 19.5 pct, TX raw 73); impairment inversion 4 pct BAC truckers vs 25 pct car drivers. Full-queue dup check clean. Queued SHIP_BLOCKED 2027-08-22 (1 day after latest). PUBLISH-QUEUE follows."
     }
   ]
 }
