@@ -1,16 +1,21 @@
 {
- "current": null,
+ "current": {
+  "slug": "1144-iihs-work-trucks-fail-crash-avoidance",
+  "phase": "DRAFT",
+  "journalist": "Vin Wreckage",
+  "started": "2026-10-12T11:40:00-07:00"
+ },
  "last_check_note": "2026-10-12 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1143 (E-One 26V652 fire-truck busbar trilogy: 519 units/3 recalls/83 days, Rex Driverton, round-0 8.71, queued SHIP_BLOCKED 2027-08-27). PUBLISH-QUEUE: 1/day gate consumed (Publish #813); only due entry #763 still hero-less, skipped per hero-gate rule. Note: gate grep matched 2 commits today (892800f3 actual publish + bb66b5e6 bookkeeping mention of Publish #813).",
  "last_checked": "2026-10-12T09:30:00-07:00",
  "last_completed": "2026-10-12T09:30:00-07:00",
  "last_completed_date": "2026-10-12",
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Vin Wreckage",
  "last_published": "2026-10-12T01:45:00-07:00",
  "last_published_date": "2026-10-11",
  "last_published_slug": "813-drunk-tank-index",
  "last_qa_date": "2026-10-11",
  "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1143,
+ "next": 1145,
  "queue": [
   {
    "journalist": "Rex Driverton",
