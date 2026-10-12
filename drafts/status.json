@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-10-12 05:30 run: current=#1141 ghost-braking-truck-aeb-ea25006 remains SHIP_BLOCKED (queued 2027-08-25). Publish-queue: 1/day gate already consumed (Publish #813 drunk-tank-index at 01:45 PT today); only due entry #763 ev-fire-blanket-explosion-risk still hero-less (fire-imagery policy block) \u2014 skipped per hero-gate rule, cadence not stalled.",
- "last_checked": "2026-10-12T05:30:00-07:00",
+ "last_check_note": "2026-10-12 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1142 (Blue Bird EV school bus battery bolts, Clara Rollover, round-0 8.86, queued SHIP_BLOCKED 2027-08-26). Restored pipeline: cleared stale current=#1141/SHIP_BLOCKED (01:30 ship run left it; 03:30/05:30 runs stalled). PUBLISH-QUEUE: 1/day gate consumed (Publish #813 at 01:45 PT); only due entry #763 still hero-less, skipped per hero-gate rule. validate.sh: 1 pre-existing error (stories/813-drunk-tank-index.html missing twitter:card, from 01:45 publish run) \u2014 not touched.",
+ "last_checked": "2026-10-12T07:30:00-07:00",
  "last_completed": "2026-10-12T07:30:00-07:00",
  "last_completed_date": "2026-10-12",
  "last_journalist": "Clara Rollover",
