@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-10-12 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1143 (E-One 26V652 fire-truck busbar trilogy: 519 units/3 recalls/83 days, Rex Driverton, round-0 8.71, queued SHIP_BLOCKED 2027-08-27). PUBLISH-QUEUE: 1/day gate consumed (Publish #813); only due entry #763 still hero-less, skipped per hero-gate rule. Note: gate grep matched 2 commits today (892800f3 actual publish + bb66b5e6 bookkeeping mention of Publish #813).",
- "last_checked": "2026-10-12T09:30:00-07:00",
+ "last_check_note": "2026-10-12 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1146 (Ford Bronco 26V580 airbag bracket burr + 26V581 Explorer opposite-failure pairing, Mia Crumplezone, round-0 8.86, queued SHIP_BLOCKED 2027-08-30). Kill-test rejections: #1130 RAV4 PHEV, #1144 IIHS commercial, #977 Rivian backup cam, #1054/67/78/97 Ford headlights, #1026 GM roof-rail, #1119 Mack grille, #1037 Mach-E BECM, #914 Transit seatbelt, Jeep coil-spring x4.",
+ "last_checked": "2026-10-12T15:30:00-07:00",
  "last_completed": "2026-10-12T13:45:00-07:00",
  "last_completed_date": "2026-10-12",
  "last_journalist": "Mia Crumplezone",
@@ -10,7 +10,7 @@
  "last_published_slug": "813-drunk-tank-index",
  "last_qa_date": "2026-10-11",
  "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1145,
+ "next": 1147,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13147,6 +13147,45 @@
    },
    "started": "2026-10-12T13:30:00-07:00",
    "note": "2026-10-12 13:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.76, 7/7 >= 8.5; gates: em 0; banned 0; The 4.8%; rhythm PASS variance 3813.0/short 10.0%/long 63.3%; hero JPEG 1920x1280 hash d108fc8b). Novel: first federal action about robotaxi RULE COMPLIANCE (not crashes) - DP26010 school-zone speeding, opened Oct 9, 4 incidents, 0 crashes; first federal fleet count (~1,000 MY2026 Model Y+Cybercab) vs community trackers; third federal action in 5 weeks; perception-stack autopsy of conditional speed limits. Queued SHIP_BLOCKED 2027-08-29 (1 day after #1144). PUBLISH-QUEUE follows."
+  },
+  {
+   "number": 1146,
+   "slug": "1146-bronco-airbag-bracket-burr-tear",
+   "title": "The Bracket Holding Your Bronco's Airbag Can Shred It on Deployment. Ford Filed the Opposite Airbag Recall the Same Week.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-08-30",
+   "critique_round": 0,
+   "avg_critic": 8.86,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 2.9,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "a421fe9e",
+    "word_count": 565,
+    "rhythm_variance": 1354.7
+   },
+   "files": {
+    "research": "drafts/1146-bronco-airbag-bracket-burr-tear-research.md",
+    "story": "drafts/1146-bronco-airbag-bracket-burr-tear.html",
+    "hero": "drafts/1146-bronco-airbag-bracket-burr-tear.jpg",
+    "critic_panel": "drafts/1146-bronco-airbag-bracket-burr-tear-critic-panel-r0.md"
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.5
+   },
+   "note": "2026-10-12 15:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run; round-0 SHIP (8.86 avg, 7/7 >= 8.5, all hard gates; rhythm variance 1354.7). Kill-test rejections this run: RAV4 PHEV ECU (#1130 covered), IIHS commercial crash-avoidance (#1144 covered), Rivian backup camera (#977 covered), Ford 26V606 headlights (#1054/#1067/#1078/#1097 covered), GM roof-rail airbag (#1026 covered), Mack grille (#1119 covered), Mach-E BECM (#1037 covered), Transit wireless seatbelt (#914 covered), Jeep coil springs (#865/#882/#886/#891 covered). Novel: 26V580+26V581 opposite-failure pairing (curtain goes soft too fast vs vent won't open), process-vs-design distinction (skipped deburring step), silent-defect detection analysis. Queued SHIP_BLOCKED 2027-08-30 (1 day after #1145)."
   }
  ]
 }
