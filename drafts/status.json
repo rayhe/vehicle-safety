@@ -5,9 +5,9 @@
   "journalist": "Rex Driverton",
   "ship_date": "2027-08-25"
  },
- "last_check_note": "2026-10-11 23:30 run: #1140 SHIP -> queue (2027-08-24). PUBLISH-QUEUE: 1/day gate consumed (3 Publish-# commits today); no publish.",
+ "last_check_note": "2026-10-12: new article #1141 (ghost-braking-truck-aeb-ea25006, EA25006 phantom-braking probe vs stalled truck AEB mandate) drafted, passed all 7 critics at round 0, queued SHIP_BLOCKED 2027-08-25. Publish-queue: #813 drunk-tank-index published and QA-verified live (story 200, hero JPEG 200, og tags, index card, sitemap). #763 skipped: hero still policy-blocked.",
  "last_checked": "2026-10-11T23:30:00-07:00",
- "last_completed": "2026-10-11T21:30:00-07:00",
+ "last_completed": "2026-10-12T02:00:00-07:00",
  "last_completed_date": "2026-10-11",
  "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-12T01:45:00-07:00",
