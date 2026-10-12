@@ -1,13 +1,8 @@
 {
- "current": {
-  "slug": "1144-iihs-work-trucks-fail-crash-avoidance",
-  "phase": "DRAFT",
-  "journalist": "Vin Wreckage",
-  "started": "2026-10-12T11:40:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-12 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1143 (E-One 26V652 fire-truck busbar trilogy: 519 units/3 recalls/83 days, Rex Driverton, round-0 8.71, queued SHIP_BLOCKED 2027-08-27). PUBLISH-QUEUE: 1/day gate consumed (Publish #813); only due entry #763 still hero-less, skipped per hero-gate rule. Note: gate grep matched 2 commits today (892800f3 actual publish + bb66b5e6 bookkeeping mention of Publish #813).",
  "last_checked": "2026-10-12T09:30:00-07:00",
- "last_completed": "2026-10-12T09:30:00-07:00",
+ "last_completed": "2026-10-12T11:55:00-07:00",
  "last_completed_date": "2026-10-12",
  "last_journalist": "Vin Wreckage",
  "last_published": "2026-10-12T01:45:00-07:00",
@@ -13067,6 +13062,49 @@
    },
    "started": "2026-10-12T09:30:00-07:00",
    "note": "2026-10-12 09:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.71, 7/7 >= 8.5; gates: em 0; banned 0; The 8.7%; rhythm PASS variance 560.7/short 11.1%/long 55.6%; hero JPEG 1920x1280 hash f51cd110). Novel: E-One 26V652000 (Oct 6, 2026, 301 fire trucks, loose positive power supply -> overheating busbar -> fire risk) cross-tabulated with 26V454000 (Jul 15, 159 units, transfer case) and 26V537000 (Aug 19, 59 units, outrigger hydraulics) = 519 units, 3 recalls, 83 days, 3 orthogonal systems on overlapping Typhoon N/Cyclone N/Cyclone II families. Queued SHIP_BLOCKED 2027-08-27 (1 day after #1142). PUBLISH-QUEUE follows."
+  },
+  {
+   "number": 1144,
+   "slug": "1144-iihs-work-trucks-fail-crash-avoidance",
+   "title": "IIHS Asked 11 Work Trucks to Stop for a Child. Most of Them Didn't.",
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "ship_date": "2027-08-28",
+   "phase": "SHIP_BLOCKED",
+   "critic_avg": 8.79,
+   "critique_round": 0,
+   "scores": {
+    "general": 8.8,
+    "voice": 9.0,
+    "ethics": 8.5,
+    "social": 8.7,
+    "legal": 9.0,
+    "rigor": 8.7,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 13.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "88a179ca",
+    "og_image_absolute": true,
+    "rhythm_variance": 892.2,
+    "rhythm_short_pct": 12.0,
+    "rhythm_long_pct": 56.0,
+    "word_count": 575
+   },
+   "files": {
+    "research": "drafts/1144-iihs-work-trucks-fail-crash-avoidance-research.md",
+    "story": "drafts/1144-iihs-work-trucks-fail-crash-avoidance.html",
+    "hero": "drafts/1144-iihs-work-trucks-fail-crash-avoidance.jpg",
+    "critic_panel": "drafts/1144-iihs-work-trucks-fail-crash-avoidance-critic-panel-r0.md"
+   },
+   "started": "2026-10-12T11:40:00-07:00",
+   "note": "2026-10-12 11:40 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.79, 7/7 >= 8.5; gates: em 0; banned 0; The 13.0%; rhythm PASS variance 892.2/short 12.0%/long 56.0%; hero JPEG 1920x1280 hash 88a179ca). Novel: IIHS Oct 8 first-ever commercial-vehicle crash-avoidance ratings (11 vans + Class 3 pickups); only 1 Good V2V (Sprinter); 2 Good pedestrian, both electric (BrightDrop, Rivian RCV); child-dummy 'disappearing' finding; 7 Poor V2V; Express/Savana 2500 still sold with NO AEB; EV cross-tab 2/2 vs 0/9. Queued SHIP_BLOCKED 2027-08-28 (1 day after #1143). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #763 hero-less skip stands; nothing due."
   }
  ]
 }
