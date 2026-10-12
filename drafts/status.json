@@ -2,15 +2,15 @@
  "current": null,
  "last_check_note": "2026-10-12 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1142 (Blue Bird EV school bus battery bolts, Clara Rollover, round-0 8.86, queued SHIP_BLOCKED 2027-08-26). Restored pipeline: cleared stale current=#1141/SHIP_BLOCKED (01:30 ship run left it; 03:30/05:30 runs stalled). PUBLISH-QUEUE: 1/day gate consumed (Publish #813 at 01:45 PT); only due entry #763 still hero-less, skipped per hero-gate rule. validate.sh: 1 pre-existing error (stories/813-drunk-tank-index.html missing twitter:card, from 01:45 publish run) \u2014 not touched.",
  "last_checked": "2026-10-12T07:30:00-07:00",
- "last_completed": "2026-10-12T07:30:00-07:00",
+ "last_completed": "2026-10-12T09:30:00-07:00",
  "last_completed_date": "2026-10-12",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-10-12T01:45:00-07:00",
  "last_published_date": "2026-10-11",
  "last_published_slug": "813-drunk-tank-index",
  "last_qa_date": "2026-10-11",
  "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1142,
+ "next": 1143,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13019,6 +13019,49 @@
    },
    "started": "2026-10-12T07:30:00-07:00",
    "note": "2026-10-12 07:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.86, 7/7 >= 8.5; gates: em 0; banned 0; The 4.8%; rhythm PASS variance 1059.1/short 3.8%/long 46.2%; hero JPEG 1920x1280 hash ddb284d3). Novel: Blue Bird 26V641000 (Oct 2026, 1,590 electric school buses, HV battery mounting bolts loose/missing, R26AK, thread-locker remedy, letters ~Dec 1) as third loose-hardware recall in 19 months (Jan 2026 12V cable 2,356 buses; Mar 2025 Transport Canada 2025127 HV battery internal hardware); 2025 MY gap flagged unexplained. Also restored pipeline: cleared stale current=#1141/SHIP_BLOCKED left by 01:30 ship run (03:30/05:30 runs stalled on it). Queued SHIP_BLOCKED 2027-08-26 (1 day after latest). PUBLISH-QUEUE follows."
+  },
+  {
+   "number": 1143,
+   "slug": "1143-e-one-fire-trucks-three-recalls-three-months",
+   "title": "E-One Recalled 301 Fire Trucks Over a Loose Wire That Can Start a Fire. It's the Third Recall in Three Months.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "ship_date": "2027-08-27",
+   "phase": "SHIP_BLOCKED",
+   "critic_avg": 8.71,
+   "critique_round": 0,
+   "scores": {
+    "general": 8.5,
+    "voice": 9.0,
+    "ethics": 8.5,
+    "social": 8.5,
+    "legal": 9.0,
+    "rigor": 9.0,
+    "data_presentation": 8.5
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 8.7,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "f51cd110",
+    "og_image_absolute": true,
+    "rhythm_variance": 560.7,
+    "rhythm_short_pct": 11.1,
+    "rhythm_long_pct": 55.6,
+    "word_count": 546
+   },
+   "files": {
+    "research": "drafts/1143-e-one-fire-trucks-three-recalls-three-months-research.md",
+    "story": "drafts/1143-e-one-fire-trucks-three-recalls-three-months.html",
+    "hero": "drafts/1143-e-one-fire-trucks-three-recalls-three-months.jpg",
+    "critic_panel": "drafts/1143-e-one-fire-trucks-three-recalls-three-months-critic-panel-r0.md"
+   },
+   "started": "2026-10-12T09:30:00-07:00",
+   "note": "2026-10-12 09:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.71, 7/7 >= 8.5; gates: em 0; banned 0; The 8.7%; rhythm PASS variance 560.7/short 11.1%/long 55.6%; hero JPEG 1920x1280 hash f51cd110). Novel: E-One 26V652000 (Oct 6, 2026, 301 fire trucks, loose positive power supply -> overheating busbar -> fire risk) cross-tabulated with 26V454000 (Jul 15, 159 units, transfer case) and 26V537000 (Aug 19, 59 units, outrigger hydraulics) = 519 units, 3 recalls, 83 days, 3 orthogonal systems on overlapping Typhoon N/Cyclone N/Cyclone II families. Queued SHIP_BLOCKED 2027-08-27 (1 day after #1142). PUBLISH-QUEUE follows."
   }
  ]
 }
