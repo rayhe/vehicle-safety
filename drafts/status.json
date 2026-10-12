@@ -1,11 +1,9 @@
 {
  "current": {
   "slug": "1141-ghost-braking-truck-aeb-ea25006",
-  "phase": "CRITIQUE",
+  "phase": "SHIP_BLOCKED",
   "journalist": "Rex Driverton",
-  "started": "2026-10-12T01:30:00-07:00",
-  "title": "Congress Mandated Truck Brakes. The Brakes Have Other Ideas.",
-  "round": 0
+  "ship_date": "2027-08-25"
  },
  "last_check_note": "2026-10-11 23:30 run: #1140 SHIP -> queue (2027-08-24). PUBLISH-QUEUE: 1/day gate consumed (3 Publish-# commits today); no publish.",
  "last_checked": "2026-10-11T23:30:00-07:00",
@@ -12966,6 +12964,24 @@
     "critic_panel": "drafts/1140-iihs-work-trucks-cant-see-kids-critic-panel-r0.md"
    },
    "note": "2026-10-11 23:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.93, 7/7 >= 8.5; gates: em 0; banned 0; The 9.3 pct; rhythm PASS variance 310.7/short 5.3 pct; hero JPEG 1920x1280 hash e5ce7e40). Novel: first-ever IIHS commercial crash-prevention ratings (Oct 8, 2026); child dummy 'disappeared' under tall hoods (mirror-mounted sensors); Express/Savana ship with NO AEB (2 of 11 tested); F-350 avoid-only-at-31mph, 0 reduction at 43mph; 6,215 deaths = 16% of 2024 US roadway fatalities. Primary: IIHS release + Free Press (Advocates/NHTSA 2023 heavy-AEB estimate). Queued SHIP_BLOCKED 2027-08-24 (1 day after latest). PUBLISH-QUEUE follows."
+  },
+  {
+   "number": 1141,
+   "slug": "1141-ghost-braking-truck-aeb-ea25006",
+   "title": "Congress Mandated Truck Brakes. The Brakes Have Other Ideas.",
+   "journalist": "Rex Driverton",
+   "ship_date": "2027-08-25",
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general": 8.8,
+    "voice": 9.0,
+    "ethics": 9.0,
+    "social": 8.8,
+    "legal": 9.2,
+    "rigor": 8.8,
+    "data_presentation": 8.8
+   },
+   "note": "Round-0 pass. EA25006 phantom-braking probe (opened Oct 23, 2025; 250k Daimler tractors; 24 crashes) vs the stalled congressionally mandated truck AEB rule. Hero JPEG in drafts/."
   }
  ]
 }
