@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1138-large-truck-deaths-not-in-truck",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-11T19:30:00-07:00"
+  },
   "last_check_note": "2026-10-11 17:30 run: #1137 SHIP -> queue (2027-08-21). PUBLISH-QUEUE: 1/day gate consumed (2 Publish-# commits today); no publish. #763 still hero-blocked, skip noted.",
   "last_checked": "2026-10-11T17:30:00-07:00",
   "last_completed": "2026-10-11T17:30:00-07:00",
