@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "2026-10-12 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1146 (Ford Bronco 26V580 airbag bracket burr + 26V581 Explorer opposite-failure pairing, Mia Crumplezone, round-0 8.86, queued SHIP_BLOCKED 2027-08-30). Kill-test rejections: #1130 RAV4 PHEV, #1144 IIHS commercial, #977 Rivian backup cam, #1054/67/78/97 Ford headlights, #1026 GM roof-rail, #1119 Mack grille, #1037 Mach-E BECM, #914 Transit seatbelt, Jeep coil-spring x4.",
+ "last_check_note": "2026-10-12 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1146 (Ford Bronco 26V580 airbag bracket burr + 26V581 Explorer opposite-failure pairing, Mia Crumplezone, round-0 8.86, queued SHIP_BLOCKED 2027-08-30). Kill-test rejections: #1130 RAV4 PHEV, #1144 IIHS commercial, #977 Rivian backup cam, #1054/67/78/97 Ford headlights, #1026 GM roof-rail, #1119 Mack grille, #1037 Mach-E BECM, #914 Transit seatbelt, Jeep coil-spring x4. PUBLISH-QUEUE: 1/day gate consumed (Publish #813, 892800f3); only due entry #763 still hero-less, skipped per hero-gate rule.",
  "last_checked": "2026-10-12T15:30:00-07:00",
  "last_completed": "2026-10-12T13:45:00-07:00",
  "last_completed_date": "2026-10-12",
