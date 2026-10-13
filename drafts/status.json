@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-10-12 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1146 (Ford Bronco 26V580 airbag bracket burr + 26V581 Explorer opposite-failure pairing, Mia Crumplezone, round-0 8.86, queued SHIP_BLOCKED 2027-08-30). Kill-test rejections: #1130 RAV4 PHEV, #1144 IIHS commercial, #977 Rivian backup cam, #1054/67/78/97 Ford headlights, #1026 GM roof-rail, #1119 Mack grille, #1037 Mach-E BECM, #914 Transit seatbelt, Jeep coil-spring x4. PUBLISH-QUEUE: 1/day gate consumed (Publish #813, 892800f3); only due entry #763 still hero-less, skipped per hero-gate rule.",
- "last_checked": "2026-10-12T15:30:00-07:00",
+ "last_check_note": "2026-10-12 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1147 (FARS Table 10 personal-conveyance death gap: scooters 65->109 +68%, mobility-aid 123; Axle McScatter, round-0 8.93, queued SHIP_BLOCKED 2027-08-31). Kill-test rejections: Defender stitching #1061, Merc brake 26V638 #1136, GM L87 #1025/#864, eBoost x3, Rivian R2 x2, Nova Bus bike rack #1129, RV water tanks #1092, Ram 26V622 #1120, Ford 26C43 headlights, GM roof-rail #1026, Mack grille #1119, Grech/MaxxFan #1090, Tesla DP26010 #1145, IIHS commercial #1144, alcohol-2024 #1073, older peds #996. PUBLISH-QUEUE: 1/day gate consumed (Publish #813, 892800f3); only due entry #763 still hero-less, skipped per hero-gate rule.",
+ "last_checked": "2026-10-12T17:30:00-07:00",
  "last_completed": "2026-10-12T17:30:00-07:00",
  "last_completed_date": "2026-10-12",
  "last_journalist": "Axle McScatter",
