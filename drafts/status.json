@@ -1,12 +1,6 @@
 {
-  "current": {
-    "slug": "october-recalls-interim-letters-no-fix",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-12T23:30:00-07:00",
-    "number": 1149
-  },
-  "last_check_note": "2026-10-12 23:30 run: #1149 RESEARCH done (october-recalls-interim-letters-no-fix, Vin Wreckage): Oct 2026 interim-letter recall pattern \u2014 265,512 Ram power steering (92D), 22,524 VW ID.4 battery fire (93EX, root cause unknown, charge cap 80%), 30,064 Mercedes brake hoses (expands 25V116). 8 primary sources. Proceeding to DRAFT.",
+  "current": null,
+  "last_check_note": "2026-10-12 23:30 run: #1149 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.87), queued 2027-09-03. Hero JPEG 2048x1152. Proceeding to PUBLISH-QUEUE.",
   "last_checked": "2026-10-12T23:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
   "last_completed_date": "2026-10-12",
@@ -13283,6 +13277,30 @@
         "critic_panel": "drafts/1149-gmc-sierra-grille-deflector-recall-query-rq26003-critic-panel-r0.md"
       },
       "note": "2026-10-12 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.91, 7/7 >= 8.5, all hard gates; rhythm variance 945.8, The-starters 0%). NHTSA RQ26003 (opened Oct 9, 2026) into 2022-2024 Sierra 1500 grille deflector detachment: 118 complaints, 21 (17.8%) on trucks already repaired under 25V-060; investigation population 535,639 vs 70,768 recalled = 7.57x scope gap; GM closed its Feb 2024 probe as no-defect-trend then reopened Dec 2024 (1,225 complaints, 4 alleged accidents). Also fixed pre-existing validate.sh failure (twitter:card on stories/813-drunk-tank-index.html). Queued SHIP_BLOCKED 2027-09-02."
+    },
+    {
+      "journalist": "Vin Wreckage",
+      "note": "2026-10-12 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.87).",
+      "number": 1149,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-03",
+      "slug": "october-recalls-interim-letters-no-fix",
+      "title": "October's Recalls Came With Warnings. The Fixes Are Still Theoretical.",
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/october-recalls-interim-letters-no-fix-research.md",
+        "story": "drafts/october-recalls-interim-letters-no-fix.html",
+        "hero": "drafts/october-recalls-interim-letters-no-fix.jpg",
+        "critic_panel": "drafts/october-recalls-interim-letters-no-fix-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "em_dashes": 0,
+        "the_starters_pct": 11.1,
+        "css_ok": true,
+        "rhythm": "PASS"
+      }
     }
   ]
 }
