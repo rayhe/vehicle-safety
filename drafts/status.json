@@ -1,12 +1,5 @@
 {
-  "current": {
-    "number": 1154,
-    "slug": "1154-truck-deaths-down-injuries-up",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-13T09:30:00-07:00",
-    "critique_round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-13 07:30 run: #1153 full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP (round-0 pass, avg 8.87), queued 2027-09-07. PUBLISH-QUEUE: 1/day gate already consumed (#814 at 02:15); only due entry #763 ev-fire-blanket-explosion-risk remains hero-blocked; skipped per no-stall rule, cadence intact.",
   "last_checked": "2026-10-13T05:30:00-07:00",
   "last_completed": "2026-10-13T07:30:00-07:00",
@@ -13433,6 +13426,41 @@
         "hero": "drafts/1153-chery-omoda5-rear-axle-detachment.jpg"
       },
       "note": "2026-10-13 07:30 run: full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.87, all 7 >= 8.5; gates: em 0, banned 0, The 2.4%, rhythm PASS variance 1022.8/short 6.7%, hero JPEG 1920x1280 hash 4f66452d). Novel: first Chinese-automaker story on site (0 queue hits for chery/omoda/malaysia); Oct 6 2026 Omoda 5 rear-axle detachment in Johor Bahru, JPJ suspended type approval Oct 11, Chery recalled 8,878 (14.8x the 2024 600-vehicle campaign); 29-month recurrence after 2024 recall closed June 2024; 10% confirmed-defect rate in 2024 inspection population; Sept 2025 suspension-redesign wrinkle. Queued 2027-09-07 (1 day after #1152's 2027-09-06)."
+    },
+    {
+      "number": 1154,
+      "slug": "1154-truck-deaths-down-injuries-up",
+      "title": "Truck Deaths Fell 2.5% in 2024. Injuries Rose 5%. Somebody Needs to Explain the Math.",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-08",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "kicker": "Investigation",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "70cbcddb",
+        "og_image_absolute": true,
+        "story_hero_img": 1,
+        "sentence_rhythm": {
+          "variance": 1100.3,
+          "short_pct": 13.6,
+          "long_pct": 40.9,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1154-truck-deaths-down-injuries-up-research.md",
+        "story": "drafts/1154-truck-deaths-down-injuries-up.html",
+        "critic_panel": "drafts/1154-truck-deaths-down-injuries-up-critic-panel-r0.md",
+        "hero": "drafts/1154-truck-deaths-down-injuries-up.jpg"
+      },
+      "note": "2026-10-13 09:30 run: full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.84, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS variance 1100.3/short 13.6%/long 40.9%, hero JPEG 1920x1280 hash 70cbcddb). Novel: first site coverage of NHTSA 2024 finalized large-truck data (DOT HS 813 816, June 2026); death/injury divergence (5,340 killed -2.5%, 161,201 injured +5%); original injuries-per-death ratios 28.0->30.2 (+7.7%), other-vehicle occupants 28.0->31.0 (+10.8%); medium trucks 39%->44% of injury-crash trucks (+9,063); exposure paradox (registrations +8%, VMT flat, fatal rate down/injury rate up). Queued 2027-09-08 (1 day after #1153's 2027-09-07)."
     }
   ]
 }
