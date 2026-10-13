@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "1151-winter-haven-school-bus-rollover-belt-question",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-13T03:30:00-07:00",
-    "critique_round": 0,
-    "avg_critic": 8.86
-  },
+  "current": null,
   "last_check_note": "2026-10-13 03:30 run: #1151 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.86), queued 2027-09-05. PUBLISH-QUEUE: 1/day gate already consumed (#814 at 02:15), no publish.",
   "last_checked": "2026-10-13T03:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
@@ -13347,6 +13340,34 @@
         "research_rigor": 9.5,
         "data_presentation": 9.0
       }
+    },
+    {
+      "number": 1151,
+      "slug": "1151-winter-haven-school-bus-rollover-belt-question",
+      "title": "The School Bus Had Seat Belts. The Science Says That Was Not Enough",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-05",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "a08718a3",
+        "word_count": 760
+      },
+      "files": {
+        "research": "drafts/1151-winter-haven-school-bus-rollover-belt-question-research.md",
+        "story": "drafts/1151-winter-haven-school-bus-rollover-belt-question.html",
+        "critic_panel": "drafts/1151-winter-haven-school-bus-rollover-belt-question-critic-panel-r0.md",
+        "hero": "drafts/1151-winter-haven-school-bus-rollover-belt-question.jpg"
+      },
+      "note": "2026-10-13 03:30 run: round-0 critique pass (avg 8.86), queued 2027-09-05 (1/day after #1150's 2027-09-04)."
     }
   ]
 }
