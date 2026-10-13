@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-10-12 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1147 (FARS Table 10 personal-conveyance death gap: scooters 65->109 +68%, mobility-aid 123; Axle McScatter, round-0 8.93, queued SHIP_BLOCKED 2027-08-31). Kill-test rejections: Defender stitching #1061, Merc brake 26V638 #1136, GM L87 #1025/#864, eBoost x3, Rivian R2 x2, Nova Bus bike rack #1129, RV water tanks #1092, Ram 26V622 #1120, Ford 26C43 headlights, GM roof-rail #1026, Mack grille #1119, Grech/MaxxFan #1090, Tesla DP26010 #1145, IIHS commercial #1144, alcohol-2024 #1073, older peds #996. PUBLISH-QUEUE: 1/day gate consumed (Publish #813, 892800f3); only due entry #763 still hero-less, skipped per hero-gate rule.",
- "last_checked": "2026-10-12T17:30:00-07:00",
+ "last_check_note": "2026-10-12 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1148 (Chrysler recall 92D: 265,512 ProMaster vans, water ingress kills EPS assist with no warning; interim letters Nov 17, no final remedy; Mia Crumplezone, round-0 8.93, queued SHIP_BLOCKED 2027-09-01). Kill-test: IIHS commercial van ratings #1144-adjacent used as context only, not the angle. PUBLISH-QUEUE: 1/day gate consumed (Publish #813 actual; 2 other commits are bookkeeping notes matching the grep); only due entry #763 still hero-less, skipped per hero-gate rule.",
+ "last_checked": "2026-10-12T19:45:00-07:00",
  "last_completed": "2026-10-12T19:45:00-07:00",
  "last_completed_date": "2026-10-12",
  "last_journalist": "Mia Crumplezone",
