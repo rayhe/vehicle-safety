@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-12 23:30 run: #1149 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.87), queued 2027-09-03. Hero JPEG 2048x1152. Proceeding to PUBLISH-QUEUE.",
+  "last_check_note": "2026-10-12 23:30 run: #1149 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.87), queued 2027-09-03, hero JPEG 2048x1152. PUBLISH-QUEUE: 1/day gate consumed by Publish #813 earlier today; no publish this run. #763 still hero-blocked.",
   "last_checked": "2026-10-12T23:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
   "last_completed_date": "2026-10-12",
