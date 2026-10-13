@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-13 03:30 run: #1151 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.86), queued 2027-09-05. PUBLISH-QUEUE: 1/day gate already consumed (#814 at 02:15), no publish.",
-  "last_checked": "2026-10-13T03:30:00-07:00",
-  "last_completed": "2026-10-12T19:45:00-07:00",
+  "last_check_note": "2026-10-13 05:30 run: #1152 full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP (round-0 pass, avg 8.86), queued 2027-09-06. PUBLISH-QUEUE: 1/day gate already consumed (#814 at 02:15), no publish. Only due entry #763 ev-fire-blanket-explosion-risk remains hero-blocked; cadence intact.",
+  "last_checked": "2026-10-13T05:30:00-07:00",
+  "last_completed": "2026-10-13T05:30:00-07:00",
   "last_completed_date": "2026-10-12",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-13T02:15:00-07:00",
   "last_published_date": "2026-10-13",
   "last_published_slug": "814-q1-2026-099-rate-record-chase",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1152,
+  "next": 1153,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -13368,6 +13368,29 @@
         "hero": "drafts/1151-winter-haven-school-bus-rollover-belt-question.jpg"
       },
       "note": "2026-10-13 03:30 run: round-0 critique pass (avg 8.86), queued 2027-09-05 (1/day after #1150's 2027-09-04)."
+    },
+    {
+      "number": 1152,
+      "slug": "1152-greenpower-nano-beast-wheelchair-lift-interlock",
+      "title": "The Interlock Was Never Added. Eight School Buses Could Drive Off With the Lift Down",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-06",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1152-greenpower-nano-beast-wheelchair-lift-interlock-research.md",
+        "story": "drafts/1152-greenpower-nano-beast-wheelchair-lift-interlock.html",
+        "hero": "images/1152-greenpower-nano-beast-wheelchair-lift-interlock.jpg",
+        "critic_panel": "drafts/1152-greenpower-nano-beast-wheelchair-lift-interlock-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0,
+        "css": "story + style.css"
+      },
+      "note": "2026-10-13 05:30 run: full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP round-0 pass avg 8.86; 26V643000 (8 units, 100 pct defect, interlock logic never added); queued 2027-09-06"
     }
   ]
 }
