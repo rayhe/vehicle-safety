@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1150-commercial-aeb-math",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-13T01:30:00-07:00"
-  },
-  "last_check_note": "2026-10-13 01:30 run: #1150 RESEARCH complete (IIHS Oct 8 commercial crash-avoidance ratings + NHTSA heavy-AEB rule 155/6,215=2.5% coverage math). Proceeding to DRAFT.",
+  "current": null,
+  "last_check_note": "2026-10-13 01:30 run: #1150 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.93), queued 2027-09-04, hero JPEG 2240x1120. Dateline Sept 4, 2027.",
   "last_checked": "2026-10-12T23:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
   "last_completed_date": "2026-10-12",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-12T01:45:00-07:00",
   "last_published_date": "2026-10-11",
   "last_published_slug": "813-drunk-tank-index",
@@ -13305,6 +13300,45 @@
         "the_starters_pct": 11.1,
         "css_ok": true,
         "rhythm": "PASS"
+      }
+    },
+    {
+      "journalist": "Axle McScatter",
+      "note": "2026-10-13 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP full pipeline in one run. Round-0 panel VERDICT: SHIP (avg 8.93). Gates re-verified pre-ship: em 0, banned 0, The 8.8%, css ok, hero JPEG 2240x1120 ?v=a8e2ad7d, rhythm PASS. NOTE: duplicate #1149 numbers already in queue (Mia + Vin entries); this article uses 1150.",
+      "number": 1150,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-04",
+      "slug": "1150-motorcycle-blind-aeb-rule",
+      "title": "The Federal Fix for Work-Truck Crashes Covers 2.5% of the Deaths",
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "kicker": "By The Numbers",
+      "files": {
+        "research": "drafts/1150-commercial-aeb-math-research.md",
+        "story": "drafts/1150-motorcycle-blind-aeb-rule.html",
+        "hero": "drafts/1150-motorcycle-blind-aeb-rule.jpg",
+        "critic_panel": "drafts/1150-motorcycle-blind-aeb-rule-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2240x1120",
+        "hero_hash": "a8e2ad7d",
+        "rhythm_pass": true,
+        "word_count": 470
+      },
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.5,
+        "data_presentation": 9.0
       }
     }
   ]
