@@ -1,23 +1,16 @@
 {
- "current": {
-  "slug": "1147-scooter-deaths-not-counted-personal-conveyance",
-  "phase": "CRITIQUE",
-  "journalist": "Axle McScatter",
-  "round": 0,
-  "started": "2026-10-12T17:30:00-07:00",
-  "note": "DRAFT complete: 637 words, 0 em dashes, banned 0, The-starters 9.1%, class=story, ../style.css, rhythm PASS (var 3376.7, short 8.7%, long 47.8%), hero real JPEG 1920x1280 427KB, og tags absolute w/ cache-bust hash, dateline August 31, 2027."
- },
+ "current": null,
  "last_check_note": "2026-10-12 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1146 (Ford Bronco 26V580 airbag bracket burr + 26V581 Explorer opposite-failure pairing, Mia Crumplezone, round-0 8.86, queued SHIP_BLOCKED 2027-08-30). Kill-test rejections: #1130 RAV4 PHEV, #1144 IIHS commercial, #977 Rivian backup cam, #1054/67/78/97 Ford headlights, #1026 GM roof-rail, #1119 Mack grille, #1037 Mach-E BECM, #914 Transit seatbelt, Jeep coil-spring x4. PUBLISH-QUEUE: 1/day gate consumed (Publish #813, 892800f3); only due entry #763 still hero-less, skipped per hero-gate rule.",
  "last_checked": "2026-10-12T15:30:00-07:00",
- "last_completed": "2026-10-12T13:45:00-07:00",
+ "last_completed": "2026-10-12T17:30:00-07:00",
  "last_completed_date": "2026-10-12",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-10-12T01:45:00-07:00",
  "last_published_date": "2026-10-11",
  "last_published_slug": "813-drunk-tank-index",
  "last_qa_date": "2026-10-11",
  "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1147,
+ "next": 1148,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13193,6 +13186,45 @@
     "data_presentation": 8.5
    },
    "note": "2026-10-12 15:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run; round-0 SHIP (8.86 avg, 7/7 >= 8.5, all hard gates; rhythm variance 1354.7). Kill-test rejections this run: RAV4 PHEV ECU (#1130 covered), IIHS commercial crash-avoidance (#1144 covered), Rivian backup camera (#977 covered), Ford 26V606 headlights (#1054/#1067/#1078/#1097 covered), GM roof-rail airbag (#1026 covered), Mack grille (#1119 covered), Mach-E BECM (#1037 covered), Transit wireless seatbelt (#914 covered), Jeep coil springs (#865/#882/#886/#891 covered). Novel: 26V580+26V581 opposite-failure pairing (curtain goes soft too fast vs vent won't open), process-vs-design distinction (skipped deburring step), silent-defect detection analysis. Queued SHIP_BLOCKED 2027-08-30 (1 day after #1145)."
+  },
+  {
+   "number": 1147,
+   "slug": "1147-scooter-deaths-not-counted-personal-conveyance",
+   "title": "109 People Died on Scooters in 2024. FARS Doesn't Count a Single One as a Pedestrian.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-08-31",
+   "critique_round": 0,
+   "avg_critic": 8.93,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.1,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "2ea12487",
+    "word_count": 640,
+    "rhythm_variance": 3376.7
+   },
+   "files": {
+    "research": "drafts/1147-scooter-deaths-not-counted-personal-conveyance-research.md",
+    "story": "drafts/1147-scooter-deaths-not-counted-personal-conveyance.html",
+    "hero": "drafts/1147-scooter-deaths-not-counted-personal-conveyance.jpg",
+    "critic_panel": "drafts/1147-scooter-deaths-not-counted-personal-conveyance-critic-panel-r0.md"
+   },
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "note": "2026-10-12 17:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run; round-0 SHIP (8.93 avg, 7/7 >= 8.5, all hard gates; rhythm variance 3376.7). Two rigor fixes in critique (3% pedestrian decline qualified as early estimates; ninth-quarter claim re-anchored to Q2 2024). Kill-test rejections this run: Defender seatbelt stitching (#1061), Mercedes S-Class brake hose 26V638 (#1136), GM L87/EA26005 (#1025/#864), GM eBoost (#835/#979/#1050), Rivian R2 HV fastener (#1082/#1106), Nova Bus bike rack (#1129), RV water tanks (#1092), Ram 26V622 (#1120), Ford headlights 26C43 (#1054/67/78/97), GM roof-rail (#1026), Mack grille (#1119), Grech 26V628/MaxxFan cascade (#1090), Tesla robotaxi DP26010 (#1145), IIHS commercial ratings (#1144), 2024 alcohol data (#1073), older pedestrians (#996). Novel: FARS Table 10 personal-conveyance taxonomy gap (271 deaths outside the 7,080 pedestrian headline), scooter +68% vs falling deaths, mobility-aid 123 (largest line, invisible), 7,351 recomputed toll. Queued SHIP_BLOCKED 2027-08-31 (1 day after #1146)."
   }
  ]
 }
