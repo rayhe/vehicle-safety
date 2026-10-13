@@ -1,15 +1,15 @@
 {
   "current": null,
-  "last_check_note": "2026-10-13 01:30 run: #1150 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.93), queued 2027-09-04, hero JPEG 2240x1120. Dateline Sept 4, 2027.",
+  "last_check_note": "2026-10-13 01:30 run: #1150 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.93), queued 2027-09-04. PUBLISH-QUEUE: shipped #814 (earliest-due), QA live-verified, 1/day gate consumed. #763 still hero-blocked.",
   "last_checked": "2026-10-12T23:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
   "last_completed_date": "2026-10-12",
   "last_journalist": "Axle McScatter",
-  "last_published": "2026-10-12T01:45:00-07:00",
-  "last_published_date": "2026-10-11",
-  "last_published_slug": "813-drunk-tank-index",
-  "last_qa_date": "2026-10-11",
-  "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
+  "last_published": "2026-10-13T02:15:00-07:00",
+  "last_published_date": "2026-10-13",
+  "last_published_slug": "814-q1-2026-099-rate-record-chase",
+  "last_qa_date": "2026-10-13",
+  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
   "next": 1151,
   "queue": [
     {
@@ -765,9 +765,9 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+      "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Novel contribution: exposure-vs-rate decomposition of NHTSA Q1 2026 estimates (~468 lives saved in one quarter), methodology + VMT error band in disclaimer. Distinct from queued #753 (Norway 0.2 international comparison) and #798 (2025 annual). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-13 01:30 run: SHIPPED as #814 (earliest-due SHIP_BLOCKED, 1/day slot open; 0 prior publishes today). Pre-ship fixes: og:image/twitter tags + absolute URL w/ hash ca093eb1, dateline -> October 13, 2026. QA live-verified: story 200, hero JPEG 200, og tags, index card, sitemap.",
       "number": 814,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
