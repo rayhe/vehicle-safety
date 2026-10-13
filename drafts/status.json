@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-12 23:30 run: #1149 full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.87), queued 2027-09-03, hero JPEG 2048x1152. PUBLISH-QUEUE: 1/day gate consumed by Publish #813 earlier today; no publish this run. #763 still hero-blocked.",
+  "current": {
+    "slug": "1150-commercial-aeb-math",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-13T01:30:00-07:00"
+  },
+  "last_check_note": "2026-10-13 01:30 run: #1150 RESEARCH complete (IIHS Oct 8 commercial crash-avoidance ratings + NHTSA heavy-AEB rule 155/6,215=2.5% coverage math). Proceeding to DRAFT.",
   "last_checked": "2026-10-12T23:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
   "last_completed_date": "2026-10-12",
@@ -10,7 +15,7 @@
   "last_published_slug": "813-drunk-tank-index",
   "last_qa_date": "2026-10-11",
   "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1149,
+  "next": 1151,
   "queue": [
     {
       "journalist": "Rex Driverton",
