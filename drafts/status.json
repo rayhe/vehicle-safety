@@ -2,9 +2,9 @@
   "current": null,
   "last_check_note": "2026-10-13 07:30 run: #1153 full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP (round-0 pass, avg 8.87), queued 2027-09-07. PUBLISH-QUEUE: 1/day gate already consumed (#814 at 02:15); only due entry #763 ev-fire-blanket-explosion-risk remains hero-blocked; skipped per no-stall rule, cadence intact.",
   "last_checked": "2026-10-13T05:30:00-07:00",
-  "last_completed": "2026-10-13T09:30:00-07:00",
+  "last_completed": "2026-10-13T11:30:00-07:00",
   "last_completed_date": "2026-10-12",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-13T02:15:00-07:00",
   "last_published_date": "2026-10-13",
   "last_published_slug": "814-q1-2026-099-rate-record-chase",
@@ -13461,6 +13461,51 @@
         "hero": "drafts/1154-truck-deaths-down-injuries-up.jpg"
       },
       "note": "2026-10-13 09:30 run: full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.84, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS variance 1100.3/short 13.6%/long 40.9%, hero JPEG 1920x1280 hash 70cbcddb). Novel: first site coverage of NHTSA 2024 finalized large-truck data (DOT HS 813 816, June 2026); death/injury divergence (5,340 killed -2.5%, 161,201 injured +5%); original injuries-per-death ratios 28.0->30.2 (+7.7%), other-vehicle occupants 28.0->31.0 (+10.8%); medium trucks 39%->44% of injury-crash trucks (+9,063); exposure paradox (registrations +8%, VMT flat, fatal rate down/injury rate up). Queued 2027-09-08 (1 day after #1153's 2027-09-07)."
+    },
+    {
+      "number": 1155,
+      "slug": "1155-pedestrian-death-injury-divergence",
+      "title": "Pedestrian Deaths Fell 3.9% in 2024. Injuries Rose 5%. The Road Isn't Safer.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-09",
+      "started": "2026-10-13T11:30:00-07:00",
+      "critic_avg": 8.71,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "45c13a10",
+        "og_image_absolute": true,
+        "story_hero_img": 1,
+        "sentence_rhythm": {
+          "variance": 240.6,
+          "short_pct": 8.9,
+          "long_pct": 26.7,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1155-pedestrian-death-injury-divergence-research.md",
+        "story": "drafts/1155-pedestrian-death-injury-divergence.html",
+        "critic_panel": "drafts/1155-pedestrian-death-injury-divergence-critique.md",
+        "hero": "drafts/1155-pedestrian-death-injury-divergence.jpg"
+      },
+      "note": "2026-10-13 11:30 run: full pipeline RESEARCH-DRAFT-CRITIQUE-SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.71, all 7 >= 8.5; gates: em 0, banned 0, The 10.7%, rhythm PASS variance 240.6/short 8.9%/long 26.7%, hero JPEG 1920x1280 hash 45c13a10). Novel: first site coverage of finalized NHTSA 2024 pedestrian data (DOT HS 813 818, June 2026); original injuries-per-death ratio 9.26->10.12 (+9.2%); twin finding to #1154's truck death/injury divergence; decade reversal (injuries-per-death fell 12.75->10.12 over 2015-2024); alcohol slice improving (pedestrian BAC .08+ 34%->27% since 2015). Queued 2027-09-09 (1 day after #1154's 2027-09-08)."
     }
   ]
 }
