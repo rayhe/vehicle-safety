@@ -1,10 +1,16 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-12 21:30 run: #1149 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.91), queued 2027-09-02. Publish gate consumed (4 publishes today). Fixed pre-existing twitter:card validate failure on #813 story. last_completed unchanged (QA path not taken this run).",
-  "last_checked": "2026-10-12T21:30:00-07:00",
+  "current": {
+    "slug": "october-recalls-interim-letters-no-fix",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-12T23:30:00-07:00",
+    "number": 1149
+  },
+  "last_check_note": "2026-10-12 23:30 run: #1149 RESEARCH done (october-recalls-interim-letters-no-fix, Vin Wreckage): Oct 2026 interim-letter recall pattern \u2014 265,512 Ram power steering (92D), 22,524 VW ID.4 battery fire (93EX, root cause unknown, charge cap 80%), 30,064 Mercedes brake hoses (expands 25V116). 8 primary sources. Proceeding to DRAFT.",
+  "last_checked": "2026-10-12T23:30:00-07:00",
   "last_completed": "2026-10-12T19:45:00-07:00",
   "last_completed_date": "2026-10-12",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-12T01:45:00-07:00",
   "last_published_date": "2026-10-11",
   "last_published_slug": "813-drunk-tank-index",
