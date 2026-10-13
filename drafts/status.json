@@ -1,22 +1,16 @@
 {
- "current": {
-  "slug": "1148-ram-promaster-power-steering-water-recall",
-  "phase": "CRITIQUE",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-10-12T19:35:00-07:00",
-  "critique_round": 0
- },
+ "current": null,
  "last_check_note": "2026-10-12 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE->SHIP for #1147 (FARS Table 10 personal-conveyance death gap: scooters 65->109 +68%, mobility-aid 123; Axle McScatter, round-0 8.93, queued SHIP_BLOCKED 2027-08-31). Kill-test rejections: Defender stitching #1061, Merc brake 26V638 #1136, GM L87 #1025/#864, eBoost x3, Rivian R2 x2, Nova Bus bike rack #1129, RV water tanks #1092, Ram 26V622 #1120, Ford 26C43 headlights, GM roof-rail #1026, Mack grille #1119, Grech/MaxxFan #1090, Tesla DP26010 #1145, IIHS commercial #1144, alcohol-2024 #1073, older peds #996. PUBLISH-QUEUE: 1/day gate consumed (Publish #813, 892800f3); only due entry #763 still hero-less, skipped per hero-gate rule.",
  "last_checked": "2026-10-12T17:30:00-07:00",
- "last_completed": "2026-10-12T17:30:00-07:00",
+ "last_completed": "2026-10-12T19:45:00-07:00",
  "last_completed_date": "2026-10-12",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-12T01:45:00-07:00",
  "last_published_date": "2026-10-11",
  "last_published_slug": "813-drunk-tank-index",
  "last_qa_date": "2026-10-11",
  "last_qa_note": "QA pass #812: story 200 (308->canonical), hero JPEG 200 (512KB), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1148,
+ "next": 1149,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13231,6 +13225,30 @@
     "data_presentation": 9.0
    },
    "note": "2026-10-12 17:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run; round-0 SHIP (8.93 avg, 7/7 >= 8.5, all hard gates; rhythm variance 3376.7). Two rigor fixes in critique (3% pedestrian decline qualified as early estimates; ninth-quarter claim re-anchored to Q2 2024). Kill-test rejections this run: Defender seatbelt stitching (#1061), Mercedes S-Class brake hose 26V638 (#1136), GM L87/EA26005 (#1025/#864), GM eBoost (#835/#979/#1050), Rivian R2 HV fastener (#1082/#1106), Nova Bus bike rack (#1129), RV water tanks (#1092), Ram 26V622 (#1120), Ford headlights 26C43 (#1054/67/78/97), GM roof-rail (#1026), Mack grille (#1119), Grech 26V628/MaxxFan cascade (#1090), Tesla robotaxi DP26010 (#1145), IIHS commercial ratings (#1144), 2024 alcohol data (#1073), older pedestrians (#996). Novel: FARS Table 10 personal-conveyance taxonomy gap (271 deaths outside the 7,080 pedestrian headline), scooter +68% vs falling deaths, mobility-aid 123 (largest line, invisible), 7,351 recomputed toll. Queued SHIP_BLOCKED 2027-08-31 (1 day after #1146)."
+  },
+  {
+   "number": 1148,
+   "slug": "1148-ram-promaster-power-steering-water-recall",
+   "title": "Rain Can Kill the Power Steering on 265,512 Ram ProMaster Vans, and There Is No Fix Yet",
+   "journalist": "Mia Crumplezone",
+   "ship_date": "2027-09-01",
+   "phase": "SHIP_BLOCKED",
+   "avg_critic": 8.93,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_pct": 14.0,
+    "rhythm_pass": true,
+    "hero": "JPEG 1920x1280 ?v=8118bd34"
+   },
+   "files": {
+    "research": "drafts/1148-ram-promaster-power-steering-water-recall-research.md",
+    "story": "drafts/1148-ram-promaster-power-steering-water-recall.html",
+    "hero": "drafts/1148-ram-promaster-power-steering-water-recall.jpg",
+    "critic_panel": "drafts/1148-ram-promaster-power-steering-water-recall-critic-panel-r0.md"
+   },
+   "note": "2026-10-12 19:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.93). Chrysler recall 92D, 265,512 ProMaster vans (2022-2026 + 2024-2026 EV), water ingress kills EPS assist with no warning; interim letters Nov 17, final remedy pending. Queued SHIP_BLOCKED 2027-09-01."
   }
  ]
 }
