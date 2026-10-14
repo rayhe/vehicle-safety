@@ -1,16 +1,16 @@
 {
  "current": null,
  "last_check_note": "2026-10-14 11:30 run: new article #1165 SHIP_BLOCKED (Mach-E rear differential recall goes global via KBA Oct 9: 96,840 = 2.26x US 42,784; remedy still unavailable; 2027-09-19). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; only due entry is #763 (hero-less, policy-blocked; skipped per rule, does not stall cadence); next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
- "last_checked": "2026-10-14T11:30:00-07:00",
+ "last_checked": "2026-10-14T13:30:00-07:00",
  "last_completed": "2026-10-14T07:30:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1166,
+ "next": 1167,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13911,6 +13911,41 @@
     "critic_panel": "drafts/1165-mach-e-differential-recall-goes-global-critic-panel-r0.md"
    },
    "note": "2026-10-14 11:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.86, 7/7 >= 8.5). Novel: KBA Oct 9 global publication 96,840 (2.26x the US 42,784 26V417); US 44.2% / Germany 6.8% share math; March-discovery to Oct-global timeline; remedy still missing (parts expected Q4 2026 per Ford recall portal via German press, unattributed by Ford). Rhythm gate initially failed (short 16.1%), fixed via colon/semicolon merges -> PASS. Pre-score fix: added ref-6 for $165M penalty claim. Queued SHIP_BLOCKED 2027-09-19 (1 day after #1164)."
+  },
+  {
+   "avg_critic": 8.93,
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1166-toyota-rav4-phev-mgecu-shutdown-recall-critic-panel-r0.md",
+    "hero": "drafts/1166-toyota-rav4-phev-mgecu-shutdown-recall.jpg",
+    "research": "drafts/1166-toyota-rav4-phev-mgecu-shutdown-recall-research.md",
+    "story": "drafts/1166-toyota-rav4-phev-mgecu-shutdown-recall.html"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css": "story+../style.css",
+    "em_dashes": 0,
+    "hero_jpeg": "2240x1120 ?v=8c9ffd2d",
+    "rhythm": "exit0 var566.4 short6.7 long55.6",
+    "the_starters_pct": 14.6
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "note": "2026-10-14 13:30 run: #1166 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.93; gates: em 0, banned 0, The 14.6%, rhythm exit 0, hero JPEG 2240x1120 ?v=8c9ffd2d; NHTSA 26V659000 / Toyota 26TA22, 2026 RAV4 PHEV MG-ECU init failure; rear fault=limp mode, front fault=total shutdown; global floor 39,382; letters start Nov 22).",
+   "number": 1166,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "ship_date": "2027-09-20",
+   "slug": "1166-toyota-rav4-phev-mgecu-shutdown-recall",
+   "title": "Your Hybrid's Motors Have a Boot Sequence. Toyota's Sometimes Skips It."
   }
  ]
 }

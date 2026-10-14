@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Hybrid's Motors Have a Boot Sequence. Toyota's Sometimes Skips It. &mdash; The Crash Report</title>
+  <meta name="description" content="Toyota recalled 30,978 2026 RAV4 Plug-in Hybrids (NHTSA 26V659000) because the motor-generator ECU can fail its startup initialization. Rear-motor failure means limp-home mode; front-motor failure can shut down the whole hybrid system at highway speed.">
+  <meta property="og:title" content="Your Hybrid's Motors Have a Boot Sequence. Toyota's Sometimes Skips It.">
+  <meta property="og:description" content="Toyota recalled 30,978 2026 RAV4 Plug-in Hybrids: the motor-generator ECU can flunk its startup boot sequence, and if it's the front motor, the entire hybrid system can shut down at highway speed.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1166-toyota-rav4-phev-mgecu-shutdown-recall.jpg?v=8c9ffd2d">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/1166-toyota-rav4-phev-mgecu-shutdown-recall.jpg?v=8c9ffd2d">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Your Hybrid's Motors Have a Boot Sequence. Toyota's Sometimes Skips It.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">October 14, 2026</div>
+
+      <img src="../images/1166-toyota-rav4-phev-mgecu-shutdown-recall.jpg?v=8c9ffd2d" alt="A silver plug-in hybrid SUV on a highway at dusk, dashboard warning lights glowing" class="story-hero">
+
+      <div class="story-body">
+      <p>Let's talk about what happens in the first 150 milliseconds. Every time you start a plug-in hybrid, the motor-generator control unit runs an initialization sequence: wake up, handshake, negotiate the control mode. Your car is a computer, and like every computer, it has a boot sequence. Today Toyota told NHTSA that in <strong>30,978 of the 2026 RAV4 Plug-in Hybrids, that boot sequence can silently fail, and when the car later asks for the high-speed motor control mode, the whole hybrid system can shut down on the highway.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <div class="pull-stat">39,382</div>
+      <div class="pull-label">Known affected RAV4 PHEVs across three markets: US 30,978, Australia 5,925, New Zealand 2,479. That's a floor, not a ceiling.</div>
+
+      <p>Now for the part that made me re-read the recall documentation. This is one bug with two completely different fates, depending on which motor flunks its boot. If the rear motor-generator's initialization fails, the car enters fail-safe limp-home mode: rear-wheel drive dies, the car runs as a front-driver at reduced speed, and you crawl home annoyed but alive. If the front motor-generator's initialization fails, the entire plug-in hybrid system can shut down completely while in motion.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Same software, same bug, same vehicle. One motor dies politely; the other one takes the car with it.</p>
+
+      <p>That asymmetry is a design decision somebody made, and I have opinions about it. The front motor-generator is apparently load-bearing for system survival in a way the rear one isn't. Toyota's fail-safe architecture handles the polite failure and gets defeated by the rude one. Which means the fail-safe is a fail-half: it catches the failure mode that was already survivable and surrenders to the one that wasn't. If you are an engineer reading this, you know exactly which meeting decided that, and you know what the cost constraint was.</p>
+
+      <p>The timeline deserves its own examination, and it begins with a field technical report from Japan of a RAV4 that lost all-wheel drive and entered reduced-speed fail-safe mode. Laboratory and vehicle drive testing through August and September 2026 confirmed the software failure could trigger a total loss of motive power. As of September 30, Toyota had logged 38 field technical reports and 58 warranty claims in the US market.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Run the fraction: 96 events over 30,978 vehicles is an observed-report rate of 0.31 percent, roughly 1 in 323. That is not a verified failure rate, and warranty claims are not adjudicated defect findings. But it is a lot of warning for a car that had barely existed.<sup class="ref-link"><a href="#ref-7">[7]</a></sup></p>
+
+      <p>And then there is the letter problem. The recall was filed and announced this month. NHTSA's own record says owner notification letters start mailing November 22.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Toyota had confirmed total power loss in testing by the end of September. So owners get roughly five weeks of driving between the public announcement and the first letters, on a defect the manufacturer proved can kill all motive power at speed. The fix is a dealer ECU software reflash, free of charge, no parts wait. The software exists; the schedule does not care.</p>
+
+      <p>To be fair, and I do not say this often: Toyota ran a real investigation here, and the rear-motor fail-safe genuinely works. A single field report from Japan triggered lab testing, the lab testing found the worst case before anyone attributed a crash to it, and the remedy is software-only with no parts shortage. A 0.31 percent observed-report rate is low by recall standards, and catching this in September to recall in October is the system working as designed. The honest complaint is narrow but real: the front-motor path defeats the fail-safe entirely, and the letters lag the announcement by five weeks while the cars stay on the road.</p>
+
+      <p><strong>What to do:</strong> if you own a 2026 RAV4 Plug-in Hybrid, check your VIN at nhtsa.gov/recalls today and call your dealer about the ECU reflash, Toyota campaign 26TA22.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Until the software is updated: if warning lights appear and the car enters fail-safe mode, pull over safely and stay out of traffic, because limp mode means you got the polite failure, and you cannot count on the next failure being polite too. And if you are shopping for a plug-in hybrid, ask the dealer whether all the motor generators run the same motor-control software build. Here, they did: one bug, two motors, two fates.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API, campaign 26V659000, 2026 Toyota RAV4 Plug-in Hybrid (component: engine control module software; summary: motor-generator ECU error causing reduce-power-or-shutdown at higher speeds; consequence: loss of drive power; remedy: free dealer ECU software update; owner letters starting Nov 22, 2026; Toyota no. 26TA22). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">Dow Jones Newswires via Morningstar, &ldquo;Toyota Recalls 31,000 Hybrid Vehicles Over Software Issue,&rdquo; Oct 14, 2026: 30,978 vehicles, built July 22, 2025 &ndash; Aug 19, 2026; MG-ECU init failure; notifications by Dec 6. <a href="https://www.morningstar.com/news/dow-jones/202610143049/toyota-recalls-31000-hybrid-vehicles-over-software-issue" target="_blank" rel="noopener">morningstar.com</a></li>
+          <li id="ref-3">USA Today, &ldquo;Toyota recalls over 30,000 vehicles. See the affected model,&rdquo; Oct 14, 2026: 30,978 affected; power loss at higher speeds. <a href="https://www.usatoday.com/story/cars/recalls/2026/10/14/toyota-recalls-vehicles-rav4-plug-in-hybrid-model/92249703007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-4">CarsGuide, &ldquo;New 2026 Toyota RAV4 plug-in hybrid hit with recall for potential electric motor fault,&rdquo; Oct 13, 2026: Australia recall announced Oct 9, 5,925 vehicles (2WD AXAP62R, 4WD AXAP64R). <a href="https://www.carsguide.com.au/car-news/new-2026-toyota-rav4-plug-in-hybrid-hit-with-recall-for-potential-electric-motor-fault" target="_blank" rel="noopener">carsguide.com.au</a></li>
+          <li id="ref-5">MotoringNZ, &ldquo;RAV4 PHEV issue sparks recall,&rdquo; Oct 12, 2026: New Zealand recalling 2,479 vehicles built Feb&ndash;Sep 2026; ~1-hour dealer reflash. <a href="https://www.motoringnz.com/news/2026/10/12/rav4-phev-issue-sparks-recall" target="_blank" rel="noopener">motoringnz.com</a></li>
+          <li id="ref-6">AutoGuide, &ldquo;Toyota Recalls 2026 RAV4 Plug-In Hybrids Over System Power Loss,&rdquo; Oct 14, 2026: init-sequence mechanism; rear-fault limp-home vs. front-fault total shutdown; Japan field report origin; Aug&ndash;Sep 2026 testing; 38 field technical reports + 58 warranty claims as of Sept 30. <a href="https://www.autoguide.com/auto/manufacturers/toyota/toyota-recalls-nearly-2026-rav4-plug-in-hybrids-over-system-power-loss-44640265" target="_blank" rel="noopener">autoguide.com</a></li>
+          <li id="ref-7">Limitations note: the 96-event figure combines warranty claims and field technical reports, which are not adjudicated defect findings and may overlap; 0.31% is an observed-report rate, not a verified failure rate. No crashes or injuries have been publicly attributed to this defect; the asymmetric fail-safe description comes from press readings of Toyota recall documentation, not the NHTSA summary itself. This is a recall-mechanics story; FARS 2014&ndash;2023 does not cover a 2026 model year.</li>
+        </ol>
+      </section>
+
+      <section class="story-limitations">
+        <h3>Limitations</h3>
+        <p>The NHTSA API record shows ReportReceivedDate 07/10/2026 while press coverage broke October 14, 2026; both are reported as-is without speculating on the discrepancy. The US 30,978 population is from Dow Jones and USA Today citing the NHTSA recall report; the API record does not expose unit counts. The 39,382 global figure assumes the Australian and New Zealand populations are distinct from the US vehicles (separate markets, separate announcements), and Japan, Europe, and Canada have not published counts yet. Letter timing: NHTSA's remedy field says letters start Nov 22, 2026; Dow Jones reported notifications by Dec 6 &mdash; presented as compatible (start vs. completion). No injuries are attributed anywhere in the reporting.</p>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA campaign 26V659000 (Toyota 26TA22), October 2026, via the sources above. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
