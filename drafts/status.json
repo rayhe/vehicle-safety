@@ -1,13 +1,8 @@
 {
- "current": {
-  "slug": "1163-toyota-lexus-steering-knuckle-aging-furnace-recall",
-  "phase": "DRAFT",
-  "journalist": "Rex Driverton",
-  "started": "2026-10-14T07:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-14 05:30 run: new article #1162 SHIP_BLOCKED (Rosenbauer do-not-drive fire engines, 2027-09-16). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; no due hero-ready SHIP_BLOCKED (next due #817 ship_date 2026-10-15); nothing published this run. Cadence intact.",
  "last_checked": "2026-10-14T05:30:00-07:00",
- "last_completed": "2026-10-14T05:30:00-07:00",
+ "last_completed": "2026-10-14T07:30:00-07:00",
  "last_completed_date": "2026-10-14",
  "last_journalist": "Rex Driverton",
  "last_published": "2026-10-14T03:30:00-07:00",
@@ -13797,6 +13792,47 @@
    },
    "started": "2026-10-14T05:30:00-07:00",
    "note": "2026-10-14 05:30 run: #1162 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.97; gates: em 0, banned 0, The 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=4246f2fd; Rosenbauer 26V640000 parkIt=true, 10 fire engines do-not-drive for cracked rim welds; prior campaigns 23V894/24V604/26V504 pattern; Rex Driverton). Queued SHIP_BLOCKED 2027-09-16 (1 day after #1161)."
+  },
+  {
+   "number": 1163,
+   "slug": "1163-toyota-lexus-steering-knuckle-aging-furnace-recall",
+   "title": "A Supplier Skipped the Furnace on 617 Toyota and Lexus SUVs. Now a Pothole Could Snap the Steering.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "ship_date": "2027-09-17",
+   "phase": "SHIP_BLOCKED",
+   "critique_round": 0,
+   "critic_avg": 8.91,
+   "scores": {
+    "general_editor": 8.9,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.9,
+    "legal_accuracy": 9.1,
+    "research_rigor": 9.0,
+    "data_presentation": 8.7
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 10.3,
+    "rhythm_pass": true,
+    "rhythm_variance": 1743.4,
+    "rhythm_short_pct": 14.7,
+    "rhythm_long_pct": 38.2,
+    "css_class_story": true,
+    "style_css": true,
+    "hero_jpeg": "1920x1280 ?v=68f67884",
+    "og_image_absolute": true
+   },
+   "files": {
+    "research": "drafts/1163-toyota-lexus-steering-knuckle-aging-furnace-recall-research.md",
+    "story": "drafts/1163-toyota-lexus-steering-knuckle-aging-furnace-recall.html",
+    "hero": "drafts/1163-toyota-lexus-steering-knuckle-aging-furnace-recall.jpg",
+    "critic_panel": "drafts/1163-toyota-lexus-steering-knuckle-aging-furnace-recall-critic-panel-r0.md"
+   },
+   "started": "2026-10-14T07:30:00-07:00",
+   "note": "2026-10-14 07:30 run: #1163 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.91; gates: em 0, banned 0, The 10.3%, rhythm PASS, hero JPEG 1920x1280 ?v=68f67884; Toyota 26V598000, Bharat Forge Aluminum USA skipped aging furnace on 617 MY2026 Grand Highlander/RX/TX built June 18-26 2026, supplier-audit catch, zero claims, remedy letters Nov 2-16 2026; Rex Driverton). Queued SHIP_BLOCKED 2027-09-17 (1 day after #1162). Publish slot consumed by earlier run today."
   }
  ]
 }
