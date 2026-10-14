@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "2026-10-14 09:30 run: new article #1164 SHIP_BLOCKED (Ford Explorer 26V121/26V122 consecutive recalls + 1-of-14 OTA census, 2027-09-18). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
+ "last_check_note": "2026-10-14 11:30 run: new article #1165 SHIP_BLOCKED (Mach-E rear differential recall goes global via KBA Oct 9: 96,840 = 2.26x US 42,784; remedy still unavailable; 2027-09-19). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; only due entry is #763 (hero-less, policy-blocked; skipped per rule, does not stall cadence); next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
  "last_checked": "2026-10-14T11:30:00-07:00",
  "last_completed": "2026-10-14T07:30:00-07:00",
  "last_completed_date": "2026-10-14",
