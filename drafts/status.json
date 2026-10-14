@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "1161-altec-bucket-truck-double-recall",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-14T01:30:00-07:00",
-    "number": 1161,
-    "title": "Altec Recalled Its Bucket Trucks Twice in Seven Days: One for the Step That Falls Off, One for the Boom That Won't Stow"
-  },
+  "current": null,
   "last_check_note": "2026-10-13 23:30 run: #1160 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.99; gates: em 0, banned 0, The 10.5%, rhythm exit 0, hero JPEG 1920x1280 ?v=5aebf0bb; IIHS Oct 8 commercial AEB wave 2), queued 2027-09-14 SHIP_BLOCKED.",
   "last_checked": "2026-10-13T23:30:00-07:00",
-  "last_completed": "2026-10-13T23:30:00-07:00",
+  "last_completed": "2026-10-14T01:30:00-07:00",
   "last_completed_date": "2026-10-13",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-10-13T02:15:00-07:00",
@@ -13712,6 +13705,47 @@
       "ship_date": "2027-09-14",
       "slug": "1160-commercial-vans-motorcycle-blind-spot",
       "title": "IIHS Asked Delivery Vans to Stop for a Motorcycle. Most of Them Did Nothing."
+    },
+    {
+      "number": 1161,
+      "slug": "1161-altec-bucket-truck-double-recall",
+      "title": "Altec Recalled Its Bucket Trucks Twice in Seven Days: One for the Step That Falls Off, One for the Boom That Won't Stow",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "ship_date": "2027-09-15",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.97,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.3,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.2,
+        "rhythm_pass": true,
+        "rhythm_variance": 1202.4,
+        "rhythm_short_pct": 14.8,
+        "rhythm_long_pct": 59.3,
+        "css_class_story": true,
+        "style_css": true,
+        "hero_jpeg": "1920x1280 ?v=54b02554",
+        "og_image_absolute": true
+      },
+      "files": {
+        "research": "drafts/1161-altec-bucket-truck-double-recall-research.md",
+        "story": "drafts/1161-altec-bucket-truck-double-recall.html",
+        "hero": "drafts/1161-altec-bucket-truck-double-recall.jpg",
+        "critic_panel": "drafts/1161-altec-bucket-truck-double-recall-critic-panel-r0.md"
+      },
+      "started": "2026-10-14T01:30:00-07:00",
+      "note": "2026-10-14 01:30 run: #1161 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.97; gates: em 0, banned 0, The 13.2%, rhythm PASS, hero JPEG 1920x1280 ?v=54b02554; Altec CSN-3374 step weld 6,780 + CSN-3370 boom stow wiring 143, 7 days apart; Digger Derrick double-hit; weld-pattern history 2020/2022/May2026; Clara Rollover). Queued SHIP_BLOCKED 2027-09-15 (1 day after #1160)."
     }
   ]
 }
