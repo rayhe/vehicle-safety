@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-13 19:30 run: #1158 DRAFT->CRITIQUE->SHIP (round-0 pass, avg 8.79; gates: em 0, banned 0, The 0.0%, rhythm pass 565.1/8.3/50.0, hero JPEG 2240x1120), queued 2027-09-12. PUBLISH-QUEUE: 1/day gate consumed today (#814 published 02:15); checking remaining due entries next.",
+  "last_check_note": "2026-10-13 19:30 run: #1158 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.79; gates: em 0, banned 0, The 0.0%, rhythm 565.1/8.3/50.0, hero JPEG 2240x1120 ?v=175b52e1; NHTSA 26V638/25V116 verified live), queued 2027-09-12 SHIP_BLOCKED, commit 5416cb61 pushed. PUBLISH-QUEUE: 1/day gate consumed today (Publish #814 at 02:15 PT, verified in log); only due entry #763 hero-blocked, skipped per no-stall rule. First push attempt declined by remote pre-receive hook (swept hidden_files/rcl-data/FLAT_RCL_POST_2010.txt 245k-line file via git add -A); recommitted 5 article files only, pushed clean. Other runs' unstaged files left untouched.",
   "last_checked": "2026-10-13T19:30:00-07:00",
   "last_completed": "2026-10-13T19:30:00-07:00",
   "last_completed_date": "2026-10-13",
