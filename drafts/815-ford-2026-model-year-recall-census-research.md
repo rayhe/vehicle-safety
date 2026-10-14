@@ -44,3 +44,12 @@ Ford caught most of these itself through proactive testing (Levine), campaigns a
 
 ## Actionable insight
 If you own or are shopping a 2026 Ford: check your VIN at nhtsa.gov/recalls now, not when the letter arrives. Mustang owners: the ground-eyelet fix isn't expected until March 2027 — ask your dealer whether an interim inspection is available. The 10,001-vehicle piston recall letters go out Sep 4; remedy expected December. And if your shopping list includes a 2026 Explorer, Bronco, Bronco Sport, Mustang, or Ranger, know that each of those nameplates has already been recalled this calendar year.
+
+## Refresh pass — 2026-10-14 (pre-ship, run per 2026-10-14 01:30 flag)
+- Re-ran the full NHTSA recalls API census with ReportReceivedDate in calendar 2026, queried Oct. 14, 2026. **New census: Ford 33, Toyota 6, Honda 2** touching 2026-MY vehicles (vs. 25/5/2 on Sept. 4).
+- Method fix: original script embedded model names unencoded, silently dropping "Bronco Sport" (space in name) — contributed 3 campaigns (26V239000, 26V548000, 26V550000; only 26V239000 was new after dedupe).
+- Toyota Corolla Cross, GR Corolla, GR Supra, Sequoia, Sienna, Venza, Land Cruiser returned API 400s even URL-encoded — genuine NHTSA vocabulary gaps, excluded from all tallies (bias understates Toyota slightly, Ford more via Super Duty).
+- OTA check: still **zero** of Ford's 33 flagged overTheAirUpdate=true; one BACK OVER PREVENTION:SOFTWARE component, one EQUIPMENT:OTHER:LABELS; the rest hardware.
+- Eight of Ford's 33 filed in September 2026 (26V576–26V581 batch, 26V580/581 airbags, 26V605/606, etc.).
+- Fresh peg for lede: Autoblog Oct. 13, 2026 — Ford at 75 recalls filed in 2026, record 153 in 2025, $165M NHTSA fine Nov. 2024, 16 OTA recalls Jan 2025–Jun 2026, Hearn fix-time data (Ford avg 174 days).
+- Dateline updated to October 14, 2026; ref [3] methodology updated; ref [6] added (Autoblog); disclaimer updated.

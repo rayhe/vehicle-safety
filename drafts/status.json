@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-13 23:30 run: #1160 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.99; gates: em 0, banned 0, The 10.5%, rhythm exit 0, hero JPEG 1920x1280 ?v=5aebf0bb; IIHS Oct 8 commercial AEB wave 2), queued 2027-09-14 SHIP_BLOCKED.",
-  "last_checked": "2026-10-13T23:30:00-07:00",
+  "last_check_note": "2026-10-14 03:30 run: no new article (current was null but #1161 already SHIP_BLOCKED from 01:30 run; fixed stale next 1161->1162). Pre-ship refresh on due #815 (fresh NHTSA census 33/6/2, 0 OTA, Autoblog 75 peg, gates pass). Published #815 as 1/day slot; #763 still hero-less, skipped per no-stall rule. Cadence intact.",
+  "last_checked": "2026-10-14T03:30:00-07:00",
   "last_completed": "2026-10-14T01:30:00-07:00",
   "last_completed_date": "2026-10-13",
   "last_journalist": "Clara Rollover",
-  "last_published": "2026-10-13T02:15:00-07:00",
-  "last_published_date": "2026-10-13",
-  "last_published_slug": "814-q1-2026-099-rate-record-chase",
+  "last_published": "2026-10-14T03:30:00-07:00",
+  "last_published_date": "2026-10-14",
+  "last_published_slug": "815-ford-2026-model-year-recall-census",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1161,
+  "next": 1162,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -101,7 +101,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable).",
+      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -804,9 +804,9 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-14 01:30 run: due (ship_date 2026-10-14) but SKIPPED: census data is 5 weeks stale (lede says '67 recalls so far in 2026', superseded by #1048's 77 as of Sep 28; 25-vs-5-vs-2 2026-MY census from Sept NHTSA pull needs refresh). Mechanical fixes applied this run: added story-hero img + absolute og:image (was relative). Needs a numbers-refresh pass before shipping.",
+      "note": "Round-0 pass 9.0 avg. Novel contribution: NHTSA API census of 2026-filed campaigns touching 2026-MY vehicles (Ford 25 vs Toyota 5 vs Honda 2; 0 of Ford's 25 OTA-flagged), testing Ford's 'old cars + software' defense. Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-14 01:30 run: due (ship_date 2026-10-14) but SKIPPED: census data is 5 weeks stale (lede says '67 recalls so far in 2026', superseded by #1048's 77 as of Sep 28; 25-vs-5-vs-2 2026-MY census from Sept NHTSA pull needs refresh). Mechanical fixes applied this run: added story-hero img + absolute og:image (was relative). Needs a numbers-refresh pass before shipping. | 2026-10-14 03:30 run: numbers-refresh pre-ship (re-ran NHTSA census Oct 14: Ford 33/Toyota 6/Honda 2 2026-MY, 0 OTA; fixed Bronco-Sport space-encoding drop; peg updated to 75 per Autoblog Oct 13; dateline Oct 14, 2026). Gates re-verified: em 0, banned 0, The 7.1%, rhythm PASS, css ok, hero JPEG 1920x1280 ?v=cd68cd15. SHIPPED as #815 (1/day slot).",
       "number": 815,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 9.0,
         "data_presentation": 9.0,
@@ -820,7 +820,12 @@
       "ship_date": "2026-10-14",
       "slug": "ford-2026-model-year-recall-census",
       "started": "2026-09-04T12:45:00Z",
-      "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s."
+      "title": "Ford Says Its Recall Crisis Is Old Cars and Software Updates. I Ran the Numbers on the 2026s.",
+      "files": {
+        "story": "stories/815-ford-2026-model-year-recall-census.html",
+        "hero": "images/815-ford-2026-model-year-recall-census.jpg",
+        "research": "drafts/815-ford-2026-model-year-recall-census-research.md"
+      }
     },
     {
       "critic_avg": 9.0,
