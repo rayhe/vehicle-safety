@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-14 05:30 run: new article #1162 SHIP_BLOCKED (Rosenbauer do-not-drive fire engines, 2027-09-16). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; no due hero-ready SHIP_BLOCKED (next due #817 ship_date 2026-10-15); nothing published this run. Cadence intact.",
- "last_checked": "2026-10-14T05:30:00-07:00",
+ "last_check_note": "2026-10-14 09:30 run: new article #1164 SHIP_BLOCKED (Ford Explorer 26V121/26V122 consecutive recalls + 1-of-14 OTA census, 2027-09-18). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
+ "last_checked": "2026-10-14T09:30:00-07:00",
  "last_completed": "2026-10-14T07:30:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1163,
+ "next": 1165,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13833,6 +13833,45 @@
    },
    "started": "2026-10-14T07:30:00-07:00",
    "note": "2026-10-14 07:30 run: #1163 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.91; gates: em 0, banned 0, The 10.3%, rhythm PASS, hero JPEG 1920x1280 ?v=68f67884; Toyota 26V598000, Bharat Forge Aluminum USA skipped aging furnace on 617 MY2026 Grand Highlander/RX/TX built June 18-26 2026, supplier-audit catch, zero claims, remedy letters Nov 2-16 2026; Rex Driverton). Queued SHIP_BLOCKED 2027-09-17 (1 day after #1162). Publish slot consumed by earlier run today."
+  },
+  {
+   "number": 1164,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-09-18",
+   "slug": "1164-ford-explorer-consecutive-recalls-headlights-egr",
+   "title": "Ford Filed Two Recalls One Number Apart. One Blinds Oncoming Traffic. The Other Kills the Engine.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "avg_critic": 8.86,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "a4f058b6",
+    "rhythm_pass": true,
+    "word_count": 911
+   },
+   "files": {
+    "research": "drafts/1164-ford-explorer-consecutive-recalls-headlights-egr-research.md",
+    "story": "drafts/1164-ford-explorer-consecutive-recalls-headlights-egr.html",
+    "hero": "drafts/1164-ford-explorer-consecutive-recalls-headlights-egr.jpg",
+    "critic_panel": "drafts/1164-ford-explorer-consecutive-recalls-headlights-egr-critic-panel-r0.md"
+   },
+   "note": "2026-10-14 09:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP full pipeline in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5). Novel: 26V121/26V122 consecutive-number same-day pair (OTA software vs dealer hardware) + fresh NHTSA API census (14 campaigns touch 2026 Explorer, 1 OTA-fixable)."
   }
  ]
 }
