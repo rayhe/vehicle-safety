@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-13 19:30 run: #1158 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.79; gates: em 0, banned 0, The 0.0%, rhythm 565.1/8.3/50.0, hero JPEG 2240x1120 ?v=175b52e1; NHTSA 26V638/25V116 verified live), queued 2027-09-12 SHIP_BLOCKED, commit 5416cb61 pushed. PUBLISH-QUEUE: 1/day gate consumed today (Publish #814 at 02:15 PT, verified in log); only due entry #763 hero-blocked, skipped per no-stall rule. First push attempt declined by remote pre-receive hook (swept hidden_files/rcl-data/FLAT_RCL_POST_2010.txt 245k-line file via git add -A); recommitted 5 article files only, pushed clean. Other runs' unstaged files left untouched.",
-  "last_checked": "2026-10-13T19:30:00-07:00",
-  "last_completed": "2026-10-13T19:30:00-07:00",
+  "last_check_note": "2026-10-13 21:30 run: #1159 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.64; gates: em 0, banned 0, The 3.6%, rhythm 734.5/13.3/20.0, hero JPEG 1920x1280 ?v=0c58e6f6; NHTSA 26V625 verified), queued 2027-09-13 SHIP_BLOCKED.",
+  "last_checked": "2026-10-13T21:30:00-07:00",
+  "last_completed": "2026-10-13T21:30:00-07:00",
   "last_completed_date": "2026-10-13",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-13T02:15:00-07:00",
   "last_published_date": "2026-10-13",
   "last_published_slug": "814-q1-2026-099-rate-record-chase",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1159,
+  "next": 1160,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -13639,6 +13639,47 @@
         "critic_panel": "drafts/1158-mercedes-sclass-brake-hose-theory-collapse-critic-panel-r0.md"
       },
       "note": "2026-10-13 19:30 run: #1158 SHIP -> queue (2027-09-12, SHIP_BLOCKED), round-0 panel PASS (avg 8.79, all 7 critics >=8.5, all hard gates). Angle: Mercedes 26V638 S-Class brake hose expansion after 25V116 climate theory collapsed; 30,064 units, 100% defect rate, Continental A2234201800; 19-month chronology verified live against NHTSA pages + Part 573 PDFs (30,078 press figure corrected). Dateline preset to ship_date 2027-09-12."
+    },
+    {
+      "number": 1159,
+      "slug": "1159-rivian-r2-second-recall-loose-bolt",
+      "title": "Rivian's Make-or-Break Car Has a Loose Bolt",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-13",
+      "avg_critic": 8.64,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "0c58e6f6",
+        "rhythm_variance": 734.5,
+        "rhythm_short_pct": 13.3,
+        "rhythm_long_pct": 20.0,
+        "word_count": 456
+      },
+      "files": {
+        "research": "drafts/1159-rivian-r2-second-recall-loose-bolt-research.md",
+        "story": "stories/1159-rivian-r2-second-recall-loose-bolt.html",
+        "hero": "images/1159-rivian-r2-second-recall-loose-bolt.jpg",
+        "critic_panel": "drafts/1159-rivian-r2-second-recall-loose-bolt-critic-panel-r0.md"
+      },
+      "note": "2026-10-13 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.64; gates: em 0, banned 0, The 3.6%, rhythm 734.5/13.3/20.0, hero JPEG 1920x1280 ?v=0c58e6f6; NHTSA 26V625 facts verified across 5 sources incl. filing)."
     }
   ]
 }
