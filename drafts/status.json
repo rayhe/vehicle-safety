@@ -1,21 +1,16 @@
 {
- "current": {
-  "slug": "1167-tesla-robotaxi-school-zone-speeding-petition",
-  "phase": "DRAFT",
-  "journalist": "Rex Driverton",
-  "started": "2026-10-14T15:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-14 13:30 run: new article #1166 SHIP_BLOCKED (NHTSA 26V659000/Toyota 26TA22: 2026 RAV4 PHEV MG-ECU init failure; rear fault=limp, front fault=total shutdown; global floor 39,382; ship 2027-09-20). Push retry: pre-receive hook had declined the 298MB hidden_files/rcl-data/FLAT_RCL_POST_2010.txt swept in from a concurrent cron; excluded from index via amend (working-tree file left intact for its owner) and pushed 70165fc7. PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; only due entry #763 (hero-less, policy-blocked; skipped per rule); next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
  "last_checked": "2026-10-14T13:30:00-07:00",
- "last_completed": "2026-10-14T07:30:00-07:00",
+ "last_completed": "2026-10-14T15:30:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1167,
+ "next": 1168,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13951,6 +13946,44 @@
    "ship_date": "2027-09-20",
    "slug": "1166-toyota-rav4-phev-mgecu-shutdown-recall",
    "title": "Your Hybrid's Motors Have a Boot Sequence. Toyota's Sometimes Skips It."
+  },
+  {
+   "number": 1167,
+   "slug": "1167-tesla-robotaxi-school-zone-speeding-petition",
+   "title": "One Person Asked NHTSA to Look at Tesla's Robotaxis. Now There's a Federal File Called DP26010.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "ship_date": "2027-09-21",
+   "phase": "SHIP_BLOCKED",
+   "critique_round": 0,
+   "avg_critic": 9.0,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.5,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 2.4,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "dba227a7",
+    "rhythm": "var 2588.6, short 6.5%, long 54.8%"
+   },
+   "files": {
+    "research": "drafts/1167-tesla-robotaxi-school-zone-speeding-petition-research.md",
+    "story": "drafts/1167-tesla-robotaxi-school-zone-speeding-petition.html",
+    "hero": "images/1167-tesla-robotaxi-school-zone-speeding-petition.jpg",
+    "critic_panel": "drafts/1167-critic-panel-r0.md"
+   },
+   "note": "2026-10-14 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 9.0). NHTSA DP26010 (petition recvd Sep 23, opened Oct 9, 2026): MY2026 Tesla Robotaxi (Model Y + Cybercab, ADS engaged), alleged school-zone speeding; ~1,000 vehicles (first federal fleet-size number); 3 video links, 4 reports (1 ODI + 3 social), 0 crashes. 120-day grant/deny clock -> ~Jan 21, 2027. Queued SHIP_BLOCKED 2027-09-21 (strict 1/day spacing after #1166 2027-09-20)."
   }
  ]
 }
