@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-13 21:30 run: #1159 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.64; gates: em 0, banned 0, The 3.6%, rhythm 734.5/13.3/20.0, hero JPEG 1920x1280 ?v=0c58e6f6; NHTSA 26V625 verified), queued 2027-09-13 SHIP_BLOCKED.",
-  "last_checked": "2026-10-13T21:30:00-07:00",
-  "last_completed": "2026-10-13T21:30:00-07:00",
+  "last_check_note": "2026-10-13 23:30 run: #1160 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.99; gates: em 0, banned 0, The 10.5%, rhythm exit 0, hero JPEG 1920x1280 ?v=5aebf0bb; IIHS Oct 8 commercial AEB wave 2), queued 2027-09-14 SHIP_BLOCKED.",
+  "last_checked": "2026-10-13T23:30:00-07:00",
+  "last_completed": "2026-10-13T23:30:00-07:00",
   "last_completed_date": "2026-10-13",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-13T02:15:00-07:00",
   "last_published_date": "2026-10-13",
   "last_published_slug": "814-q1-2026-099-rate-record-chase",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1160,
+  "next": 1161,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -101,7 +101,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-09-28 01:30 run: hero generation policy-blocked (fire imagery); no retry permitted per policy. Still needs image before ship. | 2026-10-03 21:30 run: still hero-blocked (fire-imagery policy block); skipped per 1/day rule, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-03 23:30 run: still hero-blocked (fire-imagery policy block); skipped, cadence preserved (next due #780 ships 2026-10-04). | 2026-10-04 13:30 run: still due but hero-less; skipped per hero-gate rule, cadence unaffected (1/day gate consumed by #780). | 2026-10-04 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-04 19:30 run: still hero-blocked (fire-imagery policy block); 1/day gate consumed by #780 publish+QA; skipped per no-stall rule, cadence intact. | 2026-10-05 01:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, cadence preserved by #782 publish. | 2026-10-05 03:30 run: hero-less skip re-confirmed (policy-blocked generation); 1/day slot already consumed today by 2 publishes \u2014 skipped, cadence not stalled. | 2026-10-05 07:30 run: still hero-blocked (policy-blocked fire imagery); 1/day slot already consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 09:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publishes today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 11:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 publish-related commits today); skipped per gate rule, cadence preserved. | 2026-10-05 13:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (3 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-05 19:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed (4 Publish # commits today); skipped per hero-gate rule, cadence preserved. | 2026-10-06 01:30 run: skipped again (hero policy-blocked, no image); cadence preserved via #790. | 2026-10-06 05:30 run: still hero-blocked (fire-imagery policy block); skipped per hero-gate rule, 1/day gate consumed by #790; cadence preserved. 2026-10-06 09:30 run: still hero-less (policy-blocked generation); skipped per blocked-hero rule so it cannot stall the 1/day cadence. No other SHIP_BLOCKED entries were due today; 1/day gate already consumed by 4 publishes today. | 2026-10-06 15:30 run: still hero-less (policy-blocked generation, no hero file in drafts/); skipped per blocked-hero rule so it cannot stall the 1/day cadence. 1/day gate consumed by Publish #790 today. | 2026-10-07 05:30 run: still hero-less (policy-blocked fire imagery); skipped per blocked-hero rule, cadence preserved (1/day gate already consumed by Publish #802 today). | 2026-10-07 11:30 run: 1/day gate consumed (#802); #763 still hero-less (policy-blocked generation) \u2014 skipped again, must never stall cadence. | 2026-10-07 23:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed by #802 publish earlier today; skipped, cadence intact. | 2026-10-08 03:30 run: still hero-blocked (policy-blocked fire imagery); 1/day gate consumed today by Publish #809; skipped per hero-gate rule, cadence intact. | 2026-10-08 13:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article.",
+      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -13680,6 +13680,31 @@
         "critic_panel": "drafts/1159-rivian-r2-second-recall-loose-bolt-critic-panel-r0.md"
       },
       "note": "2026-10-13 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.64; gates: em 0, banned 0, The 3.6%, rhythm 734.5/13.3/20.0, hero JPEG 1920x1280 ?v=0c58e6f6; NHTSA 26V625 facts verified across 5 sources incl. filing)."
+    },
+    {
+      "avg_critic": 8.99,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1160-commercial-vans-motorcycle-blind-spot-critic-panel-r0.md",
+        "hero": "drafts/1160-commercial-vans-motorcycle-blind-spot.jpg",
+        "research": "drafts/1160-commercial-vans-motorcycle-blind-spot-research.md",
+        "story": "drafts/1160-commercial-vans-motorcycle-blind-spot.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css": "story+../style.css",
+        "em_dashes": 0,
+        "hero_jpeg": "1920x1280 ?v=5aebf0bb",
+        "rhythm": "exit0 var1998.7 short<=15 long51.2",
+        "the_starters_pct": 10.5
+      },
+      "journalist": "Axle McScatter",
+      "note": "2026-10-13 23:30 run: #1160 RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.99; gates: em 0, banned 0, The 10.5%, rhythm exit 0, hero JPEG 1920x1280 ?v=5aebf0bb; IIHS Oct 8 commercial AEB wave 2; Rivian RCV 0/6 motorcycle).",
+      "number": 1160,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-14",
+      "slug": "1160-commercial-vans-motorcycle-blind-spot",
+      "title": "IIHS Asked Delivery Vans to Stop for a Motorcycle. Most of Them Did Nothing."
     }
   ]
 }
