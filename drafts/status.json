@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "2026-10-14 11:30 run: new article #1165 SHIP_BLOCKED (Mach-E rear differential recall goes global via KBA Oct 9: 96,840 = 2.26x US 42,784; remedy still unavailable; 2027-09-19). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; only due entry is #763 (hero-less, policy-blocked; skipped per rule, does not stall cadence); next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
+ "last_check_note": "2026-10-14 13:30 run: new article #1166 SHIP_BLOCKED (NHTSA 26V659000/Toyota 26TA22: 2026 RAV4 PHEV MG-ECU init failure; rear fault=limp, front fault=total shutdown; global floor 39,382; ship 2027-09-20). Push retry: pre-receive hook had declined the 298MB hidden_files/rcl-data/FLAT_RCL_POST_2010.txt swept in from a concurrent cron; excluded from index via amend (working-tree file left intact for its owner) and pushed 70165fc7. PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; only due entry #763 (hero-less, policy-blocked; skipped per rule); next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
  "last_checked": "2026-10-14T13:30:00-07:00",
  "last_completed": "2026-10-14T07:30:00-07:00",
  "last_completed_date": "2026-10-14",
