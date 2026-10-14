@@ -1,16 +1,16 @@
 {
  "current": null,
  "last_check_note": "2026-10-14 09:30 run: new article #1164 SHIP_BLOCKED (Ford Explorer 26V121/26V122 consecutive recalls + 1-of-14 OTA census, 2027-09-18). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; next due #817 ship_date 2026-10-15; nothing published this run. Cadence intact.",
- "last_checked": "2026-10-14T09:30:00-07:00",
+ "last_checked": "2026-10-14T11:30:00-07:00",
  "last_completed": "2026-10-14T07:30:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1165,
+ "next": 1166,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13872,6 +13872,45 @@
     "critic_panel": "drafts/1164-ford-explorer-consecutive-recalls-headlights-egr-critic-panel-r0.md"
    },
    "note": "2026-10-14 09:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP full pipeline in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5). Novel: 26V121/26V122 consecutive-number same-day pair (OTA software vs dealer hardware) + fresh NHTSA API census (14 campaigns touch 2026 Explorer, 1 OTA-fixable)."
+  },
+  {
+   "number": 1165,
+   "slug": "1165-mach-e-differential-recall-goes-global",
+   "title": "Ford Doubled Its Mach-E Differential Recall. The Fix Still Doesn't Exist.",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-09-19",
+   "critique_round": 0,
+   "avg_critic": 8.86,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 9.0
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.7,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "fbc234ae",
+    "rhythm_pass": true,
+    "word_count": 1026
+   },
+   "files": {
+    "research": "drafts/1165-mach-e-differential-recall-goes-global-research.md",
+    "story": "drafts/1165-mach-e-differential-recall-goes-global.html",
+    "hero": "drafts/1165-mach-e-differential-recall-goes-global.jpg",
+    "critic_panel": "drafts/1165-mach-e-differential-recall-goes-global-critic-panel-r0.md"
+   },
+   "note": "2026-10-14 11:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT: SHIP (avg 8.86, 7/7 >= 8.5). Novel: KBA Oct 9 global publication 96,840 (2.26x the US 42,784 26V417); US 44.2% / Germany 6.8% share math; March-discovery to Oct-global timeline; remedy still missing (parts expected Q4 2026 per Ford recall portal via German press, unattributed by Ford). Rhythm gate initially failed (short 16.1%), fixed via colon/semicolon merges -> PASS. Pre-score fix: added ref-6 for $165M penalty claim. Queued SHIP_BLOCKED 2027-09-19 (1 day after #1164)."
   }
  ]
 }
