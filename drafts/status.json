@@ -1,16 +1,22 @@
 {
- "current": null,
+ "current": {
+  "slug": "1171-minivan-iihs-award-shutout-fars-safest",
+  "phase": "CRITIQUE",
+  "round": 0,
+  "journalist": "Mia Crumplezone",
+  "started": "2026-10-14T23:30:00-07:00"
+ },
  "last_check_note": "2026-10-14 21:30 run: new article #1170 SHIP_BLOCKED (ship 2027-09-24; Clara Rollover; round-0 avg 8.79; RQ26003 Sierra grille deflector audit). PUBLISH-QUEUE: 1/day gate consumed by #815 earlier today; skipping publish.",
  "last_checked": "2026-10-14T21:30:00-07:00",
  "last_completed": "2026-10-14T18:10:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1171,
+ "next": 1172,
  "queue": [
   {
    "journalist": "Rex Driverton",
