@@ -1,22 +1,16 @@
 {
-  "current": {
-    "journalist": "Rex Driverton",
-    "number": 1178,
-    "phase": "DRAFT",
-    "slug": "1178-honda-26v663-recall-of-a-recall",
-    "started": "2026-10-15T13:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-15 11:30 run: #1177 SHIP_BLOCKED (ship 2027-10-01; Vin; r0 8.80). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entries hero-gated, skipped. FIXED stale next (1175->1178). INCIDENT: first push rejected (pre-receive) because git add -A swept 4 media-generation intermediates + 298MB hidden_files/rcl-data/FLAT_RCL_POST_2010.txt from other pipelines; reset soft, unstaged foreign files, pushed clean.",
   "last_checked": "2026-10-15T13:30:00-07:00",
-  "last_completed": "2026-10-15T11:30:00-07:00",
+  "last_completed": "2026-10-15T13:30:00-07:00",
   "last_completed_date": "2026-10-15",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1178,
+  "next": 1179,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14386,6 +14380,46 @@
       "ship_date": "2027-10-01",
       "slug": "1177-waymo-school-bus-second-federal-probe",
       "title": "Waymo Can't Stop for School Buses. NHTSA Is Asking Again."
+    },
+    {
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1178-honda-26v663-recall-of-a-recall-critic-panel-r0.md",
+        "hero": "drafts/1178-honda-26v663-recall-of-a-recall.jpg",
+        "research": "drafts/1178-honda-26v663-recall-of-a-recall-research.md",
+        "story": "drafts/1178-honda-26v663-recall-of-a-recall.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "2048x1152",
+        "hero_hash": "55c8fa9a",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 1595.8,
+        "style_css": true,
+        "the_starters_pct": 6.7,
+        "word_count": 478
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-10-15 13:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 6.7%, rhythm PASS variance 1595.8). Novel: 0.46% of 1,049,883 parent population; Honda 1% defect estimate -> ~48 actual bad nozzles, but warehouse mix-up destroyed traceability so all 4,804 re-recalled. Primary: Honda Part 573 (Oct 14, 2026), NHTSA 26V663, 26V-366 coverage. Hero JPEG 2048x1152, ?v=55c8fa9a. Queued ship 2027-10-02 (1/day after #1177 2027-10-01).",
+      "number": 1178,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-10-02",
+      "slug": "1178-honda-26v663-recall-of-a-recall",
+      "title": "Honda Recalled Its Own Recall. 4,804 Fixed Cars Have to Come Back."
     }
   ]
 }
