@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "1176-iihs-car-ads-sell-speed-not-safety",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-15T09:30:00-07:00",
-    "number": 1176
-  },
+  "current": null,
   "last_check_note": "2026-10-15 05:30 run: #1174 SHIP_BLOCKED (ship 2027-09-28; Vin; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #817 earlier); only due entry #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T05:30:00-07:00",
-  "last_completed": "2026-10-15T07:30:00-07:00",
+  "last_completed": "2026-10-15T09:30:00-07:00",
   "last_completed_date": "2026-10-14",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
@@ -14307,6 +14301,51 @@
       },
       "started": "2026-10-15T07:30:00-07:00",
       "note": "2026-10-15 07:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 8.0%, rhythm PASS variance 1823.9). Novel: the inverse safety gradient (GVWR up, avoidance down, lethality up) + KE math (4.4:1 at class ceiling, 1.9x across the F-350's 31-to-43-mph avoidance cliff). Pre-panel fixes: body rewrite for rhythm (short 23.1->7.3) and The-starters (36.1->8.0); two factual nits (seven tons->four tons, 29->30 years). Primary sources: IIHS Oct 8 2026 release, Autoblog ratings tables, Detroit Free Press (Kidd quotes), Carscoops (motorcycle/child details), Jalopnik (FARS 6,215/16%). Hero JPEG 1920x1280, ?v=5dc617e1. Queued SHIP_BLOCKED for 2027-09-29 (1/day; #1174 holds 2027-09-28)."
+    },
+    {
+      "number": 1176,
+      "slug": "1176-tesla-headlights-too-bright-ota-cant-fix",
+      "title": "Tesla's Headlights Were Too Bright for Federal Law. The Fix Needs a Wrench, Not Wi-Fi.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-30",
+      "avg_critic": 8.97,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.2,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.9,
+        "average": 8.97
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "5d80f6c1",
+        "word_count": 1200,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 1313.3,
+          "short_pct": 13.7,
+          "long_pct": 43.1
+        }
+      },
+      "files": {
+        "research": "drafts/1176-tesla-headlights-too-bright-ota-cant-fix-research.md",
+        "story": "drafts/1176-tesla-headlights-too-bright-ota-cant-fix.html",
+        "hero": "drafts/1176-tesla-headlights-too-bright-ota-cant-fix.jpg",
+        "critic_panel": "drafts/1176-tesla-headlights-too-bright-ota-cant-fix-critic-panel-r0.md"
+      },
+      "started": "2026-10-15T09:30:00-07:00",
+      "note": "2026-10-15 09:30 run: round-0 panel VERDICT SHIP (avg 8.97, all 7 >= 8.5; gates: em 0, banned 0, The 7.4%, rhythm PASS variance 1313.3). Novel: the OTA boundary (software re-aims, can't reshape reflector intensity distribution) + 3-year inconsequentiality fight (aware 2023, petition denied 2026) + 2026.38 Dynamic Headlight Leveling timing irony (Autoblog: explicitly not the remedy). Superseded a killed IIHS-car-ads angle (dupe of May 16 speed-sells-12000-dead.html). Primary sources: TechRadar, Drive Tesla Canada, Autoblog, Yahoo Autos, TeslaOracle (all verified live 2026-10-15). Hero JPEG 1920x1280, ?v=5d80f6c1. Queued SHIP_BLOCKED for 2027-09-30 (1/day; #1175 holds 2027-09-29)."
     }
   ]
 }
