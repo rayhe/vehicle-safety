@@ -1,7 +1,13 @@
 {
- "current": null,
- "last_check_note": "2026-10-14 15:30 run: new article #1167 SHIP_BLOCKED (NHTSA defect petition DP26010: Tesla robotaxi school-zone speeding; MY2026 Model Y + Cybercab, ~1,000 vehicles, 3 video links, 4 reports, 0 crashes; 120-day clock -> Jan 21 2027; round-0 avg 9.0, gates green; ship 2027-09-21). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; skipping publish this run. Cadence intact.",
- "last_checked": "2026-10-14T15:30:00-07:00",
+ "current": {
+  "slug": "1168-nissan-cube-detaching-airbag-projectile",
+  "phase": "DRAFT",
+  "journalist": "Vin Wreckage",
+  "started": "2026-10-14T17:45:00-07:00",
+  "number": 1168
+ },
+ "last_check_note": "2026-10-14 17:30 run: RESEARCH for #1168 (Nissan Cube detaching airbag, recall 26V230 / PE25005; airbag module detached and found in back seat; 47,928 recalled for ~1 expected defective unit; journalist Vin Wreckage). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; no publish this run.",
+ "last_checked": "2026-10-14T17:45:00-07:00",
  "last_completed": "2026-10-14T15:30:00-07:00",
  "last_completed_date": "2026-10-14",
  "last_journalist": "Rex Driverton",
