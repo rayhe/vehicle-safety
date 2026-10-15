@@ -1,15 +1,7 @@
 {
- "current": {
-  "slug": "1168-nissan-cube-detaching-airbag-projectile",
-  "phase": "SHIP",
-  "journalist": "Vin Wreckage",
-  "started": "2026-10-14T17:45:00-07:00",
-  "number": 1168,
-  "critique_avg": 8.9,
-  "critique_round": 0
- },
- "last_check_note": "2026-10-14 17:30 run: new article #1168 SHIP_BLOCKED (recall 26V230 / PE25005; airbag module detached and found in back seat; 47,928 recalled x 0.002 pct = approx 1 defective unit; round-0 avg 8.9, all hard gates green; ship 2027-09-22). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; skipping publish this run.",
- "last_checked": "2026-10-14T17:45:00-07:00",
+ "current": null,
+ "last_check_note": "2026-10-14 19:30 run: #1168 already SHIP_BLOCKED (2027-09-22) from 17:30 run; cleared stale current.phase=SHIP to null. PUBLISH-QUEUE: 1/day gate consumed by #815 (Publish commit 03:30); skipping publish. Starting #1169 next.",
+ "last_checked": "2026-10-14T19:30:00-07:00",
  "last_completed": "2026-10-14T18:10:00-07:00",
  "last_completed_date": "2026-10-14",
  "last_journalist": "Vin Wreckage",
