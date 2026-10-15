@@ -1,13 +1,13 @@
 {
  "current": null,
- "last_check_note": "2026-10-15 01:30 run: #1172 SHIP_BLOCKED (ship 2027-09-26; Axle McScatter; round-0 avg 8.93; ID.4 80% charge-limit recall 26V630).",
+ "last_check_note": "2026-10-15 01:30 run: #1172 SHIP_BLOCKED (ship 2027-09-26; Axle; r0 8.93). PUBLISH-QUEUE: published due #817 (Dale Impactor III); #763 still hero-less, skipped per hero-gate + no-stall rules.",
  "last_checked": "2026-10-15T01:30:00-07:00",
  "last_completed": "2026-10-15T01:30:00-07:00",
  "last_completed_date": "2026-10-14",
  "last_journalist": "Axle McScatter",
- "last_published": "2026-10-14T03:30:00-07:00",
- "last_published_date": "2026-10-14",
- "last_published_slug": "815-ford-2026-model-year-recall-census",
+ "last_published": "2026-10-15T01:30:00-07:00",
+ "last_published_date": "2026-10-15",
+ "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
  "next": 1173,
@@ -887,9 +887,9 @@
    },
    "journalist": "Dale Impactor III",
    "kicker": "Sobriety Report",
-   "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23.",
+   "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Caught+fixed pre-panel: 2024 overall rate 'second-lowest' error -> 'lowest since 2019'. Novel contribution: 39.1% innocent share (4,657/11,904), every-113-min innocent rate, 68% BAC>=.15 share. Source: NHTSA DOT HS 813 815 (June 2026). Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-15 01:30 run: published as #817 (due 2026-10-15; hero renamed to match slug 817-alcohol-crash-innocent-victims-39-percent.jpg, dateline updated to publish date). QA live-verified: story 200 (clean URL), hero JPEG 200 (611227B), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
    "number": 817,
-   "phase": "SHIP_BLOCKED",
+   "phase": "PUBLISHED",
    "scores": {
     "average": 9.07,
     "data_presentation": 9.0,
@@ -903,7 +903,13 @@
    "ship_date": "2026-10-15",
    "slug": "alcohol-crash-innocent-victims-39-percent",
    "started": "2026-09-04T18:00:00Z",
-   "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking."
+   "title": "4,657 People Died in Alcohol-Impaired Crashes Last Year. They Weren't the Ones Drinking.",
+   "files": {
+    "story": "stories/817-alcohol-crash-innocent-victims-39-percent.html",
+    "hero": "images/817-alcohol-crash-innocent-victims-39-percent.jpg",
+    "research": "drafts/817-alcohol-crash-innocent-victims-research.md",
+    "critic_panel": "drafts/817-critic-panel-r0.md"
+   }
   },
   {
    "critic_avg": 9.07,
