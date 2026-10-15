@@ -1,10 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1177-waymo-school-bus-second-federal-probe",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-15T11:30:00-07:00"
+  },
   "last_check_note": "2026-10-15 05:30 run: #1174 SHIP_BLOCKED (ship 2027-09-28; Vin; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #817 earlier); only due entry #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T05:30:00-07:00",
   "last_completed": "2026-10-15T09:30:00-07:00",
   "last_completed_date": "2026-10-14",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
