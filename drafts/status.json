@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-15 05:30 run: #1174 SHIP_BLOCKED (ship 2027-09-28; Vin; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #817 earlier); only due entry #763 still hero-less, skipped per hero-gate + no-stall rules.",
-  "last_checked": "2026-10-15T05:30:00-07:00",
+  "last_check_note": "2026-10-15 11:30 run: #1177 SHIP_BLOCKED (ship 2027-10-01; Vin; r0 8.80). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entries hero-gated, skipped. FIXED stale next (1175->1178). INCIDENT: first push rejected (pre-receive) because git add -A swept 4 media-generation intermediates + 298MB hidden_files/rcl-data/FLAT_RCL_POST_2010.txt from other pipelines; reset soft, unstaged foreign files, pushed clean.",
+  "last_checked": "2026-10-15T11:30:00-07:00",
   "last_completed": "2026-10-15T11:30:00-07:00",
   "last_completed_date": "2026-10-15",
   "last_journalist": "Vin Wreckage",
