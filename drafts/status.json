@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1176-iihs-car-ads-sell-speed-not-safety",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-15T09:30:00-07:00",
+    "number": 1176
+  },
   "last_check_note": "2026-10-15 05:30 run: #1174 SHIP_BLOCKED (ship 2027-09-28; Vin; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #817 earlier); only due entry #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T05:30:00-07:00",
   "last_completed": "2026-10-15T07:30:00-07:00",
