@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-14 19:30 run: #1168 confirmed SHIP_BLOCKED (2027-09-22) from 17:30 run; cleared stale current to null. New article #1169 SHIP_BLOCKED (ship 2027-09-23; Dale Impactor III; round-0 avg 8.71). PUBLISH-QUEUE: 1/day gate consumed by #815 (03:30); skipping publish.",
- "last_checked": "2026-10-14T19:30:00-07:00",
+ "last_check_note": "2026-10-14 21:30 run: new article #1170 SHIP_BLOCKED (ship 2027-09-24; Clara Rollover; round-0 avg 8.79; RQ26003 Sierra grille deflector audit). PUBLISH-QUEUE: 1/day gate consumed by #815 earlier today; skipping publish.",
+ "last_checked": "2026-10-14T21:30:00-07:00",
  "last_completed": "2026-10-14T18:10:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Dale Impactor III",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1170,
+ "next": 1171,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -14043,6 +14043,43 @@
     "data_presentation": 8.5
    },
    "note": "2026-10-14 19:30 run: new article #1169 SHIP_BLOCKED (FARS 2024: 11,904 alcohol deaths, 68% at BAC .15+; up to 84% of repeat offenders meet AUD criteria per Siegfried & Jensen analysis; SAMHSA: ~85% of those needing SUD treatment never get it, 2.6% of AUD population on MAUD; original calc $167.8B = 11,904 x $14.1M NHTSA comprehensive cost/fatality; round-0 avg 8.71, all hard gates green; ship 2027-09-23). PUBLISH-QUEUE: 1/day gate consumed by #815 (03:30); skipping publish this run."
+  },
+  {
+   "number": 1170,
+   "slug": "1170-sierra-grille-deflector-recall-query",
+   "title": "GM's Sierra Grille Recall Is Under Investigation. The Fix May Not Fix Anything.",
+   "journalist": "Clara Rollover",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-09-24",
+   "avg_critic": 8.79,
+   "critique_round": 0,
+   "scores": {
+    "data_presentation": 8.5,
+    "ethics_reviewer": 8.5,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 8.5,
+    "voice_coach": 9.0
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "88d79227",
+    "hero_jpeg": true,
+    "style_css": true,
+    "the_starters_pct": 4.3,
+    "word_count": 588
+   },
+   "files": {
+    "research": "drafts/1170-sierra-grille-deflector-recall-query-research.md",
+    "story": "drafts/1170-sierra-grille-deflector-recall-query.html",
+    "critic_panel": "drafts/1170-sierra-grille-deflector-recall-query-critic-panel-r0.md",
+    "hero": "images/1170-sierra-grille-deflector-recall-query.jpg"
+   },
+   "note": "2026-10-14 21:30 run: round-0 panel VERDICT SHIP (avg 8.79); NHTSA RQ26003 audit of GM recall 25V-060; original scope-coverage calc 13% (70,768/535,639)."
   }
  ]
 }
