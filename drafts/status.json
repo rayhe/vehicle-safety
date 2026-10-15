@@ -1,22 +1,24 @@
 {
  "current": {
   "slug": "1168-nissan-cube-detaching-airbag-projectile",
-  "phase": "DRAFT",
+  "phase": "SHIP",
   "journalist": "Vin Wreckage",
   "started": "2026-10-14T17:45:00-07:00",
-  "number": 1168
+  "number": 1168,
+  "critique_avg": 8.9,
+  "critique_round": 0
  },
- "last_check_note": "2026-10-14 17:30 run: RESEARCH for #1168 (Nissan Cube detaching airbag, recall 26V230 / PE25005; airbag module detached and found in back seat; 47,928 recalled for ~1 expected defective unit; journalist Vin Wreckage). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; no publish this run.",
+ "last_check_note": "2026-10-14 17:30 run: new article #1168 SHIP_BLOCKED (recall 26V230 / PE25005; airbag module detached and found in back seat; 47,928 recalled x 0.002 pct = approx 1 defective unit; round-0 avg 8.9, all hard gates green; ship 2027-09-22). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; skipping publish this run.",
  "last_checked": "2026-10-14T17:45:00-07:00",
- "last_completed": "2026-10-14T15:30:00-07:00",
+ "last_completed": "2026-10-14T18:10:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Vin Wreckage",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1168,
+ "next": 1169,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -13990,6 +13992,31 @@
     "critic_panel": "drafts/1167-critic-panel-r0.md"
    },
    "note": "2026-10-14 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 9.0). NHTSA DP26010 (petition recvd Sep 23, opened Oct 9, 2026): MY2026 Tesla Robotaxi (Model Y + Cybercab, ADS engaged), alleged school-zone speeding; ~1,000 vehicles (first federal fleet-size number); 3 video links, 4 reports (1 ODI + 3 social), 0 crashes. 120-day grant/deny clock -> ~Jan 21, 2027. Queued SHIP_BLOCKED 2027-09-21 (strict 1/day spacing after #1166 2027-09-20)."
+  },
+  {
+   "number": 1168,
+   "slug": "1168-nissan-cube-detaching-airbag-projectile",
+   "title": "Nissan Recalled 47,928 Cubes for a Defect It Expects to Find in Exactly One",
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-09-22",
+   "critique_round": 0,
+   "avg_critic": 8.9,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 5.1,
+    "css": "story+style.css",
+    "rhythm": "PASS"
+   },
+   "files": {
+    "research": "drafts/1168-nissan-cube-detaching-airbag-projectile-research.md",
+    "story": "drafts/1168-nissan-cube-detaching-airbag-projectile.html",
+    "critic_panel": "drafts/1168-nissan-cube-detaching-airbag-projectile-critic-panel-r0.md",
+    "hero": "drafts/1168-nissan-cube-detaching-airbag-projectile.jpg"
+   },
+   "note": "2026-10-14 17:30 run: new article #1168 SHIP_BLOCKED (recall 26V230 / PE25005; airbag module detached and found in back seat; 47,928 recalled x 0.002 pct = approx 1 defective unit; round-0 avg 8.9, all hard gates green; ship 2027-09-22). PUBLISH-QUEUE: 1/day gate consumed by #815 at 03:30; skipping publish this run."
   }
  ]
 }
