@@ -1,22 +1,16 @@
 {
- "current": {
-  "slug": "1172-id4-charge-to-80-percent-battery-recall",
-  "phase": "DRAFT",
-  "journalist": "Axle McScatter",
-  "started": "2026-10-15T01:30:00-07:00",
-  "number": 1172
- },
- "last_check_note": "2026-10-14 21:30 run: new article #1170 SHIP_BLOCKED (ship 2027-09-24; Clara Rollover; round-0 avg 8.79; RQ26003 Sierra grille deflector audit). PUBLISH-QUEUE: 1/day gate consumed by #815 earlier today; skipping publish.",
+ "current": null,
+ "last_check_note": "2026-10-15 01:30 run: #1172 SHIP_BLOCKED (ship 2027-09-26; Axle McScatter; round-0 avg 8.93; ID.4 80% charge-limit recall 26V630).",
  "last_checked": "2026-10-15T01:30:00-07:00",
- "last_completed": "2026-10-14T23:30:00-07:00",
+ "last_completed": "2026-10-15T01:30:00-07:00",
  "last_completed_date": "2026-10-14",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-10-14T03:30:00-07:00",
  "last_published_date": "2026-10-14",
  "last_published_slug": "815-ford-2026-model-year-recall-census",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1172,
+ "next": 1173,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -14123,6 +14117,50 @@
     "hero": "drafts/1171-minivan-iihs-award-shutout-fars-safest.jpg"
    },
    "note": "2026-10-14 23:30 run: round-0 panel VERDICT SHIP (avg 9.04); IIHS 2026 award shutout (zero minivans, Jalopnik 2026-10-10) vs FARS death rates (Pacifica 0.19, 6.3x below 2024 national 1.19); original finding: rear-dummy test grades adult rear occupants while minivan rows carry kids in car seats. Pre-panel fix: The-starters 20.0% -> 12.8%. Blocked: 1/day queue."
+  },
+  {
+   "number": 1172,
+   "slug": "1172-id4-charge-to-80-percent-battery-recall",
+   "title": "Volkswagen Told 22,524 ID.4 Owners to Stop Charging. It Still Doesn't Know Why.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-09-26",
+   "critique_round": 0,
+   "critic_avg": 8.93,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 8.5,
+    "average": 8.93
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 11.1,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "eaa872bc",
+    "word_count": 734,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 583.2,
+     "short_pct": 12.5,
+     "long_pct": 33.3
+    }
+   },
+   "files": {
+    "research": "drafts/1172-id4-charge-to-80-percent-battery-recall-research.md",
+    "story": "drafts/1172-id4-charge-to-80-percent-battery-recall.html",
+    "hero": "drafts/1172-id4-charge-to-80-percent-battery-recall.jpg",
+    "critic_panel": "drafts/1172-id4-charge-to-80-percent-battery-recall-critic-panel-r0.md"
+   },
+   "note": "2026-10-15 01:30 run: round-0 pass, avg 8.93, all 7 critics >= 8.5. Novel: 0.1% defect math (22 of 22,524), telemetry-scoped recall population, 291->233mi range math, SK sequel to #751. Queued ship 2027-09-26 (1/day after latest SHIP_BLOCKED)."
   }
  ]
 }
