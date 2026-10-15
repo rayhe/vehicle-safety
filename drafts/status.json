@@ -1,7 +1,13 @@
 {
- "current": null,
+ "current": {
+  "slug": "1172-id4-charge-to-80-percent-battery-recall",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-10-15T01:30:00-07:00",
+  "number": 1172
+ },
  "last_check_note": "2026-10-14 21:30 run: new article #1170 SHIP_BLOCKED (ship 2027-09-24; Clara Rollover; round-0 avg 8.79; RQ26003 Sierra grille deflector audit). PUBLISH-QUEUE: 1/day gate consumed by #815 earlier today; skipping publish.",
- "last_checked": "2026-10-14T21:30:00-07:00",
+ "last_checked": "2026-10-15T01:30:00-07:00",
  "last_completed": "2026-10-14T23:30:00-07:00",
  "last_completed_date": "2026-10-14",
  "last_journalist": "Mia Crumplezone",
