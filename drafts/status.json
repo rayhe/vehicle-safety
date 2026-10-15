@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-10-15 05:30 run: #1174 SHIP_BLOCKED (ship 2027-09-28; Vin; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #817 earlier); only due entry #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T05:30:00-07:00",
-  "last_completed": "2026-10-15T05:30:00-07:00",
+  "last_completed": "2026-10-15T07:30:00-07:00",
   "last_completed_date": "2026-10-14",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -101,7 +101,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules.",
+      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules. | 2026-10-15 07:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (Publish #817); skipped per hero-gate + no-stall rules.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -14256,6 +14256,51 @@
         "critic_panel": "drafts/1174-honda-fuel-pump-stall-saga-critic-panel-r0.md"
       },
       "note": "2026-10-15 05:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 502.8). Novel: five Honda fuel-pump campaigns since Dec 2023 total 3,285,258 units (stall subtotal 2,564,448); 26V633 (4,206 Fury/Shadow bikes) is chapter five. Pre-panel fixes: short-pct 28.8->14.3, The-starters 17.8->2.9. Queued ship 2027-09-28 (1/day after latest SHIP_BLOCKED)."
+    },
+    {
+      "number": 1175,
+      "slug": "1175-iihs-work-truck-crash-avoidance-flunk",
+      "title": "The Biggest Trucks on the Road Can't Avoid Crashing Into You. IIHS Just Graded Them.",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-29",
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0,
+        "average": 8.93
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "5dc617e1",
+        "word_count": 1341,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 1823.9,
+          "short_pct": 7.3,
+          "long_pct": 63.6
+        }
+      },
+      "files": {
+        "research": "drafts/1175-iihs-work-truck-crash-avoidance-flunk-research.md",
+        "story": "drafts/1175-iihs-work-truck-crash-avoidance-flunk.html",
+        "hero": "drafts/1175-iihs-work-truck-crash-avoidance-flunk.jpg",
+        "critic_panel": "drafts/1175-iihs-work-truck-crash-avoidance-flunk-critic-panel-r0.md"
+      },
+      "started": "2026-10-15T07:30:00-07:00",
+      "note": "2026-10-15 07:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 8.0%, rhythm PASS variance 1823.9). Novel: the inverse safety gradient (GVWR up, avoidance down, lethality up) + KE math (4.4:1 at class ceiling, 1.9x across the F-350's 31-to-43-mph avoidance cliff). Pre-panel fixes: body rewrite for rhythm (short 23.1->7.3) and The-starters (36.1->8.0); two factual nits (seven tons->four tons, 29->30 years). Primary sources: IIHS Oct 8 2026 release, Autoblog ratings tables, Detroit Free Press (Kidd quotes), Carscoops (motorcycle/child details), Jalopnik (FARS 6,215/16%). Hero JPEG 1920x1280, ?v=5dc617e1. Queued SHIP_BLOCKED for 2027-09-29 (1/day; #1174 holds 2027-09-28)."
     }
   ]
 }
