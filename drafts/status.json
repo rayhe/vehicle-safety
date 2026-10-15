@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-15 01:30 run: #1172 SHIP_BLOCKED (ship 2027-09-26; Axle; r0 8.93). PUBLISH-QUEUE: published due #817 (Dale Impactor III); #763 still hero-less, skipped per hero-gate + no-stall rules.",
+  "last_check_note": "2026-10-15 05:30 run: #1174 SHIP_BLOCKED (ship 2027-09-28; Vin; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #817 earlier); only due entry #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T05:30:00-07:00",
   "last_completed": "2026-10-15T05:30:00-07:00",
   "last_completed_date": "2026-10-14",
