@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1174-honda-fuel-pump-stall-saga",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-15T05:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-15 01:30 run: #1172 SHIP_BLOCKED (ship 2027-09-26; Axle; r0 8.93). PUBLISH-QUEUE: published due #817 (Dale Impactor III); #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T05:30:00-07:00",
-  "last_completed": "2026-10-15T03:30:00-07:00",
+  "last_completed": "2026-10-15T05:30:00-07:00",
   "last_completed_date": "2026-10-14",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
@@ -14217,6 +14212,50 @@
         "average": 8.93
       },
       "note": "2026-10-15 03:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 11.3%, rhythm PASS variance 1304.3). Novel: NHTSA API shows same 2015-2016 Genesis / 2017-2020 G80 population recalled under 21V160000 (2021, ABS fire, parkOutSide=true) - second park-outside exile. Original finding: Hyundai park-outside tally = 567,912 (23V181000) + 1.64M (23V651000) + 94,622 = 2,302,534 since 2021 (Kia 1.73M excluded). Hero JPEG 1920x1280, ?v=47245c22. Queued ship 2027-09-27 (1/day after latest SHIP_BLOCKED)."
+    },
+    {
+      "number": 1174,
+      "slug": "1174-honda-fuel-pump-stall-saga",
+      "title": "Honda Has Recalled 3.3 Million Fuel Pumps. The Motorcycles Were Just the Latest Chapter.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-28",
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8,
+        "average": 8.93
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "a58115bb",
+        "word_count": 777,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 502.8,
+          "short_pct": 14.3,
+          "long_pct": 40.5
+        }
+      },
+      "files": {
+        "research": "drafts/1174-honda-fuel-pump-stall-saga-research.md",
+        "story": "drafts/1174-honda-fuel-pump-stall-saga.html",
+        "hero": "drafts/1174-honda-fuel-pump-stall-saga.jpg",
+        "critic_panel": "drafts/1174-honda-fuel-pump-stall-saga-critic-panel-r0.md"
+      },
+      "note": "2026-10-15 05:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 2.9%, rhythm PASS variance 502.8). Novel: five Honda fuel-pump campaigns since Dec 2023 total 3,285,258 units (stall subtotal 2,564,448); 26V633 (4,206 Fury/Shadow bikes) is chapter five. Pre-panel fixes: short-pct 28.8->14.3, The-starters 17.8->2.9. Queued ship 2027-09-28 (1/day after latest SHIP_BLOCKED)."
     }
   ]
 }
