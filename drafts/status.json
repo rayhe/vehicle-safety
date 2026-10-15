@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "1173-genesis-g80-second-park-outside-fire-recall",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-15T03:30:00-07:00",
-    "number": 1173,
-    "title": "Hyundai Told 94,622 Genesis Owners to Park Outside. Some of Them Already Had to Do It Once."
-  },
+  "current": null,
   "last_check_note": "2026-10-15 01:30 run: #1172 SHIP_BLOCKED (ship 2027-09-26; Axle; r0 8.93). PUBLISH-QUEUE: published due #817 (Dale Impactor III); #763 still hero-less, skipped per hero-gate + no-stall rules.",
   "last_checked": "2026-10-15T01:30:00-07:00",
-  "last_completed": "2026-10-15T01:30:00-07:00",
+  "last_completed": "2026-10-15T03:30:00-07:00",
   "last_completed_date": "2026-10-14",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -108,7 +101,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules.",
+      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -14174,6 +14167,51 @@
         "critic_panel": "drafts/1172-id4-charge-to-80-percent-battery-recall-critic-panel-r0.md"
       },
       "note": "2026-10-15 01:30 run: round-0 pass, avg 8.93, all 7 critics >= 8.5. Novel: 0.1% defect math (22 of 22,524), telemetry-scoped recall population, 291->233mi range math, SK sequel to #751. Queued ship 2027-09-26 (1/day after latest SHIP_BLOCKED)."
+    },
+    {
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1173-genesis-g80-second-park-outside-fire-recall-research.md",
+        "story": "drafts/1173-genesis-g80-second-park-outside-fire-recall.html",
+        "hero": "drafts/1173-genesis-g80-second-park-outside-fire-recall.jpg",
+        "critic_panel": "drafts/1173-genesis-g80-second-park-outside-fire-recall-critique.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "47245c22",
+        "word_count": 954,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 1304.3,
+          "short_pct": 8.3,
+          "long_pct": 41.7
+        }
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "number": 1173,
+      "slug": "1173-genesis-g80-second-park-outside-fire-recall",
+      "title": "Hyundai Told 94,622 Genesis Owners to Park Outside. Some of Them Already Had to Do It Once.",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-09-27",
+      "started": "2026-10-15T03:30:00-07:00",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8,
+        "average": 8.93
+      },
+      "note": "2026-10-15 03:30 run: round-0 panel VERDICT SHIP (avg 8.93, all 7 >= 8.5; gates: em 0, banned 0, The 11.3%, rhythm PASS variance 1304.3). Novel: NHTSA API shows same 2015-2016 Genesis / 2017-2020 G80 population recalled under 21V160000 (2021, ABS fire, parkOutSide=true) - second park-outside exile. Original finding: Hyundai park-outside tally = 567,912 (23V181000) + 1.64M (23V651000) + 94,622 = 2,302,534 since 2021 (Kia 1.73M excluded). Hero JPEG 1920x1280, ?v=47245c22. Queued ship 2027-09-27 (1/day after latest SHIP_BLOCKED)."
     }
   ]
 }
