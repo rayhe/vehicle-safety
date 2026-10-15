@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-15 13:30 run: #1178 SHIP_BLOCKED (ship 2027-10-02; Rex Driverton; r0 8.93). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entry #763 hero-gated (fire-imagery policy block), skipped per no-stall rule. next=1179.",
-  "last_checked": "2026-10-15T13:30:00-07:00",
-  "last_completed": "2026-10-15T13:30:00-07:00",
+  "last_check_note": "2026-10-15 15:30 run: #1179 SHIP_BLOCKED (ship 2027-10-03; Dale Impactor III; r0 8.86). PUBLISH-QUEUE checked below. next=1180.",
+  "last_checked": "2026-10-15T15:30:00-07:00",
+  "last_completed": "2026-10-15T15:30:00-07:00",
   "last_completed_date": "2026-10-15",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1179,
+  "next": 1180,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14420,6 +14420,46 @@
       "ship_date": "2027-10-02",
       "slug": "1178-honda-26v663-recall-of-a-recall",
       "title": "Honda Recalled Its Own Recall. 4,804 Fixed Cars Have to Come Back."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1179-move-over-say-do-gap-critic-panel-r0.md",
+        "hero": "drafts/1179-move-over-say-do-gap.jpg",
+        "research": "drafts/1179-move-over-say-do-gap-research.md",
+        "story": "drafts/1179-move-over-say-do-gap.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "ede3b4cf",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 2106.3,
+        "style_css": true,
+        "the_starters_pct": 3.8,
+        "word_count": 530
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "note": "2026-10-15 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.86, all 7 >= 8.5; gates: em 0, banned 0, The 3.8%, rhythm PASS variance 2106.3, word count 530). News peg: same-day triple data drop (Oct 15, 2026) ahead of National Slow Down, Move Over Day (Oct 17). Novel: 26-point say-do gap (90% claim vs 64% observed), Ohio 2026 annualizes ~920 (beats 2025 spike of 903), 1-in-8 lethality, tow-operator 14x occupational death risk. Primary: Columbus Dispatch (Ohio DOT, Matt Bruning), AAA newsroom (AAA Foundation survey), AAA Auto Club Group, AAA/BLS. Hero JPEG 1920x1280, ?v=ede3b4cf. Queued ship 2027-10-03 (1/day after #1178 2027-10-02).",
+      "number": 1179,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-10-03",
+      "slug": "1179-move-over-say-do-gap",
+      "title": "90% of Drivers Say They Move Over. Only 64% Actually Do."
     }
   ]
 }
