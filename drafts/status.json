@@ -1,14 +1,8 @@
 {
- "current": {
-  "slug": "1171-minivan-iihs-award-shutout-fars-safest",
-  "phase": "CRITIQUE",
-  "round": 0,
-  "journalist": "Mia Crumplezone",
-  "started": "2026-10-14T23:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-14 21:30 run: new article #1170 SHIP_BLOCKED (ship 2027-09-24; Clara Rollover; round-0 avg 8.79; RQ26003 Sierra grille deflector audit). PUBLISH-QUEUE: 1/day gate consumed by #815 earlier today; skipping publish.",
  "last_checked": "2026-10-14T21:30:00-07:00",
- "last_completed": "2026-10-14T18:10:00-07:00",
+ "last_completed": "2026-10-14T23:30:00-07:00",
  "last_completed_date": "2026-10-14",
  "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-14T03:30:00-07:00",
@@ -14086,6 +14080,43 @@
     "hero": "images/1170-sierra-grille-deflector-recall-query.jpg"
    },
    "note": "2026-10-14 21:30 run: round-0 panel VERDICT SHIP (avg 8.79); NHTSA RQ26003 audit of GM recall 25V-060; original scope-coverage calc 13% (70,768/535,639)."
+  },
+  {
+   "number": 1171,
+   "slug": "1171-minivan-iihs-award-shutout-fars-safest",
+   "title": "No Minivan Earned an IIHS Safety Award This Year. The Death Data Says They're the Safest Cars on the Road.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-09-25",
+   "avg_critic": 9.04,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "937708fa",
+    "hero_jpeg": true,
+    "style_css": true,
+    "the_starters_pct": 12.8,
+    "word_count": 653
+   },
+   "files": {
+    "research": "drafts/1171-minivan-iihs-award-shutout-fars-safest-research.md",
+    "story": "drafts/1171-minivan-iihs-award-shutout-fars-safest.html",
+    "critic_panel": "drafts/1171-minivan-iihs-award-shutout-fars-safest-critique.md",
+    "hero": "drafts/1171-minivan-iihs-award-shutout-fars-safest.jpg"
+   },
+   "note": "2026-10-14 23:30 run: round-0 panel VERDICT SHIP (avg 9.04); IIHS 2026 award shutout (zero minivans, Jalopnik 2026-10-10) vs FARS death rates (Pacifica 0.19, 6.3x below 2024 national 1.19); original finding: rear-dummy test grades adult rear occupants while minivan rows carry kids in car seats. Pre-panel fix: The-starters 20.0% -> 12.8%. Blocked: 1/day queue."
   }
  ]
 }
