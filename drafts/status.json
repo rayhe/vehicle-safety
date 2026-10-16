@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1188-grade-crossing-train-always-wins",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-16T10:05:00-07:00"
+  },
   "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
   "last_checked": "2026-10-16T07:30:00-07:00",
   "last_completed": "2026-10-16T07:30:00-07:00",
