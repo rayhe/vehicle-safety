@@ -1,6 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-16 03:30 run: #1185 teen-drivers-passengers-die-more SHIP_BLOCKED (ship 2027-10-09; Clara Rollover; r0 8.84). PUBLISH-QUEUE: 1/day slot consumed today (Publish #820 + QA-PASS #820 already shipped 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing else due.",
+  "current": {
+    "slug": "1186-nasdpts-38-million-illegal-passes-decline",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-16T05:30:00-07:00",
+    "number": 1186,
+    "kicker": "Trend Watch"
+  },
+  "last_check_note": "2026-10-16 05:30 run: #1186 RESEARCH done (NASDPTS 2026 illegal-passing census, 38.4M/yr declining trend; Axle McScatter; kill-test PASS vs #896/#818). PUBLISH-QUEUE: 1/day slot already consumed today (2 publishes 2026-10-16); skipping.",
   "last_checked": "2026-10-15T23:30:00-07:00",
   "last_completed": "2026-10-16T03:30:00-07:00",
   "last_completed_date": "2026-10-15",
