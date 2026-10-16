@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-16 11:30 run: #1188 SHIP_BLOCKED (ship 2027-10-13; Rex Driverton; r0 8.86). PUBLISH-QUEUE pending this run.",
+  "last_check_note": "2026-10-16 11:30 run: #1188 SHIP_BLOCKED (ship 2027-10-13; Rex Driverton; r0 8.86). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
   "last_checked": "2026-10-16T11:30:00-07:00",
   "last_completed": "2026-10-16T11:30:00-07:00",
   "last_completed_date": "2026-10-16",
