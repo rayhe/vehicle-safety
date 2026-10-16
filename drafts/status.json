@@ -1,7 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "journalist": "Rex Driverton",
+    "number": 1188,
+    "phase": "DRAFT",
+    "slug": "gm-sierra-grille-deflector-recall-query",
+    "started": "2026-10-16T11:30:00-07:00"
+  },
   "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
-  "last_checked": "2026-10-16T07:30:00-07:00",
+  "last_checked": "2026-10-16T11:30:00-07:00",
   "last_completed": "2026-10-16T10:30:00-07:00",
   "last_completed_date": "2026-10-16",
   "last_journalist": "Mia Crumplezone",
@@ -14540,52 +14546,68 @@
       "title": "The Robotaxi Crash Reports Said No Injuries. The Police Reports Disagreed."
     },
     {
-      "number": 1182,
-      "slug": "1182-toronto-speed-camera-removal-deaths",
-      "title": "Toronto Pulled Its Speed Cameras in November. By June, 101 of 104 Camera Sites Were Faster.",
-      "journalist": "Axle McScatter",
-      "kicker": "By The Numbers",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-10-06",
       "avg_critic": 8.84,
       "critique_round": 0,
-      "note": "2026-10-15 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.84, all 7 >= 8.5; gates: em 0, banned 0, The 7.0%, css ok, hero JPEG 1920x1280). Angle: city-published causation exhibit (Jun 23 2026 report: +4.8 km/h at 101/104 sites, 25 fatal collisions Dec-May 5-yr high); 4.8 km/h mapped onto AAA injury curve; percentage-vs-points honesty; fatalities +28%, pedestrian deaths 5-yr-high track, motorcyclists +57%.",
       "files": {
-        "research": "drafts/1182-toronto-speed-camera-removal-deaths-research.md",
-        "story": "drafts/1182-toronto-speed-camera-removal-deaths.html",
+        "critic_panel": "drafts/1182-toronto-speed-camera-removal-deaths-critic-panel-r0.md",
         "hero": "drafts/1182-toronto-speed-camera-removal-deaths.jpg",
-        "critic_panel": "drafts/1182-toronto-speed-camera-removal-deaths-critic-panel-r0.md"
-      }
+        "research": "drafts/1182-toronto-speed-camera-removal-deaths-research.md",
+        "story": "drafts/1182-toronto-speed-camera-removal-deaths.html"
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-10-15 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.84, all 7 >= 8.5; gates: em 0, banned 0, The 7.0%, css ok, hero JPEG 1920x1280). Angle: city-published causation exhibit (Jun 23 2026 report: +4.8 km/h at 101/104 sites, 25 fatal collisions Dec-May 5-yr high); 4.8 km/h mapped onto AAA injury curve; percentage-vs-points honesty; fatalities +28%, pedestrian deaths 5-yr-high track, motorcyclists +57%.",
+      "number": 1182,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-06",
+      "slug": "1182-toronto-speed-camera-removal-deaths",
+      "title": "Toronto Pulled Its Speed Cameras in November. By June, 101 of 104 Camera Sites Were Faster."
     },
     {
-      "number": 1183,
-      "slug": "1183-euro-ncap-physical-buttons",
-      "title": "Five Stars, Zero Buttons: Euro NCAP Started Grading Touchscreens, and Some Winners Flunked",
-      "journalist": "Clara Rollover",
-      "kicker": "The Gap",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-10-07",
       "avg_critic": 8.64,
       "critique_round": 0,
-      "note": "2026-10-15 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.64, all 7 >= 8.5; gates: em 0, banned 0, The 5.4%, css ok, rhythm PASS variance 238.7, hero real JPEG 2240x1120 hash 723ce73f). Angle: Euro NCAP 2026 key-controls test (indicators/lights/wipers/washers/mirrors); B05 0% controls + 92% crash = 5 stars; Q7 100%/80% split + first 100% post-crash; buying advice = check Safe Driving sub-score; US NHTSA has no equivalent.",
       "files": {
-        "research": "drafts/1183-euro-ncap-physical-buttons-research.md",
-        "story": "drafts/1183-euro-ncap-physical-buttons.html",
+        "critic_panel": "drafts/1183-euro-ncap-physical-buttons-critic-panel-r0.md",
         "hero": "drafts/1183-euro-ncap-physical-buttons.jpg",
-        "critic_panel": "drafts/1183-euro-ncap-physical-buttons-critic-panel-r0.md"
-      }
+        "research": "drafts/1183-euro-ncap-physical-buttons-research.md",
+        "story": "drafts/1183-euro-ncap-physical-buttons.html"
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "2026-10-15 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.64, all 7 >= 8.5; gates: em 0, banned 0, The 5.4%, css ok, rhythm PASS variance 238.7, hero real JPEG 2240x1120 hash 723ce73f). Angle: Euro NCAP 2026 key-controls test (indicators/lights/wipers/washers/mirrors); B05 0% controls + 92% crash = 5 stars; Q7 100%/80% split + first 100% post-crash; buying advice = check Safe Driving sub-score; US NHTSA has no equivalent.",
+      "number": 1183,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-07",
+      "slug": "1183-euro-ncap-physical-buttons",
+      "title": "Five Stars, Zero Buttons: Euro NCAP Started Grading Touchscreens, and Some Winners Flunked"
     },
     {
-      "number": 1184,
-      "slug": "1184-hit-and-run-pedestrian-flee-rate",
-      "title": "One in Four Dead Pedestrians Was Left on the Road. The Drivers Who Fled Are Exactly Who You'd Expect.",
-      "journalist": "Dale Impactor III",
-      "kicker": "Sobriety Report",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-10-08",
       "avg_critic": 8.94,
       "critic_avg": 8.94,
       "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1184-hit-and-run-pedestrian-flee-rate-critic-panel-r0.md",
+        "draft": "drafts/1184-hit-and-run-pedestrian-flee-rate.html",
+        "hero": "drafts/1184-hit-and-run-pedestrian-flee-rate.jpg",
+        "research": "drafts/1184-hit-and-run-pedestrian-flee-rate-research.md"
+      },
+      "hard_gates": {
+        "actionable_insights": true,
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "8f1ca0ea",
+        "jpeg_valid": true,
+        "rhythm": "pass (variance 201.4, short 9.3%, long 58.1%)",
+        "style_css": true,
+        "the_starters_pct": 4.7,
+        "word_count": 857
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-10-16 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 4.7%, rhythm PASS variance 201.4, css ok, hero real JPEG 1920x1280 hash 8f1ca0ea). Angle: AAA Foundation Mar 2026 hit-and-run brief; 919,292 crashes (15.0%, record), 2,872 deaths (7.0% share, record); 13x flee-rate asymmetry (ped 23.1% vs occupant 1.8%); fleer profile (78.3% male, 71.4% 18-44, 40% unlicensed, 56.5% someone else's car); night 11PM-3AM (ped 33.9%, cyclist 43.6%); SVI gradient (6x deaths). News pegs: Fresno PD Oct 9 arrest (suspended license, tarped car, ALPR) + Newark Oct 11 crosswalk hit-and-run. Queued SHIP_BLOCKED for 2027-10-08 (1/day; #1183 holds 2027-10-07).",
+      "number": 1184,
+      "phase": "SHIP_BLOCKED",
       "scores": {
         "average": 8.94,
         "data_presentation": 9.0,
@@ -14596,173 +14618,157 @@
         "social_shareability": 9.0,
         "voice_coach": 8.8
       },
+      "ship_date": "2027-10-08",
+      "slug": "1184-hit-and-run-pedestrian-flee-rate",
+      "title": "One in Four Dead Pedestrians Was Left on the Road. The Drivers Who Fled Are Exactly Who You'd Expect."
+    },
+    {
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1185-teen-drivers-passengers-die-more-critic-panel-r0.md",
+        "hero": "drafts/1185-teen-drivers-passengers-die-more.jpg",
+        "research": "drafts/1185-teen-drivers-passengers-die-more-research.md",
+        "story": "drafts/1185-teen-drivers-passengers-die-more.html"
+      },
       "hard_gates": {
         "banned_phrases": 0,
         "css_class": true,
         "em_dashes": 0,
-        "hero_hash": "8f1ca0ea",
-        "jpeg_valid": true,
-        "rhythm": "pass (variance 201.4, short 9.3%, long 58.1%)",
+        "hero_dim": "2048x1152",
+        "hero_jpeg": true,
         "style_css": true,
-        "the_starters_pct": 4.7,
-        "word_count": 857,
-        "actionable_insights": true
+        "the_starters_pct": 12.9
       },
-      "note": "2026-10-16 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 4.7%, rhythm PASS variance 201.4, css ok, hero real JPEG 1920x1280 hash 8f1ca0ea). Angle: AAA Foundation Mar 2026 hit-and-run brief; 919,292 crashes (15.0%, record), 2,872 deaths (7.0% share, record); 13x flee-rate asymmetry (ped 23.1% vs occupant 1.8%); fleer profile (78.3% male, 71.4% 18-44, 40% unlicensed, 56.5% someone else's car); night 11PM-3AM (ped 33.9%, cyclist 43.6%); SVI gradient (6x deaths). News pegs: Fresno PD Oct 9 arrest (suspended license, tarped car, ALPR) + Newark Oct 11 crosswalk hit-and-run. Queued SHIP_BLOCKED for 2027-10-08 (1/day; #1183 holds 2027-10-07).",
-      "files": {
-        "research": "drafts/1184-hit-and-run-pedestrian-flee-rate-research.md",
-        "draft": "drafts/1184-hit-and-run-pedestrian-flee-rate.html",
-        "hero": "drafts/1184-hit-and-run-pedestrian-flee-rate.jpg",
-        "critic_panel": "drafts/1184-hit-and-run-pedestrian-flee-rate-critic-panel-r0.md"
-      }
-    },
-    {
-      "number": 1185,
-      "slug": "1185-teen-drivers-passengers-die-more",
-      "title": "Your Teen Isn't the One Who Dies in the Crash. Their Friends Are.",
       "journalist": "Clara Rollover",
       "kicker": "Body Count",
+      "note": "2026-10-16 03:30 run: round-0 panel pass (avg 8.84, 7/7 >= 8.5, all hard gates pass). Novelty: pipeline never covered teen drivers; the 69% inversion is the story. Hero stays in drafts/ until publish.",
+      "number": 1185,
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-10-09",
-      "critique_round": 0,
-      "avg_critic": 8.84,
       "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 8.7,
+        "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
-        "social_shareability": 9.0,
+        "general_editor": 8.8,
         "legal_accuracy": 9.0,
         "research_rigor": 8.6,
-        "data_presentation": 8.8
+        "social_shareability": 9.0,
+        "voice_coach": 8.7
       },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.9,
-        "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
-        "hero_dim": "2048x1152"
-      },
-      "files": {
-        "research": "drafts/1185-teen-drivers-passengers-die-more-research.md",
-        "story": "drafts/1185-teen-drivers-passengers-die-more.html",
-        "hero": "drafts/1185-teen-drivers-passengers-die-more.jpg",
-        "critic_panel": "drafts/1185-teen-drivers-passengers-die-more-critic-panel-r0.md"
-      },
-      "note": "2026-10-16 03:30 run: round-0 panel pass (avg 8.84, 7/7 >= 8.5, all hard gates pass). Novelty: pipeline never covered teen drivers; the 69% inversion is the story. Hero stays in drafts/ until publish."
+      "ship_date": "2027-10-09",
+      "slug": "1185-teen-drivers-passengers-die-more",
+      "title": "Your Teen Isn't the One Who Dies in the Crash. Their Friends Are."
     },
     {
-      "number": 1186,
-      "slug": "1186-nasdpts-38-million-illegal-passes-decline",
-      "title": "38.4 Million Illegal School Bus Passes, Down Two Years Running",
-      "journalist": "Axle McScatter",
-      "kicker": "Trend Watch",
-      "ship_date": "2027-10-10",
-      "phase": "SHIP_BLOCKED",
       "avg_critic": 8.91,
       "critique_round": 0,
-      "scores": {
-        "general": 9.0,
-        "voice": 8.8,
-        "ethics": 9.0,
-        "social": 8.8,
-        "legal": 8.8,
-        "rigor": 9.0,
-        "data": 9.0
+      "files": {
+        "critic_panel": "drafts/1186-nasdpts-38-million-illegal-passes-decline-critic-panel-r0.md",
+        "hero": "drafts/1186-nasdpts-38-million-illegal-passes-decline.jpg",
+        "research": "drafts/1186-nasdpts-38-million-illegal-passes-decline-research.md",
+        "story": "drafts/1186-nasdpts-38-million-illegal-passes-decline.html"
       },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 11.5,
         "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
+        "em_dashes": 0,
         "hero_hash": "d7ae4e78",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 11.5,
         "word_count": 620
       },
-      "files": {
-        "research": "drafts/1186-nasdpts-38-million-illegal-passes-decline-research.md",
-        "story": "drafts/1186-nasdpts-38-million-illegal-passes-decline.html",
-        "hero": "drafts/1186-nasdpts-38-million-illegal-passes-decline.jpg",
-        "critic_panel": "drafts/1186-nasdpts-38-million-illegal-passes-decline-critic-panel-r0.md"
+      "journalist": "Axle McScatter",
+      "kicker": "Trend Watch",
+      "note": "2026-10-16 05:30 run: CRITIQUE PASS r0 (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG d7ae4e78). NASDPTS 2026 census decline trend (45.2M->39.3M->38.4M); peg: School Bus Safety Week Oct 19-23, 2026.",
+      "number": 1186,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data": 9.0,
+        "ethics": 9.0,
+        "general": 9.0,
+        "legal": 8.8,
+        "rigor": 9.0,
+        "social": 8.8,
+        "voice": 8.8
       },
-      "note": "2026-10-16 05:30 run: CRITIQUE PASS r0 (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG d7ae4e78). NASDPTS 2026 census decline trend (45.2M->39.3M->38.4M); peg: School Bus Safety Week Oct 19-23, 2026."
+      "ship_date": "2027-10-10",
+      "slug": "1186-nasdpts-38-million-illegal-passes-decline",
+      "title": "38.4 Million Illegal School Bus Passes, Down Two Years Running"
     },
     {
-      "number": 1187,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-10-11",
-      "slug": "1187-gao-visibility-report-blind-spots",
-      "title": "The Federal Watchdog Counted 9,200 Dead. DOT Agreed With Half the Ask",
-      "journalist": "Mia Crumplezone",
-      "kicker": "The Gap",
       "avg_critic": 8.64,
       "critique_round": 0,
-      "scores": {
-        "general_editor": 8.5,
-        "voice_coach": 8.5,
-        "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
-        "legal_accuracy": 9.0,
-        "research_rigor": 8.5,
-        "data_presentation": 8.5
+      "files": {
+        "critic_panel": "drafts/1187-gao-visibility-report-blind-spots-critic-panel-r0.md",
+        "hero": "drafts/1187-gao-visibility-report-blind-spots.jpg",
+        "research": "drafts/1187-gao-visibility-report-blind-spots-research.md",
+        "story": "drafts/1187-gao-visibility-report-blind-spots.html"
       },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 10.0,
         "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
+        "em_dashes": 0,
         "hero_hash": "9fb38e57",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 10.0,
         "word_count": 546
       },
-      "files": {
-        "research": "drafts/1187-gao-visibility-report-blind-spots-research.md",
-        "story": "drafts/1187-gao-visibility-report-blind-spots.html",
-        "critic_panel": "drafts/1187-gao-visibility-report-blind-spots-critic-panel-r0.md",
-        "hero": "drafts/1187-gao-visibility-report-blind-spots.jpg"
-      },
-      "note": "2026-10-16 07:30 run: CRITIQUE PASS r0 (avg 8.64, all 7 >= 8.5; gates: em 0, banned 0, The 10.0%, rhythm PASS variance 412.7, hero JPEG 9fb38e57). GAO-26-107954 (Jul 2026): ~9,200 ped/cyclist deaths 2024 (+65% since 2010), heavy-duty 12x turn-involvement odds, DOT concurred rec1 / non-concurred rec2, EU+London direct-vision standards. Round-0 fix: unsupported 10ft blind-zone claim replaced with IIHS 2025 measured 27%/33% figures."
-    },
-    {
-      "number": 1188,
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2027-10-12",
-      "slug": "1188-grade-crossing-train-always-wins",
-      "title": "286 Dead at Railroad Crossings Last Year. The Fix Is a Gate, Not a Slogan.",
       "journalist": "Mia Crumplezone",
       "kicker": "The Gap",
-      "avg_critic": 8.79,
-      "critique_round": 0,
+      "note": "2026-10-16 07:30 run: CRITIQUE PASS r0 (avg 8.64, all 7 >= 8.5; gates: em 0, banned 0, The 10.0%, rhythm PASS variance 412.7, hero JPEG 9fb38e57). GAO-26-107954 (Jul 2026): ~9,200 ped/cyclist deaths 2024 (+65% since 2010), heavy-duty 12x turn-involvement odds, DOT concurred rec1 / non-concurred rec2, EU+London direct-vision standards. Round-0 fix: unsupported 10ft blind-zone claim replaced with IIHS 2025 measured 27%/33% figures.",
+      "number": 1187,
+      "phase": "SHIP_BLOCKED",
       "scores": {
-        "general_editor": 8.5,
-        "voice_coach": 9.0,
+        "data_presentation": 8.5,
         "ethics_reviewer": 9.0,
-        "social_shareability": 8.5,
+        "general_editor": 8.5,
         "legal_accuracy": 9.0,
         "research_rigor": 8.5,
-        "data_presentation": 9.0
+        "social_shareability": 8.5,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2027-10-11",
+      "slug": "1187-gao-visibility-report-blind-spots",
+      "title": "The Federal Watchdog Counted 9,200 Dead. DOT Agreed With Half the Ask"
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1188-grade-crossing-train-always-wins-critic-panel-r0.md",
+        "hero": "drafts/1188-grade-crossing-train-always-wins.jpg",
+        "research": "drafts/1188-grade-crossing-train-always-wins-research.md",
+        "story": "drafts/1188-grade-crossing-train-always-wins.html"
       },
       "hard_gates": {
-        "em_dashes": 0,
         "banned_phrases": 0,
-        "the_starters_pct": 8.6,
         "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
-        "hero_hash": "7a9bdbe1",
+        "em_dashes": 0,
         "hero_dim": "1920x1280",
+        "hero_hash": "7a9bdbe1",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 8.6,
         "word_count": 524
       },
-      "files": {
-        "research": "drafts/1188-grade-crossing-train-always-wins-research.md",
-        "story": "drafts/1188-grade-crossing-train-always-wins.html",
-        "critic_panel": "drafts/1188-grade-crossing-train-always-wins-critic-panel-r0.md",
-        "hero": "drafts/1188-grade-crossing-train-always-wins.jpg"
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-10-16 10:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run (after killing duplicate #1188 Sierra-grille attempt; RQ26003 already covered by #1170). Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: first grade-crossing article on the site; FRA 2025 (2,273 collisions, 286 dead, 766 injured) via Operation Lifesaver Sept 22, 2026; Colorado 960 passive vs 784 active crossings; Sumter County FL school-bus case (Apr 2026). Gates: em 0, banned 0, The 8.6%, hero JPEG 1920x1280 7a9bdbe1.",
+      "number": 1188,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
       },
-      "note": "2026-10-16 10:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run (after killing duplicate #1188 Sierra-grille attempt; RQ26003 already covered by #1170). Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: first grade-crossing article on the site; FRA 2025 (2,273 collisions, 286 dead, 766 injured) via Operation Lifesaver Sept 22, 2026; Colorado 960 passive vs 784 active crossings; Sumter County FL school-bus case (Apr 2026). Gates: em 0, banned 0, The 8.6%, hero JPEG 1920x1280 7a9bdbe1."
+      "ship_date": "2027-10-12",
+      "slug": "1188-grade-crossing-train-always-wins",
+      "title": "286 Dead at Railroad Crossings Last Year. The Fix Is a Gate, Not a Slogan."
     }
   ]
 }
