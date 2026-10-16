@@ -1004,7 +1004,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Merged 5 fragments pre-panel to clear rhythm gate. Novel contribution: 22-month gap between supplier line fix (Sep 28, 2024 timer) and field action (Jul 21, 2026) + 0.25% observed vs 1% estimated rate. Primary: NHTSA 573 report 26V487. Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-16 01:30 run: PUBLISHED (due 2026-10-16; hero file present in drafts/, real JPEG 1920x1280, sha 32397128; og:image hash corrected from stale bc5fd3da). Commit 'Publish #820'.",
+      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Merged 5 fragments pre-panel to clear rhythm gate. Novel contribution: 22-month gap between supplier line fix (Sep 28, 2024 timer) and field action (Jul 21, 2026) + 0.25% observed vs 1% estimated rate. Primary: NHTSA 573 report 26V487. Draft+hero+research+critique in drafts/. | 2026-09-22 01:30 run: 1/day slot consumed by #749; bumped ship_date to 2026-09-23. | 2026-10-16 01:30 run: PUBLISHED (due 2026-10-16; hero file present in drafts/, real JPEG 1920x1280, sha 32397128; og:image hash corrected from stale bc5fd3da). Commit 'Publish #820'. | QA-PASS 2026-10-16 ~01:45 PT: story 200 (CF 308->extensionless), hero JPEG 200 (1920x1280), og:title/description/image OK, index card present, sitemap present. Deploy 45ca6b43 success.",
       "number": 820,
       "phase": "PUBLISHED",
       "scores": {
