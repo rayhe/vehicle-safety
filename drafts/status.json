@@ -1,13 +1,14 @@
 {
   "current": {
     "slug": "1186-nasdpts-38-million-illegal-passes-decline",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
     "started": "2026-10-16T05:30:00-07:00",
     "number": 1186,
-    "kicker": "Trend Watch"
+    "kicker": "Trend Watch",
+    "round": 0
   },
-  "last_check_note": "2026-10-16 05:30 run: #1186 RESEARCH done (NASDPTS 2026 illegal-passing census, 38.4M/yr declining trend; Axle McScatter; kill-test PASS vs #896/#818). PUBLISH-QUEUE: 1/day slot already consumed today (2 publishes 2026-10-16); skipping.",
+  "last_check_note": "2026-10-16 05:30 run: #1186 DRAFT done (Axle McScatter; hero JPEG 1920x1280 verified). Entering CRITIQUE r0.",
   "last_checked": "2026-10-15T23:30:00-07:00",
   "last_completed": "2026-10-16T03:30:00-07:00",
   "last_completed_date": "2026-10-15",
