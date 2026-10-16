@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). Proceeding to PUBLISH-QUEUE.",
-  "last_checked": "2026-10-15T23:30:00-07:00",
+  "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
+  "last_checked": "2026-10-16T07:30:00-07:00",
   "last_completed": "2026-10-16T07:30:00-07:00",
   "last_completed_date": "2026-10-16",
   "last_journalist": "Mia Crumplezone",
