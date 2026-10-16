@@ -1,10 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1188-gmc-sierra-grille-deflector-recall-query",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-16T09:35:00-07:00"
+  },
   "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
   "last_checked": "2026-10-16T07:30:00-07:00",
   "last_completed": "2026-10-16T07:30:00-07:00",
   "last_completed_date": "2026-10-16",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
