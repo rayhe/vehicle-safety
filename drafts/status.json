@@ -1,10 +1,17 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-16 11:30 run: #1188 SHIP_BLOCKED (ship 2027-10-13; Rex Driverton; r0 8.86). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
-  "last_checked": "2026-10-16T11:30:00-07:00",
+  "current": {
+    "slug": "1189-iihs-work-trucks-crash-prevention",
+    "number": 1189,
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-16T13:35:00-07:00",
+    "research": "drafts/1189-iihs-work-trucks-crash-prevention-research.md"
+  },
+  "last_check_note": "2026-10-16 13:30 run: #1189 RESEARCH complete (IIHS first commercial-vehicle crash-prevention ratings, Oct 8, 2026; Mia Crumplezone). 2 publishes already today, PUBLISH-QUEUE skipped.",
+  "last_checked": "2026-10-16T13:35:00-07:00",
   "last_completed": "2026-10-16T11:30:00-07:00",
   "last_completed_date": "2026-10-16",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
