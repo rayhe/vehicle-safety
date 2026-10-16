@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1184-hit-and-run-pedestrian-flee-rate",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-16T01:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-15 23:30 run: #1183 SHIP_BLOCKED (ship 2027-10-07; Clara Rollover; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed today (Publish #817 already shipped); nothing else due (earliest due #820 ships 2026-10-16; #763 hero-gated, no-stall rule). next=1184.",
   "last_checked": "2026-10-15T23:30:00-07:00",
-  "last_completed": "2026-10-15T23:30:00-07:00",
+  "last_completed": "2026-10-16T01:30:00-07:00",
   "last_completed_date": "2026-10-15",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -14579,6 +14573,47 @@
         "story": "drafts/1183-euro-ncap-physical-buttons.html",
         "hero": "drafts/1183-euro-ncap-physical-buttons.jpg",
         "critic_panel": "drafts/1183-euro-ncap-physical-buttons-critic-panel-r0.md"
+      }
+    },
+    {
+      "number": 1184,
+      "slug": "1184-hit-and-run-pedestrian-flee-rate",
+      "title": "One in Four Dead Pedestrians Was Left on the Road. The Drivers Who Fled Are Exactly Who You'd Expect.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-08",
+      "avg_critic": 8.94,
+      "critic_avg": 8.94,
+      "critique_round": 0,
+      "scores": {
+        "average": 8.94,
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 8.8
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "8f1ca0ea",
+        "jpeg_valid": true,
+        "rhythm": "pass (variance 201.4, short 9.3%, long 58.1%)",
+        "style_css": true,
+        "the_starters_pct": 4.7,
+        "word_count": 857,
+        "actionable_insights": true
+      },
+      "note": "2026-10-16 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.94, all 7 >= 8.5; gates: em 0, banned 0, The 4.7%, rhythm PASS variance 201.4, css ok, hero real JPEG 1920x1280 hash 8f1ca0ea). Angle: AAA Foundation Mar 2026 hit-and-run brief; 919,292 crashes (15.0%, record), 2,872 deaths (7.0% share, record); 13x flee-rate asymmetry (ped 23.1% vs occupant 1.8%); fleer profile (78.3% male, 71.4% 18-44, 40% unlicensed, 56.5% someone else's car); night 11PM-3AM (ped 33.9%, cyclist 43.6%); SVI gradient (6x deaths). News pegs: Fresno PD Oct 9 arrest (suspended license, tarped car, ALPR) + Newark Oct 11 crosswalk hit-and-run. Queued SHIP_BLOCKED for 2027-10-08 (1/day; #1183 holds 2027-10-07).",
+      "files": {
+        "research": "drafts/1184-hit-and-run-pedestrian-flee-rate-research.md",
+        "draft": "drafts/1184-hit-and-run-pedestrian-flee-rate.html",
+        "hero": "drafts/1184-hit-and-run-pedestrian-flee-rate.jpg",
+        "critic_panel": "drafts/1184-hit-and-run-pedestrian-flee-rate-critic-panel-r0.md"
       }
     }
   ]
