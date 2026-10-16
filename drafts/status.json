@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "1189-iihs-work-trucks-crash-prevention",
-    "number": 1189,
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-16T13:35:00-07:00",
-    "research": "drafts/1189-iihs-work-trucks-crash-prevention-research.md"
-  },
-  "last_check_note": "2026-10-16 13:30 run: #1189 RESEARCH complete (IIHS first commercial-vehicle crash-prevention ratings, Oct 8, 2026; Mia Crumplezone). 2 publishes already today, PUBLISH-QUEUE skipped.",
+  "current": null,
+  "last_check_note": "2026-10-16 13:30 run: #1189 SHIP_BLOCKED (ship 2027-10-14; Mia Crumplezone; r0 8.86). PUBLISH-QUEUE skipped: 2 publishes already today.",
   "last_checked": "2026-10-16T13:35:00-07:00",
-  "last_completed": "2026-10-16T11:30:00-07:00",
+  "last_completed": "2026-10-16T13:30:00-07:00",
   "last_completed_date": "2026-10-16",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -14811,6 +14804,44 @@
       "ship_date": "2027-10-13",
       "slug": "gm-sierra-grille-deflector-recall-query",
       "title": "GM Recalled 70,768 Sierras for a Detaching Grille, and Now NHTSA Wants the Other 464,871"
+    },
+    {
+      "number": 1189,
+      "phase": "SHIP_BLOCKED",
+      "slug": "1189-iihs-work-trucks-crash-prevention",
+      "title": "Three of America's Biggest Pickups Flunked the First Auto-Brake Test. The Electric Vans Passed.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Trend Watch",
+      "ship_date": "2027-10-14",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css_class": true,
+        "style_css": true,
+        "word_count": 600,
+        "hero_jpeg": true,
+        "hero_dim": "2352x1008",
+        "hero_hash": "24705345"
+      },
+      "files": {
+        "research": "drafts/1189-iihs-work-trucks-crash-prevention-research.md",
+        "story": "drafts/1189-iihs-work-trucks-crash-prevention.html",
+        "hero": "drafts/1189-iihs-work-trucks-crash-prevention.jpg",
+        "critic_panel": "drafts/1189-iihs-work-trucks-crash-prevention-critic-panel-r0.md"
+      },
+      "note": "2026-10-16 13:30 run: round-0 panel VERDICT SHIP (avg 8.86); all hard gates pass. IIHS first commercial-vehicle front crash prevention ratings (Oct 8, 2026); 9 of 11 substandard V2V; BrightDrop/Rivian Good pedestrian; Express/Savana no AEB. Ship fix: merged 2 short sentences for rhythm gate (17.9->13.3%) + added steelmanned false-positive counterargument. PUBLISH-QUEUE skipped: 1/day gate already consumed (2 publishes 2026-10-16)."
     }
   ]
 }
