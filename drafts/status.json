@@ -1,24 +1,16 @@
 {
-  "current": {
-    "slug": "1186-nasdpts-38-million-illegal-passes-decline",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-16T05:30:00-07:00",
-    "number": 1186,
-    "kicker": "Trend Watch",
-    "round": 0
-  },
-  "last_check_note": "2026-10-16 05:30 run: #1186 DRAFT done (Axle McScatter; hero JPEG 1920x1280 verified). Entering CRITIQUE r0.",
+  "current": null,
+  "last_check_note": "2026-10-16 05:30 run: #1186 SHIP_BLOCKED (ship 2027-10-10; Axle McScatter; r0 8.91). PUBLISH-QUEUE: 1/day slot consumed today (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing else due.",
   "last_checked": "2026-10-15T23:30:00-07:00",
-  "last_completed": "2026-10-16T03:30:00-07:00",
+  "last_completed": "2026-10-16T05:30:00-07:00",
   "last_completed_date": "2026-10-15",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1186,
+  "next": 1187,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14659,6 +14651,43 @@
         "critic_panel": "drafts/1185-teen-drivers-passengers-die-more-critic-panel-r0.md"
       },
       "note": "2026-10-16 03:30 run: round-0 panel pass (avg 8.84, 7/7 >= 8.5, all hard gates pass). Novelty: pipeline never covered teen drivers; the 69% inversion is the story. Hero stays in drafts/ until publish."
+    },
+    {
+      "number": 1186,
+      "slug": "1186-nasdpts-38-million-illegal-passes-decline",
+      "title": "38.4 Million Illegal School Bus Passes, Down Two Years Running",
+      "journalist": "Axle McScatter",
+      "kicker": "Trend Watch",
+      "ship_date": "2027-10-10",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "scores": {
+        "general": 9.0,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.8,
+        "legal": 8.8,
+        "rigor": 9.0,
+        "data": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "d7ae4e78",
+        "word_count": 620
+      },
+      "files": {
+        "research": "drafts/1186-nasdpts-38-million-illegal-passes-decline-research.md",
+        "story": "drafts/1186-nasdpts-38-million-illegal-passes-decline.html",
+        "hero": "drafts/1186-nasdpts-38-million-illegal-passes-decline.jpg",
+        "critic_panel": "drafts/1186-nasdpts-38-million-illegal-passes-decline-critic-panel-r0.md"
+      },
+      "note": "2026-10-16 05:30 run: CRITIQUE PASS r0 (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG d7ae4e78). NASDPTS 2026 census decline trend (45.2M->39.3M->38.4M); peg: School Bus Safety Week Oct 19-23, 2026."
     }
   ]
 }
