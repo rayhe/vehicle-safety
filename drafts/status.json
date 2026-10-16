@@ -1,21 +1,16 @@
 {
-  "current": {
-    "journalist": "Rex Driverton",
-    "phase": "DRAFT",
-    "slug": "1181-avride-sgo-reporting-audit",
-    "started": "2026-10-15T19:30:00-07:00"
-  },
-  "last_check_note": "2026-10-15 19:30 run: #1181 RESEARCH done (Avride AQ26003 SGO reporting audit; Rex Driverton). Proceeding to DRAFT.",
+  "current": null,
+  "last_check_note": "2026-10-15 19:30 run: #1181 SHIP_BLOCKED (ship 2027-10-05; Rex Driverton; r0 8.86). Proceeding to PUBLISH-QUEUE.",
   "last_checked": "2026-10-15T19:30:00-07:00",
-  "last_completed": "2026-10-15T17:30:00-07:00",
+  "last_completed": "2026-10-15T19:30:00-07:00",
   "last_completed_date": "2026-10-15",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1181,
+  "next": 1182,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14505,6 +14500,44 @@
       "ship_date": "2027-10-04",
       "slug": "1180-comma-openpilot-federal-probe",
       "title": "404 Million Miles, Three Dead, and the Code Says THIS IS NOT A PRODUCT"
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1181-avride-sgo-reporting-audit-critic-panel-r0.md",
+        "hero": "drafts/1181-avride-sgo-reporting-audit.jpg",
+        "research": "drafts/1181-avride-sgo-reporting-audit-research.md",
+        "story": "drafts/1181-avride-sgo-reporting-audit.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "47f9166a",
+        "hero_jpeg": true,
+        "rhythm": "PASS",
+        "style_css": true,
+        "the_starters_pct": 0.0
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-10-15 19:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP full pipeline in one run. Round-0 panel VERDICT: SHIP (avg 8.86, all 7 >= 8.5). Novel: NHTSA AQ26003 (opened 2026-09-14) audits Avride's SGO crash reports after finding 'no injuries' filings where police reports indicated potential injuries + injury downgrades in updated filings; synthesis with site FARS-blindness thesis + IIHS no-denominator finding ('both halves of the fraction are broken'). 6 SGO report IDs cited. Hero JPEG 1920x1280, ?v=47f9166a. Queued ship 2027-10-05 (1/day after latest SHIP_BLOCKED #1180).",
+      "number": 1181,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-10-05",
+      "slug": "1181-avride-sgo-reporting-audit",
+      "title": "The Robotaxi Crash Reports Said No Injuries. The Police Reports Disagreed."
     }
   ]
 }
