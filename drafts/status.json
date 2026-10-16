@@ -1,22 +1,16 @@
 {
-  "current": {
-    "journalist": "Rex Driverton",
-    "number": 1188,
-    "phase": "DRAFT",
-    "slug": "gm-sierra-grille-deflector-recall-query",
-    "started": "2026-10-16T11:30:00-07:00"
-  },
-  "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
+  "current": null,
+  "last_check_note": "2026-10-16 11:30 run: #1188 SHIP_BLOCKED (ship 2027-10-13; Rex Driverton; r0 8.86). PUBLISH-QUEUE pending this run.",
   "last_checked": "2026-10-16T11:30:00-07:00",
-  "last_completed": "2026-10-16T10:30:00-07:00",
+  "last_completed": "2026-10-16T11:30:00-07:00",
   "last_completed_date": "2026-10-16",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1188,
+  "next": 1189,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14769,6 +14763,47 @@
       "ship_date": "2027-10-12",
       "slug": "1188-grade-crossing-train-always-wins",
       "title": "286 Dead at Railroad Crossings Last Year. The Fix Is a Gate, Not a Slogan."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/gm-sierra-grille-deflector-recall-query-critic-panel-r0.md",
+        "draft": "drafts/gm-sierra-grille-deflector-recall-query.html",
+        "hero": "drafts/gm-sierra-grille-deflector-recall-query.jpg",
+        "research": "drafts/gm-sierra-grille-deflector-recall-query-research.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "1ae0b1d7",
+        "hero_jpeg": true,
+        "rhythm_long_pct": 60.9,
+        "rhythm_short_pct": 0.0,
+        "rhythm_variance": 481.7,
+        "style_css": true,
+        "the_starters_pct": 2.5,
+        "word_count": 559
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-10-16 11:30 run: round-0 panel VERDICT SHIP (avg 8.86). RQ26003 vs 25V-060; Rex Driverton. Joined queue as #1188 (ship 2027-10-13).",
+      "number": 1188,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2027-10-13",
+      "slug": "gm-sierra-grille-deflector-recall-query",
+      "title": "GM Recalled 70,768 Sierras for a Detaching Grille, and Now NHTSA Wants the Other 464,871"
     }
   ]
 }
