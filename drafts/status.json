@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1187-gao-visibility-report-blind-spots",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-16T14:36:02.684663+00:00"
+  },
   "last_check_note": "2026-10-16 05:30 run: #1186 SHIP_BLOCKED (ship 2027-10-10; Axle McScatter; r0 8.91). PUBLISH-QUEUE: 1/day slot consumed today (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing else due.",
   "last_checked": "2026-10-15T23:30:00-07:00",
   "last_completed": "2026-10-16T05:30:00-07:00",
