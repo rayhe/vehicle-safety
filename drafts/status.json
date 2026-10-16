@@ -1,8 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1190-iihs-pedestrian-braking-not-even-offered",
+    "phase": "SHIP_BLOCKED",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-16T15:30:00-07:00"
+  },
   "last_check_note": "2026-10-16 13:30 run: #1189 SHIP_BLOCKED (ship 2027-10-14; Mia Crumplezone; r0 8.86). PUBLISH-QUEUE skipped: 2 publishes already today.",
   "last_checked": "2026-10-16T13:35:00-07:00",
-  "last_completed": "2026-10-16T13:30:00-07:00",
+  "last_completed": "2026-10-16T15:30:00-07:00",
   "last_completed_date": "2026-10-16",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -101,7 +106,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules. | 2026-10-15 07:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (Publish #817); skipped per hero-gate + no-stall rules. | 2026-10-16 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate + no-stall rules, 1/day slot consumed by Publish #820.",
+      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules. | 2026-10-15 07:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (Publish #817); skipped per hero-gate + no-stall rules. | 2026-10-16 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate + no-stall rules, 1/day slot consumed by Publish #820. | 2026-10-16 15:30 run: hero still absent; only due entry; 1/day gate already consumed (2 publishes today); skipped per hero-gate + no-stall rules, cadence intact.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -14842,6 +14847,26 @@
         "critic_panel": "drafts/1189-iihs-work-trucks-crash-prevention-critic-panel-r0.md"
       },
       "note": "2026-10-16 13:30 run: round-0 panel VERDICT SHIP (avg 8.86); all hard gates pass. IIHS first commercial-vehicle front crash prevention ratings (Oct 8, 2026); 9 of 11 substandard V2V; BrightDrop/Rivian Good pedestrian; Express/Savana no AEB. Ship fix: merged 2 short sentences for rhythm gate (17.9->13.3%) + added steelmanned false-positive counterargument. PUBLISH-QUEUE skipped: 1/day gate already consumed (2 publishes 2026-10-16)."
+    },
+    {
+      "number": 1190,
+      "slug": "1190-iihs-pedestrian-braking-not-even-offered",
+      "title": "Three Vehicles Got a Poor Pedestrian-Braking Grade. They Never Even Took the Test.",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-15",
+      "scores": {
+        "general": 9,
+        "voice": 8.5,
+        "ethics": 9,
+        "social": 8.5,
+        "legal": 9,
+        "rigor": 9,
+        "data": 8.5,
+        "avg": 8.79
+      },
+      "hero": "drafts/1190-iihs-pedestrian-braking-not-even-offered.jpg",
+      "note": "2026-10-16 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.79, all 7 >= 8.5; gates: em 1, banned 0, The 13.8%, rhythm PASS variance 716.3/short 8.7%/long 60.9%; hero JPEG 1920x1280 hash c5eb8b13, cache-busted ?v=). Novel: IIHS Oct 2026 11-vehicle weak pedestrian-braking list; Wrangler/Gladiator/Durango don't offer the system at any trim (verified on iihs.org rating page); FARS cross-tab shows Altima (2.88) and Trailblazer (2.83) ~5x fleet median (0.54), 58x spread across measurable models. Queued SHIP_BLOCKED 2027-10-15 (1 day after latest SHIP_BLOCKED)."
     }
   ]
 }
