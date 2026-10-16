@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1182-toronto-speed-camera-removal-deaths",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-15T21:30:00-07:00",
-    "round": 0
-  },
-  "last_check_note": "2026-10-15 21:30 run: DRAFT #1182 done (722 words; hard gates pre-verified: em 0, banned 0, The 7.0%, css ok; hero JPEG 1920x1280 real). -> CRITIQUE r0.",
+  "current": null,
+  "last_check_note": "2026-10-15 21:30 run: #1182 SHIP_BLOCKED (ship 2027-10-06; Axle McScatter; r0 8.84). next=1183.",
   "last_checked": "2026-10-15T21:30:00-07:00",
-  "last_completed": "2026-10-15T19:30:00-07:00",
+  "last_completed": "2026-10-15T21:30:00-07:00",
   "last_completed_date": "2026-10-15",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1182,
+  "next": 1183,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14544,6 +14538,24 @@
       "ship_date": "2027-10-05",
       "slug": "1181-avride-sgo-reporting-audit",
       "title": "The Robotaxi Crash Reports Said No Injuries. The Police Reports Disagreed."
+    },
+    {
+      "number": 1182,
+      "slug": "1182-toronto-speed-camera-removal-deaths",
+      "title": "Toronto Pulled Its Speed Cameras in November. By June, 101 of 104 Camera Sites Were Faster.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-06",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "note": "2026-10-15 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.84, all 7 >= 8.5; gates: em 0, banned 0, The 7.0%, css ok, hero JPEG 1920x1280). Angle: city-published causation exhibit (Jun 23 2026 report: +4.8 km/h at 101/104 sites, 25 fatal collisions Dec-May 5-yr high); 4.8 km/h mapped onto AAA injury curve; percentage-vs-points honesty; fatalities +28%, pedestrian deaths 5-yr-high track, motorcyclists +57%.",
+      "files": {
+        "research": "drafts/1182-toronto-speed-camera-removal-deaths-research.md",
+        "story": "drafts/1182-toronto-speed-camera-removal-deaths.html",
+        "hero": "drafts/1182-toronto-speed-camera-removal-deaths.jpg",
+        "critic_panel": "drafts/1182-toronto-speed-camera-removal-deaths-critic-panel-r0.md"
+      }
     }
   ]
 }

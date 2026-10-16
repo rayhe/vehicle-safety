@@ -27,7 +27,7 @@
 
 1. **The percentage-vs-points honesty check:** "480% increase" is true AND misleading — it is 0.5% to 2.9%, i.e., +2.4 percentage points. The topcarnews/carscoops critique is right about the big percentages and misses the important number: **+4.8 km/h on the 85th percentile across 101 of 104 sites**, and **25 fatal collisions** back to a five-year high. Report both, with the denominators.
 2. **The 4.8 km/h on the injury curve:** AAA Foundation impact-speed research: pedestrian risk of **severe injury ~10% at 16 mph, 25% at 23 mph, 50% at 31 mph**; death risk ~10% at 23 mph, **25% at 32 mph**. The curve is steepest exactly in the urban band (20–35 mph / 30–50 km/h). A 4.8 km/h (3 mph) population-wide shift sits ON the steep part of the curve. Also: the risk to a 70-year-old pedestrian at 25 mph equals the risk to a 30-year-old at 35 mph — age is worth 10 mph.
-3. **The fatality trajectory:** 2025: 39 deaths (decade low). 2026 through June: on pace for ~28% above that ≈ 50 deaths — erasing a decade of Vision Zero gains in one legislative session.
+3. **The fatality trajectory:** 2025: 39 deaths (decade low). By June 2, 2026: 23 fatal collisions YTD, +28% vs. the same point in 2025 (police data). Oct. 5: pedestrian deaths tracking a five-year high; motorcyclist deaths 11 (+57% YoY). Direction is up across every category; a full-year pace projection would mix collision counts with fatality counts, so the article reports only the measured figures.
 4. **The budget ratio:** the province's $10M traffic-calming fund vs the city's own $52M/13-year estimate = enough for about 19% of the job (and calming that doesn't change lanes is slower, gentler, and cheaper-feeling by design).
 
 ## Actionable insights (hard gate)
