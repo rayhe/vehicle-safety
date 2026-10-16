@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1183-euro-ncap-physical-buttons",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-10-15T23:30:00-07:00"
+    "started": "2026-10-15T23:30:00-07:00",
+    "round": 0
   },
-  "last_check_note": "2026-10-15 23:30 run: current=null -> RESEARCH for #1183 (Euro NCAP 2026 key-controls/button test; Clara Rollover). Kill test PASS.",
+  "last_check_note": "2026-10-15 23:30 run: #1183 DRAFT written (Clara Rollover, Euro NCAP button test). Hero JPEG 2240x1120 real-JPEG (hash 723ce73f). -> CRITIQUE r0.",
   "last_checked": "2026-10-15T23:30:00-07:00",
   "last_completed": "2026-10-15T21:30:00-07:00",
   "last_completed_date": "2026-10-15",
