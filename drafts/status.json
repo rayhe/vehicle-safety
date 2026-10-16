@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1185-teen-drivers-passengers-die-more",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-10-16T03:30:00-07:00"
+    "started": "2026-10-16T03:30:00-07:00",
+    "round": 0
   },
   "last_check_note": "2026-10-15 23:30 run: #1183 SHIP_BLOCKED (ship 2027-10-07; Clara Rollover; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed today (Publish #817 already shipped); nothing else due (earliest due #820 ships 2026-10-16; #763 hero-gated, no-stall rule). next=1184.",
   "last_checked": "2026-10-15T23:30:00-07:00",
