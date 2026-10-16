@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-15 21:30 run: #1182 SHIP_BLOCKED (ship 2027-10-06; Axle McScatter; r0 8.84). next=1183.",
+  "last_check_note": "2026-10-15 21:30 run: #1182 SHIP_BLOCKED (ship 2027-10-06; Axle McScatter; r0 8.84). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entry #763 hero-gated (fire-imagery policy block), skipped per no-stall rule. next=1183.",
   "last_checked": "2026-10-15T21:30:00-07:00",
   "last_completed": "2026-10-15T21:30:00-07:00",
   "last_completed_date": "2026-10-15",
