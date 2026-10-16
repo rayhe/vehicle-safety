@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-15 17:30 run: #1180 SHIP_BLOCKED (ship 2027-10-04; Vin Wreckage; r0 8.80). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entry #763 hero-gated (fire-imagery policy block), skipped per no-stall rule. next=1181.",
-  "last_checked": "2026-10-15T17:30:00-07:00",
+  "current": {
+    "journalist": "Rex Driverton",
+    "phase": "DRAFT",
+    "slug": "1181-avride-sgo-reporting-audit",
+    "started": "2026-10-15T19:30:00-07:00"
+  },
+  "last_check_note": "2026-10-15 19:30 run: #1181 RESEARCH done (Avride AQ26003 SGO reporting audit; Rex Driverton). Proceeding to DRAFT.",
+  "last_checked": "2026-10-15T19:30:00-07:00",
   "last_completed": "2026-10-15T17:30:00-07:00",
   "last_completed_date": "2026-10-15",
   "last_journalist": "Vin Wreckage",
