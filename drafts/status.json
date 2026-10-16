@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-15 15:30 run: #1179 SHIP_BLOCKED (ship 2027-10-03; Dale Impactor III; r0 8.86). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entry #763 hero-gated (fire-imagery policy block), skipped per no-stall rule. next=1180.",
-  "last_checked": "2026-10-15T15:30:00-07:00",
-  "last_completed": "2026-10-15T15:30:00-07:00",
+  "last_check_note": "2026-10-15 17:30 run: #1180 SHIP_BLOCKED (ship 2027-10-04; Vin Wreckage; r0 8.80). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits); only due entry #763 hero-gated (fire-imagery policy block), skipped per no-stall rule. next=1181.",
+  "last_checked": "2026-10-15T17:30:00-07:00",
+  "last_completed": "2026-10-15T17:30:00-07:00",
   "last_completed_date": "2026-10-15",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1180,
+  "next": 1181,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14460,6 +14460,46 @@
       "ship_date": "2027-10-03",
       "slug": "1179-move-over-say-do-gap",
       "title": "90% of Drivers Say They Move Over. Only 64% Actually Do."
+    },
+    {
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1180-critic-panel-r0.md",
+        "hero": "drafts/1180-comma-openpilot-federal-probe.jpg",
+        "research": "drafts/1180-comma-openpilot-federal-probe-research.md",
+        "story": "drafts/1180-comma-openpilot-federal-probe.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "2048x1152",
+        "hero_hash": "ecdaa46c",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 246.8,
+        "style_css": true,
+        "the_starters_pct": 12.2,
+        "word_count": 877
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-10-15 17:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 12.2%, rhythm PASS variance 246.8). News peg: NHTSA PE26007 opened 2026-09-21 (comma three/3X/four + openpilot, ~30k units; 5 stopped-vehicle strikes, 3 dead, 11 injured). Novel: FARS has no ADAS/aftermarket field so all five crashes are structurally invisible in the site's own 2014-2023 dataset; SGO reports are the only federal window into the 404M-mile experiment. Primary: NHTSA ODI PE26007 resume, The Auto Wire (Sep 30), Electrek (Sep 24), VitalLaw, webpronews. Hero JPEG 2048x1152 ?v=ecdaa46c. Queued ship 2027-10-04 (1/day after #1179 2027-10-03).",
+      "number": 1180,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "social_shareability": 9.0,
+        "voice_coach": 8.6
+      },
+      "ship_date": "2027-10-04",
+      "slug": "1180-comma-openpilot-federal-probe",
+      "title": "404 Million Miles, Three Dead, and the Code Says THIS IS NOT A PRODUCT"
     }
   ]
 }

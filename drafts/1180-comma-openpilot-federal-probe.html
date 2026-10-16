@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 Million Miles, Three Dead, and the Code Says THIS IS NOT A PRODUCT &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA opened investigation PE26007 into comma.ai's openpilot after five crashes killed three. The software's own repo says it is not a product.">
+  <meta property="og:title" content="404 Million Miles, Three Dead, and the Code Says THIS IS NOT A PRODUCT">
+  <meta property="og:description" content="NHTSA opened investigation PE26007 into comma.ai's openpilot after five crashes killed three. The software's own repo says it is not a product.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1180-comma-openpilot-federal-probe.jpg">
+  <meta property="og:type" content="article">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Existential Dread</div>
+      <h1>404 Million Miles, Three Dead, and the Code Says THIS IS NOT A PRODUCT</h1>
+      <div class="byline">Vin Wreckage &bull; Clautomotive Desk</div>
+      <div class="dateline">October 15, 2026</div>
+
+      <div class="story-body">
+      <p>On September 21, federal safety regulators opened a formal investigation into a $999 box that sticks to your windshield and drives your car for you. The toll so far: <strong>five crashes, three dead, eleven injured</strong>, every one of them the same shape, a car that drove itself straight into stopped or crawling traffic in its own lane. And the software running the whole experiment describes itself, in capital letters, on its own GitHub page, as alpha-quality research code that is not a product.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">82 mph</div>
+      <div class="pull-label">Speed of a 2020 Honda Accord running openpilot when it rear-ended a stopped car in Missouri. The driver had fallen asleep.</div>
+
+      <p>comma.ai sells hands-free driving for the car you already have. Fifteen-minute self-install. Software that can drive for hours without intervention.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Thirty thousand devices on the road, 404 million miles logged, second place behind Tesla in hands-free miles, by the company's own count. NHTSA's Office of Defects Investigation looked at the five crashes and concluded the system "may not have adequately detected or responded to the in-lane vehicles." That's regulator-speak for: it didn't see the stopped cars, or saw them and did nothing, and the agency hasn't decided which is worse.</p>
+
+      <p>Stopped cars are the nightmare case for everything in this category, and the engineering reason is almost poetic. Radar sees a world full of stationary objects: signs, bridges, guardrails, parked cars on shoulders. A system that braked for all of them would be undrivable, so it learns to discount things that don't move. Every factory owner's manual carries the fine print. comma layers its own cameras on top of the car's stock sensors, which turns every crash into a forensic riddle with three suspects: comma's eyes, the factory cruise logic, or the handoff between them. Good luck assigning blame when the steering wheel was being shared by two robots and a sleeping human.</p>
+
+      <p>Then there's the wrinkle that makes this a philosophy problem instead of a car story: anyone can fork openpilot. Roughly 11,400 people have, and some forks loosen the very restrictions comma built in. One of the fatal crashes, a 2022 RAV4 in Louisiana last February, was reportedly running third-party software comma didn't write.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> NHTSA's answer: it will evaluate the forks anyway and judge the components they share with comma's code. Open-sourcing the steering wheel turns out not to open-source the liability. Funny how that works.</p>
+
+      <p>Here's the part that should bother readers of this site specifically. Our entire dataset, a decade of FARS fatal crash records, has no field for any of this. No ADAS engagement flag, no aftermarket-automation checkbox, nothing. These five crashes are structurally invisible in the database this publication is built on. The only federal window into a 404-million-mile experiment running on public roads is a handful of Standing General Order reports and one consumer complaint. We are counting the dead with instruments that cannot see the machines doing the driving. Sit with that for a second.</p>
+
+      <h3>What to actually do</h3>
+      <p>If you run openpilot or any fork: treat stopped traffic as a manual-driving event, full stop. When brake lights stack up ahead, especially where a lead car might swerve out of the way at the last second, cover the brake and take over. That exact scenario is the one under federal investigation. Know what your fork changes, because after a crash the software version is the first thing investigators and insurers will ask about. And call your insurer today: an undisclosed modification to your car's steering and braking is a coverage dispute waiting for a claims adjuster to discover. Check nhtsa.gov/recalls for your VIN while you're at it, and watch the PE26007 docket. Preliminary evaluations can close quietly or escalate into engineering analyses and recall pushes, and either way you'll hear it there first.</p>
+
+      <h3>What this doesn't prove</h3>
+      <p>NHTSA has not found a defect. A preliminary evaluation is the first and mildest formal step, and it can close with no action. The agency confirmed the comma system was on or engaged in "multiple" crashes, pointedly not all five. comma's defense has real weight: 404 million miles against five crashes under review is a rate human drivers would envy, the marketing says hands-free but the fine print demands an alert driver at all times, and the Missouri driver fell asleep, which is misuse before it is anything else. The FARS cross-reference in this article is contextual, not causal: our 2014-2023 data predates these 2025-2026 crashes, and the Accord's 7,102 deaths and the RAV4's 897 say nothing about automation. The honest summary is that a cheap box, open-source code, and a sleeping driver met at 82 mph, and now the feds get to decide what that means.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Office of Defects Investigation, Preliminary Evaluation PE26007, "Crashes involving comma.ai driving automation products," opened September 21, 2026 (Investigator Neil Dold). <a href="https://oemdtc.com/investigation/PE26007/" target="_blank" rel="noopener">oemdtc.com mirror of ODI resume</a></li>
+          <li id="ref-2">John Lloyd, "A $999 Box Promises Hands-Free Driving. Its Own Code Says 'THIS IS NOT A PRODUCT.' Now NHTSA Is Investigating Crashes That Killed Three," <em>The Auto Wire</em>, September 30, 2026. <a href="https://theautowire.com/2026/09/30/federal-probe-targets-comma-driver-assist-devices-after-fatal-rear-end-crashes/" target="_blank" rel="noopener">theautowire.com</a></li>
+          <li id="ref-3">Electrek, "NHTSA investigates comma.ai's openpilot over 5 crashes that killed 3," September 24, 2026. <a href="https://electrek.co/2026/09/24/comma-ai-openpilot-nhtsa-investigation-crashes/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">NHTSA Standing General Order 2021-01 crash reporting data. <a href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA ODI PE26007 (opened 2026-09-21); FARS 2014&ndash;2023 cross-reference is contextual. No defect has been found; investigation may close without action. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
