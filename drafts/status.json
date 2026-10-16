@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1188-grade-crossing-train-always-wins",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-16T10:05:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). PUBLISH-QUEUE: 1/day slot consumed (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing published this run.",
   "last_checked": "2026-10-16T07:30:00-07:00",
-  "last_completed": "2026-10-16T07:30:00-07:00",
+  "last_completed": "2026-10-16T10:30:00-07:00",
   "last_completed_date": "2026-10-16",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -14730,6 +14725,44 @@
         "hero": "drafts/1187-gao-visibility-report-blind-spots.jpg"
       },
       "note": "2026-10-16 07:30 run: CRITIQUE PASS r0 (avg 8.64, all 7 >= 8.5; gates: em 0, banned 0, The 10.0%, rhythm PASS variance 412.7, hero JPEG 9fb38e57). GAO-26-107954 (Jul 2026): ~9,200 ped/cyclist deaths 2024 (+65% since 2010), heavy-duty 12x turn-involvement odds, DOT concurred rec1 / non-concurred rec2, EU+London direct-vision standards. Round-0 fix: unsupported 10ft blind-zone claim replaced with IIHS 2025 measured 27%/33% figures."
+    },
+    {
+      "number": 1188,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-12",
+      "slug": "1188-grade-crossing-train-always-wins",
+      "title": "286 Dead at Railroad Crossings Last Year. The Fix Is a Gate, Not a Slogan.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "7a9bdbe1",
+        "hero_dim": "1920x1280",
+        "word_count": 524
+      },
+      "files": {
+        "research": "drafts/1188-grade-crossing-train-always-wins-research.md",
+        "story": "drafts/1188-grade-crossing-train-always-wins.html",
+        "critic_panel": "drafts/1188-grade-crossing-train-always-wins-critic-panel-r0.md",
+        "hero": "drafts/1188-grade-crossing-train-always-wins.jpg"
+      },
+      "note": "2026-10-16 10:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run (after killing duplicate #1188 Sierra-grille attempt; RQ26003 already covered by #1170). Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5). Novel: first grade-crossing article on the site; FRA 2025 (2,273 collisions, 286 dead, 766 injured) via Operation Lifesaver Sept 22, 2026; Colorado 960 passive vs 784 active crossings; Sumter County FL school-bus case (Apr 2026). Gates: em 0, banned 0, The 8.6%, hero JPEG 1920x1280 7a9bdbe1."
     }
   ]
 }
