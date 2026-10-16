@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1187-gao-visibility-report-blind-spots",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-16T14:36:02.684663+00:00"
-  },
-  "last_check_note": "2026-10-16 05:30 run: #1186 SHIP_BLOCKED (ship 2027-10-10; Axle McScatter; r0 8.91). PUBLISH-QUEUE: 1/day slot consumed today (2 publishes 2026-10-16); only due entry #763 hero-gated (no-stall rule); nothing else due.",
+  "current": null,
+  "last_check_note": "2026-10-16 07:30 run: #1187 SHIP_BLOCKED (ship 2027-10-11; Mia Crumplezone; r0 8.64). Proceeding to PUBLISH-QUEUE.",
   "last_checked": "2026-10-15T23:30:00-07:00",
-  "last_completed": "2026-10-16T05:30:00-07:00",
-  "last_completed_date": "2026-10-15",
-  "last_journalist": "Axle McScatter",
+  "last_completed": "2026-10-16T07:30:00-07:00",
+  "last_completed_date": "2026-10-16",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1187,
+  "next": 1188,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14693,6 +14688,43 @@
         "critic_panel": "drafts/1186-nasdpts-38-million-illegal-passes-decline-critic-panel-r0.md"
       },
       "note": "2026-10-16 05:30 run: CRITIQUE PASS r0 (avg 8.91, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG d7ae4e78). NASDPTS 2026 census decline trend (45.2M->39.3M->38.4M); peg: School Bus Safety Week Oct 19-23, 2026."
+    },
+    {
+      "number": 1187,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-11",
+      "slug": "1187-gao-visibility-report-blind-spots",
+      "title": "The Federal Watchdog Counted 9,200 Dead. DOT Agreed With Half the Ask",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "avg_critic": 8.64,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "9fb38e57",
+        "word_count": 546
+      },
+      "files": {
+        "research": "drafts/1187-gao-visibility-report-blind-spots-research.md",
+        "story": "drafts/1187-gao-visibility-report-blind-spots.html",
+        "critic_panel": "drafts/1187-gao-visibility-report-blind-spots-critic-panel-r0.md",
+        "hero": "drafts/1187-gao-visibility-report-blind-spots.jpg"
+      },
+      "note": "2026-10-16 07:30 run: CRITIQUE PASS r0 (avg 8.64, all 7 >= 8.5; gates: em 0, banned 0, The 10.0%, rhythm PASS variance 412.7, hero JPEG 9fb38e57). GAO-26-107954 (Jul 2026): ~9,200 ped/cyclist deaths 2024 (+65% since 2010), heavy-duty 12x turn-involvement odds, DOT concurred rec1 / non-concurred rec2, EU+London direct-vision standards. Round-0 fix: unsupported 10ft blind-zone claim replaced with IIHS 2025 measured 27%/33% figures."
     }
   ]
 }
