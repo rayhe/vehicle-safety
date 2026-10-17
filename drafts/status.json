@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "silverado-drugged-driver-body-count",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
-    "started": "2026-10-17T09:30:00-07:00"
+    "started": "2026-10-17T09:30:00-07:00",
+    "round": 0
   },
-  "last_check_note": "2026-10-17 09:30 run: #1199 RESEARCH complete (Dale Impactor III, drugged body-count volume-vs-rate).",
+  "last_check_note": "2026-10-17 09:30 run: #1199 DRAFT complete (hero JPEG 2048x1152), entering CRITIQUE round 0.",
   "last_checked": "2026-10-17T08:00:00-07:00",
   "last_completed": "2026-10-17T05:35:00-07:00",
   "last_completed_date": "2026-10-17",
