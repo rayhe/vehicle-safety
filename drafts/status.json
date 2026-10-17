@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-16 23:30 run: #1194 SHIP_BLOCKED (ship 2027-10-19; Axle McScatter; r0 8.86). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle on VW ID.4 26V630/93EX (22,524, root cause unknown, 80% cap + stickers). PUBLISH-QUEUE: 2 Publish-# commits already today (1/day gate consumed); only due entry is #763 (hero-blocked, no files \u2014 never stalls cadence). Cadence satisfied.",
-  "last_checked": "2026-10-16T23:55:00-07:00",
-  "last_completed": "2026-10-16T23:55:00-07:00",
-  "last_completed_date": "2026-10-16",
-  "last_journalist": "Axle McScatter",
+  "last_check_note": "2026-10-17 03:30 run: #1196 SHIP_BLOCKED (ship 2027-10-21; Rex Driverton; r0 8.91). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle on compact-pickup death gap (S-10 4.83 rate, 4.6x F-150, impairment parity twist). Duplicate Park Avenue draft killed (covered by #868). Stale 'next' corrected 1195->1197.",
+  "last_checked": "2026-10-17T03:55:00-07:00",
+  "last_completed": "2026-10-17T03:55:00-07:00",
+  "last_completed_date": "2026-10-17",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1195,
+  "next": 1197,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15063,6 +15063,47 @@
         "critic_panel": "drafts/1195-ram-1500-buckle-anchor-invisible-defect-critic-panel-r0.md"
       },
       "note": "2026-10-17 01:30 run: full RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.89, all 7 >= 8.5; gates: em 0, banned 0, The 8.8%, rhythm PASS after fragment-merge pass, hero JPEG 1920x1280 ?v=7a1ee9e3). Novel: NHTSA 26V495/Chrysler 67D rear buckle-anchor recall; 0.1% x 1,271,294 = ~1,271-truck derivation; 8.2-yr build span; Transport Canada discovery + 6-month review; invisible-defect paradox. Zero queue overlap (no 67D/26V495/buckle-anchor coverage). Queued 2027-10-20 (1 day after #1194's 2027-10-19; 1/day)."
+    },
+    {
+      "number": 1196,
+      "slug": "1196-compact-pickup-death-gap",
+      "title": "America's Deadliest Trucks Aren't the Big Ones. They're the Small Ones Nobody Remembers.",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-21",
+      "started": "2026-10-17T03:30:00-07:00",
+      "critique_round": 0,
+      "avg_critic": 8.91,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "340a4df0",
+        "rhythm_variance": 460.6,
+        "word_count": 432,
+        "references": 3
+      },
+      "files": {
+        "research": "drafts/1196-compact-pickup-death-gap-research.md",
+        "story": "drafts/1196-compact-pickup-death-gap.html",
+        "hero": "drafts/1196-compact-pickup-death-gap.jpg",
+        "critic_panel": "drafts/1196-compact-pickup-death-gap-critic-panel-r0.md"
+      },
+      "note": "2026-10-17 03:30 run: Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle. Compact pickups (S-10 4.83, Ranger 2.91, Dakota 2.62, Sonoma 2.13; 6,131 deaths) kill at 2-4.6x full-size truck rates; impairment parity across segments rules out driver-behavior explanation (original cross-tab). NOTE: status.json 'next' was stale at 1195; queue+git log showed #1195 (Ram 1500) already SHIP_BLOCKED 2027-10-20, so this is #1196. Killed a duplicate Park Avenue draft mid-run (covered by #868, queued 2026-12-02). One pre-panel revision (The-starters 30%->11.1%, fragments merged)."
     }
   ]
 }
