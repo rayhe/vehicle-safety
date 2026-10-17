@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1194-vw-id4-80-percent-fire-recall",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-16T23:45:00-07:00",
-    "number": 1194
-  },
+  "current": null,
   "last_check_note": "2026-10-16 21:30 run: #1193 SHIP_BLOCKED (ship 2027-10-18; Clara Rollover; r0 8.75). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle (next corrected 1192->1194). PUBLISH-QUEUE: 2 Publish-# commits already today (1/day gate consumed); only due entry is #763 (hero-blocked, no files \u2014 never stalls cadence). Cadence satisfied.",
   "last_checked": "2026-10-16T21:30:00-07:00",
-  "last_completed": "2026-10-16T21:30:00-07:00",
+  "last_completed": "2026-10-16T23:55:00-07:00",
   "last_completed_date": "2026-10-16",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1194,
+  "next": 1195,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14989,6 +14983,44 @@
         "word_count": 495
       },
       "note": "2026-10-16 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.75, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG 1920x1280 ?v=3a64d44f). Novel: NHTSA 26V606000 (Ford 26C43) Tier-3 chip-fab contamination killing headlights on 2025-2027 Expedition + 2026 Super Duty; 417-vehicle expectation math (1% of 41,748); sealed-assembly-vs-bulb economics. Zero prior coverage in queue (26V606/led-headlight greps clean)."
+    },
+    {
+      "number": 1194,
+      "slug": "1194-vw-id4-80-percent-fire-recall",
+      "title": "Volkswagen Recalled 22,524 ID.4s for a Fire Risk It Can't Explain. The Fix Is a Sticker and 80%.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-19",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2352x1008",
+        "word_count": 497,
+        "rhythm_variance": 605.1
+      },
+      "files": {
+        "research": "drafts/1194-vw-id4-80-percent-fire-recall-research.md",
+        "story": "drafts/1194-vw-id4-80-percent-fire-recall.html",
+        "hero": "drafts/1194-vw-id4-80-percent-fire-recall.jpg",
+        "critic_panel": "drafts/1194-vw-id4-80-percent-fire-recall-critic-panel-r0.md"
+      },
+      "note": "2026-10-16 23:30 run: full RESEARCH->DRAFT->CRITIQUE->SHIP cycle (r0 VERDICT SHIP, avg 8.86). NHTSA 26V630/VW 93EX: 22,524 ID.4s (2023-2026), root cause unknown, remedy under development, interim 80% cap + stickers + OTA. Dateline pre-set to October 19, 2027 (ship_date)."
     }
   ]
 }
