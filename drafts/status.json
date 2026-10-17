@@ -1,13 +1,13 @@
 {
   "current": {
-    "slug": "1190-iihs-pedestrian-braking-not-even-offered",
+    "slug": "1191-nyc-ebike-23-bills-denominator",
     "phase": "SHIP_BLOCKED",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-16T15:30:00-07:00"
+    "journalist": "Axle McScatter",
+    "started": "2026-10-16T17:30:00-07:00"
   },
   "last_check_note": "2026-10-16 13:30 run: #1189 SHIP_BLOCKED (ship 2027-10-14; Mia Crumplezone; r0 8.86). PUBLISH-QUEUE skipped: 2 publishes already today.",
   "last_checked": "2026-10-16T13:35:00-07:00",
-  "last_completed": "2026-10-16T15:30:00-07:00",
+  "last_completed": "2026-10-16T17:30:00-07:00",
   "last_completed_date": "2026-10-16",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -14867,6 +14867,47 @@
       },
       "hero": "drafts/1190-iihs-pedestrian-braking-not-even-offered.jpg",
       "note": "2026-10-16 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.79, all 7 >= 8.5; gates: em 1, banned 0, The 13.8%, rhythm PASS variance 716.3/short 8.7%/long 60.9%; hero JPEG 1920x1280 hash c5eb8b13, cache-busted ?v=). Novel: IIHS Oct 2026 11-vehicle weak pedestrian-braking list; Wrangler/Gladiator/Durango don't offer the system at any trim (verified on iihs.org rating page); FARS cross-tab shows Altima (2.88) and Trailblazer (2.83) ~5x fleet median (0.54), 58x spread across measurable models. Queued SHIP_BLOCKED 2027-10-15 (1 day after latest SHIP_BLOCKED)."
+    },
+    {
+      "number": 1191,
+      "slug": "1191-nyc-ebike-23-bills-denominator",
+      "title": "E-Bike Deaths Are Up 30%. The Denominator Says Slow Down.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-16",
+      "scores": {
+        "general": 8.7,
+        "voice": 9.0,
+        "ethics": 8.9,
+        "social": 8.6,
+        "legal": 9.0,
+        "rigor": 8.7,
+        "data": 8.8,
+        "avg": 8.81
+      },
+      "kicker": "By The Numbers",
+      "started": "2026-10-16T17:30:00-07:00",
+      "hero": "drafts/1191-nyc-ebike-23-bills-denominator.jpg",
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1191-nyc-ebike-23-bills-denominator-research.md",
+        "story": "drafts/1191-nyc-ebike-23-bills-denominator.html",
+        "hero": "drafts/1191-nyc-ebike-23-bills-denominator.jpg",
+        "critic_panel": "drafts/1191-nyc-ebike-23-bills-denominator-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "2fd4053d",
+        "rhythm": "pass (variance 514.7, short 15.4%, long 34.6%)",
+        "word_count": 787
+      },
+      "note": "2026-10-16 17:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.81, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG 1920x1280 ?v=2fd4053d). Novel: NYC 23-bill package vs the denominator; 54% of 45 e-bike deaths 2017-2025 involved already-illegal >25mph devices; legal-fleet estimate ~2.3 deaths/yr; per-rider rate ~3.8/100k annualized; CPSC battery-fire track (367 fires/45 deaths 2017-2024) vs crash track. 8 sources incl. primary NYC Council press release. Queued SHIP_BLOCKED 2027-10-16 (latest + 1 day; 1/day; #1190 at 2027-10-15)."
     }
   ]
 }
