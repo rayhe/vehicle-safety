@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1197-california-erased-the-gains",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-17T05:30:00-07:00",
-    "critique_round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-17 03:30 run: #1196 SHIP_BLOCKED (ship 2027-10-21; Rex Driverton; r0 8.91). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle on compact-pickup death gap (S-10 4.83 rate, 4.6x F-150, impairment parity twist). Duplicate Park Avenue draft killed (covered by #868). Stale 'next' corrected 1195->1197.",
   "last_checked": "2026-10-17T03:55:00-07:00",
-  "last_completed": "2026-10-17T03:55:00-07:00",
+  "last_completed": "2026-10-17T05:35:00-07:00",
   "last_completed_date": "2026-10-17",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -15110,6 +15104,47 @@
         "critic_panel": "drafts/1196-compact-pickup-death-gap-critic-panel-r0.md"
       },
       "note": "2026-10-17 03:30 run: Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle. Compact pickups (S-10 4.83, Ranger 2.91, Dakota 2.62, Sonoma 2.13; 6,131 deaths) kill at 2-4.6x full-size truck rates; impairment parity across segments rules out driver-behavior explanation (original cross-tab). NOTE: status.json 'next' was stale at 1195; queue+git log showed #1195 (Ram 1500) already SHIP_BLOCKED 2027-10-20, so this is #1196. Killed a duplicate Park Avenue draft mid-run (covered by #868, queued 2026-12-02). One pre-panel revision (The-starters 30%->11.1%, fragments merged)."
+    },
+    {
+      "number": 1197,
+      "slug": "1197-california-erased-the-gains",
+      "title": "Nine States Saved 457 Lives. California Gave Back 338 of Them.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-22",
+      "started": "2026-10-17T05:30:00-07:00",
+      "critique_round": 0,
+      "avg_critic": 8.8,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "04f60a01",
+        "rhythm_variance": 440.7,
+        "word_count": 678,
+        "references": 4
+      },
+      "files": {
+        "research": "drafts/1197-california-erased-the-gains-research.md",
+        "story": "drafts/1197-california-erased-the-gains.html",
+        "hero": "drafts/1197-california-erased-the-gains.jpg",
+        "critic_panel": "drafts/1197-critic-panel-r0.md"
+      },
+      "note": "2026-10-17 05:30 run: Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle (Axle McScatter). NSC Aug 2026 preliminary estimates: Aug 3,440 deaths (-9% YoY), monthly rate 1.17 (17% below Aug 2023); CA +18% (+338) YTD vs nine best states saving 457 combined; 338/457=74% erasure; 2.6x Illinois best (-128). Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 10.7%, rhythm PASS, hero JPEG 1920x1280 ?v=04f60a01). Queued 2027-10-22 (1 day after #1196s 2027-10-21; 1/day)."
     }
   ]
 }
