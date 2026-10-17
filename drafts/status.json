@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-16 19:30 run: #1192 SHIP_BLOCKED (ship 2027-10-17; Vin Wreckage; r0 8.87). #1191 entry verified complete in queue; current cleared to null (17:30 run left it set). PUBLISH-QUEUE skipped: 2 Publish-# commits already today (gate >= 1); only due entry remains #763 (hero-blocked, never stalls cadence).",
-  "last_checked": "2026-10-16T19:30:00-07:00",
-  "last_completed": "2026-10-16T17:30:00-07:00",
+  "last_check_note": "2026-10-16 21:30 run: #1193 SHIP_BLOCKED (ship 2027-10-18; Clara Rollover; r0 8.75). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle in one run (next corrected 1192->1194; prior run left it stale). PUBLISH-QUEUE below.",
+  "last_checked": "2026-10-16T21:30:00-07:00",
+  "last_completed": "2026-10-16T21:30:00-07:00",
   "last_completed_date": "2026-10-16",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1192,
+  "next": 1194,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -14943,6 +14943,46 @@
         "word_count": 1124
       },
       "note": "2026-10-16 19:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.87, all 7 >= 8.5; gates: em 0, banned 0, The 1.2%, rhythm PASS, hero JPEG 1920x1280 ?v=07489584; round-0 repair: merged 3 choppy fragments for rhythm). Novel: zero prior underride coverage in 1191 articles; Stop Underrides Act 2.0 (S. 3775/H.R. 7354, Feb 2026, 18-mo deadline, 40 mph); NHTSA's $1.2B/17.2-lives cost-benefit built on FARS count GAO+IIHS+Congress agree is undercounted (bill orders FARS recount); derived: ~1 in 5 side-underride deaths at survivable speeds; sensitivity math shows economics fail even at 2-3x death counts; NHTSA moved 'analyzing comments' deadline 3x (12/2024->01/2026->07/2026); 1969 DOT side-guard promise. 9 primary/secondary sources. Queued SHIP_BLOCKED 2027-10-17 (latest + 1 day; 1/day; #1191 at 2027-10-16)."
+    },
+    {
+      "number": 1193,
+      "slug": "1193-ford-super-duty-expedition-led-headlight-recall",
+      "title": "Ford Recalled 41,748 Nearly-New Trucks. The Headlights Died Because a Chip Factory Got Dirty.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-18",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 8.75,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 8.5,
+        "avg": 8.75
+      },
+      "kicker": "Investigation",
+      "started": "2026-10-16T21:30:00-07:00",
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1193-ford-super-duty-expedition-led-headlight-recall-research.md",
+        "story": "drafts/1193-ford-super-duty-expedition-led-headlight-recall.html",
+        "hero": "drafts/1193-ford-super-duty-expedition-led-headlight-recall.jpg",
+        "critic_panel": "drafts/1193-ford-super-duty-expedition-led-headlight-recall-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "3a64d44f",
+        "rhythm": "pass (variance 603.9, short 7.1%, long 50.0%)",
+        "word_count": 495
+      },
+      "note": "2026-10-16 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.75, all 7 >= 8.5; gates: em 0, banned 0, The 11.5%, rhythm PASS, hero JPEG 1920x1280 ?v=3a64d44f). Novel: NHTSA 26V606000 (Ford 26C43) Tier-3 chip-fab contamination killing headlights on 2025-2027 Expedition + 2026 Super Duty; 417-vehicle expectation math (1% of 41,748); sealed-assembly-vs-bulb economics. Zero prior coverage in queue (26V606/led-headlight greps clean)."
     }
   ]
 }
