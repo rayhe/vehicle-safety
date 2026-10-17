@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-16 21:30 run: #1193 SHIP_BLOCKED (ship 2027-10-18; Clara Rollover; r0 8.75). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle in one run (next corrected 1192->1194; prior run left it stale). PUBLISH-QUEUE below.",
+  "last_check_note": "2026-10-16 21:30 run: #1193 SHIP_BLOCKED (ship 2027-10-18; Clara Rollover; r0 8.75). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle (next corrected 1192->1194). PUBLISH-QUEUE: 2 Publish-# commits already today (1/day gate consumed); only due entry is #763 (hero-blocked, no files — never stalls cadence). Cadence satisfied.",
   "last_checked": "2026-10-16T21:30:00-07:00",
   "last_completed": "2026-10-16T21:30:00-07:00",
   "last_completed_date": "2026-10-16",
