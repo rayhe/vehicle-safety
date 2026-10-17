@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1200-eu-driver-camera-rules-america-didnt",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-17T11:30:00-07:00",
-    "critique_round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-17 09:30 run: #1199 shipped (queued 2027-10-24). PUBLISH-QUEUE: 1/day gate hit (3 publishes today) \u2014 no publish; only due entry is #763 (hero-blocked). Queue 407 through 2027-10-24.",
   "last_checked": "2026-10-17T11:30:00-07:00",
-  "last_completed": "2026-10-17T09:30:00-07:00",
+  "last_completed": "2026-10-17T11:30:00-07:00",
   "last_completed_date": "2026-10-17",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1200,
+  "next": 1201,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15205,6 +15199,47 @@
         "research": "drafts/silverado-drugged-driver-body-count-research.md",
         "story": "drafts/silverado-drugged-driver-body-count.html"
       }
+    },
+    {
+      "number": 1200,
+      "slug": "1200-eu-driver-camera-rules-america-didnt",
+      "title": "Europe Wrote the Law for the Camera Watching Your Eyes. America Wrote Nothing.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "ship_date": "2027-10-25",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_class": true,
+        "style_css": true,
+        "word_count": 522,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "d6a60f53",
+        "rhythm_variance": 269.9,
+        "rhythm_short_pct": 13.8,
+        "rhythm_long_pct": 41.4
+      },
+      "files": {
+        "research": "drafts/1200-eu-driver-camera-rules-america-didnt-research.md",
+        "story": "drafts/1200-eu-driver-camera-rules-america-didnt.html",
+        "hero": "drafts/1200-eu-driver-camera-rules-america-didnt.jpg",
+        "critic_panel": "drafts/1200-eu-driver-camera-rules-america-didnt-critic-panel-r0.md"
+      },
+      "note": "2026-10-17 11:30 run: round-0 panel VERDICT SHIP (avg 8.79). Queued 1 day after #1199 (2027-10-24). Gates: em 0, banned 0, The 9.1%, css ok, rhythm PASS, hero JPEG 2048x1152 ?v=d6a60f53. Dateline pre-set to ship_date 2027-10-25."
     }
   ]
 }
