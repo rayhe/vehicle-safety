@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-17 07:30 run: #1198 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Mia Crumplezone, avg 8.79), queued 2027-10-23. Queue now 406 entries through 2027-10-23.",
+  "current": {
+    "slug": "silverado-drugged-driver-body-count",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-17T09:30:00-07:00"
+  },
+  "last_check_note": "2026-10-17 09:30 run: #1199 RESEARCH complete (Dale Impactor III, drugged body-count volume-vs-rate).",
   "last_checked": "2026-10-17T08:00:00-07:00",
   "last_completed": "2026-10-17T05:35:00-07:00",
   "last_completed_date": "2026-10-17",
