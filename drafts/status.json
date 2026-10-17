@@ -1,10 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "iihs-work-trucks-fail-first-aeb-test",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-17T07:35:00-07:00"
+  },
   "last_check_note": "2026-10-17 05:30 run: #1197 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Axle McScatter, avg 8.80), queued 2027-10-22. PUBLISH-QUEUE: 1/day gate consumed (3x Publish #821); #763 still due but hero-less, skipped per no-stall rule. Queue now 405 entries through 2027-10-22.",
-  "last_checked": "2026-10-17T03:55:00-07:00",
+  "last_checked": "2026-10-17T07:35:00-07:00",
   "last_completed": "2026-10-17T05:35:00-07:00",
   "last_completed_date": "2026-10-17",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
