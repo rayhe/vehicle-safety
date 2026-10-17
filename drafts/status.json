@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1197-california-erased-the-gains",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-10-17T05:30:00-07:00"
+    "started": "2026-10-17T05:30:00-07:00",
+    "critique_round": 0
   },
   "last_check_note": "2026-10-17 03:30 run: #1196 SHIP_BLOCKED (ship 2027-10-21; Rex Driverton; r0 8.91). Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle on compact-pickup death gap (S-10 4.83 rate, 4.6x F-150, impairment parity twist). Duplicate Park Avenue draft killed (covered by #868). Stale 'next' corrected 1195->1197.",
   "last_checked": "2026-10-17T03:55:00-07:00",
