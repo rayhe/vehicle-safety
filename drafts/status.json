@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1200-eu-driver-camera-rules-america-didnt",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-10-17T11:30:00-07:00"
+    "started": "2026-10-17T11:30:00-07:00",
+    "critique_round": 0
   },
   "last_check_note": "2026-10-17 09:30 run: #1199 shipped (queued 2027-10-24). PUBLISH-QUEUE: 1/day gate hit (3 publishes today) \u2014 no publish; only due entry is #763 (hero-blocked). Queue 407 through 2027-10-24.",
   "last_checked": "2026-10-17T11:30:00-07:00",
