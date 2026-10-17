@@ -1,12 +1,7 @@
 {
-  "current": {
-    "slug": "iihs-work-trucks-fail-first-aeb-test",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-17T07:35:00-07:00"
-  },
-  "last_check_note": "2026-10-17 05:30 run: #1197 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Axle McScatter, avg 8.80), queued 2027-10-22. PUBLISH-QUEUE: 1/day gate consumed (3x Publish #821); #763 still due but hero-less, skipped per no-stall rule. Queue now 405 entries through 2027-10-22.",
-  "last_checked": "2026-10-17T07:35:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-17 07:30 run: #1198 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Mia Crumplezone, avg 8.79), queued 2027-10-23. Queue now 406 entries through 2027-10-23.",
+  "last_checked": "2026-10-17T08:00:00-07:00",
   "last_completed": "2026-10-17T05:35:00-07:00",
   "last_completed_date": "2026-10-17",
   "last_journalist": "Mia Crumplezone",
@@ -15,7 +10,7 @@
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1198,
+  "next": 1199,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15150,6 +15145,43 @@
         "critic_panel": "drafts/1197-critic-panel-r0.md"
       },
       "note": "2026-10-17 05:30 run: Full RESEARCH->DRAFT->CRITIQUE->SHIP cycle (Axle McScatter). NSC Aug 2026 preliminary estimates: Aug 3,440 deaths (-9% YoY), monthly rate 1.17 (17% below Aug 2023); CA +18% (+338) YTD vs nine best states saving 457 combined; 338/457=74% erasure; 2.6x Illinois best (-128). Round-0 panel VERDICT: SHIP (avg 8.80, all 7 >= 8.5; gates: em 0, banned 0, The 10.7%, rhythm PASS, hero JPEG 1920x1280 ?v=04f60a01). Queued 2027-10-22 (1 day after #1196s 2027-10-21; 1/day)."
+    },
+    {
+      "journalist": "Mia Crumplezone",
+      "note": "2026-10-17 07:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete. Round-0 panel avg 8.79, VERDICT SHIP (all 7 critics 8.5+). Hard gates: em 0, banned 0, The 8.1%, css ok, rhythm PASS (var 217.9), hero JPEG 2352x1008 ?v=3bcd048c, body 629w. Original contribution: FARS cross-tab \u2014 AEB-less Express (0.92) and Savana (0.54) are the deadliest vans vs Transit (0.14); 6.6x/3.9x multiples.",
+      "number": 1198,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-23",
+      "slug": "iihs-work-trucks-fail-first-aeb-test",
+      "title": "IIHS Gave Work Trucks Their First Crash-Avoidance Test. Every Heavy-Duty Pickup Flunked.",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "files": {
+        "research": "drafts/iihs-work-trucks-fail-first-aeb-test-research.md",
+        "story": "drafts/iihs-work-trucks-fail-first-aeb-test.html",
+        "hero": "drafts/iihs-work-trucks-fail-first-aeb-test-hero.jpg",
+        "critic_panel": "drafts/iihs-work-trucks-fail-first-aeb-test-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "3bcd048c",
+        "word_count": 629
+      }
     }
   ]
 }
