@@ -1043,7 +1043,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 9.1 avg; 7/7 critics >= 8.5. Merged 10 fragments pre-panel to clear rhythm gate. Novel contribution: first cross-manufacturer census of 8 BACK OVER PREVENTION recalls (Oct 2024-Sep 2026, ~2.37M vehicles) from NHTSA API + field-report-to-filing lag analysis (2 vs 12 vs 15 months) from Part 573 chronologies; finding that all 8 are software/display failures (0 broken cameras); NHTSA API overTheAirUpdate flag False for 4 campaigns whose remedy text explicitly offers OTA. Raw API JSON saved in drafts/. News peg: Chrysler 26V560 (239,131 Ram 1500s) filed 2026-09-01. 2026-10-17 01:30 run: PUBLISHED (due 2026-10-17, hero-ready, 1/day gate consumed).",
+      "note": "Round-0 pass 9.1 avg; 7/7 critics >= 8.5. Merged 10 fragments pre-panel to clear rhythm gate. Novel contribution: first cross-manufacturer census of 8 BACK OVER PREVENTION recalls (Oct 2024-Sep 2026, ~2.37M vehicles) from NHTSA API + field-report-to-filing lag analysis (2 vs 12 vs 15 months) from Part 573 chronologies; finding that all 8 are software/display failures (0 broken cameras); NHTSA API overTheAirUpdate flag False for 4 campaigns whose remedy text explicitly offers OTA. Raw API JSON saved in drafts/. News peg: Chrysler 26V560 (239,131 Ram 1500s) filed 2026-09-01. 2026-10-17 01:30 run: PUBLISHED (due 2026-10-17, hero-ready, 1/day gate consumed). 2026-10-17 01:30 run: QA-PASS \u2014 story 200 (via .html redirect), hero JPEG 200, og:title/og:image/og:description verified, index card + sitemap live (deploy e82c576b).",
       "number": 821,
       "phase": "PUBLISHED",
       "scores": {
