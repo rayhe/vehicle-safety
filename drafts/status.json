@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1202-california-killed-first-time-interlock-bill",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-17T15:30:00-07:00"
+  },
   "last_check_note": "2026-10-17 13:30 run: #1201 SHIP->queued (2027-10-26); publish-queue: 1/day gate hit (3 publishes today), only due entry #763 hero-less, skipped per policy.",
   "last_checked": "2026-10-17T11:30:00-07:00",
   "last_completed": "2026-10-17T13:30:00-07:00",
