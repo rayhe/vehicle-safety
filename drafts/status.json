@@ -1,5 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1203-kia-seltos-salt-fire-recall-twice",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-17T17:30:00-07:00",
+    "number": 1203,
+    "kicker": "Investigation",
+    "note": "2026-10-17 17:30 run: #1203 (Kia Canada Seltos AWD salt-corrosion fire recall, Oct 2026, 48,070 units; second occurrence after Feb 2024 44,000-unit recall of 2021-2023 MY for identical defect; no US NHTSA recall; Mia Crumplezone) RESEARCH complete. Novel: recurrence ledger (~92k total), Canada-only gap verified via NHTSA API, Hyundai-Kia parallel fire programs."
+  },
   "last_check_note": "#1202 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Dale Impactor III, avg 8.74, queued 2027-10-27). PUBLISH-QUEUE: 1/day gate consumed (3 publishes today); only due entry #763 is hero-blocked, skipped per no-stall rule. Cadence satisfied.",
   "last_checked": "2026-10-17T15:30:00-07:00",
   "last_completed": "2026-10-17T13:30:00-07:00",
