@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "#1207 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton, avg 8.79, queued 2027-11-01; next counter fixed 1208). Proceeding to PUBLISH-QUEUE.",
+  "last_check_note": "#1207 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton, avg 8.79, queued 2027-11-01; next counter 1208). PUBLISH-QUEUE: 1/day gate open; #763 skipped (hero-less, policy-blocked, no-stall rule); #822 published + QA-verified live.",
   "last_checked": "2026-10-18T01:30:00-07:00",
   "last_completed": "2026-10-18T01:30:00-07:00",
   "last_completed_date": "2026-10-18",
   "last_journalist": "Rex Driverton",
-  "last_published": "2026-10-15T01:30:00-07:00",
-  "last_published_date": "2026-10-15",
-  "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
+  "last_published": "2026-10-18T01:30:00-07:00",
+  "last_published_date": "2026-10-18",
+  "last_published_slug": "822-tesla-cybercab-aq26002-zoox-precedent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
   "next": 1208,
@@ -1082,9 +1082,9 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: Part 555 2,500/year cap math vs Tesla's dozen-state expansion (12x250=3,000 > cap in year one); rulemaking-race frame (June 2026 brake-pedal proposal vs AQ26002 timeline); 4-year Zoox AQ23001 precedent clock. News peg: NHTSA AQ26002 opened 2026-09-03, same day as Cybercab commercial launch in Austin. AQ26002 filing summarized from press (Reuters/Electrek/TechTimes/USA Today), disclosed in limitations.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Novel contribution: Part 555 2,500/year cap math vs Tesla's dozen-state expansion (12x250=3,000 > cap in year one); rulemaking-race frame (June 2026 brake-pedal proposal vs AQ26002 timeline); 4-year Zoox AQ23001 precedent clock. News peg: NHTSA AQ26002 opened 2026-09-03, same day as Cybercab commercial launch in Austin. AQ26002 filing summarized from press (Reuters/Electrek/TechTimes/USA Today), disclosed in limitations. | 2026-10-18 01:30 run: SHIPPED as #822 (1/day slot; 0 prior publishes today). Pre-ship fixes: dateline -> October 18, 2026 (was Sept 4), og:image -> absolute URL with fresh hero hash 7ede0634 (stale 381d1133 replaced), deduped og:type. QA live-verified: story 200 (extensionless URL), hero JPEG 200, og tags present, index card present, sitemap includes URL.",
       "number": 822,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "average": 8.97,
         "data_presentation": 9.0,
@@ -1098,7 +1098,14 @@
       "ship_date": "2026-10-18",
       "slug": "tesla-cybercab-aq26002-zoox-precedent",
       "started": "2026-09-05T04:45:00Z",
-      "title": "One Day After Launch, the Feds Asked Tesla to Prove the Cybercab Is Legal. The Last Company That Got This Letter Needed Four Years."
+      "title": "One Day After Launch, the Feds Asked Tesla to Prove the Cybercab Is Legal. The Last Company That Got This Letter Needed Four Years.",
+      "files": {
+        "story": "stories/822-tesla-cybercab-aq26002-zoox-precedent.html",
+        "hero": "images/822-tesla-cybercab-aq26002-zoox-precedent.jpg",
+        "research": "drafts/tesla-cybercab-aq26002-zoox-precedent-research.md",
+        "critic_panel": "drafts/822-tesla-cybercab-aq26002-zoox-precedent-critique.md"
+      },
+      "publish_commit": "a4ccc564"
     },
     {
       "critic_avg": 8.9,
