@@ -1,21 +1,16 @@
 {
- "current": {
-  "slug": "1209-telluride-seat-fire-second-recall",
-  "phase": "DRAFT",
-  "journalist": "Clara Rollover",
-  "started": "2026-10-18T05:30:00-07:00"
- },
- "last_check_note": "#1209 RESEARCH complete (Clara Rollover): Kia Telluride 26V430 seat-fire re-recall (462,869 units; replaces 24V407; 18 incidents/7 fires); 2026-campaign census context (110 campaigns, 2 park-outside).",
+ "current": null,
+ "last_check_note": "#1209 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Clara Rollover, avg 8.71, queued 2027-11-03; next counter 1210).",
  "last_checked": "2026-10-18T03:30:00-07:00",
- "last_completed": "2026-10-18T03:30:00-07:00",
+ "last_completed": "2026-10-18T05:30:00-07:00",
  "last_completed_date": "2026-10-18",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-10-18T01:30:00-07:00",
  "last_published_date": "2026-10-18",
  "last_published_slug": "822-tesla-cybercab-aq26002-zoox-precedent",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1209,
+ "next": 1210,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -15582,6 +15577,51 @@
     "hero": "drafts/1208-stellantis-esc-hat-trick.jpg"
    },
    "note": "2026-10-18 03:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.79, floor 8.5; gates: em 1, banned 0, The 0.0%, rhythm PASS variance 271.3/short 14.3%/long 28.6%, hero JPEG 1920x1280 ?v=1effc305). Novel: 64-query NHTSA API census of 2026 campaigns (77 unique) found exactly 3 ESC-loss campaigns, all Stellantis (26V244 6,605 Ram 2500 Apr; 26V561 2,017 Voyager/Pacifica Sep; 26V651 8,329 Ram 2500 Oct, expands 26V244 and is 26% larger than it). Full-queue dup check clean. Queued SHIP_BLOCKED 2027-11-02 (1 day after latest SHIP_BLOCKED 2027-11-01)."
+  },
+  {
+   "number": 1209,
+   "slug": "1209-telluride-seat-fire-second-recall",
+   "title": "Kia Fixed the Telluride's Fire-Prone Seats. Seven of Them Burned Anyway.",
+   "journalist": "Clara Rollover",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-11-03",
+   "critique_round": 0,
+   "critic_avg": 8.71,
+   "scores": {
+    "general_editor": 8.6,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 8.7,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.8,
+    "data_presentation": 8.6,
+    "average": 8.71
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.3,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 1810.2,
+     "short_pct": 8.8,
+     "long_pct": 61.8
+    },
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "7ee161c4",
+    "word_count": 797
+   },
+   "files": {
+    "research": "drafts/1209-telluride-seat-fire-second-recall-research.md",
+    "story": "drafts/1209-telluride-seat-fire-second-recall.html",
+    "critic_panel": "drafts/1209-telluride-seat-fire-second-recall-critic-panel-r0.md",
+    "hero": "drafts/1209-telluride-seat-fire-second-recall.jpg"
+   },
+   "note": "2026-10-18 05:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.71, floor 8.5; gates: em 0, banned 0, The 9.3%, rhythm PASS variance 1810.2/short 8.8%/long 61.8%, hero JPEG 1920x1280 ?v=7ee161c4). Novel: 26V430 re-recall (462,869 Tellurides; 24V407 bracket fix installed wrong; 18 incidents/7 fires on already-repaired cars; 25-month gap); 2026-campaign census (110 campaigns, 2 park-outside). Full-queue dup check clean. Queued SHIP_BLOCKED 2027-11-03 (1 day after latest SHIP_BLOCKED 2027-11-02)."
   }
  ]
 }
