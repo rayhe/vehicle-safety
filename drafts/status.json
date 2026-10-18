@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "#1202 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Dale Impactor III, avg 8.74, queued 2027-10-27). PUBLISH-QUEUE: 1/day gate consumed (3 publishes today); only due entry #763 is hero-blocked, skipped per no-stall rule. Cadence satisfied.",
-  "last_checked": "2026-10-17T15:30:00-07:00",
+  "current": {
+    "slug": "1204-land-cruiser-resin-fuel-tube",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-17T19:30:00-07:00"
+  },
+  "last_check_note": "#1204 RESEARCH complete (Rex Driverton): Toyota recalling 106,000 MY2024-2027 Land Cruisers over separating resin fuel tube (13 leak reports + 1 fire). FARS: 343 deaths, rate 6.27/100M VMT, 8.9% impairment. No prior coverage. Angle: reliability-icon badge, second fuel-containment recall in nameplate history (1991: 38K).",
+  "last_checked": "2026-10-17T19:30:00-07:00",
   "last_completed": "2026-10-17T17:30:00-07:00",
   "last_completed_date": "2026-10-17",
   "last_journalist": "Dale Impactor III",
