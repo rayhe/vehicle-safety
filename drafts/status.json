@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "#1209 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Clara Rollover, avg 8.71, queued 2027-11-03; next counter 1210).",
- "last_checked": "2026-10-18T03:30:00-07:00",
- "last_completed": "2026-10-18T05:30:00-07:00",
+ "last_check_note": "#1210 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Axle McScatter, IIHS large-SUV lab-vs-FARS cross-tab, avg 8.74, queued 2027-11-04; first attempt Sierra RQ26003 killed as 5th duplicate of #1149/#1170/#1188/#1207; next counter 1211).",
+ "last_checked": "2026-10-18T07:30:00-07:00",
+ "last_completed": "2026-10-18T07:30:00-07:00",
  "last_completed_date": "2026-10-18",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-10-18T01:30:00-07:00",
  "last_published_date": "2026-10-18",
  "last_published_slug": "822-tesla-cybercab-aq26002-zoox-precedent",
  "last_qa_date": "2026-10-13",
  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
- "next": 1210,
+ "next": 1211,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -15622,6 +15622,51 @@
     "hero": "drafts/1209-telluride-seat-fire-second-recall.jpg"
    },
    "note": "2026-10-18 05:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.71, floor 8.5; gates: em 0, banned 0, The 9.3%, rhythm PASS variance 1810.2/short 8.8%/long 61.8%, hero JPEG 1920x1280 ?v=7ee161c4). Novel: 26V430 re-recall (462,869 Tellurides; 24V407 bracket fix installed wrong; 18 incidents/7 fires on already-repaired cars; 25-month gap); 2026-campaign census (110 campaigns, 2 park-outside). Full-queue dup check clean. Queued SHIP_BLOCKED 2027-11-03 (1 day after latest SHIP_BLOCKED 2027-11-02)."
+  },
+  {
+   "number": 1210,
+   "slug": "1210-iihs-large-suv-lab-vs-body-count",
+   "title": "IIHS Crowned Two Electric SUVs the Safest. The Real World Has Never Measured Them.",
+   "journalist": "Axle McScatter",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-11-04",
+   "critique_round": 0,
+   "critic_avg": 8.74,
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.6,
+    "legal_accuracy": 8.6,
+    "research_rigor": 8.9,
+    "data_presentation": 8.8,
+    "average": 8.74
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 13.9,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 614.7,
+     "short_pct": 6.1,
+     "long_pct": 45.5
+    },
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "2a97148e",
+    "word_count": 790
+   },
+   "files": {
+    "research": "drafts/1210-iihs-large-suv-lab-vs-body-count-research.md",
+    "story": "drafts/1210-iihs-large-suv-lab-vs-body-count.html",
+    "critic_panel": "drafts/1210-iihs-large-suv-lab-vs-body-count-critic-panel-r0.md",
+    "hero": "drafts/1210-iihs-large-suv-lab-vs-body-count.jpg"
+   },
+   "note": "2026-10-18 07:30 run: first attempt (Sierra grille RQ26003) KILLED at queue dup check (RQ26003 already covered by #1149/#1170/#1188/#1207); draft files deleted, nothing committed. Pivoted to IIHS 2026 large-SUV round x FARS cross-tab (Axle McScatter, kicker The Gap). Round-0 panel VERDICT: SHIP (avg 8.74, 7/7 >= 8.5; gates: em 0, banned 0, The 13.9%, rhythm PASS variance 614.7/short 6.1%/long 45.5%, hero JPEG 1920x1280 ?v=2a97148e). Novel: 3.0x real-world spread inside single 'no award' label (Tahoe 2.49 vs Sequoia 0.83); Armada quiet winner (TSP + 0.55); TSP+ winners (R1S/EX90) have zero FARS history; Yukon 2.55 untested. Queued SHIP_BLOCKED 2027-11-04 (1 day after latest SHIP_BLOCKED 2027-11-03)."
   }
  ]
 }
