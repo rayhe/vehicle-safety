@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "#1206 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Clara Rollover, avg 8.86, queued 2027-10-31).",
-  "last_checked": "2026-10-17T19:30:00-07:00",
+  "last_check_note": "#1206 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Clara Rollover, avg 8.86, queued 2027-10-31; next counter fixed 1205->1207). PUBLISH-QUEUE: 1/day gate consumed (3 publishes today); skip publishing. Only due entry #763 still hero-less (policy-blocked); no-stall rule applies. Cadence satisfied.",
+  "last_checked": "2026-10-17T23:30:00-07:00",
   "last_completed": "2026-10-17T23:30:00-07:00",
   "last_completed_date": "2026-10-17",
   "last_journalist": "Clara Rollover",
