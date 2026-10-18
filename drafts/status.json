@@ -1,16 +1,8 @@
 {
-  "current": {
-    "slug": "1203-kia-seltos-salt-fire-recall-twice",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-17T17:30:00-07:00",
-    "number": 1203,
-    "kicker": "Investigation",
-    "note": "2026-10-17 17:30 run: #1203 (Kia Canada Seltos AWD salt-corrosion fire recall, Oct 2026, 48,070 units; second occurrence after Feb 2024 44,000-unit recall of 2021-2023 MY for identical defect; no US NHTSA recall; Mia Crumplezone) RESEARCH complete. Novel: recurrence ledger (~92k total), Canada-only gap verified via NHTSA API, Hyundai-Kia parallel fire programs."
-  },
+  "current": null,
   "last_check_note": "#1202 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Dale Impactor III, avg 8.74, queued 2027-10-27). PUBLISH-QUEUE: 1/day gate consumed (3 publishes today); only due entry #763 is hero-blocked, skipped per no-stall rule. Cadence satisfied.",
   "last_checked": "2026-10-17T15:30:00-07:00",
-  "last_completed": "2026-10-17T13:30:00-07:00",
+  "last_completed": "2026-10-17T17:30:00-07:00",
   "last_completed_date": "2026-10-17",
   "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-15T01:30:00-07:00",
@@ -15330,6 +15322,47 @@
         "critic_panel": "drafts/1202-california-killed-first-time-interlock-bill-critic-panel-r0.md"
       },
       "note": "2026-10-17 15:30 run: #1202 (CA AB 1830 first-time interlock mandate killed in Senate Appropriations after 74-0 Assembly vote; 4 punitive DUI bills signed Sept 2026; Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT SHIP (avg 8.74, all 7 >= 8.5). Gates: em 0, banned 0, The 14.3%, css ok, rhythm PASS, hero JPEG 1920x1280 ?v=56415be7. Dateline pre-set to ship_date 2027-10-27. Novel: first CA-legislature story on the site; penalty-vs-prevention inversion with CDC 67% / MADD 5.7M numbers; first journalist rotation back to Dale (all-time low at 45). Kill-test rejects this run: #942 HALT Act (federal mandate, already covered), #966 drowsy undercount (already covered)."
+    },
+    {
+      "number": 1203,
+      "slug": "1203-kia-seltos-salt-fire-recall-twice",
+      "title": "Kia Recalled 44,000 Seltos for Salt-Corrosion Fires in 2024. Then It Built 48,070 More of Them.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "ship_date": "2027-10-28",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.6,
+        "css_class": true,
+        "style_css": true,
+        "word_count": 1058,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "c4c5afaa",
+        "rhythm_variance": 892.5,
+        "rhythm_short_pct": 4.7,
+        "rhythm_long_pct": 58.1
+      },
+      "files": {
+        "research": "drafts/1203-kia-seltos-salt-fire-recall-twice-research.md",
+        "story": "drafts/1203-kia-seltos-salt-fire-recall-twice.html",
+        "hero": "drafts/1203-kia-seltos-salt-fire-recall-twice.jpg",
+        "critic_panel": "drafts/1203-kia-seltos-salt-fire-recall-twice-critic-panel-r0.md"
+      },
+      "note": "2026-10-17 17:30 run: #1203 (Kia Canada Seltos AWD salt-corrosion fire recall Oct 2026, 48,070 units 2024-2026 MY; second occurrence after Feb 2024 44,000-unit recall of 2021-2023 MY for identical defect; NHTSA API confirms zero US recalls for 2025/2026 Seltos; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT SHIP (avg 8.89, all 7 >= 8.5). Gates: em 0, banned 0, The 8.6%, css ok, rhythm PASS (variance 892.5; fixed 11 short fragments), hero JPEG 1920x1280 ?v=c4c5afaa. Dateline pre-set to ship_date 2027-10-28. Novel: recurrence ledger (~92k total), Canada-only gap verified via primary NHTSA API query, Hyundai-Kia parallel fire programs (Telluride seat-motor / Genesis #1173). Kill-test rejects this run: Genesis park-outside (#1173), Sierra grille RQ (#1170/#1188), ID.4 93EX (#1172/#1194), RAV4 PHEV (#1166), IIHS commercial tests (#1175/#1189/#1198), Honda 26V663 (#1178), Tesla DP26010 (#1145/#1167), Waymo school bus (#1177), ProMaster steering (#1104/#1148), Waymo sober-night study (#1100), headlight glare rule (#1103)."
     }
   ]
 }
