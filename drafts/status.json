@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "#1204 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton, avg 8.74, queued 2027-10-29). PUBLISH-QUEUE: 1/day gate consumed (3 publishes today); skip publishing. Cadence satisfied.",
+  "last_check_note": "#1206 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Clara Rollover, avg 8.86, queued 2027-10-31).",
   "last_checked": "2026-10-17T19:30:00-07:00",
-  "last_completed": "2026-10-17T21:30:00-07:00",
+  "last_completed": "2026-10-17T23:30:00-07:00",
   "last_completed_date": "2026-10-17",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1205,
+  "next": 1207,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15445,6 +15445,48 @@
         "critic_panel": "drafts/1205-tesla-robotaxi-school-zone-petition-critic-panel-r0.md"
       },
       "note": "2026-10-17 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run. Angle: NHTSA Defect Petition DP26010 (opened Oct 9, 2026) on Tesla Robotaxi school-zone speeding, built on 4 incidents (1 complaint + 3 social videos), 0 crashes/injuries; original contributions: 0.4% incident density, fleet-multiplication asymmetry, Texas no-driver-to-ticket enforcement paradox, NHTSA school-transportation body-count reframe. Round-0 panel avg 9.0 (all 7 >= 8.5). Queued 2027-10-30."
+    },
+    {
+      "number": 1206,
+      "slug": "1206-aap-kids-ebike-trauma-data",
+      "title": "Pediatricians Studied 136,000 Kid Bike Crashes. E-Bikes Came Out Deadliest.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-10-31",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "45de2160",
+        "rhythm_variance": 1515.2,
+        "rhythm_short_pct": 7.4,
+        "rhythm_long_pct": 59.3,
+        "word_count": 570,
+        "og_image_absolute": true
+      },
+      "files": {
+        "research": "drafts/1206-aap-kids-ebike-trauma-data-research.md",
+        "story": "drafts/1206-aap-kids-ebike-trauma-data.html",
+        "hero": "drafts/1206-aap-kids-ebike-trauma-data.jpg",
+        "critic_panel": "drafts/1206-aap-kids-ebike-trauma-data-critic-panel-r0.md"
+      },
+      "note": "2026-10-17 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP round-0 pass (avg 8.86, 7/7 >= 8.5, all hard gates; rhythm variance 1515.2, short 7.4%, The-starters 4.8%, em 0, hero JPEG 1920x1280 ?v=45de2160). AAP 2026 (Oct 2-6) pediatric studies: Weir/NEISS 136,452 kid bike crashes, e-bikes highest trauma-death share; Edison/CHLA e-bike kids ~3x surgery vs e-scooter kids. Queued SHIP_BLOCKED 2027-10-31. Also fixed stale next counter (1205->1207; #1205 already queued by prior run)."
     }
   ]
 }
