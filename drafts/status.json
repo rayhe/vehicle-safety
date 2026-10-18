@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "#1207 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton, avg 8.79, queued 2027-11-01; next counter 1208). PUBLISH-QUEUE: 1/day gate open; #763 skipped (hero-less, policy-blocked, no-stall rule); #822 published + QA-verified live.",
-  "last_checked": "2026-10-18T01:30:00-07:00",
-  "last_completed": "2026-10-18T01:30:00-07:00",
+  "last_check_note": "#1208 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Axle McScatter, avg 8.79, queued 2027-11-02; next counter 1209).",
+  "last_checked": "2026-10-18T03:30:00-07:00",
+  "last_completed": "2026-10-18T03:30:00-07:00",
   "last_completed_date": "2026-10-18",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-18T01:30:00-07:00",
   "last_published_date": "2026-10-18",
   "last_published_slug": "822-tesla-cybercab-aq26002-zoox-precedent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1208,
+  "next": 1209,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15532,6 +15532,51 @@
         "hero": "drafts/1207-sierra-grille-deflector-recall-query.jpg"
       },
       "note": "2026-10-18 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run (Rex Driverton, avg 8.79, round 0). RQ26003 opened Oct 9 2026; article written pre-defect-finding. Queued 2027-11-01 (latest+1 day; strict 1/day spacing). next counter set 1208."
+    },
+    {
+      "number": 1208,
+      "slug": "1208-stellantis-esc-hat-trick",
+      "title": "Stellantis Killed Electronic Stability Control Three Times in 2026",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-11-02",
+      "critique_round": 0,
+      "critic_avg": 8.79,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7,
+        "average": 8.79
+      },
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 271.3,
+          "short_pct": 14.3,
+          "long_pct": 28.6
+        },
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "1effc305",
+        "word_count": 612
+      },
+      "files": {
+        "research": "drafts/1208-stellantis-esc-hat-trick-research.md",
+        "story": "drafts/1208-stellantis-esc-hat-trick.html",
+        "critic_panel": "drafts/1208-stellantis-esc-hat-trick-critic-panel-r0.md",
+        "hero": "drafts/1208-stellantis-esc-hat-trick.jpg"
+      },
+      "note": "2026-10-18 03:30 run: RESEARCH->DRAFT->CRITIQUE complete in one run. Round-0 panel VERDICT: SHIP (avg 8.79, floor 8.5; gates: em 1, banned 0, The 0.0%, rhythm PASS variance 271.3/short 14.3%/long 28.6%, hero JPEG 1920x1280 ?v=1effc305). Novel: 64-query NHTSA API census of 2026 campaigns (77 unique) found exactly 3 ESC-loss campaigns, all Stellantis (26V244 6,605 Ram 2500 Apr; 26V561 2,017 Voyager/Pacifica Sep; 26V651 8,329 Ram 2500 Oct, expands 26V244 and is 26% larger than it). Full-queue dup check clean. Queued SHIP_BLOCKED 2027-11-02 (1 day after latest SHIP_BLOCKED 2027-11-01)."
     }
   ]
 }
