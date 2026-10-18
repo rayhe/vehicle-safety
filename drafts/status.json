@@ -1,21 +1,22 @@
 {
   "current": {
     "slug": "1204-land-cruiser-resin-fuel-tube",
-    "phase": "DRAFT",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Rex Driverton",
-    "started": "2026-10-17T19:30:00-07:00"
+    "started": "2026-10-17T19:30:00-07:00",
+    "avg_critic": 8.74
   },
-  "last_check_note": "#1204 RESEARCH complete (Rex Driverton): Toyota recalling 106,000 MY2024-2027 Land Cruisers over separating resin fuel tube (13 leak reports + 1 fire). FARS: 343 deaths, rate 6.27/100M VMT, 8.9% impairment. No prior coverage. Angle: reliability-icon badge, second fuel-containment recall in nameplate history (1991: 38K).",
+  "last_check_note": "#1204 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Rex Driverton, avg 8.74, queued 2027-10-29).",
   "last_checked": "2026-10-17T19:30:00-07:00",
-  "last_completed": "2026-10-17T17:30:00-07:00",
+  "last_completed": "2026-10-17T19:30:00-07:00",
   "last_completed_date": "2026-10-17",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-15T01:30:00-07:00",
   "last_published_date": "2026-10-15",
   "last_published_slug": "817-alcohol-crash-innocent-victims-39-percent",
   "last_qa_date": "2026-10-13",
   "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
-  "next": 1201,
+  "next": 1205,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15368,6 +15369,47 @@
         "critic_panel": "drafts/1203-kia-seltos-salt-fire-recall-twice-critic-panel-r0.md"
       },
       "note": "2026-10-17 17:30 run: #1203 (Kia Canada Seltos AWD salt-corrosion fire recall Oct 2026, 48,070 units 2024-2026 MY; second occurrence after Feb 2024 44,000-unit recall of 2021-2023 MY for identical defect; NHTSA API confirms zero US recalls for 2025/2026 Seltos; Mia Crumplezone) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT SHIP (avg 8.89, all 7 >= 8.5). Gates: em 0, banned 0, The 8.6%, css ok, rhythm PASS (variance 892.5; fixed 11 short fragments), hero JPEG 1920x1280 ?v=c4c5afaa. Dateline pre-set to ship_date 2027-10-28. Novel: recurrence ledger (~92k total), Canada-only gap verified via primary NHTSA API query, Hyundai-Kia parallel fire programs (Telluride seat-motor / Genesis #1173). Kill-test rejects this run: Genesis park-outside (#1173), Sierra grille RQ (#1170/#1188), ID.4 93EX (#1172/#1194), RAV4 PHEV (#1166), IIHS commercial tests (#1175/#1189/#1198), Honda 26V663 (#1178), Tesla DP26010 (#1145/#1167), Waymo school bus (#1177), ProMaster steering (#1104/#1148), Waymo sober-night study (#1100), headlight glare rule (#1103)."
+    },
+    {
+      "number": 1204,
+      "slug": "1204-land-cruiser-resin-fuel-tube",
+      "title": "The Bulletproof Truck Leaks Fuel: 106,000 Land Cruisers Recalled Over Separating Fuel Tube",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2027-10-29",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.7,
+        "css_class": true,
+        "style_css": true,
+        "word_count": 588,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "bdf01e5f",
+        "rhythm_variance": 750.9,
+        "rhythm_short_pct": 13.6,
+        "rhythm_long_pct": 45.5
+      },
+      "files": {
+        "research": "drafts/1204-land-cruiser-resin-fuel-tube-research.md",
+        "story": "drafts/1204-land-cruiser-resin-fuel-tube.html",
+        "hero": "drafts/1204-land-cruiser-resin-fuel-tube.jpg",
+        "critic_panel": "drafts/1204-land-cruiser-resin-fuel-tube-critic-panel-r0.md"
+      },
+      "note": "2026-10-17 19:30 run: CRITIQUE PASS round 0 (avg 8.74, all 7 critics 8.5+; gates: em 0, banned 0, The 6.7%, css ok, rhythm exit 0, hero JPEG 1920x1280 ?v=bdf01e5f). Queued SHIP_BLOCKED 2027-10-29."
     }
   ]
 }
