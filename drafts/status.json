@@ -6,8 +6,8 @@
     "started": "2026-10-18T13:30:00-07:00",
     "number": 1213
   },
-  "last_check_note": "#1213 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Vin Wreckage, motorcycle 2023 per-mile rate the only type worsening, denominator-artifact twist, avg 8.97, round 0, queued 2027-11-07; next counter 1214).",
-  "last_checked": "2026-10-18T13:30:00-07:00",
+  "last_check_note": "2026-10-18 15:30 run: current #1213 SHIP_BLOCKED (queued 2027-11-07) — no pipeline phases pending. 1/day gate consumed by Publish #822 (01:30). Only due entry #763 ev-fire-blanket-explosion-risk still hero-less (policy-blocked fire imagery); skipped per no-stall rule. Cadence intact; no publish this run.",
+  "last_checked": "2026-10-18T15:30:00-07:00",
   "last_completed": "2026-10-18T11:30:00-07:00",
   "last_completed_date": "2026-10-18",
   "last_journalist": "Vin Wreckage",
