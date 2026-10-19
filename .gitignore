@@ -3,3 +3,4 @@ fars_process.log
 .wrangler/
 images/media-generation-*.webp
 images/media-generation-*.json
+hidden_files/rcl-data/FLAT_RCL_POST_2010.txt
