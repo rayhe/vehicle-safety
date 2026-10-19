@@ -6,8 +6,8 @@
   "started": "2026-10-19T09:30:00-07:00",
   "number": 1215
  },
- "last_check_note": "2026-10-19 07:30 run: 1/day gate consumed (Publish #823 at 01:29 PT; grep count 3 incl. run-log commits). Only due entry #763 ev-fire-blanket-explosion-risk still hero-blocked, skipped per no-stall rule. current=1214 SHIP_BLOCKED (queued 2027-11-08); no pipeline phases pending (no-backlog convention, 385 queued to 2027-11-08). Live QA spot-check: #823 story 200, hero JPEG 200.",
- "last_checked": "2026-10-19T07:30:00-07:00",
+ "last_check_note": "2026-10-19 11:30 run: 1/day gate consumed (Publish #823 at 01:29 PT; 4 Publish commits today). Only due entry #763 ev-fire-blanket-explosion-risk still hero-blocked (policy-blocked fire imagery), skipped per no-stall rule. current=1215 SHIP_BLOCKED (queued 2027-11-09, all files incl. hero present; next bumped 1214->1216 hygiene). No pipeline phases pending; 423 queued to 2027-11-09. Live QA spot-check: #823 canonical story 200, hero 200 JPEG, og tags present, sitemap hit.",
+ "last_checked": "2026-10-19T11:30:00-07:00",
  "last_completed": "2026-10-18T11:30:00-07:00",
  "last_completed_date": "2026-10-18",
  "last_journalist": "Vin Wreckage",
@@ -16,7 +16,7 @@
  "last_published_slug": "823-florida-super-speeder-100-mph-jail-law",
  "last_qa_date": "2026-10-19",
  "last_qa_note": "QA pass #823: story 200, hero JPEG 200 (f5b0b6d4), og tags present, index card, sitemap.",
- "next": 1214,
+ "next": 1216,
  "queue": [
   {
    "journalist": "Rex Driverton",
