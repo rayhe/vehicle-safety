@@ -6,8 +6,8 @@
     "started": "2026-10-18T23:30:00-07:00",
     "number": 1214
   },
-  "last_check_note": "2026-10-19 05:30 run: 1/day gate consumed (Publish #823 at 01:29 PT; grep count 2 incl. run-log commit). Only due entry #763 ev-fire-blanket-explosion-risk still hero-blocked, skipped per no-stall rule. current=1214 SHIP_BLOCKED (queued 2027-11-08); no pipeline phases pending. Live QA spot-check: #823 story 200, hero JPEG 200.",
-  "last_checked": "2026-10-19T05:30:00-07:00",
+  "last_check_note": "2026-10-19 07:30 run: 1/day gate consumed (Publish #823 at 01:29 PT; grep count 3 incl. run-log commits). Only due entry #763 ev-fire-blanket-explosion-risk still hero-blocked, skipped per no-stall rule. current=1214 SHIP_BLOCKED (queued 2027-11-08); no pipeline phases pending (no-backlog convention, 385 queued to 2027-11-08). Live QA spot-check: #823 story 200, hero JPEG 200.",
+  "last_checked": "2026-10-19T07:30:00-07:00",
   "last_completed": "2026-10-18T11:30:00-07:00",
   "last_completed_date": "2026-10-18",
   "last_journalist": "Vin Wreckage",
