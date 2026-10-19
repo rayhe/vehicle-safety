@@ -14,8 +14,8 @@
   "last_published": "2026-10-19T01:30:00-07:00",
   "last_published_date": "2026-10-19",
   "last_published_slug": "823-florida-super-speeder-100-mph-jail-law",
-  "last_qa_date": "2026-10-13",
-  "last_qa_note": "QA pass #814: story 200, hero JPEG 200 (ca093eb1), og:title/og:description/og:image present, index card x2, sitemap includes URL.",
+  "last_qa_date": "2026-10-19",
+  "last_qa_note": "QA pass #823: story 200, hero JPEG 200 (f5b0b6d4), og tags present, index card, sitemap.",
   "next": 1214,
   "queue": [
     {
@@ -1134,7 +1134,7 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "2026-10-19 01:30 run: published as #823 (earliest-due SHIP_BLOCKED; #763 skipped per no-stall rule, hero-less). Story + hero moved with 823- prefix; og:image/img src already referenced prefixed name; index card prepended; sitemap entry 2026-10-19.",
+      "note": "2026-10-19 01:30 run: published as #823 (earliest-due SHIP_BLOCKED; #763 skipped per no-stall rule, hero-less). Story + hero moved with 823- prefix; og:image/img src already referenced prefixed name; index card prepended; sitemap entry 2026-10-19. | QA 2026-10-19: story 200 (canonical 308->200, matches prior publishes), hero JPEG 200, og:title/og:description/og:image present, index card x1, sitemap includes URL.",
       "number": 823,
       "phase": "PUBLISHED",
       "scores": {
