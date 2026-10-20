@@ -1,10 +1,10 @@
 {
  "current": {
-  "slug": "1215-ford-ranger-black-screen-backup-camera",
+  "slug": "1216-honda-bottle-cap-recall-redo",
   "phase": "SHIP_BLOCKED",
-  "journalist": "Clara Rollover",
-  "started": "2026-10-19T09:30:00-07:00",
-  "number": 1215
+  "journalist": "Vin Wreckage",
+  "started": "2026-10-19T17:30:00-07:00",
+  "number": 1216
  },
  "last_check_note": "2026-10-19 15:30 run: 1/day gate consumed (6 Publish-grep commits today). Only due entry #763 ev-fire-blanket-explosion-risk still hero-less (policy-blocked fire imagery; zero #763 files in drafts/), skipped per no-stall rule. current=1215 SHIP_BLOCKED (queued 2027-11-09; research+html+hero all present in drafts/). No pipeline phases pending; 386 SHIP_BLOCKED queued out to 2027-11-09.",
  "last_checked": "2026-10-19T15:30:00-07:00",
@@ -15847,7 +15847,46 @@
     "hero": "drafts/1215-ford-ranger-black-screen-backup-camera.jpg"
    },
    "note": "2026-10-19 09:30 run: RESEARCH->DRAFT->CRITIQUE complete (Clara Rollover). Round-0 panel VERDICT: SHIP (avg 8.84, all 7 critics >= 8.5; gates: em 0, banned 0, The 9.3%, rhythm PASS, hero JPEG 1920x1280 ?v=76574cbb). Novel: federally mandated safety device killed by infotainment failure (suspect capacitor lot, 47% estimated defect rate); affected VINs not sequential (build date won't tell you); Ford's 77th recall of 2026; remedy still under development, interim letters mailed Oct 7. Kill-test overlap check: existing Ranger recalls are counterfeit-capacitor/part-tracing beats, existing backup-camera recalls are GM/Rivian \u2014 no FMVSS 111 coverage. Queued 2027-11-09 (1 day after #1214)."
+  },
+  {
+   "number": 1216,
+   "slug": "1216-honda-bottle-cap-recall-redo",
+   "title": "Honda Recalled a Million Cars for a Flying Bottle Cap. Then It Shipped the Same Cap Back as the Fix.",
+   "journalist": "Vin Wreckage",
+   "kicker": "Existential Dread",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2027-11-10",
+   "avg_critic": 8.97,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 9.2,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 11.1,
+    "css_class": true,
+    "style_css": true,
+    "rhythm": "variance 250.7, short 9.1%, long 50.0% (script PASS; fragments merged pre-panel)",
+    "hero_jpeg": true,
+    "hero_hash": "a0665a46",
+    "word_count": 860
+   },
+   "files": {
+    "research": "drafts/1216-honda-bottle-cap-recall-redo-research.md",
+    "story": "drafts/1216-honda-bottle-cap-recall-redo.html",
+    "critic_panel": "drafts/1216-honda-bottle-cap-recall-redo-critic-panel-r0.md",
+    "hero": "drafts/1216-honda-bottle-cap-recall-redo.jpg"
+   },
+   "started": "2026-10-19T17:30:00-07:00",
+   "note": "2026-10-19 17:30 run: RESEARCH->DRAFT->CRITIQUE complete (Vin Wreckage). Round-0 panel VERDICT: SHIP (avg 8.97, all 7 critics >= 8.5; gates: em 0, banned 0, The 11.1%, rhythm PASS, hero JPEG 1920x1280 ?v=a0665a46). Novel: recall remedy reinstalled the defect \u2014 TEK Corp warehouse mixed pre-countermeasure nozzles into remedy supply (0.46% remedy-supply failure rate = 1 in 217 repairs); 97-day trace window (dealer discovery Jul 3 -> 26V663 filing Oct 8); new remedy deletes the one-way valve entirely. Kill-test overlap check: zero 'bottle'/'sealant' hits across 423 queued; #1173 Genesis seat-motor and #1130 RAV4 PHEV are different campaigns. PUBLISH-QUEUE: 1/day gate consumed (Publish #823 at 01:29 PT today); only due entry #763 still hero-blocked, skipped per no-stall rule. Queued 2027-11-10 (1 day after #1215)."
   }
  ],
- "last_worker_run": "2026-10-19T03:30:00-07:00"
+ "last_worker_run": "2026-10-19T17:30:00-07:00"
 }
