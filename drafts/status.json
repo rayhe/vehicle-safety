@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-20 03:30 run: #1218 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Vin Wreckage, avg 8.84, SHIP_BLOCKED 2027-11-12, hero policy-blocked/fire imagery like #763). PUBLISH-QUEUE: 1/day gate closed (Publish commit already today, #824 at 01:30 run). Only due SHIP_BLOCKED is #763 (hero-less, policy-blocked), skipped per no-stall rule.",
-  "last_checked": "2026-10-20T03:30:00-07:00",
+  "last_check_note": "2026-10-20 05:30 run: #1219 RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.79, SHIP_BLOCKED 2027-11-13, hero JPEG e353c11f). PUBLISH-QUEUE: pending 1/day gate check.",
+  "last_checked": "2026-10-20T05:30:00-07:00",
   "last_completed": "2026-10-20T01:30:00-07:00",
   "last_completed_date": "2026-10-18",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-19T01:30:00-07:00",
   "last_published_date": "2026-10-19",
   "last_published_slug": "823-florida-super-speeder-100-mph-jail-law",
   "last_qa_date": "2026-10-19",
   "last_qa_note": "QA pass #823: story 200, hero JPEG 200 (f5b0b6d4), og tags present, index card, sitemap.",
-  "next": 1219,
+  "next": 1220,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -15956,6 +15956,35 @@
         "critic_panel": "drafts/1218-fort-worth-ev-fire-fifty-foot-rule-critic-panel-r0.md"
       },
       "note": "2026-10-20 03:30 run: RESEARCH->DRAFT->CRITIQUE complete (Vin Wreckage). Round-0 panel VERDICT: SHIP (avg 8.84, all 7 >= 8.5; gates: em 0, banned 0, The 14.1%, rhythm PASS). Novel: GM's 50-foot post-fire storage guidance (Escalade IQ emergency guide, NTSB SR-20/01 stranded energy) vs dealer lots parking EVs ~5 ft apart; 26V494 micro-recall (11 vehicles, 0.8% est defect, misadjusted press at Factory Zero, DO NOT DRIVE/PARK OUTSIDE advisories) vs Oct 9 Fort Worth dealer fire (6 EVs destroyed, 17h33m on scene) - no link claimed, explicitly disclaimed. Hero generation policy-blocked (fire imagery, like #763) - queued hero-less; publish step skips per no-stall rule. Queued 2027-11-12 (1 day after #1217)."
+    },
+    {
+      "number": 1219,
+      "slug": "1219-fj-cruiser-cult-car-impaired-drivers",
+      "title": "The FJ Cruiser Earned Top Crash-Test Scores. One in Four of Its Drivers Was Impaired.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "ship_date": "2027-11-13",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1219-fj-cruiser-cult-car-impaired-drivers-research.md",
+        "story": "drafts/1219-fj-cruiser-cult-car-impaired-drivers.html",
+        "hero": "drafts/1219-fj-cruiser-cult-car-impaired-drivers.jpg",
+        "critic_panel": "drafts/1219-fj-cruiser-cult-car-impaired-drivers-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "e353c11f",
+        "word_count": 548,
+        "rhythm_pass": true
+      },
+      "note": "2026-10-20 05:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.79, round 0, all 7 critics 8.5+). Headline revised pre-critique from overclaim. Rhythm gate fixed in-draft (merged two 7-word fragments)."
     }
   ],
   "last_worker_run": "2026-10-20T01:30:00-07:00"
