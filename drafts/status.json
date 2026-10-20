@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-20 03:30 run: #1218 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Vin Wreckage, avg 8.84, SHIP_BLOCKED 2027-11-12, hero policy-blocked/fire imagery, queued hero-less like #763).",
+  "last_check_note": "2026-10-20 03:30 run: #1218 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Vin Wreckage, avg 8.84, SHIP_BLOCKED 2027-11-12, hero policy-blocked/fire imagery like #763). PUBLISH-QUEUE: 1/day gate closed (Publish commit already today, #824 at 01:30 run). Only due SHIP_BLOCKED is #763 (hero-less, policy-blocked), skipped per no-stall rule.",
   "last_checked": "2026-10-20T03:30:00-07:00",
   "last_completed": "2026-10-20T01:30:00-07:00",
   "last_completed_date": "2026-10-18",
