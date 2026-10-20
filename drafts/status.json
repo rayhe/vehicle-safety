@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1223-ford-f-series-lying-speedometer",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-20T13:30:00-07:00",
+    "note": "2026-10-20 13:30 run: RESEARCH complete. Breaking news (Oct 20): Ford 26V-653/26C46, 102,159 F-Series (25-26 SD, 26 F-150, 26 F-750), analog speedometer/tachometer stuck/erratic, FMVSS 101 noncompliance. Overlap check clean (zero speedometer/26C46/26V-653 queue items). Angle: the dashboard argues with itself (analog vs redundant digital disagree); the enforcement paradox (lying speedometer makes legal compliance unknowable); Ford recall ~#80 of record 2026 (78 through Sept 30 per #1049)."
+  },
   "last_check_note": "2026-10-20 11:30 run: #1222 RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.64, round 0). PUBLISH-QUEUE: 1/day gate already satisfied (1 publish today); #763 ev-fire-blanket remains hero-blocked; no publish action.",
   "last_checked": "2026-10-20T05:30:00-07:00",
   "last_completed": "2026-10-20T11:30:00-07:00",
