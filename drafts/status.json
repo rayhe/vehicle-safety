@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1223-ford-f-series-lying-speedometer",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-20T13:30:00-07:00",
-    "note": "2026-10-20 13:30 run: RESEARCH complete. Breaking news (Oct 20): Ford 26V-653/26C46, 102,159 F-Series (25-26 SD, 26 F-150, 26 F-750), analog speedometer/tachometer stuck/erratic, FMVSS 101 noncompliance. Overlap check clean (zero speedometer/26C46/26V-653 queue items). Angle: the dashboard argues with itself (analog vs redundant digital disagree); the enforcement paradox (lying speedometer makes legal compliance unknowable); Ford recall ~#80 of record 2026 (78 through Sept 30 per #1049)."
-  },
+  "current": null,
   "last_check_note": "2026-10-20 11:30 run: #1222 RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.64, round 0). PUBLISH-QUEUE: 1/day gate already satisfied (1 publish today); #763 ev-fire-blanket remains hero-blocked; no publish action.",
   "last_checked": "2026-10-20T05:30:00-07:00",
-  "last_completed": "2026-10-20T11:30:00-07:00",
+  "last_completed": "2026-10-20T13:30:00-07:00",
   "last_completed_date": "2026-10-18",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-19T01:30:00-07:00",
   "last_published_date": "2026-10-19",
   "last_published_slug": "823-florida-super-speeder-100-mph-jail-law",
   "last_qa_date": "2026-10-19",
   "last_qa_note": "QA pass #823: story 200, hero JPEG 200 (f5b0b6d4), og tags present, index card, sitemap.",
-  "next": 1223,
+  "next": 1224,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -107,7 +101,7 @@
     },
     {
       "journalist": "Mia Crumplezone",
-      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules. | 2026-10-15 07:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (Publish #817); skipped per hero-gate + no-stall rules. | 2026-10-16 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate + no-stall rules, 1/day slot consumed by Publish #820. | 2026-10-16 15:30 run: hero still absent; only due entry; 1/day gate already consumed (2 publishes today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-17 05:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (3 Publish commits for #821 today); skipped per no-stall rule. 2026-10-17 13:30 run: publish-queue skipped (hero still missing, policy-blocked generation; never stalls 1/day cadence; 1/day gate already hit with 3 publishes today). | 2026-10-17 15:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed (3 publishes today); skipped per no-stall rule. | 2026-10-17 17:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed (3 publishes today); skipped per no-stall rule. | 2026-10-17 21:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed (3 publishes today); skipped per no-stall rule. | 2026-10-18 21:27 run: hero still policy-blocked (fire imagery), no hero file in drafts/; 1/day gate consumed today (4 Publish commits); skipped per hero-gate + no-stall rules, cadence intact.",
+      "note": "te consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 17:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (2 publishes today); skipped per no-stall rule. | 2026-10-08 23:30 run: still due (2026-09-28) but hero-less, skipped again; 1/day gate consumed (2 publishes today). | 2026-10-09 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate rule, 1/day slot consumed by #810. | 2026-10-09 15:30 run: still hero-blocked (fire-imagery policy block); 1/day gate already consumed today; skipped per hero-gate rule, cadence intact. | 2026-10-11 15:30 run: still hero-blocked (fire-imagery policy block); skipped per never-stall-cadence rule; 1/day slot already consumed today by Publish #812. | 2026-10-11 19:30 run: still hero-blocked; 1/day gate consumed today (2 publishes); skipped per never-stall-cadence rule. Skipped in 2026-10-12 publish-queue: hero still policy-blocked, never stalls cadence. | 2026-10-12 03:30 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed by #813 publish (01:45 PT); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-12 11:55 run: hero still absent (fire-imagery policy block); only due entry, 1/day gate already consumed (2 Publish commits today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 07:30 run: still hero-less (policy-blocked fire imagery); only due entry, 1/day gate already consumed (#814 at 02:15); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-13 11:30 run: still hero-blocked (policy-blocked generation); skipped per no-stall rule, cadence unaffected (1/day slot consumed by #814). | 2026-10-13 21:30 run: still hero-blocked (no hero file in drafts/); 1/day gate already consumed today (Publish #814), no publishable due article. | 2026-10-13 23:30 run: due but 1/day slot already consumed by #814 earlier today; hero still policy-blocked (fire imagery), skipped per hero-gate rule. | 2026-10-14 01:30 run: still hero-less (policy-blocked fire imagery); skipped per no-stall rule, cadence intact (0 publishes today, nothing else cleanly shippable). | 2026-10-14 03:30 run: hero still policy-blocked (fire imagery); 1/day slot consumed by #815; skipped per hero-gate + no-stall rules. | 2026-10-15 03:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (1 Publish commit); skipped per hero-gate + no-stall rules. | 2026-10-15 07:30 run: hero still policy-blocked (fire imagery); only due entry but 1/day gate already consumed today (Publish #817); skipped per hero-gate + no-stall rules. | 2026-10-16 01:30 run: still hero-less (policy-blocked fire imagery); skipped per hero-gate + no-stall rules, 1/day slot consumed by Publish #820. | 2026-10-16 15:30 run: hero still absent; only due entry; 1/day gate already consumed (2 publishes today); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-17 05:30 run: still hero-less (policy-blocked fire imagery); 1/day gate consumed (3 Publish commits for #821 today); skipped per no-stall rule. 2026-10-17 13:30 run: publish-queue skipped (hero still missing, policy-blocked generation; never stalls 1/day cadence; 1/day gate already hit with 3 publishes today). | 2026-10-17 15:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed (3 publishes today); skipped per no-stall rule. | 2026-10-17 17:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed (3 publishes today); skipped per no-stall rule. | 2026-10-17 21:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed (3 publishes today); skipped per no-stall rule. | 2026-10-18 21:27 run: hero still policy-blocked (fire imagery), no hero file in drafts/; 1/day gate consumed today (4 Publish commits); skipped per hero-gate + no-stall rules, cadence intact. | 2026-10-20 13:30 run: still due (2026-09-28) but hero-less (policy-blocked fire imagery); 1/day gate already consumed today; skipped per hero-gate + no-stall rules, cadence intact.",
       "notes": "Hero image generation failed; needs image before ship.",
       "number": 763,
       "phase": "SHIP_BLOCKED",
@@ -16105,7 +16099,50 @@
         "critic_panel": "drafts/1222-volvo-ex30-headrest-cushion-recall-critic-panel-r0.md"
       },
       "note": "2026-10-20 11:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.64, round 0). 7/7 critics 8.5+. Gates: em 0, banned 0, The 9.4%, class=story, style.css, hero JPEG 1920x1280 ?v=ee7000da. Topic: Volvo EX30 headrest cushion recall 26V671/R10396 (Oct 9, 2026; ~9,900 US / 234,000 global; epoxy remedy). Dateline pre-set to 2027-11-16."
+    },
+    {
+      "number": 1223,
+      "slug": "1223-ford-f-series-lying-speedometer",
+      "title": "Your Speedometer Is Lying to You. Ford Just Recalled 102,159 F-Series to Prove It.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2027-11-17",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "be2a950f",
+        "sentence_rhythm": {
+          "variance": 1173.6,
+          "short_pct": 9.1,
+          "long_pct": 54.5,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1223-ford-f-series-lying-speedometer-research.md",
+        "story": "drafts/1223-ford-f-series-lying-speedometer.html",
+        "hero": "drafts/1223-ford-f-series-lying-speedometer.jpg",
+        "critic_panel": "drafts/1223-ford-f-series-lying-speedometer-critic-panel-r0.md"
+      },
+      "note": "2026-10-20 13:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run; round-0 SHIP (8.86 avg, all 7 critics 8.5+). Breaking news (Oct 20): Ford 26V-653/26C46, 102,159 F-Series (25-26 SD, 26 F-150, 26 F-750), analog speedometer/tachometer stuck/erratic, FMVSS 101 noncompliance. Novel: the enforcement paradox (lying speedometer makes legal compliance unknowable) + the dashboard arguing with itself (analog vs redundant digital disagree). Context: Ford at 75 recalls in 2026 by mid-Oct (Autoblog), after 153 in 2025 vs GM 77 (2014). Gates: em 0, banned 0, The-starters 0.0pct, rhythm PASS (var 1173.6), hero JPEG 1920x1280 ?v=be2a950f. Overlap check clean. Queued SHIP_BLOCKED 2027-11-17 (1 day after #1222 2027-11-16). Dateline pre-set to 2027-11-17."
     }
   ],
-  "last_worker_run": "2026-10-20T09:30:00-07:00"
+  "last_worker_run": "2026-10-20T13:30:00-07:00"
 }
