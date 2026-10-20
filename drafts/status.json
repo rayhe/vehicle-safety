@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-20 05:30 run: #1219 RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.79, SHIP_BLOCKED 2027-11-13, hero JPEG e353c11f). PUBLISH-QUEUE: pending 1/day gate check.",
+  "last_check_note": "2026-10-20 05:30 run: #1219 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Dale Impactor III, avg 8.79, SHIP_BLOCKED 2027-11-13, hero JPEG e353c11f). PUBLISH-QUEUE: 1/day gate closed (Publish #824 already today). Only due SHIP_BLOCKED is #763 (hero-less, policy-blocked), skipped per no-stall rule.",
   "last_checked": "2026-10-20T05:30:00-07:00",
   "last_completed": "2026-10-20T01:30:00-07:00",
   "last_completed_date": "2026-10-18",
