@@ -1,15 +1,10 @@
 {
- "current": {
-  "slug": "1221-prius-2010-unintended-acceleration-spike",
-  "phase": "DRAFT",
-  "journalist": "Axle McScatter",
-  "started": "2026-10-20T09:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-20 05:30 run: #1219 RESEARCH->DRAFT->CRITIQUE->SHIP complete (Dale Impactor III, avg 8.79, SHIP_BLOCKED 2027-11-13, hero JPEG e353c11f). PUBLISH-QUEUE: 1/day gate closed (Publish #824 already today). Only due SHIP_BLOCKED is #763 (hero-less, policy-blocked), skipped per no-stall rule.",
  "last_checked": "2026-10-20T05:30:00-07:00",
- "last_completed": "2026-10-20T07:30:00-07:00",
+ "last_completed": "2026-10-20T09:30:00-07:00",
  "last_completed_date": "2026-10-18",
- "last_journalist": "Dale Impactor III",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-10-19T01:30:00-07:00",
  "last_published_date": "2026-10-19",
  "last_published_slug": "823-florida-super-speeder-100-mph-jail-law",
@@ -16028,6 +16023,45 @@
     "data_presentation": 8.8
    },
    "note": "2026-10-20 07:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run (avg 8.79, round 0, all 7 critics 8.5+). Novel: FARS rate x toxicology cross-tab - Land Cruiser 6.27/100M VMT (#3 of 147 models with 200+ deaths, 33x the RAV4) with only 8.9% impairment vs 20% average; 3-star NHTSA rollover + IIHS Marginal moderate overlap on 2026 redesign. Pre-panel fix: rhythm variance 122->288.9 (merged short fragments); 'sold in America' scoped to FARS dataset."
+  },
+  {
+   "number": 1221,
+   "slug": "1221-prius-2010-unintended-acceleration-spike",
+   "title": "The 2010 Prius Has a Death Spike the Recall Never Explained",
+   "journalist": "Axle McScatter",
+   "kicker": "Trend Watch",
+   "ship_date": "2027-11-15",
+   "phase": "SHIP_BLOCKED",
+   "avg_critic": 8.76,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1221-prius-2010-unintended-acceleration-spike-research.md",
+    "story": "drafts/1221-prius-2010-unintended-acceleration-spike.html",
+    "hero": "drafts/1221-prius-2010-unintended-acceleration-spike.jpg",
+    "critic_panel": "drafts/1221-prius-2010-unintended-acceleration-spike-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_hash": "9a430390",
+    "hero_dim": "1920x1280",
+    "word_count": 518,
+    "rhythm_pass": true
+   },
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.6,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.8,
+    "data_presentation": 8.6
+   },
+   "note": "2026-10-20 09:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run (avg 8.76, round 0, all 7 critics 8.5+). Novel: FARS model-year cross-tab vs UA timeline - MY2010 Prius 67 deaths vs ~21/yr avg 2005-2015 (3.25x); MY2012 control (236k sold, 23 deaths) falsifies volume/age confounders. Gates: em 0, banned 0, The 0.0%, rhythm PASS (var 207.9), hero JPEG 1920x1280 ?v=9a430390. Queued SHIP_BLOCKED for 2027-11-15."
   }
  ],
  "last_worker_run": "2026-10-20T09:30:00-07:00"
