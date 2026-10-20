@@ -1,14 +1,8 @@
 {
- "current": {
-  "slug": "1217-f150-safest-truck-fewest-sold",
-  "phase": "SHIP_BLOCKED",
-  "journalist": "Rex Driverton",
-  "started": "2026-10-19T19:30:00-07:00",
-  "number": 1217
- },
- "last_check_note": "2026-10-19 21:30 run: #1217 already SHIP_BLOCKED (queued 2027-11-11). PUBLISH-QUEUE: 1/day gate consumed (6 Publish commits today); only due entry #763 ev-fire-blanket-explosion-risk still hero-less (policy-blocked), skipped per no-stall rule. 388 SHIP_BLOCKED queued out to 2027-11-11; next publish window 2026-10-20.",
+ "current": null,
+ "last_check_note": "2026-10-20 01:30 run: #1217 still SHIP_BLOCKED (queued 2027-11-11). PUBLISH-QUEUE: 1/day gate open (0 Publish commits today PT). #824 dtn-11th-death-ban-failed due 2026-10-20 was hero-less; generated hero (1920x1280 JPEG, media pipeline) + added missing story-hero <img>; published as today's 1/day article. #763 still hero-less (policy-blocked fire imagery), skipped per no-stall rule.",
  "last_checked": "2026-10-19T21:30:00-07:00",
- "last_completed": "2026-10-18T11:30:00-07:00",
+ "last_completed": "2026-10-20T01:30:00-07:00",
  "last_completed_date": "2026-10-18",
  "last_journalist": "Rex Driverton",
  "last_published": "2026-10-19T01:30:00-07:00",
@@ -1172,9 +1166,9 @@
    },
    "journalist": "Clara Rollover",
    "kicker": "Investigation",
-   "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Sequel to Sep 3 DTN story. News peg: Reuters Sep 3, 2026 - 11th death (Aug 27 Dallas 2018 Equinox, otherwise survivable crash), first since April ban, first non-Malibu/Sonata model. Novel: 120-day ban-to-death timeline arithmetic; WI SB 537 / ID HB 688 criminalization angle; DTN denial. No publish: 1/day rule, #804 shipped 2026-09-06.",
+   "note": "Round-0 pass 8.94 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/. Sequel to Sep 3 DTN story. News peg: Reuters Sep 3, 2026 - 11th death (Aug 27 Dallas 2018 Equinox, otherwise survivable crash), first since April ban, first non-Malibu/Sonata model. Novel: 120-day ban-to-death timeline arithmetic; WI SB 537 / ID HB 688 criminalization angle; DTN denial. No publish: 1/day rule, #804 shipped 2026-09-06. | 2026-10-20 01:30 run: PUBLISHED. Hero generated (1920x1280 JPEG, real ffd8) - steering wheel + deployed airbag + exposed inflator housing. Story-hero <img> added after dateline (was missing from draft); gates re-verified post-edit: em 2, banned 0, The 11.1%, CSS ok. Shipped to stories/, images/, index card + sitemap updated. story-hero img count 1, og:image absolute.",
    "number": 824,
-   "phase": "SHIP_BLOCKED",
+   "phase": "PUBLISHED",
    "scores": {
     "data_presentation": 8.8,
     "ethics_reviewer": 9.0,
@@ -15927,5 +15921,5 @@
    "note": "2026-10-19 19:30 run: RESEARCH->DRAFT->CRITIQUE complete (Rex Driverton). Round-0 panel VERDICT: SHIP (avg 8.94, all 7 critics >= 8.5; gates: em 0, banned 0, The 10.0%, rhythm PASS, hero JPEG 1920x1280 ?v=8c8c8909). Novel: per-MY FARS deaths normalized by years-on-road show 2009-2011 trough across ALL pickups (F-150 -45.8%, Silverado -45.5% though GMT900 dated to 2007, Ram -32.4%, Sierra -43.0%, Tundra -53.8%); 12th-gen F-150 MY2013-14 rebounded to pre-redesign levels as sales recovered (F-Series 413,625 in 2009 -> 763,402 in 2013). Safest F-150 = the one Ford barely sold. Kill-test overlap check: zero 'redesign'/'generation'/'2009'/'aluminum-f150' hits across 424 queued. Queued 2027-11-11 (1 day after #1216)."
   }
  ],
- "last_worker_run": "2026-10-19T23:30:00-07:00"
+ "last_worker_run": "2026-10-20T01:30:00-07:00"
 }
