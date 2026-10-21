@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "sierra-grille-recall-query-rq26003",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-21T13:40:00-07:00"
-  },
-  "last_check_note": "2026-10-21 13:30 run: RESEARCH done \u2014 NHTSA recall query RQ26003 (opened Oct 9, 2026): 535,639 Sierra 1500s under review; 118 complaints incl. 21 alleging detachment AFTER the 25V-060 repair. Clara Rollover assigned.",
+  "current": null,
+  "last_check_note": "2026-10-21 13:30 run: #1232 SHIP_BLOCKED 2027-11-26 (Sierra grille recall query RQ26003, Clara Rollover; avg 8.8, round 0).",
   "last_checked": "2026-10-21T13:40:00-07:00",
-  "last_completed": "2026-10-21T11:35:00-07:00",
+  "last_completed": "2026-10-21T14:15:00-07:00",
   "last_completed_date": "2026-10-21",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-21T01:33:00-07:00",
   "last_published_date": "2026-10-21",
   "last_published_slug": "ev-fire-blanket-explosion-risk",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
-  "next": 1232,
+  "next": 1233,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -16440,6 +16435,29 @@
       "title": "Tesla Recalled 131,726 Airbags and Nobody Visited a Dealer",
       "avg_critic": 8.8,
       "critique_round": 0
+    },
+    {
+      "number": 1232,
+      "slug": "sierra-grille-recall-query-rq26003",
+      "title": "GM Recalled the Sierra's Grille. 21 Repaired Trucks Lost It Anyway.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-11-26",
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/sierra-grille-recall-query-rq26003-research.md",
+        "story": "drafts/sierra-grille-recall-query-rq26003.html",
+        "hero": "drafts/sierra-grille-recall-query-rq26003.jpg",
+        "critic_panel": "drafts/sierra-grille-recall-query-rq26003-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_ok": true
+      },
+      "note": "2026-10-21 13:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run. NHTSA RQ26003 (opened Oct 9, 2026) audits GM's 25V-060 Sierra grille fix; 118 complaints incl. 21 post-repair. Avg 8.8, round 0, all gates pass. Hero real JPEG ?v=8e9990be."
     }
   ],
   "last_worker_run": "2026-10-21T03:30:00-07:00"
