@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-21 09:30 run: #1230 SHIP_BLOCKED 2027-11-24 (Toyota Land Cruiser Hybrid fuel-tube fire recall, Rex Driverton; avg 8.87, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); #825 (ship_date 2026-10-21) remains due for the next run.",
-  "last_checked": "2026-10-21T05:50:00-07:00",
+  "last_check_note": "2026-10-21 11:30 run: #1231 SHIP_BLOCKED 2027-11-25 (Tesla Model 3 far-side airbag OTA recall, Mia Crumplezone; avg 8.8, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run.",
+  "last_checked": "2026-10-21T11:35:00-07:00",
   "last_completed": "2026-10-21T11:35:00-07:00",
   "last_completed_date": "2026-10-21",
   "last_journalist": "Mia Crumplezone",
