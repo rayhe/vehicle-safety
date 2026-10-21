@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1228-ram-2500-esc-silent-kill",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-21T05:35:00-07:00",
-    "number": 1228
-  },
-  "last_check_note": "2026-10-21 05:30 run: RESEARCH complete for #1228 (Ram 2500 ESC silent-kill recall 26V-651/90D). 1/day gate consumed by Publish #763 (01:38 PDT); no publishing this run.",
-  "last_checked": "2026-10-21T05:35:00-07:00",
-  "last_completed": "2026-10-21T03:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-21 05:30 run: #1228 SHIP_BLOCKED 2027-11-22 (Ram 2500 ESC silent-kill, 26V-651/90D). 1/day gate consumed by Publish #763 (01:38 PDT); no publishing this run.",
+  "last_checked": "2026-10-21T05:50:00-07:00",
+  "last_completed": "2026-10-21T05:50:00-07:00",
   "last_completed_date": "2026-10-20",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-21T01:33:00-07:00",
   "last_published_date": "2026-10-21",
   "last_published_slug": "ev-fire-blanket-explosion-risk",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
-  "next": 1228,
+  "next": 1229,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -16311,6 +16305,44 @@
         "hero": "drafts/1227-work-trucks-fail-first-iihs-auto-brake-test.jpg"
       },
       "note": "2026-10-20 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.93, round 0). Gates: em 0, banned 0, The 0.0%, class=story, style.css, rhythm PASS (var 1091.7, short 8.7%), hero JPEG 1920x1280 ?v=4c246e53. First-ever IIHS commercial crash-prevention ratings (Oct 8, 2026); prior Jun-2026 stories covered only the checklist chapter."
+    },
+    {
+      "number": 1228,
+      "slug": "1228-ram-2500-esc-silent-kill",
+      "title": "Your Ram 2500's Rollover Reflexes Can Vanish Without Warning. 8,329 Trucks Just Got Recalled.",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2027-11-22",
+      "phase": "SHIP_BLOCKED",
+      "kicker": "Investigation",
+      "avg_critic": 8.96,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.9,
+        "css_class": true,
+        "style_css": true,
+        "rhythm_pass": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "ef375a81"
+      },
+      "files": {
+        "research": "drafts/1228-ram-2500-esc-silent-kill-research.md",
+        "story": "drafts/1228-ram-2500-esc-silent-kill.html",
+        "critic_panel": "drafts/1228-ram-2500-esc-silent-kill-critic-panel-r0.md",
+        "hero": "drafts/1228-ram-2500-esc-silent-kill.jpg"
+      },
+      "note": "2026-10-21 05:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.96, round 0). Gates: em 0, banned 0, The 10.9%, class=story, style.css, rhythm PASS (var 96.7, short 14.5%), hero JPEG 1920x1280 ?v=ef375a81. Breaking expansion: NHTSA 26V-651/FCA 90D (Oct 6, 2026), 8,329 2026 Ram 2500, SCCM reset silently kills ESC, no pre-warning, FMVSS 126 noncompliance; expands April 26V-244 \u2014 April-checkers should re-check VIN."
     }
   ],
   "last_worker_run": "2026-10-21T03:30:00-07:00"
