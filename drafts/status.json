@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-21 11:30 run: #1231 SHIP_BLOCKED 2027-11-25 (Tesla Model 3 far-side airbag OTA recall, Mia Crumplezone; avg 8.8, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run.",
-  "last_checked": "2026-10-21T11:35:00-07:00",
+  "current": {
+    "slug": "sierra-grille-recall-query-rq26003",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-10-21T13:40:00-07:00"
+  },
+  "last_check_note": "2026-10-21 13:30 run: RESEARCH done \u2014 NHTSA recall query RQ26003 (opened Oct 9, 2026): 535,639 Sierra 1500s under review; 118 complaints incl. 21 alleging detachment AFTER the 25V-060 repair. Clara Rollover assigned.",
+  "last_checked": "2026-10-21T13:40:00-07:00",
   "last_completed": "2026-10-21T11:35:00-07:00",
   "last_completed_date": "2026-10-21",
   "last_journalist": "Mia Crumplezone",
