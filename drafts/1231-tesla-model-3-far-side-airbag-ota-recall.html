@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tesla Recalled 131,726 Airbags and Nobody Visited a Dealer &mdash; The Crash Report</title>
+  <meta name="description" content="A software miscalibration let shoulder forces exceed the UN R135 pole-test limit in 131,726 Shanghai-built Model 3s. The fix is a free over-the-air update, which makes this the most interesting airbag recall ever filed.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Tesla Recalled 131,726 Airbags and Nobody Visited a Dealer">
+  <meta property="og:description" content="A software miscalibration let shoulder forces exceed the UN R135 pole-test limit in 131,726 Shanghai-built Model 3s. The fix is a free over-the-air update, which makes this the most interesting airbag recall ever filed.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1231-tesla-model-3-far-side-airbag-ota-recall.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Trend Watch</div>
+      <h1>Tesla Recalled 131,726 Airbags and Nobody Visited a Dealer</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">November 25, 2027</div>
+
+      <img src="../images/1231-tesla-model-3-far-side-airbag-ota-recall.jpg" alt="A blue Tesla Model 3 in a crash-test laboratory with a pole against the driver's door and the far-side center airbag deployed between the front seats" class="story-hero" loading="eager">
+
+      <p>Thirty-two kilometers an hour. One steel pole. One crash-test dummy whose shoulder must not absorb more than 3.0 kilonewtons of lateral force, roughly the weight of a grand piano dropped sideways. That is the UN R135 pole test, and <strong>131,726</strong> Shanghai-built Tesla Model 3s failed it. Not on the driver's side. On the far side, the side the pole never touches.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">3.0 kN</div>
+      <div class="pull-label">Maximum permitted shoulder force in the UN R135 pole test: the load of roughly 306 kg of mass on the dummy's collarbone</div>
+
+      <p>Let's talk about what the far-side airbag actually does, because it is a beautiful piece of engineering. It inflates between the front seats and catches the occupant sitting away from the impact, stopping them from sliding across the cabin, smashing into the center console, or colliding with the other front occupant. ZF's passive-safety division put it bluntly in 2019: this device may soon be necessary for a 5-star rating.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> It exists for exactly the kind of ugly, asymmetric crash where the person farthest from the pole gets hurt anyway.</p>
+
+      <p>Now for the part that should make every safety engineer sit up. The defect was calibration, not hardware. Some Model 3 Premiums built between June 30, 2024 and May 8, 2026 shipped with airbag deployment software tuned wrong, so the far-side cushion did not do its job within the regulated force limit. The fix is a firmware update. Over the air. No service visit. Tesla says keep driving and install the update when it arrives.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> An airbag recall is now something you patch like a browser tab.</p>
+
+      <div class="pull-stat">131,726</div>
+      <div class="pull-label">Left-hand-drive Model 3s covered: EU, Middle East, and South Korea. Germany alone has 12,680 on the list.</div>
+
+      <p>There is a genuinely exciting version of this story. Software-defined restraints mean fixes land in days instead of dealer-scheduling months, with completion rates that parts-based recalls can only dream of. Then there is the version that keeps me up: these cars held valid EU type approval for two years while non-compliant in a test their approval was supposed to cover. The regulated behavior lived in a file Tesla could rewrite at midnight. Type approval has always certified tested samples rather than continuous production, but this is the first time the gap is measured in over-the-air commits instead of manufacturing tolerances.</p>
+
+      <p>One more wrinkle before the applause. NHTSA opened a recall query in April 2024 to ask whether Tesla's over-the-air remedies actually work, after finding crashes in vehicles that already had the remedy installed.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> Delivery is not installation. If your Model 3 is in the affected range and you postpone software updates for six months, you are driving around with a known side-impact non-compliance while the fix sits unapplied on Tesla's servers.</p>
+
+      <p><strong>What you should actually do:</strong> If you drive a left-hand-drive Model 3 built between mid-2024 and May 2026 in Europe, the Middle East, or South Korea, run your VIN through Tesla's recall lookup and confirm you are on software 2026.26.100.2 or 2026.32.3.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Install the update the day it appears. No crashes or injuries have been reported, and none are expected, but the 3.0 kN limit exists because someone's collarbone drew the line. Note: Tesla has not announced a US-market recall for this condition as of late October 2026, so this guidance applies to the covered regions only.</p>
+
+      <h3>Limitations</h3>
+      <p>The French reporting on this recall was read via a Tesla-focused news summary; the original Auto Plus article was not opened directly. European filings disagree slightly on the vehicle count, with some citing 114,473 versus the German KBA's 131,726; the KBA figure is used as the headline number. FARS has no Tesla Model 3 fatality data at restraint-causation granularity and no European coverage at all, so no fatality-rate context is possible for this defect. The software fix versions come from French press reporting, not Tesla's own documentation, and should be verified against Tesla's VIN lookup.</p>
+
+      <h3>Strongest counterargument</h3>
+      <p>Strip away the framing and this is a compliance non-conformance with zero reported injuries, fixed faster and more completely than any hardware recall in history. Over-the-air remedy is arguably the best possible outcome here: no dealer scheduling, no notification lag, no cars parked outside awaiting parts. The type-approval paradox is real, but regulators have always certified tested samples, and the OTA remedy itself is the reason this two-year non-compliance will be gone in weeks. A restraint system that can be fixed by radio is a restraint system that can be kept fixed, and that is a genuine safety advance.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">EU Safety Gate (RAPEX) alert SR/02850/26, notified by Germany, published October 16, 2026: &ldquo;The lateral force on the shoulder can exceed the permitted limit (3 kN) during a pole collision.&rdquo; Compiled from the official notice at <a href="https://myproduct.guru/blog/recall-model-3-r02850260a76" target="_blank" rel="noopener">myproduct.guru</a> and <a href="https://product-guru.org/recall/rapex-sr-02850-26-model-3.html" target="_blank" rel="noopener">product-guru.org</a></li>
+          <li id="ref-2">Auto Plus via Tesla News Wire, &ldquo;Tesla Model 3 Premium recall Europe: 131,726 cars, airbag fix,&rdquo; October 21, 2026. <a href="https://teslanewswire.com/articles/tesla-model-3-premium-recall-europe-131726-far-side-airbag-ota-oct-2026" target="_blank" rel="noopener">teslanewswire.com</a></li>
+          <li id="ref-3">Car-Recalls.eu, &ldquo;Tesla Model 3: Software does not fully meet side-impact requirements,&rdquo; October 6, 2026 (KBA reference 16992R). <a href="https://car-recalls.eu/tesla-model-3-side-impact-requirements-kba/" target="_blank" rel="noopener">car-recalls.eu</a></li>
+          <li id="ref-4">ZF, &ldquo;Integrated Safety: ZF Presents Strategies for Pre-Crash Airbag Activation,&rdquo; 2019: far-side airbag &ldquo;may be necessary in order to receive a 5-star crash safety rating.&rdquo; <a href="https://news.cision.com/zf/r/integrated-safety--zf-presents-strategies-for-pre-crash-airbag-activation,c2684565" target="_blank" rel="noopener">news.cision.com</a></li>
+          <li id="ref-5">Digital Trends, &ldquo;Five years, 2 million recalls, still hitting police cars,&rdquo; October 2026: NHTSA&rsquo;s April 2024 recall query on Tesla OTA remedy adequacy. <a href="https://www.digitaltrends.com/cars/five-years-2-million-recalls-still-hitting-police-cars-the-fatal-flaw-inside-teslas-fsd/" target="_blank" rel="noopener">digitaltrends.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> EU Safety Gate via Germany, German KBA, Auto Plus, ZF, NHTSA via Digital Trends reporting. Recall counts from EU regulatory filings. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

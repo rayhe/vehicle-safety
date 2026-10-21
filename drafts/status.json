@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1231-tesla-model-3-far-side-airbag-ota-recall",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-21T11:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-21 09:30 run: #1230 SHIP_BLOCKED 2027-11-24 (Toyota Land Cruiser Hybrid fuel-tube fire recall, Rex Driverton; avg 8.87, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); #825 (ship_date 2026-10-21) remains due for the next run.",
   "last_checked": "2026-10-21T05:50:00-07:00",
-  "last_completed": "2026-10-21T09:45:00-07:00",
+  "last_completed": "2026-10-21T11:35:00-07:00",
   "last_completed_date": "2026-10-21",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-21T01:33:00-07:00",
   "last_published_date": "2026-10-21",
   "last_published_slug": "ev-fire-blanket-explosion-risk",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
-  "next": 1231,
+  "next": 1232,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -16429,6 +16424,17 @@
         "critic_panel": "drafts/1230-land-cruiser-hybrid-fuel-tube-fire-recall-critic-panel-r0.md"
       },
       "note": "2026-10-21 09:30 run: Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Toyota 2024-2027 Land Cruiser Hybrid fuel-tube disconnect recall (105,794 vehicles; announced Oct 14, NHTSA notice Oct 21). Novel: dual stall+fire hazard, 27-month report-to-recall lag, 39.7% are 2025s, 100% of modern fleet, clamp remedy. Ship_date = 1 day after #1229 (2027-11-23). Draft+hero+research+critique in drafts/ (1230- prefix). Hero sha8 5dcab7bb."
+    },
+    {
+      "journalist": "Mia Crumplezone",
+      "note": "2026-10-21 11:30 run: Tesla Model 3 Premium far-side airbag OTA recall, EU Safety Gate SR/02850/26 (KBA 16992R). 7/7 critics >= 8.5 at round 0 (avg 8.8). Gates re-verified pre-ship: em 0, banned 0, The 7.9%, css ok, hero JPEG 1920x1280. Ship_date = 1 day after #1230 (2027-11-24). Draft+hero+research+critique in drafts/ (1231- prefix). Hero sha8 b34c7e28.",
+      "number": 1231,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-11-25",
+      "slug": "1231-tesla-model-3-far-side-airbag-ota-recall",
+      "title": "Tesla Recalled 131,726 Airbags and Nobody Visited a Dealer",
+      "avg_critic": 8.8,
+      "critique_round": 0
     }
   ],
   "last_worker_run": "2026-10-21T03:30:00-07:00"
