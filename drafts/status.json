@@ -1,22 +1,16 @@
 {
- "current": {
-  "slug": "1230-land-cruiser-hybrid-fuel-tube-fire-recall",
-  "phase": "DRAFT",
-  "journalist": "Rex Driverton",
-  "started": "2026-10-21T09:30:00-07:00",
-  "note": "RESEARCH complete 09:30 run: Toyota 2024-2027 Land Cruiser Hybrid fuel-tube disconnect recall (105,794 vehicles, announced Oct 14, NHTSA notice Oct 21). 3+ primary sources (Toyota pressroom, NHTSA/Reuters, USA Today, Autoblog context). Novel angle: dual stall+fire hazard, 27-month report-to-recall lag, 100% of modern fleet, clamp remedy."
- },
- "last_check_note": "2026-10-21 07:30 run: #1229 SHIP_BLOCKED 2027-11-23 (ForCar recall-consequence tabulation replication, Axle McScatter). 1/day gate consumed by Publish #763 (01:38 PDT); no publishing this run.",
+ "current": null,
+ "last_check_note": "2026-10-21 09:30 run: #1230 SHIP_BLOCKED 2027-11-24 (Toyota Land Cruiser Hybrid fuel-tube fire recall, Rex Driverton; avg 8.87, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); #825 (ship_date 2026-10-21) remains due for the next run.",
  "last_checked": "2026-10-21T05:50:00-07:00",
- "last_completed": "2026-10-21T07:55:00-07:00",
+ "last_completed": "2026-10-21T09:45:00-07:00",
  "last_completed_date": "2026-10-21",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-10-21T01:33:00-07:00",
  "last_published_date": "2026-10-21",
  "last_published_slug": "ev-fire-blanket-explosion-risk",
  "last_qa_date": "2026-10-21",
  "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
- "next": 1230,
+ "next": 1231,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -16386,6 +16380,50 @@
    "ship_date": "2027-11-23",
    "slug": "1229-recall-consequence-bluntest-sentences",
    "title": "28,739 Recall Records Warn of a Crash. 3,341 Warn of Death."
+  },
+  {
+   "number": 1230,
+   "slug": "1230-land-cruiser-hybrid-fuel-tube-fire-recall",
+   "title": "Toyota Recalled 105,794 Land Cruisers Over a Fuel Connector That Can Come Apart. The Fix Is a Clamp.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "ship_date": "2027-11-24",
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 8.8,
+    "legal_accuracy": 9.2,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "critique_round": 0,
+   "avg_critic": 8.87,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 13.5,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "5dcab7bb",
+    "word_count": 838,
+    "sentence_rhythm": {
+     "variance": 262.7,
+     "short_pct": 7.9,
+     "long_pct": 47.4,
+     "passed": true
+    }
+   },
+   "files": {
+    "research": "drafts/1230-land-cruiser-hybrid-fuel-tube-fire-recall-research.md",
+    "story": "drafts/1230-land-cruiser-hybrid-fuel-tube-fire-recall.html",
+    "hero": "drafts/1230-land-cruiser-hybrid-fuel-tube-fire-recall.jpg",
+    "critic_panel": "drafts/1230-land-cruiser-hybrid-fuel-tube-fire-recall-critic-panel-r0.md"
+   },
+   "note": "2026-10-21 09:30 run: Round-0 pass 8.87 avg; 7/7 critics >= 8.5. Toyota 2024-2027 Land Cruiser Hybrid fuel-tube disconnect recall (105,794 vehicles; announced Oct 14, NHTSA notice Oct 21). Novel: dual stall+fire hazard, 27-month report-to-recall lag, 39.7% are 2025s, 100% of modern fleet, clamp remedy. Ship_date = 1 day after #1229 (2027-11-23). Draft+hero+research+critique in drafts/ (1230- prefix). Hero sha8 5dcab7bb."
   }
  ],
  "last_worker_run": "2026-10-21T03:30:00-07:00"
