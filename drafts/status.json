@@ -16177,7 +16177,51 @@
         }
       },
       "note": "2026-10-20 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.9, round 0). Research adopted from unshipped #1173 note, refreshed with 26V664000 from NHTSA API, renumbered #1224, journalist rotated to Clara Rollover. Hero JPEG verified (FF D8, 1920x1280, ?v=7825dfa7). Dateline matches ship_date 2027-11-18."
+    },
+    {
+      "number": 1225,
+      "slug": "1225-tesla-fsd-asleep-chp-crash",
+      "title": "Five Years, Two Million Recalls, One Asleep Driver: Tesla Hits Another Cop Car",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-11-19",
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1225-tesla-fsd-asleep-chp-crash-research.md",
+        "story": "drafts/1225-tesla-fsd-asleep-chp-crash.html",
+        "critic_panel": "drafts/1225-tesla-fsd-asleep-chp-crash-critic-panel-r0.md",
+        "hero": "drafts/1225-tesla-fsd-asleep-chp-crash.jpg"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "5515a3be",
+        "hero_dim": "1920x1280",
+        "word_count": 590,
+        "sentence_rhythm": {
+          "variance": 96.3,
+          "short_pct": 25.0,
+          "long_pct": 15.0,
+          "passed": true
+        }
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "note": "2026-10-20 17:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.89, round 0). Oct 13, 2026 Fairfield I-80 crash: 22yo told CHP he was asleep with FSD engaged; 2 officers injured; federal inquiry opened. Novel: five-year NHTSA loop (2021 probe -> 23V-838 2.03M -> RQ24009 -> EA26002 3.2M) vs same failure; desk continuity with #875/#968 cabin-camera coverage. Gates: em 0, banned 0, The-starters 0.0pct, rhythm PASS (var 96.3), hero JPEG 1920x1280 ?v=5515a3be. Queued SHIP_BLOCKED 2027-11-19 (1 day after #1224 2027-11-18). Dateline pre-set to 2027-11-19."
     }
   ],
-  "last_worker_run": "2026-10-20T13:30:00-07:00"
+  "last_worker_run": "2026-10-20T17:30:00-07:00"
 }
