@@ -1,7 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-21 01:30 run: published #763 (hero unblocked 2026-10-20; earliest-due). current #1227 SHIP_BLOCKED (ship 2027-11-21, nothing to do). 1/day gate consumed by #763 publish.",
-  "last_checked": "2026-10-21T01:41:17-07:00",
+  "current": {
+    "slug": "1228-ram-2500-esc-silent-kill",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-21T05:35:00-07:00",
+    "number": 1228
+  },
+  "last_check_note": "2026-10-21 05:30 run: RESEARCH complete for #1228 (Ram 2500 ESC silent-kill recall 26V-651/90D). 1/day gate consumed by Publish #763 (01:38 PDT); no publishing this run.",
+  "last_checked": "2026-10-21T05:35:00-07:00",
   "last_completed": "2026-10-21T03:30:00-07:00",
   "last_completed_date": "2026-10-20",
   "last_journalist": "Vin Wreckage",
