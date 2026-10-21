@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1227-work-trucks-fail-first-iihs-auto-brake-test",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-20T21:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-21 01:30 run: published #763 (hero unblocked 2026-10-20; earliest-due). current #1227 SHIP_BLOCKED (ship 2027-11-21, nothing to do). 1/day gate consumed by #763 publish.",
   "last_checked": "2026-10-21T01:41:17-07:00",
-  "last_completed": "2026-10-20T15:30:00-07:00",
+  "last_completed": "2026-10-21T03:30:00-07:00",
   "last_completed_date": "2026-10-20",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-21T01:33:00-07:00",
@@ -16312,5 +16307,5 @@
       "note": "2026-10-20 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.93, round 0). Gates: em 0, banned 0, The 0.0%, class=story, style.css, rhythm PASS (var 1091.7, short 8.7%), hero JPEG 1920x1280 ?v=4c246e53. First-ever IIHS commercial crash-prevention ratings (Oct 8, 2026); prior Jun-2026 stories covered only the checklist chapter."
     }
   ],
-  "last_worker_run": "2026-10-20T19:30:00-07:00"
+  "last_worker_run": "2026-10-21T03:30:00-07:00"
 }
