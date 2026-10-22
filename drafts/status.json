@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "1241-ascent-soberest-deadliest-subaru",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-22T11:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-22 09:30 run: #1240 SHIP_BLOCKED 2027-12-04 (Tesla Cybercab year-end sales vs NHTSA AQ26002 audit; Rex Driverton; avg 8.74, round 0; fresh Oct 21 Q3-earnings peg). PUBLISH-QUEUE: 1/day gate consumed (2 Publish-matching commits since 00:00 PDT) - no publish this run. Earliest due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (2026-10-21) still hero-less; hero-less articles never ship - next run should publish the next due hero-ready article. Killed this run: IIHS Class-3 ratings, Land Cruiser Hybrid fire, Genesis G80 seat-motor fire, Ford speedometer, Kia EV9 ODS (all already covered).",
   "last_checked": "2026-10-22T05:30:00-07:00",
   "last_completed": "2026-10-22T07:30:00-07:00",
@@ -16796,7 +16791,47 @@
         "critic_panel": "drafts/1240-tesla-cybercab-sales-during-audit-critic-panel-r0.md"
       },
       "note": "2026-10-22 09:30 run: round-0 panel VERDICT SHIP (avg 8.74, 7/7 >= 8.5). Gate fixes during DRAFT: banned catchphrase removed, The-starters 31.2% -> 13.8%, rhythm variance 121 -> 521.5 (short 21.6% -> 4.8%). Dateline pre-set to December 4, 2027 (ship_date). Hero JPEG 1920x1280 ?v=dbfa9b1c."
+    },
+    {
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1241-ascent-soberest-deadliest-subaru-research.md",
+        "story": "drafts/1241-ascent-soberest-deadliest-subaru.html",
+        "hero": "drafts/1241-ascent-soberest-deadliest-subaru.jpg",
+        "critic_panel": "drafts/1241-ascent-soberest-deadliest-subaru-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7e5b4b90",
+        "rhythm_short_pct": 20.9,
+        "word_count": 460
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-10-22 11:30 run: RESEARCH->DRAFT->CRITIQUE round 0 SHIP (avg 8.90, 7/7 >= 8.5, all hard gates; em 0, The-starters 2.3%). Angle: Ascent 8.2% impairment (lowest of 307 models) vs 0.78/100M VMT rate = 2.7x WRX (23.4% impaired, most in brand). First Subaru article in 448 queue entries. News peg: recall 26V436000 (384,407 Ascents, wrong GAWR label). Counterarguments full-strength (8 vs 5 seats, kids, MY2019 denominator). Queued SHIP_BLOCKED 2027-12-05 (1 day after #1240).",
+      "number": 1241,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-12-05",
+      "slug": "1241-ascent-soberest-deadliest-subaru",
+      "started": "2026-10-22T11:30:00-07:00",
+      "title": "The Soberest Drivers in America Die at Nearly Three Times the Rate of the Drunkest Hooligans",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      }
     }
   ],
-  "last_worker_run": "2026-10-22T07:30:00-07:00"
+  "last_worker_run": "2026-10-22T11:30:00-07:00"
 }
