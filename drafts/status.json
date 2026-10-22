@@ -1,12 +1,6 @@
 {
-  "current": {
-    "slug": "1240-tesla-cybercab-sales-during-audit",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-22T09:30:00-07:00",
-    "title": "Tesla Will Sell You a Car With No Steering Wheel While NHTSA Decides Whether the Car Is Legal"
-  },
-  "last_check_note": "2026-10-22 09:30 run: #1240 RESEARCH complete (Tesla Cybercab year-end sales commitment vs NHTSA AQ26002; Rex Driverton; fresh Oct 21 Q3-earnings peg, not covered by #1016/#1113/#1145/#1167/#1205). Killed: IIHS Class-3 ratings (already covered 1093/1110/1121/1140/1144/1175/1189/1227), Land Cruiser Hybrid fire recall (#1230), Genesis G80 seat-motor fire (#1224), Ford F-Series speedometer (#1223), Kia EV9 ODS (#1101).",
+  "current": null,
+  "last_check_note": "2026-10-22 09:30 run: #1240 SHIP_BLOCKED 2027-12-04 (Tesla Cybercab year-end sales commitment vs NHTSA AQ26002 audit; Rex Driverton; avg 8.74, round 0, fresh Oct 21 Q3-earnings peg).",
   "last_checked": "2026-10-22T05:30:00-07:00",
   "last_completed": "2026-10-22T07:30:00-07:00",
   "last_completed_date": "2026-10-21",
@@ -16,7 +10,7 @@
   "last_published_slug": "ev-fire-blanket-explosion-risk",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
-  "next": 1241,
+  "next": 1242,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -16756,6 +16750,47 @@
         "critic_panel": "drafts/1239-tesla-robotaxi-remote-takeover-crashes-critic-panel-r0.md"
       },
       "note": "2026-10-22 07:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0, avg 8.86)+SHIP in one run. Vin Wreckage on the robotaxi teleop paradox: 5 of 5 documented Tesla remote takeovers ended in collisions (Dallas 0.40mph/SUV, Austin 1mph/dumpster, Aug 2026; 3 earlier: fence 8mph, barricade 9mph, tree stump 2mph), all property-damage-only, all coded 'Remote (Commercial / Test)' in NHTSA SGO data (posted Oct 15). Tesla's Oct 21 safety report (3.1M driverless miles, zero injuries) explicitly includes remote-operator miles; injury count only where robotaxi made first contact; 2 injury claims excluded. Waymo contrast: Feb 2026 Markey letter — remote staff never perform the driving task (advise-only). Counterargument at full strength (5 numerators, no denominator; hardest 5 minutes of the fleet's day). No queue overlap (school-zone robotaxi covered in #1145/#1205; teleop never done). Rhythm fixed r0 (short_pct 33.3->11.1 via fragment merges). Queued SHIP_BLOCKED 2027-12-03 (1 day after #1238)."
+    },
+    {
+      "number": 1240,
+      "slug": "1240-tesla-cybercab-sales-during-audit",
+      "title": "Tesla Will Sell You a Car With No Steering Wheel While NHTSA Decides Whether the Car Is Legal",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-12-04",
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.6,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "dbfa9b1c",
+        "rhythm_variance": 521.5,
+        "rhythm_short_pct": 4.8,
+        "rhythm_long_pct": 61.9,
+        "word_count": 490
+      },
+      "files": {
+        "research": "drafts/1240-tesla-cybercab-sales-during-audit-research.md",
+        "story": "drafts/1240-tesla-cybercab-sales-during-audit.html",
+        "hero": "drafts/1240-tesla-cybercab-sales-during-audit.jpg",
+        "critic_panel": "drafts/1240-tesla-cybercab-sales-during-audit-critic-panel-r0.md"
+      },
+      "note": "2026-10-22 09:30 run: round-0 panel VERDICT SHIP (avg 8.74, 7/7 >= 8.5). Gate fixes during DRAFT: banned catchphrase removed, The-starters 31.2% -> 13.8%, rhythm variance 121 -> 521.5 (short 21.6% -> 4.8%). Dateline pre-set to December 4, 2027 (ship_date). Hero JPEG 1920x1280 ?v=dbfa9b1c."
     }
   ],
   "last_worker_run": "2026-10-22T07:30:00-07:00"
