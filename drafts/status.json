@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1233-rav4-phev-software-shutdown-highway-speed",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-21T17:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-21 13:30 run: #1232 SHIP_BLOCKED 2027-11-26 (Sierra grille recall query RQ26003, Clara Rollover; avg 8.8, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending tomorrow.",
   "last_checked": "2026-10-21T14:20:00-07:00",
-  "last_completed": "2026-10-21T14:15:00-07:00",
+  "last_completed": "2026-10-21T17:30:00-07:00",
   "last_completed_date": "2026-10-21",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-10-21T01:33:00-07:00",
@@ -16463,6 +16458,43 @@
         "css_ok": true
       },
       "note": "2026-10-21 13:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run. NHTSA RQ26003 (opened Oct 9, 2026) audits GM's 25V-060 Sierra grille fix; 118 complaints incl. 21 post-repair. Avg 8.8, round 0, all gates pass. Hero real JPEG ?v=8e9990be."
+    },
+    {
+      "number": 1233,
+      "slug": "1233-rav4-phev-software-shutdown-highway-speed",
+      "title": "The 2026 RAV4 Can Lose All Power at Highway Speed. Toyota's Letter Arrives in December.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2027-11-27",
+      "avg_critic": 8.83,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1233-rav4-phev-software-shutdown-highway-speed-research.md",
+        "story": "drafts/1233-rav4-phev-software-shutdown-highway-speed.html",
+        "hero": "drafts/1233-rav4-phev-software-shutdown-highway-speed.jpg",
+        "critic_panel": "drafts/1233-rav4-phev-software-shutdown-highway-speed-critic-panel-r0.md"
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.7,
+        "css_ok": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "35df0e29",
+        "word_count": 647
+      },
+      "note": "2026-10-21 17:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. NHTSA 26V659 / Toyota 26TA22: 30,978 MY2026 RAV4 PHEVs, MG-ECU initialization failure, speed-gated power loss, 38 field reports + 58 warranty claims, software remedy, letters from Nov 22. Round-0 panel avg 8.83, all 7 >= 8.5; gates: em 0, banned 0, The 8.7%, hero JPEG 1920x1280 ?v=35df0e29. Ship_date = 1 day after #1232 (2027-11-26)."
     }
   ],
   "last_worker_run": "2026-10-21T17:30:00-07:00"
