@@ -16571,7 +16571,51 @@
    "slug": "1235-trip-report-two-track-safety-recovery",
    "title": "America's Roads Got Safer Four Years Running. Unless You Weren't in a Car.",
    "note": "2026-10-21 23:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0, avg 8.87)+SHIP in one run. Axle McScatter on TRIP Sep 25 2026 report: 2025 traffic deaths fell 4th straight year, but pedestrians+bicyclists (21% of all deaths) up 8% 2020-2025 (peds 6,236->6,529, bikes 891->1,148); $1.75T societal harm ($435B econ + $1.32T QoL); original math: ~$13.2M/pedestrian death (GHSA H1-2025 $40B/3,024), ~$4.79B/day; GHSA counterpoint (6,732 prelim, -7%, 3rd straight decline) stated at full strength; SUVs/pickups >half of pedestrian deaths. Round-0 panel, all 7 >= 8.5; gates: em 0, banned 0, The 2.8%, rhythm PASS, hero JPEG 2736x912 ?v=0257eba0. Queued SHIP_BLOCKED 2027-11-29 (1 day after #1234)."
+  },
+  {
+   "avg_critic": 8.76,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1236-nhtsa-retires-rollover-fishhook-test-research.md",
+    "story": "drafts/1236-nhtsa-retires-rollover-fishhook-test.html",
+    "hero": "drafts/1236-nhtsa-retires-rollover-fishhook-test.jpg",
+    "critic_panel": "drafts/1236-nhtsa-retires-rollover-fishhook-test-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.6,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "2352x1008",
+    "hero_hash": "ddc11dd6",
+    "word_count": 624,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 892.9,
+     "short_pct": 10.3,
+     "long_pct": 44.8
+    }
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "note": "2026-10-22 01:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0, avg 8.76)+SHIP in one run. Rex Driverton on NHTSA NCAP RFC (FR 2026-16735, docket NHTSA-2026-1651, comments closed Oct 16): Fishhook rollover test + SAB-OOP removed; rollover stars become static-stability-factor math from MY2027; same notice delays 10-year roadmap upgrades ~2y (cuts MY2027, replacements late 2029); CR Oct 16 comments call out the contradiction. Novel: 'savings buy a delay' framing; 28% of occupant deaths in <3% of crashes vs zero Fishhook tips in 15y. Round-0 panel, all 7 >= 8.5. Gates: em 0, banned 0, The 9.6%, rhythm PASS, hero JPEG 2352x1008 ?v=ddc11dd6. Queued SHIP_BLOCKED 2027-11-30 (1 day after #1235).",
+   "number": 1236,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.6,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.7,
+    "legal_accuracy": 9.1,
+    "research_rigor": 8.9,
+    "data_presentation": 8.5
+   },
+   "ship_date": "2027-11-30",
+   "slug": "nhtsa-retires-rollover-fishhook-test",
+   "title": "NHTSA Retired the Rollover Test Nobody Fails. Your Rollover Rating Is Now a Math Problem."
   }
  ],
- "last_worker_run": "2026-10-21T17:30:00-07:00"
+ "last_worker_run": "2026-10-22T01:30:00-07:00"
 }
