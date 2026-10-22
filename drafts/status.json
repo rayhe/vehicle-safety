@@ -1,8 +1,8 @@
 {
  "current": null,
  "last_check_note": "2026-10-21 23:30 run: #1235 SHIP_BLOCKED 2027-11-29 (TRIP 2026 two-track safety recovery, Axle McScatter; avg 8.87, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending next run.",
- "last_checked": "2026-10-21T23:55:00-07:00",
- "last_completed": "2026-10-21T23:55:00-07:00",
+ "last_checked": "2026-10-22T01:30:00-07:00",
+ "last_completed": "2026-10-22T01:30:00-07:00",
  "last_completed_date": "2026-10-21",
  "last_journalist": "Axle McScatter",
  "last_published": "2026-10-21T01:33:00-07:00",
@@ -1205,7 +1205,7 @@
    },
    "journalist": "Vin Wreckage",
    "kicker": "Existential Dread",
-   "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (825- prefix). Ford 26C40: 148,663 2024-2026 Mustangs, ground eyelet fatigue fracture from adhesive spill, discovered on 2027 durability mule, 1% defect estimate (~1,487), remedy anticipated March 2027. Novel: 2027-mule lede, 100:1 recall-to-defect ratio, remedy-gap-as-story. Disambiguated from #809's 26S61 piston recall. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-09-30. 2026-10-21 17:30 run: due today but 1/day gate hit (2 Publish commits); hero JPG NOT FOUND in drafts/ or images/ despite recorded hash ca9c6390 \u2014 next publish run must regenerate/recover hero before shipping.",
+   "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (825- prefix). Ford 26C40: 148,663 2024-2026 Mustangs, ground eyelet fatigue fracture from adhesive spill, discovered on 2027 durability mule, 1% defect estimate (~1,487), remedy anticipated March 2027. Novel: 2027-mule lede, 100:1 recall-to-defect ratio, remedy-gap-as-story. Disambiguated from #809's 26S61 piston recall. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-09-30. 2026-10-21 17:30 run: due today but 1/day gate hit (2 Publish commits); hero JPG NOT FOUND in drafts/ or images/ despite recorded hash ca9c6390 \u2014 next publish run must regenerate/recover hero before shipping. | 2026-10-22 01:30 run: SKIPPED for publish - due 2026-10-21 but no hero image in drafts/ (hero-less articles never ship); #826 published instead per no-stall rule.",
    "number": 825,
    "phase": "SHIP_BLOCKED",
    "scores": {
@@ -1242,9 +1242,9 @@
    },
    "journalist": "Dale Impactor III",
    "kicker": "Sobriety Report",
-   "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (826- prefix). Li et al., AJPM June 2026: first rigorous US county-level diff-in-diff of Utah's 0.05 law (FARS 2013-2023 vs 6 neighboring states); alcohol deaths fell more in Utah, non-alcohol deaths unchanged, deterrence extended across higher BAC levels. Novel: heavy-drinker deterrence twist (68% of 2024 alcohol deaths at BAC>=0.15), national ~1,300 lives/yr arithmetic (11% x 11,904, labeled back-of-envelope), COVID-firewall subsample note. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-01.",
+   "note": "Round-0 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (826- prefix). Li et al., AJPM June 2026: first rigorous US county-level diff-in-diff of Utah's 0.05 law (FARS 2013-2023 vs 6 neighboring states); alcohol deaths fell more in Utah, non-alcohol deaths unchanged, deterrence extended across higher BAC levels. Novel: heavy-drinker deterrence twist (68% of 2024 alcohol deaths at BAC>=0.15), national ~1,300 lives/yr arithmetic (11% x 11,904, labeled back-of-envelope), COVID-firewall subsample note. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-01. | 2026-10-22 01:30 run: PUBLISHED (hero JPEG 2048x1152 ffd8, story-hero img present, dateline bumped to Oct 22; 1/day gate open, #825 hero-less skipped).",
    "number": 826,
-   "phase": "SHIP_BLOCKED",
+   "phase": "PUBLISHED",
    "scores": {
     "data_presentation": 9.0,
     "ethics_reviewer": 9.0,
