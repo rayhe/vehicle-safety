@@ -1,13 +1,8 @@
 {
- "current": {
-  "slug": "1234-f150-seats-not-bolted-in",
-  "phase": "DRAFT",
-  "journalist": "Clara Rollover",
-  "started": "2026-10-21T19:35:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-21 13:30 run: #1232 SHIP_BLOCKED 2027-11-26 (Sierra grille recall query RQ26003, Clara Rollover; avg 8.8, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending tomorrow.",
  "last_checked": "2026-10-21T19:35:00-07:00",
- "last_completed": "2026-10-21T17:30:00-07:00",
+ "last_completed": "2026-10-21T21:30:00-07:00",
  "last_completed_date": "2026-10-21",
  "last_journalist": "Clara Rollover",
  "last_published": "2026-10-21T01:33:00-07:00",
@@ -16500,6 +16495,44 @@
     "word_count": 647
    },
    "note": "2026-10-21 17:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. NHTSA 26V659 / Toyota 26TA22: 30,978 MY2026 RAV4 PHEVs, MG-ECU initialization failure, speed-gated power loss, 38 field reports + 58 warranty claims, software remedy, letters from Nov 22. Round-0 panel avg 8.83, all 7 >= 8.5; gates: em 0, banned 0, The 8.7%, hero JPEG 1920x1280 ?v=35df0e29. Ship_date = 1 day after #1232 (2027-11-26)."
+  },
+  {
+   "avg_critic": 8.8,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1234-f150-seats-not-bolted-in-research.md",
+    "story": "drafts/1234-f150-seats-not-bolted-in.html",
+    "hero": "drafts/1234-f150-seats-not-bolted-in.jpg",
+    "critic_panel": "drafts/1234-f150-seats-not-bolted-in-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 5.3,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "e267b104",
+    "word_count": 640
+   },
+   "journalist": "Clara Rollover",
+   "kicker": "Investigation",
+   "number": 1234,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 8.7,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.6,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.7,
+    "data_presentation": 8.8
+   },
+   "ship_date": "2027-11-28",
+   "slug": "1234-f150-seats-not-bolted-in",
+   "title": "Your F-150's Front Seats Might Not Be Bolted In. Ford's Tracking System Says the Repair Was Done. It Wasn't.",
+   "note": "2026-10-21 21:30 run: RESEARCH+DRAFT completed by 19:35 run; this run CRITIQUE(r0, avg 8.80)+SHIP. Clara Rollover on NHTSA 26V655 / Ford 26S74: 2,276 MY2025-2027 F-150s, seat bolts missing/not seated, repair logged complete never performed, build window Aug 25 2025-Sep 23 2026, paired with 26V578 fuel-tank campaign. Round-0 panel, all 7 >= 8.5; gates: em 0, banned 0, The 5.3%, hero JPEG 1920x1280 ?v=e267b104. Queued SHIP_BLOCKED 2027-11-28 (1 day after #1233)."
   }
  ],
  "last_worker_run": "2026-10-21T17:30:00-07:00"
