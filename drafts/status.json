@@ -1,22 +1,16 @@
 {
- "current": {
-  "slug": "1235-trip-report-two-track-safety-recovery",
-  "phase": "DRAFT",
-  "journalist": "Axle McScatter",
-  "started": "2026-10-21T23:35:00-07:00",
-  "title": "America's Roads Got Safer Four Years Running. Unless You Weren't in a Car."
- },
- "last_check_note": "2026-10-21 13:30 run: #1232 SHIP_BLOCKED 2027-11-26 (Sierra grille recall query RQ26003, Clara Rollover; avg 8.8, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending tomorrow.",
- "last_checked": "2026-10-21T23:35:00-07:00",
- "last_completed": "2026-10-21T21:30:00-07:00",
+ "current": null,
+ "last_check_note": "2026-10-21 23:30 run: #1235 SHIP_BLOCKED 2027-11-29 (TRIP 2026 two-track safety recovery, Axle McScatter; avg 8.87, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending next run.",
+ "last_checked": "2026-10-21T23:55:00-07:00",
+ "last_completed": "2026-10-21T23:55:00-07:00",
  "last_completed_date": "2026-10-21",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-10-21T01:33:00-07:00",
  "last_published_date": "2026-10-21",
  "last_published_slug": "ev-fire-blanket-explosion-risk",
  "last_qa_date": "2026-10-21",
  "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
- "next": 1235,
+ "next": 1236,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -16539,6 +16533,44 @@
    "slug": "1234-f150-seats-not-bolted-in",
    "title": "Your F-150's Front Seats Might Not Be Bolted In. Ford's Tracking System Says the Repair Was Done. It Wasn't.",
    "note": "2026-10-21 21:30 run: RESEARCH+DRAFT completed by 19:35 run; this run CRITIQUE(r0, avg 8.80)+SHIP. Clara Rollover on NHTSA 26V655 / Ford 26S74: 2,276 MY2025-2027 F-150s, seat bolts missing/not seated, repair logged complete never performed, build window Aug 25 2025-Sep 23 2026, paired with 26V578 fuel-tank campaign. Round-0 panel, all 7 >= 8.5; gates: em 0, banned 0, The 5.3%, hero JPEG 1920x1280 ?v=e267b104. Queued SHIP_BLOCKED 2027-11-28 (1 day after #1233)."
+  },
+  {
+   "avg_critic": 8.87,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1235-trip-report-two-track-safety-recovery-research.md",
+    "story": "drafts/1235-trip-report-two-track-safety-recovery.html",
+    "hero": "drafts/1235-trip-report-two-track-safety-recovery.jpg",
+    "critic_panel": "drafts/1235-trip-report-two-track-safety-recovery-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 2.8,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "2736x912",
+    "hero_hash": "0257eba0",
+    "word_count": 500
+   },
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "number": 1235,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.6,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 9.2,
+    "research_rigor": 9.0,
+    "data_presentation": 8.9
+   },
+   "ship_date": "2027-11-29",
+   "slug": "1235-trip-report-two-track-safety-recovery",
+   "title": "America's Roads Got Safer Four Years Running. Unless You Weren't in a Car.",
+   "note": "2026-10-21 23:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0, avg 8.87)+SHIP in one run. Axle McScatter on TRIP Sep 25 2026 report: 2025 traffic deaths fell 4th straight year, but pedestrians+bicyclists (21% of all deaths) up 8% 2020-2025 (peds 6,236->6,529, bikes 891->1,148); $1.75T societal harm ($435B econ + $1.32T QoL); original math: ~$13.2M/pedestrian death (GHSA H1-2025 $40B/3,024), ~$4.79B/day; GHSA counterpoint (6,732 prelim, -7%, 3rd straight decline) stated at full strength; SUVs/pickups >half of pedestrian deaths. Round-0 panel, all 7 >= 8.5; gates: em 0, banned 0, The 2.8%, rhythm PASS, hero JPEG 2736x912 ?v=0257eba0. Queued SHIP_BLOCKED 2027-11-29 (1 day after #1234)."
   }
  ],
  "last_worker_run": "2026-10-21T17:30:00-07:00"
