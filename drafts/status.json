@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-22 09:30 run: #1240 SHIP_BLOCKED 2027-12-04 (Tesla Cybercab year-end sales vs NHTSA AQ26002 audit; Rex Driverton; avg 8.74, round 0; fresh Oct 21 Q3-earnings peg). PUBLISH-QUEUE: 1/day gate consumed (2 Publish-matching commits since 00:00 PDT) - no publish this run. Earliest due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (2026-10-21) still hero-less; hero-less articles never ship - next run should publish the next due hero-ready article. Killed this run: IIHS Class-3 ratings, Land Cruiser Hybrid fire, Genesis G80 seat-motor fire, Ford speedometer, Kia EV9 ODS (all already covered).",
-  "last_checked": "2026-10-22T05:30:00-07:00",
+  "current": {
+    "slug": "1242-sierra-grille-deflector-rq26003",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-22T13:30:00-07:00"
+  },
+  "last_check_note": "2026-10-22 13:30 run: RESEARCH done for #1242 sierra-grille-deflector-rq26003 (RQ26003 recall query; 118 complaints, 21 post-repair; Mia Crumplezone). PUBLISH-QUEUE: 1/day gate consumed (2 Publish commits since 00:00 PDT) - no publish this run. #825 still hero-less.",
+  "last_checked": "2026-10-22T13:30:00-07:00",
   "last_completed": "2026-10-22T07:30:00-07:00",
   "last_completed_date": "2026-10-21",
   "last_journalist": "Rex Driverton",
