@@ -1,7 +1,13 @@
 {
- "current": null,
+ "current": {
+  "slug": "1235-trip-report-two-track-safety-recovery",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-10-21T23:35:00-07:00",
+  "title": "America's Roads Got Safer Four Years Running. Unless You Weren't in a Car."
+ },
  "last_check_note": "2026-10-21 13:30 run: #1232 SHIP_BLOCKED 2027-11-26 (Sierra grille recall query RQ26003, Clara Rollover; avg 8.8, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending tomorrow.",
- "last_checked": "2026-10-21T19:35:00-07:00",
+ "last_checked": "2026-10-21T23:35:00-07:00",
  "last_completed": "2026-10-21T21:30:00-07:00",
  "last_completed_date": "2026-10-21",
  "last_journalist": "Clara Rollover",
