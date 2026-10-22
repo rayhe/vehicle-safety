@@ -2,9 +2,9 @@
  "current": null,
  "last_check_note": "2026-10-21 23:30 run: #1235 SHIP_BLOCKED 2027-11-29 (TRIP 2026 two-track safety recovery, Axle McScatter; avg 8.87, round 0). Publish queue: 1/day gate consumed (2 Publish commits since 00:00 PDT); no publish this run. Next due: #825 ford-mustang-148k-ground-recall-fix-march-2027 (ship_date 2026-10-21) pending next run.",
  "last_checked": "2026-10-22T01:30:00-07:00",
- "last_completed": "2026-10-22T01:30:00-07:00",
+ "last_completed": "2026-10-22T03:30:00-07:00",
  "last_completed_date": "2026-10-21",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-21T01:33:00-07:00",
  "last_published_date": "2026-10-21",
  "last_published_slug": "ev-fire-blanket-explosion-risk",
@@ -16615,7 +16615,52 @@
    "ship_date": "2027-11-30",
    "slug": "nhtsa-retires-rollover-fishhook-test",
    "title": "NHTSA Retired the Rollover Test Nobody Fails. Your Rollover Rating Is Now a Math Problem."
+  },
+  {
+   "critic_avg": 8.77,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1237-post-crash-fatality-index-research.md",
+    "story": "drafts/1237-post-crash-fatality-index.html",
+    "hero": "drafts/1237-post-crash-fatality-index.jpg",
+    "critic_panel": "drafts/1237-post-crash-fatality-index-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 8.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "eb4c8e27",
+    "word_count": 598,
+    "sentence_rhythm": {
+     "passed": true,
+     "variance": 776.4,
+     "short_pct": 11.1,
+     "long_pct": 48.1
+    }
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "The Gap",
+   "note": "2026-10-22 03:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0, avg 8.77)+SHIP in one run. Mia Crumplezone on the post-crash fatality index (deaths per fatal-crash involvement, FARS 2014-2023, 337 nameplates): Mustang 0.696 vs Ram 1500 0.341 (2.04x span); Ranger 0.690 vs F-250 0.364 same-brand same-class paradox; class medians sedan 0.641 / SUV 0.535 / pickup 0.471. Novel: first ranking of the metric; reframing of death-rate coverage (frequency vs lethality). Pre-panel fix: rhythm rewrite (short_pct 34->11.1) after gate FAIL; The-starters 8.0%. IIHS Feb 2025 Monfort compatibility study + 30k-crash NHTSA analysis as external anchors. Counterargument stated at full strength (truck's number vs sedan's number). Zero queue overlap. Queued SHIP_BLOCKED 2027-12-01 (1 day after #1236).",
+   "number": 1237,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.7,
+    "ethics_reviewer": 8.8,
+    "social_shareability": 8.7,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.9,
+    "data_presentation": 8.6
+   },
+   "ship_date": "2027-12-01",
+   "slug": "1237-post-crash-fatality-index",
+   "started": "2026-10-22T03:30:00-07:00",
+   "title": "The Crash Already Happened. Now Your Car's Weight Casts the Deciding Vote."
   }
  ],
- "last_worker_run": "2026-10-22T01:30:00-07:00"
+ "last_worker_run": "2026-10-22T03:30:00-07:00"
 }
