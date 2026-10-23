@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-23 13:30 run: #1254 RESEARCH+DRAFT+CRITIQUE+SHIP complete (avg 8.86, r0). Queued 2027-12-18. PUBLISH-QUEUE: 3 publishes already today, skipping.",
+  "last_check_note": "15:30 run: PUBLISH-QUEUE skipped (1/day gate satisfied); #827 due but hero missing; #1255 researched/drafted/critiqued/SHIP->queued 2027-12-19; current=null",
   "last_checked": "2026-10-23T15:30:00-07:00",
   "last_completed": "2026-10-23T13:30:00-07:00",
   "last_completed_date": "2026-10-23",
@@ -1284,7 +1284,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (827- prefix). News peg: TechCrunch Aug 27, 2026 review of OSHA ITA data - 24+ Waymo/Zoox test-driver injuries 2024-2025 from hard braking (sprains, whiplash, 157/175 days away). Novel: risk-transfer framing (phantom-braking as occupant injury mechanism), surveillance paradox (OSHA's only sensor is the employee being designed out; purpose-built robotaxis carry non-employees), recall-failure observation (4 of 8 Zoox 2025 injuries post-date Mar 2025 258-vehicle unexpected-braking recall; brake jabs reported through Jul 2026). 6 sources incl. NHTSA RCAK-25E029, Reuters, OSHA ITA, IIHS study. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-03. | 2026-10-23 01:30 run: due 2026-10-23 but SKIPPED at publish (no hero image file in drafts/; hero-less articles never ship). Cadence not stalled; #825 published instead. | 2026-10-23 05:30 run: 1/day gate already satisfied (2 Publish # commits today); no publish this run. Hero file now present in drafts/; entry remains due and publishable by a later run. | 2026-10-23 07:30 run: skipped for publishing - hero jpg missing from drafts/ (hero-less articles never ship); due 2026-10-23 but publish cadence already satisfied today (Publish #825).",
+      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (827- prefix). News peg: TechCrunch Aug 27, 2026 review of OSHA ITA data - 24+ Waymo/Zoox test-driver injuries 2024-2025 from hard braking (sprains, whiplash, 157/175 days away). Novel: risk-transfer framing (phantom-braking as occupant injury mechanism), surveillance paradox (OSHA's only sensor is the employee being designed out; purpose-built robotaxis carry non-employees), recall-failure observation (4 of 8 Zoox 2025 injuries post-date Mar 2025 258-vehicle unexpected-braking recall; brake jabs reported through Jul 2026). 6 sources incl. NHTSA RCAK-25E029, Reuters, OSHA ITA, IIHS study. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-03. | 2026-10-23 01:30 run: due 2026-10-23 but SKIPPED at publish (no hero image file in drafts/; hero-less articles never ship). Cadence not stalled; #825 published instead. | 2026-10-23 05:30 run: 1/day gate already satisfied (2 Publish # commits today); no publish this run. Hero file now present in drafts/; entry remains due and publishable by a later run. | 2026-10-23 07:30 run: skipped for publishing - hero jpg missing from drafts/ (hero-less articles never ship); due 2026-10-23 but publish cadence already satisfied today (Publish #825). | 2026-10-23 15:30 run: 1/day gate satisfied (3 Publish # commits today); no publish. #827 still due 2026-10-23 but hero jpg absent in drafts/ (hero-less never ships); cadence not stalled.",
       "number": 827,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -17353,5 +17353,5 @@
       "note": "2026-10-23 15:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.97, 7/7 critics >= 8.5; hard gates all pass: em 0, banned 0, The 6.4%, class story, style.css, hero JPEG 1920x1280 692ac64b). News peg: Oct 2026 European consortium tests forced voluntary recalls of Axkid Minikid Core (support leg retracted, harness tore from shell) and Britax R&ouml;mer Baby-Safe Pro + Vario Base 5Z (buckle popped when reclined, held upright/belt-installed). Novel: regulation-vs-reality gap (both fully legal), one-recline-click mode failure, common-supplier buckle contagion, Axkid keep-using-vs-Which? stop-use clash. Queued 2027-12-19, 1 day after #1254 (2027-12-18)."
     }
   ],
-  "last_worker_run": "2026-10-23T11:30:00-07:00"
+  "last_worker_run": "2026-10-23T15:30:00-07:00"
 }
