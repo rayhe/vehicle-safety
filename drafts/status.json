@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1254-rideshare-recall-census",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-23T13:30:00-07:00",
-    "research": "drafts/1254-rideshare-recall-census-research.md"
-  },
-  "last_check_note": "2026-10-23 13:30 run: #1254 RESEARCH done (CARFAX taxi/rideshare recall census, Rex Driverton); entering DRAFT.",
+  "current": null,
+  "last_check_note": "2026-10-23 13:30 run: #1254 RESEARCH+DRAFT+CRITIQUE+SHIP complete (avg 8.86, r0). Queued 2027-12-18. PUBLISH-QUEUE: 3 publishes already today, skipping.",
   "last_checked": "2026-10-23T13:30:00-07:00",
-  "last_completed": "2026-10-23T11:30:00-07:00",
+  "last_completed": "2026-10-23T13:30:00-07:00",
   "last_completed_date": "2026-10-23",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-23T01:30:00-07:00",
   "last_published_date": "2026-10-23",
   "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
   "last_qa_date": "2026-10-23",
   "last_qa_note": "QA pass #825: story 200 (via 308), hero JPEG 200, og:title/og:description/og:image present, index card, sitemap.",
-  "next": 1254,
+  "next": 1255,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17277,6 +17271,43 @@
       },
       "avg": 8.97,
       "note": "Round-0 pass, avg 8.97; 7/7 critics >= 8.5; all hard gates. News peg: IIHS Oct 8, 2026 first-ever Class 3 front crash prevention ratings; original KE 4.0x + FMVSS 127 10k-lb gap analysis."
+    },
+    {
+      "number": 1254,
+      "slug": "1254-rideshare-recall-census",
+      "title": "Your Uber Has a 1-in-4 Chance of an Unfixed Recall. In New York, It's 2 in 5.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2027-12-18",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "files": {
+        "critic_panel": "drafts/1254-critic-panel-r0.md",
+        "hero": "drafts/1254-rideshare-recall-census.jpg",
+        "research": "drafts/1254-rideshare-recall-census-research.md",
+        "story": "drafts/1254-rideshare-recall-census.html"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "665284d9",
+        "word_count": 499
+      },
+      "note": "2026-10-23 13:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.86, 7/7 critics >= 8.5; hard gates all pass). Queued 1 day after #1253 (2027-12-17). CARFAX Oct 16 taxi/rideshare census: 437,583 VINs, 26.67% open recalls; NYC medallion 38.6%, Seattle 37.5%; driver-downtime economics (NYC permit transfer 6-8 weeks)."
     }
   ],
   "last_worker_run": "2026-10-23T11:30:00-07:00"
