@@ -1,7 +1,7 @@
 {
   "current": {
     "slug": "1245-porsche-centerlock-do-not-drive-expansion",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Rex Driverton",
     "started": "2026-10-22T19:30:00-07:00",
     "title": "Porsche\u2019s Do-Not-Drive Recall Just Grew: 548 More Cars, Same Exploding Wheel Bolts",
@@ -9,14 +9,25 @@
     "files": {
       "research": "drafts/1245-porsche-centerlock-do-not-drive-expansion-research.md",
       "story": "drafts/1245-porsche-centerlock-do-not-drive-expansion.html",
-      "hero": "drafts/1245-porsche-centerlock-do-not-drive-expansion.jpg"
+      "hero": "drafts/1245-porsche-centerlock-do-not-drive-expansion.jpg",
+      "critic_panel": "drafts/1245-porsche-centerlock-do-not-drive-expansion-critic-panel-r0.md"
+    },
+    "avg_critic": 8.86,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 9.7,
+      "css_class": true,
+      "style_css": true,
+      "hero_jpeg": true,
+      "hero_hash": "65228868"
     }
   },
   "last_check_note": "2026-10-22 19:30 run: RESEARCH on #1245 (Porsche centerlock expansion 26V682, Do Not Drive, 548 cars, filed today). Continuing to DRAFT same run.",
   "last_checked": "2026-10-22T19:30:00-07:00",
   "last_completed": "2026-10-22T17:30:00-07:00",
   "last_completed_date": "2026-10-21",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-21T01:33:00-07:00",
   "last_published_date": "2026-10-21",
   "last_published_slug": "ev-fire-blanket-explosion-risk",
