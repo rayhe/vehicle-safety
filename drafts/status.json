@@ -1,29 +1,6 @@
 {
-  "current": {
-    "slug": "1245-porsche-centerlock-do-not-drive-expansion",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-22T19:30:00-07:00",
-    "title": "Porsche\u2019s Do-Not-Drive Recall Just Grew: 548 More Cars, Same Exploding Wheel Bolts",
-    "critique_round": 0,
-    "files": {
-      "research": "drafts/1245-porsche-centerlock-do-not-drive-expansion-research.md",
-      "story": "drafts/1245-porsche-centerlock-do-not-drive-expansion.html",
-      "hero": "drafts/1245-porsche-centerlock-do-not-drive-expansion.jpg",
-      "critic_panel": "drafts/1245-porsche-centerlock-do-not-drive-expansion-critic-panel-r0.md"
-    },
-    "avg_critic": 8.86,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 9.7,
-      "css_class": true,
-      "style_css": true,
-      "hero_jpeg": true,
-      "hero_hash": "65228868"
-    }
-  },
-  "last_check_note": "2026-10-22 19:30 run: RESEARCH on #1245 (Porsche centerlock expansion 26V682, Do Not Drive, 548 cars, filed today). Continuing to DRAFT same run.",
+  "current": null,
+  "last_check_note": "2026-10-22 19:30 run: #1245 SHIP_BLOCKED 2027-12-09 (Porsche centerlock 26V682 expansion; Rex Driverton; avg 8.86, round 0; filed Oct 16, 2026). PUBLISH-QUEUE next.",
   "last_checked": "2026-10-22T19:30:00-07:00",
   "last_completed": "2026-10-22T17:30:00-07:00",
   "last_completed_date": "2026-10-21",
@@ -33,7 +10,7 @@
   "last_published_slug": "ev-fire-blanket-explosion-risk",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
-  "next": 1243,
+  "next": 1246,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -16977,6 +16954,32 @@
         "critic_panel": "drafts/1244-rav4-misses-tsp-kicks-wins-lab-critic-panel-r0.md"
       },
       "note": "2026-10-22 17:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.93 avg, 7/7 >= 8.5, all hard gates). News peg: IIHS Oct 2026 round (reported Oct 21-22). Novel: lab/road divergence (Kicks wins lab w/ 0.69 FARS rate vs RAV4's 0.19 = 3.63x; prior #960 showed lab/FARS agreement), PHEV penalty (hybrid Acceptable, PHEV Marginal/Poor rear restraints), second build-date asterisk in two months (only post-June-2026 Kicks builds qualify). Dateline pre-set to Dec 8, 2027. Queued 1/day after latest SHIP_BLOCKED (2027-12-07)."
+    },
+    {
+      "number": 1245,
+      "slug": "1245-porsche-centerlock-do-not-drive-expansion",
+      "title": "Porsche\u2019s Do-Not-Drive Recall Just Grew: 548 More Cars, Same Exploding Wheel Bolts",
+      "journalist": "Rex Driverton",
+      "ship_date": "2027-12-09",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "65228868"
+      },
+      "files": {
+        "research": "drafts/1245-porsche-centerlock-do-not-drive-expansion-research.md",
+        "story": "drafts/1245-porsche-centerlock-do-not-drive-expansion.html",
+        "hero": "drafts/1245-porsche-centerlock-do-not-drive-expansion.jpg",
+        "critic_panel": "drafts/1245-porsche-centerlock-do-not-drive-expansion-critic-panel-r0.md"
+      },
+      "note": "2026-10-22 19:30 run: critique round 0 PASS (avg 8.86). Queued 1 day after #1244 (2027-12-08)."
     }
   ],
   "last_worker_run": "2026-10-22T17:30:00-07:00"
