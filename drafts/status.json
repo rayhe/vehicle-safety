@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1255-axkid-britax-car-seat-test-failures",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-23T15:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-23 13:30 run: #1254 RESEARCH+DRAFT+CRITIQUE+SHIP complete (avg 8.86, r0). Queued 2027-12-18. PUBLISH-QUEUE: 3 publishes already today, skipping.",
   "last_checked": "2026-10-23T15:30:00-07:00",
   "last_completed": "2026-10-23T13:30:00-07:00",
   "last_completed_date": "2026-10-23",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-23T01:30:00-07:00",
   "last_published_date": "2026-10-23",
   "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
@@ -17313,6 +17308,49 @@
         "word_count": 499
       },
       "note": "2026-10-23 13:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.86, 7/7 critics >= 8.5; hard gates all pass). Queued 1 day after #1253 (2027-12-17). CARFAX Oct 16 taxi/rideshare census: 437,583 VINs, 26.67% open recalls; NYC medallion 38.6%, Seattle 37.5%; driver-downtime economics (NYC permit transfer 6-8 weeks)."
+    },
+    {
+      "number": 1255,
+      "slug": "1255-axkid-britax-car-seat-test-failures",
+      "title": "Both Car Seats Passed Every Law. Then the Crash Test Threw the Dummies Out.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "ship_date": "2027-12-19",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-10-23T15:30:00-07:00",
+      "critique_round": 0,
+      "critic_avg": 8.97,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "692ac64b",
+        "og_image_absolute": true,
+        "rhythm_long_pct": 10.6,
+        "rhythm_short_pct": 14.9,
+        "rhythm_variance": 86.1,
+        "word_count": 690
+      },
+      "files": {
+        "research": "drafts/1255-axkid-britax-car-seat-test-failures-research.md",
+        "story": "drafts/1255-axkid-britax-car-seat-test-failures.html",
+        "hero": "drafts/1255-axkid-britax-car-seat-test-failures.jpg",
+        "critic_panel": "drafts/1255-axkid-britax-car-seat-test-failures-critic-panel-r0.md"
+      },
+      "note": "2026-10-23 15:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.97, 7/7 critics >= 8.5; hard gates all pass: em 0, banned 0, The 6.4%, class story, style.css, hero JPEG 1920x1280 692ac64b). News peg: Oct 2026 European consortium tests forced voluntary recalls of Axkid Minikid Core (support leg retracted, harness tore from shell) and Britax R&ouml;mer Baby-Safe Pro + Vario Base 5Z (buckle popped when reclined, held upright/belt-installed). Novel: regulation-vs-reality gap (both fully legal), one-recline-click mode failure, common-supplier buckle contagion, Axkid keep-using-vs-Which? stop-use clash. Queued 2027-12-19, 1 day after #1254 (2027-12-18)."
     }
   ],
   "last_worker_run": "2026-10-23T11:30:00-07:00"
