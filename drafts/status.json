@@ -1,7 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-23 09:30 run: #1252 queued SHIP_BLOCKED 2027-12-16; PUBLISH-QUEUE follows.",
-  "last_checked": "2026-10-23T09:30:00-07:00",
+  "current": {
+    "slug": "1254-rideshare-recall-census",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-23T13:30:00-07:00",
+    "research": "drafts/1254-rideshare-recall-census-research.md"
+  },
+  "last_check_note": "2026-10-23 13:30 run: #1254 RESEARCH done (CARFAX taxi/rideshare recall census, Rex Driverton); entering DRAFT.",
+  "last_checked": "2026-10-23T13:30:00-07:00",
   "last_completed": "2026-10-23T11:30:00-07:00",
   "last_completed_date": "2026-10-23",
   "last_journalist": "Axle McScatter",
