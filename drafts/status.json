@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-22 19:30 run: #1245 SHIP_BLOCKED 2027-12-09 (Rex Driverton; avg 8.86, round 0). PUBLISH-QUEUE: 1/day gate consumed (2 Publish commits since 00:00 PDT) - no publish this run.",
-  "last_checked": "2026-10-22T19:30:00-07:00",
-  "last_completed": "2026-10-22T17:30:00-07:00",
-  "last_completed_date": "2026-10-21",
-  "last_journalist": "Rex Driverton",
+  "last_check_note": "2026-10-22 21:30 run: #1246 SHIP_BLOCKED 2027-12-10 (Clara Rollover; avg 8.74, round 0). Full pipeline in one run: RESEARCH -> DRAFT -> CRITIQUE -> SHIP.",
+  "last_checked": "2026-10-22T21:30:00-07:00",
+  "last_completed": "2026-10-22T21:30:00-07:00",
+  "last_completed_date": "2026-10-22",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-21T01:33:00-07:00",
   "last_published_date": "2026-10-21",
   "last_published_slug": "ev-fire-blanket-explosion-risk",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
-  "next": 1246,
+  "next": 1247,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -16980,6 +16980,36 @@
         "critic_panel": "drafts/1245-porsche-centerlock-do-not-drive-expansion-critic-panel-r0.md"
       },
       "note": "2026-10-22 19:30 run: critique round 0 PASS (avg 8.86). Queued 1 day after #1244 (2027-12-08)."
+    },
+    {
+      "number": 1246,
+      "slug": "1246-nhtsa-pedestrian-protection-first-ratings",
+      "title": "NHTSA Finally Rates Cars on How They Hit Pedestrians. 102 Models Passed. Not One Full-Size Pickup.",
+      "journalist": "Clara Rollover",
+      "ship_date": "2027-12-10",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "d39bc51f",
+        "hero_dim": "1920x1280",
+        "rhythm_pass": true,
+        "word_count": 594
+      },
+      "files": {
+        "research": "drafts/1246-nhtsa-pedestrian-protection-first-ratings-research.md",
+        "story": "drafts/1246-nhtsa-pedestrian-protection-first-ratings.html",
+        "hero": "drafts/1246-nhtsa-pedestrian-protection-first-ratings.jpg",
+        "critic_panel": "drafts/1246-nhtsa-pedestrian-protection-first-ratings-critic-panel-r0.md"
+      },
+      "kicker": "The Gap",
+      "note": "2026-10-22 21:30 run: critique round 0 PASS (avg 8.74). Queued 1 day after #1245 (2027-12-09)."
     }
   ],
   "last_worker_run": "2026-10-22T17:30:00-07:00"
