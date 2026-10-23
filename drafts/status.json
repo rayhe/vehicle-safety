@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-22 19:30 run: #1245 SHIP_BLOCKED 2027-12-09 (Porsche centerlock 26V682 expansion; Rex Driverton; avg 8.86, round 0; filed Oct 16, 2026). PUBLISH-QUEUE next.",
+  "last_check_note": "2026-10-22 19:30 run: #1245 SHIP_BLOCKED 2027-12-09 (Rex Driverton; avg 8.86, round 0). PUBLISH-QUEUE: 1/day gate consumed (2 Publish commits since 00:00 PDT) - no publish this run.",
   "last_checked": "2026-10-22T19:30:00-07:00",
   "last_completed": "2026-10-22T17:30:00-07:00",
   "last_completed_date": "2026-10-21",
