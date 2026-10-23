@@ -1,18 +1,5 @@
 {
-  "current": {
-    "number": 1250,
-    "slug": "1250-halloween-drunk-driving-1am-kill-window",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-23T05:30:00-07:00",
-    "kicker": "Sobriety Report",
-    "round": 0,
-    "files": {
-      "research": "drafts/1250-halloween-drunk-driving-1am-kill-window-research.md",
-      "story": "drafts/1250-halloween-drunk-driving-1am-kill-window.html",
-      "hero": "drafts/1250-halloween-drunk-driving-1am-kill-window.jpg"
-    }
-  },
+  "current": null,
   "last_check_note": "2026-10-23 01:30 run: #1248 SHIP_BLOCKED 2027-12-12 (Vin Wreckage; avg 8.64, round 0). Number-collision with sibling #1247 resolved by renumbering; next bumped to 1249.",
   "last_checked": "2026-10-22T21:30:00-07:00",
   "last_completed": "2026-10-23T01:30:00-07:00",
@@ -17142,6 +17129,51 @@
       },
       "kicker": "Investigation",
       "note": "2026-10-23 03:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.96). Angle: Maryland traffic deaths down 21% YTD while reported crashes rose 0.3% (CNS Maryland Oct 19 analysis of MDSP data); fatal-crash share 0.5%->0.36%; impairment crashes down 43%; full-year projection ~387 vs ~600 (2023). Baltimore reporting-gap caveat (7 vs 22). Full-queue dup check clean. Queued SHIP_BLOCKED 2027-12-13 (1 day after #1248)."
+    },
+    {
+      "number": 1250,
+      "slug": "1250-halloween-drunk-driving-1am-kill-window",
+      "title": "Halloween's Deadliest Hour Isn't 6 PM. It's 1 AM.",
+      "journalist": "Dale Impactor III",
+      "ship_date": "2027-12-14",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "critic_scores": {
+        "general": 8.8,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 9.2,
+        "data": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "01081686",
+        "hero_dim": "1920x1280",
+        "word_count": 762,
+        "sentence_rhythm": {
+          "variance": 508.4,
+          "short_pct": 13.3,
+          "long_pct": 35.6,
+          "passed": true
+        },
+        "actionable_insights": true
+      },
+      "files": {
+        "research": "drafts/1250-halloween-drunk-driving-1am-kill-window-research.md",
+        "story": "drafts/1250-halloween-drunk-driving-1am-kill-window.html",
+        "hero": "drafts/1250-halloween-drunk-driving-1am-kill-window.jpg",
+        "critic_panel": "drafts/1250-halloween-drunk-driving-1am-kill-window-critic-panel-r0.md"
+      },
+      "kicker": "Sobriety Report",
+      "note": "2026-10-23 05:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.89, floor 8.5). Angle: NHTSA Oct 2026 campaign data (176 Halloween-night drunk-driving deaths 2019-2024, 31 pedestrians) crossed with 2024 baseline = ~80% elevation per 12-hour window (author's arithmetic); two-curve frame: JAMA 43% pedestrian risk peaking 6 PM vs FLBR RI bar-close window 1-2 AM; NHTSA 3x night rate. Distinct from #1096 (kid pedestrian + candy-myth). Queued SHIP_BLOCKED 2027-12-14 (1 day after #1249)."
     }
   ],
   "last_worker_run": "2026-10-23T03:30:00-07:00"
