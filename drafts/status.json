@@ -5,9 +5,9 @@
   "last_completed": "2026-10-23T01:30:00-07:00",
   "last_completed_date": "2026-10-23",
   "last_journalist": "Vin Wreckage",
-  "last_published": "2026-10-21T01:33:00-07:00",
-  "last_published_date": "2026-10-21",
-  "last_published_slug": "ev-fire-blanket-explosion-risk",
+  "last_published": "2026-10-23T01:30:00-07:00",
+  "last_published_date": "2026-10-23",
+  "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
   "last_qa_date": "2026-10-21",
   "last_qa_note": "QA pass #763: story 200 (12136B), hero JPEG 200, og:title/og:image present, index card, sitemap.",
   "next": 1249,
@@ -1205,9 +1205,9 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (825- prefix). Ford 26C40: 148,663 2024-2026 Mustangs, ground eyelet fatigue fracture from adhesive spill, discovered on 2027 durability mule, 1% defect estimate (~1,487), remedy anticipated March 2027. Novel: 2027-mule lede, 100:1 recall-to-defect ratio, remedy-gap-as-story. Disambiguated from #809's 26S61 piston recall. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-09-30. 2026-10-21 17:30 run: due today but 1/day gate hit (2 Publish commits); hero JPG NOT FOUND in drafts/ or images/ despite recorded hash ca9c6390 — next publish run must regenerate/recover hero before shipping. | 2026-10-22 01:30 run: SKIPPED for publish - due 2026-10-21 but no hero image in drafts/ (hero-less articles never ship); #826 published instead per no-stall rule.",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (825- prefix). Ford 26C40: 148,663 2024-2026 Mustangs, ground eyelet fatigue fracture from adhesive spill, discovered on 2027 durability mule, 1% defect estimate (~1,487), remedy anticipated March 2027. Novel: 2027-mule lede, 100:1 recall-to-defect ratio, remedy-gap-as-story. Disambiguated from #809's 26S61 piston recall. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-09-30. 2026-10-21 17:30 run: due today but 1/day gate hit (2 Publish commits); hero JPG NOT FOUND in drafts/ or images/ despite recorded hash ca9c6390 — next publish run must regenerate/recover hero before shipping. | 2026-10-22 01:30 run: SKIPPED for publish - due 2026-10-21 but no hero image in drafts/ (hero-less articles never ship); #826 published instead per no-stall rule. | 2026-10-23 01:30 run: shipped as Publish #825 (1/day slot; 0 prior publishes today). Pre-ship: dateline fixed to Oct 21, 2026 (ship_date), og:image/img ?v=ca9c6390, validate.sh ALL CHECKS PASSED.",
       "number": 825,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
@@ -1220,7 +1220,12 @@
       "ship_date": "2026-10-21",
       "slug": "ford-mustang-148k-ground-recall-fix-march-2027",
       "started": "2026-09-06T22:30:00Z",
-      "title": "Ford Recalled 148,663 Mustangs Because Their Ground Wires Can Snap Mid-Drive. The Fix Isn't Expected Until March."
+      "title": "Ford Recalled 148,663 Mustangs Because Their Ground Wires Can Snap Mid-Drive. The Fix Isn't Expected Until March.",
+      "files": {
+        "story": "stories/825-ford-mustang-148k-ground-recall-fix-march-2027.html",
+        "hero": "images/825-ford-mustang-148k-ground-recall-fix-march-2027.jpg",
+        "critic_panel": "drafts/825-ford-mustang-148k-ground-recall-fix-march-2027-critique.md"
+      }
     },
     {
       "critic_avg": 9.0,
@@ -1279,7 +1284,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (827- prefix). News peg: TechCrunch Aug 27, 2026 review of OSHA ITA data - 24+ Waymo/Zoox test-driver injuries 2024-2025 from hard braking (sprains, whiplash, 157/175 days away). Novel: risk-transfer framing (phantom-braking as occupant injury mechanism), surveillance paradox (OSHA's only sensor is the employee being designed out; purpose-built robotaxis carry non-employees), recall-failure observation (4 of 8 Zoox 2025 injuries post-date Mar 2025 258-vehicle unexpected-braking recall; brake jabs reported through Jul 2026). 6 sources incl. NHTSA RCAK-25E029, Reuters, OSHA ITA, IIHS study. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-03.",
+      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (827- prefix). News peg: TechCrunch Aug 27, 2026 review of OSHA ITA data - 24+ Waymo/Zoox test-driver injuries 2024-2025 from hard braking (sprains, whiplash, 157/175 days away). Novel: risk-transfer framing (phantom-braking as occupant injury mechanism), surveillance paradox (OSHA's only sensor is the employee being designed out; purpose-built robotaxis carry non-employees), recall-failure observation (4 of 8 Zoox 2025 injuries post-date Mar 2025 258-vehicle unexpected-braking recall; brake jabs reported through Jul 2026). 6 sources incl. NHTSA RCAK-25E029, Reuters, OSHA ITA, IIHS study. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-03. | 2026-10-23 01:30 run: due 2026-10-23 but SKIPPED at publish (no hero image file in drafts/; hero-less articles never ship). Cadence not stalled; #825 published instead.",
       "number": 827,
       "phase": "SHIP_BLOCKED",
       "scores": {
