@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1247-honda-tire-kit-recall-recall",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-22T23:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-22 21:30 run: #1246 SHIP_BLOCKED 2027-12-10 (Clara Rollover; avg 8.74, round 0). Full pipeline in one run: RESEARCH -> DRAFT -> CRITIQUE -> SHIP.",
   "last_checked": "2026-10-22T21:30:00-07:00",
-  "last_completed": "2026-10-22T21:30:00-07:00",
+  "last_completed": "2026-10-22T23:30:00-07:00",
   "last_completed_date": "2026-10-22",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-10-21T01:33:00-07:00",
@@ -17016,6 +17010,45 @@
       },
       "kicker": "The Gap",
       "note": "2026-10-22 21:30 run: critique round 0 PASS (avg 8.74). Queued 1 day after #1245 (2027-12-09)."
+    },
+    {
+      "number": 1247,
+      "slug": "1247-honda-tire-kit-recall-recall",
+      "title": "The Recall That Recalled Its Own Fix",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "ship_date": "2027-12-11",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "893f510b",
+        "hero_dim": "1920x1280",
+        "rhythm_pass": true,
+        "word_count": 600
+      },
+      "files": {
+        "research": "drafts/1247-honda-tire-kit-recall-recall-research.md",
+        "story": "drafts/1247-honda-tire-kit-recall-recall.html",
+        "hero": "drafts/1247-honda-tire-kit-recall-recall.jpg",
+        "critic_panel": "drafts/1247-honda-tire-kit-recall-recall-critic-panel-r0.md"
+      },
+      "note": "2026-10-22 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel VERDICT SHIP (avg 8.93, 7/7 >= 8.5, all hard gates). Angle: Honda 26V663 (PPW) recalls its own 26V366 tire-kit remedy \u2014 supplier TEK Corporation (Troy MI) mixed pre/post-fix nozzles in one warehouse with no change-point management; remedy deletes the one-way valve entirely; 4,804 recalled to find ~48 bad nozzles (100-to-1 ratio); owner letters Nov 16, 2026. Full-queue dup check clean. Queued SHIP_BLOCKED 2027-12-11 (1 day after #1246)."
     }
   ],
   "last_worker_run": "2026-10-22T17:30:00-07:00"
