@@ -1,10 +1,16 @@
 {
   "current": {
     "slug": "1245-porsche-centerlock-do-not-drive-expansion",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
     "started": "2026-10-22T19:30:00-07:00",
-    "title": "Porsche\u2019s Do-Not-Drive Recall Just Grew: 548 More Cars, Same Exploding Wheel Bolts"
+    "title": "Porsche\u2019s Do-Not-Drive Recall Just Grew: 548 More Cars, Same Exploding Wheel Bolts",
+    "critique_round": 0,
+    "files": {
+      "research": "drafts/1245-porsche-centerlock-do-not-drive-expansion-research.md",
+      "story": "drafts/1245-porsche-centerlock-do-not-drive-expansion.html",
+      "hero": "drafts/1245-porsche-centerlock-do-not-drive-expansion.jpg"
+    }
   },
   "last_check_note": "2026-10-22 19:30 run: RESEARCH on #1245 (Porsche centerlock expansion 26V682, Do Not Drive, 548 cars, filed today). Continuing to DRAFT same run.",
   "last_checked": "2026-10-22T19:30:00-07:00",
