@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1252-do-not-drive-club-porsche-subaru",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-23T09:30:00-07:00"
-  },
-  "last_check_note": "2026-10-23 07:30 run: #1251 queued SHIP_BLOCKED 2027-12-15; PUBLISH-QUEUE follows.",
+  "current": null,
+  "last_check_note": "2026-10-23 09:30 run: #1252 queued SHIP_BLOCKED 2027-12-16; PUBLISH-QUEUE follows.",
   "last_checked": "2026-10-23T09:30:00-07:00",
   "last_completed": "2026-10-23T01:30:00-07:00",
   "last_completed_date": "2026-10-23",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-23T01:30:00-07:00",
   "last_published_date": "2026-10-23",
   "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
   "last_qa_date": "2026-10-23",
   "last_qa_note": "QA pass #825: story 200 (via 308), hero JPEG 200, og:title/og:description/og:image present, index card, sitemap.",
-  "next": 1251,
+  "next": 1253,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17229,6 +17224,34 @@
       },
       "kicker": "The Gap",
       "note": "2026-10-23 07:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.90, floor 8.8). Angle: NHTSA 26V678000 (filed 15/10/2026) - 93,997 2022-2026 Range Rovers, insufficient drain holes trap water at the rearview camera; dealer remedy is drilling holes in tailgate trim + camera inspection/replacement; interim letters Dec 11 2026 with \"final remedy\" later (staged fix). Second JLR camera recall in two years (24V678000, NFSM overheat, Dec 2024); campaign numbers nearly identical. Context: FMVSS 111 mandate (May 2018), NHTSA ~210 backover deaths/15k injuries per year, AAP Sept 2025 study (62% pediatric injury reduction post-mandate). Full-queue dup check clean (Range Rover #1011/#1017 different defects; camera #1128/#1215 different makes). Queued SHIP_BLOCKED 2027-12-15 (1 day after #1250)."
+    },
+    {
+      "number": 1252,
+      "slug": "1252-do-not-drive-club-porsche-subaru",
+      "title": "Do Not Drive: Porsche Just Parked 548 Supercars, Subaru Just Parked 8",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2027-12-16",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.81,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1252-critic-panel-r0.md",
+        "hero": "drafts/1252-do-not-drive-club-porsche-subaru.jpg",
+        "research": "drafts/1252-do-not-drive-club-porsche-subaru-research.md",
+        "story": "drafts/1252-do-not-drive-club-porsche-subaru.html"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "a7dc7826",
+        "word_count": 549
+      },
+      "note": "2026-10-23 09:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.81, 7/7 critics >= 8.5; hard gates all pass). Queued 1 day after #1251 (2027-12-15). Porsche 548-car centerlock expansion + Subaru 8-car castle-nut WRI26, both do-not-drive warnings (VINs searchable Oct 20, 2026)."
     }
   ],
   "last_worker_run": "2026-10-23T07:30:00-07:00"
