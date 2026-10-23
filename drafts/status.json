@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1247-honda-tire-kit-recall-recall",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-22T23:30:00-07:00"
+  },
   "last_check_note": "2026-10-22 21:30 run: #1246 SHIP_BLOCKED 2027-12-10 (Clara Rollover; avg 8.74, round 0). Full pipeline in one run: RESEARCH -> DRAFT -> CRITIQUE -> SHIP.",
   "last_checked": "2026-10-22T21:30:00-07:00",
   "last_completed": "2026-10-22T21:30:00-07:00",
