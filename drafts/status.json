@@ -1284,7 +1284,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (827- prefix). News peg: TechCrunch Aug 27, 2026 review of OSHA ITA data - 24+ Waymo/Zoox test-driver injuries 2024-2025 from hard braking (sprains, whiplash, 157/175 days away). Novel: risk-transfer framing (phantom-braking as occupant injury mechanism), surveillance paradox (OSHA's only sensor is the employee being designed out; purpose-built robotaxis carry non-employees), recall-failure observation (4 of 8 Zoox 2025 injuries post-date Mar 2025 258-vehicle unexpected-braking recall; brake jabs reported through Jul 2026). 6 sources incl. NHTSA RCAK-25E029, Reuters, OSHA ITA, IIHS study. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-03. | 2026-10-23 01:30 run: due 2026-10-23 but SKIPPED at publish (no hero image file in drafts/; hero-less articles never ship). Cadence not stalled; #825 published instead.",
+      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (827- prefix). News peg: TechCrunch Aug 27, 2026 review of OSHA ITA data - 24+ Waymo/Zoox test-driver injuries 2024-2025 from hard braking (sprains, whiplash, 157/175 days away). Novel: risk-transfer framing (phantom-braking as occupant injury mechanism), surveillance paradox (OSHA's only sensor is the employee being designed out; purpose-built robotaxis carry non-employees), recall-failure observation (4 of 8 Zoox 2025 injuries post-date Mar 2025 258-vehicle unexpected-braking recall; brake jabs reported through Jul 2026). 6 sources incl. NHTSA RCAK-25E029, Reuters, OSHA ITA, IIHS study. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-03. | 2026-10-23 01:30 run: due 2026-10-23 but SKIPPED at publish (no hero image file in drafts/; hero-less articles never ship). Cadence not stalled; #825 published instead. | 2026-10-23 05:30 run: 1/day gate already satisfied (2 Publish # commits today); no publish this run. Hero file now present in drafts/; entry remains due and publishable by a later run.",
       "number": 827,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -1299,7 +1299,12 @@
       "ship_date": "2026-10-23",
       "slug": "robotaxi-brake-jab-whiplash",
       "started": "2026-09-07T02:30:00Z",
-      "title": "Waymo's Cars Crash 68% Less Than Humans. The Humans Inside Keep Getting Whiplash."
+      "title": "Waymo's Cars Crash 68% Less Than Humans. The Humans Inside Keep Getting Whiplash.",
+      "files": {
+        "research": "drafts/827-robotaxi-brake-jab-whiplash-research.md",
+        "story": "drafts/827-robotaxi-brake-jab-whiplash.html",
+        "hero": "drafts/827-robotaxi-brake-jab-whiplash.jpg"
+      }
     },
     {
       "critic_avg": 9.1,
@@ -17176,5 +17181,5 @@
       "note": "2026-10-23 05:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.89, floor 8.5). Angle: NHTSA Oct 2026 campaign data (176 Halloween-night drunk-driving deaths 2019-2024, 31 pedestrians) crossed with 2024 baseline = ~80% elevation per 12-hour window (author's arithmetic); two-curve frame: JAMA 43% pedestrian risk peaking 6 PM vs FLBR RI bar-close window 1-2 AM; NHTSA 3x night rate. Distinct from #1096 (kid pedestrian + candy-myth). Queued SHIP_BLOCKED 2027-12-14 (1 day after #1249)."
     }
   ],
-  "last_worker_run": "2026-10-23T03:30:00-07:00"
+  "last_worker_run": "2026-10-23T05:30:00-07:00"
 }
