@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 07:30 run: #1263 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-27; current=null; publish skipped (slot used today, #827)",
-  "last_checked": "2026-10-24T03:30:00-07:00",
-  "last_completed": "2026-10-24T14:30:00+00:00",
+  "last_check_note": "2026-10-24 09:30 run: #1264 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-28; current=null; publish skipped (slot used today, #827)",
+  "last_checked": "2026-10-24T09:30:00-07:00",
+  "last_completed": "2026-10-24T16:30:00+00:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1264,
+  "next": 1265,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17633,6 +17633,44 @@
         "critic_panel": "drafts/1263-wagoneer-roof-rack-bolts-falling-off-critic-panel-r0.md"
       },
       "note": "2026-10-24 07:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 8.79, 7/7 >= 8.5, all hard gates incl rhythm PASS)->SHIP in one run. NHTSA 26V584 (FCA 81D, filed Sep 10 2026, 97,349 Wagoneer/Grand Wagoneer, roof crossbar pivot bolts under-torqued, 100% filing defect estimate, 15 warranty claims, 0 crashes/injuries reported, redesigned-bolt remedy, interim letters Oct 8 2026). No publish: 1/day slot already used today (Publish #827); #828 (due 2026-10-24) remains earliest-due for next run."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1264-bmw-x3-thirteen-cars-lose-steering-critic-panel-r0.md",
+        "hero": "drafts/1264-bmw-x3-thirteen-cars-lose-steering.jpg",
+        "research": "drafts/1264-bmw-x3-thirteen-cars-lose-steering-research.md",
+        "story": "drafts/1264-bmw-x3-thirteen-cars-lose-steering.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "5f77ecd7",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 568
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-10-24 09:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-28; current=null; publish skipped (slot used today, #827). Novel angle: 13-car recall from one complaint, clean inspections, 30-month production span.",
+      "number": 1264,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-12-28",
+      "slug": "1264-bmw-x3-thirteen-cars-lose-steering",
+      "title": "One Driver's Suspiciously Light Steering Wheel Recalled 13 BMW X3s"
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
