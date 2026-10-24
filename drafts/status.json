@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 11:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-29; current=null; publish skipped (slot used today, #827). Novel angle: Ford 80 recalls vs Stellantis 39 is a count story, milestone 80th was a 2,276-truck seat-bolt check, count already stale via 102,159-truck speedometer campaign days later; campaign-count caveat stated in-article.",
-  "last_checked": "2026-10-24T11:30:00-07:00",
-  "last_completed": "2026-10-24T18:30:00+00:00",
+  "last_check_note": "2026-10-24 13:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-30; current=null; publish skipped (slot used today, #827). Novel angle: recall whose remedy was itself defective (26V650/26S73, 506 vans, 100% defect rate by construction) + 14-month wait to anticipated Dec 2027 remedy; dupes ruled out (Land Cruiser/Porsche/Range Rover/Sierra/subaru-school-zone/2025-subcategory stories all already covered).",
+  "last_checked": "2026-10-24T13:30:00-07:00",
+  "last_completed": "2026-10-24T20:30:00+00:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1266,
+  "next": 1267,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17709,6 +17709,44 @@
       "ship_date": "2027-12-29",
       "slug": "1265-ford-eighty-recalls-seat-bolt-pattern",
       "title": "Ford Hit 80 Recalls This Year. Number 80 Was a Loose Seat Bolt."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1266-ford-transit-connect-camera-fix-failed-critic-panel-r0.md",
+        "hero": "drafts/1266-ford-transit-connect-camera-fix-failed.jpg",
+        "research": "drafts/1266-ford-transit-connect-camera-fix-failed-research.md",
+        "story": "drafts/1266-ford-transit-connect-camera-fix-failed.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7758fa0e",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 541
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-10-24 13:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-30; current=null; publish skipped (slot used today, #827). Novel angle: recall whose remedy was itself defective (26V650/26S73, 506 vans, 100% defect rate by construction) + 14-month wait to anticipated Dec 2027 remedy; dupes ruled out (Land Cruiser/Porsche/Range Rover/Sierra/subaru-school-zone/2025-subcategory stories all already covered).",
+      "number": 1266,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-12-30",
+      "slug": "1266-ford-transit-connect-camera-fix-failed",
+      "title": "Ford's Backup Camera Fix Was the Wrong Part. The Real Fix Is 14 Months Away."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
