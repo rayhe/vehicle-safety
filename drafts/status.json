@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "17:30 run: #1256 researched/drafted/critiqued/SHIP->queued 2027-12-20; PUBLISH-QUEUE skipped (1/day gate: 3 publishes today; #827 due but hero missing); current=null",
-  "last_checked": "2026-10-23T17:30:00-07:00",
+  "last_check_note": "19:30 run: #1257 researched/drafted/critiqued (8.86 avg, all gates pass) SHIP->queued 2027-12-21; current=null",
+  "last_checked": "2026-10-23T19:30:00-07:00",
   "last_completed": "2026-10-23T13:30:00-07:00",
   "last_completed_date": "2026-10-23",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-23T01:30:00-07:00",
   "last_published_date": "2026-10-23",
   "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
   "last_qa_date": "2026-10-23",
   "last_qa_note": "QA pass #825: story 200 (via 308), hero JPEG 200, og:title/og:description/og:image present, index card, sitemap.",
-  "next": 1257,
+  "next": 1258,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17394,6 +17394,30 @@
         "critic_panel": "drafts/1256-guardrail-end-terminal-impalement-critic-panel-r0.md"
       },
       "note": "2026-10-23 17:30 run: RESEARCH->DRAFT->CRITIQUE round-0 SHIP (avg 8.79, 7/7 critics >= 8.5; hard gates all pass: em 0, banned 0, The 11.9%, class story, style.css, hero JPEG 1920x1280 27ced7b5, rhythm variance 3583/short 13.3%/long 50%). News peg: Trinity ET-Plus ($2/unit 2005 change, $663M fraud verdict, overturned 2017, product retired) + Lindsay X-LITE (7 deaths, Hannah Eimers killed 6 days after TDOT delisted it). Novel: $2-vs-$663M arithmetic (~1,100x), six-day TDOT timing. Zero prior guardrail coverage on site. Queued 2027-12-20, 1 day after #1255 (2027-12-19)."
+    },
+    {
+      "number": 1257,
+      "slug": "1257-sierra-grille-fix-fell-off",
+      "title": "GM Fixed This Grille Once. Then the Fix Fell Off.",
+      "journalist": "Clara Rollover",
+      "ship_date": "2027-12-21",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.9,
+        "css": "story + ../style.css",
+        "rhythm": "PASS variance 413.9"
+      },
+      "note": "2026-10-23 19:30 run: researched/drafted/critiqued/SHIP->queued 2027-12-21; RQ26003 (Oct 9 2026) Sierra grille deflector recall query; hero JPEG 1920x1280 ?v=23c06a0c.",
+      "files": {
+        "research": "drafts/1257-sierra-grille-fix-fell-off-research.md",
+        "story": "drafts/1257-sierra-grille-fix-fell-off.html",
+        "hero": "drafts/1257-sierra-grille-fix-fell-off-hero.jpg",
+        "critic_panel": "drafts/1257-sierra-grille-fix-fell-off-critic-panel-r0.md"
+      }
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
