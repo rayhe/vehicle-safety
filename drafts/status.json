@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "23:30 run: #1259 RESEARCH/DRAFT/CRITIQUE(r0 avg 9.0)/SHIP complete; queued 2027-12-23; current=null",
+  "last_check_note": "2026-10-24 01:30 run: #1260 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93)/SHIP complete; queued 2027-12-24; current=null",
   "last_checked": "2026-10-23T23:30:00-07:00",
-  "last_completed": "2026-10-23T23:30:00-07:00",
-  "last_completed_date": "2026-10-23",
-  "last_journalist": "Rex Driverton",
+  "last_completed": "2026-10-24T08:35:21+00:00",
+  "last_completed_date": "2026-10-24",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-23T01:30:00-07:00",
   "last_published_date": "2026-10-23",
   "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
   "last_qa_date": "2026-10-23",
   "last_qa_note": "QA pass #825: story 200 (via 308), hero JPEG 200, og:title/og:description/og:image present, index card, sitemap.",
-  "next": 1260,
+  "next": 1261,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17481,6 +17481,44 @@
         "critic_panel": "drafts/1259-tesla-robotaxi-record-month-three-mph-critic-panel-r0.md"
       },
       "note": "2026-10-23 23:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 9.0, 7/7 >= 8.5, all hard gates)->SHIP in one run. News peg: NHTSA SGO Oct 15, 2026 data drop; Tesla robotaxi record month (9 August reports, 0 injuries, 7/9 at <=3 mph); first-ever Cybercab report (Austin pothole, <=5 mph, pre-launch testing). Novel: speed distribution + 0-injury ledger + June 2025 SGO threshold reporting-artifact analysis. Queued 1 day after #1258 (2027-12-22)."
+    },
+    {
+      "number": 1260,
+      "slug": "1260-work-zone-deaths-drivers-not-workers",
+      "title": "Work Zones Kill Two People a Day. Almost None of Them Are Workers.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2027-12-24",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "e9534bbb",
+        "word_count": 781
+      },
+      "files": {
+        "research": "drafts/1260-work-zone-deaths-drivers-not-workers-research.md",
+        "story": "drafts/1260-work-zone-deaths-drivers-not-workers.html",
+        "hero": "images/1260-work-zone-deaths-drivers-not-workers.jpg",
+        "critic_panel": "drafts/1260-work-zone-deaths-drivers-not-workers-critic-panel-r0.md"
+      },
+      "note": "2026-10-24 01:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 8.93, 7/7 >= 8.5, all hard gates)->SHIP in one run. News peg: FHWA 2024 work zone data (spring 2026 NWZAW release). Novel: victim inversion (673/850 drivers+passengers vs ~54/yr worker-pedestrians), +46% fatal work zone crashes since 2010 vs +20% overall, 45% on interstates vs 16% overall. First work-zone article in queue. Queued 1 day after #1259 (2027-12-23)."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
