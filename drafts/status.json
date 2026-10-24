@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "19:30 run: #1257 researched/drafted/critiqued (8.86 avg, all gates pass) SHIP->queued 2027-12-21; current=null",
-  "last_checked": "2026-10-23T19:30:00-07:00",
+  "current": {
+    "slug": "1258-tesla-safest-carmaker-chevrolet-last",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-23T21:30:00-07:00"
+  },
+  "last_check_note": "21:30 run: #1258 researched (Tesla make-rank 0.06 vs Chevy 1.37, 23x gap, zero prior coverage); phase=DRAFT",
+  "last_checked": "2026-10-23T21:30:00-07:00",
   "last_completed": "2026-10-23T13:30:00-07:00",
   "last_completed_date": "2026-10-23",
   "last_journalist": "Clara Rollover",
