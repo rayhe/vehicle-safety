@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 09:30 run: #1264 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-28; current=null; publish skipped (slot used today, #827)",
-  "last_checked": "2026-10-24T09:30:00-07:00",
-  "last_completed": "2026-10-24T16:30:00+00:00",
+  "last_check_note": "2026-10-24 11:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-29; current=null; publish skipped (slot used today, #827). Novel angle: Ford 80 recalls vs Stellantis 39 is a count story, milestone 80th was a 2,276-truck seat-bolt check, count already stale via 102,159-truck speedometer campaign days later; campaign-count caveat stated in-article.",
+  "last_checked": "2026-10-24T11:30:00-07:00",
+  "last_completed": "2026-10-24T18:30:00+00:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1265,
+  "next": 1266,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17671,6 +17671,44 @@
       "ship_date": "2027-12-28",
       "slug": "1264-bmw-x3-thirteen-cars-lose-steering",
       "title": "One Driver's Suspiciously Light Steering Wheel Recalled 13 BMW X3s"
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1265-ford-eighty-recalls-seat-bolt-pattern-critic-panel-r0.md",
+        "hero": "drafts/1265-ford-eighty-recalls-seat-bolt-pattern.jpg",
+        "research": "drafts/1265-ford-eighty-recalls-seat-bolt-pattern-research.md",
+        "story": "drafts/1265-ford-eighty-recalls-seat-bolt-pattern.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "e0704c8c",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 496
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-10-24 11:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-29; current=null; publish skipped (slot used today, #827). Novel angle: Ford 80 recalls vs Stellantis 39 is a count story, milestone 80th was a 2,276-truck seat-bolt check, count already stale via 102,159-truck speedometer campaign days later; campaign-count caveat stated in-article.",
+      "number": 1265,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2027-12-29",
+      "slug": "1265-ford-eighty-recalls-seat-bolt-pattern",
+      "title": "Ford Hit 80 Recalls This Year. Number 80 Was a Loose Seat Bolt."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
