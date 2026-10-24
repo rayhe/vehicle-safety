@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 05:30 run: #1262 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-26; current=null; publish skipped (slot used today, #827)",
+  "last_check_note": "2026-10-24 07:30 run: #1263 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-27; current=null; publish skipped (slot used today, #827)",
   "last_checked": "2026-10-24T03:30:00-07:00",
-  "last_completed": "2026-10-24T12:30:00+00:00",
+  "last_completed": "2026-10-24T14:30:00+00:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1263,
+  "next": 1264,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17595,6 +17595,44 @@
         "critic_panel": "drafts/1262-ram-2500-esc-recall-expansion-critic-panel-r0.md"
       },
       "note": "2026-10-24 05:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 8.79, 7/7 >= 8.5, all hard gates)->SHIP in one run. NHTSA 26V-651 (FCA 90D, Oct 6 2026, 8,329 MY2026 Ram 2500, SCCM ESC loss, no warning prior to failure, FMVSS 126 noncompliance) expands 26V-244 (FCA 36D, Apr 16 2026, 6,605); combined 14,934. ESC research: 51.6% rollover reduction (NHTSA Oct 2025), 36%/70% fatal run-off-road (2007). No publish: 1/day slot already used today (Publish #827); #828 due today remains earliest-due for next run."
+    },
+    {
+      "number": 1263,
+      "slug": "1263-wagoneer-roof-rack-bolts-falling-off",
+      "title": "The Roof Rack Bolts on 97,349 Wagoneers Were Never Tightened Right. The Driver Behind You Pays for It.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "ship_date": "2027-12-27",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "20dc5052",
+        "word_count": 876
+      },
+      "files": {
+        "research": "drafts/1263-wagoneer-roof-rack-bolts-falling-off-research.md",
+        "story": "drafts/1263-wagoneer-roof-rack-bolts-falling-off.html",
+        "hero": "images/1263-wagoneer-roof-rack-bolts-falling-off.jpg",
+        "critic_panel": "drafts/1263-wagoneer-roof-rack-bolts-falling-off-critic-panel-r0.md"
+      },
+      "note": "2026-10-24 07:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 8.79, 7/7 >= 8.5, all hard gates incl rhythm PASS)->SHIP in one run. NHTSA 26V584 (FCA 81D, filed Sep 10 2026, 97,349 Wagoneer/Grand Wagoneer, roof crossbar pivot bolts under-torqued, 100% filing defect estimate, 15 warranty claims, 0 crashes/injuries reported, redesigned-bolt remedy, interim letters Oct 8 2026). No publish: 1/day slot already used today (Publish #827); #828 (due 2026-10-24) remains earliest-due for next run."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
