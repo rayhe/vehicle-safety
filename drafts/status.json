@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "21:30 run: #1258 researched/drafted/critiqued (8.93 avg, all gates pass) SHIP->queued 2027-12-22; current=null",
-  "last_checked": "2026-10-23T21:30:00-07:00",
+  "current": {
+    "slug": "1259-tesla-robotaxi-record-month-three-mph",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-23T23:30:00-07:00"
+  },
+  "last_check_note": "23:30 run: #1259 RESEARCH complete (SGO Oct 15 data drop, Tesla robotaxi record crash month, first Cybercab report). Moving to DRAFT.",
+  "last_checked": "2026-10-23T23:30:00-07:00",
   "last_completed": "2026-10-23T13:30:00-07:00",
   "last_completed_date": "2026-10-23",
   "last_journalist": "Axle McScatter",
