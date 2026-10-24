@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1259-tesla-robotaxi-record-month-three-mph",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-23T23:30:00-07:00"
-  },
-  "last_check_note": "23:30 run: #1259 RESEARCH complete (SGO Oct 15 data drop, Tesla robotaxi record crash month, first Cybercab report). Moving to DRAFT.",
+  "current": null,
+  "last_check_note": "23:30 run: #1259 RESEARCH/DRAFT/CRITIQUE(r0 avg 9.0)/SHIP complete; queued 2027-12-23; current=null",
   "last_checked": "2026-10-23T23:30:00-07:00",
-  "last_completed": "2026-10-23T13:30:00-07:00",
+  "last_completed": "2026-10-23T23:30:00-07:00",
   "last_completed_date": "2026-10-23",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-23T01:30:00-07:00",
   "last_published_date": "2026-10-23",
   "last_published_slug": "825-ford-mustang-148k-ground-recall-fix-march-2027",
   "last_qa_date": "2026-10-23",
   "last_qa_note": "QA pass #825: story 200 (via 308), hero JPEG 200, og:title/og:description/og:image present, index card, sitemap.",
-  "next": 1259,
+  "next": 1260,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17447,6 +17442,45 @@
         "rhythm": "pass"
       },
       "note": "2026-10-23 21:30 run: researched/drafted/critiqued (8.93 avg, all 7 critics 8.5+, all gates pass) SHIP->queued 2027-12-22; current=null"
+    },
+    {
+      "number": 1259,
+      "slug": "1259-tesla-robotaxi-record-month-three-mph",
+      "title": "Tesla's Robotaxi Had Its Worst Crash Month Ever. The Speedometer Barely Noticed.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2027-12-23",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b331e50d",
+        "word_count": 612,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1259-tesla-robotaxi-record-month-three-mph-research.md",
+        "story": "drafts/1259-tesla-robotaxi-record-month-three-mph.html",
+        "hero": "images/1259-tesla-robotaxi-record-month-three-mph.jpg",
+        "critic_panel": "drafts/1259-tesla-robotaxi-record-month-three-mph-critic-panel-r0.md"
+      },
+      "note": "2026-10-23 23:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 9.0, 7/7 >= 8.5, all hard gates)->SHIP in one run. News peg: NHTSA SGO Oct 15, 2026 data drop; Tesla robotaxi record month (9 August reports, 0 injuries, 7/9 at <=3 mph); first-ever Cybercab report (Austin pothole, <=5 mph, pre-launch testing). Novel: speed distribution + 0-injury ledger + June 2025 SGO threshold reporting-artifact analysis. Queued 1 day after #1258 (2027-12-22)."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
