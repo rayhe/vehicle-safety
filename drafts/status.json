@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 03:30 run: #1261 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2027-12-25; current=null; publish skipped (slot used today)",
+  "last_check_note": "2026-10-24 05:30 run: #1262 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2027-12-26; current=null; publish skipped (slot used today, #827)",
   "last_checked": "2026-10-24T03:30:00-07:00",
-  "last_completed": "2026-10-24T08:35:21+00:00",
+  "last_completed": "2026-10-24T12:30:00+00:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1262,
+  "next": 1263,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17557,6 +17557,44 @@
         "critic_panel": "drafts/1261-ford-five-hundred-impaired-top-safety-pick-critic-panel-r0.md"
       },
       "note": "2026-10-24 03:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 8.86, 7/7 >= 8.5, all hard gates)->SHIP in one run. FARS angle (news cycle exhausted: all Oct 2026 recalls/probes already in queue). Novel: Five Hundred #5/290 any-impairment (26.4%, 57/216), #3/290 drug-positive (13.0%), edges Corvette 26.2% (0.2-pt margin disclosed), only Top Safety Pick Gold winner in impairment top 5, lost 2007 award on ESC criterion, regained as renamed 2008 Taurus; death rate 0.57 near median 0.54. Queued 1 day after #1260 (2027-12-24). PUBLISH-QUEUE: skipped, 1/day slot already used today (2 Publish commits since midnight PT; #828 due today remains earliest-due for next run)."
+    },
+    {
+      "number": 1262,
+      "slug": "1262-ram-2500-esc-recall-expansion",
+      "title": "Ram's Stability Control Can Vanish Without Warning. This Is the Second Recall for the Same Defect.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "ship_date": "2027-12-26",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "e12fb8bd",
+        "word_count": 1052
+      },
+      "files": {
+        "research": "drafts/1262-ram-2500-esc-recall-expansion-research.md",
+        "story": "drafts/1262-ram-2500-esc-recall-expansion.html",
+        "hero": "images/1262-ram-2500-esc-recall-expansion.jpg",
+        "critic_panel": "drafts/1262-ram-2500-esc-recall-expansion-critic-panel-r0.md"
+      },
+      "note": "2026-10-24 05:30 run: RESEARCH->DRAFT->CRITIQUE(r0, avg 8.79, 7/7 >= 8.5, all hard gates)->SHIP in one run. NHTSA 26V-651 (FCA 90D, Oct 6 2026, 8,329 MY2026 Ram 2500, SCCM ESC loss, no warning prior to failure, FMVSS 126 noncompliance) expands 26V-244 (FCA 36D, Apr 16 2026, 6,605); combined 14,934. ESC research: 51.6% rollover reduction (NHTSA Oct 2025), 36%/70% fatal run-off-road (2007). No publish: 1/day slot already used today (Publish #827); #828 due today remains earliest-due for next run."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
