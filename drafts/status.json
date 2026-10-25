@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1275-nine-percent-half-the-deaths",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-25T15:30:00-07:00",
-    "round": 0
-  },
-  "last_check_note": "2026-10-25 15:30 run: RESEARCH pass. Fresh AAAFTS Sep 2026 seat-belt study (FARS 2017-2022) clears kill test: no queue duplicate for the 9%-vs-half inversion thesis. 10 prior-cycle candidates killed as duplicates (Land Cruiser #1230/#1248, Range Rover camera #1251, Sierra grille RQ26003 x5, robotaxi DP26010 x3, Cybercab audit #1016/#1240, EX30 #1222, IIHS crossover #1244, Ram 2500 ESC #1262, Ram TPMS #1107, RAV4 PHEV #1130/#1233, IIHS work-truck round x8). Journalist Dale Impactor III, kicker The Gap.",
+  "current": null,
+  "last_check_note": "2026-10-25 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1275 (AAAFTS seat-belt study, Dale Impactor III), queued 2028-01-08. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow's slot.",
   "last_checked": "2026-10-25T15:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
-  "next": 1275,
+  "next": 1276,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18061,6 +18055,44 @@
         "word_count": 851
       },
       "note": "2026-10-25 05:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP complete; queued 2028-01-07. Angle: Honda 26V663 re-recall, TEK shipped defective nozzles as remedy. Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish."
+    },
+    {
+      "number": 1275,
+      "slug": "1275-nine-percent-half-the-deaths",
+      "title": "9% of People Don't Buckle Up. They Account for Half the Deaths.",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-08",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "files": {
+        "research": "drafts/1275-nine-percent-half-the-deaths-research.md",
+        "story": "drafts/1275-nine-percent-half-the-deaths.html",
+        "hero": "drafts/1275-nine-percent-half-the-deaths.jpg",
+        "critic_panel": "drafts/1275-nine-percent-half-the-deaths-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "e164e402",
+        "word_count": 781
+      },
+      "note": "2026-10-25 15:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-01-08 (1 day after latest SHIP_BLOCKED 2028-01-07). Angle: AAAFTS Sep 2026 seat-belt study, 9%-vs-half inversion, original 10x crude share-ratio vs NHTSA controlled 45%/60%. Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish."
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
