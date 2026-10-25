@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-25 13:30 run: no new article (kill-test hold). Re-tested the fresh news cycle against the queue and every candidate is already queued, several repeatedly: IIHS crossover round Oct 24 Kicks/Q3/RAV4 (#1244, same ratings and mechanisms); Toyota Land Cruiser Hybrid fuel leak Oct 21 (#1230/#1248); Jaguar Range Rover rearview-camera drain holes Oct 23 (#1251); GMC Sierra grille-deflector RQ26003 (#1149/#1170/#1207/#1242/#1257, five prior takes); Tesla robotaxi school-zone petition DP26010 (#1145/#1167/#1205) and Cybercab audit (#1016/#1240); Volvo EX30 head restraint (#1222). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish this run; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow's slot. current=null, next=1275 unchanged.",
-  "last_checked": "2026-10-25T13:30:00-07:00",
+  "current": {
+    "slug": "1275-nine-percent-half-the-deaths",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-25T15:30:00-07:00"
+  },
+  "last_check_note": "2026-10-25 15:30 run: RESEARCH pass. Fresh AAAFTS Sep 2026 seat-belt study (FARS 2017-2022) clears kill test: no queue duplicate for the 9%-vs-half inversion thesis. 10 prior-cycle candidates killed as duplicates (Land Cruiser #1230/#1248, Range Rover camera #1251, Sierra grille RQ26003 x5, robotaxi DP26010 x3, Cybercab audit #1016/#1240, EX30 #1222, IIHS crossover #1244, Ram 2500 ESC #1262, Ram TPMS #1107, RAV4 PHEV #1130/#1233, IIHS work-truck round x8). Journalist Dale Impactor III, kicker The Gap.",
+  "last_checked": "2026-10-25T15:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
   "last_journalist": "Clara Rollover",
