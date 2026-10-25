@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 19:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2028-01-02; current=null; publish skipped (2 publishes already today; #828 due today stays queued). Novel angle: FARS 2024 pedestrian time/location tables (47.3% of deaths 6pm-midnight, 72.1% away from intersections, 76% in dark, 43% alcohol) + Nov 1, 2026 DST-end hook; dupes ruled out (Land Cruiser fuel, Ram 2500 ESC, Genesis G80 seat fire, RAV4 PHEV, IIHS work trucks, ProMaster steering, Ford 80-recall count, GM L87, Range Rover drain, Porsche centerlock, Blue Bird battery, DTN inflators, Kicks/Q3 IIHS retest all already covered; GHSA pedestrian-share piece is a different angle).",
-  "last_checked": "2026-10-24T19:30:00-07:00",
-  "last_completed": "2026-10-24T19:30:00-07:00",
+  "last_check_note": "2026-10-24 21:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-01-03; current=null; publish skipped (1 Publish already today: #827; #828 due today stays queued). Novel angle: OC parent prosecutions as deterrence experiment (12 parents since Jan 2026; warnings ladder; classification trap), distinct from prior e-bike device/stats pieces.",
+  "last_checked": "2026-10-24T21:30:00-07:00",
+  "last_completed": "2026-10-24T21:30:00-07:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1270,
+  "next": 1271,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17860,6 +17860,43 @@
       "ship_date": "2028-01-02",
       "slug": "1269-pedestrian-six-hour-kill-window",
       "title": "Half of Pedestrian Deaths Happen in Six Evening Hours. Those Hours Are About to Get Darker."
+    },
+    {
+      "number": 1270,
+      "slug": "1270-orange-county-parents-charged-emoto-kids",
+      "title": "Orange County Stopped Warning Parents About E-Motos. Now It Charges Them.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-01-03",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b148f917"
+      },
+      "files": {
+        "research": "drafts/1270-orange-county-parents-charged-emoto-kids-research.md",
+        "story": "drafts/1270-orange-county-parents-charged-emoto-kids.html",
+        "hero": "drafts/1270-orange-county-parents-charged-emoto-kids.jpg",
+        "critic_panel": "drafts/1270-orange-county-parents-charged-emoto-kids-critic-panel-r0.md"
+      },
+      "note": "2026-10-24 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run (avg 8.79, 7/7 critics 8.5+; gates: em 0, banned 0, The 1.9%, class=story, style.css, hero JPEG 1920x1280 ?v=b148f917, rhythm PASS). Topic: OC DA charged 12 parents since Jan 2026 over kids e-moto crashes (Garden Grove 13yo fatal 43mph; Yorba Linda 11yo + 9yo vs pickups; Mejer warnings ladder). Dupes ruled out: Volvo EX30, Ford speedometer, Takata, GM eBoost, Jeep spring, Cummins, Mercedes hose, Honda bottle cap, robotaxi DP26010, Subaru 8-car, Audi Q4, RAV4 TSP, Land Cruiser, Range Rover drain, Porsche centerlock, Ram ESC all already queued. Dateline pre-set to 2028-01-03."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
