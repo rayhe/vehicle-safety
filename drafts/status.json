@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-25 05:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP complete for #1274; queued 2028-01-07; current=null. 1/day publish gate already consumed today (2 Publish commits), so no publish this run.",
-  "last_checked": "2026-10-25T05:30:00-07:00",
+  "last_check_note": "2026-10-25 07:30 run: no new article (kill-test hold). Every news candidate tested is already queued: Jaguar Range Rover camera drain holes (#1251), Volvo EX30 headrest (#1222), Ram 2500 ESC (#1228/#1262), Land Cruiser fuel tube (#1204/#1230/#1248), Ford F-150 seat bolt + 80-recall count (#1265), Ford LED headlight (#1193/#1054/#1067/#1078/#1097), Genesis G80 fire (#1173/#1224), IIHS work trucks (many), Tesla robotaxi DP26010 school-zone (#1145/#1167/#1205), Subaru 8-car ball joint (#1252), Subaru fuel-cap (#subaru-safest-brand-recall-avalanche + park-outside-summer-2026), Ram ProMaster steering water (#1148), Rosenbauer (#1162), Mack bezels (#1119), Cummins (#1046), ID.4 (#1105/#1172/#1194). FARS extremes all covered: Park Avenue (#868), Tracker (#908), Veloster (#1064), Astro (#1115), A3 (#1212), Corvette (#1007), Forte newer-deadlier (#1004), Land Cruiser sober (#1118). One unverified lead rejected: Elantra MY2013 single-year spike (338 vs 128/132 neighbors) has no corroborating mechanism in external sources; not built. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish this run. current=null, next=1275 unchanged.",
+  "last_checked": "2026-10-25T07:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
   "last_journalist": "Clara Rollover",
