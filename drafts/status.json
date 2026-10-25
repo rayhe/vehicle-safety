@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1273-deaths-fell-nobody-drove-better",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-25T03:30:00-07:00"
+  },
   "last_check_note": "2026-10-25 01:30 run: published #828 (earliest-due SHIP_BLOCKED, ship 2026-10-24; QA live-verified: story 200, hero JPEG 200, index card, sitemap); RESEARCH/DRAFT/CRITIQUE(r0 avg 8.87)/SHIP complete for #1272; queued 2028-01-05; current=null. Novel angle: Ride in Freedom Act DC helmet-law repeal as national-rollback beachhead, DC deaths 2 to 6, repeal literature +42% median.",
   "last_checked": "2026-10-25T01:30:00-07:00",
   "last_completed": "2026-10-25T01:30:00-07:00",
