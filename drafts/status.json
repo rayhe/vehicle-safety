@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 23:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.80)/SHIP complete; queued 2028-01-04; current=null; publish skipped (1 Publish already today: #827). Novel angle: Prevost entrance-door exit label missing on 7,509 buses (26V675000, FMVSS 217), free-label remedy, distinct from Volvo Bus exit-instruction recalls.",
+  "last_check_note": "2026-10-25 01:30 run: published #828 (earliest-due SHIP_BLOCKED, ship 2026-10-24; QA live-verified: story 200, hero JPEG 200, index card, sitemap); RESEARCH/DRAFT/CRITIQUE(r0 avg 8.87)/SHIP complete for #1272; queued 2028-01-05; current=null. Novel angle: Ride in Freedom Act DC helmet-law repeal as national-rollback beachhead, DC deaths 2 to 6, repeal literature +42% median.",
   "last_checked": "2026-10-25T01:30:00-07:00",
-  "last_completed": "2026-10-24T23:30:00-07:00",
-  "last_completed_date": "2026-10-24",
-  "last_journalist": "Mia Crumplezone",
+  "last_completed": "2026-10-25T01:30:00-07:00",
+  "last_completed_date": "2026-10-25",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
-  "next": 1272,
+  "next": 1273,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17946,6 +17946,51 @@
       },
       "kicker": "The Gap",
       "note": "2026-10-24 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.80, floor 8.5). Angle: NHTSA 26V675000 (Oct 15, 2026) - 7,509 Prevost buses, entrance door missing emergency-exit operating instruction label, FMVSS 217; remedy free replacement label, owner letters Dec 7, 2026; Transport Canada twin recall 2026499 same day. Full-queue dup check clean (no prior prevost slug; distinct from #1041 Volvo Bus 9700 exit-instructions recall). Queued SHIP_BLOCKED 2028-01-04 (1 day after #1270). Publish skipped: 1/day slot consumed by #827 today."
+    },
+    {
+      "number": 1272,
+      "slug": "1272-ride-in-freedom-dc-helmet-repeal",
+      "title": "Congress Picked the One City It Controls to Kill Helmet Laws. DC's Motorcycle Deaths Just Tripled.",
+      "journalist": "Axle McScatter",
+      "ship_date": "2028-01-05",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "critic_scores": {
+        "general": 8.8,
+        "voice": 8.7,
+        "ethics": 9.0,
+        "social": 9.0,
+        "legal": 9.0,
+        "rigor": 8.8,
+        "data": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "1766fbca",
+        "hero_dim": "1920x1280",
+        "word_count": 1268,
+        "sentence_rhythm": {
+          "variance": 1214.7,
+          "short_pct": 9.3,
+          "long_pct": 72.1,
+          "passed": true
+        },
+        "actionable_insights": true
+      },
+      "files": {
+        "research": "drafts/1272-ride-in-freedom-dc-helmet-repeal-research.md",
+        "story": "drafts/1272-ride-in-freedom-dc-helmet-repeal.html",
+        "hero": "drafts/1272-ride-in-freedom-dc-helmet-repeal.jpg",
+        "critic_panel": "drafts/1272-ride-in-freedom-dc-helmet-repeal-critic-panel-r0.md"
+      },
+      "kicker": "Investigation",
+      "note": "2026-10-25 01:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.87, floor 8.7). Angle: Ride in Freedom Act (H.R. 10067 / S. 5274, Aug 6 2026) would repeal DC's universal motorcycle helmet law for 18+; sponsor's spokeswoman calls DC 'an important place to start' for a national rollback; DC motorcycle deaths tripled 2 to 6 in 2026 (Fox 5); Community Guide repeal median +42% fatalities; NHTSA 2024: 6,228 riders killed. Full-queue dup check clean: no prior helmet-law article in 1,270+ entries (motorcycle coverage was operators/AEB/denominator/blind-spot only). Same run also published #828 and QA-verified it live."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
