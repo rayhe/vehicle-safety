@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 21:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-01-03; current=null; publish skipped (1 Publish already today: #827; #828 due today stays queued). Novel angle: OC parent prosecutions as deterrence experiment (12 parents since Jan 2026; warnings ladder; classification trap), distinct from prior e-bike device/stats pieces.",
-  "last_checked": "2026-10-24T21:30:00-07:00",
-  "last_completed": "2026-10-24T21:30:00-07:00",
+  "last_check_note": "2026-10-24 23:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.80)/SHIP complete; queued 2028-01-04; current=null; publish skipped (1 Publish already today: #827). Novel angle: Prevost entrance-door exit label missing on 7,509 buses (26V675000, FMVSS 217), free-label remedy, distinct from Volvo Bus exit-instruction recalls.",
+  "last_checked": "2026-10-24T23:30:00-07:00",
+  "last_completed": "2026-10-24T23:30:00-07:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1271,
+  "next": 1272,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17897,6 +17897,51 @@
         "critic_panel": "drafts/1270-orange-county-parents-charged-emoto-kids-critic-panel-r0.md"
       },
       "note": "2026-10-24 21:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run (avg 8.79, 7/7 critics 8.5+; gates: em 0, banned 0, The 1.9%, class=story, style.css, hero JPEG 1920x1280 ?v=b148f917, rhythm PASS). Topic: OC DA charged 12 parents since Jan 2026 over kids e-moto crashes (Garden Grove 13yo fatal 43mph; Yorba Linda 11yo + 9yo vs pickups; Mejer warnings ladder). Dupes ruled out: Volvo EX30, Ford speedometer, Takata, GM eBoost, Jeep spring, Cummins, Mercedes hose, Honda bottle cap, robotaxi DP26010, Subaru 8-car, Audi Q4, RAV4 TSP, Land Cruiser, Range Rover drain, Porsche centerlock, Ram ESC all already queued. Dateline pre-set to 2028-01-03."
+    },
+    {
+      "number": 1271,
+      "slug": "1271-prevost-bus-exit-label-missing",
+      "title": "7,509 Prevost Buses Are Missing the Label That Tells Passengers How to Escape",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2028-01-04",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "critic_scores": {
+        "general": 8.8,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 8.8,
+        "rigor": 8.9,
+        "data": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "f50e76f4",
+        "hero_dim": "1920x1280",
+        "word_count": 653,
+        "sentence_rhythm": {
+          "variance": 112.2,
+          "short_pct": 10.5,
+          "long_pct": 28.9,
+          "passed": true
+        },
+        "actionable_insights": true
+      },
+      "files": {
+        "research": "drafts/1271-prevost-bus-exit-label-missing-research.md",
+        "story": "drafts/1271-prevost-bus-exit-label-missing.html",
+        "hero": "drafts/1271-prevost-bus-exit-label-missing.jpg",
+        "critic_panel": "drafts/1271-prevost-bus-exit-label-missing-critic-panel-r0.md"
+      },
+      "kicker": "The Gap",
+      "note": "2026-10-24 23:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP in one run. Round-0 panel PASS (avg 8.80, floor 8.5). Angle: NHTSA 26V675000 (Oct 15, 2026) - 7,509 Prevost buses, entrance door missing emergency-exit operating instruction label, FMVSS 217; remedy free replacement label, owner letters Dec 7, 2026; Transport Canada twin recall 2026499 same day. Full-queue dup check clean (no prior prevost slug; distinct from #1041 Volvo Bus 9700 exit-instructions recall). Queued SHIP_BLOCKED 2028-01-04 (1 day after #1270). Publish skipped: 1/day slot consumed by #827 today."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
