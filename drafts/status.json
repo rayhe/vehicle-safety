@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1274-honda-fixed-tire-kit-with-broken-part",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-25T05:30:00-07:00",
-    "round": 0
-  },
-  "last_check_note": "2026-10-25 05:30 run: DRAFT complete for #1274 (Clara Rollover); hero JPEG 1920x1280 ?v=6c421a8e; CRITIQUE in progress.",
-  "last_checked": "2026-10-25T01:30:00-07:00",
-  "last_completed": "2026-10-25T03:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-25 05:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP complete for #1274; queued 2028-01-07; current=null. 1/day publish gate already consumed today (2 Publish commits), so no publish this run.",
+  "last_checked": "2026-10-25T05:30:00-07:00",
+  "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
-  "next": 1274,
+  "next": 1275,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18023,6 +18017,44 @@
         "hero_jpeg": true,
         "word_count": 822
       }
+    },
+    {
+      "number": 1274,
+      "slug": "1274-honda-fixed-tire-kit-with-broken-part",
+      "title": "Honda Fixed Your Flat-Tire Kit. The Fix Was the Broken Part.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-07",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "files": {
+        "research": "drafts/1274-honda-fixed-tire-kit-with-broken-part-research.md",
+        "story": "drafts/1274-honda-fixed-tire-kit-with-broken-part.html",
+        "hero": "drafts/1274-honda-fixed-tire-kit-with-broken-part.jpg",
+        "critic_panel": "drafts/1274-honda-fixed-tire-kit-with-broken-part-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6c421a8e",
+        "word_count": 851
+      },
+      "note": "2026-10-25 05:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP complete; queued 2028-01-07. Angle: Honda 26V663 re-recall, TEK shipped defective nozzles as remedy. Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
