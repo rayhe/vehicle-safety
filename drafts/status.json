@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 15:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2027-12-31; current=null; publish skipped (slot used today, #827; #828 due today stays queued). Novel angle: terminal tractor that can catch fire while parked with ignition off (26V648, 16,127 units, 2014-2026) + park-outside order for a vehicle that lives indoors + 5A-fuse fix + Kalmar <0.001% denominator critique; dupes ruled out (Sierra grille, Land Cruiser fuel, Porsche centerlock, RAV4 PHEV, Ram 2500 ESC, Volvo EX30, Range Rover camera, class-3 IIHS all already covered).",
-  "last_checked": "2026-10-24T15:30:00-07:00",
+  "last_check_note": "2026-10-24 17:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2028-01-01; current=null; publish skipped (slot used today, #827; #828 due today stays queued). Novel angle: Audi Q4 e-tron traction-battery fire recall 26V698 (9,048 units, 2024-2025) + 80% charge cap with no remedy + no park-outside order + Dec 18 letter with no fix + ID.4-to-Audi platform migration of the 80% cap; dupes ruled out (Land Cruiser fuel, Ford speedometer, Genesis seat fire, RAV4/Kicks IIHS, ProMaster steering, ID.4 80% all already covered; Q4 traction-battery fire is new).",
+  "last_checked": "2026-10-24T17:30:00-07:00",
   "last_completed": "2026-10-24T22:30:00+00:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1268,
+  "next": 1269,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17785,6 +17785,44 @@
       "ship_date": "2027-12-31",
       "slug": "1267-kalmar-ottawa-t2-park-outside-fire",
       "title": "Parked, Switched Off, and Still a Fire Risk: 16,127 Yard Trucks Recalled"
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1268-audi-q4-etron-80-percent-fire-recall-critic-panel-r0.md",
+        "hero": "drafts/1268-audi-q4-etron-80-percent-fire-recall.jpg",
+        "research": "drafts/1268-audi-q4-etron-80-percent-fire-recall-research.md",
+        "story": "drafts/1268-audi-q4-etron-80-percent-fire-recall.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "07564c94",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 4.3,
+        "word_count": 757
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "2026-10-24 17:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (8.86 avg, 7/7 >= 8.5, all hard gates). News peg: NHTSA 26V698 / Audi 93SK, filed Oct 21, 2026, VINs searchable Oct 23. Novel: 80% cap migrates from VW ID.4 to premium Audi sibling (platform-level question), charge-cap-without-park-outside-order split vs Hyundai/Kalmar, Dec 18 letter with no remedy. Dateline pre-set to Jan 1, 2028. Queued 1/day after latest SHIP_BLOCKED (2027-12-31). Publish skipped: 1/day slot used today (#827).",
+      "number": 1268,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-01-01",
+      "slug": "1268-audi-q4-etron-80-percent-fire-recall",
+      "title": "Audi's Electric SUV Gets the 80% Haircut. The Fix Does Not Exist Yet."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
