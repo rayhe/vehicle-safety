@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-24 17:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2028-01-01; current=null; publish skipped (slot used today, #827; #828 due today stays queued). Novel angle: Audi Q4 e-tron traction-battery fire recall 26V698 (9,048 units, 2024-2025) + 80% charge cap with no remedy + no park-outside order + Dec 18 letter with no fix + ID.4-to-Audi platform migration of the 80% cap; dupes ruled out (Land Cruiser fuel, Ford speedometer, Genesis seat fire, RAV4/Kicks IIHS, ProMaster steering, ID.4 80% all already covered; Q4 traction-battery fire is new).",
-  "last_checked": "2026-10-24T17:30:00-07:00",
-  "last_completed": "2026-10-24T22:30:00+00:00",
+  "last_check_note": "2026-10-24 19:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2028-01-02; current=null; publish skipped (2 publishes already today; #828 due today stays queued). Novel angle: FARS 2024 pedestrian time/location tables (47.3% of deaths 6pm-midnight, 72.1% away from intersections, 76% in dark, 43% alcohol) + Nov 1, 2026 DST-end hook; dupes ruled out (Land Cruiser fuel, Ram 2500 ESC, Genesis G80 seat fire, RAV4 PHEV, IIHS work trucks, ProMaster steering, Ford 80-recall count, GM L87, Range Rover drain, Porsche centerlock, Blue Bird battery, DTN inflators, Kicks/Q3 IIHS retest all already covered; GHSA pedestrian-share piece is a different angle).",
+  "last_checked": "2026-10-24T19:30:00-07:00",
+  "last_completed": "2026-10-24T19:30:00-07:00",
   "last_completed_date": "2026-10-24",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-24T08:35:37+00:00",
   "last_published_date": "2026-10-24",
   "last_published_slug": "827-robotaxi-brake-jab-whiplash",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
-  "next": 1269,
+  "next": 1270,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -17823,6 +17823,43 @@
       "ship_date": "2028-01-01",
       "slug": "1268-audi-q4-etron-80-percent-fire-recall",
       "title": "Audi's Electric SUV Gets the 80% Haircut. The Fix Does Not Exist Yet."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1269-pedestrian-six-hour-kill-window-critic-panel-r0.md",
+        "hero": "drafts/1269-pedestrian-six-hour-kill-window.jpg",
+        "research": "drafts/1269-pedestrian-six-hour-kill-window-research.md",
+        "story": "drafts/1269-pedestrian-six-hour-kill-window.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "22ed3fc4",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 691
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-10-24 19:30 run: RESEARCH/DRAFT/CRITIQUE r0 SHIP (avg 8.86, all 7 critics 8.5+); queued 2028-01-02 (1 day after #1268); publish skipped (2 publishes already today, slot used; #828 due today stays queued).",
+      "number": 1269,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-01-02",
+      "slug": "1269-pedestrian-six-hour-kill-window",
+      "title": "Half of Pedestrian Deaths Happen in Six Evening Hours. Those Hours Are About to Get Darker."
     }
   ],
   "last_worker_run": "2026-10-23T15:30:00-07:00"
