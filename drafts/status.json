@@ -1,15 +1,15 @@
 {
   "current": null,
   "last_check_note": "2026-10-24 23:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.80)/SHIP complete; queued 2028-01-04; current=null; publish skipped (1 Publish already today: #827). Novel angle: Prevost entrance-door exit label missing on 7,509 buses (26V675000, FMVSS 217), free-label remedy, distinct from Volvo Bus exit-instruction recalls.",
-  "last_checked": "2026-10-24T23:30:00-07:00",
+  "last_checked": "2026-10-25T01:30:00-07:00",
   "last_completed": "2026-10-24T23:30:00-07:00",
   "last_completed_date": "2026-10-24",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
-  "last_qa_date": "2026-10-24",
-  "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
+  "last_qa_date": "2026-10-25",
+  "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
   "next": 1272,
   "queue": [
     {
@@ -1326,7 +1326,7 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Round-1 pass 9.1 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (828- prefix). News peg: IIHS telematics study (Aug 27, 2026), coverage Sept 1-5 - phone use in 30s before impact in 7-8% of ~17,000 linked crashes vs <1% in police reports (>=7x undercount). Novel: behavior-level undercount ratios (3.1x calls / 90x hands-free / 32x manipulation / 29x passive), 3-of-17000 police-telematics agreement (0.018%), selection-bias floor argument, maps-app passive-use paradox. Distinct from May 2026 distracted-driving-undercount-3x (estimated 3x via NSC math). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-04. | 2026-10-25 01:30 run: published as #828 (earliest-due SHIP_BLOCKED, ship_date 2026-10-24; 1/day slot, 0 prior publishes today). Hero JPEG verified FF D8, hash 825e6839.",
+      "note": "Round-1 pass 9.1 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (828- prefix). News peg: IIHS telematics study (Aug 27, 2026), coverage Sept 1-5 - phone use in 30s before impact in 7-8% of ~17,000 linked crashes vs <1% in police reports (>=7x undercount). Novel: behavior-level undercount ratios (3.1x calls / 90x hands-free / 32x manipulation / 29x passive), 3-of-17000 police-telematics agreement (0.018%), selection-bias floor argument, maps-app passive-use paradox. Distinct from May 2026 distracted-driving-undercount-3x (estimated 3x via NSC math). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-04. | 2026-10-25 01:30 run: published as #828 (earliest-due SHIP_BLOCKED, ship_date 2026-10-24; 1/day slot, 0 prior publishes today). Hero JPEG verified FF D8, hash 825e6839. | QA 2026-10-25 01:30 run: story 200, hero JPEG 200 (v=825e6839), index card top of grid, sitemap entry lastmod 2026-10-25, dateline Sept 6 2026.",
       "number": 828,
       "phase": "PUBLISHED",
       "scores": {
