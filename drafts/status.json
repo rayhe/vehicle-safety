@@ -5,9 +5,9 @@
   "last_completed": "2026-10-24T23:30:00-07:00",
   "last_completed_date": "2026-10-24",
   "last_journalist": "Mia Crumplezone",
-  "last_published": "2026-10-24T08:35:37+00:00",
-  "last_published_date": "2026-10-24",
-  "last_published_slug": "827-robotaxi-brake-jab-whiplash",
+  "last_published": "2026-10-25T01:30:00-07:00",
+  "last_published_date": "2026-10-25",
+  "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-24",
   "last_qa_note": "QA pass #827: story 200, hero JPEG 200, og:title/og:description/og:image present, index card, sitemap, dateline Oct 23 2026.",
   "next": 1272,
@@ -1326,9 +1326,9 @@
       },
       "journalist": "Vin Wreckage",
       "kicker": "Existential Dread",
-      "note": "Round-1 pass 9.1 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (828- prefix). News peg: IIHS telematics study (Aug 27, 2026), coverage Sept 1-5 - phone use in 30s before impact in 7-8% of ~17,000 linked crashes vs <1% in police reports (>=7x undercount). Novel: behavior-level undercount ratios (3.1x calls / 90x hands-free / 32x manipulation / 29x passive), 3-of-17000 police-telematics agreement (0.018%), selection-bias floor argument, maps-app passive-use paradox. Distinct from May 2026 distracted-driving-undercount-3x (estimated 3x via NSC math). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-04.",
+      "note": "Round-1 pass 9.1 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (828- prefix). News peg: IIHS telematics study (Aug 27, 2026), coverage Sept 1-5 - phone use in 30s before impact in 7-8% of ~17,000 linked crashes vs <1% in police reports (>=7x undercount). Novel: behavior-level undercount ratios (3.1x calls / 90x hands-free / 32x manipulation / 29x passive), 3-of-17000 police-telematics agreement (0.018%), selection-bias floor argument, maps-app passive-use paradox. Distinct from May 2026 distracted-driving-undercount-3x (estimated 3x via NSC math). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-04. | 2026-10-25 01:30 run: published as #828 (earliest-due SHIP_BLOCKED, ship_date 2026-10-24; 1/day slot, 0 prior publishes today). Hero JPEG verified FF D8, hash 825e6839.",
       "number": 828,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
@@ -1341,7 +1341,11 @@
       "ship_date": "2026-10-24",
       "slug": "telematics-7x-phone-use-undercount",
       "started": "2026-09-07T04:35:00Z",
-      "title": "The Cops Say <1% of Drivers Were on Their Phones. The Phones Say 8%."
+      "title": "The Cops Say <1% of Drivers Were on Their Phones. The Phones Say 8%.",
+      "files": {
+        "story": "stories/828-telematics-7x-phone-use-undercount.html",
+        "hero": "images/828-telematics-7x-phone-use-undercount.jpg"
+      }
     },
     {
       "critic_avg": 9.0,
