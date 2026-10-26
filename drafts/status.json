@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-25 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1276 (NHTSA RQ26003 Sierra grille deflector audit, Vin Wreckage), queued 2028-01-09. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow slot.",
-  "last_checked": "2026-10-25T17:30:00-07:00",
+  "last_check_note": "2026-10-25 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1277 (Lexus NX 26V-687 warning-display recall, Mia Crumplezone), queued 2028-01-10. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow slot.",
+  "last_checked": "2026-10-25T19:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
-  "next": 1277,
+  "next": 1278,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18131,6 +18131,44 @@
         "word_count": 907
       },
       "note": "2026-10-25 17:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2028-01-09 (1 day after latest SHIP_BLOCKED 2028-01-08). Angle: NHTSA RQ26003 Sierra grille deflector audit, 535,639 vs 70,768 (7.6x), 21 post-repair complaints, RQ mechanism explainer. Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1277-lexus-nx-warning-lights-that-dont-warn-critic-panel-r0.md",
+        "hero": "drafts/1277-lexus-nx-warning-lights-that-dont-warn.jpg",
+        "research": "drafts/1277-lexus-nx-warning-lights-that-dont-warn-research.md",
+        "story": "drafts/1277-lexus-nx-warning-lights-that-dont-warn.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "e591e36e",
+        "hero_jpeg": true,
+        "rhythm": "variance 834.1, short 5.3%, long 73.7%",
+        "style_css": true,
+        "the_starters_pct": 0.0
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-10-25 19:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.79, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS after merging fragment clusters, hero JPEG 1920x1280 ?v=e591e36e). Novel: 48-day letter lag (Oct 20 filed to Dec 7 letters), four-variants-one-total, meta-failure framing (warning system failing silently). Queued 2028-01-10 (1 day after #1276).",
+      "number": 1277,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2028-01-10",
+      "slug": "1277-lexus-nx-warning-lights-that-dont-warn",
+      "title": "Lexus Recalled 68,356 NX SUVs Because the Warning Lights Might Not Warn You"
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
