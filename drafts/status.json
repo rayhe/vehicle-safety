@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1276-sierra-grille-deflector-recall-query",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-25T17:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-25 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1275 (AAAFTS seat-belt study, Dale Impactor III), queued 2028-01-08. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow's slot.",
   "last_checked": "2026-10-25T17:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
-  "next": 1276,
+  "next": 1277,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18099,6 +18093,44 @@
         "word_count": 781
       },
       "note": "2026-10-25 15:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-01-08 (1 day after latest SHIP_BLOCKED 2028-01-07). Angle: AAAFTS Sep 2026 seat-belt study, 9%-vs-half inversion, original 10x crude share-ratio vs NHTSA controlled 45%/60%. Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish."
+    },
+    {
+      "number": 1276,
+      "slug": "1276-sierra-grille-deflector-recall-query",
+      "title": "GM Recalled 70,768 Sierras for a Flying Grille. NHTSA's Audit Covers 535,639.",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-09",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "kicker": "Existential Dread",
+      "files": {
+        "research": "drafts/1276-sierra-grille-deflector-recall-query-research.md",
+        "story": "drafts/1276-sierra-grille-deflector-recall-query.html",
+        "hero": "drafts/1276-sierra-grille-deflector-recall-query.jpg",
+        "critic_panel": "drafts/1276-sierra-grille-deflector-recall-query-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "4df49afa",
+        "word_count": 907
+      },
+      "note": "2026-10-25 17:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP complete; queued 2028-01-09 (1 day after latest SHIP_BLOCKED 2028-01-08). Angle: NHTSA RQ26003 Sierra grille deflector audit, 535,639 vs 70,768 (7.6x), 21 post-repair complaints, RQ mechanism explainer. Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish."
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
