@@ -4,13 +4,13 @@
   "last_checked": "2026-10-25T23:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-25T01:30:00-07:00",
   "last_published_date": "2026-10-25",
   "last_published_slug": "828-telematics-7x-phone-use-undercount",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
-  "next": 1280,
+  "next": 1281,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18245,6 +18245,50 @@
         "word_count": 640
       },
       "note": "2026-10-25 23:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.73)/SHIP complete; queued 2028-01-12 (1 day after latest SHIP_BLOCKED 2028-01-11). Angle: GMC Sonoma as S-10 badge twin, 378 deaths, rate 2.13 = 7.6x Colorado replacement, drivers less impaired than average (17.4% vs 20.0%). Killed this run: Toyota Land Cruiser fuel-tube recall (#1230/#1248), Porsche center-lock expansion (#1245), Volvo EX30 headrest (#1222), RAV4 PHEV loss-of-power (#1130/#1166/#1233), Genesis G80 park-outside (#1173/#1224), Ford F-Series speedometer (#1223), Range Rover camera drain holes (#1251), Audi Q4 80% (#1268), IIHS commercial ratings (covered #1093/#1102/#1144/#1198/#1227), Tesla DP26010 (#1145/#1167/#1205), Sierra RQ26003 (#1276), Jaguar camera-drill (#1251), Honda tire-kit (#1274). Publish gate consumed today (Publish #828), no publish this run; #829 due 2026-10-25 remains queued (hero-ready)."
+    },
+    {
+      "number": 1280,
+      "slug": "1280-thanksgiving-blackout-wednesday",
+      "title": "Thanksgiving Is America's Deadliest Holiday. The Killer Isn't the Drive Home.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-13",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "2ef90ae7",
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 312.8,
+          "short_pct": 6.7,
+          "long_pct": 60.0
+        },
+        "word_count": 579
+      },
+      "files": {
+        "research": "drafts/1280-thanksgiving-blackout-wednesday-research.md",
+        "story": "drafts/1280-thanksgiving-blackout-wednesday.html",
+        "hero": "drafts/1280-thanksgiving-blackout-wednesday.jpg",
+        "critic_panel": "drafts/1280-thanksgiving-blackout-wednesday-critic-panel-r0.md"
+      },
+      "note": "2026-10-26 01:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP. Zero prior Thanksgiving coverage in 1,279 articles. Novel: local-trip inversion + Wednesday/Saturday split + excess-death arithmetic (labeled estimate). Two pre-panel fragment-merge revisions to clear rhythm gate. Queued 2028-01-13 (1 day after #1279)."
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
