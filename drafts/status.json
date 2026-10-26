@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1276-sierra-grille-deflector-recall-query",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
-    "started": "2026-10-25T17:30:00-07:00"
+    "started": "2026-10-25T17:30:00-07:00",
+    "round": 0
   },
   "last_check_note": "2026-10-25 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1275 (AAAFTS seat-belt study, Dale Impactor III), queued 2028-01-08. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow's slot.",
   "last_checked": "2026-10-25T17:30:00-07:00",
