@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1286-china-20-million-smart-car-recall-machine",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-26T13:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-26 11:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1285 (Buick LeSabre: IIHS Good frontal rating vs FARS 0.82 own-deaths per fatal-crash involvement, 4th of 163; rate 2.67 vs sedan avg 1.39; 69% of deaths from Good-rated 2000-05 generation; Clara Rollover), queued 2028-01-18. Rhythm gate PASS first try post-merge (var 306, short 2.8%, long 50.0%). Killed angles pre-research: Ram 2500 lethality (#904), Solara/Tracker/Veloster sober frame, Land Cruiser (4 entries), zombie fleet (#935), Park Avenue. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
   "last_checked": "2026-10-26T11:58:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
@@ -18497,7 +18491,26 @@
       "ship_date": "2028-01-18",
       "slug": "buick-lesabre-good-crash-scores-real-world-deaths",
       "title": "The Buick LeSabre Aced Its Crash Test. The Real World Gave It an F."
+    },
+    {
+      "number": 1286,
+      "slug": "1286-china-20-million-smart-car-recall-machine",
+      "title": "China Recalled 20 Million Smart Cars in Nine Months. Seven in Ten Only Moved Because Regulators Made Them.",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-19",
+      "scores": {
+        "general": 8.7,
+        "voice": 9.0,
+        "ethics": 8.9,
+        "social": 8.8,
+        "legal": 8.7,
+        "rigor": 9.0,
+        "data": 9.0,
+        "average": 8.87
+      },
+      "note": "CRITIQUE r0 PASS (avg 8.87, all gates pass). Queued 2028-01-19; publish skipped this run (1/day slot consumed by Publish #829)."
     }
   ],
-  "last_worker_run": "2026-10-25T13:30:00-07:00"
+  "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
 }
