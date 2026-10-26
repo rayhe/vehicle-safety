@@ -18169,6 +18169,44 @@
       "ship_date": "2028-01-10",
       "slug": "1277-lexus-nx-warning-lights-that-dont-warn",
       "title": "Lexus Recalled 68,356 NX SUVs Because the Warning Lights Might Not Warn You"
+    },
+    {
+      "number": 1278,
+      "slug": "1278-kicks-q3-build-date-trap",
+      "title": "Nissan's Entry-Level Crossover Just Beat the Audi Q3. The Catch Is Stamped in the Door Jamb.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-11",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "files": {
+        "research": "drafts/1278-kicks-q3-build-date-trap-research.md",
+        "story": "drafts/1278-kicks-q3-build-date-trap.html",
+        "hero": "drafts/1278-kicks-q3-build-date-trap.jpg",
+        "critic_panel": "drafts/1278-kicks-q3-build-date-trap-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "9e6df19a",
+        "word_count": 826
+      },
+      "note": "2026-10-25 21:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP complete; queued 2028-01-11 (1 day after latest SHIP_BLOCKED 2028-01-10). Angle: IIHS Oct 2026 ratings round, only Kicks of 6 models earned Top Safety Pick; Poor-to-Good flip via rear seat belt load limiters; award covers only builds after June 2026, door-jamb label check. Killed this run: IIHS Oct 8 commercial ratings (covered #1093/#1102/#1144/#1198/#1227), Jeep coil-spring 3rd recall, Jaguar camera-drill recall (#1251), Honda tire-kit re-recall (#1274), Tesla robotaxi DP26010 (#1145/#1167/#1205), Sierra RQ26003 (#1276). Publish-time fix: dateline currently Oct 25 2026 (draft date); set to ship_date at publish. Publish gate consumed today (Publish #828), no publish this run; #829 due 2026-10-25 remains queued (hero-ready)."
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
