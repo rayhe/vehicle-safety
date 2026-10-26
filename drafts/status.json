@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 01:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1280 (Thanksgiving Blackout Wednesday, Dale Impactor III), queued 2028-01-13. PUBLISH-QUEUE: published #829 deer-season-clock-change (due 2026-10-25, hero on file) as Publish #829; #830 heavy-truck-AEB (due 2026-10-26) waits for tomorrow slot.",
+  "last_check_note": "2026-10-26 01:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1280 (Thanksgiving Blackout Wednesday, Dale Impactor III), queued 2028-01-13. PUBLISH-QUEUE: published #829 deer-season-clock-change as Publish #829; QA live-verified (story 200, hero, index card, sitemap). #830 heavy-truck-AEB (due 2026-10-26) waits for tomorrow slot.",
   "last_checked": "2026-10-26T01:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
@@ -8,8 +8,8 @@
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
-  "last_qa_date": "2026-10-25",
-  "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
+  "last_qa_date": "2026-10-26",
+  "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
   "next": 1281,
   "queue": [
     {
