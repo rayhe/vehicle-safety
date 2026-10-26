@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-25 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1275 (AAAFTS seat-belt study, Dale Impactor III), queued 2028-01-08. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow's slot.",
+  "last_check_note": "2026-10-25 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1276 (NHTSA RQ26003 Sierra grille deflector audit, Vin Wreckage), queued 2028-01-09. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow slot.",
   "last_checked": "2026-10-25T17:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
