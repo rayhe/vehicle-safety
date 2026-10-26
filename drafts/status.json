@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 03:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1281 (Cavalier 86% death share, Mia Crumplezone), queued 2028-01-14. PUBLISH-QUEUE: 1/day slot already consumed today (Publish #829 at 01:30); #830 due 2026-10-26 waits for tomorrow's slot.",
-  "last_checked": "2026-10-26T03:30:00-07:00",
+  "last_check_note": "2026-10-26 05:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1282 (Taurus 2.74 vs Corolla 1.85, impairment alibi rejected, Axle McScatter), queued 2028-01-15. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow's slot.",
+  "last_checked": "2026-10-26T05:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
-  "next": 1282,
+  "next": 1283,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18327,6 +18327,44 @@
       "ship_date": "2028-01-14",
       "slug": "1281-chevrolet-cavalier-car-that-always-loses",
       "title": "The Car That Always Loses: Chevrolet Cavalier's 86% Death Share"
+    },
+    {
+      "number": 1282,
+      "phase": "SHIP_BLOCKED",
+      "slug": "1282-ford-taurus-family-sedan-death-rate",
+      "title": "Ford's Family Sedan Was America's Default Car. Its Death Rate Is Anything But Average",
+      "journalist": "Axle McScatter",
+      "ship_date": "2028-01-15",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "kicker": "By The Numbers",
+      "files": {
+        "research": "drafts/1282-ford-taurus-family-sedan-death-rate-research.md",
+        "story": "drafts/1282-ford-taurus-family-sedan-death-rate.html",
+        "hero": "drafts/1282-ford-taurus-family-sedan-death-rate.jpg",
+        "critic_panel": "drafts/1282-ford-taurus-family-sedan-death-rate-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "15d9ad1a",
+        "word_count": 562
+      },
+      "note": "2026-10-26 05:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1282 (Taurus 2.74 vs Corolla 1.85, impairment alibi rejected, Axle McScatter), queued 2028-01-15. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow's slot."
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
