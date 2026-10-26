@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-26 01:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1280 (Thanksgiving Blackout Wednesday, Dale Impactor III), queued 2028-01-13. PUBLISH-QUEUE: published #829 deer-season-clock-change as Publish #829; QA live-verified (story 200, hero, index card, sitemap). #830 heavy-truck-AEB (due 2026-10-26) waits for tomorrow slot.",
+  "current": {
+    "slug": "1281-chevrolet-cavalier-car-that-always-loses",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-26T03:30:00-07:00"
+  },
+  "last_check_note": "2026-10-26 03:30 run: RESEARCH->DRAFT in progress for #1281 (Cavalier 86% death share, Mia Crumplezone). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #829 at 01:30); #830 due 2026-10-26 waits for tomorrow's slot.",
   "last_checked": "2026-10-26T01:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
