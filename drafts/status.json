@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1283 (Pontiac Grand Am 1.18 vs Grand Prix 2.14/G6 1.64, impairment parity 21.6/21.5/22.1, 2004 peak 148 deaths, Vin Wreckage), queued 2028-01-16. Round-0 catch fixed pre-ship: unscoped 'lowest rate of any Pontiac sedan' superlative was false (Vibe 0.54, Bonneville 0.22, Sunfire 0.18 lower on thin counts); rescoped to three high-volume sedans + scope note. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
-  "last_checked": "2026-10-26T07:30:00-07:00",
+  "last_check_note": "2026-10-26 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.93)->SHIP for #1284 (Panther triplets: Grand Marquis 2.29 vs Crown Vic 1.46 vs Town Car 0.86; rate ranking inverted vs own-death share Town Car 80.5% / Grand Marquis 76.1% / Crown Vic 65.3%; impairment 18.5/22.3/20.4 rejects alibi; Rex Driverton), queued 2028-01-17. Rhythm gate initially FAILED short 19.4% (St. split + fragments); fixed by merging fragments, re-ran PASS. Killed angles pre-research: IIHS work-truck AEB (12 queue entries), Sierra grille RQ26003 (8 entries), Porsche center-lock / EX30 / RAV4 PHEV / Land Cruiser fuel-leak (all queued), Ram split, Park Avenue, lethality tables. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
+  "last_checked": "2026-10-26T09:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
-  "next": 1284,
+  "next": 1285,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18409,6 +18409,50 @@
         }
       },
       "note": "2026-10-26 07:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1283 (Pontiac Grand Am 1.18 vs Grand Prix 2.14/G6 1.64, impairment parity 21.6/21.5/22.1, 2004 peak 148 deaths, Vin Wreckage), queued 2028-01-16. Round-0 catch fixed pre-ship: unscoped 'lowest rate of any Pontiac sedan' superlative was false (Vibe 0.54, Bonneville 0.22, Sunfire 0.18 lower on thin counts); rescoped to three high-volume sedans + scope note. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot."
+    },
+    {
+      "number": 1284,
+      "phase": "SHIP_BLOCKED",
+      "slug": "1284-panther-triplets-three-ways-to-die",
+      "title": "Same Platform, Three Different Ways to Die.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-01-17",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "files": {
+        "research": "drafts/1284-panther-triplets-three-ways-to-die-research.md",
+        "story": "drafts/1284-panther-triplets-three-ways-to-die.html",
+        "hero": "drafts/1284-panther-triplets-three-ways-to-die.jpg",
+        "critic_panel": "drafts/1284-panther-triplets-three-ways-to-die-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7f071e95",
+        "word_count": 519,
+        "rhythm": {
+          "variance": 636.0,
+          "short_pct": 7.4,
+          "long_pct": 51.9,
+          "passed": true
+        }
+      },
+      "note": "2026-10-26 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.93)->SHIP for #1284 (Panther triplets: Grand Marquis 2.29 vs Crown Vic 1.46 vs Town Car 0.86; rate ranking inverted vs own-death share Town Car 80.5% / Grand Marquis 76.1% / Crown Vic 65.3%; impairment 18.5/22.3/20.4 rejects alibi; Rex Driverton), queued 2028-01-17. Rhythm gate initially FAILED short 19.4% (St. split + fragments); fixed by merging fragments, re-ran PASS. Killed angles pre-research: IIHS work-truck AEB (12 queue entries), Sierra grille RQ26003 (8 entries), Porsche center-lock / EX30 / RAV4 PHEV / Land Cruiser fuel-leak (all queued), Ram split, Park Avenue, lethality tables. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot."
     }
   ],
   "last_worker_run": "2026-10-25T13:30:00-07:00"
