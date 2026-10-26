@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-10-25 23:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.73)->SHIP for #1279 (GMC Sonoma S-10 badge twin, Rex Driverton), queued 2028-01-12. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #828 at 01:30 PT), so no publish; #829 deer-season (due 2026-10-25, hero on file) waits for tomorrow slot.",
-  "last_checked": "2026-10-25T23:30:00-07:00",
+  "last_check_note": "2026-10-26 01:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1280 (Thanksgiving Blackout Wednesday, Dale Impactor III), queued 2028-01-13. PUBLISH-QUEUE: published #829 deer-season-clock-change (due 2026-10-25, hero on file) as Publish #829; #830 heavy-truck-AEB (due 2026-10-26) waits for tomorrow slot.",
+  "last_checked": "2026-10-26T01:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
   "last_journalist": "Dale Impactor III",
-  "last_published": "2026-10-25T01:30:00-07:00",
-  "last_published_date": "2026-10-25",
-  "last_published_slug": "828-telematics-7x-phone-use-undercount",
+  "last_published": "2026-10-26T01:30:00-07:00",
+  "last_published_date": "2026-10-26",
+  "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-25",
   "last_qa_note": "QA pass #828: story 200, hero JPEG 200, index card, sitemap, dateline Sept 6 2026.",
   "next": 1281,
@@ -1367,9 +1367,9 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (829- prefix). First deer/animal-strike article in 800+ (zero prior coverage, grepped 2026-09-06). News peg: Sept deer-movement ramp + Nov 1, 2026 fall-back (8 weeks) at rut peak. Novel: 440-vs-~200 death-toll discrepancy (2x+ undercount, FARS first-harmful-event coding vs claims data), clock-change-as-deer-safety framing (UW Current Biology study: permanent DST would prevent 33 deaths/yr). Journalist: Rex Driverton (paradox beat; Vin used for 823/825/828). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-05.",
+      "note": "Round-1 pass 9.0 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (829- prefix). First deer/animal-strike article in 800+ (zero prior coverage, grepped 2026-09-06). News peg: Sept deer-movement ramp + Nov 1, 2026 fall-back (8 weeks) at rut peak. Novel: 440-vs-~200 death-toll discrepancy (2x+ undercount, FARS first-harmful-event coding vs claims data), clock-change-as-deer-safety framing (UW Current Biology study: permanent DST would prevent 33 deaths/yr). Journalist: Rex Driverton (paradox beat; Vin used for 823/825/828). No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-05. | 2026-10-26 01:30 run: SHIPPED as Publish #829 (1/day slot; 0 prior publishes today). Pre-ship fixes: dateline Sept 6 -> Oct 26, 2026; \"Eight weeks from today\" -> \"Six days from now\" (Nov 1 fall-back 6 days out); og:image + hero img + index card cache-busted ?v=2137e49b (hash unchanged since critique); added og:type + twitter:card + twitter:image. Gates re-verified pre-ship: em 0, banned 0, class=story, style.css, hero JPEG 1920x1280.",
       "number": 829,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
@@ -1382,7 +1382,8 @@
       "ship_date": "2026-10-25",
       "slug": "deer-season-clock-change-33-deaths",
       "started": "2026-09-07T06:40:00Z",
-      "title": "The Clocks Fall Back November 1. Deer Collisions Are About to Triple."
+      "title": "The Clocks Fall Back November 1. Deer Collisions Are About to Triple.",
+      "publish_commit": "pending"
     },
     {
       "critic_avg": 9.07,
