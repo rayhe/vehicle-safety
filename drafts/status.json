@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1299-2025-safest-year-cyclists-exception",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-10-27T15:45:00-07:00"
+  },
   "last_check_note": "2026-10-27 13:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1298 (Great Dane Champion coupler/kingpin recall 26V656, Axle McScatter), queued 2028-01-31. PUBLISH-QUEUE: 1/day slot already consumed (4 Publish# commits today); #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot. No publish this run.",
-  "last_checked": "2026-10-27T13:55:00-07:00",
+  "last_checked": "2026-10-27T15:45:00-07:00",
   "last_completed": "2026-10-27T13:55:00-07:00",
   "last_completed_date": "2026-10-27",
   "last_journalist": "Axle McScatter",
