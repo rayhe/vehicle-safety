@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 23:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.71)->SHIP for #1291 (Hyundai 26V692 24 cars strut/steering-knuckle + 26V693 17 cars lug-nut/wheel-detach, combined 41 brand-new 2026 cars, Ulsan plant, Samjin Nut supplier, manufacturing lapses not parts; pattern total 213 with 26V314 Georgia Ioniq fasteners; hero JPEG 1920x1280 ?v=46b76e73). Queued 2028-01-24. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-grep commits); #830 due 2026-10-26 waits for tomorrow.",
+  "last_check_note": "2026-10-27 01:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1292 (Toyota Sienna third seat recall, Rex Driverton), queued 2028-01-25. PUBLISH-QUEUE: published #830 heavy-truck-AEB phantom-braking probe (due 2026-10-26, hero on file) as Publish #830; #831 impaired-driving-rule (due 2026-10-27) waits for tomorrow slot.",
   "last_checked": "2026-10-27T01:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
   "last_journalist": "Rex Driverton",
-  "last_published": "2026-10-26T01:30:00-07:00",
-  "last_published_date": "2026-10-26",
-  "last_published_slug": "829-deer-season-clock-change-33-deaths",
+  "last_published": "2026-10-27T01:30:00-07:00",
+  "last_published_date": "2026-10-27",
+  "last_published_slug": "830-heavy-truck-aeb-mandate-phantom-brake-probe",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
   "next": 1293,
@@ -1405,9 +1405,9 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-1 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (830- prefix). Novel: induced-crash gap in the mandate's 155-lives math (NHTSA counts only striking-vehicle rear-enders; phantom braking makes the truck the struck vehicle, uncounted), 24 crashes/347 reports ~7% floor, Detroit Assurance 2.0/4.0/5.0 same failure rate vs lower-claim OnGuard (complexity correlates with failure), mandate probe and defect probe same age (PE23010 May 2023 vs NPRM June 2023; EA25006 upgraded Oct 23 2025, still open). News peg: 2026 regulatory agenda supplemental NPRM imminent. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-06.",
+      "note": "Round-1 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (830- prefix). Novel: induced-crash gap in the mandate's 155-lives math (NHTSA counts only striking-vehicle rear-enders; phantom braking makes the truck the struck vehicle, uncounted), 24 crashes/347 reports ~7% floor, Detroit Assurance 2.0/4.0/5.0 same failure rate vs lower-claim OnGuard (complexity correlates with failure), mandate probe and defect probe same age (PE23010 May 2023 vs NPRM June 2023; EA25006 upgraded Oct 23 2025, still open). News peg: 2026 regulatory agenda supplemental NPRM imminent. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-06. | 2026-10-27 01:30 run: SHIPPED as Publish #830 (1/day slot; 0 prior publishes today). Pre-ship fixes: dateline Oct 6 -> Oct 27, 2026; og:image absolute + og:type + twitter tags added (hero hash unchanged ?v=85bf98ed). Gates re-verified pre-ship: em 0, banned 0, class=story, style.css, hero JPEG 1920x1280.",
       "number": 830,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
@@ -1420,7 +1420,8 @@
       "ship_date": "2026-10-26",
       "slug": "heavy-truck-aeb-mandate-phantom-brake-probe",
       "started": "2026-09-07T08:15:00Z",
-      "title": "NHTSA Wants AEB on Every New Semi. Its Own Investigators Found the System Slamming Trucks to a Stop on Empty Highways."
+      "title": "NHTSA Wants AEB on Every New Semi. Its Own Investigators Found the System Slamming Trucks to a Stop on Empty Highways.",
+      "publish_commit": "pending"
     },
     {
       "critic_avg": 9.07,
