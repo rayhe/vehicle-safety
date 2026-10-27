@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-26 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.90)->SHIP for #1288 (Subaru 26V685/WRI26: 8-car do-not-drive ball-joint recall, 4 Crosstrek Aug 4-6 + 4 Forester Aug 5-13 2026, no-warning separation, 57-day filing-to-letter gap; hero JPEG 1920x1280 ?v=f2c0426b). Queued 2028-01-21. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
+  "current": {
+    "slug": "1289-bmw-3-series-deadliest-entry-luxury",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-26T19:30:00-07:00"
+  },
+  "last_check_note": "2026-10-26 19:30 run: RESEARCH done for #1289 (BMW 3 Series deadliest entry-luxury sedan, FARS 2014-2023; 2.73 rate vs C-Class 0.63, A4 0.32, impairment-controlled). Prior dup-check rejected Sierra grille, Genesis G80, RAV4 PHEV, Ram ESC, Porsche centerlock, TRIP, Range Rover camera, Audi Q4 (all already covered). PUBLISH-QUEUE: skipped, 1/day slot consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
   "last_checked": "2026-10-26T17:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
