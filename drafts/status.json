@@ -1,5 +1,5 @@
 {
-  "current": {"slug": "1293-thomas-built-hot-coolant-school-bus-recalls", "phase": "DRAFT", "journalist": "Mia Crumplezone", "started": "2026-10-27T03:30:00-07:00"},
+  "current": {"slug": "1293-thomas-built-hot-coolant-school-bus-recalls", "phase": "CRITIQUE", "journalist": "Mia Crumplezone", "round": 0, "started": "2026-10-27T03:30:00-07:00"},
   "last_check_note": "2026-10-27 01:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1292 (Toyota Sienna third seat recall, Rex Driverton), queued 2028-01-25. PUBLISH-QUEUE: published #830 heavy-truck-AEB phantom-braking probe (due 2026-10-26, hero on file) as Publish #830; #831 impaired-driving-rule (due 2026-10-27) waits for tomorrow slot.",
   "last_checked": "2026-10-27T01:30:00-07:00",
   "last_completed": "2026-10-27T01:33:19-07:00",
