@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1298-great-dane-champion-coupler-kingpin-recall",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-27T13:45:00-07:00",
-    "round": 0
-  },
-  "last_check_note": "2026-10-27 13:45 run: RESEARCH->DRAFT #1298 (Great Dane Champion coupler/kingpin recall 26V656, Axle McScatter), hero JPEG 1920x1280; CRITIQUE in progress.",
-  "last_checked": "2026-10-27T13:45:00-07:00",
-  "last_completed": "2026-10-27T11:31:33-07:00",
+  "current": null,
+  "last_check_note": "2026-10-27 13:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1298 (Great Dane Champion coupler/kingpin recall 26V656, Axle McScatter), queued 2028-01-31. PUBLISH-QUEUE: 1/day slot already consumed (4 Publish# commits today); #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot. No publish this run.",
+  "last_checked": "2026-10-27T13:55:00-07:00",
+  "last_completed": "2026-10-27T13:55:00-07:00",
   "last_completed_date": "2026-10-27",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-27T01:30:00-07:00",
   "last_published_date": "2026-10-27",
   "last_published_slug": "830-heavy-truck-aeb-mandate-phantom-brake-probe",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1298,
+  "next": 1299,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18920,6 +18914,43 @@
         "critic_panel": "drafts/1297-ford-tailgate-cable-fails-under-load-critic-panel-r0.md"
       },
       "note": "2026-10-27 11:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1297 (Ford tailgate cable 26V689/26S78, Rex Driverton), queued 2028-01-30. PUBLISH-QUEUE: 1/day slot already consumed by Publish #830 today (3 Publish# commits in today's log); #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot. No publish this run."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1298-critic-panel-r0.md",
+        "hero": "images/1298-great-dane-champion-coupler-kingpin-recall.jpg",
+        "research": "drafts/1298-great-dane-champion-coupler-kingpin-recall-research.md",
+        "story": "stories/1298-great-dane-champion-coupler-kingpin-recall.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "a05c14bf",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 808
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-10-27 13:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.79). Fresh filing 26V656 (69 units, do-not-use advisory); pattern angle = second Champion coupler/kingpin recall in 22 months (24V922 Dec 2024). Gates re-verified post-edit: em 0, banned 0, The 0.0%, css ok, hero JPEG 1920x1280.",
+      "number": 1298,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-31",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "slug": "1298-great-dane-champion-coupler-kingpin-recall",
+      "title": "Great Dane's Champion Trailers Can't Stay Hitched. A Sixteenth of an Inch Is Why."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
