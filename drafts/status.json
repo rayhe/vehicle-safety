@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 21:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1290 (Genesis 26V664 seat-switch park-outside recall, 94,622 cars, no remedy yet; ~946 truly defective at 1% estimate; non-memory trims only; second park-outside fire recall for same nameplates after 21V160; hero JPEG 1920x1280 ?v=76e6ed39). Queued 2028-01-23. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
-  "last_checked": "2026-10-26T21:30:00-07:00",
+  "last_check_note": "2026-10-26 23:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.71)->SHIP for #1291 (Hyundai 26V692 24 cars strut/steering-knuckle + 26V693 17 cars lug-nut/wheel-detach, combined 41 brand-new 2026 cars, Ulsan plant, Samjin Nut supplier, manufacturing lapses not parts; pattern total 213 with 26V314 Georgia Ioniq fasteners; hero JPEG 1920x1280 ?v=46b76e73). Queued 2028-01-24. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-grep commits); #830 due 2026-10-26 waits for tomorrow.",
+  "last_checked": "2026-10-26T23:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
-  "next": 1291,
+  "next": 1292,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18652,6 +18652,44 @@
         "hero_jpeg": true,
         "hero_hash": "76e6ed39",
         "word_count": 600
+      }
+    },
+    {
+      "number": 1291,
+      "slug": "1291-hyundai-two-recalls-forty-one-loose-nuts",
+      "title": "Hyundai Recalled 41 Brand-New Cars Because Somebody Didn't Tighten the Nuts. Twice.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-24",
+      "scores": {
+        "general": 8.5,
+        "voice": 9.0,
+        "ethics": 8.5,
+        "social": 9.0,
+        "legal": 8.5,
+        "rigor": 8.5,
+        "data": 9.0,
+        "average": 8.71
+      },
+      "critic_avg": 8.71,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "note": "2026-10-26 23:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.71)->SHIP for #1291 (Hyundai 26V692 24 cars strut/steering-knuckle + 26V693 17 cars lug-nut/wheel-detach, combined 41 brand-new 2026 cars, Ulsan plant, Samjin Nut supplier, manufacturing lapses not parts; pattern total 213 with 26V314 Georgia Ioniq fasteners; hero JPEG 1920x1280 ?v=46b76e73). Queued 2028-01-24. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-grep commits); #830 due 2026-10-26 waits for tomorrow.",
+      "files": {
+        "research": "drafts/1291-hyundai-two-recalls-forty-one-loose-nuts-research.md",
+        "story": "drafts/1291-hyundai-two-recalls-forty-one-loose-nuts.html",
+        "hero": "drafts/1291-hyundai-two-recalls-forty-one-loose-nuts.jpg",
+        "critic_panel": "drafts/1291-hyundai-two-recalls-forty-one-loose-nuts-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "46b76e73",
+        "rhythm_variance": 748.8
       }
     }
   ],
