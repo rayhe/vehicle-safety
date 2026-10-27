@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1289-bmw-3-series-deadliest-entry-luxury",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-26T19:30:00-07:00"
-  },
-  "last_check_note": "2026-10-26 19:30 run: RESEARCH done for #1289 (BMW 3 Series deadliest entry-luxury sedan, FARS 2014-2023; 2.73 rate vs C-Class 0.63, A4 0.32, impairment-controlled). Prior dup-check rejected Sierra grille, Genesis G80, RAV4 PHEV, Ram ESC, Porsche centerlock, TRIP, Range Rover camera, Audi Q4 (all already covered). PUBLISH-QUEUE: skipped, 1/day slot consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
-  "last_checked": "2026-10-26T17:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-26 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1289 (BMW 3 Series FARS 2014-2023: 2.73 deaths/100M mi vs C-Class 0.63, A4 0.32, impairment-controlled 20.6-22.1%; model-year deaths peak 2004-2012; hero JPEG 1920x1280 ?v=9a3d4594). Queued 2028-01-22. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
+  "last_checked": "2026-10-26T19:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
-  "next": 1289,
+  "next": 1290,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18584,6 +18579,41 @@
         "hero_jpeg": true,
         "hero_hash": "f2c0426b",
         "word_count": 446
+      }
+    },
+    {
+      "number": 1289,
+      "slug": "1289-bmw-3-series-deadliest-entry-luxury",
+      "title": "The Ultimate Driving Machine Kills at 8 Times the Rate of Its Audi Rival",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-22",
+      "scores": {
+        "general": 8.5,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 8.5,
+        "data": 9.0,
+        "average": 8.79
+      },
+      "note": "2026-10-26 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1289 (BMW 3 Series FARS 2014-2023: 2.73 deaths/100M mi vs C-Class 0.63, A4 0.32, impairment-controlled 20.6-22.1%; model-year deaths peak 2004-2012; hero JPEG 1920x1280 ?v=9a3d4594). Queued 2028-01-22. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
+      "files": {
+        "research": "drafts/1289-bmw-3-series-deadliest-entry-luxury-research.md",
+        "story": "drafts/1289-bmw-3-series-deadliest-entry-luxury.html",
+        "hero": "drafts/1289-bmw-3-series-deadliest-entry-luxury.jpg",
+        "critic_panel": "drafts/1289-bmw-3-series-deadliest-entry-luxury-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "9a3d4594",
+        "word_count": 397
       }
     }
   ],
