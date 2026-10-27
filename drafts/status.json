@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1295-ford-godzilla-v8-idle-patch-probe",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-10-27T07:30:00-07:00"
+    "started": "2026-10-27T07:30:00-07:00",
+    "round": 0
   },
   "last_check_note": "2026-10-27 05:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.76)->SHIP for #1294 (Ford replacement ABS modules 26E073, Clara Rollover), queued 2028-01-27. PUBLISH-QUEUE: 1/day slot already consumed by Publish #830 today (3 Publish-# git-log hits); #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot.",
   "last_checked": "2026-10-27T03:30:00-07:00",
