@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-27 09:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1296 (Koenigsegg CC850 26V694000, Vin Wreckage), queued 2028-01-29. PUBLISH-QUEUE: 1/day slot already consumed by Publish #830 today; #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot.",
-  "last_checked": "2026-10-27T09:30:00-07:00",
-  "last_completed": "2026-10-27T09:30:00-07:00",
+  "last_check_note": "2026-10-27 11:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1297 (Ford tailgate cable 26V689/26S78, Rex Driverton), queued 2028-01-30. PUBLISH-QUEUE: 1/day slot already consumed by Publish #830 today (3 Publish# commits in today's log); #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot. No publish this run.",
+  "last_checked": "2026-10-27T11:31:33-07:00",
+  "last_completed": "2026-10-27T11:31:33-07:00",
   "last_completed_date": "2026-10-27",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-27T01:30:00-07:00",
   "last_published_date": "2026-10-27",
   "last_published_slug": "830-heavy-truck-aeb-mandate-phantom-brake-probe",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1297,
+  "next": 1298,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18876,6 +18876,44 @@
         "critic_panel": "drafts/1296-koenigsegg-cc850-seven-car-rollaway-recall-critic-panel-r0.md"
       },
       "note": "2026-10-27 09:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1296 (Koenigsegg CC850 26V694000, Vin Wreckage), queued 2028-01-29. PUBLISH-QUEUE: 1/day slot already consumed by Publish #830 today; #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot."
+    },
+    {
+      "number": 1297,
+      "slug": "1297-ford-tailgate-cable-fails-under-load",
+      "title": "Ford's Tailgate Cable Fails Under Heavy Loads. Holding Loads Is Its Only Job.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-30",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "e8be3061",
+        "word_count": 864,
+        "sentence_rhythm": "PASS variance 828.8, short 11.8%, long 61.8%"
+      },
+      "files": {
+        "research": "drafts/1297-ford-tailgate-cable-fails-under-load-research.md",
+        "story": "drafts/1297-ford-tailgate-cable-fails-under-load.html",
+        "hero": "drafts/1297-ford-tailgate-cable-fails-under-load.jpg",
+        "critic_panel": "drafts/1297-ford-tailgate-cable-fails-under-load-critic-panel-r0.md"
+      },
+      "note": "2026-10-27 11:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1297 (Ford tailgate cable 26V689/26S78, Rex Driverton), queued 2028-01-30. PUBLISH-QUEUE: 1/day slot already consumed by Publish #830 today (3 Publish# commits in today's log); #831 impaired-driving-rule (due 2026-10-27, hero on file) waits for tomorrow slot. No publish this run."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
