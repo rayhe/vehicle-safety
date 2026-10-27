@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 15:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.93)->SHIP for #1287 (Subaru WRD-26/26V-106: Forester Hybrid + Crosstrek Hybrid fuel-cap gasket leak; parked-car inversion, hybrid-only VIN trap, population filings 69,153/66,332/71,207 stated as range; hero JPEG 1920x1280 ?v=afc739d6). Queued 2028-01-20. Killed angles pre-research (all already covered): IIHS work-truck tests (#1093), Sierra grille RQ26003 (#1149), Porsche centerlock (#1245), Volvo EX30 (#1222), RAV4 PHEV (#1130), Lexus NX (#1277), Ford cluster 26C46 (#1223), ID.4 80% cap (#1105/#1172/#1194), Tesla robotaxi DP26010 (#1145), Genesis seat fire (#1173/#1224), FARS top-metric models, correlation/quadrant (#897), brand lethality, Saturn d/c crown. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
-  "last_checked": "2026-10-26T15:30:00-07:00",
+  "last_check_note": "2026-10-26 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.90)->SHIP for #1288 (Subaru 26V685/WRI26: 8-car do-not-drive ball-joint recall, 4 Crosstrek Aug 4-6 + 4 Forester Aug 5-13 2026, no-warning separation, 57-day filing-to-letter gap; hero JPEG 1920x1280 ?v=f2c0426b). Queued 2028-01-21. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
+  "last_checked": "2026-10-26T17:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
-  "next": 1288,
+  "next": 1289,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18544,6 +18544,41 @@
         "hero_jpeg": true,
         "hero_hash": "afc739d6",
         "word_count": 519
+      }
+    },
+    {
+      "number": 1288,
+      "slug": "1288-subaru-eight-car-do-not-drive-ball-joint",
+      "title": "Eight Cars Got Subaru's Strongest Warning. A Loose Nut Is Why.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-21",
+      "scores": {
+        "general": 9.0,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.7,
+        "legal": 9.0,
+        "rigor": 8.8,
+        "data": 9.0,
+        "average": 8.9
+      },
+      "note": "2026-10-26 17:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.90)->SHIP for #1288 (Subaru 26V685/WRI26: 8-car do-not-drive ball-joint recall, 4 Crosstrek Aug 4-6 + 4 Forester Aug 5-13 2026, no-warning separation, 57-day filing-to-letter gap; hero JPEG 1920x1280 ?v=f2c0426b). Queued 2028-01-21. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish-matching commits); #830 due 2026-10-26 waits for tomorrow's slot.",
+      "files": {
+        "research": "drafts/1288-subaru-eight-car-do-not-drive-ball-joint-research.md",
+        "story": "drafts/1288-subaru-eight-car-do-not-drive-ball-joint.html",
+        "hero": "drafts/1288-subaru-eight-car-do-not-drive-ball-joint.jpg",
+        "critic_panel": "drafts/1288-subaru-eight-car-do-not-drive-ball-joint-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "f2c0426b",
+        "word_count": 446
       }
     }
   ],
