@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-26 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.79)->SHIP for #1289 (BMW 3 Series FARS 2014-2023: 2.73 deaths/100M mi vs C-Class 0.63, A4 0.32, impairment-controlled 20.6-22.1%; model-year deaths peak 2004-2012; hero JPEG 1920x1280 ?v=9a3d4594). Queued 2028-01-22. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
-  "last_checked": "2026-10-26T19:30:00-07:00",
+  "last_check_note": "2026-10-26 21:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1290 (Genesis 26V664 seat-switch park-outside recall, 94,622 cars, no remedy yet; ~946 truly defective at 1% estimate; non-memory trims only; second park-outside fire recall for same nameplates after 21V160; hero JPEG 1920x1280 ?v=76e6ed39). Queued 2028-01-23. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
+  "last_checked": "2026-10-26T21:30:00-07:00",
   "last_completed": "2026-10-25T05:30:00-07:00",
   "last_completed_date": "2026-10-25",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-26T01:30:00-07:00",
   "last_published_date": "2026-10-26",
   "last_published_slug": "829-deer-season-clock-change-33-deaths",
   "last_qa_date": "2026-10-26",
   "last_qa_note": "QA pass #829: story 200, hero JPEG 200 (?v=2137e49b), index card first in grid, sitemap entry lastmod 2026-10-26, dateline Oct 26 2026, \"Six days from now\" countdown verified live. Early checks 404 (Pages build lag); live ~10 min after push.",
-  "next": 1290,
+  "next": 1291,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -18614,6 +18614,44 @@
         "hero_jpeg": true,
         "hero_hash": "9a3d4594",
         "word_count": 397
+      }
+    },
+    {
+      "number": 1290,
+      "slug": "1290-genesis-g80-seat-switch-park-outside-no-fix",
+      "title": "A Seat Switch That Won't Turn Off Has 94,622 Genesis Sedans Parked Outside With No Fix",
+      "journalist": "Mia Crumplezone",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-01-23",
+      "scores": {
+        "general": 8.5,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 9.0,
+        "data": 9.0,
+        "average": 8.86
+      },
+      "critic_avg": 8.86,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "note": "2026-10-26 21:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1290 (Genesis 26V664 seat-switch park-outside recall, 94,622 cars, no remedy yet; ~946 truly defective at 1% estimate; non-memory trims only; second park-outside fire recall for same nameplates after 21V160; hero JPEG 1920x1280 ?v=76e6ed39). Queued 2028-01-23. PUBLISH-QUEUE: skipped, 1/day slot already consumed today (2 Publish commits); #830 due 2026-10-26 waits for tomorrow.",
+      "files": {
+        "research": "drafts/1290-genesis-g80-seat-switch-park-outside-no-fix-research.md",
+        "story": "drafts/1290-genesis-g80-seat-switch-park-outside-no-fix.html",
+        "hero": "drafts/1290-genesis-g80-seat-switch-park-outside-no-fix.jpg",
+        "critic_panel": "drafts/1290-genesis-g80-seat-switch-park-outside-no-fix-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "76e6ed39",
+        "word_count": 600
       }
     }
   ],
