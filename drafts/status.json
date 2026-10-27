@@ -1405,7 +1405,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-1 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (830- prefix). Novel: induced-crash gap in the mandate's 155-lives math (NHTSA counts only striking-vehicle rear-enders; phantom braking makes the truck the struck vehicle, uncounted), 24 crashes/347 reports ~7% floor, Detroit Assurance 2.0/4.0/5.0 same failure rate vs lower-claim OnGuard (complexity correlates with failure), mandate probe and defect probe same age (PE23010 May 2023 vs NPRM June 2023; EA25006 upgraded Oct 23 2025, still open). News peg: 2026 regulatory agenda supplemental NPRM imminent. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-06. | 2026-10-27 01:30 run: SHIPPED as Publish #830 (1/day slot; 0 prior publishes today). Pre-ship fixes: dateline Oct 6 -> Oct 27, 2026; og:image absolute + og:type + twitter tags added (hero hash unchanged ?v=85bf98ed). Gates re-verified pre-ship: em 0, banned 0, class=story, style.css, hero JPEG 1920x1280.",
+      "note": "Round-1 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (830- prefix). Novel: induced-crash gap in the mandate's 155-lives math (NHTSA counts only striking-vehicle rear-enders; phantom braking makes the truck the struck vehicle, uncounted), 24 crashes/347 reports ~7% floor, Detroit Assurance 2.0/4.0/5.0 same failure rate vs lower-claim OnGuard (complexity correlates with failure), mandate probe and defect probe same age (PE23010 May 2023 vs NPRM June 2023; EA25006 upgraded Oct 23 2025, still open). News peg: 2026 regulatory agenda supplemental NPRM imminent. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-06. | 2026-10-27 01:30 run: SHIPPED as Publish #830 (1/day slot; 0 prior publishes today). Pre-ship fixes: dateline Oct 6 -> Oct 27, 2026; og:image absolute + og:type + twitter tags added (hero hash unchanged ?v=85bf98ed). Gates re-verified pre-ship: em 0, banned 0, class=story, style.css, hero JPEG 1920x1280. | Publish commit 890dea29 pushed; live QA check pending (story URL 404 immediately post-push, consistent with Pages build lag).",
       "number": 830,
       "phase": "PUBLISHED",
       "scores": {
@@ -1421,7 +1421,7 @@
       "slug": "heavy-truck-aeb-mandate-phantom-brake-probe",
       "started": "2026-09-07T08:15:00Z",
       "title": "NHTSA Wants AEB on Every New Semi. Its Own Investigators Found the System Slamming Trucks to a Stop on Empty Highways.",
-      "publish_commit": "pending"
+      "publish_commit": "890dea29"
     },
     {
       "critic_avg": 9.07,
