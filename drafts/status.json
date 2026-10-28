@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-28 09:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP new #1308 nhtsa-cyan-lights-driverless-cars (Mia Crumplezone, avg 8.86, gates pass: em 0, banned 0, The 4.3%, css ok, rhythm pass, hero JPEG 1920x1280, 530 words), queued 2028-02-10. PUBLISH-QUEUE skipped (1/day gate already consumed today by #831 publish; #832 remains earliest-due for next open slot). Killed angles this run: GMC Sierra grille RQ26003 (dup #1149/#1170/#1207/#1242/#1257/#1276), Toyota Sienna 26V690 (dup #1292), Land Cruiser fuel-tube fire (dup #1204/#1230/#1248), Ram 2500 ESC (dup #1228/#1262), IIHS work-truck crash avoidance (dup #1093/#1144/#1175), Kicks TSP (dup #1244/#1278), generic Halloween pedestrian (dup #1096).",
- "last_checked": "2026-10-28T09:30:00-07:00",
+ "last_check_note": "2026-10-28 11:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1309 (NHTSA DP26004 denied Oct 23 2026, 2010 Fusion Hybrid ABS HCU, 20,816 cars, 6x complaint-rate gap vs 19V904, warning-light paradox + pedal-feel trap, 3.5% fleet share; direct NHTSA page 403 in-run, ODI wording via BRAKE Report/Ford Authority summaries, disclosed in article). Queued 2028-02-11. PUBLISH-QUEUE skipped (1/day gate already consumed today, 2 Publish commits; #832 due 2026-10-28 remains earliest-due for next open slot). Killed angles this run: Hyundai loose-nuts pair (dup #1291), Godzilla DP26011 (dup #1295), Genesis seat-switch (dup #1290), Tesla school-zone DP26010 (dup #1145), RAV4 PHEV shutdown (dup #1130), Lexus NX 26V687 (dup #1277), Audi Q4 fire (dup #1268), Sierra grille RQ26003, Sienna 26V690, Ram 2500 ESC, IIHS work-truck, Kicks TSP.",
+ "last_checked": "2026-10-28T11:30:00-07:00",
  "last_completed": "2026-10-28T01:30:00-07:00",
  "last_completed_date": "2026-10-28",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-10-28T01:30:00-07:00",
  "last_published_date": "2026-10-28",
  "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
  "last_qa_date": "2026-10-27",
  "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
- "next": 1309,
+ "next": 1310,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -19260,6 +19260,45 @@
    "ship_date": "2028-02-10",
    "slug": "1308-nhtsa-cyan-lights-driverless-cars",
    "title": "NHTSA Wants Driverless Cars to Glow Cyan. It Still Has No Rules for the Driving."
+  },
+  {
+   "avg_critic": 8.86,
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1309-ford-fusion-hybrid-abs-petition-denied-critic-panel-r0.md",
+    "hero": "drafts/1309-ford-fusion-hybrid-abs-petition-denied.jpg",
+    "research": "drafts/1309-ford-fusion-hybrid-abs-petition-denied-research.md",
+    "story": "drafts/1309-ford-fusion-hybrid-abs-petition-denied.html"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_dim": "1920x1280",
+    "hero_hash": "0441180a",
+    "hero_jpeg": true,
+    "rhythm": "variance 1784.3, short 14.3%, long 78.6%",
+    "style_css": true,
+    "the_starters_pct": 0.0,
+    "word_count": 524
+   },
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "note": "2026-10-28 11:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.86)->SHIP for #1309 (NHTSA DP26004 denied Oct 23 2026, 2010 Fusion Hybrid ABS HCU, 20,816 cars, 6x complaint-rate gap vs 19V904, warning-light paradox + pedal-feel trap, 3.5% fleet share; direct NHTSA page 403 in-run, ODI wording via BRAKE Report/Ford Authority summaries, disclosed in article). Queued 2028-02-11. PUBLISH-QUEUE skipped (1/day gate already consumed today, 2 Publish commits; #832 due 2026-10-28 remains earliest-due for next open slot). Killed angles this run: Hyundai loose-nuts pair (dup #1291), Godzilla DP26011 (dup #1295), Genesis seat-switch (dup #1290), Tesla school-zone DP26010 (dup #1145), RAV4 PHEV shutdown (dup #1130), Lexus NX 26V687 (dup #1277), Audi Q4 fire (dup #1268), Sierra grille RQ26003, Sienna 26V690, Ram 2500 ESC, IIHS work-truck, Kicks TSP.",
+   "number": 1309,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 9.0,
+    "ethics_reviewer": 9.0,
+    "general_editor": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 8.5,
+    "voice_coach": 8.5
+   },
+   "ship_date": "2028-02-11",
+   "slug": "1309-ford-fusion-hybrid-abs-petition-denied",
+   "title": "Ford's Fusion Hybrid Lost ABS and Traction Control. NHTSA Called It Wear and Tear."
   }
  ],
  "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
