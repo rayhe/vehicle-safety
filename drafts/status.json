@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "1311-ford-maverick-frozen-camera-recall-query",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-28T15:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-28 13:30 run: #1310 queued 2028-02-12 (SHIPPED crit r0 avg 8.79, gates pass). PUBLISH-QUEUE skipped: 1/day gate already consumed today (2 Publish commits); #832 (due 2026-10-28) remains earliest-due for next open slot.",
   "last_checked": "2026-10-28T13:30:00-07:00",
   "last_completed": "2026-10-28T01:30:00-07:00",
@@ -19342,6 +19337,47 @@
         "word_count": 919
       },
       "note": "2026-10-28 13:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.79). DP26012 petition opened Oct 23 2026 (2017 Great Dane reefers, Jost landing gear named); 5th structural file in 22 months after 24V922 (coupler welds, Dec 2024), 24V637 (support-gear bracing welds, Dec 2024), Jul 2026 impact-guard channels, 26V656 (do-not-use coupler, Oct 2026). Jost supplier-layer angle. Gates: em 0, banned 0, The 8.6%, css ok, hero JPEG 1920x1280 ?v=35cd27a5. Queued 2028-02-12."
+    },
+    {
+      "number": 1311,
+      "slug": "1311-ford-maverick-frozen-camera-recall-query",
+      "title": "Ford Recalled 144,516 Mavericks to Un-Freeze Their Backup Cameras. The Cameras Froze Again.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-13",
+      "started": "2026-10-28T15:30:00-07:00",
+      "critique_round": 0,
+      "avg_critic": 8.87,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "04fc20ff",
+        "word_count": 735,
+        "rhythm_variance": 426.0,
+        "references": 7
+      },
+      "files": {
+        "research": "drafts/1311-ford-maverick-frozen-camera-recall-query-research.md",
+        "story": "drafts/1311-ford-maverick-frozen-camera-recall-query.html",
+        "hero": "drafts/1311-ford-maverick-frozen-camera-recall-query.jpg",
+        "critic_panel": "drafts/1311-ford-maverick-frozen-camera-recall-query-critic-panel-r0.md"
+      },
+      "note": "2026-10-28 15:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.87, 7/7 >= 8.5; gates: em 0, banned 0, The 7.7%, rhythm var 426.0 PASS, hero JPEG 1920x1280 ?v=04fc20ff). NHTSA RQ26004 opened Oct 23 2026 (273,301 2022-2024 Mavericks); 2024 recall 24V684/Ford 24S59 (144,516) CTR memory-leak fix G2.2 arrived Mar 2025; 5 post-remedy VOQs, ODI verified failures, complaint 11662294. Zero queue overlap (RQ26004 uncovered; distinct from Jeep-spring x6, Sierra-grille-query x5). Queued 2028-02-13."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
