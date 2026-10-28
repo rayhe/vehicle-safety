@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-27 17:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.71, gates pass), queued 2028-02-02. Vallejo Oct 22 I-80 fatal pedestrian crash (CHP: Tesla braked/swerved at ~70 mph, FSD claim unconfirmed, second vehicle fled); killed angles this run: Godzilla DP26011 (#1295), Sienna 26V690 (#1292), Porsche center-lock expansion (#1245), Kicks IIHS round (#1278), IIHS commercial work trucks (#1093 et al), Sierra RQ26003 (#1276). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today).",
-  "last_checked": "2026-10-27T17:30:00-07:00",
-  "last_completed": "2026-10-27T17:30:00-07:00",
+  "last_check_note": "2026-10-27 19:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.79, gates pass), queued 2028-02-03. Ford F-150 seat bolts 26V655/26S74 (2,276 trucks; root-cause chain: repair logged complete when not done; 62 confirmed VINs). Killed angles this run: Cummins L9 vehicle recalls 26V660/661/662/699 (parent 26E066 covered #1046), Ram 2500 ESC (#1228/#1262), Land Cruiser fuel tube (#1204/#1230/#1248), Volvo EX30 (#1222), Hyundai 26V692/693 (#1291), IIHS commercial ratings (#1093 et al), IIHS Kicks round (#1278), Porsche center-lock (#1245), Thomas Built 26V697 (#1293), Audi Q4 26V698 (#1268), Ford speedometer 26V653 (#1223), TRIP 2025 totals (#1299). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot).",
+  "last_checked": "2026-10-27T19:30:00-07:00",
+  "last_completed": "2026-10-27T19:30:00-07:00",
   "last_completed_date": "2026-10-27",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-27T01:30:00-07:00",
   "last_published_date": "2026-10-27",
   "last_published_slug": "830-heavy-truck-aeb-mandate-phantom-brake-probe",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1301,
+  "next": 1302,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19025,6 +19025,45 @@
       "ship_date": "2028-02-02",
       "slug": "1300-tesla-fsd-vallejo-i80-pedestrian-death",
       "title": "A Tesla Braked, Swerved, and Still Killed a Man Crossing I-80. The Second Driver Didn't Even Stop."
+    },
+    {
+      "number": 1301,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-03",
+      "slug": "1301-ford-f150-seat-repair-logged-complete",
+      "title": "Ford Marked the Seat Repair Complete. The Bolt Was Still Missing.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Investigation",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "80ab6847",
+        "word_count": 903,
+        "rhythm": "PASS variance 1602.3 short 12.8% long 53.8%"
+      },
+      "files": {
+        "research": "drafts/1301-ford-f150-seat-repair-logged-complete-research.md",
+        "story": "drafts/1301-ford-f150-seat-repair-logged-complete.html",
+        "hero": "drafts/1301-ford-f150-seat-repair-logged-complete.jpg",
+        "critic_panel": "drafts/1301-ford-f150-seat-repair-logged-complete-critic-panel-r0.md"
+      },
+      "note": "2026-10-27 19:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.79, gates pass), queued 2028-02-03. Ford F-150 seat bolts 26V655/26S74 (2,276 trucks; root-cause chain: repair logged complete when not done; 62 confirmed VINs). Killed angles this run: Cummins L9 vehicle recalls 26V660/661/662/699 (parent 26E066 covered #1046), Ram 2500 ESC (#1228/#1262), Land Cruiser fuel tube (#1204/#1230/#1248), Volvo EX30 (#1222), Hyundai 26V692/693 (#1291), IIHS commercial ratings (#1093 et al), IIHS Kicks round (#1278), Porsche center-lock (#1245), Thomas Built 26V697 (#1293), Audi Q4 26V698 (#1268), Ford speedometer 26V653 (#1223), TRIP 2025 totals (#1299). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot)."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
