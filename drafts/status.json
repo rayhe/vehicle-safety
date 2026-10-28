@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-28 01:30 run: PUBLISH #831 (NHTSA impaired-driving rule, ship 2026-10-27; QA live pass: story 200 via extensionless redirect, hero JPEG 200, og tags, index card, sitemap, dateline Oct 28 2026; publish commits 7b622faf + 12e091a4 pushed). Then RESEARCH->DRAFT->CRITIQUE r0 SHIP new #1304 pedestrian-yield-not-jaywalking (Rex Driverton, avg 8.93, gates pass), queued 2028-02-06. Killed angles this run: Jeep 26V562 third coil-spring (covered 5x), IIHS commercial grades Oct 8 (covered), Kicks/RAV4/Q3/Trailblazer moderate-overlap (covered 1244/1278), Sienna seat-back (drafted 1292), Audi Q4/ID.4 80% (drafted 1268/1194/1172/1105), Lexus NX 26V687 (drafted 1277), Sierra RQ26003 + prior-run kills. Next due: #832 (2026-10-28) for next open 1/day slot.",
-  "last_checked": "2026-10-28T01:30:00-07:00",
+  "last_check_note": "2026-10-28 03:30 run: PUBLISH-QUEUE skipped (1/day gate already consumed today by #831 publish). RESEARCH->DRAFT->CRITIQUE r0 SHIP new #1305 ebike-age-inversion (Mia Crumplezone, avg 8.93, gates pass: em 0, banned 0, The 0%, css ok, hero JPEG 1920x1280), queued 2028-02-07. Killed angles this run: Lexus NX 26V687 (#1277), IIHS commercial Oct 8, Kicks/Q3/RAV4/Trailblazer (#1278), Land Cruiser fuel (#1248), Genesis seat-switch (#1290), RAV4 PHEV 26V659 (#1130/#1166), Volvo EX30 headrest (#1222), Hyundai loose nuts 26V692/693 (#1291), Sierra RQ26003, Audi Q4 battery (#1268), Cybercab DP26010/AQ26002, Cummins/Autocar fuel hose, Thomas Built heater hose, Honda 26V663 re-recall, Ram TPMS 26V623 (#1107), GHSA pedestrian (#950), TRIP 2025 (#1299). Next due: #832 (2026-10-28) for next open 1/day slot.",
+  "last_checked": "2026-10-28T03:30:00-07:00",
   "last_completed": "2026-10-28T01:30:00-07:00",
   "last_completed_date": "2026-10-28",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-28T01:30:00-07:00",
   "last_published_date": "2026-10-28",
   "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1305,
+  "next": 1306,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19141,6 +19141,42 @@
         "critic_panel": "drafts/pedestrian-yield-not-jaywalking-critic-panel-r0.md"
       },
       "note": "2026-10-28 01:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.93, gates pass; rhythm fixed mid-critique 159.8->251.6 variance; 47.4%->47.3% correction). Novel: failure-to-yield 3,690 (52.1%) is 2.49x improper crossing 1,484 (21.0%) in FARS 2024 pedestrian factors; 10.1 yield deaths/day; light trucks 2,990 vs cars 1,988 single-vehicle pedestrian kills; 47.3% of deaths 6pm-midnight. Peg: Pedestrian Safety Month. Queued 2028-02-06 (1 day after latest SHIP_BLOCKED 2028-02-05)."
+    },
+    {
+      "number": 1305,
+      "slug": "1305-ebike-age-inversion",
+      "title": "Kids Fill the ERs. Older Riders Fill the Morgues. Same Machine.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-07",
+      "critique_round": 0,
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "word_count": 672
+      },
+      "files": {
+        "research": "drafts/1305-ebike-age-inversion-research.md",
+        "story": "drafts/1305-ebike-age-inversion.html",
+        "hero": "drafts/1305-ebike-age-inversion.jpg",
+        "critic_panel": "drafts/1305-ebike-age-inversion-critic-panel-r0.md"
+      },
+      "note": "2026-10-28 03:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.93, gates pass: em 0, banned 0, The 0%, css ok, hero JPEG 1920x1280). Queued 2028-02-07. PUBLISH-QUEUE skipped: 1/day gate already consumed today by #831."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
