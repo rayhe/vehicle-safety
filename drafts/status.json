@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-27 19:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.79, gates pass), queued 2028-02-03. Ford F-150 seat bolts 26V655/26S74 (2,276 trucks; root-cause chain: repair logged complete when not done; 62 confirmed VINs). Killed angles this run: Cummins L9 vehicle recalls 26V660/661/662/699 (parent 26E066 covered #1046), Ram 2500 ESC (#1228/#1262), Land Cruiser fuel tube (#1204/#1230/#1248), Volvo EX30 (#1222), Hyundai 26V692/693 (#1291), IIHS commercial ratings (#1093 et al), IIHS Kicks round (#1278), Porsche center-lock (#1245), Thomas Built 26V697 (#1293), Audi Q4 26V698 (#1268), Ford speedometer 26V653 (#1223), TRIP 2025 totals (#1299). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot).",
-  "last_checked": "2026-10-27T19:30:00-07:00",
-  "last_completed": "2026-10-27T19:30:00-07:00",
+  "last_check_note": "2026-10-27 21:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.84, gates pass), queued 2028-02-04. BMW R 18 reverse-gear control unit second recall 26V658 (4,630 bikes; 2024 interim fix 24V716 disconnected the feature for 2 years; Part 573 concedes relay installs done wrong and pre-existing corrosion too advanced for the relay). Killed angles this run: Sierra grille RQ26003 (8 queue entries), Sienna 26V690 (#1292), Ford LED 26V606, robotaxi DP26010, Ram 2500 ESC, Land Cruiser fuel tube, Volvo EX30, Ford speedometer 26V653, Range Rover camera drain holes (#1251), Lexus NX 26V687 (#1277), Godzilla DP26011 (#1295), Genesis G80 26V664 (#1290), Ram TPMS 26V623 (#1107), Honda tire kit 26V663 (#1178), GHSA 2025 pedestrians (#950), NSC H1 2026 (#861), GM L87 EA26005 (#1025), Subaru ball joint 26V685 (#1288), NTSB Ohio toll (#917). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot).",
+  "last_checked": "2026-10-27T21:30:00-07:00",
+  "last_completed": "2026-10-27T21:30:00-07:00",
   "last_completed_date": "2026-10-27",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-27T01:30:00-07:00",
   "last_published_date": "2026-10-27",
   "last_published_slug": "830-heavy-truck-aeb-mandate-phantom-brake-probe",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1302,
+  "next": 1303,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19064,6 +19064,17 @@
         "critic_panel": "drafts/1301-ford-f150-seat-repair-logged-complete-critic-panel-r0.md"
       },
       "note": "2026-10-27 19:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.79, gates pass), queued 2028-02-03. Ford F-150 seat bolts 26V655/26S74 (2,276 trucks; root-cause chain: repair logged complete when not done; 62 confirmed VINs). Killed angles this run: Cummins L9 vehicle recalls 26V660/661/662/699 (parent 26E066 covered #1046), Ram 2500 ESC (#1228/#1262), Land Cruiser fuel tube (#1204/#1230/#1248), Volvo EX30 (#1222), Hyundai 26V692/693 (#1291), IIHS commercial ratings (#1093 et al), IIHS Kicks round (#1278), Porsche center-lock (#1245), Thomas Built 26V697 (#1293), Audi Q4 26V698 (#1268), Ford speedometer 26V653 (#1223), TRIP 2025 totals (#1299). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot)."
+    },
+    {
+      "number": 1302,
+      "slug": "1302-bmw-r18-reverse-recall-second-time",
+      "title": "BMW Recalled the R 18 Twice for the Same Fire. The First Fix Was Turning the Feature Off.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-02-04",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "note": "2026-10-27 21:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.84, gates pass: em 0, banned 0, The 10.3%, css ok, hero JPEG 1920x1280 ?v=6edb4c4c). Queued 2028-02-04."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
