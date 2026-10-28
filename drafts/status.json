@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-27 23:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.81, gates pass), queued 2028-02-05. Altec CSN-3375 wrong-bolt bumper repeat of 25V529 + CSN-3376 1,053 trucks with no rearview camera (streak 8,021 with #1161). Killed angles this run: Autocar 26V699, Audi Q4 26V698, Thomas Built 26V697, Koenigsegg 26V694, Hyundai 26V692/693, Ford speedometer 26V653, Sienna 26V690, Great Dane 26V656, Sierra RQ26003, robotaxi DP26010, Godzilla DP26011, BMW 26V658, Ford seat bolts 26V655. PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot).",
-  "last_checked": "2026-10-27T23:30:00-07:00",
-  "last_completed": "2026-10-27T23:30:00-07:00",
-  "last_completed_date": "2026-10-27",
-  "last_journalist": "Axle McScatter",
+  "last_check_note": "2026-10-28 01:30 run: PUBLISH #831 (NHTSA impaired-driving rule, ship 2026-10-27; QA live pass: story 200 via extensionless redirect, hero JPEG 200, og tags, index card, sitemap, dateline Oct 28 2026; publish commits 7b622faf + 12e091a4 pushed). Then RESEARCH->DRAFT->CRITIQUE r0 SHIP new #1304 pedestrian-yield-not-jaywalking (Rex Driverton, avg 8.93, gates pass), queued 2028-02-06. Killed angles this run: Jeep 26V562 third coil-spring (covered 5x), IIHS commercial grades Oct 8 (covered), Kicks/RAV4/Q3/Trailblazer moderate-overlap (covered 1244/1278), Sienna seat-back (drafted 1292), Audi Q4/ID.4 80% (drafted 1268/1194/1172/1105), Lexus NX 26V687 (drafted 1277), Sierra RQ26003 + prior-run kills. Next due: #832 (2026-10-28) for next open 1/day slot.",
+  "last_checked": "2026-10-28T01:30:00-07:00",
+  "last_completed": "2026-10-28T01:30:00-07:00",
+  "last_completed_date": "2026-10-28",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-28T01:30:00-07:00",
   "last_published_date": "2026-10-28",
   "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1304,
+  "next": 1305,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19104,6 +19104,43 @@
         "critic_panel": "drafts/1303-altec-bumper-bolts-repeat-camera-missing-critic-panel-r0.md"
       },
       "note": "2026-10-27 23:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.81, 7/7 >= 8.5, gates: em 0, banned 0, The 0.0%, css ok, hero JPEG 1920x1280 ?v=e83d124f). Altec CSN-3375 (45 Digger Derrick, wrong-bolt bumper, repeats 25V529/CSN-3244 Aug 2025 M12-vs-5/8-inch defect) + CSN-3376 (1,053 new 2026 trucks shipped with no rearview camera); streak total 8,021 across 4 campaigns with #1161 pair. Killed angles: Autocar 26V699 (Cummins L9 follow-on of #1046), Audi Q4 26V698 (#1268), Thomas Built 26V697 (#1293), Koenigsegg 26V694 (#1296), Hyundai 26V692/693 (#1291), Ford speedometer 26V653 (#1223), Sienna 26V690 (#1292), Great Dane 26V656 (#1298), Sierra RQ26003, robotaxi DP26010, Godzilla DP26011 (#1295), BMW 26V658 (#1302), Ford seat bolts 26V655 (#1301). PUBLISH-QUEUE skipped (1/day slot consumed by Publish #830 today; earliest-due #831 ship 2026-10-27 remains due for next open slot)."
+    },
+    {
+      "number": 1304,
+      "slug": "pedestrian-yield-not-jaywalking",
+      "title": "Jaywalking Didn't Kill 7,080 Pedestrians. Drivers Who Didn't Yield Did.",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-06",
+      "critique_round": 0,
+      "critic_avg": 8.93,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "26b710bb",
+        "rhythm": "pass"
+      },
+      "files": {
+        "research": "drafts/pedestrian-yield-not-jaywalking-research.md",
+        "story": "drafts/pedestrian-yield-not-jaywalking.html",
+        "hero": "drafts/pedestrian-yield-not-jaywalking.jpg",
+        "critic_panel": "drafts/pedestrian-yield-not-jaywalking-critic-panel-r0.md"
+      },
+      "note": "2026-10-28 01:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.93, gates pass; rhythm fixed mid-critique 159.8->251.6 variance; 47.4%->47.3% correction). Novel: failure-to-yield 3,690 (52.1%) is 2.49x improper crossing 1,484 (21.0%) in FARS 2024 pedestrian factors; 10.1 yield deaths/day; light trucks 2,990 vs cars 1,988 single-vehicle pedestrian kills; 47.3% of deaths 6pm-midnight. Peg: Pedestrian Safety Month. Queued 2028-02-06 (1 day after latest SHIP_BLOCKED 2028-02-05)."
     }
   ],
   "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
