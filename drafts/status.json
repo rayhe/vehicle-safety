@@ -5,9 +5,9 @@
   "last_completed": "2026-10-27T23:30:00-07:00",
   "last_completed_date": "2026-10-27",
   "last_journalist": "Axle McScatter",
-  "last_published": "2026-10-27T01:30:00-07:00",
-  "last_published_date": "2026-10-27",
-  "last_published_slug": "830-heavy-truck-aeb-mandate-phantom-brake-probe",
+  "last_published": "2026-10-28T01:30:00-07:00",
+  "last_published_date": "2026-10-28",
+  "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
   "next": 1304,
@@ -1444,9 +1444,9 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (831- prefix). News pegs: NHTSA Feb/Mar 2026 Report to Congress (no commercial passive detection tech; error rate 'unacceptably high'), docket NHTSA-2022-0079 last modified June 9, 2026, Massie amendment failed 164-268 Jan 2026. Novel: 661-day delay arithmetic (11,904/366*661 = ~21,500 alcohol deaths since Nov 15, 2024 deadline), IIHS 9,409 fantasy-ceiling over window (~17,000), honest audit that on-time compliance still equips zero cars before late 2027 (3-yr lead time), 18,367 comments -> 0 final rules, 'legally alive, technically unborn' mandate framing. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-07.",
+      "note": "Round-0 pass 9.07 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (831- prefix). News pegs: NHTSA Feb/Mar 2026 Report to Congress (no commercial passive detection tech; error rate 'unacceptably high'), docket NHTSA-2022-0079 last modified June 9, 2026, Massie amendment failed 164-268 Jan 2026. Novel: 661-day delay arithmetic (11,904/366*661 = ~21,500 alcohol deaths since Nov 15, 2024 deadline), IIHS 9,409 fantasy-ceiling over window (~17,000), honest audit that on-time compliance still equips zero cars before late 2027 (3-yr lead time), 18,367 comments -> 0 final rules, 'legally alive, technically unborn' mandate framing. No publish: 1/day rule, #804 shipped 2026-09-06, queue through 2026-10-07. | 2026-10-28 01:30 run: SHIPPED as Publish #831 (earliest-due, ship_date 2026-10-27; 1/day slot free). Pre-ship: gates re-verified (em 0, banned 0, class=story, style.css, hero real JPEG 1920x1280, fresh hash 85e7d8cb), dateline set to October 28, 2026, og:image absolute + og:type/twitter tags added.",
       "number": 831,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
@@ -1459,7 +1459,8 @@
       "ship_date": "2026-10-27",
       "slug": "nhtsa-impaired-driving-rule-21-months-late",
       "started": "2026-09-07T10:45:00Z",
-      "title": "Congress Ordered Drunk-Driving Tech in Every New Car by 2024. NHTSA Has Produced 18,367 Comments and Zero Rules."
+      "title": "Congress Ordered Drunk-Driving Tech in Every New Car by 2024. NHTSA Has Produced 18,367 Comments and Zero Rules.",
+      "publish_commit": "PENDING"
     },
     {
       "critic_avg": 8.84,
