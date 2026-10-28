@@ -1489,7 +1489,8 @@
       "ship_date": "2026-10-28",
       "slug": "aaa-flow-of-traffic-speeding-myth",
       "started": "2026-09-07T13:10:00Z",
-      "title": "Half of American Drivers Think Obeying the Speed Limit Is the Dangerous Part"
+      "title": "Half of American Drivers Think Obeying the Speed Limit Is the Dangerous Part",
+      "note": "2026-10-28 15:30 run: due 2026-10-28, hero-ready (drafts/832-aaa-flow-of-traffic-speeding-myth.jpg verified present) but skipped: 1/day publish slot already consumed (Publish #831 x2 commits today). Next run with a free slot should publish #832 first (earliest due). Entry uses older schema (no files key); draft files confirmed on disk."
     },
     {
       "critic_avg": 8.97,
@@ -19380,5 +19381,5 @@
       "note": "2026-10-28 15:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.87, 7/7 >= 8.5; gates: em 0, banned 0, The 7.7%, rhythm var 426.0 PASS, hero JPEG 1920x1280 ?v=04fc20ff). NHTSA RQ26004 opened Oct 23 2026 (273,301 2022-2024 Mavericks); 2024 recall 24V684/Ford 24S59 (144,516) CTR memory-leak fix G2.2 arrived Mar 2025; 5 post-remedy VOQs, ODI verified failures, complaint 11662294. Zero queue overlap (RQ26004 uncovered; distinct from Jeep-spring x6, Sierra-grille-query x5). Queued 2028-02-13."
     }
   ],
-  "last_worker_run": "2026-10-26T13:30 run: #1286 queued 2028-01-19, publish skipped (1/day slot consumed by Publish #829 at 01:30 run); due #830 (2026-10-26) remains SHIP_BLOCKED for a future run's 1/day slot."
+  "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
 }
