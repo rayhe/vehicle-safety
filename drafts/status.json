@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-28 13:30 run: #1310 queued 2028-02-12 (SHIPPED crit r0 avg 8.79, gates pass). PUBLISH-QUEUE skipped: 1/day gate already consumed today (2 Publish commits); #832 (due 2026-10-28) remains earliest-due for next open slot.",
-  "last_checked": "2026-10-28T13:30:00-07:00",
+  "current": {
+    "slug": "1312-trailblazer-rear-belt-fix-failed",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-28T17:30:00-07:00"
+  },
+  "last_check_note": "2026-10-28 17:30 run: RESEARCH #1312 (Trailblazer IIHS poor moderate-overlap, GM Feb-2026 belt fix failed; Nissan Kicks fixed same test). Queue hygiene: next corrected 1311->1312 (#1311 already queued).",
+  "last_checked": "2026-10-28T17:30:00-07:00",
   "last_completed": "2026-10-28T01:30:00-07:00",
   "last_completed_date": "2026-10-28",
   "last_journalist": "Mia Crumplezone",
@@ -10,7 +15,7 @@
   "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1311,
+  "next": 1312,
   "queue": [
     {
       "journalist": "Rex Driverton",
