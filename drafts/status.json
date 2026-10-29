@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-29 03:30 run: DRAFT #1316 done (Axle McScatter, software recall OTA gap). Hard gates pass: em 0, banned 0, The 10.0%, rhythm var 351/short 10.7%/long 53.6%, class=story, style.css, hero JPEG 1920x1280. Proceeding to CRITIQUE.",
-  "last_checked": "2026-10-29T02:30:00-07:00",
+  "last_check_note": "2026-10-29 03:30 run: full pipeline #1316 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (commits 6dd7a05d, bfc0e736), queued 2028-02-19. Axle McScatter, software recall OTA gap (tensorust Oct 27 2026 NHTSA analysis: 140 of 708 software recalls fixed OTA; 32.3M vehicles to dealers). PUBLISH-QUEUE: skipped - 1/day slot consumed today by #832 (published 02:30). #833 (due 2026-10-29, hero-ready in drafts/) is earliest-due for next open slot.",
+  "last_checked": "2026-10-29T03:30:00-07:00",
   "last_completed": "2026-10-29T03:30:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Axle McScatter",
