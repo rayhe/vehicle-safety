@@ -1,16 +1,16 @@
 {
  "current": null,
- "last_check_note": "2026-10-28 19:30 run: full pipeline #1313 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP, queued 2028-02-15. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
- "last_checked": "2026-10-28T19:29:36-07:00",
- "last_completed": "2026-10-28T19:29:28-07:00",
+ "last_check_note": "2026-10-28 23:30 run: full pipeline #1314 RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64)->SHIP, queued 2028-02-17. PUBLISH-QUEUE pending this run.",
+ "last_checked": "2026-10-28T23:55:00-07:00",
+ "last_completed": "2026-10-28T23:55:00-07:00",
  "last_completed_date": "2026-10-28",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-10-28T01:30:00-07:00",
  "last_published_date": "2026-10-28",
  "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
  "last_qa_date": "2026-10-27",
  "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
- "next": 1314,
+ "next": 1315,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -19466,6 +19466,44 @@
     "css": "ok",
     "hero_jpeg": "real JPEG FF D8"
    }
+  },
+  {
+   "avg_critic": 8.64,
+   "critique_round": 1,
+   "files": {
+    "critic_panel": "drafts/1314-critic-panel-r0.md",
+    "hero": "images/1314-kicks-build-date-split-two-cars-one-model-year.jpg",
+    "research": "drafts/kicks-build-date-split-two-cars-one-model-year-research.md",
+    "story": "stories/1314-kicks-build-date-split-two-cars-one-model-year.html"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 1,
+    "hero_dim": "1920x1280",
+    "hero_hash": "96831f77",
+    "hero_jpeg": true,
+    "style_css": true,
+    "the_starters_pct": 12.5,
+    "word_count": 845
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "Trend Watch",
+   "note": "2026-10-28 23:30 run: RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64, fixed 5-vs-6 vehicle error + unverified retrofit claim)->SHIP. Queued 2028-02-17.",
+   "number": 1314,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 8.5,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.5,
+    "legal_accuracy": 8.5,
+    "research_rigor": 8.5,
+    "social_shareability": 8.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2028-02-17",
+   "slug": "kicks-build-date-split-two-cars-one-model-year",
+   "title": "The 2026 Nissan Kicks Is Two Different Cars. Check the Door Jamb Before You Buy."
   }
  ],
  "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
