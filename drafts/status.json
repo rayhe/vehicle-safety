@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1316-software-recall-ota-gap",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-29T03:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-29 03:30 run: DRAFT #1316 done (Axle McScatter, software recall OTA gap). Hard gates pass: em 0, banned 0, The 10.0%, rhythm var 351/short 10.7%/long 53.6%, class=story, style.css, hero JPEG 1920x1280. Proceeding to CRITIQUE.",
   "last_checked": "2026-10-29T02:30:00-07:00",
-  "last_completed": "2026-10-29T02:00:00-07:00",
+  "last_completed": "2026-10-29T03:30:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-10-29T02:30:00-07:00",
@@ -19551,6 +19545,46 @@
         "critic_panel": "drafts/1315-tesla-robotaxi-school-zone-speeding-critic-panel-r0.md"
       },
       "note": "2026-10-29 01:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (commit 20be63a8), queued 2028-02-18."
+    },
+    {
+      "number": 1316,
+      "slug": "1316-software-recall-ota-gap",
+      "title": "Your Car's Recall Is a File Download. 32 Million Owners Still Have to Drive to a Dealer.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-19",
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "word_count": 723,
+        "rhythm_variance": 351,
+        "rhythm_short_pct": 10.7,
+        "rhythm_long_pct": 53.6
+      },
+      "files": {
+        "research": "drafts/1316-software-recall-ota-gap-research.md",
+        "story": "drafts/1316-software-recall-ota-gap.html",
+        "hero": "drafts/1316-software-recall-ota-gap.jpg",
+        "critic_panel": "drafts/1316-software-recall-ota-gap-critic-panel-r0.md"
+      },
+      "kicker": "By The Numbers",
+      "note": "2026-10-29 03:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.71)->SHIP, queued 2028-02-19. tensorust Oct 27 2026 NHTSA analysis: 140 of 708 software recalls (20%) fixed OTA; 32.3M vehicles sent to dealers. Rhythm fix applied in DRAFT (merged fragments, var 351). All 7 critics >= 8.5."
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
