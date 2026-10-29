@@ -1,7 +1,7 @@
 {
  "current": {
   "slug": "1314-findlay-fog-pileup-variable-speed-gap",
-  "phase": "DRAFT",
+  "phase": "SHIP",
   "journalist": "Mia Crumplezone",
   "started": "2026-10-28T21:45:00-07:00"
  },
@@ -19442,6 +19442,31 @@
     "em_dashes": 0,
     "banned_phrases": 0,
     "the_starters_pct": 5.1,
+    "sentence_rhythm": "PASS",
+    "css": "ok",
+    "hero_jpeg": "real JPEG FF D8"
+   }
+  },
+  {
+   "number": 1314,
+   "slug": "findlay-fog-pileup-variable-speed-gap",
+   "title": "Ohio Saw the Fog Coming. The Warning It Gave Drivers Was a Suggestion",
+   "journalist": "Mia Crumplezone",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-02-16",
+   "critique_round": 0,
+   "avg_critic": 8.79,
+   "note": "2026-10-28 21:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79, all 7 critics >=8.5)->SHIP. News-driven fog-pileup story (Oct 25, 2026 I-75 Findlay, 28 vehicles, 3 dead); FHWA VSL 35.2% rear-end reduction gap angle. Hero real JPEG 1920x1280 ?v=a1f9c2d4.",
+   "files": {
+    "research": "drafts/1314-findlay-fog-pileup-variable-speed-gap-research.md",
+    "story": "drafts/1314-findlay-fog-pileup-variable-speed-gap.html",
+    "critic_panel": "drafts/1314-findlay-fog-pileup-variable-speed-gap-critic-panel-r0.md",
+    "hero": "drafts/1314-findlay-fog-pileup-variable-speed-gap.jpg"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 12.7,
     "sentence_rhythm": "PASS",
     "css": "ok",
     "hero_jpeg": "real JPEG FF D8"
