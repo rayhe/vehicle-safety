@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-10-28 23:30 run: full pipeline #1314 RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64)->SHIP, queued 2028-02-17. PUBLISH-QUEUE pending this run.",
- "last_checked": "2026-10-28T23:55:00-07:00",
+ "last_check_note": "2026-10-28 23:30 run: full pipeline #1314 RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64)->SHIP (commit 7247561b), queued 2028-02-17. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
+ "last_checked": "2026-10-28T23:58:00-07:00",
  "last_completed": "2026-10-28T23:55:00-07:00",
  "last_completed_date": "2026-10-28",
  "last_journalist": "Mia Crumplezone",
