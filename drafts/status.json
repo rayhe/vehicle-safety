@@ -1,11 +1,5 @@
 {
- "current": {
-  "slug": "1317-hyundai-ulsan-manual-torque-twin-recalls",
-  "phase": "CRITIQUE",
-  "round": 0,
-  "journalist": "Rex Driverton",
-  "started": "2026-10-29T05:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-29 03:30 run: full pipeline #1316 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (commits 6dd7a05d, bfc0e736), queued 2028-02-19. Axle McScatter, software recall OTA gap (tensorust Oct 27 2026 NHTSA analysis: 140 of 708 software recalls fixed OTA; 32.3M vehicles to dealers). PUBLISH-QUEUE: skipped - 1/day slot consumed today by #832 (published 02:30). #833 (due 2026-10-29, hero-ready in drafts/) is earliest-due for next open slot.",
  "last_checked": "2026-10-29T03:30:00-07:00",
  "last_completed": "2026-10-29T03:30:00-07:00",
@@ -19591,6 +19585,37 @@
    },
    "kicker": "By The Numbers",
    "note": "2026-10-29 03:30 run: RESEARCH->DRAFT->CRITIQUE(r0 SHIP, avg 8.71)->SHIP, queued 2028-02-19. tensorust Oct 27 2026 NHTSA analysis: 140 of 708 software recalls (20%) fixed OTA; 32.3M vehicles sent to dealers. Rhythm fix applied in DRAFT (merged fragments, var 351). All 7 critics >= 8.5."
+  },
+  {
+   "number": 1317,
+   "slug": "1317-hyundai-ulsan-manual-torque-twin-recalls",
+   "title": "Hyundai's Robots Got Reprogrammed. Humans Tightened the Lug Nuts. Now Wheels May Fall Off.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-02-20",
+   "started": "2026-10-29T05:30:00-07:00",
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.6,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.6,
+    "data_presentation": 9.0
+   },
+   "critic_avg": 8.83,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.8,
+    "css": "pass",
+    "rhythm": "pass",
+    "hero_jpeg": true,
+    "word_count": 969
+   },
+   "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Draft+hero+research in drafts/ (1317- prefix). News: NHTSA 26V693000 filed Oct 21 2026, 17x 2026 Elantra/Venue (8 Venue, 4 Elantra, 4 Elantra Hybrid, 1 Elantra N) loose lug nuts from manual torquing stopgap at Ulsan; sibling 26V692 (24x, strut fasteners, same plant, same supplier Samjin Nut). No incidents/injuries. Letters due Dec 19 2026; VINs searchable since Oct 23. No publish: 1/day rule, #833 hero-ready due 2026-10-29 already consumed today's slot."
   }
  ],
  "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
