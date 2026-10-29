@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Car's Recall Is a File Download. 32 Million Owners Still Have to Drive to a Dealer. &mdash; The Crash Report</title>
+  <meta name="description" content="Of 708 software recalls filed with NHTSA since 2022, only 140 were fixed over the air. The rest, covering 32.3 million vehicles, required a trip to the dealer for what amounts to a download.">
+  <meta property="og:title" content="Your Car's Recall Is a File Download. 32 Million Owners Still Have to Drive to a Dealer.">
+  <meta property="og:description" content="Of 708 software recalls filed with NHTSA since 2022, only 140 were fixed over the air.">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Your Car's Recall Is a File Download. 32 Million Owners Still Have to Drive to a Dealer.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">October 29, 2026</div>
+
+      <p>I ran the numbers on every software recall filed with NHTSA since 2022, then I ran them again because the first pass looked like a spreadsheet error, and it was not. Seven hundred and eight recalls named software as the defect or the fix: a camera that goes black, an airbag module that misreads a seat, a battery controller that can overheat. Every one of them was fixable with a file, yet <strong>only 140 arrived over the air.</strong> The rest, covering 32.3 million vehicles, required a trip to the dealer for what amounts to a download.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">32.3M</div>
+      <div class="pull-label">Vehicles in software recalls since 2022 that still needed a dealer visit</div>
+
+      <p>Here is the scoreboard, and the spreadsheet gets rude fast: Tesla filed 30 software recalls and fixed all 30 remotely with zero dealer visits, Rivian went 6 for 6, Lucid 11 of 13, and then the legacy column collapses. Ford filed 130 software recalls, more than four times Tesla's count, fixed 23 of them over the air, and sent 10.4 million vehicles to service bays. Stellantis managed 3 of 64, Toyota 2 of 25, Volkswagen zero of 35, and Porsche and Mazda zero of 13 apiece.</p>
+
+      <p>Plot it by year and the trend line refuses to cooperate with the optimists: the over-the-air share was 19% in 2022, fell to 12% in 2023, and sits at 28% so far this year, while the raw count of software recalls keeps climbing, from 113 in 2022 to 183 in 2025, because more of a car's safety lives in code every year. The fix exists, and most makers just do not ship it.</p>
+
+      <p>An over-the-air recall needs three things: a modem in the car, a module that can be rewritten while the car sits parked, and a maker willing to certify the update without a technician watching. Every maker built from scratch around one central computer clears 85% or more. Everyone carrying a long tail of supplier-built modules sits under 20%, because each module has its own chip, its own flashing tool, and often no path to the cell modem. That engineering choice was made years before the recall, which is exactly why it is so hard to fix now.</p>
+
+      <p>Now run the time math, since nobody else will. Call it one hour in the waiting room per dealer-visit vehicle, and 32.3 million vehicles becomes 32.3 million hours: roughly 3,700 years of human life spent in service lounges for a file download, with Ford alone accounting for about 1,190 of those years. A dealer-visit recall is a months-long campaign with partial completion, while an over-the-air remedy lands on most cars in days, which means the defect is code and the bottleneck is the route it travels.</p>
+
+      <p>Caveats, stated at full strength. The counting is heuristic: a recall counts as software when the defect or remedy text contains the word, and differently-worded remote fixes were probably missed, so the true over-the-air share is likely a little higher. Vehicle counts are NHTSA maximums, not completed repairs. Some modules genuinely cannot be flashed remotely, and a safety-critical fix probably should be verified by a technician, because over-the-air updates can and do brick cars. Ford sells the most vehicles in America, so its raw lead is partly denominator. And nobody has proven the dealer channel is a deliberate moat rather than an architectural hangover.</p>
+
+      <p>Check your VIN at nhtsa.gov/recalls today, and read the remedy column, not just the defect, because if it says dealer, it will not fix itself: book the visit.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> Before you buy, look up the model in the same search, since a car whose software recalls arrive over the air saves you hours every year, while a car from a maker at zero percent over-the-air turns every future software defect into a service appointment. Ford, Stellantis, and Toyota owners, take note: your software recalls almost certainly need a bay, so do not wait for the letter.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">tensorust.com, &ldquo;Car software recalls: only 20% fixed over the air (NHTSA data),&rdquo; Oct 27, 2026. <a href="https://tensorust.com/articles/car-software-recalls-dealer-not-over-the-air/" target="_blank" rel="noopener">tensorust.com</a></li>
+          <li id="ref-2">NHTSA, vehicle recalls database and per-campaign remedy text. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA recall flat file (static.nhtsa.gov), post-2010, downloaded Oct 27, 2026; methodology as documented in [1].</li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall file via tensorust.com analysis, Oct 27, 2026; per-campaign remedy text at nhtsa.gov/recalls. Counts are campaign maximums, not completed repairs. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
