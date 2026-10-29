@@ -1,15 +1,15 @@
 {
  "current": null,
- "last_check_note": "2026-10-28 23:30 run: full pipeline #1314 RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64)->SHIP (commit 7247561b), queued 2028-02-17. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
- "last_checked": "2026-10-28T23:58:00-07:00",
+ "last_check_note": "2026-10-29 01:30 run: full pipeline #1315 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (commit efc3a5d0), queued 2028-02-18. PUBLISH-QUEUE: published #832 (1/day slot; 0 prior publishes today). #833 (due 2026-10-29) is now earliest-due for next open slot.",
+ "last_checked": "2026-10-29T02:30:00-07:00",
  "last_completed": "2026-10-29T02:00:00-07:00",
  "last_completed_date": "2026-10-29",
  "last_journalist": "Rex Driverton",
- "last_published": "2026-10-28T01:30:00-07:00",
- "last_published_date": "2026-10-28",
- "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
- "last_qa_date": "2026-10-27",
- "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
+ "last_published": "2026-10-29T02:30:00-07:00",
+ "last_published_date": "2026-10-29",
+ "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
+ "last_qa_date": "2026-10-29",
+ "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
  "next": 1316,
  "queue": [
   {
@@ -1476,7 +1476,7 @@
    "journalist": "Dale Impactor III",
    "kicker": "By The Numbers",
    "number": 832,
-   "phase": "SHIP_BLOCKED",
+   "phase": "PUBLISHED",
    "scores": {
     "behavior": 9.0,
     "data_analyst": 9.1,
@@ -1490,7 +1490,12 @@
    "slug": "aaa-flow-of-traffic-speeding-myth",
    "started": "2026-09-07T13:10:00Z",
    "title": "Half of American Drivers Think Obeying the Speed Limit Is the Dangerous Part",
-   "note": "2026-10-28 15:30 run: due 2026-10-28, hero-ready (drafts/832-aaa-flow-of-traffic-speeding-myth.jpg verified present) but skipped: 1/day publish slot already consumed (Publish #831 x2 commits today). Next run with a free slot should publish #832 first (earliest due). Entry uses older schema (no files key); draft files confirmed on disk. | 2026-10-28 run: SKIPPED publishing \u2014 no hero image file in drafts/; hero-less articles never ship; cadence continues with next hero-ready due article."
+   "note": "2026-10-29 01:30 run: SHIPPED as #832. Pre-ship re-verify OK (em 0, banned 0, The 4.7%, class=story, style.css OK, hero JPEG 1920x1280). Pre-ship fixes: og:image -> absolute URL + hash ca720051 (unchanged), added og:type + twitter:card + twitter:image, dateline set to October 29, 2026. QA live-verified: story 200 (via trailing-slash redirect), hero JPEG 200 1920x1280, og:title/og:description/og:image present, index card first in grid, sitemap 200 with new entry.",
+   "files": {
+    "research": "drafts/832-aaa-flow-of-traffic-speeding-myth-research.md",
+    "story": "stories/832-aaa-flow-of-traffic-speeding-myth.html",
+    "hero": "images/832-aaa-flow-of-traffic-speeding-myth.jpg"
+   }
   },
   {
    "critic_avg": 8.97,
