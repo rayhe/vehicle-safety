@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-28 17:30 run: #1312 queued 2028-02-14 (SHIPPED crit r0 avg 8.71, gates pass). current reset to null.",
+  "last_check_note": "2026-10-28 17:30 run: full pipeline #1312 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP, queued 2028-02-14. PUBLISH-QUEUE skipped: 1/day gate already consumed today (2 Publish commits); #832 (due 2026-10-28) remains earliest-due for next open slot.",
   "last_checked": "2026-10-28T17:30:00-07:00",
   "last_completed": "2026-10-28T01:30:00-07:00",
   "last_completed_date": "2026-10-28",
