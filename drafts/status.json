@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-28 19:30 run: full pipeline #1313 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP, queued 2028-02-15. PUBLISH-QUEUE: checking 1/day gate next.",
-  "last_checked": "2026-10-28T19:29:28-07:00",
+  "last_check_note": "2026-10-28 19:30 run: full pipeline #1313 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP, queued 2028-02-15. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
+  "last_checked": "2026-10-28T19:29:36-07:00",
   "last_completed": "2026-10-28T19:29:28-07:00",
   "last_completed_date": "2026-10-28",
   "last_journalist": "Clara Rollover",
