@@ -1,11 +1,6 @@
 {
-  "current": {
-    "slug": "1312-trailblazer-rear-belt-fix-failed",
-    "phase": "SHIP",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-28T17:30:00-07:00"
-  },
-  "last_check_note": "2026-10-28 17:30 run: RESEARCH #1312 (Trailblazer IIHS poor moderate-overlap, GM Feb-2026 belt fix failed; Nissan Kicks fixed same test). Queue hygiene: next corrected 1311->1312 (#1311 already queued).",
+  "current": null,
+  "last_check_note": "2026-10-28 17:30 run: #1312 queued 2028-02-14 (SHIPPED crit r0 avg 8.71, gates pass). current reset to null.",
   "last_checked": "2026-10-28T17:30:00-07:00",
   "last_completed": "2026-10-28T01:30:00-07:00",
   "last_completed_date": "2026-10-28",
@@ -15,7 +10,7 @@
   "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1312,
+  "next": 1313,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19384,6 +19379,43 @@
         "critic_panel": "drafts/1311-ford-maverick-frozen-camera-recall-query-critic-panel-r0.md"
       },
       "note": "2026-10-28 15:30 run: RESEARCH->DRAFT->CRITIQUE r0 SHIP (avg 8.87, 7/7 >= 8.5; gates: em 0, banned 0, The 7.7%, rhythm var 426.0 PASS, hero JPEG 1920x1280 ?v=04fc20ff). NHTSA RQ26004 opened Oct 23 2026 (273,301 2022-2024 Mavericks); 2024 recall 24V684/Ford 24S59 (144,516) CTR memory-leak fix G2.2 arrived Mar 2025; 5 post-remedy VOQs, ODI verified failures, complaint 11662294. Zero queue overlap (RQ26004 uncovered; distinct from Jeep-spring x6, Sierra-grille-query x5). Queued 2028-02-13."
+    },
+    {
+      "number": 1312,
+      "slug": "1312-trailblazer-rear-belt-fix-failed",
+      "title": "GM Fixed the Trailblazer's Rear Seat Belts. IIHS Tested It Again. Still Poor.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-14",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "b4f4a641",
+        "word_count": 821
+      },
+      "files": {
+        "research": "drafts/1312-trailblazer-rear-belt-fix-failed-research.md",
+        "story": "drafts/1312-trailblazer-rear-belt-fix-failed.html",
+        "critic_panel": "drafts/1312-trailblazer-rear-belt-fix-failed-critic-panel-r0.md",
+        "hero": "images/1312-trailblazer-rear-belt-fix-failed.jpg"
+      },
+      "note": "2026-10-28 17:30 run: SHIPPED crit r0 avg 8.71, gates pass (em 0, banned 0, The 0%, class=story, style.css, hero JPEG 1920x1280 ?v=b4f4a641). Queued 2028-02-14 (1 day after #1311 2028-02-13). Dateline pre-set to February 14, 2028 (ship_date)."
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
