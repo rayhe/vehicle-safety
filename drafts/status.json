@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1318-iihs-commercial-crash-avoidance",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-29T07:30:00-07:00"
-  },
-  "last_check_note": "2026-10-29 07:30 run: #1317 already fully RESEARCH->DRAFT->CRITIQUE(r0 8.83)->SHIP by 05:30 sibling run (commits f70b13a7/5b9d8b16/9b08f1ca; next was left at 1317, now bumped to 1319). #1318 RESEARCH committed (IIHS first-ever commercial vehicle crash-avoidance ratings, Clara Rollover). 1/day publish slot consumed today by #832; #833 earliest-due next open slot.",
+  "current": null,
+  "last_check_note": "2026-10-29 07:30 run: #1317 was already fully SHIPped by the 05:30 sibling run (next left at 1317, bumped to 1319). This run did full pipeline #1318 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Clara Rollover, IIHS commercial crash-avoidance ratings), queued 2028-02-21. 1/day publish slot consumed today by #832; #833 (due 2026-10-29, hero-ready) earliest-due for next open slot.",
   "last_checked": "2026-10-29T07:30:00-07:00",
-  "last_completed": "2026-10-29T03:30:00-07:00",
+  "last_completed": "2026-10-29T07:30:00-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
@@ -19621,6 +19616,43 @@
         "word_count": 969
       },
       "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Draft+hero+research in drafts/ (1317- prefix). News: NHTSA 26V693000 filed Oct 21 2026, 17x 2026 Elantra/Venue (8 Venue, 4 Elantra, 4 Elantra Hybrid, 1 Elantra N) loose lug nuts from manual torquing stopgap at Ulsan; sibling 26V692 (24x, strut fasteners, same plant, same supplier Samjin Nut). No incidents/injuries. Letters due Dec 19 2026; VINs searchable since Oct 23. No publish: 1/day rule, #833 hero-ready due 2026-10-29 already consumed today's slot."
+    },
+    {
+      "number": 1318,
+      "slug": "1318-iihs-commercial-crash-avoidance",
+      "title": "Your Sedan Has Better Crash Tech Than the 14,000-Pound Truck Behind It",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-21",
+      "started": "2026-10-29T07:30:00-07:00",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.6,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css": "pass",
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "word_count": 460
+      },
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Draft+hero+research+panel in drafts/ (1318- prefix). News: IIHS first-ever commercial vehicle crash-avoidance ratings (Oct 8/19 2026); Express/Savana no AEB; motorcycle/child-dummy blind spots.",
+      "files": {
+        "research": "drafts/1318-iihs-commercial-crash-avoidance-research.md",
+        "story": "drafts/1318-iihs-commercial-crash-avoidance.html",
+        "hero": "drafts/1318-iihs-commercial-crash-avoidance.jpg",
+        "critic_panel": "drafts/1318-iihs-commercial-crash-avoidance-critic-panel-r0.md"
+      }
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
