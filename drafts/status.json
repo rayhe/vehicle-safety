@@ -1,23 +1,16 @@
 {
-  "current": {
-    "number": 1313,
-    "slug": "sienna-pretensioner-unlocks-second-row",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-28T19:27:51-07:00",
-    "title": "Toyota's Seat Belt Pretensioner Can Shake the Sienna's Second Row Loose"
-  },
-  "last_check_note": "2026-10-28 17:30 run: full pipeline #1312 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP, queued 2028-02-14. PUBLISH-QUEUE skipped: 1/day gate already consumed today (2 Publish commits); #832 (due 2026-10-28) remains earliest-due for next open slot.",
-  "last_checked": "2026-10-28T19:27:51-07:00",
-  "last_completed": "2026-10-28T01:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-28 19:30 run: full pipeline #1313 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP, queued 2028-02-15. PUBLISH-QUEUE: checking 1/day gate next.",
+  "last_checked": "2026-10-28T19:29:28-07:00",
+  "last_completed": "2026-10-28T19:29:28-07:00",
   "last_completed_date": "2026-10-28",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-28T01:30:00-07:00",
   "last_published_date": "2026-10-28",
   "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
   "last_qa_date": "2026-10-27",
   "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
-  "next": 1313,
+  "next": 1314,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19423,6 +19416,31 @@
         "hero": "images/1312-trailblazer-rear-belt-fix-failed.jpg"
       },
       "note": "2026-10-28 17:30 run: SHIPPED crit r0 avg 8.71, gates pass (em 0, banned 0, The 0%, class=story, style.css, hero JPEG 1920x1280 ?v=b4f4a641). Queued 2028-02-14 (1 day after #1311 2028-02-13). Dateline pre-set to February 14, 2028 (ship_date)."
+    },
+    {
+      "number": 1313,
+      "slug": "sienna-pretensioner-unlocks-second-row",
+      "title": "Toyota's Seat Belt Pretensioner Can Shake the Sienna's Second Row Loose",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-15",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "note": "2026-10-28 19:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79, all 7 critics >=8.5)->SHIP. News-driven recall story (NHTSA 26V690000, announced Oct 27-28). Hero real JPEG 1920x1280 ?v=c2b116be.",
+      "files": {
+        "research": "drafts/1313-sienna-pretensioner-unlocks-second-row-research.md",
+        "story": "drafts/1313-sienna-pretensioner-unlocks-second-row.html",
+        "critic_panel": "drafts/1313-sienna-pretensioner-unlocks-second-row-critic-panel-r0.md",
+        "hero": "drafts/1313-sienna-pretensioner-unlocks-second-row.jpg"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.1,
+        "sentence_rhythm": "PASS",
+        "css": "ok",
+        "hero_jpeg": "real JPEG FF D8"
+      }
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
