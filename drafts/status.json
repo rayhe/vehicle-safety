@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1321-lincoln-nautilus-neutral-shift-corrosion",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-29T13:30:00-07:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-29 13:30 run: RESEARCH #1321 complete (Vin Wreckage, Lincoln Nautilus/Corsair hybrid neutral-shift recall 26V688/26S75, 11,623 units, interim letters Nov 2, no fix parts yet).",
   "last_checked": "2026-10-29T09:30:00-07:00",
-  "last_completed": "2026-10-29T11:45:00-07:00",
+  "last_completed": "2026-10-29T14:00:00-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1321,
+  "next": 1322,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19739,6 +19733,46 @@
         "critic_panel": "drafts/1320-electric-large-suvs-top-safety-pick-plus-critic-panel-r0.md"
       },
       "note": "2026-10-29 11:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Clara Rollover, IIHS Oct 2026 large-SUV ratings: only R1S + EX90 earned TSP+, both electric; original tabulation 6/8 gas failed outright, 2 incomplete), queued 2028-02-23. Killed angles this run: GM L87 EA26005 Oct-30 deadline (covered #864/#1025), Kicks build-date (covered #1278/#1314), software-recall OTA gap (covered #1316), Sienna 26V690000 (covered #1313), RAV4 IIHS round (covered #1244), Land Cruiser fuel leak (covered #1204/#1230/#1248), do-not-drive 1.3M (covered #954), Lexus NX 26V687 (previously covered per #1319 note)."
+    },
+    {
+      "number": 1321,
+      "slug": "1321-lincoln-nautilus-neutral-shift-corrosion",
+      "title": "Your Lincoln Can Shift Itself Into Neutral. Ford Has No Fix Yet.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-24",
+      "started": "2026-10-29T13:30:00-07:00",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.94,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "374e24fd",
+        "word_count": 515,
+        "rhythm": "pass"
+      },
+      "files": {
+        "research": "drafts/1321-lincoln-nautilus-neutral-shift-corrosion-research.md",
+        "story": "drafts/1321-lincoln-nautilus-neutral-shift-corrosion.html",
+        "hero": "drafts/1321-lincoln-nautilus-neutral-shift-corrosion.jpg",
+        "critic_panel": "drafts/1321-lincoln-nautilus-neutral-shift-corrosion-critic-panel-r0.md"
+      },
+      "note": "2026-10-29 13:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.94, floor 8.8)->SHIP (Vin Wreckage, NHTSA 26V688/Ford 26S75: 11,623 Lincoln hybrids, corroded park-lock circuit board commands neutral at speed, 100pct susceptibility estimate, interim letters Nov 2 with no fix parts yet; original: warned-but-unfixable window, commanded-vs-failed, Corsair 0.5pct footnote, 0.15pct-vs-100pct math), queued 2028-02-24. Killed angles this run: Ram 2500 26V651 (covered #1228/#1262), Toyota Sienna 26V690 (covered #1313), JLR Range Rover camera 26V678 (covered #1251), Lexus NX 26V687 (covered #1277), Cummins PX9 fuel hose 26V700 (too close to #1046 L9)."
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
