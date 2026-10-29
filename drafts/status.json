@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-29 07:30 run: #1317 was already fully SHIPped by the 05:30 sibling run (next left at 1317, bumped to 1319). This run did full pipeline #1318 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Clara Rollover, IIHS commercial crash-avoidance ratings), queued 2028-02-21. 1/day publish slot consumed today by #832; #833 (due 2026-10-29, hero-ready) earliest-due for next open slot.",
-  "last_checked": "2026-10-29T07:30:00-07:00",
-  "last_completed": "2026-10-29T07:30:00-07:00",
+  "last_check_note": "2026-10-29 09:30 run: full pipeline #1319 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Vin Wreckage, Biketoberfest 2026 six-year-low trauma), queued 2028-02-22. 1/day publish slot consumed today by #832; #833 (due 2026-10-29, hero-ready) remains earliest-due for next open slot.",
+  "last_checked": "2026-10-29T09:30:00-07:00",
+  "last_completed": "2026-10-29T09:30:00-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1319,
+  "next": 1320,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19653,6 +19653,46 @@
         "hero": "drafts/1318-iihs-commercial-crash-avoidance.jpg",
         "critic_panel": "drafts/1318-iihs-commercial-crash-avoidance-critic-panel-r0.md"
       }
+    },
+    {
+      "number": 1319,
+      "slug": "1319-biketoberfest-lowest-trauma-six-years",
+      "title": "The Deadliest Rally in America's Deadliest State Killed Nobody This Year",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-22",
+      "started": "2026-10-29T09:30:00-07:00",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b95ccb2c",
+        "word_count": 541,
+        "rhythm": "pass"
+      },
+      "files": {
+        "research": "drafts/1319-biketoberfest-lowest-trauma-six-years-research.md",
+        "story": "drafts/1319-biketoberfest-lowest-trauma-six-years.html",
+        "hero": "drafts/1319-biketoberfest-lowest-trauma-six-years.jpg",
+        "critic_panel": "drafts/1319-biketoberfest-lowest-trauma-six-years-critic-panel-r0.md"
+      },
+      "note": "2026-10-29 09:30 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Vin Wreckage, Biketoberfest 2026 six-year-low trauma at Halifax Health vs FL #1 rider-death state; national 2024 NHTSA/IIHS motorcycle data; zero prior coverage), queued 2028-02-22. Killed angles this run: Sierra RQ26003, Kicks IIHS retest, robotaxi DP26010, Lexus NX 26V-687, Subaru 8-car ball joint, Audi Q4 26V698, Ford 26V653, Halloween, NSC H1 2026, NTSB toll booth, HR 10067 (all previously covered)."
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
