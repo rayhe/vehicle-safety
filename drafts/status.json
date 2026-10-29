@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-29 13:30 run: RESEARCH #1321 complete (Vin Wreckage, Lincoln Nautilus/Corsair hybrid neutral-shift recall 26V688/26S75, 11,623 units, interim letters Nov 2, no fix parts yet).",
-  "last_checked": "2026-10-29T09:30:00-07:00",
+  "last_check_note": "2026-10-29 13:30 run: full pipeline #1321 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.94)->SHIP (Vin Wreckage, Lincoln 26V688/26S75 neutral-shift recall), queued 2028-02-24. PUBLISH-QUEUE: 1/day slot consumed today by Publish #832; skipped. Earliest-due #833 (provo-orem-deadliest-school-zones, due 2026-10-29, hero-ready 2d1fbf2c) remains for next open slot.",
+  "last_checked": "2026-10-29T14:05:00-07:00",
   "last_completed": "2026-10-29T14:00:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Vin Wreckage",
