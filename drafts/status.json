@@ -1,10 +1,5 @@
 {
- "current": {
-  "slug": "1314-findlay-fog-pileup-variable-speed-gap",
-  "phase": "SHIP",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-10-28T21:45:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-28 19:30 run: full pipeline #1313 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP, queued 2028-02-15. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
  "last_checked": "2026-10-28T19:29:36-07:00",
  "last_completed": "2026-10-28T19:29:28-07:00",
@@ -1495,7 +1490,7 @@
    "slug": "aaa-flow-of-traffic-speeding-myth",
    "started": "2026-09-07T13:10:00Z",
    "title": "Half of American Drivers Think Obeying the Speed Limit Is the Dangerous Part",
-   "note": "2026-10-28 15:30 run: due 2026-10-28, hero-ready (drafts/832-aaa-flow-of-traffic-speeding-myth.jpg verified present) but skipped: 1/day publish slot already consumed (Publish #831 x2 commits today). Next run with a free slot should publish #832 first (earliest due). Entry uses older schema (no files key); draft files confirmed on disk."
+   "note": "2026-10-28 15:30 run: due 2026-10-28, hero-ready (drafts/832-aaa-flow-of-traffic-speeding-myth.jpg verified present) but skipped: 1/day publish slot already consumed (Publish #831 x2 commits today). Next run with a free slot should publish #832 first (earliest due). Entry uses older schema (no files key); draft files confirmed on disk. | 2026-10-28 run: SKIPPED publishing \u2014 no hero image file in drafts/; hero-less articles never ship; cadence continues with next hero-ready due article."
   },
   {
    "critic_avg": 8.97,
