@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1322-waymo-pet-destroyer-data",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-10-29T15:35:00-07:00"
+    "started": "2026-10-29T15:35:00-07:00",
+    "round": 0
   },
-  "last_check_note": "2026-10-29 15:30 run: #1322 RESEARCH done (Waymo/Tesla robotaxi animal strikes via NHTSA SGO data + Musk Oct 10 jab + DP26010 petition), journalist Rex Driverton, phase=DRAFT.",
-  "last_checked": "2026-10-29T15:35:00-07:00",
+  "last_check_note": "2026-10-29 15:30 run: #1322 DRAFT done (Rex Driverton, Waymo pet-destroyer investigation). Hero JPEG 1920x1280 ?v=04e40763. Hard gates pass pre-critique: em 0, banned 0, The 13.2%, rhythm PASS, css ok. Phase=CRITIQUE round=0.",
+  "last_checked": "2026-10-29T16:05:00-07:00",
   "last_completed": "2026-10-29T14:00:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Rex Driverton",
