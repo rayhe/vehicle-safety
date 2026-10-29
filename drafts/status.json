@@ -1,15 +1,10 @@
 {
- "current": {
-  "slug": "1315-tesla-robotaxi-school-zone-speeding",
-  "phase": "SHIP",
-  "journalist": "Rex Driverton",
-  "started": "2026-10-29T01:30:00-07:00"
- },
+ "current": null,
  "last_check_note": "2026-10-28 23:30 run: full pipeline #1314 RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64)->SHIP (commit 7247561b), queued 2028-02-17. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
  "last_checked": "2026-10-28T23:58:00-07:00",
- "last_completed": "2026-10-28T23:55:00-07:00",
- "last_completed_date": "2026-10-28",
- "last_journalist": "Mia Crumplezone",
+ "last_completed": "2026-10-29T02:00:00-07:00",
+ "last_completed_date": "2026-10-29",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-10-28T01:30:00-07:00",
  "last_published_date": "2026-10-28",
  "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
@@ -19509,6 +19504,42 @@
    "ship_date": "2028-02-17",
    "slug": "kicks-build-date-split-two-cars-one-model-year",
    "title": "The 2026 Nissan Kicks Is Two Different Cars. Check the Door Jamb Before You Buy."
+  },
+  {
+   "number": 1315,
+   "slug": "tesla-robotaxi-school-zone-speeding",
+   "title": "The Driver Was Speeding in a School Zone. There Was No Driver.",
+   "journalist": "Rex Driverton",
+   "kicker": "Investigation",
+   "ship_date": "2028-02-18",
+   "phase": "SHIP_BLOCKED",
+   "avg_critic": 8.71,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.5,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 8.5,
+    "social_shareability": 9.0,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 8.5
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 6.7,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "word_count": 580
+   },
+   "files": {
+    "research": "drafts/1315-tesla-robotaxi-school-zone-speeding-dp26010-research.md",
+    "story": "drafts/1315-tesla-robotaxi-school-zone-speeding.html",
+    "hero": "drafts/1315-tesla-robotaxi-school-zone-speeding.jpg",
+    "critic_panel": "drafts/1315-tesla-robotaxi-school-zone-speeding-critic-panel-r0.md"
+   },
+   "note": "2026-10-29 01:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (commit 20be63a8), queued 2028-02-18."
   }
  ],
  "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
