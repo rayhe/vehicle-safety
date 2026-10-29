@@ -1,5 +1,10 @@
 {
- "current": null,
+ "current": {
+  "slug": "1315-tesla-robotaxi-school-zone-speeding",
+  "phase": "SHIP",
+  "journalist": "Rex Driverton",
+  "started": "2026-10-29T01:30:00-07:00"
+ },
  "last_check_note": "2026-10-28 23:30 run: full pipeline #1314 RESEARCH->DRAFT->CRITIQUE(r1 avg 8.64)->SHIP (commit 7247561b), queued 2028-02-17. PUBLISH-QUEUE: skipped, 1/day gate consumed (2 Publish commits today). #832 (due 2026-10-28) remains earliest-due for next open slot.",
  "last_checked": "2026-10-28T23:58:00-07:00",
  "last_completed": "2026-10-28T23:55:00-07:00",
@@ -10,7 +15,7 @@
  "last_published_slug": "831-nhtsa-impaired-driving-rule-21-months-late",
  "last_qa_date": "2026-10-27",
  "last_qa_note": "QA pass #830: story 200, hero JPEG 200 (1920x1280 ?v=85bf98ed), og:title/og:description/og:image present, index card first in grid, sitemap entry lastmod 2026-10-27, dateline Oct 27 2026. Early checks 404 (Pages build lag, same as prior publishes); live after deploy landed.",
- "next": 1315,
+ "next": 1316,
  "queue": [
   {
    "journalist": "Rex Driverton",
