@@ -1,14 +1,8 @@
 {
-  "current": {
-    "number": 1329,
-    "slug": "1329-dodge-durango-tail-light-failure",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-30T05:30:11.371419-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-30 03:30 run: full pipeline #1328 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Mia Crumplezone, four-engine bearing epidemic), queued 2028-03-02. 1/day publish gate consumed today (#833 at 01:30); #834 (due 2026-10-30, hero ready) deferred to next run.",
   "last_checked": "2026-10-30T03:31:17-07:00",
-  "last_completed": "2026-10-30T03:31:17-07:00",
+  "last_completed": "2026-10-30T05:32:04.511553-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-10-29T02:30:00-07:00",
@@ -20020,6 +20014,34 @@
       },
       "started": "2026-10-30T03:29:15-07:00",
       "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1328- prefix). Novel: four-program bearing census (~3.4M vehicles across GM L87 EA26005, Toyota V35A 3x recalls, Nissan VC-Turbo overlapping recalls, Honda J35 PE25008) + regulatory-ladder framing. News peg: GM EA26005 response deadline Oct 30, 2026. Counterargument (distinct root causes, bearing as default terminal failure) at full strength. No publish: 1/day rule, #833 shipped 2026-10-30."
+    },
+    {
+      "number": 1329,
+      "slug": "1329-dodge-durango-tail-light-failure",
+      "title": "Your Tail Lights Can Die Without Warning. You Would Never Know.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-03",
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "critic_avg": 8.91,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.5,
+        "css": "pass",
+        "rhythm": "pass"
+      },
+      "note": "Chrysler 26V701000: 13,330 MY2026 Dodge Durangos, damaged tail light wiring harness terminals, FMVSS 108 violation. VINs searchable Oct 29, 2026; owner letters Dec 3. Hero JPEG verified."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
