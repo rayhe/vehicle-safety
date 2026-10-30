@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "1325-ford-explorer-eleven-recalls",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-29T21:30:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
   "last_checked": "2026-10-29T16:15:00-07:00",
   "last_completed": "2026-10-29T17:45:00-07:00",
@@ -15,7 +10,7 @@
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1325,
+  "next": 1326,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19871,7 +19866,53 @@
         "data": 8.8
       },
       "note": "Occupant-death-per-fatal-crash ratio cross-tab (FARS 2014-2023); Cavalier 0.86 vs Ram 1500 0.34; hero JPEG validated."
+    },
+    {
+      "number": 1325,
+      "slug": "1325-ford-explorer-eleven-recalls",
+      "title": "The 2026 Ford Explorer Has Been Recalled 11 Times. Four of Them Are the Engine.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2028-02-28",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.1,
+        "css_class": true,
+        "style_css": true,
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 729.6,
+          "short_pct": 8.0,
+          "long_pct": 48.0
+        },
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6e0c47b1",
+        "word_count": 589
+      },
+      "files": {
+        "research": "drafts/1325-ford-explorer-eleven-recalls-research.md",
+        "story": "drafts/1325-ford-explorer-eleven-recalls.html",
+        "critic_panel": "drafts/1325-ford-explorer-eleven-recalls-critic-panel-r0.md",
+        "hero": "drafts/1325-ford-explorer-eleven-recalls.jpg",
+        "census_script": "drafts/1325-census.py",
+        "census_results": "drafts/1325-census-results.json"
+      },
+      "note": "2026-10-29 21:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.89, VERDICT SHIP)->SHIP. Novel: 77-query NHTSA API census found 94 unique 26V campaigns; 2026 Explorer touched by 11 (most in sample), incl. 4 internal-engine recalls Mar 31-Aug 25 (26V205 circlips, 26V343, 26V532 rod bearings, 26V548 piston domes). r0 rhythm FAIL (short 25.0%) fixed by merging fragments -> PASS. Queued 2028-02-28 (strict 1/day spacing). next counter fixed 1324->1325 (stale)."
     }
   ],
-  "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."
+  "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
 }
