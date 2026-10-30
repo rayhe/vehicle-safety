@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1324-who-dies-fatal-crash",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-29T19:35:00-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
   "last_checked": "2026-10-29T16:15:00-07:00",
   "last_completed": "2026-10-29T17:45:00-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
@@ -19853,6 +19848,24 @@
         "critic_panel": "drafts/1323-utah-005-four-year-verdict-critic-panel-r0.md"
       },
       "note": "2026-10-29 17:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93, VERDICT SHIP)->SHIP. New IIHS 4-yr Utah 0.05 study (Eichelberger/Tippets); distinct from #826's heavy-drinker framing. Gates: em 0 literal / 3 rendered, banned 0, The 13.0%, rhythm PASS. Queued 2028-02-26 (strict 1/day spacing)."
+    },
+    {
+      "number": 1324,
+      "slug": "1324-who-dies-fatal-crash",
+      "title": "The Ram 1500's Occupants Survive Two-Thirds of Its Fatal Crashes. The Other Car's Don't.",
+      "journalist": "Axle McScatter",
+      "ship_date": "2028-02-27",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 8.8,
+        "voice": 9.0,
+        "ethics": 8.5,
+        "social": 9.0,
+        "legal": 8.6,
+        "rigor": 9.0,
+        "data": 8.8
+      },
+      "note": "Occupant-death-per-fatal-crash ratio cross-tab (FARS 2014-2023); Cavalier 0.86 vs Ram 1500 0.34; hero JPEG validated."
     }
   ],
   "last_worker_run": "2026-10-28 15:30 run: #1311 queued 2028-02-13 (RQ26004 Maverick frozen-camera recall query; r0 SHIP, avg 8.87). Publish skipped: 2 Publish commits already today (1/day gate)."

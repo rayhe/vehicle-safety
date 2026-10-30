@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ram 1500's Occupants Survive Two-Thirds of Its Fatal Crashes. The Other Car's Don't. &mdash; The Crash Report</title>
+  <meta name="description" content="A FARS cross-tab nobody ran: occupant deaths per fatal crash by nameplate. Pickups survive their own fatal crashes. Sedans die in theirs.">
+  <meta property="og:title" content="The Ram 1500's Occupants Survive Two-Thirds of Its Fatal Crashes. The Other Car's Don't.">
+  <meta property="og:description" content="Occupant deaths per fatal crash: Cavalier 0.86, Ram 1500 0.34. Pickups export the dying to the other vehicle.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../images/1324-who-dies-fatal-crash.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>The Ram 1500's Occupants Survive Two-Thirds of Its Fatal Crashes. The Other Car's Don't.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">October 29, 2026</div>
+
+      <img src="../images/1324-who-dies-fatal-crash.jpg" alt="Two crashed vehicles, one small sedan crushed, one large pickup intact" class="story-hero" loading="eager">
+
+      <div class="story-body">
+        <p>I ran the numbers. Then I ran them again, and they didn't get better. FARS records every fatal crash, and for each one it also records <em>which vehicle the dead people were in</em>. Cross-tabulate a decade of that and you get a ratio nobody publishes: occupant deaths divided by fatal crashes the vehicle was involved in. The Chevy Cavalier sits at <strong>0.86 deaths per fatal crash</strong>. The Ram 1500 sits at <strong>0.34</strong>.</p>
+
+        <div class="pull-stat">66%</div>
+        <div class="pull-label">of fatal crashes involving a Ram 1500 did not kill its occupants &mdash; someone else died</div>
+
+        <p>Understand what 0.34 means. The Ram 1500 appeared in 2,095 fatal crashes from 2014 through 2023. Its own occupants died in 714 of them. In the other 1,381, the people in the Ram walked away or rode away, and the death certificate went to someone else: the other car's driver, a pedestrian, a cyclist, a motorcyclist. FARS is a fatality database, so every one of those 2,095 crashes killed at least one person. It just usually wasn't the person in the truck.</p>
+
+        <p>Now the full table, restricted to nameplates with at least 1,000 fatal-crash involvements so the small-sample wobble stays out of it:</p>
+
+        <table class="data-table">
+          <thead><tr><th>Vehicle</th><th>Class</th><th>Fatal crashes involved</th><th>Occupant deaths</th><th>Deaths per crash</th></tr></thead>
+          <tbody>
+            <tr><td>Chevrolet Cavalier</td><td>Sedan</td><td>1,429</td><td>1,225</td><td>0.86</td></tr>
+            <tr><td>Chevrolet Cobalt</td><td>Sedan</td><td>1,907</td><td>1,540</td><td>0.81</td></tr>
+            <tr><td>Chevrolet S-10</td><td>Pickup</td><td>1,890</td><td>1,427</td><td>0.76</td></tr>
+            <tr><td>Ford Mustang</td><td>Sports Car</td><td>3,938</td><td>2,739</td><td>0.70</td></tr>
+            <tr><td>Ford Ranger</td><td>Pickup</td><td>4,476</td><td>3,089</td><td>0.69</td></tr>
+            <tr><td>Honda Civic</td><td>Sedan</td><td>9,627</td><td>6,553</td><td>0.68</td></tr>
+            <tr><td>Chevrolet Silverado</td><td>Pickup</td><td>19,732</td><td>9,591</td><td>0.49</td></tr>
+            <tr><td>Ford F-150</td><td>Pickup</td><td>20,066</td><td>9,194</td><td>0.46</td></tr>
+            <tr><td>Toyota Tundra</td><td>Pickup</td><td>2,947</td><td>1,223</td><td>0.42</td></tr>
+            <tr><td>Ford F-250</td><td>Pickup</td><td>2,499</td><td>909</td><td>0.36</td></tr>
+            <tr><td>Ram 1500</td><td>Pickup</td><td>2,095</td><td>714</td><td>0.34</td></tr>
+          </tbody>
+        </table>
+
+        <p>Roll it up by class and the pattern hardens: sedans 0.65, sports cars 0.68, SUVs 0.52, vans 0.51, pickups 0.49. Every single pickup with enough data sits at or below 0.49 except two old compacts, the S-10 and Ranger, which are small enough to count as honorary sedans with cargo beds, and this is not a mystery.</p>
+
+        <p>IIHS's senior statistician Sam Monfort published the physics in 2025: in a two-vehicle crash, the heavier vehicle keeps moving forward, so its occupants absorb less force and the lighter vehicle's occupants absorb more. His finding from 2017-22 model years: pickups were nearly twice as likely to kill the driver of a car they crashed into as another car was. The FARS decade I'm using here says the same thing from the other direction: when a fatal crash involves a big truck, the truck's occupants are usually the survivors, which is only physics doing physics — it does not care which database you query.</p>
+
+        <p>Before you write in, yes, there are real objections. First: FARS's per-vehicle death count covers occupants of that vehicle only; "the other 66%" includes other vehicles' occupants plus pedestrians, bicyclists, and motorcyclists, and this ratio cannot split them. Second: single-vehicle crashes are in the mix, so a rollover that kills only its driver raises the ratio while a pedestrian strike that kills only the pedestrian lowers it; the class ordering survives both. Third: pickups skew rural, where higher speeds and pedestrian strikes on unlit roads could push their ratio down for exposure reasons, not structural ones.</p>
+
+        <p>Still, the ordering is exactly what the physics predicts, which is rarely how these things go. Usually I find a paradox and have to apologize for it. This time the table did what the equations said. The Cavalier's occupants died in 86% of its fatal crashes; the Ram's died in 34%. One of those numbers describes a vehicle that can't protect its own people. The other describes a vehicle that protects its people by making someone else die instead.</p>
+
+        <p>Actionable version: your crash rating, your Top Safety Pick badge, your five stars &mdash; they all grade what happens to <em>you</em>. None of them grade what your full-size pickup does to the Civic across the intersection. FARS does. If you buy the truck, know the deal you're getting: the safest seat in your neighborhood's worst crash is inside your own truck, everyone else takes the worse odds, and that is what the 0.34 buys.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a>; FARS query system <a href="https://cdan.dot.gov/query" target="_blank" rel="noopener">cdan.dot.gov</a>. Per-vehicle DEATHS field counts occupant deaths in the vehicle; crash counts are vehicle involvements in fatal crashes. Class and model ratios computed by the author.</li>
+          <li id="ref-2">IIHS, &ldquo;Vehicle size and weight,&rdquo; topic page compiled by Sam Monfort: pickups nearly twice as likely to kill a car driver in 2017&ndash;22 (Monfort, 2025); physics of weight in two-vehicle collisions. <a href="https://www.iihs.org/topics/vehicle-size-and-weight" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, 2026 driver death rate report (Jul 30, 2026): average driver death rate 37 per million registered vehicle years vs. average other-driver death rate 53. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+
+      <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023 per-model data. Ratios computed from occupant deaths (FARS VEHICLE-file DEATHS field) divided by vehicles involved in fatal crashes; minimum 1,000 involvements for ranked nameplates. FARS covers fatal crashes only; injury-only crash patterns may differ. See <a href="../#method">methodology</a> for caveats.</p>
+    </article>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
