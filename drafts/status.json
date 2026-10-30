@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1334-alcohol-deaths-rise-drunk-driving-falls",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-10-30T15:35:00-07:00"
+  },
   "last_check_note": "2026-10-30 11:30 run: full pipeline #1332 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Mia Crumplezone, Toyota Sienna 26V690 seatback-unlock recall, found via 2025 sled testing, zero crashes), queued 2028-03-06. #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero in drafts/) stays queued: 1/day publish gate already consumed by Publish #833 at 01:29.",
   "last_checked": "2026-10-30T11:30:00-07:00",
   "last_completed": "2026-10-30T13:34:48.482186-07:00",
