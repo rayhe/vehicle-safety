@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-10-29 23:30 run: full pipeline #1326 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Rex Driverton, Ford 7.3L Godzilla DP26011), queued 2028-02-29. 1/day publish gate consumed today (#832 at 02:30); #833 provo-orem-deadliest-school-zones (due 2026-10-29) deferred to next run.",
   "last_checked": "2026-10-29T23:55:00-07:00",
-  "last_completed": "2026-10-29T23:55:00-07:00",
+  "last_completed": "2026-10-30T01:31:12-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-10-29T02:30:00-07:00",
@@ -1512,9 +1512,9 @@
       },
       "journalist": "Clara Rollover",
       "kicker": "The Gap",
-      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (833- prefix). News pegs: Aug 2026 Sweat study (Provo-Orem 5.01/100K, Oxnard 4.22, Des Moines 3.88, SLC 3.66; Las Vegas 13 raw), Jenoptik/Palm Beach County school-zone speeding study (70% >20 over, Feb 2026), NHTSA 2014-2023 school-transport fact sheet (79 child pedestrians vs 38 in-bus). Novel: enforcement-gap physics math (70% noncompliance x 5/40/80% mortality curve = 8x), small-numerator counterargument answered. No publish: 1/day rule, #805 shipped 2026-09-07. 2026-10-29 21:30 run: CORRECTION \u2014 hero EXISTS at drafts/833-provo-orem-deadliest-school-zones.jpg (833- prefix; earlier check used wrong filename). Skipped this run ONLY because 1/day publish gate already met today. Publish-ready for next run (due 2026-10-29, hero present).",
+      "note": "Round-0 pass 8.97 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (833- prefix). News pegs: Aug 2026 Sweat study (Provo-Orem 5.01/100K, Oxnard 4.22, Des Moines 3.88, SLC 3.66; Las Vegas 13 raw), Jenoptik/Palm Beach County school-zone speeding study (70% >20 over, Feb 2026), NHTSA 2014-2023 school-transport fact sheet (79 child pedestrians vs 38 in-bus). Novel: enforcement-gap physics math (70% noncompliance x 5/40/80% mortality curve = 8x), small-numerator counterargument answered. No publish: 1/day rule, #805 shipped 2026-09-07. 2026-10-29 21:30 run: CORRECTION \u2014 hero EXISTS at drafts/833-provo-orem-deadliest-school-zones.jpg (833- prefix; earlier check used wrong filename). Skipped this run ONLY because 1/day publish gate already met today. Publish-ready for next run (due 2026-10-29, hero present). 2026-10-30 01:30 run: PUBLISHED via Publish #833 commit 306c1bc7. QA-verified live: story 200 (canonical trailing-slash redirect), hero JPEG 200, og:title/og:description/og:image correct, index card present, sitemap entry present.",
       "number": 833,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.0,
@@ -1527,7 +1527,8 @@
       "ship_date": "2026-10-29",
       "slug": "provo-orem-deadliest-school-zones",
       "started": "2026-09-07T14:40:00Z",
-      "title": "The Deadliest School Zones in America Are in Provo, Utah. The Speed Limit Signs Are Just Decoration."
+      "title": "The Deadliest School Zones in America Are in Provo, Utah. The Speed Limit Signs Are Just Decoration.",
+      "published": "2026-10-30"
     },
     {
       "critic_avg": 9.03,
