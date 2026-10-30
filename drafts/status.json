@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-29 23:30 run: full pipeline #1326 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Rex Driverton, Ford 7.3L Godzilla DP26011), queued 2028-02-29. 1/day publish gate consumed today (#832 at 02:30); #833 provo-orem-deadliest-school-zones (due 2026-10-29) deferred to next run.",
-  "last_checked": "2026-10-29T23:55:00-07:00",
-  "last_completed": "2026-10-30T01:36:12-07:00",
+  "last_check_note": "2026-10-30 03:30 run: full pipeline #1328 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Mia Crumplezone, four-engine bearing epidemic), queued 2028-03-02. 1/day publish gate consumed today (#833 at 01:30); #834 (due 2026-10-30, hero ready) deferred to next run.",
+  "last_checked": "2026-10-30T03:31:17-07:00",
+  "last_completed": "2026-10-30T03:31:17-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1327,
+  "next": 1329,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19982,6 +19982,38 @@
       },
       "started": "2026-10-30T01:32:48-07:00",
       "note": "Round-0 pass 9.10 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1327- prefix). News peg: IIHS first commercial crash-avoidance ratings (Oct 8, 2026): 0/4 Class 3 pickups Good; motorcycle detection biggest failure; F-350 31/43 mph, Silverado 0/6; 6,215 deaths = 16% of US road deaths; federal AEB rule excludes these trucks. Novel: regulatory blind-spot framing, BrightDrop irony (discontinued Oct 2025). Counterargument at full strength. No publish: 1/day rule, #833 shipped 2026-10-30."
+    },
+    {
+      "number": 1328,
+      "slug": "four-engines-one-bearing-epidemic",
+      "title": "Four Automakers, Four Engines, One Failed Part",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Trend Watch",
+      "ship_date": "2028-03-02",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css": "pass",
+        "rhythm": "pass",
+        "word_count": 835,
+        "hero_jpeg": true,
+        "hero_hash": "2c69abe4"
+      },
+      "started": "2026-10-30T03:29:15-07:00",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1328- prefix). Novel: four-program bearing census (~3.4M vehicles across GM L87 EA26005, Toyota V35A 3x recalls, Nissan VC-Turbo overlapping recalls, Honda J35 PE25008) + regulatory-ladder framing. News peg: GM EA26005 response deadline Oct 30, 2026. Counterargument (distinct root causes, bearing as default terminal failure) at full strength. No publish: 1/day rule, #833 shipped 2026-10-30."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
