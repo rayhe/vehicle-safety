@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-30 03:30 run: full pipeline #1328 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Mia Crumplezone, four-engine bearing epidemic), queued 2028-03-02. 1/day publish gate consumed today (#833 at 01:30); #834 (due 2026-10-30, hero ready) deferred to next run.",
-  "last_checked": "2026-10-30T03:31:17-07:00",
+  "last_check_note": "2026-10-30 07:30 run: full pipeline #1330 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Rex Driverton, Genesis G80 triple park-outside fire recalls), queued 2028-03-04. 1/day publish gate already consumed today; #834 (due 2026-10-30, hero ready) remains for the next run.",
+  "last_checked": "2026-10-30T07:30:00-07:00",
   "last_completed": "2026-10-30T05:32:04.511553-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Clara Rollover",
@@ -10,7 +10,7 @@
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1329,
+  "next": 1331,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20042,6 +20042,34 @@
         "rhythm": "pass"
       },
       "note": "Chrysler 26V701000: 13,330 MY2026 Dodge Durangos, damaged tail light wiring harness terminals, FMVSS 108 violation. VINs searchable Oct 29, 2026; owner letters Dec 3. Hero JPEG verified."
+    },
+    {
+      "number": 1330,
+      "slug": "1330-genesis-g80-third-park-outside-fire",
+      "title": "Three Strikes, You're Out of the Garage",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-04",
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "critic_avg": 8.93,
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.8,
+        "css": "pass",
+        "rhythm": "pass"
+      },
+      "note": "NHTSA 26V664000 (seat switch, filed Oct 9 2026): 94,622 Genesis/G80, remedy under development, owner letters Dec 7. Triple park-outside on the model line: 21V160 (2021 ABS) + 24V107 (2024 starter solenoid). 2 US fires, 0 injuries. Hero JPEG 1920x1280 verified (?v=c2984c29)."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
