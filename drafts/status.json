@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1324-who-dies-fatal-crash",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-29T19:35:00-07:00"
+  },
   "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
   "last_checked": "2026-10-29T16:15:00-07:00",
   "last_completed": "2026-10-29T17:45:00-07:00",
