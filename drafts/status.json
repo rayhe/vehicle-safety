@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1327-iihs-work-trucks-fail-first-crash-avoidance-tests",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-30T01:32:48-07:00",
-    "note": "RESEARCH done 2026-10-30 01:30 run. Angle: IIHS first-ever commercial crash-avoidance ratings (Oct 8, 2026); 0/4 Class 3 pickups earned Good; motorcycle detection the specific failure; federal AEB mandate excludes these trucks (16% of US road deaths). Kill test: pass."
-  },
+  "current": null,
   "last_check_note": "2026-10-29 23:30 run: full pipeline #1326 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Rex Driverton, Ford 7.3L Godzilla DP26011), queued 2028-02-29. 1/day publish gate consumed today (#832 at 02:30); #833 provo-orem-deadliest-school-zones (due 2026-10-29) deferred to next run.",
   "last_checked": "2026-10-29T23:55:00-07:00",
-  "last_completed": "2026-10-30T01:31:12-07:00",
+  "last_completed": "2026-10-30T01:36:12-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-10-29T02:30:00-07:00",
@@ -19956,6 +19950,38 @@
         "critic_panel": "drafts/1326-ford-godzilla-idle-patch-quiet-fix-critic-panel-r0.md"
       },
       "note": "2026-10-29 23:30 run: r0 panel avg 8.79, all 7 critics >= 8.5, hard gates pass (em 3, banned 0, The 9.3%, rhythm PASS). Queued 2028-02-29 (strict 1/day spacing)."
+    },
+    {
+      "number": 1327,
+      "slug": "iihs-work-trucks-fail-first-crash-avoidance-tests",
+      "title": "America's Work Trucks Failed Their First Crash-Avoidance Test. Not One Can See a Motorcycle.",
+      "journalist": "Axle McScatter",
+      "kicker": "Trend Watch",
+      "ship_date": "2028-03-01",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.2,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.2
+      },
+      "critic_avg": 9.1,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.7,
+        "css": "pass",
+        "rhythm": "pass",
+        "word_count": 1370,
+        "hero_jpeg": true,
+        "hero_hash": "f2018550"
+      },
+      "started": "2026-10-30T01:32:48-07:00",
+      "note": "Round-0 pass 9.10 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1327- prefix). News peg: IIHS first commercial crash-avoidance ratings (Oct 8, 2026): 0/4 Class 3 pickups Good; motorcycle detection biggest failure; F-350 31/43 mph, Silverado 0/6; 6,215 deaths = 16% of US road deaths; federal AEB rule excludes these trucks. Novel: regulatory blind-spot framing, BrightDrop irony (discontinued Oct 2025). Counterargument at full strength. No publish: 1/day rule, #833 shipped 2026-10-30."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
