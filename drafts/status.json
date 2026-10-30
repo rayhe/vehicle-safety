@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "1326-ford-godzilla-idle-patch-quiet-fix",
-    "phase": "SHIP",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-29T23:30:00-07:00",
-    "critique_round": 0,
-    "avg_critic": 8.79
-  },
+  "current": null,
   "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
   "last_checked": "2026-10-29T16:15:00-07:00",
-  "last_completed": "2026-10-29T17:45:00-07:00",
+  "last_completed": "2026-10-29T23:55:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-10-29T02:30:00-07:00",
@@ -17,7 +10,7 @@
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1326,
+  "next": 1327,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -19919,6 +19912,43 @@
         "census_results": "drafts/1325-census-results.json"
       },
       "note": "2026-10-29 21:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.89, VERDICT SHIP)->SHIP. Novel: 77-query NHTSA API census found 94 unique 26V campaigns; 2026 Explorer touched by 11 (most in sample), incl. 4 internal-engine recalls Mar 31-Aug 25 (26V205 circlips, 26V343, 26V532 rod bearings, 26V548 piston domes). r0 rhythm FAIL (short 25.0%) fixed by merging fragments -> PASS. Queued 2028-02-28 (strict 1/day spacing). next counter fixed 1324->1325 (stale)."
+    },
+    {
+      "number": 1326,
+      "slug": "1326-ford-godzilla-idle-patch-quiet-fix",
+      "title": "Ford Already Fixed the Godzilla V8. It Just Didn't Tell Anybody.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-02-29",
+      "critique_round": 0,
+      "avg_critic": 8.79,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 3,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b801d268"
+      },
+      "files": {
+        "research": "drafts/1326-ford-godzilla-idle-patch-quiet-fix-research.md",
+        "story": "drafts/1326-ford-godzilla-idle-patch-quiet-fix.html",
+        "hero": "drafts/1326-ford-godzilla-idle-patch-quiet-fix.jpg",
+        "critic_panel": "drafts/1326-ford-godzilla-idle-patch-quiet-fix-critic-panel-r0.md"
+      },
+      "note": "2026-10-29 23:30 run: r0 panel avg 8.79, all 7 critics >= 8.5, hard gates pass (em 3, banned 0, The 9.3%, rhythm PASS). Queued 2028-02-29 (strict 1/day spacing)."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
