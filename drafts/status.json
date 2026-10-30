@@ -1,10 +1,16 @@
 {
-  "current": null,
+  "current": {
+    "number": 1329,
+    "slug": "1329-dodge-durango-tail-light-failure",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-10-30T05:30:11.371419-07:00"
+  },
   "last_check_note": "2026-10-30 03:30 run: full pipeline #1328 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Mia Crumplezone, four-engine bearing epidemic), queued 2028-03-02. 1/day publish gate consumed today (#833 at 01:30); #834 (due 2026-10-30, hero ready) deferred to next run.",
   "last_checked": "2026-10-30T03:31:17-07:00",
   "last_completed": "2026-10-30T03:31:17-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
