@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1325-ford-explorer-eleven-recalls",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-29T21:30:00-07:00"
+  },
   "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
   "last_checked": "2026-10-29T16:15:00-07:00",
   "last_completed": "2026-10-29T17:45:00-07:00",
@@ -10,7 +15,7 @@
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1324,
+  "next": 1325,
   "queue": [
     {
       "journalist": "Rex Driverton",
