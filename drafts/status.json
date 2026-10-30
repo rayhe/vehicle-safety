@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
-  "last_checked": "2026-10-29T16:15:00-07:00",
+  "last_check_note": "2026-10-29 23:30 run: full pipeline #1326 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Rex Driverton, Ford 7.3L Godzilla DP26011), queued 2028-02-29. 1/day publish gate consumed today (#832 at 02:30); #833 provo-orem-deadliest-school-zones (due 2026-10-29) deferred to next run.",
+  "last_checked": "2026-10-29T23:55:00-07:00",
   "last_completed": "2026-10-29T23:55:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Rex Driverton",
