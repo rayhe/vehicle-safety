@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1331-sierra-grille-deflector-recall-query",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-10-30T09:45:00-07:00"
+  },
   "last_check_note": "2026-10-30 07:30 run: full pipeline #1330 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Rex Driverton, Genesis G80 triple park-outside fire recalls), queued 2028-03-04. 1/day publish gate already consumed today; #834 (due 2026-10-30, hero ready) remains for the next run.",
-  "last_checked": "2026-10-30T07:30:00-07:00",
+  "last_checked": "2026-10-30T09:45:00-07:00",
   "last_completed": "2026-10-30T05:32:04.511553-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Clara Rollover",
@@ -1545,7 +1550,7 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (834- prefix). News peg: GHSA July 2026 full-year report (6,732 projected, -7%, third straight decline). Novel: pedestrian crash lethality doubled 2015-2024 (4.0%->10.1% CRSS); decomposition implies crash volume roughly halved (~137K->~70K). Denominator-artifact counterargument stated at full strength. IIHS 27% AEB figure independently verified. No publish: 1/day rule, #805 shipped 2026-09-07.",
+      "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (834- prefix). News peg: GHSA July 2026 full-year report (6,732 projected, -7%, third straight decline). Novel: pedestrian crash lethality doubled 2015-2024 (4.0%->10.1% CRSS); decomposition implies crash volume roughly halved (~137K->~70K). Denominator-artifact counterargument stated at full strength. IIHS 27% AEB figure independently verified. No publish: 1/day rule, #805 shipped 2026-09-07. | 2026-10-30 09:30 run: files dict repaired (hero verified real JPEG 1920x1280); publish-ready when 1/day gate opens.",
       "number": 834,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -1560,7 +1565,13 @@
       "ship_date": "2026-10-30",
       "slug": "pedestrian-crash-lethality-doubled",
       "started": "2026-09-07T16:30:00Z",
-      "title": "Getting Hit by a Car Is Twice as Deadly as a Decade Ago. Deaths Fell Anyway."
+      "title": "Getting Hit by a Car Is Twice as Deadly as a Decade Ago. Deaths Fell Anyway.",
+      "files": {
+        "hero": "drafts/834-pedestrian-crash-lethality-doubled.jpg",
+        "draft": "drafts/834-pedestrian-crash-lethality-doubled.html",
+        "research": "drafts/834-pedestrian-crash-lethality-doubled-research.md",
+        "critic_panel": "drafts/834-critic-panel-r0.md"
+      }
     },
     {
       "critic_avg": 9.03,
