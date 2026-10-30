@@ -1,10 +1,17 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1326-ford-godzilla-idle-patch-quiet-fix",
+    "phase": "SHIP",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-29T23:30:00-07:00",
+    "critique_round": 0,
+    "avg_critic": 8.79
+  },
   "last_check_note": "2026-10-29 17:30 run: full pipeline #1323 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.93)->SHIP (Dale Impactor III, Utah 0.05 four-year IIHS study), queued 2028-02-26.",
   "last_checked": "2026-10-29T16:15:00-07:00",
   "last_completed": "2026-10-29T17:45:00-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
