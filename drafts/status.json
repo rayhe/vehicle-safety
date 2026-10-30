@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1334-alcohol-deaths-rise-drunk-driving-falls",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-10-30T15:35:00-07:00"
-  },
-  "last_check_note": "2026-10-30 11:30 run: full pipeline #1332 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Mia Crumplezone, Toyota Sienna 26V690 seatback-unlock recall, found via 2025 sled testing, zero crashes), queued 2028-03-06. #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero in drafts/) stays queued: 1/day publish gate already consumed by Publish #833 at 01:29.",
+  "current": null,
+  "last_check_note": "2026-10-30 15:30 run: full pipeline #1334 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.74)->SHIP (Dale Impactor III, drunk-driving deaths down 3.9% vs alcohol-attributable deaths up 29%, NHTSA FARS 2024 + CDC + Lantana Recovery), queued 2028-03-08. #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero in drafts/) stays queued: 1/day publish gate already consumed by Publish #833 earlier today.",
   "last_checked": "2026-10-30T11:30:00-07:00",
-  "last_completed": "2026-10-30T13:34:48.482186-07:00",
+  "last_completed": "2026-10-30T15:45:00-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1333,
+  "next": 1335,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20177,6 +20172,43 @@
         "data_presentation": 8.8
       },
       "note": "2026-10-30 13:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.88; gates: em 0, banned 0, The 8.6%, hero JPEG 1920x1280 ?v=81bff4ae; NHTSA 26V653000/Ford 26C46; FMVSS 101 accuracy paradox + Aug 2025 digital-panel contrast). Draft+hero+research+critique in drafts/ (1333- prefix)."
+    },
+    {
+      "number": 1334,
+      "slug": "1334-alcohol-deaths-rise-drunk-driving-falls",
+      "title": "America Beat Drunk Driving. It Lost to Alcohol by a Factor of Fifteen.",
+      "journalist": "Dale Impactor III",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-08",
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "scores": {
+        "general": 8.7,
+        "voice": 8.8,
+        "ethics": 8.7,
+        "social": 8.6,
+        "legal": 8.9,
+        "rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "0dcdce87",
+        "hero_dim": "1920x1280",
+        "word_count": 1017
+      },
+      "files": {
+        "research": "drafts/1334-alcohol-deaths-rise-drunk-driving-falls-research.md",
+        "story": "drafts/1334-alcohol-deaths-rise-drunk-driving-falls.html",
+        "hero": "drafts/1334-alcohol-deaths-rise-drunk-driving-falls.jpg",
+        "critic_panel": "drafts/1334-alcohol-deaths-rise-drunk-driving-falls-critic-panel-r0.md"
+      },
+      "note": "2026-10-30 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.74; gates: em 0, banned 0, The 13.7%, hero JPEG 1920x1280 ?v=0dcdce87; NHTSA DOT HS 813 815/813 813, CDC alcohol-attributable mortality, Lantana Recovery NY 2015-2024 split via SI Advance Oct 22)."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
