@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-30 09:30 run: full pipeline #1331 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Vin Wreckage, Sierra grille deflector recall query RQ26003), queued 2028-03-05. Repaired #834 queue files entry (hero verified real JPEG 1920x1280); #834 publish-ready for next run. 1/day publish gate consumed by Publish #833 at 01:29.",
-  "last_checked": "2026-10-30T10:00:00-07:00",
-  "last_completed": "2026-10-30T05:32:04.511553-07:00",
+  "last_check_note": "2026-10-30 11:30 run: full pipeline #1332 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Mia Crumplezone, Toyota Sienna 26V690 seatback-unlock recall, found via 2025 sled testing, zero crashes), queued 2028-03-06. #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero in drafts/) stays queued: 1/day publish gate already consumed by Publish #833 at 01:29.",
+  "last_checked": "2026-10-30T11:30:00-07:00",
+  "last_completed": "2026-10-30T11:39:54.953025-07:00",
   "last_completed_date": "2026-10-29",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1332,
+  "next": 1333,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20115,6 +20115,45 @@
         "hero": "drafts/1331-sierra-grille-deflector-recall-query.jpg"
       },
       "note": "2026-10-30 09:30 run: Round-0 pass 8.86 avg; 7/7 critics >= 8.5. News peg: NHTSA RQ26003 opened Oct 9, 2026 (disclosed Oct 12) reviewing scope and remedy of GM recall 25V-060 (70,768 MY2022 chrome Sierra). Novel: 7.57x scope ratio, 17.8% post-repair complaint share with denominator caveat, KE estimate (~1kJ, stated assumptions), counterargument at full strength. One pre-panel legal fix (subpoena metaphor). Draft+hero+research+critique in drafts/ (1331- prefix)."
+    },
+    {
+      "number": 1332,
+      "slug": "1332-toyota-sienna-seatback-unlock-crash",
+      "title": "Toyota Found a Crash Defect Without a Single Crash",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-06",
+      "started": "2026-10-30T11:30:00-07:00",
+      "critic_avg": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.6,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "hero_hash": "cdc4b507",
+        "word_count": 911
+      },
+      "files": {
+        "research": "drafts/1332-toyota-sienna-seatback-unlock-crash-research.md",
+        "draft": "drafts/1332-toyota-sienna-seatback-unlock-crash.html",
+        "critic_panel": "drafts/1332-toyota-sienna-seatback-unlock-crash-critic-panel-r0.md",
+        "hero": "drafts/1332-toyota-sienna-seatback-unlock-crash.jpg"
+      },
+      "note": "2026-10-30 11:30 run: Round-0 pass 8.79 avg; 7/7 critics >= 8.5. News peg: NHTSA 26V690 filed Oct 27, 2026 (Toyota 26TB24/26TA24) \u2014 228,367 MY2022-2026 Sienna Hybrids, second-row seatback outboard recliner can disengage in frontal crash via pretensioner-induced cam/pawl oscillation. Novel: defect found in Jan-Nov 2025 sled testing for a FUTURE seat (21-month lab-only timeline, zero field reports/injuries), 30.7% fleet-share math, software (SRS ECU retiming) fix for a mechanical latch walk-out, FARS minivan rate context (Sienna 0.49 vs Pacifica 0.19 vs Odyssey 0.93). Counterargument at full strength (lab-artifact hypothesis). Mia Crumplezone."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
