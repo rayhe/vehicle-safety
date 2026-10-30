@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1333-ford-f-series-lying-speedometer-26v653",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-10-30T13:30:44.944144-07:00"
-  },
+  "current": null,
   "last_check_note": "2026-10-30 11:30 run: full pipeline #1332 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Mia Crumplezone, Toyota Sienna 26V690 seatback-unlock recall, found via 2025 sled testing, zero crashes), queued 2028-03-06. #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero in drafts/) stays queued: 1/day publish gate already consumed by Publish #833 at 01:29.",
   "last_checked": "2026-10-30T11:30:00-07:00",
-  "last_completed": "2026-10-30T11:39:54.953025-07:00",
+  "last_completed": "2026-10-30T13:34:48.482186-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-29T02:30:00-07:00",
@@ -20159,6 +20154,24 @@
         "hero": "drafts/1332-toyota-sienna-seatback-unlock-crash.jpg"
       },
       "note": "2026-10-30 11:30 run: Round-0 pass 8.79 avg; 7/7 critics >= 8.5. News peg: NHTSA 26V690 filed Oct 27, 2026 (Toyota 26TB24/26TA24) \u2014 228,367 MY2022-2026 Sienna Hybrids, second-row seatback outboard recliner can disengage in frontal crash via pretensioner-induced cam/pawl oscillation. Novel: defect found in Jan-Nov 2025 sled testing for a FUTURE seat (21-month lab-only timeline, zero field reports/injuries), 30.7% fleet-share math, software (SRS ECU retiming) fix for a mechanical latch walk-out, FARS minivan rate context (Sienna 0.49 vs Pacifica 0.19 vs Odyssey 0.93). Counterargument at full strength (lab-artifact hypothesis). Mia Crumplezone."
+    },
+    {
+      "number": 1333,
+      "slug": "1333-ford-f-series-lying-speedometer-26v653",
+      "title": "Ford Recalled 102,159 F-Series Trucks Because the Speedometer Might Be Making Up Numbers",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-07",
+      "scores": {
+        "general": 8.8,
+        "voice": 8.7,
+        "ethics": 9.2,
+        "social": 8.7,
+        "legal": 9.0,
+        "rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "note": "2026-10-30 13:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.88; gates: em 0, banned 0, The 8.6%, hero JPEG 1920x1280 ?v=81bff4ae; NHTSA 26V653000/Ford 26C46; FMVSS 101 accuracy paradox + Aug 2025 digital-panel contrast). Draft+hero+research+critique in drafts/ (1333- prefix)."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
