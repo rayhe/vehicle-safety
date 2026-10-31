@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1336-vw-ota-80-cap-audi-honor-system",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-10-30T19:30:00-07:00"
-  },
-  "last_check_note": "2026-10-30 19:30 run: #1336 RESEARCH done (Clara Rollover; VW OTA 80% cap vs Audi honor-system on ID.4/Q4 battery-fire defect; motorbiscuit Oct 31 + NHTSA 26V630/26V698). Proceeding to DRAFT.",
+  "current": null,
+  "last_check_note": "2026-10-30 19:30 run: #1336 SHIPPED to queue (2028-03-10). PUBLISH-QUEUE: checking 1/day gate next.",
   "last_checked": "2026-10-30T19:30:00-07:00",
-  "last_completed": "2026-10-30T17:45:00-07:00",
+  "last_completed": "2026-10-30T19:30:00-07:00",
   "last_completed_date": "2026-10-30",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1336,
+  "next": 1337,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20253,6 +20248,43 @@
         "critic_panel": "drafts/1335-tire-standards-vestigial-rulemaking-critic-panel-r0.md"
       },
       "note": "2026-10-30 17:40 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79, all 7 critics >=8.5)->SHIP. News-driven (NHTSA tire-standards negotiated rulemaking announced Oct 26, NPRM Oct 27, comments due Nov 27). Hero real JPEG 1920x1280 ?v=3bd643ba. Queued 2028-03-09."
+    },
+    {
+      "number": 1336,
+      "slug": "1336-vw-ota-80-cap-audi-honor-system",
+      "title": "Volkswagen Cut 20% of Your Battery Over the Internet. Audi Is Asking You to Do It Yourself.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "ship_date": "2028-03-10",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.71,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "word_count": 640
+      },
+      "files": {
+        "research": "drafts/1336-vw-ota-80-cap-audi-honor-system-research.md",
+        "story": "drafts/1336-vw-ota-80-cap-audi-honor-system.html",
+        "hero": "drafts/1336-vw-ota-80-cap-audi-honor-system.jpg",
+        "critic_panel": "drafts/1336-vw-ota-80-cap-audi-honor-system-critic-panel-r0.md"
+      },
+      "note": "2026-10-30 19:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (Clara Rollover; VW ID.4 OTA 80% cap vs Audi Q4 honor-system; same battery-fire defect, divergent enforcement; motorbiscuit Oct 31 + NHTSA 26V630/26V698). Queued 2028-03-10."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
