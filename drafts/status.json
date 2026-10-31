@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1338-october-wheel-recall-cluster",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-10-30T23:35:00-07:00"
-  },
-  "last_check_note": "2026-10-30 23:30 run: #1338 RESEARCH done (Axle McScatter; Oct 2026 wheel-fastening cluster: Porsche 26V682 548 cars expanding 24V809 + Hyundai 26V693 17 cars + 26V692 24 cars).",
-  "last_checked": "2026-10-30T23:35:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-30 23:30 run: #1338 RESEARCH->DRAFT->CRITIQUE(r0 avg 9.0)->SHIP (Axle McScatter; Oct 2026 wheel-fastening recall cluster; Porsche 26V682 + Hyundai 26V692/26V693), queued 2028-03-12. PUBLISH-QUEUE: 1/day gate consumed by Publish #833 earlier today; #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
+  "last_checked": "2026-10-30T23:55:00-07:00",
   "last_completed": "2026-10-30T21:30:00-07:00",
   "last_completed_date": "2026-10-30",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1337,
+  "next": 1339,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20308,6 +20303,45 @@
         9.0
       ],
       "note": "2026-10-30 21:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 9.07)->SHIP. 26V700 (Oct 21, 26,729 trucks); cascade tally 65,781; MX-13 class action trial Oct 2027. Hero JPEG 1920x1280, ?v=36b303ff. Queued 2028-03-11."
+    },
+    {
+      "number": 1338,
+      "slug": "1338-october-wheel-recall-cluster",
+      "title": "The Wheels Came Loose in October: 589 Cars, 3 Recalls, and Porsche's 1-in-5 Miss",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2028-03-12",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "c8fa97a3",
+        "rhythm_pass": true,
+        "word_count": 965
+      },
+      "files": {
+        "research": "drafts/1338-october-wheel-recall-cluster-research.md",
+        "story": "drafts/1338-october-wheel-recall-cluster.html",
+        "hero": "drafts/1338-october-wheel-recall-cluster.jpg",
+        "critic_panel": "drafts/1338-october-wheel-recall-cluster-critique.md"
+      },
+      "note": "2026-10-30 23:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 9.0)->SHIP. Axle McScatter; Oct 2026 wheel-fastening cluster: Porsche 26V682 (548 cars, expands 24V809, 19.6% traceability miss) + Hyundai 26V693 (17) + 26V692 (24); 589 total. Hero JPEG 1920x1280, ?v=c8fa97a3. Queued 2028-03-12."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
