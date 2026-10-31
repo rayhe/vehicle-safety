@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-30 19:30 run: #1336 SHIPPED to queue (2028-03-10). PUBLISH-QUEUE: checking 1/day gate next.",
+  "last_check_note": "2026-10-30 19:30 run: #1336 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (Clara Rollover, VW ID.4 OTA 80% cap vs Audi Q4 honor-system, NHTSA 26V630/26V698), queued 2028-03-10. PUBLISH-QUEUE: 1/day gate consumed by Publish #833 earlier today; #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
   "last_checked": "2026-10-30T19:30:00-07:00",
   "last_completed": "2026-10-30T19:30:00-07:00",
   "last_completed_date": "2026-10-30",
