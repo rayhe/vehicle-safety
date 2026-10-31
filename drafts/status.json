@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-30 19:30 run: #1336 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.71)->SHIP (Clara Rollover, VW ID.4 OTA 80% cap vs Audi Q4 honor-system, NHTSA 26V630/26V698), queued 2028-03-10. PUBLISH-QUEUE: 1/day gate consumed by Publish #833 earlier today; #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
-  "last_checked": "2026-10-30T19:30:00-07:00",
+  "current": {
+    "slug": "1338-october-wheel-recall-cluster",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-10-30T23:35:00-07:00"
+  },
+  "last_check_note": "2026-10-30 23:30 run: #1338 RESEARCH done (Axle McScatter; Oct 2026 wheel-fastening cluster: Porsche 26V682 548 cars expanding 24V809 + Hyundai 26V693 17 cars + 26V692 24 cars).",
+  "last_checked": "2026-10-30T23:35:00-07:00",
   "last_completed": "2026-10-30T21:30:00-07:00",
   "last_completed_date": "2026-10-30",
   "last_journalist": "Clara Rollover",
