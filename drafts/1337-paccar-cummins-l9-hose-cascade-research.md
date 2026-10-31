@@ -1,0 +1,41 @@
+# Research Notes — #1337: The Cummins L9 hose cascade reaches PACCAR (26V700)
+
+## Story thesis
+One defective hose, five supplier recalls, and now the truck manufacturers are falling in line one by one. On October 21, 2026, PACCAR filed NHTSA campaign 26V700 recalling 26,729 Kenworth and Peterbilt trucks because the remote fuel filter hose on their Cummins L9 diesel engines can separate from its fitting, leaking fuel and stalling the engine. This is the downstream echo of Cummins' own September equipment recall (39,052 L9 engines), which this site covered on October 2 (#1046, the FIFTH recall of the same hose). Land Line reports "more than a dozen manufacturers" bought the affected L9s; Daimler Truck and Autocar have already filed their own recalls, with Paccar + Daimler alone accounting for 75% of all L9 engine recalls. Meanwhile PACCAR is fighting a second, unrelated fuel-system war in court: a federal judge ruled October 1 that 31 plaintiffs can take their MX-13 fuel-injector class action to trial in October 2027, alleging Paccar knew its injectors were defective and stretched a warranty to 10 years/435,000 miles instead of recalling. Two different engines, two different defects, one company, same week.
+
+## Kill test — PASS
+- Novel? Yes. Postdates #1046 (Oct 2) by three weeks. New NHTSA campaign 26V700 (Oct 21). New court ruling Oct 1 (Lasnik). New Autocar/Daimler cascade recalls. The "manufacturer cascade after the supplier recall" frame and the "Paccar fights on two fuel-system fronts" frame are both original to this piece.
+- Newsworthy? Yes. Fire risk + engine stall in 26,729 commercial trucks on US highways; the cascade means more manufacturer recalls are still coming; owners get no letters until December 20 and the only early warning is the smell of diesel.
+- 3+ primary sources? Yes: NHTSA campaign record 26V700 (via kcnebula NHTSA-data mirror), CDL Crew, Land Line Media (trade press, two pieces), Fleet Maintenance recall roundup, Overdrive on the MX-13 suit. Cummins 26E066 figures from #1046's research (NHTSA equipment recall record).
+- Data-driven? Yes: cascade tally, 3% defect-rate estimate, 60-day notification gap arithmetic, 75% Paccar+Daimler share, MX-13 numbers (31 plaintiffs, 14,000 active trucks, 110 days downtime, 10yr/435k warranty).
+
+## Primary sources
+1. NHTSA campaign 26V700000 (reported Oct 21, 2026), via kcnebula.com/recalls/26V700000: "PACCAR Incorporated is recalling certain 2022-2023 Kenworth T370, T270, 2022-2027 Kenworth T280, Peterbilt 548, 2023-2027 Kenworth T480, T380, Peterbilt 536, 537, and 2025 Peterbilt 567 vehicles. The remote fuel filter hoses may separate from the fitting, causing a fuel leak and an engine stall." Consequence: "A fuel leak in the presence of an ignition source increases the risk of a fire. An engine stall increases the risk of a crash." Fix: dealers replace fuel hoses free; owner letters begin Dec 20, 2026. Contacts: Peterbilt 1-940-591-4220, Kenworth 1-425-828-5888. PACCAR recall no. 26PACJ. 26,729 units.
+2. Land Line Media, Oct 28, 2026 ("Smell diesel? Check if your Kenworth or Peterbilt is under recall"): Cummins issued the September equipment recall on L9 engines; 39,000+ engines, Cummins estimates only 3% defective. "More than a dozen manufacturers purchased the Cummins L9 engines. Paccar is the latest." No warranty claims or injuries reported. Drivers may smell diesel, notice leak, or see low fuel pressure warning.
+3. CDL Crew, Oct 2026: 26,729 trucks; hose could disconnect and leak diesel, stall engine; letters Dec 20, 2026; 26V700 / 26PACJ.
+4. Fleet Maintenance, Oct 27, 2026 (NHTSA recall roundup, commercial vehicles): Autocar recalling certain 2022-2027 ACX (Xpeditor) with Cummins L9 diesel engines, part no. D563027BX03, same hose-separation defect. Also notes a separate Kenworth/Peterbilt bunk-restraint recall (context, not this story).
+5. wisevoter.com summarizing Land Line (Oct 28): "Paccar and Daimler Truck combined accounting for 75% of all Cummins L9 engine recalls."
+6. #1046 research (Oct 2, 2026): Cummins equipment recall 26E066, 39,052 L9 engines; fifth recall of the same remote fuel filter hose (21E063/23E055/24E038/25E004/26E066); fifth filing voids the 2023/2024/2025 remedies.
+7. Overdrive, Oct 21, 2026 ("Class-action suit proceeding against Paccar over MX-13 issues"): Washington judge cleared 31 customers (EPA 2021 MX-13 engines) to proceed to trial; suit originated Dec 2023; alleges defective fuel systems, repeated breakdowns, months of downtime; seeks notice + paid future injector repairs; trial date October 2027.
+8. Land Line Media, Oct 13, 2026 ("Costly engine breakdowns fuel lawsuit against Paccar"): U.S. District Judge Robert S. Lasnik, Oct 1 order, rejected Paccar's Clean Air Act preemption argument. 30 companies + 1 individual allege injector deposits disrupted fuel delivery (knocking, vibration, derates). 10th Gear (Kansas): problems at ~1,000 miles, 8 fuel-system incidents by 206,600 miles. Little Diesel (Missouri): 19 repair visits, 110 days downtime across 5 trucks. May 2024 internal email: Paccar engineer wrote three years in, "still don't know how to fix this injector thing." Oct 2024 email: ~1/3 of trucks had injector repair; owners "really suffering." Paccar extended injector warranty to 10 years or 435,000 miles; plaintiffs say it avoided a recall. RigDig: ~14,000 active MY2021-2023 MX-13 trucks.
+
+## Computations
+- Cascade tally (running, conservative): Cummins 26E066 = 39,052 engines (Sept 2026) + PACCAR 26V700 = 26,729 trucks (Oct 21) + Autocar ACX (count unknown, recall filed) + Daimler Truck (count unknown, "75% of all L9 recalls" with Paccar). Known-count subtotal: 65,781 and climbing; a dozen-plus manufacturers still to file.
+- 3% defect estimate applied to Paccar's 26,729 = ~800 trucks actually carrying the bad hose. The other ~25,900 get inspected anyway; dealers replace hoses on all.
+- Notification gap: recall reported Oct 21, 2026; letters begin Dec 20, 2026 = 60 days. During those 60 days the only detection methods are smell, visible leak, or low fuel pressure warning. Owners may drive two holiday-shipping months unaware.
+- MX-13 scale check: 14,000 active trucks (RigDig); 31 plaintiffs; warranty extension 10 yr / 435,000 mi; trial Oct 2027 (a year out).
+- Timeline: Sept 2026 Cummins equipment recall → Oct 21 PACCAR 26V700 → Dec 20 letters → Jan 2027(?) more manufacturer recalls expected.
+
+## Strongest counterargument
+The cascade is arguably the system working: Cummins identified the defect, estimated only 3% of parts affected, and every downstream manufacturer is filing promptly with zero injuries reported. Paccar's MX-13 case is a different engine with a different defect (injector deposits vs. hose separation); linking them may be narrative convenience, and the judge has not found liability — the Oct 1 order only cleared the Clean Air Act preemption hurdle. Also, extending the MX-13 warranty to 10 years/435,000 miles is genuinely generous coverage, and Paccar says it honored the warranty by paying for injector repairs.
+
+## Limitations
+- Autocar and Daimler Truck recall counts were not obtained (campaign numbers/counts unconfirmed at research time); the "75%" figure comes via a secondary summary of Land Line.
+- The Part 573 defect chronology for 26V700 was not reviewed; no crash/fire incidents are reported in the sources, and none are claimed.
+- #1046 covered the Cummins-side saga in depth; this piece deliberately covers only the manufacturer-cascade aftermath and the MX-13 litigation context.
+- Paccar's per-truck hose replacement cost and dealer capacity timeline were not available.
+
+## Actionable for readers
+- Kenworth/Peterbilt owner-operators: check your VIN at nhtsa.gov/recalls now, do not wait for the December 20 letter. If you smell diesel or see a low fuel pressure warning on a Cummins L9 truck, park it and call the dealer — that is the early warning system until the letters arrive. Paccar's number for this recall is 26PACJ; the fix is free.
+- Fleet buyers shopping used 2022-2027 medium-duty Kenworth/Peterbilt with Cummins L9: verify the hose replacement was done; these engines flow through the used market.
+- Anyone evaluating Paccar's MX-13-powered trucks: the class action heads to trial October 2027; injector history matters more than the odometer.
