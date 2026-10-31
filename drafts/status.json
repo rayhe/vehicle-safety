@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1345-ford-maverick-frozen-camera-recall-query",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-31T13:35:00-07:00"
+  },
   "last_check_note": "2026-10-31 09:30 run: #1343 SHIP_BLOCKED (queued 2028-03-17). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T09:30:00-07:00",
+  "last_checked": "2026-10-31T13:35:00-07:00",
   "last_completed": "2026-10-31T09:30:00-07:00",
   "last_completed_date": "2026-10-31",
   "last_journalist": "Rex Driverton",
@@ -10,7 +15,7 @@
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1344,
+  "next": 1346,
   "queue": [
     {
       "journalist": "Rex Driverton",
