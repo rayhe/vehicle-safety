@@ -8,8 +8,8 @@
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
-  "last_qa_date": "2026-10-29",
-  "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
+  "last_qa_date": "2026-10-31",
+  "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
   "next": 1339,
   "queue": [
     {
@@ -1566,7 +1566,8 @@
         "draft": "drafts/834-pedestrian-crash-lethality-doubled.html",
         "research": "drafts/834-pedestrian-crash-lethality-doubled-research.md",
         "critic_panel": "drafts/834-critic-panel-r0.md"
-      }
+      },
+      "publish_commit": "2e07e9c5"
     },
     {
       "critic_avg": 9.03,
