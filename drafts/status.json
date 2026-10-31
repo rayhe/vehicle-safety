@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-10-30 23:30 run: #1338 RESEARCH->DRAFT->CRITIQUE(r0 avg 9.0)->SHIP (Axle McScatter; Oct 2026 wheel-fastening recall cluster; Porsche 26V682 + Hyundai 26V692/26V693), queued 2028-03-12. PUBLISH-QUEUE: 1/day gate consumed by Publish #833 earlier today; #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
+  "last_check_note": "2026-10-31 01:30 run: Published #834 (pedestrian-crash-lethality-doubled, Axle McScatter), QA live-verified (story 200, hero JPEG 200, og tags, index card, sitemap). #1339 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Axle McScatter; Ford 741K rollaway 10-month remedy gap; 26S48/26V402), queued 2028-03-13. Hero real JPEG 1920x1280 ?v=ff0f3661. PUBLISH-QUEUE: 1/day gate consumed by Publish #834.",
   "last_checked": "2026-10-30T23:55:00-07:00",
   "last_completed": "2026-10-30T21:30:00-07:00",
   "last_completed_date": "2026-10-30",
@@ -10,7 +10,7 @@
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1339,
+  "next": 1340,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20343,6 +20343,45 @@
         "critic_panel": "drafts/1338-october-wheel-recall-cluster-critique.md"
       },
       "note": "2026-10-30 23:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 9.0)->SHIP. Axle McScatter; Oct 2026 wheel-fastening cluster: Porsche 26V682 (548 cars, expands 24V809, 19.6% traceability miss) + Hyundai 26V693 (17) + 26V692 (24); 589 total. Hero JPEG 1920x1280, ?v=c8fa97a3. Queued 2028-03-12."
+    },
+    {
+      "number": 1339,
+      "slug": "1339-ford-741k-rollaway-ten-month-remedy-gap",
+      "title": "741,195 Fords Can Roll Away After You Park Them. The Fix Arrives in April 2027.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2028-03-13",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "ff0f3661",
+        "rhythm_pass": true,
+        "word_count": 9015
+      },
+      "files": {
+        "research": "drafts/1339-ford-741k-rollaway-ten-month-remedy-gap-research.md",
+        "story": "drafts/1339-ford-741k-rollaway-ten-month-remedy-gap.html",
+        "hero": "drafts/1339-ford-741k-rollaway-ten-month-remedy-gap.jpg",
+        "critic_panel": "drafts/1339-ford-741k-rollaway-ten-month-remedy-gap-critique.md"
+      },
+      "note": "2026-10-31 01:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP. Axle McScatter; Ford 26S48/26V402 rollaway recall (741,195, 285 reports, 24 prop damage, 9 alleged injuries; interim Aug 2026, remedy Apr 2027); novel math: 8.34B gap miles, ~296K never repaired; May 2023 TSB head start. Hero JPEG 1920x1280 ?v=ff0f3661. Queued 2028-03-13."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
