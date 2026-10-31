@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-31 01:30 run: Published #834 (pedestrian-crash-lethality-doubled, Axle McScatter), QA live-verified (story 200, hero JPEG 200, og tags, index card, sitemap). #1339 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Axle McScatter; Ford 741K rollaway 10-month remedy gap; 26S48/26V402), queued 2028-03-13. Hero real JPEG 1920x1280 ?v=ff0f3661. PUBLISH-QUEUE: 1/day gate consumed by Publish #834.",
-  "last_checked": "2026-10-30T23:55:00-07:00",
+  "last_check_note": "2026-10-31 03:30 run: #1340 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Rex Driverton; Toyota 26V673 Land Cruiser fuel-clip recall, no root cause; live NHTSA API verify), queued 2028-03-14. Hero real JPEG 1920x1280 ?v=7f312614. PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 earliest-due 2026-10-31 waits for next run.",
+  "last_checked": "2026-10-31T03:30:00-07:00",
   "last_completed": "2026-10-30T21:30:00-07:00",
   "last_completed_date": "2026-10-30",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1340,
+  "next": 1341,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20382,6 +20382,45 @@
         "critic_panel": "drafts/1339-ford-741k-rollaway-ten-month-remedy-gap-critique.md"
       },
       "note": "2026-10-31 01:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP. Axle McScatter; Ford 26S48/26V402 rollaway recall (741,195, 285 reports, 24 prop damage, 9 alleged injuries; interim Aug 2026, remedy Apr 2027); novel math: 8.34B gap miles, ~296K never repaired; May 2023 TSB head start. Hero JPEG 1920x1280 ?v=ff0f3661. Queued 2028-03-13."
+    },
+    {
+      "number": 1340,
+      "slug": "1340-toyota-land-cruiser-fuel-clip-recall-unknown-cause",
+      "title": "Toyota Recalled 105,794 Land Cruisers Without Knowing What's Wrong With Them",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-03-14",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7f312614",
+        "word_count": 496,
+        "rhythm": "variance 1593.8, short 7.1%, long 71.4% PASS"
+      },
+      "files": {
+        "research": "drafts/1340-toyota-land-cruiser-fuel-clip-recall-unknown-cause-research.md",
+        "story": "drafts/1340-toyota-land-cruiser-fuel-clip-recall-unknown-cause.html",
+        "critic_panel": "drafts/1340-toyota-land-cruiser-fuel-clip-recall-unknown-cause-critique.md",
+        "hero": "drafts/1340-toyota-land-cruiser-fuel-clip-recall-unknown-cause.jpg"
+      },
+      "note": "2026-10-31 03:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86, 7/7 >= 8.5, all hard gates pass)->SHIP. NHTSA 26V673000 queried live via API; Toyota recalled 105,794 Land Cruiser Hybrids (2024-2027) with no identified root cause after 27-month lab stalemate; filed 1% defect share is a form-required placeholder. Queued 2028-03-14."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
