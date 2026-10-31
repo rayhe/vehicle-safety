@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-30 15:30 run: full pipeline #1334 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.74)->SHIP (Dale Impactor III, drunk-driving deaths down 3.9% vs alcohol-attributable deaths up 29%, NHTSA FARS 2024 + CDC + Lantana Recovery), queued 2028-03-08. #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero in drafts/) stays queued: 1/day publish gate already consumed by Publish #833 earlier today.",
-  "last_checked": "2026-10-30T11:30:00-07:00",
+  "current": {
+    "slug": "1335-tire-standards-vestigial-rulemaking",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-10-30T17:35:00-07:00"
+  },
+  "last_check_note": "2026-10-30 17:35 run: #1335 RESEARCH done (NHTSA tire-standards overhaul, announced Oct 26, NPRM Oct 27, comments due Nov 27; Rex Driverton; vestigial plunger/bead tests + paradox of falling deaths under frozen tests). PUBLISH-QUEUE: 1/day gate already consumed by Publish #833 earlier today; #834 (due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
+  "last_checked": "2026-10-30T17:35:00-07:00",
   "last_completed": "2026-10-30T15:45:00-07:00",
   "last_completed_date": "2026-10-29",
   "last_journalist": "Dale Impactor III",
