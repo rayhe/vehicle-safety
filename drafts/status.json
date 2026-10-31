@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-31 07:30 run: #1342 SHIP_BLOCKED (queued 2028-03-16). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T07:30:00-07:00",
-  "last_completed": "2026-10-31T07:30:00-07:00",
+  "last_check_note": "2026-10-31 09:30 run: #1343 SHIP_BLOCKED (queued 2028-03-17). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
+  "last_checked": "2026-10-31T09:30:00-07:00",
+  "last_completed": "2026-10-31T09:30:00-07:00",
   "last_completed_date": "2026-10-31",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1343,
+  "next": 1344,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20487,6 +20487,33 @@
         "word_count": 445
       },
       "note": "2026-10-31 07:30 run: #1342 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.80, 7/7 >= 8.5, all hard gates pass)->SHIP (Rex Driverton; NHTSA RQ26003 recall query auditing GM 25V-060 Sierra grille-deflector recall; 21/118 post-remedy detachments; hero real JPEG 1920x1280 ?v=cbf4b41d), queued 2028-03-16."
+    },
+    {
+      "number": 1343,
+      "slug": "1343-ram-2500-esc-recall-expansion-26v651",
+      "title": "Ram's Second Recall for the Same Steering Defect Catches 1,724 Trucks It Missed",
+      "journalist": "Clara Rollover",
+      "ship_date": "2028-03-17",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1343-ram-2500-esc-recall-expansion-26v651-research.md",
+        "story": "drafts/1343-ram-2500-esc-recall-expansion-26v651.html",
+        "hero": "drafts/1343-ram-2500-esc-recall-expansion-26v651.jpg",
+        "critic_panel": "drafts/1343-ram-2500-esc-recall-expansion-26v651-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "bbc50da5",
+        "word_count": 602
+      },
+      "note": "2026-10-31 09:30 run: #1343 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.84, 7/7 >= 8.5, all hard gates pass)->SHIP (Clara Rollover; NHTSA 26V651000/FCA 90D Ram 2500 ESC recall expansion, 1,724-truck 26% scope growth vs April recall; hero real JPEG 1920x1280 ?v=bbc50da5), queued 2028-03-17."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
