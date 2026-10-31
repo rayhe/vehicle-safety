@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ford Fixed the Maverick's Frozen Backup Camera With a Software Update, But Five Owners Say the Update Didn't. &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA opened recall query RQ26004 on October 23, 2026 after five Ford Maverick owners reported frozen backup camera images even after Ford's software fix. A frozen camera is worse than a blank one: it lies.">
+  <meta property="og:title" content="Ford Fixed the Maverick's Frozen Backup Camera With a Software Update, But Five Owners Say the Update Didn't.">
+  <meta property="og:description" content="273,301 Mavericks are under a new federal query. The federal question is simple: did Ford's software patch actually fix the frozen backup camera, or did it just reboot the problem?">
+  <meta property="og:image" content="images/1345-ford-maverick-frozen-camera-recall-query.jpg?v=25352766">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Ford Fixed the Maverick's Frozen Backup Camera With a Software Update, But Five Owners Say the Update Didn't.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">October 31, 2026</div>
+
+      <div class="story-body">
+      <img src="../images/1345-ford-maverick-frozen-camera-recall-query.jpg?v=25352766" alt="Ford Maverick rear with a glitching backup camera display inset" class="story-hero">
+      <p>Your backup camera shows a clear driveway, nobody behind you, so you hit the gas. What the screen never told you: the picture stopped updating three seconds ago, and there is a person where the empty driveway used to be. On October 23, NHTSA opened recall query RQ26004 to ask whether Ford's fix for exactly that failure actually worked, after five Maverick owners reported their cameras still freezing after the fix.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">5</div>
+      <div class="pull-label">Post-fix frozen-camera complaints filed with NHTSA, enough to trigger a federal recall query covering 273,301 trucks</div>
+
+      <p>Let's talk about what happens inside the first frozen frame. The Maverick's backup video runs through the Connected Touch Radio, the infotainment module that renders the camera feed on screen. A memory leak in that software starves the image pipeline, and when the pipeline dies, the frame buffer just keeps displaying the last frame it ever received. This is the engineering detail that makes the defect genuinely scary: a dead display goes dark, which at least warns you, but a frozen display shows a confident, plausible, completely wrong picture. A blank screen says "I don't know." A frozen screen says "all clear" while the world behind you moves.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>Ford's original recall, 24V684, covered 144,516 Mavericks in September 2024 and blamed that memory leak. But the remedy, a software update to version G2.2 for the Audio Control Module, didn't reach dealers until March 2025, six months later. Now five owners have told NHTSA the freeze survived the update, and the agency's investigators verified several complete failures. Because this query evaluates the effectiveness of the earlier recall, the population is bigger than the original: 273,301 trucks, every 2022 through 2024 Maverick and Maverick Hybrid on the list.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Ford, to its credit, says it cannot reproduce the failure in G2.2. Take that claim seriously, because there is a gaping hole in the five complaints: the update was a dealer service action, not an over-the-air push. Any owner who never brought the truck in, and any dealer who fumbled the paperwork, leaves a truck running the old software with the recall "closed" on paper. Five complaints against 273,000 trucks is not a pattern; it is a question mark, and zero crashes appear in the query file. The honest reading is that this could be a failed remedy, or it could be five trucks that never got the remedy.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>What this article did not prove: whether any of the five trucks had confirmed G2.2 installs, whether the memory leak has a second trigger the patch misses, or whether NHTSA will escalate to a full Engineering Analysis. What you should do is unambiguous: if you own a 2022-2024 Maverick, run your VIN at nhtsa.gov/recalls and look for 24V684, then check that your service paperwork actually shows the ACM software update was performed, not just that the recall was "opened" or "scheduled." If your camera ever freezes, stutters, or shows a frame that looks suspiciously still, file a complaint at NHTSA's Report a Safety Problem page: the five VOQs that opened this query prove the system listens. And in general, treat the backup camera as one input, not the verdict. FMVSS 111 made the camera mandatory, but it never made the camera infallible. Your mirrors still work, and unlike the software, they cannot freeze.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">Chris Teague, "Owners Claim Ford Maverick's Camera Issue Wasn't Fixed After Recall," AutoBlog (Oct. 27, 2026): NHTSA opened Recall Query RQ26004 on Oct. 23, 2026 covering ~273,301 2022-2024 Maverick and Maverick Hybrid units; five Vehicle Owner Questionnaires allege frozen images after the recall remedy; original recall 24V684 (Sept. 2024) blamed a memory leak in the Connected Touch Radio software; no crashes in the query file; two accident reports and no injuries in the original recall. <a href="https://www.autoblog.com/news/owners-claim-ford-mavericks-camera-issue-wasnt-fixed-after-recall" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-2">"2022-2024 Ford Maverick Pickups Under Investigation By NHTSA," Ford Authority (Oct. 26, 2026): remedy was an Audio Control Module software update to version G2.2 deployed March 2025; Ford "thus far been unable to replicate the problem" in G2.2; improper memory handling in the CTR software causes a component in the end-to-end rearview-camera image processing path to fail. <a href="https://fordauthority.com/2026/10/2022-2024-ford-maverick-pickups-under-investigation-by-nhtsa/" target="_blank" rel="noopener">fordauthority.com</a></li>
+          <li id="ref-3">OEMDTC, "Investigations List": NHTSA Action Number RQ26004, opened 2026-10-23, manufacturer Ford Motor Company, "Frozen Rear-view Camera Image," investigation open. <a href="https://oemdtc.com/investigations-list/" target="_blank" rel="noopener">oemdtc.com</a></li>
+          <li id="ref-4">NHTSA, vehicle recall lookup and Report a Safety Problem (search by VIN; check for campaign 24V684). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">Joshua Dowling, "2024-2026 Ford Ranger and Everest recalled in Australia for rear-view camera fault," Drive.com.au (Oct. 23, 2026): 1,085 vehicles recalled for blank center screens; Ford's 23rd Australian recall of 2026 (context on a busy month for Ford camera displays). <a href="https://www.drive.com.au/news/2024-2026-ford-ranger-and-everest-recalled-in-australia-for-rear-view-camera-fault/" target="_blank" rel="noopener">drive.com.au</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> Reporting on NHTSA recall query RQ26004 and recall 24V684; see references. NHTSA has not issued a defect finding. Complaint counts are not failure rates. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

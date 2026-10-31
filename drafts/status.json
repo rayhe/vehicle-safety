@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1345-ford-maverick-frozen-camera-recall-query",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-31T13:35:00-07:00"
-  },
-  "last_check_note": "2026-10-31 09:30 run: #1343 SHIP_BLOCKED (queued 2028-03-17). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T13:35:00-07:00",
-  "last_completed": "2026-10-31T09:30:00-07:00",
+  "current": null,
+  "last_check_note": "2026-10-31 13:30 run: #1345 SHIP_BLOCKED (queued 2028-03-19). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
+  "last_checked": "2026-10-31T13:55:00-07:00",
+  "last_completed": "2026-10-31T13:55:00-07:00",
   "last_completed_date": "2026-10-31",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
@@ -20563,6 +20558,50 @@
         "critic_panel": "drafts/1344-gm-l87-engineering-analysis-deadline-critic-panel-r0.md"
       },
       "note": "2026-10-31 11:30 run: #1344 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.80, 7/7 >= 8.5, all hard gates pass)->SHIP (Rex Driverton; chapter 3 of L87 saga: EA26005 escalation, NHTSA six-request letter with Oct 30 deadline, 26 post-replacement failures (5.2% of 499), 191 post-window failures, GM dismissal-motion paradox; hero real JPEG 1920x1280 ?v=07a97ecc), queued 2028-03-18."
+    },
+    {
+      "number": 1345,
+      "slug": "1345-ford-maverick-frozen-camera-recall-query",
+      "title": "Ford Fixed the Maverick's Frozen Backup Camera With a Software Update, But Five Owners Say the Update Didn't.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "ship_date": "2028-03-19",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.6
+      },
+      "avg_critic": 8.77,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "25352766",
+        "sentence_rhythm": {
+          "variance": 2369.9,
+          "short_pct": 13.6,
+          "long_pct": 63.6,
+          "passed": true
+        },
+        "word_count": 765
+      },
+      "files": {
+        "research": "drafts/1345-ford-maverick-frozen-camera-recall-query-research.md",
+        "story": "drafts/1345-ford-maverick-frozen-camera-recall-query.html",
+        "hero": "drafts/1345-ford-maverick-frozen-camera-recall-query.jpg",
+        "critic_panel": "drafts/1345-ford-maverick-frozen-camera-recall-query-critic-panel-r0.md"
+      },
+      "note": "2026-10-31 13:30 run: #1345 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.77, 7/7 >= 8.5, all hard gates pass; rhythm gate needed one fragment-combining pass 32.1%->13.6% short)->SHIP (Mia Crumplezone; RQ26004 recall query on Ford Maverick frozen backup camera, 5 post-remedy VOQs, frozen-vs-blank failure-mode hierarchy, dealer-applied G2.2 gap as counterargument; hero real JPEG 1920x1280 ?v=25352766), queued 2028-03-19."
     }
   ],
   "last_worker_run": "2026-10-31 11:30 run: #1344 SHIP (r0 avg 8.80, Rex Driverton, GM L87 EA26005 six-question deadline) queued 2028-03-18. Publish skipped: 1 Publish commit already today (1/day gate)."
