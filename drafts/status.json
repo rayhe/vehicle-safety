@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-31 03:30 run: #1340 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86)->SHIP (Rex Driverton; Toyota 26V673 Land Cruiser fuel-clip recall, no root cause; live NHTSA API verify), queued 2028-03-14. Hero real JPEG 1920x1280 ?v=7f312614. PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 earliest-due 2026-10-31 waits for next run.",
-  "last_checked": "2026-10-31T03:30:00-07:00",
+  "last_check_note": "2026-10-31 05:30 run: #1341 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86, 7/7 >= 8.5, all hard gates pass)->SHIP (Mia Crumplezone; IIHS Oct 8 first work-truck crash-avoidance ratings; 9/11 marginal-or-poor V2V; hero real JPEG 1920x1280 ?v=dbb05e68), queued 2028-03-15. PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready b5f275f9) publishes on next clear-gate run.",
+  "last_checked": "2026-10-31T05:30:00-07:00",
   "last_completed": "2026-10-30T21:30:00-07:00",
   "last_completed_date": "2026-10-30",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1341,
+  "next": 1342,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20421,6 +20421,45 @@
         "hero": "drafts/1340-toyota-land-cruiser-fuel-clip-recall-unknown-cause.jpg"
       },
       "note": "2026-10-31 03:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86, 7/7 >= 8.5, all hard gates pass)->SHIP. NHTSA 26V673000 queried live via API; Toyota recalled 105,794 Land Cruiser Hybrids (2024-2027) with no identified root cause after 27-month lab stalemate; filed 1% defect share is a form-required placeholder. Queued 2028-03-14."
+    },
+    {
+      "number": 1341,
+      "slug": "1341-iihs-work-truck-crash-avoidance-ratings",
+      "title": "America's Work Trucks Can't See Motorcycles. IIHS Finally Graded the Blind Spot.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "ship_date": "2028-03-15",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "dbb05e68",
+        "word_count": 622,
+        "rhythm": "variance 785.6, short 12.9%, long 35.5% PASS"
+      },
+      "files": {
+        "research": "drafts/1341-iihs-work-truck-crash-avoidance-ratings-research.md",
+        "story": "drafts/1341-iihs-work-truck-crash-avoidance-ratings.html",
+        "critic_panel": "drafts/1341-iihs-work-truck-crash-avoidance-ratings-critique.md",
+        "hero": "drafts/1341-iihs-work-truck-crash-avoidance-ratings.jpg"
+      },
+      "note": "2026-10-31 05:30 run: RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86, 7/7 >= 8.5, all hard gates pass)->SHIP. IIHS Oct 8 first crash-avoidance ratings for cargo vans/Class 3 pickups: 9 of 11 marginal/poor V2V, only Sprinter Good, Express/Savana no AEB at all, motorcycle trials worst, child dummy 'disappeared'; 16% math check 6215/0.16~=38800 vs NHTSA prelim. Queued 2028-03-15."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
