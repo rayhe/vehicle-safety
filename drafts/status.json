@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1335-tire-standards-vestigial-rulemaking",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-10-30T17:35:00-07:00"
-  },
-  "last_check_note": "2026-10-30 17:35 run: #1335 RESEARCH done (NHTSA tire-standards overhaul, announced Oct 26, NPRM Oct 27, comments due Nov 27; Rex Driverton; vestigial plunger/bead tests + paradox of falling deaths under frozen tests). PUBLISH-QUEUE: 1/day gate already consumed by Publish #833 earlier today; #834 (due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
-  "last_checked": "2026-10-30T17:35:00-07:00",
-  "last_completed": "2026-10-30T15:45:00-07:00",
-  "last_completed_date": "2026-10-29",
-  "last_journalist": "Dale Impactor III",
+  "current": null,
+  "last_check_note": "2026-10-30 17:45 run: #1335 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79)->SHIP (Rex Driverton, NHTSA tire-standards overhaul; vestigial plunger/bead tests + falling-deaths paradox), queued 2028-03-09. PUBLISH-QUEUE: 1/day gate consumed by Publish #833 earlier today; #834 (pedestrian-crash-lethality-doubled, due 2026-10-30, hero ready) stays SHIP_BLOCKED for tomorrow.",
+  "last_checked": "2026-10-30T17:45:00-07:00",
+  "last_completed": "2026-10-30T17:45:00-07:00",
+  "last_completed_date": "2026-10-30",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-29T02:30:00-07:00",
   "last_published_date": "2026-10-29",
   "last_published_slug": "832-aaa-flow-of-traffic-speeding-myth",
   "last_qa_date": "2026-10-29",
   "last_qa_note": "QA pass #832: story 200, hero JPEG 200 (1920x1280 ?v=ca720051), og tags present, index card, sitemap entry lastmod 2026-10-29, dateline Oct 29 2026. Early 404s (Pages build lag); live after deploy landed.",
-  "next": 1335,
+  "next": 1336,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20214,6 +20209,45 @@
         "critic_panel": "drafts/1334-alcohol-deaths-rise-drunk-driving-falls-critic-panel-r0.md"
       },
       "note": "2026-10-30 15:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP (round-0 pass avg 8.74; gates: em 0, banned 0, The 13.7%, hero JPEG 1920x1280 ?v=0dcdce87; NHTSA DOT HS 813 815/813 813, CDC alcohol-attributable mortality, Lantana Recovery NY 2015-2024 split via SI Advance Oct 22)."
+    },
+    {
+      "number": 1335,
+      "slug": "1335-tire-standards-vestigial-rulemaking",
+      "title": "Your Tires Are Certified by a Test Built for Tires Nobody Makes Anymore",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-03-09",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "3bd643ba",
+        "rhythm_variance": 451.2,
+        "word_count": 1104
+      },
+      "files": {
+        "research": "drafts/1335-tire-standards-vestigial-rulemaking-research.md",
+        "story": "drafts/1335-tire-standards-vestigial-rulemaking.html",
+        "hero": "drafts/1335-tire-standards-vestigial-rulemaking.jpg",
+        "critic_panel": "drafts/1335-tire-standards-vestigial-rulemaking-critic-panel-r0.md"
+      },
+      "note": "2026-10-30 17:40 run: full pipeline RESEARCH->DRAFT->CRITIQUE(r0 avg 8.79, all 7 critics >=8.5)->SHIP. News-driven (NHTSA tire-standards negotiated rulemaking announced Oct 26, NPRM Oct 27, comments due Nov 27). Hero real JPEG 1920x1280 ?v=3bd643ba. Queued 2028-03-09."
     }
   ],
   "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
