@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1346-kicks-build-date-lottery",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-10-31T15:45:00-07:00"
+  },
   "last_check_note": "2026-10-31 13:30 run: #1345 SHIP_BLOCKED (queued 2028-03-19). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
   "last_checked": "2026-10-31T13:55:00-07:00",
   "last_completed": "2026-10-31T13:55:00-07:00",
@@ -20604,5 +20609,5 @@
       "note": "2026-10-31 13:30 run: #1345 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.77, 7/7 >= 8.5, all hard gates pass; rhythm gate needed one fragment-combining pass 32.1%->13.6% short)->SHIP (Mia Crumplezone; RQ26004 recall query on Ford Maverick frozen backup camera, 5 post-remedy VOQs, frozen-vs-blank failure-mode hierarchy, dealer-applied G2.2 gap as counterargument; hero real JPEG 1920x1280 ?v=25352766), queued 2028-03-19."
     }
   ],
-  "last_worker_run": "2026-10-31 11:30 run: #1344 SHIP (r0 avg 8.80, Rex Driverton, GM L87 EA26005 six-question deadline) queued 2028-03-18. Publish skipped: 1 Publish commit already today (1/day gate)."
+  "last_worker_run": "2026-10-31 15:30 run: #1346 RESEARCH complete (Clara Rollover; IIHS Oct-22 rear-seat retest, Kicks Poor->Good via June-2026 mid-year belt fix, Q3/Trailblazer Poor, build-date lottery angle) -> DRAFT."
 }
