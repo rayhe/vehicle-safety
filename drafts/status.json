@@ -4,7 +4,7 @@
   "last_checked": "2026-10-31T09:30:00-07:00",
   "last_completed": "2026-10-31T09:30:00-07:00",
   "last_completed_date": "2026-10-31",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
@@ -20514,7 +20514,51 @@
         "word_count": 602
       },
       "note": "2026-10-31 09:30 run: #1343 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.84, 7/7 >= 8.5, all hard gates pass)->SHIP (Clara Rollover; NHTSA 26V651000/FCA 90D Ram 2500 ESC recall expansion, 1,724-truck 26% scope growth vs April recall; hero real JPEG 1920x1280 ?v=bbc50da5), queued 2028-03-17."
+    },
+    {
+      "number": 1344,
+      "slug": "1344-gm-l87-engineering-analysis-deadline",
+      "title": "NHTSA Asked GM What Warning You Get Before Your Engine Dies. The Deadline Was Yesterday.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-03-18",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.6
+      },
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "07a97ecc",
+        "sentence_rhythm": {
+          "variance": 1923.4,
+          "short_pct": 12.9,
+          "long_pct": 51.6,
+          "passed": true
+        },
+        "word_count": 664
+      },
+      "files": {
+        "research": "drafts/1344-gm-l87-engineering-analysis-deadline-research.md",
+        "story": "drafts/1344-gm-l87-engineering-analysis-deadline.html",
+        "hero": "drafts/1344-gm-l87-engineering-analysis-deadline.jpg",
+        "critic_panel": "drafts/1344-gm-l87-engineering-analysis-deadline-critic-panel-r0.md"
+      },
+      "note": "2026-10-31 11:30 run: #1344 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.80, 7/7 >= 8.5, all hard gates pass)->SHIP (Rex Driverton; chapter 3 of L87 saga: EA26005 escalation, NHTSA six-request letter with Oct 30 deadline, 26 post-replacement failures (5.2% of 499), 191 post-window failures, GM dismissal-motion paradox; hero real JPEG 1920x1280 ?v=07a97ecc), queued 2028-03-18."
     }
   ],
-  "last_worker_run": "2026-10-29 21:30 run: #1325 SHIP (r0 avg 8.89, Axle McScatter, 2026 Explorer 11-recall census) queued 2028-02-28. Publish skipped: 1 Publish commit already today (1/day gate). #833 provo-orem-deadliest-school-zones due 2026-10-29 but hero-less in drafts/ (per rule: hero-less articles never ship; noted for next run)."
+  "last_worker_run": "2026-10-31 11:30 run: #1344 SHIP (r0 avg 8.80, Rex Driverton, GM L87 EA26005 six-question deadline) queued 2028-03-18. Publish skipped: 1 Publish commit already today (1/day gate)."
 }
