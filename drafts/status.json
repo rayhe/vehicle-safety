@@ -1,13 +1,7 @@
 {
-  "current": {
-    "slug": "1352-jlr-dcdc-converter-recall-expansion-26v599",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-01T04:30:00-07:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-01 04:30 run: DRAFT #1352 written (JLR DC-DC converter expansion 26V599/E008, Clara Rollover, ~556 words body). Hero JPEG verified (1920x1280 real JPEG, ?v=cff68aef). Hard gates pre-checked: em 0, banned 0, The-starters 7.3%, css class/story+style.css ok. Proceeding to CRITIQUE.",
-  "last_checked": "2026-11-01T05:00:00-07:00",
+  "current": null,
+  "last_check_note": "2026-11-01 04:30 run: #1352 SHIP_BLOCKED (queued 2028-03-26, Clara Rollover, JLR DC-DC converter expansion 26V599/E008, critic 8.89). PUBLISH-QUEUE: 1/day gate consumed today (2 publishes), skip.",
+  "last_checked": "2026-11-01T05:10:00-07:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
   "last_completed_date": "2026-11-01",
   "last_journalist": "Clara Rollover",
@@ -16,7 +10,7 @@
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1352,
+  "next": 1353,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20852,6 +20846,43 @@
         "critic_panel": "drafts/1351-porsche-center-lock-recall-expansion-critic-panel-r0.md"
       },
       "note": "2026-11-01 02:30 run: RESEARCH+DRAFT+CRITIQUE all in one run (current was null). NHTSA 26V682 filed Oct 16 2026; 548 added 2024 911/718s under do-not-drive order; cause named (lead/bismuth out of spec, Hirschvogel batch). Round-0 panel VERDICT: SHIP (avg 8.89). ship_date 2028-03-25 = 1 day after latest SHIP_BLOCKED (#1350, 2028-03-24)."
+    },
+    {
+      "number": 1352,
+      "slug": "1352-jlr-dcdc-converter-recall-expansion-26v599",
+      "title": "JLR Found 23,677 More SUVs That Can Go Dark and Die in Ten Seconds",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "ship_date": "2028-03-26",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "cff68aef",
+        "word_count": 521
+      },
+      "files": {
+        "research": "drafts/1352-jlr-dcdc-converter-recall-expansion-26v599-research.md",
+        "story": "drafts/1352-jlr-dcdc-converter-recall-expansion-26v599.html",
+        "hero": "drafts/1352-jlr-dcdc-converter-recall-expansion-26v599.jpg",
+        "critic_panel": "drafts/1352-jlr-dcdc-converter-recall-expansion-26v599-critic-panel-r0.md"
+      },
+      "note": "2026-11-01 04:30 run: CRITIQUE r0 PASS (avg 8.89, 7/7 >= 8.5; gates: em 0, banned 0, The 10.0%, css ok, hero JPEG 1920x1280 ?v=cff68aef). Queued ship_date 2028-03-26. PUBLISH-QUEUE: 1/day gate consumed by 2 publish commits today; skip."
     }
   ],
   "last_worker_run": "2026-10-31 15:30 run: #1346 SHIP (r0 avg 8.83, Clara Rollover, Kicks build-date lottery) queued 2028-03-20. Publish skipped: 1 Publish commit already today (1/day gate). #835 gm-eboost remains due for next run."
