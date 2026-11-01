@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-01 01:30 run: #1350 SHIP_BLOCKED (queued 2028-03-24). PUBLISH-QUEUE: gate clear (0 publishes today); published #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready). #836 china-door-mega-recall-43-million (due 2026-11-01, hero-ready) publishes on next clear-gate run (2026-11-02).",
-  "last_checked": "2026-11-01T01:35:00-07:00",
+  "current": {
+    "slug": "1351-audi-q4-etron-80-percent-cap-recall",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-01T01:50:00-07:00"
+  },
+  "last_check_note": "2026-11-01 01:30 run: published #835 (QA pass live-verified). RESEARCH done for #1351 (Clara Rollover, Audi Q4 e-tron 80% battery recall 26V-698, sequel to #1105/#1172 ID.4). status.json current=DRAFT. #836 china-door-mega-recall-43-million (due 2026-11-01, hero-ready) publishes on next clear-gate run (2026-11-02).",
+  "last_checked": "2026-11-01T01:55:00-07:00",
   "last_completed": "2026-10-31T23:55:00-07:00",
   "last_completed_date": "2026-10-31",
   "last_journalist": "Mia Crumplezone",
@@ -10,7 +15,7 @@
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1351,
+  "next": 1352,
   "queue": [
     {
       "journalist": "Rex Driverton",
