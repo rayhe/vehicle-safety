@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-01 01:30 run: published #835 (QA pass live-verified). Full pipeline for #1351: RESEARCH -> DRAFT -> CRITIQUE (round-0 pass 9.06) -> SHIP_BLOCKED, queued 2028-03-25. Next publish: #836 china-door-mega-recall-43-million (due 2026-11-01, hero-ready) on next clear-gate run (2026-11-02).",
-  "last_checked": "2026-11-01T02:00:00-07:00",
+  "last_check_note": "2026-11-01 01:30 run: published #835 (QA pass live-verified). #1351 REMOVED as duplicate: it re-covered NHTSA 26V-698, already shipped as #1268 (queued 2028-01-01). Coverage check failed because the grep output was head -10 truncated and the campaign-ID grep result was misread from a backgrounded command. next reset to 1351. Lesson recorded in AGENTS.md.",
+  "last_checked": "2026-11-01T02:10:00-07:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
   "last_completed_date": "2026-11-01",
   "last_journalist": "Clara Rollover",
@@ -10,7 +10,7 @@
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1352,
+  "next": 1351,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20807,44 +20807,6 @@
         "critic_panel": "drafts/1350-ford-godzilla-camshaft-lifter-defect-petition-critic-panel-r0.md"
       },
       "note": "2026-10-31 23:30 run: RESEARCH+DRAFT+CRITIQUE all in one run (current was null). DP26011 opened Oct 23 2026; petition ODI 11764421 received Jun 13 2026. Round-0 panel VERDICT: SHIP (avg 8.77). ship_date 2028-03-24 = 1 day after latest SHIP_BLOCKED (#1349, 2028-03-23)."
-    },
-    {
-      "number": 1351,
-      "slug": "1351-audi-q4-etron-80-percent-cap-recall",
-      "title": "Audi Recalled 9,048 Q4 e-trons for Battery Fires. None of Them Caught Fire.",
-      "journalist": "Clara Rollover",
-      "kicker": "Investigation",
-      "ship_date": "2028-03-25",
-      "phase": "SHIP_BLOCKED",
-      "critic_avg": 9.06,
-      "critique_round": 0,
-      "scores": {
-        "general_editor": 9.0,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 9.2,
-        "social_shareability": 9.0,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.2,
-        "data_presentation": 9.0
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 12.9,
-        "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
-        "hero_hash": "70d69310",
-        "word_count": 733
-      },
-      "files": {
-        "research": "drafts/1351-audi-q4-etron-80-percent-cap-recall-research.md",
-        "story": "drafts/1351-audi-q4-etron-80-percent-cap-recall.html",
-        "hero": "drafts/1351-audi-q4-etron-80-percent-cap-recall.jpg",
-        "critic_panel": "drafts/1351-critic-panel-r0.md"
-      },
-      "note": "2026-11-01 01:30 run: Round-0 pass 9.06 avg; 7/7 critics >= 8.5, all hard gates pass. News peg: NHTSA 26V-698 filed Oct 21, 2026 (Audi 93SK), 9,048 Q4 e-tron/Sportback, 80% SoC cap, root cause unknown, zero known fires. Sequel to #1105/#1172 (ID.4). Round-0 fix: EPA range trim corrected (Q4 55 AWD 258 mi) + ref [5]. Hero JPEG 1920x1280 ?v pending publish-time hash. Queued 2028-03-25 (1 day after latest SHIP_BLOCKED 2028-03-24).",
-      "started": "2026-11-01T01:50:00-07:00"
     }
   ],
   "last_worker_run": "2026-10-31 15:30 run: #1346 SHIP (r0 avg 8.83, Clara Rollover, Kicks build-date lottery) queued 2028-03-20. Publish skipped: 1 Publish commit already today (1/day gate). #835 gm-eboost remains due for next run."
