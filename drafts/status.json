@@ -1,23 +1,23 @@
 {
   "current": {
-    "number": 1354,
-    "slug": "1354-cx5-vs-crv-compact-suv-safety-gap",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-01T10:35:00-08:00",
+    "number": 1355,
+    "slug": "1355-halloween-saturday-calendar-collision",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-11-01T12:35:00-08:00",
     "round": 0
   },
   "last_check_note": "2026-11-01 08:30 run: no new article work - #1353 already completed by 06:30 run (RESEARCH+DRAFT+CRITIQUE+SHIP, avg 8.87, queued 2028-03-27). Fixed next: 1353->1354 (06:30 run skipped the increment). PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits); skip.",
   "last_checked": "2026-11-01T08:30:00-08:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
   "last_completed_date": "2026-11-01",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1354,
+  "next": 1356,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20951,5 +20951,5 @@
       "note": "r0 SHIP. Novel impairment-parity cross-tab: CX-5 0.12 vs CR-V 0.53 (4.4x) with segment impairment flat at 17.6-20.5%. Fleet-age counterargument steelmanned and rebutted via RAV4 0.19. Hero JPEG verified (7aa82726)."
     }
   ],
-  "last_worker_run": "2026-11-01 08:30 run: hygiene only. Fixed next 1353->1354 (#1353 shipped by 06:30 run but increment missed). Publish-queue skipped: 1/day gate consumed (2 Publish commits today). #836 china-door-mega-recall remains due for next run."
+  "last_worker_run": "2026-11-01T12:33:37.866506-08:00"
 }
