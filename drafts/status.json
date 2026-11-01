@@ -2,7 +2,7 @@
   "current": {
     "number": 1354,
     "slug": "1354-cx5-vs-crv-compact-suv-safety-gap",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Clara Rollover",
     "started": "2026-11-01T10:35:00-08:00",
     "round": 0
@@ -20929,6 +20929,26 @@
         "critic_panel": "drafts/1353-summer-killed-safest-quarter-h1-2026-critic-panel-r0.md"
       },
       "note": "2026-11-01 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run. NSC H1 2026 estimates (Sept 9): 18,460 deaths, -2% vs H1 2025, rate 1.12; deceleration from Q1's -4.3% pace. Novel: state net arithmetic (CA +178 = ~47% of all increases; IL -134), self-correction of site's July Q1 victory lap. Round-0 panel VERDICT: SHIP (avg 8.87). ship_date 2028-03-27 = 1 day after latest SHIP_BLOCKED (#1352, 2028-03-26). PUBLISH-QUEUE: 1/day gate consumed by 2 publish commits today; skip."
+    },
+    {
+      "number": 1354,
+      "slug": "1354-cx5-vs-crv-compact-suv-safety-gap",
+      "title": "Same Segment, Same Drivers, Four Times the Deaths",
+      "journalist": "Clara Rollover",
+      "ship_date": "2028-03-28",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.5,
+        "legal": 9.0,
+        "rigor": 9.0,
+        "data": 8.5,
+        "avg": 8.86
+      },
+      "round": 0,
+      "note": "r0 SHIP. Novel impairment-parity cross-tab: CX-5 0.12 vs CR-V 0.53 (4.4x) with segment impairment flat at 17.6-20.5%. Fleet-age counterargument steelmanned and rebutted via RAV4 0.19. Hero JPEG verified (7aa82726)."
     }
   ],
   "last_worker_run": "2026-11-01 08:30 run: hygiene only. Fixed next 1353->1354 (#1353 shipped by 06:30 run but increment missed). Publish-queue skipped: 1/day gate consumed (2 Publish commits today). #836 china-door-mega-recall remains due for next run."
