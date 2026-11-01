@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-10-31 19:30 run: #1348 RESEARCH done (Great Dane 26V708 K-brace landing-gear collapse, Mia Crumplezone). Exhaustive dup-check: ~15 fresh leads all covered by existing queue entries (Porsche 26V682 #1245/#1252/#1338, Honda 26V663 #1178/#1216, Jeep 4xe 25V741 stale 2025 news, Daimler consent order stale 2020 news, VW ID.4 OTA #1336, Ford 26V655 #1234, RQ26004 #1345, DP26012 #1310). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T19:55:00-07:00",
+  "last_check_note": "2026-10-31 19:30 run: #1348 SHIP_BLOCKED (queued 2028-03-22, Mia Crumplezone, Great Dane 26V708). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30), skip. #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready, critic 9.03) publishes on next clear-gate run (2026-11-01).",
+  "last_checked": "2026-10-31T20:00:00-07:00",
   "last_completed": "2026-10-31T19:55:00-07:00",
   "last_completed_date": "2026-10-31",
   "last_journalist": "Mia Crumplezone",
