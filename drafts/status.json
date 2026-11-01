@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-31 19:30 run: #1348 SHIP_BLOCKED (queued 2028-03-22, Mia Crumplezone, Great Dane 26V708). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30), skip. #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready, critic 9.03) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T20:00:00-07:00",
-  "last_completed": "2026-10-31T19:55:00-07:00",
+  "last_check_note": "2026-10-31 21:30 run: #1349 SHIP_BLOCKED (queued 2028-03-23, Rex Driverton, Jeep 4xe battery fires third recall 25V741). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30), skip. #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready, critic 9.03) publishes on next clear-gate run (2026-11-01).",
+  "last_checked": "2026-10-31T21:55:00-07:00",
+  "last_completed": "2026-10-31T21:55:00-07:00",
   "last_completed_date": "2026-10-31",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1349,
+  "next": 1350,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20729,6 +20729,45 @@
         "critic_panel": "drafts/1348-great-dane-k-brace-landing-gear-collapse-critic-panel-r0.md"
       },
       "note": "2026-10-31 19:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.67, all 7 >= 8.5; gates: em 0, banned 0, The 9.1%, rhythm 272.7/13.6%/45.5%, hero JPEG 1920x1280 ?v=92fe823e). Novel: 26V708 filed Oct 27 (6,810 trailers, K-brace weld failure); discovered via two in-factory collapses Sept 30-Oct 1; DP26012 petition context. Exhaustive dup-check cleared ~15 competing leads."
+    },
+    {
+      "number": 1349,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-23",
+      "slug": "1349-jeep-4xe-third-battery-fire-recall",
+      "title": "Jeep's Battery Fires Survived Two Recalls. The Third One Catches 320,065.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.9,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.83,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "rhythm_variance": 224,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "41411341",
+        "word_count": 488
+      },
+      "files": {
+        "research": "drafts/1349-jeep-4xe-third-battery-fire-recall-research.md",
+        "story": "drafts/1349-jeep-4xe-third-battery-fire-recall.html",
+        "hero": "drafts/1349-jeep-4xe-third-battery-fire-recall.jpg",
+        "critic_panel": "drafts/1349-jeep-4xe-third-battery-fire-recall-critic-panel-r0.md"
+      },
+      "note": "2026-10-31 21:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.83, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm var 224/short 10%/long 45%, hero JPEG 1920x1280 ?v=41411341). Novel: NHTSA 25V741 (Oct 2025, 320,065 4xe) is the THIRD recall wave for the same battery-separator fire defect (23V787 Nov 2023, 24V-720 Sep 2024); 9 of 19 fires happened in vehicles that already received the 24V-720 software fix; Chrysler's own filing admits the software was 'ineffective in detecting' the hardware defect. Campaign data verified live via NHTSA recalls API. Queued 2028-03-23 (strict 1/day spacing). Exhaustive dup-check cleared ~20 competing leads (all covered in queue)."
     }
   ],
   "last_worker_run": "2026-10-31 15:30 run: #1346 SHIP (r0 avg 8.83, Clara Rollover, Kicks build-date lottery) queued 2028-03-20. Publish skipped: 1 Publish commit already today (1/day gate). #835 gm-eboost remains due for next run."
