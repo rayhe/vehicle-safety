@@ -1,12 +1,5 @@
 {
-  "current": {
-    "number": 1355,
-    "slug": "1355-halloween-saturday-calendar-collision",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-01T12:35:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-01 08:30 run: no new article work - #1353 already completed by 06:30 run (RESEARCH+DRAFT+CRITIQUE+SHIP, avg 8.87, queued 2028-03-27). Fixed next: 1353->1354 (06:30 run skipped the increment). PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits); skip.",
   "last_checked": "2026-11-01T08:30:00-08:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
@@ -20949,7 +20942,27 @@
       },
       "round": 0,
       "note": "r0 SHIP. Novel impairment-parity cross-tab: CX-5 0.12 vs CR-V 0.53 (4.4x) with segment impairment flat at 17.6-20.5%. Fleet-age counterargument steelmanned and rebutted via RAV4 0.19. Hero JPEG verified (7aa82726)."
+    },
+    {
+      "number": 1355,
+      "slug": "1355-halloween-saturday-calendar-collision",
+      "title": "Saturday + Halloween = 45. Do the Math.",
+      "journalist": "Dale Impactor III",
+      "ship_date": "2028-03-29",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 9.0,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 9.2,
+        "legal": 8.7,
+        "rigor": 9.3,
+        "data": 8.9,
+        "avg": 8.99
+      },
+      "round": 0,
+      "note": "r0 SHIP (avg 8.99). Novel compound-risk estimate: 29.3 Halloween-night avg x 1.54 Saturday multiplier = ~45 projected drunk-driving deaths. Counterargument steelmanned (JAMA pedestrian surge may dominate). Hero JPEG verified (fa797358). 22% Saturday share single-sourced, flagged in text."
     }
   ],
-  "last_worker_run": "2026-11-01T12:37:09.593508-08:00"
+  "last_worker_run": "2026-11-01T12:38:18.367939-08:00"
 }
