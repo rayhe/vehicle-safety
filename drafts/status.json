@@ -2,9 +2,10 @@
   "current": {
     "number": 1354,
     "slug": "1354-cx5-vs-crv-compact-suv-safety-gap",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-01T10:35:00-08:00"
+    "started": "2026-11-01T10:35:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-01 08:30 run: no new article work - #1353 already completed by 06:30 run (RESEARCH+DRAFT+CRITIQUE+SHIP, avg 8.87, queued 2028-03-27). Fixed next: 1353->1354 (06:30 run skipped the increment). PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits); skip.",
   "last_checked": "2026-11-01T08:30:00-08:00",
