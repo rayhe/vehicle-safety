@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1352-jlr-dcdc-converter-recall-expansion-26v599",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-01T04:30:00-07:00"
+    "started": "2026-11-01T04:30:00-07:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-01 04:30 run: RESEARCH #1352 (JLR DC-DC converter recall expansion 26V599/E008, Clara Rollover). Coverage-checked 1,359 slugs untruncated: 26v599/E008 uncovered; distinct new campaign expanding 26V248 (not a duplicate of #976). next repaired 1351->1352 (missed SHIP bump). PUBLISH-QUEUE: 1/day gate consumed by 2 publish commits today (11-01); #836 china-door-mega-recall-43-million due 2026-11-01 is hero-ready but waits for next clear-gate run.",
-  "last_checked": "2026-11-01T04:35:00-07:00",
+  "last_check_note": "2026-11-01 04:30 run: DRAFT #1352 written (JLR DC-DC converter expansion 26V599/E008, Clara Rollover, ~556 words body). Hero JPEG verified (1920x1280 real JPEG, ?v=cff68aef). Hard gates pre-checked: em 0, banned 0, The-starters 7.3%, css class/story+style.css ok. Proceeding to CRITIQUE.",
+  "last_checked": "2026-11-01T05:00:00-07:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
   "last_completed_date": "2026-11-01",
   "last_journalist": "Clara Rollover",
