@@ -1,23 +1,16 @@
 {
-  "current": {
-    "slug": "1348-great-dane-k-brace-landing-gear-collapse",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-10-31T19:30:00-07:00",
-    "note": "DRAFT complete 2026-10-31 19:30 run. Article HTML written (516 words, Mia Crumplezone); hero JPEG generated (1920x1280, real JPEG, ?v=92fe823e). Hard gates pre-verified: em 0, banned 0, The-starters 5.6%, class=story, style.css.",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-10-31 19:30 run: #1348 RESEARCH done (Great Dane 26V708 K-brace landing-gear collapse, Mia Crumplezone). Exhaustive dup-check: ~15 fresh leads all covered by existing queue entries (Porsche 26V682 #1245/#1252/#1338, Honda 26V663 #1178/#1216, Jeep 4xe 25V741 stale 2025 news, Daimler consent order stale 2020 news, VW ID.4 OTA #1336, Ford 26V655 #1234, RQ26004 #1345, DP26012 #1310). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T19:45:00-07:00",
-  "last_completed": "2026-10-31T17:45:00-07:00",
+  "last_checked": "2026-10-31T19:55:00-07:00",
+  "last_completed": "2026-10-31T19:55:00-07:00",
   "last_completed_date": "2026-10-31",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1348,
+  "next": 1349,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20697,6 +20690,45 @@
         "critic_panel": "drafts/1347-nhtsa-open-investigations-used-cars-critic-panel-r0.md"
       },
       "note": "2026-10-31 17:30 run: #1347 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86, 7/7 >= 8.5, all hard gates pass; The-starter gate needed one revision pass 16.3%->11.9%)->SHIP (Axle McScatter; ForCar Oct-31 aggregation of 74 open NHTSA defect investigations (24 opened in 2026, 15 ADAS, 12 recall queries) cross-tabbed against FARS 2014-2023: deadliest model in table is Honda Accord 3.07/100M VMT under phantom-braking investigation, Tesla lowest rates under suspension-link probe, ~43,800 all-cause deaths across the 11 rows, Rogue file open 7+ years; hero real JPEG 2736x912 ?v=2a23a7cf), queued 2028-03-21."
+    },
+    {
+      "number": 1348,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-03-22",
+      "slug": "1348-great-dane-k-brace-landing-gear-collapse",
+      "title": "Great Dane's Trailers Started Collapsing Inside Its Own Factory",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.6,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 8.6
+      },
+      "avg_critic": 8.67,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.1,
+        "css_class": true,
+        "style_css": true,
+        "rhythm_variance": 272.7,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "92fe823e",
+        "word_count": 583
+      },
+      "files": {
+        "research": "drafts/1348-great-dane-k-brace-landing-gear-collapse-research.md",
+        "story": "drafts/1348-great-dane-k-brace-landing-gear-collapse.html",
+        "hero": "drafts/1348-great-dane-k-brace-landing-gear-collapse.jpg",
+        "critic_panel": "drafts/1348-great-dane-k-brace-landing-gear-collapse-critic-panel-r0.md"
+      },
+      "note": "2026-10-31 19:30 run: RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.67, all 7 >= 8.5; gates: em 0, banned 0, The 9.1%, rhythm 272.7/13.6%/45.5%, hero JPEG 1920x1280 ?v=92fe823e). Novel: 26V708 filed Oct 27 (6,810 trailers, K-brace weld failure); discovered via two in-factory collapses Sept 30-Oct 1; DP26012 petition context. Exhaustive dup-check cleared ~15 competing leads."
     }
   ],
   "last_worker_run": "2026-10-31 15:30 run: #1346 SHIP (r0 avg 8.83, Clara Rollover, Kicks build-date lottery) queued 2028-03-20. Publish skipped: 1 Publish commit already today (1/day gate). #835 gm-eboost remains due for next run."
