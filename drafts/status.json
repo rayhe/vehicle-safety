@@ -20883,7 +20883,46 @@
         "critic_panel": "drafts/1352-jlr-dcdc-converter-recall-expansion-26v599-critic-panel-r0.md"
       },
       "note": "2026-11-01 04:30 run: CRITIQUE r0 PASS (avg 8.89, 7/7 >= 8.5; gates: em 0, banned 0, The 10.0%, css ok, hero JPEG 1920x1280 ?v=cff68aef). Queued ship_date 2028-03-26. PUBLISH-QUEUE: 1/day gate consumed by 2 publish commits today; skip."
+    },
+    {
+      "number": 1353,
+      "slug": "1353-summer-killed-safest-quarter-h1-2026",
+      "title": "The Safest Quarter in a Decade Didn't Survive the Summer",
+      "journalist": "Vin Wreckage",
+      "kicker": "Trend Watch",
+      "ship_date": "2028-03-27",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2352x1008",
+        "hero_hash": "a1a6a51e",
+        "word_count": 701,
+        "rhythm": "pass"
+      },
+      "files": {
+        "research": "drafts/1353-summer-killed-safest-quarter-h1-2026-research.md",
+        "story": "drafts/1353-summer-killed-safest-quarter-h1-2026.html",
+        "hero": "drafts/1353-summer-killed-safest-quarter-h1-2026.jpg",
+        "critic_panel": "drafts/1353-summer-killed-safest-quarter-h1-2026-critic-panel-r0.md"
+      },
+      "note": "2026-11-01 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run. NSC H1 2026 estimates (Sept 9): 18,460 deaths, -2% vs H1 2025, rate 1.12; deceleration from Q1's -4.3% pace. Novel: state net arithmetic (CA +178 = ~47% of all increases; IL -134), self-correction of site's July Q1 victory lap. Round-0 panel VERDICT: SHIP (avg 8.87). ship_date 2028-03-27 = 1 day after latest SHIP_BLOCKED (#1352, 2028-03-26). PUBLISH-QUEUE: 1/day gate consumed by 2 publish commits today; skip."
     }
   ],
-  "last_worker_run": "2026-10-31 15:30 run: #1346 SHIP (r0 avg 8.83, Clara Rollover, Kicks build-date lottery) queued 2028-03-20. Publish skipped: 1 Publish commit already today (1/day gate). #835 gm-eboost remains due for next run."
+  "last_worker_run": "2026-11-01 06:30 run: #1353 SHIP (r0 avg 8.87, Vin Wreckage, H1 2026 fatality deceleration) queued 2028-03-27. Publish skipped: 1/day gate consumed (2 Publish commits today). #836 china-door-mega-recall remains due for next run."
 }
