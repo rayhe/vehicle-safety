@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-10-31 21:30 run: #1349 SHIP_BLOCKED (queued 2028-03-23, Rex Driverton, Jeep 4xe battery fires third recall 25V741). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30), skip. #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready, critic 9.03) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T21:55:00-07:00",
+  "current": {
+    "slug": "1350-ford-godzilla-camshaft-lifter-defect-petition",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-10-31T23:35:00-07:00"
+  },
+  "last_check_note": "2026-10-31 23:30 run: #1350 RESEARCH complete (Ford 7.3L Godzilla defect petition DP26011, opened Oct 23 2026; Mia Crumplezone assigned). -> DRAFT.",
+  "last_checked": "2026-10-31T23:35:00-07:00",
   "last_completed": "2026-10-31T21:55:00-07:00",
   "last_completed_date": "2026-10-31",
   "last_journalist": "Rex Driverton",
