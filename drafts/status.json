@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-10-31 13:30 run: #1345 SHIP_BLOCKED (queued 2028-03-19). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
-  "last_checked": "2026-10-31T13:55:00-07:00",
-  "last_completed": "2026-10-31T13:55:00-07:00",
+  "last_check_note": "2026-10-31 17:30 run: #1347 SHIP_BLOCKED (queued 2028-03-21). PUBLISH-QUEUE: 1/day gate consumed by Publish #834 (2026-10-31 01:30); #835 gm-eboost-brake-failure-while-driving (due 2026-10-31, hero-ready) publishes on next clear-gate run (2026-11-01).",
+  "last_checked": "2026-10-31T17:45:00-07:00",
+  "last_completed": "2026-10-31T17:45:00-07:00",
   "last_completed_date": "2026-10-31",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-10-31T01:30:00-07:00",
   "last_published_date": "2026-10-31",
   "last_published_slug": "834-pedestrian-crash-lethality-doubled",
   "last_qa_date": "2026-10-31",
   "last_qa_note": "QA pass #834: story 200 (308 pretty-URL redirect, same as #833), hero JPEG 200 (1920x1280 ?v=72f0d18a), og tags present, index card, sitemap entry lastmod 2026-10-31, dateline September 7, 2026 (draft date retained).",
-  "next": 1346,
+  "next": 1348,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20646,6 +20646,50 @@
         "critic_panel": "drafts/1346-kicks-build-date-lottery-critic-panel-r0.md"
       },
       "note": "2026-10-31 15:30 run: #1346 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.83, 7/7 >= 8.5, all hard gates pass; rhythm gate needed one fragment-combining pass 25.0%->10.3% short; fixed Q3 May-2026 belt-date citation to Motor1-sourced ref; added IIHS scoreboard table)->SHIP (Clara Rollover; IIHS Oct-22 rear-seat retest, Kicks Poor->Good via June-2026 mid-year belt+load-limiter fix, Audi Q3 Poor despite May-2026 belt mod, build-date lottery consumer angle, Trailblazer nameplate-inheritance FARS cross-tab; hero real JPEG 1920x1280 ?v=476313b8), queued 2028-03-20."
+    },
+    {
+      "number": 1347,
+      "slug": "1347-nhtsa-open-investigations-used-cars",
+      "title": "74 Defects Under Federal Watch. Your Used Car Might Be One of Them.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2028-03-21",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "2a23a7cf",
+        "hero_dim": "2736x912",
+        "sentence_rhythm": {
+          "variance": 2499.7,
+          "short_pct": 12.8,
+          "long_pct": 35.9,
+          "passed": true
+        },
+        "word_count": 953
+      },
+      "files": {
+        "research": "drafts/1347-nhtsa-open-investigations-used-cars-research.md",
+        "story": "drafts/1347-nhtsa-open-investigations-used-cars.html",
+        "hero": "drafts/1347-nhtsa-open-investigations-used-cars.jpg",
+        "critic_panel": "drafts/1347-nhtsa-open-investigations-used-cars-critic-panel-r0.md"
+      },
+      "note": "2026-10-31 17:30 run: #1347 RESEARCH->DRAFT->CRITIQUE(r0 avg 8.86, 7/7 >= 8.5, all hard gates pass; The-starter gate needed one revision pass 16.3%->11.9%)->SHIP (Axle McScatter; ForCar Oct-31 aggregation of 74 open NHTSA defect investigations (24 opened in 2026, 15 ADAS, 12 recall queries) cross-tabbed against FARS 2014-2023: deadliest model in table is Honda Accord 3.07/100M VMT under phantom-braking investigation, Tesla lowest rates under suspension-link probe, ~43,800 all-cause deaths across the 11 rows, Rogue file open 7+ years; hero real JPEG 2736x912 ?v=2a23a7cf), queued 2028-03-21."
     }
   ],
   "last_worker_run": "2026-10-31 15:30 run: #1346 SHIP (r0 avg 8.83, Clara Rollover, Kicks build-date lottery) queued 2028-03-20. Publish skipped: 1 Publish commit already today (1/day gate). #835 gm-eboost remains due for next run."
