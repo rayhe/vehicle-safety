@@ -1,12 +1,7 @@
 {
-  "current": {
-    "slug": "1363-hyundai-veloster-deadliest-car-per-mile",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-02T04:30:00-08:00"
-  },
-  "last_check_note": "2026-11-02 04:30 run: #1363 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.76+SHIP, queued 2028-04-06).",
-  "last_checked": "2026-11-01T20:50:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-02 04:30 run: #1363 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.76+SHIP, queued 2028-04-06). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
+  "last_checked": "2026-11-02T04:30:00-08:00",
   "last_completed": "2026-11-02T04:30:00-08:00",
   "last_completed_date": "2026-11-02",
   "last_journalist": "Vin Wreckage",
