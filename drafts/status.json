@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "gm-26v696-six-car-seat-weld-recall",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-01T16:30:00-08:00"
-  },
-  "last_check_note": "2026-11-01 16:30 run: #1357 RESEARCH done (Rex Driverton, GM 26V696 six-car seat-weld recall, kill test PASS). Coverage checked via full filename grep; GM L87/Lincoln/Rav4/Sienna/Ioniq9 all already covered. Continuing to DRAFT.",
+  "current": null,
+  "last_check_note": "2026-11-01 16:30 run: #1357 SHIP (Rex Driverton, r0 avg 8.94, queued 2028-03-31). Proceeding to PUBLISH-QUEUE.",
   "last_checked": "2026-11-01T16:30:00-08:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
   "last_completed_date": "2026-11-01",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1357,
+  "next": 1358,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -20991,6 +20986,30 @@
         "rhythm": "PASS (var 583.4, short 6.7%, long 46.7%)"
       },
       "note": "2026-11-01 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run (r0 avg 8.90, all hard gates green). NHTSA 26V688/Ford 26S75: anti-rust oil degrades IPM PCB conformal coating -> corrosion -> neutral shift; 100% defect estimate; interim letters start Nov 2, 2026. Novel: 100%-club arithmetic, Edge FHEV gap, HPCM software trigger."
+    },
+    {
+      "number": 1357,
+      "slug": "1357-gm-26v696-six-car-seat-weld-recall",
+      "title": "NHTSA Filed a Federal Recall for Six Cars. That Is Not a Typo.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-03-31",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.94,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_ok": true,
+        "rhythm": "PASS (var 411.5, short 12.0%, long 60.0%)"
+      },
+      "files": {
+        "research": "drafts/1357-gm-26v696-six-car-seat-weld-recall-research.md",
+        "story": "drafts/1357-gm-26v696-six-car-seat-weld-recall.html",
+        "critic_panel": "drafts/1357-gm-26v696-six-car-seat-weld-recall-critic-panel-r0.md",
+        "hero": "images/1357-gm-26v696-six-car-seat-weld-recall.jpg"
+      },
+      "note": "2026-11-01 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run (r0 avg 8.94, all hard gates green; rhythm needed 2 merges to pass). NHTSA 26V696/GM N262576830: six 2026 Traverse/Acadia with cold-welded seatback frames; supplier scanned 94,000 laser-weld logs to find six parts, all built Nov 3, 2025. Novel: traceability inversion (0.0064% targeted vs Takata era), fixed-overhead recall paradox, single-day fingerprint."
     }
   ],
   "last_worker_run": "2026-11-01T12:38:18.367939-08:00"
