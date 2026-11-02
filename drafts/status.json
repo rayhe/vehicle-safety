@@ -1,16 +1,21 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-02 02:30 run: #1362 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.74+SHIP, queued 2028-04-05). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
+  "current": {
+    "slug": "1363-hyundai-veloster-deadliest-car-per-mile",
+    "phase": "SHIP",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-02T04:30:00-08:00"
+  },
+  "last_check_note": "2026-11-02 04:30 run: #1363 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.76+SHIP, queued 2028-04-06).",
   "last_checked": "2026-11-01T20:50:00-08:00",
-  "last_completed": "2026-11-02T02:30:00-08:00",
+  "last_completed": "2026-11-02T04:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1363,
+  "next": 1364,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21196,6 +21201,30 @@
         "critic_panel": "drafts/1362-badge-means-nothing-chevrolet-392x-spread-critic-panel-r0.md"
       },
       "note": "2026-11-02 02:30 run: full pipeline (RESEARCH+DRAFT+CRITIQUE r0 avg 8.74+SHIP) in one run; queued 2028-04-05. Novel within-manufacturer dispersion frame (Chevy 392x, Toyota 314x, Hyundai 142x, Ford 120x)."
+    },
+    {
+      "number": 1363,
+      "slug": "1363-hyundai-veloster-deadliest-car-per-mile",
+      "title": "The Deadliest Car in America Has 147 Horsepower",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-06",
+      "critique_round": 0,
+      "avg_critic": 8.76,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 12.8,
+        "css": "ok",
+        "hero": "JPEG 1920x1280"
+      },
+      "files": {
+        "research": "drafts/1363-hyundai-veloster-deadliest-car-per-mile-research.md",
+        "critic_panel": "drafts/1363-hyundai-veloster-deadliest-car-per-mile-critic-panel-r0.md",
+        "hero": "drafts/1363-hyundai-veloster-deadliest-car-per-mile.jpg",
+        "story": "drafts/1363-hyundai-veloster-deadliest-car-per-mile.html"
+      },
+      "note": "2026-11-02 04:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0 avg 8.76, all gates pass)+SHIP in one run. Queued 2028-04-06 (1/day spacing). FARS finding: Veloster 8.54 deaths/100M VMT, highest of 337 models; paradox = slow car (147 hp), unremarkable tox (17.4%), hypothesis = driver-behavior + halo effect."
     }
   ],
   "last_worker_run": "2026-11-02T00:30:00-08:00"
