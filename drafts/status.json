@@ -21113,7 +21113,46 @@
         "css_class_ok": true
       },
       "note": "NHTSA 26V687000 / Lexus 26LA10. 68,356 MY2022-2024 NX250/NX350/NX350H/NX450h+. Cluster combination meter may fail to display warnings; FMVSS 101 noncompliance. Letters mailed Dec 7, 2026. Hero image present."
+    },
+    {
+      "number": 1361,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-04",
+      "slug": "1361-paccar-bunk-restraint-glued-not-sewn",
+      "title": "Paccar Glued the Seatbelt Onto Your Bed. The Sewing Was Optional.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "started": "2026-11-02T00:30:00-08:00",
+      "critique_round": 0,
+      "critic_avg": 8.73,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "45a11248",
+        "rhythm": "variance 345.0, short 9.7%, long 45.2% PASS"
+      },
+      "files": {
+        "research": "drafts/1361-paccar-bunk-restraint-glued-not-sewn-research.md",
+        "story": "drafts/1361-paccar-bunk-restraint-glued-not-sewn.html",
+        "critic_panel": "drafts/1361-paccar-bunk-restraint-glued-not-sewn-critic-panel-r0.md",
+        "hero": "drafts/1361-paccar-bunk-restraint-glued-not-sewn.jpg"
+      },
+      "note": "2026-11-02 00:30 run: #1361 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.73+SHIP, queued 2028-04-04). NHTSA 26V674000/Paccar 26PACH (filed Oct 14, 2026): 310 MY2027 Kenworth/Peterbilt trucks, sleeper-bunk restraint webbing glued but never sewn; Paccar estimates 0.6% actually defective (~2 trucks). Transport Canada 2026496 parallel. Kill-test wins: Toyota 1M PVM recall was recycled Nov 2025 news (Reuters 2025-11-05), JLR Range Rover 26V678 = duplicate of #1251, Lincoln 26V688 = dup of #1321/#1356, Volvo EX30 26V671 = dup of #1222, Hyundai Kona 26V069 = Feb 2026 stale. Vin Wreckage (1 appearance in last 20 before this)."
     }
   ],
-  "last_worker_run": "2026-11-01T22:40:00-07:00"
+  "last_worker_run": "2026-11-02T00:30:00-08:00"
 }
