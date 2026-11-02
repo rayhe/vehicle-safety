@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1364-bmw-dsci-recall-of-recall-china",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-02T06:30:00-08:00"
-  },
-  "last_check_note": "2026-11-02 06:30 run: #1364 RESEARCH complete (BMW China 5 SAMR campaigns ~151k; DSCi recall-of-recall 218 cars, starter 93,071 B48/B58, relay 57,787). 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
+  "current": null,
+  "last_check_note": "2026-11-02 06:30 run: #1364 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-07). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
   "last_checked": "2026-11-02T04:30:00-08:00",
-  "last_completed": "2026-11-02T04:30:00-08:00",
+  "last_completed": "2026-11-02T06:30:00-08:00",
   "last_completed_date": "2026-11-02",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-01T01:30:00-07:00",
@@ -21225,6 +21220,44 @@
         "story": "drafts/1363-hyundai-veloster-deadliest-car-per-mile.html"
       },
       "note": "2026-11-02 04:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0 avg 8.76, all gates pass)+SHIP in one run. Queued 2028-04-06 (1/day spacing). FARS finding: Veloster 8.54 deaths/100M VMT, highest of 337 models; paradox = slow car (147 hp), unremarkable tox (17.4%), hypothesis = driver-behavior + halo effect."
+    },
+    {
+      "number": 1364,
+      "slug": "1364-bmw-dsci-recall-of-recall-china",
+      "title": "The Recall That Silenced the Alarm",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "ship_date": "2028-04-07",
+      "phase": "SHIP_BLOCKED",
+      "started": "2026-11-02T06:30:00-08:00",
+      "critique_round": 0,
+      "critic_avg": 8.86,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.4,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": "pass",
+        "hero_jpeg": true,
+        "word_count": 650
+      },
+      "files": {
+        "research": "drafts/1364-bmw-dsci-recall-of-recall-china-research.md",
+        "story": "drafts/1364-bmw-dsci-recall-of-recall-china.html",
+        "hero": "drafts/1364-bmw-dsci-recall-of-recall-china.jpg",
+        "critic_panel": "drafts/1364-bmw-dsci-recall-of-recall-china-critic-panel-r0.md"
+      },
+      "note": "2026-11-02 06:30 run: round-0 pass 8.86 avg; 7/7 critics >= 8.5. BMW China Oct 2026: 5 SAMR campaigns ~151k (B48/B58 starter 93,071; starter relay 57,787 incl. 2016-2020 5 Series; DSCi recall-of-recall 218 cars with corrupted reflash disabling brake early-warning). US parallels: 87,394 starter recall Feb 2026, 341k+ Sep-Oct 2025, 26V-441, Transport Canada 2026515."
     }
   ],
   "last_worker_run": "2026-11-02T00:30:00-08:00"

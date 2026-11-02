@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Recall That Silenced the Alarm &mdash; The Crash Report</title>
+  <meta name="description" content="BMW filed five recalls in China covering 151,000 cars. Buried in the fifth: 218 cars where an earlier software fix came out corrupted and disabled the DSCi brake early-warning system. Mia Crumplezone on the fix that broke the alarm.">
+  <meta property="og:title" content="The Recall That Silenced the Alarm">
+  <meta property="og:description" content="BMW fixed 150,000 cars in China. On 218 of them, the fix quietly disabled the system meant to warn of brake failure. A corrupted reflash looks exactly like a successful one.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1364-bmw-dsci-recall-of-recall-china.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Recall That Silenced the Alarm">
+  <meta name="twitter:description" content="On 218 BMWs, the recall repair corrupted the brake early-warning system. Nobody could tell from the driver's seat.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>The Recall That Silenced the Alarm</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">November 2, 2026</div>
+
+      <img src="../images/1364-bmw-dsci-recall-of-recall-china.jpg" alt="The Recall That Silenced the Alarm" class="story-hero" loading="eager">
+
+      <p>Let's talk about what happens in the first 150 milliseconds of a brake-system failure. Your foot is already moving toward the pedal, the booster is already building pressure, and a small early-warning function called DSCi is supposed to notice a brewing fault before any of that becomes your problem. Now imagine that function got switched off months ago, not by a defect, but by the technician who was fixing your car. <strong>BMW just admitted that exact failure happened to 218 cars in China.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">218</div>
+      <div class="pull-label">Cars where BMW's own recall repair corrupted the DSCi brake early-warning software</div>
+
+      <p>The headline number is 151,000. BMW registered five separate recall campaigns with China's State Administration for Market Regulation in October, covering imported cars and vehicles built locally with joint-venture partner Brilliance, split across three unrelated defects.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Most recall stories stop at the headline number. This one gets interesting at the bottom of the stack, in the fifth filing, where BMW confessed to recalling its own recall.</p>
+
+      <p>Start with the biggest chunk, because the engineering is worth your attention. Some 93,071 imported cars are getting new starter motors for the B48 four-cylinder and B58 six-cylinder engines, built between February 2021 and April 2025. Manufacturing variance inside the starter causes uneven wear, electrical resistance builds over time, and eventually the unit overheats inside the engine bay.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That is a fire risk, not a no-start inconvenience, and the remedy arriving October 30 is a full swap for a heavier-duty starter assembly rather than a software patch: real parts, real bolts, real labor.</p>
+
+      <p>Pause on the model list, because this is where shared platforms turn one defect into a fleet problem. The affected cars span the 2, 4, 5, and 6 Series, the X4, X5, X6, and the Z4. B48 and B58 are the backbone of nearly everything BMW builds that is not fully electric, and the B58 also ends up in the Toyota Supra.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Build one engine family and drop it into eight or nine nameplates, and a single manufacturing tolerance problem stops being a model-line issue. American owners already know this pattern: BMW recalled 87,394 US vehicles for starter overheating in February, on top of 341,000-plus across two 2025 starter campaigns covering the 340i, 840i, 740Li, X5, X6, and X7.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup> Same component family, same fire risk, filed country by country on each regulator's own clock.</p>
+
+      <p>The second defect is older and stranger. Two campaigns cover 57,787 cars, 57,423 domestically built 5 Series sedans from 2017 to 2020 and 364 imported 7 Series flagships from 2016 to 2018, over a starter relay that was not sealed well enough against moisture. Drive through deep standing water, or accumulate enough wet-weather exposure over enough years, and moisture works into the relay casing, corrodes the terminals, and creates a short.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Cars built in 2016 are only getting the fix in 2026. That is a fire risk with a multi-year fuse, and it has a direct American sibling: NHTSA recall 26V-441 covers 2017 to 2020 BMW 7 and 5 Series plug-in hybrids for starter-relay corrosion that can overheat the starter while parked with the ignition off.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <div class="pull-stat">10 years</div>
+      <div class="pull-label">Between the oldest affected relay cars (2016) and their fix (2026)</div>
+
+      <p>Now the third defect, the one that matters most, and it covers only 218 cars. BMW's integrated brake booster software includes the DSCi early-warning function, designed to alert a driver before a brewing fault becomes an outright braking failure. According to the filing, earlier service campaigns meant to patch that same system suffered execution errors during reflashing, and the onboard programming on a small number of cars came out corrupted.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> The early-warning system stopped working, not because of a new flaw, but because of how a previous fix was installed. A botched flash left the car looking fixed on paper while quietly disabling the very system meant to warn the driver when something goes wrong.</p>
+
+      <p>This inverts the assumption most owners make about software recalls. A software fix feels lower-stakes than swapping a part: no grease, no bolts, just a technician plugging in a laptop. But a corrupted reflash is invisible from the driver's seat. Nothing rattles. No warning light. The tripwire you were counting on is gone, and the dashboard has no light for "the light system is broken." BMW deserves credit for saying so plainly, which is rarer than it should be. Plenty of manufacturers would rather bury a correction inside a vaguely worded follow-up campaign than admit the first attempt did not take.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> And this is not a China-only phenomenon: Transport Canada published a recall on October 21 covering 2018 to 2020 BMW 5 and 7 Series cars whose earlier starter-recall repairs left the battery cable loose enough to arc, advising owners to skip remote start and not leave the cars running unattended until fixed.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> The fix not taking is a live failure mode on both sides of the Pacific.</p>
+
+      <p>Notice, too, how differently BMW is timing these fixes. The DSCi software correction is effective immediately. The starter motor and relay fixes do not begin until October 30, six weeks after the filing, because heavy-duty starters and properly sealed relays have to be manufactured, shipped, and stocked at every affected dealer first.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That gap is the entire difference between a software recall and a hardware recall in one sentence: code moves at the speed of a server, and parts move at the speed of a supply chain. For six weeks, cars with a known fire risk wait for a truck full of starters.</p>
+
+      <p>To be fair, and fairness matters even when the engineering makes me furious: bundling three unrelated defects into one filing, staggering software and hardware fixes on different clocks, and disclosing that an old fix needs a fix of its own is what a mature recall system looks like when a company is being honest about its own paperwork. The number worth remembering is not 150,000. It is 218, the tiny sliver of cars where the fix, not the original defect, is the thing that failed first. Because the scariest part of a modern car is usually not the part that breaks. It is the part that is supposed to tell you it broke.</p>
+
+      <p>If you own a B48 or B58 BMW built between 2021 and 2025, a 2 through 7 Series, X3 through X7, Z4, or a Toyota Supra, run the VIN at nhtsa.gov/recalls today rather than waiting for a letter; the US starter campaigns cover the same component family. After any software-based recall repair, ask the dealer to show the completed flash version on your work order and verify the recall shows closed on your VIN, because a corrupted reflash looks exactly like a successful one from the driver's seat. And if a recall remedy involves waiting weeks for parts, park outdoors and away from structures until both the hardware and the software are actually done.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">The Auto Wire, &ldquo;BMW Recalled 150,000 Cars In China Over Fire Risks &mdash; And Had To Recall Its Own Recall, Too,&rdquo; published September 8, 2026, updated October 20, 2026. Five SAMR campaigns, ~151,000 vehicles: 93,071 imported cars (B48/B58 starter, Feb 2021&ndash;Apr 2025), 57,787 cars (starter relay moisture, 2016&ndash;2020), 218 cars (DSCi recall-of-recall). <a href="https://theautowire.com/2026/09/08/bmw-recalled-150000-cars-in-china-over-fire-risks-and-had-to-recall-its-own-recall-too/" target="_blank" rel="noopener">theautowire.com</a></li>
+          <li id="ref-2">Reuters, &ldquo;BMW North America to recall over 87,000 US vehicles over engine starter overheating issue,&rdquo; February 7, 2026. 87,394 US vehicles; dealers replace the starter free. <a href="https://www.reuters.com/business/autos-transportation/bmw-north-america-recall-over-87000-us-vehicles-over-engine-starter-overheating-2026-02-07/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-3">NHTSA, Service Information Bulletin 12 09 26 / Recall 26V-441 (BMW AG), September 23, 2026. 2017&ndash;2020 BMW 7/5 Series PHEV starter-relay water intrusion, corrosion, short-circuit, thermal event risk parked or driving. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCRIT-26V441-4284.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-4">Transport Canada, Recall 2026515 (BMW), published October 21, 2026. 2018&ndash;2020 BMW 5/7 Series repaired under recall 2026-332; loose positive battery cable to starter, electrical arcing, fire risk; no remote start or unattended running. <a href="https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2026515-bmw" target="_blank" rel="noopener">recalls-rappels.canada.ca</a></li>
+          <li id="ref-5">FoxBusiness / Reuters, October 2025. BMW recalled 145,000 US vehicles over starter defect, following September 2025 recall of 200,000; 341,000-plus total across six models. <a href="https://foxbusiness.com/lifestyle/bmw-recalls-nearly-90000-vehicles-engine-starter-fire-risk" target="_blank" rel="noopener">foxbusiness.com</a></li>
+          <li id="ref-6">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> The Auto Wire summary of BMW's October 2026 SAMR filings; Reuters and FoxBusiness reporting on US BMW starter recalls; NHTSA bulletin 26V-441; Transport Canada recall 2026515; NHTSA FARS 2014&ndash;2023. SAMR filing details, per-campaign VIN lists, and the DSCi corruption mechanism are reported via English-language coverage of Chinese regulatory filings and have not been independently verified against samr.gov.cn. Whether the DSCi reflash failure affected cars outside China is unknown. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
