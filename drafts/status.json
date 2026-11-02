@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-02 10:30 run: #1366 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 9.0+SHIP, queued 2028-04-09). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
-  "last_checked": "2026-11-02T10:30:00-08:00",
-  "last_completed": "2026-11-02T10:30:00-08:00",
+  "last_check_note": "2026-11-02 12:30 run: #1367 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.93+SHIP, queued 2028-04-10). PUBLISH-QUEUE: 1/day gate consumed (2 Publish commits today); no publish this run. #837 remains earliest-due, first in line next run.",
+  "last_checked": "2026-11-02T12:30:00-08:00",
+  "last_completed": "2026-11-02T12:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1367,
+  "next": 1368,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21319,6 +21319,44 @@
         "css_ok": true,
         "rhythm_pass": true
       }
+    },
+    {
+      "number": 1367,
+      "slug": "1367-gm-l87-nov13-deadline-extension",
+      "title": "946 Failed Engines and One Extension Request: GM's 6.2L Deadline Is November 13",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-04-10",
+      "phase": "SHIP_BLOCKED",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 13.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "4c84fdcf",
+        "hero_dim": "1920x1280",
+        "word_count": 528
+      },
+      "files": {
+        "research": "drafts/1367-gm-l87-nov13-deadline-extension-research.md",
+        "story": "drafts/1367-gm-l87-nov13-deadline-extension.html",
+        "critic_panel": "drafts/1367-gm-l87-nov13-deadline-extension-critic-panel-r0.md",
+        "hero": "drafts/1367-gm-l87-nov13-deadline-extension.jpg"
+      },
+      "note": "2026-11-02 12:30 run: full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.93+SHIP, queued 2028-04-10). Sequel to #1025 (Aug-era EA26005 remedy-mechanics piece); new peg = Sept 15 IR letter (946 reports) + Oct 25 extension memo + Nov 13 deadline, all postdating #1025's sources. Rhythm pass required merging 10 short fragments (5.6% short final)."
     }
   ],
   "last_worker_run": "2026-11-02T00:30:00-08:00"
