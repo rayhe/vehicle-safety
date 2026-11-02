@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-01 20:30 run: #1359 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.79+SHIP, queued 2028-04-02). PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits for #835); skip.",
+  "last_check_note": "2026-11-02 02:30 run: #1362 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.74+SHIP, queued 2028-04-05).",
   "last_checked": "2026-11-01T20:50:00-08:00",
-  "last_completed": "2026-11-02T00:30:00-08:00",
-  "last_completed_date": "2026-11-01",
-  "last_journalist": "Rex Driverton",
+  "last_completed": "2026-11-02T02:30:00-08:00",
+  "last_completed_date": "2026-11-02",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1361,
+  "next": 1363,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21152,6 +21152,45 @@
         "hero": "drafts/1361-paccar-bunk-restraint-glued-not-sewn.jpg"
       },
       "note": "2026-11-02 00:30 run: #1361 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.73+SHIP, queued 2028-04-04). NHTSA 26V674000/Paccar 26PACH (filed Oct 14, 2026): 310 MY2027 Kenworth/Peterbilt trucks, sleeper-bunk restraint webbing glued but never sewn; Paccar estimates 0.6% actually defective (~2 trucks). Transport Canada 2026496 parallel. Kill-test wins: Toyota 1M PVM recall was recycled Nov 2025 news (Reuters 2025-11-05), JLR Range Rover 26V678 = duplicate of #1251, Lincoln 26V688 = dup of #1321/#1356, Volvo EX30 26V671 = dup of #1222, Hyundai Kona 26V069 = Feb 2026 stale. Vin Wreckage (1 appearance in last 20 before this)."
+    },
+    {
+      "number": 1362,
+      "slug": "1362-badge-means-nothing-chevrolet-392x-spread",
+      "title": "Chevrolet's Safest Car Is 392 Times Safer Than Its Deadliest. Same Badge.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-05",
+      "started": "2026-11-02T02:30:00-08:00",
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.74,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.3,
+        "css_class": true,
+        "style_css": true,
+        "rhythm_pass": true,
+        "word_count": 462,
+        "hero_jpeg": true,
+        "hero_hash": "4b4e86a6"
+      },
+      "files": {
+        "research": "drafts/1362-badge-means-nothing-chevrolet-392x-spread-research.md",
+        "story": "drafts/1362-badge-means-nothing-chevrolet-392x-spread.html",
+        "hero": "drafts/1362-badge-means-nothing-chevrolet-392x-spread.jpg",
+        "critic_panel": "drafts/1362-badge-means-nothing-chevrolet-392x-spread-critic-panel-r0.md"
+      },
+      "note": "2026-11-02 02:30 run: full pipeline (RESEARCH+DRAFT+CRITIQUE r0 avg 8.74+SHIP) in one run; queued 2028-04-05. Novel within-manufacturer dispersion frame (Chevy 392x, Toyota 314x, Hyundai 142x, Ford 120x)."
     }
   ],
   "last_worker_run": "2026-11-02T00:30:00-08:00"
