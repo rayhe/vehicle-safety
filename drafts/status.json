@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-01 18:30 run: #1358 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.79+SHIP, queued 2028-04-01). PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits); skip.",
-  "last_checked": "2026-11-01T18:30:00-08:00",
+  "last_check_note": "2026-11-01 20:30 run: #1359 RESEARCH done (Hyundai 26V692+26V693 twin loose-nut recalls; coverage check clean). Starting DRAFT.",
+  "last_checked": "2026-11-01T20:45:00-08:00",
   "last_completed": "2026-11-01T02:00:00-07:00",
   "last_completed_date": "2026-11-01",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1359,
+  "next": 1360,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21047,6 +21047,45 @@
         "critic_panel": "drafts/1358-silverado-2004-2022-model-year-cliff-critic-panel-r0.md"
       },
       "note": "2026-11-01 18:30 run: RESEARCH+DRAFT+CRITIQUE in one run. Round-0 panel VERDICT: SHIP (avg 8.79). Gates: em 0, banned 0, The 2.9%, class=story, style.css, hero JPEG 1920x1280 ?v=707f9a22. Dateline November 1, 2026 (draft date; re-set at publish)."
+    },
+    {
+      "number": 1359,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-02",
+      "slug": "1359-hyundai-loose-nuts-twin-recall",
+      "title": "Hyundai Shipped 41 Cars With Loose Nuts. Then It Did It Again.",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2736x912",
+        "hero_hash": "d1276f76",
+        "word_count": 566,
+        "rhythm": "variance 484.1, short 9.1%, long 50.0% PASS"
+      },
+      "files": {
+        "research": "drafts/1359-hyundai-loose-nuts-twin-recall-research.md",
+        "story": "drafts/1359-hyundai-loose-nuts-twin-recall.html",
+        "critic_panel": "drafts/1359-hyundai-loose-nuts-twin-recall-critic-panel-r0.md",
+        "hero": "drafts/1359-hyundai-loose-nuts-twin-recall.jpg"
+      },
+      "note": "2026-11-01 20:30 run: #1359 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.79+SHIP, queued 2028-04-02). Twin Hyundai recalls 26V692+26V693 (Ulsan, Samjin Nut, 41 cars)."
     }
   ],
   "last_worker_run": "2026-11-01T12:38:18.367939-08:00"
