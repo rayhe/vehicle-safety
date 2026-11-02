@@ -2,15 +2,15 @@
   "current": null,
   "last_check_note": "2026-11-01 20:30 run: #1359 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.79+SHIP, queued 2028-04-02). PUBLISH-QUEUE: 1/day gate consumed today (2 Publish commits for #835); skip.",
   "last_checked": "2026-11-01T20:50:00-08:00",
-  "last_completed": "2026-11-01T02:00:00-07:00",
+  "last_completed": "2026-11-01T22:30:00-07:00",
   "last_completed_date": "2026-11-01",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1360,
+  "next": 1361,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21086,7 +21086,34 @@
         "hero": "drafts/1359-hyundai-loose-nuts-twin-recall.jpg"
       },
       "note": "2026-11-01 20:30 run: #1359 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.79+SHIP, queued 2028-04-02). Twin Hyundai recalls 26V692+26V693 (Ulsan, Samjin Nut, 41 cars)."
+    },
+    {
+      "number": 1360,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-03",
+      "slug": "1360-lexus-nx-cluster-warning-display",
+      "title": "Your Lexus Can Lose Its Oil Pressure Without Telling You. 68,356 NXs Just Got Recalled.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 8.6,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "avg_critic": 8.7,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 9.5,
+        "css_class_ok": true
+      },
+      "note": "NHTSA 26V687000 / Lexus 26LA10. 68,356 MY2022-2024 NX250/NX350/NX350H/NX450h+. Cluster combination meter may fail to display warnings; FMVSS 101 noncompliance. Letters mailed Dec 7, 2026. Hero image present."
     }
   ],
-  "last_worker_run": "2026-11-01T12:38:18.367939-08:00"
+  "last_worker_run": "2026-11-01T22:40:00-07:00"
 }
