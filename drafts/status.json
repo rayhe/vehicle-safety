@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-02 08:30 run: #1365 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.97+SHIP, queued 2028-04-08). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
-  "last_checked": "2026-11-02T08:30:00-08:00",
-  "last_completed": "2026-11-02T08:30:00-08:00",
+  "last_check_note": "2026-11-02 10:30 run: #1366 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 9.0+SHIP, queued 2028-04-09). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
+  "last_checked": "2026-11-02T10:30:00-08:00",
+  "last_completed": "2026-11-02T10:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1366,
+  "next": 1367,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21295,6 +21295,30 @@
         "data": 9.0
       },
       "note": "2026-11-02 08:30 run: #1365 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.97+SHIP, queued 2028-04-08). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); skipped publishing this run."
+    },
+    {
+      "journalist": "Mia Crumplezone",
+      "note": "2026-11-02 10:30 run: #1366 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 9.0+SHIP, queued 2028-04-09).",
+      "number": 1366,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-09",
+      "slug": "1366-volvo-ex30-head-restraint-cushion-recall",
+      "title": "Volvo's Headrest Had One Job. Staying Attached.",
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1366-critic-panel-r0.md",
+        "hero": "drafts/1366-volvo-ex30-head-restraint-cushion-recall.jpg",
+        "research": "drafts/1366-volvo-ex30-head-restraint-cushion-recall-research.md",
+        "story": "drafts/1366-volvo-ex30-head-restraint-cushion-recall.html"
+      },
+      "hard_gates": {
+        "em_dashes": 1,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_ok": true,
+        "rhythm_pass": true
+      }
     }
   ],
   "last_worker_run": "2026-11-02T00:30:00-08:00"
