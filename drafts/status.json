@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-11-02 12:30 run: #1367 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.93+SHIP, queued 2028-04-10). PUBLISH-QUEUE: 1/day gate consumed (2 Publish commits today); no publish this run. #837 remains earliest-due, first in line next run.",
   "last_checked": "2026-11-02T12:30:00-08:00",
-  "last_completed": "2026-11-02T12:30:00-08:00",
+  "last_completed": "2026-11-02T14:30:00-08:00",
   "last_completed_date": "2026-11-02",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-01T01:30:00-07:00",
@@ -10,7 +10,7 @@
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1368,
+  "next": 1369,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21357,7 +21357,45 @@
         "hero": "drafts/1367-gm-l87-nov13-deadline-extension.jpg"
       },
       "note": "2026-11-02 12:30 run: full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.93+SHIP, queued 2028-04-10). Sequel to #1025 (Aug-era EA26005 remedy-mechanics piece); new peg = Sept 15 IR letter (946 reports) + Oct 25 extension memo + Nov 13 deadline, all postdating #1025's sources. Rhythm pass required merging 10 short fragments (5.6% short final)."
+    },
+    {
+      "number": 1368,
+      "slug": "1368-lexus-rx-five-star-poor",
+      "title": "The Five-Star Lexus RX Earned a Poor on the One Test That Checks the Back Seat",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-11",
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.2,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "60125ef9",
+        "hero_dim": "1920x1280",
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1368-lexus-rx-five-star-poor-research.md",
+        "story": "drafts/1368-lexus-rx-five-star-poor.html",
+        "hero": "drafts/1368-lexus-rx-five-star-poor.jpg",
+        "critic_panel": "drafts/1368-lexus-rx-five-star-poor-critic-panel-r0.md"
+      },
+      "note": "2026-11-02 14:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 8.90, 7/7 >= 8.5, all hard gates; em 0, The-starters 3.3%, rhythm pass). NHTSA 5-star RX 350 AWD vs IIHS updated-moderate-overlap Poor (rear-dummy chest; dropped Marginal->Poor on the 2024 chest-index revision, no vehicle change); NX made 2026 TSP list, RX on neither. Queued 1/day after latest SHIP_BLOCKED (2028-04-10)."
     }
   ],
-  "last_worker_run": "2026-11-02T00:30:00-08:00"
+  "last_worker_run": "2026-11-02T14:30:00-08:00"
 }
