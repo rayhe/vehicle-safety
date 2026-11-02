@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-11-02 02:30 run: #1362 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.74+SHIP, queued 2028-04-05).",
+  "last_check_note": "2026-11-02 02:30 run: #1362 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.74+SHIP, queued 2028-04-05). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
   "last_checked": "2026-11-01T20:50:00-08:00",
   "last_completed": "2026-11-02T02:30:00-08:00",
   "last_completed_date": "2026-11-02",
@@ -1647,7 +1647,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "The Gap",
-      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (837- prefix). News peg: Sep 1-2, 2026 China reports of Tesla Model Y L (6-seat, Shanghai, launched Aug 2025) rear suspension 'collapsing' under load; owners invented 'finger test' (4 fingers normal, <=2.5 failure); Tesla service threshold 764mm wheel-arch height; one car relapsed 10 days after spring replacement with service center reportedly admitting 'no final solution'; springs free under warranty but owners pay for prematurely worn tires; Tesla China issued no public statement. Novel: load paradox (6-seat flagship fails under load), recurrence-as-design-signal, 19-car US front-suspension precision recall (26V-558) vs China shrug contrast. No publish: 1/day rule, #805 shipped 2026-09-07.",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (837- prefix). News peg: Sep 1-2, 2026 China reports of Tesla Model Y L (6-seat, Shanghai, launched Aug 2025) rear suspension 'collapsing' under load; owners invented 'finger test' (4 fingers normal, <=2.5 failure); Tesla service threshold 764mm wheel-arch height; one car relapsed 10 days after spring replacement with service center reportedly admitting 'no final solution'; springs free under warranty but owners pay for prematurely worn tires; Tesla China issued no public statement. Novel: load paradox (6-seat flagship fails under load), recurrence-as-design-signal, 19-car US front-suspension precision recall (26V-558) vs China shrug contrast. No publish: 1/day rule, #805 shipped 2026-09-07. | 2026-11-02 02:30 run: due (ship_date 2026-11-02), hero-ready; 1/day gate consumed (2 publishes today) \u2014 first in line for next run.",
       "number": 837,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -1662,7 +1662,12 @@
       "ship_date": "2026-11-02",
       "slug": "tesla-model-y-l-rear-suspension-collapse-china",
       "started": "2026-09-07T22:45:00Z",
-      "title": "Tesla's Six-Seat Family SUV Sags Under Its Own Job Description"
+      "title": "Tesla's Six-Seat Family SUV Sags Under Its Own Job Description",
+      "files": {
+        "story": "drafts/837-tesla-model-y-l-rear-suspension-collapse-china.html",
+        "hero": "drafts/837-tesla-model-y-l-rear-suspension-collapse-china.jpg",
+        "research": "drafts/837-tesla-model-y-l-rear-suspension-collapse-china-research.md"
+      }
     },
     {
       "critic_avg": 9.0,
