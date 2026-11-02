@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Four Recalls, One Symptom: Toyota's Newest Cars Keep Losing Power at Speed &mdash; The Crash Report</title>
+  <meta name="description" content="Toyota recalled 60,490 vehicles this year across three campaigns for the same failure: uncommanded loss of drive power, always fixed with a software patch.">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="Four Recalls, One Symptom: Toyota's Newest Cars Keep Losing Power at Speed">
+  <meta property="og:description" content="Toyota recalled 60,490 vehicles this year across three campaigns for the same failure: uncommanded loss of drive power, always fixed with a software patch.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1365-toyota-same-loss-of-power-four-recalls.jpg">
+  <meta property="og:type" content="article">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Four Recalls, One Symptom: Toyota's Newest Cars Keep Losing Power at Speed</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 2, 2026</div>
+      <img src="../images/1365-toyota-same-loss-of-power-four-recalls.jpg" alt="Electric SUV coasting to a stop on a highway shoulder at dusk, hazard lights blinking" class="story-hero" loading="eager">
+
+      <div class="story-body">
+      <p>Sixty thousand four hundred ninety. I ran the numbers, then I ran them again, because the first pass looked like a typo: <strong>60,490 US vehicles recalled by Toyota this year, across three separate campaigns, for one shared failure mode.</strong> The car stops driving. No sputter, no gradual fade. In some cases the electric drive system shuts down at highway speed and the driver simply coasts.[1][2][3]</p>
+
+      <div class="pull-stat">60,490</div>
+      <div class="pull-label">US vehicles recalled across three 2026 Toyota campaigns for uncommanded loss of motive power</div>
+
+      <p>Here is the timeline, because the timeline is the whole story. June 18: campaign 26V393, 20,991 Toyota bZ crossovers, Lexus RZs, and Subaru Solterras, all 2026 model year, recalled for a battery ECU memory bug.[4] September 2 (filed): campaign 26V570, 8,521 2026 C-HR EVs, recalled because the battery can overcharge and trigger a protective shutdown.[2] October 7: campaign 26V659, 30,978 2026 RAV4 Plug-in Hybrids, recalled because the motor ECU may never finish initializing.[3] Three filings in under four months. And a 2023 precedent, campaign 23V-041 on the RAV4 Prime, for the same outcome.[6]</p>
+
+      <p>Now the part that made me check my arithmetic a second time. Every affected vehicle is electrified. Not one conventional Toyota shows up in this pattern. Every defect is a control-unit software fault, not a mechanical failure. Every remedy is a dealer software reflash. Across all three 2026 campaigns, the total number of hardware parts replaced is zero. Cars are patches now.[4][2][3]</p>
+
+      <div class="pull-stat">0</div>
+      <div class="pull-label">Hardware parts replaced across all three 2026 campaigns. Every fix is a software reflash.</div>
+
+      <p>Two of the discovery stories deserve their own entries, because they are absurd in opposite directions. Engineers first spotted the bZ battery bug in August 2025, not in any affected vehicle, but during software validation of a plug-in hybrid model still in development. Toyota investigated, decided it probably could not happen in production cars, and moved on. Ten months later, routine remote diagnostics from cars already on the road showed the exact signature it had dismissed. That recall, 20,991 vehicles, was triggered by zero field technical reports and a single warranty claim.[5]</p>
+
+      <p>The C-HR bug is the mirror image. Where the bZ defect strikes when the battery runs low, the C-HR defect strikes when the battery is nearly full, in cold weather, under sustained regenerative braking. Toyota's electrified lineup can now lose propulsion at both ends of the charge meter, for completely unrelated software reasons, in the same calendar year.[2][5]</p>
+
+      <p>Before anyone prints the obituary: the strongest case for Toyota is that this is the recall system working at better-than-historical speed. A software defect found in a lab with zero field reports still produced a 21,000-car recall. Nobody has to wait for hardware to be manufactured. No injuries or crashes have been publicly tied to any of the three 2026 campaigns. Four fast patches with no reported casualties is, if you squint, what a responsible electrification program looks like.</p>
+
+      <p>I am squinting. A recall is still a shipped defect, and four of them in the same failure mode across every new EV launch is a process problem, not four separate instances of luck. Toyota's reliability crown was built on mechanical simplicity, cars whose failure modes you could diagnose with a wrench. Its 2026 lineup fails the way servers fail: bad memory addressing, initialization routines that never complete, protection logic that protects the battery by stranding the driver. When your car's most dangerous component is firmware, "built like a Toyota" needs a new definition.[4][2][3]</p>
+
+      <p>What this analysis cannot claim: the three campaigns have different root causes, so "the same failure" means the same symptom and the same class of fix, not shared code. I have included the 2023 RAV4 Prime precedent from secondary reporting, not from an independently re-verified NHTSA record. And 60,490 is the US filing count; Canada, Australia, and Mexico add thousands more.</p>
+
+      <p>If you drive a 2026 bZ, Lexus RZ, C-HR EV, or RAV4 Plug-in Hybrid: check your VIN at nhtsa.gov/recalls right now. Do not wait for the letter. Toyota mailed the C-HR letters starting October 19, but the RAV4 PHEV letters do not go out until late November or early December, two months after the filing.[7][3] The fix is free and takes one dealer visit. Your car's computer needs a patch before its next surprise reboot.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Defect Information Report, Campaign 26V393</em>, June 18, 2026 (20,991 vehicles: 11,495 bZ, 4,739 RZ, 4,757 Solterra; battery ECU memory-address defect; dealer reflash). <a href="https://static.nhtsa.gov/odi/rcl/2026/RMISC-26V393-3252.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Recall Acknowledgment, Campaign 26V570</em>, Sept 9, 2026 (8,521 C-HR EVs; BEV ECU overcharge causing drive-system shutdown; Toyota 26TA17). <a href="https://www.autoevolution.com/pdf/news_attachements/toyota-recalls-2026-c-hr-ev-over-bev-ecu-software-issue-275564.pdf" target="_blank" rel="noopener">autoevolution.com (NHTSA letter PDF)</a></li>
+          <li id="ref-3">NHTSA, <em>Recall Acknowledgment, Campaign 26V659</em>, Oct 2026 (30,978 RAV4 PHEVs; MG-ECU initialization defect; 38 field reports + 58 warranty claims; Toyota 26TA22). <a href="https://static.nhtsa.gov/odi/rcl/2026/RCAK-26V659-0794.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-4">Toyota Motor North America, <em>Press release: safety recall of 2026 bZ and Lexus RZ</em>, Plano TX, June 18, 2026 (battery ECU error causing drive shutdown at higher speed; dealer software update; owner notification mid-August). <a href="https://pressroom.toyota.com/?generate_pdf=115652" target="_blank" rel="noopener">pressroom.toyota.com</a></li>
+          <li id="ref-5">The Autowire, &ldquo;Toyota bZ Recall: EV Power-Loss Bug Found by Accident,&rdquo; Sept 22, 2026 (discovery during unrelated PHEV validation Aug–Sep 2025, dismissed, rediscovered April 2026 via remote diagnostics; DENSO ECU; no OTA). <a href="https://theautowire.com/2026/09/22/toyota-found-its-ev-power-loss-bug-by-accident-while-testing-a-completely-different-car/" target="_blank" rel="noopener">theautowire.com</a></li>
+          <li id="ref-6">Road Ethos, &ldquo;Toyota Keeps Recalling Its Newest Cars for the Same Loss of Power,&rdquo; Oct 18, 2026 (four-campaign synthesis: June bZ/RZ, Oct 2 C-HR, Oct 7 RAV4 PHEV, 2023 RAV4 Prime 23V-041; all electrified, all control-unit faults, all dealer software updates). <a href="https://roadethos.com/news/toyota-keeps-recalling-its-newest-cars-for-the-same-loss-of-power" target="_blank" rel="noopener">roadethos.com</a></li>
+          <li id="ref-7">Karmactive, &ldquo;Toyota C-HR EV Recall 26TA17,&rdquo; Nov 1, 2026 (26V570 owner letters mailed starting Oct 19, 2026; trigger conditions: cold + high charge + regen braking; ~1,310 Canada units). <a href="https://www.karmactive.com/toyota-c-hr-ev-recall-26ta17-battery-software/" target="_blank" rel="noopener">karmactive.com</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recall filings 26V393, 26V570, and 26V659. Unit counts are US filing populations; Canada, Australia, and Mexico add more. No crashes or injuries have been publicly tied to these campaigns. Campaign root causes differ; "the same failure" refers to the shared failure mode (uncommanded loss of motive power) and fix type (software). See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

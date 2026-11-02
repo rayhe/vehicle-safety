@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-02 06:30 run: #1364 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-07). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
-  "last_checked": "2026-11-02T04:30:00-08:00",
-  "last_completed": "2026-11-02T06:30:00-08:00",
+  "last_check_note": "2026-11-02 08:30 run: #1365 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.97+SHIP, queued 2028-04-08). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); #837 due+hero-ready, first in line next run.",
+  "last_checked": "2026-11-02T08:30:00-08:00",
+  "last_completed": "2026-11-02T08:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1365,
+  "next": 1366,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21258,6 +21258,43 @@
         "critic_panel": "drafts/1364-bmw-dsci-recall-of-recall-china-critic-panel-r0.md"
       },
       "note": "2026-11-02 06:30 run: round-0 pass 8.86 avg; 7/7 critics >= 8.5. BMW China Oct 2026: 5 SAMR campaigns ~151k (B48/B58 starter 93,071; starter relay 57,787 incl. 2016-2020 5 Series; DSCi recall-of-recall 218 cars with corrupted reflash disabling brake early-warning). US parallels: 87,394 starter recall Feb 2026, 341k+ Sep-Oct 2025, 26V-441, Transport Canada 2026515."
+    },
+    {
+      "number": 1365,
+      "slug": "1365-toyota-same-loss-of-power-four-recalls",
+      "title": "Four Recalls, One Symptom: Toyota's Newest Cars Keep Losing Power at Speed",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-08",
+      "avg_critic": 8.97,
+      "critique_round": 0,
+      "kicker": "By The Numbers",
+      "files": {
+        "research": "drafts/1365-toyota-same-loss-of-power-four-recalls-research.md",
+        "story": "drafts/1365-toyota-same-loss-of-power-four-recalls.html",
+        "hero": "drafts/1365-toyota-same-loss-of-power-four-recalls.jpg",
+        "critic_panel": "drafts/1365-toyota-same-loss-of-power-four-recalls-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "21b9e916",
+        "word_count": 470
+      },
+      "scores": {
+        "general": 9.0,
+        "voice": 8.8,
+        "ethics": 9.0,
+        "social": 8.8,
+        "legal": 9.2,
+        "rigor": 9.0,
+        "data": 9.0
+      },
+      "note": "2026-11-02 08:30 run: #1365 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.97+SHIP, queued 2028-04-08). PUBLISH-QUEUE: 1/day gate consumed (2 publishes today); skipped publishing this run."
     }
   ],
   "last_worker_run": "2026-11-02T00:30:00-08:00"
