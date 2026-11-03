@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1378-weekend-still-deadliest-hours-2024-fars",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-03T10:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-03 10:30 run: RESEARCH #1378 weekend/day-of-week FARS 2024 (Axle McScatter). Rejected duplicates: L87/EA26005 (#1367/#1344/#1025/#864), RAV4 PHEV ECU, work-truck crash avoidance, F-150 tailgate cable (#1297), Lincoln neutral-shift (#1356), Sienna seatback (#1332), Thomas Built FMVSS 221 (#1369), Durango tail lights (#1329), Wabash (#1370).",
   "last_checked": "2026-11-03T08:45:00-08:00",
-  "last_completed": "2026-11-03T08:30:00-08:00",
+  "last_completed": "2026-11-03T10:30:00-08:00",
   "last_completed_date": "2026-11-03",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-03T00:30:00-08:00",
   "last_published_date": "2026-11-03",
   "last_published_slug": "837-tesla-model-y-l-rear-suspension-collapse-china",
   "last_qa_date": "2026-11-03",
   "last_qa_note": "QA pass #837: story 200 live, hero rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained). Initial 404 at 00:33 was the deploy racing the check; GH Action Deploy to Cloudflare Pages completed successfully.",
-  "next": 1378,
+  "next": 1379,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21705,6 +21699,42 @@
         "critic_panel": "drafts/1377-ford-transit-trail-6000-tire-settlement-critic-panel-r0.md"
       },
       "note": "2026-11-03 08:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP. Queued 2028-04-20 (1 day after latest SHIP_BLOCKED 2028-04-19). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837 at 00:30 run); no publish this run. Next due: #838 (ship_date 2026-11-03), earliest-due next run."
+    },
+    {
+      "number": 1378,
+      "slug": "1378-weekend-still-deadliest-hours-2024-fars",
+      "title": "The Weekend Got Safer Faster Than the Week. It Is Still the Deadliest Shift.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-21",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1378-weekend-still-deadliest-hours-2024-fars-research.md",
+        "story": "drafts/1378-weekend-still-deadliest-hours-2024-fars.html",
+        "hero": "drafts/1378-weekend-still-deadliest-hours-2024-fars.jpg",
+        "critic_panel": "drafts/1378-weekend-still-deadliest-hours-2024-fars-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "4594cc79"
+      },
+      "note": "2026-11-03 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP. Rejected duplicates before drafting: L87/EA26005, RAV4 PHEV ECU, work-truck crash avoidance, F-150 tailgate, Lincoln neutral-shift, Sienna seatback, Thomas Built FMVSS 221, Durango tail lights, Wabash. Rhythm initially failed short_pct 20.7%, fixed via 3 fragment merges (pass: var 536.9, short 7.7%). Two pre-score rigor fixes: speed/alcohol union claim removed (shares overlap), pedestrian-injury significance corrected. Queued 2028-04-21 (1 day after latest SHIP_BLOCKED 2028-04-20)."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
