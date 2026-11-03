@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1373-cummins-l9-second-wave-buses-rvs-fire-trucks",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-03T00:30:00-08:00"
-  },
-  "last_check_note": "2026-11-02 22:30 run: #1372 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-15). Kill log: Nov 2 recall week fully exhausted (#1369 Thomas Built FMVSS 221, #1370 Wabash 26V683, #1371 RV cord trio); Sienna 26V690, Lincoln 26V688, GM 26V696, RAV4 26V659, Ford tailgate #1297, Great Dane #1348, Paccar #1337, GM L87 EA26005, Godzilla DP26011, Sierra grille RQ26003, robotaxi DP26010, Cybercab AQ26002, IIHS work-truck + small-SUV rounds, GHSA pedestrian #950, 2025 totals #1299, DTN60DB #824, Genesis G80 family, Ram 2500 ESC family, Tucson 26V316 published. PUBLISH-QUEUE: 1/day gate consumed (Publish #836 today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
+  "current": null,
+  "last_check_note": "2026-11-03 00:30 run: #1373 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.84+SHIP, queued 2028-04-16). Kill log: Nov 2 recall week fully exhausted (#1369 Thomas Built, #1370 Wabash, #1371 RV cords, #1366 Volvo EX30, #1356 Lincoln neutral, #1332 Sienna seatback, #1329 Durango tail-light, #1297 Ford tailgate, #1337 Paccar L9 cascade); Sienna 26V690, GM 26V696, RAV4 26V659, Great Dane #1348, GM L87 EA26005, Godzilla DP26011, Sierra RQ26003, robotaxi DP26010, Cybercab AQ26002, IIHS work-truck + small-SUV rounds, GHSA pedestrian #950, 2025 totals #1299, DTN60DB #824, Genesis G80 family, Ram 2500 ESC family, Tucson 26V316, H1 2026 #1353/#861, Q1 2026, headlight glare #1103, Waymo #1100. PUBLISH-QUEUE: see publish commit this run.",
   "last_checked": "2026-11-03T00:30:00-08:00",
-  "last_completed": "2026-11-02T22:30:00-08:00",
-  "last_completed_date": "2026-11-02",
-  "last_journalist": "Rex Driverton",
+  "last_completed": "2026-11-03T00:30:00-08:00",
+  "last_completed_date": "2026-11-03",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
@@ -21552,6 +21547,17 @@
       },
       "started": "2026-11-02T22:30:00-08:00",
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; hard gates all pass (em 0, banned 0, The 0.0%, css ok, hero JPEG 1920x1280, rhythm PASS). Novel mechanism vs published SK On piece: recall population from supplier traceability vs 16-owner complaint file (CARC Oct 29, 2026 pull; 9 warned, 9 towed/not-driven, 603 days). Complaints flagged unverified; overlap with recalled EV9 unestablished; Part 573 PDFs verified via excerpts not full reads (disclosed). Queued 2028-04-15 (1 day after #1371). 1/day gate consumed today by Publish #836, so no publish this run; #837 (due 2026-11-02, hero-ready) first in line next run."
+    },
+    {
+      "number": 1373,
+      "slug": "cummins-l9-second-wave-buses-rvs-fire-trucks",
+      "title": "One Bad Hose, Four More Recalls: Now It's in Fire Trucks and City Buses",
+      "journalist": "Clara Rollover",
+      "ship_date": "2028-04-16",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "note": "2026-11-03 00:30 run: RESEARCH+DRAFT+CRITIQUE round 0 SHIP (avg 8.84, all 7 critics 8.5+, hard gates pass: em 0, banned 0, The 0%, rhythm pass). Second-wave L9 hose story: DTNA 26V660, Tiffin 26V662, Sutphen 26V661, Nova 26V712 coda (Cummins link unconfirmed, stated in article)."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
