@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-03 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.91, SHIP. Queued #1379 (2028-04-22, 1 day after latest SHIP_BLOCKED 2028-04-21). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-03T12:42:01-08:00",
-  "last_completed": "2026-11-03T12:42:01-08:00",
+  "last_check_note": "2026-11-03 14:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP. Queued #1380 (2028-04-23, 1 day after latest SHIP_BLOCKED 2028-04-22). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-03T14:35:00-08:00",
+  "last_completed": "2026-11-03T14:35:00-08:00",
   "last_completed_date": "2026-11-03",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-03T00:30:00-08:00",
   "last_published_date": "2026-11-03",
   "last_published_slug": "837-tesla-model-y-l-rear-suspension-collapse-china",
   "last_qa_date": "2026-11-03",
   "last_qa_note": "QA pass #837: story 200 live, hero rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained). Initial 404 at 00:33 was the deploy racing the check; GH Action Deploy to Cloudflare Pages completed successfully.",
-  "next": 1380,
+  "next": 1381,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21771,6 +21771,42 @@
         "hero_hash": "2a4f9b9f"
       },
       "note": "2026-11-03 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.91, SHIP. Rejected duplicates before drafting: GM L87/EA26005, IIHS commercial crash avoidance, RAV4 PHEV MG-ECU, Ford tailgate cable, Sienna seatback, Lexus NX cluster, Lincoln neutral shift, Durango tail lights, Tesla DP26010, Cybercab AQ26002, 2025 deaths/cyclist, Thanksgiving Blackout Wednesday, FARS model extremes, underride Act 2.0. Rhythm initially failed short_pct 27.0%, fixed via 6 fragment merges (pass: var 806.8, short 6.9%). Queued 2028-04-22 (1 day after latest SHIP_BLOCKED 2028-04-21)."
+    },
+    {
+      "number": 1380,
+      "slug": "1380-gm-twin-nov13-deadlines-brakes-engines",
+      "title": "GM Owes NHTSA Two Answers on November 13. One Is About Brakes. The Other Is About Engines That Already Got Fixed.",
+      "journalist": "Vin Wreckage",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-23",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1380-gm-twin-nov13-deadlines-brakes-engines-research.md",
+        "story": "drafts/1380-gm-twin-nov13-deadlines-brakes-engines.html",
+        "hero": "drafts/1380-gm-twin-nov13-deadlines-brakes-engines.jpg",
+        "critic_panel": "drafts/1380-gm-twin-nov13-deadlines-brakes-engines-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b5685124"
+      },
+      "note": "2026-11-03 14:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP. Novel synthesis (no prior twin-deadline piece): EA26005 L87 (997,743; 946 reports) + EA26006 eBoost (1,164,820; 745 incidents) share IR date Sep 15, original deadline Oct 30, partial extensions (Oct 16 brake / Oct 25 engine), new deadline Nov 13, 2026; combined 2,162,563 vehicles, 1,691 reports, rates 94.8 vs 64.0 per 100k, 59.9% recall coverage. Rejected duplicates before drafting: L87 alone (#1367), eBoost alone (#1050/#979), IIHS commercial, RAV4 PHEV, Ford tailgate, Sienna seatback, Land Cruiser fuel tube, Porsche center-lock, Range Rover camera, Lincoln neutral shift, Durango tail lights. Rhythm initially failed short_pct 21.7%, fixed via 6 fragment merges (pass: var 1130.5, short 2.9%). Queued 2028-04-23 (1 day after latest SHIP_BLOCKED 2028-04-22). PUBLISH-QUEUE: 1/day gate consumed today by Publish #837; no publish this run. Next due #838 (2026-11-03, hero-ready) is earliest-due for the next publish-eligible run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
