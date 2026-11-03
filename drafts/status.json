@@ -1,16 +1,16 @@
 {
-  "current": {"slug": "1379-nopus-rear-seat-surge-front-flat", "phase": "CRITIQUE", "journalist": "Rex Driverton", "started": "2026-11-03T12:30:00-08:00", "round": 0},
+  "current": null,
   "last_check_note": "2026-11-03 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP. Queued #1378 (2028-04-21, 1 day after latest SHIP_BLOCKED 2028-04-20). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03), earliest-due next publish-eligible run.",
   "last_checked": "2026-11-03T10:45:00-08:00",
   "last_completed": "2026-11-03T10:30:00-08:00",
   "last_completed_date": "2026-11-03",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-03T00:30:00-08:00",
   "last_published_date": "2026-11-03",
   "last_published_slug": "837-tesla-model-y-l-rear-suspension-collapse-china",
   "last_qa_date": "2026-11-03",
   "last_qa_note": "QA pass #837: story 200 live, hero rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained). Initial 404 at 00:33 was the deploy racing the check; GH Action Deploy to Cloudflare Pages completed successfully.",
-  "next": 1379,
+  "next": 1380,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21735,6 +21735,42 @@
         "hero_hash": "4594cc79"
       },
       "note": "2026-11-03 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP. Rejected duplicates before drafting: L87/EA26005, RAV4 PHEV ECU, work-truck crash avoidance, F-150 tailgate, Lincoln neutral-shift, Sienna seatback, Thomas Built FMVSS 221, Durango tail lights, Wabash. Rhythm initially failed short_pct 20.7%, fixed via 3 fragment merges (pass: var 536.9, short 7.7%). Two pre-score rigor fixes: speed/alcohol union claim removed (shares overlap), pedestrian-injury significance corrected. Queued 2028-04-21 (1 day after latest SHIP_BLOCKED 2028-04-20)."
+    },
+    {
+      "number": 1379,
+      "slug": "1379-nopus-rear-seat-surge-front-flat",
+      "title": "The Back Seat Finally Buckled Up. The Front Seat Stopped Improving.",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-22",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1379-nopus-rear-seat-surge-front-flat-research.md",
+        "story": "drafts/1379-nopus-rear-seat-surge-front-flat.html",
+        "hero": "drafts/1379-nopus-rear-seat-surge-front-flat.jpg",
+        "critic_panel": "drafts/1379-nopus-rear-seat-surge-front-flat-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "2a4f9b9f"
+      },
+      "note": "2026-11-03 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.91, SHIP. Rejected duplicates before drafting: GM L87/EA26005, IIHS commercial crash avoidance, RAV4 PHEV MG-ECU, Ford tailgate cable, Sienna seatback, Lexus NX cluster, Lincoln neutral shift, Durango tail lights, Tesla DP26010, Cybercab AQ26002, 2025 deaths/cyclist, Thanksgiving Blackout Wednesday, FARS model extremes, underride Act 2.0. Rhythm initially failed short_pct 27.0%, fixed via 6 fragment merges (pass: var 806.8, short 6.9%). Queued 2028-04-22 (1 day after latest SHIP_BLOCKED 2028-04-21)."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
