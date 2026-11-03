@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-03 10:30 run: RESEARCH #1378 weekend/day-of-week FARS 2024 (Axle McScatter). Rejected duplicates: L87/EA26005 (#1367/#1344/#1025/#864), RAV4 PHEV ECU, work-truck crash avoidance, F-150 tailgate cable (#1297), Lincoln neutral-shift (#1356), Sienna seatback (#1332), Thomas Built FMVSS 221 (#1369), Durango tail lights (#1329), Wabash (#1370).",
-  "last_checked": "2026-11-03T08:45:00-08:00",
+  "last_check_note": "2026-11-03 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP. Queued #1378 (2028-04-21, 1 day after latest SHIP_BLOCKED 2028-04-20). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03), earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-03T10:45:00-08:00",
   "last_completed": "2026-11-03T10:30:00-08:00",
   "last_completed_date": "2026-11-03",
   "last_journalist": "Axle McScatter",
