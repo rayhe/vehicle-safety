@@ -1,5 +1,5 @@
 {
-  "current": null,
+  "current": {"slug": "1379-nopus-rear-seat-surge-front-flat", "phase": "DRAFT", "journalist": "Rex Driverton", "started": "2026-11-03T12:30:00-08:00"},
   "last_check_note": "2026-11-03 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP. Queued #1378 (2028-04-21, 1 day after latest SHIP_BLOCKED 2028-04-20). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03), earliest-due next publish-eligible run.",
   "last_checked": "2026-11-03T10:45:00-08:00",
   "last_completed": "2026-11-03T10:30:00-08:00",
