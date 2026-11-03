@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1376-telluride-stalling-cluster-no-recall",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-03T06:30:00-08:00"
+  },
   "last_check_note": "#1375 full pipeline (RESEARCH+DRAFT+CRITIQUE r0 avg 8.79+SHIP, queued 2028-04-18). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837 at 00:30 run); no publish this run. Next due: #838 (ship_date 2026-11-03), earliest-due next run.",
   "last_checked": "2026-11-03T04:30:00-08:00",
   "last_completed": "2026-11-03T04:30:00-08:00",
