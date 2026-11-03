@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1373-cummins-l9-second-wave-buses-rvs-fire-trucks",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-03T00:30:00-08:00"
+  },
   "last_check_note": "2026-11-02 22:30 run: #1372 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-15). Kill log: Nov 2 recall week fully exhausted (#1369 Thomas Built FMVSS 221, #1370 Wabash 26V683, #1371 RV cord trio); Sienna 26V690, Lincoln 26V688, GM 26V696, RAV4 26V659, Ford tailgate #1297, Great Dane #1348, Paccar #1337, GM L87 EA26005, Godzilla DP26011, Sierra grille RQ26003, robotaxi DP26010, Cybercab AQ26002, IIHS work-truck + small-SUV rounds, GHSA pedestrian #950, 2025 totals #1299, DTN60DB #824, Genesis G80 family, Ram 2500 ESC family, Tucson 26V316 published. PUBLISH-QUEUE: 1/day gate consumed (Publish #836 today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
-  "last_checked": "2026-11-02T22:30:00-08:00",
+  "last_checked": "2026-11-03T00:30:00-08:00",
   "last_completed": "2026-11-02T22:30:00-08:00",
   "last_completed_date": "2026-11-02",
   "last_journalist": "Rex Driverton",
