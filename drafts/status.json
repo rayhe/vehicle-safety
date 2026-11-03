@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1371-rv-power-seat-cord-fire-trio",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-02T20:30:00-08:00"
-  },
-  "last_check_note": "2026-11-02 18:30 run: #1370 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.80+SHIP, queued 2028-04-13). Kill log: 11 near-miss candidates rejected as already covered (work-truck crash avoidance #1144, Sienna 26V690 #1332, Lincoln 26V688 #1356, RAV4 26V659 #1166, Sierra RQ26003 #1149/#1170/#1207, Great Dane 26V708 #1348, GM 26V696 #1357, Ford tailgate #1297, Tesla far-side #1231, Kicks/Q3 batch #1278/#1346/#1244, Paccar hose #1337). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 + QA note today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
-  "last_checked": "2026-11-02T18:30:00-08:00",
-  "last_completed": "2026-11-02T18:30:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-02 20:30 run: #1371 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-14). Kill log: GM L87 EA26005 (#1367/#864/#1025/#1344), IIHS work-truck crash avoidance (#1144 et al), Godzilla DP26011 (#1350), Sienna 26V690 (#1332/#1292), Lincoln 26V688 (#1356), Volvo EX30 26V671 (#1222), Ford tailgate (#1297), Thomas Built 26V702 (#1369), RAV4 26V659 (#1166), GM 26V696 (#1357), Great Dane k-brace (#1348), Paccar hose (#1337), cyclist 2025 exception (#1299), Cybercab AQ26002 (#839). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
+  "last_checked": "2026-11-02T20:30:00-08:00",
+  "last_completed": "2026-11-02T20:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1371,
+  "next": 1372,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21478,6 +21473,43 @@
         "word_count": 613
       },
       "note": "2026-11-02 18:30 run: #1370 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.80+SHIP, queued 2028-04-13). Kill log: 11 near-miss candidates rejected as already covered (work-truck crash avoidance #1144, Sienna 26V690 #1332, Lincoln 26V688 #1356, RAV4 26V659 #1166, Sierra RQ26003 #1149/#1170/#1207, Great Dane 26V708 #1348, GM 26V696 #1357, Ford tailgate #1297, Tesla far-side #1231, Kicks/Q3 batch #1278/#1346/#1244, Paccar hose #1337). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 + QA note today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run."
+    },
+    {
+      "number": 1371,
+      "slug": "1371-rv-power-seat-cord-fire-trio",
+      "title": "Three RV Brands Recalled the Same Recliner Cord. The Fuse Was Supposed to Stop the Fire.",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2028-04-14",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "4d147f34",
+        "word_count": 702
+      },
+      "files": {
+        "story": "drafts/1371-rv-power-seat-cord-fire-trio.html",
+        "hero": "drafts/1371-rv-power-seat-cord-fire-trio.jpg",
+        "research": "drafts/1371-rv-power-seat-cord-fire-trio-research.md",
+        "critic_panel": "drafts/1371-rv-power-seat-cord-fire-trio-critic-panel-r0.md"
+      },
+      "started": "2026-11-02T20:30:00-08:00",
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; hard gates all pass (em 0, banned 0, The 0.0%, css ok, hero JPEG 1920x1280). Three-brand cluster: Alliance 26V680 (3,686) + Heartland 26V710 (518) + Ember 26V714 (259) = 4,463 trailers, identical NHTSA defect sentence, same week. Shared-supplier link flagged as inference; Part 573 PDFs not independently read (disclosed). 1/day gate consumed today by Publish #836, so no publish this run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
