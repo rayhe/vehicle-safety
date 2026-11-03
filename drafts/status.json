@@ -21395,7 +21395,48 @@
         "critic_panel": "drafts/1368-lexus-rx-five-star-poor-critic-panel-r0.md"
       },
       "note": "2026-11-02 14:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 8.90, 7/7 >= 8.5, all hard gates; em 0, The-starters 3.3%, rhythm pass). NHTSA 5-star RX 350 AWD vs IIHS updated-moderate-overlap Poor (rear-dummy chest; dropped Marginal->Poor on the 2024 chest-index revision, no vehicle change); NX made 2026 TSP list, RX on neither. Queued 1/day after latest SHIP_BLOCKED (2028-04-10)."
+    },
+    {
+      "number": 1369,
+      "slug": "1369-thomas-built-fmvs221-fourth-strike",
+      "title": "13,593 School Buses Were Glued Together. The Glue Didn't Stick.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-12",
+      "avg_critic": 8.99,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "d26d41e5",
+        "rhythm_pass": true,
+        "rhythm_variance": 1245.3,
+        "rhythm_short_pct": 14.3,
+        "rhythm_long_pct": 60.7
+      },
+      "files": {
+        "research": "drafts/1369-thomas-built-fmvs221-fourth-strike-research.md",
+        "story": "drafts/1369-thomas-built-fmvs221-fourth-strike.html",
+        "hero": "drafts/1369-thomas-built-fmvs221-fourth-strike.jpg",
+        "critic_panel": "drafts/1369-thomas-built-fmvs221-fourth-strike-critic-panel-r0.md"
+      },
+      "note": "2026-11-02 16:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 8.99, 7/7 >= 8.5, all hard gates; em 0, The-starters 10.6%, rhythm pass). New NHTSA 26V702 (DTNA F1044, filed Oct 22, 2026): 13,593 buses, 100% defect estimate, improperly bonded interior wheelhouse joints, FMVSS 221 S5.1; remedy = additional mechanical fasteners; owner letters Dec 21. Original: four-campaign FMVSS-221 tally (23V333+26V388+26V546+26V702 = 37,250 buses). No prior coverage of 23V333 or FMVSS 221 on the site. Queued 1/day after latest SHIP_BLOCKED (2028-04-11)."
     }
   ],
-  "last_worker_run": "2026-11-02T14:30:00-08:00"
+  "last_worker_run": "2026-11-02T16:30:00-08:00"
 }
