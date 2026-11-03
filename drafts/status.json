@@ -8,8 +8,8 @@
   "last_published": "2026-11-03T00:30:00-08:00",
   "last_published_date": "2026-11-03",
   "last_published_slug": "837-tesla-model-y-l-rear-suspension-collapse-china",
-  "last_qa_date": "2026-11-01",
-  "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
+  "last_qa_date": "2026-11-03",
+  "last_qa_note": "QA pass #837: story 200 live, hero rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained). Initial 404 at 00:33 was the deploy racing the check; GH Action Deploy to Cloudflare Pages completed successfully.",
   "next": 1373,
   "queue": [
     {
@@ -1647,7 +1647,7 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "The Gap",
-      "note": "2026-11-03 00:30 run: published as #837 (earliest-due SHIP_BLOCKED, ship_date 2026-11-02, hero-ready JPEG 2048x1152 ?v=c96dc853; 1/day slot open, 0 prior publishes today). Gates re-verified pre-ship: em 0, banned 0, css ok.",
+      "note": "2026-11-03 00:30 run: published as #837 (earliest-due SHIP_BLOCKED, ship_date 2026-11-02, hero-ready JPEG 2048x1152 ?v=c96dc853; 1/day slot open, 0 prior publishes today). Gates re-verified pre-ship: em 0, banned 0, css ok. | QA 2026-11-03 00:35 run: story 200 live (initial 404 at 00:33 was pre-deploy-propagation; GH Action deploy completed 40s after push), hero image rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained).",
       "number": 837,
       "phase": "PUBLISHED",
       "scores": {
