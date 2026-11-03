@@ -1,7 +1,13 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1372-kia-ev9-one-recall-sixteen-complaints",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-02T22:30:00-08:00",
+    "round": 0
+  },
   "last_check_note": "2026-11-02 20:30 run: #1371 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-14). Kill log: GM L87 EA26005 (#1367/#864/#1025/#1344), IIHS work-truck crash avoidance (#1144 et al), Godzilla DP26011 (#1350), Sienna 26V690 (#1332/#1292), Lincoln 26V688 (#1356), Volvo EX30 26V671 (#1222), Ford tailgate (#1297), Thomas Built 26V702 (#1369), RAV4 26V659 (#1166), GM 26V696 (#1357), Great Dane k-brace (#1348), Paccar hose (#1337), cyclist 2025 exception (#1299), Cybercab AQ26002 (#839). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
-  "last_checked": "2026-11-02T20:30:00-08:00",
+  "last_checked": "2026-11-02T22:30:00-08:00",
   "last_completed": "2026-11-02T20:30:00-08:00",
   "last_completed_date": "2026-11-02",
   "last_journalist": "Mia Crumplezone",
