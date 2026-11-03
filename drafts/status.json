@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1372-kia-ev9-one-recall-sixteen-complaints",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-02T22:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-02 20:30 run: #1371 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-14). Kill log: GM L87 EA26005 (#1367/#864/#1025/#1344), IIHS work-truck crash avoidance (#1144 et al), Godzilla DP26011 (#1350), Sienna 26V690 (#1332/#1292), Lincoln 26V688 (#1356), Volvo EX30 26V671 (#1222), Ford tailgate (#1297), Thomas Built 26V702 (#1369), RAV4 26V659 (#1166), GM 26V696 (#1357), Great Dane k-brace (#1348), Paccar hose (#1337), cyclist 2025 exception (#1299), Cybercab AQ26002 (#839). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
+  "current": null,
+  "last_check_note": "2026-11-02 22:30 run: #1372 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.86+SHIP, queued 2028-04-15). Kill log: Nov 2 recall week fully exhausted (#1369 Thomas Built FMVSS 221, #1370 Wabash 26V683, #1371 RV cord trio); Sienna 26V690, Lincoln 26V688, GM 26V696, RAV4 26V659, Ford tailgate #1297, Great Dane #1348, Paccar #1337, GM L87 EA26005, Godzilla DP26011, Sierra grille RQ26003, robotaxi DP26010, Cybercab AQ26002, IIHS work-truck + small-SUV rounds, GHSA pedestrian #950, 2025 totals #1299, DTN60DB #824, Genesis G80 family, Ram 2500 ESC family, Tucson 26V316 published. PUBLISH-QUEUE: 1/day gate consumed (Publish #836 today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
   "last_checked": "2026-11-02T22:30:00-08:00",
-  "last_completed": "2026-11-02T20:30:00-08:00",
+  "last_completed": "2026-11-02T22:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1372,
+  "next": 1373,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21516,6 +21510,43 @@
       },
       "started": "2026-11-02T20:30:00-08:00",
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; hard gates all pass (em 0, banned 0, The 0.0%, css ok, hero JPEG 1920x1280). Three-brand cluster: Alliance 26V680 (3,686) + Heartland 26V710 (518) + Ember 26V714 (259) = 4,463 trailers, identical NHTSA defect sentence, same week. Shared-supplier link flagged as inference; Part 573 PDFs not independently read (disclosed). 1/day gate consumed today by Publish #836, so no publish this run."
+    },
+    {
+      "number": 1372,
+      "slug": "1372-kia-ev9-one-recall-sixteen-complaints",
+      "title": "Kia Recalled One EV9 for a Battery Fire Risk. Sixteen Owners Had Already Complained.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-04-15",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "critic_avg": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "5cff43fc",
+        "word_count": 621
+      },
+      "files": {
+        "story": "drafts/1372-kia-ev9-one-recall-sixteen-complaints.html",
+        "hero": "drafts/1372-kia-ev9-one-recall-sixteen-complaints.jpg",
+        "research": "drafts/1372-kia-ev9-one-recall-sixteen-complaints-research.md",
+        "critic_panel": "drafts/1372-kia-ev9-one-recall-sixteen-complaints-critic-panel-r0.md"
+      },
+      "started": "2026-11-02T22:30:00-08:00",
+      "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5; hard gates all pass (em 0, banned 0, The 0.0%, css ok, hero JPEG 1920x1280, rhythm PASS). Novel mechanism vs published SK On piece: recall population from supplier traceability vs 16-owner complaint file (CARC Oct 29, 2026 pull; 9 warned, 9 towed/not-driven, 603 days). Complaints flagged unverified; overlap with recalled EV9 unestablished; Part 573 PDFs verified via excerpts not full reads (disclosed). Queued 2028-04-15 (1 day after #1371). 1/day gate consumed today by Publish #836, so no publish this run; #837 (due 2026-11-02, hero-ready) first in line next run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
