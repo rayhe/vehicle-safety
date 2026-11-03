@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-02 12:30 run: #1367 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.93+SHIP, queued 2028-04-10). PUBLISH-QUEUE: 1/day gate consumed (2 Publish commits today); no publish this run. #837 remains earliest-due, first in line next run.",
-  "last_checked": "2026-11-02T12:30:00-08:00",
-  "last_completed": "2026-11-02T14:30:00-08:00",
+  "last_check_note": "2026-11-02 18:30 run: #1370 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.80+SHIP, queued 2028-04-13). Kill log: 11 near-miss candidates rejected as already covered (work-truck crash avoidance #1144, Sienna 26V690 #1332, Lincoln 26V688 #1356, RAV4 26V659 #1166, Sierra RQ26003 #1149/#1170/#1207, Great Dane 26V708 #1348, GM 26V696 #1357, Ford tailgate #1297, Tesla far-side #1231, Kicks/Q3 batch #1278/#1346/#1244, Paccar hose #1337). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 + QA note today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run.",
+  "last_checked": "2026-11-02T18:30:00-08:00",
+  "last_completed": "2026-11-02T18:30:00-08:00",
   "last_completed_date": "2026-11-02",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-01T01:30:00-07:00",
   "last_published_date": "2026-11-01",
   "last_published_slug": "835-gm-eboost-brake-failure-while-driving",
   "last_qa_date": "2026-11-01",
   "last_qa_note": "QA pass #835: story 200 (308 pretty-URL redirect, same as #833/#834), hero JPEG 200 (1920x1280 ?v=766c5658), og tags present, index card live, sitemap entry lastmod 2026-11-01, dateline September 7, 2026 (draft date retained).",
-  "next": 1369,
+  "next": 1371,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21436,6 +21436,43 @@
         "critic_panel": "drafts/1369-thomas-built-fmvs221-fourth-strike-critic-panel-r0.md"
       },
       "note": "2026-11-02 16:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 8.99, 7/7 >= 8.5, all hard gates; em 0, The-starters 10.6%, rhythm pass). New NHTSA 26V702 (DTNA F1044, filed Oct 22, 2026): 13,593 buses, 100% defect estimate, improperly bonded interior wheelhouse joints, FMVSS 221 S5.1; remedy = additional mechanical fasteners; owner letters Dec 21. Original: four-campaign FMVSS-221 tally (23V333+26V388+26V546+26V702 = 37,250 buses). No prior coverage of 23V333 or FMVSS 221 on the site. Queued 1/day after latest SHIP_BLOCKED (2028-04-11)."
+    },
+    {
+      "number": 1370,
+      "slug": "1370-wabash-third-recall-wrong-grease",
+      "title": "Wabash's Brand-New Trailers Have Been Recalled Three Times. The Third One Locks a Wheel.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-13",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1370-wabash-third-recall-wrong-grease-research.md",
+        "story": "drafts/1370-wabash-third-recall-wrong-grease.html",
+        "hero": "drafts/1370-wabash-third-recall-wrong-grease.jpg",
+        "critic_panel": "drafts/1370-wabash-third-recall-wrong-grease-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "8ecec387",
+        "word_count": 613
+      },
+      "note": "2026-11-02 18:30 run: #1370 full pipeline in one run (RESEARCH+DRAFT+CRITIQUE r0 avg 8.80+SHIP, queued 2028-04-13). Kill log: 11 near-miss candidates rejected as already covered (work-truck crash avoidance #1144, Sienna 26V690 #1332, Lincoln 26V688 #1356, RAV4 26V659 #1166, Sierra RQ26003 #1149/#1170/#1207, Great Dane 26V708 #1348, GM 26V696 #1357, Ford tailgate #1297, Tesla far-side #1231, Kicks/Q3 batch #1278/#1346/#1244, Paccar hose #1337). PUBLISH-QUEUE: 1/day gate consumed (Publish #836 + QA note today); no publish this run. #837 (ship_date 2026-11-02, hero-ready) remains earliest-due, first in line next run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
