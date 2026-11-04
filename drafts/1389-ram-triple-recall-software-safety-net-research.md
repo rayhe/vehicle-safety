@@ -18,10 +18,18 @@ fails quiet.
 
 Challenge: is this surprising after 1,388 articles, given the site's deep
 Ram bench (#1108 nine recalls in ten months, #1195 buckle anchor,
-#1297 Ford tailgate cable)? Yes, three ways. (1) No prior site article
-covers the Ram rearview-camera recall 26V560 at all — filename and queue
-checks on 2026-11-04 found no Ram camera piece (nearest: #1251 Range
-Rover drain holes, #1215 Ford Ranger black screen). (2) The triple-recall
+#1297 Ford tailgate cable)? Yes, three ways. (1) CORRECTION (2026-11-04, post-ship content grep): the filename/queue
+checks MISSED prior individual coverage of all three campaigns. NHTSA
+26V560 is covered by #821 (rear-camera-recall-census, PUBLISHED
+2026-10-17) and tabulated in #843; 26V623 is covered by #1107
+(ram-tpms-blind-guard, queued 2027-07-22); 26V651 is covered by #1208
+(stellantis-esc-hat-trick) and #1228 (ram-2500-esc-silent-kill). What
+remains novel is ONLY the triple-bundle frame (one five-week window,
+three FMVSS standards, one silent-failure shape) and the 263,845
+arithmetic — the component recalls are NOT uncovered. Filename/queue
+checks failed because the prior slugs contain none of the searched
+terms (rear-camera-recall-census, ram-tpms-blind-guard,
+stellantis-esc-hat-trick); content grep is required for kill tests. (2) The triple-recall
 frame is original: three campaigns, three different federal standards
 (FMVSS 111, 138, 126), one five-week window, one through-line — the
 intermediary, not the hardware, is what broke. (3) The precedent bites:
