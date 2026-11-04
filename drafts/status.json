@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1391-gm-express-savana-recall-of-recall",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-04T12:35:00-08:00"
-  },
-  "last_check_note": "CORRECTION 2026-11-04 post-ship: content grep found prior individual coverage of all three campaigns (#821 PUBLISHED 2026-10-17 covers 26V560; #1107 covers 26V623; #1208/#1228 cover 26V651). Novelty rests ONLY on the triple-bundle frame + 263,845 arithmetic; component recalls are NOT uncovered. Keep-or-park decision pending main-agent review. Original note: 2026-11-04 08:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.99, SHIP #1389 (queue 2028-05-02). Novel angle verified uncovered: Ram triple recall 263,845 (26V560 camera/radio 239,131 + 26V623 TPMS 16,385 + 26V651 ESC 8,329), three FMVSS noncompliance cases in five weeks, all silent failures; Oct 2024 273k camera precedent (88%). Duplicates killed in research: Nautilus 26V688 (#1356), Sierra grille RQ26003 (many), robotaxi DP26010 (many), Ford tailgate 26V689 (#1297), PACCAR L9 hose 26V700 (#1337), GM seat weld 26V696 (#1357), Godzilla DP26011 (#1350), Sienna 26V690 (#1313/#1332), Durango 26V701 (#1329), Ford cluster 26V653 (#1333). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T12:35:00-08:00",
-  "last_completed": "2026-11-04T10:45:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-04 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 9.03, SHIP #1391 (queue 2028-05-04). Novel angle verified uncovered: GM 26V718 recall-of-recall (12,715 vans, 47.9% of 26V399 population, re-inspection because first inspections improper). Note: status next was stale at 1390 despite #1390 already queued; corrected to 1392. PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-04T12:55:00-08:00",
+  "last_completed": "2026-11-04T12:55:00-08:00",
   "last_completed_date": "2026-11-04",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-04T00:30:00-08:00",
@@ -15,7 +10,7 @@
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1390,
+  "next": 1392,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22183,6 +22178,24 @@
         "data": 9.0
       },
       "note": "Round 0 pass, all hard gates pass. BizzyCar Q3 2026: 8.8M vehicles, 32.1M YTD; back-over prevention ~23%; Ram 1.27M anchor recall (26V495)."
+    },
+    {
+      "number": 1391,
+      "slug": "1391-gm-express-savana-recall-of-recall",
+      "title": "GM Recalled the Vans. Then It Recalled the Recall",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-04",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.2,
+        "social": 8.8,
+        "legal": 9.0,
+        "rigor": 9.2,
+        "data": 9.0
+      },
+      "note": "Round 0 pass, all hard gates pass (em 0, banned 0, The-starters 0/28, rhythm body-text var 255.7/short 14.3%/long 60.7%). GM 26V718 (Oct 29, 2026): 12,715 Express/Savana vans re-recalled because 26V399 inspections were improper; 47.9% of June 26,541 population; third 2026 steering recall on the vans. Killed in research: 26V717 (#1387), L87 (#1367), IIHS Oct wave (#1244), 26V702 (#1369), Ford tailgate (#1297), Q4 26V698 (#1268), Genesis 26V664 (#1290/#1330), GHSA ped 2025 (#1374), DST (#1157)."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
