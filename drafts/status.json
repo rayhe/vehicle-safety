@@ -1,21 +1,16 @@
 {
-  "current": {
-    "slug": "1383-evenflo-revolve180-level-indicator-recline-recall",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-03T20:45:00-08:00"
-  },
-  "last_check_note": "2026-11-03 18:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.79, SHIP. Kill-test notes: Nautilus 26V688 rejected as duplicate (#1321, #1356); Sierra grille, robotaxi school zone, Godzilla all previously covered; RV triple fuse pattern verified uncovered (heartland/alliance filename checks clean; ember matches were 'september' false positives). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-03T20:45:00-08:00",
-  "last_completed": "2026-11-03T18:45:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-03 20:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP. Kill-test log in research file: Nov 2 commercial wave, L87/eBoost twin deadlines (#1380), Toyota PVM 25V744 (2025 stale repost), RAV4 PHEV, F-150 tank 26V578 all previously covered; Evenflo 26C005 verified uncovered (zero filename/content matches). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-03T21:00:00-08:00",
+  "last_completed": "2026-11-03T21:00:00-08:00",
   "last_completed_date": "2026-11-03",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-03T00:30:00-08:00",
   "last_published_date": "2026-11-03",
   "last_published_slug": "837-tesla-model-y-l-rear-suspension-collapse-china",
   "last_qa_date": "2026-11-03",
   "last_qa_note": "QA pass #837: story 200 live, hero rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained). Initial 404 at 00:33 was the deploy racing the check; GH Action Deploy to Cloudflare Pages completed successfully.",
-  "next": 1383,
+  "next": 1384,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21885,6 +21880,43 @@
       "ship_date": "2028-04-25",
       "slug": "1382-rv-power-seat-fuse-triple-recall",
       "title": "Three RV Brands, One Bad Fuse: 4,463 Trailers Recalled for Power Seats That Could Catch Fire"
+    },
+    {
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1383-evenflo-revolve180-level-indicator-recline-recall-critic-panel-r0.md",
+        "hero": "drafts/1383-evenflo-revolve180-level-indicator-recline-recall.jpg",
+        "research": "drafts/1383-evenflo-revolve180-level-indicator-recline-recall-research.md",
+        "story": "drafts/1383-evenflo-revolve180-level-indicator-recline-recall.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "bac3948f",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1166
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-11-03 20:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP. Kill-test log in research file: Nov 2 commercial wave, L87/eBoost twin deadlines (#1380), Toyota PVM 25V744 (2025 stale repost), RAV4 PHEV, F-150 tank 26V578 all previously covered; Evenflo 26C005 verified uncovered (zero filename/content matches). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
+      "number": 1383,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-04-26",
+      "slug": "1383-evenflo-revolve180-level-indicator-recline-recall",
+      "title": "The Level Said Green. The Crash Dummy Failed Anyway."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
