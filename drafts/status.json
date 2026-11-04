@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-04 04:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.84, SHIP #1387 (queue 2028-04-30). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit, Vin Wreckage) \u2014 earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T04:30:00-08:00",
+  "last_check_note": "2026-11-04 06:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.87, SHIP #1388 (queue 2028-05-01). Novel angle verified uncovered: DOT HS 813 837 two-vehicle ratios (13.9x truck-front-to-car-side, 2.7x head-on, 1.4x reversal). Duplicates killed in research: Ford 741k rollaway (#1339), GM L87 Nov 13 (#1367), GM eBoost (#1380), Thomas Built FMVSS 221 (#1369), RV power-seat cord trio (#1371), IIHS crossover batch (#1312), Toyota PVM 25V744 (stale 2025, #821). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit) \u2014 earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-04T06:40:00-08:00",
   "last_completed": "2026-11-04T00:30:00-08:00",
   "last_completed_date": "2026-11-04",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1388,
+  "next": 1389,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22072,6 +22072,50 @@
         "hero": "drafts/1387-gm-ev-brake-software-recall-26v717.jpg"
       },
       "note": "2026-11-04 04:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.84, round 0). GM brake software recall 26V-717 (67,380 LYRIQ/Blazer EV/CELESTIQ/VISTIQ, report Oct 29, 2026) vs EA26006 eBoost investigation (1,164,820 vehicles); original overlap audit (3 shared nameplates, 5.8%, 69 days). Duplicate-screen: GM L87, Ford Godzilla, Tesla FSD PE25012, Fairfield CHP crash all killed as already covered (#1367, #1350, #1225, site June 2026 piece). Gates: em 0, banned 0, The-starters 0.0pct, rhythm PASS, hero JPEG 1920x1280 ?v=08eb84da. Queued SHIP_BLOCKED 2028-04-30 (1 day after #1386 2028-04-29)."
+    },
+    {
+      "number": 1388,
+      "slug": "1388-car-vs-light-truck-side-impact-14x",
+      "title": "A Truck's Front End Hits Your Car's Side. The Death Ratio Is 14 to 1",
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-01",
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "9fc53190",
+        "hero_dim": "1920x1280",
+        "word_count": 623,
+        "sentence_rhythm": {
+          "variance": 1183.0,
+          "short_pct": 5.9,
+          "long_pct": 64.7,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1388-car-vs-light-truck-side-impact-14x-research.md",
+        "story": "drafts/1388-car-vs-light-truck-side-impact-14x.html",
+        "critic_panel": "drafts/1388-car-vs-light-truck-side-impact-14x-critic-panel-r0.md",
+        "hero": "drafts/1388-car-vs-light-truck-side-impact-14x.jpg"
+      },
+      "note": "2026-11-04 06:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.87, SHIP #1388 (queue 2028-05-01). Novel angle verified uncovered: DOT HS 813 837 two-vehicle ratios (13.9x truck-front-to-car-side, 2.7x head-on, 1.4x reversal). Duplicates killed in research: Ford 741k rollaway (#1339), GM L87 Nov 13 (#1367), GM eBoost (#1380), Thomas Built FMVSS 221 (#1369), RV power-seat cord trio (#1371), IIHS crossover batch (#1312), Toyota PVM 25V744 (stale 2025, #821). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit) \u2014 earliest-due next publish-eligible run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
