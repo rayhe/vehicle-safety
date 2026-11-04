@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1392-tiguan-crv-five-star-poor-back-seat",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-04T14:30:00-08:00"
+  },
   "last_check_note": "2026-11-04 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 9.03, SHIP #1391 (queue 2028-05-04). Novel angle verified uncovered: GM 26V718 recall-of-recall (12,715 vans, 47.9% of 26V399 population, re-inspection because first inspections improper). Note: status next was stale at 1390 despite #1390 already queued; corrected to 1392. PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T12:39:58-08:00",
+  "last_checked": "2026-11-04T14:45:00-08:00",
   "last_completed": "2026-11-04T12:39:58-08:00",
   "last_completed_date": "2026-11-04",
   "last_journalist": "Rex Driverton",
