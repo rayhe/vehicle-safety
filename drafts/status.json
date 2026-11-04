@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1391-gm-express-savana-recall-of-recall",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-04T12:35:00-08:00"
+  },
   "last_check_note": "CORRECTION 2026-11-04 post-ship: content grep found prior individual coverage of all three campaigns (#821 PUBLISHED 2026-10-17 covers 26V560; #1107 covers 26V623; #1208/#1228 cover 26V651). Novelty rests ONLY on the triple-bundle frame + 263,845 arithmetic; component recalls are NOT uncovered. Keep-or-park decision pending main-agent review. Original note: 2026-11-04 08:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.99, SHIP #1389 (queue 2028-05-02). Novel angle verified uncovered: Ram triple recall 263,845 (26V560 camera/radio 239,131 + 26V623 TPMS 16,385 + 26V651 ESC 8,329), three FMVSS noncompliance cases in five weeks, all silent failures; Oct 2024 273k camera precedent (88%). Duplicates killed in research: Nautilus 26V688 (#1356), Sierra grille RQ26003 (many), robotaxi DP26010 (many), Ford tailgate 26V689 (#1297), PACCAR L9 hose 26V700 (#1337), GM seat weld 26V696 (#1357), Godzilla DP26011 (#1350), Sienna 26V690 (#1313/#1332), Durango 26V701 (#1329), Ford cluster 26V653 (#1333). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T09:10:00-08:00",
+  "last_checked": "2026-11-04T12:35:00-08:00",
   "last_completed": "2026-11-04T10:45:00-08:00",
   "last_completed_date": "2026-11-04",
   "last_journalist": "Rex Driverton",
