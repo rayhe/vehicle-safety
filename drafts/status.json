@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1386-borgwarner-akasol-battery-six-recalls-one-query",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-04T02:30:00-08:00"
+    "started": "2026-11-04T02:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-04 00:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP #1385 (queue 2028-04-28). PUBLISH-QUEUE: published #838 (due 2026-11-03, hero-ready). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit, Vin Wreckage) — earliest-due next publish-eligible run.",
   "last_checked": "2026-11-04T00:30:00-08:00",
