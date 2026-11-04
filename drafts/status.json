@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-03 20:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP. Kill-test log in research file: Nov 2 commercial wave, L87/eBoost twin deadlines (#1380), Toyota PVM 25V744 (2025 stale repost), RAV4 PHEV, F-150 tank 26V578 all previously covered; Evenflo 26C005 verified uncovered (zero filename/content matches). PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-03T21:00:00-08:00",
-  "last_completed": "2026-11-03T21:00:00-08:00",
+  "last_check_note": "2026-11-03 22:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.71, SHIP. Kill-test log in research file: Nov 2 commercial wave (Lincoln 26V688, Ford tailgate 26V689, Durango 26V701, Thomas Built 26V702, Cummins L9 cascade incl. Nova 26V712, RV power-seat trio), GM L87/eBoost Nov 13 deadlines (#1380), IIHS Oct 31 moderate-overlap batch all previously covered; Thanksgiving 2024 drop-vs-drunk-share angle verified new vs #1280 (2019-2023 data only) with 2024-provisional caveat carried in article. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-03T22:30:00-08:00",
+  "last_completed": "2026-11-03T22:30:00-08:00",
   "last_completed_date": "2026-11-03",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-03T00:30:00-08:00",
   "last_published_date": "2026-11-03",
   "last_published_slug": "837-tesla-model-y-l-rear-suspension-collapse-china",
   "last_qa_date": "2026-11-03",
   "last_qa_note": "QA pass #837: story 200 live, hero rendered (?v=c96dc853), index card first in grid, sitemap entry lastmod 2026-11-03, dateline September 7, 2026 (draft date retained). Initial 404 at 00:33 was the deploy racing the check; GH Action Deploy to Cloudflare Pages completed successfully.",
-  "next": 1384,
+  "next": 1385,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21917,6 +21917,43 @@
       "ship_date": "2028-04-26",
       "slug": "1383-evenflo-revolve180-level-indicator-recline-recall",
       "title": "The Level Said Green. The Crash Dummy Failed Anyway."
+    },
+    {
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1384-thanksgiving-2024-drop-drunk-share-surge-critic-panel-r0.md",
+        "hero": "drafts/1384-thanksgiving-2024-drop-drunk-share-surge.jpg",
+        "research": "drafts/1384-thanksgiving-2024-drop-drunk-share-surge-research.md",
+        "story": "drafts/1384-thanksgiving-2024-drop-drunk-share-surge.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "bff947d8",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 2.4,
+        "word_count": 982
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "note": "2026-11-03 22:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.71, SHIP. Kill-test log in research file: Nov 2 commercial wave (Lincoln 26V688, Ford tailgate 26V689, Durango 26V701, Thomas Built 26V702, Cummins L9 cascade incl. Nova 26V712, RV power-seat trio), GM L87/eBoost Nov 13 deadlines (#1380), IIHS Oct 31 moderate-overlap batch all previously covered; Thanksgiving 2024 drop-vs-drunk-share angle verified new vs #1280 (2019-2023 data only) with 2024-provisional caveat carried in article. PUBLISH-QUEUE: 1/day gate already consumed today (Publish #837); no publish this run. Next due: #838 (ship_date 2026-11-03, hero-ready in drafts/), earliest-due next publish-eligible run.",
+      "number": 1384,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-04-27",
+      "slug": "1384-thanksgiving-2024-drop-drunk-share-surge",
+      "title": "Thanksgiving Got Safer. Its Drivers Got Drunker."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
