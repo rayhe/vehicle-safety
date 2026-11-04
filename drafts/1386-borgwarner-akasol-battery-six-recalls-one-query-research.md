@@ -27,7 +27,7 @@ the 2025 wave is a second torque failure (under-torqued / reworked
 terminal-connector hardware). Same battery generation, same failure
 family, twice. (3) The timeline: first thermal event January 6, 2025
 (Egypt body builder, battery not yet installed) to federal query
-October 30, 2026 is 663 days from spark to "did the fix work."
+October 30, 2026 is 662 days from spark to "did the fix work."
 
 Killed angles this run (all verified against drafts/ filenames AND
 research-file contents, no head-truncation):
@@ -143,8 +143,8 @@ research-file contents, no head-truncation):
    25V184 (Nova Bus), 25E018 (Cummins), 25V203 (Gillig) — so a mixed-
    fleet operator can see the whole patchwork in one place instead
    of chasing six recall notices for one defect.
-2. **The 663-day arc (new calculation):** January 6, 2025 (Egypt
-   thermal runaway) to October 30, 2026 (RQ26005) = 663 days from
+2. **The 662-day arc (new calculation):** January 6, 2025 (Egypt
+   thermal runaway) to October 30, 2026 (RQ26005) = 662 days from
    first thermal event to a federal query about whether the fix
    worked. Within that arc, the scope expanded twice: Darmstadt-only
    to Hazel Park (January 28, 2025), then a new suspect list

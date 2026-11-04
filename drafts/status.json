@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1386-borgwarner-akasol-battery-six-recalls-one-query",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-04T02:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-04 00:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP #1385 (queue 2028-04-28). PUBLISH-QUEUE: published #838 (due 2026-11-03, hero-ready). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit, Vin Wreckage) — earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T00:30:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-04 02:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.79, SHIP #1386 (queue 2028-04-29). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit, Vin Wreckage) — earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-04T02:30:00-08:00",
   "last_completed": "2026-11-04T00:30:00-08:00",
   "last_completed_date": "2026-11-04",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1386,
+  "next": 1387,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -21997,6 +21991,43 @@
       "ship_date": "2028-04-28",
       "slug": "1385-subcompact-safety-gap-three-crossovers-one-award",
       "title": "Three Cheap Crossovers Walk Into IIHS. Only One Walks Out With an Award."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1386-borgwarner-akasol-battery-six-recalls-one-query-critic-panel-r0.md",
+        "hero": "drafts/1386-borgwarner-akasol-battery-six-recalls-one-query.jpg",
+        "research": "drafts/1386-borgwarner-akasol-battery-six-recalls-one-query-research.md",
+        "story": "drafts/1386-borgwarner-akasol-battery-six-recalls-one-query.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "e9f34c2c",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1014
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-04 02:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.79, SHIP (queue 2028-04-29). Kill-test log in research file: 26V689 tailgate (#1297), IIHS commercial Oct 8 + crossover Oct 22 rounds, Nautilus 26V688, Durango 26V701, robotaxi DP26010, Great Dane DP26012, Godzilla DP26011, Genesis 26V664, Sierra RQ26003, GM L87 EA26005, 2025 national decline all previously covered; RQ26005/Akasol verified new (only BorgWarner hits were Mach-E pinion articles, different part). Critique caught a real error pre-score: 663 -> 662 days (Jan 6 2025 to Oct 30 2026), fixed in article + research. Rhythm gate fixed during draft (short 16.7% -> 10.7% via two merges; var 1518). PUBLISH-QUEUE below: skipped, 1/day slot consumed by Publish #838 earlier today.",
+      "number": 1386,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-04-29",
+      "slug": "1386-borgwarner-akasol-battery-six-recalls-one-query",
+      "title": "Six Recalls, One Battery, and a Federal Question With No Answer Yet"
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
