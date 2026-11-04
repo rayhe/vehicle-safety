@@ -1,7 +1,12 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1389-ram-triple-recall-software-safety-net",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-04T08:45:00-08:00"
+  },
   "last_check_note": "2026-11-04 06:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.87, SHIP #1388 (queue 2028-05-01). Novel angle verified uncovered: DOT HS 813 837 two-vehicle ratios (13.9x truck-front-to-car-side, 2.7x head-on, 1.4x reversal). Duplicates killed in research: Ford 741k rollaway (#1339), GM L87 Nov 13 (#1367), GM eBoost (#1380), Thomas Built FMVSS 221 (#1369), RV power-seat cord trio (#1371), IIHS crossover batch (#1312), Toyota PVM 25V744 (stale 2025, #821). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit) \u2014 earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T06:40:00-08:00",
+  "last_checked": "2026-11-04T08:45:00-08:00",
   "last_completed": "2026-11-04T00:30:00-08:00",
   "last_completed_date": "2026-11-04",
   "last_journalist": "Axle McScatter",
