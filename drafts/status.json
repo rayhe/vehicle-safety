@@ -1,13 +1,7 @@
 {
-  "current": {
-    "slug": "1387-gm-ev-brake-software-recall-26v717",
-    "phase": "CRITIQUE",
-    "round": 0,
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-04T04:30:00-08:00"
-  },
-  "last_check_note": "2026-11-04 02:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.79, SHIP #1386 (queue 2028-04-29). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit, Vin Wreckage) \u2014 earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T02:30:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-04 04:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.84, SHIP #1387 (queue 2028-04-30). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit, Vin Wreckage) \u2014 earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-04T04:30:00-08:00",
   "last_completed": "2026-11-04T00:30:00-08:00",
   "last_completed_date": "2026-11-04",
   "last_journalist": "Mia Crumplezone",
@@ -16,7 +10,7 @@
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1387,
+  "next": 1388,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22034,6 +22028,50 @@
       "ship_date": "2028-04-29",
       "slug": "1386-borgwarner-akasol-battery-six-recalls-one-query",
       "title": "Six Recalls, One Battery, and a Federal Question With No Answer Yet"
+    },
+    {
+      "number": 1387,
+      "slug": "1387-gm-ev-brake-software-recall-26v717",
+      "title": "GM's Electric SUVs Now Have a Brake Recall and a Brake Investigation. They Are Not the Same Problem",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-04-30",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "08eb84da",
+        "hero_dim": "1920x1280",
+        "word_count": 593,
+        "sentence_rhythm": {
+          "variance": 1080.8,
+          "short_pct": 12.5,
+          "long_pct": 58.3,
+          "passed": true
+        }
+      },
+      "files": {
+        "research": "drafts/1387-gm-ev-brake-software-recall-26v717-research.md",
+        "story": "drafts/1387-gm-ev-brake-software-recall-26v717.html",
+        "critic_panel": "drafts/1387-gm-ev-brake-software-recall-26v717-critic-panel-r0.md",
+        "hero": "drafts/1387-gm-ev-brake-software-recall-26v717.jpg"
+      },
+      "note": "2026-11-04 04:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.84, round 0). GM brake software recall 26V-717 (67,380 LYRIQ/Blazer EV/CELESTIQ/VISTIQ, report Oct 29, 2026) vs EA26006 eBoost investigation (1,164,820 vehicles); original overlap audit (3 shared nameplates, 5.8%, 69 days). Duplicate-screen: GM L87, Ford Godzilla, Tesla FSD PE25012, Fairfield CHP crash all killed as already covered (#1367, #1350, #1225, site June 2026 piece). Gates: em 0, banned 0, The-starters 0.0pct, rhythm PASS, hero JPEG 1920x1280 ?v=08eb84da. Queued SHIP_BLOCKED 2028-04-30 (1 day after #1386 2028-04-29)."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
