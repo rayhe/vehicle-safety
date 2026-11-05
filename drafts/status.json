@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1400-hyundai-acu-software-deactivates-airbags",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-05T08:35:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-05 06:30 run: SHIP #1399 done (queue 2028-05-12, 608 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today (fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready and next publish-eligible.",
   "last_checked": "2026-11-05T06:50:00-08:00",
-  "last_completed": "2026-11-05T06:45:00-08:00",
+  "last_completed": "2026-11-05T09:05:00-08:00",
   "last_completed_date": "2026-11-05",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1400,
+  "next": 1401,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22470,6 +22464,47 @@
         "hero": "drafts/1399-state-map-2024-33-safer-17-deadlier.jpg"
       },
       "note": "2026-11-05 06:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). NHTSA DOT HS 813 791 Table 9 state map: 33 states safer, 17+DC deadlier; original divergence arithmetic (+356 risers vs -2,127 decliners), eight-state alcohol paradox (+110), Oklahoma share flip 25%->35%, California flat alcohol line. Duplicate screen killed GM EV brake, IIHS commercial, Jeep coil, Tiguan BCM, Camry cluster, Sierra grille, Godzilla, Tesla robotaxi, distraction undercount, 2024-overview angles. Gates: em 0, banned 0, The 3.4%, rhythm PASS, hero JPEG 2736x912 ?v=f803f975. Queued SHIP_BLOCKED 2028-05-12 (1 day after #1398 2028-05-11)."
+    },
+    {
+      "number": 1400,
+      "slug": "1400-hyundai-acu-software-deactivates-airbags",
+      "title": "A Software Bug Can Switch Off 37,901 Hyundais' Airbags. The Settlement Over the Last Airbag Computer Is Still Open.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-13",
+      "started": "2026-11-05T08:35:00-08:00",
+      "critique_round": 0,
+      "critic_avg": 8.79,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "9ca8d2ad",
+        "word_count": 633,
+        "rhythm": "pass (variance 268.4, short 7.4%, long 51.9%)",
+        "actionable_insights": true
+      },
+      "files": {
+        "research": "drafts/1400-hyundai-acu-software-deactivates-airbags-research.md",
+        "draft": "drafts/1400-hyundai-acu-software-deactivates-airbags.html",
+        "hero": "drafts/1400-hyundai-acu-software-deactivates-airbags.jpg",
+        "critic_panel": "drafts/1400-hyundai-acu-software-deactivates-airbags-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1400- prefix). News peg: NHTSA 26V728 (Hyundai 311), report received Nov 3, 2026; USA Today Nov 5. Novel: settlement-list overlap arithmetic (3 of 4 Veloster years, 5 of 5 Kona Electric years on ZF-TRW unrecalled list; 391/97-day gaps); NZ 2018 Kona ACU programming-error corroboration; Palisade 1.9M claim checked and dismissed via NHTSA API. No publish: 1/day rule, #839 shipped 2026-11-05; queue backlog through 2028-05-13."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"

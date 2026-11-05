@@ -64,6 +64,11 @@ Hyundai fixed this the cheap, fast way: a free software update, no parts, no par
 3. USA Today, Taylor Ardrey, "Hyundai recalls over 37,000 vehicles," November 5, 2026 — https://www.usatoday.com/story/cars/recalls/2026/11/05/hyundai-recalls-vehicles-veloster-n-kona-electric-models/92622632007/
 4. Class Action Buddy, "Hyundai & Kia Airbag Settlement: Which List Is Your Car On," last reviewed June 29, 2026 (checked against the official administrator site) — fund $62,100,100, lists, caps, deadlines, case number. https://classactionbuddy.com/settlements/621m-hyundai-kia-airbag-settlement-2027-deadline/
 5. Official settlement administrator — https://www.acusettlement.com (VIN lookup; cited via source 4's verification note)
+6. Hyundai New Zealand, Service & Safety Campaigns — 2018 Kona (OS) ACU programming-error recall, software-upgrade remedy (undated on page). https://www.hyundai.co.nz/safety-campaigns
+
+## Post-research verification (critique phase, 2026-11-05)
+- Palisade "1.9M airbag recall" claim (thehealthyattitude.com): CHECKED and dismissed. NHTSA API for 2023 Palisade shows 5 campaigns total, only one air-bag campaign (26V034, side curtain, 2020-2025). No 1.9M ACU recall exists in the federal record; content-farm conflation. Not in the article.
+- Part 573 PDF for 26V728: searched, no public PDF located. No article claim depends on it.
 
 ## Killed in research (duplicates, do not revive)
 - Lincoln Nautilus/Corsair neutral-shift 26V688 (#1321, #1356); GM EV brake software 26V717 (#1387); GM Express/Savana steering re-inspection 26V718 (#1391); Ford F-150 tailgate cable 26V689 (#1297); Audi Q4 e-tron 26V698 (#1268, #1351 duplicate); Genesis G80 seat-switch 26V664 (#1290, #1330); Thomas Built FMVSS 221 (#1369); Paccar fuel hose cascade (#1337).
