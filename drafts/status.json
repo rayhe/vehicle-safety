@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1394-ford-torque-cart-passed-unfinished-repairs",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-04T18:35:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-04 16:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP #1393 (queue 2028-05-06). Novel angle verified uncovered: NHTSA 26E-014 recalls 105 loose Mopar replacement curtain airbags carrying the same Autoliv seam defect as the Pacifica/Voyager vehicle recalls, fourth filing in the chain (25V302/25E033 May 2025, 25V573 Sep 2025, 26V189 Mar 2026, 26E-014 Mar 2026). Killed angles this run: GM L87 Nov 13 deadline (#1367), Land Cruiser fuel-tube recall (#1340, same 26V673 campaign), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), Range Rover drain holes (#1251), GM EV brake 26V717 (#1387). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
+  "current": null,
+  "last_check_note": "2026-11-04 18:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.97, SHIP #1394 (queue 2028-05-07). Novel angle verified uncovered: NHTSA 26V550, Ford torque repair cart software v1.13.1.9 auto-closing records as Passed on unverified work; 23 vehicles, one suspect joint each from 19 locations. Killed angles this run: GM L87 EA26005 (#1367), Land Cruiser fuel-tube 26V673 (#1340), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), GM 26V696 seat weld (#1357), RV power-seat fuse (#1382/#1371), Tesla robotaxi school zone DP26010 (#1145), Ford Godzilla DP26011 (#1295/#1326), Ford 741k rollaway remedy gap (#1339), Ford 26V606 headlights (#1033/#1054/#1078/#1097/#1193), PACCAR L9 hose cascade 26V700 (#1337), Ford Bronco Sport/Maverick ball-joint Do Not Drive 26V340 (June 2026, covered). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
   "last_checked": "2026-11-04T16:35:00-08:00",
-  "last_completed": "2026-11-04T16:35:00-08:00",
+  "last_completed": "2026-11-04T18:50:00-08:00",
   "last_completed_date": "2026-11-04",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1394,
+  "next": 1395,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22266,6 +22260,34 @@
       "ship_date": "2028-05-06",
       "slug": "1393-pacifica-curtain-airbag-parts-recall",
       "title": "Chrysler Recalled the Airbags. Then It Recalled the Replacement Airbags."
+    },
+    {
+      "avg_critic": 8.97,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1394-ford-torque-cart-passed-unfinished-repairs-critic-panel-r0.md",
+        "hero": "drafts/1394-ford-torque-cart-passed-unfinished-repairs.jpg",
+        "research": "drafts/1394-ford-torque-cart-passed-unfinished-repairs-research.md",
+        "story": "drafts/1394-ford-torque-cart-passed-unfinished-repairs.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "529c1539",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 472
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "number": 1394,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-07",
+      "slug": "1394-ford-torque-cart-passed-unfinished-repairs",
+      "title": "Ford's Repair Checker Stamped 'Passed' on Work Nobody Did",
+      "note": "2026-11-04 18:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.97, SHIP #1394 (queue 2028-05-07). Novel angle verified uncovered: NHTSA 26V550, Ford torque repair cart software v1.13.1.9 auto-closing records as Passed on unverified work; 23 vehicles, one suspect joint each from 19 locations. Killed angles this run: GM L87 EA26005 (#1367), Land Cruiser fuel-tube 26V673 (#1340), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), GM 26V696 seat weld (#1357), RV power-seat fuse (#1382/#1371), Tesla robotaxi school zone DP26010 (#1145), Ford Godzilla DP26011 (#1295/#1326), Ford 741k rollaway remedy gap (#1339), Ford 26V606 headlights (#1033/#1054/#1078/#1097/#1193), PACCAR L9 hose cascade 26V700 (#1337), Ford Bronco Sport/Maverick ball-joint Do Not Drive 26V340 (June 2026, covered). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
