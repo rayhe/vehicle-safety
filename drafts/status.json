@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1397-tesla-model-3-y-battery-contactor-power-loss",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-05T02:45:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-04 22:30 run: SHIP #1396 done (queue 2028-05-09, 605 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #838 already shipped today. Earliest due #839 cybercab-aq26002-self-certification-gambit (ship_date 2026-11-04) is hero-ready (drafts/839-cybercab-aq26002-self-certification-gambit.jpg exists) and is next publish-eligible.",
-  "last_checked": "2026-11-05T02:55:00-08:00",
-  "last_completed": "2026-11-05T00:31:00-08:00",
-  "last_completed_date": "2026-11-04",
-  "last_journalist": "Clara Rollover",
+  "last_checked": "2026-11-05T03:05:00-08:00",
+  "last_completed": "2026-11-05T03:05:00-08:00",
+  "last_completed_date": "2026-11-05",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1397,
+  "next": 1398,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22350,6 +22344,44 @@
       "slug": "1396-vw-jetta-puebla-pair-fire-no-warning",
       "title": "Volkswagen Recalled the Same Jetta Twice in One Month. Once Because It Could Catch Fire. Once Because It Couldn't Tell You.",
       "note": "2026-11-04 22:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.87, SHIP #1396 (queue 2028-05-09). Novel angle verified uncovered: VW Jetta Puebla pair, NHTSA 26V138 ground-wire fire recall (<1% defective, 6 claims, 3 engine fires, no warning indicators) + 26V185 dark instrument cluster recall (100% defective, Visteon NVM, FMVSS 101), filed 15 days apart March 2026; 2025 Jettas built Mar 3-Jul 1 2025 sit in both. Killed angles this run: Lincoln Nautilus oil (#1356/#1321), Range Rover drain holes (#1251), Land Cruiser fuel tube (#1204/#1230/#1248/#1340), RAV4 PHEV stall (#1130/#1166/#1233), GM 6-car seat weld 26V696 (#1357), Ford tailgate cable (#1297), EX30 headrest (#1222/#1366), Oct 31 IIHS moderate-overlap batch (#1244), IIHS commercial crash avoidance (#1110/#1121/#1144/#1175/#1318/#1327/#1341), GHSA pedestrian 2025 (#1374), NHTSA 2025 deaths (#2 search hit, own site), Tesla robotaxi DP26010 (#1145/#1167/#1205/#1315), Sierra grille RQ26003 (#1149/#1170/#1207/#1242/#1257/#1276/#1331/#1342), Ford Godzilla DP26011 (#1295/#1326/#1350), Cybertruck TSP+ (covered), Wagoneer roof rack (#970/#1263), Rogue VC-Turbo (#984), ID.4 26V630 (#1105/#1172/#1194), F-150 fuel tank 26V578 (#1045), Tiguan BCM 26V587 (#951), RV power-seat 26V710/26V714 (#1382), Yukon/Tahoe/Suburban gap (#732/#1063/#1210), Dakota compact-pickup group (#1196), Forte newer-deadlier (#1004), Corvette drunkest (#1007), Tracker/Veloster sober deathtraps, FMVSS 127/heavy-truck AEB (#830/#1141/#1150). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run."
+    },
+    {
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1397-tesla-model-3-y-battery-contactor-power-loss-critic-panel-r0.md",
+        "hero": "drafts/1397-tesla-model-3-y-battery-contactor-power-loss.jpg",
+        "research": "drafts/1397-tesla-model-3-y-battery-contactor-power-loss-research.md",
+        "story": "drafts/1397-tesla-model-3-y-battery-contactor-power-loss.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "fbf6993d",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 2.9,
+        "word_count": 610,
+        "hero_dim": "1920x1280"
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "number": 1397,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-10",
+      "slug": "1397-tesla-model-3-y-battery-contactor-power-loss",
+      "title": "Your Tesla Can Lose All Power at Speed. The Warning Comes After It's Already Gone.",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "note": "2026-11-05 02:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP #1397 (queue 2028-05-10). Novel angle verified uncovered: Tesla 25V690 battery contactor, 12,963 Model 3/Y, InTiCa solenoid inside SongChuan contactor, warning-after-failure inversion, ~1% defective (100-to-1 dragnet), two failure modes (park refusal vs highway power loss). Pre-panel fix: ref-2 link corrected to verbatim Reuters URL. Killed angles this run: Lincoln Nautilus anti-rust oil 26V688 (#1356/#1321), Land Cruiser fuel tube (#1204/#1230/#1248), DST fall-back pedestrian spike (#1157, same angle, Oct 13), Jeep Grand Cherokee coil spring third recall (#858/#882/#891), F-150 fuel tank 26V578 (#895/#910/#913/#915/#920), Tiguan BCM 26V587 (#951), VW steering bolt 26V590 (#953), GM 6-car seat weld 26V696 (#1357), Durango tail light (#1329), Ford tailgate cable (#1297), Toyota C-HR EV stall 26V570 (covered for overcharge #876/#900; stall variant passed over for thinner data)."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
