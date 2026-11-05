@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1401-dodge-durango-spoiler-third-recall-no-fix",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-05",
-    "round": 0
-  },
-  "last_check_note": "2026-11-05 10:30 run: RESEARCH+DRAFT #1401 done (Durango spoiler third recall, 26V528; killed F-150 fuel-tank, GM EV brake, VW steering bolt, Camry cluster, Thomas Built FMVSS 221, Jeep coil spring, IIHS Oct 31 round as duplicates/already-covered). Gates pre-checked: em 0, banned 0, The 0%, class=story, style.css, hero real JPEG 2736x912 ?v=d6dea9d4, rhythm script PASS. PUBLISH-QUEUE skipped: 1/day gate met (Publish #839 fe5da907 today); #840 due today, next publish-eligible.",
-  "last_checked": "2026-11-05T10:45:00-08:00",
-  "last_completed": "2026-11-05T09:05:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-05 10:30 run: SHIP #1401 done (queue 2028-05-14, 610 entries). RESEARCH+DRAFT+CRITIQUE+SHIP in one run: Durango spoiler third recall, 26V528, Clara Rollover, round-0 pass 8.71. PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today (fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready and next publish-eligible.",
+  "last_checked": "2026-11-05T11:00:00-08:00",
+  "last_completed": "2026-11-05T11:00:00-08:00",
   "last_completed_date": "2026-11-05",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-11-04T00:30:00-08:00",
@@ -16,7 +10,7 @@
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1401,
+  "next": 1402,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22511,6 +22505,47 @@
         "critic_panel": "drafts/1400-hyundai-acu-software-deactivates-airbags-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1400- prefix). News peg: NHTSA 26V728 (Hyundai 311), report received Nov 3, 2026; USA Today Nov 5. Novel: settlement-list overlap arithmetic (3 of 4 Veloster years, 5 of 5 Kona Electric years on ZF-TRW unrecalled list; 391/97-day gaps); NZ 2018 Kona ACU programming-error corroboration; Palisade 1.9M claim checked and dismissed via NHTSA API. No publish: 1/day rule, #839 shipped 2026-11-05; queue backlog through 2028-05-13."
+    },
+    {
+      "number": 1401,
+      "slug": "1401-dodge-durango-spoiler-third-recall-no-fix",
+      "title": "Dodge Recalled the Durango's Spoiler Twice, It Kept Falling Off, and the Third Recall Has No Fix Yet",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-14",
+      "started": "2026-11-05T10:30:00-08:00",
+      "critique_round": 0,
+      "critic_avg": 8.71,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2736x912",
+        "hero_hash": "d6dea9d4",
+        "word_count": 595,
+        "rhythm": "pass (variance 2590.0, short 14.3%, long 57.1%)",
+        "actionable_insights": true
+      },
+      "files": {
+        "research": "drafts/1401-dodge-durango-spoiler-third-recall-no-fix-research.md",
+        "draft": "drafts/1401-dodge-durango-spoiler-third-recall-no-fix.html",
+        "hero": "drafts/1401-dodge-durango-spoiler-third-recall-no-fix.jpg",
+        "critic_panel": "drafts/1401-dodge-durango-spoiler-third-recall-no-fix-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1401- prefix). News peg: NHTSA 26V528 (FCA 61D), filed Aug 13, 2026; interim letters Sep 10, 2026. Novel: three-campaign total 218,434 notices for one spoiler; 161 post-repair failure records forced recall 3; ~597 actually defective at 0.8%; remedy still under development at filing. Killed angles: F-150 fuel tank (7 queue entries), GM EV brake (#1387), VW steering bolt (5 entries), Camry cluster (already published), Thomas Built FMVSS 221 (#1369), Jeep coil spring (3 entries), IIHS Oct 31 round (#1392/#1244 overlap). No publish: 1/day rule, #839 shipped 2026-11-05; queue backlog through 2028-05-14."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
