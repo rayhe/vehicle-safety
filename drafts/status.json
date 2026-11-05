@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1395-fmcsa-heavy-duty-truck-study-2000-crashes",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-04T20:30:00-08:00"
+    "started": "2026-11-04T20:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-04 18:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.97, SHIP #1394 (queue 2028-05-07). Novel angle verified uncovered: NHTSA 26V550, Ford torque repair cart software v1.13.1.9 auto-closing records as Passed on unverified work; 23 vehicles, one suspect joint each from 19 locations. Killed angles this run: GM L87 EA26005 (#1367), Land Cruiser fuel-tube 26V673 (#1340), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), GM 26V696 seat weld (#1357), RV power-seat fuse (#1382/#1371), Tesla robotaxi school zone DP26010 (#1145), Ford Godzilla DP26011 (#1295/#1326), Ford 741k rollaway remedy gap (#1339), Ford 26V606 headlights (#1033/#1054/#1078/#1097/#1193), PACCAR L9 hose cascade 26V700 (#1337), Ford Bronco Sport/Maverick ball-joint Do Not Drive 26V340 (June 2026, covered). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
   "last_checked": "2026-11-04T16:35:00-08:00",
