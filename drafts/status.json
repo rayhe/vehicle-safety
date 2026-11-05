@@ -1,10 +1,15 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-05 04:30 run: SHIP #1398 done (queue 2028-05-11, 607 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today. Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready (drafts/840-legalization-fatality-tax-four-percent.jpg exists) and is next publish-eligible.",
-  "last_checked": "2026-11-05T04:35:00-08:00",
+  "current": {
+    "slug": "1399-state-map-2024-33-safer-17-deadlier",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-11-05T06:30:00-08:00"
+  },
+  "last_check_note": "2026-11-05 06:30 run: RESEARCH complete for #1399 (state-map 2024 split; Dale Impactor III). Duplicate screen killed GM EV brake, IIHS commercial, Jeep coil, Tiguan BCM, Camry cluster, Sierra grille, Godzilla, Tesla robotaxi, distraction undercount, 2024-overview angles. Proceeding to DRAFT.",
+  "last_checked": "2026-11-05T06:35:00-08:00",
   "last_completed": "2026-11-05T04:35:00-08:00",
   "last_completed_date": "2026-11-05",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
