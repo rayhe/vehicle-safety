@@ -1,10 +1,16 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-05 08:30 run: SHIP #1400 done (queue 2028-05-13, 609 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today (fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready and next publish-eligible.",
-  "last_checked": "2026-11-05T09:10:00-08:00",
+  "current": {
+    "slug": "1401-dodge-durango-spoiler-third-recall-no-fix",
+    "phase": "CRITIQUE",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-05",
+    "round": 0
+  },
+  "last_check_note": "2026-11-05 10:30 run: RESEARCH+DRAFT #1401 done (Durango spoiler third recall, 26V528; killed F-150 fuel-tank, GM EV brake, VW steering bolt, Camry cluster, Thomas Built FMVSS 221, Jeep coil spring, IIHS Oct 31 round as duplicates/already-covered). Gates pre-checked: em 0, banned 0, The 0%, class=story, style.css, hero real JPEG 2736x912 ?v=d6dea9d4, rhythm script PASS. PUBLISH-QUEUE skipped: 1/day gate met (Publish #839 fe5da907 today); #840 due today, next publish-eligible.",
+  "last_checked": "2026-11-05T10:45:00-08:00",
   "last_completed": "2026-11-05T09:05:00-08:00",
   "last_completed_date": "2026-11-05",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
