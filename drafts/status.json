@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1402-nsc-h1-2026-decline-stalls",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-05T14:30:00-08:00"
+  },
   "last_check_note": "2026-11-05 12:30 run: RESEARCH kill-test FAIL on every candidate after exhaustive duplicate sweep (full-content greps, no truncation). Checked and killed: GM L87/EA26005 (#864/#1025/#1344/#1367), Lincoln 26V688 (#1321/#1356), Hyundai ACU 26V728 (#1400), Ford tailgate 26V689 (#1297), IIHS commercial trucks (~15), Rivian 26V597 (#977), Subaru 26V685 (#1288), Durango 26V701 (#1329), Thomas Built 26V702 (#1369), GM EV brake 26V717 (#1387), GM Express 26V718 (#1391), Sienna 26V690 (#1332), Maverick camera (#1311/#1345), BorgWarner/Akasol (#1386), GHSA pedestrian 2025 (#1374), alcohol 2024 (#1334), distracted undercount (#828/#845), motorcycles 2024 (#862), speeding 2024, rural/urban 2025, children 2024 (published), young drivers 2024 (#1185), DP26010 (#1145/#1167/#1205/#1315), Vallejo FSD (#1300), Cybercab AQ26002 (#839, published today), plus FARS rate/tox/model-year mining (all extremes covered). No new research file written; shipping a duplicate would repeat the Nov 1 #1351 failure. PUBLISH-QUEUE skipped: 1/day gate met (Publish #839 today, fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) hero-ready (493KB JPEG, gates pass) and next publish-eligible.",
   "last_checked": "2026-11-05T12:30:00-08:00",
   "last_completed": "2026-11-05T11:00:00-08:00",
