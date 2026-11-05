@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1398-officer-traffic-deaths-leading-killer",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-05T04:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-05 02:30 run: SHIP #1397 done (queue 2028-05-10, 606 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today (commit fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready (drafts/840-legalization-fatality-tax-four-percent.jpg exists) and is next publish-eligible.",
-  "last_checked": "2026-11-05T03:10:00-08:00",
-  "last_completed": "2026-11-05T03:05:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-05 04:30 run: SHIP #1398 done (queue 2028-05-11, 607 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today. Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready (drafts/840-legalization-fatality-tax-four-percent.jpg exists) and is next publish-eligible.",
+  "last_checked": "2026-11-05T04:35:00-08:00",
+  "last_completed": "2026-11-05T04:35:00-08:00",
   "last_completed_date": "2026-11-05",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-04T00:30:00-08:00",
@@ -16,7 +10,7 @@
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1398,
+  "next": 1399,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22388,6 +22382,44 @@
         "voice_coach": 9.0
       },
       "note": "2026-11-05 02:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.93, SHIP #1397 (queue 2028-05-10). Novel angle verified uncovered: Tesla 25V690 battery contactor, 12,963 Model 3/Y, InTiCa solenoid inside SongChuan contactor, warning-after-failure inversion, ~1% defective (100-to-1 dragnet), two failure modes (park refusal vs highway power loss). Pre-panel fix: ref-2 link corrected to verbatim Reuters URL. Killed angles this run: Lincoln Nautilus anti-rust oil 26V688 (#1356/#1321), Land Cruiser fuel tube (#1204/#1230/#1248), DST fall-back pedestrian spike (#1157, same angle, Oct 13), Jeep Grand Cherokee coil spring third recall (#858/#882/#891), F-150 fuel tank 26V578 (#895/#910/#913/#915/#920), Tiguan BCM 26V587 (#951), VW steering bolt 26V590 (#953), GM 6-car seat weld 26V696 (#1357), Durango tail light (#1329), Ford tailgate cable (#1297), Toyota C-HR EV stall 26V570 (covered for overcharge #876/#900; stall variant passed over for thinner data)."
+    },
+    {
+      "avg_critic": 8.89,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1398-officer-traffic-deaths-leading-killer-critic-panel-r0.md",
+        "hero": "drafts/1398-officer-traffic-deaths-leading-killer.jpg",
+        "research": "drafts/1398-officer-traffic-deaths-leading-killer-research.md",
+        "story": "drafts/1398-officer-traffic-deaths-leading-killer.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "a75514ae",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 570
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Body Count",
+      "note": "2026-11-05 04:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.89, SHIP #1398 (queue 2028-05-11). Novel angle verified uncovered: officer traffic deaths now leading cause of line-of-duty deaths (NHTSA keynote +82%, NLEOMF 31 vs 21 through Oct 1, FBI LEOKA 25 of 30 accidental deaths traffic-related); zero prior Crash Report coverage of officer fatalities (filename + content grep). Enforcement paradox: P2SS cornerstone is returning officers to traffic duty. Killed angles this run: GM L87 EA26005 (#1025/#1344), Lincoln Nautilus anti-rust oil 26V688 (#1356/#1321), Land Cruiser fuel tube (#1204/#1230), IIHS commercial crash avoidance Oct 8 (#1144), Comma.ai PE26007 (#1180), Genesis G80 seat-switch (#1173/#1224), Honda 26V663 (#1178/#1216), Ram triple recall bundle (#1389), Tesla robotaxi school-zone DP26010 (#1145/#1167/#1205), IIHS Oct 31 moderate-overlap round (#1312), Tesla door handles PE25010 + Model 3 release denial (#1086 + electronic-door-handles-kill), Q1/H1 2026 fatality estimates (3 prior articles), cyclists exception (#1299).",
+      "number": 1398,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "social_shareability": 8.8,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-05-11",
+      "slug": "1398-officer-traffic-deaths-leading-killer",
+      "title": "Traffic Just Passed Gunfire as the Leading Killer of American Cops"
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
