@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-05 06:30 run: SHIP #1399 done (queue 2028-05-12, 608 entries). Proceeding to PUBLISH-QUEUE.",
-  "last_checked": "2026-11-05T06:45:00-08:00",
+  "last_check_note": "2026-11-05 06:30 run: SHIP #1399 done (queue 2028-05-12, 608 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today (fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready and next publish-eligible.",
+  "last_checked": "2026-11-05T06:50:00-08:00",
   "last_completed": "2026-11-05T06:45:00-08:00",
   "last_completed_date": "2026-11-05",
   "last_journalist": "Dale Impactor III",
