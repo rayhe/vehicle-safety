@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1394-ford-torque-cart-passed-unfinished-repairs",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-04T18:35:00-08:00"
+  },
   "last_check_note": "2026-11-04 16:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.86, SHIP #1393 (queue 2028-05-06). Novel angle verified uncovered: NHTSA 26E-014 recalls 105 loose Mopar replacement curtain airbags carrying the same Autoliv seam defect as the Pacifica/Voyager vehicle recalls, fourth filing in the chain (25V302/25E033 May 2025, 25V573 Sep 2025, 26V189 Mar 2026, 26E-014 Mar 2026). Killed angles this run: GM L87 Nov 13 deadline (#1367), Land Cruiser fuel-tube recall (#1340, same 26V673 campaign), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), Range Rover drain holes (#1251), GM EV brake 26V717 (#1387). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
   "last_checked": "2026-11-04T16:35:00-08:00",
   "last_completed": "2026-11-04T16:35:00-08:00",
