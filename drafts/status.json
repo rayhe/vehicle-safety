@@ -1,23 +1,16 @@
 {
-  "current": {
-    "slug": "1395-fmcsa-heavy-duty-truck-study-2000-crashes",
-    "phase": "SHIP",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-04T20:30:00-08:00",
-    "round": 0,
-    "avg_critic": 8.91
-  },
-  "last_check_note": "2026-11-04 18:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.97, SHIP #1394 (queue 2028-05-07). Novel angle verified uncovered: NHTSA 26V550, Ford torque repair cart software v1.13.1.9 auto-closing records as Passed on unverified work; 23 vehicles, one suspect joint each from 19 locations. Killed angles this run: GM L87 EA26005 (#1367), Land Cruiser fuel-tube 26V673 (#1340), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), GM 26V696 seat weld (#1357), RV power-seat fuse (#1382/#1371), Tesla robotaxi school zone DP26010 (#1145), Ford Godzilla DP26011 (#1295/#1326), Ford 741k rollaway remedy gap (#1339), Ford 26V606 headlights (#1033/#1054/#1078/#1097/#1193), PACCAR L9 hose cascade 26V700 (#1337), Ford Bronco Sport/Maverick ball-joint Do Not Drive 26V340 (June 2026, covered). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
-  "last_checked": "2026-11-04T16:35:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-04 20:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.91, SHIP #1395 (queue 2028-05-08). Novel angle verified uncovered: FMCSA CCFP Heavy-Duty Truck Study (Nov 3, 2026, $7M, ~2,000 fatal Class 7/8 crashes, report + database 2030; first causation study since LTCCS 2001-2003). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run.",
+  "last_checked": "2026-11-04T20:45:00-08:00",
   "last_completed": "2026-11-04T18:50:00-08:00",
   "last_completed_date": "2026-11-04",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1395,
+  "next": 1396,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22295,6 +22288,34 @@
       "slug": "1394-ford-torque-cart-passed-unfinished-repairs",
       "title": "Ford's Repair Checker Stamped 'Passed' on Work Nobody Did",
       "note": "2026-11-04 18:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.97, SHIP #1394 (queue 2028-05-07). Novel angle verified uncovered: NHTSA 26V550, Ford torque repair cart software v1.13.1.9 auto-closing records as Passed on unverified work; 23 vehicles, one suspect joint each from 19 locations. Killed angles this run: GM L87 EA26005 (#1367), Land Cruiser fuel-tube 26V673 (#1340), Oct 31 IIHS moderate-overlap batch (#1244/#1278/#1312/#1346), GM 26V696 seat weld (#1357), RV power-seat fuse (#1382/#1371), Tesla robotaxi school zone DP26010 (#1145), Ford Godzilla DP26011 (#1295/#1326), Ford 741k rollaway remedy gap (#1339), Ford 26V606 headlights (#1033/#1054/#1078/#1097/#1193), PACCAR L9 hose cascade 26V700 (#1337), Ford Bronco Sport/Maverick ball-joint Do Not Drive 26V340 (June 2026, covered). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run."
+    },
+    {
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1395-fmcsa-heavy-duty-truck-study-2000-crashes-critic-panel-r0.md",
+        "hero": "drafts/1395-fmcsa-heavy-duty-truck-study-2000-crashes.jpg",
+        "research": "drafts/1395-fmcsa-heavy-duty-truck-study-2000-crashes-research.md",
+        "story": "drafts/1395-fmcsa-heavy-duty-truck-study-2000-crashes.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "51f8d6ec",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 444
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "number": 1395,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-08",
+      "slug": "1395-fmcsa-heavy-duty-truck-study-2000-crashes",
+      "title": "America Has Been Setting Truck Safety Policy Off a 2003 Study. The Replacement Arrives in 2030.",
+      "note": "2026-11-04 20:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE r0 avg 8.91, SHIP #1395 (queue 2028-05-08). Novel angle verified uncovered: FMCSA Crash Causal Factors Program Heavy-Duty Truck Study, Nov 3 2026 $7M funding for ~2,000 fatal Class 7/8 crashes, first causation study since LTCCS 2001-2003 fieldwork, report + public database 2030. Killed angles this run: GM L87 EA26005, Land Cruiser 26V673, Oct 31 IIHS batch, GM 26V696, RV power-seat fuse, Tesla DP26010, Ford Godzilla DP26011, Ford rollaway remedy gap, Ford 26V606 headlights, PACCAR L9 hose, Ford ball-joint Do Not Drive 26V340, GM 26V717 EV brakes (#1387), Lincoln 26V688 (#1356), Ford tailgate cable (#1297), Sierra grille RQ26003, Range Rover drain-hole camera (#1251), BorgWarner RQ26005 (#1386), Great Dane DP26012 (#1310)/K-brace (#1348), VW BCM 26V587 (#951), VW steering bolt 26V590, Rivian camera 26V597 (#977), Toyota Sienna 26V690 (#1332), Toyota knuckle 26V598 (#1163), Subaru ball-joint 26V685 (#1288), GHSA pedestrian 2025 (#1374), 2025 pedalcyclist piece, DST pedestrian (#1157), JAMA postpandemic decomposition (#1273), Ford Maverick camera RQ26004 (#1311/#1345), Wabash 26V683 (#1370). PUBLISH-QUEUE: skipped, 1/day slot consumed by Publish #838 earlier today (2026-11-04). Next due: #839 (ship_date 2026-11-04, cybercab-aq26002-self-certification-gambit), earliest-due next publish-eligible run."
     }
   ],
   "last_worker_run": "2026-11-02T16:30:00-08:00"
