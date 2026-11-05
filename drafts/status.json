@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1398-officer-traffic-deaths-leading-killer",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-05T04:30:00-08:00"
+  },
   "last_check_note": "2026-11-05 02:30 run: SHIP #1397 done (queue 2028-05-10, 606 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #839 already shipped today (commit fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) is hero-ready (drafts/840-legalization-fatality-tax-four-percent.jpg exists) and is next publish-eligible.",
   "last_checked": "2026-11-05T03:10:00-08:00",
   "last_completed": "2026-11-05T03:05:00-08:00",
