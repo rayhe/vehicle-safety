@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1397-tesla-model-3-y-battery-contactor-power-loss",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-05T02:45:00-08:00"
+    "started": "2026-11-05T02:45:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-04 22:30 run: SHIP #1396 done (queue 2028-05-09, 605 entries). PUBLISH-QUEUE skipped: 1/day gate met, Publish #838 already shipped today. Earliest due #839 cybercab-aq26002-self-certification-gambit (ship_date 2026-11-04) is hero-ready (drafts/839-cybercab-aq26002-self-certification-gambit.jpg exists) and is next publish-eligible.",
-  "last_checked": "2026-11-05T02:45:00-08:00",
+  "last_checked": "2026-11-05T02:55:00-08:00",
   "last_completed": "2026-11-05T00:31:00-08:00",
   "last_completed_date": "2026-11-04",
   "last_journalist": "Clara Rollover",
