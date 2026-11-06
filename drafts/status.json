@@ -1,11 +1,33 @@
 {
   "current": {
     "slug": "1407-four-to-seven-deaths-rose-fifteen-percent",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Clara Rollover",
-    "started": "2026-11-06T00:30:00-08:00"
+    "started": "2026-11-06T00:30:00-08:00",
+    "critique_round": 0,
+    "critic_avg": 8.86,
+    "scores": {
+      "general_editor": 8.5,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.5,
+      "legal_accuracy": 9.0,
+      "research_rigor": 9.0,
+      "data_presentation": 9.0
+    },
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 3.2,
+      "css_class": true,
+      "style_css": true,
+      "hero_jpeg": true,
+      "hero_hash": "817b0eb5",
+      "hero_dim": "1920x1280",
+      "word_count": 565
+    }
   },
-  "last_check_note": "2026-11-06 00:30 run: RESEARCH #1407 done. NHTSA Children 2024 fact sheet (DOT HS 813 811): 4-to-7 deaths +15% (212 to 244) and under-1 +17% while overall deaths fell 4.3%; 39% of killed child occupants unrestrained; driver-restraint correlation 65%. Novel: no existing story covers this fact sheet. Next: DRAFT.",
+  "last_check_note": "2026-11-06 00:30 run: RESEARCH+DRAFT+CRITIQUE #1407 in one run. 4-to-7 child deaths +15% (212 to 244) while overall deaths fell 4.3%; 39% of killed child occupants unrestrained; driver-restraint correlation 65%. Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 3.2%, rhythm 314.0/10%/50%). One pre-panel fix: divergence 19.3 corrected to 19.4 points. Next: SHIP queue + publish #840.",
   "last_checked": "2026-11-05T19:00:00-08:00",
   "last_completed": "2026-11-05T22:30:00-08:00",
   "last_completed_date": "2026-11-05",
