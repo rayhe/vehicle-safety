@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1404-cvsa-brake-safety-day-surprise-jump",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-05T18:30:00-08:00"
+    "started": "2026-11-05T18:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-05 18:30 run: RESEARCH #1404 (CVSA 2026 Brake Safety Day surprise jump, 8.7%->14.3%). Bookkeeping fix: #1403 fully SHIP_BLOCKED (queue 2028-05-16, files complete) but next was still 1403; bumped to 1405. Killed this run: GM EV brake 26V717, Hyundai ACU, Thomas Built FMVSS 221, IIHS Oct 31 round, VW Tiguan BCM 26V587, VW steering bolt 26V590, F-150 fuel tank 26V578, BizzyCar Q3 totals, NSC H1 2026 (all previously covered).",
-  "last_checked": "2026-11-05T18:30:00-08:00",
+  "last_checked": "2026-11-05T18:45:00-08:00",
   "last_completed": "2026-11-05T16:30:00-08:00",
   "last_completed_date": "2026-11-05",
   "last_journalist": "Axle McScatter",
