@@ -66,7 +66,7 @@ drafts/ returns no article on this fact sheet. School-transportation stories
   7:00-7:59 a.m.
 
 ## Original calculations (The Crash Report)
-- Divergence: overall deaths -4.3% vs 4-to-7 deaths +15% = a 19.3-point gap,
+- Divergence: overall deaths -4.3% vs 4-to-7 deaths +15% = a 19.4-point gap,
   the widest age-group divergence in the 2024 report.
 - Share: 4-to-7 deaths were 23.6% of all child deaths in 2024 (244 of 1,032),
   up from 20.7% in 2023 (212 of 1,023).
