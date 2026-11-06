@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1403-cvsa-roadcheck-2026-brakes-still-first",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-05T16:30:00-08:00"
+  },
   "last_check_note": "2026-11-05 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1402 in one run. Angle found after exhaustive duplicate sweep: NSC H1 2026 preliminary estimate (Sept 9, 2026) \u2014 18,460 deaths, down 2% vs revised 18,846; rate 1.12, down 3.4%. Novel: deceleration arithmetic (NSC -13% to -2% deaths, -13.5% to -3.4% rate), six-jurisdiction flip table (CA -43% to +14%, DC -67% to +133%, HI +46% to -30%), ~2,064-lives counterfactual, NHTSA H1 2026 estimate missing as of Nov 5 despite late-Sept promise. Killed angles: Lincoln 26V688, F-150 tailgate, Thomas Built FMVSS 221, Hyundai 26V728, PACCAR fuel hose, IIHS Oct 31 round, Tesla DP26010, Godzilla DP26011, VNR RQ26005, GHSA 6,732, FARS sober-deathtraps (all previously covered). Critique round 0: 8.9 avg, 7/7 >= 8.5; rhythm fixed (21.4% short -> 14.0%). Queued SHIP_BLOCKED, ship_date 2028-05-15. PUBLISH-QUEUE skipped: 1/day gate met (Publish #839 today, fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) hero-ready and next publish-eligible.",
   "last_checked": "2026-11-05T14:40:00-08:00",
   "last_completed": "2026-11-05T14:40:00-08:00",
