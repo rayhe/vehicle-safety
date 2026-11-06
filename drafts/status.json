@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1413-suv-only-vehicle-class-deaths-rose-2024",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Rex Driverton",
-        "started": "2026-11-06T12:30:00-08:00"
+        "started": "2026-11-06T12:30:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-06 12:30 run: RESEARCH #1413 (SUV-only 2024 divergence, NHTSA DOT HS 813 791). 1/day publish gate already consumed today by #840; next due #841 publish-eligible 2026-11-07.",
     "last_checked": "2026-11-06T12:30:00-08:00",
