@@ -1,5 +1,10 @@
 {
-    "current": null,
+    "current": {
+        "slug": "1414-nhtsa-1-5m-recall-registration-grants",
+        "phase": "DRAFT",
+        "journalist": "Clara Rollover",
+        "started": "2026-11-06T14:30:00-08:00"
+    },
     "last_check_note": "2026-11-06 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1413 (round-0 SHIP avg 8.79; queued 2028-05-26). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
     "last_checked": "2026-11-06T12:30:00-08:00",
     "last_completed": "2026-11-06T12:30:00-08:00",
