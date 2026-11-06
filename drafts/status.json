@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1405-range-rover-knuckle-crack-331k-ea26003",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-05T20:45:00-08:00"
-  },
-  "last_check_note": "2026-11-05 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1404 in one run. CVSA 2026 Brake Safety Day surprise jump (8.7%->14.3%). Round-0 SHIP (avg 8.81, 7/7 >= 8.5, all hard gates; em 0, The 1.2%, rhythm 424.2/6.7%/44.4%). Queued SHIP_BLOCKED, ship_date 2028-05-17. PUBLISH-QUEUE: 1/day gate met (Publish #839 today); earliest due #840 legalization-fatality-tax-four-percent (2026-11-05) hero-ready, next publish-eligible.",
+  "current": null,
+  "last_check_note": "2026-11-05 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1405 in one run. Range Rover steering knuckle EA26003 (331,559 under investigation vs 121,509 recalled; 210,050 gap). Round-0 SHIP (avg 8.79, 7/7 >= 8.5, all hard gates; em 0, The 7.8%, rhythm 765.8/12.5%/47.5%). Queued SHIP_BLOCKED, ship_date 2028-05-18. PUBLISH-QUEUE: 1/day gate met (Publish #839 today); earliest due #840 legalization-fatality-tax-four-percent (2026-11-05) hero-ready, next publish-eligible 2026-11-06.",
   "last_checked": "2026-11-05T19:00:00-08:00",
-  "last_completed": "2026-11-05T19:00:00-08:00",
+  "last_completed": "2026-11-05T21:00:00-08:00",
   "last_completed_date": "2026-11-05",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-04T00:30:00-08:00",
@@ -15,7 +10,7 @@
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1405,
+  "next": 1406,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22676,6 +22671,44 @@
         "critic_panel": "drafts/1404-cvsa-brake-safety-day-surprise-jump-critic-panel-r0.md"
       },
       "note": "2026-11-05 18:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 8.81, 7/7 >= 8.5, all hard gates; em 0, The-starters 1.2%, rhythm pass 424.2/6.7%/44.4%). News peg: CVSA 2026 Unannounced Brake Safety Day (event Apr 14, 2026). Original: 2018-2026 BSD rate series (8.7%->14.3%, +5.6 pts, largest YoY move, highest since 2019); announced-vs-unannounced contrast (Roadcheck 19.0% all-cause vs BSD 14.3% brakes-only); PBBT machine cross-check (7.45% failed 43.5% efficiency); 2026 Brake Safety Week results missing from CVSA page as of Nov 5. Round-0 fixes: unsupported one-in-four Level I claim replaced with in-article 19.0%; ref-4 amended for 70% occupant split (DOT HS 813 791). Duplicate-screen killed this run: GM EV brake 26V717, Hyundai ACU 26V728, Thomas Built FMVSS 221, IIHS Oct 31 round, VW Tiguan BCM 26V587, VW steering bolt 26V590, F-150 fuel tank 26V578, BizzyCar Q3 totals, NSC H1 2026 (all previously covered). Bookkeeping fix: next was stale at 1403 though #1403 was fully shipped; bumped to 1405. Queued 1/day after latest SHIP_BLOCKED (2028-05-16 -> 2028-05-17)."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1405-range-rover-knuckle-crack-331k-ea26003-critic-panel-r0.md",
+        "hero": "drafts/1405-range-rover-knuckle-crack-331k-ea26003.jpg",
+        "research": "drafts/1405-range-rover-knuckle-crack-331k-ea26003-research.md",
+        "story": "drafts/1405-range-rover-knuckle-crack-331k-ea26003.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "0317e816",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 7.8,
+        "word_count": 744
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-11-05 20:30 run: Round-0 panel VERDICT: SHIP (avg 8.79). EA26003 Range Rover/RRS steering knuckle fractures; recall 25V514 covers 121,509 (2014-2017) vs 331,559 under EA (2014-2022); gap 210,050 (63.3%). Fresh VOQs Oct 10, 2026 (highway disconnect) and Jul 27, 2026 (SR-62 crash, knuckle separated, police recorded unsafe lane change, no component inspection).",
+      "number": 1405,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-05-18",
+      "slug": "1405-range-rover-knuckle-crack-331k-ea26003",
+      "title": "The Recall Covers 121,509 Range Rovers. The Investigation Covers 331,559."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
