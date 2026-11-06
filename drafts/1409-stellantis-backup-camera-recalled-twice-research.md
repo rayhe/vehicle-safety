@@ -13,7 +13,7 @@ Two recalls, five weeks apart, same defect, same supplier, same truck.
 - **September 1, 2026 — 26V560 (FCA 83D):** 239,131 Ram 1500s (2025–2026, built October 6, 2023–February 23, 2026). Same Harman Becker radio software, same failure: shift into reverse, screen stays blank. FMVSS 111 noncompliance. NHTSA estimates 100% of the recalled vehicles have the defect. FCA opened its investigation March 17, 2026; Vehicle Regulations Committee approved the recall August 26. Owner letters from September 24, 2026. Remedy: free radio software update, over-the-air or at the dealer.
 - **September 29, 2026 — 26V623 (FCA 51D):** 16,385 2026 Ram 1500s. Different defect, same truck, same month: TPMS sensors (Sensata Technologies) may report false tire pressure or fail to light the warning lamp. FMVSS 138 noncompliance. 100% defect estimate. Owner letters October 27, 2026. Dealers inspect and replace sensors free.
 
-Combined: **1,083,158 US vehicles** (844,027 + 239,131) with backup cameras that can go dark, recalled in five weeks. The three Ram 1500 campaigns together total **263,845 trucks** (MotorBiscuit count). Zero crashes or injuries reported across all three.
+Combined: **1,083,158 US vehicles** (844,027 + 239,131) with backup cameras that can go dark, recalled in five weeks. The September camera recall and the TPMS recall together cover 255,516 Ram 1500s; the August recall swept in another 211,114 of them. Zero crashes or injuries reported across all three. (Note: MotorBiscuit's "263,845" figure for the three Ram recalls adds the 8,329 Ram 2500s from campaign 26V651; the Ram 1500-only total is 255,516.)
 
 ## Why this is the story: the recall that proved the first recall wrong
 

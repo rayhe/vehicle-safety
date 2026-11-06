@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1409-stellantis-backup-camera-recalled-twice",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-06T04:30:00-08:00"
+    "started": "2026-11-06T04:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-06 04:30 run: RESEARCH #1409 done (Stellantis backup camera recalled twice: 26V531 844,027 + 26V560 239,131 = 1,083,158; +26V623 TPMS; coverage checked, no dup). Proceeding to DRAFT.",
+  "last_check_note": "2026-11-06 04:30 run: DRAFT #1409 done (713 words; hero JPEG 1920x1280 ?v=a0a3b1ca; gates pre-checked: em 0, banned 0, The 2.8%, rhythm PASS variance 1066/short 7.1%/long 60.7%). Proceeding to CRITIQUE.",
   "last_checked": "2026-11-05T19:00:00-08:00",
   "last_completed": "2026-11-06T02:30:00-08:00",
   "last_completed_date": "2026-11-06",
