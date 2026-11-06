@@ -8,8 +8,8 @@
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
-  "last_qa_date": "2026-11-04",
-  "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
+  "last_qa_date": "2026-11-06",
+  "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "next": 1408,
   "queue": [
     {
