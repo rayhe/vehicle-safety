@@ -1,16 +1,16 @@
 {
   "current": null,
-  "last_check_note": "2026-11-06 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1407 (round-0 SHIP avg 8.86; queued 2028-05-20) + PUBLISH #840 legalization-fatality-tax-four-percent (due 2026-11-05, hero-ready). Next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
+  "last_check_note": "2026-11-06 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1408 (round-0 SHIP avg 8.86; queued 2028-05-21). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-05T19:00:00-08:00",
-  "last_completed": "2026-11-06T00:30:00-08:00",
+  "last_completed": "2026-11-06T02:30:00-08:00",
   "last_completed_date": "2026-11-06",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "next": 1408,
+  "next": 1409,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22785,6 +22785,43 @@
         "critic_panel": "drafts/1407-four-to-seven-deaths-rose-fifteen-percent-critic-panel-r0.md"
       },
       "note": "2026-11-06 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1407 in one run. NHTSA Children 2024 fact sheet (DOT HS 813 811): 4-to-7 deaths +15% (212 to 244) and under-1 +17% while overall deaths fell 4.3%; 39% of killed child occupants unrestrained; driver-restraint correlation 65%. Original divergence arithmetic (19.4 points; share 23.6% vs 20.7%; combined youngest-bracket +15.5%) independently re-verified. Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 3.2%, rhythm 314.0/10%/50%). Queued SHIP_BLOCKED, ship_date 2028-05-20."
+    },
+    {
+      "number": 1408,
+      "slug": "1408-kicks-back-seat-fix-q3-rav4-fail",
+      "title": "Nissan Fixed Its Back Seat With a Belt Revision. Audi, Toyota, and Chevy Didn't.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-21",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "85d57899",
+        "word_count": 520
+      },
+      "files": {
+        "research": "drafts/1408-kicks-back-seat-fix-q3-rav4-fail-research.md",
+        "story": "drafts/1408-kicks-back-seat-fix-q3-rav4-fail.html",
+        "hero": "drafts/1408-kicks-back-seat-fix-q3-rav4-fail.jpg",
+        "critic_panel": "drafts/1408-kicks-back-seat-fix-q3-rav4-fail-critic-panel-r0.md"
+      },
+      "note": "2026-11-06 02:30 run: round-0 SHIP avg 8.86. IIHS Oct 31 rear-seat moderate overlap results; Kicks Poor->Good via June 2026 belt revision; Q3/Trailblazer Poor; RAV4 hybrid Acceptable, PHEV Marginal. FARS cross-tab original: Trailblazer 2.83 vs RAV4 0.19 (15x)."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
