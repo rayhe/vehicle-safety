@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1410-tesla-vineland-median-verified-engaged",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-06T06:45:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-06 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1409 (round-0 SHIP avg 8.79; queued 2028-05-22). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-05T19:00:00-08:00",
-  "last_completed": "2026-11-06T04:30:00-08:00",
+  "last_completed": "2026-11-06T07:00:00-08:00",
   "last_completed_date": "2026-11-06",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -22865,6 +22859,44 @@
         "critic_panel": "drafts/1409-stellantis-backup-camera-recalled-twice-critic-panel-r0.md"
       },
       "note": "2026-11-06 04:30 run: round-0 SHIP avg 8.79. Stellantis backup camera recalled twice: 26V531 844,027 (Aug 17) + 26V560 239,131 Ram 1500 (Sep 1) = 1,083,158; same Harman Becker radio, same FMVSS 111 failure; +26V623 TPMS 16,385. FARS cross-tab original: Ram 1500 rate 0.13, lowest in dataset. Round-0 legal fixes: fixed-twice softened to may, additive 211,114 implication removed."
+    },
+    {
+      "number": 1410,
+      "slug": "1410-tesla-vineland-median-verified-engaged",
+      "title": "Police Said the Driver Lost Control. Tesla's Filing Says the Driver-Assist Was Engaged.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-23",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "3e71d9fe",
+        "word_count": 863
+      },
+      "files": {
+        "research": "drafts/1410-tesla-vineland-median-verified-engaged-research.md",
+        "story": "drafts/1410-tesla-vineland-median-verified-engaged.html",
+        "hero": "drafts/1410-tesla-vineland-median-verified-engaged.jpg",
+        "critic_panel": "drafts/1410-tesla-vineland-median-verified-engaged-critic-panel-r0.md"
+      },
+      "note": "2026-11-06 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1410 in one run. Electrek Oct 15, 2026: 2021 Model Y crossed Route 55 median in Vineland NJ Aug 22, killed Phillip Eastman, 68, head-on; police said driver lost control, Tesla SGO filing says Verified Engaged, then redacts narrative/software version/ODD. 9th confirmed case in Electrek series (#905 had 8). FARS cross-tab original: Model Y rate 0.03, lowest Tesla, ~1/200th of Mustang 6.02. Round-0 SHIP (avg 8.71, 7/7 >= 8.5, all hard gates; em 0, The 2.1%, rhythm 948.8/6.8%/43.2%). Round-0 legal fix: ref-6 link to #905 story removed, #905 is SHIP_BLOCKED until 2027-01-02 and has no published file yet. Queued SHIP_BLOCKED, ship_date 2028-05-23."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
