@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We Ranked Tesla the Safest Carmaker in America. The Math Was Wrong. &mdash; The Crash Report</title>
+  <meta name="description" content="Two weeks ago this site ranked Tesla the safest carmaker in America at 0.06 deaths per 100M miles. The fleet estimate behind that ranking was wrong by a factor of six. The corrected rate is about 0.37, and Audi takes the top spot.">
+  <meta property="og:title" content="We Ranked Tesla the Safest Carmaker in America. The Math Was Wrong.">
+  <meta property="og:description" content="The fleet estimate behind our #1 ranking credited Tesla with 3.7 million cars in years when it had barely sold 50,000. Time-weighting the fleet puts Tesla at about 0.37 deaths per 100M miles, and Audi takes the top spot.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1412-tesla-safest-ranking-correction.jpg?v=567df8b8">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/1412-tesla-safest-ranking-correction.jpg?v=567df8b8">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>We Ranked Tesla the Safest Carmaker in America. The Math Was Wrong.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 6, 2026</div>
+
+      <img src="../images/1412-tesla-safest-ranking-correction.jpg?v=567df8b8" alt="A printed bar chart and calculator on a dark desk, a pencil marking a correction on the tallest bar" class="hero" loading="lazy">
+
+      <div class="story-body">
+      <p>I ran the numbers, then I ran them again, and they got worse. Two weeks ago this site ranked Tesla the safest carmaker in America, 0.06 deaths per 100 million miles, a 23x gap over Chevrolet in last place. <strong>That ranking is wrong, and the error is mine: the fleet estimate behind it credits Tesla with 3.7 million cars in years when the company had barely sold 50,000.</strong><sup class="ref-link"><a href="#ref-1">[1]</a></sup> Correcting the math puts Tesla at about 0.37, and the safest carmaker in America is Audi.</p>
+
+      <div class="pull-stat">5.8&times;</div>
+      <div class="pull-label">How much the published Tesla fatality rate was understated by the fleet-estimation error (0.06 vs. a corrected ~0.37 deaths per 100M VMT)</div>
+
+      <p>Our rate formula divides a decade of FARS deaths by an estimated fleet, and the fleet estimate is built from average annual sales from roughly 2018 through 2023, multiplied by 8.75 years of equivalent vehicles on the road. For a steady seller that works fine, but for Tesla it breaks, because Tesla sold about 17,500 cars in the United States in 2014 and about 652,000 in 2023, a 37-fold jump inside the same ten-year window the deaths were counted in.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> A fleet sized to 2018-2023 sales was applied to deaths from 2014 onward, which means the denominator counted millions of cars that did not exist yet when most of the early deaths happened. Global deliveries tell the same story even more bluntly, rising from 31,655 in 2014 to 1,808,581 in 2023.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Fixing it means rebuilding the fleet year by year. Adding up Cox Automotive and Kelley Blue Book estimates of annual US Tesla sales gives a registered fleet that grows from about 47,500 cars at the end of 2014 to about 2.27 million at the end of 2023, or 7.07 million vehicle-years across the window. At 90 percent survival and the site&rsquo;s own class-weighted 11,810 miles per year, that is 751 hundred-million miles of exposure, not 4,389. Divide the same 278 FARS deaths by 751 and the rate is <strong>0.37 deaths per 100M miles</strong>, with a range of 0.33 to 0.39 across survival assumptions from 85 to 100 percent.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Audi, at 0.20, takes the top spot, with Mercedes-Benz at 0.33 and Tesla third. Chevrolet&rsquo;s 1.37 stands, because Chevy&rsquo;s US sales were roughly flat across the window, so its fleet estimate was never distorted. That collapses the gap from 23x to about 3.7x. One caveat on the new champion: Audi&rsquo;s 0.20 lead rests on the same estimated-VMT method, so the top spot could move again if its fleet estimate is off.</p>
+
+      <p>Now the part that keeps this honest is that Tesla is still the third-safest make in America, ahead of 25 other brands, and nothing in this correction makes its cars unsafe. A critic could also fairly say this is inside baseball, re-litigating a two-week-old ranking instead of finding a new story. Fair enough, except the ranking is the most-cited finding this site has published recently, and it was wrong by a factor of six. Leaving it standing would be worse than the rerun. Limits on the correction itself: US annual Tesla sales are Cox and Kelley Blue Book estimates, since Tesla does not report country-level sales, and deaths are not broken out by year in our dataset, so the fix assumes deaths track fleet exposure proportionally. If Tesla deaths skewed even later than fleet growth, the true rate is slightly higher, not lower. What to do with it: whenever a brand safety ranking crosses your feed, ask how the rate was built. Any fatality rate that divides a decade of deaths by a fleet sized to recent sales flatters every fast-growing brand and punishes every shrinking one. Check the sales curve before trusting the ranking, and check any VIN at nhtsa.gov/recalls before buying the car.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">The Crash Report, &ldquo;The Safest Carmaker in America Is Tesla (and It Isn&rsquo;t Close),&rdquo; #1258, October 23, 2026. <a href="https://vehicle-safety.org/stories/1258-tesla-safest-carmaker-chevrolet-last.html" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-2">Cox Automotive / Kelley Blue Book, US Tesla sales estimates: 2023, 651,950&ndash;654,888; 2022, 522,000; 2021, ~342,000; 2020, ~206,000; 2019, ~192,000; 2018, ~191,000. <a href="https://www.kbb.com/car-news/america-hit-peak-tesla-in-february-2023/" target="_blank" rel="noopener">kbb.com</a></li>
+          <li id="ref-3">Tesla global deliveries by year (Tesla 10-K / delivery releases, via YCharts): 2014: 31,655; 2018: 245,506; 2023: 1,808,581. <a href="https://ycharts.com/indicators/tesla_inc_tsla_total_deliveries_currencys_currencys" target="_blank" rel="noopener">ycharts.com</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023, via repo <em>fars_output.js</em> (FARS_BY_MODEL): Tesla 278 deaths (Model S 100, Model 3 92, Model Y 57, Model X 29). Fleet methodology in repo <em>fars_process.py</em>: fleet = annual sales &times; 8.75; class annual miles Sedan 11,500, SUV 12,500. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">Kelley Blue Book, 2023 US EV sales: Tesla Model Y 394,497, Model 3 220,910. <a href="https://www.autoconnectedcar.com/2024/01/almost-1-2-million-evs-sold-in-us-in-2023-tesla-tops-list/" target="_blank" rel="noopener">autoconnectedcar.com</a></li>
+          <li id="ref-6">IIHS, fatality statistics. <a href="https://www.iihs.org/topics/fatality-statistics" target="_blank" rel="noopener">iihs.org</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023; Cox Automotive / Kelley Blue Book US Tesla sales estimates; Tesla delivery releases. US Tesla sales are estimates (Tesla does not report country-level sales); the corrected rate assumes deaths track fleet exposure proportionally and uses 90% fleet survival with a 0.33&ndash;0.39 range across 85&ndash;100%, and the <a href="../#method">methodology</a> section carries the full caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

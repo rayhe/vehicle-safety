@@ -1,21 +1,16 @@
 {
-    "current": {
-        "slug": "1412-tesla-safest-ranking-correction",
-        "phase": "DRAFT",
-        "journalist": "Axle McScatter",
-        "started": "2026-11-06T10:30:00-08:00"
-    },
-    "last_check_note": "2026-11-06 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1411 (round-0 SHIP avg 8.79; queued 2028-05-24). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
-    "last_checked": "2026-11-06T08:30:00-08:00",
-    "last_completed": "2026-11-06T08:30:00-08:00",
+    "current": null,
+    "last_check_note": "2026-11-06 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1412 (round-0 SHIP avg 8.79; queued 2028-05-25). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
+    "last_checked": "2026-11-06T10:30:00-08:00",
+    "last_completed": "2026-11-06T10:30:00-08:00",
     "last_completed_date": "2026-11-06",
-    "last_journalist": "Dale Impactor III",
+    "last_journalist": "Axle McScatter",
     "last_published": "2026-11-06T00:30:00-08:00",
     "last_published_date": "2026-11-06",
     "last_published_slug": "840-legalization-fatality-tax-four-percent",
     "last_qa_date": "2026-11-06",
     "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-    "next": 1412,
+    "next": 1413,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -22940,6 +22935,45 @@
                 "critic_panel": "drafts/1411-cvsa-safe-driver-week-speeding-focus-flop-critic-panel-r0.md"
             },
             "note": "2026-11-06 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1411 in one run. CVSA Safe Driver Week 2026 (Oct 5 release; zero prior coverage): 8,083 drivers, 2,604 citations; focus offense 33 = 1.27%; speeding 691 = 26.5%; PV 349 of 691 speeding citations on 18.4% of stops; CMV warned 63.5% vs PV ticketed 53.7%. FARS cross-tab: E-350 rate 2.51 vs F-350 0.15. Round-0 SHIP (avg 8.79, 7/7 >= 8.5, all hard gates; em 0, The 2.1%, rhythm 574.1/14.6%/46.3%). Round-0 fixes: headline Reckless Truckers -> Reckless Driving (11 of 33 citations were PV), named-after -> built-around, uncited ref-6 removed. Queued SHIP_BLOCKED, ship_date 2028-05-24."
+        },
+        {
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1412-tesla-safest-ranking-correction-critic-panel-r0.md",
+                "hero": "drafts/1412-tesla-safest-ranking-correction.jpg",
+                "research": "drafts/1412-tesla-safest-ranking-correction-research.md",
+                "story": "drafts/1412-tesla-safest-ranking-correction.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "567df8b8",
+                "hero_jpeg": true,
+                "rhythm_pass": true,
+                "style_css": true,
+                "the_starters_pct": 0.0,
+                "word_count": 595
+            },
+            "journalist": "Axle McScatter",
+            "kicker": "By The Numbers",
+            "note": "2026-11-06 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1412 (round-0 SHIP avg 8.79; queued 2028-05-25). Self-correction of #1258 make ranking: time-weighted fleet puts Tesla at ~0.37 (range 0.33-0.39) not 0.06; Audi takes #1 at 0.20; gap vs Chevrolet 23x -> ~3.7x. Rhythm fixed pre-critique (short 20.7% -> 4.0% via sentence merges).",
+            "number": 1412,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 8.5,
+                "ethics_reviewer": 9.0,
+                "general_editor": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.5,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-05-25",
+            "slug": "1412-tesla-safest-ranking-correction",
+            "title": "We Ranked Tesla the Safest Carmaker in America. The Math Was Wrong."
         }
     ],
     "last_worker_run": "2026-11-04T22:30:00-08:00"
