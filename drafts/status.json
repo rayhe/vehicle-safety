@@ -1,7 +1,12 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-06 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1412 (round-0 SHIP avg 8.79; queued 2028-05-25). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
-    "last_checked": "2026-11-06T10:30:00-08:00",
+    "current": {
+        "slug": "1413-suv-only-vehicle-class-deaths-rose-2024",
+        "phase": "DRAFT",
+        "journalist": "Rex Driverton",
+        "started": "2026-11-06T12:30:00-08:00"
+    },
+    "last_check_note": "2026-11-06 12:30 run: RESEARCH #1413 (SUV-only 2024 divergence, NHTSA DOT HS 813 791). 1/day publish gate already consumed today by #840; next due #841 publish-eligible 2026-11-07.",
+    "last_checked": "2026-11-06T12:30:00-08:00",
     "last_completed": "2026-11-06T10:30:00-08:00",
     "last_completed_date": "2026-11-06",
     "last_journalist": "Axle McScatter",
