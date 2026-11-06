@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1411-cvsa-safe-driver-week-speeding-focus-flop",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-06T08:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-06 08:30 run: RESEARCH+DRAFT #1411 (CVSA Safe Driver Week 2026; hero JPEG 1920x1280 ?v=6d5da8e9; gates pre-checked: em 0, banned 0, The 2.1%, rhythm PASS var 574.1, 934 words).",
+  "current": null,
+  "last_check_note": "2026-11-06 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1411 (round-0 SHIP avg 8.79; queued 2028-05-24). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T08:30:00-08:00",
-  "last_completed": "2026-11-06T07:00:00-08:00",
+  "last_completed": "2026-11-06T08:30:00-08:00",
   "last_completed_date": "2026-11-06",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "next": 1410,
+  "next": 1412,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22903,6 +22897,44 @@
         "critic_panel": "drafts/1410-tesla-vineland-median-verified-engaged-critic-panel-r0.md"
       },
       "note": "2026-11-06 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1410 in one run. Electrek Oct 15, 2026: 2021 Model Y crossed Route 55 median in Vineland NJ Aug 22, killed Phillip Eastman, 68, head-on; police said driver lost control, Tesla SGO filing says Verified Engaged, then redacts narrative/software version/ODD. 9th confirmed case in Electrek series (#905 had 8). FARS cross-tab original: Model Y rate 0.03, lowest Tesla, ~1/200th of Mustang 6.02. Round-0 SHIP (avg 8.71, 7/7 >= 8.5, all hard gates; em 0, The 2.1%, rhythm 948.8/6.8%/43.2%). Round-0 legal fix: ref-6 link to #905 story removed, #905 is SHIP_BLOCKED until 2027-01-02 and has no published file yet. Queued SHIP_BLOCKED, ship_date 2028-05-23."
+    },
+    {
+      "number": 1411,
+      "slug": "1411-cvsa-safe-driver-week-speeding-focus-flop",
+      "title": "The Week Aimed at Reckless Driving Caught 33 of Them. It Caught 691 Speeders Instead.",
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-24",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6d5da8e9",
+        "word_count": 930
+      },
+      "files": {
+        "research": "drafts/1411-cvsa-safe-driver-week-speeding-focus-flop-research.md",
+        "story": "drafts/1411-cvsa-safe-driver-week-speeding-focus-flop.html",
+        "hero": "drafts/1411-cvsa-safe-driver-week-speeding-focus-flop.jpg",
+        "critic_panel": "drafts/1411-cvsa-safe-driver-week-speeding-focus-flop-critic-panel-r0.md"
+      },
+      "note": "2026-11-06 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1411 in one run. CVSA Safe Driver Week 2026 (Oct 5 release; zero prior coverage): 8,083 drivers, 2,604 citations; focus offense 33 = 1.27%; speeding 691 = 26.5%; PV 349 of 691 speeding citations on 18.4% of stops; CMV warned 63.5% vs PV ticketed 53.7%. FARS cross-tab: E-350 rate 2.51 vs F-350 0.15. Round-0 SHIP (avg 8.79, 7/7 >= 8.5, all hard gates; em 0, The 2.1%, rhythm 574.1/14.6%/46.3%). Round-0 fixes: headline Reckless Truckers -> Reckless Driving (11 of 33 citations were PV), named-after -> built-around, uncited ref-6 removed. Queued SHIP_BLOCKED, ship_date 2028-05-24."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
