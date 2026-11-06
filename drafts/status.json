@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1403-cvsa-roadcheck-2026-brakes-still-first",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-05T16:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-05 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1402 in one run. Angle found after exhaustive duplicate sweep: NSC H1 2026 preliminary estimate (Sept 9, 2026) \u2014 18,460 deaths, down 2% vs revised 18,846; rate 1.12, down 3.4%. Novel: deceleration arithmetic (NSC -13% to -2% deaths, -13.5% to -3.4% rate), six-jurisdiction flip table (CA -43% to +14%, DC -67% to +133%, HI +46% to -30%), ~2,064-lives counterfactual, NHTSA H1 2026 estimate missing as of Nov 5 despite late-Sept promise. Killed angles: Lincoln 26V688, F-150 tailgate, Thomas Built FMVSS 221, Hyundai 26V728, PACCAR fuel hose, IIHS Oct 31 round, Tesla DP26010, Godzilla DP26011, VNR RQ26005, GHSA 6,732, FARS sober-deathtraps (all previously covered). Critique round 0: 8.9 avg, 7/7 >= 8.5; rhythm fixed (21.4% short -> 14.0%). Queued SHIP_BLOCKED, ship_date 2028-05-15. PUBLISH-QUEUE skipped: 1/day gate met (Publish #839 today, fe5da907). Earliest due #840 legalization-fatality-tax-four-percent (ship_date 2026-11-05) hero-ready and next publish-eligible.",
   "last_checked": "2026-11-05T14:40:00-08:00",
-  "last_completed": "2026-11-05T14:40:00-08:00",
+  "last_completed": "2026-11-05T16:30:00-08:00",
   "last_completed_date": "2026-11-05",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-04T00:30:00-08:00",
@@ -22593,6 +22587,48 @@
         "critic_panel": "drafts/1402-nsc-h1-2026-decline-stalls-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.9 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1402- prefix). News peg: NSC H1 2026 preliminary estimate, Sept 9, 2026: 18,460 deaths, down 2% vs revised 18,846; rate 1.12, down 3.4%. Novel: deceleration arithmetic (NSC -13% to -2% deaths, -13.5% to -3.4% rate), six-jurisdiction flip table (CA -43% to +14%, DC -67% to +133%, HI +46% to -30%), ~2,064-lives counterfactual, NHTSA H1 2026 estimate missing as of Nov 5 despite late-Sept promise. Killed angles: Lincoln 26V688 (#1321/#1356), F-150 tailgate (#1297), Thomas Built FMVSS 221 (#1369), Hyundai 26V728 (#1400), PACCAR fuel hose (#1337), IIHS Oct 31 round (#1392/#1244), Tesla DP26010 (#1315), Godzilla DP26011 (#1295/#1326/#1350), VNR RQ26005 (#1386), GHSA 6,732 (#1374), FARS sober-deathtraps (#1220/#1064/#1013). No publish: 1/day rule, #839 shipped 2026-11-05; queue backlog through 2028-05-15."
+    },
+    {
+      "number": 1403,
+      "slug": "1403-cvsa-roadcheck-2026-brakes-still-first",
+      "title": "One in Five Trucks Failed Inspection. The Brakes Failed Most.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-16",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.7,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 8.8,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "89eca4cc",
+        "rhythm_pass": true,
+        "rhythm_variance": 209.6,
+        "rhythm_short_pct": 8.3,
+        "rhythm_long_pct": 37.5,
+        "word_count": 961
+      },
+      "files": {
+        "research": "drafts/1403-cvsa-roadcheck-2026-brakes-still-first-research.md",
+        "story": "drafts/1403-cvsa-roadcheck-2026-brakes-still-first.html",
+        "hero": "drafts/1403-cvsa-roadcheck-2026-brakes-still-first.jpg",
+        "critic_panel": "drafts/1403-cvsa-roadcheck-2026-brakes-still-first-critic-panel-r0.md"
+      },
+      "note": "2026-11-05 16:30 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The-starters 8.3%, rhythm pass 209.6/8.3%/37.5%). News peg: CVSA 2026 International Roadcheck results (Aug 25, 2026; event May 12-14). Original: 12-metric YoY vs 2025 CVSA release (medical card 493->1,072, +117%, rank #3->#1; brake share 41.1%->39.1%); unbelted paradox (1.25% observed vs 64% of 2021 dead truck drivers, ~140x, caveated); Level I 24.8% vs Level V 3.8% inspection paradox. Duplicate-screen killed this run: GM EV brake 26V717 (#1387), Hyundai ACU 26V728 (#1400), Thomas Built FMVSS 221 (#1369), IIHS Oct 31 batch (#1244/#1278), NTSB toll plaza (#917), GHSA pedestrian 2025 (#1374), FARS extremes (Park Ave/Land Cruiser/Tracker/Ascent, deaths-per-crash #904/#993). Queued 1/day after latest SHIP_BLOCKED (2028-05-15)."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
