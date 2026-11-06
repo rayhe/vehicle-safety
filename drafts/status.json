@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1410-tesla-vineland-median-verified-engaged",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-06T06:45:00-08:00"
+  },
   "last_check_note": "2026-11-06 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1409 (round-0 SHIP avg 8.79; queued 2028-05-22). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-05T19:00:00-08:00",
   "last_completed": "2026-11-06T04:30:00-08:00",
