@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-05 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1405 in one run. Range Rover steering knuckle EA26003 (331,559 under investigation vs 121,509 recalled; 210,050 gap). Round-0 SHIP (avg 8.79, 7/7 >= 8.5, all hard gates; em 0, The 7.8%, rhythm 765.8/12.5%/47.5%). Queued SHIP_BLOCKED, ship_date 2028-05-18. PUBLISH-QUEUE: 1/day gate met (Publish #839 today); earliest due #840 legalization-fatality-tax-four-percent (2026-11-05) hero-ready, next publish-eligible 2026-11-06.",
+  "current": {
+    "slug": "1406-urban-death-crossover",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-05T22:30:00-08:00"
+  },
+  "last_check_note": "2026-11-05 22:30 run: RESEARCH #1406 done. Urban death crossover: urban deaths +30% 2015-2024 (17,573 to 22,905) vs rural -9.6%; crossover 2016; urban rate +25% (0.81 to 1.01), rural -19% (1.92 to 1.56). Duplicate-checked vs 1,489 slugs; L87/IIHS-Oct31/commercial-van/2025-estimate angles all already covered.",
   "last_checked": "2026-11-05T19:00:00-08:00",
   "last_completed": "2026-11-05T21:00:00-08:00",
   "last_completed_date": "2026-11-05",
