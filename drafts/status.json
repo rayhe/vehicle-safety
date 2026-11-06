@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-05 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1406 in one run. Urban deaths +30% 2015-2024 (17,573 to 22,905) vs rural -9.6%; crossover 2016; urban rate +25% (0.81 to 1.01), rural -19% (1.92 to 1.56). Original excess-deaths arithmetic (~4,536 urban excess, ~3,694 rural saved) independently re-verified. Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 2.9%, rhythm 830.5/0%/46.7%). Queued SHIP_BLOCKED, ship_date 2028-05-19. PUBLISH-QUEUE: 1/day gate met (Publish #839 today); earliest due #840 legalization-fatality-tax-four-percent (2026-11-05) hero-ready, next publish-eligible 2026-11-06.",
+  "current": {
+    "slug": "1407-four-to-seven-deaths-rose-fifteen-percent",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-06T00:30:00-08:00"
+  },
+  "last_check_note": "2026-11-06 00:30 run: RESEARCH #1407 done. NHTSA Children 2024 fact sheet (DOT HS 813 811): 4-to-7 deaths +15% (212 to 244) and under-1 +17% while overall deaths fell 4.3%; 39% of killed child occupants unrestrained; driver-restraint correlation 65%. Novel: no existing story covers this fact sheet. Next: DRAFT.",
   "last_checked": "2026-11-05T19:00:00-08:00",
   "last_completed": "2026-11-05T22:30:00-08:00",
   "last_completed_date": "2026-11-05",
