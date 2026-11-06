@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-06 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1409 (round-0 SHIP avg 8.79; queued 2028-05-22). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
-  "last_checked": "2026-11-05T19:00:00-08:00",
+  "current": {
+    "slug": "1411-cvsa-safe-driver-week-speeding-focus-flop",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-11-06T08:30:00-08:00"
+  },
+  "last_check_note": "2026-11-06 08:30 run: RESEARCH #1411 (CVSA Safe Driver Week 2026; zero prior coverage; original calc: focus offense 1.27% of citations, PV 50.5% of speeding tickets on 18.4% of stops). Note: 06:30 run shipped #1410 but left top-level next=1410/last_check_note stale; fixing next to 1412 at SHIP.",
+  "last_checked": "2026-11-06T08:30:00-08:00",
   "last_completed": "2026-11-06T07:00:00-08:00",
   "last_completed_date": "2026-11-06",
   "last_journalist": "Rex Driverton",
