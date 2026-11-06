@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-06 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1408 (round-0 SHIP avg 8.86; queued 2028-05-21). 1/day publish gate already consumed today by #840 (00:30 run); next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
+  "current": {
+    "slug": "1409-stellantis-backup-camera-recalled-twice",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-06T04:30:00-08:00"
+  },
+  "last_check_note": "2026-11-06 04:30 run: RESEARCH #1409 done (Stellantis backup camera recalled twice: 26V531 844,027 + 26V560 239,131 = 1,083,158; +26V623 TPMS; coverage checked, no dup). Proceeding to DRAFT.",
   "last_checked": "2026-11-05T19:00:00-08:00",
   "last_completed": "2026-11-06T02:30:00-08:00",
   "last_completed_date": "2026-11-06",
