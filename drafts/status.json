@@ -1,43 +1,16 @@
 {
-  "current": {
-    "slug": "1407-four-to-seven-deaths-rose-fifteen-percent",
-    "phase": "SHIP",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-06T00:30:00-08:00",
-    "critique_round": 0,
-    "critic_avg": 8.86,
-    "scores": {
-      "general_editor": 8.5,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.5,
-      "legal_accuracy": 9.0,
-      "research_rigor": 9.0,
-      "data_presentation": 9.0
-    },
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 3.2,
-      "css_class": true,
-      "style_css": true,
-      "hero_jpeg": true,
-      "hero_hash": "817b0eb5",
-      "hero_dim": "1920x1280",
-      "word_count": 565
-    }
-  },
+  "current": null,
   "last_check_note": "2026-11-06 00:30 run: RESEARCH+DRAFT+CRITIQUE #1407 in one run. 4-to-7 child deaths +15% (212 to 244) while overall deaths fell 4.3%; 39% of killed child occupants unrestrained; driver-restraint correlation 65%. Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 3.2%, rhythm 314.0/10%/50%). One pre-panel fix: divergence 19.3 corrected to 19.4 points. Next: SHIP queue + publish #840.",
   "last_checked": "2026-11-05T19:00:00-08:00",
-  "last_completed": "2026-11-05T22:30:00-08:00",
-  "last_completed_date": "2026-11-05",
-  "last_journalist": "Rex Driverton",
+  "last_completed": "2026-11-06T00:30:00-08:00",
+  "last_completed_date": "2026-11-06",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-04T00:30:00-08:00",
   "last_published_date": "2026-11-04",
   "last_published_slug": "838-right-on-red-1975-oil-law-pedestrian-toll",
   "last_qa_date": "2026-11-04",
   "last_qa_note": "QA pass #838: story 200 live (initial 404 at 00:34 was the GH Action deploy racing the check; live by ~00:35), hero rendered 1920x1280 (?v=fbfdebd1), og:title/og:description/og:image verified, index card first in grid, sitemap entry lastmod 2026-11-04, dateline September 7, 2026 (draft date retained per #837 precedent). Live hero check was browser rendering, not a header measurement; file itself verified FF D8 JPEG pre-push.",
-  "next": 1407,
+  "next": 1408,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -22774,6 +22747,44 @@
         "critic_panel": "drafts/1406-urban-death-crossover-critic-panel-r0.md"
       },
       "note": "2026-11-05 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1406 in one run. Urban deaths +30% 2015-2024 (17,573 to 22,905) vs rural -9.6%; crossover 2016; urban rate +25% (0.81 to 1.01), rural -19% (1.92 to 1.56). Original excess-deaths arithmetic (~4,536 urban excess, ~3,694 rural saved) independently re-verified. Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 2.9%, rhythm 830.5/0%/46.7%). Queued SHIP_BLOCKED, ship_date 2028-05-19."
+    },
+    {
+      "number": 1407,
+      "slug": "1407-four-to-seven-deaths-rose-fifteen-percent",
+      "title": "Deaths Fell 4.3% in 2024. For 4-to-7-Year-Olds, They Rose 15%.",
+      "journalist": "Clara Rollover",
+      "kicker": "Body Count",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-05-20",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "817b0eb5",
+        "word_count": 565
+      },
+      "files": {
+        "research": "drafts/1407-four-to-seven-deaths-rose-fifteen-percent-research.md",
+        "story": "drafts/1407-four-to-seven-deaths-rose-fifteen-percent.html",
+        "hero": "drafts/1407-four-to-seven-deaths-rose-fifteen-percent.jpg",
+        "critic_panel": "drafts/1407-four-to-seven-deaths-rose-fifteen-percent-critic-panel-r0.md"
+      },
+      "note": "2026-11-06 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1407 in one run. NHTSA Children 2024 fact sheet (DOT HS 813 811): 4-to-7 deaths +15% (212 to 244) and under-1 +17% while overall deaths fell 4.3%; 39% of killed child occupants unrestrained; driver-restraint correlation 65%. Original divergence arithmetic (19.4 points; share 23.6% vs 20.7%; combined youngest-bracket +15.5%) independently re-verified. Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 3.2%, rhythm 314.0/10%/50%). Queued SHIP_BLOCKED, ship_date 2028-05-20."
     }
   ],
   "last_worker_run": "2026-11-04T22:30:00-08:00"
