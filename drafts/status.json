@@ -1,22 +1,16 @@
 {
-    "current": {
-        "slug": "1413-suv-only-vehicle-class-deaths-rose-2024",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-06T12:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-06 12:30 run: RESEARCH #1413 (SUV-only 2024 divergence, NHTSA DOT HS 813 791). 1/day publish gate already consumed today by #840; next due #841 publish-eligible 2026-11-07.",
+    "current": null,
+    "last_check_note": "2026-11-06 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1413 (round-0 SHIP avg 8.79; queued 2028-05-26). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
     "last_checked": "2026-11-06T12:30:00-08:00",
-    "last_completed": "2026-11-06T10:30:00-08:00",
+    "last_completed": "2026-11-06T12:30:00-08:00",
     "last_completed_date": "2026-11-06",
-    "last_journalist": "Axle McScatter",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-06T00:30:00-08:00",
     "last_published_date": "2026-11-06",
     "last_published_slug": "840-legalization-fatality-tax-four-percent",
     "last_qa_date": "2026-11-06",
     "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-    "next": 1413,
+    "next": 1414,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -22980,6 +22974,49 @@
             "ship_date": "2028-05-25",
             "slug": "1412-tesla-safest-ranking-correction",
             "title": "We Ranked Tesla the Safest Carmaker in America. The Math Was Wrong."
+        },
+        {
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1413-suv-only-vehicle-class-deaths-rose-2024-critic-panel-r0.md",
+                "hero": "images/1413-suv-only-vehicle-class-deaths-rose-2024.jpg",
+                "research": "drafts/1413-suv-only-vehicle-class-deaths-rose-2024-research.md",
+                "story": "stories/1413-suv-only-vehicle-class-deaths-rose-2024.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "a430a0ca",
+                "hero_jpeg": true,
+                "style_css": true,
+                "the_starters_pct": 6.2,
+                "word_count": 665,
+                "rhythm": {
+                    "variance": 1395.0,
+                    "short_pct": 0.0,
+                    "long_pct": 70.6
+                }
+            },
+            "journalist": "Rex Driverton",
+            "kicker": "The Gap",
+            "note": "2026-11-06 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1413 (round-0 SHIP avg 8.79; queued 2028-05-26). Angle: NHTSA DOT HS 813 791 \u2014 SUV occupant deaths +112 (+1.6%) the only class up in 2024; share of PV occupant deaths 28.7% to 30.9%. Round-0 fix: JATO 2024 sales figure cited (ref 4). 1/day publish gate already consumed today by #840; next due #841 publish-eligible 2026-11-07.",
+            "number": 1413,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 8.5,
+                "general_editor": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.5,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-05-26",
+            "slug": "1413-suv-only-vehicle-class-deaths-rose-2024",
+            "title": "In the Year Everything Got Safer, SUV Deaths Went Up"
         }
     ],
     "last_worker_run": "2026-11-04T22:30:00-08:00"
