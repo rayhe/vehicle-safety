@@ -36,3 +36,15 @@ PASS, three ways. (1) Fresh: NHTSA received GM's report on October 29, 2026, six
 - NHTSA FARS: https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars
 - NHTSA recalls database: https://www.nhtsa.gov/recalls
 - IIHS vehicle ratings: https://www.iihs.org/ratings
+
+## Addendum (2026-11-07, from #1421 duplicate research — primary source: GM Part 573 filing)
+
+The Part 573 Safety Recall Report 26V717 itself (static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V717-3733.pdf) contains a chronology section with facts not in the campaign record as reported on Nov 4:
+
+- **Triggering event:** April 10, 2026, a GM technical expert filed a Speak Up for Safety report after a 2024 Lyriq struck a garage at low speed. The subject vehicle was built with the software improvements implemented as the remedy for the previous recall **24V589** — the fix was already installed on the car that failed. GM duplicated the condition in testing, confirmed the 24V589 remedy did not address this pAWD scenario, and opened a new investigation Aug 18, 2026. SFADA decided on the recall Oct 22, 2026.
+- **Complaint counts (from the filing, not in the Nov 4 reporting):** 24 field complaints potentially related, received Feb 28, 2024 – June 11, 2026. **20 minor accidents, 2 with allegations of minor injuries.** No fatalities.
+- **Trigger sequence (GM's own testing):** brakes lightly applied at low speed during a sharp turn, vehicle hits a bump or depression (such as at the end of a driveway), momentary release and reapplication of the brakes causes the slip calculation to misread wheel movement, temporary loss of braking. Returns on the next brake press.
+- **2023–2024 Lyriq fix delay:** the BSCM software update was not yet ready for 2023–2024 Lyriq models at filing time (CarBuzz, Nov 6, 2026; The Truth About Cars, Nov 2026). The 2024 Lyriq is the largest single cohort (22,819 of 67,380, 34%).
+- **Overlap note for this article's audit:** vehicles covered by 24V589 with pAWD are included in 26V717 and closed under 24V589 because this update addresses both conditions.
+
+#1421 (Nov 7) was researched and drafted on this same recall before the duplicate was caught and was removed as a duplicate of this entry. The "fix didn't fix it" angle above is the one genuinely new thread #1421 found; if this article is ever revised before its ship date, that chronology is the material to add.
