@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1425-santa-fe-top-safety-pick-asterisk",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-07T14:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 14:30 run: DRAFT #1425 complete (981 prose words, hero JPEG 1920x1280 ?v=8ae0c5d0). Hard gates pre-check: em 0, banned 0, The 0.0%, class=story, style.css, rhythm PASS (variance 484.7). Proceeding to CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-07 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1425 (round-0 SHIP avg 8.79; queued 2028-06-07). Publish-queue: checking 1/day gate now.",
   "last_checked": "2026-11-07T14:30:00-08:00",
-  "last_completed": "2026-11-07T12:30:00-08:00",
+  "last_completed": "2026-11-07T14:30:00-08:00",
   "last_completed_date": "2026-11-07",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-07T14:30:00-08:00",
-  "next": 1425,
+  "next": 1426,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23476,6 +23470,44 @@
         "critic_panel": "drafts/1424-minnesota-stopped-writing-tickets-critic-panel-r0.md"
       },
       "note": "2026-11-07 12:30 run: round-0 panel VERDICT: SHIP (avg 8.79). CTS 25-15 enforcement-collapse study; rhythm fixed pre-critique (fragments merged, var 629/short 11.4%/long 48.6%). Queued 2028-06-06 (1 day after latest 2028-06-05)."
+    },
+    {
+      "number": 1425,
+      "slug": "1425-santa-fe-top-safety-pick-asterisk",
+      "title": "The Santa Fe Won the Lab's Top Prize. Its Own Decade on the Road Says Wait.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-07",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "8ae0c5d0",
+        "word_count": 981
+      },
+      "files": {
+        "research": "drafts/1425-santa-fe-top-safety-pick-asterisk-research.md",
+        "story": "drafts/1425-santa-fe-top-safety-pick-asterisk.html",
+        "hero": "drafts/1425-santa-fe-top-safety-pick-asterisk.jpg",
+        "critic_panel": "drafts/1425-santa-fe-top-safety-pick-asterisk-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1425 (round-0 SHIP avg 8.79; queued 2028-06-07). First dedicated Santa Fe article in 1,424 entries; IIHS TSP+ build-date asterisk (Nov 2024 rear-belt revision) + FARS 555 deaths / 0.39 rate cross-tab + NHTSA 4-star vs IIHS TSP+ tension. Known weaknesses (non-blocking): 981 words, peer comparison inline not tabulated."
     }
   ]
 }
