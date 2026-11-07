@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1422-cybertruck-eleven-recalls-71000-trucks",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-07T08:30:00-08:00"
+    "started": "2026-11-07T08:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-07 08:30 run: RESEARCH #1422 Cybertruck wind-down + 11-recall retrospective (Reuters Nov 6; NHTSA API confirms 11 campaigns; 1 per 6,455 built). Publish gate today already consumed by #841; #842 due 2026-11-07 waits for next run.",
   "last_checked": "2026-11-07T08:30:00-08:00",
