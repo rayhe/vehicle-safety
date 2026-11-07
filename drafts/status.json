@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1424-minnesota-stopped-writing-tickets",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-07T12:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 12:30 run: DRAFT #1424 done (hero JPEG 1920x1280 ?v=6ae21fea; gates pre-check: em 0, banned 0, The 2.2%, rhythm PASS var 629/short 11.4%/long 48.6%).",
+  "current": null,
+  "last_check_note": "2026-11-07 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1424 (round-0 SHIP avg 8.79; queued 2028-06-06). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 nhtsa-backlog-body-count due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T12:30:00-08:00",
-  "last_completed": "2026-11-07T10:30:00-08:00",
+  "last_completed": "2026-11-07T12:30:00-08:00",
   "last_completed_date": "2026-11-07",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-07T12:30:00-08:00",
-  "next": 1424,
+  "next": 1425,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23438,6 +23432,44 @@
       "ship_date": "2028-06-05",
       "slug": "1423-navigator-audio-module-moves-seat",
       "title": "Your Navigator's Stereo Can Move Your Seat. Ford's Fix Is to Delete the Feature."
+    },
+    {
+      "number": 1424,
+      "slug": "1424-minnesota-stopped-writing-tickets",
+      "title": "Minnesota Stopped Writing Tickets. The Body Count Noticed.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-06",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6ae21fea",
+        "word_count": 723
+      },
+      "files": {
+        "research": "drafts/1424-minnesota-stopped-writing-tickets-research.md",
+        "story": "drafts/1424-minnesota-stopped-writing-tickets.html",
+        "hero": "drafts/1424-minnesota-stopped-writing-tickets.jpg",
+        "critic_panel": "drafts/1424-minnesota-stopped-writing-tickets-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 12:30 run: round-0 panel VERDICT: SHIP (avg 8.79). CTS 25-15 enforcement-collapse study; rhythm fixed pre-critique (fragments merged, var 629/short 11.4%/long 48.6%). Queued 2028-06-06 (1 day after latest 2028-06-05)."
     }
   ]
 }
