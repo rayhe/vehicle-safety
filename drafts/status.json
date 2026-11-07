@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-11-07 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1423 (round-0 SHIP avg 8.79; queued 2028-06-05). Publish gate consumed today by #841; #842 nhtsa-backlog-body-count due 2026-11-07, publish-eligible 2026-11-08.",
+  "last_check_note": "2026-11-07 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1423 (round-0 SHIP avg 8.79; queued 2028-06-05). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 nhtsa-backlog-body-count due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T10:30:00-08:00",
   "last_completed": "2026-11-07T10:30:00-08:00",
   "last_completed_date": "2026-11-07",
