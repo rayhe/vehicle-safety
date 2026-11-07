@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1419-gillig-l9-hose-cascade-33930",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-07T00:45:00-08:00"
+  },
   "last_check_note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
   "last_completed": "2026-11-06T22:37:33-08:00",
