@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1417-iihs-work-trucks-fail-crash-avoidance",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-06T20:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-06 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1416 (round-0 SHIP avg 8.79; queued 2028-05-29). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
+  "current": null,
+  "last_check_note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
-  "last_completed": "2026-11-06T18:30:00-08:00",
+  "last_completed": "2026-11-06T20:30:00-08:00",
   "last_completed_date": "2026-11-06",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-06T20:30:00-08:00",
-  "next": 1417,
+  "next": 1418,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23153,6 +23147,49 @@
       "ship_date": "2028-05-29",
       "slug": "1416-toyota-waymo-bz4x-factory-robotaxi",
       "title": "Toyota Handed Its Factory to the Safest Driver on the Road. It Isn't Human."
+    },
+    {
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1417-iihs-work-trucks-fail-crash-avoidance-critic-panel-r0.md",
+        "hero": "drafts/1417-iihs-work-trucks-fail-crash-avoidance.jpg",
+        "research": "drafts/1417-iihs-work-trucks-fail-crash-avoidance-research.md",
+        "story": "drafts/1417-iihs-work-trucks-fail-crash-avoidance.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "346bdac6",
+        "hero_jpeg": true,
+        "rhythm": {
+          "long_pct": 72.7,
+          "short_pct": 12.1,
+          "variance": 432.1
+        },
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 702
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). Angle: IIHS Oct 8, 2026 first-ever crash-avoidance ratings for commercial vehicles; 11 cargo vans + Class 3 pickups; 7 of 11 Poor V2V, 0 of 8 pickup ratings Good. Sequel, not duplicate, of June 2026 driver-protection story (#iihs-heavy-truck-first-scorecard). Original calc: 22-rating tally 3G/4A/6M/9P (41% Poor). Regulatory gap: FMVSS 127 mandates AEB on light vehicles by Sep 2029, heavy vehicles excluded; 2023 NPRM (88 FR 43174, 155 lives/yr est.) never finalized, supplemental NPRM restarts process. 1/day publish gate already consumed today by #840; next due #841 publish-eligible 2026-11-07.",
+      "number": 1417,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-05-30",
+      "slug": "1417-iihs-work-trucks-fail-crash-avoidance",
+      "title": "IIHS Tested 11 Work Trucks and Vans. Seven of Them Couldn't Stop for a Car in Front of Them."
     }
   ]
 }
