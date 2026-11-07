@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1422-cybertruck-eleven-recalls-71000-trucks",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-07T08:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 08:30 run: RESEARCH #1422 Cybertruck wind-down + 11-recall retrospective (Reuters Nov 6; NHTSA API confirms 11 campaigns; 1 per 6,455 built). Publish gate today already consumed by #841; #842 due 2026-11-07 waits for next run.",
+  "current": null,
+  "last_check_note": "2026-11-07 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1422 (round-1 SHIP avg 8.64; queued 2028-06-04). Publish gate consumed today by #841; #842 nhtsa-backlog-body-count due 2026-11-07, publish-eligible 2026-11-08.",
   "last_checked": "2026-11-07T08:30:00-08:00",
-  "last_completed": "2026-11-07T06:39:40-08:00",
+  "last_completed": "2026-11-07T09:15:00-08:00",
   "last_completed_date": "2026-11-07",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-07T06:39:40-08:00",
-  "next": 1422,
+  "last_worker_run": "2026-11-07T09:15:00-08:00",
+  "next": 1423,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23363,6 +23357,44 @@
         "critic_panel": "drafts/1421-rural-drivers-die-at-the-scene-67-percent-critic-panel-r0.md"
       },
       "note": "2026-11-07 06:40 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1421 (round-0 SHIP avg 8.79; queued 2028-06-03). Angle: died-at-scene geography from NHTSA DOT HS 813 828 (July 2026) \u2014 67% of rural drivers killed died at the scene vs 50% urban; en-route deaths split 50/49, so the gap lives entirely in the at-scene phase. Original calcs: ~2,100 excess rural at-scene deaths (derived R~12,335, sensitivity +/-500, labeled an upper bound), unlit-dark deaths 5,756 rural vs 4,609 urban, roadway-departure per-mile index 2.7x, NC ratio 2.6x. Mechanism: DOT HS 811 599 (1.13x/1.23x DAS odds by trauma-center distance) + 811 542 (HEMS 64% vs 55%); counterweight Min et al. 2026 Montana golden-hour study. Killed this run: IIHS Oct 22 overlap round, Hyundai 26V728 (#1400), GM L87 EA26005, GM eBoost, Nautilus 26V688, Tiguan 26V587, Tesla contactor 25V690, Mach-E BECM, Ranger 26V605, F-150 fuel tank, NTSB toll plaza (#917), alcohol/motorcycle 2024 fact sheets, rural/urban crossover (#1406, same source, different cut). 1/day publish gate already consumed today by #841; next due #842 publish-eligible 2026-11-08."
+    },
+    {
+      "number": 1422,
+      "slug": "1422-cybertruck-eleven-recalls-71000-trucks",
+      "title": "Tesla Is Killing the Cybertruck. 11 Recalls for 71,000 Trucks Wrote the Obituary.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-06-04",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.64,
+      "critique_round": 1,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "53f54807",
+        "word_count": 837
+      },
+      "files": {
+        "research": "drafts/1422-cybertruck-eleven-recalls-71000-trucks-research.md",
+        "story": "drafts/1422-cybertruck-eleven-recalls-71000-trucks.html",
+        "hero": "drafts/1422-cybertruck-eleven-recalls-71000-trucks.jpg",
+        "critic_panel": "drafts/1422-cybertruck-eleven-recalls-71000-trucks-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1422 (round-0 REVISE: Voice 8.0 echo of #1421 arithmetic sentence; Data 8.0 three campaigns unnamed in body; fixed, round-1 SHIP avg 8.64; queued 2028-06-04). 1/day publish gate already consumed today by #841; #842 (2026-11-07) waits for next run."
     }
   ]
 }
