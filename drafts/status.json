@@ -2,16 +2,16 @@
   "current": null,
   "last_check_note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
-  "last_completed": "2026-11-07T03:05:00-08:00",
-  "last_completed_date": "2026-11-06",
-  "last_journalist": "Mia Crumplezone",
+  "last_completed": "2026-11-07T06:39:40-08:00",
+  "last_completed_date": "2026-11-07",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-06T20:30:00-08:00",
-  "next": 1421,
+  "last_worker_run": "2026-11-07T06:39:40-08:00",
+  "next": 1422,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23314,6 +23314,49 @@
         "critic_panel": "drafts/1420-nhtsa-drowsy-survey-55-percent-fell-asleep-critic-panel-r0.md"
       },
       "note": "2026-11-07 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1420 (round-0 SHIP avg 8.93; queued 2028-06-02). Angle: NHTSA National Survey of Drowsy Driving Knowledge, Attitudes, and Behaviors, DOT HS 813 895, released Nov 4, 2026 (first federal drowsy survey since 2002; Traffic Tech read in full via ROSA P). 55% ever fell asleep; 33% within first hour vs 15% after 6+ hours; 62% on multilane highways >55 mph; 6-7h modal sleep before falling asleep; >80% unaware of state law; AR/NJ only states with laws; messaging recall paradoxically tied to MORE drowsy driving. Original calcs: 132M Americans (55% x 240M licensed drivers, FHWA 2024), ~660M episodes/yr (0.23 x 12 x 240M), 37%->55% over 24 yrs, 381 ft blind in 4-sec microsleep at 65 mph. Pre-panel fix: rhythm short 21.2% -> 12.3% (merged 6 short sentences, a.m./p.m. -> AM/PM). Sample-size note: Traffic Tech says 3,765; ROSA blurb for full report DOT HS 813 887 says 10,700; article uses 3,765. 1/day publish gate already consumed today by #841; next due #842 publish-eligible 2026-11-08."
+    },
+    {
+      "number": 1421,
+      "slug": "1421-rural-drivers-die-at-the-scene-67-percent",
+      "title": "Two-Thirds of Rural Drivers Die at the Scene. In Cities, Half Make It to a Hospital.",
+      "journalist": "Vin Wreckage",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-03",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.4,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": {
+          "variance": 814.2,
+          "short_pct": 13.2,
+          "long_pct": 52.6
+        },
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "cb59851d",
+        "word_count": 924
+      },
+      "files": {
+        "research": "drafts/1421-rural-drivers-die-at-the-scene-67-percent-research.md",
+        "story": "drafts/1421-rural-drivers-die-at-the-scene-67-percent.html",
+        "hero": "drafts/1421-rural-drivers-die-at-the-scene-67-percent.jpg",
+        "critic_panel": "drafts/1421-rural-drivers-die-at-the-scene-67-percent-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 06:40 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1421 (round-0 SHIP avg 8.79; queued 2028-06-03). Angle: died-at-scene geography from NHTSA DOT HS 813 828 (July 2026) \u2014 67% of rural drivers killed died at the scene vs 50% urban; en-route deaths split 50/49, so the gap lives entirely in the at-scene phase. Original calcs: ~2,100 excess rural at-scene deaths (derived R~12,335, sensitivity +/-500, labeled an upper bound), unlit-dark deaths 5,756 rural vs 4,609 urban, roadway-departure per-mile index 2.7x, NC ratio 2.6x. Mechanism: DOT HS 811 599 (1.13x/1.23x DAS odds by trauma-center distance) + 811 542 (HEMS 64% vs 55%); counterweight Min et al. 2026 Montana golden-hour study. Killed this run: IIHS Oct 22 overlap round, Hyundai 26V728 (#1400), GM L87 EA26005, GM eBoost, Nautilus 26V688, Tiguan 26V587, Tesla contactor 25V690, Mach-E BECM, Ranger 26V605, F-150 fuel tank, NTSB toll plaza (#917), alcohol/motorcycle 2024 fact sheets, rural/urban crossover (#1406, same source, different cut). 1/day publish gate already consumed today by #841; next due #842 publish-eligible 2026-11-08."
     }
   ]
 }
