@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1423-navigator-audio-module-moves-seat",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-07T10:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 10:30 run: DRAFT #1423 done (794 words, hero JPEG 1920x1280 ?v=b6f7d8e5). Gates pre-checked: em 0, banned 0, The 0.0%, rhythm PASS (var 621.2, short 11.1%, long 63.0%). Proceeding to CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-07 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1423 (round-0 SHIP avg 8.79; queued 2028-06-05). Publish gate consumed today by #841; #842 nhtsa-backlog-body-count due 2026-11-07, publish-eligible 2026-11-08.",
   "last_checked": "2026-11-07T10:30:00-08:00",
-  "last_completed": "2026-11-07T09:15:00-08:00",
+  "last_completed": "2026-11-07T10:30:00-08:00",
   "last_completed_date": "2026-11-07",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-07T10:30:00-08:00",
-  "next": 1423,
+  "next": 1424,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23401,6 +23395,43 @@
         "critic_panel": "drafts/1422-cybertruck-eleven-recalls-71000-trucks-critic-panel-r0.md"
       },
       "note": "2026-11-07 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1422 (round-0 REVISE: Voice 8.0 echo of #1421 arithmetic sentence; Data 8.0 three campaigns unnamed in body; fixed, round-1 SHIP avg 8.64; queued 2028-06-04). 1/day publish gate already consumed today by #841; #842 (2026-11-07) waits for next run."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1423-navigator-audio-module-moves-seat-critic-panel-r0.md",
+        "hero": "drafts/1423-navigator-audio-module-moves-seat.jpg",
+        "research": "drafts/1423-navigator-audio-module-moves-seat-research.md",
+        "story": "drafts/1423-navigator-audio-module-moves-seat.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "b6f7d8e5",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 794
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "note": "2026-11-07 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1423 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 0.0%, rhythm var 621.2/short 11.1%/long 63.0%, hero JPEG 1920x1280). Queued 2028-06-05.",
+      "number": 1423,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-06-05",
+      "slug": "1423-navigator-audio-module-moves-seat",
+      "title": "Your Navigator's Stereo Can Move Your Seat. Ford's Fix Is to Delete the Feature."
     }
   ]
 }
