@@ -1,35 +1,8 @@
 {
-  "current": {
-    "slug": "1419-gillig-l9-hose-cascade-33930",
-    "phase": "SHIP",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-07T00:45:00-08:00",
-    "scores": {
-      "general_editor": 8.8,
-      "voice_coach": 9.0,
-      "ethics_reviewer": 9.0,
-      "social_shareability": 8.8,
-      "legal_accuracy": 9.2,
-      "research_rigor": 9.2,
-      "data_presentation": 9.0
-    },
-    "avg_critic": 9.0,
-    "critique_round": 0,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 2.1,
-      "css_class": true,
-      "style_css": true,
-      "rhythm_pass": true,
-      "hero_jpeg": true,
-      "hero_dim": "1920x1280",
-      "hero_hash": "adb54bd9"
-    }
-  },
+  "current": null,
   "last_check_note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
-  "last_completed": "2026-11-06T22:37:33-08:00",
+  "last_completed": "2026-11-07T00:55:00-08:00",
   "last_completed_date": "2026-11-06",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -38,7 +11,7 @@
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-06T20:30:00-08:00",
-  "next": 1419,
+  "next": 1420,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23260,6 +23233,44 @@
       "ship_date": "2028-05-31",
       "slug": "1418-thrown-clear-ejection-84-percent",
       "title": "Thrown Clear: 84% of Ejected Occupants Are Killed"
+    },
+    {
+      "number": 1419,
+      "slug": "1419-gillig-l9-hose-cascade-33930",
+      "title": "One Bad Hose, 33,930 Vehicles: The Cummins L9 Cascade Reaches Your City Bus",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-01",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.2,
+        "research_rigor": 9.2,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.1,
+        "css_class": true,
+        "style_css": true,
+        "rhythm_pass": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "adb54bd9"
+      },
+      "files": {
+        "research": "drafts/1419-gillig-l9-hose-cascade-33930-research.md",
+        "story": "drafts/1419-gillig-l9-hose-cascade-33930.html",
+        "hero": "drafts/1419-gillig-l9-hose-cascade-33930.jpg",
+        "critic_panel": "drafts/1419-gillig-l9-hose-cascade-33930-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 00:55 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 9.0, 7/7 >= 8.5, all hard gates; em 0, The-starters 2.1%, rhythm pass). NHTSA 26V707 (Gillig, 1,853 Low Floor buses, Oct 23) + 26V699 (Autocar, 1,339 Xpeditors, Oct 21) complete the Cummins L9 cascade tally: 10 downstream vehicle recalls, 33,930 vehicles, one hose part D563027BX03. Original: full tally, Autocar count (unknown in #1337), Gillig chapter (0 mentions in #1373), 3 unfiled buyers (New Flyer, Big Rig, Grove), Temsa zero-unit filing. Queued 1/day after latest SHIP_BLOCKED (2028-05-31)."
     }
   ]
 }
