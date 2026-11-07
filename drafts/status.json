@@ -1,9 +1,31 @@
 {
   "current": {
     "slug": "1419-gillig-l9-hose-cascade-33930",
-    "phase": "DRAFT",
+    "phase": "SHIP",
     "journalist": "Axle McScatter",
-    "started": "2026-11-07T00:45:00-08:00"
+    "started": "2026-11-07T00:45:00-08:00",
+    "scores": {
+      "general_editor": 8.8,
+      "voice_coach": 9.0,
+      "ethics_reviewer": 9.0,
+      "social_shareability": 8.8,
+      "legal_accuracy": 9.2,
+      "research_rigor": 9.2,
+      "data_presentation": 9.0
+    },
+    "avg_critic": 9.0,
+    "critique_round": 0,
+    "hard_gates": {
+      "em_dashes": 0,
+      "banned_phrases": 0,
+      "the_starters_pct": 2.1,
+      "css_class": true,
+      "style_css": true,
+      "rhythm_pass": true,
+      "hero_jpeg": true,
+      "hero_dim": "1920x1280",
+      "hero_hash": "adb54bd9"
+    }
   },
   "last_check_note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
