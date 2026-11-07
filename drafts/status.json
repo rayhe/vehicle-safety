@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1417-iihs-work-trucks-fail-crash-avoidance",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-06T20:30:00-08:00"
+    "started": "2026-11-06T20:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-06 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1416 (round-0 SHIP avg 8.79; queued 2028-05-29). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
