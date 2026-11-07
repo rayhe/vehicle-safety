@@ -1,24 +1,17 @@
 {
-  "current": {
-    "journalist": "Axle McScatter",
-    "number": 1416,
-    "phase": "CRITIQUE",
-    "round": 0,
-    "slug": "1416-toyota-waymo-bz4x-factory-robotaxi",
-    "started": "2026-11-06T18:30:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-06 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1415 (round-0 SHIP avg 8.79; queued 2028-05-28). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T16:30:00-08:00",
-  "last_completed": "2026-11-06T16:30:00-08:00",
+  "last_completed": "2026-11-06T18:30:00-08:00",
   "last_completed_date": "2026-11-06",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-06T18:30:00-08:00",
-  "next": 1416,
+  "next": 1417,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23111,6 +23104,49 @@
       "ship_date": "2028-05-28",
       "slug": "1415-seat-belt-paradox-91-percent-half-the-dead",
       "title": "91% of America Buckles Up. Half the People Who Die in Cars Don't."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1416-toyota-waymo-bz4x-factory-robotaxi-critic-panel-r0.md",
+        "hero": "drafts/1416-toyota-waymo-bz4x-factory-robotaxi.jpg",
+        "research": "drafts/1416-toyota-waymo-bz4x-factory-robotaxi-research.md",
+        "story": "drafts/1416-toyota-waymo-bz4x-factory-robotaxi.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "59f15b04",
+        "hero_jpeg": true,
+        "rhythm": {
+          "long_pct": 64.7,
+          "short_pct": 8.8,
+          "variance": 1336.7
+        },
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 760
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-06 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1416 (round-0 SHIP avg 8.79; queued 2028-05-29). Angle: Toyota-WAYMO Oct 30, 2026 - custom bZ4X robotaxi built at Takaoka with Waymo hardware on the line; Japan testing 2027. Zero prior site coverage (bz4x/toyota-waymo/takaoka all empty). bZ4X TSP+ (built after Dec 2024); Waymo Sep 24 2026 update (271M rider-only miles, 82% fewer injury crashes, 95% fewer serious-injury-or-death crashes); IIHS Jul 2026 independent check (68% fewer police-reportable, 81% fewer injury crashes). Original calcs: prevention pace 1 serious crash per 4.93M miles (~1 per 8-9 days at 4M mi/wk, matches Waymo claim); scale sentence (39,345 deaths at 1.20/100M VMT implies ~3.3T miles; Waymo 0.008%). Pre-panel fixes: ref-7 inline cite added, five-metros phrasing corrected. 1/day publish gate already consumed today by #840; next due #841 publish-eligible 2026-11-07.",
+      "number": 1416,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-05-29",
+      "slug": "1416-toyota-waymo-bz4x-factory-robotaxi",
+      "title": "Toyota Handed Its Factory to the Safest Driver on the Road. It Isn't Human."
     }
   ]
 }
