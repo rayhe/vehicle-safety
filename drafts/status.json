@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1425-santa-fe-top-safety-pick-asterisk",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-07T14:30:00-08:00"
+    "started": "2026-11-07T14:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-07 14:30 run: RESEARCH #1425 Santa Fe TSP+ asterisk (Mia Crumplezone). Coverage verified: no dedicated Santa Fe article in 1,424 entries; FARS cross-tab + Nov 2024 build-date cutoff + NHTSA 4-star vs IIHS TSP+ tension. Proceeding to DRAFT.",
+  "last_check_note": "2026-11-07 14:30 run: DRAFT #1425 complete (981 prose words, hero JPEG 1920x1280 ?v=8ae0c5d0). Hard gates pre-check: em 0, banned 0, The 0.0%, class=story, style.css, rhythm PASS (variance 484.7). Proceeding to CRITIQUE.",
   "last_checked": "2026-11-07T14:30:00-08:00",
   "last_completed": "2026-11-07T12:30:00-08:00",
   "last_completed_date": "2026-11-07",
