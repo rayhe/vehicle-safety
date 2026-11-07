@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1424-minnesota-stopped-writing-tickets",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-07T12:30:00-08:00"
+    "started": "2026-11-07T12:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-07 12:30 run: RESEARCH #1424 (Minnesota CTS 25-15 enforcement collapse; killed: L87, IIHS commercial, 26V717, 26V728, 26V688, 26V578, 26V659, 26V562, GHSA ped decline, Q1 0.99, 26V605, 26V701, 26V570).",
+  "last_check_note": "2026-11-07 12:30 run: DRAFT #1424 done (hero JPEG 1920x1280 ?v=6ae21fea; gates pre-check: em 0, banned 0, The 2.2%, rhythm PASS var 629/short 11.4%/long 48.6%).",
   "last_checked": "2026-11-07T12:30:00-08:00",
   "last_completed": "2026-11-07T10:30:00-08:00",
   "last_completed_date": "2026-11-07",
