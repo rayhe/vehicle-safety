@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1420-nhtsa-drowsy-survey-55-percent-fell-asleep",
-    "phase": "DRAFT",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-07T02:45:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-06 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1417 (round-0 SHIP avg 8.71; queued 2028-05-30). 1/day publish gate already consumed today by #840; next due #841 ghsa-isa-guidebook-speeding-confession (2026-11-06), publish-eligible 2026-11-07.",
   "last_checked": "2026-11-06T18:30:00-08:00",
-  "last_completed": "2026-11-07T01:05:00-08:00",
+  "last_completed": "2026-11-07T03:05:00-08:00",
   "last_completed_date": "2026-11-06",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -23276,6 +23271,49 @@
         "critic_panel": "drafts/1419-gillig-l9-hose-cascade-33930-critic-panel-r0.md"
       },
       "note": "2026-11-07 00:55 run: RESEARCH+DRAFT+CRITIQUE in one run; round-0 SHIP (avg 9.0, 7/7 >= 8.5, all hard gates; em 0, The-starters 2.1%, rhythm pass). NHTSA 26V707 (Gillig, 1,853 Low Floor buses, Oct 23) + 26V699 (Autocar, 1,339 Xpeditors, Oct 21) complete the Cummins L9 cascade tally: 10 downstream vehicle recalls, 33,930 vehicles, one hose part D563027BX03. Original: full tally, Autocar count (unknown in #1337), Gillig chapter (0 mentions in #1373), 3 unfiled buyers (New Flyer, Big Rig, Grove), Temsa zero-unit filing. Queued 1/day after latest SHIP_BLOCKED (2028-05-31)."
+    },
+    {
+      "number": 1420,
+      "slug": "1420-nhtsa-drowsy-survey-55-percent-fell-asleep",
+      "title": "55% of American Drivers Have Fallen Asleep at the Wheel. A Third Did It in the First Hour.",
+      "journalist": "Dale Impactor III",
+      "kicker": "Sobriety Report",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-02",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": {
+          "long_pct": 36.8,
+          "short_pct": 12.3,
+          "variance": 683.1
+        },
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "08611530",
+        "word_count": 825
+      },
+      "files": {
+        "research": "drafts/1420-nhtsa-drowsy-survey-55-percent-fell-asleep-research.md",
+        "story": "drafts/1420-nhtsa-drowsy-survey-55-percent-fell-asleep.html",
+        "hero": "drafts/1420-nhtsa-drowsy-survey-55-percent-fell-asleep.jpg",
+        "critic_panel": "drafts/1420-nhtsa-drowsy-survey-55-percent-fell-asleep-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1420 (round-0 SHIP avg 8.93; queued 2028-06-02). Angle: NHTSA National Survey of Drowsy Driving Knowledge, Attitudes, and Behaviors, DOT HS 813 895, released Nov 4, 2026 (first federal drowsy survey since 2002; Traffic Tech read in full via ROSA P). 55% ever fell asleep; 33% within first hour vs 15% after 6+ hours; 62% on multilane highways >55 mph; 6-7h modal sleep before falling asleep; >80% unaware of state law; AR/NJ only states with laws; messaging recall paradoxically tied to MORE drowsy driving. Original calcs: 132M Americans (55% x 240M licensed drivers, FHWA 2024), ~660M episodes/yr (0.23 x 12 x 240M), 37%->55% over 24 yrs, 381 ft blind in 4-sec microsleep at 65 mph. Pre-panel fix: rhythm short 21.2% -> 12.3% (merged 6 short sentences, a.m./p.m. -> AM/PM). Sample-size note: Traffic Tech says 3,765; ROSA blurb for full report DOT HS 813 887 says 10,700; article uses 3,765. 1/day publish gate already consumed today by #841; next due #842 publish-eligible 2026-11-08."
     }
   ]
 }
