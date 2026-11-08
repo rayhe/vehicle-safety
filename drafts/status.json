@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-08 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1434 (round-1 SHIP avg 8.83; queued 2028-06-16). Publish-queue: 1/day gate consumed today (1 Publish commit already in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
+  "current": {
+    "slug": "1435-hyundai-veloster-kona-airbag-software-recall",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-08T10:30:00-08:00"
+  },
+  "last_check_note": "2026-11-08 10:30 run: RESEARCH #1435 done (Hyundai 26V728 ACU recall; Veloster 8.54 vs Kona 0.12 = 71x spread; fresh angle, no site coverage). 1/day publish gate consumed today; #843 due today, publish-eligible 2026-11-09. Proceeding to DRAFT.",
   "last_checked": "2026-11-08T08:38:30-08:00",
   "last_completed": "2026-11-08T08:38:30-08:00",
   "last_completed_date": "2026-11-08",
@@ -10,7 +15,7 @@
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-08T08:38:30-08:00",
+  "last_worker_run": "2026-11-08T10:35:00-08:00",
   "next": 1435,
   "queue": [
     {
