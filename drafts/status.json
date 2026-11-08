@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-11-07 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1429 (round-0 SHIP avg 8.71; queued 2028-06-11). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T22:50:00-08:00",
-  "last_completed": "2026-11-07T22:45:00-08:00",
+  "last_completed": "2026-11-08T00:30:00-08:00",
   "last_completed_date": "2026-11-07",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -1807,11 +1807,12 @@
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
       "number": 842,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "score": 8.8,
       "ship_date": "2026-11-07",
       "slug": "nhtsa-backlog-body-count",
-      "title": "NHTSA Is 10 Rules Behind Congress and 236 Employees Short. The Backlog Has a Body Count."
+      "title": "NHTSA Is 10 Rules Behind Congress and 236 Employees Short. The Backlog Has a Body Count.",
+      "note": "Published 2026-11-08 00:30 run: story+hero moved to stories//images/, index card + sitemap updated, hero hash 216f28ac."
     },
     {
       "blocked_reason": "Queued behind 55+ prior drafts; next publish slot after #842 (2026-10-18)",
