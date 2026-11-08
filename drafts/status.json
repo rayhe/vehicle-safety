@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1431-nhtsa-1-5-million-grant-recall-completion",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-08T02:30:00-08:00"
+  },
   "last_check_note": "2026-11-07 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1429 (round-0 SHIP avg 8.71; queued 2028-06-11). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T22:50:00-08:00",
   "last_completed": "2026-11-08T00:30:00-08:00",
@@ -10,8 +15,8 @@
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-07T22:50:00-08:00",
-  "next": 1430,
+  "last_worker_run": "2026-11-08T02:30:00-08:00",
+  "next": 1431,
   "queue": [
     {
       "journalist": "Rex Driverton",
