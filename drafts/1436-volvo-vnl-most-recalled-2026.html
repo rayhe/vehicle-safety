@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Most-Recalled 2026 Vehicle Is a Semi Truck. Yesterday's Leaderboard Had the Wrong Winner &mdash; The Crash Report</title>
+  <meta name="description" content="NHTSA's API lists 16 recalls for the 2026 Volvo VNL once you spell the model the way the agency does: 'VNL (4)'. That beats the Ford Explorer's 14 and corrects yesterday's leaderboard.">
+  <meta property="og:title" content="The Most-Recalled 2026 Vehicle Is a Semi Truck. Yesterday's Leaderboard Had the Wrong Winner">
+  <meta property="og:description" content="Sixteen NHTSA campaigns for the 2026 Volvo VNL, verified live in the agency's API. The Explorer's 14 was the wrong number one, and the difference is a parenthesis.">
+  <meta property="og:image" content="../images/1436-volvo-vnl-most-recalled-2026.jpg?v=64e75e77">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/1436-volvo-vnl-most-recalled-2026.jpg?v=64e75e77">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Most-Recalled 2026 Vehicle Is a Semi Truck. Yesterday's Leaderboard Had the Wrong Winner</h1>
+      <div class="byline">Axle McScatter &bull; Data Visualization Editor</div>
+      <div class="dateline">November 8, 2026</div>
+
+      <div class="story-body">
+      <img src="../images/1436-volvo-vnl-most-recalled-2026.jpg?v=64e75e77" alt="A white Volvo VNL semi truck tractor parked at a highway rest stop at dusk, headlights and marker lights glowing" class="story-hero">
+
+      <p>Yesterday this site published a leaderboard. Ford Explorer, 14 recalls, most-recalled 2026 vehicle in America. IC Bus school bus second at 13, Ram 1500 third at 9, clean numbers and a tidy ranking, with one footnote. That footnote said an aggregator counted 17 recalls for a Volvo VNL semi truck, but the count could not be verified in NHTSA&rsquo;s API under that make/model spelling, so the truck was excluded. Spelling was the problem, and querying the API with the model name exactly as the agency stores it, VNL (4), parenthesis and all, returns 16 campaigns. <strong>Sixteen beats fourteen.</strong> The most-recalled 2026 vehicle in America is an 80,000-pound semi truck, and yesterday&rsquo;s leaderboard ranked the wrong vehicle first because of two characters.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">16</div>
+      <div class="pull-label">NHTSA recall campaigns naming the 2026 Volvo VNL (4), verified live in the agency&rsquo;s API on November 8, 2026 &mdash; two more than the Ford Explorer&rsquo;s 14</div>
+
+      <p>Run the obvious query and the database answers with nothing. Make Volvo, model VNL, model year 2026 returns Count 0, results empty, the message cheerfully insisting the results returned successfully. Add the parenthesis, model VNL (4), and the same endpoint returns 16 campaigns, every one stamped Manufacturer: Volvo Trucks North America, Model: VNL (4). Nothing about the truck changed. Only the spelling did, and a leaderboard built on the first query ranks a vehicle that does not exist in the database under that name.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Seven of the sixteen touch the systems that keep 80,000 pounds on the road. Two steering campaigns can end in loss of steering control: loose steering arms on the knuckles (26V444, 3,794 trucks) and a dynamic-steering feature that can malfunction (25V520). Four brake campaigns cover ABS and stability control shorting out (26V260), a service brake that releases too slowly (26V186), a parking brake too weak to hold the truck (26V076), and tanker braking software that misjudges axle loads (26V619, 392 trucks). One more can drop a wheel outright: lug nuts loosening until the wheel detaches (26V350), which carries a do-not-drive designation. Five campaigns are lighting failures, marker lights, turn signals, high beams that will not dip, all FMVSS 108 violations on a truck that shares the road at night with everything else. Four more cover a door that will not open, an instrument panel that can go dark while driving, load-lock clamps that can loosen, and cab bolts that may be loose or missing on five trucks in total.<sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <p>An independent aggregator counts 17 for the same truck, one more than the API returned. One campaign probably names the VNL under a variant spelling, or the aggregator counts a filing the API files under a sibling model. Either way the ranking holds: 16 beats 14, and 17 beats 14 by more. Commercial trucks live outside the passenger-car safety apparatus in ways that matter here. Automatic emergency braking rules that cover new passenger cars do not cover these trucks. Crashes involving heavy- and medium-duty vehicles or light vans killed <strong>6,215 people in 2024, 16 percent of all American traffic deaths</strong>.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> A semi with a steering recall is not a passenger-car problem with bigger wheels.</p>
+
+      <p>Sixteen recalls is not a danger ranking, and this piece is not one either. Most of these campaigns are narrow, one option package, one build window, one supplier part, or multi-year filings that predate the 2026 truck. Every one comes with a free fix. A truck with 16 small, fixed recalls may be safer than a truck with none because nobody looked. Fleet buyers also report defects differently than consumers do, and a commercial vehicle with a small production run concentrates more campaigns per truck. The count measures scrutiny as much as quality. FARS, the dataset behind most of this site&rsquo;s work, does not break out the VNL at all. Class 8 trucks sit outside its model file, so no fatality rate for this truck exists in our numbers. What exists is the count, verified twice, and a leaderboard that needed a parenthesis to get right.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>Volvo VNL owners and fleet managers, model years 2024 through 2027: check every VIN at nhtsa.gov/recalls today. Sixteen campaigns means a new truck can carry several open items at once, including steering, brakes, and a wheel-detachment do-not-drive. If your truck is in the 26V350 wheel campaign, do not drive it until the remedy is done. Fleets running tanker-application VNLs should confirm the 26V619 braking-software fix, because that one changes stopping distance with a loaded smoothbore tanker. And anyone building a leaderboard from a government database should run the query twice: once with the spelling they expect, once with the spelling the agency uses. The database answers the question you asked. It has no obligation to answer the one you meant.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, Recalls API, <em>recallsByVehicle?make=volvo&amp;model=vnl%20(4)&amp;modelYear=2026</em>, queried live November 8, 2026. Count 16; the same query with model=vnl returns Count 0. <a href="https://api.nhtsa.gov/recalls/recallsByVehicle?make=volvo&amp;model=vnl%20(4)&amp;modelYear=2026" target="_blank" rel="noopener">api.nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, recall campaigns 26V444, 25V520, 26V260, 26V186, 26V076, 26V619, 26V350, 25V621, 25V757, 25V804, 26V208, 26V513, 25V620, 25V802, 26V184, 26V677. Campaign details via NHTSA Recalls API and trade-press reporting (Tank Transport, The Brake Report, Schmidt &amp; Clark), October&ndash;November 2026. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+          <li id="ref-3">IIHS, &ldquo;Cargo vans and work pickups struggle in IIHS crash avoidance tests,&rdquo; October 2026. 6,215 deaths in 2024 in crashes involving heavy- or medium-duty vehicles or light vans, 16% of all traffic deaths; AEB requirements for passenger cars do not apply to commercial trucks and vans. <a href="https://www.motor.com/2026/10/iihs-commercial-vehicle-crash-prevention-ratings/" target="_blank" rel="noopener">motor.com</a></li>
+          <li id="ref-4">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. Class 8 trucks are not broken out in this site&rsquo;s FARS model file (337 passenger-vehicle models); no VNL fatality rate is available from that data. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-5">The Crash Report, &ldquo;The Most-Recalled 2026 Vehicles Are an Explorer and a School Bus,&rdquo; November 8, 2026 (queued for publication). Explorer 14, IC Bus CESB 13, Ram 1500 9; Volvo VNL excluded as unverifiable under the &ldquo;VNL&rdquo; spelling. NHTSA, Recalls Database (VIN check). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Recalls API, queried live November 8, 2026; NHTSA FARS 2014&ndash;2023; IIHS commercial-vehicle ratings, October 2026. Counts are campaigns naming the model year, not vehicles affected and not confirmed defects on any individual VIN. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
