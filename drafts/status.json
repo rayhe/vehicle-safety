@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1431-nhtsa-1-5-million-grant-recall-completion",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-08T02:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1429 (round-0 SHIP avg 8.71; queued 2028-06-11). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
+  "current": null,
+  "last_check_note": "2026-11-08 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1431 (round-0 SHIP avg 8.79; queued 2028-06-13). Publish-queue: 1/day gate consumed today by #842 (published 00:30 PT); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-07T22:50:00-08:00",
-  "last_completed": "2026-11-08T00:30:00-08:00",
-  "last_completed_date": "2026-11-07",
-  "last_journalist": "Mia Crumplezone",
+  "last_completed": "2026-11-08T02:30:00-08:00",
+  "last_completed_date": "2026-11-08",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-08T02:30:00-08:00",
-  "next": 1431,
+  "next": 1432,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23709,6 +23703,45 @@
         "critic_panel": "drafts/1430-most-recalled-2026-explorer-school-bus-critic-panel-r0.md"
       },
       "note": "2026-11-08 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1430 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 0.0%, rhythm PASS var 415.2, hero JPEG 1920x1280). Original NHTSA API census as of Nov 7-8: 2026 Explorer 14 campaigns (5 engine), IC Bus CESB school bus 13 (2 parking brake + service brake), Ram 1500 9; Volvo VNL excluded as unverifiable in API. Ford 153-recall 2025 figure cited to Autoblog Oct 13, 2026. Queued 2028-06-12."
+    },
+    {
+      "number": 1431,
+      "slug": "1431-nhtsa-1-5-million-grant-recall-completion",
+      "title": "NHTSA Will Pay States $1.5 Million to Tell You About Your Recalled Car. That Is Five Cents Per Car.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-13",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "a9500027",
+        "word_count": 972,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1431-nhtsa-1-5-million-grant-recall-completion-research.md",
+        "story": "drafts/1431-nhtsa-1-5-million-grant-recall-completion.html",
+        "hero": "drafts/1431-nhtsa-1-5-million-grant-recall-completion.jpg",
+        "critic_panel": "drafts/1431-nhtsa-1-5-million-grant-recall-completion-critic-panel-r0.md"
+      },
+      "note": "2026-11-08 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1431 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 0.0%, hero JPEG 1920x1280, rhythm pass). Pre-panel rigor fix: NHTSA press release linked as ref-1 is the ORIGINAL program announcement (Chao/Owens era), not the Nov 5, 2026 announcement; lede citation moved to grants.gov NOFO + Autoblog, ref-1 relabeled, disclaimer corrected. Original math: $0.05/vehicle recalled in 2025, $0.60/repair (Maryland pilot), 2.07 recalls per affected vehicle. Queued 2028-06-13."
     }
   ]
 }
