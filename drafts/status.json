@@ -1,22 +1,17 @@
 {
-  "current": {
-    "slug": "1432-expedition-2007-cliff-deaths-fell-85-percent",
-    "phase": "DRAFT",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-08T04:30:00-08:00"
-  },
-  "last_check_note": "2026-11-08 04:30 run: RESEARCH #1432 done (Expedition 2007 cliff, 85% exposure-adjusted drop; Mia Crumplezone). Kill list verified: GM L87, 26V717/718/728/685/701/690/689/605/688/587/590/562/578, Sienna, Ranger, Nautilus, Tiguan, Ram camera, Jeep spring, FSD PE25012/EA26002, pedestrian-2024, Q1-2026 estimates, FARS extremes \u2014 all previously covered.",
+  "current": null,
+  "last_check_note": "2026-11-08 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1432 (round-0 SHIP avg 8.71; queued 2028-06-14). Publish-queue: 1/day gate consumed today (1 Publish commit already in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-07T22:50:00-08:00",
-  "last_completed": "2026-11-08T02:30:00-08:00",
+  "last_completed": "2026-11-08T04:30:00-08:00",
   "last_completed_date": "2026-11-08",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-08T02:30:00-08:00",
-  "next": 1432,
+  "last_worker_run": "2026-11-08T04:30:00-08:00",
+  "next": 1433,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23747,6 +23742,45 @@
         "critic_panel": "drafts/1431-nhtsa-1-5-million-grant-recall-completion-critic-panel-r0.md"
       },
       "note": "2026-11-08 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1431 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 0.0%, hero JPEG 1920x1280, rhythm pass). Pre-panel rigor fix: NHTSA press release linked as ref-1 is the ORIGINAL program announcement (Chao/Owens era), not the Nov 5, 2026 announcement; lede citation moved to grants.gov NOFO + Autoblog, ref-1 relabeled, disclaimer corrected. Original math: $0.05/vehicle recalled in 2025, $0.60/repair (Maryland pilot), 2.07 recalls per affected vehicle. Queued 2028-06-13."
+    },
+    {
+      "number": 1432,
+      "slug": "1432-expedition-2007-cliff-deaths-fell-85-percent",
+      "title": "Ford Redesigned the Expedition for 2007. Its Death Rate Fell 85% Overnight.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Trend Watch",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-14",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "2322fac8",
+        "word_count": 720,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1432-expedition-2007-cliff-deaths-fell-85-percent-research.md",
+        "story": "drafts/1432-expedition-2007-cliff-deaths-fell-85-percent.html",
+        "hero": "drafts/1432-expedition-2007-cliff-deaths-fell-85-percent.jpg",
+        "critic_panel": "drafts/1432-expedition-2007-cliff-deaths-fell-85-percent-critic-panel-r0.md"
+      },
+      "note": "2026-11-08 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1432 (round-0 SHIP avg 8.71; gates: em 0, banned 0, The 2.1%, hero JPEG 2048x1152, rhythm pass). Pre-panel rhythm fix: 3 short sentences merged (short 23.5% -> 12.9%). Original math: exposure-adjusted per-model-year death series, 85.3% drop at MY2007 cliff (1,284 deaths MY1997-2006 vs 228 MY2007-2021; MY2006 106 -> MY2007 29). Queued 2028-06-14."
     }
   ]
 }
