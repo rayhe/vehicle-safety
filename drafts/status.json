@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-08 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1431 (round-0 SHIP avg 8.79; queued 2028-06-13). Publish-queue: 1/day gate consumed today by #842 (published 00:30 PT); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
+  "current": {
+    "slug": "1432-expedition-2007-cliff-deaths-fell-85-percent",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-08T04:30:00-08:00"
+  },
+  "last_check_note": "2026-11-08 04:30 run: RESEARCH #1432 done (Expedition 2007 cliff, 85% exposure-adjusted drop; Mia Crumplezone). Kill list verified: GM L87, 26V717/718/728/685/701/690/689/605/688/587/590/562/578, Sienna, Ranger, Nautilus, Tiguan, Ram camera, Jeep spring, FSD PE25012/EA26002, pedestrian-2024, Q1-2026 estimates, FARS extremes \u2014 all previously covered.",
   "last_checked": "2026-11-07T22:50:00-08:00",
   "last_completed": "2026-11-08T02:30:00-08:00",
   "last_completed_date": "2026-11-08",
