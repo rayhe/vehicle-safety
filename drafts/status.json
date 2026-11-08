@@ -1,22 +1,17 @@
 {
-  "current": {
-    "slug": "1433-denton-county-deaths-up-61-percent-neighbors-fall",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-08T06:30:00-08:00"
-  },
-  "last_check_note": "2026-11-08 06:30 run: RESEARCH #1433 (Denton County deaths +61% while Tarrant/Collin fell; TxDOT CRIS Jan-Sep 2026; Axle McScatter). Publish-queue: 1/day gate already consumed today (1 Publish commit); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
-  "last_checked": "2026-11-08T06:30:00-08:00",
-  "last_completed": "2026-11-08T04:30:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-08 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1433 (round-0 SHIP avg 8.80; queued 2028-06-15). Publish-queue: 1/day gate consumed today (1 Publish commit already in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
+  "last_checked": "2026-11-08T06:39:00-08:00",
+  "last_completed": "2026-11-08T06:39:00-08:00",
   "last_completed_date": "2026-11-08",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-08T06:30:00-08:00",
-  "next": 1433,
+  "last_worker_run": "2026-11-08T06:39:00-08:00",
+  "next": 1434,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23786,6 +23781,45 @@
         "critic_panel": "drafts/1432-expedition-2007-cliff-deaths-fell-85-percent-critic-panel-r0.md"
       },
       "note": "2026-11-08 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1432 (round-0 SHIP avg 8.71; gates: em 0, banned 0, The 2.1%, hero JPEG 2048x1152, rhythm pass). Pre-panel rhythm fix: 3 short sentences merged (short 23.5% -> 12.9%). Original math: exposure-adjusted per-model-year death series, 85.3% drop at MY2007 cliff (1,284 deaths MY1997-2006 vs 228 MY2007-2021; MY2006 106 -> MY2007 29). Queued 2028-06-14."
+    },
+    {
+      "number": 1433,
+      "slug": "1433-denton-county-deaths-up-61-percent-neighbors-fall",
+      "title": "Denton County\u2019s Crashes Barely Moved. Its Deaths Jumped 61%.",
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-15",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 8.8
+      },
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "dc253f02",
+        "word_count": 755,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1433-denton-county-deaths-up-61-percent-neighbors-fall-research.md",
+        "story": "drafts/1433-denton-county-deaths-up-61-percent-neighbors-fall.html",
+        "hero": "drafts/1433-denton-county-deaths-up-61-percent-neighbors-fall.jpg",
+        "critic_panel": "drafts/1433-denton-county-deaths-up-61-percent-neighbors-fall-critic-panel-r0.md"
+      },
+      "note": "2026-11-08 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1433 (round-0 SHIP avg 8.80; gates: em 0, banned 0, The 0.0%, hero JPEG 1920x1280, rhythm pass). Pre-panel rhythm fix: 4-word fragment lengthened (short 15.2% -> 12.1%). Original math: Denton lethality 3.09 -> 4.96 deaths/1,000 crashes (+60.5%); Q1 lethality 6.32 vs Q3 4.25; non-CMV deaths 27 -> 47 (+74%); Denton +19 vs Tarrant -9 / Collin -3. Queued 2028-06-15."
     }
   ]
 }
