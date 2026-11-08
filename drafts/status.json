@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1436-volvo-vnl-most-recalled-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-08T12:40:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-08 12:40 run: RESEARCH #1436 (Volvo VNL most-recalled 2026, 16 campaigns verified in NHTSA API under model spelling 'VNL (4)'; corrects #1430 leaderboard). Publish-queue: 1/day gate consumed today (Publish #842 in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
+  "current": null,
+  "last_check_note": "2026-11-08 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1436 (round-0 SHIP avg 8.90; queued 2028-06-18). Publish-queue: 1/day gate consumed today (Publish #842 in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-08T08:38:30-08:00",
-  "last_completed": "2026-11-08T10:55:00-08:00",
+  "last_completed": "2026-11-08T13:00:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Axle McScatter",
-  "last_published": "2026-11-06T00:30:00-08:00",
-  "last_published_date": "2026-11-06",
-  "last_published_slug": "840-legalization-fatality-tax-four-percent",
+  "last_published": "2026-11-08T00:30:00-08:00",
+  "last_published_date": "2026-11-08",
+  "last_published_slug": "842-nhtsa-backlog-body-count",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-08T12:55:00-08:00",
-  "next": 1436,
+  "last_worker_run": "2026-11-08T13:00:00-08:00",
+  "next": 1437,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23890,6 +23884,31 @@
         "rhythm_variance": 320.6
       },
       "note": "2026-11-08 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1435 (round-0 SHIP avg 8.76; lowest 8.5 General/Social; gates: em 0, banned 0, The 0%, rhythm PASS). Queued 2028-06-17 (1 day after #1434)."
+    },
+    {
+      "number": 1436,
+      "slug": "1436-volvo-vnl-most-recalled-2026",
+      "title": "The Most-Recalled 2026 Vehicle Is a Semi Truck. Yesterday's Leaderboard Had the Wrong Winner",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-18",
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1436-volvo-vnl-most-recalled-2026-research.md",
+        "story": "drafts/1436-volvo-vnl-most-recalled-2026.html",
+        "hero": "drafts/1436-volvo-vnl-most-recalled-2026.jpg",
+        "critic_panel": "drafts/1436-volvo-vnl-most-recalled-2026-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.7,
+        "css_class": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 221.0
+      },
+      "note": "2026-11-08 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1436 (round-0 SHIP avg 8.90; lowest 8.8 Social/Rigor; gates: em 0, banned 0, The 5.7%, rhythm PASS var 221.0). Corrects #1430 leaderboard: 2026 Volvo VNL has 16 NHTSA campaigns verified live in API under model spelling 'VNL (4)' (model=vnl returns Count 0); beats Explorer's 14. Aggregator counts 17, one-campaign gap unresolved and disclosed. Queued 2028-06-18 (1 day after #1435)."
     }
   ]
 }
