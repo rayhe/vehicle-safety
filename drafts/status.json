@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1427-cybercab-sworn-answers-sealed",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-07T18:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 18:30 run: RESEARCH+DRAFT #1427 (Cybercab sworn answers sealed; Rex Driverton; hero JPEG 1920x1280 ?v=901c5462). Gates pre-critique: em 0, banned 0, The 2.9%, rhythm PASS (var 577.6, short 12.5%, long 41.1%), 1,343 words.",
+  "current": null,
+  "last_check_note": "2026-11-07 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1427 (round-0 SHIP avg 8.64; queued 2028-06-09). Publish-queue: 1/day gate consumed today by #841; #842 due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T14:30:00-08:00",
-  "last_completed": "2026-11-07T16:39:33-08:00",
+  "last_completed": "2026-11-07T18:45:00-08:00",
   "last_completed_date": "2026-11-07",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -16,8 +10,8 @@
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-07T18:30:00-08:00",
-  "next": 1427,
+  "last_worker_run": "2026-11-07T18:45:00-08:00",
+  "next": 1428,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23553,6 +23547,45 @@
         "critic_panel": "drafts/1426-motorcycle-blind-fmvss-127-petition-critic-panel-r0.md"
       },
       "note": "2026-11-07 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1426 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 8.6%, rhythm PASS after pre-panel fragment merges, hero JPEG 1920x1280). Oct 29 MRF filing asking NHTSA to write motorcycle detection into FMVSS 127; test-protocol cross-tab (federal test devices = lead car + pedestrian dummy only) + IIHS Rivian 0-for-6 motorcycle runs + 6,228 rider deaths 2024 / 27x per-mile rate. Killed angles this run: IIHS rear-seat Kicks/Q3/RAV4 (dup #1408/#1244/#1278/#1312), GM EV brake 26V717 (dup #1387), Thomas Built 26V702 (dup #1369), Ford tailgate 26V689 (dup #1297), Paccar fuel hose (dup #1337/#1046), Hyundai ACU 26V728 (dup #1400), FMVSS 127 delay (dup #999), Sienna 26V690 (dup #1292/#1313/#1332), ProMaster steering (dup #1104/#1148), Nautilus 26V688 (dup #1321/#1356), Mach-E BECM (dup #1037), Mercedes brake hose (dup #1136/#1158), Durango tail light (dup #1329), Ram camera 26V560 (in #1108), Ford 26V653 (dup #1333), EA26005 L87 (dup #1025/#1344/#1367), GHSA pedestrian (dup #1374), NHTSA fatality estimates (dup #1415-era), Ford recall census (dup #1131), cyan ADS lamps (dup #1308). Queued 2028-06-08."
+    },
+    {
+      "number": 1427,
+      "slug": "1427-cybercab-sworn-answers-sealed",
+      "title": "Tesla Answered NHTSA's Sworn Cybercab Questions. Then It Asked to Seal the Answers.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-09",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.64,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "901c5462",
+        "word_count": 1343,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1427-cybercab-sworn-answers-sealed-research.md",
+        "story": "drafts/1427-cybercab-sworn-answers-sealed.html",
+        "hero": "drafts/1427-cybercab-sworn-answers-sealed.jpg",
+        "critic_panel": "drafts/1427-cybercab-sworn-answers-sealed-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1427 (round-0 SHIP avg 8.64; gates: em 0, banned 0, The 2.9%, rhythm PASS var 577.6, hero JPEG 1920x1280). Pre-panel fix: Sept 3 to Oct 30 is 57 days, not 58 (corrected in lede, arithmetic para, research file). Oct 30 Tesla confidentiality filing in AQ26002 (Electrek Nov 5); docket inventory 2-of-3 empty + Zoox Part 555 contrast. Killed angles this run: pedestrian 2024 divergence 7,080/71,635 (#1155), GM 26V717 (#1387), Hyundai ACU 26V728 (#1400), GM 26V718 (#1391), Ford tailgate 26V689 (#1297), Durango 26V701 (#1329), Nautilus 26V688 (#1321/#1356), Paccar hose (#1337/#1419), Thomas Built 26V702 (#1369), Wabash 26V683 (#1370), Subaru 26V685 (#1288), Ford 26V653 (#1333), Mach-E BECM 26V582 (#752), GM L87 EA26005 (#1025/#1344/#1367), IIHS Oct 31 moderate-overlap wave (#1244/#1408), IIHS work trucks (#1417), GHSA pedestrian (#1374), FMVSS 127 motorcycle petition (#1426). Queued 2028-06-09."
     }
   ]
 }

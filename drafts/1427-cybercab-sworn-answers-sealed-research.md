@@ -32,7 +32,7 @@ On October 30, 2026, Tesla met NHTSA's extended deadline to answer a Special Ord
 
 - **2 of 3:** two of the three public filings in the AQ26002 docket are substantively empty. The public can read 0% of the compliance answer.
 - **1 page vs. 30 pages:** the cover letter is 1 page; the only readable document is the 30-page firefighter guide. The ratio of public safety-case pages to public emergency-procedure pages is 0 to 30.
-- **58 days:** September 3 (audit opened, rides began) to October 30 (answers filed) — 58 days of paying passengers riding in a car whose federal safety case the public has never seen.
+- **57 days:** September 3 (audit opened, rides began) to October 30 (answers filed) — 57 days of paying passengers riding in a car whose federal safety case the public has never seen.
 - **$139M vs. 1,000 cars:** the maximum civil penalty for incomplete answers works out to $139,000 per Cybercab in the audit population. That is the price NHTSA put on a complete answer.
 
 ## Strongest counterargument (state at full strength)
