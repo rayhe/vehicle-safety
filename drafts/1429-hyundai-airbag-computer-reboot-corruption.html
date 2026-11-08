@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Reboot Can Wipe Out Your Airbags. Hyundai Just Recalled 37,901 Cars Over It. &mdash; The Crash Report</title>
+  <meta name="description" content="Hyundai recalled 37,901 Veloster N and Kona Electric cars after finding the airbag control unit can corrupt its own memory if it reboots mid-write, silently deactivating the airbags. The fix is a free software update.">
+  <meta property="og:title" content="A Reboot Can Wipe Out Your Airbags. Hyundai Just Recalled 37,901 Cars Over It.">
+  <meta property="og:description" content="A reboot landing mid-write corrupts the airbag computer's memory and switches the whole system off. 331 incidents, zero injuries, and a two-year investigation to explain them.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1429-hyundai-airbag-computer-reboot-corruption.jpg?v=0b5abd5e">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>A Reboot Can Wipe Out Your Airbags. Hyundai Just Recalled 37,901 Cars Over It.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">November 7, 2026</div>
+
+      <img src="../images/1429-hyundai-airbag-computer-reboot-corruption.jpg?v=0b5abd5e" alt="A Hyundai Kona Electric at night with its dashboard airbag warning light glowing, viewed from the driver's seat" class="hero" loading="lazy">
+
+      <div class="story-body">
+      <p>Let us talk about what happens in the first 150 milliseconds. A crash sensor trips, the airbag control unit reads the signal, and it fires the airbags and cinches the seat belt pretensioners before your head has finished moving forward. Hyundai just recalled <strong>37,901 cars because that computer can forget how to do its one job</strong>. If a reboot or power interruption lands while the unit is writing data to its own memory, the data corrupts, the airbag light comes on, and the system switches itself off.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">331</div>
+      <div class="pull-label">Airbag warning-light incidents over seven years, with zero crashes and zero injuries in the United States</div>
+
+      <p>Two models carry the faulty unit: 8,843 Veloster N hatchbacks from model years 2019 through 2022, and 29,058 Kona Electrics from 2019 through 2023. Hyundai estimates 1% of them actually carry the defect. Run the field data yourself and you get something eerily close: 331 incidents divided by 37,901 cars is 0.87%. Seven years of warranty claims landed almost exactly on the estimate Hyundai filed with regulators, which is not how recall math usually works. Somebody at Hyundai did the arithmetic honestly.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>It took two years to explain a failure that lasts milliseconds. Hyundai's safety office opened its investigation in August 2024 after airbag warning-light warranty claims started climbing. Five recovered control units went to supplier ZF for analysis. Engineers stress-tested the electronics across an expanded voltage range, then spent a full year trying to make a car do it on purpose. ZF never reproduced the failure in a running vehicle. Not once. On the bench, though, they could induce it at will: interrupt a write, corrupt the memory, watch the unit give up. A reboot has to land inside a write window measured in milliseconds, which is why the first incident dates to October 2019 and the recall to November 2026.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Here is the part that should embarrass every engineer who has ever shipped a safety computer. The fix is the textbook answer, the one database designers learned decades ago: preserve the last known valid data if a transfer gets interrupted. Do not overwrite the good copy until the new copy is complete. Hyundai spent two years and five dead control units arriving at "keep a backup before you save." The software update is free at any dealer, warranty or no warranty, and owners who already paid for a repair qualify for reimbursement. VINs became searchable on November 6, and certified letters go out by January 1, 2027.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Now the strongest case against everything above: nobody has been hurt. Zero crashes, zero fires, zero injuries across seven years, in a recall where roughly 1% of cars carry the defect and the dashboard warns you before the system goes dark. That is also why this recall is easy to ignore. An airbag light is one more dashboard nuisance, the kind owners promise to mention at the next oil change and then forget. A deactivated airbag system is invisible until the exact millisecond it matters. Caveats, stated plainly: the 331 incidents come from warranty and field claims, not a census, so the real count is probably higher; the root cause was induced on a bench, never observed in a running car; and the 1% estimate is Hyundai's own number, not independently audited. What to do: if you own a 2019-2022 Veloster N or a 2019-2023 Kona Electric, check your VIN at nhtsa.gov/recalls now instead of waiting for the January letter. If your airbag light is on, call a dealer this week. The update is free. Your airbags should not depend on a computer finishing its homework.</p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, Part 573 Safety Recall Report 26V728 (Hyundai Motor America, filed November 2, 2026). <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V728-4779.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">BizzyCar, "November 2026 Hyundai Recall for Airbag Control Unit Data Corruption, Affecting 37,901 Vehicles," November 6, 2026. <a href="https://www.bizzycar.com/blog/november-2026-hyundai-recall-for-airbag-control-unit-data-corruption-affecting-37901-vehicles" target="_blank" rel="noopener">bizzycar.com</a></li>
+          <li id="ref-3">Vehicle Service Pros, "NHTSA Recalls Nov. 2-6: GM, Hyundai, Subaru, Dodge," November 2026. <a href="https://www.vehicleservicepros.com/industry-news/service-repair/article/55417032/nhtsa-recalls-nov-26-gm-hyundai-subaru-dodge" target="_blank" rel="noopener">vehicleservicepros.com</a></li>
+          <li id="ref-4">NHTSA recalls database (VIN lookup). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Part 573 Safety Recall Report 26V728, filed November 2, 2026. Incident counts are Hyundai warranty and field claims, not a census; the defect was reproduced on the bench, not in a running vehicle. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

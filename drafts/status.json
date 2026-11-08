@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1429-hyundai-airbag-computer-reboot-corruption",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-07T22:30:00-08:00"
+    "started": "2026-11-07T22:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-07 22:30 run: RESEARCH #1429 (Hyundai ACU reboot corruption, 26V728, 37,901 cars) -> DRAFT.",
+  "last_check_note": "2026-11-07 22:30 run: DRAFT #1429 complete (582 words, hero JPEG 1920x1280 ?v=0b5abd5e, gates pre-checked: em 0, banned 0, The 6.2%, rhythm PASS) -> CRITIQUE round 0.",
   "last_checked": "2026-11-07T22:30:00-08:00",
   "last_completed": "2026-11-07T20:45:00-08:00",
   "last_completed_date": "2026-11-07",
