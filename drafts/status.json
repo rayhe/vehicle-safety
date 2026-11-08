@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1434-dallas-county-deaths-flat-212-denton-surges-61",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-08T08:45:00-08:00"
+  },
   "last_check_note": "2026-11-08 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1433 (round-0 SHIP avg 8.80; queued 2028-06-15). Publish-queue: 1/day gate consumed today (1 Publish commit already in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-08T06:39:00-08:00",
   "last_completed": "2026-11-08T06:39:00-08:00",
