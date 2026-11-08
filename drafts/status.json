@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1429-hyundai-airbag-computer-reboot-corruption",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-07T22:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-07 22:30 run: DRAFT #1429 complete (582 words, hero JPEG 1920x1280 ?v=0b5abd5e, gates pre-checked: em 0, banned 0, The 6.2%, rhythm PASS) -> CRITIQUE round 0.",
-  "last_checked": "2026-11-07T22:30:00-08:00",
-  "last_completed": "2026-11-07T20:45:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-07 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1429 (round-0 SHIP avg 8.71; queued 2028-06-11). Publish-queue: checking 1/day gate next.",
+  "last_checked": "2026-11-07T22:45:00-08:00",
+  "last_completed": "2026-11-07T22:45:00-08:00",
   "last_completed_date": "2026-11-07",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-06T00:30:00-08:00",
   "last_published_date": "2026-11-06",
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-07T18:45:00-08:00",
-  "next": 1429,
+  "last_worker_run": "2026-11-07T22:45:00-08:00",
+  "next": 1430,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23631,6 +23625,44 @@
         "hero": "drafts/1428-tundra-zero-deaths-safest-pickup.jpg",
         "critic_panel": "drafts/1428-critic-panel-r0.md"
       }
+    },
+    {
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1429-hyundai-airbag-computer-reboot-corruption-critic-panel-r0.md",
+        "hero": "drafts/1429-hyundai-airbag-computer-reboot-corruption.jpg",
+        "research": "drafts/1429-hyundai-airbag-computer-reboot-corruption-research.md",
+        "story": "drafts/1429-hyundai-airbag-computer-reboot-corruption.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "0b5abd5e",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 6.1,
+        "word_count": 607
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-11-07 22:30 run: Round-0 panel VERDICT: SHIP (avg 8.71). Pre-panel rigor fix: 0.87% observed-incident rate vs 1% latent-defect estimate now distinguished in text. Queued 2028-06-11.",
+      "number": 1429,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-06-11",
+      "slug": "1429-hyundai-airbag-computer-reboot-corruption",
+      "title": "A Reboot Can Wipe Out Your Airbags. Hyundai Just Recalled 37,901 Cars Over It."
     }
   ]
 }
