@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1430-most-recalled-2026-explorer-school-bus",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-08T00:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-07 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1429 (round-0 SHIP avg 8.71; queued 2028-06-11). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T22:50:00-08:00",
   "last_completed": "2026-11-08T00:30:00-08:00",
@@ -23670,6 +23664,45 @@
       "ship_date": "2028-06-11",
       "slug": "1429-hyundai-airbag-computer-reboot-corruption",
       "title": "A Reboot Can Wipe Out Your Airbags. Hyundai Just Recalled 37,901 Cars Over It."
+    },
+    {
+      "number": 1430,
+      "slug": "1430-most-recalled-2026-explorer-school-bus",
+      "title": "The Most-Recalled 2026 Vehicle Is a Ford Explorer. The Runner-Up Carries Your Kids to School.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-12",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "bd18bf51",
+        "word_count": 844,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1430-most-recalled-2026-explorer-school-bus-research.md",
+        "story": "drafts/1430-most-recalled-2026-explorer-school-bus.html",
+        "hero": "drafts/1430-most-recalled-2026-explorer-school-bus.jpg",
+        "critic_panel": "drafts/1430-most-recalled-2026-explorer-school-bus-critic-panel-r0.md"
+      },
+      "note": "2026-11-08 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1430 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 0.0%, rhythm PASS var 415.2, hero JPEG 1920x1280). Original NHTSA API census as of Nov 7-8: 2026 Explorer 14 campaigns (5 engine), IC Bus CESB school bus 13 (2 parking brake + service brake), Ram 1500 9; Volvo VNL excluded as unverifiable in API. Ford 153-recall 2025 figure cited to Autoblog Oct 13, 2026. Queued 2028-06-12."
     }
   ]
 }
