@@ -10,7 +10,7 @@
   "last_published_slug": "842-nhtsa-backlog-body-count",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-08T13:00:00-08:00",
+  "last_worker_run": "2026-11-08T14:30:00-08:00",
   "next": 1437,
   "queue": [
     {
@@ -23909,6 +23909,31 @@
         "rhythm_variance": 221.0
       },
       "note": "2026-11-08 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1436 (round-0 SHIP avg 8.90; lowest 8.8 Social/Rigor; gates: em 0, banned 0, The 5.7%, rhythm PASS var 221.0). Corrects #1430 leaderboard: 2026 Volvo VNL has 16 NHTSA campaigns verified live in API under model spelling 'VNL (4)' (model=vnl returns Count 0); beats Explorer's 14. Aggregator counts 17, one-campaign gap unresolved and disclosed. Queued 2028-06-18 (1 day after #1435)."
+    },
+    {
+      "number": 1437,
+      "slug": "1437-bexar-county-less-lethal-dui-quarter",
+      "title": "Bexar County Crashed More Than Dallas and Killed Fewer. Drunk Driving Was One in Four.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-19",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1437-bexar-county-less-lethal-dui-quarter-research.md",
+        "story": "drafts/1437-bexar-county-less-lethal-dui-quarter.html",
+        "hero": "drafts/1437-bexar-county-less-lethal-dui-quarter.jpg",
+        "critic_panel": "drafts/1437-bexar-county-less-lethal-dui-quarter-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 1098.9
+      },
+      "note": "2026-11-08 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1437 (round-0 SHIP avg 8.84; lowest 8.6 Social; gates: em 0, banned 0, The 0.0%, rhythm PASS var 1098.9). Novel: six-county lethality table (Bexar 4.06 vs Texas 6.99 per 1,000 crashes), DUI 7.0x over-representation (3.5% of crashes, 24.2% of deaths), Poisson discipline on the -25 death swing, Vision Zero 65%-on-3.8%-of-streets stat. Zero queue overlap (bexar/san-antonio/orsatti all CLEAR). Killed angles this run: Cummins L9 hose cascade (covered #1046/#1337/#1373/#1419), Nautilus 26V688 (#1321), GM L87 EA26005 Nov 13 deadline (#1367/#1344), IIHS Kicks/Q3/RAV4 (#1408), 2025 traffic deaths (#1299 + published story), GHSA pedestrian (#1374). Queued 2028-06-19 (1 day after #1436)."
     }
   ]
 }
