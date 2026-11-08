@@ -23595,15 +23595,36 @@
       "phase": "SHIP_BLOCKED",
       "ship_date": "2028-06-10",
       "scores": {
-        "General": 8.5,
-        "Voice": 9.0,
-        "Ethics": 9.0,
-        "Social": 8.5,
-        "Legal": 8.5,
-        "Rigor": 8.5,
-        "Data Presentation": 8.5
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
       },
-      "note": "Round 0 passed all 7 critics at 8.5+; hard gates clean (0 em dashes, 4.4% The-starters, hero JPEG 1920x1280). Walner Law Nov 2 2026 report + independent FARS cross-check: zero driver deaths (IIHS) and zero crash deaths (FARS MY2022-23) for the Tundra vs 30 F-150 / 39 Ram 1500 / 23 Silverado / 17 Tacoma in the same window."
+      "note": "2026-11-07 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1428 (round-0 SHIP avg 8.64; gates: em 0, banned 0, The 4.4%, hero JPEG 1920x1280). Walner Law Nov 2 2026 safest-best-seller report + independent FARS cross-check: zero driver deaths (IIHS) and zero crash deaths (FARS MY2022-23) for the Tundra vs 30 F-150 / 39 Ram 1500 / 23 Silverado / 17 Tacoma in the same window; 2026 Tundra crew cab only gasoline full-size pickup with an IIHS award. Killed angles this run: GM 26V717 EV brake software (#1387), Hyundai ACU 26V728 (#1400), Ford tailgate 26V689 (#1297), Paccar/Kenworth fuel hose (#1337/#1419), Thomas Built FMVSS 221 (#1369), GM L87 EA26005 Nov 13 deadline (#1025/#1344/#1367), IIHS Oct 31 moderate-overlap wave Kicks/Q3/RAV4 (#1408), NHTSA 2025 estimates 36,640 (#1299), Tesla safest-carmaker correction (#1412), 2024 final FARS 39,254 (#below-forty-thousand-victory-lap). Queued 2028-06-10.",
+      "kicker": "The Gap",
+      "avg_critic": 8.64,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "26c6af55",
+        "word_count": 863,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1428-tundra-zero-deaths-safest-pickup-research.md",
+        "story": "drafts/1428-tundra-zero-deaths-safest-pickup.html",
+        "hero": "drafts/1428-tundra-zero-deaths-safest-pickup.jpg",
+        "critic_panel": "drafts/1428-critic-panel-r0.md"
+      }
     }
   ]
 }
