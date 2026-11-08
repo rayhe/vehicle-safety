@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-11-07 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1425 (round-0 SHIP avg 8.79; queued 2028-06-07). Publish-queue: 1/day gate consumed today by #841 (2bcbc720); #842 nhtsa-backlog-body-count due 2026-11-07, hero-ready, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T14:30:00-08:00",
-  "last_completed": "2026-11-07T14:30:00-08:00",
+  "last_completed": "2026-11-07T16:39:33-08:00",
   "last_completed_date": "2026-11-07",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -23508,6 +23508,45 @@
         "critic_panel": "drafts/1425-santa-fe-top-safety-pick-asterisk-critic-panel-r0.md"
       },
       "note": "2026-11-07 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1425 (round-0 SHIP avg 8.79; queued 2028-06-07). First dedicated Santa Fe article in 1,424 entries; IIHS TSP+ build-date asterisk (Nov 2024 rear-belt revision) + FARS 555 deaths / 0.39 rate cross-tab + NHTSA 4-star vs IIHS TSP+ tension. Known weaknesses (non-blocking): 981 words, peer comparison inline not tabulated."
+    },
+    {
+      "number": 1426,
+      "slug": "1426-motorcycle-blind-fmvss-127-petition",
+      "title": "The Federal Brake Test Has Never Seen a Motorcycle. Riders Just Filed to Change That.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-08",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "f5195ca0",
+        "word_count": 1296,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1426-motorcycle-blind-fmvss-127-petition-research.md",
+        "story": "drafts/1426-motorcycle-blind-fmvss-127-petition.html",
+        "hero": "drafts/1426-motorcycle-blind-fmvss-127-petition.jpg",
+        "critic_panel": "drafts/1426-motorcycle-blind-fmvss-127-petition-critic-panel-r0.md"
+      },
+      "note": "2026-11-07 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1426 (round-0 SHIP avg 8.79; gates: em 0, banned 0, The 8.6%, rhythm PASS after pre-panel fragment merges, hero JPEG 1920x1280). Oct 29 MRF filing asking NHTSA to write motorcycle detection into FMVSS 127; test-protocol cross-tab (federal test devices = lead car + pedestrian dummy only) + IIHS Rivian 0-for-6 motorcycle runs + 6,228 rider deaths 2024 / 27x per-mile rate. Killed angles this run: IIHS rear-seat Kicks/Q3/RAV4 (dup #1408/#1244/#1278/#1312), GM EV brake 26V717 (dup #1387), Thomas Built 26V702 (dup #1369), Ford tailgate 26V689 (dup #1297), Paccar fuel hose (dup #1337/#1046), Hyundai ACU 26V728 (dup #1400), FMVSS 127 delay (dup #999), Sienna 26V690 (dup #1292/#1313/#1332), ProMaster steering (dup #1104/#1148), Nautilus 26V688 (dup #1321/#1356), Mach-E BECM (dup #1037), Mercedes brake hose (dup #1136/#1158), Durango tail light (dup #1329), Ram camera 26V560 (in #1108), Ford 26V653 (dup #1333), EA26005 L87 (dup #1025/#1344/#1367), GHSA pedestrian (dup #1374), NHTSA fatality estimates (dup #1415-era), Ford recall census (dup #1131), cyan ADS lamps (dup #1308). Queued 2028-06-08."
     }
   ]
 }
