@@ -2,7 +2,7 @@
   "current": null,
   "last_check_note": "2026-11-07 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1427 (round-0 SHIP avg 8.64; queued 2028-06-09). Publish-queue: 1/day gate consumed today by #841; #842 due 2026-11-07, publish-eligible 2026-11-08. No publish this run.",
   "last_checked": "2026-11-07T14:30:00-08:00",
-  "last_completed": "2026-11-07T18:45:00-08:00",
+  "last_completed": "2026-11-07T20:45:00-08:00",
   "last_completed_date": "2026-11-07",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-06T00:30:00-08:00",
@@ -11,7 +11,7 @@
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-07T18:45:00-08:00",
-  "next": 1428,
+  "next": 1429,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23586,6 +23586,24 @@
         "critic_panel": "drafts/1427-cybercab-sworn-answers-sealed-critic-panel-r0.md"
       },
       "note": "2026-11-07 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1427 (round-0 SHIP avg 8.64; gates: em 0, banned 0, The 2.9%, rhythm PASS var 577.6, hero JPEG 1920x1280). Pre-panel fix: Sept 3 to Oct 30 is 57 days, not 58 (corrected in lede, arithmetic para, research file). Oct 30 Tesla confidentiality filing in AQ26002 (Electrek Nov 5); docket inventory 2-of-3 empty + Zoox Part 555 contrast. Killed angles this run: pedestrian 2024 divergence 7,080/71,635 (#1155), GM 26V717 (#1387), Hyundai ACU 26V728 (#1400), GM 26V718 (#1391), Ford tailgate 26V689 (#1297), Durango 26V701 (#1329), Nautilus 26V688 (#1321/#1356), Paccar hose (#1337/#1419), Thomas Built 26V702 (#1369), Wabash 26V683 (#1370), Subaru 26V685 (#1288), Ford 26V653 (#1333), Mach-E BECM 26V582 (#752), GM L87 EA26005 (#1025/#1344/#1367), IIHS Oct 31 moderate-overlap wave (#1244/#1408), IIHS work trucks (#1417), GHSA pedestrian (#1374), FMVSS 127 motorcycle petition (#1426). Queued 2028-06-09."
+    },
+    {
+      "number": 1428,
+      "slug": "1428-tundra-zero-deaths-safest-pickup",
+      "title": "Nobody Died in a 2022 or 2023 Toyota Tundra. The Same Cannot Be Said for the F-150.",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-10",
+      "scores": {
+        "General": 8.5,
+        "Voice": 9.0,
+        "Ethics": 9.0,
+        "Social": 8.5,
+        "Legal": 8.5,
+        "Rigor": 8.5,
+        "Data Presentation": 8.5
+      },
+      "note": "Round 0 passed all 7 critics at 8.5+; hard gates clean (0 em dashes, 4.4% The-starters, hero JPEG 1920x1280). Walner Law Nov 2 2026 report + independent FARS cross-check: zero driver deaths (IIHS) and zero crash deaths (FARS MY2022-23) for the Tundra vs 30 F-150 / 39 Ram 1500 / 23 Silverado / 17 Tacoma in the same window."
     }
   ]
 }
