@@ -1,7 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-08 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1432 (round-0 SHIP avg 8.71; queued 2028-06-14). Publish-queue: 1/day gate consumed today (1 Publish commit already in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
-  "last_checked": "2026-11-07T22:50:00-08:00",
+  "current": {
+    "slug": "1433-denton-county-deaths-up-61-percent-neighbors-fall",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-08T06:30:00-08:00"
+  },
+  "last_check_note": "2026-11-08 06:30 run: RESEARCH #1433 (Denton County deaths +61% while Tarrant/Collin fell; TxDOT CRIS Jan-Sep 2026; Axle McScatter). Publish-queue: 1/day gate already consumed today (1 Publish commit); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
+  "last_checked": "2026-11-08T06:30:00-08:00",
   "last_completed": "2026-11-08T04:30:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Mia Crumplezone",
@@ -10,7 +15,7 @@
   "last_published_slug": "840-legalization-fatality-tax-four-percent",
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
-  "last_worker_run": "2026-11-08T04:30:00-08:00",
+  "last_worker_run": "2026-11-08T06:30:00-08:00",
   "next": 1433,
   "queue": [
     {
