@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-09 08:30 run CORRECTION: #1446 was a DUPLICATE of #1288 (same NHTSA 26V685, same Clara Rollover thesis, same 8-car Do Not Drive angle, queued 2028-01-21). Duplicate screen failed: the 26V685 grep ran backgrounded and its result was misread from poll deltas as empty; full log later showed #1288 matches. Recovery per #1351 precedent: git rm 4 draft files, queue entry removed, next reset 1447->1446. Publish-queue: 1/day gate consumed today by #843; #844 due, publish-eligible 2026-11-10.",
+  "current": {
+    "slug": "1448-speeding-compound-offender-2024",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-11-09T14:30:00-08:00"
+  },
+  "last_check_note": "2026-11-09 14:30 run RESEARCH #1448: NHTSA Speeding: 2024 Data (DOT HS 813 823) \u2014 the speeding driver as compound offender (37% drunk, 27% unlicensed, 50% unbelted) + pandemic ratchet (+17.7% vs 2019) + Vermont/Florida 4.9x state spread. Duplicate screen: Nov 2-6 recall week fully exhausted (26V700/717/718/728/685/690/701, PE26008, EA26005); FARS lethality/tox extremes mined (#1446, #868, #1241). FLAG for hygiene run: #1435 and #1444 both appear to cover Hyundai 26V728 \u2014 possible duplicate pair, verify before removal. Pre-existing queue number duplicates 1149/1188/1314. next was stale at 1446 (max 1447); corrected to 1449.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
   "last_completed_date": "2026-11-09",
@@ -10,8 +15,8 @@
   "last_published_slug": "843-recall-defect-spread-half-percent-vs-100",
   "last_qa_date": "2026-11-09",
   "last_qa_note": "QA pass #843: story 200 live (12,500 bytes), hero image/jpeg 200 (397,724 bytes, ?v=9a74f9c6), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-09, dateline September 8, 2026 (draft date retained per #837 precedent). First QA attempt 404s: deploy lag ~5 min after push, re-check passed.",
-  "last_worker_run": "2026-11-09T08:30:00-08:00",
-  "next": 1446,
+  "last_worker_run": "2026-11-09T14:30:00-08:00",
+  "next": 1449,
   "queue": [
     {
       "journalist": "Rex Driverton",
