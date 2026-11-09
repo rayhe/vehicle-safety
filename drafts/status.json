@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1440-half-the-robot-crashes-are-parked",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-08T20:30:00-08:00"
+    "started": "2026-11-08T20:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-08 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1439 (round-0 SHIP avg 8.87; queued 2028-06-21). Publish-queue: 1/day gate consumed today (Publish #842 in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
