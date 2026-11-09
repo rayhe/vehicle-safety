@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1439-harris-county-517-deaths-safest-crash",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-08T18:35:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-08 18:30 run: RESEARCH+DRAFT #1439 (Harris County 517 deaths, safest per crash; Axle McScatter). Hard gates pre-check: em 0, banned 0, The 0.0%, css ok, rhythm PASS var 3642.3. Hero JPEG 1920x1280 ?v=e38d55c5.",
-  "last_checked": "2026-11-08T18:45:00-08:00",
-  "last_completed": "2026-11-08T13:00:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-08 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1439 (round-0 SHIP avg 8.87; queued 2028-06-21). Publish-queue: 1/day gate consumed today (Publish #842 in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
+  "last_checked": "2026-11-08T18:55:00-08:00",
+  "last_completed": "2026-11-08T18:55:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-08T00:30:00-08:00",
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-06",
   "last_qa_note": "QA pass #840: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (493,749 bytes, ?v=7f7370a8), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-06, dateline September 7, 2026 (draft date retained per #837 precedent).",
   "last_worker_run": "2026-11-08T18:30:00-08:00",
-  "next": 1439,
+  "next": 1440,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -23965,6 +23959,31 @@
         "rhythm_variance": 391.5
       },
       "note": "2026-11-08 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1438 (round-0 SHIP avg 8.80; lowest 8.6 Data; gates: em 0, banned 0, The 6.2%, rhythm PASS var 391.5). Novel: NTSB HWY26MH022 Mack LR633 garbage truck vs bridge column, Fort Worth; 4.6x pier-strike lethality computed from FHWA Texas table (8.8% vs 1.9%); garbage-truck cell 48 ROR / 0 pier strikes; embankment-behind-barrier mechanism. Queued 2028-06-20 (1 day after #1437)."
+    },
+    {
+      "number": 1439,
+      "slug": "1439-harris-county-517-deaths-safest-crash",
+      "title": "Harris County Killed 517 People Last Year. Per Crash, It Was One of the Safest Places in Texas to Wreck.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-21",
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1439-harris-county-517-deaths-safest-crash-research.md",
+        "story": "drafts/1439-harris-county-517-deaths-safest-crash.html",
+        "hero": "drafts/1439-harris-county-517-deaths-safest-crash.jpg",
+        "critic_panel": "drafts/1439-harris-county-517-deaths-safest-crash-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 3517.6
+      },
+      "note": "2026-11-08 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1439 (round-0 SHIP avg 8.87; lowest 8.7 Voice; gates: em 0, banned 0, The 0.0%, rhythm PASS var 3517.6). Novel: volume-vs-severity decomposition (Harris 20.1% of TX crashes, 13.6% of deaths; inverse of rural TX 22%/45%), Harris > Dallas+Bexar combined (517 vs 475), Polk 5.9x lethality, 9.6x high-speed-rural vs low-speed-urban. Edition drift disclosed: April tables put Harris at 4.68/1,000 vs 4.15 here; Houston city deaths 293/300/304 across three cuts. Zero queue overlap (harris/houston CLEAR). Queued 2028-06-21 (1 day after #1438)."
     }
   ]
 }
