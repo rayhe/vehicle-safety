@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1448-speeding-compound-offender-2024",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
-    "started": "2026-11-09T14:30:00-08:00"
+    "started": "2026-11-09T14:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-09 14:30 run RESEARCH #1448: NHTSA Speeding: 2024 Data (DOT HS 813 823) \u2014 the speeding driver as compound offender (37% drunk, 27% unlicensed, 50% unbelted) + pandemic ratchet (+17.7% vs 2019) + Vermont/Florida 4.9x state spread. Duplicate screen: Nov 2-6 recall week fully exhausted (26V700/717/718/728/685/690/701, PE26008, EA26005); FARS lethality/tox extremes mined (#1446, #868, #1241). FLAG for hygiene run: #1435 and #1444 both appear to cover Hyundai 26V728 \u2014 possible duplicate pair, verify before removal. Pre-existing queue number duplicates 1149/1188/1314. next was stale at 1446 (max 1447); corrected to 1449.",
   "last_checked": "2026-11-08T18:55:00-08:00",
