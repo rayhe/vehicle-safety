@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hyundai's Airbag Computer Can Corrupt Itself. 37,901 Cars Are Driving Around With It. &mdash; The Crash Report</title>
+  <meta name="description" content="A software error in the airbag control unit of 37,901 Hyundai Kona Electrics and Veloster Ns can corrupt the unit's memory mid-write, silently deactivating the airbags and seat belt pretensioners. Hyundai logged 331 incidents over seven years.">
+  <meta property="og:title" content="Hyundai's Airbag Computer Can Corrupt Itself. 37,901 Cars Are Driving Around With It.">
+  <meta property="og:description" content="The airbag control unit in 37,901 Hyundais can corrupt its own memory during a routine write, switching off the airbags and the seat belt pretensioners. Hyundai logged 331 incidents. The first was in October 2019.">
+  <meta property="og:image" content="../images/1444-hyundai-airbag-computer-corrupts-itself.jpg?v=bad282c2">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/1444-hyundai-airbag-computer-corrupts-itself.jpg?v=bad282c2">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Hyundai's Airbag Computer Can Corrupt Itself. 37,901 Cars Are Driving Around With It.</h1>
+      <div class="byline">Mia Crumplezone &bull; Safety Engineering Editor</div>
+      <div class="dateline">November 9, 2026</div>
+
+      <div class="story-body">
+      <img src="../images/1444-hyundai-airbag-computer-corrupts-itself.jpg?v=bad282c2" alt="A modern compact electric SUV parked in a dim suburban driveway at dusk, an amber airbag warning light glowing on the dashboard through the windshield" class="story-hero">
+
+      <p>Somewhere inside 37,901 Hyundais sits a computer with exactly one job: decide, in milliseconds, whether to fire the airbags.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That computer can corrupt its own memory during a routine write, and when it does, the airbags and the seat belt pretensioners switch off together. Hyundai has logged <strong>331 incidents</strong>, the first dating to October 2019, and the recall arrived November 2, 2026.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">331</div>
+      <div class="pull-label">Airbag malfunction incidents Hyundai logged between October 2019 and September 2026, with zero crashes, zero fires, and zero injuries so far. (NHTSA Part 573 Report 26V728)</div>
+
+      <p>Meet the airbag control unit, or ACU. It reads the crash sensors and tells the airbags and the pretensioners when to fire, which makes it the single most safety-critical computer in the car, and also, apparently, the one nobody thought to protect from itself. Supplier ZF Group built the units in these cars. If the ACU reboots or loses power while writing data to its own memory, the write lands corrupted, the malfunction light comes on, and the whole airbag system deactivates. ZF could reproduce the corruption on a test bench but not in a vehicle, which means the exact real-world trigger is still partly uncharacterized in the public filing.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <p>Now the timeline, because the timeline is the story. First incident: October 3, 2019, within a year of the first cars shipping. Then nothing visible for years, until August 2024, when Hyundai noticed airbag-warning-light warranty claims climbing. Another two years passed before September 18, 2026, when Hyundai's parent company warned that other vehicle applications might carry the same ACU driver software and the review widened. On October 22, the North America Safety Decision Authority approved the recall, the filing landed at NHTSA on November 2, and VINs went searchable November 6. Owner letters go out January 1, 2027, which is 56 days after owners could have found out for themselves.<sup class="ref-link"><a href="#ref-5">[5]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
+
+      <p>Run the numbers Hyundai filed and the picture sharpens. 331 incidents across 37,901 cars is 0.87 percent of the fleet, while Hyundai estimates 1 percent of the fleet, about 379 cars, actually carries the defect, so roughly 87 percent of the cars that can fail have already failed at least once in a way somebody noticed. That is not a defect hiding in the dark. It announces itself with a dashboard light, and the count is nearly exhausted, which raises the obvious question of how many owners saw that light, shrugged, and kept driving a car with no airbags. Meanwhile the split tells its own story: 29,058 Kona Electrics, 76.7 percent of the recall, and 8,843 Veloster Ns.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>FARS adds an odd footnote, handled carefully. Across the whole Veloster nameplate, every trim and every year, the fatality rate runs 8.54 deaths per 100 million miles, one of the highest in the dataset. Across the whole Kona nameplate it runs 0.12, one of the lowest. Those rows cover entire nameplates, not the recalled Veloster N and Kona Electric specifically, so they prove nothing about these two cars, and anyone who tells you otherwise is selling something. What they do show is how little a nameplate average says about the specific car in your driveway.<sup class="ref-link"><a href="#ref-7">[7]</a></sup></p>
+
+      <p>Fairness requires the other side, stated at full strength. 331 incidents produced zero crashes, zero fires, and zero injuries. The defect announces itself with a light, and a driver who treats that light as an order rather than a suggestion is never exposed. This recall was filed on the strength of a failure mode, not a body count, which is how the system is supposed to work and how rarely it does. None of that changes the design judgment at the center of it: a safety-critical memory write with no atomicity, no rollback, and no redundancy, in a box whose entire purpose is to work exactly once, in a crash, years after it was built.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>If you drive a 2019 to 2022 Veloster N or a 2019 to 2023 Kona Electric, check your VIN at nhtsa.gov/recalls today, not when the letter arrives on January 1. If the airbag light is on, treat it as the defect, not a sensor glitch, and book the dealer visit before your next long drive. The fix is a free software update, Hyundai recall 311, NHTSA campaign 26V728, and Hyundai customer service is 1-855-371-9460. If you drive a different Hyundai, keep watching the scope, because Hyundai widened this review in September on the suspicion that the same driver software lives in other models.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, Part 573 Safety Recall Report 26V728, Hyundai Motor America, submitted Nov 2, 2026 (defect description: ACU data corruption during routine memory write; airbag malfunction indicator illuminates and airbag system deactivates; 37,901 units: 8,843 Veloster N 2019&ndash;2022, 29,058 Kona Electric 2019&ndash;2023; ZF Group supplier; ACU part numbers 95910-K4100, 95910-K9100, 95910-K9150; estimated 1% with defect; 331 unique incidents Oct 3, 2019&ndash;Sep 24, 2026; NASDA decision Oct 22, 2026; scope widening Sep 18, 2026; no crashes, fires, or injuries in the U.S.; both models no longer in production). <a href="https://driveteslacanada.ca/wp-content/uploads/2026/11/RCLRPT-26V728-4779.pdf" target="_blank" rel="noopener">driveteslacanada.ca (mirror of NHTSA filing)</a></li>
+          <li id="ref-2">NHTSA recalls database, campaign 26V728000 (VINs searchable Nov 6, 2026; owner notification letters expected Jan 1, 2027; remedy: free ACU software update at dealers; Hyundai customer service 1-855-371-9460, recall 311). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Electrek, &ldquo;Hyundai is recalling nearly 30,000 Kona EVs due to airbag defect,&rdquo; Nov 5, 2026 (ZF could not reproduce the fault on a vehicle but could induce it on the bench; data corruption during system reboot or power interruption while writing to ACU memory). <a href="https://electrek.co/2026/11/05/hyundai-recalling-nearly-30000-kona-evs-airbag-defect/" target="_blank" rel="noopener">electrek.co</a></li>
+          <li id="ref-4">Autoblog, &ldquo;Hyundai Recalls Nearly 38,000 Cars as Airbags May Not Deploy in a Crash,&rdquo; Nov 6, 2026 (37,901 vehicles; free dealer software update; owner letters Jan 1, 2027; Hyundai customer service 1-855-371-9460, recall 311). <a href="https://www.autoblog.com/news/hyundai-recalls-nearly-38000-cars-as-airbags-may-not-deploy-in-a-crash" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-5">BizzyCar, &ldquo;November 2026 Hyundai Recall for Airbag Control Unit Data Corruption, Affecting 37,901 Vehicles,&rdquo; Nov 2026 (chronology: warranty-claims increase Aug 2024; scope widening Sep 18, 2026; NASDA approval Oct 22, 2026; 331 incidents Oct 3, 2019&ndash;Sep 24, 2026; VINs Nov 6, 2026; letters Jan 1, 2027). <a href="https://www.bizzycar.com/blog/november-2026-hyundai-recall-for-airbag-control-unit-data-corruption-affecting-37901-vehicles" target="_blank" rel="noopener">bizzycar.com</a></li>
+          <li id="ref-6">The Cool Down (citing Car and Driver), &ldquo;Software glitch could stop airbags from deploying in nearly 38,000 Hyundai vehicles,&rdquo; Nov 8, 2026 (warranty-claims increase identified Aug 2024; 331 reports since 2019; no crashes, fires, or injuries; letters Jan 1, 2027). <a href="https://www.thecooldown.com/green-tech/hyundai-airbag-software-recall-kona-veloster/" target="_blank" rel="noopener">thecooldown.com</a></li>
+          <li id="ref-7">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023 (Hyundai Veloster nameplate: 598 deaths, 884 crashes, rate 8.54 deaths/100M VMT; Hyundai Kona nameplate: 73 deaths, 136 crashes, rate 0.12/100M VMT; nameplate-level rows covering all trims, not recalled-trim-specific). <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Part 573 Safety Recall Report 26V728 (Hyundai Motor America, Nov 2, 2026); NHTSA recalls database; Electrek, Autoblog, BizzyCar, and Car and Driver coverage Nov 5&ndash;8, 2026; NHTSA FARS 2014&ndash;2023. <strong>Limitations:</strong> the 331 incidents are allegations reported to Hyundai, not all confirmed ACU corruptions, and the filing does not break out confirmed vs. reported counts; the 1% defect estimate is Hyundai's own. The "no crashes, fires, or injuries" statement covers the U.S. market only. ZF could reproduce the fault on a bench but not on a vehicle, so the exact real-world trigger conditions remain partly uncharacterized in the public filing. FARS Veloster/Kona rates are nameplate-level (all trims, all powertrains) and are not findings about the recalled Veloster N or Kona Electric specifically. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
