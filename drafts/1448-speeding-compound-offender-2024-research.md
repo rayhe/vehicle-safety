@@ -32,7 +32,7 @@
 2. **The decade:** speeding deaths rose 16% from 9,723 in 2015 to 11,288 in 2024. Share of the toll rose from 27% (2015) to 29% (2024).
 
 ### The compound offender (the article's core)
-3. **Drunk:** 37% of speeding drivers in fatal crashes had BAC .08+ vs 17% of non-speeding drivers. 25% were at BAC .15+ (more than twice the legal limit in most states) vs 11%.
+3. **Drunk:** 37% of speeding drivers in fatal crashes had BAC .08+ vs 17% of non-speeding drivers. 25% were at BAC .15+ (nearly twice the .08 legal limit in most states) vs 11%.
 4. **Unlicensed:** 27% of speeding drivers in fatal crashes had no valid license at the time vs 14% of non-speeding drivers.
 5. **Unbelted:** 50% of speeding passenger-vehicle drivers were unrestrained vs 21% of non-speeding drivers (known restraint use).
 6. **Repeaters:** speeding drivers in fatal crashes were more likely than non-speeders to have previously recorded crashes, license suspensions or revocations, and/or speeding or DWI convictions in the prior 5 years (fact sheet Figure 2; exact percentages not cleanly extractable from the PDF text layer — cite qualitatively only).
