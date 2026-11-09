@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1442-tarrant-county-safest-resident-deadliest-crash",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-09T00:30:00-08:00"
+    "started": "2026-11-09T00:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-09 00:30 run: Published #843 + QA pass. RESEARCH #1442 done (Tarrant County split-brain: 2nd-safest per capita 8.56/100k, 2nd-deadliest per crash 6.11/1,000; 2026 deaths -6% while crashes/injuries rise). Proceeding to DRAFT.",
+  "last_check_note": "2026-11-09 00:30 run: Published #843 + QA pass. RESEARCH #1442 done. DRAFT #1442 done (hero JPEG 1920x1280 ?v=64df5db4; hard gates pre-check: em 0, banned 0, The 0.0%, css ok, rhythm PASS var 4394.5). Proceeding to CRITIQUE.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T00:30:00-08:00",
   "last_completed_date": "2026-11-08",
