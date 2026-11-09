@@ -1,12 +1,13 @@
 {
   "current": {
     "slug": "1439-harris-county-517-deaths-safest-crash",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-08T18:35:00-08:00"
+    "started": "2026-11-08T18:35:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-08 18:30 run: RESEARCH #1439 (Harris County 517 deaths, safest per crash; Axle McScatter). Note: status.json 'next' was stale at 1437 despite #1437/#1438 already queued; corrected to 1439. Publish gate already consumed today (Publish #842); #843 due 2026-11-08, publish-eligible 2026-11-09.",
-  "last_checked": "2026-11-08T18:35:00-08:00",
+  "last_check_note": "2026-11-08 18:30 run: RESEARCH+DRAFT #1439 (Harris County 517 deaths, safest per crash; Axle McScatter). Hard gates pre-check: em 0, banned 0, The 0.0%, css ok, rhythm PASS var 3642.3. Hero JPEG 1920x1280 ?v=e38d55c5.",
+  "last_checked": "2026-11-08T18:45:00-08:00",
   "last_completed": "2026-11-08T13:00:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Axle McScatter",
