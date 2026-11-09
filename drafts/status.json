@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1445-waymo-recall-query-fix-failed",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-09T06:30:00-08:00"
+  },
   "last_check_note": "2026-11-09 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1444 (round-0 SHIP avg 8.84; queued 2028-06-26). Publish-queue: 1/day gate consumed today by #843; #844 due 2026-11-09, publish-eligible 2026-11-10. No further publish this run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T04:30:00-08:00",
