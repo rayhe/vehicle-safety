@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1443-tacoma-bus-corning-deliberate-crossover",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-09T02:30:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-09 00:30 run: Published #843 + QA pass. RESEARCH+DRAFT+CRITIQUE+SHIP #1442 (round-0 SHIP avg 8.80; queued 2028-06-24). Publish-queue: 1/day gate consumed today by #843; #844 due 2026-11-09, publish-eligible 2026-11-10. No further publish this run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
-  "last_completed": "2026-11-09T00:30:00-08:00",
+  "last_completed": "2026-11-09T02:30:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-09T00:30:00-08:00",
@@ -16,7 +11,7 @@
   "last_qa_date": "2026-11-09",
   "last_qa_note": "QA pass #843: story 200 live (12,500 bytes), hero image/jpeg 200 (397,724 bytes, ?v=9a74f9c6), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-09, dateline September 8, 2026 (draft date retained per #837 precedent). First QA attempt 404s: deploy lag ~5 min after push, re-check passed.",
   "last_worker_run": "2026-11-09T02:30:00-08:00",
-  "next": 1443,
+  "next": 1444,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24083,6 +24078,35 @@
         "rhythm": "pass (variance 4394.5, short 12.5%, long 57.5%)"
       },
       "note": "2026-11-09 00:30 run: Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Split-brain county: 2nd-safest per capita (8.56/100k) but 2nd-deadliest per crash (6.11/1,000); only Big Six county with ranks 4 places apart. 2026 decoupling: deaths -6% Jan-Sep while crashes +0.8%, injuries +3.7%; CMV deaths 13 to 18. Pre-panel fix: counterargument opener replaced (verbatim echo of #1441)."
+    },
+    {
+      "number": 1443,
+      "slug": "1443-tacoma-bus-corning-deliberate-crossover",
+      "title": "The Sheriff Says She Crossed the Line on Purpose. The Lab Says She Was High. The Bus Burned Anyway.",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-25",
+      "score": 8.84,
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "kicker": "Investigation",
+      "created": "2026-11-09",
+      "files": {
+        "research": "drafts/1443-tacoma-bus-corning-deliberate-crossover-research.md",
+        "draft": "drafts/1443-tacoma-bus-corning-deliberate-crossover.html",
+        "hero": "drafts/1443-tacoma-bus-corning-deliberate-crossover.jpg",
+        "critic_panel": "drafts/1443-tacoma-bus-corning-deliberate-crossover-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.5,
+        "css_class": true,
+        "hero_jpeg": true,
+        "hero_hash": "d99ddfe5",
+        "rhythm": "pass (variance 3039.1, short 11.1%, long 37.0%)"
+      },
+      "note": "2026-11-09 02:30 run: Round-0 pass 8.84 avg; 7/7 critics >= 8.5. NTSB HWY26MH006 Corning: sheriff Oct 6, 2026 says deliberate crossover, deaths reclassified homicide/suicide; pickup driver meth 3,103 ng/mL (60x medicinal, above recreational ceiling) vs family belief of 16 years sober; bus fire killed passengers (100% TBSA burns all five), sole survivor out in 84 seconds; bus driver looking back at sleeping passenger, bus had no ADAS; Tacoma 0.80 rate paradox. Pre-panel fix: 7 fragments merged, rhythm short% 22.6% -> 11.1%."
     }
   ]
 }
