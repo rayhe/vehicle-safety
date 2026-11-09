@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1445-waymo-recall-query-fix-failed",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-09T06:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-09 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1444 (round-0 SHIP avg 8.84; queued 2028-06-26). Publish-queue: 1/day gate consumed today by #843; #844 due 2026-11-09, publish-eligible 2026-11-10. No further publish this run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
-  "last_completed": "2026-11-09T04:30:00-08:00",
+  "last_completed": "2026-11-09T06:45:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-09T00:30:00-08:00",
@@ -24157,6 +24151,51 @@
         "critic_panel": "drafts/1444-hyundai-airbag-computer-corrupts-itself-critic-panel-r0.md"
       },
       "note": "2026-11-09 04:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.84, round 0). Hyundai ACU recall 26V728 (37,901 Kona Electric/Veloster N, filed Nov 2, 2026); original math: 331 incidents = 0.87% of fleet vs 1% defect estimate (~87% of defective population already surfaced), 7y19d first-incident-to-recall lag, 56-day notification gap (VINs Nov 6, letters Jan 1, 2027). Duplicate-screen: GM 26V717 brake recall (#1387), RAV4/Q3/Kicks IIHS moderate-overlap (#1408), GM Express/Savana recall-of-recall (#1391), Ford tailgate (#1297) all killed as already covered. Gates: em 0, banned 0, The-starters 5.7%, rhythm PASS, hero JPEG 1920x1280 ?v=bad282c2. Queued SHIP_BLOCKED 2028-06-26 (1 day after #1443 2028-06-25)."
+    },
+    {
+      "number": 1445,
+      "slug": "1445-waymo-recall-query-fix-failed",
+      "title": "Waymo's School Bus Fix Lasted 354 Days. Now 94% of the 'Fixed' Fleet Is Under Federal Review Again.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-27",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "4ec4e46f",
+        "sentence_rhythm": {
+          "variance": 3902.6,
+          "short_pct": 13.6,
+          "long_pct": 52.3,
+          "passed": true
+        },
+        "word_count": 748
+      },
+      "files": {
+        "research": "drafts/1445-waymo-recall-query-fix-failed-research.md",
+        "story": "drafts/1445-waymo-recall-query-fix-failed.html",
+        "hero": "drafts/1445-waymo-recall-query-fix-failed.jpg",
+        "critic_panel": "drafts/1445-waymo-recall-query-fix-failed-critic-panel-r0.md"
+      },
+      "created": "2026-11-09",
+      "note": "2026-11-09 06:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.86, round 0). NHTSA recall query opened Nov 6, 2026 (disclosed Nov 9) into 2,895 Waymo 5th-gen ADS vehicles over school-bus passes; most incidents after Nov 17, 2025 remedy date for recall 25E084 (3,067 vehicles). Original math: 94.4% of recalled fleet back under review, 354 days fix-to-query, 3 federal actions in 385 days. Duplicate-screen: #1177 covered saga through Oct 2026 probe; RQ is a new action type with new agency framing. Pre-panel fix: Oct probe re-cited to Startup Fortune; counterargument verified with Swiss Re 25M-mile study (88%/92% fewer claims) + STN Mar 2026 per-vehicle flip (1-in-4 vs 1-in-263, 65x). Gates: em 0, banned 0, The-starters 7.0%, rhythm PASS, hero JPEG 1920x1280 ?v=4ec4e46f. Queued SHIP_BLOCKED 2028-06-27 (1 day after #1444 2028-06-26)."
     }
   ]
 }

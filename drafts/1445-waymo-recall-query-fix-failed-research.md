@@ -55,3 +55,7 @@ Waymo's aggregate safety record is genuinely strong — peer-reviewed studies an
 - If your kid's district uses stop-arm cameras: violations are prosecuted against the vehicle owner. For robotaxis, that enforcement is still being worked out — the Austin ISD citations went to Waymo, not a driver, because there is no driver.
 - General rule: a "recall completed" headline is not a fix verified. Ask whether violations continued after the software update, and whether the regulator ever closed the file. In this case, it didn't — it opened a new one.
 - For buyers of the robotaxi safety pitch: six software recalls since February 2024, three in eight months. The fleet is software-defined, which means the defect and the fix both ship over the air — and so does the next defect.
+
+## Pre-panel fixes (2026-11-09, before critique)
+- October 2026 probe sentence re-cited to Startup Fortune (ref-9).
+- Counterargument verified and strengthened: Swiss Re 25.3M-mile study (88% fewer property-damage claims, 92% fewer bodily-injury claims) and STN March 2026 (8,000 human passes mid-Aug to Feb 10; 25 Waymo passes; per-vehicle 1-in-4 vs 1-in-263, 65x rate). The per-vehicle flip cuts against the thesis and is included anyway.
