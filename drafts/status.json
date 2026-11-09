@@ -1,12 +1,6 @@
 {
-  "current": {
-    "slug": "1442-tarrant-county-safest-resident-deadliest-crash",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-09T00:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-09 00:30 run: Published #843 + QA pass. RESEARCH #1442 done. DRAFT #1442 done (hero JPEG 1920x1280 ?v=64df5db4; hard gates pre-check: em 0, banned 0, The 0.0%, css ok, rhythm PASS var 4394.5). Proceeding to CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-09 00:30 run: Published #843 + QA pass. RESEARCH+DRAFT+CRITIQUE+SHIP #1442 (round-0 SHIP avg 8.80; queued 2028-06-24). Publish-queue: 1/day gate consumed today by #843; #844 due 2026-11-09, publish-eligible 2026-11-10. No further publish this run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T00:30:00-08:00",
   "last_completed_date": "2026-11-08",
@@ -24055,6 +24049,35 @@
         "actionable_insights": true
       },
       "note": "2026-11-08 22:30 run: round-0 SHIP avg 8.86 (7/7 critics >= 8.5). County series #5, last unexamined Big Six county; Travis #1 per capita (10.71/100K) and #1 per crash (8.53 fatal crashes/1,000, 1.92x Harris). Two factual errors caught and fixed pre-panel: raw-death rank 4th->5th (Tarrant 191 > Travis 146) and one-sixth fraction replaced with exact counts. Queued 2028-06-23."
+    },
+    {
+      "number": 1442,
+      "slug": "1442-tarrant-county-safest-resident-deadliest-crash",
+      "title": "Tarrant County Is the Second-Safest Big County in Texas to Live In. It Is the Second-Deadliest to Crash In.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-24",
+      "score": 8.8,
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "kicker": "The Gap",
+      "created": "2026-11-09",
+      "files": {
+        "research": "drafts/1442-tarrant-county-safest-resident-deadliest-crash-research.md",
+        "draft": "drafts/1442-tarrant-county-safest-resident-deadliest-crash.html",
+        "hero": "drafts/1442-tarrant-county-safest-resident-deadliest-crash.jpg",
+        "critic_panel": "drafts/1442-tarrant-county-safest-resident-deadliest-crash-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "hero_jpeg": true,
+        "hero_hash": "64df5db4",
+        "rhythm": "pass (variance 4394.5, short 12.5%, long 57.5%)"
+      },
+      "note": "2026-11-09 00:30 run: Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Split-brain county: 2nd-safest per capita (8.56/100k) but 2nd-deadliest per crash (6.11/1,000); only Big Six county with ranks 4 places apart. 2026 decoupling: deaths -6% Jan-Sep while crashes +0.8%, injuries +3.7%; CMV deaths 13 to 18. Pre-panel fix: counterargument opener replaced (verbatim echo of #1441)."
     }
   ]
 }
