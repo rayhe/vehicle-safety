@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1438-mack-garbage-truck-bridge-column-fort-worth",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-08T16:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-08 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1436 (round-0 SHIP avg 8.90; queued 2028-06-18). Publish-queue: 1/day gate consumed today (Publish #842 in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-08T08:38:30-08:00",
   "last_completed": "2026-11-08T13:00:00-08:00",
