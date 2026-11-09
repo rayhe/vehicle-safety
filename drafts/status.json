@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1440-half-the-robot-crashes-are-parked",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-08T20:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-08 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1439 (round-0 SHIP avg 8.87; queued 2028-06-21). Publish-queue: 1/day gate consumed today (Publish #842 in git log); #843 due 2026-11-08, publish-eligible 2026-11-09. No publish this run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
-  "last_completed": "2026-11-08T18:55:00-08:00",
+  "last_completed": "2026-11-08T20:30:00-08:00",
   "last_completed_date": "2026-11-08",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-08T00:30:00-08:00",
@@ -23990,6 +23984,31 @@
         "rhythm_variance": 3517.6
       },
       "note": "2026-11-08 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1439 (round-0 SHIP avg 8.87; lowest 8.7 Voice; gates: em 0, banned 0, The 0.0%, rhythm PASS var 3517.6). Novel: volume-vs-severity decomposition (Harris 20.1% of TX crashes, 13.6% of deaths; inverse of rural TX 22%/45%), Harris > Dallas+Bexar combined (517 vs 475), Polk 5.9x lethality, 9.6x high-speed-rural vs low-speed-urban. Edition drift disclosed: April tables put Harris at 4.68/1,000 vs 4.15 here; Houston city deaths 293/300/304 across three cuts. Zero queue overlap (harris/houston CLEAR). Queued 2028-06-21 (1 day after #1438)."
+    },
+    {
+      "number": 1440,
+      "slug": "1440-half-the-robot-crashes-are-parked",
+      "title": "NHTSA's Robotaxi Crash Database Just Set a Record. Half the Cars in It Were Parked.",
+      "journalist": "Axle McScatter",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-22",
+      "avg_critic": 8.94,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1440-half-the-robot-crashes-are-parked-research.md",
+        "story": "drafts/1440-half-the-robot-crashes-are-parked.html",
+        "hero": "drafts/1440-half-the-robot-crashes-are-parked.jpg",
+        "critic_panel": "drafts/1440-half-the-robot-crashes-are-parked-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "rhythm_pass": true,
+        "rhythm_variance": 1141.1
+      },
+      "note": "2026-11-08 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1440 (round-0 SHIP avg 8.94; lowest 8.8 Social/Legal; gates: em 0, banned 0, The 0.0%, rhythm PASS var 1141.1). Novel: stopped/parked decomposition of Sept 15, 2026 SGO release (50.4% stopped/parked, 51.0% at 0 mph, 75.8% under 10 mph, 1.3% at 45+ mph); count-vs-rate inversion (Waymo LA count 3.2x up, rate 8.5x down, 57 to below 6 per million miles); both fatal cases had ADS vehicle as bystander at 5-8 mph; March 2026 record month 145 (Reyes) vs 144 (ConsumerShield) disclosed. Zero queue overlap (standing-general-order/crash-count/rate-vs-count/delta-v CLEAR). Queued 2028-06-22 (1 day after #1439)."
     }
   ]
 }
