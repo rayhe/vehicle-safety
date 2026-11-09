@@ -11,7 +11,7 @@
   "last_qa_date": "2026-11-09",
   "last_qa_note": "QA pass #843: story 200 live (12,500 bytes), hero image/jpeg 200 (397,724 bytes, ?v=9a74f9c6), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-09, dateline September 8, 2026 (draft date retained per #837 precedent). First QA attempt 404s: deploy lag ~5 min after push, re-check passed.",
   "last_worker_run": "2026-11-09T00:30:00-08:00",
-  "next": 1442,
+  "next": 1443,
   "queue": [
     {
       "journalist": "Rex Driverton",
