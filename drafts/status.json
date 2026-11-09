@@ -1,17 +1,17 @@
 {
   "current": null,
-  "last_check_note": "2026-11-09 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1446 (round-0 SHIP avg 8.87; queued 2028-06-28). Publish-queue: 1/day gate consumed today by #843; #844 due 2026-11-09, publish-eligible 2026-11-10. No further publish this run.",
+  "last_check_note": "2026-11-09 08:30 run CORRECTION: #1446 was a DUPLICATE of #1288 (same NHTSA 26V685, same Clara Rollover thesis, same 8-car Do Not Drive angle, queued 2028-01-21). Duplicate screen failed: the 26V685 grep ran backgrounded and its result was misread from poll deltas as empty; full log later showed #1288 matches. Recovery per #1351 precedent: git rm 4 draft files, queue entry removed, next reset 1447->1446. Publish-queue: 1/day gate consumed today by #843; #844 due, publish-eligible 2026-11-10.",
   "last_checked": "2026-11-08T18:55:00-08:00",
-  "last_completed": "2026-11-09T08:30:00-08:00",
+  "last_completed": "2026-11-09T06:45:00-08:00",
   "last_completed_date": "2026-11-09",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-09T00:30:00-08:00",
   "last_published_date": "2026-11-09",
   "last_published_slug": "843-recall-defect-spread-half-percent-vs-100",
   "last_qa_date": "2026-11-09",
   "last_qa_note": "QA pass #843: story 200 live (12,500 bytes), hero image/jpeg 200 (397,724 bytes, ?v=9a74f9c6), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-09, dateline September 8, 2026 (draft date retained per #837 precedent). First QA attempt 404s: deploy lag ~5 min after push, re-check passed.",
   "last_worker_run": "2026-11-09T08:30:00-08:00",
-  "next": 1447,
+  "next": 1446,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24196,51 +24196,6 @@
       },
       "created": "2026-11-09",
       "note": "2026-11-09 06:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.86, round 0). NHTSA recall query opened Nov 6, 2026 (disclosed Nov 9) into 2,895 Waymo 5th-gen ADS vehicles over school-bus passes; most incidents after Nov 17, 2025 remedy date for recall 25E084 (3,067 vehicles). Original math: 94.4% of recalled fleet back under review, 354 days fix-to-query, 3 federal actions in 385 days. Duplicate-screen: #1177 covered saga through Oct 2026 probe; RQ is a new action type with new agency framing. Pre-panel fix: Oct probe re-cited to Startup Fortune; counterargument verified with Swiss Re 25M-mile study (88%/92% fewer claims) + STN Mar 2026 per-vehicle flip (1-in-4 vs 1-in-263, 65x). Gates: em 0, banned 0, The-starters 7.0%, rhythm PASS, hero JPEG 1920x1280 ?v=4ec4e46f. Queued SHIP_BLOCKED 2028-06-27 (1 day after #1444 2028-06-26)."
-    },
-    {
-      "number": 1446,
-      "slug": "1446-subaru-eight-car-do-not-drive-recall",
-      "title": "Subaru Recalled Eight Cars and Told Them Not to Drive. That's the Whole Recall.",
-      "journalist": "Clara Rollover",
-      "phase": "SHIP_BLOCKED",
-      "ship_date": "2028-06-28",
-      "critique_round": 0,
-      "avg_critic": 8.87,
-      "scores": {
-        "general_editor": 8.8,
-        "voice_coach": 9.0,
-        "ethics_reviewer": 8.8,
-        "social_shareability": 8.7,
-        "legal_accuracy": 9.0,
-        "research_rigor": 9.0,
-        "data_presentation": 8.8
-      },
-      "hard_gates": {
-        "em_dashes": 0,
-        "banned_phrases": 0,
-        "the_starters_pct": 0.0,
-        "css_class": true,
-        "style_css": true,
-        "hero_jpeg": true,
-        "hero_dim": "1920x1280",
-        "hero_hash": "ed86ba50",
-        "sentence_rhythm": {
-          "variance": 4232.5,
-          "short_pct": 13.5,
-          "long_pct": 48.6,
-          "passed": true
-        },
-        "word_count": 584
-      },
-      "files": {
-        "research": "drafts/1446-subaru-eight-car-do-not-drive-recall-research.md",
-        "story": "drafts/1446-subaru-eight-car-do-not-drive-recall.html",
-        "hero": "drafts/1446-subaru-eight-car-do-not-drive-recall.jpg",
-        "critic_panel": "drafts/1446-subaru-eight-car-do-not-drive-recall-critic-panel-r0.md"
-      },
-      "kicker": "By The Numbers",
-      "created": "2026-11-09",
-      "note": "2026-11-09 08:30 run: Round-0 pass 8.87 avg; 7/7 critics >= 8.5. NHTSA 26V685: 8 vehicles (4 Crosstrek Aug 4-6 + 4 Forester Aug 5-13, 2026), castle nut on left-front lower control arm ball joint, Do Not Drive advisory; trigger single field report Sept 15, 2026; supplier TOA (USA) Mooresville IN, part 20202FN03A; decision Oct 10, filing Oct 19, owner letters Dec 16. Original: 8,422x ratio vs GM 26V717 (67,380) same week; 58-day letter gap. Pre-panel fixes: rhythm 15.8% short merged to 13.5%, 2 literal em dashes removed. Also fixed stale next (1445->1447): 06:45 run shipped #1445 without bumping."
     }
   ]
 }
