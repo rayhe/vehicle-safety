@@ -1,10 +1,5 @@
 {
-  "current": {
-    "slug": "1446-cheap-sedans-kill-their-drivers",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-09T10:30:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-09 08:30 run CORRECTION: #1446 was a DUPLICATE of #1288 (same NHTSA 26V685, same Clara Rollover thesis, same 8-car Do Not Drive angle, queued 2028-01-21). Duplicate screen failed: the 26V685 grep ran backgrounded and its result was misread from poll deltas as empty; full log later showed #1288 matches. Recovery per #1351 precedent: git rm 4 draft files, queue entry removed, next reset 1447->1446. Publish-queue: 1/day gate consumed today by #843; #844 due, publish-eligible 2026-11-10.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
@@ -24201,6 +24196,51 @@
       },
       "created": "2026-11-09",
       "note": "2026-11-09 06:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.86, round 0). NHTSA recall query opened Nov 6, 2026 (disclosed Nov 9) into 2,895 Waymo 5th-gen ADS vehicles over school-bus passes; most incidents after Nov 17, 2025 remedy date for recall 25E084 (3,067 vehicles). Original math: 94.4% of recalled fleet back under review, 354 days fix-to-query, 3 federal actions in 385 days. Duplicate-screen: #1177 covered saga through Oct 2026 probe; RQ is a new action type with new agency framing. Pre-panel fix: Oct probe re-cited to Startup Fortune; counterargument verified with Swiss Re 25M-mile study (88%/92% fewer claims) + STN Mar 2026 per-vehicle flip (1-in-4 vs 1-in-263, 65x). Gates: em 0, banned 0, The-starters 7.0%, rhythm PASS, hero JPEG 1920x1280 ?v=4ec4e46f. Queued SHIP_BLOCKED 2028-06-27 (1 day after #1444 2028-06-26)."
+    },
+    {
+      "number": 1446,
+      "slug": "1446-cheap-sedans-kill-their-drivers",
+      "title": "When a Cavalier Crashes, Somebody Inside Dies. When a Ram 2500 Crashes, Somebody Else Does.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-06-28",
+      "critique_round": 0,
+      "avg_critic": 8.8,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "fefb9ba9",
+        "sentence_rhythm": {
+          "variance": 747.9,
+          "short_pct": 13.3,
+          "long_pct": 46.7,
+          "passed": true
+        },
+        "word_count": 977
+      },
+      "files": {
+        "research": "drafts/1446-cheap-sedans-kill-their-drivers-research.md",
+        "story": "drafts/1446-cheap-sedans-kill-their-drivers.html",
+        "hero": "drafts/1446-cheap-sedans-kill-their-drivers.jpg",
+        "critic_panel": "drafts/1446-cheap-sedans-kill-their-drivers-critic-panel-r0.md"
+      },
+      "created": "2026-11-09",
+      "note": "2026-11-09 10:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). Model-level deaths-per-fatal-crash ranking from NHTSA FARS 2014-2023 (191,193 deaths / 336,202 involvements, 337 models): Cavalier 0.857 vs Ram 2500 0.205 (4.19x); 12 of top 15 are discontinued sedans; paradox pair Grand Am rate 1.18 / lethality 0.774 vs Land Cruiser rate 6.27 / lethality 0.347; corroborated by IIHS July 30, 2026 driver death rates (Kia Rio 170 driver, Ram 3500 204 other-driver). Duplicate-screen: GM 26V717 already #1387, 26V718 already #1391, Hyundai 26V728 already #1444, Waymo RQ26006 already #1445, Subaru 26V685 already #1288; impairment/sober rankings already covered. Pre-panel fixes: rhythm FAIL (short 33.3%) fixed by merging fragment lists (now 13.3%); pull stat corrected 4.18x to 4.19x from raw counts. Gates: em 0, banned 0, The-starters 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=fefb9ba9. Queued SHIP_BLOCKED 2028-06-28 (1 day after #1445 2028-06-27)."
     }
   ]
 }
