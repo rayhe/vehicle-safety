@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1446-cheap-sedans-kill-their-drivers",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-09T10:30:00-08:00"
+  },
   "last_check_note": "2026-11-09 08:30 run CORRECTION: #1446 was a DUPLICATE of #1288 (same NHTSA 26V685, same Clara Rollover thesis, same 8-car Do Not Drive angle, queued 2028-01-21). Duplicate screen failed: the 26V685 grep ran backgrounded and its result was misread from poll deltas as empty; full log later showed #1288 matches. Recovery per #1351 precedent: git rm 4 draft files, queue entry removed, next reset 1447->1446. Publish-queue: 1/day gate consumed today by #843; #844 due, publish-eligible 2026-11-10.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
