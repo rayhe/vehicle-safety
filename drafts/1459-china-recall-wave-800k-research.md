@@ -1,0 +1,58 @@
+# Research: #1459 — China recalled 800,000 cars in one day. The same steering bolt is already under recall in America.
+
+**Slug:** 1459-china-recall-wave-800k
+**Journalist:** Clara Rollover (Consumer Safety Advocate — car-buying guidance and "what this means for you" are her beat; this story is a buyer's checklist disguised as a recall roundup: build-date ranges, a 72-day wait for the fix, and an export blind spot that leaves used cars uncovered)
+**Kicker:** The Gap
+**Started:** 2026-11-10
+
+## Proposed angle
+On November 4, 2026, China's market regulator (SAMR) published a group of recall notices covering **more than 800,000 vehicles in a single day**, per a Cailianshe tally. The headline number is not the story. The story is the gap between a recall notice and a repaired car. The largest campaign, FAW-Volkswagen S2026M0141V, covers **388,258 domestic Audi Q3s** (built June 20, 2018 to September 15, 2025) whose right-side subframe-to-steering-gear bolt can corrode until it breaks, restricting steering. The free remedy — an improved bolt — **does not begin until January 15, 2027**, 72 days after the notice. Until then the affected cars drive with a known steering defect and no official fix available. And the same bolt is already under a US recall: NHTSA campaign **26V590** covers the identical subframe-to-steering-gear bolt on 2018-2019 Volkswagen Atlas, 2018 Tiguan, and 2019-2021 Audi Q3 vehicles. Same defect, two countries, two timelines — and for a used car exported out of China, possibly no remedy at all, because a China-market campaign does not travel with the car. The article's original contribution is the remedy-gap arithmetic (72 days, 388,258 cars, one bolt), the US/China parallel on the identical part, and the export blind spot: a China recall is filed for vehicles sold in China, and the Chinese dealer network has no obligation to perform the work abroad.
+
+## Challenge (kill test)
+Is this genuinely new after 1,450 articles? PASS, four ways. (1) Fresh: the SAMR notices are dated November 4, 2026, reported November 5; no article on this site has touched them. (2) Not a duplicate: full filename grep for `china-recall|samr|800k` returns zero drafts; the queue's China entries (#836 door mega-recall, #837 Tesla Model Y, #880 door-handle sticker, #1286 smart-car recall machine, #1364 BMW DSCI) are different campaigns and different angles. The nearest US coverage is #1042 (VW steering bolt, 4-million scale, Dieselgate-era framing) and #1390 (Q3 recall surge) — neither covers the November 4 wave, the 72-day remedy delay, or the export gap. (3) Novel angle: nobody on this site has compared a Chinese and an American recall of the identical part side by side, or quantified the notice-to-remedy gap as the story. (4) Newsworthy: 800,000+ vehicles in one day, a steering defect, and a remedy that starts two months after the notice — plus a pattern the source flags explicitly: Chinese regulators are opening more campaigns after investigations rather than waiting for manufacturers to volunteer them (the Prado/GX550h fuel-line campaigns followed a SAMR investigation).
+
+## Killed angles (do not resurrect)
+- **Waymo school-bus recall query RQ26006 (Nov 6, 2026):** covered by #1445. Dead.
+- **Ford Explorer side-airbag burn probe PE26008 (Nov 6, 2026, 1,236,155 vehicles):** covered by #1447. Dead.
+- **Honda power-steering failsafe recall (635,808 TLX/MDX/Pilot, Nov 10, 2026):** covered by #1457. Dead.
+- **Hyundai Veloster N / Kona Electric airbag recall 26V728 (37,901):** covered by #1400 and #1435. Dead.
+- **GM L87 6.2L V8 engineering analysis EA26005 (Nov 13 deadline, 997,743 vehicles):** covered by #1025, #1344, #1367, #864. Dead.
+- **GM EV brake software recall 26V717 (67,380 Lyriq/Blazer EV/Celestiq/Vistiq):** covered by #1387. Dead.
+- **GM Express/Savana steering-nut recall 26V718 (12,715):** covered by #1391. Dead.
+- **Dodge Durango tail-light recall 26V701 (13,330):** covered by #1329. Dead.
+- **Toyota Sienna seat-back recall 26V690 (228,367):** covered by #1332. Dead.
+- **Toyota Land Cruiser fuel-tube recall 26V673 (105,794):** covered by #1204. Dead.
+- **VW steering bolt 26V590 (US parallel):** covered by #1042 as a standalone US story. This article uses it only as the cross-border parallel, not the lead.
+- **IIHS Oct 31 updated moderate overlap round (RAV4 PHEV Marginal, Audi Q3 Poor, Trailblazer Poor, Kicks Good):** covered by #1392, #1244, #1408. Dead.
+- **GHSA 2025 pedestrian preliminary data (6,732 deaths, down 7%):** covered by the site's 2025 traffic-deaths article and #1456 (Memphis). Dead as a lead.
+- **Mack MD Electric hill-start recall 26V719 (151 units):** 151 vehicles is too thin for a full article. Dead.
+
+## The numbers (primary sources)
+1. **SAMR recall notices, November 4, 2026 (primary source, via SinoAutoCars, Nov 5, 2026):** a group of notices published the same day; Cailianshe tally puts the combined scope above **800,000 vehicles**. FAW-Volkswagen S2026M0141V: **388,258** domestic Audi Q3s, built June 20, 2018 to September 15, 2025. FAW-Volkswagen S2026M0140V and related filings: imported Golf and 途威 22,036; 途昂, 途昂X, 威然 and Audi Q6 combined 170,739; 揽境 29,264. Volkswagen Group filings total about **610,000** vehicles per Chinese automotive press. FAW Toyota (Chengdu) S2026M0133I: **47,347** Prado hybrids, built July 15, 2024 to October 6, 2026. Toyota Motor (China) S2026M0134I: **8,130** imported Lexus GX550h hybrids, built February 28, 2024 to October 1, 2026. GAC Toyota: **100,175** bZ3X electric SUVs; **21,085** bZ7 electric sedans. Toyota's four campaigns total **176,737**. MINI, Lotus and Jeep also named.
+2. **The Audi Q3 defect (SAMR notice S2026M0141V, via SinoAutoCars):** a right-side bolt fixing the subframe to the steering gear; water and road salt can corrode the bolt until it breaks. If it breaks, the right-hand connection between steering gear and subframe is lost and steering becomes restricted. Remedy: free replacement with an improved bolt. Owners advised to stop driving if they hear abnormal metal knocking from the front axle or notice unusual steering behaviour. **The recall begins January 15, 2027.**
+3. **The Toyota fuel-line defect (SAMR notices S2026M0133I/S2026M0134I, via SinoAutoCars):** a retainer on a fuel-pipe quick connector can be lifted by external force; in an extreme case the fuel pipe can come loose and leak. Remedy: free inspection, addition of a retaining cover plate, and replacement of the fuel pipe assembly if anything is abnormal. The Prado and GX550h campaigns were opened **after SAMR started a defect investigation**, not as voluntary filings. The bZ3X defect is a front stabiliser-link nut whose design did not account for loosening. The bZ7 campaigns cover a Comfort Stop software calibration and a camera over-the-air update that could cause unintended steering-wheel movement.
+4. **US parallel — NHTSA campaign 26V590:** the same subframe-to-steering-gear bolt on 2018-2019 Volkswagen Atlas, 2018 Tiguan, and 2019-2021 Audi Q3 vehicles. Source: NHTSA recalls database, cited in the SinoAutoCars piece. The US Q3 range (2019-2021) is much narrower than the China Q3 range (2018-2025).
+5. **The pattern (SinoAutoCars, Nov 5, 2026):** the November 4 notices fit a pattern visible all year — Chinese regulators pushing safety campaigns harder, with more campaigns opened after investigations rather than volunteered by manufacturers.
+
+## Original calculations (for the article)
+- **VW Group share of the wave:** about 610,000 of more than 800,000 = **roughly 76%** of the day's total. Label as approximate; the 800,000 figure is a media tally, not an official SAMR total.
+- **The Q3's share:** 388,258 is **about 48% of the whole wave** and **about 64% of Volkswagen Group's filings**. One model, one bolt, nearly half the day.
+- **The remedy gap:** November 4, 2026 notice to January 15, 2027 remedy start = **72 days**. For 72 days the affected Q3s drive with a known steering defect and no official fix available. Label the count as calendar days.
+- **Toyota's share:** 176,737 of more than 800,000 = **about 22%** of the wave.
+- **The range gap:** the China Q3 campaign covers model years 2018-2025 (eight model years); the US campaign for the same bolt covers Q3s from 2019-2021 (three model years). Same part, same failure mode, a five-model-year difference in scope — the campaigns are market-specific filings, not one global recall.
+- **The export gap (process, not a count):** a China-market recall is filed for vehicles sold in China. An identical model exported as a used car is generally not in that campaign database, and the Chinese dealer network has no obligation to perform the work abroad. Do not invent a number of exported affected cars; the article must say the count is unknown.
+
+## Limitations (must appear in the article)
+- The SAMR notices are Chinese-language primary sources. This article relies on the SinoAutoCars summary (November 5, 2026) and the Cailianshe tally for the translated figures and campaign numbers; the article must attribute the figures to those reports and link them, not present them as if read from the SAMR originals.
+- The 800,000+ total is a media tally of the day's notices, not an official SAMR total. Do not present it as an official figure.
+- Vehicle counts are as stated in the filings; production date ranges define which cars are affected. This article does not estimate how many of those cars are in the used market or have been exported, and does not give repair prices.
+- The US parallel (26V590) is a separate filing by a separate entity. Do not assume a Chinese recall triggers a campaign elsewhere, or the reverse.
+- No crash, injury, or fire counts are published in the sources for these campaigns. Do not invent any.
+
+## Strongest counterargument (must appear at full strength)
+The honest counterargument is that a recall notice is the system working, not failing. The bolt was caught by a regulator investigation before any documented crash wave, the remedy is free, the warning signs (front-axle knocking, unusual steering) are specific and checkable, and the US already has its own campaign for the same part — so American readers are unaffected and Chinese owners get a free improved bolt. A 72-day wait is ordinary logistics: parts have to be made, dealers scheduled, and nobody expects a recall to start the day it is announced. The article must grant this fully, then answer it with the gap math: a notice is not a repair, and for 72 days 388,258 cars drive with a steering defect the regulator has already named. And for the exported used car, there is no 72-day wait at all — there is no remedy, because the campaign stops at the border. The system works only inside the market that filed it.
+
+## Actionable takeaways (required)
+- If you are buying a used Q3, Prado, GX550h, bZ3X or bZ7 in China: check the VIN against the notices by build date (a car built inside the published range is affected; one built outside it is not), ask the dealer for a printed recall completion record, and listen for abnormal metal knocking from the front axle under low-speed manoeuvring. For the Audi Q3, nothing can have been done before January 15, 2027 — do not accept a verbal assurance that it has.
+- If you are exporting a used car out of China: confirm the recall status of each unit and photograph the relevant component before shipping; disclose an open campaign in the listing; price the remedy into the car and confirm the destination market can source the improved part.
+- If you own a 2018-2019 Volkswagen Atlas, 2018 Tiguan, or 2019-2021 Audi Q3 in the US: check your VIN at nhtsa.gov/recalls for campaign 26V590 — the same bolt, a separate American filing.
