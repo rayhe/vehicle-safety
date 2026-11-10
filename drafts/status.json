@@ -1,17 +1,17 @@
 {
   "current": null,
-  "last_check_note": "2026-11-09 14:30 run SHIP #1448: speeding compound offender 2024 queued 2028-06-30 (avg 8.71, round 0). Publish-queue: 1/day gate consumed today by #843; #844 due, publish-eligible 2026-11-10. FLAG: #1435/#1444 possible Hyundai 26V728 duplicate pair \u2014 verify before removal (hygiene run).",
+  "last_check_note": "2026-11-09 16:30 run SHIP #1449: two ways to die (crash frequency x lethality) queued 2028-07-01 (avg 8.86, round 0). Publish-queue: 1/day gate already consumed today by Publish #843; #844 due today (2026-11-09) but waits for tomorrow slot, publish-eligible 2026-11-10. VERIFIED duplicate: #1435 (Nov 8) and #1444 (Nov 9) both cover Hyundai 26V728 (Veloster N / Kona Electric ACU) \u2014 #1444 is the later duplicate; removal deferred to hygiene run.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
   "last_completed_date": "2026-11-09",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-09T00:30:00-08:00",
   "last_published_date": "2026-11-09",
   "last_published_slug": "843-recall-defect-spread-half-percent-vs-100",
   "last_qa_date": "2026-11-09",
   "last_qa_note": "QA pass #843: story 200 live (12,500 bytes), hero image/jpeg 200 (397,724 bytes, ?v=9a74f9c6), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-09, dateline September 8, 2026 (draft date retained per #837 precedent). First QA attempt 404s: deploy lag ~5 min after push, re-check passed.",
-  "last_worker_run": "2026-11-09T14:30:00-08:00",
-  "next": 1449,
+  "last_worker_run": "2026-11-09T16:30:00-08:00",
+  "next": 1450,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24331,6 +24331,51 @@
       },
       "created": "2026-11-09",
       "note": "2026-11-09 14:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.71, round 0). NHTSA Speeding: 2024 Data (DOT HS 813 823, July 2026): 11,288 speeding deaths, 29% of 39,254; speeding drivers 37% drunk (vs 17%), 27% unlicensed (vs 14%), 50% unbelted (vs 21%); male 15-20 speeding 39%; motorcycles 37%; 87% of speeding deaths on non-interstate roads; 38% speeding on ice/frost. Original math: pandemic ratchet speeding +17.7% vs 2019 against total deaths +8.0%; compound ratios 2.2x/1.9x/2.4x; Vermont 54% vs Florida 11% = 4.9x spread; 30.9 deaths/day. One error caught and fixed pre-panel: BAC .15 is 1.875x the .08 limit, not more than twice. Gates: em 0, banned 0, The-starters 1.3%, rhythm PASS, hero JPEG 1920x1280 ?v=5f87688b. Queued SHIP_BLOCKED 2028-06-30 (1 day after #1447 2028-06-29). FLAG for hygiene run: #1435 and #1444 both appear to cover Hyundai 26V728 \u2014 possible duplicate pair, verify before removal."
+    },
+    {
+      "number": 1449,
+      "slug": "1449-two-ways-to-die-crash-frequency-lethality",
+      "title": "There Are Two Ways for a Car to Kill You: Seventeen Models Do Both",
+      "journalist": "Rex Driverton",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-01",
+      "critique_round": 0,
+      "avg_critic": 8.86,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "4a18a142",
+        "sentence_rhythm": {
+          "variance": 250.5,
+          "short_pct": 3.1,
+          "long_pct": 56.9,
+          "passed": true
+        },
+        "word_count": 1526
+      },
+      "files": {
+        "research": "drafts/1449-two-ways-to-die-crash-frequency-lethality-research.md",
+        "story": "drafts/1449-two-ways-to-die-crash-frequency-lethality.html",
+        "hero": "drafts/1449-two-ways-to-die-crash-frequency-lethality.jpg",
+        "critic_panel": "drafts/1449-two-ways-to-die-crash-frequency-lethality-critic-panel-r0.md"
+      },
+      "created": "2026-11-09",
+      "note": "2026-11-09 16:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.86, round 0). FARS 2014-2023 two-axis decomposition (crash frequency x lethality) over 337 models, 91 with 800+ crashes: fleet 1.6 involvements/100M VMT x 0.569 deaths/involvement = 0.91; 17 models in both-bad quadrant (Cobalt 6.32/0.808/5.10, Veloster 12.63/0.676/8.54 highest rate, Mustang 8.65/0.696/6.02); Cavalier lethality crown 0.857 (500+ floor); Land Cruiser paradox cf 18.06 (11.3x) leth 0.347; Forte singleton low-crash/high-lethality (0.60/0.668); safest quadrant Ram 1500 0.13, RAV4 0.19. Corroborated by IIHS Jul 30, 2026 driver death rates (Rio 170, Ram 3500 other-driver 204). Duplicate-screen: Waymo RQ26006 already #1445, Hyundai 26V728 already #1444 (and #1435), GM 26V717 already #1387, GM 26V718 already #1391, Ford 26V689 already #1297, Nautilus neutral shift already #1321/#1356, Kicks/Q3/RAV4 IIHS round already #1408, Navigator seat already #1423, fleet-age angle already covered (twelve-year-safety-lag, recall-math-gap-82-percent-old, mandate-gap-pre-esc-body-count), Park Avenue drug angle already #868. Pre-panel fixes: 5 superlative errors corrected against raw FARS table (Land Cruiser rate rank 3rd not 2nd, lethality rank, Cavalier/Ram 1500 qualifiers, Forte superlative); rhythm FAIL (short 21.8%) fixed by merging fragments (now 3.1%). Gates: em 0, banned 0, The-starters 0.0%, rhythm PASS, hero JPEG 1920x1280 ?v=4a18a142. Queued SHIP_BLOCKED 2028-07-01 (1 day after #1448 2028-06-30)."
     }
   ]
 }
