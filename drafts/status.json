@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-10 06:30 run: full pipeline #1456 (Memphis pedestrian record, SGA Dangerous by Design 2026, avg 8.84, queued 2028-07-08). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible next run.",
+  "current": {
+    "slug": "1457-honda-steering-divide-by-zero-failsafe",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-10T08:45:00-08:00"
+  },
+  "last_check_note": "2026-11-10 08:45 run: RESEARCH #1457 (Honda EPS divide-by-zero, NHTSA 26V-721, 635,808 Pilot/MDX/TLX; announced Nov 10, 2026). 1/day publish slot already used by #844 today; #845 due today, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T06:34:33-08:00",
   "last_completed": "2026-11-10T06:34:33-08:00",
   "last_completed_date": "2026-11-10",
