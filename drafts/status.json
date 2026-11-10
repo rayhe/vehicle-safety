@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1459-china-recall-wave-800k",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-10T10:47:00-08:00"
+    "started": "2026-11-10T10:47:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-10 10:30 run: full pipeline #1458 (NHTSA H1 2026 early estimates, released today Nov 10: 16,750 deaths, rate 1.02, Q1 -4.3% to Q2 -0.2% stall; avg 8.79, round 0, queued 2028-07-10). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T10:41:58-08:00",
