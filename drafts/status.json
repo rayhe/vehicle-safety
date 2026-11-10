@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-10 10:30 run: full pipeline #1458 (NHTSA H1 2026 early estimates, released today Nov 10: 16,750 deaths, rate 1.02, Q1 -4.3% to Q2 -0.2% stall; avg 8.79, round 0, queued 2028-07-10). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible 2026-11-11.",
-  "last_checked": "2026-11-10T12:45:00-08:00",
+  "last_check_note": "2026-11-10 12:30 run: full pipeline #1460 (Ford F-150 downshift recall 26V237/26S28 fix stalled; Rex Driverton, avg 8.86, round 0, queued 2028-07-12). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, hero-ready, publish-eligible 2026-11-11.",
+  "last_checked": "2026-11-10T13:00:00-08:00",
   "last_completed": "2026-11-10T12:55:00-08:00",
   "last_completed_date": "2026-11-10",
   "last_journalist": "Rex Driverton",
@@ -10,7 +10,7 @@
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
-  "last_worker_run": "2026-11-10T12:55:00-08:00",
+  "last_worker_run": "2026-11-10T13:00:00-08:00",
   "next": 1461,
   "queue": [
     {
