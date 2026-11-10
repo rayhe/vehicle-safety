@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-10T04:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-10 00:30 run: Published #844 (Cybercab, QA pass) + full pipeline #1453 (cyclists 2024, avg 8.77, queued 2028-07-05). 1/day publish slot consumed by #844; #845 due today, publish-eligible next run.",
   "last_checked": "2026-11-09T22:45:00-08:00",
-  "last_completed": "2026-11-10T02:55:00-08:00",
+  "last_completed": "2026-11-10T04:55:00-08:00",
   "last_completed_date": "2026-11-10",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-10T00:30:00-08:00",
   "last_published_date": "2026-11-10",
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
-  "last_worker_run": "2026-11-10T04:30:00-08:00",
-  "next": 1454,
+  "last_worker_run": "2026-11-10T04:55:00-08:00",
+  "next": 1456,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24607,6 +24601,31 @@
       },
       "created": "2026-11-10",
       "note": "2026-11-10 02:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.77, round 0). NHTSA Young Drivers: 2024 Data (DOT HS 813 814, July 2026; first site citation of 813 814): crashes involving young drivers killed 5,247 (-370, -6.6% vs 5,617) but young-driver deaths rose 6 (2,156 to 2,162); passengers -221 (-20%), other-vehicle occupants -91, nonoccupants -64; driver share 41.2%, highest in 10-year table. Sex split since 2015: male driver deaths +26.7% (1,395 to 1,767), female -22.8% (508 to 392); involvement rates 56.72 vs 20.27 per 100k licensed (2.8x). 53% of killed young drivers unrestrained; 65% of drinking killed unrestrained vs 47% sober; 29% BAC>=.01, 25% >=.08; alcohol involvement +34% since 2015. Motorcycles: 583 young riders killed (+20%), 10,113 injured (+44%), 41% unlicensed. 21.1% of young drivers in fatal crashes on invalid licenses. Pre-panel fixes: rhythm FAIL (short 17.5%) fixed by 8 fragment merges; refs [2]/[4] given inline citations. Duplicate-screen: young-rider divergence=#862 (813 824), teen passengers=#1185 (2023 sheet), state alcohol=#1399, speeding 2024=#1448, cyclists=#1453, all Nov 2-6 recalls covered (#1387/#1391/#1444/#1329/#1401/#1423). Queued SHIP_BLOCKED for 2028-07-06 (1 day after #1453, 2028-07-05)."
+    },
+    {
+      "avg_critic": 8.77,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third-critic-panel-r0.md",
+        "hero": "drafts/1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third.jpg",
+        "research": "drafts/1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third-research.md",
+        "story": "drafts/1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "52fc2201",
+        "hero_jpeg": true,
+        "the_starters_pct": 2.0
+      },
+      "journalist": "Dale Impactor III",
+      "note": "2026-11-10 04:30 run: full pipeline #1455 (motorcycles 2024, DOT HS 813 824, avg 8.77, round 0), queued 2028-07-07.",
+      "number": 1455,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-07",
+      "slug": "motorcycle-deaths-fell-injuries-rose-unlicensed-third",
+      "title": "Motorcycle Deaths Fell in 2024. Injuries Didn't. A Third of the Dead Weren't Licensed to Ride."
     }
   ]
 }
