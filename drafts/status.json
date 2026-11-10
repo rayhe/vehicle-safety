@@ -1,22 +1,17 @@
 {
-  "current": {
-    "slug": "1452-work-trucks-fail-first-crash-avoidance-test",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-09T22:30:00-08:00"
-  },
-  "last_check_note": "2026-11-09 18:30 run SHIP #1450: 117 kids died riding with a drunk driver, queued 2028-07-02 (avg 8.89, round 0). Publish-queue next: #844 due today (2026-11-09) but 1/day gate consumed by Publish #843; publish-eligible 2026-11-10.",
-  "last_checked": "2026-11-08T18:55:00-08:00",
-  "last_completed": "2026-11-09T06:45:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-09 22:30 run SHIP #1452: work trucks fail first IIHS crash-avoidance test, queued 2028-07-04 (avg 8.91, round 0). Publish-queue: #844 due today (2026-11-09), hero-ready (JPEG 1920x1280), but 1/day gate consumed by Publish #843; publish-eligible 2026-11-10.",
+  "last_checked": "2026-11-09T22:45:00-08:00",
+  "last_completed": "2026-11-09T22:45:00-08:00",
   "last_completed_date": "2026-11-09",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-09T00:30:00-08:00",
   "last_published_date": "2026-11-09",
   "last_published_slug": "843-recall-defect-spread-half-percent-vs-100",
   "last_qa_date": "2026-11-09",
   "last_qa_note": "QA pass #843: story 200 live (12,500 bytes), hero image/jpeg 200 (397,724 bytes, ?v=9a74f9c6), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-09, dateline September 8, 2026 (draft date retained per #837 precedent). First QA attempt 404s: deploy lag ~5 min after push, re-check passed.",
-  "last_worker_run": "2026-11-09T18:30:00-08:00",
-  "next": 1451,
+  "last_worker_run": "2026-11-09T22:45:00-08:00",
+  "next": 1453,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24471,6 +24466,51 @@
       },
       "created": "2026-11-09",
       "note": "2026-11-09 20:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). NHTSA Motorcycles: 2024 Data (DOT HS 813 824, July 2026): 1,532 of 3,396 fatal two-vehicle motorcycle crashes (45%) were the other vehicle turning left while the bike went straight/passing/overtaking; 2.2x the 689 both-straight crashes; 78% frontal impact. Original: left-turn crashes = 24.6% floor of all 6,228 rider deaths; helmet-law natural experiment 48% unhelmeted in no-universal-law states vs 11% in universal-law states (4.4x); 35% unlicensed vs 14% car drivers. Corroborated by Teoh (IIHS) 2023, 26% on narrower definition. Pre-panel fix: lede carries full NHTSA phrasing. Queued SHIP_BLOCKED for 2028-07-03 (1 day after #1450, 2028-07-02). Corrected from 2028-07-01, which #1449 already holds."
+    },
+    {
+      "number": 1452,
+      "slug": "1452-work-trucks-fail-first-crash-avoidance-test",
+      "title": "The 14,000-Pound Truck Behind You Can't Stop Itself. Nobody Required It To.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-04",
+      "critique_round": 0,
+      "avg_critic": 8.91,
+      "scores": {
+        "general_editor": 8.9,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.9
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "618e8488",
+        "sentence_rhythm": {
+          "variance": 442.5,
+          "short_pct": 11.7,
+          "long_pct": 45.0,
+          "passed": true
+        },
+        "word_count": 1426
+      },
+      "files": {
+        "research": "drafts/1452-work-trucks-fail-first-crash-avoidance-test-research.md",
+        "story": "drafts/1452-work-trucks-fail-first-crash-avoidance-test.html",
+        "hero": "drafts/1452-work-trucks-fail-first-crash-avoidance-test.jpg",
+        "critic_panel": "drafts/1452-work-trucks-fail-first-crash-avoidance-test-critic-panel-r0.md"
+      },
+      "created": "2026-11-09",
+      "note": "2026-11-09 22:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.91, round 0). IIHS first commercial crash-avoidance ratings (Oct 8, 2026): 9 of 11 cargo vans/Class 3 pickups rated Marginal or Poor vehicle-to-vehicle; Sprinter 2500 only Good; Express/Savana 2025-27 have no AEB at all; 0 of 4 Class 3 pickups earned Good in either test. Original: FMVSS 127 covers GVWR <=10,000 lbs, Class 3 starts at 10,001 (1-lb cliff); 6,215 deaths in 2024 involving heavy/medium-duty or light vans = 15.8% of 39,254 (17/day); BrightDrop 400 (Good pedestrian) discontinued Oct 2025. Pre-panel fixes: rhythm short-sentence fail 16.7% fixed via 4 merges (now 11.7%); byline to house format; lede crash-test wording corrected. Queued SHIP_BLOCKED for 2028-07-04 (1 day after #1451, 2028-07-03)."
     }
   ]
 }
