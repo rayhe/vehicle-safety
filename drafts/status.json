@@ -1,22 +1,17 @@
 {
-  "current": {
-    "slug": "1460-f150-downshift-recall-fix-stalled",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-10T12:45:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-10 10:30 run: full pipeline #1458 (NHTSA H1 2026 early estimates, released today Nov 10: 16,750 deaths, rate 1.02, Q1 -4.3% to Q2 -0.2% stall; avg 8.79, round 0, queued 2028-07-10). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T12:45:00-08:00",
-  "last_completed": "2026-11-10T11:02:00-08:00",
+  "last_completed": "2026-11-10T12:55:00-08:00",
   "last_completed_date": "2026-11-10",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-10T00:30:00-08:00",
   "last_published_date": "2026-11-10",
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
-  "last_worker_run": "2026-11-10T12:45:00-08:00",
-  "next": 1460,
+  "last_worker_run": "2026-11-10T12:55:00-08:00",
+  "next": 1461,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24731,6 +24726,43 @@
       "ship_date": "2028-07-11",
       "slug": "china-recall-wave-800k",
       "title": "China Recalled 800,000 Cars in One Day. The Same Steering Bolt Is Already Under Recall in America"
+    },
+    {
+      "number": 1460,
+      "slug": "1460-f150-downshift-recall-fix-stalled",
+      "title": "Ford Recalled 1.39 Million F-150s. Then the Fix Stopped Showing Up.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-12",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "5e01601d",
+        "hero_dim": "2352x1008"
+      },
+      "files": {
+        "research": "drafts/1460-f150-downshift-recall-fix-stalled-research.md",
+        "story": "drafts/1460-f150-downshift-recall-fix-stalled.html",
+        "hero": "drafts/1460-f150-downshift-recall-fix-stalled.jpg",
+        "critic_panel": "drafts/1460-f150-downshift-recall-fix-stalled-critic-panel-r0.md"
+      },
+      "note": "2026-11-10 12:30 run: full pipeline #1460 (Ford 26V237/26S28 downshift recall fix reportedly stalled; dealers pausing PCM update, Atlanta News First parts issue; EA26-001 still open; reverse-rollaway unaddressed; avg 8.86, round 0), queued 2028-07-12."
     }
   ]
 }
