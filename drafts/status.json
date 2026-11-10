@@ -1,7 +1,7 @@
 {
   "current": null,
   "last_check_note": "2026-11-10 08:45 run: full pipeline #1457 (Honda EPS divide-by-zero, NHTSA 26V-721, avg 8.77, queued 2028-07-09). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible 2026-11-11.",
-  "last_checked": "2026-11-10T06:34:33-08:00",
+  "last_checked": "2026-11-10T09:20:00-08:00",
   "last_completed": "2026-11-10T09:15:00-08:00",
   "last_completed_date": "2026-11-10",
   "last_journalist": "Vin Wreckage",
@@ -10,7 +10,7 @@
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
-  "last_worker_run": "2026-11-10T04:55:00-08:00",
+  "last_worker_run": "2026-11-10T08:30:00-08:00",
   "next": 1458,
   "queue": [
     {
