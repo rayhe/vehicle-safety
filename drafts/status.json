@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1451-left-turn-kills-riders-2024",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-09T20:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-09 18:30 run SHIP #1450: 117 kids died riding with a drunk driver, queued 2028-07-02 (avg 8.89, round 0). Publish-queue next: #844 due today (2026-11-09) but 1/day gate consumed by Publish #843; publish-eligible 2026-11-10.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
@@ -24427,6 +24421,51 @@
       },
       "created": "2026-11-09",
       "note": "2026-11-09 18:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.89, round 0). NHTSA 2024 Alcohol-Impaired Driving (DOT HS 813 815) x Children (DOT HS 813 811): 221 children died in alcohol-impaired crashes; 117 (53%) were passengers of the impaired driver, one every 3.1 days; children 2.6% of all traffic deaths but 7.9% of passengers who died riding with drunk drivers (3.0x overrepresentation); 219 of 221 killed by someone else's drinking. 68% of alcohol deaths at BAC .15+. Child deaths rose 1% while total deaths fell 4.3%. Duplicate-screen: Explorer PE26008=#1447, GM 26V717=#1387, Hyundai 26V728=#1435/#1444, Waymo=#1445, Kicks/RAV4=#1244/#1278/#1346/#1408, motorcycle 2024=#862, distracted undercount already written, Children 2024 age spike=#1407 (117-passenger finding undeveloped). Pre-panel fix: 'for adults' 12% corrected to 'across all ages' (12% is the all-ages passenger share). Gates: em 0, banned 0, The 1.7%, rhythm PASS, hero JPEG 1920x1280 ?v=5424c09e. Queued SHIP_BLOCKED 2028-07-02 (1 day after #1449 2028-07-01)."
+    },
+    {
+      "number": 1451,
+      "slug": "1451-left-turn-kills-riders-2024",
+      "title": "The Left Turn Killed Riders in 1,532 Crashes Last Year. The Bike Was Going Straight.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-01",
+      "critique_round": 0,
+      "avg_critic": 8.8,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "d50dc8d3",
+        "sentence_rhythm": {
+          "variance": 631.3,
+          "short_pct": 11.8,
+          "long_pct": 54.9,
+          "passed": true
+        },
+        "word_count": 1246
+      },
+      "files": {
+        "research": "drafts/1451-left-turn-kills-riders-2024-research.md",
+        "story": "drafts/1451-left-turn-kills-riders-2024.html",
+        "hero": "drafts/1451-left-turn-kills-riders-2024.jpg",
+        "critic_panel": "drafts/1451-left-turn-kills-riders-2024-critic-panel-r0.md"
+      },
+      "created": "2026-11-09",
+      "note": "2026-11-09 20:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). NHTSA Motorcycles: 2024 Data (DOT HS 813 824, July 2026): 1,532 of 3,396 fatal two-vehicle motorcycle crashes (45%) were the other vehicle turning left while the bike went straight/passing/overtaking; 2.2x the 689 both-straight crashes; 78% frontal impact. Original: left-turn crashes = 24.6% floor of all 6,228 rider deaths; helmet-law natural experiment 48% unhelmeted in no-universal-law states vs 11% in universal-law states (4.4x); 35% unlicensed vs 14% car drivers. Corroborated by Teoh (IIHS) 2023, 26% on narrower definition. Pre-panel fix: lede carries full NHTSA phrasing. Queued SHIP_BLOCKED for 2028-07-01 (1 day after #1450)."
     }
   ]
 }
