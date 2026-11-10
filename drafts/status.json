@@ -1,10 +1,15 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1456-memphis-deadliest-city-pedestrians-record-rate",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-10T06:30:00-08:00"
+  },
   "last_check_note": "2026-11-10 04:30 run: full pipeline #1455 (motorcycles 2024, avg 8.77, queued 2028-07-07). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible next run.",
   "last_checked": "2026-11-10T04:55:00-08:00",
   "last_completed": "2026-11-10T04:55:00-08:00",
   "last_completed_date": "2026-11-10",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-10T00:30:00-08:00",
   "last_published_date": "2026-11-10",
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
