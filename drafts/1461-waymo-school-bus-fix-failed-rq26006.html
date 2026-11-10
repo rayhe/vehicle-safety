@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waymo Declared Its School Bus Problem Fixed. NHTSA Says It Wasn't. &mdash; The Crash Report</title>
+  <meta name="description" content="Waymo said its software fix for passing stopped school buses was complete on November 17, 2025. NHTSA opened recall query RQ26006 on November 6, 2026, because a majority of the incidents it identified happened after that date.">
+  <meta property="og:title" content="Waymo Declared Its School Bus Problem Fixed. NHTSA Says It Wasn't.">
+  <meta property="og:description" content="354 days after Waymo declared its school-bus fix complete, NHTSA opened a recall query: a majority of the incidents happened after the remedy date.">
+  <meta property="og:image" content="../images/1461-waymo-school-bus-fix-failed-rq26006.jpg">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Investigation</div>
+      <h1>Waymo Declared Its School Bus Problem Fixed. NHTSA Says It Wasn't.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">November 10, 2026</div>
+
+      <img src="../images/1461-waymo-school-bus-fix-failed-rq26006.jpg" alt="A driverless Waymo robotaxi approaching a stopped yellow school bus with its red lights flashing and stop arm extended, children boarding at the curb" class="story-hero" loading="eager">
+
+      <div class="story-body">
+
+      <p>Waymo declared its school bus problem fixed on November 17, 2025.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> NHTSA spent the next year counting the robotaxis that kept passing stopped school buses anyway, and on November 6 it opened a formal recall query to ask whether the fix did anything at all.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Start with what actually breaks. A Waymo robotaxi approaches a stopped school bus, red lights flashing, stop arm extended, children boarding. It slows. Sometimes it stops. Then, according to Waymo's own recall report, it moves again before the warning ends, rolling past a bus that is still legally a wall.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> That is not a sensor failure. Cameras see the bus fine. It is a decision failure: the software reads the scene, classifies it correctly enough to brake, and then decides the scene is over while the stop arm is still out.</p>
+
+      <div class="pull-stat">354</div>
+      <div class="pull-label">Days from Waymo declaring its school-bus software remedy complete (November 17, 2025) to NHTSA opening recall query RQ26006 (November 6, 2026).</div>
+
+      <p>October 2025 brought the footage: a Waymo maneuvering around a stopped bus in Atlanta while children unloaded.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> NHTSA opened a preliminary evaluation. Waymo pushed a software update fleet-wide between November 5 and 17 and said every affected car had it. Austin ISD counted 19 illegal passes by November 20.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> Waymo filed the voluntary recall, 25E084, on December 10, covering 3,067 vehicles. Paperwork, after the fact: the recall ratified a software push already declared complete. January 12, 2026, gave the NTSB its own case file: a Waymo in Austin stopped for a bus, then proceeded with the stop arms extended, and six vehicles passed the bus.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> No crash. No injuries. Just a second federal agency opening its own inquiry.</p>
+
+      <p>Now run the numbers NHTSA published November 6. Recall query RQ26006 covers 2,895 vehicles, 172 fewer than the 3,067 in the original recall, and the filings do not say why.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Nearly a full year separates the declared fix from the query, and by NHTSA's own count a majority of the incidents it identified happened after the remedy date. Eight incident reports appear in the resume summary, crash and injury counts marked confidential, Waymo's own incident total marked confidential, and no total encounter count anywhere in the public file. Without a denominator, nobody can compute a failure rate: eight reports could be eight failures out of ten school-bus encounters or eight out of ten thousand. What the filing proves is narrower and worse: the fix did not eliminate the behavior it was built to eliminate.</p>
+
+      <p>Why a stopped school bus matters this much: NHTSA's FARS data counts 1,069 people killed in school-transportation-related crashes from 2015 to 2024, an average of 107 a year.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> Only 119 of those were bus occupants. Seventy percent were occupants of other vehicles, and 162 were pedestrians, 117 of them struck by the bus itself. Of the 204 school-age children killed, 77 were pedestrians, and 55 percent of those were between 5 and 10 years old, the age group most likely to dart out from behind a bus into a lane a robotaxi has just decided is clear. Human drivers are no model here either: a 2025 national survey logged 67,258 illegal school-bus passes in a single day.<sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <p><strong>The counterargument, at full strength:</strong> Waymo found the problem, pushed a fleet-wide fix within weeks, filed a voluntary recall, and says it has received no citations since March 2026.<sup class="ref-link"><a href="#ref-3">[3]</a></sup> By that account the system worked, defect found, fix deployed, behavior corrected, and the November query is a regulator doing due diligence on a closed chapter rather than catching a live failure. That reading has real weight on the citation point, and no child was hurt in any incident in the federal file. But it does not answer NHTSA's central sentence. A fix that works eventually is not the same as a fix that worked when declared, and the regulator, not the company, gets to decide when the chapter is closed.</p>
+
+      <p><strong>What this does not prove:</strong> a recall query is not a finding of defect and not a new recall, and it can close without further action. No crash or injury is reported in the NHTSA resume. Waymo's no-citations-since-March claim, if accurate, means the behavior may have stopped months before the query opened. NHTSA published no total incident count, so "a majority" is the only proportion on the record, and whether the January 12 incident counts as six incidents or one event in that tally is not stated. Do not read the query as proof the behavior is ongoing, or as proof it has stopped.</p>
+
+      <h3>What This Means for You</h3>
+
+      <p>If you live in a Waymo city, Phoenix, San Francisco, Los Angeles, Austin, or Atlanta, and a driverless car passes your child's bus, report it to the school district and file a complaint at nhtsa.gov, referencing recall query RQ26006. Austin ISD's log of 19 passes and 8 citations is the reason this query exists; districts that do not log violations leave them out of the federal record entirely. Riders should know nothing in the filings suggests a current, ongoing failure, but the episode is a reminder that a software recall is only as good as its verification, and verification here took 354 days and a second federal probe.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA Office of Defects Investigation, Recall Query RQ26006 resume, opened November 6, 2026. Population: 2,895 vehicles, Waymo 5th-generation automated driving system. "Of the total reported incidents identified during PE25013, a majority of the incidents occurred after the November 17, 2025 remedy date." Purpose: "to assess the adequacy of the remedy for Recall 25E084." <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">TechCrunch, "Waymo robotaxis kept illegally passing school buses after software fix, feds say," November 9, 2026. NHTSA opened its initial investigation in October 2025 after Atlanta footage; Waymo said the software update was completed for all affected vehicles on November 17, 2025. <a href="https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/" target="_blank" rel="noopener">techcrunch.com</a></li>
+          <li id="ref-3">Reuters, November 9, 2026, and secondary reporting. NHTSA confirmed the recall query November 9; Waymo says it improved bus behavior and has had no citations since March 2026; Austin ISD counted 19 illegal passes by November 20, 2025; NTSB documented the January 12, 2026 Austin incident. <a href="https://www.reuters.com/" target="_blank" rel="noopener">reuters.com</a></li>
+          <li id="ref-4">NHTSA, <em>School-Transportation-Related Traffic Crashes: 2015&ndash;2024 Data</em>, Traffic Safety Facts, DOT HS 813 819, July 2026. 962 fatal school-transportation-related crashes; 1,069 people killed (average 107 per year); 204 school-age children killed, 77 pedestrians; 55% of school-age pedestrians killed were 5 to 10 years old. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813819" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-5">National Association of State Directors of Pupil Transportation Services, 13th annual illegal passing survey, released July 22, 2025. 114,239 drivers across 36 states and Washington, D.C. logged 67,258 illegal passes in a single day. <a href="https://icameraplus.com/blog/bus-stop-safety-data-watching-your-own-curb" target="_blank" rel="noopener">icameraplus.com</a></li>
+          <li id="ref-6">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA ODI Recall Query RQ26006 (opened November 6, 2026); TechCrunch (November 9, 2026); Reuters (November 9, 2026); NHTSA Traffic Safety Facts DOT HS 813 819 (July 2026); NASDPTS 2025 survey. A recall query is an investigation into a prior remedy, not a finding of defect or a new recall. No crash or injury is reported in the NHTSA resume. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
