@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
-    "started": "2026-11-10T04:30:00-08:00"
+    "started": "2026-11-10T04:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-10 00:30 run: Published #844 (Cybercab, QA pass) + full pipeline #1453 (cyclists 2024, avg 8.77, queued 2028-07-05). 1/day publish slot consumed by #844; #845 due today, publish-eligible next run.",
   "last_checked": "2026-11-09T22:45:00-08:00",
