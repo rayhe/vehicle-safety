@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-10 00:30 run: Published #844 (Cybercab, QA pass) + full pipeline #1453 (cyclists 2024, avg 8.77, queued 2028-07-05). 1/day publish slot consumed by #844; #845 due today, publish-eligible next run.",
-  "last_checked": "2026-11-09T22:45:00-08:00",
+  "last_check_note": "2026-11-10 04:30 run: full pipeline #1455 (motorcycles 2024, avg 8.77, queued 2028-07-07). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible next run.",
+  "last_checked": "2026-11-10T04:55:00-08:00",
   "last_completed": "2026-11-10T04:55:00-08:00",
   "last_completed_date": "2026-11-10",
   "last_journalist": "Dale Impactor III",
