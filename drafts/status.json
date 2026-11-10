@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1450-117-kids-died-riding-with-drunk-driver",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
-    "started": "2026-11-09T18:30:00-08:00"
+    "started": "2026-11-09T18:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-09 18:30 run RESEARCH #1450: 117 kids died riding with a drunk driver in 2024 (NHTSA DOT HS 813 815 + 813 811). Dale Impactor III, Sobriety Report. Duplicate screen: Explorer PE26008=#1447, GM 26V717=#1387, Hyundai 26V728=#1435/#1444, Waymo=#1445, Kicks/RAV4=#1244/#1278/#1346/#1408, motorcycle 2024=#862, distracted undercount already written, Children 2024 age spike=#1407 (117-passenger finding undeveloped). Proceeding to DRAFT.",
+  "last_check_note": "2026-11-09 18:30 run DRAFT #1450 done: HTML + hero JPEG 1920x1280 ?v=5424c09e. Hard gates pre-check: em 0, banned 0, The 1.7%, class=story, style.css OK. Rhythm script: variance 335.0, short 11.4%, long 47.7% (PASS). Proceeding to CRITIQUE.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
   "last_completed_date": "2026-11-09",
