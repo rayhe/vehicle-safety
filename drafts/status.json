@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1451-left-turn-kills-riders-2024",
+    "phase": "CRITIQUE",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-09T20:30:00-08:00",
+    "round": 0
+  },
   "last_check_note": "2026-11-09 18:30 run SHIP #1450: 117 kids died riding with a drunk driver, queued 2028-07-02 (avg 8.89, round 0). Publish-queue next: #844 due today (2026-11-09) but 1/day gate consumed by Publish #843; publish-eligible 2026-11-10.",
   "last_checked": "2026-11-08T18:55:00-08:00",
   "last_completed": "2026-11-09T06:45:00-08:00",
