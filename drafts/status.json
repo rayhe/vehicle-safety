@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1457-honda-steering-divide-by-zero-failsafe",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-10T08:45:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-10 08:45 run: RESEARCH #1457 (Honda EPS divide-by-zero, NHTSA 26V-721, 635,808 Pilot/MDX/TLX; announced Nov 10, 2026). 1/day publish slot already used by #844 today; #845 due today, publish-eligible 2026-11-11.",
+  "current": null,
+  "last_check_note": "2026-11-10 08:45 run: full pipeline #1457 (Honda EPS divide-by-zero, NHTSA 26V-721, avg 8.77, queued 2028-07-09). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T06:34:33-08:00",
-  "last_completed": "2026-11-10T06:34:33-08:00",
+  "last_completed": "2026-11-10T09:15:00-08:00",
   "last_completed_date": "2026-11-10",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-10T00:30:00-08:00",
   "last_published_date": "2026-11-10",
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
   "last_worker_run": "2026-11-10T04:55:00-08:00",
-  "next": 1457,
+  "next": 1458,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24657,6 +24651,31 @@
       "ship_date": "2028-07-08",
       "slug": "memphis-deadliest-city-pedestrians-record-rate",
       "title": "Memphis Is the Deadliest Metro in America for Pedestrians. It Just Set the Record."
+    },
+    {
+      "avg_critic": 8.77,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1457-honda-steering-divide-by-zero-failsafe-critic-panel-r0.md",
+        "hero": "drafts/1457-honda-steering-divide-by-zero-failsafe.jpg",
+        "research": "drafts/1457-honda-steering-divide-by-zero-failsafe-research.md",
+        "story": "drafts/1457-honda-steering-divide-by-zero-failsafe.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "cd11a2ef",
+        "hero_jpeg": true,
+        "the_starters_pct": 10.9
+      },
+      "journalist": "Vin Wreckage",
+      "note": "2026-11-10 08:45 run: full pipeline #1457 (Honda EPS divide-by-zero, NHTSA 26V-721, 635,808 Pilot/MDX/TLX; announced Nov 10, 2026; avg 8.77, round 0), queued 2028-07-09.",
+      "number": 1457,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-09",
+      "slug": "honda-steering-divide-by-zero-failsafe",
+      "title": "Honda's Steering Software Divides by Zero. The Failsafe's Answer Is to Stop Steering."
     }
   ]
 }
