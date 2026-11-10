@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1454-young-drivers-370-fewer-deaths-none-theirs",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-10T02:45:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-10 00:30 run: Published #844 (Cybercab, QA pass) + full pipeline #1453 (cyclists 2024, avg 8.77, queued 2028-07-05). 1/day publish slot consumed by #844; #845 due today, publish-eligible next run.",
   "last_checked": "2026-11-09T22:45:00-08:00",
-  "last_completed": "2026-11-10T00:30:00-08:00",
+  "last_completed": "2026-11-10T02:55:00-08:00",
   "last_completed_date": "2026-11-10",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-10T00:30:00-08:00",
@@ -24561,6 +24556,51 @@
       },
       "created": "2026-11-10",
       "note": "2026-11-10 00:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.77, round 0). NHTSA Bicyclists: 2024 Data (DOT HS 813 822, July 2026): 1,103 pedalcyclists killed (-6% from record 1,173 in 2023, third-highest ever per IIHS); 52% died in the dark vs 44% daylight; light trucks struck 552 vs cars 282 (1.96x); 84% front impact; 60% mid-block; FL 208, LA rate 0.96 (3x national), Tucson 1.44 (4.5x); 87% male, avg age 48; injuries +6% while deaths -6% (injuries/death 42.6 to 47.9). Original: 1.96x truck ratio, 53.3% light-truck share, ~574 dark vs ~485 daylight deaths, FL+CA+TX 40.8% of deaths, +73-78% since 2010 vs +19% total deaths. Pre-panel fix: 6-9 p.m. window wording (summer tie at 19%). Duplicate-screen: motorcycle 2024=#1451, Waymo RQ26006=#1445, Explorer PE26008=#1447, Hyundai 26V728=#1444, GM L87=#1367, IIHS Oct 31 round=#1408, distracted-driving 2024 note deliberately skipped (undercount thesis = #845, publishes today). Queued SHIP_BLOCKED for 2028-07-05 (1 day after #1452, 2028-07-04)."
+    },
+    {
+      "number": 1454,
+      "slug": "1454-young-drivers-370-fewer-deaths-none-theirs",
+      "title": "Young Drivers Killed 370 Fewer People in 2024. Not One of Them Was a Young Driver.",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-06",
+      "critique_round": 0,
+      "avg_critic": 8.77,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.7,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "9f2bc706",
+        "sentence_rhythm": {
+          "variance": 366.8,
+          "short_pct": 3.7,
+          "long_pct": 46.0,
+          "passed": true
+        },
+        "word_count": 1258
+      },
+      "files": {
+        "research": "drafts/1454-young-drivers-370-fewer-deaths-none-theirs-research.md",
+        "story": "drafts/1454-young-drivers-370-fewer-deaths-none-theirs.html",
+        "hero": "drafts/1454-young-drivers-370-fewer-deaths-none-theirs.jpg",
+        "critic_panel": "drafts/1454-young-drivers-370-fewer-deaths-none-theirs-critic-panel-r0.md"
+      },
+      "created": "2026-11-10",
+      "note": "2026-11-10 02:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.77, round 0). NHTSA Young Drivers: 2024 Data (DOT HS 813 814, July 2026; first site citation of 813 814): crashes involving young drivers killed 5,247 (-370, -6.6% vs 5,617) but young-driver deaths rose 6 (2,156 to 2,162); passengers -221 (-20%), other-vehicle occupants -91, nonoccupants -64; driver share 41.2%, highest in 10-year table. Sex split since 2015: male driver deaths +26.7% (1,395 to 1,767), female -22.8% (508 to 392); involvement rates 56.72 vs 20.27 per 100k licensed (2.8x). 53% of killed young drivers unrestrained; 65% of drinking killed unrestrained vs 47% sober; 29% BAC>=.01, 25% >=.08; alcohol involvement +34% since 2015. Motorcycles: 583 young riders killed (+20%), 10,113 injured (+44%), 41% unlicensed. 21.1% of young drivers in fatal crashes on invalid licenses. Pre-panel fixes: rhythm FAIL (short 17.5%) fixed by 8 fragment merges; refs [2]/[4] given inline citations. Duplicate-screen: young-rider divergence=#862 (813 824), teen passengers=#1185 (2023 sheet), state alcohol=#1399, speeding 2024=#1448, cyclists=#1453, all Nov 2-6 recalls covered (#1387/#1391/#1444/#1329/#1401/#1423). Queued SHIP_BLOCKED for 2028-07-06 (1 day after #1453, 2028-07-05)."
     }
   ]
 }
