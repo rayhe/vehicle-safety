@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1455-motorcycle-deaths-fell-injuries-rose-unlicensed-third",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-11-10T04:30:00-08:00"
+  },
   "last_check_note": "2026-11-10 00:30 run: Published #844 (Cybercab, QA pass) + full pipeline #1453 (cyclists 2024, avg 8.77, queued 2028-07-05). 1/day publish slot consumed by #844; #845 due today, publish-eligible next run.",
   "last_checked": "2026-11-09T22:45:00-08:00",
   "last_completed": "2026-11-10T02:55:00-08:00",
@@ -10,7 +15,7 @@
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
-  "last_worker_run": "2026-11-10T00:30:00-08:00",
+  "last_worker_run": "2026-11-10T04:30:00-08:00",
   "next": 1454,
   "queue": [
     {
