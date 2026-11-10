@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1459-china-recall-wave-800k",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-10T10:47:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-10 10:30 run: full pipeline #1458 (NHTSA H1 2026 early estimates, released today Nov 10: 16,750 deaths, rate 1.02, Q1 -4.3% to Q2 -0.2% stall; avg 8.79, round 0, queued 2028-07-10). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T10:41:58-08:00",
-  "last_completed": "2026-11-10T10:45:00-08:00",
+  "last_completed": "2026-11-10T11:02:00-08:00",
   "last_completed_date": "2026-11-10",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-10T00:30:00-08:00",
@@ -16,8 +10,8 @@
   "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
-  "last_worker_run": "2026-11-10T10:41:58-08:00",
-  "next": 1459,
+  "last_worker_run": "2026-11-10T11:02:00-08:00",
+  "next": 1460,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24707,6 +24701,31 @@
       "ship_date": "2028-07-10",
       "slug": "nhtsa-h1-2026-q2-stall",
       "title": "The Safest Half-Year Since 2014 Has a Q2 Problem: Deaths Fell Just 0.2%"
+    },
+    {
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1459-china-recall-wave-800k-critic-panel-r0.md",
+        "hero": "drafts/1459-china-recall-wave-800k.jpg",
+        "research": "drafts/1459-china-recall-wave-800k-research.md",
+        "story": "drafts/1459-china-recall-wave-800k.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "50c036f3",
+        "hero_jpeg": true,
+        "the_starters_pct": 4.0
+      },
+      "journalist": "Clara Rollover",
+      "note": "2026-11-10 10:47 run: full pipeline #1459 (China Nov 4 recall wave, 800k+ vehicles, Audi Q3 steering bolt remedy gap 72 days, NHTSA 26V590 US parallel; avg 8.87, round 0), queued 2028-07-11.",
+      "number": 1459,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-11",
+      "slug": "china-recall-wave-800k",
+      "title": "China Recalled 800,000 Cars in One Day. The Same Steering Bolt Is Already Under Recall in America"
     }
   ]
 }
