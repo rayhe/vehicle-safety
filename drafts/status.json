@@ -24429,7 +24429,7 @@
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
       "phase": "SHIP_BLOCKED",
-      "ship_date": "2028-07-01",
+      "ship_date": "2028-07-03",
       "critique_round": 0,
       "avg_critic": 8.8,
       "scores": {
@@ -24465,7 +24465,7 @@
         "critic_panel": "drafts/1451-left-turn-kills-riders-2024-critic-panel-r0.md"
       },
       "created": "2026-11-09",
-      "note": "2026-11-09 20:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). NHTSA Motorcycles: 2024 Data (DOT HS 813 824, July 2026): 1,532 of 3,396 fatal two-vehicle motorcycle crashes (45%) were the other vehicle turning left while the bike went straight/passing/overtaking; 2.2x the 689 both-straight crashes; 78% frontal impact. Original: left-turn crashes = 24.6% floor of all 6,228 rider deaths; helmet-law natural experiment 48% unhelmeted in no-universal-law states vs 11% in universal-law states (4.4x); 35% unlicensed vs 14% car drivers. Corroborated by Teoh (IIHS) 2023, 26% on narrower definition. Pre-panel fix: lede carries full NHTSA phrasing. Queued SHIP_BLOCKED for 2028-07-01 (1 day after #1450)."
+      "note": "2026-11-09 20:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). NHTSA Motorcycles: 2024 Data (DOT HS 813 824, July 2026): 1,532 of 3,396 fatal two-vehicle motorcycle crashes (45%) were the other vehicle turning left while the bike went straight/passing/overtaking; 2.2x the 689 both-straight crashes; 78% frontal impact. Original: left-turn crashes = 24.6% floor of all 6,228 rider deaths; helmet-law natural experiment 48% unhelmeted in no-universal-law states vs 11% in universal-law states (4.4x); 35% unlicensed vs 14% car drivers. Corroborated by Teoh (IIHS) 2023, 26% on narrower definition. Pre-panel fix: lede carries full NHTSA phrasing. Queued SHIP_BLOCKED for 2028-07-03 (1 day after #1450, 2028-07-02). Corrected from 2028-07-01, which #1449 already holds."
     }
   ]
 }
