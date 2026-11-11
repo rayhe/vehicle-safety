@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Deadliest Truck in America Killed Nobody, According to Our Data &mdash; The Crash Report</title>
+  <meta name="description" content="Heavy-duty pickups look 3.5x safer per mile than half-tons in FARS data. The Ram 3500 posts a 0.00 death rate and the F-350's model-year record stops in 2004. The trucks did not get that safe. The coding broke.">
+  <meta property="og:title" content="The Deadliest Truck in America Killed Nobody, According to Our Data">
+  <meta property="og:description" content="Heavy-duty pickups look 3.5x safer per mile than half-tons in FARS data. The Ram 3500 posts a 0.00 death rate and the F-350's model-year record stops in 2004. The trucks did not get that safe. The coding broke.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1472-heavy-duty-pickups-zero-deaths-data-hole.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>The Deadliest Truck in America Killed Nobody, According to Our Data</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 11, 2026</div>
+
+      <div class="story-body">
+      <p>Run the fatality table for full-size pickups and one number stops you cold. Heavy-duty trucks, F-250s, F-350s, Ram 2500s and 3500s, come out at <strong>0.25 deaths per 100 million miles, against 0.88 for half-tons</strong>. Three and a half times safer, per mile, than the F-150 sitting next to them in the driveway. Either the biggest trucks on the road are also the safest, or the table is lying.</p>
+
+      <div class="pull-stat">0</div>
+      <div class="pull-label">deaths attributed to the Ram 3500 in ten years of FARS data, against a fleet of 437,500 trucks</div>
+
+      <p>Start with the Ram 3500, the cleanest impossibility in the dataset. Ten years of FARS data attribute exactly zero deaths and one fatal-crash involvement to a truck line the same file says has 437,500 vehicles on the road. Ram sells the 3500 in six figures every year. A zero is not a safety finding; it is a missing row.</p>
+
+      <p>Then check the F-350, whose model-year record runs 1996 to 2004 and stops, mid-sentence, at 29 deaths. Nineteen model years of Super Duty trucks, roughly 8 percent of Ford's pickup fleet, produce not one attributed death after 2004. No "Super Duty" row exists to catch them. Those deaths went somewhere, most likely filed as F-250s, whose model-year record runs unbroken to 2022. That would make the F-250's 0.43 rate a blend of two trucks, and the F-350's 0.15 a fossil.</p>
+
+      <table class="data-table">
+        <thead><tr><th>Group</th><th>Deaths</th><th>Crashes</th><th>Crash freq.</th><th>Lethality</th><th>Rate</th></tr></thead>
+        <tbody>
+          <tr><td>Heavy-duty (F-250, F-350, Ram 2500, Ram 3500)</td><td>1,226</td><td>3,600</td><td>0.73</td><td>0.341</td><td>0.25</td></tr>
+          <tr><td>Half-ton (F-150, Silverado, Sierra, Tundra, Dodge RAM, Ram 1500)</td><td>28,466</td><td>62,034</td><td>1.91</td><td>0.459</td><td>0.88</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">Crash frequency is fatal-crash involvements per 100M miles; lethality is deaths per fatal crash. Source: NHTSA FARS 2014&ndash;2023.</p>
+
+      <p>Cross-check against IIHS and the holes get worse. IIHS's July 2026 release, built from the same FARS deaths, names the Ram 3500 crew cab long bed the deadliest vehicle in America to other drivers: 204 other-driver deaths per million registered vehicle years. Very large pickups as a class kill 110 strangers for every 24 of their own drivers. Our table says the same truck killed nobody at all, which means the two are counting different things: ours counts the truck's own occupants, IIHS counts the people it hits. Put the two together and the story flips: the heavy truck is among the safest seats for its driver and the deadliest object on the road for everyone else.</p>
+
+      <p>None of this makes heavy trucks death traps for their drivers. Some of the gap is real: work trucks log highway miles under professional drivers, and seven thousand pounds of steel protects its occupants, with heavy-duty lethality at 0.341 deaths per fatal crash against 0.459 for half-tons. A coding relabel could explain the F-350 cutoff, if post-2004 trucks were simply refiled as F-250s, but no relabeling explains a zero. The Ram 3500's empty row breaks the charitable reading: until the pipeline merges split rows and flags truncated ones, every heavy-duty rate in the table should carry a warning label.</p>
+
+      <p>If you are shopping for a work truck, ignore per-model FARS leaderboards for heavy-duty nameplates and read the IIHS driver-death table instead, both columns, driver and other-driver. If you already own one, the person at risk in your crash is disproportionately the other driver; the five-star sticker measures your safety, not theirs. Caveats, stated plainly: FARS sees fatal crashes only, fleet and mileage figures are modeled estimates with roughly 15 percent uncertainty on low-volume models, and the occupant-only numerator is an inference from the IIHS contradiction, not a documented pipeline rule. We ran the numbers twice, and they did not get better.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023, processed in-repo as fars_output.js (FARS_BY_MODEL deaths, crashes, fleet, VMT, rate; FARS_MODEL_YEAR deaths by model year). <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">IIHS, &ldquo;Driver death rates remain high for small cars, models with powerful engines,&rdquo; July 30, 2026. Ram 3500 crew cab long bed 4WD other-driver rate 204 (highest of any model); very large pickups driver 24 / other-driver 110. <a href="https://www.iihs.org/news/detail/driver-death-rates-remain-high-for-small-cars-models-with-powerful-engines" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-3">IIHS, &ldquo;Driver death rates by make and model,&rdquo; interactive table and methodology (FARS deaths; Mobility Global registrations; age- and sex-adjusted). <a href="https://iihs.org/ratings/driver-death-rates-by-make-and-model" target="_blank" rel="noopener">iihs.org</a></li>
+          <li id="ref-4">NHTSA FARS coding manual: vehicle make, model, body type, and model year are taken from accident reports and verified against state registration data, with registration data taking precedence on inconsistency. <a href="https://crashstats.nhtsa.dot.gov/Api/Public/Publication/07CV" target="_blank" rel="noopener">crashstats.nhtsa.dot.gov</a></li>
+          <li id="ref-5">The Crash Report, #873, &ldquo;America's Safest Pickup Is a Spreadsheet Error&rdquo; (Ram 1500 0.13 dual-coded denominator, corrected 0.90); #993, Ram 3500 other-driver death rate. <a href="https://vehicle-safety.org/" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA FARS 2014&ndash;2023. Fleet and VMT figures are modeled estimates, not registrations or odometer readings; see <a href="../#method">methodology</a> for caveats. The occupant-only reading of the per-model death counts is an inference from the IIHS contradiction, stated as such in the text.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

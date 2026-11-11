@@ -1,9 +1,10 @@
 {
  "current": {
   "slug": "1472-heavy-duty-pickups-zero-deaths-data-hole",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Axle McScatter",
-  "started": "2026-11-11T14:30:00-08:00"
+  "started": "2026-11-11T14:30:00-08:00",
+  "round": 0
  },
  "last_check_note": "2026-11-11 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1471 (FARS 2014-2024 state decade, Axle McScatter, round-0 8.99, queued 2028-07-23). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12. Next: RESEARCH #1472.",
  "last_checked": "2026-11-11T12:30:00-08:00",
