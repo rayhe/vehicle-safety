@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1467-vicksburg-motorcoach-illegal-bus-tire-blowout",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-11T04:35:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-11 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1466 (Explorer Police Interceptor map lights, 26V726, Vin Wreckage, round-0 8.79, queued 2028-07-18). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile has no hero image in drafts/ \u2014 noted in its queue entry, never ships hero-less. Next: RESEARCH #1467.",
   "last_checked": "2026-11-11T02:48:00-08:00",
   "last_completed": "2026-11-11T00:30:00-08:00",
@@ -24956,6 +24950,47 @@
       "slug": "1466-explorer-police-interceptor-map-lights-wont-turn-off",
       "started": "2026-11-11T02:45:00-08:00",
       "title": "The Cop Car That Can't Go Dark"
+    },
+    {
+      "critic_avg": 9.03,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1467-vicksburg-motorcoach-illegal-bus-tire-blowout-critic-panel-r0.md",
+        "draft": "drafts/1467-vicksburg-motorcoach-illegal-bus-tire-blowout.html",
+        "hero": "drafts/1467-vicksburg-motorcoach-illegal-bus-tire-blowout.jpg",
+        "research": "drafts/1467-vicksburg-motorcoach-illegal-bus-tire-blowout-research.md"
+      },
+      "hard_gates": {
+        "actionable_insights": true,
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b515ac34",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 1081.8, short 11.1%, long 47.6%)",
+        "style_css": true,
+        "the_starters_pct": 3.3,
+        "word_count": 1378
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "Round-0 pass 9.03 avg; 7/7 critics >= 8.5. Draft+hero+research+critique in drafts/ (1467- prefix). News peg: NTSB HIR-26-07 (Aug 11, 2026), Vicksburg MS motorcoach steer-tire blowout, 7 dead, all ejected. Novel: 1-of-46 belts usable (2.2%); CTIS off and set 100-105 psi vs 123 psi rating; bus built for Mexican market, never FMVSS-certified (no USDOT label, lap-only belts vs FMVSS 208, Spanish-only exit labels vs FMVSS 217), no Texas permit since Oct 2022; 3.1 sec blowout-to-departure; 710 days crash-to-report. Round-0 fix: FMCSA alert start given as month only (no week count). No publish: 1/day rule, #845 shipped 2026-11-11; queue backlog through 2028-07-19.",
+      "number": 1467,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.2,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-07-19",
+      "slug": "1467-vicksburg-motorcoach-illegal-bus-tire-blowout",
+      "started": "2026-11-11T04:35:00-08:00",
+      "title": "Seven People Died in a Bus That Was Never Legal in America"
     }
   ]
 }
