@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1468-maverick-hybrid-six-batteries-no-fix",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-11T06:30:00-08:00"
+    "started": "2026-11-11T06:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-11 06:30 run: RESEARCH #1468 (Maverick Hybrid 12V drain saga, DP26007, Clara Rollover). Killed angles: Waymo school-bus RQ26006 (#1461), Honda 26V721 (#1457), GM L87 EA26005 (#1025), Hyundai ACU 26V728 (#1400/1429/1435/1444), Ford Explorer PE26008 (#1447), Ford 26V402 rollaway (#1339), IIHS work-truck crash avoidance (#1093), Ford 7.3L DP26011 (#1295).",
   "last_checked": "2026-11-11T02:48:00-08:00",
