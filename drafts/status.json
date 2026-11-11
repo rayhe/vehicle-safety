@@ -1,22 +1,17 @@
 {
- "current": {
-  "slug": "1471-decade-of-deaths-43-states-worse-than-2014",
-  "phase": "DRAFT",
-  "journalist": "Axle McScatter",
-  "started": "2026-11-11T12:30:00-08:00"
- },
- "last_check_note": "2026-11-11 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1470 (DTNA/Cummins driveline snap-ring, 26V737, Rex Driverton, round-0 8.79, queued 2028-07-22). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY \u2014 hero verified present (drafts/846-wheel-off-loose-lug-projectile.jpg, valid JPEG 1920x1280, 352,997 bytes); the 06:30 run hero-less flag was wrong and corrected 02:50 PST. Next publish slot Nov 12. Next: RESEARCH #1471.",
+ "current": null,
+ "last_check_note": "2026-11-11 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1471 (FARS 2014-2024 state decade, Axle McScatter, round-0 8.99, queued 2028-07-23). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12. Next: RESEARCH #1472.",
  "last_checked": "2026-11-11T12:30:00-08:00",
- "last_completed": "2026-11-11T10:30:00-08:00",
+ "last_completed": "2026-11-11T12:30:00-08:00",
  "last_completed_date": "2026-11-11",
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-11-11T00:30:00-08:00",
  "last_published_date": "2026-11-11",
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
- "last_worker_run": "2026-11-11T10:30:00-08:00",
- "next": 1471,
+ "last_worker_run": "2026-11-11T12:30:00-08:00",
+ "next": 1472,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -25113,6 +25108,23 @@
     "data_presentation": 8.7
    },
    "note": "2026-11-11 10:30 run: full pipeline #1470 (DTNA 26V737 driveline snap-ring, 3,894 MY2027 trucks; Cummins 26E077 filed first Oct 28, 9-day lag, 18.9x population ratio, 23-vs-60-day notification gap, 889-day precedent on same M2/114SD nameplates per Transport Canada 2024310; avg 8.79, round 0), queued 2028-07-22."
+  },
+  {
+   "number": 1471,
+   "slug": "1471-decade-of-deaths-43-states-worse-than-2014",
+   "title": "The 4% Drop Is Real. The Decade Is Not: 43 States Are Deadlier Than 2014.",
+   "journalist": "Axle McScatter",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-23",
+   "avg_critic": 8.99,
+   "critique_round": 0,
+   "files": {
+    "research": "drafts/1471-decade-of-deaths-43-states-worse-than-2014-research.md",
+    "story": "drafts/1471-decade-of-deaths-43-states-worse-than-2014.html",
+    "hero": "drafts/1471-decade-of-deaths-43-states-worse-than-2014.jpg",
+    "critic_panel": "drafts/1471-decade-of-deaths-43-states-worse-than-2014-critic-panel-r0.md"
+   },
+   "note": "2026-11-11 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1471 (FARS 2014-2024 state decade, Axle McScatter, round-0 8.99, queued 2028-07-23). Gates pre-critique: em 0, banned 0, The 0.0%, css ok, rhythm variance 413.3 / short 12.5% / long 37.5% (two fragments merged to pass short-sentence gate), hero valid JPEG 1920x1280. PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY per 10:30 note; next publish slot Nov 12."
   }
  ]
 }
