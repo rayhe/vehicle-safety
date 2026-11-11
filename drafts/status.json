@@ -8,9 +8,9 @@
  "last_published": "2026-11-11T00:30:00-08:00",
  "last_published_date": "2026-11-11",
  "last_published_slug": "845-phone-crash-undercount-seven-times",
- "last_qa_date": "2026-11-10",
- "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
- "last_worker_run": "2026-11-11T00:30:00-08:00",
+ "last_qa_date": "2026-11-11",
+ "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
+ "last_worker_run": "2026-11-11T00:35:00-08:00",
  "next": 1466,
  "queue": [
   {
