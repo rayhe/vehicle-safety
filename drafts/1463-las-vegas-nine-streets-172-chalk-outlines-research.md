@@ -18,7 +18,7 @@
 2. FOX5 Las Vegas (KVVU), Nov 10, 2026: 172 chalk outlines on nine streets; same counts; campaign details.
 3. PedSafe Vegas / UNLV Transportation Research Center (Erin Breen, director): source of all counts, including the 172 total, the Jan 2021–Jun 2026 window, the nine-street list, and the October 2026 figures (11 deaths, deadliest month of the year; first-half 2026 pedestrian deaths down nearly 40%, then climbing July–September).
 4. Vegas Daily Wire, Nov 7, 2026: outlines drawn Saturday Nov 7; all nine streets post 45 mph; Lake Mead crosswalk cases (17-year-old hit in a crosswalk in February 2026; a man killed in the same crosswalk in May 2024).
-5. NHTSA via Reuters, Nov 10, 2026: H1 2026 fatality rate 1.02 per 100M VMT, lowest since 2014; bicyclist deaths up 4% to 1,148 in 2025; full-year 2025 pedestrian context (7,148 pedestrian deaths in 2024, down 4.3% year over year, still 20% above 2016 levels).
+5. NHTSA via Reuters, Nov 10, 2026: H1 2026 fatality rate 1.02 per 100M VMT, lowest since 2014; bicyclist deaths up 4% to 1,148 in 2025. NHTSA final 2024 pedestrian count is 7,080 (DOT HS 813 818, June 2026), down 3.9% from 7,367 in 2023; GHSA's preliminary projection was 7,148, down 4.3%, nearly 20% above 2016.
 
 ## Primary sources (detail)
 
