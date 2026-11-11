@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1462-harley-neutral-lie-gear-position-sensor",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-10T16:30:00-08:00"
+    "started": "2026-11-10T16:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-10 14:30 run: full pipeline #1461 (Waymo school-bus fix failed, NHTSA recall query RQ26006; Mia Crumplezone, avg 8.93, round 0, queued 2028-07-13). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, hero-ready, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T14:50:00-08:00",
