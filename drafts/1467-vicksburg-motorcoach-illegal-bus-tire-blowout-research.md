@@ -112,7 +112,7 @@ Challenge: is this genuinely new after 1,400+ articles, or a re-run?
 2. **100% ejection among the dead.** All 7 fatalities were ejected; 10 of 44 occupants (23%) were ejected in total. NHTSA's own estimate says lap-only belts are 76% effective at preventing rollover fatalities — the gap between 76% and what happened here is entirely accessibility.
 3. **CTIS setpoint gap.** System programmed to hold steer tires at 100-105 psi vs 123 psi max rating = 15-19% below max (100/123 = 81%, 105/123 = 85%). And the system was found switched off entirely. A machine built to prevent exactly this failure was both misconfigured and disabled.
 4. **3.1 seconds.** Blowout at 71 mph to roadway departure in 3.1 seconds (~323 feet at 104 ft/s). The tire-friction mark ran 351 feet from its origin to the departure point — the numbers agree: there was no time to do anything but hold on.
-5. **22 months without a permit; 8 weeks on alert.** No valid Texas trip permit since Oct 2022; FMCSA Crash Indicator BASIC in alert since July 2024. The crash came ~8 weeks into the alert.
+5. **22 months without a permit.** No valid Texas trip permit since Oct 2022; FMCSA Crash Indicator BASIC in alert since July 2024 (report gives month only, no start day, so no week count can be stated).
 6. **710 days.** Crash Aug 31, 2024 to report Aug 11, 2026. The bus was already out of business by the time the report landed — the carrier ceased operations after losing insurance.
 7. **Rate check (context, not a claim):** 7 deaths / 44 occupants = 16% fatality rate aboard; 10 ejections / 44 = 23%.
 
