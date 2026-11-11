@@ -6,7 +6,7 @@
 **Date researched:** 2026-11-10
 
 ## Angle (1-2 sentences)
-2024 was the safest year in a decade for school transportation overall (110 deaths, down 14%), and the deadliest year in a decade for the people inside the bus (17 deaths, the highest of 2015-2024). Both facts are true, and both are misleading: 12 of those 17 deaths came from two crashes, and 8 of the 12 weren't schoolchildren at all — they were farmworkers riding a retired school bus. Strip out the two crashes and 2024 drops to 5 inside-bus deaths, a decade low. The "deadliest year" is a story about concentration, classification, and impairment — not about school buses getting dangerous.
+2024 total deaths fell 14% to 110, near the decade average of 107, while deaths inside the bus hit a decade high of 17. Both facts are true, and both are misleading: 12 of those 17 deaths came from two crashes, and 8 of the 12 weren't schoolchildren at all — they were farmworkers riding a retired school bus. Strip out the two crashes and 2024 drops to 5 inside-bus deaths, second only to the pandemic year 2020 (3), when schools were largely closed. The "deadliest year" is a story about concentration, classification, and impairment — not about school buses getting dangerous.
 
 ## Kill test — PASS
 - **Genuinely newsworthy?** Yes. NHTSA's 10-year review (DOT HS 813 819, July 2026) plus the NTSB's final Rushville report (HIR-26-01, March 6, 2026) plus a fresh independent analysis of the 2024 numbers (Millar Law Firm, Oct 19, 2026) and National School Bus Safety Week coverage (Oct 19-23, 2026). No site article has run the 2024 year-detail numbers.
@@ -44,12 +44,12 @@
 - 483,041 yellow school buses provided daily transportation in the 2024-2025 school year (School Bus Fleet, via NSC).
 
 ### The 2024 twist (NHTSA DOT HS 813 819 Table 1; Millar Law Firm analysis, Oct 19, 2026; NSC Injury Facts)
-- **2024 total: 110 deaths, down 14% from 128 in 2023** (NSC tabulations of FARS agree: 110 in 2024 vs 128 in 2023).
+- **2024 total: 110 deaths, down 14% from 128 in 2023** (NSC tabulations of FARS agree: 110 in 2024 vs 128 in 2023). Not the decade low: 2020 was 54 (COVID, schools closed); the decade average is 107. Annual totals 2015-2024: 115, 125, 97, 117, 111, 54, 108, 104, 128, 110.
 - **Inside school vehicles: 17 deaths in 2024, up from 13 in 2023 (+31%), the highest annual total of the 10-year window** (5 drivers, 12 passengers).
 - Occupants of other vehicles: 70 in 2024, down from 85 in 2023. Pedestrians: 19, down from 24.
 - **Two crashes accounted for 12 of the 17 school-vehicle occupant deaths (71%):** Rushville, IL (4 aboard the bus) and Ocala, FL (8 aboard the bus). Millar counts 13 of 17 including the Rushville truck driver, who was not a bus occupant; the correct bus-occupant count from the two crashes is 12.
 - **Original calculation 1 (concentration):** 12 / 17 = 70.6% of the year's inside-bus deaths came from two crashes on two days.
-- **Original calculation 2 (counterfactual):** without Rushville and Ocala, 2024 inside-bus deaths = 5 — against a decade average of ~12/year, that would be the lowest year of the decade, not the highest. The "deadliest year" headline reverses entirely on two crashes.
+- **Original calculation 2 (counterfactual):** without Rushville and Ocala, 2024 inside-bus deaths = 5 — second only to the COVID year 2020 (3), when schools were largely closed and the total was 54. The "deadliest year" headline reverses entirely on two crashes.
 - **Original calculation 3 (classification):** 8 of the 17 (47%) were adult farmworkers riding a retired school bus in Ocala, not schoolchildren. The child toll inside school vehicles in 2024 was 4 (3 Rushville children + 1 elsewhere implied by the 12-passenger total: 12 passengers = 3 Rushville children + 8 Ocala farmworkers + 1 other).
 
 ### Rushville, IL — March 11, 2024 (NTSB HIR-26-01, March 6, 2026; IL State Police)
