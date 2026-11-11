@@ -1,14 +1,14 @@
 {
  "current": {
   "slug": "1465-tire-recalls-2026-tread-separation-census",
-  "phase": "CRITIQUE",
+  "phase": "SHIP_BLOCKED",
   "journalist": "Axle McScatter",
   "started": "2026-11-10T22:45:00-08:00",
   "round": 0
  },
  "last_check_note": "2026-11-10 21:00 run: full pipeline #1464 (school-bus 2024 inside-deaths decade high, Dale Impactor III, avg 8.79, round 0, queued 2028-07-16). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, hero-ready, publish-eligible 2026-11-11. Also fixed stale next: 1463 -> 1465.",
  "last_checked": "2026-11-10T21:05:00-08:00",
- "last_completed": "2026-11-10T21:05:00-08:00",
+ "last_completed": "2026-11-10T23:10:00-08:00",
  "last_completed_date": "2026-11-10",
  "last_journalist": "Dale Impactor III",
  "last_published": "2026-11-10T00:30:00-08:00",
@@ -16,7 +16,7 @@
  "last_published_slug": "844-cybercab-launched-blind-fsd-engineering-analysis",
  "last_qa_date": "2026-11-10",
  "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
- "last_worker_run": "2026-11-10T23:05:00-08:00",
+ "last_worker_run": "2026-11-10T23:10:00-08:00",
  "next": 1465,
  "queue": [
   {
@@ -24870,6 +24870,50 @@
     "the_starters_pct": 9.9
    },
    "note": "2026-11-10 21:00 run: full pipeline #1464 (NHTSA DOT HS 813 819: 17 inside-bus deaths in 2024, decade high; 12 of 17 from Rushville + Ocala; 8 of 17 adult farmworkers in a retired bus; NTSB HIR-26-01 Rushville probable cause: driver impairment/fatigue from prescription meds; round-0 fix: 2024 total 110 is not the decade low (2020 was 54, COVID) and ex-crash count 5 is second-lowest, not lowest; avg 8.79, round 0), queued for 2028-07-16."
+  },
+  {
+   "number": 1465,
+   "slug": "1465-tire-recalls-2026-tread-separation-census",
+   "title": "12,643 Tires Were Recalled in 2026. Every Single One Was Coming Apart.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-17",
+   "critique_round": 0,
+   "critic_avg": 8.86,
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 8.5,
+    "data_presentation": 9.0,
+    "average": 8.86
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "sentence_rhythm": {
+     "variance": 1292.8,
+     "short_pct": 11.5,
+     "long_pct": 38.5,
+     "passed": true
+    },
+    "hero_hash": "3591441a",
+    "hero_jpeg": true,
+    "word_count": 519
+   },
+   "files": {
+    "research": "drafts/1465-tire-recalls-2026-tread-separation-census-research.md",
+    "story": "drafts/1465-tire-recalls-2026-tread-separation-census.html",
+    "hero": "drafts/1465-tire-recalls-2026-tread-separation-census.jpg",
+    "critic_panel": "drafts/1465-tire-recalls-2026-tread-separation-census-critic-panel-r0.md"
+   },
+   "note": "2026-11-10 22:30 run: full pipeline #1465 (2026 tire-recall census, Axle McScatter, round-0 SHIP avg 8.86, queued 2028-07-17). Novel contribution: first 2026 census of all six tire recalls (12,643 tires, all separation failures), lab-caught finding (Kumho + VeeRubber), ~11% tire-recall completion rate, DOT TIN how-to. Yokohama campaign number unpublished; census completeness is verified 2026 filings per 26T-series search."
   }
  ]
 }
