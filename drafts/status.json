@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-11-10 14:30 run: full pipeline #1461 (Waymo school-bus fix failed, NHTSA recall query RQ26006; Mia Crumplezone, avg 8.93, round 0, queued 2028-07-13). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, hero-ready, publish-eligible 2026-11-11.",
- "last_checked": "2026-11-10T14:50:00-08:00",
+ "last_check_note": "2026-11-10 21:00 run: full pipeline #1464 (school-bus 2024 inside-deaths decade high, Dale Impactor III, avg 8.79, round 0, queued 2028-07-16). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, hero-ready, publish-eligible 2026-11-11. Also fixed stale next: 1463 -> 1465.",
+ "last_checked": "2026-11-10T21:05:00-08:00",
  "last_completed": "2026-11-10T21:05:00-08:00",
  "last_completed_date": "2026-11-10",
  "last_journalist": "Dale Impactor III",
