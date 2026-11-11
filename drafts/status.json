@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-11 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1466 (Explorer Police Interceptor map lights, 26V726, Vin Wreckage, round-0 8.79, queued 2028-07-18). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile has no hero image in drafts/ \u2014 noted in its queue entry, never ships hero-less. Next: RESEARCH #1467.",
+  "current": {
+    "slug": "1468-maverick-hybrid-six-batteries-no-fix",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-11T06:30:00-08:00"
+  },
+  "last_check_note": "2026-11-11 06:30 run: RESEARCH #1468 (Maverick Hybrid 12V drain saga, DP26007, Clara Rollover). Killed angles: Waymo school-bus RQ26006 (#1461), Honda 26V721 (#1457), GM L87 EA26005 (#1025), Hyundai ACU 26V728 (#1400/1429/1435/1444), Ford Explorer PE26008 (#1447), Ford 26V402 rollaway (#1339), IIHS work-truck crash avoidance (#1093), Ford 7.3L DP26011 (#1295).",
   "last_checked": "2026-11-11T02:48:00-08:00",
   "last_completed": "2026-11-11T00:30:00-08:00",
   "last_completed_date": "2026-11-11",
@@ -10,7 +15,7 @@
   "last_published_slug": "845-phone-crash-undercount-seven-times",
   "last_qa_date": "2026-11-11",
   "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
-  "last_worker_run": "2026-11-11T02:48:00-08:00",
+  "last_worker_run": "2026-11-11T06:30:00-08:00",
   "next": 1468,
   "queue": [
     {
