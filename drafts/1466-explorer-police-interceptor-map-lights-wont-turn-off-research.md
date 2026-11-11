@@ -21,6 +21,18 @@ A phantom "Global On" command in the overhead console can switch on the map ligh
 3. **FMVSS No. 101, "Controls and Displays" (49 CFR 571.101)** — the standard the recall cites for noncompliance. https://www.nhtsa.gov/laws-regulations/fmvss (topic page; standard text via eCFR 49 CFR 571.101).
 4. **Reuters, November 9, 2026 (via Duke FM / Morningstar)** — NHTSA opened PE26008 on November 6, 2026, into 1,236,155 Ford Explorers (2021-2026) over seat-mounted side airbag burn injuries; Police Interceptor officers among the injured. Context only; the probe is #1447's story. https://duke.fm/2026/11/09/nhtsa-opens-probe-into-1-2-million-ford-vehicles-over-airbag-deployment/
 
+## Part 573 addendum (verified via live browser read of the NHTSA record, 2026-11-11)
+
+- **Part 573 report:** https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V726-1756.pdf (4 pages). Acknowledgment: https://static.nhtsa.gov/odi/rcl/2026/RCAK-26V726-0031.pdf
+- **Estimated percentage with defect: 100%.** The population is defined by the suspect console, so Ford lists all 33,578 as carrying the defect — while the observed failure rate is far lower (see below).
+- **Counts as of October 13, 2026:** 69 warranty claims, zero field reports, zero customer reports, zero VOQs. **No accidents or injuries known.** Occurrence rate: 0.8 repairs per thousand (R/1000).
+- **Production dates:** March 3, 2025 – October 23, 2026 (all 33,578 in one vehicle line).
+- **Cause (Part 573):** during the vehicle wake-up sequence, the Power Distribution Box (PDB) runs a routine diagnostic check that produces a brief, low-voltage rise on the interior lighting circuit before the overhead console's electronics have fully initialized, and the microcontroller can misinterpret it as a "Global On" command. The console wakes up confused and thinks someone pressed "all lights on."
+- **FMVSS 101 provision:** Section S5.3.4(a) — any source of illumination in the front row must have the means to be turned off. The individual on/off buttons cannot turn the map lights off while the phantom "Global On" is active.
+- **Correction to the "no override" framing above:** there IS a workaround. Owners can turn the map lights off using the interior dome lamp controls in the overhead console. The individual buttons fail; the dome controls work. The article must state this — the switch is not entirely decorative, the override is just in a different place than the driver would reach for.
+- **Notification schedule:** dealers notified November 6, 2026; owner letters mailed December 28–30, 2026.
+- **Arithmetic (original):** 69 warranty claims / 33,578 vehicles = 0.21% have actually surfaced as claims, against a population Ford lists as 100% "with defect." The recall is a net cast over every suspect console, not 33,578 confirmed failures. The 0.8 R/1000 occurrence rate is Ford's own estimate of how often it actually bites.
+
 ## Verified facts
 
 ### The recall
@@ -41,7 +53,7 @@ A phantom "Global On" command in the overhead console can switch on the map ligh
 - 33,578 / 1,236,155 (PE26008 probe population) = **2.7%**. The map-light recall is a small slice of the Explorer population under federal scrutiny this week — but it is 100% police vehicles. Every affected unit is a working patrol car, not a retail driveway. The recall's practical audience is fleet managers and departments, and the fix requires taking patrol cars out of service.
 
 ### The switch that doesn't switch (original finding)
-- FMVSS 101 exists so that a control does what it says. The map-light switch in these Interceptors does not control the map lights: a phantom software command can turn them on, and the switch cannot turn them off. The control is decorative. For a civilian car that is an annoyance; for a police interceptor — a vehicle that does surveillance, approaches in the dark, and sits blacked-out on stakeouts — a cabin that lights itself up is a tactical liability, not a cosmetic one. That is the article's core: the car built to go dark cannot go dark.
+- FMVSS 101 exists so that a control does what it says. The map-light switch in these Interceptors does not control the map lights: a phantom software command can turn them on, and the individual buttons cannot turn them off. There is a workaround — the dome lamp controls in the same console can kill them — but it is not the control the driver reaches for, and it is not the control the standard contemplates. For a civilian car that is an annoyance; for a police interceptor — a vehicle that does surveillance, approaches in the dark, and sits blacked-out on stakeouts — a cabin that lights itself up is a tactical liability, not a cosmetic one. That is the article's core: the car built to go dark cannot go dark.
 
 ### Context (one line only)
 - The same vehicle line is under NHTSA Preliminary Evaluation PE26008 (opened November 6, 2026) after 11 reports of burn injuries from seat-mounted side airbag deployments, 10 of them second- or third-degree burns, including police officers in Interceptors. That investigation is #1447's story.
@@ -69,6 +81,6 @@ A phantom "Global On" command in the overhead console can switch on the map ligh
 - Civilian Explorer owners: this recall is Police Interceptor only. Your Explorer is not covered — but if your overhead console behaves the same way, the PE26008 burn probe is the one that covers your vehicle, and it is an investigation, not a recall yet.
 
 ## What to verify before DRAFT
-- [ ] Part 573 complaint/crash/injury counts (browser read pending)
-- [ ] Ford estimated defect percentage, if the Part 573 states one
-- [ ] Production date range for affected Interceptors, if stated
+- [x] Part 573 complaint/crash/injury counts (browser read 2026-11-11): 69 warranty claims, 0 field reports, 0 customer reports, 0 VOQs; no accidents or injuries known; occurrence 0.8 R/1000
+- [x] Ford estimated defect percentage: 100% (population defined by suspect console)
+- [x] Production date range: March 3, 2025 – October 23, 2026; cause: PDB wake-up diagnostic low-voltage rise misread as "Global On"; FMVSS 101 S5.3.4(a); workaround via dome lamp controls; dealers notified Nov 6, 2026; owner letters Dec 28–30, 2026
