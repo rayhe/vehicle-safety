@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1467-vicksburg-motorcoach-illegal-bus-tire-blowout",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-11T04:35:00-08:00"
+    "started": "2026-11-11T04:35:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-11 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1466 (Explorer Police Interceptor map lights, 26V726, Vin Wreckage, round-0 8.79, queued 2028-07-18). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile has no hero image in drafts/ \u2014 noted in its queue entry, never ships hero-less. Next: RESEARCH #1467.",
   "last_checked": "2026-11-11T02:48:00-08:00",
