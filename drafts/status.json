@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1462-harley-neutral-lie-gear-position-sensor",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-10T16:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-10 14:30 run: full pipeline #1461 (Waymo school-bus fix failed, NHTSA recall query RQ26006; Mia Crumplezone, avg 8.93, round 0, queued 2028-07-13). Publish skipped: 1/day slot already used by #844 today; #845 (phone-crash-undercount-seven-times) due today, hero-ready, publish-eligible 2026-11-11.",
   "last_checked": "2026-11-10T14:50:00-08:00",
   "last_completed": "2026-11-10T14:45:00-08:00",
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-10",
   "last_qa_note": "QA pass #844: story 200 live (308 is Cloudflare Pages extensionless-URL redirect .html -> clean URL, final 200), hero image/jpeg 200 (408,424 bytes, ?v=719570e7), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-10, dateline retained from draft.",
   "last_worker_run": "2026-11-10T14:50:00-08:00",
-  "next": 1462,
+  "next": 1463,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -24794,6 +24788,31 @@
       "ship_date": "2028-07-13",
       "slug": "waymo-school-bus-fix-failed-rq26006",
       "title": "Waymo Declared Its School Bus Problem Fixed. NHTSA Says It Wasn't."
+    },
+    {
+      "number": 1462,
+      "slug": "1462-harley-neutral-lie-gear-position-sensor",
+      "title": "Your Harley Says Neutral. It Is Lying.",
+      "journalist": "Clara Rollover",
+      "ship_date": "2028-07-14",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.93,
+      "critique_round": 1,
+      "files": {
+        "research": "drafts/1462-harley-neutral-lie-gear-position-sensor-research.md",
+        "story": "drafts/1462-harley-neutral-lie-gear-position-sensor.html",
+        "hero": "drafts/1462-harley-neutral-lie-gear-position-sensor.jpg",
+        "critic_panel": "drafts/1462-harley-neutral-lie-gear-position-sensor-critic-panel-r1.md"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "f409a5c4",
+        "hero_jpeg": true,
+        "the_starters_pct": 6.1
+      },
+      "note": "2026-11-10 16:30 run: full pipeline #1462 (NHTSA 26V-730: ECM may report neutral when in gear on 21,643 MY2026 Harleys; 2 injuries potentially related; CycleTrader flagged the defect in July; avg 8.93, round 1), queued for 2028-07-14."
     }
   ]
 }
