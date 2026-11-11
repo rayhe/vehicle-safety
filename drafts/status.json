@@ -1,22 +1,17 @@
 {
- "current": {
-  "slug": "1470-dtna-cummins-driveline-snap-ring-missing",
-  "phase": "DRAFT",
-  "journalist": "Rex Driverton",
-  "started": "2026-11-11T10:30:00-08:00"
- },
- "last_check_note": "2026-11-11 10:30 run: RESEARCH #1470 (DTNA/Cummins driveline snap-ring, 26V737, Rex Driverton). Duplicate-screen killed GM 26V717, Honda 26V721, Hyundai 26V728, Explorer PE26008, Harley 26V730, Waymo RQ26006, Godzilla petition, IIHS Palisade/Prius round, FARS sober-paradox + toxicology angles. Proceeding to DRAFT.",
+ "current": null,
+ "last_check_note": "2026-11-11 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1470 (DTNA/Cummins driveline snap-ring, 26V737, Rex Driverton, round-0 8.79, queued 2028-07-22). PUBLISH-QUEUE: 1/day gate already met (#845 published 2026-11-11); due entry #846 wheel-off-loose-lug-projectile still has no hero image in drafts/ \u2014 noted, never ships hero-less. Next: RESEARCH #1471.",
  "last_checked": "2026-11-11T02:48:00-08:00",
- "last_completed": "2026-11-11T06:30:00-08:00",
+ "last_completed": "2026-11-11T10:30:00-08:00",
  "last_completed_date": "2026-11-11",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Rex Driverton",
  "last_published": "2026-11-11T00:30:00-08:00",
  "last_published_date": "2026-11-11",
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
  "last_worker_run": "2026-11-11T10:30:00-08:00",
- "next": 1470,
+ "next": 1471,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -25073,6 +25068,46 @@
     "data": 8.7
    },
    "note": "2026-11-11 08:30 run: full pipeline #1469 (NHTSA 2025 estimate 36,640 deaths, rate 1.10 second-lowest ever + 2024 FARS final 39,254; avg 8.76, round 0), queued 2028-07-21."
+  },
+  {
+   "number": 1470,
+   "slug": "1470-dtna-cummins-driveline-snap-ring-missing",
+   "title": "The Driveshaft Can Fall Out. Cummins Knew First.",
+   "journalist": "Rex Driverton",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-22",
+   "avg_critic": 8.79,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 3.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "fb778a3a",
+    "rhythm_var": 1215.7,
+    "rhythm_short_pct": 12.5,
+    "rhythm_long_pct": 50.0,
+    "word_count": 708
+   },
+   "files": {
+    "research": "drafts/1470-dtna-cummins-driveline-snap-ring-missing-research.md",
+    "story": "drafts/1470-dtna-cummins-driveline-snap-ring-missing.html",
+    "hero": "drafts/1470-dtna-cummins-driveline-snap-ring-missing.jpg",
+    "critic_panel": "drafts/1470-dtna-cummins-driveline-snap-ring-missing-critic-panel-r0.md"
+   },
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
+    "ethics_reviewer": 8.7,
+    "social_shareability": 8.6,
+    "legal_accuracy": 8.8,
+    "research_rigor": 9.0,
+    "data_presentation": 8.7
+   },
+   "note": "2026-11-11 10:30 run: full pipeline #1470 (DTNA 26V737 driveline snap-ring, 3,894 MY2027 trucks; Cummins 26E077 filed first Oct 28, 9-day lag, 18.9x population ratio, 23-vs-60-day notification gap, 889-day precedent on same M2/114SD nameplates per Transport Canada 2024310; avg 8.79, round 0), queued 2028-07-22."
   }
  ]
 }
