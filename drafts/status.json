@@ -1,23 +1,17 @@
 {
- "current": {
-  "slug": "1475-toyota-recall-census-15-corrected-count",
-  "phase": "CRITIQUE",
-  "journalist": "Axle McScatter",
-  "started": "2026-11-11T20:30:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-11 20:30 run: RESEARCH #1475 (Toyota recall census corrected: 15 campaigns, not 7; Axle McScatter). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12.",
+ "current": null,
+ "last_check_note": "2026-11-11 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1475 (Toyota recall census corrected: 15 campaigns, not 7; Axle McScatter, round-0 9.00, queued 2028-07-27). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12. Next: RESEARCH #1476.",
  "last_checked": "2026-11-11T14:30:00-08:00",
- "last_completed": "2026-11-11T18:49:00-08:00",
+ "last_completed": "2026-11-11T20:30:00-08:00",
  "last_completed_date": "2026-11-11",
- "last_journalist": "Rex Driverton",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-11-11T00:30:00-08:00",
  "last_published_date": "2026-11-11",
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
  "last_worker_run": "2026-11-11T20:30:00-08:00",
- "next": 1475,
+ "next": 1476,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -25222,6 +25216,34 @@
     "critic_panel": "drafts/1474-gm-recall-census-15-new-model-campaigns-critic-panel-r0.md"
    },
    "note": "2026-11-11 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1474 (GM 2026-MY recall census: 15 campaigns vs Ford 40, Toyota 7, Honda 2; Express/Savana lead at 4 each incl. 26V399/26V718 double steering-nut recall; 26V114 manual recall inflates counts, ex-manual total 14; 0 of 15 OTA; Rex Driverton, round-1 8.93, queued 2028-07-26). Round-0 legal catch: 'yesterday' references corrected to 'earlier today' (both censuses ran Nov 11). Gates pre-critique: em 0, banned 0, The 8.0%, css ok, rhythm variance 475.6 / short 8.8% / long 44.1% (five short sentences merged), hero valid JPEG 2048x1152."
+  },
+  {
+   "avg_critic": 9.0,
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1475-toyota-recall-census-15-corrected-count-critic-panel-r0.md",
+    "hero": "drafts/1475-toyota-recall-census-15-corrected-count.jpg",
+    "research": "drafts/1475-toyota-recall-census-15-corrected-count-research.md",
+    "story": "drafts/1475-toyota-recall-census-15-corrected-count.html"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "90a12583",
+    "hero_jpeg": true,
+    "rhythm_pass": true,
+    "style_css": true,
+    "the_starters_pct": 0.0,
+    "word_count": 892
+   },
+   "journalist": "Axle McScatter",
+   "note": "2026-11-11 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1475 (Toyota recall census corrected: 15 campaigns, not 7; Axle McScatter). Round-0 panel VERDICT: SHIP (avg 9.00, all 7 >= 8.5; gates: em 0, banned 0, The 0.0%, rhythm PASS variance 925.9, hero JPEG 1920x1280 ?v=90a12583). Novel: corrected 15-campaign census + NHTSA API vocabulary-gap diagnosis (hybrid-only base names 400; three 2026 debut EVs missing from query list); supersedes Toyota 7 in #1473 and 5 in #815. Follow-up owed: Ford/GM re-run with corrected vocabulary. Queued SHIP_BLOCKED for 2028-07-27.",
+   "number": 1475,
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-27",
+   "slug": "1475-toyota-recall-census-15-corrected-count",
+   "title": "We Undercounted Toyota's Recalls by Half. The Real Number Is 15."
   }
  ]
 }
