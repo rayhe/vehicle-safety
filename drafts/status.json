@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1480-nissan-recall-census-7-kicks-carries-three",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-12T06:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-12 06:30 run: RESEARCH+DRAFT #1480 (Nissan+Infiniti recall census corrected 7: Kicks 3, Leaf 2; 26V331 caught via bare-name 'kicks' after VPIC 'Kicks MPV' 400 miss; 64 queries; Mia Crumplezone; hero JPEG 1920x1280 ?v=d834634e; hard gates pre-pass: em 0, banned 0, The 0.0%, rhythm var 2329/short 12.8%/long 66.0%). Next: CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-12 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1480 (Nissan+Infiniti recall census corrected 7: Kicks 3, Leaf 2; 26V331 caught via bare-name 'kicks' after VPIC 'Kicks MPV' 400 miss; 64 queries; Mia Crumplezone, round-0 9.00, queued 2028-08-01) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1481.",
   "last_checked": "2026-11-12T00:30:00-08:00",
-  "last_completed": "2026-11-12T04:50:00-08:00",
+  "last_completed": "2026-11-12T06:30:00-08:00",
   "last_completed_date": "2026-11-12",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-12T00:30:00-08:00",
   "last_published_date": "2026-11-12",
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
   "last_worker_run": "2026-11-12T06:30:00-08:00",
-  "next": 1480,
+  "next": 1481,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25404,6 +25398,23 @@
         "critic_panel": "drafts/1479-stellantis-recall-census-27-one-radio-bug-critic-panel-r0.md"
       },
       "note": "2026-11-12 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1479 (Stellantis census 27: Jeep 12, Ram 11, Chrysler 5, Dodge 2, Alfa 1, Fiat 0, deduped, 469 queries; 26V531 camera blackout 844,027 US / 848,511 announced across 4 brands; 26V059 trailer-tow 456,287; Cherokee 4 in first year; 26V622 five trucks; ProMaster vocabulary hole; Rex Driverton, round-0 8.93, queued 2028-07-31). Completes the seven-brand corrected table (Ford 41, Stellantis 27, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4)."
+    },
+    {
+      "number": 1480,
+      "slug": "1480-nissan-recall-census-7-kicks-carries-three",
+      "title": "Nissan Recalled Its New Cars 7 Times. The Kicks Carried Three of Them.",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2028-08-01",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 9.0,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1480-nissan-recall-census-7-kicks-carries-three-critic-panel-r0.md",
+        "hero": "drafts/1480-nissan-recall-census-7-kicks-carries-three.jpg",
+        "research": "drafts/1480-nissan-recall-census-7-kicks-carries-three-research.md",
+        "story": "drafts/1480-nissan-recall-census-7-kicks-carries-three.html"
+      },
+      "note": "2026-11-12 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1480 (Nissan+Infiniti recall census corrected 7: Kicks 3, Leaf 2; 26V331 caught via bare-name 'kicks' after VPIC 'Kicks MPV' 400 miss; 64 queries; Mia Crumplezone, round-0 9.00, queued 2028-08-01)."
     }
   ]
 }
