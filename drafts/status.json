@@ -1,17 +1,17 @@
 {
- "current": {"slug": "1477-hyundai-kia-recall-census-15-to-4", "phase": "CRITIQUE", "journalist": "Clara Rollover", "round": 0, "started": "2026-11-12T00:30:00-08:00"},
- "last_check_note": "2026-11-11 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1476 (Honda recall census corrected: 4, not 2; Mia Crumplezone, round-0 9.00, queued 2028-07-28). PUBLISH-QUEUE: 1/day gate already met (#845 published 2026-11-11); due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12. Next: RESEARCH #1477.",
- "last_checked": "2026-11-11T22:55:00-08:00",
- "last_completed": "2026-11-11T22:55:00-08:00",
+ "current": null,
+ "last_check_note": "2026-11-12 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1477 (Hyundai/Kia recall census \u2014 15 to 4; Clara Rollover, round-0 9.00, queued 2028-07-29). PUBLISH-QUEUE: #846 wheel-off-loose-lug-projectile due 2026-11-11, HERO-READY; publishing this run (1/day gate clear). Next: RESEARCH #1478.",
+ "last_checked": "2026-11-12T00:30:00-08:00",
+ "last_completed": "2026-11-12T00:30:00-08:00",
  "last_completed_date": "2026-11-11",
- "last_journalist": "Mia Crumplezone",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-11-11T00:30:00-08:00",
  "last_published_date": "2026-11-11",
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
- "last_worker_run": "2026-11-11T22:55:00-08:00",
- "next": 1477,
+ "last_worker_run": "2026-11-12T00:30:00-08:00",
+ "next": 1478,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -25281,6 +25281,45 @@
     "critic_panel": "drafts/1476-honda-recall-census-4-corrected-count-critic-panel-r0.md"
    },
    "note": "2026-11-11 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1476 (Honda recall census corrected: 4, not 2; same vocabulary-gap miss as Toyota; 26V366/26V663 tire-kit recall-of-a-recall + 26V424 subframe bolts + 26V332 seat sensor; round-0 9.00, queued 2028-07-28)."
+  },
+  {
+   "number": 1477,
+   "slug": "1477-hyundai-kia-recall-census-15-to-4",
+   "title": "Same Company, Same Parts Bin. Hyundai Recalled Its New Cars 15 Times. Kia Recalled 4.",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-29",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "avg_critic": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "01f0c8c7",
+    "rhythm": "pass (script exit 0: var 2068, short 10.9%, long 56.5%)",
+    "actionable_insights": true
+   },
+   "files": {
+    "research": "drafts/1477-hyundai-kia-recall-census-15-to-4-research.md",
+    "story": "drafts/1477-hyundai-kia-recall-census-15-to-4.html",
+    "hero": "drafts/1477-hyundai-kia-recall-census-15-to-4.jpg",
+    "critic_panel": "drafts/1477-hyundai-kia-recall-census-15-to-4-critic-panel-r0.md"
+   },
+   "note": "2026-11-12 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1477 (Hyundai 15, Kia 4; Clara Rollover, round-0 9.00, queued 2028-07-29). First Hyundai/Kia census; completes six-brand table (Ford 40, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4). Vocabulary trap: 26V308 Elantra Hybrid fire risk invisible to base-name queries. Shared defects: cluster pair 84,328, Samjin Nut loose-nut pair, Palisade/Ioniq 9 seats."
   }
  ]
 }
