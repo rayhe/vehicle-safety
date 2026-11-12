@@ -1,5 +1,10 @@
 {
- "current": null,
+ "current": {
+  "slug": "1478-ford-recall-census-41-lincoln-10-corrected-count",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-11-12T02:30:00-08:00"
+ },
  "last_check_note": "2026-11-12 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1477 (Hyundai/Kia recall census \u2014 15 to 4; Clara Rollover, round-0 9.00, queued 2028-07-29) + PUBLISH #846 (wheel-off-loose-lug-projectile, Rex Driverton, QA pass live). Next: RESEARCH #1478.",
  "last_checked": "2026-11-12T00:30:00-08:00",
  "last_completed": "2026-11-12T00:30:00-08:00",

@@ -1,0 +1,813 @@
+{
+ "brands": {
+  "ford": {
+   "campaigns": {
+    "26V124000": {
+     "campaign": "26V124000",
+     "date": "04/03/2026",
+     "component": "BACK OVER PREVENTION:SOFTWARE",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2021-2026 Ford Bronco and 2021-2024 Ford Edge vehicles. The Accessory Protocol Interface Module (APIM) may overheat and shutdown, which can prevent the rearview camera image from displaying as intended.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V268000": {
+     "campaign": "26V268000",
+     "date": "28/04/2026",
+     "component": "SEATS:CRITICAL FASTENERS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2024-2026 Ranger and Bronco vehicles. The front seats may have a loose or dislodged seat frame height-adjust pivot bolt.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V335000": {
+     "campaign": "26V335000",
+     "date": "26/05/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Ranger and Bronco vehicles. The vehicle specifications listed on the tire placard and safety certification labels may be incorrect, including the VIN, capacity weight, seating capacity, front and rear gross axle weight rating (GAWR), tire and rim dimensions, and recommended cold tire pressure. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims\" and 49 CFR Part 567, \"Certification.\"",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V343000": {
+     "campaign": "26V343000",
+     "date": "27/05/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL/MECHANICAL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2026 Explorer, Ranger, and Bronco vehicles. The engine may fail, which can result in a loss of drive power.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V403000": {
+     "campaign": "26V403000",
+     "date": "24/06/2026",
+     "component": "STRUCTURE:BODY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2022-2026 Bronco vehicles. The fender flares may not be properly secured and detach from the vehicle.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V468000": {
+     "campaign": "26V468000",
+     "date": "21/07/2026",
+     "component": "ENGINE",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2021-2026 Bronco and Bronco Raptor vehicles. The engine compartment wiring harness may become damaged and short circuit.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V548000": {
+     "campaign": "26V548000",
+     "date": "25/08/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL/MECHANICAL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Explorer, Bronco, Bronco Sport, Mustang, and Ranger vehicles. The engine piston domes may have been manufactured incorrectly, which can result in piston dome failure and lead to a loss of drive power.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V580000": {
+     "campaign": "26V580000",
+     "date": "09/09/2026",
+     "component": "AIR BAGS:SIDE/WINDOW:CURTAIN",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Bronco vehicles. The mounting bracket on the right-hand-side side curtain air bag may have a metal burr that can tear the air bag during deployment.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V725000": {
+     "campaign": "26V725000",
+     "date": "02/11/2026",
+     "component": "VISIBILITY:WINDSHIELD WIPER/WASHER",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Bronco vehicles. A wiper arm nut on the driver-side may loosen, causing the windshield wipers to detach.",
+     "ota": false,
+     "found_via": "ford/bronco"
+    },
+    "26V201000": {
+     "campaign": "26V201000",
+     "date": "31/03/2026",
+     "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2026 Bronco Sport and Maverick vehicles. The Occupant Classification Sensor (OCS) unit may fail to correctly detect the presence of an adult or child in the front passenger seat.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 208, \"Occupant Crash Protection.\"",
+     "ota": false,
+     "found_via": "ford/bronco sport"
+    },
+    "26V239000": {
+     "campaign": "26V239000",
+     "date": "14/04/2026",
+     "component": "EQUIPMENT:ELECTRICAL:ENGINE BLOCK HEATER",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025 Maverick and 2026 Bronco Sport vehicles equipped with a 1.5L or 2.0L MPC engine and an engine block heater. The engine block heater may overheat when the vehicle is parked with the block heater plugged in.",
+     "ota": false,
+     "found_via": "ford/bronco sport"
+    },
+    "26V340000": {
+     "campaign": "26V340000",
+     "date": "27/05/2026",
+     "component": "SUSPENSION:FRONT:CONTROL ARM:LOWER BALL JOINT",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2021-2026 Bronco Sport and 2022-2026 Maverick vehicles. The front lower control arm ball joints may have been incorrectly installed or incorrectly repaired at the vehicle assembly plant, allowing the control arm to disconnect from the front wheel knuckle.",
+     "ota": false,
+     "found_via": "ford/bronco sport"
+    },
+    "26V550000": {
+     "campaign": "26V550000",
+     "date": "25/08/2026",
+     "component": "STRUCTURE:BODY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Maverick, F-150, and Bronco Sport vehicles. Certain vehicle joints may be improperly tightened. This can lead to detached parts, unsecured cargo, degraded crash protection, electrical system failure, or a loss of vehicle stability.",
+     "ota": false,
+     "found_via": "ford/bronco sport"
+    },
+    "26V118000": {
+     "campaign": "26V118000",
+     "date": "03/03/2026",
+     "component": "BACK OVER PREVENTION:WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 E-350 and E-450 vehicles. The backup alarm connector may become loose and detach, preventing the alarm from sounding when the vehicle is backing up.",
+     "ota": false,
+     "found_via": "ford/e-350"
+    },
+    "26V301000": {
+     "campaign": "26V301000",
+     "date": "13/05/2026",
+     "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:INTERNAL:PARK PAWL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Escape and Lincoln Corsair vehicles. The integrated park module may fail to lock into the park position when the driver shifts into park. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 114, \"Theft Protection and Rollaway Prevention.\"",
+     "ota": false,
+     "found_via": "ford/escape"
+    },
+    "26V104000": {
+     "campaign": "26V104000",
+     "date": "21/02/2026",
+     "component": "ELECTRICAL SYSTEM: INTEGRATED TRAILER BRAKE CONTROL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2021-2026 F-150, 2022-2026 F-250 SD, F-350 SD, F-450 SD, F-550 SD, Maverick, 2024-2026 Ranger, 2023-2026 F-600 SD, 2022-2027 Lincoln Navigator, Expedition, and 2026 E-Transit vehicles. When towing a trailer, the integrated trailer module (ITRM) may lose communication with the vehicle, possibly causing a loss of brake and turn signal lights, or a loss of brake function. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \" Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "ford/expedition"
+    },
+    "26V606000": {
+     "campaign": "26V606000",
+     "date": "22/09/2026",
+     "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2027 Expedition, 2026 F-250 SD, F-350 SD, F-450 SD, and F-550 SD vehicles. The headlight assemblies may contain a contaminated LED chip, which can result in a loss of daytime running lights, parking lights, high beams or low beams. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "ford/expedition"
+    },
+    "26V024000": {
+     "campaign": "26V024000",
+     "date": "21/01/2026",
+     "component": "VISIBILITY:WINDSHIELD",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Explorer vehicles. During manufacturing, the windshield may not have been properly bonded to the vehicle, allowing it to detach in a crash.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 212, \"Windshield Mounting.\"",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V121000": {
+     "campaign": "26V121000",
+     "date": "03/03/2026",
+     "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2026 Explorer vehicles. The Dynamic Bending Light (DBL) system software may cause the passenger-side headlight to turn in the wrong direction when driving through curves in the road. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \" Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V159000": {
+     "campaign": "26V159000",
+     "date": "17/03/2026",
+     "component": "SEAT BELTS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2020-2026 Explorer and Lincoln Aviator vehicles. The seat belt anchor bolts at the second-row outer seating positions may be improperly secured.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V202000": {
+     "campaign": "26V202000",
+     "date": "31/03/2026",
+     "component": "VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM:FAN/MOTOR",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Lincoln Aviator and Explorer vehicles. The heating, ventilation and air-conditioning (HVAC) system may fail, which can cause the defrosting and defogging system to become inoperative.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V205000": {
+     "campaign": "26V205000",
+     "date": "31/03/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL/MECHANICAL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Explorer and Mustang vehicles. The engine piston circlips may have been incorrectly installed during manufacturing, which can result in piston failure and engine damage, leading to a loss of drive power.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V451000": {
+     "campaign": "26V451000",
+     "date": "14/07/2026",
+     "component": "SEATS:MID/REAR ASSEMBLY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2020-2027 Aviator and 2020-2026 Explorer vehicles. The switch for the easy-entry second-row outer seats may bind or stick, resulting in the seats unlatching, tipping, or sliding unexpectedly.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V470000": {
+     "campaign": "26V470000",
+     "date": "21/07/2026",
+     "component": "SEATS:FRONT ASSEMBLY:POWER ADJUST",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2027 Explorer and Lincoln Aviator vehicles. An unoccupied driver's seat may recline unintentionally during certain scenarios, such as remote unlock or remote start.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V532000": {
+     "campaign": "26V532000",
+     "date": "13/08/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL/MECHANICAL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Explorer vehicles equipped with a 2.3L engine. The engine connecting rod bearings may seize, which can result in engine failure.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V581000": {
+     "campaign": "26V581000",
+     "date": "09/09/2026",
+     "component": "AIR BAGS:FRONTAL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Explorer vehicles. The active vent on the passenger side may not open as intended, preventing the air bag from deploying properly.",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V726000": {
+     "campaign": "26V726000",
+     "date": "02/11/2026",
+     "component": "INTERIOR LIGHTING",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Explorer Police Interceptor vehicles. A phantom \"Global On\" command in the overhead console may illuminate the map lights and prevent them from being turned off. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) Number 101, \"Controls and Displays.\"",
+     "ota": false,
+     "found_via": "ford/explorer"
+    },
+    "26V415000": {
+     "campaign": "26V415000",
+     "date": "30/06/2026",
+     "component": "BACK OVER PREVENTION:WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2024-2027 Lincoln Nautilus Hybrid and 2025-2027 Explorer Hybrid vehicles. A software error may prevent the vehicle from making the pedestrian warning sound at certain speeds.",
+     "ota": false,
+     "found_via": "ford/explorer hybrid"
+    },
+    "26V576000": {
+     "campaign": "26V576000",
+     "date": "09/09/2026",
+     "component": "POWER TRAIN:DRIVELINE:DIFFERENTIAL UNIT",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 F-150 vehicles. Incorrect rear axle tail bearings may have been installed, which can result in rear wheel lock-up or driveshaft separation.",
+     "ota": false,
+     "found_via": "ford/f-150"
+    },
+    "26V577000": {
+     "campaign": "26V577000",
+     "date": "09/09/2026",
+     "component": "SUSPENSION:REAR",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 F-150 vehicles.The stabilizer rod fasteners may not have been tightened properly during manufacturing, which can allow the rod to shift out of position.",
+     "ota": false,
+     "found_via": "ford/f-150"
+    },
+    "26V578000": {
+     "campaign": "26V578000",
+     "date": "09/09/2026",
+     "component": "FUEL SYSTEM, GASOLINE:STORAGE:TANK ASSEMBLY:MOUNTING",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2023-2027 F-150 vehicles. The fuel tank may be improperly secured and leak fuel, or detach from the vehicle while driving.",
+     "ota": false,
+     "found_via": "ford/f-150"
+    },
+    "26V655000": {
+     "campaign": "26V655000",
+     "date": "06/10/2026",
+     "component": "SEATS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2027 F-150 vehicles. The front seats may have been improperly secured to the vehicle.",
+     "ota": false,
+     "found_via": "ford/f-150"
+    },
+    "26V653000": {
+     "campaign": "26V653000",
+     "date": "06/10/2026",
+     "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2026 F-250 SD, F-350 SD, F-450 SD, F-550 SD, F-600, and 2026 F-150 vehicles. The analog cluster\u2019s tachometer and speedometer may become stuck or move erratically, providing inaccurate readings to the driver. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) Number 101, \"Controls and Displays.\"",
+     "ota": false,
+     "found_via": "ford/f-150"
+    },
+    "26V689000": {
+     "campaign": "26V689000",
+     "date": "20/10/2026",
+     "component": "STRUCTURE:BODY:TAILGATE:HINGE AND ATTACHMENTS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 F-150, 2026 F-250 SD, F-350 SD, and F-450 SD vehicles. The left-side tailgate cable may fail under certain heavy load conditions.",
+     "ota": false,
+     "found_via": "ford/f-150"
+    },
+    "26V157000": {
+     "campaign": "26V157000",
+     "date": "17/03/2026",
+     "component": "VISIBILITY:SUN/MOON ROOF ASSEMBLY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2026 Maverick vehicles. The moonroof glass may not have been bonded correctly to the moonroof frame, which could result in the glass panel detaching from the vehicle.",
+     "ota": false,
+     "found_via": "ford/maverick"
+    },
+    "26V418000": {
+     "campaign": "26V418000",
+     "date": "30/06/2026",
+     "component": "VISIBILITY:WINDSHIELD WIPER/WASHER:MOTOR",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2024-2026 Mustang and 2025-2026 Mustang GTD vehicles. During certain cold temperature conditions, the windshield wipers may function only at their high-speed setting and the washing system may fail to function properly.",
+     "ota": false,
+     "found_via": "ford/mustang"
+    },
+    "26V547000": {
+     "campaign": "26V547000",
+     "date": "25/08/2026",
+     "component": "ELECTRICAL SYSTEM:WIRING",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2024-2026 Mustang vehicles. The engine compartment wiring harness ground connections may fracture and result in a loss of drive power, or a loss of function in the windshield washing system, headlights, air conditioning, or engine cooling fan. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) numbers 108, \"Lamps, Reflective Devices, and Associated Equipment,\" and 104, \"Windshield Wiping and Washing Systems.\"",
+     "ota": false,
+     "found_via": "ford/mustang"
+    },
+    "26V238000": {
+     "campaign": "26V238000",
+     "date": "14/04/2026",
+     "component": "STRUCTURE:INTERIOR PANELS:SUN VISOR",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2024-2026 Ranger vehicles. The sun visor or headliner wiring harnesses may be improperly positioned or have excessive tape thickness, which can result in damaged wires.",
+     "ota": false,
+     "found_via": "ford/ranger"
+    },
+    "26V605000": {
+     "campaign": "26V605000",
+     "date": "22/09/2026",
+     "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Ranger vehicles equipped with a 10.1-inch center stack screen. The screen may lose power and fail to display the rearview camera image. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "ford/ranger"
+    },
+    "26V579000": {
+     "campaign": "26V579000",
+     "date": "09/09/2026",
+     "component": "SEAT BELTS: REAR/OTHER:BUCKLE ASSEMBLY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Transit vehicles. The wireless seat belt reminder system (SBR) within the rear seat belt buckles may malfunction and fail to show a change in buckle status.",
+     "ota": false,
+     "found_via": "ford/transit"
+    },
+    "26V062000": {
+     "campaign": "26V062000",
+     "date": "04/02/2026",
+     "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 E-Transit vehicles. Bolts inside the high-voltage battery pack may be missing washers, which can cause high electrical resistance or electrical arcing.",
+     "ota": false,
+     "found_via": "ford/e-transit"
+    }
+   },
+   "count": 41,
+   "per_model": {
+    "ford/bronco": [
+     "26V124000",
+     "26V268000",
+     "26V335000",
+     "26V343000",
+     "26V403000",
+     "26V468000",
+     "26V548000",
+     "26V580000",
+     "26V725000"
+    ],
+    "ford/bronco sport": [
+     "26V201000",
+     "26V239000",
+     "26V340000",
+     "26V548000",
+     "26V550000"
+    ],
+    "ford/e-350": [
+     "26V118000"
+    ],
+    "ford/e-450": [
+     "26V118000"
+    ],
+    "ford/escape": [
+     "26V301000"
+    ],
+    "ford/expedition": [
+     "26V104000",
+     "26V606000"
+    ],
+    "ford/explorer": [
+     "26V024000",
+     "26V121000",
+     "26V159000",
+     "26V202000",
+     "26V205000",
+     "26V343000",
+     "26V451000",
+     "26V470000",
+     "26V532000",
+     "26V548000",
+     "26V581000",
+     "26V726000"
+    ],
+    "ford/explorer hybrid": [
+     "26V415000"
+    ],
+    "ford/f-150": [
+     "26V104000",
+     "26V550000",
+     "26V576000",
+     "26V577000",
+     "26V578000",
+     "26V653000",
+     "26V655000",
+     "26V689000"
+    ],
+    "ford/maverick": [
+     "26V104000",
+     "26V157000",
+     "26V201000",
+     "26V340000",
+     "26V550000"
+    ],
+    "ford/mustang": [
+     "26V205000",
+     "26V418000",
+     "26V547000",
+     "26V548000"
+    ],
+    "ford/mustang gtd": [
+     "26V418000"
+    ],
+    "ford/ranger": [
+     "26V104000",
+     "26V238000",
+     "26V268000",
+     "26V335000",
+     "26V343000",
+     "26V548000",
+     "26V605000"
+    ],
+    "ford/transit": [
+     "26V579000"
+    ],
+    "ford/e-transit": [
+     "26V062000",
+     "26V104000"
+    ]
+   },
+   "queries": 176,
+   "done": true
+  },
+  "lincoln": {
+   "campaigns": {
+    "26V159000": {
+     "campaign": "26V159000",
+     "date": "17/03/2026",
+     "component": "SEAT BELTS",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2020-2026 Explorer and Lincoln Aviator vehicles. The seat belt anchor bolts at the second-row outer seating positions may be improperly secured.",
+     "ota": false,
+     "found_via": "lincoln/aviator"
+    },
+    "26V202000": {
+     "campaign": "26V202000",
+     "date": "31/03/2026",
+     "component": "VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM:FAN/MOTOR",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Lincoln Aviator and Explorer vehicles. The heating, ventilation and air-conditioning (HVAC) system may fail, which can cause the defrosting and defogging system to become inoperative.",
+     "ota": false,
+     "found_via": "lincoln/aviator"
+    },
+    "26V451000": {
+     "campaign": "26V451000",
+     "date": "14/07/2026",
+     "component": "SEATS:MID/REAR ASSEMBLY",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2020-2027 Aviator and 2020-2026 Explorer vehicles. The switch for the easy-entry second-row outer seats may bind or stick, resulting in the seats unlatching, tipping, or sliding unexpectedly.",
+     "ota": false,
+     "found_via": "lincoln/aviator"
+    },
+    "26V470000": {
+     "campaign": "26V470000",
+     "date": "21/07/2026",
+     "component": "SEATS:FRONT ASSEMBLY:POWER ADJUST",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2027 Explorer and Lincoln Aviator vehicles. An unoccupied driver's seat may recline unintentionally during certain scenarios, such as remote unlock or remote start.",
+     "ota": false,
+     "found_via": "lincoln/aviator"
+    },
+    "26V301000": {
+     "campaign": "26V301000",
+     "date": "13/05/2026",
+     "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:INTERNAL:PARK PAWL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Escape and Lincoln Corsair vehicles. The integrated park module may fail to lock into the park position when the driver shifts into park. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 114, \"Theft Protection and Rollaway Prevention.\"",
+     "ota": false,
+     "found_via": "lincoln/corsair"
+    },
+    "26V415000": {
+     "campaign": "26V415000",
+     "date": "30/06/2026",
+     "component": "BACK OVER PREVENTION:WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2024-2027 Lincoln Nautilus Hybrid and 2025-2027 Explorer Hybrid vehicles. A software error may prevent the vehicle from making the pedestrian warning sound at certain speeds.",
+     "ota": false,
+     "found_via": "lincoln/nautilus hybrid"
+    },
+    "26V688000": {
+     "campaign": "26V688000",
+     "date": "20/10/2026",
+     "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Nautilus Hybrid and 2027 Corsair Hybrid vehicles. The vehicle may unexpectedly shift into neutral while driving, due to corrosion in the transmission's park lock actuator circuit board.",
+     "ota": false,
+     "found_via": "lincoln/nautilus hybrid"
+    },
+    "26V104000": {
+     "campaign": "26V104000",
+     "date": "21/02/2026",
+     "component": "ELECTRICAL SYSTEM: INTEGRATED TRAILER BRAKE CONTROL",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2021-2026 F-150, 2022-2026 F-250 SD, F-350 SD, F-450 SD, F-550 SD, Maverick, 2024-2026 Ranger, 2023-2026 F-600 SD, 2022-2027 Lincoln Navigator, Expedition, and 2026 E-Transit vehicles. When towing a trailer, the integrated trailer module (ITRM) may lose communication with the vehicle, possibly causing a loss of brake and turn signal lights, or a loss of brake function. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \" Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "lincoln/navigator"
+    },
+    "26V120000": {
+     "campaign": "26V120000",
+     "date": "03/03/2026",
+     "component": "SEATS:FRONT ASSEMBLY:POWER ADJUST",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Lincoln Navigator vehicles. The obstacle detection software for the driver seat may malfunction at low speeds, resulting in the seat reversing unexpectedly while driving.",
+     "ota": false,
+     "found_via": "lincoln/navigator"
+    },
+    "26V691000": {
+     "campaign": "26V691000",
+     "date": "20/10/2026",
+     "component": "SEATS:FRONT ASSEMBLY:POWER ADJUST",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2025-2027 Lincoln Navigator vehicles. The Rear Audio Control Module (RACM) may inadvertently command the chauffeur seat feature, causing the front passenger seat to adjust forward, rearward, or recline unexpectedly without occupant input.",
+     "ota": false,
+     "found_via": "lincoln/navigator"
+    }
+   },
+   "count": 10,
+   "per_model": {
+    "lincoln/aviator": [
+     "26V159000",
+     "26V202000",
+     "26V451000",
+     "26V470000"
+    ],
+    "lincoln/corsair": [
+     "26V301000"
+    ],
+    "lincoln/nautilus hybrid": [
+     "26V415000",
+     "26V688000"
+    ],
+    "lincoln/navigator": [
+     "26V104000",
+     "26V120000",
+     "26V691000"
+    ]
+   },
+   "queries": 20,
+   "done": true
+  },
+  "gm": {
+   "campaigns": {
+    "26V114000": {
+     "campaign": "26V114000",
+     "date": "26/02/2026",
+     "component": "EQUIPMENT:OTHER:OWNERS/SERVICE/OTHER MANUAL",
+     "summary": "General Motors has decided that certain 2027 Chevrolet Bolt EV, 2025-2026 Cadillac OPTIQ, Chevrolet Colorado, Equinox EV, GMC Canyon, 2026 Buick Enclave, Envision, Cadillac CT5, Escalade, Escalade ESV, Escalade IQ, Escalade IQL, LYRIQ, VISTIQ, Chevrolet Blazer EV, Corvette Convertible, Corvette Coupe, Corvette Convertible E-Ray, Equinox, Silverado 1500, 2500, 3500, Silverado EV, Suburban 1500, Tahoe, Traverse, GMC Acadia, Hummer EV Pickup, Hummer EV SUV, Sierra 1500, 2500, 3500, Sierra EV, Terrain, Yukon, and Yukon XL vehicles. The radio may not have been set to the correct status to download the electronic owner's manual during production. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \u201cOccupant  Protection.\u201d",
+     "ota": false,
+     "found_via": "chevrolet/colorado"
+    },
+    "26V127000": {
+     "campaign": "26V127000",
+     "date": "05/03/2026",
+     "component": "TIRES:SIDEWALL",
+     "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Express Cutaway, and 2025-2026 Savana Cutaway vehicles.  These vehicles may be equipped with a tire with sidewall damage.",
+     "ota": false,
+     "found_via": "chevrolet/express"
+    },
+    "26V345000": {
+     "campaign": "26V345000",
+     "date": "28/05/2026",
+     "component": "STEERING:COLUMN",
+     "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Express and GMC Savana vehicles. The gear shifter may provide inaccurate gear selection feedback to the driver due to an incorrectly manufactured steering column assembly.",
+     "ota": false,
+     "found_via": "chevrolet/express"
+    },
+    "26V399000": {
+     "campaign": "26V399000",
+     "date": "23/06/2026",
+     "component": "STEERING",
+     "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Express, and 2025-2026 Savana vehicles. The steering gear assembly may have a nut that was not properly tightened.",
+     "ota": false,
+     "found_via": "chevrolet/express"
+    },
+    "26V718000": {
+     "campaign": "26V718000",
+     "date": "29/10/2026",
+     "component": "STEERING",
+     "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Chevrolet Express and GMC Savana vehicles. The steering gear assembly may have a nut that was not properly tightened.",
+     "ota": false,
+     "found_via": "chevrolet/express"
+    },
+    "26V289000": {
+     "campaign": "26V289000",
+     "date": "07/05/2026",
+     "component": "POWER TRAIN:TRANSFER CASE (4-WHEEL DRIVE)",
+     "summary": "General Motors, LLC (GM) is recalling certain 2026 Cadillac Escalade and Escalade ESV, Chevrolet Silverado 1500, Suburban, and Tahoe, and GMC Sierra 1500, Yukon, and Yukon XL vehicles with four-wheel (4WD) or all-wheel drive (AWD), and certain 2015-2020 Suburban, Escalade, Escalade ESV, Yukon, Yukon XL, and Tahoe vehicles. A component missing from the drivetrain transfer case may cause the front and/or rear wheels to lock up without warning to the driver.",
+     "ota": false,
+     "found_via": "chevrolet/tahoe"
+    },
+    "26V304000": {
+     "campaign": "26V304000",
+     "date": "14/05/2026",
+     "component": "WHEELS:HUB",
+     "summary": "General Motors, LLC is recalling certain 2025\u20132026 Cadillac Escalade, Escalade ESV, Chevrolet Suburban 1500, Tahoe, GMC Yukon, and Yukon XL vehicles with 24-inch wheels. Incorrect bolts may have been installed on the left and right front wheel hubs, which can result in the bolts loosening or deforming over time.",
+     "ota": false,
+     "found_via": "chevrolet/tahoe"
+    },
+    "26V539000": {
+     "campaign": "26V539000",
+     "date": "20/08/2026",
+     "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+     "summary": "General Motors, LLC is recalling certain 2024-2025 Buick Envista, 2024-2026 Buick Encore GX, Chevrolet Trailblazer, and 2025 Chevrolet Trax vehicles. The rearview camera screen may display a distorted or blank image.",
+     "ota": false,
+     "found_via": "chevrolet/trailblazer"
+    },
+    "26V696000": {
+     "campaign": "26V696000",
+     "date": "21/10/2026",
+     "component": "SEATS",
+     "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Traverse, and GMC Acadia vehicles. The driver or front passenger seat may not have sufficient welds where the seat back recliner pivot mechanism attaches to a bracket on the seat frame.",
+     "ota": false,
+     "found_via": "chevrolet/traverse"
+    },
+    "26V129000": {
+     "campaign": "26V129000",
+     "date": "05/03/2026",
+     "component": "FUEL SYSTEM, GASOLINE:DELIVERY:FUEL PUMP:CONTROL/DRIVE MODULE",
+     "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Chevrolet Silverado 3500, and GMC Sierra 3500 vehicles with gasoline engines and dual fuel tanks (RPOs L8T and N2N). The rear fuel pump may not transfer adequate fuel to the front tank, causing an engine stall.",
+     "ota": false,
+     "found_via": "chevrolet/silverado 3500"
+    },
+    "26V494000": {
+     "campaign": "26V494000",
+     "date": "30/07/2026",
+     "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+     "summary": "General Motors, LLC is recalling certain 2026 Cadillac Escalade IQ, Escalade IQL, GMC Sierra EV, Chevrolet Silverado EV, and 2022 GMC Hummer EV Pickup vehicles. The high voltage battery may have an improperly secured internal module component.",
+     "ota": false,
+     "found_via": "chevrolet/silverado ev"
+    },
+    "26V496000": {
+     "campaign": "26V496000",
+     "date": "30/07/2026",
+     "component": "WHEELS",
+     "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Silverado EV and GMC Sierra EV vehicles. A manufacturing defect may result in the steel wheels cracking at the disc vent holes.",
+     "ota": false,
+     "found_via": "chevrolet/silverado ev"
+    },
+    "26V717000": {
+     "campaign": "26V717000",
+     "date": "29/10/2026",
+     "component": "SERVICE BRAKES, HYDRAULIC:ANTILOCK/TRACTION CONTROL/ELECTRONIC LIMITED SLIP:CONTROL UNIT/MODULE",
+     "summary": "General Motors, LLC (GM) is recalling certain 2023\u20132027 Cadillac LYRIQ, 2025\u20132026 model year Cadillac CELESTIQ, 2024\u20132027 Chevrolet Blazer EV, and 2026-2027 Cadillac VISTIQ vehicles. The brake system control module (BSCM) contains a software defect that may cause a loss of braking during certain driving conditions.",
+     "ota": false,
+     "found_via": "chevrolet/blazer ev"
+    },
+    "26V612000": {
+     "campaign": "26V612000",
+     "date": "24/09/2026",
+     "component": "VISIBILITY:POWER WINDOW DEVICES AND CONTROLS",
+     "summary": "General Motors, LLC (GM) is recalling certain 2025-2027 Cadillac OPTIQ vehicles. When closed using the key fob's express-up function, the front windows may fail to detect an obstruction and reverse direction. As such, these vehicles fail to conform to Federal Motor Vehicle Safety Standard (FMVSS) number 118, \"Power-Operated Window Systems.\"",
+     "ota": false,
+     "found_via": "cadillac/optiq"
+    },
+    "26V394000": {
+     "campaign": "26V394000",
+     "date": "18/06/2026",
+     "component": "SEATS:MID/REAR ASSEMBLY:POWER ADJUST",
+     "summary": "General Motors, LLC (GM) is recalling certain 2026-2027 Cadillac Vistiq vehicles. When the power fold feature is activated, the third-row power seatback may fail to reverse when enountering a person.",
+     "ota": false,
+     "found_via": "cadillac/vistiq"
+    }
+   },
+   "count": 15,
+   "per_model": {
+    "chevrolet/colorado": [
+     "26V114000"
+    ],
+    "chevrolet/equinox": [
+     "26V114000"
+    ],
+    "chevrolet/express": [
+     "26V127000",
+     "26V345000",
+     "26V399000",
+     "26V718000"
+    ],
+    "chevrolet/tahoe": [
+     "26V114000",
+     "26V289000",
+     "26V304000"
+    ],
+    "chevrolet/trailblazer": [
+     "26V539000"
+    ],
+    "chevrolet/traverse": [
+     "26V114000",
+     "26V696000"
+    ],
+    "chevrolet/silverado 1500": [
+     "26V114000",
+     "26V289000"
+    ],
+    "chevrolet/silverado 2500": [
+     "26V114000"
+    ],
+    "chevrolet/silverado 3500": [
+     "26V114000",
+     "26V129000"
+    ],
+    "chevrolet/silverado ev": [
+     "26V114000",
+     "26V494000",
+     "26V496000"
+    ],
+    "chevrolet/suburban 1500": [
+     "26V114000",
+     "26V289000",
+     "26V304000"
+    ],
+    "chevrolet/blazer ev": [
+     "26V114000",
+     "26V717000"
+    ],
+    "chevrolet/equinox ev": [
+     "26V114000"
+    ],
+    "gmc/acadia": [
+     "26V114000",
+     "26V696000"
+    ],
+    "gmc/canyon": [
+     "26V114000"
+    ],
+    "gmc/hummer ev pickup": [
+     "26V114000"
+    ],
+    "gmc/hummer ev suv": [
+     "26V114000"
+    ],
+    "gmc/savana": [
+     "26V127000",
+     "26V345000",
+     "26V399000",
+     "26V718000"
+    ],
+    "gmc/terrain": [
+     "26V114000"
+    ],
+    "gmc/yukon": [
+     "26V114000",
+     "26V289000",
+     "26V304000"
+    ],
+    "gmc/yukon xl": [
+     "26V114000",
+     "26V289000",
+     "26V304000"
+    ],
+    "gmc/sierra 1500": [
+     "26V114000",
+     "26V289000"
+    ],
+    "gmc/sierra 2500": [
+     "26V114000"
+    ],
+    "gmc/sierra 3500": [
+     "26V114000",
+     "26V129000"
+    ],
+    "gmc/sierra ev": [
+     "26V114000",
+     "26V494000",
+     "26V496000"
+    ],
+    "cadillac/ct5": [
+     "26V114000"
+    ],
+    "cadillac/celestiq": [
+     "26V717000"
+    ],
+    "cadillac/escalade": [
+     "26V114000",
+     "26V289000",
+     "26V304000"
+    ],
+    "cadillac/escalade esv": [
+     "26V114000",
+     "26V289000",
+     "26V304000"
+    ],
+    "cadillac/escalade iq": [
+     "26V114000",
+     "26V494000"
+    ],
+    "cadillac/escalade iql": [
+     "26V114000",
+     "26V494000"
+    ],
+    "cadillac/lyriq": [
+     "26V114000",
+     "26V717000"
+    ],
+    "cadillac/optiq": [
+     "26V114000",
+     "26V612000"
+    ],
+    "cadillac/vistiq": [
+     "26V114000",
+     "26V394000",
+     "26V717000"
+    ],
+    "buick/enclave": [
+     "26V114000"
+    ],
+    "buick/encore gx": [
+     "26V539000"
+    ],
+    "buick/envision": [
+     "26V114000"
+    ]
+   },
+   "queries": 208,
+   "done": true
+  }
+ }
+}
