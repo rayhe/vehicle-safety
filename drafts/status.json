@@ -1,6 +1,12 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-12 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1478 (Ford recall census corrected 41, Lincoln 10 first count, GM 15 confirmed; Axle McScatter, round-0 9.00, queued 2028-07-30) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1479.",
+  "current": {
+    "slug": "1480-nissan-recall-census-7-kicks-carries-three",
+    "phase": "CRITIQUE",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-12T06:30:00-08:00",
+    "round": 0
+  },
+  "last_check_note": "2026-11-12 06:30 run: RESEARCH+DRAFT #1480 (Nissan+Infiniti recall census corrected 7: Kicks 3, Leaf 2; 26V331 caught via bare-name 'kicks' after VPIC 'Kicks MPV' 400 miss; 64 queries; Mia Crumplezone; hero JPEG 1920x1280 ?v=d834634e; hard gates pre-pass: em 0, banned 0, The 0.0%, rhythm var 2329/short 12.8%/long 66.0%). Next: CRITIQUE.",
   "last_checked": "2026-11-12T00:30:00-08:00",
   "last_completed": "2026-11-12T04:50:00-08:00",
   "last_completed_date": "2026-11-12",
@@ -10,7 +16,7 @@
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T02:30:00-08:00",
+  "last_worker_run": "2026-11-12T06:30:00-08:00",
   "next": 1480,
   "queue": [
     {

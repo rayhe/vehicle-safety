@@ -1,0 +1,110 @@
+{
+ "brands": {
+  "nissan": {
+   "campaigns": {
+    "26V455000": {
+     "campaign": "26V455000",
+     "date": "16/07/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2020-2026 Nissan Armada, 2011-2013 Infiniti QX56, and 2014-2027 QX80 vehicles equipped with 22\" wheels. The Gross Axle Weight Rating (GAWR) listed on the certification label is incorrect, which can allow the vehicle to be overloaded. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims.\"",
+     "ota": false,
+     "found_via": "nissan/armada"
+    },
+    "26V023000": {
+     "campaign": "26V023000",
+     "date": "21/01/2026",
+     "component": "LATCHES/LOCKS/LINKAGES:DOORS:LATCH",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2025 Altima, Sentra, 2025-2026 Frontier, and 2026 Kicks vehicles. The door strikers may have been improperly welded and break, allowing the door to open while moving. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 206, \"Door Locks and Door Retention Components.\"",
+     "ota": false,
+     "found_via": "nissan/frontier"
+    },
+    "26V188000": {
+     "campaign": "26V188000",
+     "date": "26/03/2026",
+     "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2026 LEAF vehicles.  The high voltage battery may have internal damage that can cause a short circuit within the battery module.",
+     "ota": false,
+     "found_via": "nissan/leaf"
+    },
+    "26V425000": {
+     "campaign": "26V425000",
+     "date": "02/07/2026",
+     "component": "SEAT BELTS:REAR/OTHER:RETRACTOR",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2026 LEAF vehicles. The outer rear seat belt automatic locking retractors (ALR) may deactivate early, which can prevent a child restraint system (CRS) from securing properly. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+     "ota": false,
+     "found_via": "nissan/leaf"
+    },
+    "26V419000": {
+     "campaign": "26V419000",
+     "date": "01/07/2026",
+     "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:GEAR POSITION INDICATION (PRNDL)",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2026 Rogue vehicles. The instrument panel may not display the transmission gear selection indicator. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 102, \"Transmission Shift Lever Sequence, Starter Interlock, and Transmission Braking Effect.\"",
+     "ota": false,
+     "found_via": "nissan/rogue"
+    },
+    "26V145000": {
+     "campaign": "26V145000",
+     "date": "13/03/2026",
+     "component": "SEATS",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2026 Kicks and Sentra vehicles. The hook bracket of the front seat frames may be insufficiently welded, which can cause the front seat frames to become loose. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) numbers 207, \"Seating Systems\" and 210, \"Seat Belt Assembly Anchorages.\"",
+     "ota": false,
+     "found_via": "nissan/sentra"
+    },
+    "26V331000": {
+     "campaign": "26V331000",
+     "date": "22/05/2026",
+     "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2025-2026 Kicks vehicles. A software error in the combination meter may cause the screen display to go partially or fully blank. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 101, \"Control and Displays.\"",
+     "ota": false,
+     "found_via": "nissan/kicks"
+    }
+   },
+   "count": 7,
+   "per_model": {
+    "nissan/armada": [
+     "26V455000"
+    ],
+    "nissan/frontier": [
+     "26V023000"
+    ],
+    "nissan/leaf": [
+     "26V188000",
+     "26V425000"
+    ],
+    "nissan/rogue": [
+     "26V419000"
+    ],
+    "nissan/sentra": [
+     "26V145000"
+    ],
+    "nissan/kicks": [
+     "26V023000",
+     "26V145000",
+     "26V331000"
+    ]
+   },
+   "queries": 52,
+   "done": true
+  },
+  "infiniti": {
+   "campaigns": {
+    "26V455000": {
+     "campaign": "26V455000",
+     "date": "16/07/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2020-2026 Nissan Armada, 2011-2013 Infiniti QX56, and 2014-2027 QX80 vehicles equipped with 22\" wheels. The Gross Axle Weight Rating (GAWR) listed on the certification label is incorrect, which can allow the vehicle to be overloaded. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims.\"",
+     "ota": false,
+     "found_via": "infiniti/qx80"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "infiniti/qx80": [
+     "26V455000"
+    ]
+   },
+   "queries": 12,
+   "done": true
+  }
+ }
+}
