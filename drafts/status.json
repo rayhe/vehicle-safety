@@ -11,7 +11,7 @@
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
   "last_worker_run": "2026-11-12T08:30:00-08:00",
-  "next": 1482,
+  "next": 1483,
   "queue": [
     {
       "journalist": "Rex Driverton",
