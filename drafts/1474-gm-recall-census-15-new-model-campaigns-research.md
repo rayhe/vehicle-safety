@@ -8,7 +8,7 @@
 
 ## Angle (1-2 sentences)
 
-Yesterday this site re-ran the Ford new-model recall census: 40 campaigns on 2026-model-year Fords filed in 2026, up from 25 in September. I ran the exact same method on General Motors. GM's brand-new 2026 vehicles carry **15 campaigns** — less than half of Ford's — but a third of them belong to one vehicle, the Express/Savana van, which GM recalled for the *same* steering-gear nut twice in four months.
+Earlier today this site re-ran the Ford new-model recall census: 40 campaigns on 2026-model-year Fords filed in 2026, up from 25 in September. I ran the exact same method on General Motors. GM's brand-new 2026 vehicles carry **15 campaigns** — less than half of Ford's — but a third of them belong to one vehicle, the Express/Savana van, which GM recalled for the *same* steering-gear nut twice in four months.
 
 ## Kill test
 
