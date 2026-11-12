@@ -1,0 +1,89 @@
+{
+ "brands": {
+  "bmw": {
+   "campaigns": {
+    "26V525000": {
+     "campaign": "26V525000",
+     "date": "12/08/2026",
+     "component": "POWER TRAIN:DRIVELINE:DRIVESHAFT",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2020-2026 840i, 840i xDrive, 2021-2023 540i, 540i xDrive, M550i xDrive, and 2024-2026 750e xDrive vehicles. The connection between the driveshaft and the rear differential may become damaged, possibly resulting in a loss of power to the rear wheels or a vehicle rollaway.",
+     "ota": false,
+     "found_via": "bmw/840i"
+    },
+    "26V096000": {
+     "campaign": "26V096000",
+     "date": "19/02/2026",
+     "component": "ELECTRICAL SYSTEM:WIRING",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2025 M5 Sportswagon, 2025-2026 M5, 2024-2025 750e xDrive, 2025-2026 550e xDrive, 2023-2025 I7, 2023-2025 7 Series, 2024-2026 i5, and 5 Series vehicles. The electrical wiring harness for the air conditioning system may become damaged during replacement of the cabin air filter.",
+     "ota": false,
+     "found_via": "bmw/m5"
+    },
+    "26V115000": {
+     "campaign": "26V115000",
+     "date": "27/02/2026",
+     "component": "EXTERIOR LIGHTING:TURN SIGNAL:SWITCH",
+     "summary": "BMW of North America, LLC (BMW) is recalling one 2026 S 1000 RR motorcycle. The turn signal reset button can be unintentionally activated at the same time as the turn signal, resulting in an inoperative turn signal. As such, this vehicle fails to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \u201cLamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "bmw/s 1000 rr"
+    },
+    "26V478000": {
+     "campaign": "26V478000",
+     "date": "23/07/2026",
+     "component": "ELECTRICAL SYSTEM:IGNITION",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2024 S 1000 RR US, and 2020-2026 S 1000 RR motorcycles. The vibration of the motorcycle may cause an internal component of the ignition lock to fail, which can cause the instrument display, rear lighting, and other systems such as ABS to fail, or cause an engine stall while riding.",
+     "ota": false,
+     "found_via": "bmw/s 1000 rr"
+    },
+    "26V524000": {
+     "campaign": "26V524000",
+     "date": "12/08/2026",
+     "component": "STEERING:LINKAGES:KNUCKLE:SPINDLE:ARM",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2024-2026 X3 sDrive30i, X3 30 xDrive, and X3 M50 xDrive vehicles. The steering spindle may have been incorrectly attached to the steering column.",
+     "ota": false,
+     "found_via": "bmw/x3"
+    },
+    "26V064000": {
+     "campaign": "26V064000",
+     "date": "04/02/2026",
+     "component": "EXTERIOR LIGHTING",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2026 228i Gran Coupe, 228i xDrive Gran Coupe, and M235i xDrive Gran Coupe vehicles. These vehicles are equipped with rear lights that may not function properly. FMVSS 108.",
+     "ota": false,
+     "found_via": "outside-source cross-check: CarBuzz 2026 BMW recalls page + NHTSA RCAK-26V064-3176 (API missed: model 228 400s for MY2026)"
+    },
+    "26V438000": {
+     "campaign": "26V438000",
+     "date": "08/07/2026",
+     "component": "ELECTRICAL SYSTEM:STARTER ASSEMBLY",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2023-2024 Toyota Supra, 2022-2025 2 Series Coupe, 2021-2023 5 Series, 2022-2026 Z4, 2023-2024 4 Series, 3 Series, 2021-2025 X4, and 2021-2024 X3 vehicles. The engine starter may overheat and catch fire due to wear on an internal component. Expansion of 26V056.",
+     "ota": false,
+     "found_via": "outside-source cross-check: NHTSA RCAK-26V438-1981 + Reuters Jul 23 2026 (API missed: model z4 400s for MY2026)"
+    }
+   },
+   "count": 7,
+   "per_model": {
+    "bmw/840i": [
+     "26V525000"
+    ],
+    "bmw/m5": [
+     "26V096000"
+    ],
+    "bmw/s 1000 rr": [
+     "26V115000",
+     "26V478000"
+    ],
+    "bmw/x3": [
+     "26V524000"
+    ],
+    "bmw/228i gran coupe": [
+     "26V064000"
+    ],
+    "bmw/z4": [
+     "26V438000"
+    ]
+   },
+   "queries": 230,
+   "done": true,
+   "correction_note": "API census returned 5 (230 queries); outside-source cross-check added 26V064 + 26V438, both missed because the NHTSA recalls API returns HTTP 400 for make=bmw model=228/z4/330i/530i/etc with modelYear=2026. Corrected count 7."
+  }
+ }
+}

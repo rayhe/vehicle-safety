@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-12 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1481 (Subaru recall census corrected 5: 8-car do-not-drive 26V685, 541,237 label recall 26V436, 44 queries; Clara Rollover, round-0 8.93, queued 2028-08-02) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1482.",
+  "current": {
+    "slug": "1483-bmw-recall-census-7-one-bike-318k-starters",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-12T12:30:00-08:00"
+  },
+  "last_check_note": "2026-11-12 12:30 run: RESEARCH #1483 done (BMW recall census, corrected 7: API pass 5 + cross-check added 26V064 + 26V438; 1-bike min, 318,495 starter max; Vin Wreckage). Next: DRAFT.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-12T10:30:00-08:00",
   "last_completed_date": "2026-11-12",
@@ -10,7 +15,7 @@
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T08:30:00-08:00",
+  "last_worker_run": "2026-11-12T12:30:00-08:00",
   "next": 1483,
   "queue": [
     {
