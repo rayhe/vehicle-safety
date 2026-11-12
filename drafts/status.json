@@ -1,23 +1,17 @@
 {
- "current": {
-  "slug": "1478-ford-recall-census-41-lincoln-10-corrected-count",
-  "phase": "CRITIQUE",
-  "journalist": "Axle McScatter",
-  "started": "2026-11-12T02:30:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-12 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1477 (Hyundai/Kia recall census \u2014 15 to 4; Clara Rollover, round-0 9.00, queued 2028-07-29) + PUBLISH #846 (wheel-off-loose-lug-projectile, Rex Driverton, QA pass live). Next: RESEARCH #1478.",
+ "current": null,
+ "last_check_note": "2026-11-12 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1478 (Ford recall census corrected 41, Lincoln 10 first count, GM 15 confirmed; Axle McScatter, round-0 9.00, queued 2028-07-30) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1479.",
  "last_checked": "2026-11-12T00:30:00-08:00",
- "last_completed": "2026-11-12T00:30:00-08:00",
+ "last_completed": "2026-11-12T02:30:00-08:00",
  "last_completed_date": "2026-11-12",
- "last_journalist": "Clara Rollover",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-11-12T00:30:00-08:00",
  "last_published_date": "2026-11-12",
  "last_published_slug": "846-wheel-off-loose-lug-projectile",
  "last_qa_date": "2026-11-12",
  "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
- "last_worker_run": "2026-11-12T00:30:00-08:00",
- "next": 1478,
+ "last_worker_run": "2026-11-12T02:30:00-08:00",
+ "next": 1479,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -25326,6 +25320,45 @@
     "critic_panel": "drafts/1477-hyundai-kia-recall-census-15-to-4-critic-panel-r0.md"
    },
    "note": "2026-11-12 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1477 (Hyundai 15, Kia 4; Clara Rollover, round-0 9.00, queued 2028-07-29). First Hyundai/Kia census; completes six-brand table (Ford 40, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4). Vocabulary trap: 26V308 Elantra Hybrid fire risk invisible to base-name queries. Shared defects: cluster pair 84,328, Samjin Nut loose-nut pair, Palisade/Ioniq 9 seats."
+  },
+  {
+   "number": 1478,
+   "slug": "1478-ford-recall-census-41-lincoln-10-corrected-count",
+   "title": "We Recounted Ford's Recalls. It's 41, Not 40. And Lincoln Was Never Counted at All.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-30",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "avg_critic": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 0.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "01509b62",
+    "rhythm": "pass (script exit 0: var 707.6, short 13.3%, long 65.0%)",
+    "actionable_insights": true
+   },
+   "files": {
+    "research": "drafts/1478-ford-recall-census-41-lincoln-10-corrected-count-research.md",
+    "story": "drafts/1478-ford-recall-census-41-lincoln-10-corrected-count.html",
+    "hero": "drafts/1478-ford-recall-census-41-lincoln-10-corrected-count.jpg",
+    "critic_panel": "drafts/1478-ford-recall-census-41-lincoln-10-corrected-count-critic-panel-r0.md"
+   },
+   "note": "2026-11-12 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1478 (Ford 41 corrected from 40, Lincoln 10 first count, GM 15 confirmed; Axle McScatter, round-0 9.00, queued 2028-07-30). Completes the corrected-vocabulary six-brand table (Ford 41, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4); Ford Motor Company combined 44. Vocabulary catch: 26V415 Explorer Hybrid silent-pedestrian-warning (66,383 cars) invisible to base-name queries; 26V688 invisible under 'corsair hybrid'. Super Duty hole: API returns zero rows for any F-250/F-350 spelling; #1473's 6/5 counts not reproducible, summary supports 4."
   }
  ]
 }
