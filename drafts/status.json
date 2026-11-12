@@ -1,24 +1,17 @@
 {
-  "current": {
-    "slug": "1481-subaru-recall-census-5-eight-car-do-not-drive",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-12T08:30:00-08:00",
-    "number": 1481,
-    "round": 0
-  },
-  "last_check_note": "2026-11-12 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1480 (Nissan+Infiniti recall census corrected 7: Kicks 3, Leaf 2; 26V331 caught via bare-name 'kicks' after VPIC 'Kicks MPV' 400 miss; 64 queries; Mia Crumplezone, round-0 9.00, queued 2028-08-01) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1481.",
-  "last_checked": "2026-11-12T00:30:00-08:00",
-  "last_completed": "2026-11-12T06:30:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-12 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1481 (Subaru recall census corrected 5: 8-car do-not-drive 26V685, 541,237 label recall 26V436, 44 queries; Clara Rollover, round-0 8.93, queued 2028-08-02) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1482.",
+  "last_checked": "2026-11-12T08:30:00-08:00",
+  "last_completed": "2026-11-12T08:30:00-08:00",
   "last_completed_date": "2026-11-12",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-12T00:30:00-08:00",
   "last_published_date": "2026-11-12",
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T06:30:00-08:00",
-  "next": 1481,
+  "last_worker_run": "2026-11-12T08:30:00-08:00",
+  "next": 1482,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25422,6 +25415,35 @@
         "story": "drafts/1480-nissan-recall-census-7-kicks-carries-three.html"
       },
       "note": "2026-11-12 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1480 (Nissan+Infiniti recall census corrected 7: Kicks 3, Leaf 2; 26V331 caught via bare-name 'kicks' after VPIC 'Kicks MPV' 400 miss; 64 queries; Mia Crumplezone, round-0 9.00, queued 2028-08-01)."
+    },
+    {
+      "blocked_reason": "Queued behind prior drafts; next publish slot after #1480 (2028-08-01)",
+      "created": "2026-11-12",
+      "critic_rounds": 1,
+      "files": {
+        "critic_panel": "drafts/1481-subaru-recall-census-5-eight-car-do-not-drive-critic-panel-r0.md",
+        "draft": "drafts/1481-subaru-recall-census-5-eight-car-do-not-drive.html",
+        "hero": "drafts/1481-subaru-recall-census-5-eight-car-do-not-drive.jpg",
+        "research": "drafts/1481-subaru-recall-census-5-eight-car-do-not-drive-research.md"
+      },
+      "hard_gates": {
+        "actionable_insights": true,
+        "banned_phrases": 0,
+        "css": "pass",
+        "em_dashes": 0,
+        "hero_jpeg": true,
+        "rhythm": "pass (var 852.1, short 3.6%, long 58.2%)",
+        "the_starters_pct": 2.0
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "By The Numbers",
+      "note": "Round-0 pass 8.93 avg; 7/7 critics >= 8.5. Anchor: NHTSA recalls API census Nov 12, 2026 (44 queries, VPIC 10-model list). Novel: 8-car do-not-drive minimum (26V685), five-different-components finding, 541,237-vehicle GAWR label recall with DIY sticker remedy, 26V393 shared with Toyota 15, 25V889 boundary case. One factual fix pre-ship: second-quietest corrected to third-quietest (Honda/Kia at 4).",
+      "number": 1481,
+      "phase": "SHIP_BLOCKED",
+      "score": 8.93,
+      "ship_date": "2028-08-02",
+      "slug": "subaru-recall-census-5-eight-car-do-not-drive",
+      "title": "Subaru Recalled Its New Cars 5 Times. Eight Cars Got a Do-Not-Drive Order."
     }
   ]
 }
