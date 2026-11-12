@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We Recounted Ford's Recalls. It's 41, Not 40. And Lincoln Was Never Counted at All. &mdash; The Crash Report</title>
+  <meta name="description" content="A corrected-vocabulary recount of NHTSA's recalls database moves Ford from 40 to 41 campaigns for its 2026 models, confirms GM at 15, and counts Lincoln for the first time at 10, three of them Lincoln-only.">
+  <meta property="og:title" content="We Recounted Ford's Recalls. It's 41, Not 40. And Lincoln Was Never Counted at All.">
+  <meta property="og:description" content="Ford is 41, not 40. GM is 15, confirmed. Lincoln, never counted before, is 10. Ford Motor Company as a whole: 44.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1478-ford-recall-census-41-lincoln-10-corrected-count.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>We Recounted Ford's Recalls. It's 41, Not 40. And Lincoln Was Never Counted at All.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 12, 2026</div>
+
+      <img src="../images/1478-ford-recall-census-41-lincoln-10-corrected-count.jpg?v=01509b62" alt="A dark blue Ford Explorer and a black Lincoln Navigator parked side by side in a bright dealership service bay, recall paperwork on a workbench in the foreground" class="story-hero">
+
+      <div class="story-body">
+      <p>I ran the numbers, then I ran them again, because the first count was wrong. Yesterday this site printed Ford at 40 recall campaigns for its 2026 models and GM at 15, both computed with the base-name method that Toyota and Honda already proved undercounts. I re-ran both with the corrected vocabulary, 404 queries against NHTSA's recalls database, and I ran Lincoln for the first time, a brand no census on this site has ever queried because it is a separate make in the API. <strong>Ford is 41. GM is 15, confirmed, and Lincoln is 10.</strong> Dedupe the campaigns the two Ford Motor Company makes share, and the company as a whole carries 44.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="pull-stat">41</div>
+      <div class="pull-label">Recall campaigns filed in 2026 touching 2026-model-year Fords, corrected count (was 40). Lincoln adds 10, three of them Lincoln-only</div>
+
+      <p>One campaign moved Ford's number, and it moved on a suffix. Campaign 26V415 covers 66,383 hybrid SUVs, 18,242 Explorer Hybrids and 48,141 Nautilus Hybrids, whose pedestrian warning sound may not emit below 30 kph while running in electric mode. An audio processing software error in a Harman digital signal processing module can silence the sound that tells a pedestrian a quiet car is coming. Ford logged 72 warranty claims before filing, 65 on Nautilus Hybrids and 7 on Explorers, and the campaign expands an October 2025 recall of the same defect. Query "explorer" and you get 12 campaigns, none of them 26V415. Query "explorer hybrid" and there it is. A base-name census prints 40 while the corrected census prints 41, and the one campaign it hides is a silent car in a crosswalk.<sup class="ref-link"><a href="#ref-7">[7]</a></sup><sup class="ref-link"><a href="#ref-11">[11]</a></sup></p>
+
+      <p>Lincoln is the bigger find, because the miss was structural. Lincoln is a separate make in NHTSA's API, so a census that queries make=ford never sees a Lincoln campaign, even one shared with a Ford model, unless the Ford sibling's query returns it. Seven of Lincoln's 10 are shared and were visible anyway; three were not. In March, 26V120 recalled 1,189 Navigators whose driver seat could reverse unexpectedly at low speed, moving the driver away from the pedals. In October, 26V688 recalled 11,623 Nautilus and Corsair Hybrids that can shift themselves into neutral while driving, because a supplier changed the anti-rust oil inside the park module without telling Ford or validating that the new oil was compatible with the circuit board's coating, and the oil ate the coating until the board corroded. Also in October, 26V691 recalled 36,994 Navigators whose front passenger seat moves on its own because a stereo module commands a seat feature it has no business commanding. All three were covered as standalone stories on this site. None of them had ever been counted.<sup class="ref-link"><a href="#ref-8">[8]</a></sup><sup class="ref-link"><a href="#ref-9">[9]</a></sup><sup class="ref-link"><a href="#ref-10">[10]</a></sup><sup class="ref-link"><a href="#ref-12">[12]</a></sup></p>
+
+      <p>And the trap reproduces inside the census built to catch it. Campaign 26V688 covers 63 Corsair Hybrids from the 2027 model year, but query "corsair hybrid" and the API returns zero rows. That campaign is visible only through the Nautilus Hybrid query. A census that queried only Corsair models would miss a Corsair recall. GM, meanwhile, did not move. Its corrected count is the same 15 campaigns #1474 published yesterday, same set, same order, which is a useful result in itself: the vocabulary trap is brand-specific, not universal, and a method that finds nothing new still earns its keep by confirming the old number. Across the six brands this site has now censused on the corrected method, the table reads Ford 41, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4. Ford's lead over the three-way tie at 15 is 2.7 to one. And in every brand, in every census in the series, exactly zero software fixes were flagged over-the-air: 0 of 41 for Ford, 0 of 10 for Lincoln, 0 of 15 for GM. Every fix in this census is a dealer visit.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
+
+      <p>Now the honest accounting, because 41 is a count, not a verdict. One campaign is a small correction, and it is an expansion of a 2025 recall rather than a new defect, so strip it and Ford is at 40 with a different composition. Lincoln's 10 is mostly shared with Ford, so the company-wide 44 is only 3 more than the Ford-only count, and the "never counted" framing oversells a 3-campaign delta. Counts are not severity scores: a 23-vehicle torque check and a 565,691-vehicle fire-risk recall each count once, and Ford files aggressively under its November 2024 consent order while other makers may set a higher bar. Worst of all, the method has a hole where the trucks are. NHTSA's API returns zero rows for F-250, F-350, and every Super Duty spelling tried, with or without a model-year filter, yet four of the 41 campaign summaries explicitly cover F-250 and F-350 trucks. Yesterday's census credited the F-250 with 6 campaigns and the F-350 with 5; those counts are not reproducible from the API, and the discrepancy is unresolved. Treat 41 as a floor with an unknown ceiling. It is the best count this method can produce, and the method cannot see heavy-duty pickups at all.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>What to do with this: if you own a 2025-2027 Explorer Hybrid or a 2024-2027 Nautilus Hybrid, check your VIN at nhtsa.gov/recalls for 26V415. Its symptom is silence, no warning sound below 30 kph in electric mode, and the 28-speaker Nautilus gets a new signal processing module while other vehicles wait on a remedy still under development. If you own a 2026-2027 Nautilus Hybrid or a 2027 Corsair Hybrid, check for 26V688: a wrench light with "Service Vehicle Soon" or "Shifting System Error" is the warning, and a shift into neutral while driving means pull over and call the dealer, because the replacement module has no firm date yet. If you own a 2025-2027 Navigator, check for 26V691, and if the front passenger seat moves on its own, the fix is a free software update that disables the chauffeur mode. If you are shopping a 2026 Ford or Lincoln, the Explorer carries 12 campaigns, the Bronco 9, the F-150 8, the Aviator 4, the Navigator 3. A first-year redesign with a dozen federal campaigns is a reason to buy the second year, or to negotiate like you know. And if you run a recall census of your own, never trust a bare model name, and never trust one make to cover a company. A 400 is not always a zero, and a make is not always a company.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API, census conducted Nov 12, 2026: VPIC canonical 2026 model lists per make (Ford, Lincoln, Chevrolet, GMC, Cadillac, Buick) plus Hybrid, Plug-In Hybrid, and Electric suffix variants and targeted trims (404 queries); campaigns with ReportReceivedDate in calendar 2026, deduped by campaign number. Ford 41, Lincoln 10, GM 15; 0 of 41, 0 of 10, and 0 of 15 flagged over-the-air. Raw results and runner at drafts/1478-ford-gm-recall-census-corrected-raw.json and drafts/1478-census-run.py. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">The Crash Report, #1473, &ldquo;Ford Said the Recall Deluge Was Old Cars and Software. Its Newest Vehicles Just Hit 40 Recalls.&rdquo; (Nov 11, 2026): Ford 40, Toyota 7, Honda 2; base-name method; 0 of 40 over-the-air. <a href="https://vehicle-safety.org/stories/1473-ford-recall-census-40-new-model-campaigns" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-3">The Crash Report, #1474, &ldquo;GM Recalled the Same Steering Nut Twice in Four Months. It Still Beats Ford 15 to 40.&rdquo; (Nov 11, 2026): GM 15; base-name method. <a href="https://vehicle-safety.org/stories/1474-gm-recall-census-15-new-model-campaigns" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-4">The Crash Report, #1475, &ldquo;We Undercounted Toyota's Recalls by Half. The Real Number Is 15.&rdquo; (Nov 11, 2026): corrected-vocabulary method; Toyota 15; 0 of 15 over-the-air. <a href="https://vehicle-safety.org/stories/1475-toyota-recall-census-15-corrected-count" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-5">The Crash Report, #1476, &ldquo;Honda's Recall Count Was Wrong Too. It's 4, Not 2.&rdquo; (Nov 11, 2026): Honda 4; 0 of 4 over-the-air. <a href="https://vehicle-safety.org/stories/1476-honda-recall-census-4-corrected-count" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-6">The Crash Report, #1477, &ldquo;Same Company, Same Parts Bin. Hyundai Recalled Its New Cars 15 Times. Kia Recalled 4.&rdquo; (Nov 12, 2026): Hyundai 15, Kia 4; 0 of 19 over-the-air. <a href="https://vehicle-safety.org/stories/1477-hyundai-kia-recall-census-15-to-4" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-7">NHTSA Part 573 Safety Recall Report, 26V415 (Jun 28, 2026): 66,383 vehicles (18,242 Explorer Hybrid 2025&ndash;2027, 48,141 Nautilus Hybrid 2024&ndash;2027); Harman 24-channel DSP module; audio processing software error; pedestrian warning sound may not emit below 30 kph in electric mode; 72 warranty claims as of May 1, 2026; expansion of 25V691; DSP module replacement for 28-speaker Nautilus, other remedies under development; interim letters Aug 3, 2026. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V415-6798.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-8">NHTSA Part 573 Safety Recall Report, 26V688 (Oct 20, 2026): 11,623 vehicles (11,560 Nautilus Hybrid 2026&ndash;2027, 63 Corsair Hybrid 2027); HF55 transmission; IPM supplier changed anti-rust oil without notifying Ford or validating compatibility; oil degrades conformal coating on the PCB, corrosion drops voltage on the rotary sensor; unexpected shift to Neutral while driving, or inability to shift out of Park when stationary; DTC P271A; 15 US warranty claims (106 global), 0 crashes/fires/injuries as of Sep 28, 2026; remedy is IPM replacement; repair instructions expected Dec 21, 2026. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V688-0857.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-9">USA Today, &ldquo;Ford recalls over 36K vehicles. See the affected model&rdquo; (Nov 9, 2026): 26V691, 36,994 2025&ndash;2027 Lincoln Navigators; Rear Audio Control Module may command the chauffeur seat feature, front passenger seat moves unexpectedly; Ford 26S77; owner letters in November. <a href="https://www.usatoday.com/story/cars/recalls/2026/11/09/ford-recalls-vehicles-lincoln-navigator-model/92687705007/" target="_blank" rel="noopener">usatoday.com</a></li>
+          <li id="ref-10">The Crash Report, #1423, &ldquo;Your Navigator's Stereo Can Move Your Seat. Ford's Fix Is to Delete the Feature.&rdquo; (Nov 7, 2026): prior standalone coverage of 26V691 and 26V120 (1,189 2026 Navigators built Nov 26&ndash;Dec 16, 2025; driver-seat obstacle-detection software; Gentherm module; remedy removes automatic reversal; owner letters Mar 13&ndash;27, 2026; 0 crashes/injuries). <a href="https://vehicle-safety.org/stories/1423-navigator-audio-module-moves-seat" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-11">WardsAuto, &ldquo;Ford recalls 66K hybrid SUVs for missing pedestrian warning sounds&rdquo; (Jul 9, 2026): independent confirmation of 26V415's 66,383 count, the 25V691 expansion (Oct 2025, ~43,000 Nautilus), and the 100% defect estimate. <a href="https://www.wardsauto.com/news/ford-recalls-66k-hybrid-suvs-for-missing-pedestrian-warning-sounds/824753/" target="_blank" rel="noopener">wardsauto.com</a></li>
+          <li id="ref-12">The Autowire, &ldquo;Lincoln Nautilus Hybrid Recall: 11,623 Can Shift to Neutral&rdquo; (Nov 3, 2026): independent confirmation of 26V688's supplier-oil mechanism, unit split, and claim counts. <a href="https://theautowire.com/2026/11/03/lincoln-nautilus-hybrid-recall-supplier-anti-rust-oil-park-module/" target="_blank" rel="noopener">theautowire.com</a></li>
+          <li id="ref-13">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API census conducted Nov 12, 2026, and NHTSA FARS 2014&ndash;2023. Campaign counts are not severity scores; see <a href="../#method">methodology</a> for caveats. Check your VIN at <a href="https://www.nhtsa.gov/recalls">nhtsa.gov/recalls</a>.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
