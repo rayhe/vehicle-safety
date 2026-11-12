@@ -1,6 +1,11 @@
 {
- "current": null,
- "last_check_note": "2026-11-11 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1473 (Ford recall census re-run: 40 campaigns on 2026-MY Fords, Rex Driverton, round-1 8.93, queued 2028-07-25). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12. Next: RESEARCH #1474.",
+ "current": {
+  "slug": "1475-toyota-recall-census-15-corrected-count",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-11-11T20:30:00-08:00"
+ },
+ "last_check_note": "2026-11-11 20:30 run: RESEARCH #1475 (Toyota recall census corrected: 15 campaigns, not 7; Axle McScatter). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12.",
  "last_checked": "2026-11-11T14:30:00-08:00",
  "last_completed": "2026-11-11T18:49:00-08:00",
  "last_completed_date": "2026-11-11",
@@ -10,7 +15,7 @@
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
- "last_worker_run": "2026-11-11T16:30:00-08:00",
+ "last_worker_run": "2026-11-11T20:30:00-08:00",
  "next": 1475,
  "queue": [
   {
