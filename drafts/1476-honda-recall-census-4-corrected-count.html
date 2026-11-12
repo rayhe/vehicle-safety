@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Honda's Recall Count Was Wrong Too. It's 4, Not 2. &mdash; The Crash Report</title>
+  <meta name="description" content="This site published Honda's 2026-model-year recall count twice: 2 in September, 2 again this morning. Both were wrong. A recount with the full model-name vocabulary finds 4 campaigns, including a recall and its own re-recall of the same tire-repair kit, and loose subframe bolts on brand-new 2026 Pilots and Passports.">
+  <meta property="og:title" content="Honda's Recall Count Was Wrong Too. It's 4, Not 2.">
+  <meta property="og:description" content="This site published Honda's 2026-model-year recall count twice: 2 in September, 2 again this morning. Both were wrong. A recount with the full model-name vocabulary finds 4 campaigns, including a recall and its own re-recall of the same tire-repair kit, and loose subframe bolts on brand-new 2026 Pilots and Passports.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1476-honda-recall-census-4-corrected-count.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">Trend Watch</div>
+      <h1>Honda's Recall Count Was Wrong Too. It's 4, Not 2.</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">November 11, 2026</div>
+
+      <img src="../images/1476-honda-recall-census-4-corrected-count.jpg?v=312881f7" alt="A 2026 Honda Pilot SUV on a service lift in a dealership bay, a technician in gloves inspecting the rear subframe bolts with a torque wrench" class="story-hero">
+
+      <div class="story-body">
+      <p>I cover airbags and crumple zones for a living, so I notice when a recall count is built on a spelling error. This site published Honda's 2026-model-year recall count twice, 2 in September and 2 again this morning, and both numbers were wrong, because the method that produced them was quietly dropping exactly the cars Honda sells now. Run the census with the full model-name vocabulary and Honda's brand-new vehicles carry <strong>4 federal recall campaigns filed in 2026</strong>, double the number in this morning's headline. Ford still leads at 40, GM and Toyota sit at 15 each, and Honda is still the cleanest of the four, just less clean than we told you.</p>
+
+      <div class="pull-stat">4</div>
+      <div class="pull-label">federal recall campaigns touching 2026-model-year Honda vehicles, filed Jan 1&ndash;Nov 11, 2026; twice the 2 this site published this morning</div>
+
+      <p>That bug is ours, not Honda's, and it is the same one that doubled Toyota's count yesterday. NHTSA's recalls API answers a make, model, and model-year query with rows or an HTTP 400, and every census on this site has treated 400 as zero campaigns. Such a rule works for a gas model with no recalls. It also fires when the model name is wrong, and Honda's 2026 lineup is full of hybrid-only nameplates whose base names fail even when campaigns exist under the suffixed name. Query "accord" and the API shrugs. Query "accord hybrid" and it returns 26V366 and 26V663, the tire-repair kit that can fire its sealant-bottle cap like a projectile. Same for "cr-v" versus "cr-v hybrid." Both campaigns the old tally counted are exactly the ones whose models answer under their base names: Odyssey, Pilot, Passport. Missed entirely: the pair that only exists under hybrid suffixes. A second trap waited underneath. Report dates come back as day, month, year, so a filter looking for a leading "2026" returns zero campaigns and calls it a census.</p>
+
+      <p>Two of Honda's four campaigns are the same defect. In June, 26V366 recalled 1,049,883 hybrids because pressure in the tire repair kit can blow the sealant-bottle cap off, and eight people were hurt before the recall. Honda's fix was a new nozzle. Then the warehouse shipped pre-fix nozzles as the remedy, and nobody could tell which boxes held the bad parts, so September brought 26V663: 4,804 already-recalled cars recalled again for a second fix. Honda figures about 48 of them actually carry a bad nozzle, and the rest come back because traceability is gone. Count the campaigns and Honda has four. Count the defects and it has three. Both numbers belong in the article, and the second one is the more honest measure of what went wrong.</p>
+
+      <p>One campaign in the census touches 2026-only metal, and it is pure assembly error. In July, 26V424 recalled 3,933 Pilots and Passports built over nineteen days in April and May at the Alabama plant, because a new rear subframe pallet went on the line and the bolt-tightening equipment settings were never updated. Grease application was off, the gearbox adjustment was off, the pallet clamp was misadjusted, and 3,933 SUVs left the plant with under-torqued rear subframe bolts. Honda caught it by production sampling with zero warranty claims, which is the system working, and the fix is a free 75-minute inspection. A loose subframe bolt can cost a car its stability or the subframe itself. Nineteen days of production, one pallet change, no updated torque spec.</p>
+
+      <p>Last is an expansion, not a debut. 26V332 covers 98,892 vehicles across 23 Honda and Acura model entries, and its 2026-model-year footprint is the Odyssey. A capacitor in the front passenger seat weight sensor can crack from humidity and short circuit, which can fire the frontal and knee airbags at a child or a small adult sitting where the sensor says nobody is. It expands a 2024 recall that covered more than 750,000 vehicles. Honda logged 228 warranty claims and no injuries, and the remedy is a sensor swap. This is the campaign that should make a parent check a VIN, because the warning sign is easy to miss: the SRS light on, the passenger airbag indicator staying off.</p>
+
+      <p>Campaign counts are not severity scores, and this correction is a methodology story, not a safety story. Every missed campaign sat in NHTSA's public database the whole time, filed on schedule, with owner letters mailed. Honda's reporting looks diligent, not evasive, and the ranking does not move: four campaigns across five nameplates is still the cleanest new-model record of the four brands, with Ford at ten times Honda's count. What the recount proves is narrower: a 400 from the NHTSA API is not always a zero, a model list built on base names misses the hybrids, and our Ford and GM counts from this morning were built with the same method, so a re-run of both with the corrected vocabulary is owed. If you own a 2023&ndash;2026 Accord Hybrid or CR-V Hybrid and had the June tire-kit fix done, check your VIN tonight: you may owe the dealer a second visit, and the fix is free. If you own a 2026 Pilot or Passport built between April 27 and May 15, book the 75-minute bolt inspection. If you own a 2018&ndash;2026 Odyssey, watch for the SRS light. And if you run a recall census of your own, query the VPIC canonical model list, then the hybrid variants, because the API will happily tell you a car has no recalls when it only means you spelled the car wrong.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API, census conducted Nov 11, 2026: 2026-model-year Honda vehicles, 12 VPIC canonical model names plus 24 hybrid/PHEV suffix variants (36 queries), campaigns with ReportReceivedDate in calendar 2026, deduped by campaign number. Honda 4; 0 of 4 flagged over-the-air. Raw results at /tmp/rcl1476/census_raw.json and /tmp/rcl1476/campaigns.json. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">The Crash Report, #1473, &ldquo;Ford Said the Recall Deluge Was Old Cars and Software. Its Newest Vehicles Just Hit 40 Recalls.&rdquo; (Nov 11, 2026): Ford 40, Toyota 7, Honda 2; 0 of 40 over-the-air. <a href="https://vehicle-safety.org/stories/1473-ford-recall-census-40-new-model-campaigns" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-3">The Crash Report, #1474, &ldquo;GM Recalled the Same Steering Nut Twice in Four Months. It Still Beats Ford 15 to 40.&rdquo; (Nov 11, 2026): GM 15; 0 of 15 over-the-air. <a href="https://vehicle-safety.org/stories/1474-gm-recall-census-15-new-model-campaigns" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-4">The Crash Report, #1475, &ldquo;We Undercounted Toyota's Recalls by Half. The Real Number Is 15.&rdquo; (Nov 11, 2026): corrected-vocabulary method; Toyota 15; 0 of 15 over-the-air. <a href="https://vehicle-safety.org/stories/1475-toyota-recall-census-15-corrected-count" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-5">The Crash Report, #815, &ldquo;Ford Says Its Recall Problem Is Old Cars and Software. I Checked the 2026s.&rdquo; (Sep 3, 2026): Ford 25, Toyota 5, Honda 2. <a href="https://vehicle-safety.org/" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-6">The Crash Report, #1135, &ldquo;Honda 26V332000 &mdash; The Seat Sensor That Lets the Airbag Fire at Your Kid&rdquo; (Oct 11, 2026): 26V332, 98,892 vehicles, 23 model entries, expands 24V064; 228 warranty claims, 0 injuries. <a href="https://vehicle-safety.org/stories/1135-honda-cracked-capacitor-airbag-child-seat" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-7">The Crash Report, #1178, &ldquo;Honda 26V663, the Recall of a Recall&rdquo; (Oct 2026): 26V366, 1,049,883 vehicles, 8 injuries; 26V663, 4,804 vehicles, ~48 defective, warehouse mix-up destroyed traceability. <a href="https://vehicle-safety.org/stories/1178-honda-26v663-recall-of-a-recall" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-8">Honda News, &ldquo;2026 Honda Pilot and Passport Rear Subframe Bolts Safety Recall&rdquo; (Jul 10, 2026): 26V424, 3,933 vehicles (2,134 Pilot, 1,799 Passport), built Apr 27&ndash;May 15, 2026, Alabama plant; new subframe pallet, torque settings never updated; 0 warranty claims; 75-minute fix. <a href="https://hondanews.com/en-US/honda-corporate/releases/release-197619b9ee3ec0adfccef0bd5f05bcef-2026-honda-pilot-and-passport-rear-subframe-bolts-safety-recall" target="_blank" rel="noopener">hondanews.com</a></li>
+          <li id="ref-9">NHTSA owner notification letter, 26V424 (Aug 2026): rear subframe bolts may loosen under impact or driving loads; partial or complete detachment possible. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCONL-26V424-0020.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-10">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API census conducted Nov 11, 2026, and NHTSA FARS 2014&ndash;2023. Campaign counts are not severity scores; see <a href="../#method">methodology</a> for caveats. Check your VIN at <a href="https://www.nhtsa.gov/recalls">nhtsa.gov/recalls</a>.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>

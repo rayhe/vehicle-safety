@@ -1,12 +1,13 @@
 {
  "current": {
   "slug": "1476-honda-recall-census-4-corrected-count",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Mia Crumplezone",
-  "started": "2026-11-11T22:45:00-08:00"
+  "started": "2026-11-11T22:45:00-08:00",
+  "round": 0
  },
- "last_check_note": "2026-11-11 22:30 run: RESEARCH #1476 (Honda recall census corrected: 4, not 2; same vocabulary-gap miss as Toyota; 26V366/26V663 tire-kit recall-of-a-recall + 26V424 subframe bolts; Mia Crumplezone).",
- "last_checked": "2026-11-11T22:45:00-08:00",
+ "last_check_note": "2026-11-11 22:30 run: DRAFT #1476 done (hero JPEG 1920x1280, hash 312881f7); CRITIQUE round-0 panel: avg 9.00, all 7 at 8.5+, hard gates pass (em 0, banned 0, The 1.7%, css ok).",
+ "last_checked": "2026-11-11T22:50:00-08:00",
  "last_completed": "2026-11-11T20:30:00-08:00",
  "last_completed_date": "2026-11-11",
  "last_journalist": "Axle McScatter",
@@ -15,7 +16,7 @@
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
- "last_worker_run": "2026-11-11T22:45:00-08:00",
+ "last_worker_run": "2026-11-11T22:50:00-08:00",
  "next": 1476,
  "queue": [
   {
