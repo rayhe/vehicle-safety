@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "1484-nissan-kicks-beats-rav4-rear-seat-test",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
     "started": "2026-11-12T14:30:00-08:00",
-    "number": 1484
+    "number": 1484,
+    "round": 0
   },
   "last_check_note": "2026-11-12 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1483 (BMW recall census corrected 7: 1-bike min, 318,495 starter max; Vin Wreckage, round-0 8.87, queued 2028-08-04) + PUBLISH skipped (1/day gate already met today: #846 published 00:30). Next: RESEARCH #1484.",
   "last_checked": "2026-11-12T08:30:00-08:00",
