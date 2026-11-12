@@ -1,9 +1,10 @@
 {
  "current": {
   "slug": "1475-toyota-recall-census-15-corrected-count",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Axle McScatter",
-  "started": "2026-11-11T20:30:00-08:00"
+  "started": "2026-11-11T20:30:00-08:00",
+  "round": 0
  },
  "last_check_note": "2026-11-11 20:30 run: RESEARCH #1475 (Toyota recall census corrected: 15 campaigns, not 7; Axle McScatter). PUBLISH-QUEUE skipped: 1/day gate already met (#845 published 2026-11-11). Due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12.",
  "last_checked": "2026-11-11T14:30:00-08:00",

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We Undercounted Toyota's Recalls by Half. The Real Number Is 15. &mdash; The Crash Report</title>
+  <meta name="description" content="This site published Toyota's 2026-model-year recall count twice: 5 in September, 7 this morning. Both were wrong. A recount with the full model-name vocabulary finds 15 campaigns, including three loss-of-drive-power software recalls and a fuel leak with no fix on the shelf.">
+  <meta property="og:title" content="We Undercounted Toyota's Recalls by Half. The Real Number Is 15.">
+  <meta property="og:description" content="This site published Toyota's 2026-model-year recall count twice: 5 in September, 7 this morning. Both were wrong. A recount with the full model-name vocabulary finds 15 campaigns, including three loss-of-drive-power software recalls and a fuel leak with no fix on the shelf.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1475-toyota-recall-census-15-corrected-count.jpg">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>We Undercounted Toyota's Recalls by Half. The Real Number Is 15.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 11, 2026</div>
+
+      <img src="../images/1475-toyota-recall-census-15-corrected-count.jpg?v=90a12583" alt="A 2026 Toyota Land Cruiser Hybrid on a service lift in a dealership bay, hood open, a technician inspecting the fuel line area with a flashlight" class="story-hero">
+
+      <div class="story-body">
+      <p>I ran the numbers. Then I ran them again. They didn't get better, for us. This site published Toyota's 2026-model-year recall count twice, 5 in September and 7 this morning, and both numbers were wrong, because the method that produced them was quietly dropping exactly the cars Toyota sells now. Run the census with the full model-name vocabulary and Toyota's brand-new vehicles carry <strong>15 federal recall campaigns filed in 2026</strong>, double the number in this morning's headline. Ford still leads at 40, GM and Toyota are now tied at 15, and the gap I reported twelve hours ago never existed.</p>
+
+      <div class="pull-stat">15</div>
+      <div class="pull-label">federal recall campaigns touching 2026-model-year Toyota vehicles, filed Jan 1&ndash;Nov 11, 2026; twice the 7 this site published this morning</div>
+
+      <p>Here is the bug, and it is ours, not Toyota's. NHTSA's recalls API answers a make, model, and model-year query with either rows or an HTTP 400, and every census on this site has treated 400 as zero campaigns. That rule works for a gas model with no recalls. It also fires when the model name is wrong, and Toyota's 2026 lineup is full of hybrid-only nameplates whose base names fail even when campaigns exist under the suffixed name. Query "camry" and the API shrugs. Query "camry hybrid" and it returns 26V511, an instrument-cluster display that can fail at startup and kill the hazard lights, turn signals, and seat-belt warning. Same story for "land cruiser" versus "land cruiser hybrid" (26V673, a fuel tube that can disconnect and leak), "sienna" versus "sienna hybrid" (26V690, second-row seatbacks that may not stay secured in a crash), and "rav4" versus "rav4 hybrid" and "rav4 plug-in hybrid" (26V571 and 26V659). Six of the eight missed campaigns hid behind that gap. Two more hid behind a stale model list: the C-HR, bZ, and bZ Woodland are all 2026 debuts, and none was in the query list built from the 2025 lineup.</p>
+
+      <p>Three of the eight newly found campaigns are the same failure in three new cars, a control-unit fault that shuts down propulsion, fixed by a dealer software update, no parts involved. June brought the bZ (26V393), a Denso battery ECU memory fault that can kill drive power at speed across 11,495 US vehicles. September brought the C-HR (26V570), where regenerative braking can overcharge the battery until the drive system shuts itself down, 8,521 vehicles in the US. October brought the RAV4 Plug-in Hybrid (26V659), a motor-generator ECU error that can cut power at higher speeds, roughly 31,000 vehicles. RoadEthos spotted the pattern first and counted a fourth member, the previous-generation RAV4 Prime under 23V-041, recalled in 2023 for the same outcome. America's best-selling SUV, 479,288 sold in 2025, all-hybrid for 2026, inherited the failure mode of the car it replaced in its first model year, which is a different proposition from three unrelated software bugs.</p>
+
+      <p>Two campaigns in the corrected count are hardware, and no accounting trick removes them. Grand Highlander is Toyota's most-recalled 2026 vehicle at three campaigns, including a steering knuckle that may crack and break (26V598) and a rear axle carrier built with insufficient material strength (26V437). Land Cruiser carries one campaign, 26V673, covering 105,794 hybrids from model years 2024 through 2027, and it is the only campaign in the census where the remedy part does not exist yet. Toyota filed on October 14 without naming a cause, after 23 field reports and 64 US warranty claims, and estimates the supplemental clamp will be ready in December, while owner letters run November 29 to December 13. A Land Cruiser owner who smells fuel today is waiting on a part that is still being manufactured.</p>
+
+      <p>Four of the 15 are wrong stickers, load-capacity labels filed partly by regional distributors, one of them covering exactly one truck, and stripping them leaves 11 real-defect campaigns, still ahead of GM's 14 ex-manual but close enough to call noise. Campaign counts are not severity scores, and this correction is a methodology story, not a safety story: every missed campaign sat in NHTSA's public database the whole time, filed on schedule, with owner letters mailed, which is diligent reporting, not evasion. Ford's 40 partly reflects its November 2024 consent order pushing aggressive early filing, and Toyota's 15 may partly reflect the opposite. What the recount does prove is narrower and more useful: a 400 from the NHTSA API is not always a zero, a model list built last year misses this year's cars, and our Ford and GM counts from this morning were built with the same method, so a re-run of both with the corrected vocabulary is owed, starting with GM's hybrid-only nameplates.</p>
+
+      <p>If you own a 2026 Toyota, run your VIN at nhtsa.gov/recalls tonight. Grand Highlander owners have three campaigns to check, RAV4, 4Runner, and Tundra owners have two each, and bZ, C-HR, and RAV4 Plug-in Hybrid owners should book the free dealer software update rather than waiting for a letter, because a control-unit fault gives no warning before it acts. Land Cruiser owners: if you smell fuel, call the dealer now, do not wait for December's clamp to arrive on a schedule. And if you run a recall census of your own, query the VPIC canonical model list, then the hybrid and plug-in variants, because the API will happily tell you a car has no recalls when it only means you spelled the car wrong.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API, census conducted Nov 11, 2026: 2026-model-year Toyota vehicles, 24 VPIC canonical model names plus 13 hybrid/PHEV suffix variants, campaigns with ReportReceivedDate in calendar 2026, deduped by campaign number. Toyota 15; 0 of 15 flagged over-the-air. Raw results at /tmp/rcl1475/census.json, census_vpic.json, campaigns.json. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">The Crash Report, #1473, &ldquo;Ford Said the Recall Deluge Was Old Cars and Software. Its Newest Vehicles Just Hit 40 Recalls.&rdquo; (Nov 11, 2026): Ford 40, Toyota 7, Honda 2; 0 of 40 over-the-air. <a href="https://vehicle-safety.org/stories/1473-ford-recall-census-40-new-model-campaigns" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-3">The Crash Report, #1474, &ldquo;GM Recalled the Same Steering Nut Twice in Four Months. It Still Beats Ford 15 to 40.&rdquo; (Nov 11, 2026): GM 15; 0 of 15 over-the-air. <a href="https://vehicle-safety.org/stories/1474-gm-recall-census-15-new-model-campaigns" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-4">The Crash Report, #815, &ldquo;Ford Says Its Recall Problem Is Old Cars and Software. I Checked the 2026s.&rdquo; (Sep 3, 2026): Ford 25, Toyota 5, Honda 2. <a href="https://vehicle-safety.org/" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-5">NHTSA recall acknowledgement letter, 26V673 (Oct 20, 2026): 105,794 Land Cruiser Hybrids, 2024&ndash;2027; fuel tube may disconnect and leak. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCAK-26V673-6622.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-6">NHTSA Part 573 Safety Recall Report, 26V393 (Jun 18, 2026): 20,991 vehicles total (11,495 bZ); Denso battery ECU memory fault shuts down the drive system at speed; 100% defect share in the involved population. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V393-3335.pdf" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-7">RoadEthos, &ldquo;Toyota Keeps Recalling Its Newest Cars for the Same Loss of Power&rdquo; (Oct 18, 2026): four-campaign loss-of-power pattern (bZ, C-HR, RAV4 PHEV, plus 2023 RAV4 Prime 23V-041); RAV4 PHEV ~31,000 vehicles, Oct 7; RAV4 479,288 sold in 2025. <a href="https://roadethos.com/news/toyota-keeps-recalling-its-newest-cars-for-the-same-loss-of-power" target="_blank" rel="noopener">roadethos.com</a></li>
+          <li id="ref-8">MotorSafety.org, Toyota recalls (Oct 27, 2026): 26V570, 8,521 US 2026 C-HR electric SUVs. <a href="https://www.motorsafety.org/category/toyota-recalls/" target="_blank" rel="noopener">motorsafety.org</a></li>
+          <li id="ref-9">Eastward Drive, &ldquo;105,794 Land Cruisers Need a Fuel-Line Clamp That Isn't Here Yet&rdquo; (Oct 24, 2026): 23 field reports, 64 US warranty claims as of Oct 6; clamp estimated ready in December; owner letters Nov 29&ndash;Dec 13. <a href="https://www.eastwarddrive.com/drive-notes/toyota-land-cruiser-hybrid-fuel-tube-recall-2026" target="_blank" rel="noopener">eastwarddrive.com</a></li>
+          <li id="ref-10">NextCarReview, &ldquo;Car Recalls October 2026&rdquo; (updated Oct 29, 2026): 26V690, ~228,367 2022&ndash;2026 Sienna Hybrids; 26V673, ~105,794 Land Cruisers. <a href="https://nextcarreview.com/car-recalls-october-2026/" target="_blank" rel="noopener">nextcarreview.com</a></li>
+          <li id="ref-11">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API census conducted Nov 11, 2026, and NHTSA FARS 2014&ndash;2023. Campaign counts are not severity scores; see <a href="../#method">methodology</a> for caveats. Check your VIN at <a href="https://www.nhtsa.gov/recalls">nhtsa.gov/recalls</a>.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
