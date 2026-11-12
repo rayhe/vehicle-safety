@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1483-bmw-recall-census-7-one-bike-318k-starters",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
-    "started": "2026-11-12T12:30:00-08:00"
+    "started": "2026-11-12T12:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-12 12:30 run: RESEARCH #1483 done (BMW recall census, corrected 7: API pass 5 + cross-check added 26V064 + 26V438; 1-bike min, 318,495 starter max; Vin Wreckage). Next: DRAFT.",
+  "last_check_note": "2026-11-12 12:30 run: RESEARCH+DRAFT #1483 done (BMW census corrected 7; hero JPEG 2352x1008 ?v=b62cc207; gates pre-checked: em 0, banned 0, The 0.0%, rhythm PASS var=2247.2). Next: CRITIQUE.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-12T10:30:00-08:00",
   "last_completed_date": "2026-11-12",
