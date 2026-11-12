@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1479-stellantis-recall-census-27-one-radio-bug",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-12T12:45:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-12 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1478 (Ford recall census corrected 41, Lincoln 10 first count, GM 15 confirmed; Axle McScatter, round-0 9.00, queued 2028-07-30) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1479.",
   "last_checked": "2026-11-12T00:30:00-08:00",
-  "last_completed": "2026-11-12T02:30:00-08:00",
+  "last_completed": "2026-11-12T04:50:00-08:00",
   "last_completed_date": "2026-11-12",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-12T00:30:00-08:00",
@@ -25364,6 +25359,45 @@
         "critic_panel": "drafts/1478-ford-recall-census-41-lincoln-10-corrected-count-critic-panel-r0.md"
       },
       "note": "2026-11-12 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1478 (Ford 41 corrected from 40, Lincoln 10 first count, GM 15 confirmed; Axle McScatter, round-0 9.00, queued 2028-07-30). Completes the corrected-vocabulary six-brand table (Ford 41, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4); Ford Motor Company combined 44. Vocabulary catch: 26V415 Explorer Hybrid silent-pedestrian-warning (66,383 cars) invisible to base-name queries; 26V688 invisible under 'corsair hybrid'. Super Duty hole: API returns zero rows for any F-250/F-350 spelling; #1473's 6/5 counts not reproducible, summary supports 4."
+    },
+    {
+      "number": 1479,
+      "slug": "1479-stellantis-recall-census-27-one-radio-bug",
+      "title": "Stellantis Recalled Its New Cars 27 Times. One Radio Bug Blinded 848,511 of Them.",
+      "journalist": "Rex Driverton",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-07-31",
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.5,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "9d3fe95e",
+        "rhythm": "pass (script exit 0: var 1131.1, short 12.8%, long 66.7%)",
+        "actionable_insights": true
+      },
+      "files": {
+        "research": "drafts/1479-stellantis-recall-census-27-one-radio-bug-research.md",
+        "story": "drafts/1479-stellantis-recall-census-27-one-radio-bug.html",
+        "hero": "drafts/1479-stellantis-recall-census-27-one-radio-bug.jpg",
+        "critic_panel": "drafts/1479-stellantis-recall-census-27-one-radio-bug-critic-panel-r0.md"
+      },
+      "note": "2026-11-12 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1479 (Stellantis census 27: Jeep 12, Ram 11, Chrysler 5, Dodge 2, Alfa 1, Fiat 0, deduped, 469 queries; 26V531 camera blackout 844,027 US / 848,511 announced across 4 brands; 26V059 trailer-tow 456,287; Cherokee 4 in first year; 26V622 five trucks; ProMaster vocabulary hole; Rex Driverton, round-0 8.93, queued 2028-07-31). Completes the seven-brand corrected table (Ford 41, Stellantis 27, GM 15, Toyota 15, Hyundai 15, Honda 4, Kia 4)."
     }
   ]
 }
