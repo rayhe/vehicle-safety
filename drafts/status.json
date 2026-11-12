@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1482-commerce-i85-end-of-queue-eight-dead",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-12T10:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-12 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1481 (Subaru recall census corrected 5: 8-car do-not-drive 26V685, 541,237 label recall 26V436, 44 queries; Clara Rollover, round-0 8.93, queued 2028-08-02) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 jeep-grand-cherokee-third-coil-spring-recall due 2026-11-12, next due). Next: RESEARCH #1482.",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T08:30:00-08:00",
+  "last_completed": "2026-11-12T10:30:00-08:00",
   "last_completed_date": "2026-11-12",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-11-12T00:30:00-08:00",
@@ -25450,6 +25444,40 @@
       "ship_date": "2028-08-02",
       "slug": "subaru-recall-census-5-eight-car-do-not-drive",
       "title": "Subaru Recalled Its New Cars 5 Times. Eight Cars Got a Do-Not-Drive Order."
+    },
+    {
+      "number": 1482,
+      "slug": "1482-commerce-i85-end-of-queue-eight-dead",
+      "title": "Eight People Sat in a Traffic Queue on I-85. A Semi Hit Them at 65 MPH.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-08-03",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.2,
+        "social": 8.8,
+        "legal": 8.8,
+        "rigor": 8.9,
+        "data": 9.0
+      },
+      "avg_critic": 8.96,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1482-commerce-i85-end-of-queue-eight-dead-research.md",
+        "story": "drafts/1482-commerce-i85-end-of-queue-eight-dead.html",
+        "hero": "drafts/1482-commerce-i85-end-of-queue-eight-dead.jpg",
+        "critic_panel": "drafts/1482-commerce-i85-end-of-queue-eight-dead-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 3.8,
+        "css": "class=story, ../style.css",
+        "hero_jpeg": "FF D8, 1920x1280, ?v=b3a52bc2",
+        "rhythm": "PASS var=995.8 short=10.0% long=56.0%"
+      },
+      "note": "2026-11-12 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP in one run. NTSB factual report HWY26FH001 (Commerce, GA, Oct 13, 2025): Western Star hit stopped Grand Caravan at 64-66 mph, 8 dead incl. 5 children + pregnant occupant; first site coverage of end-of-queue crashes; heavy-truck AEB rule still unfinalized. r0 8.96."
     }
   ]
 }
