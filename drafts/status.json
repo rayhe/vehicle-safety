@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1484-nissan-kicks-beats-rav4-rear-seat-test",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-12T14:30:00-08:00",
+    "number": 1484
+  },
   "last_check_note": "2026-11-12 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1483 (BMW recall census corrected 7: 1-bike min, 318,495 starter max; Vin Wreckage, round-0 8.87, queued 2028-08-04) + PUBLISH skipped (1/day gate already met today: #846 published 00:30). Next: RESEARCH #1484.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-12T12:30:00-08:00",
@@ -10,7 +16,7 @@
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T12:30:00-08:00",
+  "last_worker_run": "2026-11-12T14:30:00-08:00",
   "next": 1484,
   "queue": [
     {
