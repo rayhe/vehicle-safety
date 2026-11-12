@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1483-bmw-recall-census-7-one-bike-318k-starters",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-12T12:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-12 12:30 run: RESEARCH+DRAFT #1483 done (BMW census corrected 7; hero JPEG 2352x1008 ?v=b62cc207; gates pre-checked: em 0, banned 0, The 0.0%, rhythm PASS var=2247.2). Next: CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-12 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1483 (BMW recall census corrected 7: 1-bike min, 318,495 starter max; Vin Wreckage, round-0 8.87, queued 2028-08-04) + PUBLISH skipped (1/day gate already met today: #846 published 00:30). Next: RESEARCH #1484.",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T10:30:00-08:00",
+  "last_completed": "2026-11-12T12:30:00-08:00",
   "last_completed_date": "2026-11-12",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-12T00:30:00-08:00",
   "last_published_date": "2026-11-12",
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
   "last_worker_run": "2026-11-12T12:30:00-08:00",
-  "next": 1483,
+  "next": 1484,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25484,6 +25478,45 @@
         "rhythm": "PASS var=995.8 short=10.0% long=56.0%"
       },
       "note": "2026-11-12 10:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP in one run. NTSB factual report HWY26FH001 (Commerce, GA, Oct 13, 2025): Western Star hit stopped Grand Caravan at 64-66 mph, 8 dead incl. 5 children + pregnant occupant; first site coverage of end-of-queue crashes; heavy-truck AEB rule still unfinalized. r0 8.96."
+    },
+    {
+      "number": 1483,
+      "slug": "1483-bmw-recall-census-7-one-bike-318k-starters",
+      "title": "BMW Recalled 7 Times in 2026. The Smallest Recall Is One Motorcycle.",
+      "journalist": "Vin Wreckage",
+      "ship_date": "2028-08-04",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 8.8,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.8,
+        "legal": 9.0,
+        "rigor": 9.0,
+        "data": 8.5
+      },
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1483-bmw-recall-census-7-one-bike-318k-starters-research.md",
+        "story": "drafts/1483-bmw-recall-census-7-one-bike-318k-starters.html",
+        "hero": "drafts/1483-bmw-recall-census-7-one-bike-318k-starters.jpg",
+        "critic_panel": "drafts/1483-bmw-recall-census-7-one-bike-318k-starters-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2352x1008",
+        "hero_hash": "b62cc207",
+        "rhythm": "PASS var=2627.6 short=11.1% long=48.1%",
+        "word_count": 1572
+      },
+      "kicker": "By The Numbers",
+      "note": "2026-11-12 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP in one run. BMW recall census, corrected 7 (API pass 5 + cross-check added 26V064 rear lamps + 26V438 starter expansion; API 400s on sedan/coupe model names for MY2026 documented with 33-spelling matrix). Range 1 bike to 318,495 starters; Z4 lone 2026 car in starter campaign; 0-for-7 OTA; r0 8.87. Queued 2028-08-04."
     }
   ]
 }
