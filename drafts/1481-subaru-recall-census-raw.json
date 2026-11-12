@@ -1,0 +1,75 @@
+{
+ "brands": {
+  "subaru": {
+   "campaigns": {
+    "26V436000": {
+     "campaign": "26V436000",
+     "date": "08/07/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2026 Crosstrek Hybrid, 2025-2026 Forester Hybrid, Forester, and 2019-2026 Ascent vehicles. These vehicles were manufactured with an incorrect Gross Axle Weight Rating (GAWR) on the certification label. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) 110, \"Tire selection and rims.\"",
+     "ota": false,
+     "found_via": "subaru/ascent"
+    },
+    "26V685000": {
+     "campaign": "26V685000",
+     "date": "19/10/2026",
+     "component": "SUSPENSION:FRONT:CONTROL ARM:LOWER BALL JOINT",
+     "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2026 Crosstrek and Forester vehicles. The castle nut on the left-front lower control arm ball joint may be improperly fastened, which can lead to the ball joint separating from the lower control arm.",
+     "ota": false,
+     "found_via": "subaru/crosstrek"
+    },
+    "26V106000": {
+     "campaign": "26V106000",
+     "date": "24/02/2026",
+     "component": "FUEL SYSTEM, GASOLINE:STORAGE:TANK ASSEMBLY:FILLER PIPE AND CAP",
+     "summary": "Subaru of America, Inc. is recalling certain 2026 Crosstrek hybrid, and 2025 Forester hybrid vehicles. When the fuel tank is near full capacity, an increase in ambient temperature may cause the fuel to expand and spill out of the filler neck due to an insufficient seal on the fuel cap.",
+     "ota": false,
+     "found_via": "subaru/crosstrek hybrid"
+    },
+    "26V346000": {
+     "campaign": "26V346000",
+     "date": "28/05/2026",
+     "component": "VISIBILITY:SUN/MOON ROOF ASSEMBLY",
+     "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2026 Forester and Forester Hybrid vehicles. The sliding glass panel of the power moonroof assembly may have been improperly bonded to the sliding frame, allowing the glass panel to detach from the vehicle.",
+     "ota": false,
+     "found_via": "subaru/forester"
+    },
+    "26V393000": {
+     "campaign": "26V393000",
+     "date": "18/06/2026",
+     "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+     "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Toyota BZ, Lexus RZ, and Subaru Solterra battery electric vehicles. The electronic control unit (ECU) that controls the high voltage battery may experience a fault, resulting in a loss of drive power.",
+     "ota": false,
+     "found_via": "subaru/solterra"
+    }
+   },
+   "count": 5,
+   "per_model": {
+    "subaru/ascent": [
+     "26V436000"
+    ],
+    "subaru/crosstrek": [
+     "26V685000"
+    ],
+    "subaru/crosstrek hybrid": [
+     "26V106000",
+     "26V436000"
+    ],
+    "subaru/forester": [
+     "26V346000",
+     "26V436000",
+     "26V685000"
+    ],
+    "subaru/forester hybrid": [
+     "26V346000",
+     "26V436000"
+    ],
+    "subaru/solterra": [
+     "26V393000"
+    ]
+   },
+   "queries": 44,
+   "done": true
+  }
+ }
+}
