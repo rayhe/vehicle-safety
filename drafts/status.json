@@ -1,23 +1,17 @@
 {
- "current": {
-  "slug": "1476-honda-recall-census-4-corrected-count",
-  "phase": "CRITIQUE",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-11-11T22:45:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-11 22:30 run: DRAFT #1476 done (hero JPEG 1920x1280, hash 312881f7); CRITIQUE round-0 panel: avg 9.00, all 7 at 8.5+, hard gates pass (em 0, banned 0, The 1.7%, css ok).",
- "last_checked": "2026-11-11T22:50:00-08:00",
- "last_completed": "2026-11-11T20:30:00-08:00",
+ "current": null,
+ "last_check_note": "2026-11-11 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1476 (Honda recall census corrected: 4, not 2; Mia Crumplezone, round-0 9.00, queued 2028-07-28). PUBLISH-QUEUE: 1/day gate already met (#845 published 2026-11-11); due entry #846 wheel-off-loose-lug-projectile (ship_date 2026-11-11) is HERO-READY; next publish slot Nov 12. Next: RESEARCH #1477.",
+ "last_checked": "2026-11-11T22:55:00-08:00",
+ "last_completed": "2026-11-11T22:55:00-08:00",
  "last_completed_date": "2026-11-11",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-11-11T00:30:00-08:00",
  "last_published_date": "2026-11-11",
  "last_published_slug": "845-phone-crash-undercount-seven-times",
  "last_qa_date": "2026-11-11",
  "last_qa_note": "QA pass #845: story 200 live (9,988 bytes), hero image/jpeg 200 (452,771 bytes, ?v=6fd76c43), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-11, dateline retained from draft (September 8, 2026, per #844 precedent).",
- "last_worker_run": "2026-11-11T22:50:00-08:00",
- "next": 1476,
+ "last_worker_run": "2026-11-11T22:55:00-08:00",
+ "next": 1477,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -25250,6 +25244,43 @@
    "ship_date": "2028-07-27",
    "slug": "1475-toyota-recall-census-15-corrected-count",
    "title": "We Undercounted Toyota's Recalls by Half. The Real Number Is 15."
+  },
+  {
+   "number": 1476,
+   "slug": "1476-honda-recall-census-4-corrected-count",
+   "title": "Honda's Recall Count Was Wrong Too. It's 4, Not 2.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "Trend Watch",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-07-28",
+   "scores": {
+    "general_editor": 9.0,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.5,
+    "data_presentation": 9.0
+   },
+   "avg_critic": 9.0,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 1.7,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "312881f7"
+   },
+   "files": {
+    "research": "drafts/1476-honda-recall-census-4-corrected-count-research.md",
+    "story": "drafts/1476-honda-recall-census-4-corrected-count.html",
+    "hero": "drafts/1476-honda-recall-census-4-corrected-count.jpg",
+    "critic_panel": "drafts/1476-honda-recall-census-4-corrected-count-critic-panel-r0.md"
+   },
+   "note": "2026-11-11 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1476 (Honda recall census corrected: 4, not 2; same vocabulary-gap miss as Toyota; 26V366/26V663 tire-kit recall-of-a-recall + 26V424 subframe bolts + 26V332 seat sensor; round-0 9.00, queued 2028-07-28)."
   }
  ]
 }
