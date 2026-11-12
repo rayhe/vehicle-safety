@@ -1,0 +1,407 @@
+{
+ "brands": {
+  "jeep": {
+   "campaigns": {
+    "26V059000": {
+     "campaign": "26V059000",
+     "date": "02/02/2026",
+     "component": "EXTERIOR LIGHTING:BRAKE LIGHTS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2026 Jeep Wagoneer S, 2025-2026 Ram 1500 Pickup, Ram 2500 Pickup, Ram 3500 Pickup, Ram 3500 Cab Chassis, Ram 4500 Cab Chassis, Ram 5500 Cab Chassis, and 2026 Jeep Cherokee vehicles. Due to an improperly designed trailer tow module, the trailer lights may fail to illuminate and the trailer brakes may fail.",
+     "ota": false,
+     "found_via": "jeep/cherokee"
+    },
+    "26V223000": {
+     "campaign": "26V223000",
+     "date": "09/04/2026",
+     "component": "ELECTRONIC STABILITY CONTROL (ESC)",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Cherokee vehicles. The brake system control module may fail to operate properly, which can cause a loss of anti-lock brakes (ABS) and electronic stability control (ESC).",
+     "ota": false,
+     "found_via": "jeep/cherokee"
+    },
+    "26V531000": {
+     "campaign": "26V531000",
+     "date": "13/08/2026",
+     "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler, Jeep Gladiator, Jeep Compass, Jeep Cherokee, Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Wagoneer, Jeep Grand Wagoneer L, Ram Promaster, Ram Promaster EV, Ram 1500, Ram 2500, Chrysler Pacifica Plug-In Hybrid, Chrysler Voyager, and 2026-2027 Chrysler Pacifica and Dodge Charger vehicles. The rearview camera image may fail to display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "jeep/cherokee"
+    },
+    "26V559000": {
+     "campaign": "26V559000",
+     "date": "01/09/2026",
+     "component": "TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS",
+     "summary": "Chrysler (FCA US LLC) is recalling certain 2024-2025 Jeep Wagoneer, 2024-2026 Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Cherokee 4XE, Jeep Grand Wagoneer, 2025 Jeep Wagoneer L, 2025-2026 Jeep Grand Wagoneer L, and 2026 Jeep Cherokee vehicles. Due to a software error, the tire pressure monitoring system may fail to detect low tire pressure and/or fail to illuminate the tire pressure monitoring system (TPMS) warning light as intended. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 138, \"Tire Pressure Monitoring System.\"",
+     "ota": false,
+     "found_via": "jeep/cherokee"
+    },
+    "26V456000": {
+     "campaign": "26V456000",
+     "date": "16/07/2026",
+     "component": "WHEELS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Gladiator and Jeep Wrangler vehicles. The walls for the steel wheels may be too thin, allowing them to crack or detach, which can result in a loss of vehicle control.",
+     "ota": false,
+     "found_via": "jeep/gladiator"
+    },
+    "26V328000": {
+     "campaign": "26V328000",
+     "date": "21/05/2026",
+     "component": "AIR BAGS: AIR BAG/RESTRAINT CONTROL MODULE:SOFTWARE",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2022-2026 Jeep Grand Cherokee and 2023-2025 Jeep Grand Cherokee L vehicles. A software error in the occupant restraint controller module may cause the delayed deployment of the side air bags during a crash. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 214, \"Side Impact Protection.\"",
+     "ota": false,
+     "found_via": "jeep/grand cherokee"
+    },
+    "26V529000": {
+     "campaign": "26V529000",
+     "date": "13/08/2026",
+     "component": "VISIBILITY:WINDSHIELD WIPER/WASHER",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Grand Cherokee and Grand Cherokee L vehicles. Due to a software issue in the body control module (BCM), the windshield wipers may fail.",
+     "ota": false,
+     "found_via": "jeep/grand cherokee"
+    },
+    "26V326000": {
+     "campaign": "26V326000",
+     "date": "21/05/2026",
+     "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Grand Wagoneer and Jeep Grand Wagoneer L vehicles. The front camera wiring harness may not be connected properly, which can cause the rearview camera image not to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "jeep/grand wagoneer"
+    },
+    "26V414000": {
+     "campaign": "26V414000",
+     "date": "30/06/2026",
+     "component": "ELECTRONIC STABILITY CONTROL (ESC)",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Grand Wagoneer and Jeep Grand Wagoneer L vehicles. The brake system control module software may cause a loss of electronic stability control and a loss of electronic brake assist. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard numbers 126, \"Electronic Stability Control Systems\" and 135, \"Light Vehicle Brake Systems.\"",
+     "ota": false,
+     "found_via": "jeep/grand wagoneer"
+    },
+    "26V584000": {
+     "campaign": "26V584000",
+     "date": "10/09/2026",
+     "component": "STRUCTURE:BODY:ROOF AND PILLARS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2022-2025 Jeep Wagoneer, 2022-2026 Jeep Grand Wagoneer, 2023-2025 Jeep Wagoneer L, and 2023-2026 Jeep Grand Wagoneer L vehicles. The pivot bolts for the roof rack crossbars may not have been tightened properly, allowing them to detach.",
+     "ota": false,
+     "found_via": "jeep/grand wagoneer"
+    },
+    "26V141000": {
+     "campaign": "26V141000",
+     "date": "12/03/2026",
+     "component": "STRUCTURE:BODY:HATCHBACK/LIFTGATE:HINGE AND ATTACHMENTS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2026 Jeep Wagoneer S vehicles. The liftgate hinge cover may not be properly clipped into position and may detach from the vehicle.",
+     "ota": false,
+     "found_via": "jeep/wagoneer s"
+    },
+    "26V224000": {
+     "campaign": "26V224000",
+     "date": "09/04/2026",
+     "component": "CHILD SEAT:VEHICLE TETHER ANCHOR",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler vehicles. The child seat tether welds on the second-row, right-side seat frame may be insufficient, which can reduce the seat's ability to properly restrain a child during a crash. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 225, \"Child Restraint Anchorage Systems.\"",
+     "ota": false,
+     "found_via": "jeep/wrangler"
+    }
+   },
+   "count": 12,
+   "per_model": {
+    "jeep/cherokee": [
+     "26V059000",
+     "26V223000",
+     "26V531000",
+     "26V559000"
+    ],
+    "jeep/compass": [
+     "26V531000"
+    ],
+    "jeep/gladiator": [
+     "26V456000",
+     "26V531000"
+    ],
+    "jeep/grand cherokee": [
+     "26V328000",
+     "26V529000",
+     "26V531000",
+     "26V559000"
+    ],
+    "jeep/grand cherokee l": [
+     "26V529000",
+     "26V531000",
+     "26V559000"
+    ],
+    "jeep/grand wagoneer": [
+     "26V326000",
+     "26V414000",
+     "26V531000",
+     "26V559000",
+     "26V584000"
+    ],
+    "jeep/grand wagoneer l": [
+     "26V326000",
+     "26V414000",
+     "26V531000",
+     "26V559000",
+     "26V584000"
+    ],
+    "jeep/wagoneer s": [
+     "26V059000",
+     "26V141000"
+    ],
+    "jeep/wrangler": [
+     "26V224000",
+     "26V456000",
+     "26V531000"
+    ]
+   },
+   "queries": 42,
+   "done": true
+  },
+  "chrysler": {
+   "campaigns": {
+    "26V189000": {
+     "campaign": "26V189000",
+     "date": "26/03/2026",
+     "component": "AIR BAGS:SIDE/WINDOW:CURTAIN",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2022-2026 Pacifica and Voyager vehicles. The right and left side curtain air bags may have insufficient pressure retention. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 226, \"Ejection Mitigation.\"",
+     "ota": false,
+     "found_via": "chrysler/pacifica"
+    },
+    "26V296000": {
+     "campaign": "26V296000",
+     "date": "12/05/2026",
+     "component": "EQUIPMENT ADAPTIVE/MOBILITY:WHEELCHAIR RESTRAINTS/SECUREMENT:CRITICAL FASTENERS",
+     "summary": "Braun Corporation (Braun) is recalling certain 2023-2026 Chrysler Pacifica vehicles. The retractors may not lock, preventing the wheelchair from being properly secured.",
+     "ota": false,
+     "found_via": "chrysler/pacifica"
+    },
+    "26V358000": {
+     "campaign": "26V358000",
+     "date": "03/06/2026",
+     "component": "AIR BAGS:FRONTAL",
+     "summary": "Braun Corporation (Braun) is recalling certain 2023-2026 Chrysler Pacifica and Voyager vehicles. The spring inside the front seat harness connector may contact electrical terminals.",
+     "ota": false,
+     "found_via": "chrysler/pacifica"
+    },
+    "26V531000": {
+     "campaign": "26V531000",
+     "date": "13/08/2026",
+     "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler, Jeep Gladiator, Jeep Compass, Jeep Cherokee, Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Wagoneer, Jeep Grand Wagoneer L, Ram Promaster, Ram Promaster EV, Ram 1500, Ram 2500, Chrysler Pacifica Plug-In Hybrid, Chrysler Voyager, and 2026-2027 Chrysler Pacifica and Dodge Charger vehicles. The rearview camera image may fail to display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "chrysler/pacifica"
+    },
+    "26V561000": {
+     "campaign": "26V561000",
+     "date": "01/09/2026",
+     "component": "ELECTRONIC STABILITY CONTROL (ESC)",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2025-2026 Chrysler Voyager, Chrysler Pacifica, and 2026 Chrysler Voyager Plug-In Hybrid Electric (PHEV) vehicles. The brake pedal position sensor capacitor may be cracked, which can cause a loss of electronic stability control. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 126, \"Electronic Stability Control Systems.\"",
+     "ota": false,
+     "found_via": "chrysler/pacifica"
+    }
+   },
+   "count": 5,
+   "per_model": {
+    "chrysler/pacifica": [
+     "26V189000",
+     "26V296000",
+     "26V358000",
+     "26V531000",
+     "26V561000"
+    ],
+    "chrysler/pacifica plug-in hybrid": [
+     "26V531000",
+     "26V561000"
+    ],
+    "chrysler/voyager": [
+     "26V189000",
+     "26V358000",
+     "26V531000",
+     "26V561000"
+    ]
+   },
+   "queries": 12,
+   "done": true
+  },
+  "dodge": {
+   "campaigns": {
+    "26V531000": {
+     "campaign": "26V531000",
+     "date": "13/08/2026",
+     "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler, Jeep Gladiator, Jeep Compass, Jeep Cherokee, Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Wagoneer, Jeep Grand Wagoneer L, Ram Promaster, Ram Promaster EV, Ram 1500, Ram 2500, Chrysler Pacifica Plug-In Hybrid, Chrysler Voyager, and 2026-2027 Chrysler Pacifica and Dodge Charger vehicles. The rearview camera image may fail to display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "dodge/charger"
+    },
+    "26V701000": {
+     "campaign": "26V701000",
+     "date": "22/10/2026",
+     "component": "EXTERIOR LIGHTING:TAIL LIGHTS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Dodge Durango vehicles. The terminals in the tail light wiring harness may be damaged and cause the tail lights to fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "dodge/durango"
+    }
+   },
+   "count": 2,
+   "per_model": {
+    "dodge/charger": [
+     "26V531000"
+    ],
+    "dodge/durango": [
+     "26V701000"
+    ]
+   },
+   "queries": 24,
+   "done": true
+  },
+  "ram": {
+   "campaigns": {
+    "26V059000": {
+     "campaign": "26V059000",
+     "date": "02/02/2026",
+     "component": "EXTERIOR LIGHTING:BRAKE LIGHTS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2026 Jeep Wagoneer S, 2025-2026 Ram 1500 Pickup, Ram 2500 Pickup, Ram 3500 Pickup, Ram 3500 Cab Chassis, Ram 4500 Cab Chassis, Ram 5500 Cab Chassis, and 2026 Jeep Cherokee vehicles. Due to an improperly designed trailer tow module, the trailer lights may fail to illuminate and the trailer brakes may fail.",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V225000": {
+     "campaign": "26V225000",
+     "date": "09/04/2026",
+     "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2025-2026 Ram 1500 Pickup, Ram 2500 Pickup, Ram 3500 Pickup, Ram 3500 Cab Chassis, Ram 4500 Cab Chassis, and Ram 5500 Cab Chassis vehicles. A software error may cause the instrument panel display to fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standards numbers 102, \"Transmission Shift Position Sequence,\" 105, \"Hydraulic and Electric Brake Systems,\" 108, \"Lamps, Reflective Devices, and Associated Equipment,\" 126, \"Electronic Stability Control Systems for Light Vehicles,\" 135, \"Light Vehicle Brake Systems,\" 138, \"Tire Pressure Monitoring System,\" and/or 208, \"Occupant Crash Protection.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V421000": {
+     "campaign": "26V421000",
+     "date": "01/07/2026",
+     "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Ram 1500 vehicles. The headlight wiring may cause the parking lights and daytime running lights to flicker on and off, or fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V495000": {
+     "campaign": "26V495000",
+     "date": "30/07/2026",
+     "component": "SEAT BELTS:REAR/OTHER:ANCHORAGE",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2019-2026 Ram 1500 vehicles. The second-row center and left-side seat belt buckle anchors may have been improperly installed. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 210, \"Seat Belt Assembly Anchorages.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V531000": {
+     "campaign": "26V531000",
+     "date": "13/08/2026",
+     "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler, Jeep Gladiator, Jeep Compass, Jeep Cherokee, Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Wagoneer, Jeep Grand Wagoneer L, Ram Promaster, Ram Promaster EV, Ram 1500, Ram 2500, Chrysler Pacifica Plug-In Hybrid, Chrysler Voyager, and 2026-2027 Chrysler Pacifica and Dodge Charger vehicles. The rearview camera image may fail to display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V560000": {
+     "campaign": "26V560000",
+     "date": "01/09/2026",
+     "component": "BACK OVER PREVENTION:SOFTWARE",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2025-2026 Ram 1500 vehicles. A radio software error may cause the rearview camera image not to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V622000": {
+     "campaign": "26V622000",
+     "date": "29/09/2026",
+     "component": "AIR BAGS:SIDE/WINDOW",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Ram 1500 vehicles. A connector for the driver and front passenger side air bags may not be secured properly, which can cause the air bags not to deploy as intended. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection\" and 214, \"Side Impact Protection.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V623000": {
+     "campaign": "26V623000",
+     "date": "29/09/2026",
+     "component": "TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS",
+     "summary": "Chrysler (FCA US LLC) is recalling certain 2026 Ram 1500 vehicles. The tire pressure monitoring system sensors may fail to detect low tire pressure and/or fail to illuminate the tire pressure monitoring system (TPMS) warning light as intended. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 138, \"Tire Pressure Monitoring System.\"",
+     "ota": false,
+     "found_via": "ram/1500"
+    },
+    "26V244000": {
+     "campaign": "26V244000",
+     "date": "16/04/2026",
+     "component": "ELECTRONIC STABILITY CONTROL (ESC):CONTROL MODULE",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Ram 2500 Pickup trucks. The trucks may be equipped with steering column control modules that can cause a loss of electronic stability control. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 126, \"Electronic Stability Control Systems.\"",
+     "ota": false,
+     "found_via": "ram/2500"
+    },
+    "26V288000": {
+     "campaign": "26V288000",
+     "date": "07/05/2026",
+     "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM/PCM/TECM)",
+     "summary": "Chrysler (FCA US LLC) is recalling certain 2023-2026 Ram 2500 Pick up trucks. A software error in the powertrain control module may improperly allow the vehicle speed to exceed the tire speed rating, which can result in a loss of vehicle control.",
+     "ota": false,
+     "found_via": "ram/2500"
+    },
+    "26V651000": {
+     "campaign": "26V651000",
+     "date": "06/10/2026",
+     "component": "ELECTRONIC STABILITY CONTROL (ESC):CONTROL MODULE",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Ram 2500 Pickup trucks. The trucks may be equipped with steering column control modules that can cause a loss of electronic stability control. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 126, \"Electronic Stability Control Systems.\"",
+     "ota": false,
+     "found_via": "ram/2500"
+    }
+   },
+   "count": 11,
+   "per_model": {
+    "ram/1500": [
+     "26V059000",
+     "26V225000",
+     "26V421000",
+     "26V495000",
+     "26V531000",
+     "26V560000",
+     "26V622000",
+     "26V623000"
+    ],
+    "ram/2500": [
+     "26V059000",
+     "26V225000",
+     "26V244000",
+     "26V288000",
+     "26V531000",
+     "26V651000"
+    ],
+    "ram/3500": [
+     "26V059000",
+     "26V225000"
+    ],
+    "ram/4500": [
+     "26V059000",
+     "26V225000"
+    ],
+    "ram/5500": [
+     "26V059000",
+     "26V225000"
+    ]
+   },
+   "queries": 371,
+   "done": true
+  },
+  "alfa romeo": {
+   "campaigns": {
+    "26V510000": {
+     "campaign": "26V510000",
+     "date": "06/08/2026",
+     "component": "SEAT BELTS:FRONT:RETRACTOR",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2023-2025 Dodge Hornet and 2023-2026 Alfa Romeo Tonale vehicles. The rear outboard seat belts may become twisted and fail to retract properly.",
+     "ota": false,
+     "found_via": "alfa romeo/tonale"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "alfa romeo/tonale": [
+     "26V510000"
+    ]
+   },
+   "queries": 12,
+   "done": true
+  },
+  "fiat": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 8,
+   "done": true
+  }
+ }
+}
