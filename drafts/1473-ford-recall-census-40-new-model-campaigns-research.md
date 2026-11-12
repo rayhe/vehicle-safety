@@ -89,7 +89,7 @@ Visibility 5, Seats 4, Engine 5 (incl. engine cooling), Structure 4, Back-over p
 
 ## Strongest counterargument
 
-Campaign counts are not severity scores. A 23-vehicle torque-check recall (26V550) and a 565,691-vehicle fire-risk recall (26V468) each count once. Ford recalls aggressively and early — including for defects other makers might handle as service bulletins — and its 2025 consent order with NHTSA puts it under independent oversight that encourages over-reporting. Toyota's 7 and Honda's 2 could partly reflect different reporting thresholds, not different quality. Also, the 2026 model year is still in progress: late-filed campaigns will keep moving all three counts, and a single multi-model campaign (like the Sep 9 cluster) can inflate Ford's number without a single new defect type.
+Campaign counts are not severity scores. A 23-vehicle torque-check recall (26V550) and a 565,691-vehicle fire-risk recall (26V468) each count once. Ford recalls aggressively and early — including for defects other makers might handle as service bulletins — and its November 2024 consent order with NHTSA puts it under independent oversight that encourages over-reporting. Toyota's 7 and Honda's 2 could partly reflect different reporting thresholds, not different quality. Also, the 2026 model year is still in progress: late-filed campaigns will keep moving all three counts, and a single multi-model campaign (like the Sep 9 cluster) can inflate Ford's number without a single new defect type.
 
 The counterargument weakens on the per-model spread: 12 different Ford models with at least one campaign, Explorer at 12 alone, and the component mix spread across every system. That is not one bad supplier or one bad decision. It is breadth.
 
