@@ -1,24 +1,17 @@
 {
-  "current": {
-    "slug": "1484-nissan-kicks-beats-rav4-rear-seat-test",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-12T14:30:00-08:00",
-    "number": 1484,
-    "round": 0
-  },
-  "last_check_note": "2026-11-12 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1483 (BMW recall census corrected 7: 1-bike min, 318,495 starter max; Vin Wreckage, round-0 8.87, queued 2028-08-04) + PUBLISH skipped (1/day gate already met today: #846 published 00:30). Next: RESEARCH #1484.",
+  "current": null,
+  "last_check_note": "2026-11-12 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1484 (Nissan Kicks beats RAV4 in IIHS rear-seat test; Mia Crumplezone, round-0 8.87, queued 2028-08-05) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot). Next: RESEARCH #1485.",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T12:30:00-08:00",
+  "last_completed": "2026-11-12T14:30:00-08:00",
   "last_completed_date": "2026-11-12",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-12T00:30:00-08:00",
   "last_published_date": "2026-11-12",
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
   "last_worker_run": "2026-11-12T14:30:00-08:00",
-  "next": 1484,
+  "next": 1485,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25524,6 +25517,45 @@
       },
       "kicker": "By The Numbers",
       "note": "2026-11-12 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP in one run. BMW recall census, corrected 7 (API pass 5 + cross-check added 26V064 rear lamps + 26V438 starter expansion; API 400s on sedan/coupe model names for MY2026 documented with 33-spelling matrix). Range 1 bike to 318,495 starters; Z4 lone 2026 car in starter campaign; 0-for-7 OTA; r0 8.87. Queued 2028-08-04."
+    },
+    {
+      "number": 1484,
+      "slug": "1484-nissan-kicks-beats-rav4-rear-seat-test",
+      "title": "The Back Seat Decided It: How a Nissan Kicks Beat the RAV4 to a Safety Award",
+      "journalist": "Mia Crumplezone",
+      "ship_date": "2028-08-05",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 8.8,
+        "voice": 9.0,
+        "ethics": 9.0,
+        "social": 8.7,
+        "legal": 9.0,
+        "rigor": 9.0,
+        "data": 8.6
+      },
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1484-nissan-kicks-beats-rav4-rear-seat-test-research.md",
+        "story": "drafts/1484-nissan-kicks-beats-rav4-rear-seat-test.html",
+        "hero": "drafts/1484-nissan-kicks-beats-rav4-rear-seat-test.jpg",
+        "critic_panel": "drafts/1484-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6fe499b9",
+        "rhythm": "PASS var=1055.1 short=8.8% long=40.4%",
+        "word_count": 935
+      },
+      "kicker": "The Gap",
+      "note": "2026-11-12 14:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP in one run. IIHS Oct 22, 2026 round: 5 small SUVs, only Kicks earned Good in updated moderate overlap; Poor (2025) -> Marginal (early 2026, CEF2619, 4.0 kN) -> Good (post-June 2026, CEF2631, 3.6 kN); RAV4 hybrid Acceptable / PHEV Marginal; Q3 Poor (lap belt slips off pelvis); Kicks V2V Marginal on motorcycle-target failure; r0 8.87. Queued 2028-08-05."
     }
   ]
 }
