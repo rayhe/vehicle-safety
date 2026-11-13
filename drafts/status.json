@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1492-tesla-recall-census-4-zero-ota-fixes",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
-    "started": "2026-11-13T06:30:00-08:00"
+    "started": "2026-11-13T06:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-13 06:30 run: RESEARCH #1492 (Tesla recall census, 4 campaigns, 14,782 vehicles, 0 OTA fixes; Vin Wreckage). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
