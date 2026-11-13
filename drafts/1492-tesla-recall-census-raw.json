@@ -1,0 +1,88 @@
+{
+ "brands": {
+  "tesla": {
+   "campaigns": {
+    "26V255000": {
+     "campaign": "26V255000",
+     "date": "22/04/2026",
+     "component": "WHEELS:LUGS/NUTS/BOLTS/STUDS",
+     "summary": "Tesla, Inc. (Tesla) is recalling certain 2024-2026 Cybertruck vehicles equipped with 18-inch steel wheels. The brake rotor stud holes may crack and allow the stud to separate from the wheel hub.",
+     "ota": false,
+     "found_via": "tesla/cybertruck"
+    },
+    "26V315000": {
+     "campaign": "26V315000",
+     "date": "19/05/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Tesla, Inc. (Tesla) is recalling certain 2025-2026 Model Y vehicles. The certification label may not have been installed. As such, these vehicles fail to comply with the requirements of 49 C.F.R. Part 567, \"Certification.\"",
+     "ota": false,
+     "found_via": "tesla/model y"
+    },
+    "26V445000": {
+     "campaign": "26V445000",
+     "date": "07/07/2026",
+     "component": "STRUCTURE:BODY:BUMPERS",
+     "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y and 2024 Model 3 vehicles. The vehicles were originally built for a foreign market and do not have knee air bags, may not be equipped with certain interior safety countermeasures, and may not have been tested for bumper impact resistance procedures. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard numbers, 208, \"Occupant Crash Protection,\" 201, \"Occupant Protection in Interior Impact,\" and Part 581, \"Bumper Standards.\"",
+     "ota": false,
+     "found_via": "tesla/model y"
+    },
+    "26V558000": {
+     "campaign": "26V558000",
+     "date": "01/09/2026",
+     "component": "SUSPENSION:CRITICAL FASTENERS",
+     "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y vehicles. One or more front suspension lateral link fasteners may not have been properly tightened, allowing the lateral link to loosen or separate from the sub-frame.",
+     "ota": false,
+     "found_via": "tesla/model y"
+    }
+   },
+   "count": 4,
+   "per_model": {
+    "tesla/cybertruck": [
+     "26V255000"
+    ],
+    "tesla/model y": [
+     "26V315000",
+     "26V445000",
+     "26V558000"
+    ]
+   },
+   "queries": 33,
+   "done": true,
+   "status_log": {
+    "tesla/cybercab": 400,
+    "tesla/cybercab hybrid": 400,
+    "tesla/cybercab plug-in hybrid": 400,
+    "tesla/cybercab electric": 400,
+    "tesla/cybertruck": 200,
+    "tesla/cybertruck hybrid": 400,
+    "tesla/cybertruck plug-in hybrid": 400,
+    "tesla/cybertruck electric": 400,
+    "tesla/model 3": 200,
+    "tesla/model 3 hybrid": 400,
+    "tesla/model 3 plug-in hybrid": 400,
+    "tesla/model 3 electric": 400,
+    "tesla/model s": 400,
+    "tesla/model s hybrid": 400,
+    "tesla/model s plug-in hybrid": 400,
+    "tesla/model s electric": 400,
+    "tesla/model x": 400,
+    "tesla/model x hybrid": 400,
+    "tesla/model x plug-in hybrid": 400,
+    "tesla/model x electric": 400,
+    "tesla/model y": 200,
+    "tesla/model y hybrid": 400,
+    "tesla/model y plug-in hybrid": 400,
+    "tesla/model y electric": 400,
+    "tesla/semi": 400,
+    "tesla/semi hybrid": 400,
+    "tesla/semi plug-in hybrid": 400,
+    "tesla/semi electric": 400,
+    "tesla/model 3 long range": 400,
+    "tesla/model y long range": 400,
+    "tesla/model s plaid": 400,
+    "tesla/model x plaid": 400,
+    "tesla/cyberbeast": 400
+   }
+  }
+ }
+}

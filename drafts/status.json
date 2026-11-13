@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-13 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1491 (Porsche recall census, 0 campaigns; Rex Driverton, round-0 8.79, queued 2028-08-12). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1492-tesla-recall-census-4-zero-ota-fixes",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-13T06:30:00-08:00"
+  },
+  "last_check_note": "2026-11-13 06:30 run: RESEARCH #1492 (Tesla recall census, 4 campaigns, 14,782 vehicles, 0 OTA fixes; Vin Wreckage). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T04:30:00-08:00",
   "last_completed_date": "2026-11-13",
@@ -10,7 +15,7 @@
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T04:30:00-08:00",
+  "last_worker_run": "2026-11-13T06:30:00-08:00",
   "next": 1492,
   "queue": [
     {
