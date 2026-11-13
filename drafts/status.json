@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1485-forest-river-recliner-fire-quartet",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-12T16:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-12 16:30 run: RESEARCH #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance/Heartland/Ember; #1371 trio missed Forest River, zero prior coverage; Clara Rollover). Killed angles this run: Honda 26V721 (#1457), IIHS commercial crash avoidance (#1452+), Sienna 26V690 (#1292/#1313/#1332), Explorer PE26008 (#1447), Waymo RQ26006 (#1445/#1461), Harley 26V730 (#1462), Maverick 26V724 (#1468), Godzilla DP26011 (#1295/#1326/#1350), Thomas Built 26V702 (#1369), comma PE26007 (#1180). 1/day gate already met today (#846 published 00:30); #847 due today ships next slot.",
+  "current": null,
+  "last_check_note": "2026-11-12 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance 26V680/Heartland 26V710/Ember 26V714; #1371 trio missed Forest River, zero prior coverage; Clara Rollover, round-0 8.79, queued 2028-08-06). Rhythm initially failed (short 20.8%); six fragment merges fixed pre-critique, exit 0. PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T14:30:00-08:00",
+  "last_completed": "2026-11-12T16:30:00-08:00",
   "last_completed_date": "2026-11-12",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-11-12T00:30:00-08:00",
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
   "last_worker_run": "2026-11-12T16:30:00-08:00",
-  "next": 1485,
+  "next": 1486,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25562,6 +25556,47 @@
       },
       "kicker": "The Gap",
       "note": "2026-11-12 14:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP in one run. IIHS Oct 22, 2026 round: 5 small SUVs, only Kicks earned Good in updated moderate overlap; Poor (2025) -> Marginal (early 2026, CEF2619, 4.0 kN) -> Good (post-June 2026, CEF2631, 3.6 kN); RAV4 hybrid Acceptable / PHEV Marginal; Q3 Poor (lap belt slips off pelvis); Kicks V2V Marginal on motorcycle-target failure; r0 8.87. Queued 2028-08-05."
+    },
+    {
+      "number": 1485,
+      "slug": "1485-forest-river-recliner-fire-quartet",
+      "title": "The RV Recliner Fire Trio Was a Quartet. The Fourth One Is the Biggest.",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "ship_date": "2028-08-06",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.7,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "894e21ac",
+        "word_count": 862,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 14.0,
+        "rhythm_variance": 1692.1
+      },
+      "files": {
+        "research": "drafts/1485-forest-river-recliner-fire-quartet-research.md",
+        "story": "drafts/1485-forest-river-recliner-fire-quartet.html",
+        "hero": "drafts/1485-forest-river-recliner-fire-quartet.jpg",
+        "critic_panel": "drafts/1485-forest-river-recliner-fire-quartet-critic-panel-r0.md"
+      },
+      "note": "2026-11-12 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance 26V680/Heartland 26V710/Ember 26V714; #1371 trio missed Forest River, zero prior coverage; Clara Rollover, round-0 8.79, queued 2028-08-06). Rhythm initially failed (short 20.8%); six fragment merges fixed pre-critique, exit 0. PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot)."
     }
   ]
 }
