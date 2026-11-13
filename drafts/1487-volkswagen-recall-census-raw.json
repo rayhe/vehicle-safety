@@ -1,0 +1,104 @@
+{
+ "brands": {
+  "volkswagen": {
+   "campaigns": {
+    "26V473000": {
+     "campaign": "26V473000",
+     "date": "22/07/2026",
+     "component": "BACK OVER PREVENTION:SOFTWARE",
+     "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling 2024-2026 Atlas Cross Sport and Atlas vehicles.  The vehicles may experience a low-voltage electrical event that affects display screen functions. As a result, the rearview camera image may fail to display as intended.",
+     "ota": false,
+     "found_via": "volkswagen/atlas"
+    },
+    "26V630000": {
+     "campaign": "26V630000",
+     "date": "01/10/2026",
+     "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+     "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2026 ID.4 vehicles. The high voltage battery may fail and lead to a vehicle fire.",
+     "ota": false,
+     "found_via": "volkswagen/id.4"
+    },
+    "26V138000": {
+     "campaign": "26V138000",
+     "date": "11/03/2026",
+     "component": "ELECTRICAL SYSTEM:WIRING",
+     "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2025-2026 Jetta vehicles. The transmission ground wire may not have been properly connected during assembly, causing an open electrical circuit.",
+     "ota": false,
+     "found_via": "volkswagen/jetta"
+    },
+    "26V258000": {
+     "campaign": "26V258000",
+     "date": "23/04/2026",
+     "component": "FUEL SYSTEM, GASOLINE:DELIVERY:PRESSURE SENSOR",
+     "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2025-2026 Taos vehicles. In the event of a rear-end crash, the fuel pressure sensor may dislodge or separate from the fuel tank. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 301, \"Fuel System Integrity.\"",
+     "ota": false,
+     "found_via": "volkswagen/taos"
+    }
+   },
+   "count": 4,
+   "per_model": {
+    "volkswagen/atlas": [
+     "26V473000"
+    ],
+    "volkswagen/atlas cross sport": [
+     "26V473000"
+    ],
+    "volkswagen/id.4": [
+     "26V630000"
+    ],
+    "volkswagen/jetta": [
+     "26V138000"
+    ],
+    "volkswagen/taos": [
+     "26V258000"
+    ]
+   },
+   "queries": 42,
+   "done": true,
+   "status_log": {
+    "volkswagen/atlas": 200,
+    "volkswagen/atlas hybrid": 400,
+    "volkswagen/atlas plug-in hybrid": 400,
+    "volkswagen/atlas electric": 400,
+    "volkswagen/atlas cross sport": 200,
+    "volkswagen/atlas cross sport hybrid": 400,
+    "volkswagen/atlas cross sport plug-in hybrid": 400,
+    "volkswagen/atlas cross sport electric": 400,
+    "volkswagen/golf gti": 400,
+    "volkswagen/golf gti hybrid": 400,
+    "volkswagen/golf gti plug-in hybrid": 400,
+    "volkswagen/golf gti electric": 400,
+    "volkswagen/golf r": 400,
+    "volkswagen/golf r hybrid": 400,
+    "volkswagen/golf r plug-in hybrid": 400,
+    "volkswagen/golf r electric": 400,
+    "volkswagen/id.4": 200,
+    "volkswagen/id.4 hybrid": 400,
+    "volkswagen/id.4 plug-in hybrid": 400,
+    "volkswagen/id.4 electric": 400,
+    "volkswagen/jetta": 200,
+    "volkswagen/jetta hybrid": 400,
+    "volkswagen/jetta plug-in hybrid": 400,
+    "volkswagen/jetta electric": 400,
+    "volkswagen/jetta gli": 400,
+    "volkswagen/jetta gli hybrid": 400,
+    "volkswagen/jetta gli plug-in hybrid": 400,
+    "volkswagen/jetta gli electric": 400,
+    "volkswagen/taos": 200,
+    "volkswagen/taos hybrid": 400,
+    "volkswagen/taos plug-in hybrid": 400,
+    "volkswagen/taos electric": 400,
+    "volkswagen/tiguan": 400,
+    "volkswagen/tiguan hybrid": 400,
+    "volkswagen/tiguan plug-in hybrid": 400,
+    "volkswagen/tiguan electric": 400,
+    "volkswagen/id. buzz": 400,
+    "volkswagen/id.buzz": 400,
+    "volkswagen/id4": 400,
+    "volkswagen/arteon": 400,
+    "volkswagen/passat": 400,
+    "volkswagen/golf": 400
+   }
+  }
+ }
+}

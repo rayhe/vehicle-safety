@@ -1,8 +1,13 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-12 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance 26V680/Heartland 26V710/Ember 26V714; #1371 trio missed Forest River, zero prior coverage; Clara Rollover, round-0 8.79, queued 2028-08-06). Rhythm initially failed (short 20.8%); six fragment merges fixed pre-critique, exit 0. PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1487-volkswagen-recall-census-4-two-fires-a-crash-test",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-12T20:30:00-08:00"
+  },
+  "last_check_note": "2026-11-12 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1486 (Mazda recall census, first zero in the series; 0 campaigns filed 2026 touching 2026 MY across 7 models; Axle McScatter, round-1 8.83, queued 2028-08-07). Bookkeeping fix in 20:30 run: next was left at 1486 and last_completed at 16:30; corrected to next=1487, last_completed/last_worker_run 18:30.",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T16:30:00-08:00",
+  "last_completed": "2026-11-12T18:30:00-08:00",
   "last_completed_date": "2026-11-12",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-11-12T00:30:00-08:00",
@@ -10,8 +15,8 @@
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T16:30:00-08:00",
-  "next": 1486,
+  "last_worker_run": "2026-11-12T18:30:00-08:00",
+  "next": 1487,
   "queue": [
     {
       "journalist": "Rex Driverton",
