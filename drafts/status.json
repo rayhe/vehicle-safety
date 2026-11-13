@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1487-volkswagen-recall-census-4-two-fires-a-crash-test",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-12T20:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-12 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1486 (Mazda recall census, first zero in the series; 0 campaigns filed 2026 touching 2026 MY across 7 models; Axle McScatter, round-1 8.83, queued 2028-08-07). Bookkeeping fix in 20:30 run: next was left at 1486 and last_completed at 16:30; corrected to next=1487, last_completed/last_worker_run 18:30.",
+  "current": null,
+  "last_check_note": "2026-11-12 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1487 (Volkswagen recall census, 4 campaigns; Rex Driverton, round-0 8.80, queued 2028-08-08). PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T18:30:00-08:00",
+  "last_completed": "2026-11-12T20:30:00-08:00",
   "last_completed_date": "2026-11-12",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-12T00:30:00-08:00",
   "last_published_date": "2026-11-12",
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T18:30:00-08:00",
-  "next": 1487,
+  "last_worker_run": "2026-11-12T20:30:00-08:00",
+  "next": 1488,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25644,6 +25638,47 @@
         "critic_panel": "drafts/1486-mazda-recall-census-zero-new-cars-zero-recalls-critic-panel-r1.md"
       },
       "note": "2026-11-12 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1486 (Mazda recall census, first zero in the series; 0 campaigns filed 2026 touching 2026 MY across 7 models; NHTSA API 400s on all 17 MY2026 spellings, recallsByManufacturer 403, zero rests on 6 outside confirmations + control sweeps; 2025 contrast 277,273 vehicles in 25V357/25V568/25V737; boundary case 8026C sticker emissions recall; open RQ26002 steering query; Axle McScatter, round-1 8.83 after r0 Data 8.0 table fix, queued 2028-08-07)."
+    },
+    {
+      "number": 1487,
+      "slug": "1487-volkswagen-recall-census-4-two-fires-a-crash-test",
+      "title": "Volkswagen Recalled Its New Cars 4 Times. Two Were Fires, One Was Caught by Canada, and the EV Has No Fix.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-08-08",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "data_presentation": 8.8
+      },
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "31f99873",
+        "word_count": 1865,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 11.4,
+        "rhythm_variance": 317.7
+      },
+      "files": {
+        "research": "drafts/1487-volkswagen-recall-census-4-two-fires-a-crash-test-research.md",
+        "story": "drafts/1487-volkswagen-recall-census-4-two-fires-a-crash-test.html",
+        "hero": "drafts/1487-volkswagen-recall-census-4-two-fires-a-crash-test.jpg",
+        "critic_panel": "drafts/1487-volkswagen-recall-census-4-two-fires-a-crash-test-critic-panel-r0.md"
+      },
+      "note": "2026-11-12 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1487 (Volkswagen recall census, 12th brand; 4 campaigns filed 2026 touching 2026 MY: 26V138 Jetta ground-wire fire 48,165, 26V258 Taos fuel sensor 38,710 found by Transport Canada crash test, 26V473 Atlas camera 57,851, 26V630 ID.4 battery fire 22,524 cause unknown no fix; 167,250 US campaign-vehicle instances; zero for Tiguan/GTI/R/GLI confirmed by CarBuzz Oct 16 NHTSA table + trackers; API 37/42 queries HTTP 400; 25V835 do-not-drive wheels outside census (filed Dec 2025); Rex Driverton, round-0 8.80, queued 2028-08-08). Pre-ship fix: 67,034 -> about 67,000 (41-car inter-source gap on Jan ID.4 pair). Bookkeeping: also fixed #1486 next/last_completed left stale by 18:30 run."
     }
   ]
 }
