@@ -1,16 +1,21 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-12 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1484 (Nissan Kicks beats RAV4 in IIHS rear-seat test; Mia Crumplezone, round-0 8.87, queued 2028-08-05) + PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot). Next: RESEARCH #1485.",
+  "current": {
+    "slug": "1485-forest-river-recliner-fire-quartet",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-12T16:30:00-08:00"
+  },
+  "last_check_note": "2026-11-12 16:30 run: RESEARCH #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance/Heartland/Ember; #1371 trio missed Forest River, zero prior coverage; Clara Rollover). Killed angles this run: Honda 26V721 (#1457), IIHS commercial crash avoidance (#1452+), Sienna 26V690 (#1292/#1313/#1332), Explorer PE26008 (#1447), Waymo RQ26006 (#1445/#1461), Harley 26V730 (#1462), Maverick 26V724 (#1468), Godzilla DP26011 (#1295/#1326/#1350), Thomas Built 26V702 (#1369), comma PE26007 (#1180). 1/day gate already met today (#846 published 00:30); #847 due today ships next slot.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-12T14:30:00-08:00",
   "last_completed_date": "2026-11-12",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-12T00:30:00-08:00",
   "last_published_date": "2026-11-12",
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T14:30:00-08:00",
+  "last_worker_run": "2026-11-12T16:30:00-08:00",
   "next": 1485,
   "queue": [
     {
