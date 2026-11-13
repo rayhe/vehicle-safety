@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audi Recalled Its New Cars Once in 2026. The Fires and the Blind Cameras Don't Count. &mdash; The Crash Report</title>
+  <meta name="description" content="Fourteen brands counted. Audi filed one 2026 recall touching a 2026 model: a sunroof software fix on 6,077 Q3s. The battery fire, the blind camera, and the child-seat belts all fell outside the count.">
+  <meta property="og:title" content="Audi Recalled Its New Cars Once in 2026. The Fires and the Blind Cameras Don't Count.">
+  <meta property="og:description" content="One campaign, 6,077 vehicles. The Q4 e-tron battery fire, the 356,894-car blind camera, and the child-seat belts all sit outside the census, filed nine days too early or on the wrong model year.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1489-audi-recall-census-1-sunroof-q3.jpg?v=e8942b00">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Audi Recalled Its New Cars Once in 2026. The Fires and the Blind Cameras Don't Count.</h1>
+      <div class="byline">Clara Rollover &bull; Clautomotive Desk</div>
+      <div class="dateline">November 13, 2026</div>
+
+      <img src="../images/1489-audi-recall-census-1-sunroof-q3.jpg?v=e8942b00" alt="A silver Audi Q3 parked alone in an empty dealership lot at dusk, panoramic sunroof visible" class="story-hero">
+
+      <div class="story-body">
+      <p>Fourteen brands into the recall census, Audi files one. <strong>One campaign, 6,077 vehicles, and a sunroof that can close from too far away.</strong> No fires. No injuries. No airbags, no seat belts, no steering. A software update and a manual revision, found in Audi's own testing before a single owner got hurt.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup> If you stopped reading there, you would walk away thinking Audi had the quietest real year in this series. You would be wrong in every way that matters to an owner, because the count is honest and the count is a trap at the same time.</p>
+
+      <div class="pull-stat">1</div>
+      <div class="pull-label">NHTSA campaigns filed in 2026 touching a 2026 Audi; fourteen-brand total is 153, Audi filed one forty-first of Ford's 41, and the single campaign covers 6,077 Q3s.</div>
+
+      <p>Method first, because a count of one demands more proof than a count of forty. I ran 190 queries against the NHTSA recalls API: 107 using the official 2026 model list, 50 more using the trim-level spellings NHTSA actually files under, and 25 more chasing the electric variants, Sportbacks, and RS models, plus eight control queries against 2025 models. Most of them came back HTTP 400, not empty results but errors, 156 of 190.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> That failure rate is normal for this series. What is not normal is how cleanly the controls prove the zeros are real. Query "q5" for 2025 and the API returns a 2026-filed seat-belt recall. Query "q4 e-tron" for 2025 and it returns the battery-fire recall, and query "a5" returns two campaigns. Seven of eight controls returned real recalls for 2025 models, which means the API works fine and the 2026 silence is the answer, not a broken query. Best of all, "q4 e-tron" for 2026 returns 200 with nothing in it, an empty result rather than an error, so the Q4's zero is confirmed by the API itself instead of inferred from its silence.</p>
+
+      <p>So here is the one: campaign 26V209, filed in January 2026, covers 6,077 US-market 2026 Q3s built between November 26, 2025 and March 20, 2026, plus 1,336 more in Canada.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup> Somebody programmed the sunroof control unit's target data container incorrectly, and the remote closing function can now operate from a distance where the operator cannot clearly see the roof. Federal Motor Vehicle Safety Standard 118 exists precisely because a closing roof you cannot see is a closing roof that can hurt someone, so the non-compliance is real even though nobody was hurt. Audi found it in internal testing in early February, took it to the Product Safety Committee in late March, and filed on April 1. Fix is a dealer software update and a manual revision, free, with letters mailed April 22. Zero crashes, zero fires, zero injuries, zero deaths. This is a recall working the way the brochure promises, and it is also the entire Audi census for 2026, which tells you something about how narrow the census window is, with twenty-four models on the 2026 list and one touched. Twenty-three clean, including the volume-leading Q5, the flagships, and every electric Audi sold in America.</p>
+
+      <p>Put the one in the table, and Audi lands at the bottom of the series next to Mazda.</p>
+
+      <table class="data-table">
+        <thead><tr><th>Group</th><th>2026 campaigns</th></tr></thead>
+        <tbody>
+        <tr><td>Ford (+ Lincoln 10, company 44)</td><td>41</td></tr>
+        <tr><td>Stellantis</td><td>27</td></tr>
+        <tr><td>GM</td><td>15</td></tr>
+        <tr><td>Toyota</td><td>15</td></tr>
+        <tr><td>Hyundai</td><td>15</td></tr>
+        <tr><td>Mercedes-Benz</td><td>8</td></tr>
+        <tr><td>Nissan (+ Infiniti, company 7)</td><td>7</td></tr>
+        <tr><td>BMW</td><td>7</td></tr>
+        <tr><td>Subaru</td><td>5</td></tr>
+        <tr><td>Honda</td><td>4</td></tr>
+        <tr><td>Kia</td><td>4</td></tr>
+        <tr><td>Volkswagen</td><td>4</td></tr>
+        <tr><td><strong>Audi</strong></td><td><strong>1</strong></td></tr>
+        <tr><td>Mazda</td><td>0</td></tr>
+        </tbody>
+      </table>
+
+      <p>Fourteen groups, 153 campaigns, an average of 10.9, and Audi sits 9.9 below it. Mazda is the only brand quieter, and Mazda's zero was a sticker. Read the table as paperwork and Audi had a superb year. Read it as safety and you have missed the three recalls that actually define Audi's 2026, because all three fell on the wrong side of a date line.</p>
+
+      <p>Start with the fire: campaign 26V698, filed October 21, 2026, covers 9,048 Q4 e-trons and Q4 Sportback e-trons from model years 2024 and 2025.<sup class="ref-link"><a href="#ref-6">[6]</a></sup><sup class="ref-link"><a href="#ref-7">[7]</a></sup> Certain charging profiles combined with a state of charge above 80 percent may trigger thermal propagation inside the high-voltage battery, which is the polite way of saying the car can catch fire. Audi still does not know the root cause, and there is no permanent fix, so owners are told to keep the charge at or below 80 percent while, unlike Volkswagen, which capped its sibling ID.4s remotely, Audi has not forced a limit on your car, leaving the cap on you, in the car or the app, every single night, with interim letters arriving December 18. Audi knows of zero Q4 fires from this defect, and the ID.4 sibling has 22 incident claims, which is the kind of asymmetry that should make an owner nervous rather than reassured. We covered this one as it filed, and the census does not change the advice. It is outside the count because the cars are 2024s and 2025s, not because the danger expired.</p>
+
+      <p>Then the camera: campaign 25V900, filed December 19, 2025, covers 356,894 Audis from model years 2019 through 2026: A6, A6 allroad, A7, A8, Q7, Q8, e-tron, e-tron GT, and their S and RS versions.<sup class="ref-link"><a href="#ref-5">[5]</a></sup> A software error may keep the rearview camera image from displaying, which fails Federal Motor Vehicle Safety Standard 111, with letters mailed in January 2026. It is the biggest Audi recall of the year by a factor of fifty, it covers 2026 models, and it is not in the census because it was filed nine days before the window opened, nine days being the entire distance between "Audi recalled its new cars once" and "Audi recalled 356,894 cars because the backup camera can go blank."</p>
+
+      <p>Then the seat belts, which are the ones that should anger you. Campaign 25V638, filed September 24, 2025, covers rear automatic locking retractors that may not engage when a child seat is installed, and the list includes 2026 Q4 e-trons and Q4 Sportback e-trons.<sup class="ref-link"><a href="#ref-8">[8]</a></sup> A belt that will not lock a child seat is not a compliance footnote. It is the difference between a car seat staying put and a car seat becoming a projectile, and it is the only 2026 Audi recall in the file that involves a child seat at all. Filed in 2025, so the census cannot see it. Add campaign 26V266, filed this year and covering 7,425 2025 Q5s whose front seat belts may fail to restrain occupants in a crash, and the pattern is complete: Audi's seat-belt problems in 2026 are real, counted in the thousands, and invisible to a census that counts model years instead of danger.</p>
+
+      <p>Context makes the count look worse, not better. Audi delivered 107,667 vehicles in the US through September 2026, down 16 percent from a year earlier, its weakest nine months in years.<sup class="ref-link"><a href="#ref-9">[9]</a></sup> Electric Audis collapsed hardest: 3,867 battery-electric deliveries across North America in nine months, down 87.8 percent, and the Q4 e-tron sold eight cars in the entire third quarter, down from 2,956 a year earlier, while its owners were being told not to charge past 80 percent. That is not a sales slump; that is a model line that stopped existing in the quarter its battery caught the industry's attention. And on November 4, China recalled 388,258 FAW-Volkswagen Audi Q3s because a bolt joining the subframe to the steering gear can corrode until steering fails, the fix opening January 15, 2027.<sup class="ref-link"><a href="#ref-10">[10]</a></sup> Same model line as the census's single recall. Different defect, different continent, 64 times the population. A US Q3 owner reading this census would learn about a sunroof. A Chinese Q3 owner would learn about losing steering.</p>
+
+      <p>What to do with all of this depends on which Audi is in your driveway. If you own a 2026 Q3, you are in 26V209: free software update, letters went out in April, check your VIN at nhtsa.gov/recalls and stop worrying about the roof once it is done. If you own a 2024 or 2025 Q4 e-tron, you are in 26V698: set the charge limit to 80 percent tonight, in the car or the app, because nobody else is going to set it for you, and do not wait for the December letter to start. If you own a 2019 through 2026 A6, A7, A8, Q7, Q8, or e-tron GT, you are probably in 25V900: the camera fix is free and the letters went out in January, so if you never got one, call Audi at 1-800-253-2834 and ask. If you own a 2026 Q4 e-tron, check 25V638 before you check anything else, because a child seat that does not lock is the urgent one and it will not show up on a list of 2026 filings. If you own a 2025 Q5, you are in 26V266: front belts, 7,425 cars, free fix. And if you are shopping a 2026 Audi against a BMW or a Mercedes, ignore the census table. One recall against seven or eight is a paperwork comparison, not a safety comparison, and the car you are considering may already be on a recall list that the count never saw.</p>
+
+      <p>None of this makes the count wrong, because Audi really did file one recall touching a 2026 model, and the methodology is the same one that counted Ford's 41 and Mercedes' 8. What it makes the count is incomplete in exactly the way a buyer should fear: a filing calendar is not a safety record, and the defects that hurt people do not check the calendar before they file. A sunroof that closes from too far away is a real defect, found the right way, fixed the right way, and it is also the least important Audi safety story of 2026, so say that plainly. Then go check your VIN, because the recall that matters for your car is probably the one this count missed.</p>
+
+      <p>Skeptics get their turn, because they have a point: one recall is a good year. Twenty-three of twenty-four model lines have no 2026 filing, including the Q5 that sells a third of Audi's US volume and an entire EV lineup that the API confirms clean. The single campaign hurt nobody and was caught in testing, which is the system working. Calling the quiet a calendar artifact sounds like manufacturing a story out of a non-event, and if the article stopped at the table, that criticism would land, but it does not stop at the table. A battery that can catch fire with no known cause and no fix, a backup camera that can go blank on 356,894 cars, and a child-seat belt that may not lock are each, on their own, a bigger safety story than a sunroof. A recall count of one is good news for Audi. A battery-fire recall with no fix is not good news for anyone who owns the car, and the count is the wrong place to look for it. Both of those sentences are true, so hold them both.</p>
+
+      <p>Limitations, stated plainly: this census counts campaigns filed January 1 through November 13, 2026 covering 2026-model-year vehicles; a campaign filed after November 13 would not appear, so treat the count as a snapshot, not a year-end total. The NHTSA API returned HTTP 400 for 156 of 190 queries, and while the 2025 controls prove most of those are empty results, the "a3" spelling fails for both model years, so the A3 zero rests on the absence of any press or tracker record rather than a clean API query. The API's receipt date for 26V209 is January 4, 2026 while the manufacturer's report date is April 1, and the owner-letter dates differ between documents; the article uses the API record's April 22 mailing date. Campaign populations are the manufacturers' own Part 573 numbers, and the 107,667 sales figure spans all model years, so it is a scale denominator, not a rate. The China Q3 figure comes from a media tally of one day's notices, not an official total. And the 6,077 total is a single campaign, which makes it both the smallest census total in the series and the only one that is also a distinct-vehicle count.</p>
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA, <em>Recalls API (api.nhtsa.gov/recalls/recallsByVehicle)</em>, census conducted Nov 13, 2026: 190 queries (VPIC 2026 list, trim spellings, MY2025 controls); 1 campaign kept (26V209). Runners and raw results at drafts/1489-census-run.py, drafts/1489-census-run2.py, drafts/1489-census-run3.py, drafts/1489-audi-recall-census-raw.json. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov/recalls</a></li>
+          <li id="ref-2">NHTSA, <em>Part 573 Safety Recall Report 26V209</em>, dealer bulletin RCRIT-26V209-2497 (Audi code 57KS; 6,077 US vehicles; built Nov 26, 2025–Mar 20, 2026; FMVSS 118). <a href="https://static.nhtsa.gov/odi/rcl/2026/RCRIT-26V209-2497.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-3">NHTSA, <em>Recall Acknowledgment Letter RCAK-26V209-8006</em> (manufacturer report date Apr 1, 2026; owner letters expected May 29, 2026; VINs searchable Apr 7, 2026). <a href="https://static.nhtsa.gov/odi/rcl/2026/RCAK-26V209-8006.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-4">Carscoops, &ldquo;Audi's New Q3 Has A Federal Safety Violation Before Its First Real Sales Quarter,&rdquo; Apr 16, 2026 (found in internal testing early February; Product Safety Committee late March; zero crashes, fires, injuries, or deaths known). <a href="https://www.carscoops.com/2026/04/audi-q3-sunroof-recall/" target="_blank" rel="noopener">carscoops.com</a></li>
+          <li id="ref-5">NHTSA, <em>Recall Bulletin RCRIT-25V900-4315</em> (Audi code 90TV; 356,894 vehicles, MY2019-2026; rearview camera software; FMVSS 111; letters mailed Jan 14, 2026). <a href="https://static.nhtsa.gov/odi/rcl/2025/RCRIT-25V900-4315.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-6">Vehicle Service Pros, &ldquo;NHTSA Recalls Oct. 26–30: Toyota, Audi, Ford, Lexus,&rdquo; Oct 30, 2026 (26V698: 9,048 Q4 e-trons, MY2024-2025; HV battery may fail and cause a fire; interim letters Dec 18, 2026; Audi 93SK). <a href="https://www.vehicleservicepros.com/industry-news/service-repair/article/55415530/nhtsa-recalls-oct-2630-toyota-audi-ford-lexus" target="_blank" rel="noopener">vehicleservicepros.com</a></li>
+          <li id="ref-7">MotorBiscuit, &ldquo;VW ID.4 and Audi Q4 E-Tron Recall: Don't Charge Above 80%,&rdquo; Oct 31, 2026 (22,524 ID.4s; 22 incident claims Jan 2024–Aug 2026; Audi knows of zero Q4 fires; no permanent fix; Audi has not forced a limit). <a href="https://www.motorbiscuit.com/volkswagen-is-capping-22524-id-4s-at-80-charge-over-a-battery-fire-risk/" target="_blank" rel="noopener">motorbiscuit.com</a></li>
+          <li id="ref-8">thechargeport, <em>Audi Q4 e-tron Reliability &amp; Recalls 2026</em> (25V638, filed Sep 24, 2025: rear automatic locking retractors may not engage with a child seat; includes 2026 Q4 e-tron; Audi 69UM). <a href="https://thechargeport.com/ev/audi-q4-e-tron/reliability" target="_blank" rel="noopener">thechargeport.com</a></li>
+          <li id="ref-9">Audi of America, <em>Q3 2026 sales</em> via ooooiykyk, Oct 14, 2026 (107,667 US deliveries Jan–Sep 2026, down 16%; Q3 39,751, down 15%; Q5 33,509 YTD; Q4 e-tron 8 sales in Q3). <a href="https://ooooiykyk.com/blog/2026/10/14/audi-u-s-sales-fall-15-in-third-quarter-despite-growth-across-core-models/" target="_blank" rel="noopener">ooooiykyk.com</a></li>
+          <li id="ref-10">myelectricsparks, &ldquo;China Vehicle Recall Wave Hits 800,000 Cars,&rdquo; Nov 7, 2026 (Nov 4, 2026 notices; FAW-Volkswagen Audi Q3 388,258; subframe-to-steering-gear bolt corrosion; fix from Jan 15, 2027; media tally, not an official total). <a href="https://myelectricsparks.com/china-vehicle-recall-wave/" target="_blank" rel="noopener">myelectricsparks.com</a></li>
+          <li id="ref-11">Lemon Law Group Partners, <em>Audi Problems, Recalls &amp; Lemon Law Claims</em> (26V266: 7,425 2025 Q5/SQ5 front seat belts; 25V899: 27,768 2025 A5/S5/A6/Q6 rear retractors; 25V900: 356,894). <a href="https://lemonlawgrouppartners.com/manufacturer/audi/" target="_blank" rel="noopener">lemonlawgrouppartners.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API census conducted Nov 13, 2026, plus NHTSA Part 573 filings and press coverage linked above. The census counts campaigns filed Jan 1–Nov 13, 2026 covering 2026-model-year vehicles; a campaign filed after Nov 13 would not appear. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
