@@ -1,17 +1,17 @@
 {
   "current": null,
-  "last_check_note": "2026-11-13 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1492 (Tesla recall census, 4 campaigns; Vin Wreckage, round-0 8.79, queued 2028-08-13). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "last_check_note": "2026-11-13 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1493 (Toyota Takata final-phase sequel, ~314,000 US vehicles; Axle McScatter, round-0 8.79, queued 2028-08-14). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-13T04:30:00-08:00",
+  "last_completed": "2026-11-13T08:30:00-08:00",
   "last_completed_date": "2026-11-13",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Axle McScatter",
   "last_published": 847,
   "last_published_date": "2026-11-13",
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T06:30:00-08:00",
-  "next": 1493,
+  "last_worker_run": "2026-11-13T08:30:00-08:00",
+  "next": 1494,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25872,6 +25872,43 @@
       "ship_date": "2028-08-13",
       "slug": "1492-tesla-recall-census-4-zero-ota-fixes",
       "title": "Tesla Recalled Four Times in 2026. Not One of Them Could Be Fixed Over the Air."
+    },
+    {
+      "number": 1493,
+      "slug": "1493-toyota-takata-final-phase-sequel",
+      "title": "Toyota Called It the \"Final Phase\" in 2019. Takata Just Came Back for 314,000 More.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2028-08-14",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 7.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "4f31b624",
+        "word_count": 2279
+      },
+      "files": {
+        "research": "drafts/1493-toyota-takata-final-phase-sequel-research.md",
+        "story": "drafts/1493-toyota-takata-final-phase-sequel.html",
+        "hero": "drafts/1493-toyota-takata-final-phase-sequel.jpg",
+        "critic_panel": "drafts/1493-toyota-takata-final-phase-sequel-critic-panel-r0.md"
+      },
+      "note": "2026-11-13 08:30 run: full pipeline #1493 (Toyota Takata Nov 12, 2026 recall, ~314,000 US vehicles; Japan/Australia same-day filings are second recalls of desiccated-PSAN replacement inflators; US second-recall link unconfirmed and flagged; avg 8.79, round 0), queued 2028-08-14. PUBLISH skipped (1/day gate already met today: #847 published 00:30)."
     }
   ]
 }
