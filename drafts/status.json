@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1495-volvo-recall-census-12-trucks-carry-ten",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-13T12:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-13 12:30 run: RESEARCH #1495 (Volvo recall census, 12 campaigns, cars 2/trucks 10, EX30 monopoly; 329-query API census + 6 MY2025 controls). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "current": null,
+  "last_check_note": "2026-11-13 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1495 (Volvo recall census, 12 campaigns, 21,984 vehicles; cars 2/trucks 10, EX30 monopoly; Axle McScatter, round-0 8.79, queued 2028-08-16). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-13T10:30:00-08:00",
+  "last_completed": "2026-11-13T12:30:00-08:00",
   "last_completed_date": "2026-11-13",
   "last_journalist": "Axle McScatter",
   "last_published": 847,
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-13T12:30:00-08:00",
-  "next": 1495,
+  "next": 1496,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25942,6 +25936,43 @@
       "slug": "1494-nhtsa-h1-2026-decline-stalls-q2-flat",
       "title": "NHTSA\u00e2\u0080\u0099s Number Is Finally Out. The Safety Streak Survived Q2 by 20 Deaths.",
       "word_count": 1244
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1495-volvo-recall-census-12-trucks-carry-ten-critic-panel-r0.md",
+        "hero": "drafts/1495-volvo-recall-census-12-trucks-carry-ten.jpg",
+        "research": "drafts/1495-volvo-recall-census-12-trucks-carry-ten-research.md",
+        "story": "drafts/1495-volvo-recall-census-12-trucks-carry-ten.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "8c0aba95",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 6.8,
+        "word_count": 1638
+      },
+      "journalist": "Axle McScatter",
+      "note": "2026-11-13 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1495 (Volvo recall census, 12 campaigns, 21,984 vehicles; cars 2/trucks 10, EX30 monopoly; round-0 8.79, queued 2028-08-16). Pre-ship fix per panel: Quebec suit qualified as proposed class action. PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+      "number": 1495,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2028-08-16",
+      "slug": "1495-volvo-recall-census-12-trucks-carry-ten",
+      "title": "Volvo Recalled 12 Times in 2026. Ten of Them Were Trucks.",
+      "word_count": 1638
     }
   ]
 }
