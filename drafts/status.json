@@ -1,15 +1,9 @@
 {
-  "current": {
-    "slug": "1489-audi-recall-census-1-sunroof-q3",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-13T00:45:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-12 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1488 (Mercedes-Benz recall census, 8 campaigns; Mia Crumplezone, round-0 8.79, queued 2028-08-09). PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-12T22:30:00-08:00",
-  "last_completed_date": "2026-11-12",
+  "last_completed": "2026-11-13T01:00:00-08:00",
+  "last_completed_date": "2026-11-13",
   "last_journalist": "Clara Rollover",
   "last_published": 847,
   "last_published_date": "2026-11-13",
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
   "last_worker_run": "2026-11-13T01:00:00-08:00",
-  "next": 1489,
+  "next": 1490,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25723,6 +25717,45 @@
       "ship_date": "2028-08-09",
       "slug": "1488-mercedes-recall-census-8-ten-cars-rollaway",
       "title": "Mercedes Recalled Its New Cars 8 Times. The Smallest Is 10 Cars. The Biggest Can Roll Away."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1489-audi-recall-census-1-sunroof-q3-critic-panel-r0.md",
+        "hero": "drafts/1489-audi-recall-census-1-sunroof-q3.jpg",
+        "research": "drafts/1489-audi-recall-census-1-sunroof-q3-research.md",
+        "story": "drafts/1489-audi-recall-census-1-sunroof-q3.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "e8942b00",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "style_css": true,
+        "the_starters_pct": 5.0,
+        "word_count": 2013
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "By The Numbers",
+      "note": "2026-11-13 01:00 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1489 (Audi recall census, 1 campaign; Clara Rollover, round-0 8.86, queued 2028-08-10). Pre-panel fixes: rhythm short-share 21.1% -> 2.7% (20 fragment joins); thirteen-day correction (25V900 filed Dec 19, 2025 is 13 days before Jan 1, not 9); factor-of-fifty -> nearly sixty (356,894/6,077 = 58.7); cut unsourced 'weakest nine months' sales flourish. Census: 190 API queries, 3 passes, 156 HTTP 400, MY2025 controls prove zeros are real (7/8 return 200; q4 e-tron MY2026 returns clean 200-empty). Outside census: 25V900 camera 356,894, 26V698 Q4 battery fire 9,048, 25V638 child-seat retractors, 26V266 2025 Q5 belts 7,425. PUBLISH-QUEUE: 1/day gate consumed today by Publish #847; no publish this run. Next due #848 (2026-11-13, hero-ready) is earliest-due for the next publish-eligible run.",
+      "number": 1489,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2028-08-10",
+      "slug": "1489-audi-recall-census-1-sunroof-q3",
+      "title": "Audi Recalled Its New Cars Once in 2026. The Fires and the Blind Cameras Don't Count."
     }
   ]
 }
