@@ -1,15 +1,10 @@
 {
-  "current": {
-    "slug": "1491-porsche-recall-census-zero-2026-cars",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-13T04:30:00-08:00"
-  },
-  "last_check_note": "2026-11-13 04:30 run: RESEARCH #1491 (Porsche recall census, 0 campaigns; Rex Driverton). Census: 59 API queries, 50 HTTP 400, 9 HTTP 200; MY2025 controls prove vocabulary; MY2024 911 control sees 26V682. Outside census: 26V682 do-not-drive (548 2024 cars), 25V896 camera (173,538), 25V634 fuel pump (2026 Cayenne/Panamera), 25V415 strut, WTF7 workshop campaign on 2025-2026 911 GTS. PUBLISH-QUEUE: 1/day gate already met today (Publish #847); #848 due today, hero-ready, ships next slot.",
+  "current": null,
+  "last_check_note": "2026-11-13 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1491 (Porsche recall census, 0 campaigns; Rex Driverton, round-0 8.79, queued 2028-08-12). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-13T02:30:00-08:00",
+  "last_completed": "2026-11-13T04:30:00-08:00",
   "last_completed_date": "2026-11-13",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": 847,
   "last_published_date": "2026-11-13",
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
@@ -25800,6 +25795,45 @@
         "word_count": 1203
       },
       "kicker": "Investigation"
+    },
+    {
+      "number": 1491,
+      "slug": "1491-porsche-recall-census-zero-2026-cars",
+      "title": "Porsche Recalled Zero 2026 Cars. Its Wheels Were Still Falling Off.",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-08-12",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "kicker": "Investigation",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 11.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "02fb2ed7",
+        "rhythm_pass": true,
+        "word_count": 2068
+      },
+      "files": {
+        "research": "drafts/1491-porsche-recall-census-zero-2026-cars-research.md",
+        "story": "drafts/1491-porsche-recall-census-zero-2026-cars.html",
+        "hero": "drafts/1491-porsche-recall-census-zero-2026-cars.jpg",
+        "critic_panel": "drafts/1491-porsche-recall-census-zero-2026-cars-critic-panel-r0.md"
+      },
+      "note": "2026-11-13 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1491 (Porsche recall census, 0 campaigns; Rex Driverton, round-0 8.79, queued 2028-08-12). Census: 59 API queries, 50 HTTP 400, 9 HTTP 200; MY2025 controls prove vocabulary; MY2024 911 control sees 26V682. Outside census: 26V682 do-not-drive (548 2024 cars), 25V896 camera (173,538, filed 13 days before window), 25V634 fuel pump + 25V415 strut (touch 2026 cars, filed 2025), WTF7 workshop campaign on 2025-2026 911 GTS. Pre-panel fixes: rhythm short-share 21.2% -> 11.2% (7 fragment joins); twelve-day -> thirteen-day correction (25V896 filed Dec 19, 2025 is 13 days before Jan 1). PUBLISH-QUEUE: 1/day gate already met today by Publish #847; #848 due today (2026-11-13), hero-ready, ships next slot."
     }
   ]
 }
