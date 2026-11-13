@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1487-volkswagen-recall-census-4-two-fires-a-crash-test",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-12T20:30:00-08:00"
+    "started": "2026-11-12T20:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-12 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1486 (Mazda recall census, first zero in the series; 0 campaigns filed 2026 touching 2026 MY across 7 models; Axle McScatter, round-1 8.83, queued 2028-08-07). Bookkeeping fix in 20:30 run: next was left at 1486 and last_completed at 16:30; corrected to next=1487, last_completed/last_worker_run 18:30.",
   "last_checked": "2026-11-12T08:30:00-08:00",
