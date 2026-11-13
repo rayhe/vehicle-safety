@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-13 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1495 (Volvo recall census, 12 campaigns, 21,984 vehicles; cars 2/trucks 10, EX30 monopoly; Axle McScatter, round-0 8.79, queued 2028-08-16). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1496-rivian-recall-census-3-one-covers-99k",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-13T14:30:00-08:00"
+  },
+  "last_check_note": "2026-11-13 14:30 run: RESEARCH #1496 (Rivian recall census, 3 campaigns, 103,526 vehicles; 26V597 = 95.5% of population; R2 recalled before existing as 2026 model; Rex Driverton, rotation after four straight Axle censuses). DRAFT in progress.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T12:30:00-08:00",
   "last_completed_date": "2026-11-13",
@@ -10,7 +15,7 @@
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T12:30:00-08:00",
+  "last_worker_run": "2026-11-13T14:30:00-08:00",
   "next": 1496,
   "queue": [
     {

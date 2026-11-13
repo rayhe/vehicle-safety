@@ -1,0 +1,73 @@
+{
+ "brands": {
+  "rivian": {
+   "campaigns": {
+    "26V009000": {
+     "campaign": "26V009000",
+     "date": "16/01/2026",
+     "component": "SEAT BELTS:CRITICAL FASTENERS",
+     "summary": "Rivian Automotive, LLC (Rivian) is recalling certain 2022-2025 R1T and 2022-2026 R1S vehicles. The bolts that secure the second-row driver and passenger side seat belt retractor assemblies may be improperly tightened.",
+     "ota": false,
+     "found_via": "rivian/r1s"
+    },
+    "26V508000": {
+     "campaign": "26V508000",
+     "date": "06/08/2026",
+     "component": "EXTERIOR LIGHTING:TURN SIGNAL",
+     "summary": "Rivian Automotive, LLC (Rivian) is recalling certain 2025-2026 R1S and R1T vehicles. One or both front turn signals may fail to illuminate and flash. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "found_via": "rivian/r1s"
+    },
+    "26V597000": {
+     "campaign": "26V597000",
+     "date": "16/09/2026",
+     "component": "BACK OVER PREVENTION:SOFTWARE",
+     "summary": "Rivian Automotive, LLC (Rivian) is recalling certain 2022-2027 R1S, 2022-2026 R1T, and 2027 R2 vehicles. The rearview camera image may be obstructed by a notification when in reverse.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "rivian/r1s"
+    }
+   },
+   "count": 3,
+   "per_model": {
+    "rivian/r1s": [
+     "26V009000",
+     "26V508000",
+     "26V597000"
+    ],
+    "rivian/r1t": [
+     "26V508000",
+     "26V597000"
+    ]
+   },
+   "queries": 25,
+   "done": true,
+   "status_log": {
+    "rivian/edv": 400,
+    "rivian/edv hybrid": 400,
+    "rivian/edv plug-in hybrid": 400,
+    "rivian/edv electric": 400,
+    "rivian/edv recharge": 400,
+    "rivian/r1s": 200,
+    "rivian/r1s hybrid": 400,
+    "rivian/r1s plug-in hybrid": 400,
+    "rivian/r1s electric": 400,
+    "rivian/r1s recharge": 400,
+    "rivian/r1t": 200,
+    "rivian/r1t hybrid": 400,
+    "rivian/r1t plug-in hybrid": 400,
+    "rivian/r1t electric": 400,
+    "rivian/r1t recharge": 400,
+    "rivian/rcv": 400,
+    "rivian/rcv hybrid": 400,
+    "rivian/rcv plug-in hybrid": 400,
+    "rivian/rcv electric": 400,
+    "rivian/rcv recharge": 400,
+    "rivian/r2": 400,
+    "rivian/commercial van": 400,
+    "rivian/delivery van": 400,
+    "rivian/r1t dual motor": 400,
+    "rivian/r1s dual motor": 400
+   }
+  }
+ }
+}
