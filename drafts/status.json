@@ -1,22 +1,17 @@
 {
-  "current": {
-    "slug": "1496-rivian-recall-census-3-one-covers-99k",
-    "phase": "DRAFT",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-13T14:30:00-08:00"
-  },
-  "last_check_note": "2026-11-13 14:30 run: RESEARCH #1496 (Rivian recall census, 3 campaigns, 103,526 vehicles; 26V597 = 95.5% of population; R2 recalled before existing as 2026 model; Rex Driverton, rotation after four straight Axle censuses). DRAFT in progress.",
+  "current": null,
+  "last_check_note": "2026-11-13 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1496 (Rivian recall census, 3 campaigns, 103,526 vehicles; 26V597 = 95.5% of population; R2 recalled before existing as 2026 model; Rex Driverton, rotation after four straight Axle censuses; round-0 8.96, queued 2028-08-17). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-13T12:30:00-08:00",
+  "last_completed": "2026-11-13T14:30:00-08:00",
   "last_completed_date": "2026-11-13",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": 847,
   "last_published_date": "2026-11-13",
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-13T14:30:00-08:00",
-  "next": 1496,
+  "next": 1497,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25978,6 +25973,43 @@
       "slug": "1495-volvo-recall-census-12-trucks-carry-ten",
       "title": "Volvo Recalled 12 Times in 2026. Ten of Them Were Trucks.",
       "word_count": 1638
+    },
+    {
+      "avg_critic": 8.96,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1496-rivian-recall-census-3-one-covers-99k-critic-panel-r0.md",
+        "hero": "drafts/1496-rivian-recall-census-3-one-covers-99k.jpg",
+        "research": "drafts/1496-rivian-recall-census-3-one-covers-99k-research.md",
+        "story": "drafts/1496-rivian-recall-census-3-one-covers-99k.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "cf6ef5be",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1563
+      },
+      "journalist": "Rex Driverton",
+      "note": "2026-11-13 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1496 (Rivian recall census, 3 campaigns, 103,526 vehicles; 26V597 = 95.5% of population; R2 recalled before existing as 2026 model; Rex Driverton, rotation after four straight Axle censuses; round-0 8.96, queued 2028-08-17). Pre-panel fixes: headline corrected from 'Nearly Every Rivian Ever Built' to 'Covered 99,000 Vehicles' (98,828 is ~half of cumulative production, not nearly all); 'fewest campaigns' corrected to 'second-fewest' (Audi filed 1); R2 delivery wording corrected (19,248 is company-wide Q3 record, not R2 alone). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+      "number": 1496,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.2,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-08-17",
+      "slug": "1496-rivian-recall-census-3-one-covers-99k",
+      "title": "Rivian Recalled 3 Times in 2026. One of Them Covered 99,000 Vehicles.",
+      "word_count": 1563
     }
   ]
 }
