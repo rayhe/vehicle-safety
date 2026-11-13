@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1486-mazda-recall-census-zero-new-cars-zero-recalls",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-12T18:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-12 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance 26V680/Heartland 26V710/Ember 26V714; #1371 trio missed Forest River, zero prior coverage; Clara Rollover, round-0 8.79, queued 2028-08-06). Rhythm initially failed (short 20.8%); six fragment merges fixed pre-critique, exit 0. PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-12T16:30:00-08:00",
@@ -25603,6 +25597,47 @@
         "critic_panel": "drafts/1485-forest-river-recliner-fire-quartet-critic-panel-r0.md"
       },
       "note": "2026-11-12 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1485 (Forest River 26V704 power-seat fuse fire, 6,275 units; quartet census 10,738 with Alliance 26V680/Heartland 26V710/Ember 26V714; #1371 trio missed Forest River, zero prior coverage; Clara Rollover, round-0 8.79, queued 2028-08-06). Rhythm initially failed (short 20.8%); six fragment merges fixed pre-critique, exit 0. PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot)."
+    },
+    {
+      "number": 1486,
+      "slug": "1486-mazda-recall-census-zero-new-cars-zero-recalls",
+      "title": "Mazda Recalled Its New Cars Zero Times in 2026. The Only Thing It Recalled Was a Sticker.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "ship_date": "2028-08-07",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general_editor": 8.9,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.83,
+      "critique_round": 1,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "c48b6215",
+        "word_count": 1220,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 1.8,
+        "rhythm_variance": 3575.6
+      },
+      "files": {
+        "research": "drafts/1486-mazda-recall-census-zero-new-cars-zero-recalls-research.md",
+        "story": "drafts/1486-mazda-recall-census-zero-new-cars-zero-recalls.html",
+        "hero": "drafts/1486-mazda-recall-census-zero-new-cars-zero-recalls.jpg",
+        "critic_panel": "drafts/1486-mazda-recall-census-zero-new-cars-zero-recalls-critic-panel-r1.md"
+      },
+      "note": "2026-11-12 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1486 (Mazda recall census, first zero in the series; 0 campaigns filed 2026 touching 2026 MY across 7 models; NHTSA API 400s on all 17 MY2026 spellings, recallsByManufacturer 403, zero rests on 6 outside confirmations + control sweeps; 2025 contrast 277,273 vehicles in 25V357/25V568/25V737; boundary case 8026C sticker emissions recall; open RQ26002 steering query; Axle McScatter, round-1 8.83 after r0 Data 8.0 table fix, queued 2028-08-07)."
     }
   ]
 }
