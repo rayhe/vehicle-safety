@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1492-tesla-recall-census-4-zero-ota-fixes",
-    "phase": "SHIP",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-13T06:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-13 06:30 run: RESEARCH #1492 (Tesla recall census, 4 campaigns, 14,782 vehicles, 0 OTA fixes; Vin Wreckage). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "current": null,
+  "last_check_note": "2026-11-13 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1492 (Tesla recall census, 4 campaigns; Vin Wreckage, round-0 8.79, queued 2028-08-13). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T04:30:00-08:00",
   "last_completed_date": "2026-11-13",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Vin Wreckage",
   "last_published": 847,
   "last_published_date": "2026-11-13",
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-13T06:30:00-08:00",
-  "next": 1492,
+  "next": 1493,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -25840,6 +25834,44 @@
         "critic_panel": "drafts/1491-porsche-recall-census-zero-2026-cars-critic-panel-r0.md"
       },
       "note": "2026-11-13 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1491 (Porsche recall census, 0 campaigns; Rex Driverton, round-0 8.79, queued 2028-08-12). Census: 59 API queries, 50 HTTP 400, 9 HTTP 200; MY2025 controls prove vocabulary; MY2024 911 control sees 26V682. Outside census: 26V682 do-not-drive (548 2024 cars), 25V896 camera (173,538, filed 13 days before window), 25V634 fuel pump + 25V415 strut (touch 2026 cars, filed 2025), WTF7 workshop campaign on 2025-2026 911 GTS. Pre-panel fixes: rhythm short-share 21.2% -> 11.2% (7 fragment joins); twelve-day -> thirteen-day correction (25V896 filed Dec 19, 2025 is 13 days before Jan 1). PUBLISH-QUEUE: 1/day gate already met today by Publish #847; #848 due today (2026-11-13), hero-ready, ships next slot."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1492-tesla-recall-census-4-zero-ota-fixes-critic-panel-r0.md",
+        "hero": "drafts/1492-tesla-recall-census-4-zero-ota-fixes.jpg",
+        "research": "drafts/1492-tesla-recall-census-4-zero-ota-fixes-research.md",
+        "story": "drafts/1492-tesla-recall-census-4-zero-ota-fixes.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "3ee9262b",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 7.3,
+        "word_count": 1759
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-11-13 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1492 (Tesla recall census, 4 campaigns, 14,782 vehicles, 0 OTA fixes; Vin Wreckage, round-0 8.79, queued 2028-08-13). Standing note: two sentences recycled nearly verbatim from #1491 (clean-zero receipts + 'On paper is doing a lot of work'); next census must write fresh connective tissue and render brand/per-model tables as HTML tables.",
+      "number": 1492,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2028-08-13",
+      "slug": "1492-tesla-recall-census-4-zero-ota-fixes",
+      "title": "Tesla Recalled Four Times in 2026. Not One of Them Could Be Fixed Over the Air."
     }
   ]
 }
