@@ -1,0 +1,250 @@
+{
+ "brands": {
+  "mercedes-benz": {
+   "campaigns": {
+    "26V281000": {
+     "campaign": "26V281000",
+     "date": "02/05/2026",
+     "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+     "summary": "Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2024-2026 AMG GT, C-Class, E-Class, SL, CLE, and GLC vehicles. The infotainment control unit may reset while the vehicle is in motion and cause the instrument panel display to go blank.",
+     "found_via": "mercedes-benz/c 300"
+    },
+    "26V134000": {
+     "campaign": "26V134000",
+     "date": "06/03/2026",
+     "component": "LATCHES/LOCKS/LINKAGES:DOORS:LATCH",
+     "summary": "Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2026 GLA 250 vehicles. The bowden cable may have been incorrectly installed, which can prevent the door from opening from inside the vehicle.",
+     "found_via": "mercedes-benz/gla 250"
+    },
+    "26V481000": {
+     "campaign": "26V481000",
+     "date": "24/07/2026",
+     "component": "LATCHES/LOCKS/LINKAGES:DOORS:LOCK",
+     "summary": "Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2020-2021 CLA, 2019-2022 A-Class, 2022-2023 C-Class, 2024 CLE, 2020-2026 GLA/GLB, and 2023-2024 GLC vehicles. Please refer to MBUSA's recall report for specific model information. The micro-switch in the driver's door lock may corrode and fail to detect an open door, preventing the electronic parking brake or \"Auto-Park\" feature from engaging automatically. This may result in a vehicle rollaway.",
+     "found_via": "mercedes-benz/glb 250"
+    },
+    "26V172000": {
+     "campaign": "26V172000",
+     "date": "20/03/2026",
+     "component": "SEAT BELTS:REAR/OTHER",
+     "summary": "Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2026 AMG GLC43 4MATIC, GLC 300 4MATIC, GLC 300, and GLC 300 4MATIC Coupe vehicles. The center rear seat belts may have been installed without the child seat protection function and fail to lock a child restraint properly. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 208, \"Occupant Crash Protection,\" and FMVSS number 209, \"Seat Belt Assemblies.\"",
+     "found_via": "mercedes-benz/glc 300"
+    },
+    "26V199000": {
+     "campaign": "26V199000",
+     "date": "28/03/2026",
+     "component": "AIR BAGS:PASSENGER SIDE FRONTAL:CUSHION",
+     "summary": "Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2026 GLE 350 4MATIC, GLE 450 4MATIC, GLE 350, GLE 580 4MATIC, GLS 580 4MATIC, GLE 450 E 4MATIC, AMG GLE53 4MATIC, AMG GLS63 4MATIC, AMG GLE63 S 4MATIC, GLS 450 4MATIC, and GLS 600 4MATIC vehicles. The passenger air bag fabric may have been manufactured incorrectly, which can cause the air bag not to deploy as intended.",
+     "found_via": "mercedes-benz/gle 350 4matic"
+    },
+    "26V353000": {
+     "campaign": "26V353000",
+     "date": "29/05/2026",
+     "component": "SEAT BELTS: REAR/OTHER:BUCKLE ASSEMBLY",
+     "summary": "Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2026 AMG GLS 63 4MATIC+, AMG GLE 63 S 4MATIC+ COUPE, AMG GLE 63 S 4MATIC+, AMG GLE 53 4MATIC+ COUPE,  AMG GLE 53 4MATIC+, GLE 450 4MATIC COUPE, GLE 350 4MATIC, Maybach GLS 600 4MATIC, GLS 580 4MATIC,  GLS 450 4MATIC, GLE 580 4MATIC, GLE 450E 4MATIC, GLE 450 4MATIC, and GLE 350 vehicles. The bolts for the rear seat belts may not be tightened properly.",
+     "found_via": "mercedes-benz/gle 350 4matic"
+    },
+    "26V063000": {
+     "campaign": "26V063000",
+     "date": "04/02/2026",
+     "component": "LATCHES/LOCKS/LINKAGES:DOORS:LATCH",
+     "summary": "Daimler Coaches North America (Daimler Coaches) is recalling certain 2026 Mercedes Benz Tourrider Business and Premium transit buses. The door control valve may not release the self holding mechanism, preventing the door from opening.",
+     "found_via": "mercedes-benz/tourrider business"
+    }
+   },
+   "count": 7,
+   "per_model": {
+    "c 300": [
+     "26V281000"
+    ],
+    "c 300 4matic": [
+     "26V281000"
+    ],
+    "e 350": [
+     "26V281000"
+    ],
+    "e 350 4matic": [
+     "26V281000"
+    ],
+    "e 450 4matic": [
+     "26V281000"
+    ],
+    "cle 300 4matic": [
+     "26V281000"
+    ],
+    "cle 450 4matic": [
+     "26V281000"
+    ],
+    "gla 250": [
+     "26V134000"
+    ],
+    "glb 250": [
+     "26V481000"
+    ],
+    "glb 250 4matic": [
+     "26V481000"
+    ],
+    "glc 300": [
+     "26V172000",
+     "26V281000"
+    ],
+    "glc 300 4matic": [
+     "26V172000",
+     "26V281000"
+    ],
+    "glc 300 4matic coupe": [
+     "26V172000",
+     "26V281000"
+    ],
+    "gle 350 4matic": [
+     "26V199000",
+     "26V353000"
+    ],
+    "gle 450 4matic": [
+     "26V199000",
+     "26V353000"
+    ],
+    "tourrider business": [
+     "26V063000"
+    ],
+    "tourrider premium": [
+     "26V063000"
+    ]
+   },
+   "queries": 130,
+   "done": true,
+   "status_log": {
+    "c 300": 200,
+    "c 300 4matic": 200,
+    "amg c 43": 400,
+    "amg c 63 s e performance": 400,
+    "e 350": 200,
+    "e 350 4matic": 200,
+    "e 450": 400,
+    "e 450 4matic": 200,
+    "e 450 all-terrain": 400,
+    "amg e 53": 400,
+    "amg e 53 hybrid": 400,
+    "s 500": 400,
+    "s 500 4matic": 400,
+    "s 580": 400,
+    "s 580 4matic": 400,
+    "s 580e": 400,
+    "maybach s 580": 400,
+    "maybach s 580 4matic": 400,
+    "maybach s 680": 400,
+    "maybach s 680 4matic": 400,
+    "amg s 63": 400,
+    "amg s 63 e performance": 400,
+    "cla 250": 400,
+    "cla 250 4matic": 400,
+    "amg cla 35": 400,
+    "amg cla 45": 400,
+    "cle 300": 400,
+    "cle 300 4matic": 200,
+    "cle 300 cabriolet": 400,
+    "cle 450": 400,
+    "cle 450 4matic": 200,
+    "cle 450 cabriolet": 400,
+    "amg cle 53": 400,
+    "amg cle 53 cabriolet": 400,
+    "amg gt 55": 400,
+    "amg gt 63": 400,
+    "amg gt 63 s e performance": 400,
+    "amg gt 43": 400,
+    "sl 43": 400,
+    "sl 55": 400,
+    "sl 63": 400,
+    "amg sl 43": 400,
+    "amg sl 55": 400,
+    "amg sl 63": 400,
+    "gla 250": 200,
+    "gla 250 4matic": 400,
+    "amg gla 35": 400,
+    "glb 250": 200,
+    "glb 250 4matic": 200,
+    "amg glb 35": 400,
+    "glc 300": 200,
+    "glc 300 4matic": 200,
+    "glc 300 coupe": 400,
+    "glc 300 4matic coupe": 200,
+    "glc 350e": 400,
+    "glc 350e 4matic": 400,
+    "amg glc 43": 400,
+    "amg glc 63": 400,
+    "amg glc 63 s e performance": 400,
+    "gle 350": 400,
+    "gle 350 4matic": 200,
+    "gle 450": 400,
+    "gle 450 4matic": 200,
+    "gle 450e": 400,
+    "gle 450e 4matic": 400,
+    "gle 580": 400,
+    "gle 580 4matic": 400,
+    "gle 350 coupe": 400,
+    "gle 450 coupe": 400,
+    "amg gle 53": 400,
+    "amg gle 63": 400,
+    "amg gle 63 s": 400,
+    "amg gle 63 s coupe": 400,
+    "gls 450": 400,
+    "gls 450 4matic": 400,
+    "gls 580": 400,
+    "gls 580 4matic": 400,
+    "maybach gls 600": 400,
+    "maybach gls 600 4matic": 400,
+    "amg gls 63": 400,
+    "amg gls 63 4matic": 400,
+    "g 550": 400,
+    "g 580": 400,
+    "amg g 63": 400,
+    "g 63": 400,
+    "eqe 350": 400,
+    "eqe 350 4matic": 400,
+    "eqe 500": 400,
+    "eqe 500 4matic": 400,
+    "amg eqe": 400,
+    "eqe 350 suv": 400,
+    "eqe 500 suv": 400,
+    "amg eqe suv": 400,
+    "eqs 450": 400,
+    "eqs 450 4matic": 400,
+    "eqs 580": 400,
+    "eqs 580 4matic": 400,
+    "amg eqs": 400,
+    "eqs 450 suv": 400,
+    "eqs 580 suv": 400,
+    "amg eqs suv": 400,
+    "eqa 250": 400,
+    "eqb 250": 400,
+    "eqb 300": 400,
+    "eqb 350": 400,
+    "sprinter 2500": 400,
+    "sprinter 3500": 400,
+    "sprinter 4500": 400,
+    "sprinter": 400,
+    "esprinter": 400,
+    "metris": 400,
+    "tourrider business": 200,
+    "tourrider premium": 200,
+    "c-class": 400,
+    "e-class": 400,
+    "s-class": 400,
+    "gla-class": 400,
+    "glb-class": 400,
+    "glc-class": 400,
+    "gle-class": 400,
+    "gls-class": 400,
+    "g-class": 400,
+    "cla-class": 400,
+    "cle": 400,
+    "amg gt": 400,
+    "eqe-class sedan": 400,
+    "eqe-class suv": 400,
+    "eqs-class sedan": 400,
+    "eqs-class suv": 400,
+    "sl-class": 400
+   }
+  }
+ }
+}

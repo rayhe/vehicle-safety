@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-12 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1487 (Volkswagen recall census, 4 campaigns; Rex Driverton, round-0 8.80, queued 2028-08-08). PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1488-mercedes-recall-census-8-ten-cars-rollaway",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-12T22:30:00-08:00"
+  },
+  "last_check_note": "2026-11-12 22:30 run: RESEARCH #1488 (Mercedes-Benz recall census, 8 campaigns; Mia Crumplezone). DRAFT in progress.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-12T20:30:00-08:00",
   "last_completed_date": "2026-11-12",
@@ -10,7 +15,7 @@
   "last_published_slug": "846-wheel-off-loose-lug-projectile",
   "last_qa_date": "2026-11-12",
   "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-12T20:30:00-08:00",
+  "last_worker_run": "2026-11-12T22:30:00-08:00",
   "next": 1488,
   "queue": [
     {
