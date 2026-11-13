@@ -96,7 +96,7 @@ Thirteen-group total: **152 campaigns**. Thirteen-brand average: 11.7. Mercedes-
 
 ### Campaign-vehicle arithmetic
 
-Summing the eight US populations: **455,948 campaign-vehicle instances**. Against 248,700 Mercedes-Benz vehicles retailed in the US through September 2026, that is roughly 1.83 recalled-vehicle instances per vehicle sold — but the populations span model years 2019-2026, so it is not a rate on 2026 sales; it is a scale figure. The distribution is the story: the two big campaigns (26V281 + 26V481 = 454,716) are 99.7% of the total; the other six campaigns together cover 1,232 vehicles. The median Mercedes recall in 2026 covered 111.5 vehicles. The mean covered 56,994. That gap is the whole census.
+Summing the eight US populations: **455,948 campaign-vehicle instances**. Against 248,700 Mercedes-Benz vehicles retailed in the US through September 2026, that is roughly 1.83 recalled-vehicle instances per vehicle sold — but the populations span model years 2019-2026, so it is not a rate on 2026 sales; it is a scale figure. The distribution is the story: the two big campaigns (26V281 + 26V481 = 454,716) are 99.7% of the total; the other six campaigns together cover 1,232 vehicles. The median Mercedes recall in 2026 covered 127 vehicles. The mean covered 56,994. That gap is the whole census.
 
 ### The micro-recalls (10, 16, 20 cars)
 
