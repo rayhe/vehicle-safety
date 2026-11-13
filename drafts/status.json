@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1495-volvo-recall-census-12-trucks-carry-ten",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-13T12:30:00-08:00"
+    "started": "2026-11-13T12:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-13 12:30 run: RESEARCH #1495 (Volvo recall census, 12 campaigns, cars 2/trucks 10, EX30 monopoly; 329-query API census + 6 MY2025 controls). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
