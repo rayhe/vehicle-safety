@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-12 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1488 (Mercedes-Benz recall census, 8 campaigns; Mia Crumplezone, round-0 8.79, queued 2028-08-09). PUBLISH skipped (1/day gate already met today: #846 published 00:30; #847 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1491-porsche-recall-census-zero-2026-cars",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-13T04:30:00-08:00"
+  },
+  "last_check_note": "2026-11-13 04:30 run: RESEARCH #1491 (Porsche recall census, 0 campaigns; Rex Driverton). Census: 59 API queries, 50 HTTP 400, 9 HTTP 200; MY2025 controls prove vocabulary; MY2024 911 control sees 26V682. Outside census: 26V682 do-not-drive (548 2024 cars), 25V896 camera (173,538), 25V634 fuel pump (2026 Cayenne/Panamera), 25V415 strut, WTF7 workshop campaign on 2025-2026 911 GTS. PUBLISH-QUEUE: 1/day gate already met today (Publish #847); #848 due today, hero-ready, ships next slot.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T02:30:00-08:00",
   "last_completed_date": "2026-11-13",
@@ -10,8 +15,8 @@
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T01:05:00-08:00",
-  "next": 1490,
+  "last_worker_run": "2026-11-13T04:30:00-08:00",
+  "next": 1492,
   "queue": [
     {
       "journalist": "Rex Driverton",

@@ -1,0 +1,192 @@
+{
+ "brands": {
+  "porsche": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 27,
+   "done": true,
+   "status_log": {
+    "porsche/911": 400,
+    "porsche/911 hybrid": 400,
+    "porsche/911 plug-in hybrid": 400,
+    "porsche/911 electric": 400,
+    "porsche/cayenne": 200,
+    "porsche/cayenne hybrid": 400,
+    "porsche/cayenne plug-in hybrid": 400,
+    "porsche/cayenne electric": 400,
+    "porsche/macan": 400,
+    "porsche/macan hybrid": 400,
+    "porsche/macan plug-in hybrid": 400,
+    "porsche/macan electric": 400,
+    "porsche/panamera": 200,
+    "porsche/panamera hybrid": 400,
+    "porsche/panamera plug-in hybrid": 400,
+    "porsche/panamera electric": 400,
+    "porsche/taycan": 400,
+    "porsche/taycan hybrid": 400,
+    "porsche/taycan plug-in hybrid": 400,
+    "porsche/taycan electric": 400,
+    "porsche/911 carrera": 400,
+    "porsche/911 turbo": 400,
+    "porsche/911 gt3": 400,
+    "porsche/911 gt3 rs": 400,
+    "porsche/718 boxster": 400,
+    "porsche/718 cayman": 400,
+    "porsche/taycan cross turismo": 400
+   },
+   "pass2": {
+    "MY2025/911": {
+     "code": 200,
+     "campaigns": [
+      "25V079000",
+      "25V896000"
+     ]
+    },
+    "MY2025/cayenne": {
+     "code": 200,
+     "campaigns": [
+      "25V634000",
+      "25V896000"
+     ]
+    },
+    "MY2025/cayenne e-hybrid": {
+     "code": 200,
+     "campaigns": [
+      "25V896000"
+     ]
+    },
+    "MY2025/taycan": {
+     "code": 200,
+     "campaigns": [
+      "24V455000",
+      "24V730000",
+      "25V415000",
+      "25V896000"
+     ]
+    },
+    "MY2025/panamera": {
+     "code": 200,
+     "campaigns": [
+      "25V634000",
+      "25V896000"
+     ]
+    },
+    "MY2025/panamera e-hybrid": {
+     "code": 200,
+     "campaigns": [
+      "25V415000",
+      "25V634000"
+     ]
+    },
+    "MY2025/macan": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2025/macan electric": {
+     "code": 200,
+     "campaigns": [
+      "24V889000",
+      "25V220000"
+     ]
+    },
+    "MY2025/718 cayman": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2025/718 boxster": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 carrera": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 carrera s": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 gt3": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 turbo": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 turbo s": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 gt3 rs": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/cayenne s": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/cayenne e-hybrid": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/cayenne turbo": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/taycan 4s": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/taycan turbo": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/taycan gts": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/panamera 4": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/panamera e-hybrid": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/macan s": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/macan gts": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/macan 4 electric": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/718 cayman": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/718 boxster": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 carrera gts": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 targa": {
+     "code": 400,
+     "campaigns": []
+    },
+    "MY2026/911 carrera t": {
+     "code": 400,
+     "campaigns": []
+    }
+   }
+  }
+ }
+}
