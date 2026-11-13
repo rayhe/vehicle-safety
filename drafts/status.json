@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1494-nhtsa-h1-2026-decline-stalls-q2-flat",
+    "phase": "CRITIQUE",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-13T10:30:00-08:00",
+    "round": 0
+  },
   "last_check_note": "2026-11-13 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1493 (Toyota Takata final-phase sequel, ~314,000 US vehicles; Axle McScatter, round-0 8.79, queued 2028-08-14). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T08:30:00-08:00",
@@ -10,7 +16,7 @@
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T08:30:00-08:00",
+  "last_worker_run": "2026-11-13T10:30:00-08:00",
   "next": 1494,
   "queue": [
     {
