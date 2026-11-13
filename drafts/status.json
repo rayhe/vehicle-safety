@@ -8,9 +8,9 @@
   "last_published": 847,
   "last_published_date": "2026-11-13",
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
-  "last_qa_date": "2026-11-12",
-  "last_qa_note": "QA pass #846: story 200 live (via 308 Cloudflare Pages extensionless-URL redirect .html -> clean URL, 9,228 bytes), hero image/jpeg 200 (352,997 bytes, ?v=f6e5ac75), og:title/og:description/og:image verified live, index card first in grid (slug x2 on homepage), sitemap entry lastmod 2026-11-12, dateline retained from draft (September 8, 2026, per #845 precedent).",
-  "last_worker_run": "2026-11-13T01:00:00-08:00",
+  "last_qa_date": "2026-11-13",
+  "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
+  "last_worker_run": "2026-11-13T01:05:00-08:00",
   "next": 1490,
   "queue": [
     {
