@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1506-park-outside-census-3-new-cars-720k-used-bmws",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
-    "started": "2026-11-14T10:30:00-08:00"
+    "started": "2026-11-14T10:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-14 10:30 run: RESEARCH #1506 (park-outside/do-not-drive flag census, 39 makes, 2,782 queries, 188 distinct 2026 campaigns; 3 park-outside 96,389 vehicles + 4 do-not-drive 4,882; all 3 park-outsides 100% defect; ball-joint pair Ford 26V340 4,653 vs Subaru 26V685 8; excluded BMW 26V733 720,796; Mack 26V351 cross-check). Now DRAFT.",
+  "last_check_note": "2026-11-14 10:30 run: DRAFT #1506 done (Vin Wreckage, hero JPEG 1920x1280 md5 1093f481; gates pre-checked: em 0, banned 0, The 2.7%, css ok, rhythm variance 1457). Now CRITIQUE.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T08:30:00-08:00",
   "last_completed_date": "2026-11-14",
