@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1497-genesis-recall-census-3-zero-standalone-defects",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-13T16:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-13 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1496 (Rivian recall census, 3 campaigns, 103,526 vehicles; 26V597 = 95.5% of population; R2 recalled before existing as 2026 model; Rex Driverton, rotation after four straight Axle censuses; round-0 8.96, queued 2028-08-17). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T14:30:00-08:00",
@@ -26016,6 +26010,37 @@
       "slug": "1496-rivian-recall-census-3-one-covers-99k",
       "title": "Rivian Recalled 3 Times in 2026. One of Them Covered 99,000 Vehicles.",
       "word_count": 1563
+    },
+    {
+      "number": 1497,
+      "slug": "1497-genesis-recall-census-3-zero-standalone-defects",
+      "title": "Genesis Recalled 3 Times in 2026. Not Once for Something Only Genesis Did.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-08-18",
+      "score": 8.96,
+      "avg_critic": 8.96,
+      "critic_rounds": 1,
+      "critique_round": 0,
+      "created": "2026-11-13",
+      "files": {
+        "research": "drafts/1497-genesis-recall-census-3-zero-standalone-defects-research.md",
+        "story": "drafts/1497-genesis-recall-census-3-zero-standalone-defects.html",
+        "hero": "drafts/1497-genesis-recall-census-3-zero-standalone-defects.jpg",
+        "critic_panel": "drafts/1497-genesis-recall-census-3-zero-standalone-defects-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.1,
+        "css_class": true,
+        "hero_jpeg": true,
+        "hero_hash": "697f090b",
+        "rhythm": "pass (var 753.7, short 13.6%, long 39.5%)",
+        "actionable_insights": true
+      },
+      "note": "2026-11-13 16:30 run: full pipeline #1497 (Genesis recall census, 3 campaigns, 184,347 Genesis vehicles / 472,765 campaign total; zero standalone defects \u2014 all three shared with Hyundai/Kia; G70 clean sheet; avg 8.96, round 0), queued 2028-08-18."
     }
   ]
 }
