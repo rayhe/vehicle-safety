@@ -1,0 +1,83 @@
+{
+ "brands": {
+  "acura": {
+   "queries": 29,
+   "campaigns": {
+    "26V332000": {
+     "campaign": "26V332000",
+     "date": "22/05/2026",
+     "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+     "summary": "Honda (American Honda Motor Co.) is recalling certain 2018-2021, 2023 Acura TLX, 2019-2024 RDX, 2017-2020, 2022-2026 MDX, 2017-2021, 2023, 2025 Honda Ridgeline, 2017-2022 Pilot, 2019-2021 Passport, 2018-2026 Odyssey, 2019-2022 Insight, 2019-2021 HR-V, 2018-2020 Fit, 2020-2022 CR-V Hybrid, 2017-2022 CR-V, 2017-2018, 2021 Civic Type R, 2017-2021 Civic hatchback, 2016-2020 Civic coupe, 2016-2022 Civic, 2017-2022 Accord Hybrid, and 2016-2022 Accord vehicles. The front passenger seat weight sensor may crack and short circuit, which can cause the air bags to deploy unintentionally during a crash.",
+     "consequence": "Air bags that deploy unintentionally during a crash increase the risk of injury.",
+     "remedy": "Dealers will replace the seat weight sensors, free of charge. Owner notification letters were mailed July 7, 2026. Owners may contact Honda's customer service at 1-888-234-2138. Honda's numbers for this recall are BOL, WO9, OOA, WOM, XOH, NOC, POD, BOE, UOF, POB, EOG, AOI, QO8, TOJ, DO7, and SOK. This recall expands previous NHTSA recall number 24V064. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning May 29, 2026.",
+     "ota": false,
+     "found_via": "acura/mdx"
+    }
+   },
+   "per_model": {
+    "adx": [],
+    "adx hybrid": [],
+    "adx plug-in hybrid": [],
+    "adx electric": [],
+    "adx recharge": [],
+    "integra": [],
+    "integra hybrid": [],
+    "integra plug-in hybrid": [],
+    "integra electric": [],
+    "integra recharge": [],
+    "mdx": [
+     "26V332000"
+    ],
+    "mdx hybrid": [],
+    "mdx plug-in hybrid": [],
+    "mdx electric": [],
+    "mdx recharge": [],
+    "rdx": [],
+    "rdx hybrid": [],
+    "rdx plug-in hybrid": [],
+    "rdx electric": [],
+    "rdx recharge": [],
+    "zdx": [],
+    "zdx hybrid": [],
+    "zdx plug-in hybrid": [],
+    "zdx electric": [],
+    "zdx recharge": [],
+    "mdx type s": [],
+    "integra type s": [],
+    "zdx type s": [],
+    "zdx a-spec": []
+   },
+   "status_log": {
+    "acura/adx": 400,
+    "acura/adx hybrid": 400,
+    "acura/adx plug-in hybrid": 400,
+    "acura/adx electric": 400,
+    "acura/adx recharge": 400,
+    "acura/integra": 400,
+    "acura/integra hybrid": 400,
+    "acura/integra plug-in hybrid": 400,
+    "acura/integra electric": 400,
+    "acura/integra recharge": 400,
+    "acura/mdx": 200,
+    "acura/mdx hybrid": 400,
+    "acura/mdx plug-in hybrid": 400,
+    "acura/mdx electric": 400,
+    "acura/mdx recharge": 400,
+    "acura/rdx": 400,
+    "acura/rdx hybrid": 400,
+    "acura/rdx plug-in hybrid": 400,
+    "acura/rdx electric": 400,
+    "acura/rdx recharge": 400,
+    "acura/zdx": 400,
+    "acura/zdx hybrid": 400,
+    "acura/zdx plug-in hybrid": 400,
+    "acura/zdx electric": 400,
+    "acura/zdx recharge": 400,
+    "acura/mdx type s": 400,
+    "acura/integra type s": 400,
+    "acura/zdx type s": 400,
+    "acura/zdx a-spec": 400
+   }
+  }
+ }
+}

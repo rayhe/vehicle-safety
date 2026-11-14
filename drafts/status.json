@@ -1,6 +1,11 @@
 {
- "current": null,
- "last_check_note": "2026-11-13 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1499 (JLR recall census, 7 campaigns, 345,704 campaign-units; Jaguar 0, Land Rover 7; Rex Driverton, round-0 8.91, queued 2028-08-20). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #847, 2490fa6c, 00:30 today). #848 due today (ship_date 2026-11-13), hero-ready (real JPEG ff d8, 1920x1280, 1,027,973 bytes), ships next slot.",
+ "current": {
+  "slug": "1502-acura-recall-census-1-635k-excluded",
+  "phase": "DRAFT",
+  "journalist": "Clara Rollover",
+  "started": "2026-11-14T02:30:00-08:00"
+ },
+ "last_check_note": "2026-11-14 02:30 run: RESEARCH #1502 (Acura recall census, 1 campaign, 29 queries, 5 models; 26V332 only, 4,806 Acuras; excluded 26V721 635,808 + 26V365 880,514 = 470,215 excluded Acuras; Acura adds 0 distinct defects to Honda 4; Clara Rollover). PUBLISH-QUEUE: 1/day gate met (Publish #848 at 00:27 today); #849 due today, slot consumed, ship_date bumped to 2026-11-15.",
  "last_checked": "2026-11-12T08:30:00-08:00",
  "last_completed": "2026-11-14T00:30:00-08:00",
  "last_completed_date": "2026-11-13",
@@ -10,8 +15,8 @@
  "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
  "last_qa_date": "2026-11-13",
  "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
- "last_worker_run": "2026-11-13T20:30:00-08:00",
- "next": 1501,
+ "last_worker_run": "2026-11-14T02:30:00-08:00",
+ "next": 1502,
  "queue": [
   {
    "journalist": "Rex Driverton",
