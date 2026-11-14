@@ -1,9 +1,10 @@
 {
  "current": {
   "slug": "1502-acura-recall-census-1-635k-excluded",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Clara Rollover",
-  "started": "2026-11-14T02:30:00-08:00"
+  "started": "2026-11-14T02:30:00-08:00",
+  "round": 0
  },
  "last_check_note": "2026-11-14 02:30 run: RESEARCH #1502 (Acura recall census, 1 campaign, 29 queries, 5 models; 26V332 only, 4,806 Acuras; excluded 26V721 635,808 + 26V365 880,514 = 470,215 excluded Acuras; Acura adds 0 distinct defects to Honda 4; Clara Rollover). PUBLISH-QUEUE: 1/day gate met (Publish #848 at 00:27 today); #849 due today, slot consumed, ship_date bumped to 2026-11-15.",
  "last_checked": "2026-11-12T08:30:00-08:00",
