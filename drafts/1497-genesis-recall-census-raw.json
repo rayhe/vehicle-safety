@@ -1,0 +1,128 @@
+{
+ "brands": {
+  "genesis": {
+   "campaigns": {
+    "26V019000": {
+     "campaign": "26V019000",
+     "date": "17/01/2026",
+     "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+     "summary": "Hyundai Motor America (Hyundai) is recalling certain Genesis 2025-2026 G80, GV80, 2026 G80 \"Electrified,\" GV60, GV70 \"Electrified\" and GV70 vehicles. Due to a software error, the instrument panel display may fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 101, \"Controls and Displays.\"",
+     "ota": false,
+     "found_via": "genesis/g80"
+    },
+    "26V218000": {
+     "campaign": "26V218000",
+     "date": "07/04/2026",
+     "component": "SEAT BELTS:FRONT:ANCHORAGE",
+     "summary": "Hyundai Motor America (Hyundai) is recalling certain 2023-2025 Hyundai Ioniq 6, 2023-2026 Genesis G90, 2024-2026 Hyundai Santa Fe, and Hyundai Santa Fe Hybrid vehicles. The driver and passenger seat belt anchors may detach.",
+     "ota": false,
+     "found_via": "genesis/g90"
+    },
+    "26V229000": {
+     "campaign": "26V229000",
+     "date": "10/04/2026",
+     "component": "FUEL SYSTEM, GASOLINE:DELIVERY:HOSES, LINES/PIPING, AND FITTINGS",
+     "summary": "Hyundai Motor America (Genesis) is recalling certain Genesis 2022-2026 GV70, 2023-2025 G90, 2021-2025 G80, and GV80 vehicles. Fuel may leak at the pipe connection between the fuel pipe and fuel rail.",
+     "ota": false,
+     "found_via": "genesis/gv70"
+    }
+   },
+   "count": 3,
+   "per_model": {
+    "genesis/g80": [
+     "26V019000"
+    ],
+    "genesis/g90": [
+     "26V218000"
+    ],
+    "genesis/gv60": [
+     "26V019000"
+    ],
+    "genesis/gv70": [
+     "26V019000",
+     "26V229000"
+    ],
+    "genesis/gv80": [
+     "26V019000"
+    ]
+   },
+   "queries": 73,
+   "done": true,
+   "status_log": {
+    "genesis/envy": 400,
+    "genesis/envy hybrid": 400,
+    "genesis/envy plug-in hybrid": 400,
+    "genesis/envy electric": 400,
+    "genesis/envy recharge": 400,
+    "genesis/g70": 400,
+    "genesis/g70 hybrid": 400,
+    "genesis/g70 plug-in hybrid": 400,
+    "genesis/g70 electric": 400,
+    "genesis/g70 recharge": 400,
+    "genesis/g80": 200,
+    "genesis/g80 hybrid": 400,
+    "genesis/g80 plug-in hybrid": 400,
+    "genesis/g80 electric": 400,
+    "genesis/g80 recharge": 400,
+    "genesis/g90": 200,
+    "genesis/g90 hybrid": 400,
+    "genesis/g90 plug-in hybrid": 400,
+    "genesis/g90 electric": 400,
+    "genesis/g90 recharge": 400,
+    "genesis/gv60": 200,
+    "genesis/gv60 hybrid": 400,
+    "genesis/gv60 plug-in hybrid": 400,
+    "genesis/gv60 electric": 400,
+    "genesis/gv60 recharge": 400,
+    "genesis/gv70": 200,
+    "genesis/gv70 hybrid": 400,
+    "genesis/gv70 plug-in hybrid": 400,
+    "genesis/gv70 electric": 400,
+    "genesis/gv70 recharge": 400,
+    "genesis/gv80": 200,
+    "genesis/gv80 hybrid": 400,
+    "genesis/gv80 plug-in hybrid": 400,
+    "genesis/gv80 electric": 400,
+    "genesis/gv80 recharge": 400,
+    "genesis/genesis": 400,
+    "genesis/genesis hybrid": 400,
+    "genesis/genesis plug-in hybrid": 400,
+    "genesis/genesis electric": 400,
+    "genesis/genesis recharge": 400,
+    "genesis/genesis lowering technology": 400,
+    "genesis/genesis lowering technology hybrid": 400,
+    "genesis/genesis lowering technology plug-in hybrid": 400,
+    "genesis/genesis lowering technology electric": 400,
+    "genesis/genesis lowering technology recharge": 400,
+    "genesis/genesis supreme": 400,
+    "genesis/genesis supreme hybrid": 400,
+    "genesis/genesis supreme plug-in hybrid": 400,
+    "genesis/genesis supreme electric": 400,
+    "genesis/genesis supreme recharge": 400,
+    "genesis/genesis trailers inc.": 400,
+    "genesis/genesis trailers inc. hybrid": 400,
+    "genesis/genesis trailers inc. plug-in hybrid": 400,
+    "genesis/genesis trailers inc. electric": 400,
+    "genesis/genesis trailers inc. recharge": 400,
+    "genesis/supreme": 400,
+    "genesis/supreme hybrid": 400,
+    "genesis/supreme plug-in hybrid": 400,
+    "genesis/supreme electric": 400,
+    "genesis/supreme recharge": 400,
+    "genesis/tahoe": 400,
+    "genesis/tahoe hybrid": 400,
+    "genesis/tahoe plug-in hybrid": 400,
+    "genesis/tahoe electric": 400,
+    "genesis/tahoe recharge": 400,
+    "genesis/vortex": 400,
+    "genesis/vortex hybrid": 400,
+    "genesis/vortex plug-in hybrid": 400,
+    "genesis/vortex electric": 400,
+    "genesis/vortex recharge": 400,
+    "genesis/gv90": 400,
+    "genesis/electrified g80": 400,
+    "genesis/electrified gv70": 400
+   }
+  }
+ }
+}
