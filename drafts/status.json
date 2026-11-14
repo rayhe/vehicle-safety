@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-14 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1507 (Tundra camshaft recall, 62k trucks / ~300 suspect camshafts, 4th V35A engine recall, Rex Driverton, round-0 8.79, queued 2028-08-28). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
+  "current": {
+    "slug": "1508-jeep-recall-census-12-one-million-excluded",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-14T14:30:00-08:00"
+  },
+  "last_check_note": "2026-11-14 14:30 run: RESEARCH #1508 done (Jeep census 12 counted / 7 excluded, 1,467,098 excluded Jeeps, 26V363 1.08M fire recall excluded; Mia Crumplezone). DRAFT in progress.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T12:30:00-08:00",
   "last_completed_date": "2026-11-14",
@@ -10,7 +15,7 @@
   "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-14T12:30:00-08:00",
+  "last_worker_run": "2026-11-14T14:30:00-08:00",
   "next": 1507,
   "queue": [
     {
