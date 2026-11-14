@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-13 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1496 (Rivian recall census, 3 campaigns, 103,526 vehicles; 26V597 = 95.5% of population; R2 recalled before existing as 2026 model; Rex Driverton, rotation after four straight Axle censuses; round-0 8.96, queued 2028-08-17). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1498-lucid-recall-census-5-every-air-ever-built",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-13T18:30:00-08:00"
+  },
+  "last_check_note": "2026-11-13 18:30 run: RESEARCH #1498 (Lucid recall census, 5 campaigns, 50,004 campaign-units; 26V540 fire recall covers 27,185 Airs, 100% defect estimate, 3 fires; Clara Rollover). Note: status next was stale at 1497 (16:30 run shipped #1497 without bumping it); corrected to 1499.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T14:30:00-08:00",
   "last_completed_date": "2026-11-13",
@@ -11,7 +16,7 @@
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-13T14:30:00-08:00",
-  "next": 1497,
+  "next": 1499,
   "queue": [
     {
       "journalist": "Rex Driverton",

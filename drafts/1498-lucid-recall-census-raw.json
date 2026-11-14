@@ -1,0 +1,78 @@
+{
+ "brands": {
+  "lucid": {
+   "campaigns": {
+    "26V017000": {
+     "campaign": "26V017000",
+     "date": "17/01/2026",
+     "component": "BACK OVER PREVENTION:SOFTWARE",
+     "summary": "Lucid USA, Inc. (Lucid) is recalling certain 2022-2026 Air vehicles equipped with an AD02 package and operating a software version from 2.8.0 through 2.8.16. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "lucid/air"
+    },
+    "26V193000": {
+     "campaign": "26V193000",
+     "date": "27/03/2026",
+     "component": "POWER TRAIN:DRIVELINE:DRIVESHAFT",
+     "summary": "Lucid USA, Inc. (Lucid) is recalling certain 2024-2026 Air vehicles equipped with Pure Rear-Wheel Drive. Improperly secured bolts may allow the half-shaft to disconnect from the drive unit.",
+     "ota": false,
+     "found_via": "lucid/air"
+    },
+    "26V540000": {
+     "campaign": "26V540000",
+     "date": "21/08/2026",
+     "component": "ELECTRICAL SYSTEM:SOFTWARE",
+     "summary": "Lucid USA, Inc. (Lucid) is recalling certain 2022-2026 Air vehicles. The exterior lighting circuit may have insufficient overcurrent protection, allowing the circuit to overheat.",
+     "ota": false,
+     "found_via": "lucid/air"
+    },
+    "26V018000": {
+     "campaign": "26V018000",
+     "date": "17/01/2026",
+     "component": "BACK OVER PREVENTION:SOFTWARE",
+     "summary": "Lucid USA, Inc. (Lucid) is recalling certain 2025-2026 Gravity vehicles operating a software version prior to 3.3.20. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+     "ota": false,
+     "found_via": "lucid/gravity"
+    },
+    "26V192000": {
+     "campaign": "26V192000",
+     "date": "27/03/2026",
+     "component": "SEATS",
+     "summary": "Lucid USA, Inc. (Lucid) is recalling certain 2025-2026 Gravity vehicles. The lap belt anchor brackets on the second row seats may have insufficient welds, which can cause bracket failure. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard numbers 207, \u201cSeating Systems\u201d and 210, \u201cSeat Belt Assembly Anchorages.\u201d",
+     "ota": false,
+     "found_via": "lucid/gravity"
+    }
+   },
+   "count": 5,
+   "per_model": {
+    "lucid/air": [
+     "26V017000",
+     "26V193000",
+     "26V540000"
+    ],
+    "lucid/gravity": [
+     "26V018000",
+     "26V192000"
+    ]
+   },
+   "queries": 14,
+   "done": true,
+   "status_log": {
+    "lucid/air": 200,
+    "lucid/air hybrid": 400,
+    "lucid/air plug-in hybrid": 400,
+    "lucid/air electric": 400,
+    "lucid/air recharge": 400,
+    "lucid/gravity": 200,
+    "lucid/gravity hybrid": 400,
+    "lucid/gravity plug-in hybrid": 400,
+    "lucid/gravity electric": 400,
+    "lucid/gravity recharge": 400,
+    "lucid/air pure": 400,
+    "lucid/air touring": 400,
+    "lucid/air grand touring": 400,
+    "lucid/air sapphire": 400
+   }
+  }
+ }
+}
