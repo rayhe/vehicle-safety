@@ -1,0 +1,56 @@
+{
+ "Outlander": {
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Mitsubishi Motors North America, Inc.",
+    "NHTSACampaignNumber": "26V549000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "26/08/2026",
+    "Component": "BACK OVER PREVENTION:SOFTWARE",
+    "Summary": "Mitsubishi Motors North America, Inc. (MMNA) is recalling certain 2025-2026 Outlander and 2026 Outlander PHEV vehicles. Due to improper software programming, the Alliance In-Vehicle Infotainment (A-IVI) system may fail to display the rearview camera image when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview image that does not display properly reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the A-IVI software, free of charge. Owner notification letters are expected to be mailed September 24, 2026. Owners may contact MMNA customer service at 1-888-648-7820. MMNA's number for this recall is SR-26-002. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov on September 9, 2026.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "MITSUBISHI",
+    "Model": "OUTLANDER"
+   }
+  ]
+ },
+ "Outlander PHEV": {
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Mitsubishi Motors North America, Inc.",
+    "NHTSACampaignNumber": "26V549000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "26/08/2026",
+    "Component": "BACK OVER PREVENTION:SOFTWARE",
+    "Summary": "Mitsubishi Motors North America, Inc. (MMNA) is recalling certain 2025-2026 Outlander and 2026 Outlander PHEV vehicles. Due to improper software programming, the Alliance In-Vehicle Infotainment (A-IVI) system may fail to display the rearview camera image when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview image that does not display properly reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the A-IVI software, free of charge. Owner notification letters are expected to be mailed September 24, 2026. Owners may contact MMNA customer service at 1-888-648-7820. MMNA's number for this recall is SR-26-002. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov on September 9, 2026.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "MITSUBISHI",
+    "Model": "OUTLANDER PHEV"
+   }
+  ]
+ },
+ "Outlander Sport": {
+  "Count": 0,
+  "results": [],
+  "http_error": 400
+ },
+ "Eclipse Cross": {
+  "Count": 0,
+  "results": [],
+  "http_error": 400
+ }
+}
