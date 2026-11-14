@@ -1,0 +1,156 @@
+{
+ "26V114000": {
+  "date": "26/02/2026",
+  "component": "EQUIPMENT:OTHER:OWNERS/SERVICE/OTHER MANUAL",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SIERRA 1500",
+   "SIERRA 2500",
+   "SIERRA 3500",
+   "SIERRA EV",
+   "YUKON",
+   "YUKON XL",
+   "ACADIA",
+   "TERRAIN",
+   "CANYON",
+   "HUMMER EV PICKUP",
+   "HUMMER EV SUV"
+  ],
+  "summary": "General Motors has decided that certain 2027 Chevrolet Bolt EV, 2025-2026 Cadillac OPTIQ, Chevrolet Colorado, Equinox EV, GMC Canyon, 2026 Buick Enclave, Envision, Cadillac CT5, Escalade, Escalade ESV, Escalade IQ, Escal"
+ },
+ "26V289000": {
+  "date": "07/05/2026",
+  "component": "POWER TRAIN:TRANSFER CASE (4-WHEEL DRIVE)",
+  "parkIt": true,
+  "ota": false,
+  "models": [
+   "SIERRA 1500",
+   "YUKON",
+   "YUKON XL"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2026 Cadillac Escalade and Escalade ESV, Chevrolet Silverado 1500, Suburban, and Tahoe, and GMC Sierra 1500, Yukon, and Yukon XL vehicles with four-wheel (4WD) or all-wheel d"
+ },
+ "26V129000": {
+  "date": "05/03/2026",
+  "component": "FUEL SYSTEM, GASOLINE:DELIVERY:FUEL PUMP:CONTROL/DRIVE MODULE",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SIERRA 3500"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Chevrolet Silverado 3500, and GMC Sierra 3500 vehicles with gasoline engines and dual fuel tanks (RPOs L8T and N2N). The rear fuel pump may not transfer adequate fu"
+ },
+ "25V594000": {
+  "date": "11/09/2025",
+  "component": "ELECTRONIC STABILITY CONTROL (ESC):CONTROL MODULE:SOFTWARE",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SIERRA EV"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Silverado EV and GMC Sierra EV electric vehicles.  After experiencing an electronic stability control (ESC) system malfunction, the ESC malfunction warning lig"
+ },
+ "26V494000": {
+  "date": "30/07/2026",
+  "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SIERRA EV"
+  ],
+  "summary": "General Motors, LLC is recalling certain 2026 Cadillac Escalade IQ, Escalade IQL, GMC Sierra EV, Chevrolet Silverado EV, and 2022 GMC Hummer EV Pickup vehicles. The high voltage battery may have an improperly secured int"
+ },
+ "26V496000": {
+  "date": "30/07/2026",
+  "component": "WHEELS",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SIERRA EV"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Silverado EV and GMC Sierra EV vehicles. A manufacturing defect may result in the steel wheels cracking at the disc vent holes."
+ },
+ "26V304000": {
+  "date": "14/05/2026",
+  "component": "WHEELS:HUB",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "YUKON",
+   "YUKON XL"
+  ],
+  "summary": "General Motors, LLC is recalling certain 2025\u20132026 Cadillac Escalade, Escalade ESV, Chevrolet Suburban 1500, Tahoe, GMC Yukon, and Yukon XL vehicles with 24-inch wheels. Incorrect bolts may have been installed on the lef"
+ },
+ "26V696000": {
+  "date": "21/10/2026",
+  "component": "SEATS",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "ACADIA"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Traverse, and GMC Acadia vehicles. The driver or front passenger seat may not have sufficient welds where the seat back recliner pivot mechanism attaches to a "
+ },
+ "25V856000": {
+  "date": "11/12/2025",
+  "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "CANYON"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2024\u20132026 GMC Canyon AT4X AEV vehicles. Incorrect sensing and diagnostic module (SDM) software may cause a second stage passenger air bag deployment when only a first stage i"
+ },
+ "25V769000": {
+  "date": "06/11/2025",
+  "component": "AIR BAGS:FRONTAL",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "HUMMER EV PICKUP",
+   "HUMMER EV SUV"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2026 GMC Hummer EV Pickup and SUV vehicles. The front passenger air bag connection may have an improperly crimped wire, which can result in the air bag failing to deploy as i"
+ },
+ "26V127000": {
+  "date": "05/03/2026",
+  "component": "TIRES:SIDEWALL",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SAVANA"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Express Cutaway, and 2025-2026 Savana Cutaway vehicles.  These vehicles may be equipped with a tire with sidewall damage."
+ },
+ "26V345000": {
+  "date": "28/05/2026",
+  "component": "STEERING:COLUMN",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SAVANA"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2026 Chevrolet Express and GMC Savana vehicles. The gear shifter may provide inaccurate gear selection feedback to the driver due to an incorrectly manufactured steering column assembly."
+ },
+ "26V399000": {
+  "date": "23/06/2026",
+  "component": "STEERING",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SAVANA"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Express, and 2025-2026 Savana vehicles. The steering gear assembly may have a nut that was not properly tightened."
+ },
+ "26V718000": {
+  "date": "29/10/2026",
+  "component": "STEERING",
+  "parkIt": false,
+  "ota": false,
+  "models": [
+   "SAVANA"
+  ],
+  "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Chevrolet Express and GMC Savana vehicles. The steering gear assembly may have a nut that was not properly tightened."
+ }
+}
