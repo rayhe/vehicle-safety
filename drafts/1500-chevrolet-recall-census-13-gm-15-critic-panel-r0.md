@@ -11,7 +11,7 @@
 - Hero JPEG: real JPEG (magic bytes ffd8), 1920x1280, hash 05cc11c7 — PASS
 - Rhythm: variance 3737.3 (target ≥200), short 3.3% (target ≤15%), long 63.3% (target ≥15%) — PASS (round-0 failure at 17.4% short fixed pre-panel by merging seven fragments; variance rose 3112.8 → 3737.3)
 - Actionable insights: VIN checks per campaign, model-specific — PASS
-- Word count: 1,985 prose words (2,568 incl. references)
+- Word count: 1,961 prose words (2,568 incl. references)
 
 ## 1. General Editor — 8.8/10
 
