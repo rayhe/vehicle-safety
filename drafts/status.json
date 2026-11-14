@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1507-tundra-camshaft-fourth-engine-recall",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-14T12:30:00-08:00"
+    "started": "2026-11-14T12:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-14 12:30 run: RESEARCH #1507 Tundra camshaft recall (62k trucks, ~300 suspect camshafts, 4th V35A engine recall, Rex Driverton). Coverage checked: Waymo RQ26006 (#1461/#1445), Toyota Takata (#1493), Explorer PE26008 (#1447), Honda steering (#1457), Hyundai ACU (#1435), Maverick cable (#1468), Harley (#1462) all already covered. Proceeding to DRAFT.",
+  "last_check_note": "2026-11-14 12:30 run: DRAFT #1507 done (795 words, hero JPEG 2048x1152 ?v=721f37fe, rhythm PASS var 854.3/short 14.0%/long 35.3%, em 0, banned 0, The 0.0%). Proceeding to CRITIQUE round 0.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T10:30:00-08:00",
   "last_completed_date": "2026-11-14",
