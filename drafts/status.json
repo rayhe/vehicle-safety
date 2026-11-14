@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1503-infiniti-recall-census-1-sticker-82-percent-infiniti",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
-    "started": "2026-11-14T04:30:00-08:00"
+    "started": "2026-11-14T04:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-14 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1502 (Acura recall census, 1 campaign, 4,806 Acuras; 470,215 excluded; Clara Rollover, round-0 8.86, queued 2028-08-23). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848, 00:27 today). #849 due today, hero-ready, bumped to 2026-11-15, ships next slot.",
   "last_checked": "2026-11-12T08:30:00-08:00",
