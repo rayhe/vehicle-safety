@@ -1,14 +1,8 @@
 {
- "current": {
-  "slug": "1500-chevrolet-recall-census-13-gm-15",
-  "phase": "DRAFT",
-  "journalist": "Axle McScatter",
-  "started": "2026-11-13T22:30:00-08:00",
-  "number": 1500
- },
+ "current": null,
  "last_check_note": "2026-11-13 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1499 (JLR recall census, 7 campaigns, 345,704 campaign-units; Jaguar 0, Land Rover 7; Rex Driverton, round-0 8.91, queued 2028-08-20). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #847, 2490fa6c, 00:30 today). #848 due today (ship_date 2026-11-13), hero-ready (real JPEG ff d8, 1920x1280, 1,027,973 bytes), ships next slot.",
  "last_checked": "2026-11-12T08:30:00-08:00",
- "last_completed": "2026-11-13T20:30:00-08:00",
+ "last_completed": "2026-11-13T22:30:00-08:00",
  "last_completed_date": "2026-11-13",
  "last_journalist": "Rex Driverton",
  "last_published": 847,
@@ -26129,6 +26123,48 @@
    },
    "word_count": 1616,
    "note": "2026-11-13 20:30 run: full pipeline #1499 (JLR recall census, 7 campaigns, 345,704 campaign-units; Jaguar 0, Land Rover 7; 21st brand counted; 26V389 airbag clockspring 250,857 units, gel fix, 0 injuries; 26V678 camera drain holes 93,997 units, drill fix; other five campaigns total 850 units incl. 6-unit fuel tank recall; 100% defect estimates on 4 campaigns; Rex Driverton, round-0 8.91, queued 2028-08-20). Pre-panel self-review caught an unsupported 84-vehicle April-addition inference for 26V163 (Part 573 gives no count; 582 vs 498 is the global-vs-US split); fixed in article + research before the panel ran."
+  },
+  {
+   "number": 1500,
+   "slug": "1500-chevrolet-recall-census-13-gm-15",
+   "title": "Chevrolet Carried 13 of GM's 15 Recalls. Cadillac Got the Other Two.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-08-21",
+   "score": 8.9,
+   "avg_critic": 8.9,
+   "critic_rounds": 1,
+   "critique_round": 0,
+   "created": "2026-11-13",
+   "files": {
+    "research": "drafts/1500-chevrolet-recall-census-13-gm-15-research.md",
+    "story": "drafts/1500-chevrolet-recall-census-13-gm-15.html",
+    "hero": "drafts/1500-chevrolet-recall-census-13-gm-15.jpg",
+    "critic_panel": "drafts/1500-chevrolet-recall-census-13-gm-15-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 2.4,
+    "css_class": true,
+    "hero_jpeg": true,
+    "hero_hash": "05cc11c7",
+    "rhythm": "pass (var 3737.3, short 3.3%, long 63.3%)",
+    "actionable_insights": true,
+    "word_count": 1961
+   },
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.7,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.1,
+    "data_presentation": 8.8
+   },
+   "word_count": 1961,
+   "note": "2026-11-13 22:30 run: full pipeline #1500 (Chevrolet recall census, 13 campaigns, 434,977 GM-wide campaign-units / 14,145 verified 2026-MY Chevrolet units; 13 of GM's 15, other two Cadillac-only; OTA flag wrong, 2 of 13 OTA-capable per GM remedy text; 51,085x spread, widest in series; Express 4 campaigns, steering nut twice; 26V539 names 306,511 but only 7 are 2026 Chevrolets; Axle McScatter, round-0 8.90, queued 2028-08-21). Pre-panel self-review caught missing 26V289 park-it advisory and unqualified 26V304 Chevrolet share; fixed before panel ran."
   }
  ]
 }
