@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1508-jeep-recall-census-12-one-million-excluded",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-14T14:30:00-08:00"
+    "started": "2026-11-14T14:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-14 14:30 run: RESEARCH #1508 done (Jeep census 12 counted / 7 excluded, 1,467,098 excluded Jeeps, 26V363 1.08M fire recall excluded; Mia Crumplezone). DRAFT in progress.",
+  "last_check_note": "2026-11-14 14:30 run: RESEARCH+DRAFT #1508 done (Jeep census, Mia Crumplezone; gates pre-checked: em 0, banned 0, The 9.2%, rhythm PASS, hero JPEG 2048x1152 ?v=caa43129). CRITIQUE in progress.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T12:30:00-08:00",
   "last_completed_date": "2026-11-14",
