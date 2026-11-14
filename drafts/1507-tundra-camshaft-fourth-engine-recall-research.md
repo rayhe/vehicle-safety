@@ -29,12 +29,12 @@ Toyota announced on November 13, 2026 that it is recalling about 62,000 non-hybr
 - **Remedy:** dealers inspect the camshaft; if it may come from the affected lot, replace it free of charge.
 - **Owner notification:** by mid-January 2027. VINs searchable now at Toyota.com/recall and nhtsa.gov/recalls.
 - **No NHTSA campaign number** in Toyota's release as of November 13; no confirmed failures or injuries disclosed; Toyota has not said what surfaced the defect.
-- **Context:** this is the fourth V35A engine recall. The bearing-debris waves (May 2024, Nov 2025, May 2026) covered ~270,000 vehicles; the May 2026 wave alone was ~44,000 non-hybrid 2024 Tundras. The 2024s are the one model year NOT in the camshaft recall — the bearing trucks and the camshaft trucks are disjoint sets.
+- **Context:** this is the fourth V35A engine recall. The bearing-debris waves (May 2024 24V381: 102,092 vehicles; Nov 2025 25V767: 126,691 vehicles; May 2026: ~44,000 2024 Tundras) covered ~270,000 vehicles including Lexus LX/GX. The 2024s are the one model year NOT in the camshaft recall — but the sets are not disjoint, because the Nov 2025 bearing wave already covered 2022–2024 Tundras.
 
 ## Original calculations
 - **Recall-to-defect ratio:** 300 / 62,000 = **0.48%** of recalled trucks carry a suspect camshaft. Dealers must inspect ~207 trucks to find one bad part (62,000 / 300 = 206.7).
-- **V35A recall total, updated:** ~270,000 (bearing waves) + 62,000 (camshaft) = **~332,000 Tundras recalled for engine defects** across four waves, before counting Lexus LX/Sequoia/GX V35A variants.
-- **The 2024 hole:** the camshaft recall covers 2022, 2023, 2025, 2026 — every third-gen non-hybrid model year except 2024, which was the May 2026 bearing recall's year. Two engine recalls, zero overlap in model years.
+- **V35A recall total, updated:** ~270,000 (bearing waves, Tundra + Lexus LX/GX) + 62,000 (camshaft, Tundra only) = **~332,000 vehicles recalled for V35A engine defects** across four waves.
+- **The 2024 hole, corrected:** the camshaft recall covers 2022, 2023, 2025, 2026 — every third-gen non-hybrid model year except 2024, which was the May 2026 bearing recall's year. But the sets are NOT disjoint: the November 2025 bearing wave (25V767, 126,691 vehicles) already covered 2022–2024 Tundras, so a 2022–2023 truck in the camshaft recall may be on its second engine recall. The two newest recalls are mirror images (everything-but-2024 vs. only-2024); the overlap is with the November 2025 wave.
 
 ## Strongest counterargument
 Sixty-two thousand sounds alarming, but Toyota's own estimate says only ~300 trucks have the bad part, and no failures have been publicly confirmed. A camshaft that has survived three to four years of driving without snapping is probably not going to snap tomorrow. The recall is a dragnet, not a fire. The honest read: the risk to any individual owner is tiny, and the real story is what the fourth engine recall says about Toyota's V35A quality control, not what it says about your specific truck.
@@ -43,7 +43,7 @@ Sixty-two thousand sounds alarming, but Toyota's own estimate says only ~300 tru
 - No NHTSA campaign number or Part 573 filing was public as of November 13; the 62,000 and ~300 figures are Toyota's estimates and may change.
 - No confirmed camshaft failures, crashes, or injuries have been disclosed; the failure mode (snap at speed, loss of motive power) is Toyota's stated risk, not an observed event count.
 - The supplier is unnamed; the production lot is unidentified publicly, so owners cannot self-screen — only a dealer inspection settles it.
-- FARS has no Tundra-specific fatality-rate entry in the site's fars_output.js (337 models, 50+ deaths threshold), so no crash-outcome cross-tab is possible for this model.
+- FARS Tundra data exists in the site's V35A research file: 1,223 deaths 2014–2023, rate 0.94/100M VMT, 4th-safest full-size pickup — but that record is about crashes, not engines, so it cannot speak to camshaft failure risk.
 
 ## Actionable takeaways
 - Own a 2022, 2023, 2025, or 2026 non-hybrid Tundra? Run the VIN at Toyota.com/recall or nhtsa.gov/recalls now. The inspection is free; a snapped camshaft at highway speed is a loss of drive power with no warning.

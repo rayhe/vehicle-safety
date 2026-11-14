@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "1507-tundra-camshaft-fourth-engine-recall",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-14T12:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-14 12:30 run: DRAFT #1507 done (795 words, hero JPEG 2048x1152 ?v=721f37fe, rhythm PASS var 854.3/short 14.0%/long 35.3%, em 0, banned 0, The 0.0%). Proceeding to CRITIQUE round 0.",
+  "current": null,
+  "last_check_note": "2026-11-14 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1507 (Tundra camshaft recall, 62k/300, Rex Driverton, round-0 8.79, queued 2028-08-28). PUBLISH-QUEUE: checking 1/day gate next.",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-14T10:30:00-08:00",
+  "last_completed": "2026-11-14T12:30:00-08:00",
   "last_completed_date": "2026-11-14",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": 848,
   "last_published_date": "2026-11-14",
   "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
@@ -26402,6 +26396,45 @@
       "ship_date": "2028-08-27",
       "slug": "1506-park-outside-census-3-new-cars-720k-used-bmws",
       "title": "Three New Cars Got the Park-Outside Order This Year. The 720,796-Car One Went to Used BMWs."
+    },
+    {
+      "number": 1507,
+      "slug": "1507-tundra-camshaft-fourth-engine-recall",
+      "title": "Toyota Recalled 62,000 Tundras to Find 300 Bad Camshafts",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-08-28",
+      "phase": "SHIP_BLOCKED",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 8.5,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 5.6,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "721f37fe",
+        "word_count": 911,
+        "rhythm_pass": true
+      },
+      "files": {
+        "research": "drafts/1507-tundra-camshaft-fourth-engine-recall-research.md",
+        "story": "drafts/1507-tundra-camshaft-fourth-engine-recall.html",
+        "hero": "images/1507-tundra-camshaft-fourth-engine-recall.jpg",
+        "critic_panel": "drafts/1507-tundra-camshaft-fourth-engine-recall-critic-panel-r0.md"
+      },
+      "note": "2026-11-14 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1507 (Tundra camshaft recall, 62k trucks / ~300 suspect camshafts, 4th V35A engine recall, Rex Driverton, round-0 8.79). Pre-panel fact-check fixed 3 errors vs V35A file (25V767 126,691 not ~124k; 332k vehicles not Tundras; Nov 2025 wave overlaps 2022-2024 so some trucks face a 2nd engine recall) + added FARS Tundra cross-tab (0.94/100M VMT, 4th-safest pickup). Gates: em 0, banned 0, The 5.6%, rhythm PASS (var 833.3, short 13.0%, long 40.7%), hero JPEG 2048x1152 ?v=721f37fe. Queued 2028-08-28."
     }
   ]
 }
