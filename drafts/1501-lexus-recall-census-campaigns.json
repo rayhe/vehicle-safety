@@ -1,0 +1,92 @@
+{
+ "26V094000": {
+  "campaign": "26V094000",
+  "date": "18/02/2026",
+  "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2025-2026 Lexus LX600 vehicles. In the event of transmission solenoid failure, the communication may fail between the transmission electronic control unit (ECU) and the engine ECU, resulting in transmission damage.",
+  "consequence": "A damaged transmission can cause a loss of drive power, increasing the risk of a crash. In addition, a damaged transmission can leak transmission fluid, increasing the risk of a fire.",
+  "remedy": "Dealers will update the transmission ECU software, free of charge. Owner notification letters were mailed April 13, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's number for this recall is 26LA01.",
+  "notes": null,
+  "units": null,
+  "ota": false,
+  "models_found": [
+   "LX"
+  ]
+ },
+ "26V162000": {
+  "campaign": "26V162000",
+  "date": "18/03/2026",
+  "component": "BACK OVER PREVENTION:SOFTWARE",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2025 Lexus NX350, NX250, 2023-2026 RX350, and 2024-2026 TX350 vehicles. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "consequence": "A rearview image that does not display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+  "remedy": "Dealers will update the rearview camera software or replace the rearview camera, as necessary, free of charge. Owner notification letters were mailed May 15, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LB02 and 26LA02.",
+  "notes": null,
+  "units": null,
+  "ota": false,
+  "models_found": [
+   "RX",
+   "TX"
+  ]
+ },
+ "26V598000": {
+  "campaign": "26V598000",
+  "date": "17/09/2026",
+  "component": "STEERING:LINKAGES:KNUCKLE:SPINDLE:ARM",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX350, RX350 Hybrid, RX350, RX500 Hybrid, TX500 Hybrid, Toyota Grand Highlander, and Grand Highlander Hybrid vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle steering control.",
+  "consequence": "A loss of vehicle steering control increases the risk of a crash.",
+  "remedy": "Dealers will inspect and replace the front steering knuckles, as necessary, free of charge. Owner notification letters were mailed November 3, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TA19 and 26LA09.",
+  "notes": null,
+  "units": null,
+  "ota": false,
+  "models_found": [
+   "RX",
+   "RX Hybrid",
+   "TX",
+   "TX Hybrid"
+  ]
+ },
+ "26V393000": {
+  "campaign": "26V393000",
+  "date": "18/06/2026",
+  "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Toyota BZ, Lexus RZ, and Subaru Solterra battery electric vehicles. The electronic control unit (ECU) that controls the high voltage battery may experience a fault, resulting in a loss of drive power.",
+  "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+  "remedy": "Dealers will update the battery ECU software, free of charge. Owner notification letters were mailed August 17, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LA07 and 26TA11. Subaru's number for this recall is WRG26.",
+  "notes": null,
+  "units": null,
+  "ota": false,
+  "models_found": [
+   "RZ"
+  ]
+ },
+ "26V179000": {
+  "campaign": "26V179000",
+  "date": "24/03/2026",
+  "component": "EQUIPMENT:OTHER:LABELS",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2024-2025 Toyota Tundra, Tacoma Hybrid, Tacoma, RAV4 Hybrid, Land Cruiser Hybrid, Lexus GX550, 2024-2026 Tundra Hybrid, 2025 Sequoia Hybrid, Crown Signia, Grand Highlander, Lexus TX500 Hybrid, Lexus NX350 Hybrid, 2025-2026 Grand Highlander Hybrid, and Lexus TX350 vehicles. The load carrying capacity modification label may display inaccurate added weight values. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims.\"",
+  "consequence": "A vehicle with an incorrect maximum capacity weight value may be overloaded, which can increase the risk of a crash.",
+  "remedy": "Dealers will replace the load carrying capacity modification label, free of charge. Owner letters were mailed May 26, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LB04, 26LA04, 26TB07, and 26TA07.",
+  "notes": null,
+  "units": null,
+  "ota": false,
+  "models_found": [
+   "TX"
+  ]
+ },
+ "26V437000": {
+  "campaign": "26V437000",
+  "date": "08/07/2026",
+  "component": "POWER TRAIN:AXLE ASSEMBLY",
+  "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX Plug-In Hybrid, TX Hybrid, TX, Toyota Grand Highlander Hybrid, and Grand Highlander vehicles. The rear axle carriers may have been manufactured with insufficient material strength and could break.",
+  "consequence": "A broken rear axle carrier can cause a sudden loss of vehicle stability and control, increasing the risk of a crash.",
+  "remedy": "Dealers will inspect the rear axle carrier sub-assembly code, and replace the sub-assemblies as necessary, free of charge. Owner notification letters were mailed September 8, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TB13, 26TA13, 26LB08, and 26LA08.",
+  "notes": null,
+  "units": null,
+  "ota": false,
+  "models_found": [
+   "TX",
+   "TX Hybrid",
+   "TX Plug-In Hybrid"
+  ]
+ }
+}

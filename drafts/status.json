@@ -1,5 +1,10 @@
 {
- "current": null,
+ "current": {
+  "slug": "1501-lexus-recall-census-6-one-capacitor-90-percent",
+  "phase": "DRAFT",
+  "journalist": "Mia Crumplezone",
+  "started": "2026-11-14T00:30:00-08:00"
+ },
  "last_check_note": "2026-11-13 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1499 (JLR recall census, 7 campaigns, 345,704 campaign-units; Jaguar 0, Land Rover 7; Rex Driverton, round-0 8.91, queued 2028-08-20). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #847, 2490fa6c, 00:30 today). #848 due today (ship_date 2026-11-13), hero-ready (real JPEG ff d8, 1920x1280, 1,027,973 bytes), ships next slot.",
  "last_checked": "2026-11-12T08:30:00-08:00",
  "last_completed": "2026-11-13T22:30:00-08:00",

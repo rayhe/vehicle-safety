@@ -1,0 +1,430 @@
+{
+ "LS": {
+  "_http_error": 400
+ },
+ "LS Hybrid": {
+  "_http_error": 400
+ },
+ "LS Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "LS Electric": {
+  "_http_error": 400
+ },
+ "IS": {
+  "_http_error": 400
+ },
+ "IS Hybrid": {
+  "_http_error": 400
+ },
+ "IS Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "IS Electric": {
+  "_http_error": 400
+ },
+ "LX": {
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V094000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "18/02/2026",
+    "Component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2025-2026 Lexus LX600 vehicles. In the event of transmission solenoid failure, the communication may fail between the transmission electronic control unit (ECU) and the engine ECU, resulting in transmission damage.",
+    "Consequence": "A damaged transmission can cause a loss of drive power, increasing the risk of a crash. In addition, a damaged transmission can leak transmission fluid, increasing the risk of a fire.",
+    "Remedy": "Dealers will update the transmission ECU software, free of charge. Owner notification letters were mailed April 13, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's number for this recall is 26LA01.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "LX"
+   }
+  ]
+ },
+ "LX Hybrid": {
+  "_http_error": 400
+ },
+ "LX Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "LX Electric": {
+  "_http_error": 400
+ },
+ "RX": {
+  "Count": 3,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "25V744000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "30/10/2025",
+    "Component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "RX"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V162000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "18/03/2026",
+    "Component": "BACK OVER PREVENTION:SOFTWARE",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2025 Lexus NX350, NX250, 2023-2026 RX350, and 2024-2026 TX350 vehicles. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview image that does not display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the rearview camera software or replace the rearview camera, as necessary, free of charge. Owner notification letters were mailed May 15, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LB02 and 26LA02.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "RX"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V598000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "17/09/2026",
+    "Component": "STEERING:LINKAGES:KNUCKLE:SPINDLE:ARM",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX350, RX350 Hybrid, RX350, RX500 Hybrid, TX500 Hybrid, Toyota Grand Highlander, and Grand Highlander Hybrid vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle steering control.",
+    "Consequence": "A loss of vehicle steering control increases the risk of a crash.",
+    "Remedy": "Dealers will inspect and replace the front steering knuckles, as necessary, free of charge. Owner notification letters were mailed November 3, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TA19 and 26LA09.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "RX"
+   }
+  ]
+ },
+ "RX Hybrid": {
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V598000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "17/09/2026",
+    "Component": "STEERING:LINKAGES:KNUCKLE:SPINDLE:ARM",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX350, RX350 Hybrid, RX350, RX500 Hybrid, TX500 Hybrid, Toyota Grand Highlander, and Grand Highlander Hybrid vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle steering control.",
+    "Consequence": "A loss of vehicle steering control increases the risk of a crash.",
+    "Remedy": "Dealers will inspect and replace the front steering knuckles, as necessary, free of charge. Owner notification letters were mailed November 3, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TA19 and 26LA09.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "RX HYBRID"
+   }
+  ]
+ },
+ "RX Plug-In Hybrid": {
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "25V744000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "30/10/2025",
+    "Component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "RX PLUG-IN HYBRID"
+   }
+  ]
+ },
+ "RX Electric": {
+  "_http_error": 400
+ },
+ "GX": {
+  "_http_error": 400
+ },
+ "GX Hybrid": {
+  "_http_error": 400
+ },
+ "GX Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "GX Electric": {
+  "_http_error": 400
+ },
+ "ES": {
+  "_http_error": 400
+ },
+ "ES Hybrid": {
+  "_http_error": 400
+ },
+ "ES Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "ES Electric": {
+  "_http_error": 400
+ },
+ "NX": {
+  "_http_error": 400
+ },
+ "NX Hybrid": {
+  "_http_error": 400
+ },
+ "NX Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "NX Electric": {
+  "_http_error": 400
+ },
+ "LC": {
+  "_http_error": 400
+ },
+ "LC Hybrid": {
+  "_http_error": 400
+ },
+ "LC Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "LC Electric": {
+  "_http_error": 400
+ },
+ "UX": {
+  "_http_error": 400
+ },
+ "UX Hybrid": {
+  "_http_error": 400
+ },
+ "UX Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "UX Electric": {
+  "_http_error": 400
+ },
+ "RZ": {
+  "Count": 1,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V393000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "18/06/2026",
+    "Component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Toyota BZ, Lexus RZ, and Subaru Solterra battery electric vehicles. The electronic control unit (ECU) that controls the high voltage battery may experience a fault, resulting in a loss of drive power.",
+    "Consequence": "An unexpected loss of drive power increases the risk of a crash.",
+    "Remedy": "Dealers will update the battery ECU software, free of charge. Owner notification letters were mailed August 17, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LA07 and 26TA11. Subaru's number for this recall is WRG26.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "RZ"
+   }
+  ]
+ },
+ "RZ Hybrid": {
+  "_http_error": 400
+ },
+ "RZ Plug-In Hybrid": {
+  "_http_error": 400
+ },
+ "RZ Electric": {
+  "_http_error": 400
+ },
+ "TX": {
+  "Count": 5,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "25V744000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "30/10/2025",
+    "Component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V162000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "18/03/2026",
+    "Component": "BACK OVER PREVENTION:SOFTWARE",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2025 Lexus NX350, NX250, 2023-2026 RX350, and 2024-2026 TX350 vehicles. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview image that does not display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the rearview camera software or replace the rearview camera, as necessary, free of charge. Owner notification letters were mailed May 15, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LB02 and 26LA02.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V179000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "24/03/2026",
+    "Component": "EQUIPMENT:OTHER:LABELS",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2024-2025 Toyota Tundra, Tacoma Hybrid, Tacoma, RAV4 Hybrid, Land Cruiser Hybrid, Lexus GX550, 2024-2026 Tundra Hybrid, 2025 Sequoia Hybrid, Crown Signia, Grand Highlander, Lexus TX500 Hybrid, Lexus NX350 Hybrid, 2025-2026 Grand Highlander Hybrid, and Lexus TX350 vehicles. The load carrying capacity modification label may display inaccurate added weight values. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims.\"",
+    "Consequence": "A vehicle with an incorrect maximum capacity weight value may be overloaded, which can increase the risk of a crash.",
+    "Remedy": "Dealers will replace the load carrying capacity modification label, free of charge. Owner letters were mailed May 26, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LB04, 26LA04, 26TB07, and 26TA07.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V437000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "08/07/2026",
+    "Component": "POWER TRAIN:AXLE ASSEMBLY",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX Plug-In Hybrid, TX Hybrid, TX, Toyota Grand Highlander Hybrid, and Grand Highlander vehicles. The rear axle carriers may have been manufactured with insufficient material strength and could break.",
+    "Consequence": "A broken rear axle carrier can cause a sudden loss of vehicle stability and control, increasing the risk of a crash.",
+    "Remedy": "Dealers will inspect the rear axle carrier sub-assembly code, and replace the sub-assemblies as necessary, free of charge. Owner notification letters were mailed September 8, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TB13, 26TA13, 26LB08, and 26LA08.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V598000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "17/09/2026",
+    "Component": "STEERING:LINKAGES:KNUCKLE:SPINDLE:ARM",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX350, RX350 Hybrid, RX350, RX500 Hybrid, TX500 Hybrid, Toyota Grand Highlander, and Grand Highlander Hybrid vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle steering control.",
+    "Consequence": "A loss of vehicle steering control increases the risk of a crash.",
+    "Remedy": "Dealers will inspect and replace the front steering knuckles, as necessary, free of charge. Owner notification letters were mailed November 3, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TA19 and 26LA09.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX"
+   }
+  ]
+ },
+ "TX Hybrid": {
+  "Count": 3,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "25V744000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "30/10/2025",
+    "Component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX HYBRID"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V437000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "08/07/2026",
+    "Component": "POWER TRAIN:AXLE ASSEMBLY",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX Plug-In Hybrid, TX Hybrid, TX, Toyota Grand Highlander Hybrid, and Grand Highlander vehicles. The rear axle carriers may have been manufactured with insufficient material strength and could break.",
+    "Consequence": "A broken rear axle carrier can cause a sudden loss of vehicle stability and control, increasing the risk of a crash.",
+    "Remedy": "Dealers will inspect the rear axle carrier sub-assembly code, and replace the sub-assemblies as necessary, free of charge. Owner notification letters were mailed September 8, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TB13, 26TA13, 26LB08, and 26LA08.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX HYBRID"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V598000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "17/09/2026",
+    "Component": "STEERING:LINKAGES:KNUCKLE:SPINDLE:ARM",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX350, RX350 Hybrid, RX350, RX500 Hybrid, TX500 Hybrid, Toyota Grand Highlander, and Grand Highlander Hybrid vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle steering control.",
+    "Consequence": "A loss of vehicle steering control increases the risk of a crash.",
+    "Remedy": "Dealers will inspect and replace the front steering knuckles, as necessary, free of charge. Owner notification letters were mailed November 3, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TA19 and 26LA09.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX HYBRID"
+   }
+  ]
+ },
+ "TX Plug-In Hybrid": {
+  "Count": 2,
+  "Message": "Results returned successfully",
+  "results": [
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "25V744000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "30/10/2025",
+    "Component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "Consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+    "Remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX PLUG-IN HYBRID"
+   },
+   {
+    "Manufacturer": "Toyota Motor Engineering & Manufacturing",
+    "NHTSACampaignNumber": "26V437000",
+    "parkIt": false,
+    "parkOutSide": false,
+    "overTheAirUpdate": false,
+    "ReportReceivedDate": "08/07/2026",
+    "Component": "POWER TRAIN:AXLE ASSEMBLY",
+    "Summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Lexus TX Plug-In Hybrid, TX Hybrid, TX, Toyota Grand Highlander Hybrid, and Grand Highlander vehicles. The rear axle carriers may have been manufactured with insufficient material strength and could break.",
+    "Consequence": "A broken rear axle carrier can cause a sudden loss of vehicle stability and control, increasing the risk of a crash.",
+    "Remedy": "Dealers will inspect the rear axle carrier sub-assembly code, and replace the sub-assemblies as necessary, free of charge. Owner notification letters were mailed September 8, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26TB13, 26TA13, 26LB08, and 26LA08.",
+    "Notes": null,
+    "ModelYear": "2026",
+    "Make": "LEXUS",
+    "Model": "TX PLUG-IN HYBRID"
+   }
+  ]
+ },
+ "TX Electric": {
+  "_http_error": 400
+ }
+}
