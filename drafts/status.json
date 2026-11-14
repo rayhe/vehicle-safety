@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-14 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1505 (GMC recall census, 11 campaigns, Savana carries four; one do-not-drive 26V289; excluded L87 297,404 GMCs under EA26-005; Clara Rollover, round-0 8.71, queued 2028-08-26). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
+  "current": {
+    "slug": "1506-park-outside-census-3-new-cars-720k-used-bmws",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-14T10:30:00-08:00"
+  },
+  "last_check_note": "2026-11-14 10:30 run: RESEARCH #1506 (park-outside/do-not-drive flag census, 39 makes, 2,782 queries, 188 distinct 2026 campaigns; 3 park-outside 96,389 vehicles + 4 do-not-drive 4,882; all 3 park-outsides 100% defect; ball-joint pair Ford 26V340 4,653 vs Subaru 26V685 8; excluded BMW 26V733 720,796; Mack 26V351 cross-check). Now DRAFT.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T08:30:00-08:00",
   "last_completed_date": "2026-11-14",
@@ -10,7 +15,7 @@
   "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-14T08:30:00-08:00",
+  "last_worker_run": "2026-11-14T10:30:00-08:00",
   "next": 1506,
   "queue": [
     {
