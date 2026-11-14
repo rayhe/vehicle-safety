@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-13 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1498 (Lucid recall census, 5 campaigns, 50,004 campaign-units; 26V540 = every Air ever built, 100% defect, 3 fires; Clara Rollover, round-0 8.90, queued 2028-08-19). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
+  "current": {
+    "slug": "1499-jlr-recall-census-7-jaguar-zero",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-13T20:30:00-08:00"
+  },
+  "last_check_note": "2026-11-13 20:30 run: RESEARCH #1499 (JLR recall census, 7 campaigns, 345,704 campaign-units; Jaguar 0, Land Rover 7; 21st brand counted). Killed angles: Waymo RQ26006 #1461, Honda 26V721 #1457, Harley 26V730 #1462, BMW 26V733 #1490, Explorer PE26008 #1447, IIHS Kicks/RAV4 #1244/#1278, Maverick RQ26004 #1311/#1345.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-13T18:30:00-08:00",
   "last_completed_date": "2026-11-13",
@@ -10,7 +15,7 @@
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T18:30:00-08:00",
+  "last_worker_run": "2026-11-13T20:30:00-08:00",
   "next": 1499,
   "queue": [
     {
