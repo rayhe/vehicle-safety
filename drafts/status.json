@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1498-lucid-recall-census-5-every-air-ever-built",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-13T18:30:00-08:00"
+    "started": "2026-11-13T18:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-13 18:30 run: RESEARCH #1498 (Lucid recall census, 5 campaigns, 50,004 campaign-units; 26V540 fire recall covers 27,185 Airs, 100% defect estimate, 3 fires; Clara Rollover). Note: status next was stale at 1497 (16:30 run shipped #1497 without bumping it); corrected to 1499.",
   "last_checked": "2026-11-12T08:30:00-08:00",
