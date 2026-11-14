@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1498-lucid-recall-census-5-every-air-ever-built",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-13T18:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-13 18:30 run: RESEARCH #1498 (Lucid recall census, 5 campaigns, 50,004 campaign-units; 26V540 fire recall covers 27,185 Airs, 100% defect estimate, 3 fires; Clara Rollover). Note: status next was stale at 1497 (16:30 run shipped #1497 without bumping it); corrected to 1499.",
+  "current": null,
+  "last_check_note": "2026-11-13 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1498 (Lucid recall census, 5 campaigns, 50,004 campaign-units; 26V540 = every Air ever built, 100% defect, 3 fires; Clara Rollover, round-0 8.90, queued 2028-08-19). PUBLISH skipped (1/day gate already met today: #847 published 00:30; #848 due today, hero-ready, ships next slot).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-13T14:30:00-08:00",
+  "last_completed": "2026-11-13T18:30:00-08:00",
   "last_completed_date": "2026-11-13",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": 847,
   "last_published_date": "2026-11-13",
   "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-13T14:30:00-08:00",
+  "last_worker_run": "2026-11-13T18:30:00-08:00",
   "next": 1499,
   "queue": [
     {
@@ -26047,6 +26041,47 @@
         "actionable_insights": true
       },
       "note": "2026-11-13 16:30 run: full pipeline #1497 (Genesis recall census, 3 campaigns, 184,347 Genesis vehicles / 472,765 campaign total; zero standalone defects \u2014 all three shared with Hyundai/Kia; G70 clean sheet; avg 8.96, round 0), queued 2028-08-18."
+    },
+    {
+      "number": 1498,
+      "slug": "1498-lucid-recall-census-5-every-air-ever-built",
+      "title": "Lucid Recalled 5 Times in 2026. The Biggest One Was Every Air Ever Built.",
+      "journalist": "Clara Rollover",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-08-19",
+      "avg_critic": 8.9,
+      "critique_round": 0,
+      "critic_rounds": 1,
+      "created": "2026-11-13",
+      "files": {
+        "research": "drafts/1498-lucid-recall-census-5-every-air-ever-built-research.md",
+        "story": "drafts/1498-lucid-recall-census-5-every-air-ever-built.html",
+        "hero": "drafts/1498-lucid-recall-census-5-every-air-ever-built.jpg",
+        "critic_panel": "drafts/1498-lucid-recall-census-5-every-air-ever-built-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.9,
+        "css_class": true,
+        "hero_jpeg": true,
+        "hero_hash": "594264a1",
+        "rhythm": "pass (var 831.9, short 14.3%, long 50.0%)",
+        "actionable_insights": true,
+        "word_count": 1917
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.1,
+        "data_presentation": 8.7
+      },
+      "word_count": 1917,
+      "note": "2026-11-13 18:30 run: full pipeline #1498 (Lucid recall census, 5 campaigns, 50,004 campaign-units; 26V540 fire recall covers 27,185 Airs, 100% defect estimate, 3 fires, 4 smoke incidents, park-outside; 3 of 5 remedies OTA before filing, 6,904 owners unpatched (438 Gravity + 6,466 Air); both physical recalls supplier-caused (Camaco welds, GKN/Bossard bolts); 26V193 expansion 225 to 3,627 after 26 field failures; 20-brand table total now 180; Clara Rollover, round-0 8.90, queued 2028-08-19). Note: status next was stale at 1497 (16:30 run shipped #1497 without bumping it); corrected to 1499 in the research commit."
     }
   ]
 }
