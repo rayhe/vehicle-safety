@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mitsubishi Filed One Recall in 2026. It Was the Same Backup Camera, for the Fourth Time. &mdash; The Crash Report</title>
+  <meta name="description" content="Mitsubishi filed one recall campaign for its 2026 cars, a backup-camera software defect covering 67,146 Outlanders. It is the fourth NHTSA filing for the same A-IVI defect in four years.">
+  <meta property="og:title" content="Mitsubishi Filed One Recall in 2026. It Was the Same Backup Camera, for the Fourth Time.">
+  <meta property="og:description" content="Mitsubishi's entire 2026 recall record is one campaign, 67,146 Outlanders with a backup camera that can go blank. It is the fourth filing for the same defect in four years.">
+  <meta property="og:image" content="../images/1504-mitsubishi-recall-census-1-camera-fourth-time.jpg?v=ecabff36">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../images/1504-mitsubishi-recall-census-1-camera-fourth-time.jpg?v=ecabff36">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>Mitsubishi Filed One Recall in 2026. It Was the Same Backup Camera, for the Fourth Time.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 14, 2026</div>
+
+      <img src="../images/1504-mitsubishi-recall-census-1-camera-fourth-time.jpg?v=ecabff36" alt="A dark gray Mitsubishi Outlander SUV reversing out of a driveway at dusk, its infotainment screen dark">
+
+      <div class="story-body">
+
+      <p>Mitsubishi sells three passenger cars in America. Three. An Outlander, an Outlander Sport, and an Eclipse Cross, a lineup you could memorize in the time it takes to reverse out of a driveway. This year Mitsubishi filed exactly one recall campaign touching a 2026 model, and it was a backup camera that does not show up. But here is the number that changes the story: <strong>67,146 vehicles sit in that one campaign, and the same defect has now been filed four times in four years, covering 322,166 vehicles once you stop double-counting the overlaps.</strong> One campaign. Four filings. Same screen going dark.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-2">[2]</a></sup></p>
+
+      <div class="pull-stat">4</div>
+      <div class="pull-label">NHTSA filings for the same A-IVI backup-camera defect, 2022 through 2026</div>
+
+      <p>Method first, because I run the numbers and then I run them again. I pulled the canonical 2026 model list from NHTSA's VPIC database, three passenger models plus the Outlander PHEV variant, and queried the recalls API for every one, keeping only campaigns filed in calendar 2026. Four queries. Two came back empty with HTTP 400s, which the API uses to mean nothing here. Two came back with the same single campaign. That is the whole census: three models, four queries, one campaign, and the campaign is a screen that goes black in reverse.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <p>Campaign 26V549 arrived August 25, and it concerns the Alliance In-Vehicle Infotainment system, the Bosch-supplied touchscreen that also shows the rearview camera image. Improper software programming can leave the screen frozen, black, rebooting, or scrolling on its own, and if any of that happens while the driver is backing up, the camera image is gone and the truck fails Federal Motor Vehicle Safety Standard 111. Mitsubishi estimates 1 percent of the 67,146 actually carry the defect, about 671 trucks. NHTSA's record cites no crashes or injuries. Remedy is a dealer software flash, free, and the API's over-the-air flag says false, same as every other campaign in this series, even though the fix is software a dealer installs in minutes.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <table class="data-table">
+        <caption>The one Mitsubishi campaign the census counts, 2026 filings</caption>
+        <thead><tr><th>Campaign</th><th>Date</th><th>Component</th><th>Vehicles</th></tr></thead>
+        <tbody>
+          <tr><td>26V549</td><td>Aug 25</td><td>Back over prevention: software (A-IVI)</td><td>67,146</td></tr>
+        </tbody>
+      </table>
+
+      <p>One of three nameplates carries the entire census. Outlander Sport and Eclipse Cross carry zero filings, not just in 2026 but across the whole 2024-2026 sweep. Now the filing the count leaves out, which is where the story actually lives: 25V369, filed June 2, 2025, covers 198,940 Outlanders from model years 2022-2024 plus 2023-2025 PHEVs. Same A-IVI system. Same frozen-or-black screen. Same FMVSS 111. Nearly three times the counted campaign, excluded only because its newest model year is 2025, and the 2025 PHEV in that filing is the same vehicle as the 2026 PHEV in the counted one, one model year apart, split across two filings by the calendar.<sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <table class="data-table">
+        <caption>The filing the census excludes (filed in 2025)</caption>
+        <thead><tr><th>Campaign</th><th>Date</th><th>Component</th><th>Vehicles</th></tr></thead>
+        <tbody>
+          <tr><td>25V369</td><td>Jun 2, 2025</td><td>A-IVI software, blank/frozen rearview image</td><td>198,940</td></tr>
+        </tbody>
+      </table>
+
+      <p>Add the counted and excluded filings and Mitsubishi's 2025-2026 recall record totals 266,086 vehicles, of which the census counts 67,146, or 25.2 percent. For every Mitsubishi the count includes, 2.96 more were recalled under the filing it excludes. Now run the thread back to the start, because this defect has a longer resume than most of Mitsubishi's models: 22V470 in July 2022 recalled 56,080 Outlanders for the same camera failure, 23V345 in May 2023 recalled 89,907 more, and 25V369 in June 2025 replaced and expanded 23V345 outright, telling owners repaired under the old campaign to come back for the new remedy. Sum all four filings and you get 412,073, but that double-counts, since 25V369 swallowed 23V345 whole and covers 22V470's model years too. Count each vehicle once and the thread totals 322,166, against 2025 US Outlander and PHEV sales of 42,189. Mitsubishi has now recalled more Outlanders for this one defect than it sold in an entire year, seven times over.<sup class="ref-link"><a href="#ref-4">[4]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <table class="data-table">
+        <caption>The four-filing camera thread (same defect, same system)</caption>
+        <thead><tr><th>Campaign</th><th>Date</th><th>Vehicles</th><th>Population</th></tr></thead>
+        <tbody>
+          <tr><td>22V470</td><td>Jul 2022</td><td>56,080</td><td>2022 Outlander</td></tr>
+          <tr><td>23V345</td><td>May 2023</td><td>89,907</td><td>2022-2023 Outlander + 2023 PHEV</td></tr>
+          <tr><td>25V369</td><td>Jun 2025</td><td>198,940</td><td>2022-2024 Outlander + 2023-2025 PHEV (replaces/expands 23V345)</td></tr>
+          <tr><td>26V549</td><td>Aug 2026</td><td>67,146</td><td>2025-2026 Outlander + 2026 PHEV</td></tr>
+        </tbody>
+      </table>
+
+      <p>Now the other side, stated at full strength, because the 1-count flatters Mitsubishi three ways and the comments will say so if I do not. First, the method excludes the filing that covers more Mitsubishis, 198,940 of them, so anyone who reads "Mitsubishi: 1" as the brand's safety record is wrong about nearly two hundred thousand vehicles. Second, the one counted campaign is not a new defect. It is the fourth filing for a software bug Mitsubishi has been fixing since July 2022, and the 1 percent defect estimate in both filings means the overwhelming majority of recalled vehicles were never going to go blank. Third, the count partly measures a shrinking catalog, not improving quality: Mitsubishi sells three passenger models, down from six a few years ago, with the Mirage and Mirage G4 gone after 2024, so there are fewer nameplates to recall. Strip the shared defect thread and Mitsubishi's own 2026 record is one campaign for one software bug its supplier has now shipped four times.</p>
+
+      <table class="data-table">
+        <caption>2026 recall census series, campaigns per brand (complete)</caption>
+        <thead><tr><th>Brand</th><th>2026 campaigns</th></tr></thead>
+        <tbody>
+          <tr><td>Ford</td><td>40</td></tr>
+          <tr><td>Stellantis</td><td>27</td></tr>
+          <tr><td>GM</td><td>15</td></tr>
+          <tr><td>Toyota</td><td>15</td></tr>
+          <tr><td>Hyundai</td><td>15</td></tr>
+          <tr><td>Chevrolet (of GM's 15)</td><td>13</td></tr>
+          <tr><td>Volvo</td><td>12</td></tr>
+          <tr><td>Mercedes</td><td>8</td></tr>
+          <tr><td>JLR</td><td>7</td></tr>
+          <tr><td>Nissan</td><td>7</td></tr>
+          <tr><td>BMW</td><td>7</td></tr>
+          <tr><td>Lexus</td><td>6</td></tr>
+          <tr><td>Lucid</td><td>5</td></tr>
+          <tr><td>Subaru</td><td>5</td></tr>
+          <tr><td>Honda</td><td>4</td></tr>
+          <tr><td>Kia</td><td>4</td></tr>
+          <tr><td>Tesla</td><td>4</td></tr>
+          <tr><td>VW</td><td>4</td></tr>
+          <tr><td>Genesis</td><td>3</td></tr>
+          <tr><td>Rivian</td><td>3</td></tr>
+          <tr><td>Acura</td><td>1</td></tr>
+          <tr><td>Audi</td><td>1</td></tr>
+          <tr><td>Infiniti</td><td>1</td></tr>
+          <tr><td><strong>Mitsubishi</strong></td><td><strong>1</strong></td></tr>
+          <tr><td>Mazda</td><td>0</td></tr>
+          <tr><td>Porsche</td><td>0</td></tr>
+        </tbody>
+      </table>
+
+      <p>What the data does not prove: campaign counts are not severity scores, and the 266,086 total counts every vehicle in each filing across all model years, not 2026-only cars. Unit counts are the manufacturers' filed estimates, not 2026-model-year counts; the 2026-only Mitsubishi total cannot be computed from the filings, because the per-model split for 26V549 covers 2025-2026 Outlanders together. NHTSA's over-the-air flag undercounts software remedies, as it has in every census in this series, and a campaign hiding under an untested model spelling would be missed, which biases the count down, not up. Late filings will move every number in this article, and the 2026 model year is still in progress.</p>
+
+      <p>If you own a 2025-2026 Outlander or a 2026 Outlander PHEV, the camera recall is a free dealer software update, and owner letters went out September 24, 2026, so check your VIN at nhtsa.gov/recalls now. If you own a 2022-2024 Outlander or a 2023-2025 PHEV, you are in the bigger, excluded filing, and if your car was repaired under 23V345, the fix did not hold, so check your VIN and get the new remedy. If you are shopping a 2026 Mitsubishi, the census is accurate for new metal: one recall across three nameplates, with the Outlander Sport and Eclipse Cross carrying zero. But shop used Outlanders by campaign, not by badge, because every 2022-2026 Outlander has now been recalled at least once for the same camera defect, some three times. Before you trust any used Outlander, shift into reverse and watch the screen. If it hesitates, freezes, or stays black, that is the defect, and the fix is free.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API (api.nhtsa.gov/recalls/recallsByVehicle) and VPIC API, census conducted Nov 14, 2026: 3 canonical 2026 Mitsubishi passenger models (Outlander, Outlander Sport, Eclipse Cross) plus Outlander PHEV variant, 4 queries, 1 distinct 2026-filed campaign (26V549). Raw results: drafts/1504-mitsubishi-recall-census-raw.json; excluded-filings sweep: drafts/1504-mitsubishi-recall-census-excluded-sweep.json. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">NHTSA, <em>Recall campaign 26V549000</em> (report received Aug 25, 2026): 67,146 vehicles, 2025-2026 Outlander and 2026 Outlander PHEV; A-IVI software may fail to display rearview camera image in reverse; FMVSS 111; remedy dealer A-IVI software update, overTheAirUpdate false; owner letters Sep 24, 2026; VINs searchable Sep 9, 2026. MMNA SR-26-002. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-3">Claim Owed Money, "Mitsubishi Outlander recall: 67,146 SUVs, camera fix," Sep 1, 2026 (per-model split 65,940 Outlander + 1,206 PHEV; 1% defect estimate; build dates Dec 20, 2024-Jul 28, 2026 and Jan 22-Jul 24, 2026; Bosch A-IVI; first report Oct 2025, Canada). <a href="https://www.claimowedmoney.com/blog/mitsubishi-outlander-recall-2026" target="_blank" rel="noopener">claimowedmoney.com</a></li>
+          <li id="ref-4">NHTSA, <em>Part 573 Safety Recall Report 25V369</em> (filed Jun 2, 2025): 198,940 vehicles (2022-2024 Outlander 179,248; 2023-2025 PHEV 19,692); 1% defect estimate; replaces and expands 23V345; investigation opened May 2023, 358 warranty claims and 6 field reports; production countermeasure Apr 22, 2025. <a href="https://static.nhtsa.gov/odi/rcl/2025/RCLRPT-25V369-0728.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-5">CarWhere, "Mitsubishi Outlander Problems &amp; Recalls by Generation," updated Nov 6, 2026 (camera thread: 22V470, 23V345 at 89,907 vehicles, 25V369 at 198,940, 26V549 at 67,146). <a href="https://www.carwhere.com/mitsubishi/known-issues/outlander" target="_blank" rel="noopener">carwhere.com</a></li>
+          <li id="ref-6">Autoblog, "Mitsubishi's Best-Selling SUV Recalled Over Safety Issue," Sep 1, 2026 (26V549: 67,146, 1% defective, FMVSS 111, investigation from Oct 2025 Canada report, production fix Jul 28, 2026). <a href="https://www.autoblog.com/news/recall-2026-mitsubishi-outlander-suv-outlander-phev-backup-camera" target="_blank" rel="noopener">autoblog.com</a></li>
+          <li id="ref-7">The Crash Report #816, "Mitsubishi Recalled 67,146 Outlanders Because the Backup Camera Can Just Go Blank" (Sep 4, 2026): prior site coverage of 26V549; Mitsubishi 2025 US sales 35,895 Outlanders + 6,294 Outlander PHEVs. <a href="https://www.vehicle-safety.org/stories/816-mitsubishi-outlander-blank-camera" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-8">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>, 2014&ndash;2023. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API census, Nov 14, 2026, and Part 573 report for 25V369. Unit counts are manufacturers' filed estimates for all model years in each campaign, not 2026-only counts. One filing touching Mitsubishi vehicles (25V369, 198,940 vehicles) is excluded by the census method because it was filed in 2025; its total is stated in the article. See <a href="../#method">methodology</a> for full caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
