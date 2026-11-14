@@ -1,23 +1,17 @@
 {
- "current": {
-  "slug": "1502-acura-recall-census-1-635k-excluded",
-  "phase": "CRITIQUE",
-  "journalist": "Clara Rollover",
-  "started": "2026-11-14T02:30:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-14 02:30 run: RESEARCH #1502 (Acura recall census, 1 campaign, 29 queries, 5 models; 26V332 only, 4,806 Acuras; excluded 26V721 635,808 + 26V365 880,514 = 470,215 excluded Acuras; Acura adds 0 distinct defects to Honda 4; Clara Rollover). PUBLISH-QUEUE: 1/day gate met (Publish #848 at 00:27 today); #849 due today, slot consumed, ship_date bumped to 2026-11-15.",
+ "current": null,
+ "last_check_note": "2026-11-14 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1502 (Acura recall census, 1 campaign, 4,806 Acuras; 470,215 excluded; Clara Rollover, round-0 8.86, queued 2028-08-23). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848, 00:27 today). #849 due today, hero-ready, bumped to 2026-11-15, ships next slot.",
  "last_checked": "2026-11-12T08:30:00-08:00",
  "last_completed": "2026-11-14T00:30:00-08:00",
  "last_completed_date": "2026-11-13",
  "last_journalist": "Rex Driverton",
- "last_published": 847,
- "last_published_date": "2026-11-13",
- "last_published_slug": "847-jeep-grand-cherokee-third-coil-spring-recall",
+ "last_published": 848,
+ "last_published_date": "2026-11-14",
+ "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
  "last_qa_date": "2026-11-13",
  "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
  "last_worker_run": "2026-11-14T02:30:00-08:00",
- "next": 1502,
+ "next": 1503,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -2003,11 +1997,11 @@
    },
    "journalist": "Mia Crumplezone",
    "kicker": "The Gap",
-   "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Anchor: Sept 1, 2026 NHTSA closed Recall Query RQ25004. Novel: recall-query-as-remedy-audit thesis + software-as-mandated-equipment (FMVSS 111); camera hardware was never broken, only the code deciding whether to trust the feed. Sources: RQ25004 open resume, IR letter, 25V-615 acknowledgement (static.nhtsa.gov), Reuters, Autowire.",
+   "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Anchor: Sept 1, 2026 NHTSA closed Recall Query RQ25004. Novel: recall-query-as-remedy-audit thesis + software-as-mandated-equipment (FMVSS 111); camera hardware was never broken, only the code deciding whether to trust the feed. Sources: RQ25004 open resume, IR letter, 25V-615 acknowledgement (static.nhtsa.gov), Reuters, Autowire. | 2026-11-14 02:30 run: 1/day slot consumed by Publish #848 (00:27 today); bumped ship_date to 2026-11-15.",
    "number": 849,
    "phase": "SHIP_BLOCKED",
    "score": 8.86,
-   "ship_date": "2026-11-14",
+   "ship_date": "2026-11-15",
    "slug": "polestar-rq25004-three-recalls-one-camera",
    "title": "Polestar Patched Its Backup Camera Twice. On September 1, NHTSA Finally Believed the Third Fix."
   },
@@ -26212,6 +26206,44 @@
    },
    "word_count": 1842,
    "note": "2026-11-14 00:30 run: full pipeline #1501 (Lexus recall census, 6 campaigns, 159,849 Lexus vehicles / 183,820 campaign-units; 26V162 backup camera 144,200 vehicles, 90.2% of all Lexus vehicles, missing capacitor in USB charger, FMVSS 111, 100% defect; TX in 4 of 6 campaigns; 26V437 axle 5,408 to find ~270 bad; 26V598 knuckles 617, 8-day window; 26V393 RZ 4,739, third RoadEthos sibling; 26V179 labels 8,230, GX550 4,709; 26V094 LX transmission 4,374, 0 claims; Toyota 15 vs Lexus 6; 0 of 6 OTA-flagged and remedy text agrees; pre-panel fix: Toyota-comparison claim corrected, 26V690 Sienna 228,367 is bigger than 26V162. Also published #848 this run (Cybercab AQ26002) with live QA pass + ?v= hash fix.)"
+  },
+  {
+   "number": 1502,
+   "slug": "1502-acura-recall-census-1-635k-excluded",
+   "title": "Acura Filed One Recall for Its 2026 Cars. The Big One Covers 635,808 Older Ones.",
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-08-23",
+   "scores": {
+    "general_editor": 8.7,
+    "voice_coach": 8.8,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 8.9,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "avg_critic": 8.86,
+   "critique_round": 0,
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 1.3,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "e1d605ae",
+    "word_count": 1658
+   },
+   "files": {
+    "research": "drafts/1502-acura-recall-census-1-635k-excluded-research.md",
+    "story": "drafts/1502-acura-recall-census-1-635k-excluded.html",
+    "hero": "drafts/1502-acura-recall-census-1-635k-excluded.jpg",
+    "critic_panel": "drafts/1502-acura-recall-census-1-635k-excluded-critic-panel-r0.md"
+   },
+   "note": "2026-11-14 02:30 run: full pipeline #1502 (Acura recall census, 1 campaign, 29 queries, 5 models; 26V332 only, 4,806 Acuras; excluded 26V721 635,808 + 26V365 880,514 = 470,215 excluded Acuras; Acura adds 0 distinct defects to Honda 4; Clara Rollover, round-0 8.86, queued 2028-08-23)."
   }
  ]
 }
