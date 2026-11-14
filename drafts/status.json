@@ -1,14 +1,8 @@
 {
- "current": {
-  "slug": "1501-lexus-recall-census-6-one-capacitor-90-percent",
-  "phase": "CRITIQUE",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-11-14T00:30:00-08:00",
-  "round": 0
- },
+ "current": null,
  "last_check_note": "2026-11-13 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1499 (JLR recall census, 7 campaigns, 345,704 campaign-units; Jaguar 0, Land Rover 7; Rex Driverton, round-0 8.91, queued 2028-08-20). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #847, 2490fa6c, 00:30 today). #848 due today (ship_date 2026-11-13), hero-ready (real JPEG ff d8, 1920x1280, 1,027,973 bytes), ships next slot.",
  "last_checked": "2026-11-12T08:30:00-08:00",
- "last_completed": "2026-11-13T22:30:00-08:00",
+ "last_completed": "2026-11-14T00:30:00-08:00",
  "last_completed_date": "2026-11-13",
  "last_journalist": "Rex Driverton",
  "last_published": 847,
@@ -26171,6 +26165,47 @@
    },
    "word_count": 1961,
    "note": "2026-11-13 22:30 run: full pipeline #1500 (Chevrolet recall census, 13 campaigns, 434,977 GM-wide campaign-units / 14,145 verified 2026-MY Chevrolet units; 13 of GM's 15, other two Cadillac-only; OTA flag wrong, 2 of 13 OTA-capable per GM remedy text; 51,085x spread, widest in series; Express 4 campaigns, steering nut twice; 26V539 names 306,511 but only 7 are 2026 Chevrolets; Axle McScatter, round-0 8.90, queued 2028-08-21). Pre-panel self-review caught missing 26V289 park-it advisory and unqualified 26V304 Chevrolet share; fixed before panel ran."
+  },
+  {
+   "number": 1501,
+   "slug": "1501-lexus-recall-census-6-one-capacitor-90-percent",
+   "title": "Toyota Recalled Its Cars 15 Times. Lexus Recalled 6. One Missing Capacitor Was 90% of It.",
+   "journalist": "Mia Crumplezone",
+   "kicker": "The Gap",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-08-22",
+   "avg_critic": 8.91,
+   "critique_round": 0,
+   "critic_rounds": 1,
+   "created": "2026-11-14",
+   "files": {
+    "research": "drafts/1501-lexus-recall-census-6-one-capacitor-90-percent-research.md",
+    "story": "drafts/1501-lexus-recall-census-6-one-capacitor-90-percent.html",
+    "hero": "drafts/1501-lexus-recall-census-6-one-capacitor-90-percent.jpg",
+    "critic_panel": "drafts/1501-lexus-recall-census-6-one-capacitor-90-percent-critic-panel-r0.md"
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 9.6,
+    "css_class": true,
+    "hero_jpeg": true,
+    "hero_hash": "542025c4",
+    "rhythm": "pass (var 601.4, short 5.6%, long 52.1%)",
+    "actionable_insights": true,
+    "word_count": 1842
+   },
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 8.9,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.8,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.1,
+    "data_presentation": 8.8
+   },
+   "word_count": 1842,
+   "note": "2026-11-14 00:30 run: full pipeline #1501 (Lexus recall census, 6 campaigns, 159,849 Lexus vehicles / 183,820 campaign-units; 26V162 backup camera 144,200 vehicles, 90.2% of all Lexus vehicles, missing capacitor in USB charger, FMVSS 111, 100% defect; TX in 4 of 6 campaigns; 26V437 axle 5,408 to find ~270 bad; 26V598 knuckles 617, 8-day window; 26V393 RZ 4,739, third RoadEthos sibling; 26V179 labels 8,230, GX550 4,709; 26V094 LX transmission 4,374, 0 claims; Toyota 15 vs Lexus 6; 0 of 6 OTA-flagged and remedy text agrees; pre-panel fix: Toyota-comparison claim corrected, 26V690 Sienna 228,367 is bigger than 26V162. Also published #848 this run (Cybercab AQ26002) with live QA pass + ?v= hash fix.)"
   }
  ]
 }

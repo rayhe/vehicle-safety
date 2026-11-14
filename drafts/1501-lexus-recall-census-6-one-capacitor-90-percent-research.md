@@ -86,7 +86,7 @@ February: 1. March: 2. June: 1. July: 1. September: 1. October: 0. November: 0 (
 | Toyota | 15 | not totaled in #1475 | — |
 | **Lexus** | **6** | **183,820** | **26V162, 144,200** |
 
-Toyota filed 2.5x as many campaigns. Lexus's campaign-unit total (183,820) is dominated by its single biggest campaign, which is larger than any single Toyota campaign the census names — campaign counts rank manufacturers; vehicle counts rank defects. Both tables are in the article.
+Toyota filed 2.5x as many campaigns. Lexus's campaign-unit total (183,820) is dominated by its single biggest campaign (26V162, 144,200); Toyota's largest single campaign is bigger still (26V690, 228,367 Siennas, per #1475), so the concentration finding is a Lexus story, not a parent-company ranking. Campaign counts rank manufacturers; vehicle counts rank defects. Both tables are in the article.
 
 ### Updated census-series table (2026 campaigns, corrected-vocabulary method unless noted)
 
