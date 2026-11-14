@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1505-gmc-recall-census-11-savana-carries-four",
-    "phase": "DRAFT",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-14T08:30:00-08:00"
-  },
-  "last_check_note": "2026-11-14 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1504 (Mitsubishi recall census, 1 campaign, 26V549, 67,146 Outlanders; 4th A-IVI camera filing; Axle McScatter, round-0 9.03, queued 2028-08-25). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
+  "current": null,
+  "last_check_note": "2026-11-14 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1505 (GMC recall census, 11 campaigns, Savana carries four; one do-not-drive 26V289; excluded L87 297,404 GMCs under EA26-005; Clara Rollover, round-0 8.71, queued 2028-08-26). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-14T06:30:00-08:00",
+  "last_completed": "2026-11-14T08:30:00-08:00",
   "last_completed_date": "2026-11-14",
   "last_journalist": "Clara Rollover",
   "last_published": 848,
@@ -16,7 +11,7 @@
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-14T08:30:00-08:00",
-  "next": 1505,
+  "next": 1506,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -26325,6 +26320,44 @@
         "critic_panel": "drafts/1504-mitsubishi-recall-census-1-camera-fourth-time-critic-panel-r0.md"
       },
       "note": "2026-11-14 06:30 run: full pipeline #1504 (Mitsubishi recall census, 1 campaign, 4 queries, 3 models; 26V549 only, 67,146 Outlanders; 4th filing for same A-IVI camera defect; excluded 25V369 198,940; counted 25.2% of 266,086; thread total 322,166 no-double-count; series complete, all major brands censused; Axle McScatter, round-0 9.03, queued 2028-08-25)."
+    },
+    {
+      "number": 1505,
+      "slug": "1505-gmc-recall-census-11-savana-carries-four",
+      "title": "GMC Recalled Its 2026 Lineup 11 Times. The Van Did Four of Them.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-08-26",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.71,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "635fe301",
+        "word_count": 1342
+      },
+      "files": {
+        "research": "drafts/1505-gmc-recall-census-11-savana-carries-four-research.md",
+        "story": "drafts/1505-gmc-recall-census-11-savana-carries-four.html",
+        "hero": "drafts/1505-gmc-recall-census-11-savana-carries-four.jpg",
+        "critic_panel": "drafts/1505-gmc-recall-census-11-savana-carries-four-critic-panel-r0.md"
+      },
+      "note": "2026-11-14 08:30 run: full pipeline #1505 (GMC recall census, 11 campaigns, 14 queries, 12 nameplates; Savana carries 4, three steering, incl. 26V399->26V718 recall-of-recall, 108 serials missed; five nameplates carry only 26V114, the missing manual; one do-not-drive, 26V289, 66 trucks; counted 59,606 mentions / 46,891 unique; excluded 600,236 incl. L87 297,404 GMCs under EA26-005; GM family complete: GM 15, Chevrolet 13, GMC 11; Clara Rollover, round-0 8.71, queued 2028-08-26)."
     }
   ]
 }
