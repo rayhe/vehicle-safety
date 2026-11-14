@@ -1,0 +1,18 @@
+[
+  {
+    "campaign": "25V821000",
+    "received": "27/11/2025",
+    "component": "BACK OVER PREVENTION:SOFTWARE",
+    "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2025 Murano, 2025-2026 Armada, and Infiniti QX80 vehicles. A software error may occur in the In-Vehicle Infotainment (IVI) system at vehicle startup, resulting in the rearview camera image not displaying when the vehicle is shifted into reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+    "remedy": "The IVI system software will be updated by a dealer, or through an over-the-air (OTA) update, free of charge. Owner notification letters were mailed February 2, 2026. Owners may contact Nissan's customer service at 800-647-7261 or Infiniti's customer service at 1-800-662-6200. Nissan's numbers for this recall are R25D6, R25D5, and R25D7. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning December 12, 2025.",
+    "ota": false
+  },
+  {
+    "campaign": "26V455000",
+    "received": "16/07/2026",
+    "component": "EQUIPMENT:OTHER:LABELS",
+    "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2020-2026 Nissan Armada, 2011-2013 Infiniti QX56, and 2014-2027 QX80 vehicles equipped with 22\" wheels. The Gross Axle Weight Rating (GAWR) listed on the certification label is incorrect, which can allow the vehicle to be overloaded. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims.\"",
+    "remedy": "Dealers will install new labels, free of charge. Additionally, Nissan will mail replacement labels to owners. Interim letters notifying owners of the safety risk were mailed September 2, 2026. Additional letters will be sent once the final remedy is available, anticipated Fall 2026. Owners may contact Nissan customer service at 1-800-867-7669. Nissan's numbers for this recall are R26B1 and P6A13/4. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on July 16, 2026.",
+    "ota": false
+  }
+]

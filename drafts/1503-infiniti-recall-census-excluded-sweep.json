@@ -1,0 +1,83 @@
+{
+  "QX60/2025": [
+    [
+      "25V173000",
+      "19/03/2025",
+      "SERVICE BRAKES, HYDRAULIC:FOUNDATION COMPONENTS:DISC:CALIPER"
+    ]
+  ],
+  "QX50/2025": "HTTP 400 (empty)",
+  "QX55/2025": "HTTP 400 (empty)",
+  "QX80/2025": [
+    [
+      "24V748000",
+      "03/10/2024",
+      "BACK OVER PREVENTION"
+    ],
+    [
+      "24V747000",
+      "03/10/2024",
+      "BACK OVER PREVENTION:SOFTWARE"
+    ],
+    [
+      "25V821000",
+      "27/11/2025",
+      "BACK OVER PREVENTION:SOFTWARE"
+    ],
+    [
+      "26V455000",
+      "16/07/2026",
+      "EQUIPMENT:OTHER:LABELS"
+    ]
+  ],
+  "QX60/2024": [
+    [
+      "23V814000",
+      "04/12/2023",
+      "EXTERIOR LIGHTING:LIGHTING CONTROL MODULE"
+    ],
+    [
+      "24V154000",
+      "27/02/2024",
+      "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE"
+    ],
+    [
+      "24V176000",
+      "05/03/2024",
+      "SEAT BELTS:PRETENSIONER"
+    ]
+  ],
+  "QX50/2024": [
+    [
+      "24V154000",
+      "27/02/2024",
+      "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE"
+    ]
+  ],
+  "Q50/2024": "HTTP 400 (empty)",
+  "Q60/2024": "HTTP 400 (empty)",
+  "QX80/2024": [
+    [
+      "26V455000",
+      "16/07/2026",
+      "EQUIPMENT:OTHER:LABELS"
+    ]
+  ],
+  "QX60/2023": [
+    [
+      "23V108000",
+      "21/02/2023",
+      "SEATS:MID/REAR ASSEMBLY"
+    ],
+    [
+      "23V268000",
+      "13/04/2023",
+      "SEATS:CRITICAL FASTENERS"
+    ],
+    [
+      "23V814000",
+      "04/12/2023",
+      "EXTERIOR LIGHTING:LIGHTING CONTROL MODULE"
+    ]
+  ]
+}
