@@ -1,0 +1,126 @@
+{
+ "counted": {
+  "26V189000": {
+   "Manufacturer": "Chrysler (FCA US, LLC)",
+   "NHTSACampaignNumber": "26V189000",
+   "parkIt": false,
+   "parkOutSide": false,
+   "overTheAirUpdate": false,
+   "ReportReceivedDate": "26/03/2026",
+   "Component": "AIR BAGS:SIDE/WINDOW:CURTAIN",
+   "Summary": "Chrysler (FCA US, LLC) is recalling certain 2022-2026 Pacifica and Voyager vehicles. The right and left side curtain air bags may have insufficient pressure retention. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 226, \"Ejection Mitigation.\"",
+   "Consequence": "Air bags with insufficient pressure retention increase the risk of ejection and injury during a crash.",
+   "Remedy": "Dealers will replace the side curtain air bags, as necessary, free of charge. Owner notification letters were mailed May 14, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's numbers for this recall are 06D, 10D, and 11D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning April 2, 2026. This recall expands and replaces previous NHTSA recall numbers 25V302 and 25V573. Vehicles previously repaired under a prior recall will need to have the new remedy completed.",
+   "Notes": null,
+   "ModelYear": "2026",
+   "Make": "CHRYSLER",
+   "Model": "PACIFICA"
+  },
+  "26V296000": {
+   "Manufacturer": "Braun Corporation",
+   "NHTSACampaignNumber": "26V296000",
+   "parkIt": false,
+   "parkOutSide": false,
+   "overTheAirUpdate": false,
+   "ReportReceivedDate": "12/05/2026",
+   "Component": "EQUIPMENT ADAPTIVE/MOBILITY:WHEELCHAIR RESTRAINTS/SECUREMENT:CRITICAL FASTENERS",
+   "Summary": "Braun Corporation (Braun) is recalling certain 2023-2026 Chrysler Pacifica vehicles. The retractors may not lock, preventing the wheelchair from being properly secured.",
+   "Consequence": "An unsecured wheelchair can move during transit, increasing the risk of injury.",
+   "Remedy": "Braun will work with Q'Straint to inspect and replace the retractors as necessary, free of charge. Owner notification letters were mailed June 16, 2026. Owners may contact Braun's customer service at 1-800-488-0359 or Q'Straint's customer service at 1-800-987-9987.",
+   "Notes": null,
+   "ModelYear": "2026",
+   "Make": "CHRYSLER",
+   "Model": "PACIFICA"
+  },
+  "26V358000": {
+   "Manufacturer": "Braun Corporation",
+   "NHTSACampaignNumber": "26V358000",
+   "parkIt": false,
+   "parkOutSide": false,
+   "overTheAirUpdate": false,
+   "ReportReceivedDate": "03/06/2026",
+   "Component": "AIR BAGS:FRONTAL",
+   "Summary": "Braun Corporation (Braun) is recalling certain 2023-2026 Chrysler Pacifica and Voyager vehicles. The spring inside the front seat harness connector may contact electrical terminals.",
+   "Consequence": "The unintended connection may prevent the air bags from deploying, increasing the risk of injury during a crash.",
+   "Remedy": "Dealers will replace the spring, free of charge. Owner notification letters were mailed July 16, 2026. Owners may contact Braun's customer service at 1-800-488-0359.",
+   "Notes": null,
+   "ModelYear": "2026",
+   "Make": "CHRYSLER",
+   "Model": "PACIFICA"
+  },
+  "26V531000": {
+   "Manufacturer": "Chrysler (FCA US, LLC)",
+   "NHTSACampaignNumber": "26V531000",
+   "parkIt": false,
+   "parkOutSide": false,
+   "overTheAirUpdate": false,
+   "ReportReceivedDate": "13/08/2026",
+   "Component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+   "Summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Jeep Wrangler, Jeep Gladiator, Jeep Compass, Jeep Cherokee, Jeep Grand Cherokee, Jeep Grand Cherokee L, Jeep Grand Wagoneer, Jeep Grand Wagoneer L, Ram Promaster, Ram Promaster EV, Ram 1500, Ram 2500, Chrysler Pacifica Plug-In Hybrid, Chrysler Voyager, and 2026-2027 Chrysler Pacifica and Dodge Charger vehicles. The rearview camera image may fail to display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+   "Consequence": "A rearview camera image that fails to display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+   "Remedy": "Radio software will be updated by a dealer or through an over-the-air (OTA) update, free of charge. Owner notification letters were mailed beginning September 2, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 78D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov on August 20, 2026.",
+   "Notes": null,
+   "ModelYear": "2026",
+   "Make": "CHRYSLER",
+   "Model": "PACIFICA"
+  },
+  "26V561000": {
+   "Manufacturer": "Chrysler (FCA US, LLC)",
+   "NHTSACampaignNumber": "26V561000",
+   "parkIt": false,
+   "parkOutSide": false,
+   "overTheAirUpdate": false,
+   "ReportReceivedDate": "01/09/2026",
+   "Component": "ELECTRONIC STABILITY CONTROL (ESC)",
+   "Summary": "Chrysler (FCA US, LLC) is recalling certain 2025-2026 Chrysler Voyager, Chrysler Pacifica, and 2026 Chrysler Voyager Plug-In Hybrid Electric (PHEV) vehicles. The brake pedal position sensor capacitor may be cracked, which can cause a loss of electronic stability control. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 126, \"Electronic Stability Control Systems.\"",
+   "Consequence": "A loss of electronic stability control increases the risk of a crash.",
+   "Remedy": "Dealers will inspect and replace brake pedal position sensor, as necessary, free of charge. Owner notification letters were mailed September 17, 2026. Owners may contact FCA customer service at 1-800-853-1403. FCA's number for this recall is 69D. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning September 9, 2026.",
+   "Notes": null,
+   "ModelYear": "2026",
+   "Make": "CHRYSLER",
+   "Model": "PACIFICA"
+  }
+ },
+ "per_model": {
+  "pacifica": [
+   "26V189000",
+   "26V296000",
+   "26V358000",
+   "26V531000",
+   "26V561000"
+  ],
+  "pacifica plug-in hybrid": [
+   "26V531000",
+   "26V561000"
+  ],
+  "voyager": [
+   "26V189000",
+   "26V358000",
+   "26V531000",
+   "26V561000"
+  ]
+ },
+ "excluded": {
+  "26V327000": {
+   "Manufacturer": "Chrysler (FCA US, LLC)",
+   "NHTSACampaignNumber": "26V327000",
+   "parkIt": false,
+   "parkOutSide": false,
+   "overTheAirUpdate": false,
+   "ReportReceivedDate": "21/05/2026",
+   "Component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+   "Summary": "Chrysler (FCA US, LLC) is recalling certain 2019 and 2023 Chrysler Pacifica, 2024 Ram 1500, Ram 2500, and 2024-2025 Jeep Wrangler vehicles. Contamination in the central vision processing module or improper programming may cause the rearview camera image not to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+   "Consequence": "A rearview image that does not display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+   "Remedy": "Dealers will update the central vision processing module software or replace the module, as necessary, free of charge. Owner notification letters are expected to be mailed beginning July 16, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 46D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov on May 28, 2026.",
+   "Notes": null,
+   "ModelYear": "2023",
+   "Make": "CHRYSLER",
+   "Model": "PACIFICA"
+  }
+ },
+ "models2026": [
+  "pacifica",
+  "voyager",
+  "grand caravan"
+ ]
+}

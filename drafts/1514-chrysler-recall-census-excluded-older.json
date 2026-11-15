@@ -1,0 +1,35 @@
+{
+ "26V362000": {
+  "Manufacturer": "Chrysler (FCA US, LLC)",
+  "NHTSACampaignNumber": "26V362000",
+  "parkIt": false,
+  "parkOutSide": true,
+  "overTheAirUpdate": false,
+  "NHTSAActionNumber": "RQ24001",
+  "ReportReceivedDate": "04/06/2026",
+  "Component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+  "Summary": "Chrysler (FCA US, LLC) is recalling certain 2020-2022 Pacifica Plug-In Hybrid Electric (PHEV) vehicles. The battery pack may cause a vehicle fire, even when the vehicle is parked with the ignition in the \"Off\" position.",
+  "Consequence": "A vehicle fire increases the risk of injury.",
+  "Remedy": "Owners are advised not to charge their vehicles, and to park outside and away from structures, until their vehicle is repaired. Dealers will update the high voltage battery pack control module software. In addition, dealers will inspect and replace the battery pack assembly, as necessary. All repairs will be performed free of charge. Owner notification letters were mailed beginning June 23, 2026. Owners may contact FCA US LLC customer service at 1-800-853-1403. FCA US LLC's number for this recall is 52D. The Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov on June 11, 2026.",
+  "Notes": null,
+  "ModelYear": "2022",
+  "Make": "CHRYSLER",
+  "Model": "PACIFICA"
+ },
+ "26V327000": {
+  "Manufacturer": "Chrysler (FCA US, LLC)",
+  "NHTSACampaignNumber": "26V327000",
+  "parkIt": false,
+  "parkOutSide": false,
+  "overTheAirUpdate": false,
+  "ReportReceivedDate": "21/05/2026",
+  "Component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+  "Summary": "Chrysler (FCA US, LLC) is recalling certain 2019 and 2023 Chrysler Pacifica, 2024 Ram 1500, Ram 2500, and 2024-2025 Jeep Wrangler vehicles. Contamination in the central vision processing module or improper programming may cause the rearview camera image not to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+  "Consequence": "A rearview image that does not display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+  "Remedy": "Dealers will update the central vision processing module software or replace the module, as necessary, free of charge. Owner notification letters are expected to be mailed beginning July 16, 2026. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 46D. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov on May 28, 2026.",
+  "Notes": null,
+  "ModelYear": "2019",
+  "Make": "CHRYSLER",
+  "Model": "PACIFICA"
+ }
+}
