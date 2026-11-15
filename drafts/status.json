@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1509-maverick-hybrid-one-loose-cable-kills-four-systems",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-14T16:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-14 16:30 run: DRAFT #1509 done (Rex Driverton, 931 words, hero JPEG 1920x1280 ?v=116bb1f8). Hard gates pre-checked: em 0, banned 0, The 0.0%, class=story, style.css, rhythm PASS (var 267, short 10.5%, long 68.4%).",
+  "current": null,
+  "last_check_note": "2026-11-14 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1509 (Maverick Hybrid 26V724, Rex Driverton, round-0 8.64, queued 2028-08-30). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-14T14:30:00-08:00",
+  "last_completed": "2026-11-14T16:30:00-08:00",
   "last_completed_date": "2026-11-14",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": 848,
   "last_published_date": "2026-11-14",
   "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-14T16:30:00-08:00",
-  "next": 1509,
+  "next": 1510,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -26479,6 +26473,44 @@
         "critic_panel": "drafts/1508-jeep-recall-census-12-one-million-excluded-critic-panel-r1.md"
       },
       "note": "2026-11-14 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1508 (Jeep census, 12 counted / 7 excluded, 1,467,098 excluded Jeeps, 26V363 1.08M fire recall excluded; Mia Crumplezone, round-1 8.86). Round 0 avg 8.50 (General 8.0, Legal 8.0) fixed in revision: wipers attribution corrected to Grand Cherokee, three-federal-standards softened to multiple, trimmed 1,479 to 1,403 words, The-starters 9.2 to 7.7 percent, method-artifact sentence added. Queued 2028-08-29."
+    },
+    {
+      "avg_critic": 8.64,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1509-maverick-hybrid-one-loose-cable-kills-four-systems-critic-panel-r0.md",
+        "hero": "images/1509-maverick-hybrid-one-loose-cable-kills-four-systems.jpg",
+        "research": "drafts/1509-maverick-hybrid-one-loose-cable-kills-four-systems-research.md",
+        "story": "drafts/1509-maverick-hybrid-one-loose-cable-kills-four-systems.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "116bb1f8",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 931
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-11-14 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1509 (Maverick Hybrid 26V724 loose cable, Rex Driverton, round-0 8.64, queued 2028-08-30). Panel caught and fixed one date error (five days -> six days, Oct 27 to Nov 2) and one attribution fix (28 campaigns -> in NHTSA's count). Killed angles: Hyundai ACU 26V728 (4 prior), Kicks/RAV4 (3 prior), 26V721 (#1457), 26V718, 26V726 (#1466).",
+      "number": 1509,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 8.5
+      },
+      "ship_date": "2028-08-30",
+      "slug": "1509-maverick-hybrid-one-loose-cable-kills-four-systems",
+      "title": "One Loose Cable Can Shut Down a Maverick Hybrid's Steering, Brakes, Lights, and Drive Power"
     }
   ]
 }
