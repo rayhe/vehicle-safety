@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1512-cadillac-recall-census-7-brakes-seats-windows",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-14T22:30:00-08:00"
+  },
   "last_check_note": "2026-11-14 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1511 (BMW 26V731 test software, Mia Crumplezone, round-0 8.86, queued 2028-09-01). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
   "last_checked": "2026-11-14T20:30:00-08:00",
   "last_completed": "2026-11-14T20:30:00-08:00",
@@ -10,7 +15,7 @@
   "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-14T20:30:00-08:00",
+  "last_worker_run": "2026-11-14T22:30:00-08:00",
   "next": 1512,
   "queue": [
     {
