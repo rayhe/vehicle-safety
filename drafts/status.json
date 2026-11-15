@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1516-ford-backup-camera-six-years-165-million-fine",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-15T06:45:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-15 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1515 (VinFast recall census, Vin Wreckage, round-0 8.86, queued 2028-09-05). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-15T04:55:00-08:00",
@@ -26751,6 +26745,48 @@
       "ship_date": "2028-09-05",
       "slug": "1515-vinfast-recall-census-4-zero-in-2026",
       "title": "VinFast Has Filed 4 Recalls in Its Entire US History. One of Them Steered the Car Itself"
+    },
+    {
+      "number": 1516,
+      "slug": "1516-ford-backup-camera-six-years-165-million-fine",
+      "title": "Ford\u2019s Backup Camera Has Been Recalled Six Times in Six Years. The $165 Million Fine Didn\u2019t Fix It.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-09-06",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2048x1152",
+        "hero_hash": "7fe8388d",
+        "word_count": 1521,
+        "rhythm_pass": true,
+        "rhythm_variance": 1361.0,
+        "rhythm_short_pct": 14.8,
+        "rhythm_long_pct": 48.1
+      },
+      "files": {
+        "research": "drafts/1516-ford-backup-camera-six-years-165-million-fine-research.md",
+        "story": "drafts/1516-ford-backup-camera-six-years-165-million-fine.html",
+        "hero": "drafts/1516-ford-backup-camera-six-years-165-million-fine.jpg",
+        "critic_panel": "drafts/1516-ford-backup-camera-six-years-165-million-fine-critic-panel-r0.md"
+      },
+      "note": "2026-11-15 06:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run. Round-0 panel VERDICT SHIP (avg 8.86, 7/7 >= 8.5; gates: em 0, banned 0, The 1.4%, rhythm PASS var 1361.0/short 14.8%, hero JPEG 2048x1152 hash 7fe8388d). Novel: 3,368,065 campaign-vehicle tally with expansion-overlap accounting; $165M/620,246 = ~$266 per vehicle; consent-order irony (3 more camera recalls + 12.5M-vehicle 25N17 program after the Nov 2024 order). News peg: RQ26004 opened Oct 23, 2026 (5 post-repair VOQs, 273,301 Mavericks). Primary: NHTSA consent order + Part 573s 25V315/26V489 + FMVSS 111 final rule. Dup check clean (no 25V315/25V270/25V572/26V489/165M slug in 1,515 entries). Queued SHIP_BLOCKED 2028-09-06 (1 day after latest)."
     }
   ]
 }
