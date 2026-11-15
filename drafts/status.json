@@ -1,16 +1,16 @@
 {
     "current": null,
-    "last_check_note": "2026-11-15 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1513 (Buick 2026 recall census, Rex Driverton, round-0 8.87, queued 2028-09-03). PUBLISH-QUEUE: pending this run (earliest due #849 ships 2026-11-15).",
+    "last_check_note": "2026-11-15 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1513 (Buick 2026 recall census, Rex Driverton, round-0 8.87, queued 2028-09-03). PUBLISH-QUEUE: published #849 (Polestar RQ25004, Mia Crumplezone, due 2026-11-15, 1/day slot; 0 prior publishes today), QA-verified live. Next due #850 ships 2026-11-16.",
     "last_checked": "2026-11-14T22:30:00-08:00",
     "last_completed": "2026-11-15T00:35:00-08:00",
     "last_completed_date": "2026-11-15",
     "last_journalist": "Rex Driverton",
-    "last_published": 848,
-    "last_published_date": "2026-11-14",
-    "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
-    "last_qa_date": "2026-11-13",
-    "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-    "last_worker_run": "2026-11-15T00:35:00-08:00",
+    "last_published": 849,
+    "last_published_date": "2026-11-15",
+    "last_published_slug": "849-polestar-rq25004-three-recalls-one-camera",
+    "last_qa_date": "2026-11-15",
+    "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
+    "last_worker_run": "2026-11-15T00:37:00-08:00",
     "next": 1514,
     "queue": [
         {
@@ -1997,13 +1997,14 @@
             },
             "journalist": "Mia Crumplezone",
             "kicker": "The Gap",
-            "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Anchor: Sept 1, 2026 NHTSA closed Recall Query RQ25004. Novel: recall-query-as-remedy-audit thesis + software-as-mandated-equipment (FMVSS 111); camera hardware was never broken, only the code deciding whether to trust the feed. Sources: RQ25004 open resume, IR letter, 25V-615 acknowledgement (static.nhtsa.gov), Reuters, Autowire. | 2026-11-14 02:30 run: 1/day slot consumed by Publish #848 (00:27 today); bumped ship_date to 2026-11-15.",
+            "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Anchor: Sept 1, 2026 NHTSA closed Recall Query RQ25004. Novel: recall-query-as-remedy-audit thesis + software-as-mandated-equipment (FMVSS 111); camera hardware was never broken, only the code deciding whether to trust the feed. Sources: RQ25004 open resume, IR letter, 25V-615 acknowledgement (static.nhtsa.gov), Reuters, Autowire. | 2026-11-14 02:30 run: 1/day slot consumed by Publish #848 (00:27 today); bumped ship_date to 2026-11-15. | 2026-11-15 00:30 run: published as #849 (1/day slot; 0 prior publishes today). QA live: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Cache-bust ?v=3e5d4db2 added to og:image + img src at publish.",
             "number": 849,
-            "phase": "SHIP_BLOCKED",
+            "phase": "PUBLISHED",
             "score": 8.86,
             "ship_date": "2026-11-15",
             "slug": "polestar-rq25004-three-recalls-one-camera",
-            "title": "Polestar Patched Its Backup Camera Twice. On September 1, NHTSA Finally Believed the Third Fix."
+            "title": "Polestar Patched Its Backup Camera Twice. On September 1, NHTSA Finally Believed the Third Fix.",
+            "publish_commit": "1ba28513"
         },
         {
             "blocked_reason": "Queued behind 63 prior drafts; next publish slot after #849 (2026-10-25); 1/day rule consumed by #806 on 2026-09-08",
