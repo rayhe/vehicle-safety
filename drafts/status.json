@@ -1,7 +1,7 @@
 {
     "current": null,
-    "last_check_note": "2026-11-15 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1515 (VinFast recall census, Vin Wreckage, round-0 8.86, queued 2028-09-05).",
-    "last_checked": "2026-11-14T22:30:00-08:00",
+    "last_check_note": "2026-11-15 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1515 (VinFast recall census, Vin Wreckage, round-0 8.86, queued 2028-09-05). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
+    "last_checked": "2026-11-15T04:55:00-08:00",
     "last_completed": "2026-11-15T04:55:00-08:00",
     "last_completed_date": "2026-11-15",
     "last_journalist": "Vin Wreckage",
@@ -10,7 +10,7 @@
     "last_published_slug": "849-polestar-rq25004-three-recalls-one-camera",
     "last_qa_date": "2026-11-15",
     "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
-    "last_worker_run": "2026-11-15T02:55:00-08:00",
+    "last_worker_run": "2026-11-15T04:55:00-08:00",
     "next": 1516,
     "queue": [
         {
