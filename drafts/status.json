@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1509-maverick-hybrid-one-loose-cable-kills-four-systems",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-14T16:30:00-08:00"
+    "started": "2026-11-14T16:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-14 16:30 run: RESEARCH #1509 (Maverick Hybrid 26V724 loose cable, Rex Driverton). Killed angles: Hyundai ACU 26V728 (4 prior), Kicks/RAV4 (3 prior), 26V721 (#1457), 26V718, 26V726 (#1466), censuses exhausted, FARS tox mined out.",
+  "last_check_note": "2026-11-14 16:30 run: DRAFT #1509 done (Rex Driverton, 931 words, hero JPEG 1920x1280 ?v=116bb1f8). Hard gates pre-checked: em 0, banned 0, The 0.0%, class=story, style.css, rhythm PASS (var 267, short 10.5%, long 68.4%).",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T14:30:00-08:00",
   "last_completed_date": "2026-11-14",
