@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1517-harley-recall-census-4-campaigns-136k-bikes",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-15T08:35:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-15 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1515 (VinFast recall census, Vin Wreckage, round-0 8.86, queued 2028-09-05). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-15T04:55:00-08:00",
+  "last_completed": "2026-11-15T09:00:00-08:00",
   "last_completed_date": "2026-11-15",
   "last_journalist": "Vin Wreckage",
   "last_published": 849,
@@ -26793,6 +26787,48 @@
         "critic_panel": "drafts/1516-ford-backup-camera-six-years-165-million-fine-critic-panel-r0.md"
       },
       "note": "2026-11-15 06:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete in one run. Round-0 panel VERDICT SHIP (avg 8.86, 7/7 >= 8.5; gates: em 0, banned 0, The 1.4%, rhythm PASS var 1361.0/short 14.8%, hero JPEG 2048x1152 hash 7fe8388d). Novel: 3,368,065 campaign-vehicle tally with expansion-overlap accounting; $165M/620,246 = ~$266 per vehicle; consent-order irony (3 more camera recalls + 12.5M-vehicle 25N17 program after the Nov 2024 order). News peg: RQ26004 opened Oct 23, 2026 (5 post-repair VOQs, 273,301 Mavericks). Primary: NHTSA consent order + Part 573s 25V315/26V489 + FMVSS 111 final rule. Dup check clean (no 25V315/25V270/25V572/26V489/165M slug in 1,515 entries). Queued SHIP_BLOCKED 2028-09-06 (1 day after latest)."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1517-harley-recall-census-4-campaigns-136k-bikes-critic-panel-r0.md",
+        "hero": "drafts/1517-harley-recall-census-4-campaigns-136k-bikes.jpg",
+        "research": "drafts/1517-harley-recall-census-4-campaigns-136k-bikes-research.md",
+        "story": "drafts/1517-harley-recall-census-4-campaigns-136k-bikes.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b9e5147e",
+        "hero_jpeg": true,
+        "rhythm_long_pct": 51.9,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 7.7,
+        "rhythm_variance": 621.3,
+        "style_css": true,
+        "the_starters_pct": 1.8,
+        "word_count": 1167
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-15 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1517 in one run. Harley 2026 recall census: 4 campaigns, 136,077 campaign-vehicles; airbox 26V270 88,039 (64.7%); gear sensor 26V730 21,643, 0.1% defect estimate = ~22 bikes vs 2 injuries potentially related; brake line 26V234 16,994; triple clamp 26V075 9,401 (extension of 25V590). Original tally + share arithmetic + carryover correction (3 truly new campaigns) + touring line in 2 campaigns (FLHX/FLTRX/FLTRXL/FLHXL). Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 1.8%, rhythm PASS var 621.3/short 7.7%, hero JPEG 1920x1280 hash b9e5147e). Queued SHIP_BLOCKED, ship_date 2028-09-07.",
+      "number": 1517,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-09-07",
+      "slug": "1517-harley-recall-census-4-campaigns-136k-bikes",
+      "title": "Harley Filed Four Recalls in 2026. One Blocked Breather Hole Was Two-Thirds of Them."
     }
   ]
 }
