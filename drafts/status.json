@@ -1,22 +1,17 @@
 {
-    "current": {
-        "slug": "1513-buick-recall-census-2-one-manual-one-car",
-        "phase": "DRAFT",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-15T00:30:00-08:00"
-    },
-    "last_check_note": "2026-11-14 22:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1512 (Cadillac 2026 recall census, Axle McScatter, round-0 8.86, queued 2028-09-02). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
+    "current": null,
+    "last_check_note": "2026-11-15 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1513 (Buick 2026 recall census, Rex Driverton, round-0 8.87, queued 2028-09-03). PUBLISH-QUEUE: pending this run (earliest due #849 ships 2026-11-15).",
     "last_checked": "2026-11-14T22:30:00-08:00",
-    "last_completed": "2026-11-14T22:30:00-08:00",
-    "last_completed_date": "2026-11-14",
+    "last_completed": "2026-11-15T00:35:00-08:00",
+    "last_completed_date": "2026-11-15",
     "last_journalist": "Rex Driverton",
     "last_published": 848,
     "last_published_date": "2026-11-14",
     "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
     "last_qa_date": "2026-11-13",
     "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-    "last_worker_run": "2026-11-15T00:30:00-08:00",
-    "next": 1513,
+    "last_worker_run": "2026-11-15T00:35:00-08:00",
+    "next": 1514,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -26633,6 +26628,45 @@
             "ship_date": "2028-09-02",
             "slug": "1512-cadillac-recall-census-7-brakes-seats-windows",
             "title": "Cadillac Filed 7 Recalls for Its 2026 Cars. One Is a Missing Owner's Manual"
+        },
+        {
+            "avg_critic": 8.87,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1513-buick-recall-census-2-one-manual-one-car-critic-panel-r0.md",
+                "hero": "drafts/1513-buick-recall-census-2-one-manual-one-car.jpg",
+                "research": "drafts/1513-buick-recall-census-2-one-manual-one-car-research.md",
+                "story": "drafts/1513-buick-recall-census-2-one-manual-one-car.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "2cc7e3a2",
+                "hero_jpeg": true,
+                "rhythm": "pass",
+                "style_css": true,
+                "the_starters_pct": 2.1,
+                "word_count": 1111
+            },
+            "journalist": "Rex Driverton",
+            "kicker": "By The Numbers",
+            "note": "2026-11-15 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1513 (Buick 2026 recall census, Rex Driverton, round-0 8.87, queued 2028-09-03). Completes GM brand-split set (Chevy 13, GMC 11, Cadillac 7, Buick 2). Duplicate screen: Waymo RQ26006 (#1461), Kicks/RAV4 IIHS (#1244/#1278/#1346/#1408/#1484), GM 26V718 (#1391), Thomas Built 26V702 (#1369), Ford 26V724 (#1509) all rejected as covered.",
+            "number": 1513,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 8.7,
+                "general_editor": 8.8,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.6,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-09-03",
+            "slug": "1513-buick-recall-census-2-one-manual-one-car",
+            "title": "Buick Filed 2 Recalls for Its 2026 Cars. One Covers a Single Car"
         }
     ]
 }
