@@ -1,6 +1,11 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-15 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1514 (Chrysler 2026 recall census, Clara Rollover, round-0 8.79, queued 2028-09-04). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); next due #850 ships 2026-11-16. Nothing published this run.",
+    "current": {
+        "slug": "1515-vinfast-recall-census-4-zero-in-2026",
+        "phase": "DRAFT",
+        "journalist": "Vin Wreckage",
+        "started": "2026-11-15T04:35:00-08:00"
+    },
+    "last_check_note": "2026-11-15 04:30 run: RESEARCH #1515 (VinFast recall census, 4 lifetime, zero in 2026, Vin Wreckage).",
     "last_checked": "2026-11-14T22:30:00-08:00",
     "last_completed": "2026-11-15T02:55:00-08:00",
     "last_completed_date": "2026-11-15",
