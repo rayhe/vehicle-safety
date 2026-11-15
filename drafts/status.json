@@ -1,13 +1,6 @@
 {
-  "current": {
-    "slug": "1519-kia-recall-census-9-telluride-73-percent",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-15T12:30:00-08:00",
-    "number": 1519,
-    "round": 0
-  },
-  "last_check_note": "2026-11-15 12:30 run: RESEARCH #1519 (Kia recall census, 9 campaigns, 775,093 vehicles, Telluride 73.4%, Dale Impactor III). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16.",
+  "current": null,
+  "last_check_note": "2026-11-15 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1519 (Kia recall census, Dale Impactor III, round-0 8.93, queued 2028-09-09). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-15T09:00:00-08:00",
   "last_completed_date": "2026-11-15",
@@ -18,7 +11,7 @@
   "last_qa_date": "2026-11-15",
   "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
   "last_worker_run": "2026-11-15T12:30:00-08:00",
-  "next": 1519,
+  "next": 1520,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -26878,6 +26871,48 @@
         "critic_panel": "drafts/1518-dodge-recall-census-5-spoiler-carries-half-critic-panel-r0.md"
       },
       "note": "2026-11-15 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1518 in one run. Dodge 2026 recall census: 5 campaigns, 153,660 campaign-vehicles (Dodge-only splits: 26V262 8,528 of 20,271; 26V510 40,386 of 48,777; 26V531 16,838 of 844,027; 26V528 74,578; 26V701 13,330). Spoiler 48.5%; 100%-vs-0.8% defect-rate contrast; Charger blind twice (cluster + camera); third-recall correction (4 truly new campaigns). Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 1.8%, rhythm PASS var 2525.1/short 7.0% after pre-score share-list merge, hero JPEG 1920x1280 hash 0dfb7f7c). Queued SHIP_BLOCKED, ship_date 2028-09-08."
+    },
+    {
+      "avg_critic": 8.93,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1519-kia-recall-census-9-telluride-73-percent-critic-panel-r0.md",
+        "hero": "drafts/1519-kia-recall-census-9-telluride-73-percent.jpg",
+        "research": "drafts/1519-kia-recall-census-9-telluride-73-percent-research.md",
+        "story": "drafts/1519-kia-recall-census-9-telluride-73-percent.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "65f75819",
+        "hero_jpeg": true,
+        "rhythm_long_pct": 54.4,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 5.9,
+        "rhythm_variance": 4978.8,
+        "style_css": true,
+        "the_starters_pct": 1.3,
+        "word_count": 1874
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "note": "2026-11-15 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1519 in one run. Kia 2026 recall census: 9 campaigns, 775,093 campaign-vehicles (Telluride 568,715 = 73.4%, 5 campaigns); restraint-system 6 of 9 = 76.3%; 1%-estimate arithmetic ~8,810 actually-defective; 4-to-9 correction of #1477; 26V430 re-recall of 24V407 (8 truly new); 26V173 vocabulary catch (Telluride Hybrid only); Samsong Mexico thread; Palisade link (fatality is Hyundai 26V160, not Kia). Round-0 SHIP (avg 8.93, 7/7 >= 8.5, all hard gates; em 0, The 1.3%, rhythm PASS var 4978.8/short 5.9%, hero JPEG 1920x1280 hash 65f75819). Pre-score fix: 1% count corrected 5->4 (26V105/26V232/26V356/26V430). Queued SHIP_BLOCKED, ship_date 2028-09-09.",
+      "number": 1519,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-09-09",
+      "slug": "1519-kia-recall-census-9-telluride-73-percent",
+      "title": "Kia Filed Nine Recalls in 2026. The Telluride Was 73 Percent of Them."
     }
   ]
 }
