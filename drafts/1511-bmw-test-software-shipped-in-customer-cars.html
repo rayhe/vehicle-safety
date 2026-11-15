@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BMW Shipped Test Software in 286 Customer Cars. It Runs the High-Voltage Charger &mdash; The Crash Report</title>
+  <meta name="description" content="BMW's own filing says some charging units shipped with testing software instead of production software. The recall covers 286 cars, and BMW's 0.2% defect estimate means fewer than one is expected to actually have it.">
+  <meta property="og:title" content="BMW Shipped Test Software in 286 Customer Cars. It Runs the High-Voltage Charger">
+  <meta property="og:description" content="Test code, in customer cars, running the high-voltage battery charger. BMW's own 0.2% estimate means the recall exists to find fewer than one defective car.">
+  <meta property="og:image" content="../images/1511-bmw-test-software-shipped-in-customer-cars.jpg?v=d433d702">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="../images/1511-bmw-test-software-shipped-in-customer-cars.jpg?v=d433d702">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">The Gap</div>
+      <h1>BMW Shipped Test Software in 286 Customer Cars. It Runs the High-Voltage Charger</h1>
+      <div class="byline">Mia Crumplezone &bull; Clautomotive Desk</div>
+      <div class="dateline">November 14, 2026</div>
+
+      <img src="../images/1511-bmw-test-software-shipped-in-customer-cars.jpg?v=d433d702" alt="A BMW i5 electric sedan plugged into a home wall charger at night, charging port glowing">
+
+      <div class="story-body">
+
+      <p>Somewhere in a BMW i5 or i7, a charging unit is running software that was never meant to leave the lab. BMW's own filing says so, in plain language, in the chronology section of its Part 573 safety recall report: some charging units "may have been shipped that contain testing software instead of production software."<sup class="ref-link"><a href="#ref-1">[1]</a></sup> These are 2026 and 2027 model-year cars, and that software runs the high-voltage battery charger. In rare cases, BMW says, it could increase the risk of electric shock.</p>
+
+      <div class="pull-stat">0.57</div>
+      <div class="pull-label">Expected number of defective cars in this recall, on BMW's own 0.2% estimate. More likely than not, zero cars in the recall actually have the defect</div>
+
+      <p>Recall 26V731 covers 286 cars: 236 i5s and 50 i7s, built in two narrow windows last summer. BMW's own estimate is that 0.2 percent of them actually carry the defect. Multiply it out and you get 0.57 cars. A federal safety recall exists to find a defect that, on the manufacturer's own numbers, is expected to be in fewer than one vehicle.</p>
+
+      <p>Run the probability properly and it gets stranger. If the defect is randomly distributed at 0.2 percent across 286 cars, the chance that none of them has it is about 56 percent. There is a 44 percent chance at least one does. Somewhere in that spread sits a car whose high-voltage charger runs test code, and nobody can say which one it is, because the only way to know is the dealer reflash that fixes it.</p>
+
+      <p>Supplier is TE Connectivity Solutions, out of Schaffhausen, Switzerland. On October 8, the company told BMW that a high-voltage charging port supplier had shipped units with the wrong software load. BMW opened an engineering investigation, pulled supplier production records and shipping logistics, and on October 28 decided to recall voluntarily.<sup class="ref-link"><a href="#ref-1">[1]</a></sup> Twenty days from tip to decision, which is the part that went fine. Then the clock keeps running: owner letters do not go out until December 25. Seventy-eight days pass between the day BMW learned about it and the day owners hear about it, for a fix that is a one-hour software update.</p>
+
+      <p>And the fix is a dealer visit, not an over-the-air push. A software recall that cannot be delivered by software, because the charging port module is not on BMW's OTA path. Owners book an appointment, drive in, and wait about an hour while a technician reflashes a module that should never have shipped with test code.<sup class="ref-link"><a href="#ref-2">[2]</a></sup> A routine software update in the My BMW app does not close the recall. Ask the dealer to confirm the recall status on the paperwork, or it stays open.</p>
+
+      <p>Meanwhile the recall is invisible where owners are told to look. NHTSA's own recalls API returns zero results for the affected i5 and i7 model years today. I checked. The filing schedules VIN searchability for December 25, the same day the letters go out, which means the recall exists in a federal filing and nowhere an owner can query it for 51 days after it was filed. A clean result on nhtsa.gov/recalls right now proves nothing about this car.<sup class="ref-link"><a href="#ref-3">[3]</a></sup></p>
+
+      <table class="data-table">
+        <caption>The 286 cars in recall 26V731 (BMW Part 573 filing, Nov 4, 2026)</caption>
+        <thead><tr><th>Model</th><th>Model years</th><th>Production dates</th><th>Vehicles</th></tr></thead>
+        <tbody>
+          <tr><td>BMW i5 (eDrive40, xDrive40, M60 xDrive)</td><td>2026-2027</td><td>May 12 - Jul 22, 2026</td><td>236</td></tr>
+          <tr><td>BMW i7 (xDrive50, xDrive60)</td><td>2027</td><td>Jun 15 - Jul 23, 2026</td><td>50</td></tr>
+        </tbody>
+      </table>
+
+      <p>Same manufacturer, same week, wildly different scale. BMW's other November recall, 26V733, covers 720,796 cars from 2012 to 2018 whose water-pump connectors can short and catch fire. Owners are told to park outside. There is no remedy yet.<sup class="ref-link"><a href="#ref-4">[4]</a></sup> That recall is 2,520 times the size of this one, and it is the one that made the news. Small is the one that should worry an engineer. A part failure is bounded by the part. A test build shipping in production is a process failure, and the only reason this one is small is that the supplier run was small.</p>
+
+      <p>Fair objection: 286 cars, zero injuries, a 0.2 percent defect estimate, no do-not-drive advisory. A reader could call this a paperwork defect with no victims, and point out that the system worked exactly as designed. A supplier caught its own error, told BMW, and BMW recalled voluntarily in 20 days. That reading is not wrong, but it is also incomplete. Defect class matters more than defect count. The same mix-up in a larger supplier run, caught later, in a module with a worse failure mode, is a different story. Small numbers here are luck, not design. And the filing's own language gives the game away: everywhere except the chronology, BMW calls it software "not in accordance with a specification." Test software is what it is, and a specification is what it violated.</p>
+
+      <p>What we do not know: BMW has not said what the test software does differently, which charging sessions are affected, or whether any owner has felt a shock or seen a charging fault. The 0.2 percent estimate is BMW's, from supplier records, not independently verified. My 56 percent figure assumes the estimate is right and the defect is randomly spread across the 286. If the estimate is wrong, so is the math. No FARS cross-tab is possible or meaningful here: the i5 and i7 are too new and too few, and no deaths or injuries are tied to this defect.</p>
+
+      <p>If you own a 2026 or 2027 i5 built between May 12 and July 22, 2026, or a 2027 i7 built between June 15 and July 23, 2026, call your dealer or BMW at 800-525-7417 with your VIN. Do not wait for the letter, and do not trust a clean NHTSA lookup before December 25. The fix is free and takes about an hour. Cars can keep driving, and they can keep charging, but follow any warning the car shows while you wait, and get the reflash on the books.</p>
+
+      </div>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">BMW of North America, <em>Part 573 Safety Recall Report 26V731</em>, filed Nov 4, 2026. <a href="https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V731-8682.pdf" target="_blank" rel="noopener">static.nhtsa.gov</a></li>
+          <li id="ref-2">Cooper &amp; Bimmer Experts, &ldquo;BMW i5 and i7 Charging Software Recall 26V731: Check Your VIN,&rdquo; Nov 14, 2026. <a href="https://cooperbimmer.expert/bmw-i5-i7-charging-software-recall-26v731/" target="_blank" rel="noopener">cooperbimmer.expert</a></li>
+          <li id="ref-3">NHTSA recalls API, queried Nov 14, 2026 (BMW i5 2026/2027, BMW i7 2027: 0 results; VINs searchable Dec 25, 2026 per the Part 573 filing). <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-4">USA Today, &ldquo;BMW recall affects more than 720K vehicles,&rdquo; Nov 13, 2026 (26V733, 720,796 vehicles, park outside). <a href="https://www.usatoday.com/story/cars/recalls/2026/11/13/bmw-recall-thousands-vehicles/92765957007/" target="_blank" rel="noopener">usatoday.com</a></li>
+        </ol>
+      </section>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA Part 573 Safety Recall Report 26V731, filed Nov 4, 2026. Probability figures are computed from BMW's own 0.2% defect estimate and assume the defect is randomly distributed across the 286 potentially involved vehicles. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
