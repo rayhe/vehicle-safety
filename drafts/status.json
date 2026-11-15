@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-14 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1508 (Jeep census, Mia Crumplezone, round-1 8.86, queued 2028-08-29). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
+  "current": {
+    "slug": "1509-maverick-hybrid-one-loose-cable-kills-four-systems",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-14T16:30:00-08:00"
+  },
+  "last_check_note": "2026-11-14 16:30 run: RESEARCH #1509 (Maverick Hybrid 26V724 loose cable, Rex Driverton). Killed angles: Hyundai ACU 26V728 (4 prior), Kicks/RAV4 (3 prior), 26V721 (#1457), 26V718, 26V726 (#1466), censuses exhausted, FARS tox mined out.",
   "last_checked": "2026-11-12T08:30:00-08:00",
   "last_completed": "2026-11-14T14:30:00-08:00",
   "last_completed_date": "2026-11-14",
@@ -10,7 +15,7 @@
   "last_published_slug": "848-tesla-cybercab-aq26002-inapplicable",
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
-  "last_worker_run": "2026-11-14T14:30:00-08:00",
+  "last_worker_run": "2026-11-14T16:30:00-08:00",
   "next": 1509,
   "queue": [
     {
