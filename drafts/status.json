@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1510-ram-recall-census-11-count-catches-everything",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-14T18:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-14 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1509 (Maverick Hybrid 26V724, Rex Driverton, round-0 8.64, queued 2028-08-30). PUBLISH-QUEUE: skipped, 1/day gate met (Publish #848 today); nothing due (earliest due #849 ships 2026-11-15).",
+  "current": null,
+  "last_check_note": "2026-11-14 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1510 (Ram recall census, 11 campaigns, Axle McScatter, round-0 8.79, queued 2028-08-31). PUBLISH-QUEUE: see below.",
   "last_checked": "2026-11-12T08:30:00-08:00",
-  "last_completed": "2026-11-14T16:30:00-08:00",
+  "last_completed": "2026-11-14T18:30:00-08:00",
   "last_completed_date": "2026-11-14",
   "last_journalist": "Axle McScatter",
   "last_published": 848,
@@ -17,7 +11,7 @@
   "last_qa_date": "2026-11-13",
   "last_qa_note": "QA #847 live 2026-11-13 01:05 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (345,334 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #847 verified live.",
   "last_worker_run": "2026-11-14T18:30:00-08:00",
-  "next": 1510,
+  "next": 1511,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -26517,6 +26511,44 @@
       "ship_date": "2028-08-30",
       "slug": "1509-maverick-hybrid-one-loose-cable-kills-four-systems",
       "title": "One Loose Cable Can Shut Down a Maverick Hybrid's Steering, Brakes, Lights, and Drive Power"
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1510-ram-recall-census-11-count-catches-everything-critic-panel-r0.md",
+        "hero": "images/1510-ram-recall-census-11-count-catches-everything.jpg",
+        "research": "drafts/1510-ram-recall-census-11-count-catches-everything-research.md",
+        "story": "drafts/1510-ram-recall-census-11-count-catches-everything.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "b82f0ad4",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1447
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "The Gap",
+      "note": "2026-11-14 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1510 (Ram recall census, 11 campaigns, Axle McScatter, round-0 8.79, queued 2028-08-31). Panel caught and fixed three errors (five weeks -> nineteen days, Aug 13 to Sep 1; seven model years -> eight, 2019-2026; six-more list completed) and verified the Dec 2025 IPC recall as 25V826. Killed angles: BMW 26V733 (#1490), Honda 26V721 (#1457), Ford 26V726 (#1466), GM 26V718 (#1391), Maverick 26V724 (#1509). Chrysler/Dodge Stellantis splits deferred.",
+      "number": 1510,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-08-31",
+      "slug": "1510-ram-recall-census-11-count-catches-everything",
+      "title": "Ram Recalled Its 2026 Trucks 11 Times. The Count Misses Almost Nothing"
     }
   ]
 }
