@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1517-harley-recall-census-4-campaigns-136k-bikes",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-15T08:35:00-08:00"
+    "started": "2026-11-15T08:35:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-15 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1515 (VinFast recall census, Vin Wreckage, round-0 8.86, queued 2028-09-05). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
