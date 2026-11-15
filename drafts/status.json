@@ -1,11 +1,12 @@
 {
     "current": {
         "slug": "1515-vinfast-recall-census-4-zero-in-2026",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Vin Wreckage",
-        "started": "2026-11-15T04:35:00-08:00"
+        "started": "2026-11-15T04:35:00-08:00",
+        "round": 0
     },
-    "last_check_note": "2026-11-15 04:30 run: RESEARCH #1515 (VinFast recall census, 4 lifetime, zero in 2026, Vin Wreckage).",
+    "last_check_note": "2026-11-15 04:30 run: DRAFT #1515 done (VinFast census, Vin Wreckage, hero JPEG 1920x1280 ?v=278e3444).",
     "last_checked": "2026-11-14T22:30:00-08:00",
     "last_completed": "2026-11-15T02:55:00-08:00",
     "last_completed_date": "2026-11-15",
