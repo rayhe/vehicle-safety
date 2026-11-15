@@ -1,17 +1,17 @@
 {
   "current": null,
-  "last_check_note": "2026-11-15 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1515 (VinFast recall census, Vin Wreckage, round-0 8.86, queued 2028-09-05). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
+  "last_check_note": "2026-11-15 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1518 (Dodge recall census, Mia Crumplezone, round-0 8.86, queued 2028-09-08). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-15T09:00:00-08:00",
   "last_completed_date": "2026-11-15",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Mia Crumplezone",
   "last_published": 849,
   "last_published_date": "2026-11-15",
   "last_published_slug": "849-polestar-rq25004-three-recalls-one-camera",
   "last_qa_date": "2026-11-15",
   "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
-  "last_worker_run": "2026-11-15T04:55:00-08:00",
-  "next": 1516,
+  "last_worker_run": "2026-11-15T10:55:00-08:00",
+  "next": 1519,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -26829,6 +26829,48 @@
       "ship_date": "2028-09-07",
       "slug": "1517-harley-recall-census-4-campaigns-136k-bikes",
       "title": "Harley Filed Four Recalls in 2026. One Blocked Breather Hole Was Two-Thirds of Them."
+    },
+    {
+      "number": 1518,
+      "slug": "1518-dodge-recall-census-5-spoiler-carries-half",
+      "title": "Dodge Filed Five Recalls in 2026. One Spoiler Was Nearly Half of Them.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-09-08",
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "0dfb7f7c",
+        "word_count": 1514,
+        "rhythm_pass": true,
+        "rhythm_variance": 2525.1,
+        "rhythm_short_pct": 7.0,
+        "rhythm_long_pct": 45.6
+      },
+      "files": {
+        "research": "drafts/1518-dodge-recall-census-5-spoiler-carries-half-research.md",
+        "story": "drafts/1518-dodge-recall-census-5-spoiler-carries-half.html",
+        "hero": "drafts/1518-dodge-recall-census-5-spoiler-carries-half.jpg",
+        "critic_panel": "drafts/1518-dodge-recall-census-5-spoiler-carries-half-critic-panel-r0.md"
+      },
+      "note": "2026-11-15 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1518 in one run. Dodge 2026 recall census: 5 campaigns, 153,660 campaign-vehicles (Dodge-only splits: 26V262 8,528 of 20,271; 26V510 40,386 of 48,777; 26V531 16,838 of 844,027; 26V528 74,578; 26V701 13,330). Spoiler 48.5%; 100%-vs-0.8% defect-rate contrast; Charger blind twice (cluster + camera); third-recall correction (4 truly new campaigns). Round-0 SHIP (avg 8.86, 7/7 >= 8.5, all hard gates; em 0, The 1.8%, rhythm PASS var 2525.1/short 7.0% after pre-score share-list merge, hero JPEG 1920x1280 hash 0dfb7f7c). Queued SHIP_BLOCKED, ship_date 2028-09-08."
     }
   ]
 }
