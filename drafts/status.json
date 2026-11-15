@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1514-chrysler-recall-census-5-one-phantom-phev",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Clara Rollover",
-        "started": "2026-11-15T02:35:00-08:00"
+        "started": "2026-11-15T02:35:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-15 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1513 (Buick 2026 recall census, Rex Driverton, round-0 8.87, queued 2028-09-03). PUBLISH-QUEUE: published #849 (Polestar RQ25004, Mia Crumplezone, due 2026-11-15, 1/day slot; 0 prior publishes today), QA-verified live. Next due #850 ships 2026-11-16.",
     "last_checked": "2026-11-14T22:30:00-08:00",
@@ -15,7 +16,7 @@
     "last_published_slug": "849-polestar-rq25004-three-recalls-one-camera",
     "last_qa_date": "2026-11-15",
     "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
-    "last_worker_run": "2026-11-15T02:35:00-08:00",
+    "last_worker_run": "2026-11-15T02:45:00-08:00",
     "next": 1514,
     "queue": [
         {
