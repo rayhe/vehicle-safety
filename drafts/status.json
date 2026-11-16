@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
+    "round": 0,
     "started": "2026-11-16T07:30:00-08:00"
   },
-  "last_check_note": "2026-11-16 06:30 run: RESEARCH #1528 complete (November 2026 recall census: 8 campaigns filed Nov 1-12 touching a 2026-MY vehicle, 68,666 vehicles, 8.0% of the month's 855,544 filed vehicles; BMW 26V733 alone is 84.3%. Make/model enumeration (81 makes, 6,559 queries) found 4; campaign-number sweep 26V700-760 caught 4 more incl. BMW i5 spelling gap + Spencer/Lamar/Utilimaster. Four campaigns new to the site: 26V729, 26V731, 26V734, 26V739. Duplicate screen: Honda 26V721, GM 26V717, Hyundai 26V728, VW 26V590, Explorer PE26008, Waymo RQ26006, Honda EA, Maverick 26V724, BMW 26V733, Harley 26V730, Rivian 26V597, Sienna 26V690, Nautilus 26V688, H1 2026 DOT HS 813 875, IIHS death rates, Kicks/RAV4, whiplash, commercial AEB, Cybertruck wind-down \u2014 all already covered.)",
+  "last_check_note": "2026-11-16 06:30 run: DRAFT #1528 complete (1,034 words incl. table; hero JPEG 1920x1280, hash 0aa048b1). Hard gates pre-checked: em dashes 0, banned phrases 0, 'The' starters 0%, CSS story/style.css OK, prose sentence variance 207.6, short 13.5%, long 56.8%. All census numbers verified against raw JSON + API; 26V737 defect detail removed (unverified), BMW 10-incident claim verified via #1490 research.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-16T00:30:00-08:00",
   "last_completed_date": "2026-11-15",
@@ -15,7 +16,7 @@
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
   "last_qa_date": "2026-11-16",
   "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
-  "last_worker_run": "2026-11-16T07:30:00-08:00",
+  "last_worker_run": "2026-11-16T07:45:00-08:00",
   "next": 1528,
   "queue": [
     {
