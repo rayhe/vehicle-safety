@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1527-honda-stop-start-second-probe-million-cars-wont-restart",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-16T04:30:00-08:00"
+    "started": "2026-11-16T04:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-16 04:30 run: RESEARCH #1527 (Honda Auto Idle Stop second EA, 1,033,632 vehicles, 701 complaints, Rex Driverton). Kill test passed; BMW 26V733, VW 26V590, Ford 26V726/26V724, Hyundai 26V728, Harley 26V730, IIHS Kicks/RAV4, 2025 deaths all already covered. New angle: two simultaneous EAs, same symptom, different root causes.",
   "last_checked": "2026-11-15T04:55:00-08:00",
