@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1529-safest-cars-are-just-the-newest-ones",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-16T10:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-16 06:30 run: #1528 SHIP complete — RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP in one run. November 2026 recall census: 8 campaigns, 68,666 vehicles, 8.0% of the month's 855,544 filed vehicles; queued 2028-09-18. PUBLISH-QUEUE: 1/day gate consumed by #850 (published 2026-11-16 00:30); #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
+  "current": null,
+  "last_check_note": "2026-11-16 10:30 run: #1529 SHIP complete — RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP in one run. Time-exposure flaw in the site's own death-rate formula: Model Y 0.03 understated 2.5x; corrected rates table; queued 2028-09-19. PUBLISH-QUEUE: 1/day gate consumed by #850 (published 2026-11-16 00:30); #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-16T08:00:00-08:00",
-  "last_completed_date": "2026-11-15",
-  "last_journalist": "Clara Rollover",
+  "last_completed": "2026-11-16T10:30:00-08:00",
+  "last_completed_date": "2026-11-16",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-16T00:30:00-08:00",
   "last_published_date": "2026-11-16",
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
   "last_qa_date": "2026-11-16",
   "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified — story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
   "last_worker_run": "2026-11-16T10:30:00-08:00",
-  "next": 1528,
+  "next": 1530,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -27185,6 +27179,44 @@
         "critic_panel": "drafts/1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched-critic-panel-r0.md"
       },
       "note": "2026-11-16 06:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-09-18 (1 day after latest SHIP_BLOCKED 2028-09-17). Angle: November 2026 recall census — 8 campaigns filed Nov 1-12 touching a 2026-MY vehicle, 68,666 vehicles, 8.0% of the month's 855,544 filed; BMW 26V733 alone 84.3%. Method audit: enumeration (81 makes, 6,559 queries) found 4; campaign-number sweep 26V700-760 caught 4 more (BMW i5 spelling gap, Spencer/Lamar/Utilimaster). Four campaigns new to the site: 26V729, 26V731, 26V734, 26V739. Traps caught: Mack 26V719 + Autocar 26V722 are Oct 29 filings; DTNA 26V737 is 2027-only."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1529-safest-cars-are-just-the-newest-ones-critic-panel-r0.md",
+        "hero": "drafts/1529-safest-cars-are-just-the-newest-ones.jpg",
+        "research": "drafts/1529-safest-cars-are-just-the-newest-ones-research.md",
+        "story": "drafts/1529-safest-cars-are-just-the-newest-ones.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "abf607ae",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 9.4,
+        "word_count": 565
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-16 10:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP in one run. Original finding from fars_process.py: estimate_vmt hard-codes 10 FARS years for every model, so 2020 launches (Model Y, Telluride) get 2.5x-flattered rates; 7 of 15 lowest-rate models launched 2017+. Queued 2028-09-19.",
+      "number": 1529,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-09-19",
+      "slug": "1529-safest-cars-are-just-the-newest-ones",
+      "title": "The Safest Cars in America Are Mostly Just the Newest Ones"
     }
   ]
 }
