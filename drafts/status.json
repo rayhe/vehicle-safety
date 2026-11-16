@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1521-acura-zdx-brake-recall-of-recall-26v735",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-15T16:30:00-08:00"
+  },
   "last_check_note": "2026-11-15 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1519 (Kia recall census, Dale Impactor III, round-0 8.93, queued 2028-09-09). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-15T14:30:00-08:00",
