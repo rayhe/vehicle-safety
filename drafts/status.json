@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "round": 0,
-    "started": "2026-11-16T07:30:00-08:00"
-  },
-  "last_check_note": "2026-11-16 06:30 run: DRAFT #1528 complete (1,034 words incl. table; hero JPEG 1920x1280, hash 0aa048b1). Hard gates pre-checked: em dashes 0, banned phrases 0, 'The' starters 0%, CSS story/style.css OK, prose sentence variance 207.6, short 13.5%, long 56.8%. All census numbers verified against raw JSON + API; 26V737 defect detail removed (unverified), BMW 10-incident claim verified via #1490 research.",
+  "current": null,
+  "last_check_note": "2026-11-16 06:30 run: #1528 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP in one run. November 2026 recall census: 8 campaigns, 68,666 vehicles, 8.0% of the month's 855,544 filed vehicles; queued 2028-09-18. PUBLISH-QUEUE: 1/day gate consumed by #850 (published 2026-11-16 00:30); #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-16T00:30:00-08:00",
+  "last_completed": "2026-11-16T08:00:00-08:00",
   "last_completed_date": "2026-11-15",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-16T00:30:00-08:00",
   "last_published_date": "2026-11-16",
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
   "last_qa_date": "2026-11-16",
   "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
-  "last_worker_run": "2026-11-16T07:45:00-08:00",
+  "last_worker_run": "2026-11-16T08:00:00-08:00",
   "next": 1528,
   "queue": [
     {
@@ -27161,6 +27155,30 @@
         "critic_panel": "drafts/1527-honda-stop-start-second-probe-million-cars-wont-restart-critic-panel-r0.md"
       },
       "note": "2026-11-16 04:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-09-17 (1 day after latest SHIP_BLOCKED 2028-09-16). Angle: NHTSA opened a second EA Nov 16, 2026 into 1,033,632 2024-2026 Hondas/Acuras for Auto Idle Stop no-restart (701 complaints); overlap: 2024-2025 models under both EA25004 and the new EA; density math 67.8 vs ~85 per 100k. New EA number not in public reporting, honestly omitted."
+    },
+    {
+      "number": 1528,
+      "slug": "1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched",
+      "title": "November Recalled 855,544 Vehicles. Only 8% of Them Were 2026 Models",
+      "journalist": "Clara Rollover",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-09-18",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "rhythm_variance": 207.6
+      },
+      "files": {
+        "research": "drafts/1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched-research.md",
+        "story": "drafts/1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched.html",
+        "hero": "drafts/1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched.jpg",
+        "critic_panel": "drafts/1528-november-2026-recall-census-eight-campaigns-new-cars-barely-touched-critic-panel-r0.md"
+      },
+      "note": "2026-11-16 06:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-09-18 (1 day after latest SHIP_BLOCKED 2028-09-17). Angle: November 2026 recall census \u2014 8 campaigns filed Nov 1-12 touching a 2026-MY vehicle, 68,666 vehicles, 8.0% of the month's 855,544 filed; BMW 26V733 alone 84.3%. Method audit: enumeration (81 makes, 6,559 queries) found 4; campaign-number sweep 26V700-760 caught 4 more (BMW i5 spelling gap, Spencer/Lamar/Utilimaster). Four campaigns new to the site: 26V729, 26V731, 26V734, 26V739. Traps caught: Mack 26V719 + Autocar 26V722 are Oct 29 filings; DTNA 26V737 is 2027-only."
     }
   ]
 }
