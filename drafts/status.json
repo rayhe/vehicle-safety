@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-11-16 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1527 (Honda Auto Idle Stop second EA, 1,033,632 vehicles, Rex Driverton, round-0 8.79, queued 2028-09-17). PUBLISH-QUEUE: 1/day slot already consumed by #850 (published 2026-11-16 00:30); earliest due SHIP_BLOCKED is 2028-09-17, nothing due. Nothing published this run.",
+  "last_check_note": "2026-11-16 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1527 (Honda Auto Idle Stop second EA, 1,033,632 vehicles, Rex Driverton, round-0 8.79, queued 2028-09-17). PUBLISH-QUEUE: 1/day slot consumed by #850 (published 2026-11-16 00:30); #851 due today (ship_date 2026-11-16) hero-ready (JPEG 1920x1280, hash 99664cff) held by the gate, ships 2026-11-17. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-16T00:30:00-08:00",
   "last_completed_date": "2026-11-15",
@@ -10,7 +10,7 @@
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
   "last_qa_date": "2026-11-16",
   "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
-  "last_worker_run": "2026-11-16T00:30:00-08:00",
+  "last_worker_run": "2026-11-16T04:30:00-08:00",
   "next": 1528,
   "queue": [
     {
