@@ -1,0 +1,714 @@
+{
+ "brands": {
+  "ford": {
+   "campaigns": {
+    "26V725000": {
+     "campaign": "26V725000",
+     "date": "02/11/2026",
+     "component": "VISIBILITY:WINDSHIELD WIPER/WASHER",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Bronco vehicles. A wiper arm nut on the driver-side may loosen, causing the windshield wipers to detach.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "ford/bronco"
+    },
+    "26V726000": {
+     "campaign": "26V726000",
+     "date": "02/11/2026",
+     "component": "INTERIOR LIGHTING",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Explorer Police Interceptor vehicles. A phantom \"Global On\" command in the overhead console may illuminate the map lights and prevent them from being turned off. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) Number 101, \"Controls and Displays.\"",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "ford/explorer"
+    }
+   },
+   "count": 2,
+   "per_model": {
+    "ford/bronco": [
+     "26V725000"
+    ],
+    "ford/explorer": [
+     "26V726000"
+    ]
+   },
+   "queries": 176,
+   "done": true
+  },
+  "lincoln": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 20,
+   "done": true
+  },
+  "chevrolet": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 102,
+   "done": true
+  },
+  "gmc": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 46,
+   "done": true
+  },
+  "cadillac": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 44,
+   "done": true
+  },
+  "buick": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "toyota": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 98,
+   "done": true
+  },
+  "lexus": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 44,
+   "done": true
+  },
+  "honda": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 280,
+   "done": true
+  },
+  "acura": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 20,
+   "done": true
+  },
+  "hyundai": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 72,
+   "done": true
+  },
+  "kia": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 50,
+   "done": true
+  },
+  "genesis": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 59,
+   "done": true
+  },
+  "nissan": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 52,
+   "done": true
+  },
+  "infiniti": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 12,
+   "done": true
+  },
+  "subaru": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 40,
+   "done": true
+  },
+  "bmw": {
+   "campaigns": {
+    "26V731000": {
+     "campaign": "26V731000",
+     "date": "04/11/2026",
+     "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY THERMAL:MANAGEMENT:SOFTWARE",
+     "summary": "BMW of North America, LLC (BMW) is recalling certain 2027 i7 50xDrive, i7 60xDrive, 2026-2027 i5 xDrive40, i5 eDrive40, and i5 M60 vehicles. The high voltage battery charging software may be incorrect.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "bmw/i5 edrive40 (campaign-number sweep 26V700-760)"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "bmw/i5 edrive40": [
+     "26V731000"
+    ]
+   },
+   "queries": 229,
+   "done": true
+  },
+  "mini": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 104,
+   "done": true
+  },
+  "mercedes-benz": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 89,
+   "done": true
+  },
+  "audi": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 101,
+   "done": true
+  },
+  "volkswagen": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 38,
+   "done": true
+  },
+  "porsche": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 22,
+   "done": true
+  },
+  "volvo": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 262,
+   "done": true
+  },
+  "tesla": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 28,
+   "done": true
+  },
+  "rivian": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 17,
+   "done": true
+  },
+  "lucid": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 8,
+   "done": true
+  },
+  "polestar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 19,
+   "done": true
+  },
+  "mazda": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 29,
+   "done": true
+  },
+  "mitsubishi": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "jaguar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 9,
+   "done": true
+  },
+  "land rover": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 40,
+   "done": true
+  },
+  "vinfast": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "jeep": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 43,
+   "done": true
+  },
+  "ram": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 370,
+   "done": true
+  },
+  "dodge": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 21,
+   "done": true
+  },
+  "chrysler": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 12,
+   "done": true
+  },
+  "fiat": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 8,
+   "done": true
+  },
+  "alfa romeo": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 13,
+   "done": true
+  },
+  "harley-davidson": {
+   "campaigns": {
+    "26V730000": {
+     "campaign": "26V730000",
+     "date": "03/11/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:ENGINE CONTROL MODULE (ECU/ECM)",
+     "summary": "Harley-Davidson Motor Company (Harley-Davidson) is recalling certain 2026 FLHXLSE, FLTRXSTSE, FLHXSTSE, FLHXSE, FLHXL, FLTRXP, FLTRX, FLTRXL, and FLHX motorcycles. The engine control module (ECM) may communicate the incorrect gear position of neutral when the transmission is actually in gear.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "harley-davidson/flhx"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "harley-davidson/flhx": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxl": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxlse": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxse": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxstse": [
+     "26V730000"
+    ],
+    "harley-davidson/fltrxl": [
+     "26V730000"
+    ],
+    "harley-davidson/fltrxp": [
+     "26V730000"
+    ],
+    "harley-davidson/fltrxstse": [
+     "26V730000"
+    ]
+   },
+   "queries": 168,
+   "done": true
+  },
+  "mack": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 56,
+   "done": true
+  },
+  "autocar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 30,
+   "done": true
+  },
+  "wabash": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 76,
+   "done": true
+  },
+  "freightliner": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 379,
+   "done": true
+  },
+  "international": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 583,
+   "done": true
+  },
+  "kenworth": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 118,
+   "done": true
+  },
+  "peterbilt": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 69,
+   "done": true
+  },
+  "western star": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 51,
+   "done": true
+  },
+  "thomas built": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 28,
+   "done": true
+  },
+  "blue bird": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 27,
+   "done": true
+  },
+  "gillig": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 31,
+   "done": true
+  },
+  "new flyer": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 15,
+   "done": true
+  },
+  "prevost": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 34,
+   "done": true
+  },
+  "motor coach industries": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 129,
+   "done": true
+  },
+  "forest river": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 841,
+   "done": true
+  },
+  "winnebago": {
+   "campaigns": {
+    "26V745000": {
+     "campaign": "26V745000",
+     "date": "12/11/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Winnebago Towable (Winnebago) is recalling certain 2026 Thrive travel trailers. The original Gross Vehicle Weight Rating (GVWR) and Gross Axle Weight Rating (GAWR) were not listed the certification label after vehicle alterations. As such, these vehicles fail to comply with the requirements of 49 CFR Part 567, \"Certification.\"",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "winnebago/thrive"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "winnebago/thrive": [
+     "26V745000"
+    ]
+   },
+   "queries": 88,
+   "done": true
+  },
+  "thor motor coach": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "jayco": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 8,
+   "done": true
+  },
+  "keystone": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 40,
+   "done": true
+  },
+  "heartland": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 11,
+   "done": true
+  },
+  "grand design": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 32,
+   "done": true
+  },
+  "airstream": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 117,
+   "done": true
+  },
+  "tiffin": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 26,
+   "done": true
+  },
+  "newmar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "entegra": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "navistar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "ic bus": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 26,
+   "done": true
+  },
+  "hino": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 95,
+   "done": true
+  },
+  "isuzu": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 28,
+   "done": true
+  },
+  "mitsubishi fuso": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "oshkosh": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 138,
+   "done": true
+  },
+  "pierce": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 64,
+   "done": true
+  },
+  "spartan": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 152,
+   "done": true
+  },
+  "e-one": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 10,
+   "done": true
+  },
+  "collins": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 22,
+   "done": true
+  },
+  "starcraft": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 114,
+   "done": true
+  },
+  "champion": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 90,
+   "done": true
+  },
+  "eldorado": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 25,
+   "done": true
+  },
+  "enc": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 182,
+   "done": true
+  },
+  "spencer": {
+   "campaigns": {
+    "26V729000": {
+     "campaign": "26V729000",
+     "date": "03/11/2026",
+     "component": "EQUIPMENT:ELECTRICAL:INFOTAINMENT",
+     "summary": "Spencer Manufacturing, Inc. (Spencer) is recalling certain 2026 Rescue, 2025 Initial Attack, and 2024-2025 Pumper emergency vehicles. The display may stop responding to touch commands or fail to power on, preventing the activation of exterior emergency lights, fire fighting and other emergency equipment.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "spencer/rescue (campaign-number sweep 26V700-760)"
+    }
+   },
+   "per_model": {
+    "spencer/rescue": [
+     "26V729000"
+    ]
+   },
+   "queries": 0,
+   "done": true,
+   "method": "campaign-number sweep",
+   "count": 1
+  },
+  "lamar trailers": {
+   "campaigns": {
+    "26V734000": {
+     "campaign": "26V734000",
+     "date": "05/11/2026",
+     "component": "EQUIPMENT:MECHANICAL:SPARE TIRE MOUNT/RACK",
+     "summary": "Lamar Trailers, Inc (Lamar Trailers) is recalling certain 2021-2027 gooseneck trailers. The spare tire may be improperly secured, allowing the spare tire to detach.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "lamar trailers/gooseneck trailer (campaign-number sweep 26V700-760)"
+    }
+   },
+   "per_model": {
+    "lamar trailers/gooseneck trailer": [
+     "26V734000"
+    ]
+   },
+   "queries": 0,
+   "done": true,
+   "method": "campaign-number sweep",
+   "count": 1
+  },
+  "utilimaster": {
+   "campaigns": {
+    "26V739000": {
+     "campaign": "26V739000",
+     "date": "09/11/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Shyft Group (Shyft) is recalling certain 2017, 2020-2026 Utilimaster Upfit vehicles. The tire and loading label may not list the combined weight value. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard Number 110, \"Tire Selection and Rims.\"",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "utilimaster/upfit (campaign-number sweep 26V700-760)"
+    }
+   },
+   "per_model": {
+    "utilimaster/upfit": [
+     "26V739000"
+    ]
+   },
+   "queries": 0,
+   "done": true,
+   "method": "campaign-number sweep",
+   "count": 1
+  }
+ },
+ "method_note": "Make/model enumeration (78 makes, 6,262 queries) found 4 campaigns; an independent campaign-number sweep (26V700-26V760 via AnyRecalls mirror of NHTSA data, verified against the NHTSA API) found 4 more the enumeration missed: BMW i5 spelling gap (API model 'i5 edrive40', not 'i5') and three unqueried makes (Spencer, Lamar Trailers, Utilimaster/Shyft). Total: 8 campaigns."
+}
