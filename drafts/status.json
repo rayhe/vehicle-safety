@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1530-dangerous-recalls-shrinking-carfax-october-2026",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-16T12:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-16 12:30 run: #1530 RESEARCH+DRAFT complete \u2014 Carfax Oct 2026 tracker: do-not-drive 1.3M, park-outside under 3M (was 3.2M+ Sept), Takata 4.6M verifying #1123 prediction. Clara Rollover. Hero JPEG 2736x912 ?v=1e67d391. Gates pre-check: em 0, banned 0, The 0%, rhythm PASS.",
+  "current": null,
+  "last_check_note": "2026-11-16 12:30 run: #1530 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP in one run. Carfax Oct 2026 tracker: do-not-drive 1.3M, park-outside under 3M, Takata 4.6M verifying #1123 prediction. Queued 2028-09-20.",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-16T10:30:00-08:00",
+  "last_completed": "2026-11-16T12:30:00-08:00",
   "last_completed_date": "2026-11-16",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-16T00:30:00-08:00",
   "last_published_date": "2026-11-16",
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
   "last_qa_date": "2026-11-16",
   "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
   "last_worker_run": "2026-11-16T12:30:00-08:00",
-  "next": 1530,
+  "next": 1531,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -27223,6 +27217,45 @@
       "ship_date": "2028-09-19",
       "slug": "1529-safest-cars-are-just-the-newest-ones",
       "title": "The Safest Cars in America Are Mostly Just the Newest Ones"
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1530-dangerous-recalls-shrinking-carfax-october-2026-critic-panel-r0.md",
+        "hero": "drafts/1530-dangerous-recalls-shrinking-carfax-october-2026.jpg",
+        "research": "drafts/1530-dangerous-recalls-shrinking-carfax-october-2026-research.md",
+        "story": "drafts/1530-dangerous-recalls-shrinking-carfax-october-2026.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "2736x912",
+        "hero_hash": "1e67d391",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 406,
+        "rhythm_variance": 210.7
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "Trend Watch",
+      "note": "2026-11-16 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP in one run. Carfax Oct 2026 tracker: do-not-drive 1.3M, park-outside under 3M (was 3.2M+ Sept), Takata 4.6M verifying #1123 prediction (650K vs ~700K/yr). Round-0 panel VERDICT: SHIP. Queued 2028-09-20.",
+      "number": 1530,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-09-20",
+      "slug": "1530-dangerous-recalls-shrinking-carfax-october-2026",
+      "title": "The Most Dangerous Recalls Are Finally Shrinking. Slowly."
     }
   ]
 }

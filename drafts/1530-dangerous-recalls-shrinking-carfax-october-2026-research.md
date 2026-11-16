@@ -7,7 +7,7 @@
 **Target ship_date:** 2028-09-20 (1 day after #1529's 2028-09-19)
 
 ## Story in one line
-Carfax's October 2026 Recall Tracker counts roughly 1.3 million vehicles under an open Do Not Drive recall and fewer than 3 million under a Park Outside recall, down from more than 3.2 million a month earlier, while unreplaced Takata inflators fell to about 4.6 million from more than 6 million in 2024 — the most dangerous recalls on American roads are shrinking, and the shrinkage rate matches a prediction this site published two months ago.
+Carfax's October 2026 Recall Tracker counts roughly 1.3 million vehicles under an open Do Not Drive recall and fewer than 3 million under a Park Outside recall, down from more than 3.2 million a month earlier, while unreplaced Takata inflators fell to about 4.6 million from more than 6 million in 2024 — the most dangerous recalls on American roads are shrinking, and the shrinkage rate matches a prediction this site published five weeks ago.
 
 ## Kill test
 - **Genuinely newsworthy?** YES. The Carfax Recall Tracker October 2026 edition (published Oct 12, 2026) is fresh, and its three headline counts have no dedicated article on this site. The month-over-month Park Outside drop (3.2M+ to under 3M, a fall of more than 200,000 in a single month) is a checkable movement, not a static count.
