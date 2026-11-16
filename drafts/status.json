@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "1527-honda-stop-start-second-probe-million-cars-wont-restart",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-16T04:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-16 04:30 run: RESEARCH #1527 (Honda Auto Idle Stop second EA, 1,033,632 vehicles, 701 complaints, Rex Driverton). Kill test passed; BMW 26V733, VW 26V590, Ford 26V726/26V724, Hyundai 26V728, Harley 26V730, IIHS Kicks/RAV4, 2025 deaths all already covered. New angle: two simultaneous EAs, same symptom, different root causes.",
+  "current": null,
+  "last_check_note": "2026-11-16 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1527 (Honda Auto Idle Stop second EA, 1,033,632 vehicles, Rex Driverton, round-0 8.79, queued 2028-09-17). PUBLISH-QUEUE: 1/day slot already consumed by #850 (published 2026-11-16 00:30); earliest due SHIP_BLOCKED is 2028-09-17, nothing due. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-16T00:30:00-08:00",
   "last_completed_date": "2026-11-15",
-  "last_journalist": "Axle McScatter",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-16T00:30:00-08:00",
   "last_published_date": "2026-11-16",
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
@@ -27137,6 +27131,30 @@
       },
       "round": 0,
       "note": "Round 0 SHIP. Three smallest Nov 2026 NHTSA campaigns (Bronco 26V725 330, Mack 26V719 151, Autocar 26V722 1058), all audit-found, zero crashes/injuries/complaints. Hero JPEG verified."
+    },
+    {
+      "number": 1527,
+      "slug": "1527-honda-stop-start-second-probe-million-cars-wont-restart",
+      "title": "Honda\u2019s Cars Keep Turning Themselves Off at Green Lights. NHTSA Just Opened a Second Probe",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-09-17",
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "rhythm_variance": 483.0
+      },
+      "files": {
+        "research": "drafts/1527-honda-stop-start-second-probe-million-cars-wont-restart-research.md",
+        "story": "drafts/1527-honda-stop-start-second-probe-million-cars-wont-restart.html",
+        "hero": "drafts/1527-honda-stop-start-second-probe-million-cars-wont-restart.jpg",
+        "critic_panel": "drafts/1527-honda-stop-start-second-probe-million-cars-wont-restart-critic-panel-r0.md"
+      },
+      "note": "2026-11-16 04:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79)/SHIP complete; queued 2028-09-17 (1 day after latest SHIP_BLOCKED 2028-09-16). Angle: NHTSA opened a second EA Nov 16, 2026 into 1,033,632 2024-2026 Hondas/Acuras for Auto Idle Stop no-restart (701 complaints); overlap: 2024-2025 models under both EA25004 and the new EA; density math 67.8 vs ~85 per 100k. New EA number not in public reporting, honestly omitted."
     }
   ]
 }
