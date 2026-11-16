@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1521-acura-zdx-brake-recall-of-recall-26v735",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-15T16:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-15 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1519 (Kia recall census, Dale Impactor III, round-0 8.93, queued 2028-09-09). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-15T14:30:00-08:00",
+  "last_completed": "2026-11-15T16:30:00-08:00",
   "last_completed_date": "2026-11-15",
   "last_journalist": "Dale Impactor III",
   "last_published": 849,
@@ -26944,6 +26938,31 @@
         "critic_panel": "drafts/1520-polestar-recall-census-1-one-missing-nut-critic-panel-r0.md"
       },
       "note": "2026-11-15 14:30 run: full pipeline #1520 (Polestar 2026 recall census: 1 campaign, 26V037, 213 Polestar 3s, one-of-two-nuts Charleston assembly error; 7-to-1 collapse from 2025; RQ25004 context per #849; Commerce Connected Vehicles Rule exit June 25, 2026; avg 8.86, round 0), queued 2028-09-10."
+    },
+    {
+      "number": 1521,
+      "slug": "1521-acura-zdx-brake-recall-of-recall-26v735",
+      "title": "Acura Fixed the ZDX\u2019s Brakes in 2024. Now It\u2019s Recalling 3.5 Times as Many Cars for the Same Failure.",
+      "journalist": "Mia Crumplezone",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-09-11",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "hero_jpeg": true,
+        "hero_hash": "0727eacb"
+      },
+      "files": {
+        "research": "drafts/1521-acura-zdx-brake-recall-of-recall-26v735-research.md",
+        "story": "drafts/1521-acura-zdx-brake-recall-of-recall-26v735.html",
+        "hero": "drafts/1521-acura-zdx-brake-recall-of-recall-26v735.jpg",
+        "critic_panel": "drafts/1521-acura-zdx-brake-recall-of-recall-26v735-critic-panel-r0.md"
+      },
+      "note": "2026-11-15 16:30 run: full pipeline #1521 (Acura ZDX brake recall-of-recall 26V735: 14,648 cars, 3.51x the 4,174 in 24V614, 77.5% of all ZDXs ever sold, 812-day gap, repeated 7-day GM-to-Honda lag in 2024 and 2026, EA26006 7.0% recalled; avg 8.86, round 0), queued 2028-09-11."
     }
   ]
 }
