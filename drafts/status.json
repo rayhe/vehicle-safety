@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1524-tesla-fsd-blind-in-glare-3-2-million",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-15T22:30:00-08:00"
+    "started": "2026-11-15T22:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-15 20:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1523 (Waymo school bus fix, Vin Wreckage, round-0 8.93, queued 2028-09-13). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today (ship_date 2026-11-15, hero-ready drafts/850-chrysler-26v561-cracked-capacitor-kills-esc.jpg) held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
@@ -15,7 +16,7 @@
   "last_published_slug": "849-polestar-rq25004-three-recalls-one-camera",
   "last_qa_date": "2026-11-15",
   "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
-  "last_worker_run": "2026-11-15T22:35:00-08:00",
+  "last_worker_run": "2026-11-15T22:40:00-08:00",
   "next": 1524,
   "queue": [
     {
