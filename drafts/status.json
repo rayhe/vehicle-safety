@@ -8,8 +8,8 @@
   "last_published": "2026-11-16T00:30:00-08:00",
   "last_published_date": "2026-11-16",
   "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
-  "last_qa_date": "2026-11-15",
-  "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
+  "last_qa_date": "2026-11-16",
+  "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
   "last_worker_run": "2026-11-16T00:30:00-08:00",
   "next": 1525,
   "queue": [
