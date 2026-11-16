@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1526-november-smallest-recalls-three-campaigns-1539-vehicles",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-16T02:30:00-08:00"
+  },
   "last_check_note": "2026-11-15 22:45 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1524 (Tesla FSD EA26002 reduced-visibility probe, Rex Driverton, round-0 8.79, queued 2028-09-14). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today (ship_date 2026-11-15, hero-ready) held by the gate, ships 2026-11-16. Nothing published this run.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-16T00:30:00-08:00",
