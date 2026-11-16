@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1522-mini-recall-census-1-four-cars-third-brake-recall",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-15T18:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-15 12:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1519 (Kia recall census, Dale Impactor III, round-0 8.93, queued 2028-09-09). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today but held by the gate, ships 2026-11-16. Nothing published this run.",
+  "current": null,
+  "last_check_note": "2026-11-15 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1522 (Mini recall census, Rex Driverton, round-0 8.91, queued 2028-09-12). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today (ship_date 2026-11-15, hero-ready) held by the gate, ships 2026-11-16. Nothing published this run. Note: status.json indent restored to 2-space (prior run wrote indent=1, reformatting the file; content verified intact, queue len 730 -> 731).",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-15T16:30:00-08:00",
+  "last_completed": "2026-11-15T18:30:00-08:00",
   "last_completed_date": "2026-11-15",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": 849,
   "last_published_date": "2026-11-15",
   "last_published_slug": "849-polestar-rq25004-three-recalls-one-camera",
   "last_qa_date": "2026-11-15",
   "last_qa_note": "QA #849 live 2026-11-15 00:37 run: story 200 (via 308 redirect), hero JPEG 200 ff d8 (354,978 bytes), og:title/og:description/og:image present, index card present, sitemap contains URL. Publish #849 verified live.",
   "last_worker_run": "2026-11-15T18:30:00-08:00",
-  "next": 1521,
+  "next": 1523,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -26969,6 +26963,48 @@
         "critic_panel": "drafts/1521-acura-zdx-brake-recall-of-recall-26v735-critic-panel-r0.md"
       },
       "note": "2026-11-15 16:30 run: full pipeline #1521 (Acura ZDX brake recall-of-recall 26V735: 14,648 cars, 3.51x the 4,174 in 24V614, 77.5% of all ZDXs ever sold, 812-day gap, repeated 7-day GM-to-Honda lag in 2024 and 2026, EA26006 7.0% recalled; avg 8.86, round 0), queued 2028-09-11."
+    },
+    {
+      "number": 1522,
+      "slug": "1522-mini-recall-census-1-four-cars-third-brake-recall",
+      "title": "Mini's Entire 2026 Recall Is Four Cars. One of Them Was Built on a Single Day.",
+      "journalist": "Rex Driverton",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-09-12",
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "kicker": "Investigation",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "3b0e9c5f",
+        "hero_dim": "1920x1280",
+        "rhythm_pass": true,
+        "rhythm_variance": 1133.5,
+        "rhythm_short_pct": 14.8,
+        "rhythm_long_pct": 42.6,
+        "word_count": 1542
+      },
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "files": {
+        "research": "drafts/1522-mini-recall-census-1-four-cars-third-brake-recall-research.md",
+        "story": "drafts/1522-mini-recall-census-1-four-cars-third-brake-recall.html",
+        "hero": "drafts/1522-mini-recall-census-1-four-cars-third-brake-recall.jpg",
+        "critic_panel": "drafts/1522-mini-recall-census-1-four-cars-third-brake-recall-critic-panel-r0.md"
+      },
+      "note": "2026-11-15 18:30 run: full pipeline #1522 (Mini 2026 recall census: 1 campaign, 26V422, 4 Minis \u2014 1 Cooper S built Mar 26, 2024, a single Tuesday, + 3 Countryman S ALL4 \u2014 third recall of the same UMOVIO integrated brake module after 24V104/24V697; 1% defect estimate = 0.04 expected-defective Minis; 99.84% shrinkage from 266,716; 2025 count corrected to 2 via 25V717 API-gap catch; avg 8.91, round 0), queued 2028-09-12."
     }
   ]
 }
