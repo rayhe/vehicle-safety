@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-15 22:45 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1524 (Tesla FSD EA26002 reduced-visibility probe, Rex Driverton, round-0 8.79, queued 2028-09-14). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today (ship_date 2026-11-15, hero-ready) held by the gate, ships 2026-11-16. Nothing published this run.",
+  "current": {
+    "slug": "1527-honda-stop-start-second-probe-million-cars-wont-restart",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-16T04:30:00-08:00"
+  },
+  "last_check_note": "2026-11-16 04:30 run: RESEARCH #1527 (Honda Auto Idle Stop second EA, 1,033,632 vehicles, 701 complaints, Rex Driverton). Kill test passed; BMW 26V733, VW 26V590, Ford 26V726/26V724, Hyundai 26V728, Harley 26V730, IIHS Kicks/RAV4, 2025 deaths all already covered. New angle: two simultaneous EAs, same symptom, different root causes.",
   "last_checked": "2026-11-15T04:55:00-08:00",
   "last_completed": "2026-11-16T00:30:00-08:00",
   "last_completed_date": "2026-11-15",
@@ -11,7 +16,7 @@
   "last_qa_date": "2026-11-16",
   "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
   "last_worker_run": "2026-11-16T00:30:00-08:00",
-  "next": 1525,
+  "next": 1528,
   "queue": [
     {
       "journalist": "Rex Driverton",
