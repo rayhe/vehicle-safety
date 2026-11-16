@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "1523-waymo-school-bus-fix-didnt-fix-it",
-    "phase": "CRITIQUE",
+    "phase": "SHIP",
     "journalist": "Vin Wreckage",
     "started": "2026-11-15T20:30:00-08:00",
-    "round": 0
+    "round": 0,
+    "avg_critic": 8.93
   },
   "last_check_note": "2026-11-15 18:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1522 (Mini recall census, Rex Driverton, round-0 8.91, queued 2028-09-12). PUBLISH-QUEUE: 1/day slot already consumed by #849 (published 2026-11-15 00:35); #850 due today (ship_date 2026-11-15, hero-ready) held by the gate, ships 2026-11-16. Nothing published this run. Note: status.json indent restored to 2-space (prior run wrote indent=1, reformatting the file; content verified intact, queue len 730 -> 731).",
   "last_checked": "2026-11-15T04:55:00-08:00",
