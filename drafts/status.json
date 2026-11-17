@@ -1,23 +1,17 @@
 {
- "current": {
-  "slug": "1533-honda-divide-by-zero-steering-recall",
-  "phase": "CRITIQUE",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-11-16T18:30:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-16 18:30 run: DRAFT done \u2014 #1533 Honda divide-by-zero steering recall, Mia Crumplezone, 781 prose words. Hero real JPEG 2048x1152 ?v=f7fc95bb. Hard gates pre-checked: em 0, banned 0, The 1.8%, class=story, style.css, rhythm PASS (var 390, short 6.4%, long 48.9%). Proceeding to CRITIQUE.",
+ "current": null,
+ "last_check_note": "2026-11-16 18:30 run: #1533 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP in one run. Honda 26V721 divide-by-zero EPS recall. Queued 2028-09-23. Proceeding to PUBLISH-QUEUE.",
  "last_checked": "2026-11-15T04:55:00-08:00",
- "last_completed": "2026-11-16T16:30:00-08:00",
+ "last_completed": "2026-11-16T18:30:00-08:00",
  "last_completed_date": "2026-11-16",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Mia Crumplezone",
  "last_published": "2026-11-16T00:30:00-08:00",
  "last_published_date": "2026-11-16",
  "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
  "last_qa_date": "2026-11-16",
  "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
  "last_worker_run": "2026-11-16T18:30:00-08:00",
- "next": 1533,
+ "next": 1534,
  "queue": [
   {
    "journalist": "Rex Driverton",
@@ -27340,6 +27334,47 @@
     "critic_panel": "drafts/1532-two-counters-disagree-1710-deaths-critic-panel-r0.md"
    },
    "note": "2026-11-16 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.87)/SHIP in one run. NHTSA H1 2026 (DOT HS 813 875, Nov 10): 16,750 deaths, -2.5%, rate 1.02; NSC H1 2026 (Sept 9): 18,460 deaths, -2%, rate 1.12. Original math: gap 1,710 (10.2%), gap/improvement 4.02x, gap 9.4/day vs improvement 2.3/day, rate gap 0.10, annualized gap 3,420 vs NSC decomposition ceiling 2,900 (overshoot ~520, open question), three-half stability 1,597/1,671/1,710. Round-0 fixes: rhythm short 18.2% -> 9.6% via 4 fragment merges; ref-6 cited inline. Queued 2028-09-22."
+  },
+  {
+   "avg_critic": 8.71,
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1533-honda-divide-by-zero-steering-recall-critic-panel-r0.md",
+    "hero": "drafts/1533-honda-divide-by-zero-steering-recall.jpg",
+    "research": "drafts/1533-honda-divide-by-zero-steering-recall-research.md",
+    "story": "drafts/1533-honda-divide-by-zero-steering-recall.html"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_dim": "2048x1152",
+    "hero_hash": "f7fc95bb",
+    "hero_jpeg": true,
+    "rhythm_pass": true,
+    "rhythm_short_pct": 6.4,
+    "rhythm_variance": 390.0,
+    "style_css": true,
+    "the_starters_pct": 1.8,
+    "word_count": 781
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "Investigation",
+   "note": "2026-11-16 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP in one run. Honda 26V721 divide-by-zero EPS recall (635,808 Pilot/MDX/TLX), 1,789-day detection gap, deleted error codes, second steering recall in 25 months (24V744 1.69M; combined 2,329,007). BMW 26V733 angle killed as duplicate of #1490. Queued 2028-09-23.",
+   "number": 1533,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 8.5,
+    "ethics_reviewer": 8.5,
+    "general_editor": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "social_shareability": 8.5,
+    "voice_coach": 9.0
+   },
+   "ship_date": "2028-09-23",
+   "slug": "1533-honda-divide-by-zero-steering-recall",
+   "title": "Honda's Steering Divides by Zero. 635,808 Cars Lose Power Assist."
   }
  ]
 }
