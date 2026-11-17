@@ -5,7 +5,7 @@
   "journalist": "Rex Driverton",
   "started": "2026-11-16T20:30:00-08:00"
  },
- "last_check_note": "2026-11-16 20:30 run: #1534 SHIP complete — RESEARCH/DRAFT/CRITIQUE(r0 avg 8.81)/SHIP in one run. Tesla FSD sealed EU safety case (10 countries, December TCMV vote pending). Queued 2028-09-24. PUBLISH-QUEUE: 1/day gate consumed by #850 (fb05aede); #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
+ "last_check_note": "2026-11-16 22:30 run: #1534 already SHIP_BLOCKED/queued 2028-09-24 (no new phase work). PUBLISH-QUEUE: 1/day gate consumed by Publish #850 (fb05aede, 00:30 PT today); #851 due 2026-11-16, hero-ready (JPEG 1920x1280 verified), ships 2026-11-17. Nothing published this run.",
  "last_checked": "2026-11-15T04:55:00-08:00",
  "last_completed": "2026-11-16T18:30:00-08:00",
  "last_completed_date": "2026-11-16",
@@ -15,7 +15,7 @@
  "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
  "last_qa_date": "2026-11-16",
  "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified — story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
- "last_worker_run": "2026-11-16T20:30:00-08:00",
+ "last_worker_run": "2026-11-16T22:30:00-08:00",
  "next": 1535,
  "queue": [
   {
