@@ -1,17 +1,22 @@
 {
- "current": null,
+ "current": {
+  "slug": "1532-two-counters-disagree-1710-deaths",
+  "phase": "DRAFT",
+  "journalist": "Axle McScatter",
+  "started": "2026-11-16T16:30:00-08:00"
+ },
  "last_check_note": "2026-11-16 14:30 run: #1531 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP in one run. Texas 26 years no deathless day (EndTheStreak). Queued 2028-09-21. PUBLISH-QUEUE: 1/day gate consumed by #850; #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
  "last_checked": "2026-11-15T04:55:00-08:00",
  "last_completed": "2026-11-16T14:30:00-08:00",
  "last_completed_date": "2026-11-16",
- "last_journalist": "Vin Wreckage",
+ "last_journalist": "Axle McScatter",
  "last_published": "2026-11-16T00:30:00-08:00",
  "last_published_date": "2026-11-16",
  "last_published_slug": "850-chrysler-26v561-cracked-capacitor-kills-esc",
  "last_qa_date": "2026-11-16",
  "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified \u2014 story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
- "last_worker_run": "2026-11-16T14:30:00-08:00",
- "next": 1532,
+ "last_worker_run": "2026-11-16T16:30:00-08:00",
+ "next": 1533,
  "queue": [
   {
    "journalist": "Rex Driverton",
