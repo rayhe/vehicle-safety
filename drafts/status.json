@@ -1,11 +1,12 @@
 {
  "current": {
-  "slug": "honda-divide-by-zero-steering-recall",
-  "phase": "DRAFT",
+  "slug": "1533-honda-divide-by-zero-steering-recall",
+  "phase": "CRITIQUE",
   "journalist": "Mia Crumplezone",
-  "started": "2026-11-16T18:30:00-08:00"
+  "started": "2026-11-16T18:30:00-08:00",
+  "round": 0
  },
- "last_check_note": "2026-11-16 18:30 run: RESEARCH done \u2014 Honda 26V721 divide-by-zero EPS recall (635,808 Pilot/MDX/TLX), 5-year detection gap, deleted error codes, second steering recall in 25 months (24V744 1.69M). BMW 26V733 angle killed as duplicate of #1490. Proceeding to DRAFT.",
+ "last_check_note": "2026-11-16 18:30 run: DRAFT done \u2014 #1533 Honda divide-by-zero steering recall, Mia Crumplezone, 781 prose words. Hero real JPEG 2048x1152 ?v=f7fc95bb. Hard gates pre-checked: em 0, banned 0, The 1.8%, class=story, style.css, rhythm PASS (var 390, short 6.4%, long 48.9%). Proceeding to CRITIQUE.",
  "last_checked": "2026-11-15T04:55:00-08:00",
  "last_completed": "2026-11-16T16:30:00-08:00",
  "last_completed_date": "2026-11-16",
