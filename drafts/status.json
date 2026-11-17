@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "2026-11-16 18:30 run: #1533 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP in one run. Honda 26V721 divide-by-zero EPS recall. Queued 2028-09-23. Proceeding to PUBLISH-QUEUE.",
+ "last_check_note": "2026-11-16 18:30 run: #1533 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71)/SHIP in one run. Honda 26V721 divide-by-zero EPS recall (635,808 Pilot/MDX/TLX). Queued 2028-09-23. PUBLISH-QUEUE: 1/day gate consumed by #850 (fb05aede); #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
  "last_checked": "2026-11-15T04:55:00-08:00",
  "last_completed": "2026-11-16T18:30:00-08:00",
  "last_completed_date": "2026-11-16",
