@@ -1,14 +1,14 @@
 {
   "current": {
     "slug": "1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
     "started": "2026-11-17T12:45:00-08:00"
   },
   "last_check_note": "2026-11-17 10:30 run: #1534 already SHIP_BLOCKED/queued (ship_date 2028-09-24; no new phase work). PUBLISH-QUEUE: 1/day gate consumed by Publish #851 (00:30 today); earliest due SHIP_BLOCKED is #852 on 2026-11-18 (hero-ready). Nothing due today; cadence satisfied. Next publish slot 2026-11-18.",
   "last_checked": "2026-11-15T04:55:00-08:00",
-  "last_completed": "2026-11-16T18:30:00-08:00",
-  "last_completed_date": "2026-11-16",
+  "last_completed": "2026-11-17T12:45:00-08:00",
+  "last_completed_date": "2026-11-17",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-17T00:30:00-08:00",
   "last_published_date": "2026-11-17",
@@ -27423,6 +27423,47 @@
       "ship_date": "2028-09-24",
       "slug": "1534-tesla-fsd-europe-sealed-safety-case",
       "title": "Ten Countries Approved Tesla's Self-Driving. The Evidence Is Sealed."
+    },
+    {
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop-critic-panel-r0.md",
+        "hero": "drafts/1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop.jpg",
+        "research": "drafts/1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop-research.md",
+        "story": "drafts/1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "020b3684",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 14.1,
+        "rhythm_variance": 421.3,
+        "style_css": true,
+        "the_starters_pct": 5.7,
+        "word_count": 1237
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-11-17 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.74)/SHIP in one run. NHTSA Dec 10, 2026 ADAS workshop (FR 2026-22067): lift kits, bumpers, body panels, wheel offset can knock crash sensors out of calibration; FMVSS 127 mandate wobbling (DOT Mar 23, 2026 status report, 2-yr extension proposed). Original arithmetic: pickups 41,593/191,193 FARS deaths (21.7%); Silverado+F-150 18,785. Killed angles this run: BMW 26V733 re-recall (#1490/#1506/#1525), Explorer airbag PE26008 (#1447), Kicks-vs-RAV4 IIHS (#1484/#1408), Waymo RQ (#1523), Honda stop-start (#1527), Thanksgiving (#1280/#1384), Tesla FSD PE25012/EA26002 (#1117/#1524). Queued 2028-09-25.",
+      "number": 1535,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.6,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
+      "ship_date": "2028-09-25",
+      "slug": "1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop",
+      "title": "Your Lift Kit Can Blind Your Car's Automatic Brakes. NHTSA Wants to Talk About It."
     }
   ]
 }
