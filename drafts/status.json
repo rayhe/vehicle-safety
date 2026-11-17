@@ -1,14 +1,8 @@
 {
- "current": {
-  "slug": "1532-two-counters-disagree-1710-deaths",
-  "phase": "CRITIQUE",
-  "journalist": "Axle McScatter",
-  "started": "2026-11-16T16:30:00-08:00",
-  "round": 0
- },
+ "current": null,
  "last_check_note": "2026-11-16 14:30 run: #1531 SHIP complete \u2014 RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP in one run. Texas 26 years no deathless day (EndTheStreak). Queued 2028-09-21. PUBLISH-QUEUE: 1/day gate consumed by #850; #851 due 2026-11-16, hero-ready, ships 2026-11-17. Nothing published this run.",
  "last_checked": "2026-11-15T04:55:00-08:00",
- "last_completed": "2026-11-16T14:30:00-08:00",
+ "last_completed": "2026-11-16T16:30:00-08:00",
  "last_completed_date": "2026-11-16",
  "last_journalist": "Axle McScatter",
  "last_published": "2026-11-16T00:30:00-08:00",
@@ -27301,6 +27295,45 @@
     "critic_panel": "drafts/1531-texas-26-years-no-deathless-day-end-the-streak-critic-panel-r0.md"
    },
    "note": "2026-11-16 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.86)/SHIP in one run. TxDOT #EndTheStreakTX Nov 5, 2026: last deathless day Nov 7, 2000, 9,505 days, 95,000+ dead, ~10/day; 2025 best year of the streak (3,763, -9.6% vs 4,162); NHTSA H1 2026 (DOT HS 813 875, Nov 10) already flat for Texas (1,851 vs 1,856, -0.3%), rate 1.19 vs 1.02 national. Original math: streak arithmetic, ~265-lives rate-gap counterfactual, county inversion (Harris 20.1% crashes/13.6% deaths), Poisson 1-in-22,000 deathless day. Round-0 fixes: Harris 'an eighth' -> 'about a seventh', anniversary date ambiguity removed. Queued 2028-09-21."
+  },
+  {
+   "number": 1532,
+   "slug": "1532-two-counters-disagree-1710-deaths",
+   "title": "Traffic Deaths Fell by 425. The Two Official Counters Disagree by 1,710.",
+   "journalist": "Axle McScatter",
+   "kicker": "By The Numbers",
+   "phase": "SHIP_BLOCKED",
+   "ship_date": "2028-09-22",
+   "avg_critic": 8.87,
+   "critique_round": 0,
+   "scores": {
+    "general_editor": 8.8,
+    "voice_coach": 9.0,
+    "ethics_reviewer": 9.0,
+    "social_shareability": 8.5,
+    "legal_accuracy": 9.0,
+    "research_rigor": 9.0,
+    "data_presentation": 8.8
+   },
+   "hard_gates": {
+    "em_dashes": 0,
+    "banned_phrases": 0,
+    "the_starters_pct": 4.0,
+    "css_class": true,
+    "style_css": true,
+    "hero_jpeg": true,
+    "hero_dim": "1920x1280",
+    "hero_hash": "87c2f5ba",
+    "word_count": 901,
+    "rhythm_variance": 995.1
+   },
+   "files": {
+    "research": "drafts/1532-two-counters-disagree-1710-deaths-research.md",
+    "story": "drafts/1532-two-counters-disagree-1710-deaths.html",
+    "hero": "drafts/1532-two-counters-disagree-1710-deaths.jpg",
+    "critic_panel": "drafts/1532-two-counters-disagree-1710-deaths-critic-panel-r0.md"
+   },
+   "note": "2026-11-16 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.87)/SHIP in one run. NHTSA H1 2026 (DOT HS 813 875, Nov 10): 16,750 deaths, -2.5%, rate 1.02; NSC H1 2026 (Sept 9): 18,460 deaths, -2%, rate 1.12. Original math: gap 1,710 (10.2%), gap/improvement 4.02x, gap 9.4/day vs improvement 2.3/day, rate gap 0.10, annualized gap 3,420 vs NSC decomposition ceiling 2,900 (overshoot ~520, open question), three-half stability 1,597/1,671/1,710. Round-0 fixes: rhythm short 18.2% -> 9.6% via 4 fragment merges; ref-6 cited inline. Queued 2028-09-22."
   }
  ]
 }
