@@ -5,7 +5,7 @@
   "journalist": "Rex Driverton",
   "started": "2026-11-16T20:30:00-08:00"
  },
- "last_check_note": "2026-11-17 06:30 run: #1534 already SHIP_BLOCKED/queued (ship_date 2028-09-24; no new phase work). PUBLISH-QUEUE: 1/day gate consumed by Publish #851 (00:30 today); earliest due SHIP_BLOCKED is #852 on 2026-11-18 (hero-ready). Nothing due today; cadence satisfied. Next publish slot 2026-11-18.",
+ "last_check_note": "2026-11-17 08:30 run: #1534 already SHIP_BLOCKED/queued (ship_date 2028-09-24; no new phase work). PUBLISH-QUEUE: 1/day gate consumed by Publish #851 (00:30 today); earliest due SHIP_BLOCKED is #852 on 2026-11-18 (hero-ready, drafts/852-forest-river-vibe-fourth-carbon-monoxide-recall.jpg present). Nothing due today; cadence satisfied. Next publish slot 2026-11-18.",
  "last_checked": "2026-11-15T04:55:00-08:00",
  "last_completed": "2026-11-16T18:30:00-08:00",
  "last_completed_date": "2026-11-16",
@@ -15,7 +15,7 @@
  "last_published_slug": "851-paccar-26v567-brake-timing-paccar-v-nhtsa",
  "last_qa_date": "2026-11-17",
  "last_qa_note": "QA 2026-11-17 00:30 run: #851 live verified \u2014 story 200, hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
- "last_worker_run": "2026-11-17T06:30:00-08:00",
+ "last_worker_run": "2026-11-17T08:30:00-08:00",
  "next": 1535,
  "queue": [
   {
