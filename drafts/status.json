@@ -13,8 +13,8 @@
  "last_published": "2026-11-17T00:30:00-08:00",
  "last_published_date": "2026-11-17",
  "last_published_slug": "851-paccar-26v567-brake-timing-paccar-v-nhtsa",
- "last_qa_date": "2026-11-16",
- "last_qa_note": "QA 2026-11-16 00:30 run: #850 live verified — story 308->200 (extensionless clean URL), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present. #1525 queued 2028-09-15.",
+ "last_qa_date": "2026-11-17",
+ "last_qa_note": "QA 2026-11-17 00:30 run: #851 live verified — story 200, hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
  "last_worker_run": "2026-11-17T00:30:00-08:00",
  "next": 1535,
  "queue": [
@@ -2072,7 +2072,7 @@
     "word_count": 640
    },
    "journalist": "Vin Wreckage",
-   "note": "Round-0 pass 8.96 avg; 7/7 critics >= 8.5. Anchor: NHTSA 26V567 (Sept 1, 2026 filing; certain 2027 Peterbilt 548; wrong-size front brake valve/hoses -> delayed rear service brake application/release + trailer gladhand timing -> FMVSS 121 noncompliance; PACCAR 26PACF; letters Oct 31; no OTA). Novel: PACCAR v. NHTSA 1978 full-circle irony (company killed the stopping-distance half, now fails the surviving timing half) + 3-campaign platform census (23PBJ release-too-slow 2023, 25V353 geometry 2025, 26V567 application-too-slow 2026) + 0.45s/40ft arithmetic. Sources: NHTSA recalls API, Consumer Affairs Sept 8 2026, Justia 76 FR 44829, static.nhtsa.gov 23PBJ notice, nhtsa.gov interpretations nht78-4.13/4.14. | 2026-11-17 00:30 run: published as #851 (earliest-due SHIP_BLOCKED, 1/day slot; 0 prior publishes today). Gates re-verified pre-ship: em 0, banned 0, The 10.8%, css ok, hero JPEG 1920x1280 ?v=99664cff.",
+   "note": "Round-0 pass 8.96 avg; 7/7 critics >= 8.5. Anchor: NHTSA 26V567 (Sept 1, 2026 filing; certain 2027 Peterbilt 548; wrong-size front brake valve/hoses -> delayed rear service brake application/release + trailer gladhand timing -> FMVSS 121 noncompliance; PACCAR 26PACF; letters Oct 31; no OTA). Novel: PACCAR v. NHTSA 1978 full-circle irony (company killed the stopping-distance half, now fails the surviving timing half) + 3-campaign platform census (23PBJ release-too-slow 2023, 25V353 geometry 2025, 26V567 application-too-slow 2026) + 0.45s/40ft arithmetic. Sources: NHTSA recalls API, Consumer Affairs Sept 8 2026, Justia 76 FR 44829, static.nhtsa.gov 23PBJ notice, nhtsa.gov interpretations nht78-4.13/4.14. | 2026-11-17 00:30 run: published as #851 (earliest-due SHIP_BLOCKED, 1/day slot; 0 prior publishes today). Gates re-verified pre-ship: em 0, banned 0, The 10.8%, css ok, hero JPEG 1920x1280 ?v=99664cff. | 2026-11-17 00:30 run QA: live verified — story 200, hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap present, em dashes 0.",
    "number": 851,
    "phase": "PUBLISHED",
    "score": 8.96,
