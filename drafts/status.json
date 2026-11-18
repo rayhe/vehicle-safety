@@ -13,8 +13,8 @@
   "last_published": "2026-11-18T00:30:00-08:00",
   "last_published_date": "2026-11-18",
   "last_published_slug": "852-forest-river-vibe-fourth-carbon-monoxide-recall",
-  "last_qa_date": "2026-11-17",
-  "last_qa_note": "QA 2026-11-17 00:30 run: #851 live verified \u2014 story 200, hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
+  "last_qa_date": "2026-11-18",
+  "last_qa_note": "QA 2026-11-18 00:30 run: #852 live verified \u2014 story 200 (via .html -> extensionless 308 redirect), hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
   "last_worker_run": "2026-11-18T00:30:00-08:00",
   "next": 1536,
   "queue": [
