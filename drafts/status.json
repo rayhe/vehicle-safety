@@ -5,17 +5,17 @@
     "journalist": "Mia Crumplezone",
     "started": "2026-11-17T12:45:00-08:00"
   },
-  "last_check_note": "2026-11-17 22:30 run: #1535 already SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day gate consumed by Publish #851 (commit 6319981d); zero SHIP_BLOCKED due <= today; earliest due is #852 on 2026-11-18 (hero-ready in drafts/), #853 also 2026-11-18 (hero-ready). Cadence satisfied.",
+  "last_check_note": "2026-11-18 00:30 run: #1535 already SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: published #852 (due 2026-11-18, hero-ready). Next due: #853 on 2026-11-18 (hero-ready in drafts/).",
   "last_checked": "2026-11-17T22:30:00-08:00",
   "last_completed": "2026-11-17T12:45:00-08:00",
   "last_completed_date": "2026-11-17",
   "last_journalist": "Mia Crumplezone",
-  "last_published": "2026-11-17T00:30:00-08:00",
-  "last_published_date": "2026-11-17",
-  "last_published_slug": "851-paccar-26v567-brake-timing-paccar-v-nhtsa",
+  "last_published": "2026-11-18T00:30:00-08:00",
+  "last_published_date": "2026-11-18",
+  "last_published_slug": "852-forest-river-vibe-fourth-carbon-monoxide-recall",
   "last_qa_date": "2026-11-17",
   "last_qa_note": "QA 2026-11-17 00:30 run: #851 live verified \u2014 story 200, hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-17T22:30:00-08:00",
+  "last_worker_run": "2026-11-18T00:30:00-08:00",
   "next": 1536,
   "queue": [
     {
@@ -2093,18 +2093,18 @@
       "created": "2026-09-09",
       "critic_rounds": 1,
       "files": {
-        "draft": "drafts/852-forest-river-vibe-fourth-carbon-monoxide-recall.html",
-        "hero": "drafts/852-forest-river-vibe-fourth-carbon-monoxide-recall.jpg"
+        "draft": "stories/852-forest-river-vibe-fourth-carbon-monoxide-recall.html",
+        "hero": "images/852-forest-river-vibe-fourth-carbon-monoxide-recall.jpg"
       },
       "journalist": "Clara Rollover",
       "kicker": "Investigation",
       "number": 852,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "score": 8.91,
       "ship_date": "2026-11-18",
       "slug": "forest-river-vibe-fourth-carbon-monoxide-recall",
       "title": "The Camper Brand That Keeps Getting Recalled for Carbon Monoxide",
-      "note": "2026-11-17 02:30 run: 1/day slot consumed by Publish #851 (00:30 today); ship_date bumped 2026-11-17 -> 2026-11-18 per queue practice. Hero file present on disk."
+      "note": "2026-11-18 00:30 run: published as #852 (earliest-due SHIP_BLOCKED, ship_date 2026-11-18; 1/day slot; 0 prior publishes today). Gates re-verified pre-ship: em 0, banned 0, The 8.3%, css ok, hero JPEG 1920x1280 ?v=5b66b4f2."
     },
     {
       "blocked_reason": "Queued behind 66 prior drafts; next publish slot after #852 (2026-10-28); 1/day rule consumed by #806 on 2026-09-08",
