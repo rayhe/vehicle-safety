@@ -1,14 +1,13 @@
 {
   "current": {
     "slug": "1536-35-to-44-deaths-up-33-percent-decade",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Axle McScatter",
-    "started": "2026-11-19T12:30:00-08:00",
-    "round": 0
+    "started": "2026-11-19T12:30:00-08:00"
   },
   "last_check_note": "2026-11-19 10:30 run: #1535 still SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today, commit 101b16a3) — gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) re-verified hero-ready (real JPEG 1920x1280, 437KB in drafts/) — publishes in the next run after midnight (2026-11-20).",
   "last_checked": "2026-11-19T06:30:00-08:00",
-  "last_completed": "2026-11-17T12:45:00-08:00",
+  "last_completed": "2026-11-19T12:30:00-08:00",
   "last_completed_date": "2026-11-17",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-19T00:30:00-08:00",
@@ -27465,6 +27464,47 @@
       "ship_date": "2028-09-25",
       "slug": "1535-lift-kit-blinds-your-crash-sensors-nhtsa-workshop",
       "title": "Your Lift Kit Can Blind Your Car's Automatic Brakes. NHTSA Wants to Talk About It."
+    },
+    {
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1536-35-to-44-deaths-up-33-percent-decade-critic-panel-r0.md",
+        "hero": "drafts/1536-35-to-44-deaths-up-33-percent-decade.jpg",
+        "research": "drafts/1536-35-to-44-deaths-up-33-percent-decade-research.md",
+        "story": "drafts/1536-35-to-44-deaths-up-33-percent-decade.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "dcd74f35",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 6.6,
+        "rhythm_variance": 988.4,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1073
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-19 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.84)/SHIP in one run. FARS 2015-2024 age table: 35-44 deaths 4,707->6,252 (+32.8%, +1,545, 41.0% of national increase); 35-44+65+ = 88.2% of the +3,770 increase; 21-24 down 9.2%, 45-54 down 6.4%; 65+ 8,019 (20.4%), lowest fatal-crash rate per licensed driver (15.60). Killed angles this run: BMW 26V733 re-recall (#1490), Ford 26V104 trailer module (#749), Takata 314k (#1493), driveline snap ring (#1470), 2025 record-low estimate + 2024 FARS totals (#1469), IIHS Kicks/RAV4/Q3 (#1408/#1484), most-recalled 2026 (#1430/#1436), Harley gear indicator (#1462/#1517). Queued 2028-09-26.",
+      "number": 1536,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.7,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
+      "ship_date": "2028-09-26",
+      "slug": "1536-35-to-44-deaths-up-33-percent-decade",
+      "title": "The Fastest-Growing Death Toll on American Roads Belongs to 35-to-44-Year-Olds"
     }
   ]
 }
