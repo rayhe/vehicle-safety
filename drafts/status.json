@@ -5,8 +5,8 @@
     "journalist": "Mia Crumplezone",
     "started": "2026-11-17T12:45:00-08:00"
   },
-  "last_check_note": "2026-11-19 02:30 run: #1535 still SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today, commit 101b16a3; QA-verified 00:30, re-checked live 02:30: story 200, hero JPEG 200). #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) re-verified hero-ready (real JPEG 1920x1280 in drafts/) — publishes in the next run after midnight (2026-11-20).",
-  "last_checked": "2026-11-19T02:30:00-08:00",
+  "last_check_note": "2026-11-19 04:30 run: #1535 still SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today, commit 101b16a3; live re-checked 04:30: story 200, hero JPEG 200). #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) re-verified hero-ready (real JPEG 1920x1280 in drafts/) — publishes in the next run after midnight (2026-11-20).",
+  "last_checked": "2026-11-19T04:30:00-08:00",
   "last_completed": "2026-11-17T12:45:00-08:00",
   "last_completed_date": "2026-11-17",
   "last_journalist": "Mia Crumplezone",
@@ -15,7 +15,7 @@
   "last_published_slug": "853-ricon-runaway-lift-two-diodes",
   "last_qa_date": "2026-11-19",
   "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified — story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-19T02:30:00-08:00",
+  "last_worker_run": "2026-11-19T04:30:00-08:00",
   "next": 1536,
   "queue": [
     {
