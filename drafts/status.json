@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1536-35-to-44-deaths-up-33-percent-decade",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-19T12:30:00-08:00"
+    "started": "2026-11-19T12:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-19 10:30 run: #1535 still SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today, commit 101b16a3) — gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) re-verified hero-ready (real JPEG 1920x1280, 437KB in drafts/) — publishes in the next run after midnight (2026-11-20).",
   "last_checked": "2026-11-19T06:30:00-08:00",
