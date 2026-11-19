@@ -5,8 +5,8 @@
     "journalist": "Mia Crumplezone",
     "started": "2026-11-17T12:45:00-08:00"
   },
-  "last_check_note": "2026-11-18 14:30 run: #1535 still SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day slot consumed by #852 (published 00:30 PT today, commit e2700b70); #853 (ricon-runaway-lift-two-diodes, due 2026-11-18) re-verified hero-ready (real JPEG 1920x1280 in drafts/) — publishes in the next run after midnight (2026-11-19).",
-  "last_checked": "2026-11-18T14:30:00-08:00",
+  "last_check_note": "2026-11-18 16:30 run: #1535 still SHIP_BLOCKED/queued (ship_date 2028-09-25; no new phase work). PUBLISH-QUEUE: 1/day slot consumed by #852 (published 00:30 PT today, commit e2700b70); #853 (ricon-runaway-lift-two-diodes, due 2026-11-18) re-verified hero-ready (real JPEG in drafts/) — publishes in the next run after midnight (2026-11-19).",
+  "last_checked": "2026-11-18T16:30:00-08:00",
   "last_completed": "2026-11-17T12:45:00-08:00",
   "last_completed_date": "2026-11-17",
   "last_journalist": "Mia Crumplezone",
@@ -15,7 +15,7 @@
   "last_published_slug": "852-forest-river-vibe-fourth-carbon-monoxide-recall",
   "last_qa_date": "2026-11-18",
   "last_qa_note": "QA 2026-11-18 00:30 run: #852 live verified — story 200 (via .html -> extensionless 308 redirect), hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-18T14:30:00-08:00",
+  "last_worker_run": "2026-11-18T16:30:00-08:00",
   "next": 1536,
   "queue": [
     {
