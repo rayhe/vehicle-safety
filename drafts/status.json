@@ -13,8 +13,8 @@
   "last_published": "2026-11-19T00:30:00-08:00",
   "last_published_date": "2026-11-19",
   "last_published_slug": "853-ricon-runaway-lift-two-diodes",
-  "last_qa_date": "2026-11-18",
-  "last_qa_note": "QA 2026-11-18 00:30 run: #852 live verified — story 200 (via .html -> extensionless 308 redirect), hero JPEG 200 (1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
+  "last_qa_date": "2026-11-19",
+  "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified — story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
   "last_worker_run": "2026-11-19T00:30:00-08:00",
   "next": 1536,
   "queue": [
