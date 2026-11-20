@@ -1,16 +1,21 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-19 22:30 run: #1540 RESEARCH/DRAFT/CRITIQUE(r0 8.29 REVISE, r1 8.79 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-30. PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today) \u2014 gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) hero-ready, publishes in the next run after midnight (2026-11-20). next bumped 1540->1541.",
+    "current": {
+        "slug": "1541-outside-vehicle-death-share-record-high",
+        "phase": "DRAFT",
+        "journalist": "Rex Driverton",
+        "started": "2026-11-20T00:30:00-08:00"
+    },
+    "last_check_note": "2026-11-20 00:30 run: #854 PUBLISHED + QA live-verified (1/day slot). #1541 RESEARCH complete (outside-vehicle death share 38% record high, DOT HS 813 791 Fig 3 + 813 875) \u2014 DRAFT next.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-19T22:30:00-08:00",
     "last_completed_date": "2026-11-19",
     "last_journalist": "Mia Crumplezone",
-    "last_published": "2026-11-19T00:30:00-08:00",
-    "last_published_date": "2026-11-19",
-    "last_published_slug": "853-ricon-runaway-lift-two-diodes",
-    "last_qa_date": "2026-11-19",
-    "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-19T22:30:00-08:00",
+    "last_published": "2026-11-20T00:30:00-08:00",
+    "last_published_date": "2026-11-20",
+    "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
+    "last_qa_date": "2026-11-20",
+    "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
+    "last_worker_run": "2026-11-20T00:30:00-08:00",
     "next": 1541,
     "queue": [
         {
@@ -2164,9 +2169,9 @@
             },
             "journalist": "Vin Wreckage",
             "kicker": "Existential Dread",
-            "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 Consumer Affairs recall derby flagged NHTSA 26V564 (Light Boy America, Inc; LIGHT BOY GBX12SK 2020; 'Light Tower May Detach During Towing'). Novel: original breakaway KE calculation (584 kg at 29.06 m/s = 247 kJ, equivalent to 14-story drop) linked to AAA Foundation 2011-2014 debris study (200,000+ crashes, 39,000 injuries, 500 deaths; 4x as likely on Interstates; 37% of deaths from swerving; trailer separation named as common debris type). Sources: Consumer Affairs/NHTSA 26V564 announcement, AAA Foundation study + fact sheet, Multiquip GBX12SK ops manual (1,288 lb dry, Table 1), Kirby-Smith dealer spec, nhtsa.gov/recalls. Limitation: Part 573 report not retrievable; population/mechanism unstated. Ship slot 2026-10-30.",
+            "note": "Round-0 pass 8.71 avg; 7/7 critics >= 8.5. Anchor: Sept 8, 2026 Consumer Affairs recall derby flagged NHTSA 26V564 (Light Boy America, Inc; LIGHT BOY GBX12SK 2020; 'Light Tower May Detach During Towing'). Novel: original breakaway KE calculation (584 kg at 29.06 m/s = 247 kJ, equivalent to 14-story drop) linked to AAA Foundation 2011-2014 debris study (200,000+ crashes, 39,000 injuries, 500 deaths; 4x as likely on Interstates; 37% of deaths from swerving; trailer separation named as common debris type). Sources: Consumer Affairs/NHTSA 26V564 announcement, AAA Foundation study + fact sheet, Multiquip GBX12SK ops manual (1,288 lb dry, Table 1), Kirby-Smith dealer spec, nhtsa.gov/recalls. Limitation: Part 573 report not retrievable; population/mechanism unstated. Ship slot 2026-10-30. | 2026-11-20 00:30 run: published as #854 (earliest-due SHIP_BLOCKED, due 2026-11-19; 1/day slot open, 0 prior publishes today). Pre-ship fix: og:image -> absolute URL. QA live-verified: story 200 (via 308 to extensionless canonical), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap present, em 0.",
             "number": 854,
-            "phase": "SHIP_BLOCKED",
+            "phase": "PUBLISHED",
             "score": 8.71,
             "scores": {
                 "data_presentation": 8.8,
@@ -2179,7 +2184,8 @@
             },
             "ship_date": "2026-11-19",
             "slug": "light-boy-26v564-detachable-light-tower",
-            "title": "The Night Light That Unplugs Itself on the Interstate"
+            "title": "The Night Light That Unplugs Itself on the Interstate",
+            "publish_commit": "0f022fcf"
         },
         {
             "blocked_reason": "Queued behind prior drafts; next publish slot 2026-10-31; 1/day rule consumed by #808 on 2026-09-09",
