@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1539-deadliest-model-year-2005-pre-esc-fleet",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Mia Crumplezone",
-        "started": "2026-11-19T20:30:00-08:00"
+        "started": "2026-11-19T20:30:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-19 20:30 run: #1539 RESEARCH complete \u2014 deadliest model year 2005 (11,363 deaths), ESC-hinge cohort split 62.3/9.6/28.1, S&P fleet age record 12.8y. Kill-test cleared 7 duplicate candidates (Honda 26V721 #1533/#1457, Explorer airbag burns #1447, Honda stop-start #1527, BMW water pump #1490, ZDX 26V735 #1521, H1-2026 Q2 stall #1458, Toyota Takata 26V748 #1493). PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today) \u2014 gate count 1, publishing skipped; #854 due today, hero-ready, publishes after midnight.",
     "last_checked": "2026-11-19T14:30:00-08:00",
