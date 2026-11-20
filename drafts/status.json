@@ -1,6 +1,6 @@
 {
     "current": null,
-    "last_check_note": "2026-11-20 06:30 run: full pipeline #1544 RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-04. 1/day publish slot already consumed today by #854 (2026-11-20 00:30); publish-queue skipped. next bumped 1544->1545.",
+    "last_check_note": "2026-11-20 06:30 run: full pipeline #1544 RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-04. Publish-queue: 1/day gate consumed by #854 (00:30, 1 publish today); #855 due 2026-11-20 stays queued for tomorrow. next bumped 1544->1545.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-20T06:45:00-08:00",
     "last_completed_date": "2026-11-20",
@@ -10,7 +10,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T05:20:00-08:00",
+    "last_worker_run": "2026-11-20T06:50:00-08:00",
     "next": 1545,
     "queue": [
         {
