@@ -1,6 +1,11 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-20 02:30 run: full pipeline #1542 RESEARCH/DRAFT/CRITIQUE(r0 8.86 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-10-02. 1/day publish slot already consumed today by #854 (2026-11-20 00:30); publish-queue skipped. next bumped 1542->1543.",
+    "current": {
+        "slug": "1543-altec-loose-hardware-twice-in-seven-days",
+        "phase": "DRAFT",
+        "journalist": "Rex Driverton",
+        "started": "2026-11-20T04:45:00-08:00"
+    },
+    "last_check_note": "2026-11-20 04:30 run: RESEARCH complete for #1543 (Altec 26V738 + 26V752, two loose-hardware recalls in 7 days; second such pair in 5 weeks). Killed angles: Waymo RQ26006 (x3), Honda 26V721 (#1533), ZDX 26V735 (#1521), Maverick 26V724 (#1509), GM 26V718 (#1391), IIHS commercial (x9).",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-20T00:45:00-08:00",
     "last_completed_date": "2026-11-20",
@@ -10,7 +15,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T02:45:00-08:00",
+    "last_worker_run": "2026-11-20T04:45:00-08:00",
     "next": 1543,
     "queue": [
         {
