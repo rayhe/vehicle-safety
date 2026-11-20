@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1538-hyundai-palisade-defog-petition-dp26013",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-19T18:30:00-08:00",
-        "round": 0
-    },
+    "current": null,
     "last_check_note": "2026-11-19 16:30 run: #1537 RESEARCH/DRAFT/CRITIQUE(r0 8.21 REVISE, r1 8.93 SHIP)/SHIP complete — queued SHIP_BLOCKED 2028-09-27. PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today) — gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) hero-ready, publishes in the next run after midnight (2026-11-20). next bumped 1537->1538.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-19T12:30:00-08:00",
     "last_completed_date": "2026-11-17",
-    "last_journalist": "Clara Rollover",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-19T00:30:00-08:00",
     "last_published_date": "2026-11-19",
     "last_published_slug": "853-ricon-runaway-lift-two-diodes",
     "last_qa_date": "2026-11-19",
     "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified — story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
     "last_worker_run": "2026-11-19T18:30:00-08:00",
-    "next": 1538,
+    "next": 1539,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -27547,6 +27541,44 @@
             "ship_date": "2028-09-27",
             "slug": "1537-ford-transit-bcmc-freeze-trailer-lights-dark",
             "title": "Ford's New Transit Vans Can Go Dark While Towing. The Reset Is Pulling the Battery."
+        },
+        {
+            "avg_critic": 8.93,
+            "critique_round": 1,
+            "files": {
+                "critic_panel": "drafts/1538-hyundai-palisade-defog-petition-dp26013-critic-panel-r1.md",
+                "hero": "drafts/1538-hyundai-palisade-defog-petition-dp26013.jpg",
+                "research": "drafts/1538-hyundai-palisade-defog-petition-dp26013-research.md",
+                "story": "drafts/1538-hyundai-palisade-defog-petition-dp26013.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "d6313b18",
+                "hero_jpeg": true,
+                "style_css": true,
+                "the_starters_pct": 0.0,
+                "word_count": 664
+            },
+            "journalist": "Rex Driverton",
+            "kicker": "Investigation",
+            "note": "2026-11-19 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 8.21 REVISE, r1 8.93 SHIP)/SHIP complete — queued SHIP_BLOCKED 2028-09-28. Round-0 fixes: TSB scope 'certain 2020-2025', denial-rate claim removed, reimbursement conditional, 2024 year inference dropped, receipt-to-opening wording, ref [3] cited, lethality softened, 0.005% denominator clarified.",
+            "number": 1538,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 8.5,
+                "ethics_reviewer": 9.0,
+                "general_editor": 9.0,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 9.0,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-09-28",
+            "slug": "1538-hyundai-palisade-defog-petition-dp26013",
+            "title": "One Houston Owner Petitioned NHTSA. Now 80,418 Palisades Are Under Federal Review."
         }
     ]
 }
