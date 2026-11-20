@@ -48,7 +48,7 @@ Raw death counts by model year confound three things the article cannot separate
 
 ## Primary sources
 1. NHTSA, Fatality Analysis Reporting System (FARS) 2014–2023, model-year file, as compiled in this site's `fars_output.js` (337 models; 187,058 deaths). https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars
-2. S&P Global Mobility, "Average Age of Vehicles in the US Hits 12.8 Years in 2025," May 21, 2025. https://www.spglobal.com/mobility/en/news/2025/05/average-age-of-vehicles-in-the-us-hits-12.8-years-in-2025.html (figures corroborated by S&P Global Mobility May 2025 release summaries; 289M VIO, 12.8 years, cars 14.5, trucks 11.9, scrappage 4.5%)
+2. S&P Global Mobility, "U.S. Vehicle Age Rises Again to 12.8 Years in 2025," May 21, 2025 (republished by MOTOR). https://www.motor.com/2025/05/u-s-vehicle-age-rises-again-to-12-8-years-in-2025/ (figures corroborated by S&P Global Mobility May 2025 release summaries; 289M VIO, 12.8 years, cars 14.5, trucks 11.9, scrappage 4.5%)
 3. NHTSA, FMVSS No. 126, Electronic Stability Control Systems, final rule, 72 FR 34602 (June 22, 2007). https://www.govinfo.gov/content/pkg/FR-2007-06-22/html/E7-11965.htm
 4. IIHS, "Life-saving benefits of ESC continue to accrue." https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue
 5. NHTSA, FARS query tool (CDAN) for independent verification. https://cdan.dot.gov/query
