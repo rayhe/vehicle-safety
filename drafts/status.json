@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1545-s2000-fuel-flange-21-year-recall",
-        "phase": "CRITIQUE",
-        "journalist": "Clara Rollover",
-        "started": "2026-11-20T10:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-20 10:30 run: DRAFT #1545 complete - HTML written, hero JPEG 1920x1280 ?v=92102688, gates pre-checked (em 0, banned 0, The 11.8%, rhythm PASS, class=story, style.css). Proceeding to CRITIQUE r0.",
+    "current": null,
+    "last_check_note": "2026-11-20 10:30 run: full pipeline #1545 RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-05. Publish-queue: 1/day gate consumed by #854 (00:30, 1 publish today); #855 due 2026-11-20 stays queued for tomorrow. next bumped 1545->1546.",
     "last_checked": "2026-11-19T14:30:00-08:00",
-    "last_completed": "2026-11-20T06:45:00-08:00",
+    "last_completed": "2026-11-20T10:50:00-08:00",
     "last_completed_date": "2026-11-20",
-    "last_journalist": "Axle McScatter",
+    "last_journalist": "Clara Rollover",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified — story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T10:40:00-08:00",
-    "next": 1545,
+    "last_worker_run": "2026-11-20T10:50:00-08:00",
+    "next": 1546,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -27771,6 +27765,44 @@
                 "word_count": 791
             },
             "note": "2026-11-20 06:30 run: full pipeline #1544 RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-04. Angle: missing snap ring cluster, 7 campaigns (26V737/26V743/26V746/26V747 + 26E077/26E079/26E080), 6,932 trucks + 414 service drivelines, one operator Jul 14-Aug 21 2026. First 7-campaign cluster census on site; first census table in a recent article. Rhythm fixed r0 (short 25.0%->6.1%). Ref-4 link corrected during critique."
+        },
+        {
+            "number": 1545,
+            "slug": "1545-s2000-fuel-flange-21-year-recall",
+            "title": "Honda Is Recalling the S2000. The Cars Are 21 Years Old.",
+            "journalist": "Clara Rollover",
+            "kicker": "Investigation",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-05",
+            "scores": {
+                "general_editor": 8.5,
+                "voice_coach": 8.5,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "data_presentation": 9.0
+            },
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "files": {
+                "research": "drafts/1545-s2000-fuel-flange-21-year-recall-research.md",
+                "story": "drafts/1545-s2000-fuel-flange-21-year-recall.html",
+                "hero": "drafts/1545-s2000-fuel-flange-21-year-recall.jpg",
+                "critic_panel": "drafts/1545-s2000-fuel-flange-21-year-recall-critic-panel-r0.md"
+            },
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 11.8,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_hash": "92102688",
+                "hero_dim": "1920x1280",
+                "word_count": 577
+            },
+            "note": "2026-11-20 10:30 run: full pipeline #1545 RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-05. Angle: Honda S2000 fuel-flange recall 26V749, 16,387 cars, 21-year reach-back; defect arrived via service part (67 unbrazed Sanoh replacement parts), not the assembly line; recall population (16,387) exceeds combined 2004-2005 US sales (15,100) by 1,287. Zero prior coverage (26V749/S2000). Rhythm fixed r0 (short 23.7%->6.1%)."
         }
     ]
 }
