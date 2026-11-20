@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1537-ford-transit-bcmc-freeze-trailer-lights-dark",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Clara Rollover",
-        "started": "2026-11-19T16:30:00-08:00"
+        "started": "2026-11-19T16:30:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-19 16:30 run: RESEARCH #1537 done \u2014 Ford Transit BCMC freeze (26V727, 60,956 2026 vans, trailer lights dark, FMVSS 108). Coverage verified: zero matches for 26V727/26C49; killed angles logged (rollaway #1339, Takata #1493, C-HR #876/#900, BMW 26V733 #1490, Harley 26V730 #1462, ZDX #1521, PE26008 #1447, EA26007 #1527, RQ26006 #1461/#1523, 26V721 #1533, H1 2026 #1458, Nov census #1528, IIHS round #1244/#1408/#1484). Journalist Clara Rollover. Proceeding to DRAFT in the same run.",
     "last_checked": "2026-11-19T14:30:00-08:00",
@@ -15,7 +16,7 @@
     "last_published_slug": "853-ricon-runaway-lift-two-diodes",
     "last_qa_date": "2026-11-19",
     "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-19T16:45:00-08:00",
+    "last_worker_run": "2026-11-19T16:50:00-08:00",
     "next": 1537,
     "queue": [
         {
