@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1547-ram-classic-brake-lights-lie",
-        "phase": "CRITIQUE",
-        "journalist": "Clara Rollover",
-        "started": "2026-11-20T14:45:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-20 14:30 run: RESEARCH #1547 complete - Ram 1500 Classic ABS software recall 26V756 (82,843 trucks + 669 Mopar modules, filed Nov 19, Reuters Nov 20). Duplicate check: Honda 26V721, GM 26V718, Ford 26V691, Acura ZDX 26V735, VW Atlas 26V732, BMW 26V733 all already covered; NHTSA H1 2026 (#1494) and IIHS back-seat (#1392/#1484) also covered. Proceeding to DRAFT.",
+    "current": null,
+    "last_check_note": "2026-11-20 14:30 run: full pipeline #1547 RESEARCH/DRAFT/CRITIQUE(r0 8.86 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-07. Publish-queue: checking 1/day gate next.",
     "last_checked": "2026-11-19T14:30:00-08:00",
-    "last_completed": "2026-11-20T12:50:00-08:00",
+    "last_completed": "2026-11-20T15:10:00-08:00",
     "last_completed_date": "2026-11-20",
-    "last_journalist": "Rex Driverton",
+    "last_journalist": "Clara Rollover",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T15:00:00-08:00",
-    "next": 1547,
+    "last_worker_run": "2026-11-20T15:10:00-08:00",
+    "next": 1548,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -27852,6 +27846,44 @@
             "ship_date": "2028-10-06",
             "slug": "1546-maverick-one-cable-kills-steering-brakes-lights",
             "title": "One Corroded Cable Can Kill Your Maverick's Steering, Brakes, and Lights at Once"
+        },
+        {
+            "number": 1547,
+            "slug": "1547-ram-classic-brake-lights-lie",
+            "title": "Your Ram Classic's Brake Lights Are Lying to Everyone Behind You",
+            "journalist": "Clara Rollover",
+            "kicker": "Investigation",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-07",
+            "scores": {
+                "general_editor": 9.0,
+                "voice_coach": 9.0,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.5,
+                "data_presentation": 9.0
+            },
+            "avg_critic": 8.86,
+            "critique_round": 0,
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 6.7,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "3aed45a4",
+                "word_count": 438
+            },
+            "files": {
+                "research": "drafts/1547-ram-classic-brake-lights-lie-research.md",
+                "story": "drafts/1547-ram-classic-brake-lights-lie.html",
+                "hero": "drafts/1547-ram-classic-brake-lights-lie.jpg",
+                "critic_panel": "drafts/1547-ram-classic-brake-lights-lie-critic-panel-r0.md"
+            },
+            "note": "2026-11-20 14:30 run: full pipeline RESEARCH/DRAFT/CRITIQUE(r0 8.86 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-07. Ram 1500 Classic ABS software recall 26V756 (82,843 trucks + 669 Mopar modules, filed Nov 19, Reuters Nov 20). Duplicate check rejected Honda 26V721, GM 26V718, Ford 26V691, Acura ZDX 26V735, VW Atlas 26V732, BMW 26V733, NHTSA H1 2026, IIHS back-seat - all already covered."
         }
     ]
 }
