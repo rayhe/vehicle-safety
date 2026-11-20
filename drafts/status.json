@@ -1,5 +1,10 @@
 {
-    "current": null,
+    "current": {
+        "slug": "1542-paccar-radar-brakes-for-left-lane-ghosts",
+        "phase": "DRAFT",
+        "journalist": "Mia Crumplezone",
+        "started": "2026-11-20T02:30:00-08:00"
+    },
     "last_check_note": "2026-11-20 00:30 run: #854 PUBLISHED + QA live-verified (1/day slot). #1541 RESEARCH/DRAFT/CRITIQUE(r0 8.74 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-10-01. next bumped 1541->1542.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-20T00:45:00-08:00",
@@ -10,7 +15,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T00:45:00-08:00",
+    "last_worker_run": "2026-11-20T02:30:00-08:00",
     "next": 1542,
     "queue": [
         {
