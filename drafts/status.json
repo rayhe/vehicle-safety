@@ -1,24 +1,17 @@
 {
-    "current": {
-        "slug": "1540-atlas-sewed-its-child-seat-anchors-shut",
-        "phase": "SHIP",
-        "journalist": "Mia Crumplezone",
-        "started": "2026-11-19T22:30:00-08:00",
-        "round": 1,
-        "avg_critic": 8.79
-    },
+    "current": null,
     "last_check_note": "2026-11-19 20:30 run: #1539 RESEARCH/DRAFT/CRITIQUE(r0 8.36 REVISE, r1 8.93 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-29. PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today) \u2014 gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) hero-ready, publishes in the next run after midnight (2026-11-20). next bumped 1539->1540.",
     "last_checked": "2026-11-19T14:30:00-08:00",
-    "last_completed": "2026-11-19T20:30:00-08:00",
-    "last_completed_date": "2026-11-17",
-    "last_journalist": "Rex Driverton",
+    "last_completed": "2026-11-19T22:30:00-08:00",
+    "last_completed_date": "2026-11-19",
+    "last_journalist": "Mia Crumplezone",
     "last_published": "2026-11-19T00:30:00-08:00",
     "last_published_date": "2026-11-19",
     "last_published_slug": "853-ricon-runaway-lift-two-diodes",
     "last_qa_date": "2026-11-19",
     "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
     "last_worker_run": "2026-11-19T22:30:00-08:00",
-    "next": 1540,
+    "next": 1541,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -27603,6 +27596,22 @@
                 "critic_panel": "drafts/1539-deadliest-model-year-2005-pre-esc-fleet-critic-panel-r1.md"
             },
             "note": "2026-11-19 20:30 run: #1539 RESEARCH/DRAFT/CRITIQUE(r0 8.36 REVISE, r1 8.93 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-29. Kill-test cleared 7 duplicate candidates (Honda 26V721 #1533/#1457, Explorer airbag burns #1447, Honda stop-start #1527, BMW water pump #1490, ZDX 26V735 #1521, H1-2026 Q2 stall #1458, Toyota Takata 26V748 #1493). R1 fixes: ref[2] S&P URL/title corrected to verified MOTOR republication; Fairness-first echo of #1538 rewritten; ESC-hinge cohort table added. Gates r1: em 0, banned 0, The 4.4%, rhythm variance 414.6 PASS, hero JPEG 1920x1280 ?v=ef34371e."
+        },
+        {
+            "number": 1540,
+            "slug": "1540-atlas-sewed-its-child-seat-anchors-shut",
+            "title": "Volkswagen Sewed Its Own Child Seat Anchors Shut",
+            "journalist": "Mia Crumplezone",
+            "ship_date": "2028-09-30",
+            "phase": "SHIP_BLOCKED",
+            "avg_critic": 8.79,
+            "critique_round": 1,
+            "files": {
+                "research": "drafts/1540-atlas-sewed-its-child-seat-anchors-shut-research.md",
+                "hero": "drafts/1540-atlas-sewed-its-child-seat-anchors-shut.jpg",
+                "critic_panel": "drafts/1540-atlas-sewed-its-child-seat-anchors-shut-critic-panel-r1.md"
+            },
+            "note": "2026-11-19 22:30 run: #1540 RESEARCH/DRAFT/CRITIQUE(r0 8.29 REVISE, r1 8.79 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-30. NHTSA 26V732: 3,914 MY2027 Atlas, center LATCH openings ~60% sewn shut (KBB), FMVSS 225 fail; IIHS Marginal LATCH 2018-2026 (nine years). r0 caught a real error: eight vs nine model years, fixed everywhere."
         }
     ]
 }
