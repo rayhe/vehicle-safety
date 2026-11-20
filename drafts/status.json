@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1541-outside-vehicle-death-share-record-high",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Rex Driverton",
-        "started": "2026-11-20T00:30:00-08:00"
+        "started": "2026-11-20T00:30:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-20 00:30 run: #854 PUBLISHED + QA live-verified (1/day slot). #1541 RESEARCH complete (outside-vehicle death share 38% record high, DOT HS 813 791 Fig 3 + 813 875) \u2014 DRAFT next.",
     "last_checked": "2026-11-19T14:30:00-08:00",
@@ -15,7 +16,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T00:30:00-08:00",
+    "last_worker_run": "2026-11-20T00:45:00-08:00",
     "next": 1541,
     "queue": [
         {
