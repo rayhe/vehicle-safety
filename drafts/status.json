@@ -1,6 +1,11 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-20 12:30 run: full pipeline #1546 RESEARCH/DRAFT/CRITIQUE(r0 8.71 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-06. Publish-queue: 1/day gate already consumed by #854 (00:30, 1 publish today); #855 due 2026-11-20 stays queued for tomorrow. next bumped 1546->1547.",
+    "current": {
+        "slug": "1547-ram-classic-brake-lights-lie",
+        "phase": "DRAFT",
+        "journalist": "Clara Rollover",
+        "started": "2026-11-20T14:45:00-08:00"
+    },
+    "last_check_note": "2026-11-20 14:30 run: RESEARCH #1547 complete - Ram 1500 Classic ABS software recall 26V756 (82,843 trucks + 669 Mopar modules, filed Nov 19, Reuters Nov 20). Duplicate check: Honda 26V721, GM 26V718, Ford 26V691, Acura ZDX 26V735, VW Atlas 26V732, BMW 26V733 all already covered; NHTSA H1 2026 (#1494) and IIHS back-seat (#1392/#1484) also covered. Proceeding to DRAFT.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-20T12:50:00-08:00",
     "last_completed_date": "2026-11-20",
@@ -10,7 +15,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-20T12:50:00-08:00",
+    "last_worker_run": "2026-11-20T14:45:00-08:00",
     "next": 1547,
     "queue": [
         {
