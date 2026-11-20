@@ -5,7 +5,7 @@ The 2027 Volkswagen Atlas is a three-row family SUV that earned IIHS Top Safety 
 
 ## Kill test
 - **Newsworthy?** Yes. Filed with NHTSA Nov 4, 2026; acknowledgment Nov 16; press Nov 17-18, 2026. Fresh, and owner letters do not mail until Jan 3, 2027, so the warning window is live right now.
-- **Novel angle?** Yes. Not "another recall" — the defect is thread, and the same car's LATCH hardware has carried a Marginal rating for eight model years. No prior Crash Report article covers 26V732 (checked: zero matches in drafts/ and stories/; the Atlas water-pump settlement piece #1076 is unrelated).
+- **Novel angle?** Yes. Not "another recall" — the defect is thread, and the same car's LATCH hardware has carried a Marginal rating for nine model years. No prior Crash Report article covers 26V732 (checked: zero matches in drafts/ and stories/; the Atlas water-pump settlement piece #1076 is unrelated).
 - **Original contribution:** (1) Connecting IIHS's 2018-2026 Marginal LATCH rating for the Atlas to the 2027 FMVSS 225 failure — same hardware lineage, same seat, same complaint, different legal consequence. (2) The center-seat irony: the second-row center is the statistically safest seating position for a child, and it is the one position VW is telling owners not to use. (3) The detection story: found by third-party testing, not by VW's own quality checks, and verified against design drawings — the factory built it wrong and shipped it anyway.
 
 ## Primary sources
@@ -35,7 +35,7 @@ The 2027 Volkswagen Atlas is a three-row family SUV that earned IIHS Top Safety 
 - "Third-party testing" found the defect, but the filing and press do not name the tester. Do not guess who it was.
 
 ## Strongest counterargument
-3,914 vehicles is a small recall, the fix is a free seam repair, nobody was hurt, and VW found it, filed it, and told owners within days. The center seat still works with a seat-belt installation, which is an approved method. A reasonable reader could conclude this is the recall system functioning exactly as designed: a minor manufacturing slip, caught early, fixed free. The counter to the counter: the slip was caught by an outside tester, not by VW, after the same car's LATCH hardware had been rated Marginal for eight straight model years. A system that flags a weakness for eight years and then ships the same seat with the anchors sewn shut is not a system learning. It is a system filing paperwork.
+3,914 vehicles is a small recall, the fix is a free seam repair, nobody was hurt, the defect was found by third-party testing, and VW reported it to NHTSA on November 4, 2026. The center seat still works with a seat-belt installation, which is an approved method. A reasonable reader could conclude this is the recall system functioning exactly as designed: a minor manufacturing slip, caught early, fixed free. The counter to the counter: the slip was caught by an outside tester, not by VW, after the same car's LATCH hardware had been rated Marginal for nine straight model years. A system that flags a weakness for nine years and then ships the same seat with the anchors sewn shut is not a system learning. It is a system filing paperwork.
 
 ## Journalist
 Mia Crumplezone — Safety Engineering Editor. Design/manufacturing defect in child-restraint hardware is her beat; she gets judgmental about bad vehicle design, and a family SUV that cannot hold a child seat is the purest form of that.
