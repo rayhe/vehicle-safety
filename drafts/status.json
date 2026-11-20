@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1542-paccar-radar-brakes-for-left-lane-ghosts",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Mia Crumplezone",
-        "started": "2026-11-20T02:30:00-08:00"
+        "started": "2026-11-20T02:30:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-20 00:30 run: #854 PUBLISHED + QA live-verified (1/day slot). #1541 RESEARCH/DRAFT/CRITIQUE(r0 8.74 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-10-01. next bumped 1541->1542.",
     "last_checked": "2026-11-19T14:30:00-08:00",
