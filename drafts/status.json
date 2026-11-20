@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1541-outside-vehicle-death-share-record-high",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-20T00:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-20 00:30 run: #854 PUBLISHED + QA live-verified (1/day slot). #1541 RESEARCH complete (outside-vehicle death share 38% record high, DOT HS 813 791 Fig 3 + 813 875) \u2014 DRAFT next.",
+    "current": null,
+    "last_check_note": "2026-11-20 00:30 run: #854 PUBLISHED + QA live-verified (1/day slot). #1541 RESEARCH/DRAFT/CRITIQUE(r0 8.74 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-10-01. next bumped 1541->1542.",
     "last_checked": "2026-11-19T14:30:00-08:00",
-    "last_completed": "2026-11-19T22:30:00-08:00",
-    "last_completed_date": "2026-11-19",
-    "last_journalist": "Mia Crumplezone",
+    "last_completed": "2026-11-20T00:45:00-08:00",
+    "last_completed_date": "2026-11-20",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
     "last_worker_run": "2026-11-20T00:45:00-08:00",
-    "next": 1541,
+    "next": 1542,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -27619,6 +27613,44 @@
                 "critic_panel": "drafts/1540-atlas-sewed-its-child-seat-anchors-shut-critic-panel-r1.md"
             },
             "note": "2026-11-19 22:30 run: #1540 RESEARCH/DRAFT/CRITIQUE(r0 8.29 REVISE, r1 8.79 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-30. NHTSA 26V732: 3,914 MY2027 Atlas, center LATCH openings ~60% sewn shut (KBB), FMVSS 225 fail; IIHS Marginal LATCH 2018-2026 (nine years). r0 caught a real error: eight vs nine model years, fixed everywhere."
+        },
+        {
+            "number": 1541,
+            "slug": "1541-outside-vehicle-death-share-record-high",
+            "title": "The Car Got Safe. The Street Didn't.",
+            "journalist": "Rex Driverton",
+            "ship_date": "2028-10-01",
+            "phase": "SHIP_BLOCKED",
+            "avg_critic": 8.74,
+            "critique_round": 0,
+            "files": {
+                "research": "drafts/1541-outside-vehicle-death-share-record-high-research.md",
+                "hero": "drafts/1541-outside-vehicle-death-share-record-high.jpg",
+                "critic_panel": "drafts/1541-critic-panel-r0.md"
+            },
+            "scores": {
+                "general_editor": 8.7,
+                "voice_coach": 8.8,
+                "ethics_reviewer": 8.6,
+                "social_shareability": 8.6,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.8,
+                "data_presentation": 8.7
+            },
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 0.0,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_hash": "b9c64d4a",
+                "hero_dim": "2736x912",
+                "rhythm": "pass (var 1083.9, short 14.3%, long 57.1%)",
+                "word_count": 520
+            },
+            "kicker": "Trend Watch",
+            "note": "2026-11-20 00:30 run: #1541 RESEARCH/DRAFT/CRITIQUE(r0 8.74 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-10-01. DOT HS 813 791 Fig 3: outside-vehicle death share 20% (1996) to 38% (2024, record high); absolute inversion computed (outside ~8,410 to 14,781, +76%; inside ~33,650 to 24,473, -27%). H1 2026 context from DOT HS 813 875 (16,750 deaths, rate 1.02). Round-0 panel: 7/7 critics >= 8.5, all hard gates pass, no revision."
         }
     ]
 }
