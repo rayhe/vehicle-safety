@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1537-ford-transit-bcmc-freeze-trailer-lights-dark",
-        "phase": "CRITIQUE",
-        "journalist": "Clara Rollover",
-        "started": "2026-11-19T16:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-19 16:30 run: RESEARCH #1537 done \u2014 Ford Transit BCMC freeze (26V727, 60,956 2026 vans, trailer lights dark, FMVSS 108). Coverage verified: zero matches for 26V727/26C49; killed angles logged (rollaway #1339, Takata #1493, C-HR #876/#900, BMW 26V733 #1490, Harley 26V730 #1462, ZDX #1521, PE26008 #1447, EA26007 #1527, RQ26006 #1461/#1523, 26V721 #1533, H1 2026 #1458, Nov census #1528, IIHS round #1244/#1408/#1484). Journalist Clara Rollover. Proceeding to DRAFT in the same run.",
+    "current": null,
+    "last_check_note": "2026-11-19 16:30 run: #1537 RESEARCH/DRAFT/CRITIQUE(r0 8.21 REVISE, r1 8.93 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-27. PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today) \u2014 gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) hero-ready, publishes in the next run after midnight (2026-11-20). next bumped 1537->1538.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-19T12:30:00-08:00",
     "last_completed_date": "2026-11-17",
-    "last_journalist": "Mia Crumplezone",
+    "last_journalist": "Clara Rollover",
     "last_published": "2026-11-19T00:30:00-08:00",
     "last_published_date": "2026-11-19",
     "last_published_slug": "853-ricon-runaway-lift-two-diodes",
     "last_qa_date": "2026-11-19",
     "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-19T16:50:00-08:00",
-    "next": 1537,
+    "last_worker_run": "2026-11-19T17:00:00-08:00",
+    "next": 1538,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -27506,6 +27500,47 @@
             "ship_date": "2028-09-26",
             "slug": "1536-35-to-44-deaths-up-33-percent-decade",
             "title": "The Fastest-Growing Death Toll on American Roads Belongs to 35-to-44-Year-Olds"
+        },
+        {
+            "avg_critic": 8.93,
+            "critique_round": 1,
+            "files": {
+                "critic_panel": "drafts/1537-ford-transit-bcmc-freeze-trailer-lights-dark-critic-panel-r1.md",
+                "hero": "drafts/1537-ford-transit-bcmc-freeze-trailer-lights-dark.jpg",
+                "research": "drafts/1537-ford-transit-bcmc-freeze-trailer-lights-dark-research.md",
+                "story": "drafts/1537-ford-transit-bcmc-freeze-trailer-lights-dark.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "f91785a3",
+                "hero_jpeg": true,
+                "rhythm_pass": true,
+                "rhythm_short_pct": 10.7,
+                "rhythm_variance": 514.2,
+                "style_css": true,
+                "the_starters_pct": 0.0,
+                "word_count": 940
+            },
+            "journalist": "Clara Rollover",
+            "kicker": "Investigation",
+            "note": "2026-11-19 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.21 REVISE; r1 avg 8.93 SHIP)/SHIP in one run. Ford Transit BCMC freeze, NHTSA 26V727: 60,956 2026 vans, wrong-priority interrupt routine infinite-loops the module, kills trailer lights + 5 more systems (FMVSS 108); recovery is disconnecting the 12V battery; dealer fix free now, OTA Jan 2027; 0 crashes/injuries; FARS Transit 0.14 rate vs Express 0.92 / Savana 0.54 / E-350 2.51. R0 panel caught 6 real errors (build-date year 2025 not 2026, Express rate, five-star claim, 53rd ordinal, field-report conflation, required-window claim); all fixed in r1 + research file. Killed angles this run: BMW 26V733 (#1490), Harley 26V730 (#1462), ZDX 26V735 (#1521), ProMaster (#1148), PE26008 (#1447), EA26007 (#1527), RQ26006 (#1461/#1523), Honda 26V721 (#1533), Ford rollaway 741k (#1339), Takata 314k (#1493), C-HR (#876/#900), H1 2026 (#1458), Nov census (#1528), IIHS round (#1244/#1408/#1484). Queued 2028-09-27.",
+            "number": 1537,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 8.5,
+                "general_editor": 9.0,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 9.0,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-09-27",
+            "slug": "1537-ford-transit-bcmc-freeze-trailer-lights-dark",
+            "title": "Ford's New Transit Vans Can Go Dark While Towing. The Reset Is Pulling the Battery."
         }
     ]
 }
