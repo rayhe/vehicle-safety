@@ -1,5 +1,11 @@
 {
-    "current": null,
+    "current": {
+        "slug": "1540-atlas-sewed-its-child-seat-anchors-shut",
+        "phase": "CRITIQUE",
+        "journalist": "Mia Crumplezone",
+        "started": "2026-11-19T22:30:00-08:00",
+        "round": 0
+    },
     "last_check_note": "2026-11-19 20:30 run: #1539 RESEARCH/DRAFT/CRITIQUE(r0 8.36 REVISE, r1 8.93 SHIP)/SHIP complete \u2014 queued SHIP_BLOCKED 2028-09-29. PUBLISH-QUEUE: 1/day slot consumed by #853 (published 00:28 PT today) \u2014 gate count 1, publishing skipped. #854 (light-boy-26v564-detachable-light-tower, due 2026-11-19) hero-ready, publishes in the next run after midnight (2026-11-20). next bumped 1539->1540.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-19T20:30:00-08:00",
@@ -10,7 +16,7 @@
     "last_published_slug": "853-ricon-runaway-lift-two-diodes",
     "last_qa_date": "2026-11-19",
     "last_qa_note": "QA 2026-11-19 00:30 run: #853 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #852), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-19T20:30:00-08:00",
+    "last_worker_run": "2026-11-19T22:30:00-08:00",
     "next": 1540,
     "queue": [
         {
