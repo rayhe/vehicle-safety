@@ -1,6 +1,11 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-20 04:30 run: full pipeline #1543 RESEARCH/DRAFT/CRITIQUE(r0 8.86 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-03. 1/day publish slot already consumed today by #854 (2026-11-20 00:30); publish-queue skipped. next bumped 1543->1544.",
+    "current": {
+        "slug": "1544-one-operator-four-truck-makers-snap-ring",
+        "phase": "DRAFT",
+        "journalist": "Axle McScatter",
+        "started": "2026-11-20T06:30:00-08:00"
+    },
+    "last_check_note": "2026-11-20 06:30 run: RESEARCH #1544 complete - one-operator snap-ring cluster (6,932 trucks, 7 campaigns, 4 OEMs). Kill-test passed; 15 angles screened as duplicates. Journalist Axle McScatter.",
     "last_checked": "2026-11-19T14:30:00-08:00",
     "last_completed": "2026-11-20T05:15:00-08:00",
     "last_completed_date": "2026-11-20",
