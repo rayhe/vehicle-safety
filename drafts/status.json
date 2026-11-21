@@ -1,22 +1,16 @@
 {
-  "current": {
-    "slug": "1550-honda-takata-second-wave-810k",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-20T20:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-20 20:45 run: DRAFT #1550 complete (Axle McScatter; hero JPEG 1920x1280 verified, hash 8425375c; rhythm PASS variance 2476.9/short 4.2%/long 54.2%; em 0, banned 0, The 8.6%, css ok). Proceeding to CRITIQUE r0.",
+  "current": null,
+  "last_check_note": "2026-11-20 22:30 run: CRITIQUE+SHIP #1550 (Axle McScatter) panel r0 avg 8.79 SHIP; queued SHIP_BLOCKED 2028-10-10. PUBLISH-QUEUE: 1/day slot already used by #854 today, no publish.",
   "last_checked": "2026-11-20T19:05:00-08:00",
   "last_completed": "2026-11-20T19:05:00-08:00",
   "last_completed_date": "2026-11-20",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Axle McScatter",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified — story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-20T20:45:00-08:00",
+  "last_worker_run": "2026-11-20T22:30:00-08:00",
   "next": 1550,
   "queue": [
     {
@@ -27974,6 +27968,30 @@
         "critic_panel": "drafts/1549-honda-civic-fourth-deadliest-first-car-critic-panel-r0.md"
       },
       "note": "2026-11-20 18:30 run: full pipeline #1549 RESEARCH/DRAFT/CRITIQUE(r0 8.81 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-09. Angle: Honda Civic FARS deep dive (6,553 deaths, 4th of 337, rate 2.25) with impairment-parity cross-tab (Civic/Forte 5.6x at identical impairment) + IIHS 2026 sedan/hatch split (sedan moderate overlap A, rear restraints M, no award; hatchback G, TSP). November recall pool fully mined this run (all 26V6xx-26V7xx campaigns already covered); FARS angle chosen. Bookkeeping fix: next was stale at 1548 though #1548 already queued; bumped to 1550."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1550-honda-takata-second-wave-810k-critic-panel-r0.md",
+        "hero": "images/1550-honda-takata-second-wave-810k.jpg",
+        "research": "drafts/1550-honda-takata-second-wave-810k-research.md",
+        "story": "stories/1550-honda-takata-second-wave-810k.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dash": 0,
+        "hero_jpeg": true,
+        "the_starters_pct": 3.8
+      },
+      "journalist": "Axle McScatter",
+      "note": "2026-11-20 22:30 run: CRITIQUE r0 avg 8.79 (Gen 9.0, Voice 8.5, Ethics 9.0, Social 8.5, Legal 9.0, Rigor 8.5, Data 9.0) SHIP; gates pass (em 0, banned 0, The 3.8%, css ok, hero JPEG 1920x1280). Queued SHIP_BLOCKED 2028-10-10 (1 day after latest SHIP_BLOCKED 2028-10-09). 1/day slot already consumed today by #854 (00:30), so no publish this run.",
+      "number": 1550,
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-10-10",
+      "slug": "1550-honda-takata-second-wave-810k",
+      "title": "Takata's Second Wave Just Doubled: Honda Recalls 810,592 More"
     }
   ]
 }
