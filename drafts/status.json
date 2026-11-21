@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1551-camry-safest-sedan-fifth-deadliest",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-21T00:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-21 00:30 run: DRAFT #1551 done (Vin Wreckage, 760 words, hero JPEG 2240x1120 ?v=948bc1d7). Pre-critique gates: em 0, banned 0, The 10.3%, rhythm PASS (var 2071.5/short 13.2%/long 52.6%), class=story, style.css. Proceeding to CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-21 00:30 run: CRITIQUE+SHIP #1551 (Vin Wreckage) panel r0 avg 8.69 SHIP; queued SHIP_BLOCKED 2028-10-11. Proceeding to PUBLISH-QUEUE.",
   "last_checked": "2026-11-20T19:05:00-08:00",
-  "last_completed": "2026-11-20T19:05:00-08:00",
-  "last_completed_date": "2026-11-20",
-  "last_journalist": "Axle McScatter",
+  "last_completed": "2026-11-21T00:30:00-08:00",
+  "last_completed_date": "2026-11-21",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
   "last_worker_run": "2026-11-21T00:30:00-08:00",
-  "next": 1551,
+  "next": 1552,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -27998,6 +27992,45 @@
       "ship_date": "2028-10-10",
       "slug": "1550-honda-takata-second-wave-810k",
       "title": "Takata's Second Wave Just Doubled: Honda Recalls 810,592 More"
+    },
+    {
+      "number": 1551,
+      "slug": "1551-camry-safest-sedan-fifth-deadliest",
+      "title": "The Safest Sedan in America Has Killed 6,328 People",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-10-11",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.69,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 10.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2240x1120",
+        "hero_hash": "948bc1d7",
+        "word_count": 760,
+        "rhythm": "PASS var 2071.5/short 13.2%/long 52.6%"
+      },
+      "files": {
+        "research": "drafts/1551-camry-safest-sedan-fifth-deadliest-research.md",
+        "story": "drafts/1551-camry-safest-sedan-fifth-deadliest.html",
+        "hero": "drafts/1551-camry-safest-sedan-fifth-deadliest.jpg",
+        "critic_panel": "drafts/1551-critic-panel-r0.md"
+      },
+      "note": "2026-11-21 00:30 run: full pipeline #1551 (Vin Wreckage) \u2014 Camry FARS standalone: 6,328 deaths (5th of 337), rate 2.03, TSP+ 2026 vs body-count tension; flat exposure-year trend; 2007 spike disclosed unexplained; round-0 SHIP avg 8.69, 7/7 >= 8.5; gates: em 0, banned 0, The 10.3%, rhythm PASS, hero JPEG 2240x1120 ?v=948bc1d7. Queued SHIP_BLOCKED 2028-10-11 (1 day after #1550)."
     }
   ]
 }
