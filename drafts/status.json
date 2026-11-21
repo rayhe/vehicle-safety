@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-11-21 00:30 run: CRITIQUE+SHIP #1551 (Vin Wreckage) panel r0 avg 8.69 SHIP; queued SHIP_BLOCKED 2028-10-11. Proceeding to PUBLISH-QUEUE.",
+  "last_check_note": "2026-11-21 00:30 run COMPLETE: #1551 researched/drafted/critiqued (r0 avg 8.69, SHIP) and queued SHIP_BLOCKED 2028-10-11; #855 PUBLISHED + QA-verified live (commit e2af59e7). 1/day gate consumed. Next due: #856 (q1-2026-second-lowest-rate-099, ship_date 2026-11-21) \u2014 publishable from the next run. next=1552.",
   "last_checked": "2026-11-20T19:05:00-08:00",
   "last_completed": "2026-11-21T00:30:00-08:00",
   "last_completed_date": "2026-11-21",
@@ -2210,9 +2210,9 @@
       },
       "journalist": "Mia Crumplezone",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.77 avg; 7/7 critics >= 8.5. Anchor: Sep 9, 2026 Reuters/NHTSA report (201,976 Jeeps, TPMS software error in RF hub, FMVSS 138 noncompliance). Novel: 844K (Aug 26V531 rearview camera, FMVSS 111) + 202K = 1,045,976 vehicles in ~4 weeks whose mandated safety warnings were disabled by radio-stack software; the no-watchdog architectural claim. NHTSA campaign number not yet published at press time. Mia Crumplezone sequel to her Jul 1 TPMS piece.",
+      "note": "2026-11-21 00:30 run: PUBLISHED (commit e2af59e7) \u2014 story + hero moved to stories//images/, index card top of grid, sitemap entry lastmod 2026-11-21. QA live 00:48 PST: story renders (headline/byline/hero confirmed), hero JPEG 1920x1280 loads, og:title/og:description/og:image present in the deployed file (hash-matched ?v=ae935e51), index card first in grid, sitemap entry present. 1/day gate consumed (1 publish on 2026-11-21).",
       "number": 855,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 8.8,
         "ethics_reviewer": 8.8,
