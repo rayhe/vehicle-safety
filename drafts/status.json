@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1557-forester-rear-belt-fix-tsp-plus",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-21T12:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-21 10:30 run COMPLETE: #1556 researched/drafted/critiqued (r0 avg 8.76, SHIP) and queued SHIP_BLOCKED 2028-10-16; 1/day gate consumed by #855 publish today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1557.",
   "last_checked": "2026-11-20T19:05:00-08:00",
   "last_completed": "2026-11-21T10:49:00-08:00",
@@ -28227,6 +28221,51 @@
         "critic_panel": "drafts/1556-automakers-sue-new-jersey-recall-pay-fight-critic-panel-r0.md"
       },
       "note": "2026-11-21 10:30 run: researched/drafted/critiqued round 0, VERDICT: SHIP (avg 8.76, all 7 critics 8.5+). Nov 20, 2026: Ford, Honda, Stellantis, VW sued NJ in federal court (Trenton) to block the Motor Vehicle Open Recall Notice and Fair Compensation Act (retail-rate dealer reimbursement, effective Apr 1, 2026); same day Honda 810,592 + Toyota 314,029 Takata + Stellantis 82,843 Ram = 1,207,464 US vehicles recalled. Original: same-day ledger, $375M = 0.83% of NJ $45.4B auto retail, stop-sale math $450/mo on $30k car, 50.3% completion stakes. Two pre-panel fixes: 1.6M worldwide/US scope, plaintiffs share 893,435 (74%). Rhythm failed first run (short 20.0%), merged six short sentences, re-run passes (6.1%). Queued SHIP_BLOCKED 2028-10-16."
+    },
+    {
+      "number": 1557,
+      "slug": "1557-forester-rear-belt-fix-tsp-plus",
+      "title": "Subaru Fixed the Back Seat With a Seat Belt. The CR-V Still Hasn\u2019t",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-10-17",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.7
+      },
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "created": "2026-11-21",
+      "files": {
+        "research": "drafts/1557-forester-rear-belt-fix-tsp-plus-research.md",
+        "story": "drafts/1557-forester-rear-belt-fix-tsp-plus.html",
+        "hero": "drafts/1557-forester-rear-belt-fix-tsp-plus.jpg",
+        "critic_panel": "drafts/1557-forester-rear-belt-fix-tsp-plus-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "8045368b",
+        "sentence_rhythm": {
+          "passed": true,
+          "variance": 1346.5,
+          "short_pct": 13.5,
+          "long_pct": 59.5
+        }
+      },
+      "word_count": 1303,
+      "note": "2026-11-21 12:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.80, round 0). IIHS Nov 17, 2026 round: 2026 Forester revised rear seat belts, Acceptable->Good (CEF2566, all Good, 4.5 kN), 20th straight TSP honor / 10th TSP+ under tightened 2026 criteria; CR-V Poor (CEF2343), RAV4 Hybrid Acceptable, RAV4 PHEV Marginal, Q3 Poor, Trailblazer short of Good; Kicks Good only on builds after June 2026 (belt revision). Original math: Forester FARS rate 0.26 vs CR-V 0.53 (2.04x); RAV4 lowest at 0.19 despite no award; Kicks 0.69 highest among passers; impairment spread 4.5 pts vs rate spread 20x. Duplicate-screen: PE26008 already #1447, EA26007 already #1527, 26V721/26V727/26V732/26V691 already covered, NHTSA H1 2026 already #1532, CT5 already #1074, Kicks/RAV4 round already #1484/#1408, CR-V Poor already #1392 (different pair, no Forester). Gates: em 0, banned 0, The-starters 2.0%, rhythm PASS, hero JPEG 1920x1280 ?v=8045368b. Queued SHIP_BLOCKED 2028-10-17 (1 day after #1556 2028-10-16)."
     }
   ]
 }
