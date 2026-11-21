@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1555-byassee-603m-counterfeit-airbag-verdict",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-21T08:45:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-21 08:30 run: #1554 was already queued SHIP_BLOCKED 2028-10-14 by the 06:30 run, but status.json still said next=1554 (06:30 run did not bump next/last_worker_run/last_journalist); treated 1554 as complete, corrected next to 1555. Researching #1555: Byassee $603M counterfeit-airbag verdict (Rex Driverton). 1/day gate consumed by #855 publish 00:30, so #856 (due 2026-11-21) held for next run.",
+  "current": null,
+  "last_check_note": "2026-11-21 08:30 run COMPLETE: #1555 researched/drafted/critiqued (r0 avg 8.83, SHIP) and queued SHIP_BLOCKED 2028-10-15; 1/day gate consumed by #855 publish at 00:30, so #856 (due 2026-11-21) NOT published this run \u2014 earliest-due next run. next=1556.",
   "last_checked": "2026-11-20T19:05:00-08:00",
-  "last_completed": "2026-11-21T06:39:34-08:00",
+  "last_completed": "2026-11-21T09:05:00-08:00",
   "last_completed_date": "2026-11-21",
-  "last_journalist": "Dale Impactor III",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-21T08:45:00-08:00",
-  "next": 1555,
+  "last_worker_run": "2026-11-21T09:05:00-08:00",
+  "next": 1556,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -28151,6 +28145,44 @@
         "critic_panel": "drafts/1554-ford-excursion-f250-twin-roof-crush-critic-panel-r0.md"
       },
       "note": "2026-11-21 06:30 run: researched/drafted/critiqued round 0, VERDICT: SHIP (avg 8.87, all 7 critics 8.5+). Platform-matched Excursion vs F-250 cross-tab: 1.65 vs 0.43 per 100M miles (3.84x); deaths-per-crash 0.58 vs 0.36; Trejo v. Ford roof-crush record (SWR 1.25 vs 1.725 guideline, $70 fix). One pre-panel fix: sentence rhythm (short sentences 22.9% to 11.1%). Queued SHIP_BLOCKED 2028-10-14."
+    },
+    {
+      "number": 1555,
+      "slug": "1555-byassee-603m-counterfeit-airbag-verdict",
+      "title": "Her Airbag Was a Counterfeit. A Jury Says Her Life Was Worth $603 Million.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-10-15",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.83,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "20eed6de",
+        "word_count": 810
+      },
+      "files": {
+        "research": "drafts/1555-byassee-603m-counterfeit-airbag-verdict-research.md",
+        "story": "drafts/1555-byassee-603m-counterfeit-airbag-verdict.html",
+        "hero": "drafts/1555-byassee-603m-counterfeit-airbag-verdict.jpg",
+        "critic_panel": "drafts/1555-byassee-603m-counterfeit-airbag-verdict-critic-panel-r0.md"
+      },
+      "note": "2026-11-21 08:30 run: researched/drafted/critiqued round 0, VERDICT: SHIP (avg 8.83, all 7 critics 8.5+). Broward County jury, June 12, 2026: $603M ($243M compensatory + $360M punitive) to the family of Destiny Byassee, 22, killed June 11, 2023 when a counterfeit DTN airbag in her 2020 Malibu exploded; DTN filed a denial and did not attend trial. Original: five-company chain of custody (Enterprise/Manheim/DriveTime/Jumbo), pretensioner wires cut, Byassee died 2+ years before NHTSA opened EA25005. One pre-panel fix: lawsuit-allegation attribution (allegedly). Queued SHIP_BLOCKED 2028-10-15. NOTE: status.json next was stale at 1554 (06:30 run queued 1554 but did not bump next); corrected to 1556."
     }
   ]
 }
