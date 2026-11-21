@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-21 00:30 run COMPLETE: #1551 researched/drafted/critiqued (r0 avg 8.69, SHIP) and queued SHIP_BLOCKED 2028-10-11; #855 PUBLISHED + QA-verified live (commit e2af59e7). 1/day gate consumed. Next due: #856 (q1-2026-second-lowest-rate-099, ship_date 2026-11-21) \u2014 publishable from the next run. next=1552.",
+  "current": {
+    "slug": "1552-avalon-safer-toyota-killed-anyway",
+    "phase": "DRAFT",
+    "journalist": "Clara Rollover",
+    "started": "2026-11-21T02:30:00-08:00"
+  },
+  "last_check_note": "2026-11-21 02:30 run: #1552 researched (Avalon, Clara Rollover); #856 due today but 1/day gate consumed by #855 publish at 00:30. Next due #856 publishes next run.",
   "last_checked": "2026-11-20T19:05:00-08:00",
   "last_completed": "2026-11-21T00:30:00-08:00",
   "last_completed_date": "2026-11-21",
