@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1553-thanksgiving-428-deaths-104-belt-choice",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-21T04:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-21 04:30 run: #1553 researched (NSC Thanksgiving 2026 estimate, 428 deaths, 104 belt lives) and in DRAFT; #856 (due 2026-11-21) held by 1/day gate (Publish #855 consumed the slot at 00:30). next=1553.",
+  "current": null,
+  "last_check_note": "2026-11-21 04:30 run COMPLETE: #1553 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-13; 1/day gate consumed by #855 publish at 00:30, so #856 (due 2026-11-21) NOT published this run \u2014 earliest-due next run. next=1554.",
   "last_checked": "2026-11-20T19:05:00-08:00",
-  "last_completed": "2026-11-21T02:30:00-08:00",
+  "last_completed": "2026-11-21T04:30:00-08:00",
   "last_completed_date": "2026-11-21",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
   "last_worker_run": "2026-11-21T04:30:00-08:00",
-  "next": 1553,
+  "next": 1554,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -28075,6 +28069,44 @@
         "critic_panel": "drafts/1552-critic-panel-r1.md"
       },
       "note": "2026-11-21 02:30 run: researched/drafted/critiqued (r0 Legal 8.4 on missing NHTSA citation; r1 fix added MotorTrend ref-9, avg 8.70, SHIP) and queued SHIP_BLOCKED 2028-10-12. Avalon 469 deaths, rate 1.33 vs Camry 2.03; impairment inversion (21.7% vs 19.2%); exposure-year halving for newer Avalons."
+    },
+    {
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1553-thanksgiving-428-deaths-104-belt-choice-critic-panel-r0.md",
+        "hero": "drafts/1553-thanksgiving-428-deaths-104-belt-choice.jpg",
+        "research": "drafts/1553-thanksgiving-428-deaths-104-belt-choice-research.md",
+        "story": "drafts/1553-thanksgiving-428-deaths-104-belt-choice.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "0d902740",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 6.9,
+        "word_count": 494
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "note": "2026-11-21 04:30 run: round-0 panel VERDICT: SHIP (avg 8.79, all 7 critics 8.5+). NSC Thanksgiving 2026 estimate (428 deaths, CI 372-487, 104 belt lives). One pre-panel fix: 4.25-day weekend wording. Queued SHIP_BLOCKED 2028-10-13.",
+      "number": 1553,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 8.5,
+        "general_editor": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.5,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-10-13",
+      "slug": "1553-thanksgiving-428-deaths-104-belt-choice",
+      "title": "428 People Will Die This Thanksgiving. 104 of Them Just Need to Click a Belt."
     }
   ]
 }
