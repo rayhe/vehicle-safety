@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1553-thanksgiving-428-deaths-104-belt-choice",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Dale Impactor III",
-    "started": "2026-11-21T04:30:00-08:00"
+    "started": "2026-11-21T04:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-21 04:30 run: #1553 researched (NSC Thanksgiving 2026 estimate, 428 deaths, 104 belt lives) and in DRAFT; #856 (due 2026-11-21) held by 1/day gate (Publish #855 consumed the slot at 00:30). next=1553.",
   "last_checked": "2026-11-20T19:05:00-08:00",
