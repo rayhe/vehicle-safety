@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1552-avalon-safer-toyota-killed-anyway",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-21T02:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-21 02:30 run: #1552 researched (Avalon, Clara Rollover); #856 due today but 1/day gate consumed by #855 publish at 00:30. Next due #856 publishes next run.",
+  "current": null,
+  "last_check_note": "2026-11-21 02:30 run: #1552 researched/drafted/critiqued (r1 avg 8.70, SHIP) and queued SHIP_BLOCKED 2028-10-12; #856 due today but 1/day gate consumed by #855 publish at 00:30. Next due #856 publishes next run. next=1553.",
   "last_checked": "2026-11-20T19:05:00-08:00",
-  "last_completed": "2026-11-21T00:30:00-08:00",
+  "last_completed": "2026-11-21T02:30:00-08:00",
   "last_completed_date": "2026-11-21",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
   "last_worker_run": "2026-11-21T00:30:00-08:00",
-  "next": 1552,
+  "next": 1553,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -28037,6 +28031,44 @@
         "critic_panel": "drafts/1551-critic-panel-r0.md"
       },
       "note": "2026-11-21 00:30 run: full pipeline #1551 (Vin Wreckage) \u2014 Camry FARS standalone: 6,328 deaths (5th of 337), rate 2.03, TSP+ 2026 vs body-count tension; flat exposure-year trend; 2007 spike disclosed unexplained; round-0 SHIP avg 8.69, 7/7 >= 8.5; gates: em 0, banned 0, The 10.3%, rhythm PASS, hero JPEG 2240x1120 ?v=948bc1d7. Queued SHIP_BLOCKED 2028-10-11 (1 day after #1550)."
+    },
+    {
+      "number": 1552,
+      "slug": "1552-avalon-safer-toyota-killed-anyway",
+      "title": "Toyota Killed the Avalon. The Data Says It Was the Safer Toyota.",
+      "journalist": "Clara Rollover",
+      "kicker": "The Gap",
+      "ship_date": "2028-10-12",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 1,
+      "avg_critic": 8.7,
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.6,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.6,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.7,
+        "data_presentation": 8.7
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 4.9,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7d8320ac",
+        "word_count": 971
+      },
+      "files": {
+        "research": "drafts/1552-avalon-safer-toyota-killed-anyway-research.md",
+        "story": "drafts/1552-avalon-safer-toyota-killed-anyway.html",
+        "hero": "drafts/1552-avalon-safer-toyota-killed-anyway.jpg",
+        "critic_panel": "drafts/1552-critic-panel-r1.md"
+      },
+      "note": "2026-11-21 02:30 run: researched/drafted/critiqued (r0 Legal 8.4 on missing NHTSA citation; r1 fix added MotorTrend ref-9, avg 8.70, SHIP) and queued SHIP_BLOCKED 2028-10-12. Avalon 469 deaths, rate 1.33 vs Camry 2.03; impairment inversion (21.7% vs 19.2%); exposure-year halving for newer Avalons."
     }
   ]
 }
