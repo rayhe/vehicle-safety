@@ -1,6 +1,11 @@
 {
-  "current": null,
-  "last_check_note": "2026-11-21 04:30 run COMPLETE: #1553 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-13; 1/day gate consumed by #855 publish at 00:30, so #856 (due 2026-11-21) NOT published this run \u2014 earliest-due next run. next=1554.",
+  "current": {
+    "slug": "1555-byassee-603m-counterfeit-airbag-verdict",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-21T08:45:00-08:00"
+  },
+  "last_check_note": "2026-11-21 08:30 run: #1554 was already queued SHIP_BLOCKED 2028-10-14 by the 06:30 run, but status.json still said next=1554 (06:30 run did not bump next/last_worker_run/last_journalist); treated 1554 as complete, corrected next to 1555. Researching #1555: Byassee $603M counterfeit-airbag verdict (Rex Driverton). 1/day gate consumed by #855 publish 00:30, so #856 (due 2026-11-21) held for next run.",
   "last_checked": "2026-11-20T19:05:00-08:00",
   "last_completed": "2026-11-21T06:39:34-08:00",
   "last_completed_date": "2026-11-21",
@@ -10,8 +15,8 @@
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-21T04:30:00-08:00",
-  "next": 1554,
+  "last_worker_run": "2026-11-21T08:45:00-08:00",
+  "next": 1555,
   "queue": [
     {
       "journalist": "Rex Driverton",
