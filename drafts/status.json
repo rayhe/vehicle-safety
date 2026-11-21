@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1549-honda-civic-fourth-deadliest-first-car",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-20T18:45:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-20 14:30 run: full pipeline #1547 RESEARCH/DRAFT/CRITIQUE(r0 8.86 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-07. Publish-queue: 1/day gate already consumed by #854 (00:30, 1 publish today); #855 due 2026-11-20 stays queued for tomorrow. next bumped 1547->1548.",
-  "last_checked": "2026-11-20T18:55:00-08:00",
-  "last_completed": "2026-11-20T16:30:00-08:00",
+  "current": null,
+  "last_check_note": "2026-11-20 18:30 run: full pipeline #1549 RESEARCH/DRAFT/CRITIQUE(r0 8.81 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-09. Publish-queue: 1/day gate already consumed by #854 (00:30, 1 publish today); #855 due 2026-11-20 stays queued for tomorrow. next bumped 1549->1550.",
+  "last_checked": "2026-11-20T19:05:00-08:00",
+  "last_completed": "2026-11-20T19:05:00-08:00",
   "last_completed_date": "2026-11-20",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-20T15:15:00-08:00",
-  "next": 1549,
+  "last_worker_run": "2026-11-20T19:05:00-08:00",
+  "next": 1550,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -27935,6 +27929,45 @@
         "critic_panel": "drafts/1548-bmw-water-pump-recall-redo-park-outside-critic-panel-r0.md"
       },
       "note": "2026-11-20 16:30 run: full pipeline RESEARCH/DRAFT/CRITIQUE(r0 8.91 SHIP)/SHIP complete. BMW 26V733 (720,796 cars, filed Nov 4, alert Nov 13): water-pump connector PBT hydrolysis, replaces failed 2024 fix 24V608 (shield); same 720,796 vehicles, no remedy, park outside. Original math: 2024 fix 29.4% complete (211,553), 509,243 never shielded; 10 incidents = 1.4/100k; <0.1% defect caps truly defective at ~721; top 3 models 70.8%; 51-day dealer-to-owner gap, 42-day VIN blackout. Duplicate check rejected Tesla FSD filings (heavily covered), GM 26V717 (#1387), Honda 26V721, NHTSA H1 2026, prehospital blood (#1201). Rhythm fixed pre-panel: short% 25.0->10.8% via 8 fragment merges. Queued SHIP_BLOCKED 2028-10-08 (1 day after #1547 2028-10-07)."
+    },
+    {
+      "number": 1549,
+      "slug": "1549-honda-civic-fourth-deadliest-first-car",
+      "title": "America's First Car Is Its Fourth-Deadliest. The Drivers Aren't the Problem.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-10-09",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "avg_critic": 8.81,
+      "critique_round": 0,
+      "created": "2026-11-20",
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 8.2,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "ada4fa68",
+        "word_count": 722
+      },
+      "files": {
+        "research": "drafts/1549-honda-civic-fourth-deadliest-first-car-research.md",
+        "story": "drafts/1549-honda-civic-fourth-deadliest-first-car.html",
+        "hero": "drafts/1549-honda-civic-fourth-deadliest-first-car.jpg",
+        "critic_panel": "drafts/1549-honda-civic-fourth-deadliest-first-car-critic-panel-r0.md"
+      },
+      "note": "2026-11-20 18:30 run: full pipeline #1549 RESEARCH/DRAFT/CRITIQUE(r0 8.81 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-09. Angle: Honda Civic FARS deep dive (6,553 deaths, 4th of 337, rate 2.25) with impairment-parity cross-tab (Civic/Forte 5.6x at identical impairment) + IIHS 2026 sedan/hatch split (sedan moderate overlap A, rear restraints M, no award; hatchback G, TSP). November recall pool fully mined this run (all 26V6xx-26V7xx campaigns already covered); FARS angle chosen. Bookkeeping fix: next was stale at 1548 though #1548 already queued; bumped to 1550."
     }
   ]
 }
