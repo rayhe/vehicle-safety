@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1555-byassee-603m-counterfeit-airbag-verdict",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-21T08:45:00-08:00"
+    "started": "2026-11-21T08:45:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-21 08:30 run: #1554 was already queued SHIP_BLOCKED 2028-10-14 by the 06:30 run, but status.json still said next=1554 (06:30 run did not bump next/last_worker_run/last_journalist); treated 1554 as complete, corrected next to 1555. Researching #1555: Byassee $603M counterfeit-airbag verdict (Rex Driverton). 1/day gate consumed by #855 publish 00:30, so #856 (due 2026-11-21) held for next run.",
   "last_checked": "2026-11-20T19:05:00-08:00",
