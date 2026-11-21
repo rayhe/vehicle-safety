@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1556-automakers-sue-new-jersey-recall-pay-fight",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-21T10:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-21 10:30 run: #1556 researched (NJ recall-pay lawsuit, Clara Rollover); 1/day gate consumed by #855 publish today, #856 (due 2026-11-21) waits for next run.",
+  "current": null,
+  "last_check_note": "2026-11-21 10:30 run COMPLETE: #1556 researched/drafted/critiqued (r0 avg 8.76, SHIP) and queued SHIP_BLOCKED 2028-10-16; 1/day gate consumed by #855 publish today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1557.",
   "last_checked": "2026-11-20T19:05:00-08:00",
-  "last_completed": "2026-11-21T08:49:34-08:00",
+  "last_completed": "2026-11-21T10:49:00-08:00",
   "last_completed_date": "2026-11-21",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-20T00:30:00-08:00",
   "last_published_date": "2026-11-20",
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified — story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-21T10:30:00-08:00",
-  "next": 1556,
+  "last_worker_run": "2026-11-21T10:49:00-08:00",
+  "next": 1557,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -28189,6 +28183,44 @@
         "critic_panel": "drafts/1555-byassee-603m-counterfeit-airbag-verdict-critic-panel-r0.md"
       },
       "note": "2026-11-21 08:30 run: researched/drafted/critiqued round 0, VERDICT: SHIP (avg 8.83, all 7 critics 8.5+). Broward County jury, June 12, 2026: $603M ($243M compensatory + $360M punitive) to the family of Destiny Byassee, 22, killed June 11, 2023 when a counterfeit DTN airbag in her 2020 Malibu exploded; DTN filed a denial and did not attend trial. Original: five-company chain of custody (Enterprise/Manheim/DriveTime/Jumbo), pretensioner wires cut, Byassee died 2+ years before NHTSA opened EA25005. One pre-panel fix: lawsuit-allegation attribution (allegedly). Queued SHIP_BLOCKED 2028-10-15. NOTE: status.json next was stale at 1554 (06:30 run queued 1554 but did not bump next); corrected to 1556."
+    },
+    {
+      "number": 1556,
+      "slug": "1556-automakers-sue-new-jersey-recall-pay-fight",
+      "title": "Four Automakers Sued New Jersey the Same Day 1.2 Million Cars Were Recalled",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "ship_date": "2028-10-16",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.76,
+      "scores": {
+        "general_editor": 8.6,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.6
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "475bce11",
+        "word_count": 935
+      },
+      "files": {
+        "research": "drafts/1556-automakers-sue-new-jersey-recall-pay-fight-research.md",
+        "story": "drafts/1556-automakers-sue-new-jersey-recall-pay-fight.html",
+        "hero": "drafts/1556-automakers-sue-new-jersey-recall-pay-fight.jpg",
+        "critic_panel": "drafts/1556-automakers-sue-new-jersey-recall-pay-fight-critic-panel-r0.md"
+      },
+      "note": "2026-11-21 10:30 run: researched/drafted/critiqued round 0, VERDICT: SHIP (avg 8.76, all 7 critics 8.5+). Nov 20, 2026: Ford, Honda, Stellantis, VW sued NJ in federal court (Trenton) to block the Motor Vehicle Open Recall Notice and Fair Compensation Act (retail-rate dealer reimbursement, effective Apr 1, 2026); same day Honda 810,592 + Toyota 314,029 Takata + Stellantis 82,843 Ram = 1,207,464 US vehicles recalled. Original: same-day ledger, $375M = 0.83% of NJ $45.4B auto retail, stop-sale math $450/mo on $30k car, 50.3% completion stakes. Two pre-panel fixes: 1.6M worldwide/US scope, plaintiffs share 893,435 (74%). Rhythm failed first run (short 20.0%), merged six short sentences, re-run passes (6.1%). Queued SHIP_BLOCKED 2028-10-16."
     }
   ]
 }
