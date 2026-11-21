@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1550-honda-takata-second-wave-810k",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-20T20:30:00-08:00"
+    "started": "2026-11-20T20:30:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-20 20:30 run: RESEARCH #1550 complete (Honda Takata 26V765, 810,592, filed Nov 19; Toyota 26V748 companion; 1.6M combined week). Kill test passed; 0 prior coverage of 26V765/810,592. Proceeding to DRAFT.",
+  "last_check_note": "2026-11-20 20:45 run: DRAFT #1550 complete (Axle McScatter; hero JPEG 1920x1280 verified, hash 8425375c; rhythm PASS variance 2476.9/short 4.2%/long 54.2%; em 0, banned 0, The 8.6%, css ok). Proceeding to CRITIQUE r0.",
   "last_checked": "2026-11-20T19:05:00-08:00",
   "last_completed": "2026-11-20T19:05:00-08:00",
   "last_completed_date": "2026-11-20",
@@ -15,7 +16,7 @@
   "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
   "last_qa_date": "2026-11-20",
   "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified — story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-  "last_worker_run": "2026-11-20T20:30:00-08:00",
+  "last_worker_run": "2026-11-20T20:45:00-08:00",
   "next": 1550,
   "queue": [
     {
