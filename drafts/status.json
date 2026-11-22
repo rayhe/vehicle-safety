@@ -1,12 +1,6 @@
 {
- "current": {
-  "slug": "1569-lincoln-navigator-ghost-seat-chauffeur-smudge",
-  "phase": "CRITIQUE",
-  "journalist": "Rex Driverton",
-  "started": "2026-11-22T12:30:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-22 12:30 run: #1569 drafted (Rex Driverton, hero JPEG 1920x1280 hash 386d7c9f, rhythm PASS, em 0, banned 0, The 0%); proceeding to CRITIQUE.",
+ "current": null,
+ "last_check_note": "2026-11-22 12:30 run: DUPLICATE KILL #1569 Navigator ghost seat (26V691) - identical to queued #1423 (SHIP_BLOCKED 2028-06-05, researched Nov 7): same campaign, same 31.1x/38,183 computations, same feature-deletion framing. Draft+hero removed, commits d7a1a88f/45c1aa37 superseded by this cleanup. Coverage check failed: queue-slug grep missed it; campaign-number grep is mandatory. next stays 1569; researching a replacement topic this run.",
  "last_checked": "2026-11-22T08:30:00-08:00",
  "last_completed": "2026-11-22T10:30:00-08:00",
  "last_completed_date": "2026-11-22",
