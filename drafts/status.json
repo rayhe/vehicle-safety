@@ -1,11 +1,6 @@
 {
- "current": {
-  "slug": "1567-kicks-beats-rav4-back-seat-test",
-  "phase": "DRAFT",
-  "journalist": "Mia Crumplezone",
-  "started": "2026-11-22T08:30:00-08:00"
- },
- "last_check_note": "2026-11-22 08:30 run: #1567 researched + drafted (Mia Crumplezone, IIHS Nov 2026 moderate-overlap batch: Kicks Good/TSP vs RAV4 A/M, Q3 Poor); hero JPEG 1920x1280 hash e6c0ec22. 1/day publish gate already consumed today (2 Publish commits); #857 due 2026-11-22 stays queued. next=1568.",
+ "current": null,
+ "last_check_note": "2026-11-22 08:30 run: #1567 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-27; 1/day publish gate already consumed today (2 Publish commits), #857 due 2026-11-22 stays queued for next run. next=1568.",
  "last_checked": "2026-11-22T08:30:00-08:00",
  "last_completed": "2026-11-22T04:55:00-08:00",
  "last_completed_date": "2026-11-22",
@@ -28624,6 +28619,50 @@
    "ship_date": "2028-10-26",
    "slug": "1566-new-hampshire-live-free-die-unbuckled",
    "title": "Live Free or Die Unbuckled: New Hampshire's Seat Belt Exception Has a Body Count"
+  },
+  {
+   "avg_critic": 8.79,
+   "blocked_reason": "Queued behind prior drafts; next publish slot 2028-10-27; 1/day rule.",
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1567-kicks-beats-rav4-back-seat-test-critic-panel-r0.md",
+    "draft": "drafts/1567-kicks-beats-rav4-back-seat-test.html",
+    "hero": "drafts/1567-kicks-beats-rav4-back-seat-test.jpg",
+    "research": "drafts/1567-kicks-beats-rav4-back-seat-test-research.md"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "e6c0ec22",
+    "hero_jpeg": true,
+    "sentence_rhythm": {
+     "long_pct": 43.8,
+     "passed": true,
+     "short_pct": 10.4,
+     "variance": 527.2
+    },
+    "style_css": true,
+    "the_starters_pct": 9.4,
+    "word_count": 925
+   },
+   "journalist": "Mia Crumplezone",
+   "kicker": "The Gap",
+   "note": "Round-0 pass 8.79 avg; 7/7 critics >= 8.5. Novel: first site coverage of the Nov 2026 IIHS moderate-overlap batch (Kicks Good/TSP vs RAV4 A, RAV4 PHEV M, Q3 P, Trailblazer P); batch cross-tab 1 of 5 SUVs pass; build-date roulette (2026 Kicks Good only if built after June 2026; Palisade TSP+ only after Nov 2025); price inversion ($22,730 Kicks out-protects luxury Audi and best-selling SUV). Pre-panel fix: The-starters 20.8% to 9.4%. Trailblazer Marginal-vs-Poor discrepancy resolved to IIHS (Poor).",
+   "number": 1567,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 8.6,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.7,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.9,
+    "social_shareability": 8.7,
+    "voice_coach": 8.8
+   },
+   "ship_date": "2028-10-27",
+   "slug": "1567-kicks-beats-rav4-back-seat-test",
+   "title": "The $23,000 Nissan Kicks Just Out-Crashed America's Best-Selling SUV"
   }
  ]
 }
