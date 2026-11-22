@@ -1,22 +1,17 @@
 {
-    "current": {
-        "slug": "1563-toyota-takata-recall-of-the-recall",
-        "phase": "DRAFT",
-        "journalist": "Axle McScatter",
-        "started": "2026-11-22T00:30:00-08:00"
-    },
-    "last_check_note": "2026-11-22 00:30 run: #1563 researched (Toyota 26V748 Takata recall-of-the-recall, 314,029 US + Honda 810,592 same week = 1.12M; Axle McScatter). Proceeding to DRAFT.",
+    "current": null,
+    "last_check_note": "2026-11-22 00:30 run: #1563 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; proceeding to PUBLISH-QUEUE (#856 due 2026-11-21).",
     "last_checked": "2026-11-21T22:55:00-08:00",
-    "last_completed": "2026-11-21T22:50:00-08:00",
-    "last_completed_date": "2026-11-21",
-    "last_journalist": "Mia Crumplezone",
+    "last_completed": "2026-11-22T00:45:00-08:00",
+    "last_completed_date": "2026-11-22",
+    "last_journalist": "Axle McScatter",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-22T00:30:00-08:00",
-    "next": 1563,
+    "last_worker_run": "2026-11-22T00:45:00-08:00",
+    "next": 1564,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28464,6 +28459,44 @@
             },
             "note": "2026-11-21 22:30 run: full pipeline RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-22. Hendrickson STEERTEK NXT steer axle equipment recall 26E078 (14,238 axles, filed Nov 11; Huck collars not swaged; Kenworth/Peterbilt/International/Blue Bird; no vehicle named, no VIN lookup). Duplicate check rejected Honda 26V721, GM 26V717, Hyundai 26V728, Ford Transit 26V727, Navigator 26V691, VW Atlas 26V732, Ram 26V756, NHTSA H1 2026, IIHS back-seat, Vistiq 26V394, FARS impairment/lethality extremes, driveline snap-ring cluster - all already covered.",
             "started": "2026-11-21T22:33:00-08:00"
+        },
+        {
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1563-critic-panel-r0.md",
+                "draft": "drafts/1563-toyota-takata-recall-of-the-recall.html",
+                "hero": "drafts/1563-toyota-takata-recall-of-the-recall.jpg",
+                "research": "drafts/1563-toyota-takata-recall-of-the-recall-research.md"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "f3294e0e",
+                "hero_jpeg": true,
+                "style_css": true,
+                "the_starters_pct": 0.0,
+                "word_count": 470
+            },
+            "journalist": "Axle McScatter",
+            "kicker": "By The Numbers",
+            "note": "2026-11-22 00:30 run: researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; rhythm fixed pre-critique (short 20.6% -> 13.3%).",
+            "number": 1563,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 9.0,
+                "general_editor": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.5,
+                "voice_coach": 8.5
+            },
+            "ship_date": "2028-10-23",
+            "slug": "1563-toyota-takata-recall-of-the-recall",
+            "title": "Toyota Recalls the Recall: 314,029 Takata Airbags Hit the End of Their Safe Life"
         }
     ]
 }
