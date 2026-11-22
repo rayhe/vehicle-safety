@@ -2236,7 +2236,7 @@
             "slug": "q1-2026-second-lowest-rate-099",
             "title": "0.99: One Hundredth From History",
             "note": "2026-11-22 00:30 run: published as #856 (earliest-due SHIP_BLOCKED, 1/day slot; 0 prior publishes today). Pre-ship fixes: hero hash 53e6e33a -> 6109a9f8 (stale); gates re-verified: em 0, banned 0, The 7.5%, class=story, style.css, hero JPEG 1920x1280.",
-            "publish_commit": "pending"
+            "publish_commit": "7d318d1d"
         },
         {
             "avg_critic": 8.8,
