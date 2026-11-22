@@ -1,16 +1,10 @@
 {
- "current": {
-  "slug": "1566-new-hampshire-live-free-die-unbuckled",
-  "phase": "CRITIQUE",
-  "journalist": "Clara Rollover",
-  "started": "2026-11-22T06:30:00-08:00",
-  "round": 0
- },
- "last_check_note": "2026-11-22 04:30 run: #1565 researched/drafted/critiqued (r0 avg 8.74, SHIP) and queued SHIP_BLOCKED 2028-10-25; 1/day publish gate consumed today (#856 published 00:55), #857 due 2026-11-22 stays queued for next run. next=1566.",
- "last_checked": "2026-11-22T04:55:00-08:00",
+ "current": null,
+ "last_check_note": "2026-11-22 06:30 run: #1566 researched/drafted/critiqued (r0 avg 8.81, SHIP) and queued SHIP_BLOCKED 2028-10-26; 1/day publish gate consumed today (#856 published 00:55), #857 due 2026-11-22 stays queued for next run. next=1567.",
+ "last_checked": "2026-11-22T06:55:00-08:00",
  "last_completed": "2026-11-22T04:55:00-08:00",
  "last_completed_date": "2026-11-22",
- "last_journalist": "Axle McScatter",
+ "last_journalist": "Clara Rollover",
  "last_published": "2026-11-22T00:55:00-08:00",
  "last_published_date": "2026-11-22",
  "last_published_slug": "856-q1-2026-second-lowest-rate-099",
@@ -28581,6 +28575,50 @@
    "ship_date": "2028-10-25",
    "slug": "1565-road-deaths-map-counties-deadlier",
    "title": "America Celebrated Fewer Road Deaths. 183 Counties Got Deadlier Anyway."
+  },
+  {
+   "avg_critic": 8.81,
+   "blocked_reason": "Queued behind prior drafts; next publish slot 2028-10-26; 1/day rule.",
+   "critique_round": 0,
+   "files": {
+    "critic_panel": "drafts/1566-new-hampshire-live-free-die-unbuckled-critic-panel-r0.md",
+    "draft": "drafts/1566-new-hampshire-live-free-die-unbuckled.html",
+    "hero": "drafts/1566-new-hampshire-live-free-die-unbuckled.jpg",
+    "research": "drafts/1566-new-hampshire-live-free-die-unbuckled-research.md"
+   },
+   "hard_gates": {
+    "banned_phrases": 0,
+    "css_class": true,
+    "em_dashes": 0,
+    "hero_hash": "e91ee88a",
+    "hero_jpeg": true,
+    "sentence_rhythm": {
+     "long_pct": 41.7,
+     "passed": true,
+     "short_pct": 14.6,
+     "variance": 502.5
+    },
+    "style_css": true,
+    "the_starters_pct": 0.0,
+    "word_count": 1075
+   },
+   "journalist": "Clara Rollover",
+   "kicker": "The Gap",
+   "note": "Round-0 pass 8.81 avg; 7/7 critics >= 8.5. Novel: first site coverage of New Hampshire as the only no-adult-belt-law state, priced from the July 2026 Rice et al. FARS study (OR 2.80 in-state, 2.06 exported risk for NH-licensed drivers out of state) cross-tabulated with NHTSA Oct 2026 state tables (NH 78.2% use, 59% unrestrained death share vs 48% national) and the 68%-vs-7% primary/secondary enforcement split. Two pre-panel accuracy fixes: CA unrestrained share 43% from Table 7; NH 0.96 vs national 1.19 death rate (IIHS + DOT HS 813 791).",
+   "number": 1566,
+   "phase": "SHIP_BLOCKED",
+   "scores": {
+    "data_presentation": 8.8,
+    "ethics_reviewer": 9.0,
+    "general_editor": 8.7,
+    "legal_accuracy": 8.8,
+    "research_rigor": 8.9,
+    "social_shareability": 8.7,
+    "voice_coach": 8.8
+   },
+   "ship_date": "2028-10-26",
+   "slug": "1566-new-hampshire-live-free-die-unbuckled",
+   "title": "Live Free or Die Unbuckled: New Hampshire Seat Belt Exception Has a Body Count"
   }
  ]
 }
