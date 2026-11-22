@@ -1,6 +1,6 @@
 {
  "current": null,
- "last_check_note": "2026-11-22 12:30 run: DUPLICATE KILL #1569 Navigator 26V691 (identical to queued #1423, SHIP_BLOCKED 2028-06-05; same 31.1x/38,183 computations, same feature-deletion framing). Draft+hero removed, cleanup 903a2dd5. Replacement-topic hunt exhausted: 26V727 Transit #1537, 26V732 Atlas #1540, 26V726 Explorer #1466, 26V750 Tundra #1507, 26V687 Lexus NX #1277/#1360, 26V735 ZDX #1521, 26TA22 RAV4 PHEV #1166/#1233, 26TB23 Land Cruiser #1230/#1248/#1340, Honda start-stop EA26007 #1527, Hyundai ACU 26V728 #1400/#1429/#1444, GM Lyriq 26V717 #1387/#1421, Toyota Takata 26V748 #1563, S2000 26V749 #1545, 26V653 speedometer #1223/#1333, IIHS Kicks/RAV4/CR-V back-seat round #1484/#1567/#1557, FARS Veloster #1064/#1363, Tracker #908, Land Cruiser sober #1220, Park Avenue #868 - ALL covered. No new article this run; forcing one risks a second duplicate. next stays 1569. Publish gate consumed today (2 Publish # commits); #857 due 2026-11-22 stays queued for next run.",
+ "last_check_note": "2026-11-22 14:30 run: RESEARCH hunt, no new article - every fresh candidate covered. 26V746 Volvo driveline -> #1544 snap-ring cluster (primary subject). 26V719 Mack hill-start -> #1526 smallest-recalls census (primary subject). 26V765 Honda Takata 810,592 -> #1550 (primary subject). EA26007 Honda stop-start 1,033,632 (Nov 17) -> #1527. DP26013 Palisade defog petition -> #1538 (primary subject). IIHS Kicks/RAV4/CR-V back-seat batch -> #1484/#1567/#1557. 26V756 Ram ABS -> #1568. 26V748 Toyota Takata -> #1563. 26V732 Atlas -> #1540. 26V735 ZDX -> #1521. 26V726 Explorer -> #1466. 26V752/26V753 Altec -> #1543. 26V705 Forest River -> #1381. 26V069 Kona knuckle -> #1477. FARS 2025 36,640/1.10 -> site story 'Every Road in America Got Safer in 2025. Except One.' H1 2026 estimate 16,750/DOT HS 813 875 -> #1494. NTSB Learjet Greenacres crash is aviation, out of scope. No new article this run; forcing one risks a duplicate (see 12:30 run lesson). Publish gate consumed today (Publish #856 commits 7d318d1d + 2dffbce5); #857 due 2026-11-22, hero JPEG verified 1920x1280, stays queued for next run. next stays 1569.",
  "last_checked": "2026-11-22T08:30:00-08:00",
  "last_completed": "2026-11-22T10:30:00-08:00",
  "last_completed_date": "2026-11-22",
@@ -10,7 +10,7 @@
  "last_published_slug": "856-q1-2026-second-lowest-rate-099",
  "last_qa_date": "2026-11-22",
  "last_qa_note": "QA 2026-11-22 00:30 run: #856 live verified - story 200 (10,142 bytes), hero JPEG 200 (541,747 bytes), og:title/og:description/og:image present (hash 6109a9f8), index card present, sitemap entry present, em dashes 0. Deploy needed one retry (wrangler fetch-failed flap, 2nd attempt clean).",
- "last_worker_run": "2026-11-22T13:00:00-08:00",
+ "last_worker_run": "2026-11-22T14:30:00-08:00",
  "next": 1569,
  "queue": [
   {
