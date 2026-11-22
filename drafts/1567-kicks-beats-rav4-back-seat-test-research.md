@@ -1,0 +1,54 @@
+# Research — #1567: The $23,000 Nissan Kicks Just Out-Crashed America's Best-Selling SUV
+
+**Slug:** `1567-kicks-beats-rav4-back-seat-test`
+**Journalist:** Mia Crumplezone (Safety Engineering Editor — rear-seat restraints, crash structure; her beat, and she hasn't had the last several)
+**Kicker:** The Gap
+**Date researched:** 2026-11-22
+**Target ship_date:** 2028-10-27 (1 day after #1566's 2028-10-26)
+
+## Story in one line
+In IIHS's November 2026 batch of updated moderate-overlap crash tests, the cheapest car in the group — the $22,730 Nissan Kicks — earned a Good rating and a Top Safety Pick award, while the redesigned 2026 Toyota RAV4, America's best-selling SUV at 479,288 sold in 2025, managed only Acceptable (hybrid) and Marginal (plug-in hybrid), and the luxury Audi Q3 scored Poor. The back seat is where the money stops mattering.
+
+## Kill test
+- **Genuinely newsworthy?** YES. Announced Nov 5, 2026 (AutoGuide; Jalopnik Oct 31). The best-selling SUV in America failing the rear-seat test while the cheapest subcompact in the batch passes it is a genuine upset, and the RAV4 is a full redesign — this is not a carryover rating.
+- **Novel angle on data?** YES. Full queue/drafts grep: zero prior coverage of the Nov 2026 IIHS moderate-overlap batch, of the Kicks rear-belt fix, of the RAV4 PHEV Marginal, or of the Q3 Poor. Nearest neighbors: #1557 (2026 Forester rear-belt fix, TSP+) is a different model and a success story, not a batch comparison; #1077 (Crown Signia back-seat fail) is a different test year and model. Nobody on this site has ever run the batch cross-tab or the build-date-roulette finding.
+- **3+ primary sources?** YES. (1) IIHS current ratings, small SUVs class summary — primary, fetched live Nov 22, 2026; (2) AutoGuide, Nov 5, 2026; (3) Jalopnik, Oct 31, 2026; (4) SlashGear, Nov 2026; (5) KBB/best-selling-cars.com for RAV4 2025 sales; (6) Edmunds/Nissan for Kicks MSRP.
+- **Verdict:** PROCEED.
+
+## Primary sources
+1. **IIHS, Current ratings for Small SUVs (class summary), fetched live 2026-11-22.** https://www.iihs.org/ratings/class-summary/small-suvs — Moderate overlap front column: Nissan Kicks 2027 G (Top Safety Pick); Audi Q3 2027 P; Toyota RAV4 2026 A; Toyota RAV4 Plug-In Hybrid 2026 M; Chevrolet Trailblazer 2027 P. All five earned G in small overlap front and side. Test definition: 40 mph, 40% of width strikes a deformable barrier; driver dummy is a 50th-percentile adult male, rear dummy is about the size of a 5th-percentile smaller woman, or a 12-year-old child.
+2. **AutoGuide, "Nissan Kicks Earns Safety Award as Audi, Toyota and Chevy Fall Short," Nov 5, 2026.** https://www.autoguide.com/auto/manufacturers/nissan/nissan-kicks-earns-safety-award-as-audi-toyota-and-chevy-fall-short-44641444 — Kicks initially Poor on the redesigned 2025 model; Nissan revised rear seat belts and load limiters on vehicles built after June 2026; retest Good; 2026 Top Safety Pick applies to 2026/2027 models built after that date. Q3 Poor: rear lap belt could slip off the pelvis. RAV4 Hybrid Acceptable, PHEV Marginal. Trailblazer Marginal in this account (see discrepancy note below).
+3. **Jalopnik, "2026 Audi Q3 And Toyota RAV4 PHEV Underperform In IIHS Updated Moderate Overlap Crash Test," Oct 31, 2026.** https://www.jalopnik.com/2300434/audi-q3-and-toyota-rav4-underperform-in-updated-iihs-test/ — Q3: moderate risk of rear-seat chest injury, shoulder belt slipping toward the dummy's neck; Poor rear restraints and dummy kinematics; lap belt moved from pelvis to abdomen. RAV4 PHEV: same failure mode, shoulder belt toward neck, lap belt onto abdomen. Trailblazer earned Poor (Jalopnik). 2027 VW Jetta earned Good. Rear dummy = 5th-percentile female / 12-year-old child.
+4. **SlashGear, "This SUV Beat Out The Toyota RAV4 For 2026's Top Safety Award," Nov 2026.** https://www.slashgear.com/2304316/2026-iihs-top-safety-pick-suv-not-toyota-rav4/ — Kicks is one of the cheapest new vehicles on sale; RAV4 Good in every category except moderate overlap; Kicks' only weak spot was a Marginal vehicle-to-vehicle front crash prevention rating, which is not required for the base Top Safety Pick award.
+5. **Kelley Blue Book / best-selling-cars.com, 2025 full-year US sales.** https://www.kbb.com/best-cars/top-10-25-best-selling-cars-trucks-suvs/ — RAV4: 479,288 sold in 2025, best-selling SUV in the US, top non-pickup vehicle overall; 2024: 475,193. 2025 RAV4 PHEV: 20,272 of the total; hybrids 181,433.
+6. **Edmunds / Nissan USA, 2026 Kicks pricing.** https://www.edmunds.com/nissan/kicks/highlights/ — 2026 Kicks price range $22,730–$28,460; base S FWD $22,730 MSRP. Average new-car transaction price topped $50,000 (USA Today, Nov 11, 2026).
+
+## Key verified facts
+- **The batch (Nov 2026, IIHS updated moderate overlap front):** 2026–2027 Nissan Kicks Good; 2026 Toyota RAV4 Acceptable; 2026 RAV4 Plug-In Hybrid Marginal; 2027 Audi Q3 Poor; 2026 Chevrolet Trailblazer Poor (per IIHS current ratings + Jalopnik); 2027 Volkswagen Jetta Good.
+- **The Kicks fix:** redesigned Kicks debuted for 2025 and initially scored Poor. Nissan changed the rear seat belts and added revised load limiters on cars built after June 2026. Retest: Good. The award applies ONLY to 2026 and 2027 Kicks built after June 2026.
+- **The failure mode, identical across Q3 and RAV4 PHEV:** shoulder belt rides up toward the dummy's neck; lap belt slides off the pelvis onto the abdomen. Abdominal loading is the injury mechanism. Both cars earned Good in small overlap front, side, headlights, and front crash prevention — the back seat is the ONLY failing category.
+- **RAV4 context:** 479,288 sold in the US in 2025 — best-selling SUV, third-best-selling vehicle overall behind two pickups. The 2026 model is a full redesign and is hybrid-only (plus PHEV). Both powertrains missed the award.
+- **Award rules (IIHS):** 2026 Top Safety Pick requires Good in small overlap, moderate overlap, and side, plus Acceptable-or-better headlights and pedestrian crash prevention. Kicks earned the base award (its Marginal vehicle-to-vehicle prevention rating blocks the "+" tier only).
+- **Test history:** IIHS added the rear dummy to the moderate overlap test in 2022 and tightened scoring in 2024. The rear dummy represents a 5th-percentile woman or a 12-year-old child — the person most likely to be sitting behind the driver in a family SUV.
+- **Discrepancy note (Trailblazer):** AutoGuide's Nov 5 account says the Trailblazer earned Marginal; Jalopnik (Oct 31) and the live IIHS ratings page (2027 Trailblazer row) say Poor. IIHS is the primary source and wins; the article uses Poor and cites IIHS. Possibly AutoGuide conflated the 2026 test with an earlier rating or a different sub-rating.
+
+## Original contribution (Mia's math and synthesis)
+1. **Batch cross-tab, 4 of 6 fail.** Of the six vehicles in the November batch, four failed to earn Good in the rear-seat test (RAV4 A, RAV4 PHEV M, Q3 P, Trailblazer P). The two that passed: the cheapest car in the batch (Kicks, $22,730) and a sedan (Jetta). Among SUVs, the pass rate was 1 in 5.
+2. **Build-date roulette.** Two 2026 Nissan Kicks with the same nameplate, same model year, same window sticker can carry different crash ratings — Poor if built before June 2026, Good if built after. The safety rating is a function of the build month, not the model year. Same story at Hyundai: the 2026 Palisade's Top Safety Pick+ applies only to cars built after November 2025, when Hyundai changed rear seatbelt buckles. Shoppers who check "the 2026 Kicks is a Top Safety Pick" without checking the door-jamb build date can buy the wrong car.
+3. **Price buys nothing in the back seat.** The Kicks costs less than half the average new car ($22,730 vs $50,000+ average transaction price) and out-protected the rear passenger better than a luxury Audi and America's best-selling SUV. The rear-seat belt and load-limiter fix that earned the Kicks its Good rating is a parts-bin change, not a platform redesign — Nissan proved the fix is cheap, which makes the failures elsewhere a choice, not a constraint.
+4. **The 2022 test is still catching cars designed before it existed.** IIHS added the rear dummy in 2022 and tightened scoring in 2024; the RAV4 and Q3 are clean-sheet 2026 redesigns that still failed it. This is not a legacy-platform problem anymore. The front seat has had 30 years of optimization; the back seat is still where manufacturers cut corners, because until 2022 nobody was watching.
+
+## Limitations
+- IIHS ratings are test results, not real-world fatality rates; FARS cannot yet confirm whether the RAV4's Acceptable/Marginal rear-seat scores translate into real injuries, because the 2026 redesign has barely a year of crash exposure.
+- The Trailblazer Marginal-vs-Poor discrepancy (AutoGuide vs IIHS/Jalopnik) is unresolved beyond trusting IIHS as primary; the article states Poor with an IIHS citation.
+- Kicks sales volume and the share of pre-June-2026 Kicks still on lots are unknown; the build-date warning is about the mechanism, not a counted population.
+- The article does not claim the RAV4 is unsafe overall: it earned Good in every other IIHS category. The claim is narrow — the rear-seat restraint system underperformed in one specific, newly-stringent test.
+
+## Strongest counterargument
+The moderate overlap test is one scenario — a 40 mph offset frontal with a small rear dummy — and Toyota could reasonably argue that its real-world rear-seat injury record is strong, that the PHEV's Marginal reflects a belt-geometry edge case in a test configuration most families will never replicate, and that a single Acceptable/Marginal in one test does not make the RAV4 a dangerous car. That is mostly true: the RAV4 earned Good everywhere else, and no FARS data yet shows elevated rear-seat deaths in it. The counterargument fails only on the comparison: Nissan fixed the identical failure mode with a belt and load-limiter change inside a single model year, on a car that costs half as much. If the fix is that cheap, "one test scenario" stops being a defense and starts being an excuse.
+
+## Actionable takeaways
+- Shopping for a 2026 Kicks: check the door-jamb build date. Only cars built after June 2026 carry the Good rating and the Top Safety Pick. A pre-June car is the same model year with a Poor rear-seat score.
+- Shopping for a 2026 RAV4 or RAV4 PHEV: the rear seat is the weak spot. If you regularly carry kids or smaller adults in back, know the PHEV scored Marginal — the lap belt can ride up onto the abdomen.
+- Shopping for a 2027 Audi Q3: Poor in the updated moderate overlap test despite Good everywhere else. Same rear-seat belt problem.
+- General rule: check the IIHS rating for the exact model year AND build date at iihs.org/ratings, not just the nameplate. Awards now turn on build months.
