@@ -1,11 +1,12 @@
 {
     "current": {
         "slug": "1561-tesla-three-more-fatal-fsd-crashes-november",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Rex Driverton",
-        "started": "2026-11-21T20:45:00-08:00"
+        "started": "2026-11-21T20:45:00-08:00",
+        "round": 0
     },
-    "last_check_note": "2026-11-21 20:30 run: #1561 researched (Tesla Nov 16 FSD batch: 3 more fatal crashes, 7 deaths, Sept record 264 reports; sequel to #905, 0 prior coverage verified). DRAFT next.",
+    "last_check_note": "2026-11-21 20:30 run: #1561 drafted (Rex, Tesla Nov 16 FSD batch); hero JPEG 1920x1280 hash 96d9a97a; rhythm PASS (var 359.9, short 6.1%, long 54.5%). CRITIQUE next.",
     "last_checked": "2026-11-20T19:05:00-08:00",
     "last_completed": "2026-11-21T18:49:00-08:00",
     "last_completed_date": "2026-11-21",
@@ -15,7 +16,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-21T20:45:00-08:00",
+    "last_worker_run": "2026-11-21T21:05:00-08:00",
     "next": 1561,
     "queue": [
         {
