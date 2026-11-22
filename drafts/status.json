@@ -1,5 +1,10 @@
 {
-    "current": null,
+    "current": {
+        "slug": "1564-gallegos-219m-underride-verdict",
+        "phase": "DRAFT",
+        "journalist": "Rex Driverton",
+        "started": "2026-11-22T02:30:00-08:00"
+    },
     "last_check_note": "2026-11-22 00:30 run: #1563 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; #856 published + QA-verified live. Next due: #857 (2026-11-22). next=1564.",
     "last_checked": "2026-11-21T22:55:00-08:00",
     "last_completed": "2026-11-22T00:45:00-08:00",
@@ -10,7 +15,7 @@
     "last_published_slug": "856-q1-2026-second-lowest-rate-099",
     "last_qa_date": "2026-11-22",
     "last_qa_note": "QA 2026-11-22 00:30 run: #856 live verified - story 200 (10,142 bytes), hero JPEG 200 (541,747 bytes), og:title/og:description/og:image present (hash 6109a9f8), index card present, sitemap entry present, em dashes 0. Deploy needed one retry (wrangler fetch-failed flap, 2nd attempt clean).",
-    "last_worker_run": "2026-11-22T01:00:00-08:00",
+    "last_worker_run": "2026-11-22T02:30:00-08:00",
     "next": 1564,
     "queue": [
         {
