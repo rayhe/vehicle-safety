@@ -1,16 +1,16 @@
 {
     "current": null,
-    "last_check_note": "2026-11-22 00:30 run: #1563 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; proceeding to PUBLISH-QUEUE (#856 due 2026-11-21).",
+    "last_check_note": "2026-11-22 00:30 run: #1563 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; #856 published (due 2026-11-21, hero hash fixed pre-ship). Next due: #857 (2026-11-22).",
     "last_checked": "2026-11-21T22:55:00-08:00",
     "last_completed": "2026-11-22T00:45:00-08:00",
     "last_completed_date": "2026-11-22",
     "last_journalist": "Axle McScatter",
-    "last_published": "2026-11-20T00:30:00-08:00",
-    "last_published_date": "2026-11-20",
-    "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
+    "last_published": "2026-11-22T00:55:00-08:00",
+    "last_published_date": "2026-11-22",
+    "last_published_slug": "856-q1-2026-second-lowest-rate-099",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-22T00:45:00-08:00",
+    "last_worker_run": "2026-11-22T00:55:00-08:00",
     "next": 1564,
     "queue": [
         {
@@ -2231,10 +2231,12 @@
             "avg_critic": 8.93,
             "journalist": "Axle McScatter",
             "number": 856,
-            "phase": "SHIP_BLOCKED",
+            "phase": "PUBLISHED",
             "ship_date": "2026-11-21",
             "slug": "q1-2026-second-lowest-rate-099",
-            "title": "0.99: One Hundredth From History"
+            "title": "0.99: One Hundredth From History",
+            "note": "2026-11-22 00:30 run: published as #856 (earliest-due SHIP_BLOCKED, 1/day slot; 0 prior publishes today). Pre-ship fixes: hero hash 53e6e33a -> 6109a9f8 (stale); gates re-verified: em 0, banned 0, The 7.5%, class=story, style.css, hero JPEG 1920x1280.",
+            "publish_commit": "pending"
         },
         {
             "avg_critic": 8.8,
