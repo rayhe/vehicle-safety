@@ -1,6 +1,6 @@
 {
     "current": null,
-    "last_check_note": "2026-11-22 00:30 run: #1563 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; #856 published (due 2026-11-21, hero hash fixed pre-ship). Next due: #857 (2026-11-22).",
+    "last_check_note": "2026-11-22 00:30 run: #1563 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-23; #856 published + QA-verified live. Next due: #857 (2026-11-22). next=1564.",
     "last_checked": "2026-11-21T22:55:00-08:00",
     "last_completed": "2026-11-22T00:45:00-08:00",
     "last_completed_date": "2026-11-22",
@@ -8,9 +8,9 @@
     "last_published": "2026-11-22T00:55:00-08:00",
     "last_published_date": "2026-11-22",
     "last_published_slug": "856-q1-2026-second-lowest-rate-099",
-    "last_qa_date": "2026-11-20",
-    "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-22T00:55:00-08:00",
+    "last_qa_date": "2026-11-22",
+    "last_qa_note": "QA 2026-11-22 00:30 run: #856 live verified - story 200 (10,142 bytes), hero JPEG 200 (541,747 bytes), og:title/og:description/og:image present (hash 6109a9f8), index card present, sitemap entry present, em dashes 0. Deploy needed one retry (wrangler fetch-failed flap, 2nd attempt clean).",
+    "last_worker_run": "2026-11-22T01:00:00-08:00",
     "next": 1564,
     "queue": [
         {
