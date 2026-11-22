@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1561-tesla-three-more-fatal-fsd-crashes-november",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-21T20:45:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-21 20:30 run: #1561 drafted (Rex, Tesla Nov 16 FSD batch); hero JPEG 1920x1280 hash 96d9a97a; rhythm PASS (var 359.9, short 6.1%, long 54.5%). CRITIQUE next.",
+    "current": null,
+    "last_check_note": "2026-11-21 20:30 run: #1561 researched/drafted/critiqued (r0 avg 8.8, SHIP) and queued SHIP_BLOCKED 2028-10-21; 1/day gate consumed by Publish #855 today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1562.",
     "last_checked": "2026-11-20T19:05:00-08:00",
-    "last_completed": "2026-11-21T18:49:00-08:00",
+    "last_completed": "2026-11-21T21:15:00-08:00",
     "last_completed_date": "2026-11-21",
-    "last_journalist": "Vin Wreckage",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-21T21:05:00-08:00",
-    "next": 1561,
+    "last_worker_run": "2026-11-21T21:15:00-08:00",
+    "next": 1562,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28383,6 +28377,49 @@
                 "critic_panel": "drafts/1560-yukon-same-truck-four-times-escalade-death-rate-critic-panel-r0.md"
             },
             "note": "2026-11-21 18:30 run: RESEARCH/DRAFT/CRITIQUE in one run. Round-0 panel VERDICT: SHIP (avg 8.79). Gates: em 0, banned 0, The 9.1%, class=story, style.css, hero JPEG 1920x1280 ?v=130083a0, rhythm PASS (var 352.7). Pre-panel catch: Tahoe 2001-05 deaths corrected 1,444 to 1,355; cliff wording softened. Yukon 2.55 vs Escalade 0.64 on same GMT800/900 platform, impairment-adjusted gap stays 4.0x, counterfactual 834 deaths."
+        },
+        {
+            "number": 1561,
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-21",
+            "slug": "1561-tesla-three-more-fatal-fsd-crashes-november",
+            "title": "Tesla's Driver-Assist Was On in Three More Fatal Crashes. The Public Was Told Nothing.",
+            "journalist": "Rex Driverton",
+            "scores": {
+                "general_editor": 8.8,
+                "voice_coach": 8.9,
+                "ethics_reviewer": 8.7,
+                "social_shareability": 8.8,
+                "legal_accuracy": 8.8,
+                "research_rigor": 8.9,
+                "data_presentation": 8.7
+            },
+            "critic_avg": 8.8,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1561-tesla-three-more-fatal-fsd-crashes-november-critic-panel-r0.md",
+                "draft": "drafts/1561-tesla-three-more-fatal-fsd-crashes-november.html",
+                "hero": "drafts/1561-tesla-three-more-fatal-fsd-crashes-november.jpg",
+                "research": "drafts/1561-tesla-three-more-fatal-fsd-crashes-november-research.md"
+            },
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 2.5,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_hash": "96d9a97a",
+                "rhythm": {
+                    "variance": 356.8,
+                    "short_pct": 6.1,
+                    "long_pct": 54.5,
+                    "passed": true
+                },
+                "word_count": 846
+            },
+            "note": "Round-0 pass 8.8 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Nov 16, 2026 \u2014 three more fatal Tesla crashes matched to SGO filings (7 deaths), Sept record 264 reports, UTC timestamp quirk; sequel to #905.",
+            "started": "2026-11-21T20:45:00-08:00"
         }
     ]
 }
