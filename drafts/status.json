@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1562-hendrickson-steertek-nxt-huck-pin-axle",
-        "phase": "CRITIQUE",
-        "journalist": "Mia Crumplezone",
-        "started": "2026-11-21T22:33:00-08:00",
-        "round": 0
-    },
+    "current": null,
     "last_check_note": "2026-11-21 20:30 run: #1561 researched/drafted/critiqued (r0 avg 8.8, SHIP) and queued SHIP_BLOCKED 2028-10-21; 1/day gate consumed by Publish #855 today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1562.",
     "last_checked": "2026-11-20T19:05:00-08:00",
-    "last_completed": "2026-11-21T21:15:00-08:00",
+    "last_completed": "2026-11-21T22:50:00-08:00",
     "last_completed_date": "2026-11-21",
-    "last_journalist": "Rex Driverton",
+    "last_journalist": "Mia Crumplezone",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-21T22:45:00-08:00",
-    "next": 1562,
+    "last_worker_run": "2026-11-21T22:50:00-08:00",
+    "next": 1563,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28426,6 +28420,45 @@
             },
             "note": "Round-0 pass 8.8 avg; 7/7 critics >= 8.5; all hard gates. News peg: Electrek Nov 16, 2026 \u2014 three more fatal Tesla crashes matched to SGO filings (7 deaths), Sept record 264 reports, UTC timestamp quirk; sequel to #905.",
             "started": "2026-11-21T20:45:00-08:00"
+        },
+        {
+            "number": 1562,
+            "slug": "1562-hendrickson-steertek-nxt-huck-pin-axle",
+            "title": "The Axle That Steers the Truck Is Held On by Four Pins Nobody Set",
+            "journalist": "Mia Crumplezone",
+            "kicker": "Investigation",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-22",
+            "scores": {
+                "general_editor": 9.0,
+                "voice_coach": 8.5,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.5,
+                "data_presentation": 9.0
+            },
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 7.3,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "3e7d6ace",
+                "word_count": 496
+            },
+            "files": {
+                "research": "drafts/1562-hendrickson-steertek-nxt-huck-pin-axle-research.md",
+                "story": "drafts/1562-hendrickson-steertek-nxt-huck-pin-axle.html",
+                "hero": "drafts/1562-hendrickson-steertek-nxt-huck-pin-axle.jpg",
+                "critic_panel": "drafts/1562-hendrickson-steertek-nxt-huck-pin-axle-critic-panel-r0.md"
+            },
+            "note": "2026-11-21 22:30 run: full pipeline RESEARCH/DRAFT/CRITIQUE(r0 8.79 SHIP)/SHIP complete - queued SHIP_BLOCKED 2028-10-22. Hendrickson STEERTEK NXT steer axle equipment recall 26E078 (14,238 axles, filed Nov 11; Huck collars not swaged; Kenworth/Peterbilt/International/Blue Bird; no vehicle named, no VIN lookup). Duplicate check rejected Honda 26V721, GM 26V717, Hyundai 26V728, Ford Transit 26V727, Navigator 26V691, VW Atlas 26V732, Ram 26V756, NHTSA H1 2026, IIHS back-seat, Vistiq 26V394, FARS impairment/lethality extremes, driveline snap-ring cluster - all already covered.",
+            "started": "2026-11-21T22:33:00-08:00"
         }
     ]
 }
