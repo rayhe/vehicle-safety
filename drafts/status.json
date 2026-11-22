@@ -1,12 +1,13 @@
 {
     "current": {
         "slug": "1565-road-deaths-map-counties-deadlier",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Axle McScatter",
-        "started": "2026-11-22T04:30:00-08:00"
+        "started": "2026-11-22T04:30:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-22 02:30 run: #1564 researched/drafted/critiqued (r0 avg 8.89, SHIP) and queued SHIP_BLOCKED 2028-10-24; 1/day publish gate consumed today (#856 published 00:55), #857 due 2026-11-22 stays queued for next run. next=1565.",
-    "last_checked": "2026-11-22T04:30:00-08:00",
+    "last_checked": "2026-11-22T04:45:00-08:00",
     "last_completed": "2026-11-22T02:45:00-08:00",
     "last_completed_date": "2026-11-22",
     "last_journalist": "Rex Driverton",
