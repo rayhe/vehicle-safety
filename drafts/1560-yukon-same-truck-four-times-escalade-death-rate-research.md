@@ -47,7 +47,7 @@ At the Escalade's rate of 0.64, the Yukon's fleet (350,000) would have produced 
 
 ### Model-year distribution (FARS_MODEL_YEAR, deaths by model year of vehicle)
 - **Yukon:** deaths peak 2001-2005 (105, 117, 115, 136, 90 per year), then fall off a cliff: 25 in 2006, 91 in 2007, 49 in 2008, 18 in 2009, single digits to teens from 2010 on. 2001-2005 account for 563 of 1,114 deaths (51%).
-- **Tahoe:** same shape, bigger scale: 278-311 per year in 2001-2005, 1,444 of 2,592 deaths (56%) in those five model years.
+- **Tahoe:** same shape, bigger scale: 278-311 per year in 2001-2005, 1,355 of 2,592 deaths (52%) in those five model years.
 - **Escalade:** no peak at all. Deaths spread thin: 28 in 2002, 30 in 2007, 21 in 2004, 18 in 2005 and 2008, single digits most other years. The Escalade never had a bad vintage.
 - **Suburban:** peak 2001-2005 as well (51-72/yr), 290 of 593 (49%) in those years.
 - Caveat: model-year counts are confounded by exposure — a 2004 truck had ten years inside the 2014-2023 crash window and a 2019 truck had five. The peak is still informative because all four nameplates share the same exposure structure, and the Escalade's flat distribution under identical exposure is the anomaly.

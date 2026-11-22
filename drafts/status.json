@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1560-yukon-same-truck-four-times-escalade-death-rate",
-        "phase": "CRITIQUE",
-        "journalist": "Vin Wreckage",
-        "started": "2026-11-21T18:42:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-21 18:30 run: #1560 researched (Yukon vs Escalade, same GMT platform, 4x death-rate gap) - Vin Wreckage; drafting next. 1/day gate consumed by Publish #855 today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run.",
+    "current": null,
+    "last_check_note": "2026-11-21 18:30 run: #1560 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-20; 1/day gate consumed by Publish #855 today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1561.",
     "last_checked": "2026-11-20T19:05:00-08:00",
-    "last_completed": "2026-11-21T16:50:00-08:00",
+    "last_completed": "2026-11-21T18:49:00-08:00",
     "last_completed_date": "2026-11-21",
-    "last_journalist": "Rex Driverton",
+    "last_journalist": "Vin Wreckage",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified — story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-21T18:57:00-08:00",
-    "next": 1560,
+    "last_worker_run": "2026-11-21T18:49:00-08:00",
+    "next": 1561,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28345,6 +28339,44 @@
                 "critic_panel": "drafts/1559-mac-trailer-missing-rear-guard-liquid-tanker-critic-panel-r0.md"
             },
             "note": "2026-11-21 16:30 run: RESEARCH/DRAFT/CRITIQUE in one run. Round-0 panel VERDICT: SHIP (avg 8.86). Gates: em 0, banned 0, The 1.4%, class=story, style.css, hero JPEG 1920x1280 ?v=1bd49866, rhythm PASS (var 349.5). MAC 26V723000: 60 liquid tankers built Jun 2024-Aug 2026 missing rear impact guards entirely, after FMVSS 223/224 upgrade compliance date Jul 15 2024."
+        },
+        {
+            "number": 1560,
+            "slug": "1560-yukon-same-truck-four-times-escalade-death-rate",
+            "title": "GM Sold the Same Truck Four Ways. One of Them Kills Four Times as Often.",
+            "journalist": "Vin Wreckage",
+            "kicker": "Existential Dread",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-20",
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "scores": {
+                "general_editor": 8.5,
+                "voice_coach": 9.0,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.5,
+                "data_presentation": 9.0
+            },
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 9.1,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "130083a0",
+                "word_count": 556
+            },
+            "files": {
+                "research": "drafts/1560-yukon-same-truck-four-times-escalade-death-rate-research.md",
+                "story": "drafts/1560-yukon-same-truck-four-times-escalade-death-rate.html",
+                "hero": "drafts/1560-yukon-same-truck-four-times-escalade-death-rate.jpg",
+                "critic_panel": "drafts/1560-yukon-same-truck-four-times-escalade-death-rate-critic-panel-r0.md"
+            },
+            "note": "2026-11-21 18:30 run: RESEARCH/DRAFT/CRITIQUE in one run. Round-0 panel VERDICT: SHIP (avg 8.79). Gates: em 0, banned 0, The 9.1%, class=story, style.css, hero JPEG 1920x1280 ?v=130083a0, rhythm PASS (var 352.7). Pre-panel catch: Tahoe 2001-05 deaths corrected 1,444 to 1,355; cliff wording softened. Yukon 2.55 vs Escalade 0.64 on same GMT800/900 platform, impairment-adjusted gap stays 4.0x, counterfactual 834 deaths."
         }
     ]
 }
