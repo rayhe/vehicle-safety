@@ -1,22 +1,17 @@
 {
-    "current": {
-        "slug": "1559-mac-trailer-missing-rear-guard-liquid-tanker",
-        "phase": "DRAFT",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-21T16:30:00-08:00"
-    },
-    "last_check_note": "2026-11-21 16:30 run: RESEARCH complete for #1559 MAC trailer missing rear guard (26V723000); 1/day gate already consumed by Publish #855 today, #856 due today stays queued for next run.",
+    "current": null,
+    "last_check_note": "2026-11-21 16:30 run: #1559 researched/drafted/critiqued (r0 avg 8.86, SHIP) and queued SHIP_BLOCKED 2028-10-19; 1/day gate consumed by Publish #855 today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1560.",
     "last_checked": "2026-11-20T19:05:00-08:00",
-    "last_completed": "2026-11-21T14:50:00-08:00",
+    "last_completed": "2026-11-21T16:50:00-08:00",
     "last_completed_date": "2026-11-21",
-    "last_journalist": "Dale Impactor III",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-20T00:30:00-08:00",
     "last_published_date": "2026-11-20",
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-21T16:30:00-08:00",
-    "next": 1559,
+    "last_worker_run": "2026-11-21T16:50:00-08:00",
+    "next": 1560,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28306,6 +28301,44 @@
                 "critic_panel": "drafts/1558-new-years-day-deadliest-drunk-driving-day-critic-panel-r0.md"
             },
             "note": "2026-11-21 14:30 run: researched/drafted/critiqued (r0 avg 8.77, SHIP) and queued SHIP_BLOCKED 2028-10-18; 1/day gate consumed by #855 publish today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1559."
+        },
+        {
+            "number": 1559,
+            "slug": "1559-mac-trailer-missing-rear-guard-liquid-tanker",
+            "title": "The Guard Was Never There: 60 Liquid Tankers Shipped Without Rear Underride Protection",
+            "journalist": "Rex Driverton",
+            "kicker": "Investigation",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-19",
+            "avg_critic": 8.86,
+            "critique_round": 0,
+            "scores": {
+                "general_editor": 9.0,
+                "voice_coach": 9.0,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.5,
+                "data_presentation": 9.0
+            },
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 1.4,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "1bd49866",
+                "word_count": 1245
+            },
+            "files": {
+                "research": "drafts/1559-mac-trailer-missing-rear-guard-liquid-tanker-research.md",
+                "story": "drafts/1559-mac-trailer-missing-rear-guard-liquid-tanker.html",
+                "hero": "drafts/1559-mac-trailer-missing-rear-guard-liquid-tanker.jpg",
+                "critic_panel": "drafts/1559-mac-trailer-missing-rear-guard-liquid-tanker-critic-panel-r0.md"
+            },
+            "note": "2026-11-21 16:30 run: RESEARCH/DRAFT/CRITIQUE in one run. Round-0 panel VERDICT: SHIP (avg 8.86). Gates: em 0, banned 0, The 1.4%, class=story, style.css, hero JPEG 1920x1280 ?v=1bd49866, rhythm PASS (var 349.5). MAC 26V723000: 60 liquid tankers built Jun 2024-Aug 2026 missing rear impact guards entirely, after FMVSS 223/224 upgrade compliance date Jul 15 2024."
         }
     ]
 }
