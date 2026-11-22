@@ -1,6 +1,11 @@
 {
-    "current": null,
-    "last_check_note": "2026-11-21 22:30 run: #1562 researched/drafted/critiqued (r0 avg 8.79, SHIP) and queued SHIP_BLOCKED 2028-10-22; 1/day gate consumed by Publish #855 today, so #856 (due 2026-11-21) NOT published this run - earliest-due next run. next=1563.",
+    "current": {
+        "slug": "1563-toyota-takata-recall-of-the-recall",
+        "phase": "DRAFT",
+        "journalist": "Axle McScatter",
+        "started": "2026-11-22T00:30:00-08:00"
+    },
+    "last_check_note": "2026-11-22 00:30 run: #1563 researched (Toyota 26V748 Takata recall-of-the-recall, 314,029 US + Honda 810,592 same week = 1.12M; Axle McScatter). Proceeding to DRAFT.",
     "last_checked": "2026-11-21T22:55:00-08:00",
     "last_completed": "2026-11-21T22:50:00-08:00",
     "last_completed_date": "2026-11-21",
@@ -10,7 +15,7 @@
     "last_published_slug": "854-light-boy-26v564-detachable-light-tower",
     "last_qa_date": "2026-11-20",
     "last_qa_note": "QA 2026-11-20 00:30 run: #854 live verified \u2014 story 200 (via 308 to extensionless canonical URL, same as #853), hero JPEG 200, og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0.",
-    "last_worker_run": "2026-11-21T22:55:00-08:00",
+    "last_worker_run": "2026-11-22T00:30:00-08:00",
     "next": 1563,
     "queue": [
         {
