@@ -1,11 +1,12 @@
 {
  "current": {
   "slug": "1569-lincoln-navigator-ghost-seat-chauffeur-smudge",
-  "phase": "DRAFT",
+  "phase": "CRITIQUE",
   "journalist": "Rex Driverton",
-  "started": "2026-11-22T12:30:00-08:00"
+  "started": "2026-11-22T12:30:00-08:00",
+  "round": 0
  },
- "last_check_note": "2026-11-22 12:30 run: #1569 researched (Lincoln Navigator ghost seat, 26V691 + 26V120 pattern); proceeding to DRAFT.",
+ "last_check_note": "2026-11-22 12:30 run: #1569 drafted (Rex Driverton, hero JPEG 1920x1280 hash 386d7c9f, rhythm PASS, em 0, banned 0, The 0%); proceeding to CRITIQUE.",
  "last_checked": "2026-11-22T08:30:00-08:00",
  "last_completed": "2026-11-22T10:30:00-08:00",
  "last_completed_date": "2026-11-22",
