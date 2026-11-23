@@ -1,15 +1,8 @@
 {
-  "current": {
-    "slug": "1569-white-house-trucker-claim-fact-check",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-23T14:30:00-08:00",
-    "number": 1569,
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-23 12:30 run: RESEARCH re-screen (2h after 10:30 heartbeat), no new article. Re-verified all Nov 20-23 news candidates campaign-by-campaign against drafts/ + stories/ (full greps, no truncation): Ram Classic ABS 26V756 -> #1568; Honda Takata 26V765 -> #1550; Toyota Takata 26V748 -> #1563/#1493; S2000 fuel flange 26V749 -> #1545; PACCAR radar 26V744 (26PACL, TheTrucker Nov 23) -> #1542; Volvo/Mack/Paccar/DTNA snap ring 26V746/26V747/26V743/26V737 (RVXX2614/SC0503) -> #1544; Ram ProMaster steering 26V621 (92D) -> #1104 + #1148; Hyundai Kona knuckle 26V069 (Feb recall, PDF re-crawled Nov 23) -> kona-cheapest-tsp-three-recalls; Hyundai ACU 26V728 -> #1435/#1400; IIHS Kicks/RAV4/CR-V/Forester round -> #1567; PE26008 Explorer airbag burns -> #1447; EA26007 Honda stop-start -> #1527. Publish gate consumed today (Publish #857 at 00:30); #858 due 2026-11-23, hero present (328,212-byte JPG), ships next run. QUEUE FLAG (unchanged, Ray/main-agent call): #858/#882/#886/#891 are four articles on the SAME story (Jeep Grand Cherokee coil-spring third recall 26V562, 328,381 vehicles); site would publish it 4x (Nov 23, Dec 15, Dec 19, Dec 24) unless deduped. #886 also has no hero file. NEW FLAG, same class: #1104/#1148 are two articles on the SAME story (Ram ProMaster steering-water recall 26V621, 265,512 vans), queued 2027-07-19 and 2027-09-01. Left intact. next stays 1569.",
   "last_checked": "2026-11-23T12:30:00-08:00",
-  "last_completed": "2026-11-23T00:30:00-08:00",
+  "last_completed": "2026-11-23T14:30:00-08:00",
   "last_completed_date": "2026-11-23",
   "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-23T00:30:00-08:00",
@@ -28708,6 +28701,45 @@
         "hero": "drafts/1568-ram-1500-classic-abs-software-brake-pedal-drift.jpg"
       },
       "note": "2026-11-22 10:30 run: researched/drafted/critiqued (r0 avg 8.76, SHIP) and queued SHIP_BLOCKED 2028-10-28. Chrysler 26V756 (filed Nov 19, 2026): 82,843 Ram 1500 Classic 2022-2024 + 669 Mopar ABS modules (26E084); ABS software fails to adapt to brake-pedal drift; brake lights lie, Park interlock defeat, ESC/AutoPark/FCW loss; 11,371 records in FCA file incl. 6,001 warranty claims. Duplicate check ruled out 13 prior angles. 1/day publish gate already consumed today (2 Publish commits); #857 due 2026-11-22 stays queued for next run."
+    },
+    {
+      "number": 1569,
+      "slug": "1569-white-house-trucker-claim-fact-check",
+      "title": "The White House Took Credit for the Safest Half-Year on Record. The Truck Numbers Say Otherwise.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-10-29",
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 8.7,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "avg_critic": 8.87,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1569-white-house-trucker-claim-fact-check-critic-panel-r0.md",
+        "hero": "drafts/1569-white-house-trucker-claim-fact-check.jpg",
+        "research": "drafts/1569-white-house-trucker-claim-fact-check-research.md",
+        "story": "drafts/1569-white-house-trucker-claim-fact-check.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "bacfd6dd",
+        "hero_jpeg": true,
+        "rhythm": "pass (variance 599.9, short 1.9%, long 50.0%)",
+        "style_css": true,
+        "the_starters_pct": 5.3,
+        "word_count": 1113
+      },
+      "note": "2026-11-23 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run. White House Nov 16, 2026 claim fact-check vs NHTSA DOT HS 813 875: truck share 13.6% in both 2024 (5,340/39,254) and 2025 (4,982/36,640); second-lowest RATE not count (H1 2026 count third-lowest); 17-quarter decline predates Apr 28, 2025 EO by ~3 years. Round-0 panel VERDICT: SHIP (avg 8.87). ship_date 2028-10-29 = 1 day after latest SHIP_BLOCKED (#1568, 2028-10-28)."
     }
   ]
 }
