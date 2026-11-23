@@ -1,7 +1,7 @@
 {
  "current": null,
- "last_check_note": "2026-11-23 04:30 run: RESEARCH hunt, no new article - Nov 20-23 news screened campaign-by-campaign: Honda/Toyota Takata 26V765/26V748 -> #1550/#1563; Ram 26V756 -> #1568; S2000 fuel flange -> #1545; BMW 26V733 -> #1490; Honda EA26007 stop-start -> #1527; Ford PE26008 airbag burns -> #1447; Waymo RQ26006 -> #1445; GM L87 EA26005 -> #1025; Porsche center-lock do-not-drive -> #1245/#1252/#1351; RAV4 PHEV power loss -> #1130/#1166/#1233; Land Cruiser fuel leak -> #1204/#1230/#1248/#1340; Genesis G80 seat fire -> #1173/#1224/#1290/#1330; Atlas child-seat anchors -> #1540; Jeep GC side airbags 26V328 -> grand-cherokee-orc-ghost-fault; IIHS Kicks/RAV4 -> #1567; 2025 deaths 36,640 / DOT HS 813 829 -> #1469/#1053/#1096. FARS mined: tox extremes (Park Ave, Alero, M5, Veloster) and Solara/Ascent sober paradoxes all covered (#1013/#1064/#1241). Publish gate consumed today (Publish #857); #858 due 2026-11-23, hero-ready, stays queued for next run. next stays 1569.",
- "last_checked": "2026-11-23T04:30:00-08:00",
+ "last_check_note": "2026-11-23 06:30 run: RESEARCH hunt, no new article - Nov 20-23 news re-screened campaign-by-campaign: Takata Honda 26V765 -> #1550, Toyota 26V748 -> #1563; Ram 26V756 -> #1568; BMW 26V733 -> #1490; Atlas 26V732 -> #1540; Navigator 26V691 -> #1423; Honda steering 26V721 -> #1457/#1533; Explorer police map lights 26V726 -> #1466; Tundra camshaft -> #1507; Rivian camera 26V597 -> #977/#1496; Explorer PE26008 airbag burns -> #1447; Honda EA26007 stop-start -> #1527; IIHS Kicks/RAV4 -> #1567; Volvo 26V746 (1,078 trucks) + Mack 26V719 (151) + Elgin 26V404 (7 sweepers) too small, no novel angle. Publish gate consumed today (Publish #857 at 00:30); #858 due 2026-11-23, hero-ready, stays queued for next run. next stays 1569.",
+ "last_checked": "2026-11-23T06:30:00-08:00",
  "last_completed": "2026-11-23T00:30:00-08:00",
  "last_completed_date": "2026-11-23",
  "last_journalist": "Mia Crumplezone",
@@ -10,7 +10,7 @@
  "last_published_slug": "857-loose-bolt-census",
  "last_qa_date": "2026-11-23",
  "last_qa_note": "QA 2026-11-23 00:30 run: #857 live verified - story 200 (8,617 bytes), hero JPEG 200 (613,753 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. FIX: draft shipped without og/twitter meta tags; added post-publish (commit 7c72f727), redeployed, live edge caught up after ~30s cache lag (preview URL verified first). Deploy clean first try both times.",
- "last_worker_run": "2026-11-23T04:30:00-08:00",
+ "last_worker_run": "2026-11-23T06:30:00-08:00",
  "next": 1569,
  "queue": [
   {
