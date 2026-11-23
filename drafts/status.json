@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "1569-white-house-trucker-claim-fact-check",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
     "started": "2026-11-23T14:30:00-08:00",
-    "number": 1569
+    "number": 1569,
+    "round": 0
   },
   "last_check_note": "2026-11-23 12:30 run: RESEARCH re-screen (2h after 10:30 heartbeat), no new article. Re-verified all Nov 20-23 news candidates campaign-by-campaign against drafts/ + stories/ (full greps, no truncation): Ram Classic ABS 26V756 -> #1568; Honda Takata 26V765 -> #1550; Toyota Takata 26V748 -> #1563/#1493; S2000 fuel flange 26V749 -> #1545; PACCAR radar 26V744 (26PACL, TheTrucker Nov 23) -> #1542; Volvo/Mack/Paccar/DTNA snap ring 26V746/26V747/26V743/26V737 (RVXX2614/SC0503) -> #1544; Ram ProMaster steering 26V621 (92D) -> #1104 + #1148; Hyundai Kona knuckle 26V069 (Feb recall, PDF re-crawled Nov 23) -> kona-cheapest-tsp-three-recalls; Hyundai ACU 26V728 -> #1435/#1400; IIHS Kicks/RAV4/CR-V/Forester round -> #1567; PE26008 Explorer airbag burns -> #1447; EA26007 Honda stop-start -> #1527. Publish gate consumed today (Publish #857 at 00:30); #858 due 2026-11-23, hero present (328,212-byte JPG), ships next run. QUEUE FLAG (unchanged, Ray/main-agent call): #858/#882/#886/#891 are four articles on the SAME story (Jeep Grand Cherokee coil-spring third recall 26V562, 328,381 vehicles); site would publish it 4x (Nov 23, Dec 15, Dec 19, Dec 24) unless deduped. #886 also has no hero file. NEW FLAG, same class: #1104/#1148 are two articles on the SAME story (Ram ProMaster steering-water recall 26V621, 265,512 vans), queued 2027-07-19 and 2027-09-01. Left intact. next stays 1569.",
   "last_checked": "2026-11-23T12:30:00-08:00",
