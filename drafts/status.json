@@ -1,7 +1,7 @@
 {
     "current": null,
-    "last_check_note": "2026-11-24 06:30 run: PUBLISHED #858 already today (00:30 run) - 1/day gate consumed (git log confirms 1 Publish commit today), no publish this run. #859 due 2026-11-24, hero present, ships earliest Nov 25. RESEARCH re-screen (~2h after 04:30 run), no new article. Screened: Honda/Toyota Takata Nov 20 recall (810,592 Honda + 314,029 Toyota/Lexus, desiccated PSAN end-of-safe-life) -> already queued as #1550/#1563/#1493; Ram 1500 Classic ABS 82,843 -> #1547; Ford Transit BCMC freeze 60,956 -> #1537; Ram ProMaster steering 265,512 -> #1104/#1148 (dup pair, Ray's call to dedupe); NHTSA H1 2026 early estimate 16,750 deaths -2.5% (DOT HS 813 875) -> #1458/#1494; COTA Columbus bus crash Nov 23 (2 drivers killed, cause unknown, investigation ongoing) -> fails kill test for now, deferred. Queue: 779 entries, 706 SHIP_BLOCKED, extends to 2028-10-30; backlog healthy.",
-    "last_checked": "2026-11-24T06:30:00-08:00",
+    "last_check_note": "2026-11-24 08:30 run: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. RESEARCH re-screen (~2h after 06:30 run), no new article. Screened: BMW water-pump recall-of-recall 720,796 park-outside (Nov 13) -> already queued #1490/#1548 (dup pair, Ray's call to dedupe, same as Ram ProMaster #1104/#1148); VW Atlas child-seat anchors 26V732 (3,914) -> #1540; Toyota Takata 26V748 (314,029) -> #1550/#1563/#1493; Ram ProMaster steering 265,512 -> #1104/#1148; Ford 26S78/26C46/26C43 recalls -> #1537 family + F-150 set; IIHS small-car rear-seat round (Civic/Corolla acceptable, Sentra/Crosstrek/Forte poor, submarining) -> FAILS kill test: primary source is IIHS May 11 2023, 3.5 yrs old, resurfaced by a lawyer blog today; queue already covers IIHS rear-seat heavily (#859/#960/#962/#1244/#1408/#1484). IIHS small-SUV round (Kicks Good, RAV4) -> #1484/#1244. COTA Columbus bus crash Nov 23 (2 drivers killed, cause unknown) -> still fails kill test, deferred. Local single-vehicle crashes (I-75 rollover, U.S. 250 infant, Taconic Mustang) -> fail kill test. Queue: 779 entries, 706 SHIP_BLOCKED, extends to 2028-10-30; backlog healthy.",
+    "last_checked": "2026-11-24T08:30:00-08:00",
     "last_completed": "2026-11-24T00:30:00-08:00",
     "last_completed_date": "2026-11-24",
     "last_journalist": "Mia Crumplezone",
@@ -10,7 +10,7 @@
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
-    "last_worker_run": "2026-11-24T06:30:00-08:00",
+    "last_worker_run": "2026-11-24T08:30:00-08:00",
     "next": 1570,
     "queue": [
         {
