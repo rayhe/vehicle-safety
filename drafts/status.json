@@ -1,17 +1,17 @@
 {
     "current": null,
-    "last_check_note": "2026-11-24 10:30 run: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. RESEARCH re-screen (~2h after 08:30 run), no new article. Screened: Ram 1500 Classic ABS 26V756 (82,843) -> already queued #1547 (SHIP_BLOCKED 2028-10-07); Subaru GAWR 26V436 (541,237) -> already inside #1481 census; Ford Transit BCMC 26V727 (60,956) -> already queued #1537; IIHS small-SUV round (Kicks TSP, RAV4/CR-V rear-seat fail) -> already queued #1557. Queue: 779 entries, 706 SHIP_BLOCKED, extends to 2028-10-30; backlog healthy.",
-    "last_checked": "2026-11-24T10:30:00-08:00",
+    "last_check_note": "2026-11-24 12:30 run: RESEARCH/DRAFT/CRITIQUE/SHIP complete for #1571 (Intoxalock DP26014 interlock petition, avg 8.79, round 0). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Duplicate-screen: 6 new recall campaigns (BMW 26V733, Honda 26V721, ZDX 26V735, Atlas 26V732, Navigator 26V691, GM 26V718) + IIHS small-SUV round + Honda stop-start EA + Explorer airbag-burn PE + Waymo RQ26006 all already queued. Queue: 780 entries, 707 SHIP_BLOCKED, extends to 2028-10-31; backlog healthy.",
+    "last_checked": "2026-11-24T12:30:00-08:00",
     "last_completed": "2026-11-24T00:30:00-08:00",
     "last_completed_date": "2026-11-24",
-    "last_journalist": "Mia Crumplezone",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-24T00:30:00-08:00",
     "last_published_date": "2026-11-24",
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
-    "last_worker_run": "2026-11-24T10:30:00-08:00",
-    "next": 1570,
+    "last_worker_run": "2026-11-24T12:30:00-08:00",
+    "next": 1572,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28785,6 +28785,47 @@
             },
             "created": "2026-11-24",
             "note": "2026-11-24 02:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.79, round 0). AAA Foundation Aggressive Driving and Road Rage (Sept 23, 2025): 96% admitted >=1 aggressive behavior, 92% behaviors putting others at risk, 11% violent acts (~26M drivers); since 2016 cutting off +67%, angry honking +47%, tailgating -24%, yelling -17%; contagion finding (exposure predicts engagement). Original: measurement-gap arithmetic (699 FARS-coded vehicles vs 96% self-report vs 26,000 implied by 1997 two-thirds folklore, 37x disagreement), shootings 92 (2014) to 481 (2023, +423%) vs total deaths +20%, behavior-shape shift. Duplicate screen killed 12 angles this run (BMW 26V733, MY2027 testing list, tire rulemaking, FARS state table, older drivers, ID.4 25V-835, Tundra camshaft, S2000, Takata Nov wave, F-150 fuel tank strap, IIHS Kicks/RAV4, ID.4 26V630). Queued SHIP_BLOCKED for 2028-10-30 (1 day after #1569, 2028-10-29)."
+        },
+        {
+            "number": 1571,
+            "slug": "1571-intoxalock-breathalyzer-that-stalls-your-car",
+            "title": "The Breathalyzer That Can Stall Your Car",
+            "journalist": "Rex Driverton",
+            "kicker": "Investigation",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-10-31",
+            "scores": {
+                "general_editor": 9.0,
+                "voice_coach": 8.5,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 8.5,
+                "research_rigor": 9.0,
+                "data_presentation": 8.5
+            },
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 0.0,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "50a536de",
+                "word_count": 445,
+                "rhythm_variance": 813.1,
+                "rhythm_short_pct": 12.5,
+                "rhythm_long_pct": 50.0
+            },
+            "files": {
+                "research": "drafts/1571-intoxalock-breathalyzer-that-stalls-your-car-research.md",
+                "story": "drafts/1571-intoxalock-breathalyzer-that-stalls-your-car.html",
+                "hero": "drafts/1571-intoxalock-breathalyzer-that-stalls-your-car.jpg",
+                "critic_panel": "drafts/1571-intoxalock-breathalyzer-that-stalls-your-car-critic-panel-r0.md"
+            },
+            "note": "2026-11-24 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete; queued SHIP_BLOCKED 2028-10-31 (1 day after latest SHIP_BLOCKED 2028-10-30). Angle: NHTSA DP26014 (opened Nov 19, 2026) into Intoxalock 1001A interlock, 150,000 devices; inversion framing + pattern ledger (Virginia termination 2023, Michigan AG cease-and-desist, Mallory arbitration, Mar 2026 outage, Haggerty $1.75M settlement). NHTSA failure summary 1 incident / 0 crashes stated twice. Number fix: status next was stale at 1570 (already #1570 road-rage); this is #1571. Duplicate-screen: BMW 26V733 already #1490, Honda 26V721 already #1502, Acura ZDX 26V735 already #1521, VW Atlas 26V732 already #1540, Ford Navigator 26V691 already #1525, GM 26V718 already #1391, IIHS small-SUV round already #1557, Honda stop-start EA already #1527, Explorer airbag burns already #1447, Waymo RQ26006 already covered. Gates r0: em 0, banned 0, The 0.0%, rhythm PASS (variance 813.1, short 12.5%), hero JPEG 1920x1280 ?v=50a536de."
         }
     ]
 }
