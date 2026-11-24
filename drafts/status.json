@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-23 16:30 run: RESEARCH re-screen (4h after 12:30 run), no new article. New candidate BMW 26V733 (720,796 cars, water-pump connector fire risk, park-outside advisory, Carvira Nov 23) -> ALREADY COVERED: #1490 (SHIP_BLOCKED 2028-08-11) + #1548 (SHIP_BLOCKED 2028-10-08) + #1506 census. Greenpower 26V629 (94 buses, wheelchair-lift interlock) -> #1152. All other Nov 23 candidates re-confirmed covered per 12:30 screen (Ram 26V756 #1568; Honda Takata 26V765 #1550; Toyota Takata 26V748 #1563/#1493; S2000 26V749 #1545; PACCAR 26V744 #1542; snap ring 26V746/747/743/737 #1544; IIHS Kicks/RAV4/CR-V/Forester #1567). Publish gate consumed today (Publish #857 at 00:30); #858 due 2026-11-23, hero present, ships earliest Nov 24. QUEUE FLAGS (unchanged, Ray/main-agent call): #858/#882/#886/#891 four articles on same Jeep Grand Cherokee coil-spring recall 26V562 (Nov 23, Dec 15, Dec 19, Dec 24); #1104/#1148 two articles on same Ram ProMaster steering recall 26V621. Left intact. next stays 1569.",
-  "last_checked": "2026-11-23T16:30:00-08:00",
+  "last_check_note": "2026-11-23 18:30 run: RESEARCH re-screen (2h after 16:30 run), no new article. New candidates all ALREADY COVERED: Ram 1500 Classic ABS software 82,843 (USA Today Nov 23) -> #1568 (SHIP_BLOCKED 2028-10-28); Ford Transit BCMC 26C49 60,956 -> #1537; PACCAR radar 26PACL 6,185 -> #1542; Honda Takata 26V765 810,592 -> #1550; Toyota Takata 26V748 314,029 -> #1563/#1493; Tesla 3 more fatal FSD crashes (Electrek Nov 16, 7 deaths) -> #1561; NHTSA comma.ai PE (5 crashes/3 dead/11 injured) -> #978/#1015/#1180. Local single-incident fatals (COTA bus-bus, Duval 150th, I-29 wrong-way, SR-417, Hwy 101) fail kill test (no data/systemic angle). Publish gate consumed today (Publish #857 at 00:30); #858 due 2026-11-23, hero present, ships earliest Nov 24. QUEUE FLAGS (unchanged, Ray/main-agent call): #858/#882/#886/#891 four articles on same Jeep Grand Cherokee coil-spring recall 26V562; #1104/#1148 two articles on same Ram ProMaster steering recall 26V621. Left intact. next stays 1569.",
+  "last_checked": "2026-11-23T18:30:00-08:00",
   "last_completed": "2026-11-23T14:30:00-08:00",
   "last_completed_date": "2026-11-23",
   "last_journalist": "Mia Crumplezone",
@@ -10,7 +10,7 @@
   "last_published_slug": "857-loose-bolt-census",
   "last_qa_date": "2026-11-23",
   "last_qa_note": "QA 2026-11-23 00:30 run: #857 live verified - story 200 (8,617 bytes), hero JPEG 200 (613,753 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. FIX: draft shipped without og/twitter meta tags; added post-publish (commit 7c72f727), redeployed, live edge caught up after ~30s cache lag (preview URL verified first). Deploy clean first try both times.",
-  "last_worker_run": "2026-11-23T16:30:00-08:00",
+  "last_worker_run": "2026-11-23T18:30:00-08:00",
   "next": 1569,
   "queue": [
     {
