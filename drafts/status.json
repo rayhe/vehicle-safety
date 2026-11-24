@@ -1,38 +1,5 @@
 {
-  "current": {
-    "slug": "1570-road-rage-96-percent-contagion",
-    "phase": "SHIP",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-24T02:30:00-08:00",
-    "scores": {
-      "general_editor": 8.7,
-      "voice_coach": 8.8,
-      "ethics_reviewer": 8.9,
-      "social_shareability": 8.8,
-      "legal_accuracy": 8.7,
-      "research_rigor": 8.9,
-      "data_presentation": 8.7
-    },
-    "avg_critic": 8.79,
-    "critique_round": 0,
-    "hard_gates": {
-      "em_dashes": 0,
-      "banned_phrases": 0,
-      "the_starters_pct": 6.8,
-      "css_class": true,
-      "style_css": true,
-      "hero_jpeg": true,
-      "hero_dim": "1920x1280",
-      "hero_hash": "ffc5b402",
-      "sentence_rhythm": {
-        "variance": 1291.3,
-        "short_pct": 6.8,
-        "long_pct": 37.0,
-        "passed": true
-      },
-      "word_count": 1524
-    }
-  },
+  "current": null,
   "last_check_note": "2026-11-24 00:30 run: PUBLISHED #858 (Jeep Grand Cherokee third spring recall, Clara Rollover; QA live verified: story 200 via 308, hero JPEG 200 328,212B, og tags/index/sitemap present, em dashes 0; ~2 min deploy lag after push). RESEARCH re-screen (~2h after 22:30 run), no new article. Screened: Honda EPS 26V721 635,808 -> #1533 (already queued); Ram 1500 Classic ABS 26V756 -> #1568; Honda Takata 810,592 -> #1550; Toyota Takata 314k US -> #1563; BMW 26V733 -> #1490; Ford Transit BCMC 26C49 -> #1537; Altec/Mack/PACCAR commercial recalls -> routine, fail kill test (per 22:30); IIHS Nov 2026 ratings (Kicks beats RAV4, Forester TSP+, CR-V Poor) -> #1567/#1557 already queued; NSC Thanksgiving 428-death estimate -> #1553 already queued. #859 due 2026-11-24, hero present, ships earliest Nov 25 (1/day gate consumed today). QUEUE FLAGS (unchanged, Ray/main-agent call): #858/#882/#886/#891 four articles on same Jeep Grand Cherokee coil-spring recall 26V562; #1104/#1148 two articles on same Ram ProMaster steering recall 26V621. NOTE: this run's publish commit swept in ~200 untracked drafts/media-generation-* files via git add -A; use scoped git add for publish commits going forward.",
   "last_checked": "2026-11-24T00:30:00-08:00",
   "last_completed": "2026-11-24T00:30:00-08:00",
@@ -28773,6 +28740,51 @@
         "word_count": 1113
       },
       "note": "2026-11-23 14:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP in one run. White House Nov 16, 2026 claim fact-check vs NHTSA DOT HS 813 875: truck share 13.6% in both 2024 (5,340/39,254) and 2025 (4,982/36,640); second-lowest RATE not count (H1 2026 count third-lowest); 17-quarter decline predates Apr 28, 2025 EO by ~3 years. Round-0 panel VERDICT: SHIP (avg 8.87). ship_date 2028-10-29 = 1 day after latest SHIP_BLOCKED (#1568, 2028-10-28)."
+    },
+    {
+      "number": 1570,
+      "slug": "1570-road-rage-96-percent-contagion",
+      "title": "96% of Drivers Admit to Driving Aggressively. The Federal Crash Count Sees 699 of Them.",
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-10-30",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 8.9,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "data_presentation": 8.7
+      },
+      "avg_critic": 8.79,
+      "critique_round": 0,
+      "files": {
+        "research": "drafts/1570-road-rage-96-percent-contagion-research.md",
+        "story": "drafts/1570-road-rage-96-percent-contagion.html",
+        "hero": "drafts/1570-road-rage-96-percent-contagion.jpg",
+        "critic_panel": "drafts/1570-road-rage-96-percent-contagion-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 6.8,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "ffc5b402",
+        "sentence_rhythm": {
+          "variance": 1291.3,
+          "short_pct": 6.8,
+          "long_pct": 37.0,
+          "passed": true
+        },
+        "word_count": 1524
+      },
+      "created": "2026-11-24",
+      "note": "2026-11-24 02:30 run: RESEARCH->DRAFT->CRITIQUE->SHIP complete (avg 8.79, round 0). AAA Foundation Aggressive Driving and Road Rage (Sept 23, 2025): 96% admitted >=1 aggressive behavior, 92% behaviors putting others at risk, 11% violent acts (~26M drivers); since 2016 cutting off +67%, angry honking +47%, tailgating -24%, yelling -17%; contagion finding (exposure predicts engagement). Original: measurement-gap arithmetic (699 FARS-coded vehicles vs 96% self-report vs 26,000 implied by 1997 two-thirds folklore, 37x disagreement), shootings 92 (2014) to 481 (2023, +423%) vs total deaths +20%, behavior-shape shift. Duplicate screen killed 12 angles this run (BMW 26V733, MY2027 testing list, tire rulemaking, FARS state table, older drivers, ID.4 25V-835, Tundra camshaft, S2000, Takata Nov wave, F-150 fuel tank strap, IIHS Kicks/RAV4, ID.4 26V630). Queued SHIP_BLOCKED for 2028-10-30 (1 day after #1569, 2028-10-29)."
     }
   ]
 }
