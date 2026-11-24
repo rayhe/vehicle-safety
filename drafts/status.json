@@ -1,5 +1,10 @@
 {
-    "current": null,
+    "current": {
+        "slug": "1572-chicco-fit360-chest-clip-falls-apart",
+        "phase": "DRAFT",
+        "journalist": "Clara Rollover",
+        "started": "2026-11-24T14:30:00-08:00"
+    },
     "last_check_note": "2026-11-24 12:30 run: RESEARCH/DRAFT/CRITIQUE/SHIP complete for #1571 (Intoxalock DP26014 interlock petition, avg 8.79, round 0). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Duplicate-screen: 6 new recall campaigns (BMW 26V733, Honda 26V721, ZDX 26V735, Atlas 26V732, Navigator 26V691, GM 26V718) + IIHS small-SUV round + Honda stop-start EA + Explorer airbag-burn PE + Waymo RQ26006 all already queued. Queue: 780 entries, 707 SHIP_BLOCKED, extends to 2028-10-31; backlog healthy.",
     "last_checked": "2026-11-24T12:30:00-08:00",
     "last_completed": "2026-11-24T00:30:00-08:00",
@@ -10,7 +15,7 @@
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
-    "last_worker_run": "2026-11-24T12:30:00-08:00",
+    "last_worker_run": "2026-11-24T14:30:00-08:00",
     "next": 1572,
     "queue": [
         {
