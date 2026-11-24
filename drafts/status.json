@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1572-chicco-fit360-chest-clip-falls-apart",
-        "phase": "CRITIQUE",
-        "journalist": "Clara Rollover",
-        "started": "2026-11-24T14:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-24 12:30 run: RESEARCH/DRAFT/CRITIQUE/SHIP complete for #1571 (Intoxalock DP26014 interlock petition, avg 8.79, round 0). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Duplicate-screen: 6 new recall campaigns (BMW 26V733, Honda 26V721, ZDX 26V735, Atlas 26V732, Navigator 26V691, GM 26V718) + IIHS small-SUV round + Honda stop-start EA + Explorer airbag-burn PE + Waymo RQ26006 all already queued. Queue: 780 entries, 707 SHIP_BLOCKED, extends to 2028-10-31; backlog healthy.",
+    "current": null,
+    "last_check_note": "2026-11-24 14:30 run: RESEARCH/DRAFT/CRITIQUE/SHIP complete for #1572 (Chicco Fit360 chest clip PE26009, avg 8.93, round 1). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Duplicate-screen: Rosenbauer 26V740 already #1162, Thanksgiving 428 already #1553, Honda Takata 26V765 already #1550, Tundra camshaft 26V750 already #1507, snap-ring trio already #1544, Harley 26V730 already #1462. Queue: 781 entries, 708 SHIP_BLOCKED, extends to 2028-11-01; backlog healthy.",
     "last_checked": "2026-11-24T12:30:00-08:00",
     "last_completed": "2026-11-24T00:30:00-08:00",
     "last_completed_date": "2026-11-24",
-    "last_journalist": "Rex Driverton",
+    "last_journalist": "Clara Rollover",
     "last_published": "2026-11-24T00:30:00-08:00",
     "last_published_date": "2026-11-24",
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
     "last_worker_run": "2026-11-24T14:30:00-08:00",
-    "next": 1572,
+    "next": 1573,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28832,6 +28826,47 @@
                 "critic_panel": "drafts/1571-intoxalock-breathalyzer-that-stalls-your-car-critic-panel-r0.md"
             },
             "note": "2026-11-24 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete; queued SHIP_BLOCKED 2028-10-31 (1 day after latest SHIP_BLOCKED 2028-10-30). Angle: NHTSA DP26014 (opened Nov 19, 2026) into Intoxalock 1001A interlock, 150,000 devices; inversion framing + pattern ledger (Virginia termination 2023, Michigan AG cease-and-desist, Mallory arbitration, Mar 2026 outage, Haggerty $1.75M settlement). NHTSA failure summary 1 incident / 0 crashes stated twice. Number fix: status next was stale at 1570 (already #1570 road-rage); this is #1571. Duplicate-screen: BMW 26V733 already #1490, Honda 26V721 already #1502, Acura ZDX 26V735 already #1521, VW Atlas 26V732 already #1540, Ford Navigator 26V691 already #1525, GM 26V718 already #1391, IIHS small-SUV round already #1557, Honda stop-start EA already #1527, Explorer airbag burns already #1447, Waymo RQ26006 already covered. Gates r0: em 0, banned 0, The 0.0%, rhythm PASS (variance 813.1, short 12.5%), hero JPEG 1920x1280 ?v=50a536de."
+        },
+        {
+            "number": 1572,
+            "slug": "1572-chicco-fit360-chest-clip-falls-apart",
+            "title": "The Clip Holding Your Toddler In Comes Apart in Small Pieces",
+            "journalist": "Clara Rollover",
+            "kicker": "Investigation",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-11-01",
+            "scores": {
+                "general_editor": 8.5,
+                "voice_coach": 9.0,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 9.0,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "data_presentation": 9.0
+            },
+            "avg_critic": 8.93,
+            "critique_round": 1,
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 6.5,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "052c5f9d",
+                "word_count": 653,
+                "rhythm_variance": 1590.7,
+                "rhythm_short_pct": 4.0,
+                "rhythm_long_pct": 60.0
+            },
+            "files": {
+                "research": "drafts/1572-chicco-fit360-chest-clip-falls-apart-research.md",
+                "story": "drafts/1572-chicco-fit360-chest-clip-falls-apart.html",
+                "hero": "drafts/1572-chicco-fit360-chest-clip-falls-apart.jpg",
+                "critic_panel": "drafts/1572-chicco-fit360-chest-clip-falls-apart-critic-panel-r1.md"
+            },
+            "note": "2026-11-24 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71, Rigor 8.0 -> revise; r1 avg 8.93 SHIP)/SHIP complete; queued SHIP_BLOCKED 2028-11-01 (1 day after latest SHIP_BLOCKED 2028-10-31). Angle: NHTSA PE26009 (opened Nov 13, 2026) into Chicco Fit360 magnetic chest clip, 2023-2024 seats; 5 reports of clips breaking into small pieces, one child put a piece in mouth while car moving. Original: 3-year incident-to-probe lag, false-latch second failure mode, quiet per-customer replacement economy ($20 clip). Round-0 rigor fix: Oct 2, 2023 is the incident date, complaint filed Sep 8, 2025, so ODI's window was 14 months; correction now in article text. Duplicate-screen: Rosenbauer 26V740 already #1162; BMW 26V733 already #1490/#1548; Honda 26V721 already #1502; ZDX 26V735 already #1521; Atlas 26V732 already #1540; Navigator 26V691 already #1525; GM 26V718 already #1391; Thanksgiving 428 already #1553; Honda Takata 26V765 already #1550; Tundra camshaft 26V750 already #1507; snap-ring trio already #1544; Harley 26V730 already #1462; Explorer PE26008 already #1447; Waymo RQ26006 already covered. Gates r1: em 0, banned 0, The 6.5%, rhythm PASS (variance 1590.7, short 4.0%), hero JPEG 1920x1280 ?v=052c5f9d."
         }
     ]
 }
