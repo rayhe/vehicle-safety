@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-24 00:30 run: PUBLISHED #858 (Jeep Grand Cherokee third spring recall, Clara Rollover; QA live verified: story 200 via 308, hero JPEG 200 328,212B, og tags/index/sitemap present, em dashes 0; ~2 min deploy lag after push). RESEARCH re-screen (~2h after 22:30 run), no new article. Screened: Honda EPS 26V721 635,808 -> #1533 (already queued); Ram 1500 Classic ABS 26V756 -> #1568; Honda Takata 810,592 -> #1550; Toyota Takata 314k US -> #1563; BMW 26V733 -> #1490; Ford Transit BCMC 26C49 -> #1537; Altec/Mack/PACCAR commercial recalls -> routine, fail kill test (per 22:30); IIHS Nov 2026 ratings (Kicks beats RAV4, Forester TSP+, CR-V Poor) -> #1567/#1557 already queued; NSC Thanksgiving 428-death estimate -> #1553 already queued. #859 due 2026-11-24, hero present, ships earliest Nov 25 (1/day gate consumed today). QUEUE FLAGS (unchanged, Ray/main-agent call): #858/#882/#886/#891 four articles on same Jeep Grand Cherokee coil-spring recall 26V562; #1104/#1148 two articles on same Ram ProMaster steering recall 26V621. NOTE: this run's publish commit swept in ~200 untracked drafts/media-generation-* files via git add -A; use scoped git add for publish commits going forward.",
-  "last_checked": "2026-11-24T00:30:00-08:00",
+  "last_check_note": "2026-11-24 04:30 run: PUBLISHED #858 already today (00:30 run) - 1/day gate consumed, no publish this run. #859 due 2026-11-24, hero present, ships earliest Nov 25. RESEARCH re-screen (~4h after 00:30 run), no new article. Screened: BMW 26V733 720,796 water-pump fire/park-outside -> #1490 (already queued); Acura ZDX 26V735 ABS brake-pressure loss -> #1521; VW Atlas 26V732 child-seat anchor stitching -> #1540; Lincoln Navigator 26V691 ghost chauffeur seat -> #1423; GM Savana/Express 26V718 steering-nut re-inspection -> #1391; IIHS Nov 2026 wave (Kicks TSP beats RAV4, Forester TSP+, CR-V Poor) -> #1567/#1557; NHTSA H1 2026 early estimate 16,750 deaths -2.5%, rate 1.02 (DOT HS 813 875, Nov 10) -> #1458/#1494; Tesla 3 more fatal FSD crashes (Electrek, 12 crashes/16 lives, 264 Sep reports) -> #1561. Queue extends to 2028-10-21; backlog healthy.",
+  "last_checked": "2026-11-24T04:30:00-08:00",
   "last_completed": "2026-11-24T00:30:00-08:00",
   "last_completed_date": "2026-11-24",
   "last_journalist": "Mia Crumplezone",
@@ -10,7 +10,7 @@
   "last_published_slug": "858-grand-cherokee-third-spring-recall",
   "last_qa_date": "2026-11-24",
   "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
-  "last_worker_run": "2026-11-24T00:30:00-08:00",
+  "last_worker_run": "2026-11-24T04:30:00-08:00",
   "next": 1570,
   "queue": [
     {
