@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1582-snowflake-badge-never-tested-braking",
-        "phase": "CRITIQUE",
-        "journalist": "Mia Crumplezone",
-        "started": "2026-11-25T12:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-25 08:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71 SHIP)/SHIP complete for #1581 (Rivian tire placard 26V761, second FMVSS 110 placard failure, Clara Rollover). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 790 entries, 716 SHIP_BLOCKED, extends to 2028-11-10.",
+    "current": null,
+    "last_check_note": "2026-11-25 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71 SHIP)/SHIP complete for #1582 (Tire Rack 2026 winter vs all-weather test, Mia Crumplezone). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 791 entries, 717 SHIP_BLOCKED, extends to 2028-11-11.",
     "last_checked": "2026-11-25T08:57:00-08:00",
-    "last_completed": "2026-11-25T08:55:00-08:00",
+    "last_completed": "2026-11-25T12:45:00-08:00",
     "last_completed_date": "2026-11-25",
-    "last_journalist": "Clara Rollover",
+    "last_journalist": "Mia Crumplezone",
     "last_published": "2026-11-25T00:45:48-08:00",
     "last_published_date": "2026-11-25",
     "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "last_qa_date": "2026-11-25",
     "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-    "last_worker_run": "2026-11-25T12:40:00-08:00",
-    "next": 1582,
+    "last_worker_run": "2026-11-25T12:45:00-08:00",
+    "next": 1583,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -29232,6 +29226,44 @@
             "ship_date": "2028-11-10",
             "slug": "1581-rivian-tire-placard-lies-again",
             "title": "Rivian's Tire Sticker Is Wrong Again. The Fix Is Another Sticker."
+        },
+        {
+            "avg_critic": 8.71,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1582-snowflake-badge-never-tested-braking-critic-panel-r0.md",
+                "hero": "images/1582-snowflake-badge-never-tested-braking.jpg",
+                "research": "drafts/1582-snowflake-badge-never-tested-braking-research.md",
+                "story": "drafts/1582-snowflake-badge-never-tested-braking.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "a131de03",
+                "hero_jpeg": true,
+                "style_css": true,
+                "the_starters_pct": 5.5,
+                "word_count": 970
+            },
+            "journalist": "Mia Crumplezone",
+            "kicker": "The Gap",
+            "note": "2026-11-25 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71 SHIP)/SHIP complete for #1582 (Tire Rack 2026 winter vs all-weather test, Mia Crumplezone). Pre-score fix: X-Ice second on ice, not first ('won snow and ice' corrected). Rhythm first failed short 22.5%, fixed by merging fragments, re-ran PASS. 1/day slot already consumed today (Publish #859 at 00:45); no publish this run.",
+            "number": 1582,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 9.0,
+                "general_editor": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.5,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-11-11",
+            "slug": "1582-snowflake-badge-never-tested-braking",
+            "title": "The Snowflake on Your Tire Never Tested Braking"
         }
     ]
 }
