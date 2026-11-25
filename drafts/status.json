@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1581-rivian-tire-placard-lies-again",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Clara Rollover",
-        "started": "2026-11-25T08:35:00-08:00"
+        "started": "2026-11-25T08:35:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-25 08:30 run: RESEARCH complete for #1581 (Rivian tire placard 26V761, second FMVSS 110 placard failure, Clara Rollover). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 789 entries, 715 SHIP_BLOCKED, extends to 2028-11-09.",
     "last_checked": "2026-11-25T04:38:33-08:00",
