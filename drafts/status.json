@@ -1,12 +1,6 @@
 {
-    "current": {
-        "slug": "1573-chevrolet-s10-sonoma-twin-paradox",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-24T16:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-24 14:30 run: RESEARCH/DRAFT/CRITIQUE/SHIP complete for #1572 (Chicco Fit360 chest clip PE26009, avg 8.93, round 1). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Duplicate-screen: Rosenbauer 26V740 already #1162, Thanksgiving 428 already #1553, Honda Takata 26V765 already #1550, Tundra camshaft 26V750 already #1507, snap-ring trio already #1544, Harley 26V730 already #1462. Queue: 781 entries, 708 SHIP_BLOCKED, extends to 2028-11-01; backlog healthy.",
+    "current": null,
+    "last_check_note": "2026-11-24 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1573 (S-10/Sonoma twin paradox, Rex Driverton). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Queue: 782 entries, 709 SHIP_BLOCKED, extends to 2028-11-02; backlog healthy.",
     "last_checked": "2026-11-24T16:30:00-08:00",
     "last_completed": "2026-11-24T00:30:00-08:00",
     "last_completed_date": "2026-11-24",
@@ -17,7 +11,7 @@
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
     "last_worker_run": "2026-11-24T16:30:00-08:00",
-    "next": 1573,
+    "next": 1574,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28873,6 +28867,48 @@
                 "critic_panel": "drafts/1572-chicco-fit360-chest-clip-falls-apart-critic-panel-r1.md"
             },
             "note": "2026-11-24 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71, Rigor 8.0 -> revise; r1 avg 8.93 SHIP)/SHIP complete; queued SHIP_BLOCKED 2028-11-01 (1 day after latest SHIP_BLOCKED 2028-10-31). Angle: NHTSA PE26009 (opened Nov 13, 2026) into Chicco Fit360 magnetic chest clip, 2023-2024 seats; 5 reports of clips breaking into small pieces, one child put a piece in mouth while car moving. Original: 3-year incident-to-probe lag, false-latch second failure mode, quiet per-customer replacement economy ($20 clip). Round-0 rigor fix: Oct 2, 2023 is the incident date, complaint filed Sep 8, 2025, so ODI's window was 14 months; correction now in article text. Duplicate-screen: Rosenbauer 26V740 already #1162; BMW 26V733 already #1490/#1548; Honda 26V721 already #1502; ZDX 26V735 already #1521; Atlas 26V732 already #1540; Navigator 26V691 already #1525; GM 26V718 already #1391; Thanksgiving 428 already #1553; Honda Takata 26V765 already #1550; Tundra camshaft 26V750 already #1507; snap-ring trio already #1544; Harley 26V730 already #1462; Explorer PE26008 already #1447; Waymo RQ26006 already covered. Gates r1: em 0, banned 0, The 6.5%, rhythm PASS (variance 1590.7, short 4.0%), hero JPEG 1920x1280 ?v=052c5f9d."
+        },
+        {
+            "avg_critic": 8.93,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1573-chevrolet-s10-sonoma-twin-paradox-critic-panel-r0.md",
+                "hero": "drafts/1573-chevrolet-s10-sonoma-twin-paradox.jpg",
+                "research": "drafts/1573-chevrolet-s10-sonoma-twin-paradox-research.md",
+                "story": "drafts/1573-chevrolet-s10-sonoma-twin-paradox.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "438f3e07",
+                "hero_jpeg": true,
+                "rhythm_pass": true,
+                "rhythm_variance": 641.9,
+                "rhythm_short_pct": 5.4,
+                "rhythm_long_pct": 64.9,
+                "style_css": true,
+                "the_starters_pct": 3.9,
+                "word_count": 1068
+            },
+            "journalist": "Rex Driverton",
+            "kicker": "Investigation",
+            "note": "2026-11-24 16:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete; queued SHIP_BLOCKED 2028-11-02 (1 day after latest SHIP_BLOCKED 2028-11-01). Angle: Chevrolet S-10 FARS rate 4.83 (8th of 337) vs GMC Sonoma twin 2.13 = 2.27x badge gap on identical GMT325 platform; gap repeats next gen (Canyon 0.59 vs Colorado 0.28 = 2.1x); replacement 17.2x safer; zombie fleet 143 deaths/yr 20 yrs after production ended Jan 2004; impairment alibi (20.5% vs 17.4%) + Poisson CIs non-overlapping; pre-panel fixes: rhythm merge, GM softening, shared-artifact caveat. Duplicate-screen: Honda stop-start EA26007 already #1527; Explorer PE26008 already #1447; Waymo RQ26006 covered; Ram ABS already #1568; Transit BCMC already #1537; H1-2026 NHTSA data already #1458/#1494/#1532; IIHS Nov batch already #1557/#1567. Gates r0: em 0, banned 0, The 3.9%, rhythm PASS, hero JPEG 1920x1280 ?v=438f3e07.",
+            "number": 1573,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 9.0,
+                "general_editor": 9.0,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.5,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-11-02",
+            "slug": "1573-chevrolet-s10-sonoma-twin-paradox",
+            "title": "Same Truck, Two Badges, Twice the Death Rate"
         }
     ]
 }
