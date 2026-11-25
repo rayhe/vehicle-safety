@@ -1,13 +1,13 @@
 {
     "current": null,
-    "last_check_note": "2026-11-25 00:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.50 REVISE; r1 avg 8.76 SHIP)/SHIP complete for #1577 (2027 Atlas LATCH stitching 26V732, Clara Rollover). Queue: 786 entries, 713 SHIP_BLOCKED, extends to 2028-11-06.",
+    "last_check_note": "2026-11-25 00:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.50 REVISE; r1 avg 8.76 SHIP)/SHIP complete for #1577 (2027 Atlas LATCH stitching 26V732, Clara Rollover). PUBLISH-QUEUE: published #859 (GMC Canyon IIHS rear-seat flunk, Mia Crumplezone), 1/day slot. Queue: 786 entries, 712 SHIP_BLOCKED, extends to 2028-11-06.",
     "last_checked": "2026-11-24T16:30:00-08:00",
     "last_completed": "2026-11-25T00:55:00-08:00",
     "last_completed_date": "2026-11-24",
     "last_journalist": "Clara Rollover",
-    "last_published": "2026-11-24T00:30:00-08:00",
-    "last_published_date": "2026-11-24",
-    "last_published_slug": "858-grand-cherokee-third-spring-recall",
+    "last_published": "2026-11-25T00:58:00-08:00",
+    "last_published_date": "2026-11-25",
+    "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
     "last_worker_run": "2026-11-24T22:50:00-08:00",
@@ -2354,9 +2354,9 @@
             },
             "journalist": "Mia Crumplezone",
             "kicker": "Investigation",
-            "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation).",
+            "note": "Round-0 pass 8.83 avg; 7/7 critics >= 8.5. Novel: federal back-seat gap audit \u2014 GM defended the Canyon's IIHS rear-dummy Marginal + Poor V2V prevention (Sept 3 2026) by citing a 4-star NHTSA NCAP, a test that has never seated a dummy in the back seat. FARS cross-ref: Canyon 209 deaths, rate 0.59/100M VMT (prior generation). | 2026-11-25 00:30 run: SHIPPED as #859 (1/day slot; 0 prior publishes today). Pre-ship re-verified: em 0, banned 0, The 4.4%, class=story, style.css, hero JPEG 1920x1280 ?v=e025c01e, dateline September 9, 2026 (draft date, per site convention).",
             "number": 859,
-            "phase": "SHIP_BLOCKED",
+            "phase": "PUBLISHED",
             "scores": {
                 "data_presentation": 8.9,
                 "ethics_reviewer": 9.0,
@@ -2368,7 +2368,8 @@
             },
             "ship_date": "2026-11-24",
             "slug": "859-gmc-canyon-iihs-rear-seat-flunk",
-            "title": "Four Stars Up Front, Marginal in the Back: The 2026 GMC Canyon's IIHS Report Card"
+            "title": "Four Stars Up Front, Marginal in the Back: The 2026 GMC Canyon's IIHS Report Card",
+            "publish_commit": "pending"
         },
         {
             "avg_critic": 8.8,
