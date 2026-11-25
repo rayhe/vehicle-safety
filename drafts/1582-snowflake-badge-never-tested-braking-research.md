@@ -1,0 +1,56 @@
+# Research: #1582 — The Snowflake on Your Tire Never Tested Braking
+
+**Slug:** 1582-snowflake-badge-never-tested-braking
+**Journalist:** Mia Crumplezone (Safety Engineering Editor — tire compounds, braking physics, and stopping distances are her beat; this is a test-data engineering story, not a recall story)
+**Kicker:** The Gap
+**Date researched:** 2026-11-25
+**Target ship_date:** 2028-11-11 (1 day after #1581's 2028-11-10)
+
+## Story in one line
+Tire Rack's 2026 head-to-head of ten tires proves the three-peak mountain snowflake badge on your sidewall is a pass-fail acceleration test that never measures braking — so a Michelin CrossClimate2 and a Bridgestone Blizzak wear the same badge and stop 15 feet apart on snow, while the winter tire that wins on snow and ice finishes dead last in the rain.
+
+## Kill test
+- **Genuinely newsworthy?** YES. Tire Rack published the test October 21, 2026 — five weeks ago, at the start of winter-tire buying season. Ten tires, one 2025 Camry, one size (215/55R17), measured in near-freezing conditions on snow, ice, wet, and dry. Hard numbers, not marketing.
+- **Novel angle on data?** YES. Full queue/drafts/status grep: zero prior coverage of winter tires, Tire Rack, Blizzak, the snowflake badge, or any tire test on this site (nearest hit is #1151, a school-bus rollover in Winter Haven, Florida — a place name, not tires). Nobody on this site has covered what the 3PMSF badge does and does not test.
+- **3+ primary sources?** YES. (1) Tire Rack, "Winter Tires vs. All-Season: What the Tests Actually Show," Oct 21, 2026 — the test itself; (2) Tyre Reviews, "2026 Tire Rack All-Weather vs Winter Tyre Test" — full independent tabulation of all 12 disciplines in metres, with residual-speed calculations; (3) Traffic Injury Research Foundation review via Peterson Auto (Oct 2026) — the -40C vs +4C traction comparison and the 30-foot AWD stopping gap; (4) Kinja analysis of the same test — the snowflake-badge test definition and the per-tire table.
+- **Verdict:** PROCEED.
+
+## Primary sources
+1. **Tire Rack, "Winter Tires vs. All-Season: What the Tests Actually Show," October 21, 2026** — https://www.tirerack.com/upgrade-garage/winter-tires-vs-all-season-what-the-tests-show — ten tires on a 2025 Camry, 215/55R17, near-freezing. Snow braking from 25 mph: Michelin X-Ice Snow 56.1 ft, Bridgestone Blizzak WS90 57.3 ft, Michelin Primacy Tour A/S 81.1 ft, Michelin Defender2 84.5 ft. Ice braking from 12 mph: X-Ice Snow 39.4 ft, Primacy Tour A/S 57.7 ft, Defender2 55 ft. Wet braking from 50 mph: X-Ice Snow 129 ft, Primacy Tour A/S 99.3 ft.
+2. **Tyre Reviews, "2026 Tire Rack All-Weather vs Winter Tyre Test"** — https://www.tyrereviews.com/Tyre-Tests/2026-tire-rack-all-weather-vs-winter-tyre-test.htm — full tables for all ten tires across 12 disciplines, converted to metres. Snow braking (40-0 km/h): X-Ice 17.10 m, Blizzak 17.47 m, WeatherPeak 17.87 m, VikingContact 8 18.08 m, AltiMAX Arctic 12 18.62 m, Wintrac Pro+ 19.23 m, CrossClimate2 22.06 m, Quatrac 22.24 m, Primacy 24.72 m, Defender2 24.95 m. Ice braking (19-0 km/h): Blizzak 11.80 m, X-Ice 12.01 m, VikingContact 8 13.20 m, AltiMAX 13.99 m, Quatrac 15.42 m, CrossClimate2 16.15 m, Wintrac Pro+ 16.22 m, WeatherPeak 16.49 m, Defender2 16.76 m, Primacy 17.59 m. Wet braking (80-0 km/h): Quatrac 28.35 m, Primacy 30.27 m, CrossClimate2 30.36 m, Wintrac Pro+ 30.54 m, Defender2 33.62 m, WeatherPeak 33.74 m, Blizzak 35.84 m, VikingContact 8 35.91 m, AltiMAX 37.31 m, X-Ice 39.32 m. Dry braking: CrossClimate2 25.33 m best, X-Ice 31.39 m worst. Snow handling lap: Blizzak 53.66 s, Primacy 61.17 s, Defender2 62.84 s. Residual-speed equivalences (from 130 km/h): Defender2 still at 73 km/h when X-Ice stopped (snow); Primacy still at 75 km/h when Blizzak stopped (ice); X-Ice still at 69 km/h when Quatrac stopped (wet); X-Ice still at 57 km/h when CrossClimate2 stopped (dry).
+3. **Traffic Injury Research Foundation review, via Peterson Auto, "All-Season vs Winter Tires in Utah," updated October 2026** — https://petersonauto.com/blog/all-season-vs-winter-tires-utah — TIRF: winter tires stopped from 50 km/h in 18 m vs 27.1 m for all-seasons (33.6% less); SUVs 18.6 m vs 31.1 m (40% less); ice 35 ft vs 53 ft from 12 mph (34% shorter); a Bridgestone engineer quoted that a winter tire has better traction at -40C than an all-season has at +4C; all-season rubber starts losing grip below about 45F (7C); FWD on winter tires out-brakes AWD on all-seasons.
+4. **Kinja, "All Weather vs Winter Tires: Look at Ice and Rain, Not Snow"** — https://kinja.com/diy/all-weather-tires-vs-winter-tires-2026 — the three-peak mountain snowflake is a 1999 pass-fail standard: accelerate on medium-packed snow at least 10% better than a reference tire. Braking not tested. Cornering not tested. Ice not tested. Best all-weather on snow (WeatherPeak, 58.6 ft from 25 mph) stopped within 2.5 ft of the best winter tire and beat three of five dedicated winters; CrossClimate2 needed 72.4 ft; on ice winters keep a 12-14 ft lead over the best all-weather from 12 mph; in rain winters came last (X-Ice 129 ft from 50 mph, 36 ft more than the Quatrac).
+
+## Key facts (verified)
+- **The test:** Tire Rack, 2026 programme. Ten tires, 215/55R17, one 2025 Toyota Camry, near-freezing temperatures. Five dedicated winters (Blizzak WS90, X-Ice Snow, VikingContact 8, AltiMAX Arctic 12, Wintrac Pro+), three all-weathers with the snowflake (WeatherPeak, CrossClimate2, Quatrac), two conventional all-seasons without it (Primacy Tour A/S, Defender2).
+- **Snow braking, 25 mph:** best winter 56.1 ft (X-Ice) vs best all-season 81.1 ft (Primacy) — 25 ft, about 45% farther. Worst-to-best spread 45.9% (7.85 m). The all-season car is still travelling at 73 km/h (45 mph) in Tyre Reviews' 130 km/h equivalence when the winter-tire car has stopped.
+- **The badge gap (original calculation):** CrossClimate2 and Blizzak both carry the three-peak mountain snowflake. Snow stop: 72.4 ft vs 57.3 ft — 15.1 ft apart, same badge. The badge's test is snow acceleration only; it never measures braking, cornering, or ice.
+- **The WeatherPeak surprise:** an all-weather tire stopped third on snow (58.6 ft), within 2.5 ft of the best winter tire, beating three of five dedicated winters (VikingContact 8, AltiMAX Arctic 12, Wintrac Pro+). Tyre Reviews confirms it is a repeat result, not a fluke: second of eight for snow braking in its own all-weather test, second of eleven in Tire Rack's 2025 test.
+- **Ice braking, 12 mph:** Blizzak 38.7 ft vs Primacy 57.7 ft — 19 ft, 49% farther. Four of the top four ice spots are dedicated winters. Widest margins in the test (49.1% spread).
+- **The inversion (original calculation):** the tire that wins snow and ice (X-Ice) finishes LAST in wet braking from 50 mph: 129 ft vs 93 ft for the Quatrac — a 36-foot penalty, 38.7% spread across the field. From 130 km/h the X-Ice is still doing 69 km/h when the Quatrac has stopped. Same story in the dry: X-Ice worst (31.39 m) vs CrossClimate2 best (25.33 m).
+- **The Wintrac upset:** the Vredestein Wintrac Pro+, a dedicated performance winter tire, was beaten on ice braking by the Vredestein Quatrac, an all-weather tire from the same manufacturer (16.22 m vs 15.42 m), and behind it on ice acceleration too (6.02 s vs 5.80 s). Performance winters trade cold-weather traction for speed rating and dry ability.
+- **Snow handling lap:** Blizzak 53.66 s fastest; Defender2 62.84 s slowest — 9.18 s gap. Five winter tires took the top five places; WeatherPeak dropped to seventh.
+- **AWD does not stop the car:** TIRF data — a winter-tire car stopped from 30 mph in ~59 ft; the same car on all-seasons needed ~30 ft more. AWD helps acceleration, not braking. A front-drive car on winter tires out-brakes an AWD SUV on all-seasons.
+- **The 45F line:** all-season rubber starts losing grip below about 45F (7C); winter compounds stay pliable. A Bridgestone engineer via TIRF: a winter tire has better traction at -40C than an all-season has at +4C.
+- **Never fit two:** winter tires on only two wheels unbalance the car — two on the front lets the rear slide out, two on the rear leaves the front unable to steer (GarageAnswers summary of Tire Rack guidance).
+
+## Original contribution
+1. **The badge-gap arithmetic:** same 3PMSF badge, 15.1-foot snow-braking gap between the CrossClimate2 and the Blizzak; the badge's qualifying test never measures braking at all.
+2. **The inversion table:** the snow/ice winner is the wet-weather loser — X-Ice first on snow (56.1 ft) and last in the wet (129 ft), a 36-foot swing against the Quatrac. No tire wins everywhere; the test is a trade, not a ranking.
+3. **The Wintrac upset:** a dedicated winter tire beaten on ice by its own maker's all-weather tire — the performance-winter category's trade made visible in one manufacturer's own lineup.
+4. **Residual-speed translation:** converting the stopping gaps into speeds still being carried when the better tire has stopped (73 km/h on snow, 75 km/h on ice, 69 km/h in the wet) — the numbers as impact speeds, not just distances.
+
+## Limitations (must state in article)
+- One car (2025 Camry), one tire size (215/55R17), one test track, near-freezing conditions. No trucks, SUVs, or heavier vehicles; no studded tires; no worn tires — all ten were new, and tread wear changes everything.
+- Tire Rack sells tires. It also sells every tire in this test, including the losers, and Tyre Reviews independently re-tabulated the data and confirmed the WeatherPeak result against two other tests — but the commercial interest should be named.
+- Braking distance is a proxy for crash risk, not a fatality count. This article contains no FARS crash data linking tire type to deaths; the test measures what the car does, not what happens to its occupants.
+- The 3PMSF definition (10% better snow acceleration than a reference tire, ASTM F1805) is a 1999 standard; the article relies on Kinja's and Tire Rack's descriptions of it, not the ASTM text itself.
+
+## Strongest counterargument (must state at full strength)
+For most of America, winter is cold rain, not snow and ice — and on cold wet pavement the winter tire is the worst thing in this test. The all-weather tire wins the wet chart, is decent on snow, and never needs a seasonal swap, a second set of wheels, or storage. A dedicated winter tire costs hundreds of dollars, twice a year, for a tire that gives back 36 feet in the rain. If your winter is mostly 40-degree rain with two snow days, the rational buy is the all-weather tire, and the test proves it.
+
+## What the reader should do
+- If you see real snow and ice every winter: fit four dedicated winter tires (never two), and check the snow braking number, not the badge — two tires with the same snowflake stopped 15 feet apart.
+- If your winter is mostly cold rain with occasional snow: a good all-weather tire (WeatherPeak for snow, Quatrac for rain) is the rational year-round pick; the winter tire's wet penalty is real.
+- If you run all-seasons through winter: know the gap — 25 extra feet to stop from 25 mph on snow, 19 extra feet from 12 mph on ice — and add following distance accordingly. AWD does not close it.
+- Check the sidewall for the three-peak mountain snowflake, but treat it as a minimum, not a guarantee: it certifies snow acceleration only.
