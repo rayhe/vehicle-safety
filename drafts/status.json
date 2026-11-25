@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1575-2026-recalls-fewer-bigger-34-million-units",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-24T20:45:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-24 18:50 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.57 REVISE; r1 avg 8.86 SHIP)/SHIP complete for #1574 (NHTSA AEB deadline 2029 to 2031, Axle McScatter). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Queue: 783 entries, 710 SHIP_BLOCKED, extends to 2028-11-03; backlog healthy.",
   "last_checked": "2026-11-24T16:30:00-08:00",
-  "last_completed": "2026-11-24T18:50:00-08:00",
+  "last_completed": "2026-11-24T21:00:00-08:00",
   "last_completed_date": "2026-11-24",
   "last_journalist": "Axle McScatter",
   "last_published": "2026-11-24T00:30:00-08:00",
@@ -28953,6 +28947,45 @@
       "ship_date": "2028-11-03",
       "slug": "1574-nhtsa-aeb-deadline-2029-to-2031",
       "title": "NHTSA Moved the Braking Deadline Two Years. Its Own Math Prices That at 720 Lives."
+    },
+    {
+      "avg_critic": 9.14,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1575-2026-recalls-fewer-bigger-34-million-units-critic-panel-r0.md",
+        "hero": "drafts/1575-2026-recalls-fewer-bigger-34-million-units.jpg",
+        "research": "drafts/1575-2026-recalls-fewer-bigger-34-million-units-research.md",
+        "story": "drafts/1575-2026-recalls-fewer-bigger-34-million-units.html"
+      },
+      "hard_gates": {
+        "actionable_insights": true,
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "3e0e3666",
+        "hero_jpeg": true,
+        "rhythm": "pass (script exit 0: var 1636.4, short 5.9%, long 73.5%)",
+        "style_css": true,
+        "the_starters_pct": 0.0
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-24 20:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 9.14 SHIP)/SHIP complete. 2026 recall year totals: 709 campaigns, 34.8M units thru Nov 6 (+19% vs all of 2025, +33% units on -5% campaigns YoY same-period); five >1M campaigns = 26% of year, 26V104 alone 12.6%; Ford 41% of units from 11.7% of campaigns; reconciles site census (Ford 41 = 2026-MY only) vs all-years total (Ford 83). Round-0 rhythm fix: merged 9 short sentences (25.0% -> 5.9%). Queued 2028-11-04.",
+      "number": 1575,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.5,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-11-04",
+      "slug": "1575-2026-recalls-fewer-bigger-34-million-units",
+      "title": "2026 Filed Fewer Recalls Than 2025. It Recalled 8.6 Million More Cars."
     }
   ]
 }
