@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1575-2026-recalls-fewer-bigger-34-million-units",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
-    "started": "2026-11-24T20:45:00-08:00"
+    "started": "2026-11-24T20:45:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-24 18:50 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.57 REVISE; r1 avg 8.86 SHIP)/SHIP complete for #1574 (NHTSA AEB deadline 2029 to 2031, Axle McScatter). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Queue: 783 entries, 710 SHIP_BLOCKED, extends to 2028-11-03; backlog healthy.",
   "last_checked": "2026-11-24T16:30:00-08:00",
