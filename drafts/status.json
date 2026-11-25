@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1583-honda-takata-desiccant-recall-810k",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-25T14:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-25 12:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71 SHIP)/SHIP complete for #1582 (Tire Rack 2026 winter vs all-weather test, Mia Crumplezone). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 791 entries, 717 SHIP_BLOCKED, extends to 2028-11-11.",
+    "current": null,
+    "last_check_note": "2026-11-25 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete for #1583 (Honda Takata desiccant recall 26V765, 810,592 cars, Rex Driverton). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 792 entries, 718 SHIP_BLOCKED, extends to 2028-11-12.",
     "last_checked": "2026-11-25T08:57:00-08:00",
-    "last_completed": "2026-11-25T12:45:00-08:00",
+    "last_completed": "2026-11-25T14:45:00-08:00",
     "last_completed_date": "2026-11-25",
-    "last_journalist": "Mia Crumplezone",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-25T00:45:48-08:00",
     "last_published_date": "2026-11-25",
     "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "last_qa_date": "2026-11-25",
     "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-    "last_worker_run": "2026-11-25T14:30:00-08:00",
-    "next": 1583,
+    "last_worker_run": "2026-11-25T14:45:00-08:00",
+    "next": 1584,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -29270,6 +29264,35 @@
             "ship_date": "2028-11-11",
             "slug": "1582-snowflake-badge-never-tested-braking",
             "title": "The Snowflake on Your Tire Never Tested Braking"
+        },
+        {
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1583-honda-takata-desiccant-recall-810k-critic-panel-r0.md",
+                "hero": "images/1583-honda-takata-desiccant-recall-810k.jpg",
+                "research": "drafts/1583-honda-takata-desiccant-recall-810k-research.md",
+                "story": "drafts/1583-honda-takata-desiccant-recall-810k.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "adae552b",
+                "hero_jpeg": true,
+                "style_css": true,
+                "the_starters_pct": 10.4,
+                "word_count": 996
+            },
+            "journalist": "Rex Driverton",
+            "kicker": "Investigation",
+            "note": "2026-11-25 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete for #1583 (Honda Takata desiccant recall 26V765, 810,592 cars, Rex Driverton). Pre-score fixes: bankruptcy nine years (not a decade), crisis eighteen years (not thirteen). Rhythm first failed short at 23.2%, fixed by merging 7 fragments, re-ran clean. 1/day slot already consumed today (Publish #859 at 00:45); no publish this run.",
+            "number": 1583,
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-11-12",
+            "slug": "honda-takata-desiccant-recall-810k",
+            "title": "The Desiccant Was Supposed to Fix Takata. Honda Just Recalled 810,592 Cars Anyway."
         }
     ]
 }
