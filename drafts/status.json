@@ -1,17 +1,17 @@
 {
     "current": null,
-    "last_check_note": "2026-11-25 02:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.76 SHIP)/SHIP complete for #1578 (Thanksgiving morning speed triples, Allstate Drivewise 44M trips, Dale Impactor III). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 787 entries, 713 SHIP_BLOCKED, extends to 2028-11-07.",
-    "last_checked": "2026-11-25T00:52:00-08:00",
-    "last_completed": "2026-11-25T03:00:00-08:00",
+    "last_check_note": "2026-11-25 04:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71 SHIP)/SHIP complete for #1579 (Waymo CA DMV freeway ban, imminent hazard, Vin Wreckage). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 788 entries, 714 SHIP_BLOCKED, extends to 2028-11-08.",
+    "last_checked": "2026-11-25T04:38:33-08:00",
+    "last_completed": "2026-11-25T04:38:33-08:00",
     "last_completed_date": "2026-11-25",
-    "last_journalist": "Dale Impactor III",
+    "last_journalist": "Vin Wreckage",
     "last_published": "2026-11-25T00:45:48-08:00",
     "last_published_date": "2026-11-25",
     "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "last_qa_date": "2026-11-25",
     "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-    "last_worker_run": "2026-11-25T03:00:00-08:00",
-    "next": 1579,
+    "last_worker_run": "2026-11-25T04:38:33-08:00",
+    "next": 1580,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -29109,6 +29109,47 @@
             "ship_date": "2028-11-07",
             "slug": "1578-thanksgiving-morning-speed-triples",
             "title": "Thanksgiving Morning Is the Fastest Three Hours on American Roads"
+        },
+        {
+            "avg_critic": 8.71,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1579-waymo-california-freeway-ban-imminent-hazard-critic-panel-r0.md",
+                "hero": "drafts/1579-waymo-california-freeway-ban-imminent-hazard.jpg",
+                "research": "drafts/1579-waymo-california-freeway-ban-imminent-hazard-research.md",
+                "story": "drafts/1579-waymo-california-freeway-ban-imminent-hazard.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "dfd16d37",
+                "hero_jpeg": true,
+                "rhythm_pass": true,
+                "rhythm_short_pct": 9.1,
+                "rhythm_variance": 3063.2,
+                "style_css": true,
+                "the_starters_pct": 3.8,
+                "word_count": 806
+            },
+            "journalist": "Vin Wreckage",
+            "kicker": "Investigation",
+            "note": "2026-11-25 04:30 run: #1579 (CA DMV barred Waymo from all state freeways Nov 11, 2026, \"imminent hazard\"; 3 robotaxis into US 101 construction closure Nov 5, 1 tried to pass CHP traffic break on I-280 Nov 6; Waymo paused freeway rides nationwide; Vin Wreckage) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.71, all 7 >= 8.5; gates: em 0, banned 0, The 3.8%, css ok, rhythm var 3063.2 / short 9.1% / long 72.7%, hero JPEG 1920x1280 ?v=dfd16d37). Draft revised once pre-panel: short-sentence share cut 36.8% -> 9.1% to pass rhythm gate. Novel: fix-lifespan math (June recall fix lasted ~4 months), 177-day May-to-Nov arc, voluntary-vs-compelled escalation, one-state-order-five-markets spillover. Not covered: RQ26006 school-bus query is #1445; June freeway piece predates the ban. Queued SHIP_BLOCKED for 2028-11-08.",
+            "number": 1579,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 9.0,
+                "ethics_reviewer": 8.5,
+                "general_editor": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.5,
+                "social_shareability": 8.5,
+                "voice_coach": 9.0
+            },
+            "ship_date": "2028-11-08",
+            "slug": "1579-waymo-california-freeway-ban-imminent-hazard",
+            "title": "California Called Waymo an \"Imminent Hazard\" and Kicked It Off Every Freeway in the State"
         }
     ]
 }
