@@ -1,9 +1,10 @@
 {
     "current": {
         "slug": "1574-nhtsa-aeb-deadline-2029-to-2031",
-        "phase": "DRAFT",
+        "phase": "CRITIQUE",
         "journalist": "Axle McScatter",
-        "started": "2026-11-24T18:40:00-08:00"
+        "started": "2026-11-24T18:40:00-08:00",
+        "round": 0
     },
     "last_check_note": "2026-11-24 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1573 (S-10/Sonoma twin paradox, Rex Driverton). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Queue: 782 entries, 709 SHIP_BLOCKED, extends to 2028-11-02; backlog healthy.",
     "last_checked": "2026-11-24T16:30:00-08:00",
@@ -15,7 +16,7 @@
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
-    "last_worker_run": "2026-11-24T18:40:00-08:00",
+    "last_worker_run": "2026-11-24T18:45:00-08:00",
     "next": 1574,
     "queue": [
         {
