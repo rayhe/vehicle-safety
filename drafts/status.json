@@ -1,17 +1,17 @@
 {
     "current": null,
-    "last_check_note": "2026-11-24 22:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.57 REVISE; r1 avg 8.93 SHIP)/SHIP complete for #1576 (Tesla 26V445 Canadian buyback, Rex Driverton). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Queue: 785 entries, 711 SHIP_BLOCKED, extends to 2028-11-05; backlog healthy.",
+    "last_check_note": "2026-11-25 00:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.50 REVISE; r1 avg 8.76 SHIP)/SHIP complete for #1577 (2027 Atlas LATCH stitching 26V732, Clara Rollover). Queue: 786 entries, 713 SHIP_BLOCKED, extends to 2028-11-06.",
     "last_checked": "2026-11-24T16:30:00-08:00",
-    "last_completed": "2026-11-24T22:50:00-08:00",
+    "last_completed": "2026-11-25T00:55:00-08:00",
     "last_completed_date": "2026-11-24",
-    "last_journalist": "Rex Driverton",
+    "last_journalist": "Clara Rollover",
     "last_published": "2026-11-24T00:30:00-08:00",
     "last_published_date": "2026-11-24",
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
     "last_worker_run": "2026-11-24T22:50:00-08:00",
-    "next": 1577,
+    "next": 1578,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -29026,6 +29026,49 @@
                 "critic_panel": "drafts/1576-tesla-canadian-buyback-fifteen-cars-critic-panel-r1.md"
             },
             "note": "2026-11-24 22:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.57 REVISE; r1 avg 8.93 SHIP)/SHIP complete. Tesla 26V445: 15 Canadian-market cars (12 Model 3 + 3 Model Y), missing knee airbag, FMVSS 208/201 + Part 581 noncompliance, buyback remedy under 49 USC 30120. R0 fixes: removed invented 'clerk routing letter' line, softened 'only buyback'/'rarest remedy' superlatives. Queued 2028-11-05."
+        },
+        {
+            "number": 1577,
+            "slug": "1577-atlas-child-seat-anchors-stitched-shut",
+            "title": "Volkswagen Stitched the Child-Seat Anchors Shut",
+            "journalist": "Clara Rollover",
+            "kicker": "The Gap",
+            "phase": "SHIP_BLOCKED",
+            "ship_date": "2028-11-06",
+            "critique_round": 1,
+            "avg_critic": 8.76,
+            "scores": {
+                "general_editor": 8.5,
+                "voice_coach": 9.0,
+                "ethics_reviewer": 8.5,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 8.8,
+                "data_presentation": 9.0
+            },
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 2.3,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_hash": "cb8d3b30",
+                "sentence_rhythm": {
+                    "passed": true,
+                    "variance": 925.8,
+                    "short_pct": 2.7,
+                    "long_pct": 48.6
+                },
+                "word_count": 1055
+            },
+            "files": {
+                "research": "drafts/1577-atlas-child-seat-anchors-stitched-shut-research.md",
+                "draft": "drafts/1577-atlas-child-seat-anchors-stitched-shut.html",
+                "hero": "drafts/1577-atlas-child-seat-anchors-stitched-shut.jpg",
+                "critic_panel": "drafts/1577-atlas-child-seat-anchors-stitched-shut-critic-panel-r1.md"
+            },
+            "note": "2026-11-25 00:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.50 REVISE on rigor 8.0; r1 avg 8.76 SHIP)/SHIP complete. Novel: 2027 Atlas 26V732, 3,914 units, second-row center LATCH anchor openings partially obstructed by seat stitching, FMVSS 225; interim remedy is a prohibition (no LATCH car seat in the center seat) until Jan 3, 2027 letters. Safest-seat inversion: IIHS rear-seat risk cut ~3/4 for under-3s, and the disabled seat is the center rear. Round-0 fixes: LATCH geometry sentence, Takata date/count."
         }
     ]
 }
