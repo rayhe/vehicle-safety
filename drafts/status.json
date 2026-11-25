@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1576-tesla-canadian-buyback-fifteen-cars",
-        "phase": "CRITIQUE",
-        "journalist": "Rex Driverton",
-        "started": "2026-11-24T22:35:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-24 22:30 run: RESEARCH #1576 complete (Tesla 26V445 Canadian buyback, 15 cars, Rex Driverton). Note: queue entry #1575 already SHIP_BLOCKED from 20:30 run; status 'next' counter was stale at 1575, corrected to 1576. PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24 ships earliest Nov 25.",
+    "current": null,
+    "last_check_note": "2026-11-24 22:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.57 REVISE; r1 avg 8.93 SHIP)/SHIP complete for #1576 (Tesla 26V445 Canadian buyback, Rex Driverton). PUBLISH-QUEUE: 1/day gate consumed (Publish #858 at 00:30 today); #859 due 2026-11-24, hero present, ships earliest Nov 25. Queue: 785 entries, 711 SHIP_BLOCKED, extends to 2028-11-05; backlog healthy.",
     "last_checked": "2026-11-24T16:30:00-08:00",
-    "last_completed": "2026-11-24T21:00:00-08:00",
+    "last_completed": "2026-11-24T22:50:00-08:00",
     "last_completed_date": "2026-11-24",
-    "last_journalist": "Axle McScatter",
+    "last_journalist": "Rex Driverton",
     "last_published": "2026-11-24T00:30:00-08:00",
     "last_published_date": "2026-11-24",
     "last_published_slug": "858-grand-cherokee-third-spring-recall",
     "last_qa_date": "2026-11-24",
     "last_qa_note": "QA 2026-11-24 00:30 run: #858 live verified - story 200 (via 308 to extensionless URL, 9,416 bytes), hero JPEG 200 (328,212 bytes, 1920x1280), og:title/og:description/og:image present, index card present, sitemap entry present, em dashes 0. Deploy lag ~2 min after push (initial 404s).",
-    "last_worker_run": "2026-11-24T22:45:00-08:00",
-    "next": 1576,
+    "last_worker_run": "2026-11-24T22:50:00-08:00",
+    "next": 1577,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -28992,6 +28986,46 @@
             "ship_date": "2028-11-04",
             "slug": "1575-2026-recalls-fewer-bigger-34-million-units",
             "title": "2026 Filed Fewer Recalls Than 2025. It Recalled 8.6 Million More Cars."
+        },
+        {
+            "number": 1576,
+            "slug": "1576-tesla-canadian-buyback-fifteen-cars",
+            "title": "Tesla Certified 15 Canadian Cars as U.S.-Legal. One Airbag Says Otherwise.",
+            "journalist": "Rex Driverton",
+            "kicker": "Investigation",
+            "ship_date": "2028-11-05",
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "general_editor": 9.0,
+                "voice_coach": 9.5,
+                "ethics_reviewer": 9.0,
+                "social_shareability": 8.5,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "data_presentation": 9.5
+            },
+            "avg_critic": 8.93,
+            "critique_round": 1,
+            "hard_gates": {
+                "em_dashes": 0,
+                "banned_phrases": 0,
+                "the_starters_pct": 0.0,
+                "css_class": true,
+                "style_css": true,
+                "hero_jpeg": true,
+                "hero_dim": "1920x1280",
+                "hero_hash": "a6dadd84",
+                "word_count": 672,
+                "rhythm": "pass (script exit 0: var 467.4, short 10.3%, long 62.1%)",
+                "actionable_insights": true
+            },
+            "files": {
+                "research": "drafts/1576-tesla-canadian-buyback-fifteen-cars-research.md",
+                "story": "drafts/1576-tesla-canadian-buyback-fifteen-cars.html",
+                "hero": "drafts/1576-tesla-canadian-buyback-fifteen-cars.jpg",
+                "critic_panel": "drafts/1576-tesla-canadian-buyback-fifteen-cars-critic-panel-r1.md"
+            },
+            "note": "2026-11-24 22:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.57 REVISE; r1 avg 8.93 SHIP)/SHIP complete. Tesla 26V445: 15 Canadian-market cars (12 Model 3 + 3 Model Y), missing knee airbag, FMVSS 208/201 + Part 581 noncompliance, buyback remedy under 49 USC 30120. R0 fixes: removed invented 'clerk routing letter' line, softened 'only buyback'/'rarest remedy' superlatives. Queued 2028-11-05."
         }
     ]
 }
