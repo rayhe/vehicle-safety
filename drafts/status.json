@@ -1,23 +1,17 @@
 {
-    "current": {
-        "slug": "1578-thanksgiving-morning-speed-triples",
-        "phase": "CRITIQUE",
-        "journalist": "Dale Impactor III",
-        "started": "2026-11-25T02:30:00-08:00",
-        "round": 0
-    },
-    "last_check_note": "2026-11-25 00:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.50 REVISE; r1 avg 8.76 SHIP)/SHIP complete for #1577 (2027 Atlas LATCH stitching 26V732, Clara Rollover). PUBLISH-QUEUE: published #859 (GMC Canyon IIHS rear-seat flunk, Mia Crumplezone), 1/day slot. Queue: 786 entries, 712 SHIP_BLOCKED, extends to 2028-11-06.",
+    "current": null,
+    "last_check_note": "2026-11-25 02:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.76 SHIP)/SHIP complete for #1578 (Thanksgiving morning speed triples, Allstate Drivewise 44M trips, Dale Impactor III). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 787 entries, 713 SHIP_BLOCKED, extends to 2028-11-07.",
     "last_checked": "2026-11-25T00:52:00-08:00",
-    "last_completed": "2026-11-25T00:55:00-08:00",
-    "last_completed_date": "2026-11-24",
-    "last_journalist": "Clara Rollover",
+    "last_completed": "2026-11-25T03:00:00-08:00",
+    "last_completed_date": "2026-11-25",
+    "last_journalist": "Dale Impactor III",
     "last_published": "2026-11-25T00:45:48-08:00",
     "last_published_date": "2026-11-25",
     "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "last_qa_date": "2026-11-25",
     "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-    "last_worker_run": "2026-11-25T02:45:00-08:00",
-    "next": 1578,
+    "last_worker_run": "2026-11-25T03:00:00-08:00",
+    "next": 1579,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -29076,6 +29070,45 @@
                 "critic_panel": "drafts/1577-atlas-child-seat-anchors-stitched-shut-critic-panel-r1.md"
             },
             "note": "2026-11-25 00:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.50 REVISE on rigor 8.0; r1 avg 8.76 SHIP)/SHIP complete. Novel: 2027 Atlas 26V732, 3,914 units, second-row center LATCH anchor openings partially obstructed by seat stitching, FMVSS 225; interim remedy is a prohibition (no LATCH car seat in the center seat) until Jan 3, 2027 letters. Safest-seat inversion: IIHS rear-seat risk cut ~3/4 for under-3s, and the disabled seat is the center rear. Round-0 fixes: LATCH geometry sentence, Takata date/count."
+        },
+        {
+            "avg_critic": 8.76,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1578-thanksgiving-morning-speed-triples-critic-panel-r0.md",
+                "hero": "drafts/1578-thanksgiving-morning-speed-triples.jpg",
+                "research": "drafts/1578-thanksgiving-morning-speed-triples-research.md",
+                "story": "drafts/1578-thanksgiving-morning-speed-triples.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "b9396b3c",
+                "hero_jpeg": true,
+                "rhythm_pass": true,
+                "style_css": true,
+                "the_starters_pct": 9.7,
+                "word_count": 835
+            },
+            "journalist": "Dale Impactor III",
+            "kicker": "By The Numbers",
+            "note": "2026-11-25 02:30 run: #1578 (Allstate Thanksgiving Driver Report, Nov 10 2026: 44M Drivewise trips; 80+ mph share nearly tripled 6-9 AM Thanksgiving Day; 1 in 5 trips multi-risk, 90%+ speed+phone; Dale Impactor III) RESEARCH->DRAFT->CRITIQUE complete. Round-0 panel VERDICT: SHIP (avg 8.76, all 7 >= 8.5; gates: em 0, banned 0, The 9.7%, css ok, rhythm var 289.5 / short 9.7% / long 58.1%, hero JPEG 1920x1280 ?v=b9396b3c). Pre-panel fixes: 100-mile figure corrected to share-of-trips; 'tomorrow' anchor removed (queue ships ~2y after drafting). Novel: first Allstate/Drivewise article; empty-road paradox + per-day toll comparison + 18% stacking derivation. Queued SHIP_BLOCKED for 2028-11-07.",
+            "number": 1578,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 8.9,
+                "ethics_reviewer": 8.8,
+                "general_editor": 8.7,
+                "legal_accuracy": 8.8,
+                "research_rigor": 8.7,
+                "social_shareability": 8.6,
+                "voice_coach": 8.8
+            },
+            "ship_date": "2028-11-07",
+            "slug": "1578-thanksgiving-morning-speed-triples",
+            "title": "Thanksgiving Morning Is the Fastest Three Hours on American Roads"
         }
     ]
 }
