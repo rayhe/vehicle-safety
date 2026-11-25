@@ -1,17 +1,17 @@
 {
     "current": null,
-    "last_check_note": "2026-11-25 04:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.71 SHIP)/SHIP complete for #1579 (Waymo CA DMV freeway ban, imminent hazard, Vin Wreckage). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 788 entries, 714 SHIP_BLOCKED, extends to 2028-11-08.",
+    "last_check_note": "2026-11-25 06:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete for #1580 (Mercedes hands-free 85 mph, Level 2 liability inversion, Mia Crumplezone). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 789 entries, 715 SHIP_BLOCKED, extends to 2028-11-09.",
     "last_checked": "2026-11-25T04:38:33-08:00",
-    "last_completed": "2026-11-25T04:38:33-08:00",
+    "last_completed": "2026-11-25T06:55:00-08:00",
     "last_completed_date": "2026-11-25",
-    "last_journalist": "Vin Wreckage",
+    "last_journalist": "Mia Crumplezone",
     "last_published": "2026-11-25T00:45:48-08:00",
     "last_published_date": "2026-11-25",
     "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
     "last_qa_date": "2026-11-25",
     "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-    "last_worker_run": "2026-11-25T04:38:33-08:00",
-    "next": 1580,
+    "last_worker_run": "2026-11-25T06:55:00-08:00",
+    "next": 1581,
     "queue": [
         {
             "journalist": "Rex Driverton",
@@ -29150,6 +29150,44 @@
             "ship_date": "2028-11-08",
             "slug": "1579-waymo-california-freeway-ban-imminent-hazard",
             "title": "California Called Waymo an \"Imminent Hazard\" and Kicked It Off Every Freeway in the State"
+        },
+        {
+            "avg_critic": 8.79,
+            "critique_round": 0,
+            "files": {
+                "critic_panel": "drafts/1580-mercedes-hands-free-85-mph-you-own-the-crash-critic-panel-r0.md",
+                "hero": "images/1580-mercedes-hands-free-85-mph-you-own-the-crash.jpg",
+                "research": "drafts/1580-mercedes-hands-free-85-mph-you-own-the-crash-research.md",
+                "story": "drafts/1580-mercedes-hands-free-85-mph-you-own-the-crash.html"
+            },
+            "hard_gates": {
+                "banned_phrases": 0,
+                "css_class": true,
+                "em_dashes": 0,
+                "hero_dim": "1920x1280",
+                "hero_hash": "d03616fb",
+                "hero_jpeg": true,
+                "style_css": true,
+                "the_starters_pct": 9.3,
+                "word_count": 891
+            },
+            "journalist": "Mia Crumplezone",
+            "kicker": "Investigation",
+            "note": "2026-11-25 06:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete for #1580 (Mercedes hands-free 85 mph, Level 2 liability inversion, Mia Crumplezone). Ship fix: none needed. 1/day slot already consumed today (Publish #859 at 00:45); no publish this run.",
+            "number": 1580,
+            "phase": "SHIP_BLOCKED",
+            "scores": {
+                "data_presentation": 8.5,
+                "ethics_reviewer": 9.0,
+                "general_editor": 9.0,
+                "legal_accuracy": 9.0,
+                "research_rigor": 9.0,
+                "social_shareability": 8.5,
+                "voice_coach": 8.5
+            },
+            "ship_date": "2028-11-09",
+            "slug": "1580-mercedes-hands-free-85-mph-you-own-the-crash",
+            "title": "Mercedes Will Let You Go Hands-Free at 85 MPH. You Still Own the Crash."
         }
     ]
 }
