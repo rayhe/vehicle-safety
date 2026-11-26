@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1594-nhtsa-five-standards-no-steering-wheel-rewrite",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-26T12:40:00-08:00"
+  },
   "last_check_note": "2026-11-26 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1593 (Honda 26V721 divide-by-zero steering, 635,808; Rex Driverton, round-0 8.89, queued 2028-11-22). Killed angles: Waymo RQ26006 (covered #1445/#1461/#1523), BMW 26V733 fire, Takata 26V765, Ioniq 9, RAV4 PHEV stall. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 (ship 2026-11-26) due but stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T10:30:00-08:00",
