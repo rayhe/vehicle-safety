@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "1588-teen-distraction-seven-percent-myth",
-    "phase": "CRITIQUE",
-    "journalist": "Dale Impactor III",
-    "started": "2026-11-26T00:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-26 00:30 run: Published #860 (QA live-verified). DRAFT #1588 written (teen distracted driving, Dale Impactor III, 737 words, hero JPEG 1920x1280 hash 1808046f). Gates pre-checked: em 0, banned 0, The 0%, rhythm PASS (var 256.2, short 7.9%, long 52.6%). Proceeding to CRITIQUE.",
+  "current": null,
+  "last_check_note": "2026-11-26 00:30 run: Published #860 (CAFE crossover truck loophole, Rex Driverton; QA live-verified). #1588 RESEARCH+DRAFT+CRITIQUE(r0 8.84 SHIP)/SHIP queued 2028-11-17. PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-25T22:45:00-08:00",
-  "last_completed": "2026-11-25T22:45:00-08:00",
-  "last_completed_date": "2026-11-25",
-  "last_journalist": "Rex Driverton",
+  "last_completed": "2026-11-26T00:30:00-08:00",
+  "last_completed_date": "2026-11-26",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-26T00:30:00-08:00",
   "last_published_date": "2026-11-26",
   "last_published_slug": "860-cafe-crossover-truck-loophole",
@@ -29464,6 +29458,49 @@
         "critic_panel": "drafts/1587-tesla-hidden-crashes-12-crashes-16-lives-critic-panel-r0.md"
       },
       "note": "2026-11-25 22:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1587 (Tesla hidden fatal crashes sequel to #905: Electrek Nov 16 update, 8 crashes/8 lives to 12/16; four new cases incl. I-75 Naples under-truck at 71 mph killing former Marine Jonathan Garcia Arias, El Dorado Hills 74 mph triple-fatal, Naples pole rollover 39 mph, Vineland case missing from federal data; Rex Driverton). Pre-score fixes: invented SGO URL replaced with verified NHTSA page; 5-day reporting claim corrected to NHTSA one-day rule. Gates: em 0, banned 0, The 1.1%, rhythm PASS variance 334.3, hero JPEG 2352x1008 ?v=39b2fa53. Queued SHIP_BLOCKED for 2028-11-16."
+    },
+    {
+      "number": 1588,
+      "slug": "1588-teen-distraction-seven-percent-myth",
+      "title": "Seven Percent, Three Times: The Distracted Teen Isn't the Story",
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-11-17",
+      "avg_critic": 8.84,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.9,
+        "ethics_reviewer": 8.8,
+        "social_shareability": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.5,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "1808046f",
+        "sentence_rhythm": {
+          "variance": 250.9,
+          "short_pct": 7.7,
+          "long_pct": 43.6,
+          "passed": true
+        },
+        "word_count": 725
+      },
+      "files": {
+        "research": "drafts/1588-teen-distraction-seven-percent-myth-research.md",
+        "draft": "drafts/1588-teen-distraction-seven-percent-myth.html",
+        "hero": "drafts/1588-teen-distraction-seven-percent-myth.jpg",
+        "critic_panel": "drafts/1588-teen-distraction-seven-percent-myth-critic-panel-r0.md"
+      },
+      "note": "Round-0 pass 8.84 avg; 7/7 critics >= 8.5. Novel: first standalone coverage of NHTSA DOT HS 813 792 (Teens and Distracted Driving in 2024) on site. The 7%-triple (186 teen distraction deaths / 241 distracted teen drivers / 264 killed in distracted-teen crashes), age-flat 6% distraction across 15-44, phones only 14% of distraction, teens only 8% of distracted drivers, 47% self-kill share. Two precision fixes pre-scoring: 15-20 vs 15-19 definition, gender-neutral modal driver."
     }
   ]
 }
