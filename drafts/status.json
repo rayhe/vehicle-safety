@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1587-tesla-hidden-crashes-12-crashes-16-lives",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-25T22:30:00-08:00",
+    "number": 1587
+  },
   "last_check_note": "2026-11-25 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1585 (Acura ZDX 26V735 second brake recall, GM did the homework, Vin Wreckage). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859); no publish this run. Queue: 794 entries, 720 SHIP_BLOCKED, extends to 2028-11-14.",
   "last_checked": "2026-11-25T18:50:00-08:00",
   "last_completed": "2026-11-25T20:45:00-08:00",
@@ -10,7 +16,7 @@
   "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-25T18:50:00-08:00",
+  "last_worker_run": "2026-11-25T22:30:00-08:00",
   "next": 1586,
   "queue": [
     {
