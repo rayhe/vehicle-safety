@@ -1,22 +1,17 @@
 {
-  "current": {
-    "slug": "1585-zdx-dead-ev-second-brake-recall",
-    "phase": "DRAFT",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-25T18:35:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-25 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.80 SHIP)/SHIP complete for #1584 (2026-27 Model Y IIHS Top Safety Pick+, Mia Crumplezone). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859); no publish this run. Queue: 793 entries, 719 SHIP_BLOCKED, extends to 2028-11-13.",
   "last_checked": "2026-11-25T08:57:00-08:00",
-  "last_completed": "2026-11-25T16:30:00-08:00",
+  "last_completed": "2026-11-25T18:45:00-08:00",
   "last_completed_date": "2026-11-25",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-25T00:45:48-08:00",
   "last_published_date": "2026-11-25",
   "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-25T18:35:00-08:00",
-  "next": 1585,
+  "last_worker_run": "2026-11-25T18:45:00-08:00",
+  "next": 1586,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -29337,6 +29332,47 @@
       "ship_date": "2028-11-13",
       "slug": "1584-model-y-aces-rear-seat-test-tesla-ran-three",
       "title": "The Best-Selling EV Just Aced the Test That Sank the RAV4. Tesla Ran Three of the Four Crashes Itself."
+    },
+    {
+      "number": 1585,
+      "slug": "1585-zdx-dead-ev-second-brake-recall",
+      "title": "Acura's First EV Is Dead and Its Brakes Just Got Recalled a Second Time",
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-11-14",
+      "critique_round": 0,
+      "avg_critic": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "2736x912",
+        "hero_hash": "b26a87fd",
+        "word_count": 1284,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 2.9,
+        "rhythm_variance": 6392.2
+      },
+      "files": {
+        "research": "drafts/1585-zdx-dead-ev-second-brake-recall-research.md",
+        "story": "drafts/1585-zdx-dead-ev-second-brake-recall.html",
+        "hero": "drafts/1585-zdx-dead-ev-second-brake-recall.jpg",
+        "critic_panel": "drafts/1585-zdx-dead-ev-second-brake-recall-critic-panel-r0.md"
+      },
+      "note": "2026-11-25 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1585 (Acura ZDX 26V735 second brake recall, GM homework, Vin Wreckage). Round-0 rhythm fix: 9 short fragments merged (short_pct 27.3% -> 2.9%); 1 literal em dash in ref-3 replaced. Gates: em 0, banned 0, The 0.0%, hero JPEG 2736x912 ?v=b26a87fd. Ship date 2028-11-14 (latest queue 2028-11-13 + 1 day)."
     }
   ]
 }
