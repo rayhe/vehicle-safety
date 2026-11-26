@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1584-model-y-aces-rear-seat-test-tesla-ran-three",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-25T16:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-25 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete for #1583 (Honda Takata desiccant recall 26V765, 810,592 cars, Rex Driverton). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 792 entries, 718 SHIP_BLOCKED, extends to 2028-11-12.",
+  "current": null,
+  "last_check_note": "2026-11-25 16:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.80 SHIP)/SHIP complete for #1584 (2026-27 Model Y IIHS Top Safety Pick+, Mia Crumplezone). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859); no publish this run. Queue: 793 entries, 719 SHIP_BLOCKED, extends to 2028-11-13.",
   "last_checked": "2026-11-25T08:57:00-08:00",
-  "last_completed": "2026-11-25T14:45:00-08:00",
+  "last_completed": "2026-11-25T16:30:00-08:00",
   "last_completed_date": "2026-11-25",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-25T00:45:48-08:00",
   "last_published_date": "2026-11-25",
   "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
   "last_worker_run": "2026-11-25T16:30:00-08:00",
-  "next": 1584,
+  "next": 1585,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -29299,6 +29293,45 @@
       "ship_date": "2028-11-12",
       "slug": "honda-takata-desiccant-recall-810k",
       "title": "The Desiccant Was Supposed to Fix Takata. Honda Just Recalled 810,592 Cars Anyway."
+    },
+    {
+      "avg_critic": 8.8,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1584-model-y-aces-rear-seat-test-tesla-ran-three-critic-panel-r0.md",
+        "hero": "images/1584-model-y-aces-rear-seat-test-tesla-ran-three.jpg",
+        "research": "drafts/1584-model-y-aces-rear-seat-test-tesla-ran-three-research.md",
+        "story": "drafts/1584-model-y-aces-rear-seat-test-tesla-ran-three.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "c63eff12",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "style_css": true,
+        "the_starters_pct": 4.7,
+        "word_count": 2212
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "note": "2026-11-25 16:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1584 (2026-27 Model Y IIHS Top Safety Pick+, Sept 3, 2026; Mia Crumplezone, round-0 8.80, queued 2028-11-13). Pre-panel fix: rhythm short-share 22.5% -> 1.4% (9 fragment merges). Novel: 3 of 4 crash tests Tesla-conducted under IIHS verification, moderate overlap (the award-deciding test) IIHS-run per policy; FARS Model Y rate 0.03, lowest in 337-model dataset.",
+      "number": 1584,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.9,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-11-13",
+      "slug": "1584-model-y-aces-rear-seat-test-tesla-ran-three",
+      "title": "The Best-Selling EV Just Aced the Test That Sank the RAV4. Tesla Ran Three of the Four Crashes Itself."
     }
   ]
 }
