@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1595-bmw-recall-fix-failed-park-outside-again",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-26T14:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1593 (Honda 26V721 divide-by-zero steering, 635,808; Rex Driverton, round-0 8.89, queued 2028-11-22). Killed angles: Waymo RQ26006 (covered #1445/#1461/#1523), BMW 26V733 fire, Takata 26V765, Ioniq 9, RAV4 PHEV stall. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 (ship 2026-11-26) due but stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-26T12:55:00-08:00",
+  "last_completed": "2026-11-26T14:55:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -29761,6 +29755,45 @@
       "ship_date": "2028-11-23",
       "slug": "1594-nhtsa-five-standards-no-steering-wheel-rewrite",
       "title": "NHTSA Is Rewriting Five Safety Standards for Cars With No Drivers. It Still Hasn\u2019t Written the One for Driving."
+    },
+    {
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1595-bmw-recall-fix-failed-park-outside-again-critic-panel-r0.md",
+        "hero": "drafts/1595-bmw-recall-fix-failed-park-outside-again.jpg",
+        "research": "drafts/1595-bmw-recall-fix-failed-park-outside-again-research.md",
+        "story": "drafts/1595-bmw-recall-fix-failed-park-outside-again.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "1082757b",
+        "hero_jpeg": true,
+        "rhythm": "PASS var=2413.1 short=2.6% long=48.7%",
+        "style_css": true,
+        "the_starters_pct": 7.0,
+        "word_count": 961
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "note": "2026-11-26 14:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP #1595 (BMW 26V733 second recall of the same 720,796 cars; 2024 shield fix built on wrong theory, PBT connector embrittled and cracked; first-fix completion only 40.5% with 414,212 never repaired; all ~10 US incidents in repaired cars, 1 per ~29,168; cause field blank, remedy under development, park outside, letters/VIN search Dec 25, 2026; Clara Rollover, round-0 8.74, queued 2028-11-24). Rhythm initially failed (short 31.0%); fragment merges fixed pre-critique, exit PASS. PUBLISH skipped (1/day gate already met today).",
+      "number": 1595,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.6,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
+      "ship_date": "2028-11-24",
+      "slug": "1595-bmw-recall-fix-failed-park-outside-again",
+      "title": "The Fix Didn\u2019t Fix It: BMW Recalls the Same 720,796 Cars a Second Time"
     }
   ]
 }
