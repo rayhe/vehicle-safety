@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-11-25 22:30 run: #1587 RESEARCH+DRAFT+CRITIQUE(r0 8.93 SHIP)/SHIP queued 2028-11-16. PUBLISH-QUEUE: 1/day gate consumed (Publish #859 earlier today 00:45 PT); earliest-due #860 (ship 2026-11-25, hero present) NOT published this run, remains SHIP_BLOCKED for next run.",
+  "last_check_note": "2026-11-26 00:30 run: Published #860 (CAFE crossover truck loophole, Rex Driverton). 1/day slot consumed. Proceeding to RESEARCH for next article.",
   "last_checked": "2026-11-25T22:45:00-08:00",
   "last_completed": "2026-11-25T22:45:00-08:00",
   "last_completed_date": "2026-11-25",
   "last_journalist": "Rex Driverton",
-  "last_published": "2026-11-25T00:45:48-08:00",
-  "last_published_date": "2026-11-25",
-  "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
+  "last_published": "2026-11-26T00:30:00-08:00",
+  "last_published_date": "2026-11-26",
+  "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
   "last_worker_run": "2026-11-25T22:45:00-08:00",
@@ -2378,8 +2378,9 @@
       "files": {
         "critic_panel": "drafts/860-critic-panel-r0.md",
         "draft": "drafts/860-cafe-crossover-truck-loophole.html",
-        "hero": "drafts/860-cafe-crossover-truck-loophole.jpg",
-        "research": "drafts/860-cafe-crossover-truck-loophole-research.md"
+        "hero": "images/860-cafe-crossover-truck-loophole.jpg",
+        "research": "drafts/860-cafe-crossover-truck-loophole-research.md",
+        "story": "stories/860-cafe-crossover-truck-loophole.html"
       },
       "hard_gates": {
         "banned_phrases": 0,
@@ -2399,9 +2400,9 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.80 avg; 7/7 critics >= 8.5. Novel: regulatory car/truck taxonomy x FARS rates \u2014 the crossover 'trucks' NHTSA wants to demote (RAV4 0.19, CR-V 0.53, Rogue 0.35) are far safer per mile than the cars they'd join (Camry 2.03, Civic 2.25, Accord 3.07). Ford defending Explorer truck status (1.54) with police beach-patrol comment. Brookings: rule's 12,700-fatality claim has only 160 attributable to weight.",
+      "note": "2026-11-26 00:30 run: published as #860 (earliest-due SHIP_BLOCKED, ship 2026-11-25; 1/day slot; 0 prior publishes today). Hero img added to story body at publish (draft lacked story-hero tag); hero JPEG 1920x1280.",
       "number": 860,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 8.8,
         "ethics_reviewer": 9.0,
