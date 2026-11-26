@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1590-explorer-airbag-burns-pe26008",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-26T04:30:00-08:00"
+    "started": "2026-11-26T04:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-26 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1589 (Doona handle probe PE26005, 735,734 seats; Clara Rollover, round-0 8.86, queued 2028-11-18). Killed angles this run: NHTSA H1 2026 Q2 stall (covered #1458/#1494), Ram ABS (#1568), Transit BCMC (#1537), Tundra camshaft (#1507), Chicco Fit360 (#1572). PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run. Note: Ship #1589 commit message lost the dollar sign (bash $5 expansion, reads \"the 50 car seat-stroller\"); queue entry title is intact.",
   "last_checked": "2026-11-26T02:30:00-08:00",
