@@ -1,0 +1,258 @@
+== ford: 0 campaigns, 176 queries, 81s ==
+== lincoln: 0 campaigns, 20 queries, 93s ==
+== chevrolet: 0 campaigns, 102 queries, 140s ==
+== gmc: 0 campaigns, 46 queries, 164s ==
+== cadillac: 0 campaigns, 44 queries, 185s ==
+== buick: 0 campaigns, 16 queries, 198s ==
+== toyota: 0 campaigns, 98 queries, 248s ==
+== lexus: 0 campaigns, 44 queries, 268s ==
+== honda: 0 campaigns, 280 queries, 387s ==
+== acura: 0 campaigns, 20 queries, 398s ==
+== hyundai: 0 campaigns, 72 queries, 430s ==
+== kia: 0 campaigns, 50 queries, 460s ==
+== genesis: 1 campaigns, 59 queries, 491s ==
+== nissan: 0 campaigns, 52 queries, 513s ==
+== infiniti: 0 campaigns, 12 queries, 520s ==
+== subaru: 0 campaigns, 40 queries, 538s ==
+== bmw: 0 campaigns, 229 queries, 637s ==
+== mini: 0 campaigns, 104 queries, 686s ==
+== mercedes-benz: 0 campaigns, 89 queries, 724s ==
+== audi: 0 campaigns, 101 queries, 767s ==
+== volkswagen: 0 campaigns, 38 queries, 786s ==
+== porsche: 0 campaigns, 22 queries, 796s ==
+== volvo: 0 campaigns, 262 queries, 909s ==
+== tesla: 0 campaigns, 28 queries, 925s ==
+== rivian: 1 campaigns, 17 queries, 936s ==
+== lucid: 0 campaigns, 8 queries, 943s ==
+== polestar: 0 campaigns, 19 queries, 953s ==
+== mazda: 0 campaigns, 29 queries, 967s ==
+== mitsubishi: 0 campaigns, 16 queries, 975s ==
+== jaguar: 0 campaigns, 9 queries, 982s ==
+== land rover: 0 campaigns, 40 queries, 1002s ==
+== vinfast: 0 campaigns, 16 queries, 1010s ==
+== harley-davidson: 0 campaigns, 120 queries, 1060s ==
+== jeep: 0 campaigns, 43 queries, 1078s ==
+== ram: 0 campaigns, 370 queries, 1227s ==
+== dodge: 1 campaigns, 21 queries, 1240s ==
+== chrysler: 0 campaigns, 12 queries, 1249s ==
+== fiat: 0 campaigns, 8 queries, 1256s ==
+== alfa romeo: 0 campaigns, 13 queries, 1265s ==
+== mack: 0 campaigns, 56 queries, 1295s ==
+== autocar: 0 campaigns, 30 queries, 1311s ==
+== wabash: 0 campaigns, 76 queries, 1343s ==
+== freightliner: 0 campaigns, 379 queries, 1502s ==
+== international: 0 campaigns, 575 queries, 1741s ==
+== kenworth: 0 campaigns, 118 queries, 1792s ==
+QUERY peterbilt/367 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/367 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/389 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/389 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/389 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/389 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/520 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/520 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/520 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/520 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/535 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/535 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/535 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/535 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/536 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/536 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/536 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/536 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/537 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/537 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/537 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/537 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/548 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/548 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/548 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/548 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/567 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/567 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/567 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/567 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/579 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/579 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/579 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/579 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/589 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/589 hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/589 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/589 electric FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/379 FAILED: ERR<urlopen error timed out>
+== peterbilt: 0 campaigns, 69 queries, 1858s ==
+VPIC western star FAILED: <urlopen error timed out>
+QUERY western star/49x FAILED: ERR<urlopen error timed out>
+QUERY western star/47x FAILED: ERR<urlopen error timed out>
+QUERY western star/57x FAILED: ERR<urlopen error timed out>
+QUERY western star/4900 FAILED: ERR<urlopen error timed out>
+== western star: 0 campaigns, 4 queries, 1908s ==
+VPIC thomas built FAILED: <urlopen error timed out>
+QUERY thomas built/saf-t-liner c2 FAILED: ERR<urlopen error timed out>
+QUERY thomas built/saf-t-liner efx FAILED: ERR<urlopen error timed out>
+QUERY thomas built/saf-t-liner hdx FAILED: ERR<urlopen error timed out>
+QUERY thomas built/jouley FAILED: ERR<urlopen error timed out>
+== thomas built: 0 campaigns, 4 queries, 1958s ==
+VPIC blue bird FAILED: <urlopen error timed out>
+QUERY blue bird/vision FAILED: ERR<urlopen error timed out>
+QUERY blue bird/all american FAILED: ERR<urlopen error timed out>
+QUERY blue bird/micro bird FAILED: ERR<urlopen error timed out>
+== blue bird: 0 campaigns, 3 queries, 2008s ==
+VPIC gillig FAILED: <urlopen error timed out>
+QUERY gillig/low floor FAILED: ERR<urlopen error timed out>
+QUERY gillig/brt FAILED: ERR<urlopen error timed out>
+QUERY gillig/trolley FAILED: ERR<urlopen error timed out>
+== gillig: 0 campaigns, 3 queries, 2058s ==
+VPIC new flyer FAILED: <urlopen error timed out>
+QUERY new flyer/xcelsior FAILED: ERR<urlopen error timed out>
+QUERY new flyer/xd40 FAILED: ERR<urlopen error timed out>
+QUERY new flyer/xe40 FAILED: ERR<urlopen error timed out>
+QUERY new flyer/xde40 FAILED: ERR<urlopen error timed out>
+== new flyer: 0 campaigns, 4 queries, 2108s ==
+VPIC prevost FAILED: <urlopen error timed out>
+QUERY prevost/h3-45 FAILED: ERR<urlopen error timed out>
+QUERY prevost/x3-45 FAILED: ERR<urlopen error timed out>
+== prevost: 0 campaigns, 2 queries, 2158s ==
+VPIC motor coach industries FAILED: <urlopen error timed out>
+QUERY motor coach industries/j4500 FAILED: ERR<urlopen error timed out>
+QUERY motor coach industries/d4500 FAILED: ERR<urlopen error timed out>
+QUERY motor coach industries/d45 crt FAILED: ERR<urlopen error timed out>
+== motor coach industries: 0 campaigns, 3 queries, 2208s ==
+VPIC forest river FAILED: <urlopen error timed out>
+QUERY forest river/forester FAILED: ERR<urlopen error timed out>
+QUERY forest river/sunseeker FAILED: ERR<urlopen error timed out>
+QUERY forest river/georgetown FAILED: ERR<urlopen error timed out>
+QUERY forest river/rockwood FAILED: ERR<urlopen error timed out>
+QUERY forest river/flagstaff FAILED: ERR<urlopen error timed out>
+== forest river: 0 campaigns, 5 queries, 2258s ==
+VPIC winnebago FAILED: <urlopen error timed out>
+QUERY winnebago/vista FAILED: ERR<urlopen error timed out>
+QUERY winnebago/journey FAILED: ERR<urlopen error timed out>
+QUERY winnebago/revel FAILED: ERR<urlopen error timed out>
+QUERY winnebago/solos FAILED: ERR<urlopen error timed out>
+== winnebago: 0 campaigns, 4 queries, 2308s ==
+VPIC thor motor coach FAILED: <urlopen error timed out>
+QUERY thor motor coach/ace FAILED: ERR<urlopen error timed out>
+QUERY thor motor coach/hurricane FAILED: ERR<urlopen error timed out>
+QUERY thor motor coach/windsport FAILED: ERR<urlopen error timed out>
+QUERY thor motor coach/challenger FAILED: ERR<urlopen error timed out>
+== thor motor coach: 0 campaigns, 4 queries, 2358s ==
+VPIC jayco FAILED: <urlopen error timed out>
+QUERY jayco/jay flight FAILED: ERR<urlopen error timed out>
+QUERY jayco/eagle FAILED: ERR<urlopen error timed out>
+QUERY jayco/greyhawk FAILED: ERR<urlopen error timed out>
+QUERY jayco/redhawk FAILED: ERR<urlopen error timed out>
+== jayco: 0 campaigns, 4 queries, 2409s ==
+VPIC keystone FAILED: <urlopen error timed out>
+QUERY keystone/montana FAILED: ERR<urlopen error timed out>
+QUERY keystone/cougar FAILED: ERR<urlopen error timed out>
+QUERY keystone/passport FAILED: ERR<urlopen error timed out>
+QUERY keystone/bullet FAILED: ERR<urlopen error timed out>
+== keystone: 0 campaigns, 4 queries, 2459s ==
+VPIC heartland FAILED: <urlopen error timed out>
+QUERY heartland/bighorn FAILED: ERR<urlopen error timed out>
+QUERY heartland/landmark FAILED: ERR<urlopen error timed out>
+QUERY heartland/cyclone FAILED: ERR<urlopen error timed out>
+== heartland: 0 campaigns, 3 queries, 2509s ==
+VPIC grand design FAILED: <urlopen error timed out>
+QUERY grand design/solitude FAILED: ERR<urlopen error timed out>
+QUERY grand design/reflection FAILED: ERR<urlopen error timed out>
+QUERY grand design/imagine FAILED: ERR<urlopen error timed out>
+QUERY grand design/momentum FAILED: ERR<urlopen error timed out>
+== grand design: 0 campaigns, 4 queries, 2559s ==
+VPIC airstream FAILED: <urlopen error timed out>
+QUERY airstream/classic FAILED: ERR<urlopen error timed out>
+QUERY airstream/flying cloud FAILED: ERR<urlopen error timed out>
+QUERY airstream/international FAILED: ERR<urlopen error timed out>
+QUERY airstream/basecamp FAILED: ERR<urlopen error timed out>
+== airstream: 0 campaigns, 4 queries, 2609s ==
+VPIC tiffin FAILED: <urlopen error timed out>
+QUERY tiffin/allegro FAILED: ERR<urlopen error timed out>
+QUERY tiffin/phaeton FAILED: ERR<urlopen error timed out>
+QUERY tiffin/bus FAILED: ERR<urlopen error timed out>
+== tiffin: 0 campaigns, 3 queries, 2659s ==
+VPIC newmar FAILED: <urlopen error timed out>
+QUERY newmar/dutch star FAILED: ERR<urlopen error timed out>
+QUERY newmar/mountain aire FAILED: ERR<urlopen error timed out>
+QUERY newmar/essex FAILED: ERR<urlopen error timed out>
+QUERY newmar/bay star FAILED: ERR<urlopen error timed out>
+== newmar: 0 campaigns, 4 queries, 2709s ==
+VPIC entegra FAILED: <urlopen error timed out>
+QUERY entegra/coach FAILED: ERR<urlopen error timed out>
+QUERY entegra/aspire FAILED: ERR<urlopen error timed out>
+QUERY entegra/anthem FAILED: ERR<urlopen error timed out>
+QUERY entegra/cornerstone FAILED: ERR<urlopen error timed out>
+== entegra: 0 campaigns, 4 queries, 2759s ==
+VPIC navistar FAILED: <urlopen error timed out>
+QUERY navistar/lt FAILED: ERR<urlopen error timed out>
+QUERY navistar/rh FAILED: ERR<urlopen error timed out>
+QUERY navistar/hv FAILED: ERR<urlopen error timed out>
+QUERY navistar/mv FAILED: ERR<urlopen error timed out>
+== navistar: 0 campaigns, 4 queries, 2809s ==
+VPIC ic bus FAILED: <urlopen error timed out>
+QUERY ic bus/ce series FAILED: ERR<urlopen error timed out>
+QUERY ic bus/re series FAILED: ERR<urlopen error timed out>
+== ic bus: 0 campaigns, 2 queries, 2859s ==
+VPIC hino FAILED: <urlopen error timed out>
+QUERY hino/l series FAILED: ERR<urlopen error timed out>
+QUERY hino/xl series FAILED: ERR<urlopen error timed out>
+QUERY hino/m series FAILED: ERR<urlopen error timed out>
+== hino: 0 campaigns, 3 queries, 2909s ==
+VPIC isuzu FAILED: <urlopen error timed out>
+QUERY isuzu/npr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/nqr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/nrr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/ftr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/fvr FAILED: ERR<urlopen error timed out>
+== isuzu: 0 campaigns, 5 queries, 2959s ==
+VPIC mitsubishi fuso FAILED: <urlopen error timed out>
+QUERY mitsubishi fuso/fe140 FAILED: ERR<urlopen error timed out>
+QUERY mitsubishi fuso/fe160 FAILED: ERR<urlopen error timed out>
+QUERY mitsubishi fuso/fg4x4 FAILED: ERR<urlopen error timed out>
+== mitsubishi fuso: 0 campaigns, 3 queries, 3009s ==
+VPIC oshkosh FAILED: <urlopen error timed out>
+QUERY oshkosh/striker FAILED: ERR<urlopen error timed out>
+QUERY oshkosh/s-series FAILED: ERR<urlopen error timed out>
+== oshkosh: 0 campaigns, 2 queries, 3059s ==
+VPIC pierce FAILED: <urlopen error timed out>
+QUERY pierce/enforcer FAILED: ERR<urlopen error timed out>
+QUERY pierce/velocity FAILED: ERR<urlopen error timed out>
+QUERY pierce/impel FAILED: ERR<urlopen error timed out>
+QUERY pierce/arrow xt FAILED: ERR<urlopen error timed out>
+== pierce: 0 campaigns, 4 queries, 3109s ==
+VPIC spartan FAILED: <urlopen error timed out>
+QUERY spartan/gladiator FAILED: ERR<urlopen error timed out>
+QUERY spartan/metro star FAILED: ERR<urlopen error timed out>
+QUERY spartan/furion FAILED: ERR<urlopen error timed out>
+== spartan: 0 campaigns, 3 queries, 3159s ==
+VPIC e-one FAILED: <urlopen error timed out>
+QUERY e-one/typhoon FAILED: ERR<urlopen error timed out>
+QUERY e-one/cyclone FAILED: ERR<urlopen error timed out>
+== e-one: 0 campaigns, 2 queries, 3210s ==
+VPIC collins FAILED: <urlopen error timed out>
+QUERY collins/grand brougham FAILED: ERR<urlopen error timed out>
+QUERY collins/super bantam FAILED: ERR<urlopen error timed out>
+== collins: 0 campaigns, 2 queries, 3260s ==
+VPIC starcraft FAILED: <urlopen error timed out>
+QUERY starcraft/allstar FAILED: ERR<urlopen error timed out>
+QUERY starcraft/starlite FAILED: ERR<urlopen error timed out>
+== starcraft: 0 campaigns, 2 queries, 3310s ==
+VPIC champion FAILED: <urlopen error timed out>
+QUERY champion/defender FAILED: ERR<urlopen error timed out>
+QUERY champion/challenger FAILED: ERR<urlopen error timed out>
+== champion: 0 campaigns, 2 queries, 3360s ==
+VPIC eldorado FAILED: <urlopen error timed out>
+QUERY eldorado/axess FAILED: ERR<urlopen error timed out>
+QUERY eldorado/escort FAILED: ERR<urlopen error timed out>
+== eldorado: 0 campaigns, 2 queries, 3410s ==
+VPIC enc FAILED: <urlopen error timed out>
+QUERY enc/ez rider FAILED: ERR<urlopen error timed out>
+QUERY enc/xhf FAILED: ERR<urlopen error timed out>
+== enc: 0 campaigns, 2 queries, 3460s ==
+
+TOTAL distinct November 2026 campaigns (2026-MY vehicles): 3
+  26V760000 19/11/2026 [ENGINE] via dodge/durango
+  26V761000 19/11/2026 [EQUIPMENT:OTHER:LABELS] via rivian/r1s
+  26V766000 20/11/2026 [SUSPENSION:FRONT:CONTROL ARM:UPPER BALL JOINT] via genesis/gv80

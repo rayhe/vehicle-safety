@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1591-november-part-two-recall-census-898820-filed-4406-new-cars",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-26T06:30:00-08:00"
+  },
   "last_check_note": "2026-11-26 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1589 (Doona handle probe PE26005, 735,734 seats; Clara Rollover, round-0 8.86, queued 2028-11-18). Killed angles this run: NHTSA H1 2026 Q2 stall (covered #1458/#1494), Ram ABS (#1568), Transit BCMC (#1537), Tundra camshaft (#1507), Chicco Fit360 (#1572). PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run. Note: Ship #1589 commit message lost the dollar sign (bash $5 expansion, reads \"the 50 car seat-stroller\"); queue entry title is intact.",
   "last_checked": "2026-11-26T02:30:00-08:00",
   "last_completed": "2026-11-26T04:30:00-08:00",
@@ -10,7 +15,7 @@
   "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-26T00:30:00-08:00",
+  "last_worker_run": "2026-11-26T06:30:00-08:00",
   "next": 1589,
   "queue": [
     {
