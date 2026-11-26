@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1590-explorer-airbag-burns-pe26008",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-26T04:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1589 (Doona handle probe PE26005, 735,734 seats; Clara Rollover, round-0 8.86, queued 2028-11-18). Killed angles this run: NHTSA H1 2026 Q2 stall (covered #1458/#1494), Ram ABS (#1568), Transit BCMC (#1537), Tundra camshaft (#1507), Chicco Fit360 (#1572). PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run. Note: Ship #1589 commit message lost the dollar sign (bash $5 expansion, reads \"the 50 car seat-stroller\"); queue entry title is intact.",
   "last_checked": "2026-11-26T02:30:00-08:00",
-  "last_completed": "2026-11-26T02:30:00-08:00",
+  "last_completed": "2026-11-26T04:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -29551,6 +29545,50 @@
         "critic_panel": "drafts/1589-doona-handle-probe-735k-seats-critic-panel-r0.md"
       },
       "note": "Round-0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: first Doona coverage on site (0 prior hits). PE26005 opened July 6, 2026: carry-handle separation, 735,734 Doona+ units (2020-2024), zero incidents in the resume table, still open 143 days with no update. Second failure mode: complaint 11706176 (Dec 19, 2025) \u2014 wheel deployment tightened the harness, bruised infant, second-hand seat with possibly misrouted webbing. One part, three jobs (carry handle / stroller handle / anti-rebound bar); ODI notified CPSC (shared interest); FMVSS 213b/213a compliance Dec 5, 2026 vs Doona X certified to new standards at $850 vs $550. Rejected claim recorded: alleged 2022 Doona chest-clip recall (104k) unverified and contradicted by NHTSA-record checks."
+    },
+    {
+      "number": 1590,
+      "slug": "1590-explorer-airbag-burns-pe26008",
+      "title": "The Airbag Saved Them From the Crash, Then It Burned Them",
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-11-19",
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.4,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "f1649aee",
+        "hero_dim": "1920x1280",
+        "sentence_rhythm": {
+          "variance": 318.0,
+          "short_pct": 0.0,
+          "long_pct": 64.3,
+          "passed": true
+        },
+        "word_count": 931
+      },
+      "files": {
+        "research": "drafts/1590-explorer-airbag-burns-pe26008-research.md",
+        "draft": "drafts/1590-explorer-airbag-burns-pe26008.html",
+        "hero": "drafts/1590-explorer-airbag-burns-pe26008.jpg",
+        "critic_panel": "drafts/1590-explorer-airbag-burns-pe26008-critic-panel-r0.md"
+      },
+      "note": "2026-11-26 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1590 (Explorer PE26008: 1,236,155 2021-2026 Explorers, 11 incidents, 10 burn injuries, 0 deaths; officer skin-graft case Feb 20 2025; 3 of 8 complaints say vent faced occupant; original contribution: 0.0008% is a floor not a rate since NHTSA publishes no deployment count; Mia Crumplezone, round-0 8.86, queued 2028-11-19)."
     }
   ]
 }
