@@ -1,17 +1,10 @@
 {
-  "current": {
-    "slug": "1587-tesla-hidden-crashes-12-crashes-16-lives",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-25T22:30:00-08:00",
-    "number": 1587,
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-25 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1585 (Acura ZDX 26V735 second brake recall, GM did the homework, Vin Wreckage). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859); no publish this run. Queue: 794 entries, 720 SHIP_BLOCKED, extends to 2028-11-14.",
   "last_checked": "2026-11-25T18:50:00-08:00",
-  "last_completed": "2026-11-25T20:45:00-08:00",
+  "last_completed": "2026-11-25T22:45:00-08:00",
   "last_completed_date": "2026-11-25",
-  "last_journalist": "Vin Wreckage",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-25T00:45:48-08:00",
   "last_published_date": "2026-11-25",
   "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
@@ -29422,6 +29415,48 @@
         "critic_panel": "drafts/1586-ford-gm-recall-recount-toyota-16-critic-panel-r0.md"
       },
       "note": "2026-11-25 20:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1586 (Ford/GM recall census re-run with corrected vocabulary, Axle McScatter). Follow-up owed by #1475 delivered: Ford still 40 (identical set), GM still 15 (identical set) \u2014 vocabulary bug only ever bit Toyota. Toyota moved anyway: 15 -> 16 on 26V750 (Tundra camshaft, 62,490 trucks, filed Nov 12, day after #1475). New: 0 of 73 OTA across all four brands; filing-gap check kills the 'Ford went quiet' angle (23-day silence inside 28-day max gap). Gates: em 0, banned 0, The 2.1%, rhythm PASS variance 2084.6, hero JPEG 2736x912 ?v=b4eaaeca. Ship date 2028-11-15 (latest queue 2028-11-14 + 1 day)."
+    },
+    {
+      "number": 1587,
+      "slug": "1587-tesla-hidden-crashes-12-crashes-16-lives",
+      "title": "The Hidden Death Count Doubled in Nine Weeks. Tesla's Own Filings Say 12 Crashes, 16 Lives.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-11-16",
+      "critique_round": 0,
+      "avg_critic": 8.93,
+      "scores": {
+        "general_editor": 8.5,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 1.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "39b2fa53",
+        "hero_dim": "2352x1008",
+        "word_count": 1382,
+        "rhythm_pass": true,
+        "rhythm_variance": 334.3,
+        "rhythm_short_pct": 13.6,
+        "rhythm_long_pct": 45.5
+      },
+      "files": {
+        "research": "drafts/1587-tesla-hidden-crashes-12-crashes-16-lives-research.md",
+        "story": "drafts/1587-tesla-hidden-crashes-12-crashes-16-lives.html",
+        "hero": "drafts/1587-tesla-hidden-crashes-12-crashes-16-lives.jpg",
+        "critic_panel": "drafts/1587-tesla-hidden-crashes-12-crashes-16-lives-critic-panel-r0.md"
+      },
+      "note": "2026-11-25 22:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1587 (Tesla hidden fatal crashes sequel to #905: Electrek Nov 16 update, 8 crashes/8 lives to 12/16; four new cases incl. I-75 Naples under-truck at 71 mph killing former Marine Jonathan Garcia Arias, El Dorado Hills 74 mph triple-fatal, Naples pole rollover 39 mph, Vineland case missing from federal data; Rex Driverton). Pre-score fixes: invented SGO URL replaced with verified NHTSA page; 5-day reporting claim corrected to NHTSA one-day rule. Gates: em 0, banned 0, The 1.1%, rhythm PASS variance 334.3, hero JPEG 2352x1008 ?v=39b2fa53. Queued SHIP_BLOCKED for 2028-11-16."
     }
   ]
 }
