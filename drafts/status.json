@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-26 00:30 run: Published #860 (CAFE crossover truck loophole, Rex Driverton; QA live-verified). #1588 RESEARCH+DRAFT+CRITIQUE(r0 8.84 SHIP)/SHIP queued 2028-11-17. PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run.",
-  "last_checked": "2026-11-25T22:45:00-08:00",
+  "last_check_note": "2026-11-26 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1589 (Doona handle probe PE26005, 735,734 seats; Clara Rollover, round-0 8.86, queued 2028-11-18). Killed angles this run: NHTSA H1 2026 Q2 stall (covered #1458/#1494), Ram ABS (#1568), Transit BCMC (#1537), Tundra camshaft (#1507), Chicco Fit360 (#1572). PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run. Note: Ship #1589 commit message lost the dollar sign (bash $5 expansion, reads \"the 50 car seat-stroller\"); queue entry title is intact.",
+  "last_checked": "2026-11-26T02:30:00-08:00",
   "last_completed": "2026-11-26T02:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Clara Rollover",
