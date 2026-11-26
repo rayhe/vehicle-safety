@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1594-nhtsa-five-standards-no-steering-wheel-rewrite",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-26T12:40:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1593 (Honda 26V721 divide-by-zero steering, 635,808; Rex Driverton, round-0 8.89, queued 2028-11-22). Killed angles: Waymo RQ26006 (covered #1445/#1461/#1523), BMW 26V733 fire, Takata 26V765, Ioniq 9, RAV4 PHEV stall. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 (ship 2026-11-26) due but stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-26T10:30:00-08:00",
+  "last_completed": "2026-11-26T12:55:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -29722,6 +29716,45 @@
         "critic_panel": "drafts/1593-honda-divide-by-zero-steering-26v721-critic-panel-r0.md"
       },
       "note": "2026-11-26 10:30 run: round-0 pass 8.89 avg; 7/7 critics >= 8.5. Novel: failsafe-as-second-defect framing, deleted error codes hid the fault ~4 years, 100% vs 0.3% on sibling RDX recall 25V582. Honda 26V721, 635,808 vehicles (Pilot 383,110 / MDX 177,100 / TLX 75,598), 1 injury, 146 warranty claims, 1,788 days first report to defect decision."
+    },
+    {
+      "avg_critic": 8.73,
+      "critique_round": 1,
+      "files": {
+        "critic_panel": "drafts/1594-nhtsa-five-standards-no-steering-wheel-rewrite-critic-panel-r1.md",
+        "hero": "drafts/1594-nhtsa-five-standards-no-steering-wheel-rewrite.jpg",
+        "research": "drafts/1594-nhtsa-five-standards-no-steering-wheel-rewrite-research.md",
+        "story": "drafts/1594-nhtsa-five-standards-no-steering-wheel-rewrite.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "770899ba",
+        "hero_jpeg": true,
+        "rhythm": "PASS var=4086.3 short=12.7% long=65.5%",
+        "style_css": true,
+        "the_starters_pct": 3.5,
+        "word_count": 1442
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Existential Dread",
+      "note": "2026-11-26 12:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE(r0 8.56, Legal 8.2/Rigor 8.3 on three mismatched inline citations; r1 8.73 after citation repair with MotorBiscuit/Electrek/Claims Journal refs 10-12, no factual change). Novel: first five-NPRM census on the site (102/103-104/110/135/108, FR-verified, 160 total comments); Zoox exemption vs Tesla self-certification two-paths contrast; five gaps incl. no ADS performance standard and no passenger stop control; FMVSS 108 comments close Dec 10, 2026 (extended). Queued 2028-11-23.",
+      "number": 1594,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.5,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.6,
+        "legal_accuracy": 8.9,
+        "research_rigor": 8.8,
+        "social_shareability": 8.6,
+        "voice_coach": 8.7
+      },
+      "ship_date": "2028-11-23",
+      "slug": "1594-nhtsa-five-standards-no-steering-wheel-rewrite",
+      "title": "NHTSA Is Rewriting Five Safety Standards for Cars With No Drivers. It Still Hasn\u2019t Written the One for Driving."
     }
   ]
 }
