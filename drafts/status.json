@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1589-doona-handle-probe-735k-seats",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Clara Rollover",
-    "started": "2026-11-26T02:30:00-08:00"
+    "started": "2026-11-26T02:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-26 00:30 run: Published #860 (CAFE crossover truck loophole, Rex Driverton; QA live-verified). #1588 RESEARCH+DRAFT+CRITIQUE(r0 8.84 SHIP)/SHIP queued 2028-11-17. PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-25T22:45:00-08:00",
