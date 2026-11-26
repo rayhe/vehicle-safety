@@ -1,7 +1,7 @@
 {
   "current": null,
-  "last_check_note": "2026-11-25 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1585 (Acura ZDX 26V735 second brake recall, GM did the homework, Vin Wreckage). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859); no publish this run. Queue: 794 entries, 720 SHIP_BLOCKED, extends to 2028-11-14.",
-  "last_checked": "2026-11-25T18:50:00-08:00",
+  "last_check_note": "2026-11-25 22:30 run: #1587 RESEARCH+DRAFT+CRITIQUE(r0 8.93 SHIP)/SHIP queued 2028-11-16. PUBLISH-QUEUE: 1/day gate consumed (Publish #859 earlier today 00:45 PT); earliest-due #860 (ship 2026-11-25, hero present) NOT published this run, remains SHIP_BLOCKED for next run.",
+  "last_checked": "2026-11-25T22:45:00-08:00",
   "last_completed": "2026-11-25T22:45:00-08:00",
   "last_completed_date": "2026-11-25",
   "last_journalist": "Rex Driverton",
@@ -10,7 +10,7 @@
   "last_published_slug": "859-gmc-canyon-iihs-rear-seat-flunk",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-25T22:30:00-08:00",
+  "last_worker_run": "2026-11-25T22:45:00-08:00",
   "next": 1586,
   "queue": [
     {
