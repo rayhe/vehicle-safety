@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1592-best-sellers-flunked-back-seat-rav4-crv-poor",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-26T08:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 02:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1589 (Doona handle probe PE26005, 735,734 seats; Clara Rollover, round-0 8.86, queued 2028-11-18). Killed angles this run: NHTSA H1 2026 Q2 stall (covered #1458/#1494), Ram ABS (#1568), Transit BCMC (#1537), Tundra camshaft (#1507), Chicco Fit360 (#1572). PUBLISH-QUEUE: 1/day slot consumed by #860; next due #861 (ship 2026-11-26) remains SHIP_BLOCKED for next run. Note: Ship #1589 commit message lost the dollar sign (bash $5 expansion, reads \"the 50 car seat-stroller\"); queue entry title is intact.",
   "last_checked": "2026-11-26T02:30:00-08:00",
-  "last_completed": "2026-11-26T06:30:00-08:00",
+  "last_completed": "2026-11-26T08:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Clara Rollover",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -29639,6 +29633,51 @@
         "critic_panel": "drafts/1591-november-part-two-recall-census-898820-filed-4406-new-cars-critic-panel-r0.md"
       },
       "note": "2026-11-26 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1591 (November part-two recall census, Nov 13-20 filings: 11 campaigns, 898,820 vehicles, 6 touch 2026, 4,406 vehicles, 0.49%; Honda Takata 26V765 810,592 = 90.2%; Nov 19 alone filed 99.7%; Durango 26V760 wrong powertrain, 15 cars, new-engine remedy; Genesis GV80 26V766 ball joint, 188 cars, found by enumeration after AnyRecalls mirror missed it. Correction: #1528 undercounted Nov 1-12 by 471,509 vehicles (12 late-published campaigns); corrected first half 27 campaigns, 1,327,053 vehicles, 14 touch 2026, 14.9%; full month thru Nov 20: 38 campaigns, 2,225,873 vehicles, 9.1%; Takata pair 1,124,621 = 50.5%. Axle McScatter, round-0 8.86, queued 2028-11-20)."
+    },
+    {
+      "number": 1592,
+      "slug": "1592-best-sellers-flunked-back-seat-rav4-crv-poor",
+      "title": "America's Two Best-Selling SUVs Flunked the Back-Seat Test. The Cheapest Car in the Batch Fixed Its Belts and Passed.",
+      "journalist": "Mia Crumplezone",
+      "kicker": "The Gap",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-11-21",
+      "score": 8.91,
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 8.8,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "67daa67f",
+        "hero_dim": "1920x1280",
+        "sentence_rhythm": {
+          "variance": 950.7,
+          "short_pct": 4.7,
+          "long_pct": 69.8,
+          "passed": true
+        },
+        "word_count": 1002
+      },
+      "files": {
+        "research": "drafts/1592-best-sellers-flunked-back-seat-rav4-crv-poor-research.md",
+        "draft": "drafts/1592-best-sellers-flunked-back-seat-rav4-crv-poor.html",
+        "hero": "drafts/1592-best-sellers-flunked-back-seat-rav4-crv-poor.jpg",
+        "critic_panel": "drafts/1592-best-sellers-flunked-back-seat-rav4-crv-poor-critic-panel-r0.md"
+      },
+      "note": "2026-11-26 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1592 (IIHS Oct 22, 2026 updated moderate overlap batch: CR-V Poor across entire 2023-27 generation, test CEF2343; RAV4 Acceptable, RAV4 PHEV Marginal, Q3 Poor, Trailblazer Poor, Kicks Good post-June-2026 builds, Jetta Good. Novel: 883,056 combined 2025 RAV4+CR-V sales with neither earning a 2026 award; fix asymmetry, cheapest car fixed it in 4 months while Audi/Chevy fixes failed. Mia Crumplezone, round-0 8.91, queued 2028-11-21)."
     }
   ]
 }
