@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1584-model-y-aces-rear-seat-test-tesla-ran-three",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Mia Crumplezone",
-    "started": "2026-11-25T16:30:00-08:00"
+    "started": "2026-11-25T16:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-25 14:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.79 SHIP)/SHIP complete for #1583 (Honda Takata desiccant recall 26V765, 810,592 cars, Rex Driverton). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859 at 00:45); no publish this run. Queue: 792 entries, 718 SHIP_BLOCKED, extends to 2028-11-12.",
   "last_checked": "2026-11-25T08:57:00-08:00",
