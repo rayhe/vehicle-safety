@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1586-ford-gm-recall-recount-toyota-16",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-25T20:30:00-08:00"
-  },
+  "current": null,
   "last_check_note": "2026-11-25 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1585 (Acura ZDX 26V735 second brake recall, GM did the homework, Vin Wreckage). PUBLISH-QUEUE: 1/day slot already consumed today (Publish #859); no publish this run. Queue: 794 entries, 720 SHIP_BLOCKED, extends to 2028-11-14.",
   "last_checked": "2026-11-25T18:50:00-08:00",
-  "last_completed": "2026-11-25T18:45:00-08:00",
+  "last_completed": "2026-11-25T20:45:00-08:00",
   "last_completed_date": "2026-11-25",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-25T00:45:48-08:00",
@@ -29378,6 +29373,48 @@
         "critic_panel": "drafts/1585-zdx-dead-ev-second-brake-recall-critic-panel-r0.md"
       },
       "note": "2026-11-25 18:30 run: RESEARCH/DRAFT/CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1585 (Acura ZDX 26V735 second brake recall, GM homework, Vin Wreckage). Round-0 rhythm fix: 9 short fragments merged (short_pct 27.3% -> 2.9%); 1 literal em dash in ref-3 replaced. Gates: em 0, banned 0, The 0.0%, hero JPEG 2736x912 ?v=b26a87fd. Ship date 2028-11-14 (latest queue 2028-11-13 + 1 day)."
+    },
+    {
+      "number": 1586,
+      "slug": "1586-ford-gm-recall-recount-toyota-16",
+      "title": "We Re-Ran the Recall Census With the Fixed Method. Ford Didn't Move. Toyota Did.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-11-15",
+      "critique_round": 0,
+      "avg_critic": 8.93,
+      "scores": {
+        "general_editor": 9.0,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.5,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 9.0
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.1,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_hash": "b4eaaeca",
+        "hero_dim": "2736x912",
+        "word_count": 1209,
+        "rhythm_pass": true,
+        "rhythm_variance": 2084.6,
+        "rhythm_short_pct": 7.9,
+        "rhythm_long_pct": 68.4
+      },
+      "files": {
+        "research": "drafts/1586-ford-gm-recall-recount-toyota-16-research.md",
+        "story": "drafts/1586-ford-gm-recall-recount-toyota-16.html",
+        "hero": "drafts/1586-ford-gm-recall-recount-toyota-16.jpg",
+        "critic_panel": "drafts/1586-ford-gm-recall-recount-toyota-16-critic-panel-r0.md"
+      },
+      "note": "2026-11-25 20:30 run: RESEARCH+DRAFT+CRITIQUE(r0 avg 8.93 SHIP)/SHIP complete for #1586 (Ford/GM recall census re-run with corrected vocabulary, Axle McScatter). Follow-up owed by #1475 delivered: Ford still 40 (identical set), GM still 15 (identical set) \u2014 vocabulary bug only ever bit Toyota. Toyota moved anyway: 15 -> 16 on 26V750 (Tundra camshaft, 62,490 trucks, filed Nov 12, day after #1475). New: 0 of 73 OTA across all four brands; filing-gap check kills the 'Ford went quiet' angle (23-day silence inside 28-day max gap). Gates: em 0, banned 0, The 2.1%, rhythm PASS variance 2084.6, hero JPEG 2736x912 ?v=b4eaaeca. Ship date 2028-11-15 (latest queue 2028-11-14 + 1 day)."
     }
   ]
 }

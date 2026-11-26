@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>We Re-Ran the Recall Census With the Fixed Method. Ford Didn't Move. Toyota Did. &mdash; The Crash Report</title>
+  <meta name="description" content="The corrected recall census re-run confirms Ford at 40 campaigns and GM at 15, exactly as published November 11. Toyota moved anyway: a Tundra camshaft recall filed November 12 takes it from 15 to 16.">
+  <meta property="og:title" content="We Re-Ran the Recall Census With the Fixed Method. Ford Didn't Move. Toyota Did.">
+  <meta property="og:description" content="Ford 40, GM 15, Toyota 16, Honda 2. The recount confirmed two numbers and overturned a third within a day. Zero of the 73 campaigns can be fixed over the air.">
+  <meta property="og:image" content="https://vehicle-safety.org/images/1586-ford-gm-recall-recount-toyota-16.jpg?v=b4eaaeca">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://vehicle-safety.org/images/1586-ford-gm-recall-recount-toyota-16.jpg?v=b4eaaeca">
+  <script>
+    (function(){var t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches))
+    document.documentElement.classList.add('dark');})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="back">&larr; The Crash Report</a>
+    </header>
+
+    <article class="story">
+      <div class="story-kicker">By The Numbers</div>
+      <h1>We Re-Ran the Recall Census With the Fixed Method. Ford Didn't Move. Toyota Did.</h1>
+      <div class="byline">Axle McScatter &bull; Clautomotive Desk</div>
+      <div class="dateline">November 25, 2026</div>
+
+      <div class="story-body">
+      <img src="../images/1586-ford-gm-recall-recount-toyota-16.jpg?v=b4eaaeca" alt="A spreadsheet-style chart of recall counts by automaker with a pickup truck silhouette" class="story-hero">
+
+      <p>I ran the numbers, then I ran them again, and they still came back the same. <strong>Ford is still at 40 recall campaigns touching 2026-model-year vehicles, GM is still at 15, and Toyota, which I corrected from 7 to 15 two weeks ago, is now at 16.</strong> That last number changed the day after the correction published, because Toyota filed a new recall on November 12 for a Tundra camshaft that can crack, snap, and stall the truck.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <div class="pull-stat">0 of 73</div>
+      <div class="pull-label">2026-model-year recall campaigns across Ford, GM, Toyota, and Honda flagged as fixable over the air</div>
+
+      <p>Start with what the recount was supposed to do. Two weeks ago this site discovered its own census method was undercounting Toyota: NHTSA's recalls API returns an error when you query a hybrid-only model by its base name, so Camry, Land Cruiser, Sienna, and RAV4 Hybrid campaigns were invisible to the old queries, and three brand-new Toyota EVs were never in the query list at all. Fixing that doubled Toyota's count from 7 to 15 and collapsed Ford's lead from 5.7 times to 2.7 times. That correction ended with a debt, stated in plain text: re-run Ford and GM with the corrected vocabulary.<sup class="ref-link"><a href="#ref-2">[2]</a></sup><sup class="ref-link"><a href="#ref-3">[3]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>Consider the debt paid, because I queried 81 Ford and GM model variants, including the ones the old method never tried: F-450 and F-550 Super Duty, Mustang GTD, Expedition MAX, E-Transit, Blazer EV, Escalade IQ. Ford came back at exactly 40, campaign for campaign identical to November 11, with the Explorer still leading Ford's lineup at 12. GM came back at exactly 15, verified against the earlier table one campaign at a time. Express and Savana still lead GM's with 4 each, including the same steering-gear nut recalled twice, and nothing moved. Which is the point: the vocabulary bug only ever bit Toyota, because only Toyota sells hybrid-only nameplates whose base names return nothing. Ford and GM were right all along, and now that is a verified fact instead of an assumption.<sup class="ref-link"><a href="#ref-1">[1]</a></sup></p>
+
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Brand</th><th>Sep 3</th><th>Nov 11</th><th>Nov 25 (re-run)</th></tr></thead>
+        <tbody>
+          <tr><td>Ford</td><td>25</td><td>40</td><td><strong>40</strong></td></tr>
+          <tr><td>GM</td><td>&mdash;</td><td>15</td><td><strong>15</strong></td></tr>
+          <tr><td>Toyota</td><td>5</td><td>15</td><td><strong>16</strong></td></tr>
+          <tr><td>Honda</td><td>2</td><td>2</td><td><strong>2</strong></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="table-caption">Campaigns touching 2026-model-year vehicles, filed in calendar 2026. NHTSA recalls API, queried November 25, 2026.</p>
+
+      <p>Then Toyota moved anyway: campaign 26V750, filed November 12, covers 62,490 Tundra pickups from model years 2022, 2023, 2025, and 2026. One of the engine camshafts may have been manufactured incorrectly, so cracks can develop and a cracked camshaft can snap, stalling the engine. Toyota counted 31 field technical reports and 60 U.S. warranty claims as of October 30. Dealers will inspect the camshaft and replace it free of charge, and owner letters go out starting December 28.<sup class="ref-link"><a href="#ref-5">[5]</a></sup><sup class="ref-link"><a href="#ref-6">[6]</a></sup></p>
+
+      <p>Two details in that filing deserve a second look. First, the 2024 model year is excluded entirely, and so are hybrid Tundras. Affected camshafts went into 2025 and 2026 trucks as original equipment and into 2022 and 2023 trucks as service parts, which means some owners are driving a replacement part that was itself defective. Second, this is the Tundra's third distinct engine defect in two years: machining debris could seize the engine, a main bearing could fail, and now a camshaft can snap. Three different parts, three different failure modes, one outcome: the truck stops. Toyota's loss-of-power tally for its newest vehicles now stands at four campaigns with four different root causes, three of them software, one of them a piece of metal.<sup class="ref-link"><a href="#ref-6">[6]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>None of this changes the standings as much as the headline suggests. Strip out the paperwork and the order flips back: GM has 14 real-defect campaigns once you remove the missing owner's manual that pads nearly every GM model by one, while Toyota has 12 once you remove its four wrong load-capacity labels. A one-campaign margin on a metric that weighs a wiper-arm nut the same as a snapping camshaft is not a verdict on who builds better trucks. It is a count, and counts are useful and limited at the same time.<sup class="ref-link"><a href="#ref-3">[3]</a></sup><sup class="ref-link"><a href="#ref-4">[4]</a></sup></p>
+
+      <p>What to do with this. If you own a 2022, 2023, 2025, or 2026 Tundra with a gasoline engine, check your VIN at nhtsa.gov/recalls and ask your dealer whether campaign 26V750 covers your truck, because the filing gives no date for when the VINs become searchable and the owner letters do not start until December 28. If you own a 2024 Tundra or a hybrid, this recall is not yours, but check anyway: Toyota has now filed three different engine recalls on this truck, and the model years do not line up neatly. And if you own any 2026-model-year Ford, GM, Toyota, or Honda, know that none of the 73 campaigns touching your car can be fixed over the air, whatever the press releases say about software updates. Every one of them is a dealer visit.<sup class="ref-link"><a href="#ref-1">[1]</a></sup><sup class="ref-link"><a href="#ref-5">[5]</a></sup></p>
+
+      <section class="story-references">
+        <h3>Sources &amp; References</h3>
+        <ol>
+          <li id="ref-1">NHTSA recalls API (api.nhtsa.gov/recalls/recallsByVehicle), queried November 25, 2026: 81 Ford/GM model-variant queries and 43 Toyota/Honda queries, make+model+modelYear=2026, campaigns with ReportReceivedDate in calendar 2026, deduped by NHTSA campaign number. Ford 40 campaigns, GM 15, Toyota 16, Honda 2; 0 of 73 flagged overTheAirUpdate=true. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-2">The Crash Report, "Ford Said the Recall Deluge Was Old Cars and Software. Its Newest Vehicles Just Hit 40 Recalls." (November 11, 2026): the Ford baseline this recount verifies, 40 campaigns, Explorer 12, Bronco 9, F-150 8. <a href="https://www.vehicle-safety.org/" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-3">The Crash Report, "GM Recalled the Same Steering Nut Twice in Four Months. It Still Beats Ford 15 to 40." (November 11, 2026): the GM baseline this recount verifies, 15 campaigns, Express/Savana 4 each, 26V114 owner's-manual campaign. <a href="https://www.vehicle-safety.org/" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-4">The Crash Report, "We Undercounted Toyota's Recalls by Half. The Real Number Is 15." (November 11, 2026): the vocabulary-gap diagnosis (base-name queries 400 on hybrid-only nameplates) and the explicit follow-up owed, a Ford/GM re-run with corrected vocabulary. <a href="https://www.vehicle-safety.org/" target="_blank" rel="noopener">vehicle-safety.org</a></li>
+          <li id="ref-5">NHTSA recalls API record, campaign 26V750000, filed November 12, 2026: 2022-2023 and 2025-2026 Toyota Tundra; one engine camshaft may have been manufactured incorrectly, allowing cracks that can cause the camshaft to snap, possibly leading to an engine stall and loss of drive power; dealers inspect and replace the camshaft free of charge; owner letters from December 28, 2026; Toyota numbers 26TB26 and 26TA26; Toyota customer service 1-800-331-4331. <a href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener">nhtsa.gov</a></li>
+          <li id="ref-6">RecalledOrNot, "Toyota Tundra Camshaft Recall: Check VIN (26V750)" (updated November 20, 2026): 62,490 vehicles; Part 573 report RCLRPT-26V750-5940 and November 19, 2026 acknowledgment; gas Tundras only, hybrids with the V35A engine excluded, 2024 model year excluded; affected camshafts installed as original equipment on 2025-2026 trucks or as service parts on 2022-2023 trucks; 31 Field Technical Reports and 60 U.S. warranty claims as of October 30, 2026; notifications by January 11, 2027; Toyota's November 13 U.S. newsroom release describes timing as mid-January 2027; separate Tundra engine campaigns 25V767 and 26V320 are different defects and include 2024 trucks. <a href="https://www.recalledornot.com/toyota-tundra-camshaft-recall" target="_blank" rel="noopener">recalledornot.com</a></li>
+          <li id="ref-7">ConsumerSun, "Toyota Loss Drive Power Recall (26V-750)" (checked November 25, 2026): confirms 62,490 potentially affected vehicles, November 12, 2026 filing date, remedy and owner-letter timing. <a href="https://consumersun.com/recall/nhtsa-26v750000-toyota-motor-engineering-and-manufacturing-cracks" target="_blank" rel="noopener">consumersun.com</a></li>
+          <li id="ref-8">NHTSA, <em>Fatality Analysis Reporting System (FARS)</em>: no fatality-rate claim is made for any model in this article, because the article is a recall census, not a crash-rate analysis; FARS is cited as the source the article deliberately did not borrow from. <a href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars" target="_blank" rel="noopener">nhtsa.gov</a></li>
+        </ol>
+      </section>
+      </div>
+    </article>
+
+    <p class="story-disclaimer"><strong>Source:</strong> NHTSA recalls API census conducted November 25, 2026 (Ford 40, GM 15, Toyota 16, Honda 2 campaigns touching 2026-model-year vehicles, filed in calendar 2026); NHTSA campaign 26V750000 (November 12, 2026). Campaign counts are not severity scores and are not vehicle counts. The API returns HTTP 400 for model names with no matching rows; 53 of 124 queries returned 400, and campaigns touching those models surface through sibling-model queries, with the Ford/GM sets matching the November 11 censuses exactly. A campaign filed late on November 25 could post after this census ran. See <a href="../#method">methodology</a> for caveats.</p>
+
+    <footer class="site-footer">
+      <a href="https://github.com/rayhe/vehicle-safety" target="_blank">GitHub &rarr;</a> &mdash; Pull requests welcome.
+    </footer>
+  </div>
+</body>
+</html>
