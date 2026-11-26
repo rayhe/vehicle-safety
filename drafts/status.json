@@ -1,23 +1,17 @@
 {
-  "current": {
-    "slug": "1593-honda-divide-by-zero-steering-26v721",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-26T10:30:00-08:00",
-    "round": 0
-  },
-  "last_check_note": "2026-11-26 10:30 run: RESEARCH #1593 (Honda 26V721 divide-by-zero steering, 635,808; Rex Driverton). Killed angles: Waymo RQ26006 (covered #1445/#1461/#1523), BMW 26V733 fire, Takata 26V765, Ioniq 9, RAV4 PHEV stall (weaker). 1/day slot consumed by #860; #861 (ship 2026-11-26) due but stays SHIP_BLOCKED for next run.",
+  "current": null,
+  "last_check_note": "2026-11-26 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1593 (Honda 26V721 divide-by-zero steering, 635,808; Rex Driverton, round-0 8.89, queued 2028-11-22). Killed angles: Waymo RQ26006 (covered #1445/#1461/#1523), BMW 26V733 fire, Takata 26V765, Ioniq 9, RAV4 PHEV stall. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 (ship 2026-11-26) due but stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-26T08:30:00-08:00",
+  "last_completed": "2026-11-26T10:30:00-08:00",
   "last_completed_date": "2026-11-26",
-  "last_journalist": "Clara Rollover",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-26T00:30:00-08:00",
   "last_published_date": "2026-11-26",
   "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
   "last_worker_run": "2026-11-26T06:30:00-08:00",
-  "next": 1593,
+  "next": 1594,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -29684,6 +29678,44 @@
         "critic_panel": "drafts/1592-best-sellers-flunked-back-seat-rav4-crv-poor-critic-panel-r0.md"
       },
       "note": "2026-11-26 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1592 (IIHS Oct 22, 2026 updated moderate overlap batch: CR-V Poor across entire 2023-27 generation, test CEF2343; RAV4 Acceptable, RAV4 PHEV Marginal, Q3 Poor, Trailblazer Poor, Kicks Good post-June-2026 builds, Jetta Good. Novel: 883,056 combined 2025 RAV4+CR-V sales with neither earning a 2026 award; fix asymmetry, cheapest car fixed it in 4 months while Audi/Chevy fixes failed. Mia Crumplezone, round-0 8.91, queued 2028-11-21)."
+    },
+    {
+      "number": 1593,
+      "slug": "1593-honda-divide-by-zero-steering-26v721",
+      "title": "Somebody Divided by Zero in Your Steering. Honda Recalled 635,808 Cars.",
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "ship_date": "2028-11-22",
+      "phase": "SHIP_BLOCKED",
+      "critique_round": 0,
+      "avg_critic": 8.89,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 8.8,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "data_presentation": 8.8
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7462c0ad",
+        "word_count": 726
+      },
+      "files": {
+        "research": "drafts/1593-honda-divide-by-zero-steering-26v721-research.md",
+        "story": "drafts/1593-honda-divide-by-zero-steering-26v721.html",
+        "hero": "drafts/1593-honda-divide-by-zero-steering-26v721.jpg",
+        "critic_panel": "drafts/1593-honda-divide-by-zero-steering-26v721-critic-panel-r0.md"
+      },
+      "note": "2026-11-26 10:30 run: round-0 pass 8.89 avg; 7/7 critics >= 8.5. Novel: failsafe-as-second-defect framing, deleted error codes hid the fault ~4 years, 100% vs 0.3% on sibling RDX recall 25V582. Honda 26V721, 635,808 vehicles (Pilot 383,110 / MDX 177,100 / TLX 75,598), 1 injury, 146 warranty claims, 1,788 days first report to defect decision."
     }
   ]
 }
