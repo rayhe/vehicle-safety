@@ -1,17 +1,22 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1602-wabash-462m-verdict-that-wasnt",
+    "phase": "DRAFT",
+    "journalist": "Vin Wreckage",
+    "started": "2026-11-27T04:30:00-08:00"
+  },
   "last_check_note": "2026-11-27 00:30 run complete: #1600 RESEARCH+DRAFT+CRITIQUE(r1 8.80 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-11-29). PUBLISH-QUEUE: published #861 (NSC H1 2026 split country, Axle McScatter); 1/day slot consumed. #862 due today (ship 2026-11-27), stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-27T02:30:00-08:00",
   "last_completed_date": "2026-11-26",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-27T00:30:00-08:00",
   "last_published_date": "2026-11-27",
   "last_published_slug": "861-nsc-h1-2026-split-country",
   "last_qa_date": "2026-11-27",
   "last_qa_note": "QA 2026-11-27 00:30 run: #861 live verified - story 200 (via 308 extensionless redirect, site-normal, same as #860), hero JPEG 200 (542146b, image/jpeg), og:title + og:image (?v=fbd0e0b6) present in deployed file, index card first in grid, sitemap entry live (2026-11-27).",
-  "last_worker_run": "2026-11-27T00:30:00-08:00",
-  "next": 1601,
+  "last_worker_run": "2026-11-27T04:30:00-08:00",
+  "next": 1603,
   "queue": [
     {
       "journalist": "Rex Driverton",
