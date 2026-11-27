@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1605-november-recall-census-finale-zero-filings-final-week",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-27T11:44:36-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-27 04:30 run complete: #1602 RESEARCH+DRAFT+CRITIQUE(r0 REVISE Legal 8.4, r1 8.83 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-01). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready (drafts/862-young-riders-surge.jpg exists), ships next publish-eligible run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-27T08:30:00-08:00",
+  "last_completed": "2026-11-27T11:52:41-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-27T00:30:00-08:00",
@@ -30135,6 +30129,45 @@
         "critic_panel": "drafts/1604-honda-start-stop-third-probe-million-wont-restart-critic-panel-r0.md"
       },
       "note": "2026-11-27 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1604 (NHTSA EA26007, Honda/Acura start-stop no-restart, 1,033,632 vehicles, 701 complaints; Clara Rollover). Round-0 SHIP avg 8.76. Novel: three-probe timeline PE22005/EA25004/EA26007, complaint rates nearly identical (1 in 1,475 vs 1 in 1,639) despite different root causes; 2024-25 cars in two open probes at once. HERO MISSING: media.generate_image failed (internal 500), no retry this run; DO NOT PUBLISH until hero exists in drafts/ (publish-queue hero-gate will skip it). Rhythm gate failed pre-critique (short 18.2%) and was fixed by merging fragments (short 0.0%, variance 1380.4). Queued 2028-12-03."
+    },
+    {
+      "avg_critic": 8.83,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1605-november-recall-census-finale-zero-filings-final-week-critic-panel-r0.md",
+        "hero": "drafts/1605-november-recall-census-finale-zero-filings-final-week.jpg",
+        "research": "drafts/1605-november-recall-census-finale-zero-filings-final-week-research.md",
+        "story": "drafts/1605-november-recall-census-finale-zero-filings-final-week.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "53073c88",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 1117
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-27 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1605 (November recall census finale: 0 campaigns filed Nov 21-27, month closes at 38 campaigns / 2,225,873 vehicles, 20 touch 2026, 202,010 vehicles, 9.1%; recount moved nothing; announcement-vs-filing audit: VSP Nov 23-27 roundup all filed Nov 2-19, RAV4 PHEV 26V659 filed Oct 7; Thanksgiving-week filing gap; Axle McScatter). Round-0 SHIP avg 8.83. Pre-panel fix: GV80 filing date Nov 19->Nov 20 per API. Queued 2028-12-04. PUBLISH skipped (1/day gate already met today: #861 published; #862 due today, hero-ready, holds for next run).",
+      "number": 1605,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 9.0,
+        "research_rigor": 9.0,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-12-04",
+      "slug": "1605-november-recall-census-finale-zero-filings-final-week",
+      "title": "November Filed Nothing in Its Final Week. The Census Closes at 2,225,873.",
+      "word_count": 1117
     }
   ]
 }
