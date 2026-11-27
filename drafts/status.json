@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1597-wrong-way-deaths-doubled-aaa-foundation",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Rex Driverton",
-    "started": "2026-11-26T18:45:00-08:00"
+    "started": "2026-11-26T18:45:00-08:00",
+    "round": 0
   },
-  "last_check_note": "2026-11-26 18:45 run: RESEARCH #1597 (AAA Foundation wrong-way brief Mar 2026: deaths 373->699, crashes 278->520, 2014-2023; Rex Driverton). Killed: all Nov recalls, NHTSA 2024 fact sheets, IIHS batches, Censal, Utah .05, H1 2026, AEB delay, school bus, AAA Thanksgiving. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 due today stays SHIP_BLOCKED for next run.",
+  "last_check_note": "2026-11-26 18:47 run: DRAFT #1597 complete (hero JPEG 1920x1280, hash 0821016b; hard gates pass: em dash 1, banned 0, rhythm PASS, The-starters 0%). Corrected 2023 total to 40,901 (was 41,025 early-estimate error); growth +24.9%, ratio still ~3.5x. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 due today stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T16:55:00-08:00",
   "last_completed_date": "2026-11-26",
@@ -15,7 +16,7 @@
   "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-26T18:45:00-08:00",
+  "last_worker_run": "2026-11-26T18:47:00-08:00",
   "next": 1594,
   "queue": [
     {
