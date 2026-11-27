@@ -1,0 +1,659 @@
+== ford: 3 campaigns, 176 queries, 85s ==
+== lincoln: 0 campaigns, 20 queries, 97s ==
+== chevrolet: 0 campaigns, 102 queries, 148s ==
+== gmc: 0 campaigns, 46 queries, 171s ==
+== cadillac: 0 campaigns, 44 queries, 195s ==
+== buick: 0 campaigns, 16 queries, 205s ==
+== toyota: 1 campaigns, 98 queries, 258s ==
+== lexus: 0 campaigns, 44 queries, 283s ==
+== honda: 0 campaigns, 280 queries, 425s ==
+== acura: 0 campaigns, 20 queries, 437s ==
+== hyundai: 0 campaigns, 72 queries, 478s ==
+== kia: 0 campaigns, 50 queries, 507s ==
+== genesis: 1 campaigns, 59 queries, 541s ==
+== nissan: 0 campaigns, 52 queries, 568s ==
+== infiniti: 0 campaigns, 12 queries, 576s ==
+== subaru: 0 campaigns, 40 queries, 597s ==
+== bmw: 0 campaigns, 229 queries, 711s ==
+== mini: 0 campaigns, 104 queries, 767s ==
+== mercedes-benz: 0 campaigns, 89 queries, 814s ==
+== audi: 0 campaigns, 101 queries, 870s ==
+== volkswagen: 0 campaigns, 38 queries, 892s ==
+== porsche: 0 campaigns, 22 queries, 905s ==
+== volvo: 0 campaigns, 262 queries, 1054s ==
+== tesla: 0 campaigns, 28 queries, 1071s ==
+== rivian: 1 campaigns, 17 queries, 1082s ==
+== lucid: 0 campaigns, 8 queries, 1089s ==
+== polestar: 0 campaigns, 19 queries, 1099s ==
+== mazda: 0 campaigns, 29 queries, 1115s ==
+== mitsubishi: 0 campaigns, 16 queries, 1125s ==
+== jaguar: 0 campaigns, 9 queries, 1135s ==
+== land rover: 0 campaigns, 40 queries, 1158s ==
+== vinfast: 0 campaigns, 16 queries, 1167s ==
+== harley-davidson: 1 campaigns, 120 queries, 1230s ==
+== jeep: 0 campaigns, 43 queries, 1253s ==
+== ram: 0 campaigns, 370 queries, 1424s ==
+== dodge: 1 campaigns, 21 queries, 1436s ==
+== chrysler: 0 campaigns, 12 queries, 1444s ==
+== fiat: 0 campaigns, 8 queries, 1450s ==
+== alfa romeo: 0 campaigns, 13 queries, 1458s ==
+== mack: 0 campaigns, 56 queries, 1486s ==
+== autocar: 0 campaigns, 30 queries, 1500s ==
+== wabash: 0 campaigns, 76 queries, 1536s ==
+== freightliner: 0 campaigns, 379 queries, 1721s ==
+QUERY international/harvest international electric FAILED: ERR<urlopen error timed out>
+QUERY international/heil trailer international FAILED: ERR<urlopen error timed out>
+QUERY international/heil trailer international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/heil trailer international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/heil trailer international electric FAILED: ERR<urlopen error timed out>
+QUERY international/international supply co. inc. FAILED: ERR<urlopen error timed out>
+QUERY international/international supply co. inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international supply co. inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international supply co. inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/international equipment mfg co. FAILED: ERR<urlopen error timed out>
+QUERY international/international equipment mfg co. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international equipment mfg co. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international equipment mfg co. electric FAILED: ERR<urlopen error timed out>
+QUERY international/international lift corp FAILED: ERR<urlopen error timed out>
+QUERY international/international lift corp hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international lift corp plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international lift corp electric FAILED: ERR<urlopen error timed out>
+QUERY international/international structures FAILED: ERR<urlopen error timed out>
+QUERY international/international structures hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international structures plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international structures electric FAILED: ERR<urlopen error timed out>
+QUERY international/international tank & trailer inc FAILED: ERR<urlopen error timed out>
+QUERY international/international tank & trailer inc hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international tank & trailer inc plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international tank & trailer inc electric FAILED: ERR<urlopen error timed out>
+QUERY international/international trailer FAILED: ERR<urlopen error timed out>
+QUERY international/international trailer hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international trailer plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/international trailer electric FAILED: ERR<urlopen error timed out>
+QUERY international/johnson crushers international, inc. FAILED: ERR<urlopen error timed out>
+QUERY international/johnson crushers international, inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/johnson crushers international, inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/johnson crushers international, inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/king FAILED: ERR<urlopen error timed out>
+QUERY international/king hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/king plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/king electric FAILED: ERR<urlopen error timed out>
+QUERY international/king hk international trading limited FAILED: ERR<urlopen error timed out>
+QUERY international/king hk international trading limited hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/king hk international trading limited plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/king hk international trading limited electric FAILED: ERR<urlopen error timed out>
+QUERY international/keizer morris international, inc. dba k m international FAILED: ERR<urlopen error timed out>
+QUERY international/keizer morris international, inc. dba k m international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/keizer morris international, inc. dba k m international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/keizer morris international, inc. dba k m international electric FAILED: ERR<urlopen error timed out>
+QUERY international/lsv FAILED: ERR<urlopen error timed out>
+QUERY international/lsv hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lsv plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lsv electric FAILED: ERR<urlopen error timed out>
+QUERY international/lt616 FAILED: ERR<urlopen error timed out>
+QUERY international/lt616 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt616 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt616 electric FAILED: ERR<urlopen error timed out>
+QUERY international/lt625 FAILED: ERR<urlopen error timed out>
+QUERY international/lt625 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt625 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt625 electric FAILED: ERR<urlopen error timed out>
+QUERY international/lt62a FAILED: ERR<urlopen error timed out>
+QUERY international/lt62a hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt62a plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt62a electric FAILED: ERR<urlopen error timed out>
+QUERY international/lt62f FAILED: ERR<urlopen error timed out>
+QUERY international/lt62f hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt62f plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt62f electric FAILED: ERR<urlopen error timed out>
+QUERY international/lt62t FAILED: ERR<urlopen error timed out>
+QUERY international/lt62t hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt62t plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/lt62t electric FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dc cargo van FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dc cargo van hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dc cargo van plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dc cargo van electric FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dp passenger van FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dp passenger van hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dp passenger van plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dp passenger van electric FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dr crew cab truck FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dr crew cab truck hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dr crew cab truck plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dr crew cab truck electric FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dx extended cab truck FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dx extended cab truck hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dx extended cab truck plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/liv9dx extended cab truck electric FAILED: ERR<urlopen error timed out>
+QUERY international/madami international, llc FAILED: ERR<urlopen error timed out>
+QUERY international/madami international, llc hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/madami international, llc plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/madami international, llc electric FAILED: ERR<urlopen error timed out>
+QUERY international/manufacturers resources international FAILED: ERR<urlopen error timed out>
+QUERY international/manufacturers resources international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/manufacturers resources international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/manufacturers resources international electric FAILED: ERR<urlopen error timed out>
+QUERY international/mv607 FAILED: ERR<urlopen error timed out>
+QUERY international/mv607 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mv607 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mv607 electric FAILED: ERR<urlopen error timed out>
+QUERY international/mv60c FAILED: ERR<urlopen error timed out>
+QUERY international/mv60c hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mv60c plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mv60c electric FAILED: ERR<urlopen error timed out>
+QUERY international/mv60e FAILED: ERR<urlopen error timed out>
+QUERY international/mv60e hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mv60e plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mv60e electric FAILED: ERR<urlopen error timed out>
+QUERY international/mid-states international motocross inc. FAILED: ERR<urlopen error timed out>
+QUERY international/mid-states international motocross inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mid-states international motocross inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mid-states international motocross inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/mobile international FAILED: ERR<urlopen error timed out>
+QUERY international/mobile international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mobile international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mobile international electric FAILED: ERR<urlopen error timed out>
+QUERY international/mobile medical international corporation trailer FAILED: ERR<urlopen error timed out>
+QUERY international/mobile medical international corporation trailer hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mobile medical international corporation trailer plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mobile medical international corporation trailer electric FAILED: ERR<urlopen error timed out>
+QUERY international/moritz international FAILED: ERR<urlopen error timed out>
+QUERY international/moritz international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/moritz international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/moritz international electric FAILED: ERR<urlopen error timed out>
+QUERY international/mud technology international FAILED: ERR<urlopen error timed out>
+QUERY international/mud technology international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mud technology international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/mud technology international electric FAILED: ERR<urlopen error timed out>
+QUERY international/norac systems international inc FAILED: ERR<urlopen error timed out>
+QUERY international/norac systems international inc hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/norac systems international inc plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/norac systems international inc electric FAILED: ERR<urlopen error timed out>
+QUERY international/oxbo international FAILED: ERR<urlopen error timed out>
+QUERY international/oxbo international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/oxbo international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/oxbo international electric FAILED: ERR<urlopen error timed out>
+QUERY international/pa international FAILED: ERR<urlopen error timed out>
+QUERY international/pa international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/pa international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/pa international electric FAILED: ERR<urlopen error timed out>
+QUERY international/pc025 FAILED: ERR<urlopen error timed out>
+QUERY international/pc025 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/pc025 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/pc025 electric FAILED: ERR<urlopen error timed out>
+QUERY international/polar king international, inc. FAILED: ERR<urlopen error timed out>
+QUERY international/polar king international, inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/polar king international, inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/polar king international, inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/prestige FAILED: ERR<urlopen error timed out>
+QUERY international/prestige hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/prestige plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/prestige electric FAILED: ERR<urlopen error timed out>
+QUERY international/primo (gasoline) FAILED: ERR<urlopen error timed out>
+QUERY international/primo (gasoline) hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/primo (gasoline) plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/primo (gasoline) electric FAILED: ERR<urlopen error timed out>
+QUERY international/rh61a FAILED: ERR<urlopen error timed out>
+QUERY international/rh61a hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rh61a plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rh61a electric FAILED: ERR<urlopen error timed out>
+QUERY international/rh61f FAILED: ERR<urlopen error timed out>
+QUERY international/rh61f hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rh61f plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rh61f electric FAILED: ERR<urlopen error timed out>
+QUERY international/rh61t FAILED: ERR<urlopen error timed out>
+QUERY international/rh61t hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rh61t plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rh61t electric FAILED: ERR<urlopen error timed out>
+QUERY international/roadster 300sl(mercedes replica) FAILED: ERR<urlopen error timed out>
+QUERY international/roadster 300sl(mercedes replica) hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/roadster 300sl(mercedes replica) plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/roadster 300sl(mercedes replica) electric FAILED: ERR<urlopen error timed out>
+QUERY international/remorques action air trailers international inc. FAILED: ERR<urlopen error timed out>
+QUERY international/remorques action air trailers international inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/remorques action air trailers international inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/remorques action air trailers international inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/rocket international, inc. FAILED: ERR<urlopen error timed out>
+QUERY international/rocket international, inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rocket international, inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/rocket international, inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/royal FAILED: ERR<urlopen error timed out>
+QUERY international/royal hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/royal plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/royal electric FAILED: ERR<urlopen error timed out>
+QUERY international/stretch FAILED: ERR<urlopen error timed out>
+QUERY international/stretch hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/stretch plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/stretch electric FAILED: ERR<urlopen error timed out>
+QUERY international/sea-bow international inc. FAILED: ERR<urlopen error timed out>
+QUERY international/sea-bow international inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/sea-bow international inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/sea-bow international inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/shaddo international FAILED: ERR<urlopen error timed out>
+QUERY international/shaddo international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/shaddo international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/shaddo international electric FAILED: ERR<urlopen error timed out>
+QUERY international/skycoach international inc FAILED: ERR<urlopen error timed out>
+QUERY international/skycoach international inc hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/skycoach international inc plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/skycoach international inc electric FAILED: ERR<urlopen error timed out>
+QUERY international/streamline international FAILED: ERR<urlopen error timed out>
+QUERY international/streamline international hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/streamline international plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/streamline international electric FAILED: ERR<urlopen error timed out>
+QUERY international/summit executive FAILED: ERR<urlopen error timed out>
+QUERY international/summit executive hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/summit executive plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/summit executive electric FAILED: ERR<urlopen error timed out>
+QUERY international/summit supreme FAILED: ERR<urlopen error timed out>
+QUERY international/summit supreme hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/summit supreme plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/summit supreme electric FAILED: ERR<urlopen error timed out>
+QUERY international/sun international holdings inc FAILED: ERR<urlopen error timed out>
+QUERY international/sun international holdings inc hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/sun international holdings inc plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/sun international holdings inc electric FAILED: ERR<urlopen error timed out>
+QUERY international/t.j. clark international, llc FAILED: ERR<urlopen error timed out>
+QUERY international/t.j. clark international, llc hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/t.j. clark international, llc plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/t.j. clark international, llc electric FAILED: ERR<urlopen error timed out>
+QUERY international/tbws FAILED: ERR<urlopen error timed out>
+QUERY international/tbws hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tbws plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tbws electric FAILED: ERR<urlopen error timed out>
+QUERY international/tdpx FAILED: ERR<urlopen error timed out>
+QUERY international/tdpx hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tdpx plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tdpx electric FAILED: ERR<urlopen error timed out>
+QUERY international/tgogo FAILED: ERR<urlopen error timed out>
+QUERY international/tgogo hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tgogo plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tgogo electric FAILED: ERR<urlopen error timed out>
+QUERY international/th01 FAILED: ERR<urlopen error timed out>
+QUERY international/th01 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th01 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th01 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th02 FAILED: ERR<urlopen error timed out>
+QUERY international/th02 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th02 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th02 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th03 FAILED: ERR<urlopen error timed out>
+QUERY international/th03 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th03 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th03 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th04 FAILED: ERR<urlopen error timed out>
+QUERY international/th04 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th04 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th04 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th05 FAILED: ERR<urlopen error timed out>
+QUERY international/th05 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th05 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th05 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th06 FAILED: ERR<urlopen error timed out>
+QUERY international/th06 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th06 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th06 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th07 FAILED: ERR<urlopen error timed out>
+QUERY international/th07 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th07 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th07 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th08 FAILED: ERR<urlopen error timed out>
+QUERY international/th08 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th08 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th08 electric FAILED: ERR<urlopen error timed out>
+QUERY international/th09 FAILED: ERR<urlopen error timed out>
+QUERY international/th09 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th09 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/th09 electric FAILED: ERR<urlopen error timed out>
+QUERY international/tms3 FAILED: ERR<urlopen error timed out>
+QUERY international/tms3 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tms3 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tms3 electric FAILED: ERR<urlopen error timed out>
+QUERY international/tse international, inc. FAILED: ERR<urlopen error timed out>
+QUERY international/tse international, inc. hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tse international, inc. plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tse international, inc. electric FAILED: ERR<urlopen error timed out>
+QUERY international/tz6 FAILED: ERR<urlopen error timed out>
+QUERY international/tz6 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tz6 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tz6 electric FAILED: ERR<urlopen error timed out>
+QUERY international/tourstar FAILED: ERR<urlopen error timed out>
+QUERY international/tourstar hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tourstar plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tourstar electric FAILED: ERR<urlopen error timed out>
+QUERY international/tradition FAILED: ERR<urlopen error timed out>
+QUERY international/tradition hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tradition plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/tradition electric FAILED: ERR<urlopen error timed out>
+QUERY international/transcor international development corpo FAILED: ERR<urlopen error timed out>
+QUERY international/transcor international development corpo hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/transcor international development corpo plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/transcor international development corpo electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3000 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3500 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 3500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4000 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4100 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4100 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4100 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4100 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4200 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4200 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4200 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4200 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4300 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4300 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4300 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4300 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4400 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4400 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4400 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4400 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4500 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 4500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5000 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5500 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 5500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6000 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6500 FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xlsv 6500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm2100 FAILED: ERR<urlopen error timed out>
+QUERY international/xm2100 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2100 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2100 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm2200 FAILED: ERR<urlopen error timed out>
+QUERY international/xm2200 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2200 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2200 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm2300 FAILED: ERR<urlopen error timed out>
+QUERY international/xm2300 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2300 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2300 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm2400 FAILED: ERR<urlopen error timed out>
+QUERY international/xm2400 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2400 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2400 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm2500 FAILED: ERR<urlopen error timed out>
+QUERY international/xm2500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm2600 FAILED: ERR<urlopen error timed out>
+QUERY international/xm2600 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2600 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm2600 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3000 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3100 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3100 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3100 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3100 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3150 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3150 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3150 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3150 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3200 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3200 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3200 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3200 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3300 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3300 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3300 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3300 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3500 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm3600 FAILED: ERR<urlopen error timed out>
+QUERY international/xm3600 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3600 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm3600 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm4000 FAILED: ERR<urlopen error timed out>
+QUERY international/xm4000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm4000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm4000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm4500 FAILED: ERR<urlopen error timed out>
+QUERY international/xm4500 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm4500 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm4500 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xm5000 FAILED: ERR<urlopen error timed out>
+QUERY international/xm5000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm5000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xm5000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xr025 FAILED: ERR<urlopen error timed out>
+QUERY international/xr025 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xr025 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xr025 electric FAILED: ERR<urlopen error timed out>
+QUERY international/xu3000 FAILED: ERR<urlopen error timed out>
+QUERY international/xu3000 hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xu3000 plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/xu3000 electric FAILED: ERR<urlopen error timed out>
+QUERY international/eprimo 4x2 (electric) FAILED: ERR<urlopen error timed out>
+QUERY international/eprimo 4x2 (electric) hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/eprimo 4x2 (electric) plug-in hybrid FAILED: ERR<urlopen error timed out>
+QUERY international/eprimo 4x2 (electric) electric FAILED: ERR<urlopen error timed out>
+QUERY international/lt FAILED: ERR<urlopen error timed out>
+QUERY international/rh FAILED: ERR<urlopen error timed out>
+QUERY international/hv FAILED: ERR<urlopen error timed out>
+QUERY international/mv FAILED: ERR<urlopen error timed out>
+QUERY international/hx FAILED: ERR<urlopen error timed out>
+QUERY international/lone star FAILED: ERR<urlopen error timed out>
+QUERY international/prostar FAILED: ERR<urlopen error timed out>
+== international: 0 campaigns, 575 queries, 2162s ==
+VPIC kenworth FAILED: <urlopen error timed out>
+QUERY kenworth/t680 FAILED: ERR<urlopen error timed out>
+QUERY kenworth/t880 FAILED: ERR<urlopen error timed out>
+QUERY kenworth/w900 FAILED: ERR<urlopen error timed out>
+QUERY kenworth/t370 FAILED: ERR<urlopen error timed out>
+QUERY kenworth/t380 FAILED: ERR<urlopen error timed out>
+QUERY kenworth/t480 FAILED: ERR<urlopen error timed out>
+== kenworth: 0 campaigns, 6 queries, 2212s ==
+VPIC peterbilt FAILED: <urlopen error timed out>
+QUERY peterbilt/579 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/567 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/389 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/379 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/337 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/348 FAILED: ERR<urlopen error timed out>
+QUERY peterbilt/520 FAILED: ERR<urlopen error timed out>
+== peterbilt: 0 campaigns, 7 queries, 2262s ==
+VPIC western star FAILED: <urlopen error timed out>
+QUERY western star/49x FAILED: ERR<urlopen error timed out>
+QUERY western star/47x FAILED: ERR<urlopen error timed out>
+QUERY western star/57x FAILED: ERR<urlopen error timed out>
+QUERY western star/4900 FAILED: ERR<urlopen error timed out>
+== western star: 0 campaigns, 4 queries, 2312s ==
+VPIC thomas built FAILED: <urlopen error timed out>
+QUERY thomas built/saf-t-liner c2 FAILED: ERR<urlopen error timed out>
+QUERY thomas built/saf-t-liner efx FAILED: ERR<urlopen error timed out>
+QUERY thomas built/saf-t-liner hdx FAILED: ERR<urlopen error timed out>
+QUERY thomas built/jouley FAILED: ERR<urlopen error timed out>
+== thomas built: 0 campaigns, 4 queries, 2362s ==
+VPIC blue bird FAILED: <urlopen error timed out>
+QUERY blue bird/vision FAILED: ERR<urlopen error timed out>
+QUERY blue bird/all american FAILED: ERR<urlopen error timed out>
+QUERY blue bird/micro bird FAILED: ERR<urlopen error timed out>
+== blue bird: 0 campaigns, 3 queries, 2413s ==
+VPIC gillig FAILED: <urlopen error timed out>
+QUERY gillig/low floor FAILED: ERR<urlopen error timed out>
+QUERY gillig/brt FAILED: ERR<urlopen error timed out>
+QUERY gillig/trolley FAILED: ERR<urlopen error timed out>
+== gillig: 0 campaigns, 3 queries, 2463s ==
+VPIC new flyer FAILED: <urlopen error timed out>
+QUERY new flyer/xcelsior FAILED: ERR<urlopen error timed out>
+QUERY new flyer/xd40 FAILED: ERR<urlopen error timed out>
+QUERY new flyer/xe40 FAILED: ERR<urlopen error timed out>
+QUERY new flyer/xde40 FAILED: ERR<urlopen error timed out>
+== new flyer: 0 campaigns, 4 queries, 2513s ==
+VPIC prevost FAILED: <urlopen error timed out>
+QUERY prevost/h3-45 FAILED: ERR<urlopen error timed out>
+QUERY prevost/x3-45 FAILED: ERR<urlopen error timed out>
+== prevost: 0 campaigns, 2 queries, 2563s ==
+VPIC motor coach industries FAILED: <urlopen error timed out>
+QUERY motor coach industries/j4500 FAILED: ERR<urlopen error timed out>
+QUERY motor coach industries/d4500 FAILED: ERR<urlopen error timed out>
+QUERY motor coach industries/d45 crt FAILED: ERR<urlopen error timed out>
+== motor coach industries: 0 campaigns, 3 queries, 2613s ==
+VPIC forest river FAILED: <urlopen error timed out>
+QUERY forest river/forester FAILED: ERR<urlopen error timed out>
+QUERY forest river/sunseeker FAILED: ERR<urlopen error timed out>
+QUERY forest river/georgetown FAILED: ERR<urlopen error timed out>
+QUERY forest river/rockwood FAILED: ERR<urlopen error timed out>
+QUERY forest river/flagstaff FAILED: ERR<urlopen error timed out>
+== forest river: 0 campaigns, 5 queries, 2663s ==
+VPIC winnebago FAILED: <urlopen error timed out>
+QUERY winnebago/vista FAILED: ERR<urlopen error timed out>
+QUERY winnebago/journey FAILED: ERR<urlopen error timed out>
+QUERY winnebago/revel FAILED: ERR<urlopen error timed out>
+QUERY winnebago/solos FAILED: ERR<urlopen error timed out>
+== winnebago: 0 campaigns, 4 queries, 2713s ==
+VPIC thor motor coach FAILED: <urlopen error timed out>
+QUERY thor motor coach/ace FAILED: ERR<urlopen error timed out>
+QUERY thor motor coach/hurricane FAILED: ERR<urlopen error timed out>
+QUERY thor motor coach/windsport FAILED: ERR<urlopen error timed out>
+QUERY thor motor coach/challenger FAILED: ERR<urlopen error timed out>
+== thor motor coach: 0 campaigns, 4 queries, 2764s ==
+VPIC jayco FAILED: <urlopen error timed out>
+QUERY jayco/jay flight FAILED: ERR<urlopen error timed out>
+QUERY jayco/eagle FAILED: ERR<urlopen error timed out>
+QUERY jayco/greyhawk FAILED: ERR<urlopen error timed out>
+QUERY jayco/redhawk FAILED: ERR<urlopen error timed out>
+== jayco: 0 campaigns, 4 queries, 2814s ==
+VPIC keystone FAILED: <urlopen error timed out>
+QUERY keystone/montana FAILED: ERR<urlopen error timed out>
+QUERY keystone/cougar FAILED: ERR<urlopen error timed out>
+QUERY keystone/passport FAILED: ERR<urlopen error timed out>
+QUERY keystone/bullet FAILED: ERR<urlopen error timed out>
+== keystone: 0 campaigns, 4 queries, 2864s ==
+VPIC heartland FAILED: <urlopen error timed out>
+QUERY heartland/bighorn FAILED: ERR<urlopen error timed out>
+QUERY heartland/landmark FAILED: ERR<urlopen error timed out>
+QUERY heartland/cyclone FAILED: ERR<urlopen error timed out>
+== heartland: 0 campaigns, 3 queries, 2914s ==
+VPIC grand design FAILED: <urlopen error timed out>
+QUERY grand design/solitude FAILED: ERR<urlopen error timed out>
+QUERY grand design/reflection FAILED: ERR<urlopen error timed out>
+QUERY grand design/imagine FAILED: ERR<urlopen error timed out>
+QUERY grand design/momentum FAILED: ERR<urlopen error timed out>
+== grand design: 0 campaigns, 4 queries, 2964s ==
+VPIC airstream FAILED: <urlopen error timed out>
+QUERY airstream/classic FAILED: ERR<urlopen error timed out>
+QUERY airstream/flying cloud FAILED: ERR<urlopen error timed out>
+QUERY airstream/international FAILED: ERR<urlopen error timed out>
+QUERY airstream/basecamp FAILED: ERR<urlopen error timed out>
+== airstream: 0 campaigns, 4 queries, 3014s ==
+VPIC tiffin FAILED: <urlopen error timed out>
+QUERY tiffin/allegro FAILED: ERR<urlopen error timed out>
+QUERY tiffin/phaeton FAILED: ERR<urlopen error timed out>
+QUERY tiffin/bus FAILED: ERR<urlopen error timed out>
+== tiffin: 0 campaigns, 3 queries, 3064s ==
+VPIC newmar FAILED: <urlopen error timed out>
+QUERY newmar/dutch star FAILED: ERR<urlopen error timed out>
+QUERY newmar/mountain aire FAILED: ERR<urlopen error timed out>
+QUERY newmar/essex FAILED: ERR<urlopen error timed out>
+QUERY newmar/bay star FAILED: ERR<urlopen error timed out>
+== newmar: 0 campaigns, 4 queries, 3114s ==
+VPIC entegra FAILED: <urlopen error timed out>
+QUERY entegra/coach FAILED: ERR<urlopen error timed out>
+QUERY entegra/aspire FAILED: ERR<urlopen error timed out>
+QUERY entegra/anthem FAILED: ERR<urlopen error timed out>
+QUERY entegra/cornerstone FAILED: ERR<urlopen error timed out>
+== entegra: 0 campaigns, 4 queries, 3165s ==
+VPIC navistar FAILED: <urlopen error timed out>
+QUERY navistar/lt FAILED: ERR<urlopen error timed out>
+QUERY navistar/rh FAILED: ERR<urlopen error timed out>
+QUERY navistar/hv FAILED: ERR<urlopen error timed out>
+QUERY navistar/mv FAILED: ERR<urlopen error timed out>
+== navistar: 0 campaigns, 4 queries, 3215s ==
+VPIC ic bus FAILED: <urlopen error timed out>
+QUERY ic bus/ce series FAILED: ERR<urlopen error timed out>
+QUERY ic bus/re series FAILED: ERR<urlopen error timed out>
+== ic bus: 0 campaigns, 2 queries, 3265s ==
+VPIC hino FAILED: <urlopen error timed out>
+QUERY hino/l series FAILED: ERR<urlopen error timed out>
+QUERY hino/xl series FAILED: ERR<urlopen error timed out>
+QUERY hino/m series FAILED: ERR<urlopen error timed out>
+== hino: 0 campaigns, 3 queries, 3315s ==
+VPIC isuzu FAILED: <urlopen error timed out>
+QUERY isuzu/npr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/nqr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/nrr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/ftr FAILED: ERR<urlopen error timed out>
+QUERY isuzu/fvr FAILED: ERR<urlopen error timed out>
+== isuzu: 0 campaigns, 5 queries, 3365s ==
+VPIC mitsubishi fuso FAILED: <urlopen error timed out>
+QUERY mitsubishi fuso/fe140 FAILED: ERR<urlopen error timed out>
+QUERY mitsubishi fuso/fe160 FAILED: ERR<urlopen error timed out>
+QUERY mitsubishi fuso/fg4x4 FAILED: ERR<urlopen error timed out>
+== mitsubishi fuso: 0 campaigns, 3 queries, 3415s ==
+VPIC oshkosh FAILED: <urlopen error timed out>
+QUERY oshkosh/striker FAILED: ERR<urlopen error timed out>
+QUERY oshkosh/s-series FAILED: ERR<urlopen error timed out>
+== oshkosh: 0 campaigns, 2 queries, 3465s ==
+VPIC pierce FAILED: <urlopen error timed out>
+QUERY pierce/enforcer FAILED: ERR<urlopen error timed out>
+QUERY pierce/velocity FAILED: ERR<urlopen error timed out>
+QUERY pierce/impel FAILED: ERR<urlopen error timed out>
+QUERY pierce/arrow xt FAILED: ERR<urlopen error timed out>
+== pierce: 0 campaigns, 4 queries, 3515s ==
+VPIC spartan FAILED: <urlopen error timed out>
+QUERY spartan/gladiator FAILED: ERR<urlopen error timed out>
+QUERY spartan/metro star FAILED: ERR<urlopen error timed out>
+QUERY spartan/furion FAILED: ERR<urlopen error timed out>
+== spartan: 0 campaigns, 3 queries, 3565s ==
+VPIC e-one FAILED: <urlopen error timed out>
+QUERY e-one/typhoon FAILED: ERR<urlopen error timed out>
+QUERY e-one/cyclone FAILED: ERR<urlopen error timed out>
+== e-one: 0 campaigns, 2 queries, 3615s ==
+VPIC collins FAILED: <urlopen error timed out>
+QUERY collins/grand brougham FAILED: ERR<urlopen error timed out>
+QUERY collins/super bantam FAILED: ERR<urlopen error timed out>
+== collins: 0 campaigns, 2 queries, 3665s ==
+VPIC starcraft FAILED: <urlopen error timed out>
+QUERY starcraft/allstar FAILED: ERR<urlopen error timed out>
+QUERY starcraft/starlite FAILED: ERR<urlopen error timed out>
+== starcraft: 0 campaigns, 2 queries, 3715s ==
+VPIC champion FAILED: <urlopen error timed out>
+QUERY champion/defender FAILED: ERR<urlopen error timed out>
+QUERY champion/challenger FAILED: ERR<urlopen error timed out>
+== champion: 0 campaigns, 2 queries, 3765s ==
+VPIC eldorado FAILED: <urlopen error timed out>
+QUERY eldorado/axess FAILED: ERR<urlopen error timed out>
+QUERY eldorado/escort FAILED: ERR<urlopen error timed out>
+== eldorado: 0 campaigns, 2 queries, 3815s ==
+VPIC enc FAILED: <urlopen error timed out>
+QUERY enc/ez rider FAILED: ERR<urlopen error timed out>
+QUERY enc/xhf FAILED: ERR<urlopen error timed out>
+== enc: 0 campaigns, 2 queries, 3865s ==
+
+TOTAL distinct November 2026 campaigns (2026-MY vehicles): 8
+  26V725000 02/11/2026 [VISIBILITY:WINDSHIELD WIPER/WASHER] via ford/bronco
+  26V726000 02/11/2026 [INTERIOR LIGHTING] via ford/explorer
+  26V727000 02/11/2026 [ELECTRICAL SYSTEM:BODY CONTROL MODULE:SOFTWARE] via ford/transit
+  26V730000 03/11/2026 [ENGINE AND ENGINE COOLING:ENGINE:ENGINE CONTROL MODULE (ECU/ECM)] via harley-davidson/flhx
+  26V750000 12/11/2026 [ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL/MECHANICAL] via toyota/tundra
+  26V760000 19/11/2026 [ENGINE] via dodge/durango
+  26V761000 19/11/2026 [EQUIPMENT:OTHER:LABELS] via rivian/r1s
+  26V766000 20/11/2026 [SUSPENSION:FRONT:CONTROL ARM:UPPER BALL JOINT] via genesis/gv80

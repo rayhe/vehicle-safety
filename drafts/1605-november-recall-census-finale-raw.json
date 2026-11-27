@@ -1,0 +1,690 @@
+{
+ "brands": {
+  "ford": {
+   "campaigns": {
+    "26V725000": {
+     "campaign": "26V725000",
+     "date": "02/11/2026",
+     "component": "VISIBILITY:WINDSHIELD WIPER/WASHER",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Bronco vehicles. A wiper arm nut on the driver-side may loosen, causing the windshield wipers to detach.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "ford/bronco"
+    },
+    "26V726000": {
+     "campaign": "26V726000",
+     "date": "02/11/2026",
+     "component": "INTERIOR LIGHTING",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Explorer Police Interceptor vehicles. A phantom \"Global On\" command in the overhead console may illuminate the map lights and prevent them from being turned off. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) Number 101, \"Controls and Displays.\"",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "ford/explorer"
+    },
+    "26V727000": {
+     "campaign": "26V727000",
+     "date": "02/11/2026",
+     "component": "ELECTRICAL SYSTEM:BODY CONTROL MODULE:SOFTWARE",
+     "summary": "Ford Motor Company (Ford) is recalling certain 2026 Transit vehicles. A software error in the body control module C (BCMC) may cause the module to freeze, shutting off certain features such as interior lighting and trailer lights. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "ford/transit"
+    }
+   },
+   "count": 3,
+   "per_model": {
+    "ford/bronco": [
+     "26V725000"
+    ],
+    "ford/explorer": [
+     "26V726000"
+    ],
+    "ford/transit": [
+     "26V727000"
+    ]
+   },
+   "queries": 176,
+   "done": true
+  },
+  "lincoln": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 20,
+   "done": true
+  },
+  "chevrolet": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 102,
+   "done": true
+  },
+  "gmc": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 46,
+   "done": true
+  },
+  "cadillac": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 44,
+   "done": true
+  },
+  "buick": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "toyota": {
+   "campaigns": {
+    "26V750000": {
+     "campaign": "26V750000",
+     "date": "12/11/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL/MECHANICAL",
+     "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2023 and 2025-2026 Tundra vehicles. One of the engine camshafts may have been manufactured incorrectly, allowing cracks to develop that can cause the camshaft to snap, possibly leading to an engine stall and loss of drive power.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "toyota/tundra"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "toyota/tundra": [
+     "26V750000"
+    ]
+   },
+   "queries": 98,
+   "done": true
+  },
+  "lexus": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 44,
+   "done": true
+  },
+  "honda": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 280,
+   "done": true
+  },
+  "acura": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 20,
+   "done": true
+  },
+  "hyundai": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 72,
+   "done": true
+  },
+  "kia": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 50,
+   "done": true
+  },
+  "genesis": {
+   "campaigns": {
+    "26V766000": {
+     "campaign": "26V766000",
+     "date": "20/11/2026",
+     "component": "SUSPENSION:FRONT:CONTROL ARM:UPPER BALL JOINT",
+     "summary": "Hyundai Motor America (Genesis) is recalling certain 2026 Genesis GV80 vehicles. Due to a manufacturing error, the front-left upper control arm ball joint may detach from the steering knuckle, which can result in a loss of vehicle control.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "genesis/gv80"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "genesis/gv80": [
+     "26V766000"
+    ]
+   },
+   "queries": 59,
+   "done": true
+  },
+  "nissan": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 52,
+   "done": true
+  },
+  "infiniti": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 12,
+   "done": true
+  },
+  "subaru": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 40,
+   "done": true
+  },
+  "bmw": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 229,
+   "done": true
+  },
+  "mini": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 104,
+   "done": true
+  },
+  "mercedes-benz": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 89,
+   "done": true
+  },
+  "audi": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 101,
+   "done": true
+  },
+  "volkswagen": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 38,
+   "done": true
+  },
+  "porsche": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 22,
+   "done": true
+  },
+  "volvo": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 262,
+   "done": true
+  },
+  "tesla": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 28,
+   "done": true
+  },
+  "rivian": {
+   "campaigns": {
+    "26V761000": {
+     "campaign": "26V761000",
+     "date": "19/11/2026",
+     "component": "EQUIPMENT:OTHER:LABELS",
+     "summary": "Rivian Automotive, LLC (Rivian) is recalling certain 2022-2027 R1S, R1T, and 2027 R2 vehicles. The tire placard and/or certification label may not correctly list the wheel, tire, and spare tire configuration of the vehicle. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 110, \"Tire Selection and Rims.\"",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "rivian/r1s"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "rivian/r1s": [
+     "26V761000"
+    ],
+    "rivian/r1t": [
+     "26V761000"
+    ]
+   },
+   "queries": 17,
+   "done": true
+  },
+  "lucid": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 8,
+   "done": true
+  },
+  "polestar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 19,
+   "done": true
+  },
+  "mazda": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 29,
+   "done": true
+  },
+  "mitsubishi": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "jaguar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 9,
+   "done": true
+  },
+  "land rover": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 40,
+   "done": true
+  },
+  "vinfast": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 16,
+   "done": true
+  },
+  "harley-davidson": {
+   "campaigns": {
+    "26V730000": {
+     "campaign": "26V730000",
+     "date": "03/11/2026",
+     "component": "ENGINE AND ENGINE COOLING:ENGINE:ENGINE CONTROL MODULE (ECU/ECM)",
+     "summary": "Harley-Davidson Motor Company (Harley-Davidson) is recalling certain 2026 FLHXLSE, FLTRXSTSE, FLHXSTSE, FLHXSE, FLHXL, FLTRXP, FLTRX, FLTRXL, and FLHX motorcycles. The engine control module (ECM) may communicate the incorrect gear position of neutral when the transmission is actually in gear.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "harley-davidson/flhx"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "harley-davidson/flhx": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxl": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxlse": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxse": [
+     "26V730000"
+    ],
+    "harley-davidson/flhxstse": [
+     "26V730000"
+    ],
+    "harley-davidson/fltrxl": [
+     "26V730000"
+    ],
+    "harley-davidson/fltrxp": [
+     "26V730000"
+    ],
+    "harley-davidson/fltrxstse": [
+     "26V730000"
+    ]
+   },
+   "queries": 120,
+   "done": true
+  },
+  "jeep": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 43,
+   "done": true
+  },
+  "ram": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 370,
+   "done": true
+  },
+  "dodge": {
+   "campaigns": {
+    "26V760000": {
+     "campaign": "26V760000",
+     "date": "19/11/2026",
+     "component": "ENGINE",
+     "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Dodge Durango vehicles. The vehicles were manufactured with an incorrect powertrain that may cause a loss of drive power.",
+     "ota": false,
+     "park_it": false,
+     "park_outside": false,
+     "found_via": "dodge/durango"
+    }
+   },
+   "count": 1,
+   "per_model": {
+    "dodge/durango": [
+     "26V760000"
+    ]
+   },
+   "queries": 21,
+   "done": true
+  },
+  "chrysler": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 12,
+   "done": true
+  },
+  "fiat": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 8,
+   "done": true
+  },
+  "alfa romeo": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 13,
+   "done": true
+  },
+  "mack": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 56,
+   "done": true
+  },
+  "autocar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 30,
+   "done": true
+  },
+  "wabash": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 76,
+   "done": true
+  },
+  "freightliner": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 379,
+   "done": true
+  },
+  "international": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 575,
+   "done": true
+  },
+  "kenworth": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 6,
+   "done": true
+  },
+  "peterbilt": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 7,
+   "done": true
+  },
+  "western star": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "thomas built": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "blue bird": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "gillig": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "new flyer": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "prevost": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "motor coach industries": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "forest river": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 5,
+   "done": true
+  },
+  "winnebago": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "thor motor coach": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "jayco": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "keystone": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "heartland": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "grand design": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "airstream": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "tiffin": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "newmar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "entegra": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "navistar": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "ic bus": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "hino": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "isuzu": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 5,
+   "done": true
+  },
+  "mitsubishi fuso": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "oshkosh": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "pierce": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 4,
+   "done": true
+  },
+  "spartan": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 3,
+   "done": true
+  },
+  "e-one": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "collins": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "starcraft": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "champion": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "eldorado": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  },
+  "enc": {
+   "campaigns": {},
+   "count": 0,
+   "per_model": {},
+   "queries": 2,
+   "done": true
+  }
+ }
+}
