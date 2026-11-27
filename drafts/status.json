@@ -1,13 +1,8 @@
 {
-  "current": {
-    "slug": "1597-wrong-way-deaths-doubled-aaa-foundation",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-26T18:45:00-08:00"
-  },
-  "last_check_note": "2026-11-26 18:55 run: CRITIQUE #1597 round 0 PASS (avg 8.84, all 7 >= 8.5; gates: em dash 1, banned 0, rhythm PASS, The-starters 0%). SHIP_BLOCKED ship_date 2028-11-26. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 due today stays SHIP_BLOCKED for next run.",
+  "current": null,
+  "last_check_note": "2026-11-26 18:58 run complete: #1597 RESEARCH+DRAFT+CRITIQUE+SHIP done (SHIP_BLOCKED, ship_date 2028-11-26, avg 8.84). PUBLISH-QUEUE: 1/day gate BLOCKED (Publish #860 at 00:30 PT today); #861 due today, hero exists, stays SHIP_BLOCKED for next run 2026-11-27.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-26T16:55:00-08:00",
+  "last_completed": "2026-11-26T18:58:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -15,7 +10,7 @@
   "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-26T18:55:00-08:00",
+  "last_worker_run": "2026-11-26T18:58:00-08:00",
   "next": 1594,
   "queue": [
     {
