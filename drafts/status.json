@@ -1,16 +1,10 @@
 {
-  "current": {
-    "slug": "1606-vistiq-third-row-seat-traps-kids",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-27T12:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-27 04:30 run complete: #1602 RESEARCH+DRAFT+CRITIQUE(r0 REVISE Legal 8.4, r1 8.83 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-01). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready (drafts/862-young-riders-surge.jpg exists), ships next publish-eligible run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-27T11:52:41-08:00",
-  "last_completed_date": "2026-11-26",
-  "last_journalist": "Vin Wreckage",
+  "last_completed": "2026-11-27T12:30:00-08:00",
+  "last_completed_date": "2026-11-27",
+  "last_journalist": "Mia Crumplezone",
   "last_published": "2026-11-27T00:30:00-08:00",
   "last_published_date": "2026-11-27",
   "last_published_slug": "861-nsc-h1-2026-split-country",
@@ -30174,6 +30168,44 @@
       "slug": "1605-november-recall-census-finale-zero-filings-final-week",
       "title": "November Filed Nothing in Its Final Week. The Census Closes at 2,225,873.",
       "word_count": 1117
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1606-vistiq-third-row-seat-traps-kids-critic-panel-r0.md",
+        "hero": "drafts/1606-vistiq-third-row-seat-traps-kids.jpg",
+        "research": "drafts/1606-vistiq-third-row-seat-traps-kids-research.md",
+        "story": "drafts/1606-vistiq-third-row-seat-traps-kids.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "5b18780c",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 978
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-11-27 12:30 run: RESEARCH+DRAFT+CRITIQUE(r0 8.86 SHIP)+SHIP done. Pre-panel fixes: removed unverified 'six-figure' price claim, rewrote og:description. Gates: em 0, banned 0, The 0.0%, rhythm PASS (var 2264.4), hero JPEG 1920x1280 ?v=5b18780c.",
+      "number": 1606,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.5,
+        "legal_accuracy": 8.5,
+        "research_rigor": 9.0,
+        "social_shareability": 9.0,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-12-05",
+      "slug": "1606-vistiq-third-row-seat-traps-kids",
+      "title": "The Vistiq's Third-Row Seat Folds Onto Whatever's in the Way. GM Recalled Every One Ever Built."
     }
   ]
 }
