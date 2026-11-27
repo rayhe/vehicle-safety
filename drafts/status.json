@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path",
-    "phase": "CRITIQUE",
-    "journalist": "Mia Crumplezone",
-    "started": "2026-11-26T16:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 10:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1593 (Honda 26V721 divide-by-zero steering, 635,808; Rex Driverton, round-0 8.89, queued 2028-11-22). Killed angles: Waymo RQ26006 (covered #1445/#1461/#1523), BMW 26V733 fire, Takata 26V765, Ioniq 9, RAV4 PHEV stall. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 (ship 2026-11-26) due but stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-26T14:55:00-08:00",
+  "last_completed": "2026-11-26T16:55:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -29800,6 +29794,45 @@
       "ship_date": "2028-11-24",
       "slug": "1595-bmw-recall-fix-failed-park-outside-again",
       "title": "The Fix Didn’t Fix It: BMW Recalls the Same 720,796 Cars a Second Time"
+    },
+    {
+      "avg_critic": 8.77,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path-critic-panel-r0.md",
+        "hero": "drafts/1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path.jpg",
+        "research": "drafts/1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path-research.md",
+        "story": "drafts/1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6cca1cc7",
+        "hero_jpeg": true,
+        "rhythm": "PASS var=2083.2 short=12.2% long=53.1%",
+        "style_css": true,
+        "the_starters_pct": 1.6,
+        "word_count": 1309
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Investigation",
+      "note": "2026-11-26 16:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP #1596 (AAA intersection AEB study, released Nov 12, 2026: four 2026 SUVs, 74 runs; all four pass the graded Euro NCAP left-turn test, three of four hit the car pulling out of a side street in every run, 13 collisions in 16 turn-into-path runs; Tucson turn-signal dependency, 2022-to-2026 progress audit, NHTSA 2019 draft Intersection Safety Assist procedure never finalized, FMVSS 127 covers rear-end/pedestrian only; Mia Crumplezone, round-0 8.77, queued 2028-11-25). PUBLISH skipped (1/day gate already met today).",
+      "number": 1596,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.6,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-11-25",
+      "slug": "1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path",
+      "title": "Three of Four New SUVs Hit the Car Pulling Out of a Side Street. All Four Aced the Test That Counts."
     }
   ]
 }
