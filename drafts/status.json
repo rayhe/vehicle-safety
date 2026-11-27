@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-11-27 00:30 run complete: #1600 RESEARCH+DRAFT+CRITIQUE(r1 8.80 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-11-29). PUBLISH-QUEUE: published #861 (NSC H1 2026 split country, Axle McScatter); 1/day slot consumed. #862 due today (ship 2026-11-27), stays SHIP_BLOCKED for next run.",
+  "last_check_note": "2026-11-27 04:30 run complete: #1602 RESEARCH+DRAFT+CRITIQUE(r0 REVISE Legal 8.4, r1 8.83 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-01). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready (drafts/862-young-riders-surge.jpg exists), ships next publish-eligible run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-27T04:30:00-08:00",
   "last_completed_date": "2026-11-26",
