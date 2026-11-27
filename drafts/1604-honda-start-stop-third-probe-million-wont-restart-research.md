@@ -37,7 +37,7 @@ On November 13, 2026, NHTSA's Office of Defects Investigation opened Engineering
 
 **Calculations (mine, from the table above):**
 - Same symptom, three federal cases, **4 years 5 months** from PE22005 to EA26007.
-- Complaint rate, new probe: 701 / 1,033,632 = **0.068%**, about **1 in 1,472 vehicles**.
+- Complaint rate, new probe: 701 / 1,033,632 = **0.068%**, about **1 in 1,475 vehicles**.
 - Complaint rate, old probe at opening: 1,348 / 2,209,466 = **0.061%**, about **1 in 1,639 vehicles**. The new cars fail at essentially the **same rate** as the old ones, despite NHTSA saying the root causes differ. The fix changed; the failure rate did not.
 - Combined open-probe population: EA25004 (~2.21M) + EA26007 (~1.03M) overlap heavily. Every vehicle in EA26007 except the 2026 model year is **simultaneously in two open federal investigations into the same symptom** — a 2024 or 2025 Pilot owner is covered by both files at once.
 - Earlier probe's harm record: **4 crashes, 2 with injuries** (EA25004 file, per CarBuzz). EA26007 lists none so far. The danger is not hypothetical; it is documented in the sibling file.
@@ -64,7 +64,7 @@ Killed in research, already covered:
 - Complaint counts differ by source: **701** per the NHTSA opening resume (MotorBiscuit, Autoblog); Reuters reports **700**. I use 701 as the filing's number and note the rounding.
 - "Different root causes" is NHTSA's characterization in the opening resume; the agency has not published what those causes are. Do not speculate about which part fails in the 2024–2026 cars.
 - The 2023 two-stage fix (software, then starter/relays/valves) applied to the older population under EA25004/PE22005. Whether it applies to the EA26007 population is exactly what NHTSA says is in doubt — do not present it as the fix for the new cars.
-- The 1-in-1,472 complaint rate is my own calculation from the filing's complaint count and Reuters' population estimate; complaints are self-reported and undercount real failures, so the true failure rate is higher by an unknown amount.
+- The 1-in-1,475 complaint rate is my own calculation from the filing's complaint count and Reuters' population estimate; complaints are self-reported and undercount real failures, so the true failure rate is higher by an unknown amount.
 
 ## Strongest counterargument (must appear in the article)
 
