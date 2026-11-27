@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1602-wabash-462m-verdict-that-wasnt",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-27T04:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-27 00:30 run complete: #1600 RESEARCH+DRAFT+CRITIQUE(r1 8.80 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-11-29). PUBLISH-QUEUE: published #861 (NSC H1 2026 split country, Axle McScatter); 1/day slot consumed. #862 due today (ship 2026-11-27), stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-27T02:30:00-08:00",
+  "last_completed": "2026-11-27T04:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-27T00:30:00-08:00",
@@ -30019,6 +30013,45 @@
       "ship_date": "2028-11-30",
       "slug": "1601-nhtsa-guesses-two-thirds-drunk-driving-deaths",
       "title": "Two-Thirds of America's Drunk-Driving Death Toll Is a Statistical Guess"
+    },
+    {
+      "avg_critic": 8.83,
+      "critique_round": 1,
+      "files": {
+        "critic_panel": "drafts/1602-wabash-462m-verdict-that-wasnt-critic-panel-r1.md",
+        "hero": "drafts/1602-wabash-462m-verdict-that-wasnt.jpg",
+        "research": "drafts/1602-wabash-462m-verdict-that-wasnt-research.md",
+        "story": "drafts/1602-wabash-462m-verdict-that-wasnt.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "2048x1152",
+        "hero_hash": "2c18e44b",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "style_css": true,
+        "the_starters_pct": 3.7,
+        "word_count": 1501
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Investigation",
+      "note": "2026-11-27 04:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1602 (Wabash $462M underride verdict lifecycle; Vin Wreckage). Round 0 REVISE (Legal 8.4: 9.4x ratio misframed as above the single-digit line; fixed to inside the range, plus one-number/pull-stat wording, $38.3M charge label, That fall). Round 1 SHIP (avg 8.83). Novel: verdict lifecycle $462M -> $119.5M adjusted award -> confidential settlement; company cash $34.6M (7.5%); punitive ratio 37.5x -> 9.4x; compliance paradox vs Gallegos #1564 (guard complied here, failed there). Sources: two SEC 8-Ks (Mar 20 + Oct 9, 2025), Simon Law, Amundsen Davis, NHTSA 2022 FMVSS 223/224 rule. Duplicate screen killed IIHS driver death rates (#985/#1446/#1472), GHSA ped 2025 (#1374), Atlas LATCH (#1540/#1577), Thomas Built 26V702 (#1369), Chicco PE26009 (#1572), Thanksgiving (#1553/#1578), H1 2026 (#1598), IIHS commercial (#1093+), Kicks/RAV4 (#1244).",
+      "number": 1602,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "social_shareability": 8.7,
+        "voice_coach": 8.9
+      },
+      "ship_date": "2028-12-01",
+      "slug": "1602-wabash-462m-verdict-that-wasnt",
+      "title": "The $462 Million Verdict That Wasn't"
     }
   ]
 }
