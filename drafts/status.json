@@ -1,5 +1,10 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1606-vistiq-third-row-seat-traps-kids",
+    "phase": "DRAFT",
+    "journalist": "Mia Crumplezone",
+    "started": "2026-11-27T12:30:00-08:00"
+  },
   "last_check_note": "2026-11-27 04:30 run complete: #1602 RESEARCH+DRAFT+CRITIQUE(r0 REVISE Legal 8.4, r1 8.83 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-01). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready (drafts/862-young-riders-surge.jpg exists), ships next publish-eligible run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-27T11:52:41-08:00",
@@ -10,8 +15,8 @@
   "last_published_slug": "861-nsc-h1-2026-split-country",
   "last_qa_date": "2026-11-27",
   "last_qa_note": "QA 2026-11-27 00:30 run: #861 live verified - story 200 (via 308 extensionless redirect, site-normal, same as #860), hero JPEG 200 (542146b, image/jpeg), og:title + og:image (?v=fbd0e0b6) present in deployed file, index card first in grid, sitemap entry live (2026-11-27).",
-  "last_worker_run": "2026-11-27T04:30:00-08:00",
-  "next": 1603,
+  "last_worker_run": "2026-11-27T12:30:00-08:00",
+  "next": 1607,
   "queue": [
     {
       "journalist": "Rex Driverton",
