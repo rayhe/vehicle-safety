@@ -1,10 +1,11 @@
 {
   "current": {
     "slug": "1603-dodge-durango-wrong-powertrain",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Axle McScatter",
     "started": "2026-11-27T06:30:00-08:00",
-    "number": 1603
+    "number": 1603,
+    "round": 0
   },
   "last_check_note": "2026-11-27 04:30 run complete: #1602 RESEARCH+DRAFT+CRITIQUE(r0 REVISE Legal 8.4, r1 8.83 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-01). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready (drafts/862-young-riders-surge.jpg exists), ships next publish-eligible run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
