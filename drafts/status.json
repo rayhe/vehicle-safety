@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1599-waymo-school-bus-fix-failed-rq26006",
-    "phase": "CRITIQUE",
-    "journalist": "Vin Wreckage",
-    "started": "2026-11-26T22:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 18:58 run complete: #1597 RESEARCH+DRAFT+CRITIQUE+SHIP done (SHIP_BLOCKED, ship_date 2028-11-26, avg 8.84). PUBLISH-QUEUE: 1/day gate BLOCKED (Publish #860 at 00:30 PT today); #861 due today, hero exists, stays SHIP_BLOCKED for next run 2026-11-27.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-26T18:58:00-08:00",
+  "last_completed": "2026-11-26T22:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-26T00:30:00-08:00",
@@ -29899,6 +29893,47 @@
       "ship_date": "2028-11-27",
       "slug": "1598-h1-2026-decline-stalled-q2-flat",
       "title": "The Death Rate Hit a Near-Record Low. Then the Second Quarter Went Flat."
+    },
+    {
+      "avg_critic": 8.76,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1599-waymo-school-bus-fix-failed-rq26006-critic-panel-r0.md",
+        "hero": "drafts/1599-waymo-school-bus-fix-failed-rq26006.jpg",
+        "research": "drafts/1599-waymo-school-bus-fix-failed-rq26006-research.md",
+        "story": "drafts/1599-waymo-school-bus-fix-failed-rq26006.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "5683fab1",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 7.0,
+        "rhythm_variance": 3921.6,
+        "style_css": true,
+        "the_starters_pct": 3.5,
+        "word_count": 1606
+      },
+      "journalist": "Vin Wreckage",
+      "kicker": "Investigation",
+      "note": "2026-11-26 22:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP #1599 (NHTSA recall query RQ26006, Waymo school-bus fix did not take; Vin Wreckage, round-0 8.76, queued 2028-11-28). Pre-panel fixes: rhythm short-share 18.0% -> 7.0% (fragment merges); The-starters 20.3% -> 3.5% (9 rewords). Killed angles: Ram ProMaster EPS recall 26V621 (remedy unavailable for sold vehicles) and Toyota RAV4 PHEV stall 26V659 (RAV4-heavy after #1592) considered; Waymo chosen for Nov 26 freshness and the recall-of-recall hook (fix declared complete Nov 17, 2025; majority of incidents after that date). PUBLISH skipped (1/day gate already met today by Publish #860). Next due #861 (2026-11-26) is earliest-due for the next publish-eligible run.",
+      "number": 1599,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.8,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-11-28",
+      "slug": "1599-waymo-school-bus-fix-failed-rq26006",
+      "title": "Waymo Fixed the School Bus Problem. Then Its Cars Kept Passing School Buses."
     }
   ]
 }
