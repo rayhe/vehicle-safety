@@ -1,13 +1,13 @@
 {
   "current": null,
-  "last_check_note": "2026-11-26 18:58 run complete: #1597 RESEARCH+DRAFT+CRITIQUE+SHIP done (SHIP_BLOCKED, ship_date 2028-11-26, avg 8.84). PUBLISH-QUEUE: 1/day gate BLOCKED (Publish #860 at 00:30 PT today); #861 due today, hero exists, stays SHIP_BLOCKED for next run 2026-11-27.",
+  "last_check_note": "2026-11-27 00:30 run complete: #1600 RESEARCH+DRAFT+CRITIQUE(r1 8.80 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-11-29). PUBLISH-QUEUE: published #861 (NSC H1 2026 split country, Axle McScatter); 1/day slot consumed. #862 due today (ship 2026-11-27), stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T22:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Rex Driverton",
-  "last_published": "2026-11-26T00:30:00-08:00",
-  "last_published_date": "2026-11-26",
-  "last_published_slug": "860-cafe-crossover-truck-loophole",
+  "last_published": "2026-11-27T00:30:00-08:00",
+  "last_published_date": "2026-11-27",
+  "last_published_slug": "861-nsc-h1-2026-split-country",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
   "last_worker_run": "2026-11-27T00:30:00-08:00",
@@ -2423,8 +2423,9 @@
       "files": {
         "critic_panel": "drafts/861-critic-panel-r0.md",
         "draft": "drafts/861-nsc-h1-2026-split-country.html",
-        "hero": "drafts/861-nsc-h1-2026-split-country.jpg",
-        "research": "drafts/861-nsc-h1-2026-split-country-research.md"
+        "hero": "images/861-nsc-h1-2026-split-country.jpg",
+        "research": "drafts/861-nsc-h1-2026-split-country-research.md",
+        "story": "stories/861-nsc-h1-2026-split-country.html"
       },
       "hard_gates": {
         "banned_phrases": 0,
@@ -2443,9 +2444,9 @@
       },
       "journalist": "Axle McScatter",
       "kicker": "By The Numbers",
-      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025).",
+      "note": "Round-0 pass 8.91 avg; 7/7 critics >= 8.5. Novel: net-vs-gross decomposition of NSC H1 2026 (released Sept 8, 2026) \u2014 Illinois's 134 fewer deaths = 34.7% of the 386-death national decline; California +178 erased Illinois entirely; 13 states saved 499 while 11 states + DC added 378. Small-denominator trap (DC +133% = 12 deaths) + NSC-vs-NHTSA ~10% scope gap (1,706 deaths on H1 2025). | 2026-11-27 00:30 run: published as #861 (1/day slot; 0 prior publishes today). Pre-ship fixes: added twitter:card, og:image ?v=fbd0e0b6, story-hero img (was missing from draft). Dateline kept September 9, 2026 per #860 precedent.",
       "number": 861,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 9.2,
@@ -2457,7 +2458,8 @@
       },
       "ship_date": "2026-11-26",
       "slug": "861-nsc-h1-2026-split-country",
-      "title": "America's Roads Got Safer, and Illinois Did a Third of the Work"
+      "title": "America's Roads Got Safer, and Illinois Did a Third of the Work",
+      "publish_commit": "PENDING"
     },
     {
       "avg_critic": 8.9,
