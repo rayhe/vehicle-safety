@@ -2488,7 +2488,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group. 2026-11-27 06:30 run: publish held, 1/day slot already consumed today by #861 (Publish 411b8833); #862 remains earliest due, next run.",
+      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group. 2026-11-27 06:30 run: publish held, 1/day slot already consumed today by #861 (Publish 411b8833); #862 remains earliest due, next run. | 2026-11-27 08:30 run: PUBLISH skipped (1/day gate already met today: #861 published; 2 Publish commits today). #862 due today, hero-ready, holds for next run. New #1604 shipped this run (queued 2028-12-03, HERO MISSING).",
       "number": 862,
       "phase": "SHIP_BLOCKED",
       "scores": {
