@@ -1,12 +1,5 @@
 {
-  "current": {
-    "slug": "1600-safest-drivers-deadliest-bodies-older-population",
-    "phase": "CRITIQUE",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-27T00:30:00-08:00",
-    "number": 1600,
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 18:58 run complete: #1597 RESEARCH+DRAFT+CRITIQUE+SHIP done (SHIP_BLOCKED, ship_date 2028-11-26, avg 8.84). PUBLISH-QUEUE: 1/day gate BLOCKED (Publish #860 at 00:30 PT today); #861 due today, hero exists, stays SHIP_BLOCKED for next run 2026-11-27.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T22:30:00-08:00",
@@ -29941,6 +29934,44 @@
       "ship_date": "2028-11-28",
       "slug": "1599-waymo-school-bus-fix-failed-rq26006",
       "title": "Waymo Fixed the School Bus Problem. Then Its Cars Kept Passing School Buses."
+    },
+    {
+      "avg_critic": 8.8,
+      "critique_round": 1,
+      "files": {
+        "critic_panel": "drafts/1600-safest-drivers-deadliest-bodies-older-population-critic-panel-r1.md",
+        "hero": "drafts/1600-safest-drivers-deadliest-bodies-older-population.jpg",
+        "research": "drafts/1600-safest-drivers-deadliest-bodies-older-population-research.md",
+        "story": "drafts/1600-safest-drivers-deadliest-bodies-older-population.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "4f190c0c",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 1.7,
+        "word_count": 1024
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Existential Dread",
+      "note": "2026-11-27 00:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP done. Round 0 REVISE (Rigor 8.4: headline 'Record Rates' inaccurate, rate 13.11 flat vs 2015 and below 2021 peak; pull-label young-driver range unverifiable). Round 1 SHIP (avg 8.80): headline -> 'Record Numbers', pull-label range dropped, record count scoped to 2015-2024 window in limitations. Source: NHTSA Older Population 2024 Data, DOT HS 813 839 (Oct 2026).",
+      "number": 1600,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.8,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.8,
+        "research_rigor": 8.8,
+        "social_shareability": 8.7,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-11-29",
+      "slug": "1600-safest-drivers-deadliest-bodies-older-population",
+      "title": "America's Safest Drivers Are Dying in Record Numbers, and the Problem Isn't Their Driving"
     }
   ]
 }
