@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1600-safest-drivers-deadliest-bodies-older-population",
+    "phase": "DRAFT",
+    "journalist": "Rex Driverton",
+    "started": "2026-11-27T00:30:00-08:00",
+    "number": 1600
+  },
   "last_check_note": "2026-11-26 18:58 run complete: #1597 RESEARCH+DRAFT+CRITIQUE+SHIP done (SHIP_BLOCKED, ship_date 2028-11-26, avg 8.84). PUBLISH-QUEUE: 1/day gate BLOCKED (Publish #860 at 00:30 PT today); #861 due today, hero exists, stays SHIP_BLOCKED for next run 2026-11-27.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T22:30:00-08:00",
@@ -10,8 +16,8 @@
   "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-26T18:58:00-08:00",
-  "next": 1594,
+  "last_worker_run": "2026-11-27T00:30:00-08:00",
+  "next": 1601,
   "queue": [
     {
       "journalist": "Rex Driverton",
