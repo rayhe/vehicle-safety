@@ -1,11 +1,5 @@
 {
-  "current": {
-    "slug": "1598-h1-2026-decline-stalled-q2-flat",
-    "phase": "CRITIQUE",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-26T20:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-26 18:58 run complete: #1597 RESEARCH+DRAFT+CRITIQUE+SHIP done (SHIP_BLOCKED, ship_date 2028-11-26, avg 8.84). PUBLISH-QUEUE: 1/day gate BLOCKED (Publish #860 at 00:30 PT today); #861 due today, hero exists, stays SHIP_BLOCKED for next run 2026-11-27.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T18:58:00-08:00",
@@ -29858,6 +29852,47 @@
         "average": 8.84
       },
       "note": "Round 0 SHIP. AAA Foundation Mar 2026 brief (FARS 2014-2023): fatal wrong-way crashes 278->520, deaths 373->699 (+87.4% vs +24.9% overall). Hero JPEG 1920x1280 hash 0821016b. Kicker: Body Count."
+    },
+    {
+      "avg_critic": 8.74,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1598-h1-2026-decline-stalled-q2-flat-critic-panel-r0.md",
+        "hero": "drafts/1598-h1-2026-decline-stalled-q2-flat.jpg",
+        "research": "drafts/1598-h1-2026-decline-stalled-q2-flat-research.md",
+        "story": "drafts/1598-h1-2026-decline-stalled-q2-flat.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "42eeb2d1",
+        "hero_jpeg": true,
+        "rhythm_pass": true,
+        "rhythm_short_pct": 6.5,
+        "rhythm_variance": 2234.2,
+        "style_css": true,
+        "the_starters_pct": 5.9,
+        "word_count": 1175
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-26 20:30 run: full pipeline RESEARCH+DRAFT+CRITIQUE+SHIP #1598 (NHTSA H1 2026 early estimates DOT HS 813 875, released Nov 10: 16,750 deaths -2.5%, rate 1.02 second-lowest H1 ever; Q1 -5.0% vs Q2 -0.2%, May +1.5% Jun +3.0%; stall priced ~433 deaths, rate dividend ~493, IL -116 = 27.3% of -425 national decline, top-5 improvers -295 vs top-5 worseners +256; Axle McScatter, round-0 8.74, queued 2028-11-27). Pre-panel fixes: rhythm short-share 22.2% -> 6.5% (4 fragment merges). Killed angles: Thanksgiving drunk-driving (covered #1280/#1384/#1553/#1578), IIHS Kicks-beats-RAV4 (overlaps #1592 back-seat piece). PUBLISH skipped (1/day gate already met today).",
+      "number": 1598,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.7,
+        "legal_accuracy": 8.6,
+        "research_rigor": 8.8,
+        "social_shareability": 8.6,
+        "voice_coach": 8.8
+      },
+      "ship_date": "2028-11-27",
+      "slug": "1598-h1-2026-decline-stalled-q2-flat",
+      "title": "The Death Rate Hit a Near-Record Low. Then the Second Quarter Went Flat."
     }
   ]
 }
