@@ -1,9 +1,10 @@
 {
   "current": {
     "slug": "1602-wabash-462m-verdict-that-wasnt",
-    "phase": "DRAFT",
+    "phase": "CRITIQUE",
     "journalist": "Vin Wreckage",
-    "started": "2026-11-27T04:30:00-08:00"
+    "started": "2026-11-27T04:30:00-08:00",
+    "round": 0
   },
   "last_check_note": "2026-11-27 00:30 run complete: #1600 RESEARCH+DRAFT+CRITIQUE(r1 8.80 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-11-29). PUBLISH-QUEUE: published #861 (NSC H1 2026 split country, Axle McScatter); 1/day slot consumed. #862 due today (ship 2026-11-27), stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
