@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1604-honda-start-stop-third-probe-million-wont-restart",
-    "phase": "CRITIQUE",
-    "journalist": "Clara Rollover",
-    "started": "2026-11-27T08:30:00-08:00",
-    "round": 0
-  },
+  "current": null,
   "last_check_note": "2026-11-27 04:30 run complete: #1602 RESEARCH+DRAFT+CRITIQUE(r0 REVISE Legal 8.4, r1 8.83 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-01). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready (drafts/862-young-riders-surge.jpg exists), ships next publish-eligible run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-27T06:30:00-08:00",
+  "last_completed": "2026-11-27T08:30:00-08:00",
   "last_completed_date": "2026-11-26",
   "last_journalist": "Vin Wreckage",
   "last_published": "2026-11-27T00:30:00-08:00",
@@ -30097,6 +30091,44 @@
         "critic_panel": "drafts/1603-dodge-durango-wrong-powertrain-critic-panel-r0.md"
       },
       "note": "2026-11-27 06:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1603 (Dodge Durango 26V760, 15 cars, wrong powertrain, engine+cat replacement; Axle McScatter). Round 0 SHIP avg 8.83. Novel: five-campaign factory-error census (547,054 vehicles; Subaru label 99% of volume, Durango 0.003% and only engine-swap remedy). Rhythm gate failed pre-critique (short 18.2%) and was fixed by merging fragments (short 11.8%, variance 1448.9). Duplicate screen killed Honda Takata 26V765 (#1583), Navigator 26V691 (#1423), Genesis 26V766 standalone (census-only #1591), Rivian 26V761 (#1581), IIHS moderate-overlap/Kicks-RAV4 (#1244/#1592/#1596)."
+    },
+    {
+      "number": 1604,
+      "slug": "1604-honda-start-stop-third-probe-million-wont-restart",
+      "title": "Your Honda Shuts Its Engine Off to Save Gas. 701 Owners Say It Never Turned Back On.",
+      "journalist": "Clara Rollover",
+      "kicker": "Investigation",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-12-03",
+      "scores": {
+        "general_editor": 8.7,
+        "voice_coach": 8.5,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.8,
+        "data_presentation": 8.5
+      },
+      "avg_critic": 8.76,
+      "critique_round": 0,
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 2.3,
+        "css_class": true,
+        "style_css": true,
+        "hero_jpeg": false,
+        "hero_missing": "media.generate_image internal error 2026-11-27 08:30 run; retry next run",
+        "rhythm_pass": true,
+        "word_count": 1563
+      },
+      "files": {
+        "research": "drafts/1604-honda-start-stop-third-probe-million-wont-restart-research.md",
+        "story": "drafts/1604-honda-start-stop-third-probe-million-wont-restart.html",
+        "hero": null,
+        "critic_panel": "drafts/1604-honda-start-stop-third-probe-million-wont-restart-critic-panel-r0.md"
+      },
+      "note": "2026-11-27 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1604 (NHTSA EA26007, Honda/Acura start-stop no-restart, 1,033,632 vehicles, 701 complaints; Clara Rollover). Round-0 SHIP avg 8.76. Novel: three-probe timeline PE22005/EA25004/EA26007, complaint rates nearly identical (1 in 1,475 vs 1 in 1,639) despite different root causes; 2024-25 cars in two open probes at once. HERO MISSING: media.generate_image failed (internal 500), no retry this run; DO NOT PUBLISH until hero exists in drafts/ (publish-queue hero-gate will skip it). Rhythm gate failed pre-critique (short 18.2%) and was fixed by merging fragments (short 0.0%, variance 1380.4). Queued 2028-12-03."
     }
   ]
 }
