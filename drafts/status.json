@@ -1,12 +1,11 @@
 {
   "current": {
     "slug": "1597-wrong-way-deaths-doubled-aaa-foundation",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Rex Driverton",
-    "started": "2026-11-26T18:45:00-08:00",
-    "round": 0
+    "started": "2026-11-26T18:45:00-08:00"
   },
-  "last_check_note": "2026-11-26 18:47 run: DRAFT #1597 complete (hero JPEG 1920x1280, hash 0821016b; hard gates pass: em dash 1, banned 0, rhythm PASS, The-starters 0%). Corrected 2023 total to 40,901 (was 41,025 early-estimate error); growth +24.9%, ratio still ~3.5x. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 due today stays SHIP_BLOCKED for next run.",
+  "last_check_note": "2026-11-26 18:55 run: CRITIQUE #1597 round 0 PASS (avg 8.84, all 7 >= 8.5; gates: em dash 1, banned 0, rhythm PASS, The-starters 0%). SHIP_BLOCKED ship_date 2028-11-26. PUBLISH-QUEUE: 1/day slot consumed by #860; #861 due today stays SHIP_BLOCKED for next run.",
   "last_checked": "2026-11-26T10:30:00-08:00",
   "last_completed": "2026-11-26T16:55:00-08:00",
   "last_completed_date": "2026-11-26",
@@ -16,7 +15,7 @@
   "last_published_slug": "860-cafe-crossover-truck-loophole",
   "last_qa_date": "2026-11-25",
   "last_qa_note": "QA 2026-11-25 00:30 run: #859 live verified - story live full content, hero JPEG live 1920x1280, index card first in grid, sitemap entry live (2026-11-25). og tags present in deployed file (verified pre-publish; live text fetch strips head).",
-  "last_worker_run": "2026-11-26T18:47:00-08:00",
+  "last_worker_run": "2026-11-26T18:55:00-08:00",
   "next": 1594,
   "queue": [
     {
@@ -29839,6 +29838,25 @@
       "ship_date": "2028-11-25",
       "slug": "1596-aaa-intersection-aeb-three-of-four-fail-turn-into-path",
       "title": "Three of Four New SUVs Hit the Car Pulling Out of a Side Street. All Four Aced the Test That Counts."
+    },
+    {
+      "number": 1597,
+      "slug": "1597-wrong-way-deaths-doubled-aaa-foundation",
+      "title": "Wrong-Way Driving Nearly Doubled in a Decade. The Odds Say the Driver Is Drunk, Old, Alone, and Lost.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-11-26",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 8.8,
+        "voice": 8.9,
+        "ethics": 9.0,
+        "social": 8.7,
+        "legal": 8.8,
+        "rigor": 8.9,
+        "data": 8.8,
+        "average": 8.84
+      },
+      "note": "Round 0 SHIP. AAA Foundation Mar 2026 brief (FARS 2014-2023): fatal wrong-way crashes 278->520, deaths 373->699 (+87.4% vs +24.9% overall). Hero JPEG 1920x1280 hash 0821016b. Kicker: Body Count."
     }
   ]
 }
