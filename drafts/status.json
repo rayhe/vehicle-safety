@@ -1,17 +1,18 @@
 {
   "current": {
     "slug": "1615-ejection-4456-thrown-from-their-cars",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Clara Rollover",
     "started": "2026-11-28T06:30:00-08:00",
     "number": 1615,
-    "round": 0
+    "round": 1,
+    "ship_date": "2028-12-13"
   },
   "last_check_note": "2026-11-28 02:30 run complete: 1/day slot already consumed today (#862 published 00:30, 2 Publish commits today); no publish this run. New #1613 RESEARCH+DRAFT+CRITIQUE(r0 8.91 SHIP) done, queued 2028-12-11. Next due: #863 (ship 2026-11-28, hero-ready) — publishes next run.",
   "last_checked": "2026-11-28T02:30:00-08:00",
   "last_completed": "2026-11-28T00:30:00-08:00",
   "last_completed_date": "2026-11-28",
-  "last_journalist": "Rex Driverton",
+  "last_journalist": "Clara Rollover",
   "last_published": "2026-11-28T00:30:00-08:00",
   "last_published_date": "2026-11-28",
   "last_published_slug": "862-young-riders-surge",
@@ -30510,6 +30511,47 @@
       "ship_date": "2028-12-12",
       "slug": "1614-hit-and-run-one-in-four-pedestrians-driver-kept-going",
       "title": "One in Four Pedestrians Killed in 2024 Was Hit by a Driver Who Kept Going."
+    },
+    {
+      "avg_critic": 8.93,
+      "critique_round": 1,
+      "files": {
+        "critic_panel": "drafts/1615-ejection-4456-thrown-from-their-cars-critic-panel-r1.md",
+        "hero": "drafts/1615-ejection-4456-thrown-from-their-cars.jpg",
+        "research": "drafts/1615-ejection-4456-thrown-from-their-cars-research.md",
+        "story": "drafts/1615-ejection-4456-thrown-from-their-cars.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_jpeg": true,
+        "hero_dim": "1920x1280",
+        "hero_hash": "ab648bdc",
+        "style_css": true,
+        "the_starters_pct": 1.8,
+        "word_count": 1158,
+        "rhythm_variance": 822.2,
+        "rhythm_short_pct": 11.4,
+        "rhythm_long_pct": 52.3
+      },
+      "journalist": "Clara Rollover",
+      "kicker": "Body Count",
+      "note": "2026-11-28 06:30 run: round-0 panel avg 8.77 but Rigor 8.0 (three unverified/false superlatives: 'sharpest improvement' false vs pedalcyclist hit-and-run -16%; 'best year on record' and 'largest single-year improvement' unverified). Round-1 revision fixed all four items (incl. og:description copy + ESC estimate with [4]); re-score avg 8.93 SHIP. Queued 2028-12-13.",
+      "number": 1615,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "social_shareability": 8.7,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-12-13",
+      "slug": "1615-ejection-4456-thrown-from-their-cars",
+      "title": "4,456 People Were Thrown From Their Cars in 2024. The Curtains Couldn't Catch Them."
     }
   ]
 }
