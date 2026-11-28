@@ -1,6 +1,6 @@
 # Critic Panel — #1610: The Safest Driver in the Crash Drives the Deadliest Vehicle. Physics Does the Rest.
 **Round 0 — November 27, 2026 (Vin Wreckage)**
-**Hard gates (regex/script, not opinion):** em dashes 0 (max 3) | banned phrases 0 | "The" starters 0.0% (max 15%) | CSS `class="story"` + `../style.css`, no `story.css` | rhythm PASS (variance 1205.0, short 6.1%, long 53.1%) | hero real JPEG 1920x1280, hash 2cedd8d3 | body 1,404 words | actionable insights present | 4 linked references
+**Hard gates (regex/script, not opinion):** em dashes 0 (max 3) | banned phrases 0 | "The" starters 0.0% (max 15%) | CSS `class="story"` + `../style.css`, no `story.css` | rhythm PASS (variance 1205.0, short 6.1%, long 53.1%) | hero real JPEG 1920x1280, hash 2cedd8d3 | body 1,418 words | actionable insights present | 4 linked references
 
 ## 1. General Editor — 8.8/10
 Structure earns its keep: lede states the 96% split in the first paragraph, the 26-to-1 pull stat is the right number to pull, the behavior paradox lands second, physics third, then the toll, the truck-driver death pattern, the per-mile worsening, the schedule, the stalled AEB rule, a full-strength counterargument, limitations, and a concrete action close. 1,404 words sits comfortably in the recent range. Deductions: the headline is a two-sentence construction that reads long in a feed, and the when/where paragraph is the weakest in the piece, mostly schedule trivia that restates "freight runs on weekdays" three ways. Neither is a ship-blocker.
