@@ -1,14 +1,8 @@
 {
-  "current": {
-    "slug": "1609-maine-got-31-percent-deadlier-while-america-got-safer",
-    "phase": "DRAFT",
-    "journalist": "Axle McScatter",
-    "started": "2026-11-27T18:30:00-08:00",
-    "number": 1609
-  },
+  "current": null,
   "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP) done, then PARKED as DUPLICATE of #1574 (same NPRM 2026-24140 AEB-delay story, queued 2028-11-03) \u2014 discovered post-commit; duplicate check had been truncated with head -5. #1608 must never publish. PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
   "last_checked": "2026-11-27T16:30:00-08:00",
-  "last_completed": "2026-11-27T16:30:00-08:00",
+  "last_completed": "2026-11-27T18:30:00-08:00",
   "last_completed_date": "2026-11-27",
   "last_journalist": "Rex Driverton",
   "last_published": "2026-11-27T00:30:00-08:00",
@@ -30288,6 +30282,48 @@
       "slug": "1608-aeb-mandate-delay-two-years-no-car-passes",
       "title": "NHTSA Pushed the Auto-Braking Mandate to 2031. No Car on the Road Can Pass the Test.",
       "parked_reason": "DUPLICATE of #1574 (2026-11-24, 'NHTSA Moved the Braking Deadline Two Years. Its Own Math Prices That at 720 Lives.', ship 2028-11-03) \u2014 same NPRM 2026-24140, same Docket NHTSA-2026-2476, same 720-lives pricing, same decade framing, same 0-for-10 NCAP angle. Discovered 2026-11-27 16:30 run during post-commit review; duplicate check failed because the prior-coverage grep was truncated with head -5. #1608 must never publish."
+    },
+    {
+      "number": 1609,
+      "slug": "1609-maine-got-31-percent-deadlier-while-america-got-safer",
+      "title": "America\u2019s Roads Got 4% Safer in 2024. Maine Got 31% Deadlier.",
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "phase": "SHIP_BLOCKED",
+      "ship_date": "2028-12-07",
+      "created": "2026-11-27",
+      "critique_round": 0,
+      "critic_rounds": 1,
+      "avg_critic": 8.9,
+      "scores": {
+        "general_editor": 8.8,
+        "voice_coach": 9.0,
+        "ethics_reviewer": 9.0,
+        "social_shareability": 8.8,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "data_presentation": 8.8
+      },
+      "files": {
+        "research": "drafts/1609-maine-got-31-percent-deadlier-while-america-got-safer-research.md",
+        "story": "drafts/1609-maine-got-31-percent-deadlier-while-america-got-safer.html",
+        "hero": "drafts/1609-maine-got-31-percent-deadlier-while-america-got-safer.jpg",
+        "critic_panel": "drafts/1609-maine-got-31-percent-deadlier-while-america-got-safer-critic-panel-r0.md"
+      },
+      "hard_gates": {
+        "em_dashes": 0,
+        "banned_phrases": 0,
+        "the_starters_pct": 0.0,
+        "css_class": true,
+        "style_css": true,
+        "rhythm": "pass (var 795.7, short 7.0%, long 51.2%)",
+        "hero_jpeg": true,
+        "hero_hash": "4d097e80",
+        "word_count": 1072,
+        "actionable_insights": true
+      },
+      "word_count": 1072,
+      "note": "2026-11-27 18:30 run: full pipeline #1609 (FARS 2024 final state table; 39,254 deaths -4.3%, rate 1.19; 16 jurisdictions worse / 2 flat / 33 better; Maine 177 vs 135 +31%, Minnesota +75 deaths largest absolute increase; per-capita gap MS 25.6 vs RI 4.7 = 5.4x; per-mile MS 1.81 vs MA 0.59 = 3.1x; Maine fixed-object share 38.9% vs 27.8% national; Axle McScatter, round-0 8.90, queued 2028-12-07). Pre-panel fixes: 4-death crash math corrected (tenth of the increase, not of the toll); unverified Arizona causal claim cut; MS/RI death counts (753 vs 52) added. Ship date per rule (latest SHIP_BLOCKED 2028-12-06 + 1); PARKED #1608 also holds 2028-12-07 but parked entries never publish."
     }
   ]
 }
