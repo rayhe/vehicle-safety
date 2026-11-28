@@ -1,17 +1,17 @@
 {
   "current": null,
-  "last_check_note": "2026-11-27 14:30 run complete: #1607 RESEARCH+DRAFT+CRITIQUE(r0 8.86 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-06). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
-  "last_checked": "2026-11-26T10:30:00-08:00",
-  "last_completed": "2026-11-27T14:30:00-08:00",
+  "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-07). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
+  "last_checked": "2026-11-27T16:30:00-08:00",
+  "last_completed": "2026-11-27T16:30:00-08:00",
   "last_completed_date": "2026-11-27",
-  "last_journalist": "Mia Crumplezone",
+  "last_journalist": "Rex Driverton",
   "last_published": "2026-11-27T00:30:00-08:00",
   "last_published_date": "2026-11-27",
   "last_published_slug": "861-nsc-h1-2026-split-country",
   "last_qa_date": "2026-11-27",
   "last_qa_note": "QA 2026-11-27 00:30 run: #861 live verified - story 200 (via 308 extensionless redirect, site-normal, same as #860), hero JPEG 200 (542146b, image/jpeg), og:title + og:image (?v=fbd0e0b6) present in deployed file, index card first in grid, sitemap entry live (2026-11-27).",
-  "last_worker_run": "2026-11-27T14:30:00-08:00",
-  "next": 1608,
+  "last_worker_run": "2026-11-27T16:30:00-08:00",
+  "next": 1609,
   "queue": [
     {
       "journalist": "Rex Driverton",
@@ -2488,7 +2488,7 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group. 2026-11-27 06:30 run: publish held, 1/day slot already consumed today by #861 (Publish 411b8833); #862 remains earliest due, next run. | 2026-11-27 08:30 run: PUBLISH skipped (1/day gate already met today: #861 published; 2 Publish commits today). #862 due today, hero-ready, holds for next run. New #1604 shipped this run (queued 2028-12-03, HERO MISSING).",
+      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group. 2026-11-27 06:30 run: publish held, 1/day slot already consumed today by #861 (Publish 411b8833); #862 remains earliest due, next run. | 2026-11-27 08:30 run: PUBLISH skipped (1/day gate already met today: #861 published; 2 Publish commits today). #862 due today, hero-ready, holds for next run. New #1604 shipped this run (queued 2028-12-03, HERO MISSING). | 2026-11-27 16:30 run: PUBLISH skipped (1/day gate already met today: 2 Publish commits, #861 published). #862 due today, hero-ready, holds for next run.",
       "number": 862,
       "phase": "SHIP_BLOCKED",
       "scores": {
@@ -30243,6 +30243,44 @@
       "ship_date": "2028-12-06",
       "slug": "1607-kicks-beats-rav4-back-seat-test",
       "title": "The $23,000 Nissan Kicks Just Out-Crashed America's Best-Selling SUV. The Difference Is the Back Seat."
+    },
+    {
+      "avg_critic": 8.81,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1608-critic-panel-r0.md",
+        "hero": "drafts/1608-aeb-mandate-delay-two-years-no-car-passes.jpg",
+        "research": "drafts/1608-aeb-mandate-delay-two-years-no-car-passes-research.md",
+        "story": "drafts/1608-aeb-mandate-delay-two-years-no-car-passes.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_hash": "07f35e32",
+        "hero_jpeg": true,
+        "rhythm": "pass (var 4655.4, short 11.8%, long 55.9%)",
+        "style_css": true,
+        "the_starters_pct": 2.3,
+        "word_count": 1240
+      },
+      "journalist": "Rex Driverton",
+      "kicker": "Investigation",
+      "note": "2026-11-27 16:30 run: RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP)+SHIP done. Pre-panel fixes: sales pace corrected 15.5M->16M/yr (BEA 15.85M in 2024; ~32M vehicles across delayed model years); vehicle-age claim verified (S&P Global Mobility 12.6y 2024, 12.8y 2025) and cited. NHTSA NPRM 2026-24140 (Nov 25, 2026): FMVSS 127 AEB mandate 2029->2031; 0 of 10 MY2025 NCAP vehicles passed all trials; delay priced at up to ~724 lives on NHTSA's own 362/yr math (labeled upper bound); decade from IIJA 2021 mandate to 2031 compliance.",
+      "number": 1608,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.7,
+        "ethics_reviewer": 9.0,
+        "general_editor": 8.8,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "social_shareability": 8.7,
+        "voice_coach": 8.9
+      },
+      "ship_date": "2028-12-07",
+      "slug": "1608-aeb-mandate-delay-two-years-no-car-passes",
+      "title": "NHTSA Pushed the Auto-Braking Mandate to 2031. No Car on the Road Can Pass the Test."
     }
   ]
 }
