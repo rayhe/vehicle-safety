@@ -13,9 +13,9 @@
   "last_completed": "2026-11-27T22:30:00-08:00",
   "last_completed_date": "2026-11-27",
   "last_journalist": "Vin Wreckage",
-  "last_published": "2026-11-27T00:30:00-08:00",
-  "last_published_date": "2026-11-27",
-  "last_published_slug": "861-nsc-h1-2026-split-country",
+  "last_published": "2026-11-28T00:30:00-08:00",
+  "last_published_date": "2026-11-28",
+  "last_published_slug": "862-young-riders-surge",
   "last_qa_date": "2026-11-27",
   "last_qa_note": "QA 2026-11-27 00:30 run: #861 live verified - story 200 (via 308 extensionless redirect, site-normal, same as #860), hero JPEG 200 (542146b, image/jpeg), og:title + og:image (?v=fbd0e0b6) present in deployed file, index card first in grid, sitemap entry live (2026-11-27).",
   "last_worker_run": "2026-11-27T20:30:00-08:00",
@@ -2476,8 +2476,9 @@
       "files": {
         "critic_panel": "drafts/862-critic-panel-r0.md",
         "draft": "drafts/862-young-riders-surge.html",
-        "hero": "drafts/862-young-riders-surge.jpg",
-        "research": "drafts/862-young-riders-surge-research.md"
+        "hero": "images/862-young-riders-surge.jpg",
+        "research": "drafts/862-young-riders-surge-research.md",
+        "story": "stories/862-young-riders-surge.html"
       },
       "hard_gates": {
         "banned_phrases": 0,
@@ -2496,9 +2497,9 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group. 2026-11-27 06:30 run: publish held, 1/day slot already consumed today by #861 (Publish 411b8833); #862 remains earliest due, next run. | 2026-11-27 08:30 run: PUBLISH skipped (1/day gate already met today: #861 published; 2 Publish commits today). #862 due today, hero-ready, holds for next run. New #1604 shipped this run (queued 2028-12-03, HERO MISSING). | 2026-11-27 16:30 run: PUBLISH skipped (1/day gate already met today: 2 Publish commits, #861 published). #862 due today, hero-ready, holds for next run. | 2026-11-27 20:30 run: PUBLISH skipped (1/day gate already met today: 2 Publish commits, #861 published). #862 due today, hero-ready, holds for next run. New #1610 shipped this run (queued 2028-12-08).",
+      "note": "Round-0 pass 8.90 avg; 7/7 critics >= 8.5. Novel: under-25 vs 25+ decomposition of NHTSA DOT HS 813 824 (July 2026) - young riders +209 deaths (+18.4%) while riders 25+ fell -347 (-6.6%), so the entire national -2.2% decline came from older riders. Under-15 deaths 14->30 (+114%); 15-20 speeding involvement 56%, highest of any age group. 2026-11-27 06:30 run: publish held, 1/day slot already consumed today by #861 (Publish 411b8833); #862 remains earliest due, next run. | 2026-11-27 08:30 run: PUBLISH skipped (1/day gate already met today: #861 published; 2 Publish commits today). #862 due today, hero-ready, holds for next run. New #1604 shipped this run (queued 2028-12-03, HERO MISSING). | 2026-11-27 16:30 run: PUBLISH skipped (1/day gate already met today: 2 Publish commits, #861 published). #862 due today, hero-ready, holds for next run. | 2026-11-27 20:30 run: PUBLISH skipped (1/day gate already met today: 2 Publish commits, #861 published). #862 due today, hero-ready, holds for next run. New #1610 shipped this run (queued 2028-12-08). | 2026-11-28 00:30 run: published as #862 (1/day slot; 0 prior publishes today). Earliest due (ship 2026-11-27), hero-ready; no HTML edits needed at publish (og:image + hero already carry ?v=1d25d734).",
       "number": 862,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PUBLISHED",
       "scores": {
         "data_presentation": 9.0,
         "ethics_reviewer": 8.9,
