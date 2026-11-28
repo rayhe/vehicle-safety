@@ -35,7 +35,7 @@ Every death rate on this site divides ten years of FARS deaths by ten years of a
 
 ## Key findings
 1. **The top four raw rates are all calendar artifacts.** Model Y, Telluride, Model 3, Palisade — every one launched in 2017 or later. After correction, no model in the dataset sits below 0.07.
-2. **The K5 is the biggest flip.** Raw 0.18 vs the CX-5's 0.12: the K5 looks 1.5x worse, a modest gap. Corrected 0.45 vs 0.12: it is nearly 4x worse. A shopper comparing the two on raw rates underestimates the gap by more than half.
+2. **The K5 is the biggest flip.** Raw 0.18 vs the CX-5's 0.12: the K5 looks 1.5x worse, a modest gap. Corrected 0.45 vs 0.12: it is 3.6x worse. A shopper comparing the two on raw rates underestimates the gap by more than half.
 3. **The Teslas are still genuinely the safest — just not by the claimed margin.** Corrected Model Y and Model 3 tie at 0.07. The honest headline is "safest by a bit," not "safest by a factor of four."
 4. **The Crosstrek is the most impressive number in the table.** 0.08 earned over the full ten-year window, no correction needed. It never got to hide behind a short calendar.
 5. **Fleet ramp is a second, unquantified bias in the same direction.** The fleet figure is a single snapshot; a model whose fleet grew from ~70k to ~1.9M during its window gets credited with the final fleet for every year. Linear-ramp sensitivity: the Model Y's true rate could be roughly double the corrected 0.07 again (~0.13). Labeled as a sensitivity check, not a measurement.

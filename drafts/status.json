@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1616-safest-cars-barely-existed",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Axle McScatter",
     "started": "2026-11-28T08:30:00-08:00",
     "number": 1616,
-    "round": 0
+    "round": 1,
+    "ship_date": "2028-12-14"
   },
   "last_check_note": "2026-11-28 06:30 run complete: 1/day slot already consumed today (#862 published 00:30, 2 Publish commits today incl. bookkeeping commit); no publish this run. New #1615 RESEARCH+DRAFT+CRITIQUE(r0 8.77, Rigor 8.0 on three bad superlatives -> r1 8.93 SHIP) done, queued 2028-12-13. Next due: #863 (ship 2026-11-28, hero-ready in drafts/) \u2014 publishes next run.",
   "last_checked": "2026-11-28T06:30:00-08:00",
@@ -30551,6 +30552,47 @@
       "ship_date": "2028-12-13",
       "slug": "1615-ejection-4456-thrown-from-their-cars",
       "title": "4,456 People Were Thrown From Their Cars in 2024. The Curtains Couldn't Catch Them."
+    },
+    {
+      "avg_critic": 8.9,
+      "critique_round": 1,
+      "files": {
+        "critic_panel": "drafts/1616-safest-cars-barely-existed-critic-panel-r1.md",
+        "hero": "drafts/1616-safest-cars-barely-existed.jpg",
+        "research": "drafts/1616-safest-cars-barely-existed-research.md",
+        "story": "drafts/1616-safest-cars-barely-existed.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "6a57b6fe",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 0.0,
+        "word_count": 997,
+        "rhythm_variance": 321.9,
+        "rhythm_short_pct": 12.3,
+        "rhythm_long_pct": 40.4
+      },
+      "journalist": "Axle McScatter",
+      "kicker": "By The Numbers",
+      "note": "2026-11-28 08:30 run: RESEARCH+DRAFT+CRITIQUE+SHIP #1616 (exposure-window correction: Model Y 0.03->0.07, Telluride 0.04->0.08, Model 3 0.05->0.07, Palisade 0.06->0.12, K5 0.18->0.45; top 4 raw rates all post-2017 launches; IIHS registered-vehicle-year contrast; Crosstrek 0.08 earned over full decade; round-0 Rigor 8.0 on two false superlatives, fixed round-1 by scoping to high-volume models, re-score avg 8.90 SHIP. Queued 2028-12-14).",
+      "number": 1616,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 8.9,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 9.0,
+        "research_rigor": 8.9,
+        "social_shareability": 8.5,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-12-14",
+      "slug": "1616-safest-cars-barely-existed",
+      "title": "The Safest Car in America Didn't Exist for Six of the Ten Years It Was Measured"
     }
   ]
 }
