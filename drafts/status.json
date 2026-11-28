@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1611-every-occupant-died-less-except-suvs",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Rex Driverton",
     "started": "2026-11-27T22:30:00-08:00",
     "number": 1611,
-    "round": 0
+    "round": 0,
+    "ship_date": "2028-12-09"
   },
   "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP) done, then PARKED as DUPLICATE of #1574 (same NPRM 2026-24140 AEB-delay story, queued 2028-11-03) \u2014 discovered post-commit; duplicate check had been truncated with head -5. #1608 must never publish. PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
   "last_checked": "2026-11-27T20:30:00-08:00",
@@ -30373,6 +30374,25 @@
       "slug": "1610-the-safest-driver-in-the-crash-drives-the-deadliest-vehicle",
       "title": "The Safest Driver in the Crash Drives the Deadliest Vehicle. Physics Does the Rest.",
       "word_count": 1418
+    },
+    {
+      "number": 1611,
+      "slug": "1611-every-occupant-died-less-except-suvs",
+      "title": "Every Vehicle Occupant Died Less in 2024. Except SUV Occupants.",
+      "journalist": "Rex Driverton",
+      "ship_date": "2028-12-09",
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 9.0,
+        "voice": 9.0,
+        "ethics": 9.5,
+        "social": 9.0,
+        "legal": 9.5,
+        "rigor": 9.0,
+        "data_presentation": 9.0,
+        "average": 9.14
+      },
+      "note": "Round 0 pass. NHTSA DOT HS 813 791 Table 3: SUV occupants only fatality category that rose in 2024 (+112, +1.6%) while every other category fell. Hero ready (JPEG, v=ad1cc5bc)."
     }
   ]
 }
