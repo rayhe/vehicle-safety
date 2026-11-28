@@ -46,3 +46,6 @@ The pull stat (0) is the right number and it is labeled honestly. All key figure
 | **Average** | **8.81** |
 
 **VERDICT: SHIP (round 0).** All 7 critics ≥ 8.5 and all hard gates pass. Noted weaknesses (long headline, refs 2/3/4/5/6/8/9 not directly opened this run, no HTML table for the ten-vehicle list, one preachy line, full NPRM text not read) are documented polish items, none blocking. No revision round required.
+
+## CORRECTION — Duplicate discovered post-commit (2026-11-27 16:30 run)
+This article is a DUPLICATE of #1574 ("NHTSA Moved the Braking Deadline Two Years. Its Own Math Prices That at 720 Lives.", Axle McScatter, 2026-11-24, queued ship 2028-11-03). Same NPRM 2026-24140, same Docket NHTSA-2026-2476, same 720-lives pricing, same decade framing, same 0-for-10 NCAP angle. The duplicate check in this run failed because the prior-coverage grep was piped through `head -5`, truncating the match list before #1574 appeared. Queue entry #1608 has been set to PARKED with a parked_reason; the article must never publish. The critic scores above remain an accurate assessment of the draft's quality, but quality does not cure duplication. Lesson recorded: duplicate checks must never truncate match lists, and slug/title lists must be checked against the queue, not just research-file greps.

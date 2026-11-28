@@ -1,6 +1,6 @@
 {
   "current": null,
-  "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP)+SHIP done (SHIP_BLOCKED, ship_date 2028-12-07). PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
+  "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP) done, then PARKED as DUPLICATE of #1574 (same NPRM 2026-24140 AEB-delay story, queued 2028-11-03) \u2014 discovered post-commit; duplicate check had been truncated with head -5. #1608 must never publish. PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
   "last_checked": "2026-11-27T16:30:00-08:00",
   "last_completed": "2026-11-27T16:30:00-08:00",
   "last_completed_date": "2026-11-27",
@@ -30266,9 +30266,9 @@
       },
       "journalist": "Rex Driverton",
       "kicker": "Investigation",
-      "note": "2026-11-27 16:30 run: RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP)+SHIP done. Pre-panel fixes: sales pace corrected 15.5M->16M/yr (BEA 15.85M in 2024; ~32M vehicles across delayed model years); vehicle-age claim verified (S&P Global Mobility 12.6y 2024, 12.8y 2025) and cited. NHTSA NPRM 2026-24140 (Nov 25, 2026): FMVSS 127 AEB mandate 2029->2031; 0 of 10 MY2025 NCAP vehicles passed all trials; delay priced at up to ~724 lives on NHTSA's own 362/yr math (labeled upper bound); decade from IIJA 2021 mandate to 2031 compliance.",
+      "note": "2026-11-27 16:30 run: RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP)+SHIP done. Pre-panel fixes: sales pace corrected 15.5M->16M/yr (BEA 15.85M in 2024; ~32M vehicles across delayed model years); vehicle-age claim verified (S&P Global Mobility 12.6y 2024, 12.8y 2025) and cited. NHTSA NPRM 2026-24140 (Nov 25, 2026): FMVSS 127 AEB mandate 2029->2031; 0 of 10 MY2025 NCAP vehicles passed all trials; delay priced at up to ~724 lives on NHTSA's own 362/yr math (labeled upper bound); decade from IIJA 2021 mandate to 2031 compliance. | CORRECTION 2026-11-27 16:30 run: PARKED as DUPLICATE of #1574 (same story, queued 2028-11-03). Duplicate check in this run was defective (grep truncated to head -5). Article files retained in drafts/ as record; queue entry parked so it can never publish.",
       "number": 1608,
-      "phase": "SHIP_BLOCKED",
+      "phase": "PARKED",
       "scores": {
         "data_presentation": 8.7,
         "ethics_reviewer": 9.0,
@@ -30280,7 +30280,8 @@
       },
       "ship_date": "2028-12-07",
       "slug": "1608-aeb-mandate-delay-two-years-no-car-passes",
-      "title": "NHTSA Pushed the Auto-Braking Mandate to 2031. No Car on the Road Can Pass the Test."
+      "title": "NHTSA Pushed the Auto-Braking Mandate to 2031. No Car on the Road Can Pass the Test.",
+      "parked_reason": "DUPLICATE of #1574 (2026-11-24, 'NHTSA Moved the Braking Deadline Two Years. Its Own Math Prices That at 720 Lives.', ship 2028-11-03) \u2014 same NPRM 2026-24140, same Docket NHTSA-2026-2476, same 720-lives pricing, same decade framing, same 0-for-10 NCAP angle. Discovered 2026-11-27 16:30 run during post-commit review; duplicate check failed because the prior-coverage grep was truncated with head -5. #1608 must never publish."
     }
   ]
 }

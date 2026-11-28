@@ -64,3 +64,6 @@ NHTSA is right to delay, and the 0-for-10 test result proves it. A standard no p
 5. NHTSA press releases index — November 24, 2026 AEB extension release; November 10, 2026 H1 2026 fatality release. https://www.nhtsa.gov/press-releases?page=0
 6. IIHS, front crash prevention / advanced driver assistance ratings — best public proxy for AEB performance. https://www.iihs.org/ratings
 7. NHTSA FARS — https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars
+
+## CORRECTION — Duplicate (2026-11-27 16:30 run)
+This research duplicates #1574 (2026-11-24, same NPRM, same docket, same 720-lives pricing, same decade framing). Article #1608 PARKED; must never publish. Duplicate-check failure: prior-coverage grep truncated with head -5.
