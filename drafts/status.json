@@ -1,17 +1,18 @@
 {
   "current": {
     "slug": "1612-distracted-driving-official-toll-misses-two-thirds",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Dale Impactor III",
     "started": "2026-11-28T00:30:00-08:00",
     "number": 1612,
-    "round": 0
+    "round": 0,
+    "ship_date": "2028-12-10"
   },
   "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP) done, then PARKED as DUPLICATE of #1574 (same NPRM 2026-24140 AEB-delay story, queued 2028-11-03) \u2014 discovered post-commit; duplicate check had been truncated with head -5. #1608 must never publish. PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
   "last_checked": "2026-11-27T20:30:00-08:00",
-  "last_completed": "2026-11-27T22:30:00-08:00",
-  "last_completed_date": "2026-11-27",
-  "last_journalist": "Vin Wreckage",
+  "last_completed": "2026-11-28T00:30:00-08:00",
+  "last_completed_date": "2026-11-28",
+  "last_journalist": "Dale Impactor III",
   "last_published": "2026-11-28T00:30:00-08:00",
   "last_published_date": "2026-11-28",
   "last_published_slug": "862-young-riders-surge",
@@ -30394,6 +30395,46 @@
         "average": 9.14
       },
       "note": "Round 0 pass. NHTSA DOT HS 813 791 Table 3: SUV occupants only fatality category that rose in 2024 (+112, +1.6%) while every other category fell. Hero ready (JPEG, v=ad1cc5bc)."
+    },
+    {
+      "avg_critic": 8.86,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1612-distracted-driving-official-toll-misses-two-thirds-critic-panel-r0.md",
+        "hero": "drafts/1612-distracted-driving-official-toll-misses-two-thirds.jpg",
+        "research": "drafts/1612-distracted-driving-official-toll-misses-two-thirds-research.md",
+        "story": "drafts/1612-distracted-driving-official-toll-misses-two-thirds.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "8288812d",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 5.3,
+        "word_count": 1165
+      },
+      "journalist": "Dale Impactor III",
+      "kicker": "By The Numbers",
+      "note": "Round 0 pass 8.86 avg; 7/7 critics >= 8.5. Novel: first standalone distracted-driving article on site; DOT HS 813 790 never used before (zero queue hits). Method-gap finding: NHTSA police-report count 3,208 vs its own naturalistic cost study 10,546 (3.29x; years differ 2024 vs 2019, flagged in-body and in disclaimer); phones only 437 (14%) of official toll; distraction rate flat 6% for every age group 15-44; 59% of the dead were not the distracted driver. Dale Impactor III, round-0 8.86, queued 2028-12-10. Pre-panel fixes: rhythm short 19.0% -> 6.2% (fragment merges); 6,200 -> 6,300 (59.5% x 10,546 = 6,272); dashboard superlative removed; police-report 'only record' softened; 315,167 injuries added to lede.",
+      "number": 1612,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "general": 8.8,
+        "voice": 8.9,
+        "ethics": 9.0,
+        "social": 8.7,
+        "legal": 9.0,
+        "rigor": 8.8,
+        "data_presentation": 8.8,
+        "average": 8.86
+      },
+      "ship_date": "2028-12-10",
+      "slug": "1612-distracted-driving-official-toll-misses-two-thirds",
+      "title": "The Official Distracted-Driving Death Toll Is 3,208. NHTSA's Own Economists Say 10,546.",
+      "word_count": 1165
     }
   ]
 }
