@@ -1,12 +1,11 @@
 {
   "current": {
-    "slug": "1611-every-occupant-died-less-except-suvs",
-    "phase": "SHIP_BLOCKED",
-    "journalist": "Rex Driverton",
-    "started": "2026-11-27T22:30:00-08:00",
-    "number": 1611,
-    "round": 0,
-    "ship_date": "2028-12-09"
+    "slug": "1612-distracted-driving-official-toll-misses-two-thirds",
+    "phase": "DRAFT",
+    "journalist": "Dale Impactor III",
+    "started": "2026-11-28T00:30:00-08:00",
+    "number": 1612,
+    "round": 0
   },
   "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP) done, then PARKED as DUPLICATE of #1574 (same NPRM 2026-24140 AEB-delay story, queued 2028-11-03) \u2014 discovered post-commit; duplicate check had been truncated with head -5. #1608 must never publish. PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
   "last_checked": "2026-11-27T20:30:00-08:00",
@@ -18,7 +17,7 @@
   "last_published_slug": "862-young-riders-surge",
   "last_qa_date": "2026-11-27",
   "last_qa_note": "QA 2026-11-27 00:30 run: #861 live verified - story 200 (via 308 extensionless redirect, site-normal, same as #860), hero JPEG 200 (542146b, image/jpeg), og:title + og:image (?v=fbd0e0b6) present in deployed file, index card first in grid, sitemap entry live (2026-11-27).",
-  "last_worker_run": "2026-11-27T20:30:00-08:00",
+  "last_worker_run": "2026-11-28T00:30:00-08:00",
   "next": 1609,
   "queue": [
     {
