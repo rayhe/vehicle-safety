@@ -1,5 +1,11 @@
 {
-  "current": null,
+  "current": {
+    "slug": "1609-maine-got-31-percent-deadlier-while-america-got-safer",
+    "phase": "DRAFT",
+    "journalist": "Axle McScatter",
+    "started": "2026-11-27T18:30:00-08:00",
+    "number": 1609
+  },
   "last_check_note": "2026-11-27 16:30 run complete: #1608 RESEARCH+DRAFT+CRITIQUE(r0 8.81 SHIP) done, then PARKED as DUPLICATE of #1574 (same NPRM 2026-24140 AEB-delay story, queued 2028-11-03) \u2014 discovered post-commit; duplicate check had been truncated with head -5. #1608 must never publish. PUBLISH-QUEUE: 1/day slot already consumed today (2 Publish commits, #861); #862 due today (ship 2026-11-27), hero-ready, ships next publish-eligible run. #1604 hero still missing.",
   "last_checked": "2026-11-27T16:30:00-08:00",
   "last_completed": "2026-11-27T16:30:00-08:00",
