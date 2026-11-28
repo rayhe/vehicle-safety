@@ -1,11 +1,12 @@
 {
   "current": {
     "slug": "1614-hit-and-run-one-in-four-pedestrians-driver-kept-going",
-    "phase": "CRITIQUE",
+    "phase": "SHIP_BLOCKED",
     "journalist": "Mia Crumplezone",
     "started": "2026-11-28T04:30:00-08:00",
     "number": 1614,
-    "round": 0
+    "round": 0,
+    "ship_date": "2028-12-12"
   },
   "last_check_note": "2026-11-28 02:30 run complete: 1/day slot already consumed today (#862 published 00:30, 2 Publish commits today); no publish this run. New #1613 RESEARCH+DRAFT+CRITIQUE(r0 8.91 SHIP) done, queued 2028-12-11. Next due: #863 (ship 2026-11-28, hero-ready) \u2014 publishes next run.",
   "last_checked": "2026-11-28T02:30:00-08:00",
@@ -30472,6 +30473,44 @@
       "ship_date": "2028-12-11",
       "slug": "1613-fifty-five-mph-repeal-twelve-thousand-dead",
       "title": "Congress Repealed the 55 MPH Limit 31 Years Ago Today. The Published Death Toll Is 12,545."
+    },
+    {
+      "avg_critic": 8.91,
+      "critique_round": 0,
+      "files": {
+        "critic_panel": "drafts/1614-hit-and-run-one-in-four-pedestrians-driver-kept-going-critic-panel-r0.md",
+        "hero": "drafts/1614-hit-and-run-one-in-four-pedestrians-driver-kept-going.jpg",
+        "research": "drafts/1614-hit-and-run-one-in-four-pedestrians-driver-kept-going-research.md",
+        "story": "drafts/1614-hit-and-run-one-in-four-pedestrians-driver-kept-going.html"
+      },
+      "hard_gates": {
+        "banned_phrases": 0,
+        "css_class": true,
+        "em_dashes": 0,
+        "hero_dim": "1920x1280",
+        "hero_hash": "7dd6f9fa",
+        "hero_jpeg": true,
+        "style_css": true,
+        "the_starters_pct": 2.7,
+        "word_count": 1475
+      },
+      "journalist": "Mia Crumplezone",
+      "kicker": "Body Count",
+      "note": "2026-11-28 04:30 run: full pipeline #1614 (hit-and-run pedestrian deaths; 1,749 in 2024, 25% of pedestrian deaths, share jumped 20%->25% in 2020 and never reverted; 2,758 total hit-and-run deaths, 71.8% pedestrians+cyclists; 76% dark, Nov deadliest month 732; ped AEB -27%, reflective 500ft vs 55ft; Mia Crumplezone, round-0 8.91, queued 2028-12-12). 1/day slot already consumed today (#862 published 00:30), no publish this run.",
+      "number": 1614,
+      "phase": "SHIP_BLOCKED",
+      "scores": {
+        "data_presentation": 9.0,
+        "ethics_reviewer": 9.0,
+        "general_editor": 9.0,
+        "legal_accuracy": 8.7,
+        "research_rigor": 8.9,
+        "social_shareability": 8.8,
+        "voice_coach": 9.0
+      },
+      "ship_date": "2028-12-12",
+      "slug": "1614-hit-and-run-one-in-four-pedestrians-driver-kept-going",
+      "title": "One in Four Pedestrians Killed in 2024 Was Hit by a Driver Who Kept Going."
     }
   ]
 }
